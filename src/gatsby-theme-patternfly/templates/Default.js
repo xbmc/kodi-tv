@@ -1,12 +1,12 @@
 import React from 'react';
-import Layout from '../../../node_modules/gatsby-theme-patternfly/src/components/Layout';
+import Layout from 'patternfly_components/Layout';
 import Footer from '../components/Footer'
 import {
   PageSection,
   PageSectionVariants
 } from '@patternfly/react-core';
 import PropTypes from 'prop-types';
-import Text from '../../../node_modules/gatsby-theme-patternfly/src/components/Markdown/Text';
+import Text from 'patternfly_components/Markdown/Text';
 
 const Default = ({ children }) => (
   <Layout>

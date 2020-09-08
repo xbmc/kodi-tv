@@ -3,7 +3,7 @@ import {
     PageSection, PageSectionVariants,
     Level, LevelItem,
 } from '@patternfly/react-core';
-import { H3 } from '../../../node_modules/gatsby-theme-patternfly/src/components/Markdown'
+import { H3 } from 'patternfly_components/Markdown'
 
 const Footer = () => (
     <React.Fragment>

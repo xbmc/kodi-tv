@@ -1,3 +1,5 @@
+const path = require('path')
+
 const topNav = [
   {
     // The text displayed on the item
@@ -40,7 +42,6 @@ module.exports = {
     author: 'Team Kodi',
   },
   plugins: [
-    'gatsby-plugin-root-import',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -48,6 +49,16 @@ module.exports = {
         name: 'images',
         path: 'src/images',
       },
+    },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src: path.join(__dirname, 'src'),
+        images: path.join(__dirname, 'src/images'),
+        pages: path.join(__dirname, 'src/pages'),
+        node_modules: path.join(__dirname, 'node_modules'),
+        patternfly_components: path.join(__dirname, 'node_modules/gatsby-theme-patternfly/src/components')
+      }
     },
     {
       resolve: 'gatsby-theme-patternfly',
