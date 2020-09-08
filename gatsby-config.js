@@ -3,13 +3,69 @@ const path = require('path')
 const topNav = [
   {
     // The text displayed on the item
-    title: 'Documentation',
+    title: 'About',
     // The root path that enables/activates the item
-    rootPath: '/documentation',
+    rootPath: '/about',
     // The page that is actually linked to when the item is clicked
-    path: '/documentation/about'
-  }
-];
+    path: '/about'
+  },
+  {
+    // The text displayed on the item
+    title: 'Add-ons',
+    // The root path that enables/activates the item
+    rootPath: '/addons',
+    // The page that is actually linked to when the item is clicked
+    path: '/addons'
+  },
+  {
+    // The text displayed on the item
+    title: 'News',
+    // The root path that enables/activates the item
+    rootPath: '/blog',
+    // The page that is actually linked to when the item is clicked
+    path: '/blog'
+  },
+  {
+    // The text displayed on the item
+    title: 'Forum',
+    // The root path that enables/activates the item
+    rootPath: '/forum',
+    // The page that is actually linked to when the item is clicked
+    path: 'https://forum.kodi.tv'
+  },
+  {
+    // The text displayed on the item
+    title: 'Wiki',
+    // The root path that enables/activates the item
+    rootPath: '/wiki',
+    // The page that is actually linked to when the item is clicked
+    path: 'https://kodi.wiki'
+  },
+  {
+    // The text displayed on the item
+    title: 'Contribute',
+    // The root path that enables/activates the item
+    rootPath: '/contribute',
+    // The page that is actually linked to when the item is clicked
+    path: '/contribute'
+  },
+  {
+    // The text displayed on the item
+    title: 'Donate',
+    // The root path that enables/activates the item
+    rootPath: '/contribute/donate',
+    // The page that is actually linked to when the item is clicked
+    path: '/contribute/donate'
+  },
+  {
+    // The text displayed on the item
+    title: 'Download',
+    // The root path that enables/activates the item
+    rootPath: '/Download',
+    // The page that is actually linked to when the item is clicked
+    path: '/download'
+  },
+]
 
 const sideNav = [
   {
