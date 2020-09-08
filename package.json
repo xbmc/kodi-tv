@@ -14,11 +14,15 @@
     "gatsby-source-filesystem": "^2.3.28",
     "gatsby-theme-patternfly": "^0.1.4",
     "gatsby-transformer-sharp": "^2.5.14",
+    "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-social-icons": "^4.1.0"
+    "react-social-icons": "^4.1.0",
+    "slugify": "^1.4.5",
+    "util": "^0.12.3",
+    "xml-parser": "^1.2.1"
   },
   "devDependencies": {
     "gatsby-plugin-root-import": "^2.0.5",
