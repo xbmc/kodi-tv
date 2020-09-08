@@ -1,7 +1,85 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
-// You can delete this file if you're not using it
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+}
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions
+  
+  const categoryresults = await graphql(`
+      query MyQuery {
+          allCategory {
+              edges {
+                  node {
+                      slug
+                  }
+              }
+          }
+      }
+  `)
+  
+  categoryresults.data.allCategory.edges.forEach(({ node }) => {
+    createPage({
+      path: 'addons/category/' + node.slug,
+      component: path.resolve(`src/templates/category.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+
+  const authorresults = await graphql(`
+      query MyQuery {
+          allAuthor {
+              edges {
+                  node {
+                      slug
+                  }
+              }
+          }
+      }
+  `)
+  
+  authorresults.data.allAuthor.edges.forEach(({ node }) => {
+    createPage({
+      path: 'addons/author/' + node.slug,
+      component: path.resolve(`src/templates/author.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+
+/*  const addonresults = await graphql(`
+      query MyQuery {
+          allAddon {
+              edges {
+                  node {
+                      slug
+                  }
+              }
+          }
+      }
+  `)
+  
+  addonresults.data.allAddon.edges.forEach(({ node }) => {
+    createPage({
+      path: 'addons/' + node.slug,
+      component: path.resolve(`./src/templates/addon.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  }) */
+
+}
