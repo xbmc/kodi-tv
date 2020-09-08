@@ -1,12 +1,25 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Kodi Website in Gatsby
+
+## To Do List
+
+### Main site
+
+1. site documentation
+1. add screenshots modal (or slideshow) to addons
+1. figure out search by filtering full page of addons
+1. figure out last 10 updated addons
+1. figure out newest 10 addons
+1. figure out featured addons
+
+### Addon Parser:
+
+1. parser documentation
+1. change image storage location to static/images/addons
+1. update code for new lifecycle option in addons.xml (see https://github.com/xbmc/xbmc/pull/18286)
+1. add options for a list of featured addons so that tag can be stored in the GraphQL
+1. if no platforms are included for an addon, add an 'all' entry with no URL
+
+# Original Readme from Gatsby Starter
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
