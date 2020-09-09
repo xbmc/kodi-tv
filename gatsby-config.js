@@ -135,7 +135,7 @@ module.exports = {
       resolve: `gatsby-source-kodiaddon`,
       options: {
         kodiversion: `matrix`,
-        kodimirror: `mirrors.kodi.tv`
+        kodimirror: `ftp.halifax.rwth-aachen.de/xbmc`
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
