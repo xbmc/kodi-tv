@@ -1,0 +1,56 @@
+# Awesome Add-ons Page
+
+## Featured Add-ons
+
+Featured addons will go here.
+
+## New Additions
+
+Newly added add-ons will go here.
+
+## Recent Updates
+
+Recently updated add-ons will go here.
+
+## Categories
+
+<CategoryIconList categories={props.data.allCategory.edges} />
+
+import { graphql } from "gatsby"
+import CategoryIconList from 'src/components/CategoryIconList'
+
+export const pageQuery = graphql`
+    query {
+        allCategory(sort: {fields: name, order: ASC}) {
+            edges {
+                node {
+                    name
+                    slug
+                    icon
+                }
+            }
+        }
+        allAddonClone(limit: 5, sort: {fields: firstseen, order: DESC}) {
+            edges {
+                node {
+                    name
+                    longname
+                    icons {
+                        localpath
+                    }
+                }
+            }
+        }
+        allAddonCloneTwo(limit: 10, sort: {fields: lastupdate, order: DESC}) {
+            edges {
+                node {
+                    name
+                    longname
+                    icons {
+                        localpath
+                    }
+                }
+            }
+        }
+    }
+`
