@@ -7,14 +7,13 @@
 1. site documentation
 1. add screenshots modal (or slideshow) to addons
 1. figure out search by filtering full page of addons
-1. figure out featured addons
 1. display subcategory pages for addons
+1. add top authors page
 
 ### Addon Parser:
 
 1. parser documentation
 1. update code for new lifecycle option in addons.xml (see https://github.com/xbmc/xbmc/pull/18286)
-1. add options for a list of featured addons so that tag can be stored in the GraphQL
 1. figure out a method to do sub-categories that doesn't break EVERYTHING
 
 # Original Readme from Gatsby Starter

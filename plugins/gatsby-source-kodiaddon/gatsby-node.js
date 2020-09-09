@@ -13,6 +13,7 @@ const ADDON_CLONETWO_TYPE = 'AddonCloneTwo'
 const AUTHOR_NODE_TYPE = 'Author'
 const CATEGORY_NODE_TYPE = 'Category'
 const PIXIE_MEMORY = 'src/data/addonhistory.json'
+const ADDONS_FEATURED = 'src/data/addonsfeatured.json'
 const TODAY = new Date()
 const CATEGORIES = [ {'id':'kodi.audiodecoder', 'desc':'Audio decoders'},
                      {'id':'kodi.audioencoder', 'desc':'Audio encoders'},
@@ -74,6 +75,7 @@ var kodiversion = ''
 var kodimirror = ''
 var addon = {}
 var addons = []
+var addonsfeatured = []
 var authors = []
 var categories = []
 var addonpath = ''
@@ -95,7 +97,14 @@ exports.sourceNodes = async ({
     try {
         history = JSON.parse(fs.readFileSync(PIXIE_MEMORY, 'utf8'))
     } catch (e) {
-        console.log('no kodi addons history file, starting from scratch')
+        console.log('unable to load pixie memory, starting from scratch')
+        console.log(e)
+    }
+    try {
+        addonsfeatured = JSON.parse(fs.readFileSync(ADDONS_FEATURED, 'utf8'))
+    } catch (e) {
+        console.log('unable to load featured addons')
+        console.log(e)
     }
 /*    try {
         // Fetch the data
@@ -200,6 +209,10 @@ function getAddon(rawaddon) {
         addon.platforms = []
         addon.categories = []
         rawaddon.attributes['provider-name'].split(',').map(item => item.trim()).forEach(assignAuthor)
+        featuredcheck = addonsfeatured.find(o => o.id === addon.id)
+        if (featuredcheck != undefined) {
+            addon.featured = 'true'
+        }
         addonhistory = history.find(o => o.id === addon.id)
         if (addonhistory == undefined) {
             addonhistory = {}

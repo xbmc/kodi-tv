@@ -2,7 +2,7 @@
 
 ## Featured Add-ons
 
-Featured addons will go here.
+<AddonsIconList addons={props.data.allAddon.edges} />
 
 ## New Additions
 
@@ -31,6 +31,36 @@ export const pageQuery = graphql`
                     name
                     slug
                     icon
+                }
+            }
+        }
+        allAddon(limit: 5, filter: {featured: {eq: "true"}}) {
+            edges {
+                node {
+                    authors {
+                        name
+                        slug
+                    }
+                    description
+                    disclaimer
+                    forum
+                    icons {
+                        localpath
+                    }
+                    lastupdate(formatString: "MMMM DD, YYYY")
+                    license
+                    longname
+                    name
+                    news
+                    platforms {
+                        platform
+                        path
+                    }
+                    size
+                    source
+                    summary
+                    version
+                    website
                 }
             }
         }
