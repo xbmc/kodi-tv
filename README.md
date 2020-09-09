@@ -7,8 +7,6 @@
 1. site documentation
 1. add screenshots modal (or slideshow) to addons
 1. figure out search by filtering full page of addons
-1. figure out last 10 updated addons
-1. figure out newest 10 addons
 1. figure out featured addons
 
 ### Addon Parser:
