@@ -5,9 +5,9 @@
 ### Main site
 
 1. site documentation
-1. add screenshots modal (or slideshow) to addons
-1. figure out search by filtering full page of addons
-1. display subcategory pages for addons
+1. change addons to get their own page (instead of modal)
+1. figure out search for addons
+1. display subcategory pages for addons (or at least decide on categories)
 1. add top authors page
 
 ### Addon Parser:
