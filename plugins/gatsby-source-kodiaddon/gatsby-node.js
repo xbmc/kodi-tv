@@ -97,7 +97,7 @@ exports.sourceNodes = async ({
     } catch (e) {
         console.log('no kodi addons history file, starting from scratch')
     }
-    try {
+/*    try {
         // Fetch the data
         console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
         const res = await fetch(kodimirror + 'addons.xml')
@@ -105,9 +105,9 @@ exports.sourceNodes = async ({
     } catch (error) {
         data = ''
         console.log(error)
-    }
+    } */
     // for local testing only, if using this, remark out the try/catch block above
-    // data = fs.readFileSync('src/data/matrix-addons.xml', 'utf8')
+    data = fs.readFileSync('src/data/addons.xml', 'utf8')
     if (data) {
         const parsedXML = parse(data)
         parsedXML.root.children.forEach(getAddon)
@@ -184,6 +184,7 @@ exports.sourceNodes = async ({
 }
 
 function getAddon(rawaddon) {
+    var firstever = false
     addon = addons.find(o => o.id === rawaddon.attributes.id)
     addonpath = ''
     addonplatform = ''
@@ -206,14 +207,23 @@ function getAddon(rawaddon) {
             addonhistory.version = 'none'
             addonhistory.lastupdate = TODAY
             addonhistory.firstseen = TODAY
+            addonhistory.agetype = 'new'
+            firstever = true
         }
         addon.firstseen = addonhistory.firstseen
+        addon.agetype = addonhistory.agetype
+//        addonhistory.agetype = 'existing' // add these back to change the pixie memory so every addon is exisiting
+//        addon.agetype = 'existing'        // useful if you have to wipe the history file for some reason
         if (addon.version == addonhistory.version) {
             addon.lastupdate = addonhistory.lastupdate
         } else {
             addon.lastupdate = TODAY
             addonhistory.lastupdate = TODAY
             addonhistory.version = addon.version
+            if (!firstever) {
+                addonhistory.agetype = 'existing'
+                addon.agetype = 'existing'    
+            }
             downloadImages()
         }
         rawaddon.children.forEach(parseExtensions)

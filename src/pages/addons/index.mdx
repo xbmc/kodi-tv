@@ -6,18 +6,22 @@ Featured addons will go here.
 
 ## New Additions
 
-Newly added add-ons will go here.
+<AddonsIconList addons={props.data.allAddonClone.edges} />
 
-## Recent Updates
+## Recently Updated
 
-Recently updated add-ons will go here.
+<AddonsIconList addons={props.data.allAddonCloneTwo.edges} />
 
 ## Categories
 
 <CategoryIconList categories={props.data.allCategory.edges} />
 
+
+
+
 import { graphql } from "gatsby"
 import CategoryIconList from 'src/components/CategoryIconList'
+import AddonsIconList from 'src/components/AddonsIconList'
 
 export const pageQuery = graphql`
     query {
@@ -30,25 +34,63 @@ export const pageQuery = graphql`
                 }
             }
         }
-        allAddonClone(limit: 5, sort: {fields: firstseen, order: DESC}) {
+        allAddonClone(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
             edges {
                 node {
-                    name
-                    longname
+                    authors {
+                        name
+                        slug
+                    }
+                    description
+                    disclaimer
+                    forum
                     icons {
                         localpath
                     }
+                    lastupdate(formatString: "MMMM DD, YYYY")
+                    license
+                    longname
+                    name
+                    news
+                    platforms {
+                        platform
+                        path
+                    }
+                    size
+                    source
+                    summary
+                    version
+                    website
                 }
             }
         }
-        allAddonCloneTwo(limit: 10, sort: {fields: lastupdate, order: DESC}) {
+        allAddonCloneTwo(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
             edges {
                 node {
-                    name
-                    longname
+                    authors {
+                        name
+                        slug
+                    }
+                    description
+                    disclaimer
+                    forum
                     icons {
                         localpath
                     }
+                    lastupdate(formatString: "MMMM DD, YYYY")
+                    license
+                    longname
+                    name
+                    news
+                    platforms {
+                        platform
+                        path
+                    }
+                    size
+                    source
+                    summary
+                    version
+                    website
                 }
             }
         }

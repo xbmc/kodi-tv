@@ -3,11 +3,10 @@ import Layout from 'patternfly_components/Layout'
 import Footer from 'src/gatsby-theme-patternfly/components/Footer'
 import {
   PageSection, PageSectionVariants,
-  Gallery, GalleryItem,
 } from '@patternfly/react-core'
 import { H1, Text } from 'patternfly_components/Markdown'
 import { graphql } from "gatsby"
-import AddonModal from 'src/components/AddonModal'
+import AddonsIconList from 'src/components/AddonsIconList'
 
 export default function Category({ data }) {
     const author = data.author
@@ -19,17 +18,7 @@ export default function Category({ data }) {
                 <Text>
                     This is the page for {author.name}. They have {author.totaladdons} add-ons.
                 </Text>
-                <Gallery>
-                    {author.addons.map(addon =>
-                        <GalleryItem>
-                            <div align="center">
-                                <p>&nbsp;</p>
-                                <img width='150' height='150' alt="" src={addon.icons[0].localpath} />
-                                <div><AddonModal addon={addon}/></div>
-                            </div>
-                        </GalleryItem>
-                    )}
-                </Gallery>
+                <AddonsIconList addons={author.addons} />
             </PageSection>
             <Footer />
         </Layout>
