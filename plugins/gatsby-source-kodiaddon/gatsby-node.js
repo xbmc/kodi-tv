@@ -244,17 +244,24 @@ function getAddon(rawaddon) {
 function parseExtensions(extension) {
     if (extension.name == 'extension') {
         switch (extension.attributes.point) {
+            case 'kodi.addon.metadata':
+                extension.children.forEach(getMetadata)
+                addon.platforms.push({'platform':addonplatform, 'path':addonpath})
+                break
             case 'xbmc.addon.metadata':
                 extension.children.forEach(getMetadata)
                 addon.platforms.push({'platform':addonplatform, 'path':addonpath})
                 break
-            case 'kodi.addon.metadata':
-                //apparently this is allowed in addon.xml as well as xbmc.addon.metadata
-                extension.children.forEach(getMetadata)
-                addon.platforms.push({'platform':addonplatform, 'path':addonpath})
+            case 'kodi.python.pluginsource':
+                assignCategory('Plugins')
+                checkProvides(extension.children)
                 break
             case 'xbmc.python.pluginsource':
                 assignCategory('Plugins')
+                checkProvides(extension.children)
+                break
+            case 'kodi.python.script':
+                assignCategory('Program addons')
                 checkProvides(extension.children)
                 break
             case 'xbmc.python.script':
