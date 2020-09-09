@@ -214,6 +214,7 @@ function getAddon(rawaddon) {
         addon.agetype = addonhistory.agetype
 //        addonhistory.agetype = 'existing' // add these back to change the pixie memory so every addon is exisiting
 //        addon.agetype = 'existing'        // useful if you have to wipe the history file for some reason
+        rawaddon.children.forEach(parseExtensions)
         if (addon.version == addonhistory.version) {
             addon.lastupdate = addonhistory.lastupdate
         } else {
@@ -226,7 +227,6 @@ function getAddon(rawaddon) {
             }
             downloadImages()
         }
-        rawaddon.children.forEach(parseExtensions)
         if (addon.broken == null){
             present.push(addonhistory)
             if (addon.icons == null ){
@@ -399,13 +399,16 @@ function downloadImages() {
 function downloadImageType(imagetype) {
     const fullurl = addon.platforms[0].path
     const urlbase = fullurl.substring(0, fullurl.lastIndexOf('/')) + '/'
+    const rootpath = './static'
     addon[imagetype].forEach((asset) => {
         const localpath = asset.localpath
-        const localbase = 'src/' + localpath.substring(0, localpath.lastIndexOf('/')) + '/'
+        const localbase = rootpath + localpath.substring(0, localpath.lastIndexOf('/')) + '/'
+        console.log('the localbase is ' + localbase)
         fs.mkdir(localbase, { recursive: true }, (err) => {
             if (err) throw err;
         })
-        download(urlbase + asset.remotepath, 'src' + asset.localpath)
+        console.log('downloading ' + asset.remotepath + ' to ' +rootpath + asset.localpath)
+        download(urlbase + asset.remotepath, rootpath + asset.localpath)
     })
 }
 
