@@ -73,6 +73,7 @@ var present = []
 var data = ''
 var kodiversion = ''
 var kodimirror = ''
+var kodistats = ''
 var addon = {}
 var addons = []
 var addonsfeatured = []
@@ -81,10 +82,12 @@ var categories = []
 var addonpath = ''
 var addonplatform = ''
 var addonimagetypes = []
+var versiondownloads = 0
 
 exports.onPreBootstrap = function (_ref, pluginOptions) {
     kodiversion = pluginOptions.kodiversion
-    kodimirror = 'https://' + pluginOptions.kodimirror + '/addons/' + kodiversion + '/'
+    kodimirror = 'http://' + pluginOptions.kodimirror + '/addons/' + kodiversion + '/'
+    kodistats = 'http://mirrors.kodi.tv' + '/addons/' + kodiversion + '/'
 }
 
 exports.sourceNodes = async ({
@@ -221,6 +224,7 @@ function getAddon(rawaddon) {
             addonhistory.lastupdate = TODAY
             addonhistory.firstseen = TODAY
             addonhistory.agetype = 'new'
+            addonhistory.downloads = 0
             firstever = true
         }
         addon.firstseen = addonhistory.firstseen
@@ -241,6 +245,7 @@ function getAddon(rawaddon) {
             downloadImages()
         }
         if (addon.broken == null){
+            // getDownloadCount() // this isn't working yet
             present.push(addonhistory)
             if (addon.icons == null ){
                 addon.icons = [{'remotepath':'', 'localpath':'/images/default-addon.png'}]
@@ -260,11 +265,11 @@ function parseExtensions(extension) {
         switch (extension.attributes.point) {
             case 'kodi.addon.metadata':
                 extension.children.forEach(getMetadata)
-                addon.platforms.push({'platform':addonplatform, 'path':addonpath})
+                addon.platforms.push({'platform':addonplatform, 'path':addonpath, 'statspath': addonstatspath})
                 break
             case 'xbmc.addon.metadata':
                 extension.children.forEach(getMetadata)
-                addon.platforms.push({'platform':addonplatform, 'path':addonpath})
+                addon.platforms.push({'platform':addonplatform, 'path':addonpath, 'statspath': addonstatspath})
                 break
             case 'kodi.python.pluginsource':
                 assignCategory('Plugins')
@@ -365,6 +370,7 @@ function getMetadata(metadata) {
         addon[metadata.name] = String(Math.floor(Number(metadata.content)/1024)) + 'KB'
     } else if (metadata.name == 'path') {
         addonpath = kodimirror + metadata.content
+        addonstatspath = kodistats + metadata.content + '?stats'
     } else if (metadata.name == 'platform') {
         addonplatform = metadata.content
     } else if (metadata.name == 'assets') {
@@ -386,6 +392,32 @@ function getAssets(asset) {
     if (assetcheck == undefined) {
         imagepath = '/images/addons/' + slugify(addon.id, {'lower':true}) + '/' + asset.content
         addon[arrayname].push({'localpath':imagepath, 'remotepath':asset.content})    
+    }
+}
+
+function getDownloadCount() {
+    version_downloads = 0
+    if (addonhistory.downloads === undefined) {
+        addonhistory.downloads = 0
+    }
+    addon.platforms.forEach(getPlatformDownloadCount)
+    addon.downloads = addonhistory.downloads + version_downloads
+}
+
+async function getPlatformDownloadCount(platform) {
+    try {
+        let res = await fetch(platform.statspath)
+        let statsdata = await res.text()
+    } catch(error) {
+        console.log(error)
+        return
+    }
+    console.log(statsdata)
+    var data = '[' + statsdata.replace(/\s+/g, '') + ']'
+    console.log(data)
+    stats = JSON.parse(data)[0]
+    if (stats[0].Total !== undefined){
+        versiondownloads = versiondownloads + stats.Total    
     }
 }
 
