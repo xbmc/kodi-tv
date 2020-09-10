@@ -1,41 +1,19 @@
 import React from 'react'
 import Layout from 'patternfly_components/Layout'
 import Footer from 'src/gatsby-theme-patternfly/components/Footer'
+import ItemWithComma from 'src/components/ItemWithComma'
+import ConditionalTextListItem from 'src/components/ConditionalTextListItem'
+import ConditionalSlideshow from 'src/components/ConditionalSlideshow'
 import {
-  PageSection, PageSectionVariants,
+    PageSection, PageSectionVariants,
     TextContent, TextList, TextListItem,
     List, ListItem, ListVariant,
     Split, SplitItem,
 } from '@patternfly/react-core'
 import WarningTriangleIcon from '@patternfly/react-icons/dist/js/icons/warning-triangle-icon'
 import { H1 } from 'patternfly_components/Markdown'
-import { graphql, Link } from "gatsby"
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import { graphql } from "gatsby"
 
-function ConditionalItemWithLink(props) {
-    if (!props.hide) {
-        return null
-    }
-    return (
-        <React.Fragment>
-            <TextListItem component="dt">{props.title}</TextListItem>
-            <TextListItem component="dd"><Link to={props.link}>{props.link}</Link></TextListItem>
-        </React.Fragment>
-    )
-}
-
-function ItemNameWithLink(props) {
-    if (props.index === props.length) {
-        return (
-            <React.Fragment><Link to={props.url}>{props.description}</Link></React.Fragment>
-        )
-    } else {
-        return (
-            <React.Fragment><Link to={props.url}>{props.description}</Link>, </React.Fragment>
-        )
-    }
-}
 
 export default function Addon({ data }) {
     const addon = data.addon
@@ -74,10 +52,10 @@ export default function Addon({ data }) {
                                 <TextListItem component="dt">{authorlabel}</TextListItem>
                                 <TextListItem component="dd">
                                     {addon.authors.map((author, index) => {
-                                        return (<ItemNameWithLink description={author.name}
-                                                                  url = {'/addons/author/' + author.slug}
-                                                                  index={index}
-                                                                  length={addon.authors.length - 1}
+                                        return (<ItemWithComma description={author.name}
+                                                               url = {'/addons/author/' + author.slug}
+                                                               index={index}
+                                                               length={addon.authors.length - 1}
                                                 />)
                                     })}
                                 </TextListItem>
@@ -99,18 +77,27 @@ export default function Addon({ data }) {
                         <TextList component="dl">
                             <TextListItem component="dt">Description</TextListItem>
                             <TextListItem component="dd">{addon.description}</TextListItem>
-                            <ConditionalItemWithLink hide={addon.forum != null} title={'Forum'} link={addon.forum} />
-                            <ConditionalItemWithLink hide={addon.website != null} title={'Website'} link={addon.website} />
-                            <ConditionalItemWithLink hide={addon.source != null} title={'Source'} link={addon.source} />
+                            <ConditionalTextListItem hide={addon.forum == null}
+                                                     title={'Forum'}
+                                                     description={addon.forum}
+                                                     url={addon.forum} />
+                            <ConditionalTextListItem hide={addon.website == null}
+                                                     title={'Website'}
+                                                     description={addon.website}
+                                                     url={addon.website} />
+                            <ConditionalTextListItem hide={addon.source == null}
+                                                     title={'Source'}
+                                                     description={addon.source}
+                                                     url={addon.source} />
                             <TextListItem component="dt">License</TextListItem>
                             <TextListItem component="dd">{addon.license}</TextListItem>
                             <TextListItem component="dt">Platforms</TextListItem>
                             <TextListItem component="dd">
                                 {addon.platforms.map((platform, index) => {
-                                    return (<ItemNameWithLink description={platform.platform}
-                                                              url = {platform.path}
-                                                              index={index}
-                                                              length={addon.platforms.length - 1}
+                                    return (<ItemWithComma description={platform.platform}
+                                                           url = {platform.path}
+                                                           index={index}
+                                                           length={addon.platforms.length - 1}
                                             />)
                                 })}
                             </TextListItem>
@@ -119,21 +106,17 @@ export default function Addon({ data }) {
                             <TextListItem component="dt">{categorylabel}</TextListItem>
                             <TextListItem component="dd">
                                 {addon.categories.map((category, index) => {
-                                    return (<ItemNameWithLink description={category.name}
-                                                              url = {'/addons/category/' + category.slug}
-                                                              index={index}
-                                                              length={addon.categories.length - 1}
+                                    return (<ItemWithComma description={category.name}
+                                                           url = {'/addons/category/' + category.slug}
+                                                           index={index}
+                                                           length={addon.categories.length - 1}
                                             />)
                                 })}
                             </TextListItem>
                         </TextList>
                     </TextContent>
                 <p>&nbsp;</p>
-                <div style={{'max-width': '800px'}}>
-                    <AwesomeSlider media={slides} />
-                </div>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
+                <ConditionalSlideshow slides={slides} />
             </PageSection>
             <Footer />
         </Layout>
