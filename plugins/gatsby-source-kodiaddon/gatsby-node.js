@@ -3,6 +3,7 @@
 
 const fetch = require('node-fetch')
 const parse = require('xml-parser')
+const yaml = require('js-yaml')
 const slugify = require('slugify')
 const fs = require('fs')
 const inspect = require('util').inspect // this is only here to inspect the json during debugging
@@ -13,7 +14,7 @@ const ADDON_CLONETWO_TYPE = 'AddonCloneTwo'
 const AUTHOR_NODE_TYPE = 'Author'
 const CATEGORY_NODE_TYPE = 'Category'
 const PIXIE_MEMORY = 'src/data/addonhistory.json'
-const ADDONS_FEATURED = 'src/data/addonsfeatured.json'
+const ADDONS_FEATURED = 'src/data/addonsfeatured.yaml'
 const TODAY = new Date()
 const CATEGORIES = [ {'id':'kodi.audiodecoder', 'desc':'Audio decoders'},
                      {'id':'kodi.audioencoder', 'desc':'Audio encoders'},
@@ -76,7 +77,7 @@ var kodimirror = ''
 var kodistats = ''
 var addon = {}
 var addons = []
-var addonsfeatured = []
+var featured = {'addons':[]}
 var authors = []
 var categories = []
 var addonpath = ''
@@ -104,7 +105,7 @@ exports.sourceNodes = async ({
         console.log(e)
     }
     try {
-        addonsfeatured = JSON.parse(fs.readFileSync(ADDONS_FEATURED, 'utf8'))
+        featured = yaml.safeLoad(fs.readFileSync(ADDONS_FEATURED, 'utf8'))
     } catch (e) {
         console.log('unable to load featured addons')
         console.log(e)
@@ -212,8 +213,7 @@ function getAddon(rawaddon) {
         addon.platforms = []
         addon.categories = []
         rawaddon.attributes['provider-name'].split(',').map(item => item.trim()).forEach(assignAuthor)
-        featuredcheck = addonsfeatured.find(o => o.id === addon.id)
-        if (featuredcheck != undefined) {
+        if (featured.addons.includes(addon.id)) {
             addon.featured = 'true'
         }
         addonhistory = history.find(o => o.id === addon.id)
