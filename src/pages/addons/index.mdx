@@ -2,26 +2,25 @@
 
 ## Featured Add-ons
 
-<AddonsIconList addons={props.data.allAddon.edges} />
+<IconList items={props.data.allAddon.edges} linkroot='/addons/' />
 
 ## New Additions
 
-<AddonsIconList addons={props.data.allAddonClone.edges} />
+<IconList items={props.data.allAddonClone.edges} linkroot='/addons/' />
 
 ## Recently Updated
 
-<AddonsIconList addons={props.data.allAddonCloneTwo.edges} />
+<IconList items={props.data.allAddonCloneTwo.edges} linkroot='/addons/' />
 
 ## Categories
 
-<CategoryIconList categories={props.data.allCategory.edges} />
+<IconList items={props.data.allCategory.edges} linkroot='/addons/category/' />
 
 
 
 
 import { graphql } from "gatsby"
-import CategoryIconList from 'src/components/CategoryIconList'
-import AddonsIconList from 'src/components/AddonsIconList'
+import IconList from 'src/components/IconList'
 
 export const pageQuery = graphql`
     query {
@@ -37,90 +36,27 @@ export const pageQuery = graphql`
         allAddon(limit: 5, filter: {featured: {eq: "true"}}) {
             edges {
                 node {
-                    authors {
-                        name
-                        slug
-                    }
-                    description
-                    disclaimer
-                    forum
-                    icons {
-                        localpath
-                    }
-                    lastupdate(formatString: "MMMM DD, YYYY")
-                    license
-                    longname
                     name
-                    news
-                    platforms {
-                        platform
-                        path
-                    }
-                    size
-                    source
-                    summary
-                    version
-                    website
+                    slug
+                    icon
                 }
             }
         }
         allAddonClone(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
             edges {
                 node {
-                    authors {
-                        name
-                        slug
-                    }
-                    description
-                    disclaimer
-                    forum
-                    icons {
-                        localpath
-                    }
-                    lastupdate(formatString: "MMMM DD, YYYY")
-                    license
-                    longname
                     name
-                    news
-                    platforms {
-                        platform
-                        path
-                    }
-                    size
-                    source
-                    summary
-                    version
-                    website
+                    slug
+                    icon
                 }
             }
         }
         allAddonCloneTwo(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
             edges {
                 node {
-                    authors {
-                        name
-                        slug
-                    }
-                    description
-                    disclaimer
-                    forum
-                    icons {
-                        localpath
-                    }
-                    lastupdate(formatString: "MMMM DD, YYYY")
-                    license
-                    longname
                     name
-                    news
-                    platforms {
-                        platform
-                        path
-                    }
-                    size
-                    source
-                    summary
-                    version
-                    website
+                    slug
+                    icon
                 }
             }
         }

@@ -7,7 +7,32 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+
+  const addonresults = await graphql(`
+      query MyQuery {
+          allAddon {
+              edges {
+                  node {
+                      slug
+                  }
+              }
+          }
+      }
+  `)
   
+  addonresults.data.allAddon.edges.forEach(({ node }) => {
+    createPage({
+      path: 'addons/' + node.slug,
+      component: path.resolve(`src/templates/addon.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+
   const categoryresults = await graphql(`
       query MyQuery {
           allCategory {
@@ -31,7 +56,6 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-
 
   const authorresults = await graphql(`
       query MyQuery {

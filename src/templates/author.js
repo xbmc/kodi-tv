@@ -6,7 +6,7 @@ import {
 } from '@patternfly/react-core'
 import { H1, Text } from 'patternfly_components/Markdown'
 import { graphql } from "gatsby"
-import AddonsIconList from 'src/components/AddonsIconList'
+import IconList from 'src/components/IconList'
 
 export default function Category({ data }) {
     const author = data.author
@@ -18,7 +18,7 @@ export default function Category({ data }) {
                 <Text>
                     This is the page for {author.name}. They have {author.totaladdons} add-ons.
                 </Text>
-                <AddonsIconList addons={author.addons} />
+                <IconList items={author.addons} linkroot='/addons/' />
             </PageSection>
             <Footer />
         </Layout>
@@ -32,30 +32,9 @@ export const query = graphql`
             name
             totaladdons
             addons {
-                authors {
-                    name
-                    slug
-                }
-                description
-                disclaimer
-                forum
-                icons {
-                    localpath
-                }
-                lastupdate(formatString: "MMMM DD, YYYY")
-                license
-                longname
                 name
-                news
-                platforms {
-                    platform
-                    path
-                }
-                size
-                source
-                summary
-                version
-                website
+                slug
+                icon
             }
         }
     }

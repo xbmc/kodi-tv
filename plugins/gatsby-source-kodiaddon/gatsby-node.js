@@ -201,8 +201,8 @@ function getAddon(rawaddon) {
     if (addon == undefined) {
         addon = {}
         addon.id = rawaddon.attributes.id
-        addon.name = rawaddon.attributes.id
-        addon.longname = rawaddon.attributes.name
+        addon.addonid = addon.id
+        addon.name = rawaddon.attributes.name
         addon.slug = slugify(rawaddon.attributes.id, {'lower':true})
         addon.version = rawaddon.attributes.version
         addon.authors = []
@@ -245,6 +245,7 @@ function getAddon(rawaddon) {
             if (addon.icons == null ){
                 addon.icons = [{'remotepath':'', 'localpath':'/images/default-addon.png'}]
             }
+            addon.icon = addon.icons[0].localpath
             addons.push(addon)
             addon.authors.forEach(createAuthorNode)
             addon.categories.forEach(createCategoryNode)
@@ -394,8 +395,8 @@ function doCleanup(item){
 }
 
 function compare(a, b) {
-    const bandA = a.longname.toUpperCase()
-    const bandB = b.longname.toUpperCase()
+    const bandA = a.name.toUpperCase()
+    const bandB = b.name.toUpperCase()
     let comparison = 0
     if (bandA > bandB) {
         comparison = 1
