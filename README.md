@@ -14,7 +14,8 @@
 
 1. parser documentation
 1. update code for new lifecycle option in addons.xml (see https://github.com/xbmc/xbmc/pull/18286)
-1. figure out a method to do sub-categories that doesn't break EVERYTHING
+1. add parsing of downlods from mirrors stat url (http://mirrors.kodi.tv/addons/matrix/script.module.trakt/script.module.trakt-3.1.0+matrix.2.zip?stats)
+1. get a dump of the Leia database from Drupal so I can write a script to have it generate history
 
 # Original Readme from Gatsby Starter
 
