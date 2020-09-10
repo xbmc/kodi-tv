@@ -6,12 +6,11 @@ import ConditionalTextListItem from 'src/components/ConditionalTextListItem'
 import ConditionalSlideshow from 'src/components/ConditionalSlideshow'
 import {
     PageSection, PageSectionVariants,
-    TextContent, TextList, TextListItem,
+    Text, TextVariants, TextContent, TextList, TextListItem,
     List, ListItem, ListVariant,
     Split, SplitItem,
 } from '@patternfly/react-core'
 import WarningTriangleIcon from '@patternfly/react-icons/dist/js/icons/warning-triangle-icon'
-import { H1 } from 'patternfly_components/Markdown'
 import { graphql } from "gatsby"
 
 
@@ -39,9 +38,10 @@ export default function Addon({ data }) {
                     <SplitItem><img width='150' height='150' alt="" src={addon.icon} /></SplitItem>
                     <SplitItem>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SplitItem>
                     <SplitItem isFilled>
-                        <H1>{addon.name}</H1>
-                        {addon.summary}
-                        <p>&nbsp;</p>
+                        <TextContent>
+                            <Text component={TextVariants.h1}>{addon.name}</Text>
+                            <Text>{addon.summary}<p>&nbsp;</p></Text>
+                        </TextContent>
                         <List variant={ListVariant.inline}>
                             <ListItem>{addon.version}</ListItem>
                             <ListItem>&bull;</ListItem>
