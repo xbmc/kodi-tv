@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from 'patternfly_components/Layout'
-import Footer from 'src/gatsby-theme-patternfly/components/Footer'
 import {
-    PageSection, PageSectionVariants,
     Text, TextVariants, TextContent,
 } from '@patternfly/react-core'
 import { graphql } from "gatsby"
@@ -13,14 +11,11 @@ export default function Category({ data }) {
 
     return (
         <Layout>
-            <PageSection variant={PageSectionVariants.light} isFilled={true}>
-                <TextContent>
-                    <Text component={TextVariants.h1}>{category.name}</Text>
-                    <Text>This is the page for the {category.name} category. This category has {category.totaladdons} addons in it.</Text>
-                </TextContent>
-                <IconList items={category.addons} linkroot='/addons/' />
-            </PageSection>
-            <Footer />
+            <TextContent>
+                <Text component={TextVariants.h1}>{category.name}</Text>
+                <Text>This is the page for the {category.name} category. This category has {category.totaladdons} addons in it.</Text>
+            </TextContent>
+            <IconList items={category.addons} linkroot='/addons/' />
         </Layout>
     )
 }
