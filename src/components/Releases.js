@@ -110,13 +110,13 @@ class Releases extends React.Component {
                         <AccordionItem>
                             <AccordionToggle
                                 onClick={() => {onToggle(release.name)}}
-                                isExpanded={this.state.expanded === release.name}
-                                id={release.name}
+                                isExpanded={this.state.expanded === release.id}
+                                id={release.id}
                             >
-                                {release.name}
+                                <TextContent><Text component={TextVariants.h2}>{release.name}</Text></TextContent>
                             </AccordionToggle>
                             <AccordionContent
-                                id={release.name}
+                                id={release.id}
                                 isHidden={this.state.expanded !== release.name}
                             >
                                 <Description description={release.description} release={release.id}/>
