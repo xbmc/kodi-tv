@@ -20,7 +20,9 @@ export default function categoryIconList(props) {
                 <GalleryItem>
                     <div align="center">
                         <p>&nbsp;</p>
-                        <img width='150' height='150' alt="" src={item.icon} />
+                        <Link to={props.linkroot + item.slug}>
+                            <img width='150' height='150' alt="" src={item.icon} />
+                        </Link>
                         <div>
                             <Link to={props.linkroot + item.slug}>{item.name}</Link>
                         </div>
