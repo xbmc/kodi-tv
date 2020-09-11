@@ -105,4 +105,17 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
+  distresults.data.allDistribution.edges.forEach(({ node }) => {
+    createPage({
+      path: 'download-tabs/' + node.slug,
+      component: path.resolve(`src/templates/distribution-tabs.js`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+
 }
