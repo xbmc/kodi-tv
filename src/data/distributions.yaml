@@ -1,0 +1,29 @@
+--- # Windows Distribution
+name: "Windows"
+icon: "/images/distributions/windows.png"
+howto: "https://kodi.wiki/view/windows"
+releases:
+  - name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "The installation of Kodi for Windows is straightforward like most other Windows applications. Simply download the installer, and run it then follow the prompts."
+    downloads:
+      - name: "Installer (64BIT)"
+        url: "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.8-Leia-x64.exe"
+      - name: "Installer (32BIT)"
+        url: "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.8-Leia-x86.exe"
+      - name: "Windows Store"
+        url: "https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge"
+  - name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "Installer (64BIT)"
+        url: "https://mirrors.kodi.tv/snapshots/windows/win64/kodi-19.0-Matrix_alpha1-x64.exe"
+      - name: "Installer (32BIT)"
+        url: "https://mirrors.kodi.tv/snapshots/windows/win32/kodi-19.0-Matrix_alpha1-x86.exe"
+  - name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "Installer (64BIT)"
+        url: "http://mirrors.kodi.tv/nightlies/windows/win64/master/"
+      - name: "Installer (32BIT)"
+        url: "http://mirrors.kodi.tv/nightlies/windows/win32/master/"
