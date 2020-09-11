@@ -6,6 +6,9 @@ import { Link } from "gatsby"
 
 export default function categoryIconList(props) {
     var items = []
+    var width = '100%'
+    var marginleft = '0%'
+    var marginright = '0%'
     if (props.items[0].node !== undefined){
         props.items.map((item, index) =>
             items.push(item.node)
@@ -13,8 +16,18 @@ export default function categoryIconList(props) {
     } else {
         items = props.items
     }
+    if (props.width !== undefined){
+        width = props.width
+    }
+    if (props.marginleft !== undefined){
+        marginleft = props.marginleft
+    }
+    if (props.marginright !== undefined){
+        marginright = props.marginright
+    }
     
     return (
+        <div style={{'width': width, 'margin-left': marginleft, 'margin-right':marginright}}>
         <Gallery>
             {items.map((item, index) =>
                 <GalleryItem>
@@ -30,5 +43,6 @@ export default function categoryIconList(props) {
                 </GalleryItem>
             )}
         </Gallery>
+        </div>
     )
 }
