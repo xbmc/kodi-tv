@@ -170,17 +170,9 @@ releases:
 name: "tvOS"
 howto: "https://kodi.wiki/view/TvOS"
 releases:
-  - id: "recommend"
-    name: "Recommended"
-    title: "Kodi v18.8 (Leia)"
-    description: "There is no tvOS release of Kodi 18."
   - id: "prerelease"
     name: "Pre release"
     title: "Kodi v19 Alpha 1 (Matrix)"
     downloads:
       - name: "tvOS"
         url: "https://mirrors.kodi.tv/snapshots/darwin/tvos/org.xbmc.kodi-tvos_19.0-0~a1-tvos.deb"
-  - id: "development"
-    name: "Development Builds"
-    title: "Kodi v19 (Matrix) Nightly"
-    description: "There are no nightly development builds for tvOS available."
