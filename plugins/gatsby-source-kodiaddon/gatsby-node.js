@@ -71,7 +71,6 @@ const CATEGORIES = [ {'id':'kodi.audiodecoder', 'desc':'Audio decoders'},
                    ]
 var history = []
 var present = []
-var data = ''
 var kodiversion = ''
 var kodimirror = ''
 var kodistats = ''
@@ -98,6 +97,7 @@ exports.sourceNodes = async ({
     getNodesByType,
 }) => {
     const { createNode, touchNode, deleteNode } = actions
+    var data = ''
     try {
         history = JSON.parse(fs.readFileSync(PIXIE_MEMORY, 'utf8'))
     } catch (e) {
@@ -406,17 +406,15 @@ function getDownloadCount() {
 
 async function getPlatformDownloadCount(platform) {
     try {
-        let res = await fetch(platform.statspath)
-        let statsdata = await res.text()
+        const res = await fetch(platform.statspath)
+        const data = await res.text()
     } catch(error) {
         console.log(error)
         return
     }
-    console.log(statsdata)
-    var data = '[' + statsdata.replace(/\s+/g, '') + ']'
     console.log(data)
-    stats = JSON.parse(data)[0]
-    if (stats[0].Total !== undefined){
+    stats = JSON.parse(data)
+    if (stats.Total !== undefined){
         versiondownloads = versiondownloads + stats.Total    
     }
 }
