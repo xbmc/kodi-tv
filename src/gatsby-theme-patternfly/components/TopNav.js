@@ -4,7 +4,6 @@ import {
   Nav,
   NavList,
   NavItem,
-  NavVariants
 } from '@patternfly/react-core';
 import PropTypes from 'prop-types';
 import { Location } from '@reach/router';
