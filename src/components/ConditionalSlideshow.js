@@ -13,11 +13,9 @@ export default function ConditionalSlideshow(props) {
     }
     return (
         <React.Fragment>
-            <div style={{'max-width': maxwidth}}>
+            <div style={{'max-width': maxwidth, 'padding-bottom': '40px'}}>
                 <AwesomeSlider media={props.slides} />
             </div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
         </React.Fragment>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Tabs, Tab, TabTitleText,
     Text, TextVariants, TextContent,
-    List, ListItem, ListVariant,
+    Stack, StackItem,
     Button,
 } from '@patternfly/react-core'
 import {Link} from 'gatsby'
@@ -45,11 +45,11 @@ Be sure to read the following pages before trying these out: <Link to="http://ko
 function Description(props) {
     if (props.description !== null){
         return (
-        <TextContent>
-            <Text component={TextVariants.p}>
-                <p>{props.description}</p>
-            </Text>
-        </TextContent>
+            <TextContent>
+                <Text component={TextVariants.p}>
+                    {props.description}
+                </Text>
+            </TextContent>
         )
     } else if (props.release === 'prerelease') {
         return (
@@ -68,20 +68,20 @@ function DownloadLinks(props) {
     }
     return(
         <React.Fragment>
-        <TextContent>
-            <Text component={TextVariants.h3}>Downloads</Text>
-        </TextContent>
-        <List variant={ListVariant.inline}>
-            {props.downloads.map((download, index) => {
-                return (
-                    <ListItem>
-                        <Button component="a" href={download.url} target="_blank" variant="primary">
-                            {download.name}
-                        </Button>
-                    </ListItem>
-                )
-            })}
-        </List>
+            <TextContent>
+                <Text component={TextVariants.h3}>Downloads</Text>
+            </TextContent>
+            <Stack hasGutter>
+                {props.downloads.map((download, index) => {
+                    return (
+                        <StackItem>
+                            <Button component="a" href={download.url} target="_blank" variant="primary">
+                                {download.name}
+                            </Button>
+                        </StackItem>
+                    )
+                })}
+            </Stack>
         </React.Fragment>        
     )
 }
@@ -102,7 +102,6 @@ class ReleasesTabs extends React.Component {
         }
     }
 
-
     render() {
         const releases = this.props.releases
         const {activeTabKey, isBox} = this.state;
@@ -111,12 +110,17 @@ class ReleasesTabs extends React.Component {
                 <Tabs activeKey={activeTabKey} onSelect={this.handleTabClick} isBox={isBox}>
                     {releases.map((release, index) => {
                         return (
-                            <Tab eventKey={index} title={release.name}>
-                                <p>&nbsp;</p>
-                                <Description description={release.description} release={release.id}/>
-                                <p>&nbsp;</p>
-                                <DownloadLinks downloads={release.downloads} />
-                                <p>&nbsp;</p>
+                            <Tab eventKey={index} title=<TabTitleText>{release.name}</TabTitleText>>
+                                <Stack hasGutter>
+                                    <StackItem>
+                                        <div style={{'padding-top': '15px'}}>
+                                        <Description description={release.description} release={release.id}/>
+                                        </div>
+                                    </StackItem>
+                                    <StackItem>
+                                        <DownloadLinks downloads={release.downloads} />
+                                    </StackItem>
+                                </Stack>
                             </Tab>
                          )
                     })}

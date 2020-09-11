@@ -27,8 +27,7 @@ export default function categoryIconList(props) {
     }
     
     return (
-        <div style={{'width': width, 'margin-left': marginleft, 'margin-right':marginright}}>
-            <p>&nbsp;</p>
+        <div style={{'width': width, 'margin-left': marginleft, 'margin-right':marginright, 'padding-top': '10px'}}>
             <Gallery hasGutter>
                 {items.map((item, index) =>
                     <GalleryItem>
