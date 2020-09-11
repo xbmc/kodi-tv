@@ -28,21 +28,21 @@ export default function categoryIconList(props) {
     
     return (
         <div style={{'width': width, 'margin-left': marginleft, 'margin-right':marginright}}>
-        <Gallery>
-            {items.map((item, index) =>
-                <GalleryItem>
-                    <div align="center">
-                        <p>&nbsp;</p>
-                        <Link to={props.linkroot + item.slug}>
-                            <img width='150' height='150' alt="" src={item.icon} />
-                        </Link>
-                        <div>
-                            <Link to={props.linkroot + item.slug}>{item.name}</Link>
+            <p>&nbsp;</p>
+            <Gallery hasGutter>
+                {items.map((item, index) =>
+                    <GalleryItem>
+                        <div align="center">
+                            <Link to={props.linkroot + item.slug}>
+                                <img width='150' height='150' alt="" src={item.icon} />
+                            </Link>
+                            <div>
+                                <Link to={props.linkroot + item.slug}>{item.name}</Link>
+                            </div>
                         </div>
-                    </div>
-                </GalleryItem>
-            )}
-        </Gallery>
+                    </GalleryItem>
+                )}
+            </Gallery>
         </div>
     )
 }

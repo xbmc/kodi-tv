@@ -21,7 +21,7 @@ export default function Distribution({ data }) {
                         <Text>If you need extra help, checkout our <Link to={dist.howto}>"How To" Guide</Link> for {dist.name}.</Text>
                     </TextContent>
                     <p>&nbsp;</p>
-                    <Releases releases={dist.releases} />
+                    <ReleasesTabs releases={dist.releases} />
                 </SplitItem>
             </Split>
         </Layout>

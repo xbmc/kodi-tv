@@ -1,16 +1,16 @@
 import React from 'react';
 import {
     PageSection, PageSectionVariants,
-    Level, LevelItem,
+    Gallery, GalleryItem,
 } from '@patternfly/react-core';
 import { H3 } from 'patternfly_components/Markdown'
 
 const Footer = () => (
     <React.Fragment>
-        <PageSection variant={PageSectionVariants.dark}>
-            <Level>
-                <LevelItem>&nbsp;&nbsp;&nbsp;&nbsp;</LevelItem>
-                <LevelItem>
+        <PageSection variant={PageSectionVariants.darker}>
+        <div style={{'width': '80%', 'margin-left': '15%', 'margin-right': '5%`'}}>
+            <Gallery hasGutter>
+                <GalleryItem>
                     <H3>About</H3>
                     Get Involved<br />
                     GPL Violators<br />
@@ -19,20 +19,13 @@ const Footer = () => (
                     Privacy Policy<br />
                     Sponsorship<br />
                     XBMC Foundation<br />
-                    &nbsp;<br />
-                </LevelItem>
-                <LevelItem>
+                </GalleryItem>
+                <GalleryItem>
                     <H3>Sponsors</H3>
                     Acquia<br />
                     Bytemark<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                </LevelItem>
-                <LevelItem>
+                </GalleryItem>
+                <GalleryItem>
                     <H3>Friends</H3>
                     Fanart.TV<br />
                     LibreELEC<br />
@@ -42,20 +35,17 @@ const Footer = () => (
                     TheGamesDB.net<br />
                     TheMovieDB.org<br />
                     TheTVDB.com<br />
-                </LevelItem>
-                <LevelItem>
+                </GalleryItem>
+                <GalleryItem>
                     <H3>Social</H3>
                     Facebook<br />
                     Twitter<br />
                     Youtube<br />
                     Paypal<br />
                     RSS<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                    &nbsp;<br />
-                </LevelItem>
-                <LevelItem>&nbsp;&nbsp;&nbsp;&nbsp;</LevelItem>
-            </Level>
+                </GalleryItem>
+            </Gallery>
+        </div>
         </PageSection>
     </React.Fragment>
 );

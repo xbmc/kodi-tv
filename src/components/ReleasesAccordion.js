@@ -86,7 +86,7 @@ function DownloadLinks(props) {
     )
 }
 
-class Releases extends React.Component {
+class ReleasesAccordian extends React.Component {
         constructor(props) {
         super(props);
         this.state = {
