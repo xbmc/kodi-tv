@@ -33,7 +33,7 @@ export const pageQuery = graphql`
                 }
             }
         }
-        allAddon(limit: 5, filter: {featured: {eq: "true"}}) {
+        allAddon(filter: {featured: {eq: "true"}}) {
             edges {
                 node {
                     name
