@@ -1,0 +1,28 @@
+# Select Your Platform
+
+Kodi has many flavours, our developers have worked hard to make it support a large range of devices and operating system. We provide final as well as development builds for future final release versions. To get started, simply select the platform that you want to install it on.
+
+<IconList items={props.data.allDistribution.edges}
+          linkroot='/download/'
+          width='80%'
+          marginleft='10%'
+          marginright='10%' />
+
+
+
+import { graphql } from "gatsby"
+import IconList from 'src/components/IconList'
+
+export const pageQuery = graphql`
+    query {
+        allDistribution {
+            edges {
+                node {
+                    name
+                    icon
+                    slug
+                }
+            }
+        }
+    }
+`

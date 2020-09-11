@@ -1,11 +1,11 @@
 --- # Windows Distribution
 name: "Windows"
-icon: "/images/distributions/windows.png"
 howto: "https://kodi.wiki/view/windows"
 releases:
-  - name: "Recommended"
+  - id: "recommend"
+    name: "Recommended"
     title: "Kodi v18.8 (Leia)"
-    description: "The installation of Kodi for Windows is straightforward like most other Windows applications. Simply download the installer, and run it then follow the prompts."
+    description: "The installation of Kodi for Windows is straightforward and like most other Windows applications. Simply download the installer, run it, and follow the prompts."
     downloads:
       - name: "Installer (64BIT)"
         url: "https://mirrors.kodi.tv/releases/windows/win64/kodi-18.8-Leia-x64.exe"
@@ -13,17 +13,174 @@ releases:
         url: "https://mirrors.kodi.tv/releases/windows/win32/kodi-18.8-Leia-x86.exe"
       - name: "Windows Store"
         url: "https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge"
-  - name: "Pre release"
+  - id: "prerelease"
+    name: "Pre release"
     title: "Kodi v19 Alpha 1 (Matrix)"
     downloads:
       - name: "Installer (64BIT)"
         url: "https://mirrors.kodi.tv/snapshots/windows/win64/kodi-19.0-Matrix_alpha1-x64.exe"
       - name: "Installer (32BIT)"
         url: "https://mirrors.kodi.tv/snapshots/windows/win32/kodi-19.0-Matrix_alpha1-x86.exe"
-  - name: "Development Builds"
+  - id: "development"
+    name: "Development Builds"
     title: "Kodi v19 (Matrix) Nightly"
     downloads:
       - name: "Installer (64BIT)"
         url: "http://mirrors.kodi.tv/nightlies/windows/win64/master/"
       - name: "Installer (32BIT)"
         url: "http://mirrors.kodi.tv/nightlies/windows/win32/master/"
+
+--- # Linux Distribution
+name: "Linux"
+howto: "https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "Read the 'Install Guide' instructions for people who already have a Linux-based OS setup."
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux"
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux"
+
+--- # Android Distribution
+name: "Android"
+howto: "http://kodi.wiki/view/Android"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "The success of running Kodi on an Android device depends on a number of factors, as there are so many different devices with different capabilities. Check the 'How To' link for more help."
+    downloads:
+      - name: "Google Play"
+        url: "https://play.google.com/store/apps/details?id=org.xbmc.kodi"
+      - name: "ARMV7A (32BIT)"
+        url: "https://mirrors.kodi.tv/releases/android/arm/kodi-18.8-Leia-armeabi-v7a.apk"
+      - name: "ARMV8A (64BIT)"
+        url: "https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-18.8-Leia-arm64-v8a.apk"
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "ARMV7A (32BIT)"
+        url: "https://mirrors.kodi.tv/snapshots/android/arm/kodi-19.0-Matrix_alpha1-armeabi-v7a.apk?"
+      - name: "ARMV8A (64BIT)"
+        url: "https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-19.0-Matrix_alpha1-arm64-v8a.apk"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "Google Play Testing"
+        url: "https://play.google.com/apps/testing/org.xbmc.kodi"
+      - name: "ARMV7A (32BIT)"
+        url: "https://mirrors.kodi.tv/nightlies/android/arm/master/"
+      - name: "ARMV8A (64BIT)"
+        url: "https://mirrors.kodi.tv/nightlies/android/arm64-v8a/master/"
+      - name: "X86"
+        url: "https://mirrors.kodi.tv/nightlies/android/x86/master/"
+
+--- # Raspberry Pi Distribution
+name: "Raspberry Pi"
+howto: "https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "The Raspberry Pi is an ARM powered, credit card sized computer. The low power computer is mass produced at very low prices and the high number of units sold gives it massive community support. There are a few installation options, so please check the 'How To' link for more information."
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi"
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "Install Guide"
+        url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi"
+
+--- # MacOS Distribution
+name: "MacOS"
+howto: "https://kodi.wiki/view/windows"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide hardware video decoding for H.264 and MPEG2 video, though most CPUs are able to use software decoding for other formats in 1080 as well. Macs can use the Apple TV remote, among others, for control of Kodi. An Intel Mac running OS X 10.8 or higher is required."
+    downloads:
+      - name: "Installer (64BIT)"
+        url: "http://mirrors.kodi.tv/releases/osx/x86_64/kodi-18.8-Leia-x86_64.dmg"
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "Installer (64BIT)"
+        url: "https://mirrors.kodi.tv/snapshots/osx/x86_64/kodi-19.0-Matrix_alpha1-x86_64.dmg"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "64BIT"
+        url: "http://mirrors.kodi.tv/nightlies/osx/x86_64/master/"
+
+--- # iOS Distribution
+name: "iOS"
+howto: "https://kodi.wiki/view/HOW-TO:Install_Kodi_for_iOS"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "To install Kodi for iOS you must have a jailbroken iDevice running iOS 6.0 or higher (8.0 or higher recommended). Check the 'How To' link for instructions."
+    downloads:
+      - name: "Deb File(ARM)"
+        url: "http://mirrors.kodi.tv/releases/darwin/ios/org.xbmc.kodi-ios_18.8-0_iphoneos-arm.deb"
+      - name: "Deb File(ARM64)"
+        url: "http://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_18.8-0_iphoneos-arm64.deb"
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "iDevice"
+        url: "https://mirrors.kodi.tv/snapshots/darwin/ios-arm64/org.xbmc.kodi-ios_19.0-0~a1_iphoneos-arm64.deb"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    downloads:
+      - name: "iDevice"
+        url: "http://mirrors.kodi.tv/nightlies/darwin/ios/master/"
+      - name: "iDevice (ARM 64BIT)"
+        url: "http://mirrors.kodi.tv/nightlies/darwin/ios-arm64/master/"
+
+--- # tvOS Distribution
+name: "tvOS"
+howto: "https://kodi.wiki/view/TvOS"
+releases:
+  - id: "recommend"
+    name: "Recommended"
+    title: "Kodi v18.8 (Leia)"
+    description: "There is no tvOS release of Kodi 18."
+  - id: "prerelease"
+    name: "Pre release"
+    title: "Kodi v19 Alpha 1 (Matrix)"
+    downloads:
+      - name: "tvOS"
+        url: "https://mirrors.kodi.tv/snapshots/darwin/tvos/org.xbmc.kodi-tvos_19.0-0~a1-tvos.deb"
+  - id: "development"
+    name: "Development Builds"
+    title: "Kodi v19 (Matrix) Nightly"
+    description: "There are no nightly development builds for tvOS available."

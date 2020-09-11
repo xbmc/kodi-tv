@@ -8,6 +8,11 @@ const fs = require('fs')
 const inspect = require('util').inspect // this is only here to inspect the json during debugging
 
 const DIST_NODE_TYPE = 'Distribution'
+const YAML_PATH = 'src/data/distributions.yaml'
+const IMAGE_PATH = '/images/distributions/'
+const IMAGE_TYPE = '.png'
+
+var dists = []
 
 exports.sourceNodes = async ({
     actions,
@@ -18,12 +23,13 @@ exports.sourceNodes = async ({
     const { createNode, touchNode, deleteNode } = actions
     var data = []
     try {
-        data = yaml.safeLoadAll(fs.readFileSync('src/data/distributions.yaml', 'utf8'))
+        data = yaml.safeLoadAll(fs.readFileSync(YAML_PATH, 'utf8'))
     } catch (e) {
         console.log('unable to load distributions')
         console.log(e)
     }
-    data.forEach(dist =>
+    data.forEach(finishSetup)
+    dists.forEach(dist =>
         createNode({
             ...dist,
             id: createNodeId(`${DIST_NODE_TYPE}-${dist.name}`), // hashes the inputs into an ID
@@ -37,4 +43,10 @@ exports.sourceNodes = async ({
         })
     )
     return
+}
+
+function finishSetup(dist) {
+    dist.slug = slugify(dist.name, {'lower':true})
+    dist.icon = IMAGE_PATH + dist.slug + IMAGE_TYPE
+    dists.push(dist)
 }

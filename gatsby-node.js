@@ -81,10 +81,9 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-
-/*  const addonresults = await graphql(`
+  const distresults = await graphql(`
       query MyQuery {
-          allAddon {
+          allDistribution {
               edges {
                   node {
                       slug
@@ -94,16 +93,16 @@ exports.createPages = async ({ graphql, actions }) => {
       }
   `)
   
-  addonresults.data.allAddon.edges.forEach(({ node }) => {
+  distresults.data.allDistribution.edges.forEach(({ node }) => {
     createPage({
-      path: 'addons/' + node.slug,
-      component: path.resolve(`./src/templates/addon.js`),
+      path: 'download/' + node.slug,
+      component: path.resolve(`src/templates/distribution.js`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
     })
-  }) */
+  })
 
 }
