@@ -42,7 +42,7 @@ export const pageQuery = graphql`
                 }
             }
         }
-        allAddonClone(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
+        allAddonClone(limit: 4, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
             edges {
                 node {
                     name
@@ -51,7 +51,7 @@ export const pageQuery = graphql`
                 }
             }
         }
-        allAddonCloneTwo(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
+        allAddonCloneTwo(limit: 4, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
             edges {
                 node {
                     name
