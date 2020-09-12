@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from 'patternfly_components/Layout'
 import ReleasesTabs from 'src/components/ReleasesTabs'
+// import ReleasesAccordion from 'src/components/ReleasesAccordion'
+
 import {
     Grid, GridItem,
     Text, TextVariants, TextContent,
