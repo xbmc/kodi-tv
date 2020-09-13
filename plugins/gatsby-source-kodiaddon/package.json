@@ -19,5 +19,9 @@
     "slugify": "^1.4.5",
     "util": "^0.12.3",
     "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.5",
+    "@types/xml-parser": "^1.2.29"
   }
 }

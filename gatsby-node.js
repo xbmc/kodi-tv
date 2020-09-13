@@ -9,21 +9,21 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const addonresults = await graphql(`
-      query MyQuery {
-          allAddon {
-              edges {
-                  node {
-                      slug
-                  }
-              }
+    query MyQuery {
+      allAddon {
+        edges {
+          node {
+            slug
           }
+        }
       }
+    }
   `)
-  
+
   addonresults.data.allAddon.edges.forEach(({ node }) => {
     createPage({
-      path: 'addons/' + node.slug,
-      component: path.resolve(`src/templates/addon.js`),
+      path: "addons/" + node.slug,
+      component: path.resolve(`src/templates/addon.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -32,23 +32,22 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-
   const categoryresults = await graphql(`
-      query MyQuery {
-          allCategory {
-              edges {
-                  node {
-                      slug
-                  }
-              }
+    query MyQuery {
+      allCategory {
+        edges {
+          node {
+            slug
           }
+        }
       }
+    }
   `)
-  
+
   categoryresults.data.allCategory.edges.forEach(({ node }) => {
     createPage({
-      path: 'addons/category/' + node.slug,
-      component: path.resolve(`src/templates/category.js`),
+      path: "addons/category/" + node.slug,
+      component: path.resolve(`src/templates/category.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -58,21 +57,21 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   const authorresults = await graphql(`
-      query MyQuery {
-          allAuthor {
-              edges {
-                  node {
-                      slug
-                  }
-              }
+    query MyQuery {
+      allAuthor {
+        edges {
+          node {
+            slug
           }
+        }
       }
+    }
   `)
-  
+
   authorresults.data.allAuthor.edges.forEach(({ node }) => {
     createPage({
-      path: 'addons/author/' + node.slug,
-      component: path.resolve(`src/templates/author.js`),
+      path: "addons/author/" + node.slug,
+      component: path.resolve(`src/templates/author.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -82,21 +81,21 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   const distresults = await graphql(`
-      query MyQuery {
-          allDistribution {
-              edges {
-                  node {
-                      slug
-                  }
-              }
+    query MyQuery {
+      allDistribution {
+        edges {
+          node {
+            slug
           }
+        }
       }
+    }
   `)
-  
+
   distresults.data.allDistribution.edges.forEach(({ node }) => {
     createPage({
-      path: 'download/' + node.slug,
-      component: path.resolve(`src/templates/distribution.js`),
+      path: "download/" + node.slug,
+      component: path.resolve(`src/templates/distribution.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -104,5 +103,4 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-
 }
