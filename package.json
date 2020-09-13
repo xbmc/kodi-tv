@@ -6,21 +6,23 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@patternfly/react-core": "^4.47.0",
+    "eslint": "^7.9.0",
     "gatsby": "^2.24.57",
     "gatsby-image": "^2.4.17",
     "gatsby-plugin-manifest": "^2.4.28",
     "gatsby-plugin-offline": "^3.2.27",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.35",
+    "gatsby-plugin-typescript": "^2.4.19",
     "gatsby-source-filesystem": "^2.3.29",
     "gatsby-theme-patternfly": "^0.1.4",
     "gatsby-transformer-sharp": "^2.5.14",
     "js-yaml": "^3.14.0",
     "node-fetch": "^2.6.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
+    "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
-    "react-dom": "^16.12.0",
+    "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-social-icons": "^4.1.0",
     "slugify": "^1.4.5",
@@ -28,8 +30,12 @@
     "xml-parser": "^1.2.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "eslint": "^7.9.0",
     "gatsby-plugin-root-import": "^2.0.5",
-    "prettier": "2.1.1"
+    "prettier": "2.1.1",
+    "typescript": "^4.0.2"
   },
   "keywords": [
     "gatsby"
@@ -42,7 +48,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",

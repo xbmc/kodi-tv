@@ -6,14 +6,17 @@ import {
 import { Description, DownloadLinks } from './ReleasesContent'
 
 class ReleasesTabs extends React.Component {
-    constructor(props) {
+    constructor(private props: {releases: {name: string, id: string, downloads: {
+        url: string | undefined;
+        name: React.ReactNode;
+    }[], description: string}[]}) {
         super(props);
         this.state = {
             activeTabKey: 0,
             isBox: true
         }
         // Toggle currently active tab
-        this.handleTabClick = (event, tabIndex) => {
+        this.handleTabClick = (event: any, tabIndex: any) => {
             this.setState({
                 activeTabKey: tabIndex,
                 isBox: true
@@ -32,7 +35,7 @@ class ReleasesTabs extends React.Component {
                             <Tab eventKey={index} title=<TabTitleText>{release.name}</TabTitleText>>
                                 <Stack hasGutter>
                                     <StackItem>
-                                        <div style={{'padding-top': '15px'}}>
+                                        <div style={{'paddingTop': '15px'}}>
                                         <Description description={release.description} release={release.id}/>
                                         </div>
                                     </StackItem>

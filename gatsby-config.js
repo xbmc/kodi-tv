@@ -1,125 +1,129 @@
-const path = require('path')
+const path = require("path")
 
 const topNav = [
   {
     // The text displayed on the item
-    title: 'About',
+    title: "About",
     // The root path that enables/activates the item
-    rootPath: '/about',
+    rootPath: "/about",
     // The page that is actually linked to when the item is clicked
-    path: '/about'
+    path: "/about",
   },
   {
     // The text displayed on the item
-    title: 'Add-ons',
+    title: "Add-ons",
     // The root path that enables/activates the item
-    rootPath: '/addons',
+    rootPath: "/addons",
     // The page that is actually linked to when the item is clicked
-    path: '/addons'
+    path: "/addons",
   },
   {
     // The text displayed on the item
-    title: 'News',
+    title: "News",
     // The root path that enables/activates the item
-    rootPath: '/blog',
+    rootPath: "/blog",
     // The page that is actually linked to when the item is clicked
-    path: '/blog'
+    path: "/blog",
   },
   {
     // The text displayed on the item
-    title: 'Forum',
+    title: "Forum",
     // The root path that enables/activates the item
-    rootPath: '/forum',
+    rootPath: "/forum",
     // The page that is actually linked to when the item is clicked
-    path: 'https://forum.kodi.tv'
+    path: "https://forum.kodi.tv",
   },
   {
     // The text displayed on the item
-    title: 'Wiki',
+    title: "Wiki",
     // The root path that enables/activates the item
-    rootPath: '/wiki',
+    rootPath: "/wiki",
     // The page that is actually linked to when the item is clicked
-    path: 'https://kodi.wiki'
+    path: "https://kodi.wiki",
   },
   {
     // The text displayed on the item
-    title: 'Contribute',
+    title: "Contribute",
     // The root path that enables/activates the item
-    rootPath: '/contribute',
+    rootPath: "/contribute",
     // The page that is actually linked to when the item is clicked
-    path: '/contribute'
+    path: "/contribute",
   },
   {
     // The text displayed on the item
-    title: 'Donate',
+    title: "Donate",
     // The root path that enables/activates the item
-    rootPath: '/contribute/donate',
+    rootPath: "/contribute/donate",
     // The page that is actually linked to when the item is clicked
-    path: '/contribute/donate'
+    path: "/contribute/donate",
   },
   {
     // The text displayed on the item
-    title: 'Download',
+    title: "Download",
     // The root path that enables/activates the item
-    rootPath: '/Download',
+    rootPath: "/Download",
     // The page that is actually linked to when the item is clicked
-    path: '/download'
+    path: "/download",
   },
 ]
 
 const sideNav = [
   {
     // shows this side nav on the home page
-    rootPath: '/',
+    rootPath: "/",
     nav: [
       {
         // The text displayed on the item
-        title: 'Direct link',
+        title: "Direct link",
         // The page that is linked to
-        path: '/direct/link'
+        path: "/direct/link",
       },
       {
-        title: 'Expandable link',
+        title: "Expandable link",
         pages: [
           {
-            title: 'Expandable link',
-            path: '/expandable/link'
-          }
-        ]
-      }
-    ]
-  }
-];
+            title: "Expandable link",
+            path: "/expandable/link",
+          },
+        ],
+      },
+    ],
+  },
+]
 
 module.exports = {
   siteMetadata: {
-    title: 'Kodi TV',
-    description: 'The web site for the Kodi media center.',
-    author: 'Team Kodi',
+    title: "Kodi TV",
+    description: "The web site for the Kodi media center.",
+    author: "Team Kodi",
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-typescript",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'images',
-        path: 'src/images',
+        name: "images",
+        path: "src/images",
       },
     },
     {
-      resolve: 'gatsby-plugin-root-import',
+      resolve: "gatsby-plugin-root-import",
       options: {
-        src: path.join(__dirname, 'src'),
-        images: path.join(__dirname, 'src/images'),
-        pages: path.join(__dirname, 'src/pages'),
-        node_modules: path.join(__dirname, 'node_modules'),
-        patternfly_components: path.join(__dirname, 'node_modules/gatsby-theme-patternfly/src/components')
-      }
+        src: path.join(__dirname, "src"),
+        images: path.join(__dirname, "src/images"),
+        pages: path.join(__dirname, "src/pages"),
+        node_modules: path.join(__dirname, "node_modules"),
+        patternfly_components: path.join(
+          __dirname,
+          "node_modules/gatsby-theme-patternfly/src/components"
+        ),
+      },
     },
     {
-      resolve: 'gatsby-theme-patternfly',
+      resolve: "gatsby-theme-patternfly",
       options: {
         // enable or disable the top nav (default true)
         useTopNav: true,
@@ -128,17 +132,17 @@ module.exports = {
         // one or more top navigation definitions
         topNav: topNav,
         // one or more side navigation definitions
-        sideNav: sideNav
-      }
+        sideNav: sideNav,
+      },
     },
     {
       resolve: `gatsby-source-kodiaddon`,
       options: {
         kodiversion: `matrix`,
-        kodimirror: `ftp.halifax.rwth-aachen.de/xbmc`
+        kodimirror: `ftp.halifax.rwth-aachen.de/xbmc`,
       },
     },
-    'gatsby-source-kodidists',
+    "gatsby-source-kodidists",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
