@@ -10,9 +10,9 @@ Once that is done, clone this repo. In your terminal `cd` to the directory and r
 
 There is one last thing to do after that. The site is currently using Patternfly 4 for layout, but the Patternfly theme comes bundles with Patternfly 3. To ensure the site renders correctly, you need to go to:
 
-`node_modules/gatsby-theme-patternfly/node_mdules`
+`node_modules/gatsby-theme-patternfly/`
 
-and delete the `@patternfly` directory there. 
+and delete the `node_modules` directory there. 
 
 For now my suggestion (until someone else suggests something else) is to create a branch just for yourself. After you switch to that branch, you should be able to do `gastby develop` to render a local copy of the site.  The `.gitignore` ensures that none of the node_module directory is included in the repo (which is why you had to do `npm install` at the beginning).
 
