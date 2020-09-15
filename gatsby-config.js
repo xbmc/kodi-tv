@@ -69,10 +69,27 @@ const topNav = [
 
 const sideNav = [
   {
-    // DO NOT DELETE THIS DICT
-    // the side nav requires at least one item (even if not used) that has an expandable link
-    // if you remove this everything will fail, I repeat
-    // DO NOT DELETE THIS DICT
+    rootPath: "/about",
+    nav: [
+      {
+        title: "Contact",
+        path: "/about/contact",
+      },
+      {
+        title: "Sponsors",
+        path: "/about/sponsors",
+      },
+      {
+        title: "Software",
+        path: "/about/Software",
+      },
+      {
+        title: "Foundation",
+        path: "/about/Foundation",
+      },
+    ],
+  },
+  {
     rootPath: "/addons",
     nav: [
       {
@@ -82,6 +99,23 @@ const sideNav = [
       {
         title: "Top Authors",
         path: "/addons/top-authors",
+      },
+    ],
+  },
+  {
+    rootPath: "/contribute",
+    nav: [
+      {
+        title: "Donate",
+        path: "/contribute/donate",
+      },
+      {
+        title: "Kodi Store",
+        path: "/contribute/kodi-store",
+      },
+      {
+        title: "Github",
+        path: "https://github.com/xbmc",
       },
     ],
   },
