@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import {
-  PageSidebar,
   Nav,
   NavList,
   NavExpandable,
@@ -66,7 +65,7 @@ const SideNav = ({ sideNav }) => (
         ));
 
       const PageNav = (
-        <Nav variant="horizontal" aria-label="Side Nav">
+        <Nav variant="tertiary" theme="dark" aria-label="Side Nav">
           <NavList>
             {renderNavGroups()}
           </NavList>
@@ -75,7 +74,7 @@ const SideNav = ({ sideNav }) => (
 
       return (
         <React.Fragment>
-          {PageNav}
+            {PageNav}
         </React.Fragment>
       );
     }}
