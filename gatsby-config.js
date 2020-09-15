@@ -70,6 +70,7 @@ const topNav = [
 const sideNav = [
   {
     rootPath: "/about",
+    menuType: "submenu",
     nav: [
       {
         title: "Contact",
@@ -91,6 +92,7 @@ const sideNav = [
   },
   {
     rootPath: "/addons",
+    menuType: "submenu",
     nav: [
       {
         title: "Search Add-Ons",
@@ -104,6 +106,7 @@ const sideNav = [
   },
   {
     rootPath: "/contribute",
+    menuType: "submenu",
     nav: [
       {
         title: "Donate",
@@ -125,6 +128,7 @@ const sideNav = [
     // if you remove this everything will fail, I repeat
     // DO NOT DELETE THIS DICT
     rootPath: "DONOTDELETETHIS",
+    menuType: "none",
     nav: [
       {
         // The text displayed on the item

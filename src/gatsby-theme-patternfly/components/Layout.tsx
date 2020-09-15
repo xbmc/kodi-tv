@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
           useSideNav
           mainContainerId
           sideNav {
+            menuType
             rootPath
             nav {
               title
@@ -85,7 +86,7 @@ const Layout = ({ children }) => {
           return false
         })
         const navItems =
-          matchingNav && matchingNav.length ? matchingNav[0].nav : null
+          matchingNav && matchingNav.length ? { "menuType": matchingNav[0].menuType, "nav":matchingNav[0].nav} : null
 
         const onPageResize = ({ mobileView }) => {
           if (mobileView !== deviceView) {
@@ -104,15 +105,20 @@ const Layout = ({ children }) => {
                 showNavToggle={navItems !== null && deviceView}
               />
             }
-            /* sidebar={
-              useSideNav && navItems ? <SideNav sideNav={navItems} /> : null
-            } */
+            sidebar={
+              useSideNav && navItems
+                ? navItems.menuType == 'sidenav' ? <SideNav sideNav={navItems.nav} /> : null
+                : null
+            }
             skipToContent={<SkipToContent mainContainerId={mainContainerId} />}
             mainContainerId={mainContainerId}
             // breadcrumb={<Breadcrumb />}
             style={{ height: "100vh" }}
           >
-            {useSideNav && navItems ? <PageSection variant={PageSectionVariants.dark}><SubMenu subMenu={navItems} /></PageSection> : null}
+            {useSideNav && navItems
+              ? navItems.menuType == 'submenu' ? <PageSection variant={PageSectionVariants.dark}><SubMenu subMenu={navItems.nav} /></PageSection> : null
+              : null
+            }
             <PageSection variant={PageSectionVariants.light} isFilled={true}>
               <MDXProvider>{children}</MDXProvider>
             </PageSection>
