@@ -103,12 +103,12 @@ const Layout = ({ children }) => {
                 showNavToggle={navItems !== null && deviceView}
               />
             }
-            sidebar={
+            /* sidebar={
               useSideNav && navItems ? <SideNav sideNav={navItems} /> : null
-            }
+            } */
             skipToContent={<SkipToContent mainContainerId={mainContainerId} />}
             mainContainerId={mainContainerId}
-            // breadcrumb={<Breadcrumb />}
+            breadcrumb={useSideNav && navItems ? <SideNav sideNav={navItems} /> : null}
             style={{ height: "100vh" }}
           >
             <PageSection variant={PageSectionVariants.light} isFilled={true}>

@@ -69,8 +69,28 @@ const topNav = [
 
 const sideNav = [
   {
-    // shows this side nav on the home page
-    rootPath: "/",
+    // DO NOT DELETE THIS DICT
+    // the side nav requires at least one item (even if not used) that has an expandable link
+    // if you remove this everything will fail, I repeat
+    // DO NOT DELETE THIS DICT
+    rootPath: "/addons",
+    nav: [
+      {
+        title: "Search Add-Ons",
+        path: "/addons/search",
+      },
+      {
+        title: "Top Authors",
+        path: "/addons/top-authors",
+      },
+    ],
+  },
+  {
+    // DO NOT DELETE THIS DICT
+    // the side nav requires at least one item (even if not used) that has an expandable link
+    // if you remove this everything will fail, I repeat
+    // DO NOT DELETE THIS DICT
+    rootPath: "DONOTDELETETHIS",
     nav: [
       {
         // The text displayed on the item
@@ -128,7 +148,7 @@ module.exports = {
         // enable or disable the top nav (default true)
         useTopNav: true,
         // enable or disable the side navs (default true)
-        useSideNav: false,
+        useSideNav: true,
         // one or more top navigation definitions
         topNav: topNav,
         // one or more side navigation definitions
