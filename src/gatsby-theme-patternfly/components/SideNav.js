@@ -75,6 +75,7 @@ const SideNav = ({ sideNav }) => (
       return (
         <React.Fragment>
             {PageNav}
+            <hr />
         </React.Fragment>
       );
     }}
