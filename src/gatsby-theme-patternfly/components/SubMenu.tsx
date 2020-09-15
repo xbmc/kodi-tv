@@ -9,7 +9,7 @@ import {
 import { Location } from '@reach/router';
 import PropTypes from 'prop-types';
 
-const SideNav = ({ sideNav }) => (
+const SubMenu = ({ subMenu }) => (
   <Location>
     {({ location }) => {
       const normalizePath = path => {
@@ -36,7 +36,7 @@ const SideNav = ({ sideNav }) => (
 
       // expandable nav groups
       const renderNavGroups = () =>
-        sideNav.map(item => {
+        subMenu.map(item => {
           if (!item.pages) {
             return (
               <NavItem itemId={item.path} key={item.path} isActive={isActiveTest(item.path)}>
@@ -65,7 +65,7 @@ const SideNav = ({ sideNav }) => (
         ));
 
       const PageNav = (
-        <Nav variant="tertiary" theme="dark" aria-label="Side Nav">
+        <Nav variant="tertiary" aria-label="Side Nav">
           <NavList>
             {renderNavGroups()}
           </NavList>
@@ -75,15 +75,14 @@ const SideNav = ({ sideNav }) => (
       return (
         <React.Fragment>
             {PageNav}
-            <hr />
         </React.Fragment>
       );
     }}
   </Location>
 );
 
-SideNav.propTypes = {
-  sideNav: PropTypes.any
+SubMenu.propTypes = {
+  subMenu: PropTypes.any
 };
 
-export default SideNav;
+export default SubMenu;

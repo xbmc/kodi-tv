@@ -13,6 +13,7 @@ import PropTypes from "prop-types"
 import { graphql, useStaticQuery } from "gatsby"
 import { Location } from "@reach/router"
 import Footer from "./Footer"
+import SubMenu from "./SubMenu"
 
 const Layout = ({ children }) => {
   const [deviceView, setDeviceView] = useState(false)
@@ -108,9 +109,10 @@ const Layout = ({ children }) => {
             } */
             skipToContent={<SkipToContent mainContainerId={mainContainerId} />}
             mainContainerId={mainContainerId}
-            breadcrumb={useSideNav && navItems ? <SideNav sideNav={navItems} /> : null}
+            // breadcrumb={<Breadcrumb />}
             style={{ height: "100vh" }}
           >
+            {useSideNav && navItems ? <PageSection variant={PageSectionVariants.dark}><SubMenu subMenu={navItems} /></PageSection> : null}
             <PageSection variant={PageSectionVariants.light} isFilled={true}>
               <MDXProvider>{children}</MDXProvider>
             </PageSection>
