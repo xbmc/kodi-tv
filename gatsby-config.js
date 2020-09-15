@@ -82,11 +82,11 @@ const sideNav = [
       },
       {
         title: "Software",
-        path: "/about/Software",
+        path: "/about/software",
       },
       {
         title: "Foundation",
-        path: "/about/Foundation",
+        path: "/about/foundation",
       },
     ],
   },
