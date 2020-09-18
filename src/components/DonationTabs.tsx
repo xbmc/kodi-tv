@@ -11,6 +11,7 @@ import {
   TextVariants,
 } from '@patternfly/react-core'
 import FormBitcoin from 'src/components/FormBitcoin'
+import FormPaypal from 'src/components/FormPaypal'
 
 class DonationTabs extends React.Component {
   constructor(private props: {releases: {name: string, id: string, downloads: {
@@ -37,7 +38,16 @@ class DonationTabs extends React.Component {
     return (
       <div>
         <Tabs activeKey={activeTabKey} onSelect={this.handleTabClick} isBox={isBox}>
-          <Tab eventKey="1" title=<TabTitleText>Patreon</TabTitleText>>
+          <Tab eventKey="1" title=<TabTitleText>PayPal</TabTitleText>>
+            <div style={{'paddingTop': '15px'}}>
+            <Stack hasGutter>
+              <StackItem>
+                <FormPaypal />
+              </StackItem>
+            </Stack>
+            </div>
+          </Tab>
+          <Tab eventKey="patreon" title=<TabTitleText>Patreon</TabTitleText>>
             <div style={{'paddingTop': '15px'}}>
             <Stack hasGutter>
               <StackItem>
