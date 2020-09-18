@@ -7,12 +7,17 @@ export default function categoryIconList(props: {
   width: string | undefined
   marginleft: string | undefined
   marginright: string | undefined
-  linkroot: any
+  iconwidth: string | undefined
+  iconheight: string | undefined
+  linkroot: string | undefined
 }) {
   let items = []
   let width = "100%"
   let marginleft = "0%"
   let marginright = "0%"
+  let iconwidth = "150"
+  let iconheight = "150"
+  let linkroot = ""
   if (props.items[0].node !== undefined) {
     props.items.map((item: { node: any }, index: any) => items.push(item.node))
   } else {
@@ -26,6 +31,15 @@ export default function categoryIconList(props: {
   }
   if (props.marginright !== undefined) {
     marginright = props.marginright
+  }
+  if (props.linkroot !== undefined) {
+    linkroot = props.linkroot
+  }
+  if (props.iconwidth !== undefined) {
+    iconwidth = props.iconwidth
+  }
+  if (props.iconheight !== undefined) {
+    iconheight = props.iconheight
   }
 
   return (
@@ -41,11 +55,11 @@ export default function categoryIconList(props: {
         {items.map((item, index) => (
           <GalleryItem>
             <div align="center">
-              <Link to={props.linkroot + item.slug}>
-                <img width="150" height="150" alt="" src={item.icon} />
+              <Link to={linkroot + item.slug}>
+                <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
               </Link>
               <div>
-                <Link to={props.linkroot + item.slug}>{item.name}</Link>
+                <Link to={linkroot + item.slug}>{item.name}</Link>
               </div>
             </div>
           </GalleryItem>

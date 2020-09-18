@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-source-kodistore",
+  "version": "1.0.0",
+  "description": "A source plugin to get store items from a YAML file and create nodes for them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "pkscout <pkscout@kodi.tv>",
+  "license": "GPL-3-ONLY",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "util": "^0.12.3"
+  }
+}

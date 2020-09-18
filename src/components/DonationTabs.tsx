@@ -161,7 +161,7 @@ class DonationTabs extends React.Component {
                 </TextContent>
               </StackItem>
               <StackItem>
-                <Button component="a" href="/contribute/store" variant="primary">
+                <Button component="a" href="/store" variant="primary">
                   Buy Kodi Merch
                 </Button>
               </StackItem>
