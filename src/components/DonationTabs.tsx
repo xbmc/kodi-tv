@@ -74,7 +74,7 @@ class DonationTabs extends React.Component {
               <StackItem>
                 <TextContent>
                   <Text component={TextVariants.p}>
-                    You can now <a href="https://liberapay.com/teamkodi">support Team Kodi on Liberapay</a>.
+                    You can now <a target="_blank" href="https://liberapay.com/teamkodi">support Team Kodi on Liberapay</a>.
                   </Text>
                   <Text component={TextVariants.p}>
                     Liberapay is a non-profit organization providing a platform to donate money to teams, organizations and individuals.
@@ -107,12 +107,12 @@ class DonationTabs extends React.Component {
                     <b>Wire transfers are available only in countries which is part of SEPA (Single Euro Payments Area).</b>
                   </Text>
                   <Text component={TextVariants.p}>
-                    Wire transfer or credit transfer is a method of <a href="http://en.wikipedia.org/wiki/Electronic_funds_transfer">electronic funds transfer</a> from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
+                    Wire transfer or credit transfer is a method of <a target="_blank" href="http://en.wikipedia.org/wiki/Electronic_funds_transfer">electronic funds transfer</a> from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
                   </Text>
                 </TextContent>
               </StackItem>
               <StackItem>
-                <Button component="a" href="/contribute/donate-by-wire-transfer" target="_blank" variant="primary">
+                <Button component="a" href="/donate/by-wire-transfer" variant="primary">
                   Donate via Wire Transfer
                 </Button>
               </StackItem>
@@ -135,6 +135,24 @@ class DonationTabs extends React.Component {
               <StackItem>
                 <Button component="a" href="https://smile.amazon.com/ch/47-4565769" target="_blank" variant="primary">
                   Shop with Amazon Smile
+                </Button>
+              </StackItem>
+            </Stack>
+            </div>
+          </Tab>
+          <Tab eventKey="buymerch" title=<TabTitleText>Buy Kodi Merch</TabTitleText>>
+            <div style={{'paddingTop': '15px'}}>
+            <Stack hasGutter>
+              <StackItem>
+                <TextContent>
+                  <Text component={TextVariants.p}>
+                    Purchasing Kodi gear helps just as much as a donation, and you get something in return! Checkout our store for Kodi branded gear. We are regularly adding new products so check back often.
+                  </Text>
+                </TextContent>
+              </StackItem>
+              <StackItem>
+                <Button component="a" href="/contribute/store" variant="primary">
+                  Buy Kodi Merch
                 </Button>
               </StackItem>
             </Stack>

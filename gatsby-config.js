@@ -53,9 +53,9 @@ const topNav = [
     // The text displayed on the item
     title: "Donate",
     // The root path that enables/activates the item
-    rootPath: "/contribute/donate",
+    rootPath: "/donate",
     // The page that is actually linked to when the item is clicked
-    path: "/contribute/donate",
+    path: "/donate",
   },
   {
     // The text displayed on the item
