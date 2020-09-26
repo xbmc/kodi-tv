@@ -13,7 +13,7 @@ export default function Category({ data }) {
         <Layout>
             <TextContent>
                 <Text component={TextVariants.h1}>{category.name}</Text>
-                <Text>This is the page for the {category.name} category. This category has {category.totaladdons} addons in it.</Text>
+                <Text>This category has {category.totaladdons} addons in it.</Text>
             </TextContent>
             <IconList items={category.addons} linkroot='/addons/' />
         </Layout>
