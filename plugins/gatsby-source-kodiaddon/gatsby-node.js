@@ -368,6 +368,7 @@ function createCategoryNode(category) {
   categorycheck = categories.find(o => o.id === newcategory.name)
   if (categorycheck == undefined) {
     newcategory.id = newcategory.name
+    newcategory.grouping = setCategoryGrouping(newcategory.name)
     newcategory.addons = [addon]
     categories.push(newcategory)
   } else {
@@ -375,6 +376,37 @@ function createCategoryNode(category) {
     if (addoncheck == undefined) {
       categorycheck.addons.push(addon)
     }
+  }
+}
+
+function setCategoryGrouping(name) {
+  switch (name.toLowerCase()) {
+    case "game clients":
+      return "Games"
+    case "controller profiles":
+      return "Games"
+    case "album information providers":
+      return "Information providers"
+    case "artist information providers":
+      return "Information providers"
+    case "movie information providers":
+      return "Information providers"
+    case "music video information providers":
+      return "Information providers"
+    case "tv information providers":
+      return "Information providers"
+    case "image collections":
+      return "Look and feel"
+    case "languages":
+      return "Look and feel"
+    case "screensavers":
+      return "Look and feel"
+    case "skins":
+      return "Look and feel"
+    case "gui sounds":
+      return "Look and feel"
+    default:
+      return "Other"
   }
 }
 
