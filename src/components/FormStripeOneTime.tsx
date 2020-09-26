@@ -50,8 +50,8 @@ class FormStripeOneTime extends React.Component {
           {price: currency, quantity: parseInt(price)}
         ],
         mode: 'payment',
-        successUrl: 'https://example.com/success',
-        cancelUrl: 'https://example.com/cancel',
+        successUrl: 'https://pkscout.github.io/donate/success',
+        cancelUrl: 'https://pkscout.github.io/donate',
         });
       };
 

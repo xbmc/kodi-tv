@@ -16,8 +16,8 @@ export default function ButtonStripe(props: {
         {price: props.price_id, quantity: 1}
       ],
       mode: 'subscription',
-      successUrl: 'https://example.com/success',
-      cancelUrl: 'https://example.com/cancel',
+      successUrl: 'https://pkscout.github.io/donate/success',
+      cancelUrl: 'https://pkscout.github.io/donate',
     });
     // If `redirectToCheckout` fails due to a browser or network
     // error, display the localized error message to your customer
