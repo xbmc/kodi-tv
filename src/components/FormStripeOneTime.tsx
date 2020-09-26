@@ -10,10 +10,7 @@ import {
   Button,
 } from '@patternfly/react-core';
 import ExclamationCircleIcon from '@patternfly/react-icons/dist/js/icons/exclamation-circle-icon';
-// import ButtonStripe from 'src/components/ButtonStripe'
-import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe('pk_test_AusUaUG7C3wVHkOQCs5WbcaO00ssVzaCom');
 
 class FormStripeOneTime extends React.Component {
   constructor(props) {
@@ -22,6 +19,7 @@ class FormStripeOneTime extends React.Component {
       currency: 'price_1HVRC7DOVUu6yhjNHWNMz6Zf',
       price: '',
       validated: 'noval',
+      stripePromise: props.stripePromise
     };
     this.onChange = (currency, event) => {
       this.setState({ currency });
@@ -41,7 +39,7 @@ class FormStripeOneTime extends React.Component {
 
   render() {
 
-    const { currency, price, validated } = this.state;
+    const { currency, price, validated, stripePromise } = this.state;
 
     const handleClick = async (event) => {
       // When the customer clicks on the button, redirect them to Checkout.
@@ -104,22 +102,3 @@ class FormStripeOneTime extends React.Component {
 }
 
 export default FormStripeOneTime
-
-
-/*
-class FormStripe extends React.Component {
-
-  render() {
-    return (
-      <ButtonStripe
-        stripe_promise={stripePromise}
-        price_id="price_1HVOzxDOVUu6yhjN3egdFr4Z"
-        mode="payment"
-        button_text="Donate $5.00 once"
-      />
-    );
-  }
-}
-
-export default FormStripe
-*/

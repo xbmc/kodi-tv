@@ -3,20 +3,19 @@ import { Button } from '@patternfly/react-core';
 
 
 export default function ButtonStripe(props: {
-  stripe_promise: any | undefined
+  stripePromise: any | undefined
   price_id: string | undefined
-  mode: string | undefined
   button_text: string | undefined
 }) {
   const handleClick = async (event) => {
     // When the customer clicks on the button, redirect them to Checkout.
-    const stripe = await props.stripe_promise;
+    const stripe = await props.stripePromise;
     const { error } = await stripe.redirectToCheckout({
       lineItems: [
         // Replace with the ID of your price
-        {price: props.price_id, quantity: 3}
+        {price: props.price_id, quantity: 1}
       ],
-      mode: props.mode,
+      mode: 'subscription',
       successUrl: 'https://example.com/success',
       cancelUrl: 'https://example.com/cancel',
     });
