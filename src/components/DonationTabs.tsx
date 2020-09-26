@@ -125,7 +125,7 @@ class DonationTabs extends React.Component {
               <StackItem>
                 <TextContent>
                   <Text component={TextVariants.p}>
-                    <b>Wire transfers are available only in countries which is part of SEPA (Single Euro Payments Area).</b>
+                    <b>Wire transfers are available only in countries which are part of SEPA (Single Euro Payments Area).</b>
                   </Text>
                   <Text component={TextVariants.p}>
                     Wire transfer or credit transfer is a method of <a target="_blank" href="http://en.wikipedia.org/wiki/Electronic_funds_transfer">electronic funds transfer</a> from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
