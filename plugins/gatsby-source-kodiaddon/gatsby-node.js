@@ -11,8 +11,6 @@ const fs = require("fs")
 const inspect = require("util").inspect // this is only here to inspect the json during debugging
 
 const ADDON_NODE_TYPE = "Addon"
-const ADDON_CLONE_TYPE = "AddonClone"
-const ADDON_CLONETWO_TYPE = "AddonCloneTwo"
 const AUTHOR_NODE_TYPE = "Author"
 const CATEGORY_NODE_TYPE = "Category"
 const PIXIE_MEMORY = "src/data/addonhistory.json"
@@ -157,32 +155,6 @@ exports.sourceNodes = async ({
         children: [],
         internal: {
           type: ADDON_NODE_TYPE,
-          content: JSON.stringify(addon),
-          contentDigest: createContentDigest(addon),
-        },
-      })
-    )
-    addons.forEach(addon =>
-      createNode({
-        ...addon,
-        id: createNodeId(`${ADDON_CLONE_TYPE}-${addon.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: ADDON_CLONE_TYPE,
-          content: JSON.stringify(addon),
-          contentDigest: createContentDigest(addon),
-        },
-      })
-    )
-    addons.forEach(addon =>
-      createNode({
-        ...addon,
-        id: createNodeId(`${ADDON_CLONETWO_TYPE}-${addon.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: ADDON_CLONETWO_TYPE,
           content: JSON.stringify(addon),
           contentDigest: createContentDigest(addon),
         },
@@ -368,6 +340,7 @@ function createCategoryNode(category) {
   categorycheck = categories.find(o => o.id === newcategory.name)
   if (categorycheck == undefined) {
     newcategory.id = newcategory.name
+    newcategory.grouping = setCategoryGrouping(newcategory.name)
     newcategory.addons = [addon]
     categories.push(newcategory)
   } else {
@@ -375,6 +348,37 @@ function createCategoryNode(category) {
     if (addoncheck == undefined) {
       categorycheck.addons.push(addon)
     }
+  }
+}
+
+function setCategoryGrouping(name) {
+  switch (name.toLowerCase()) {
+    case "game clients":
+      return "Games"
+    case "controller profiles":
+      return "Games"
+    case "album information providers":
+      return "Information providers"
+    case "artist information providers":
+      return "Information providers"
+    case "movie information providers":
+      return "Information providers"
+    case "music video information providers":
+      return "Information providers"
+    case "tv information providers":
+      return "Information providers"
+    case "image collections":
+      return "Look and feel"
+    case "languages":
+      return "Look and feel"
+    case "screensavers":
+      return "Look and feel"
+    case "skins":
+      return "Look and feel"
+    case "gui sounds":
+      return "Look and feel"
+    default:
+      return "Other"
   }
 }
 

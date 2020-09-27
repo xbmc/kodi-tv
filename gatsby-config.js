@@ -11,19 +11,27 @@ const topNav = [
   },
   {
     // The text displayed on the item
-    title: "Add-ons",
-    // The root path that enables/activates the item
-    rootPath: "/addons",
-    // The page that is actually linked to when the item is clicked
-    path: "/addons",
-  },
-  {
-    // The text displayed on the item
     title: "News",
     // The root path that enables/activates the item
     rootPath: "/blog",
     // The page that is actually linked to when the item is clicked
     path: "/blog",
+  },
+  {
+    // The text displayed on the item
+    title: "Download",
+    // The root path that enables/activates the item
+    rootPath: "/Download",
+    // The page that is actually linked to when the item is clicked
+    path: "/download",
+  },
+  {
+    // The text displayed on the item
+    title: "Add-ons",
+    // The root path that enables/activates the item
+    rootPath: "/addons",
+    // The page that is actually linked to when the item is clicked
+    path: "/addons",
   },
   {
     // The text displayed on the item
@@ -53,17 +61,17 @@ const topNav = [
     // The text displayed on the item
     title: "Donate",
     // The root path that enables/activates the item
-    rootPath: "/contribute/donate",
+    rootPath: "/donate",
     // The page that is actually linked to when the item is clicked
-    path: "/contribute/donate",
+    path: "/donate",
   },
   {
     // The text displayed on the item
-    title: "Download",
+    title: "Store",
     // The root path that enables/activates the item
-    rootPath: "/Download",
+    rootPath: "/store",
     // The page that is actually linked to when the item is clicked
-    path: "/download",
+    path: "/store",
   },
 ]
 
@@ -201,6 +209,7 @@ module.exports = {
       },
     },
     "gatsby-source-kodidists",
+    "gatsby-source-kodistore",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
