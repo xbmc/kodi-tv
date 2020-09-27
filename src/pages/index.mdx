@@ -1,5 +1,63 @@
-# Home Page
+import { Button } from '@patternfly/react-core';
+import ArrowRightIcon from '@patternfly/react-icons/dist/js/icons/arrow-right-icon';
+import IconList from "src/components/IconList"
 
-## Information on the Dev Site
+<div style={{ marginTop: "-150px", overflow: "hidden", maxHeight: "540px", marginRight: "-55px", marginLeft: "-55px" }}>
+  <img alt="" src="/images/heroes/addons.jpg" />
+</div>
 
-This is a proptype concept for a replacement for Kodi's drupal based web site.
+# Kodi does it all
+
+Got a smart TV? You ain't seen nothin’ yet! Kodi puts your smart TV to shame.
+
+#  Kodi runs on just about anything
+
+Kodi runs on a huge range of devices and operating systems.
+
+<IconList
+  items={
+    [
+      {slug: '/download', icon: '/images/distributions/windows.png', name: 'Windows'},
+      {slug: '/download', icon: '/images/distributions/macos.png', name: 'MacOS, iOS, tvOS'},
+      {slug: '/download', icon: '/images/distributions/android.png', name: 'Android'},
+      {slug: '/download', icon: '/images/distributions/linux.png', name: 'Linux'},
+      {slug: '/download', icon: '/images/distributions/raspberry-pi.png', name: 'Raspberry Pi'},
+    ]
+  }
+  iconwidth="100"
+/>
+
+# Manage your media your way
+
+<div style="padding-bottom: 10px">
+<Gallery hasGutter>
+  <GalleryItem>
+    <h3>Music</h3>
+    Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.
+  </GalleryItem>
+  <GalleryItem>
+    <h3>Movies</h3>
+    So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast genres and more.
+  </GalleryItem>
+  <GalleryItem>
+    <h3>TV Shows</h3>
+    Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your tv organised like nothing else.
+  </GalleryItem>
+  <GalleryItem>
+    <h3>Photos</h3>
+    Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.
+  </GalleryItem>
+</Gallery>
+</div>
+
+#  But wait, there is more...
+
+You can [get a new skin](/addons/category/skins) to change the look of Kodi, or [install a PVR addon](/addons/category/pvr-clients) to watch and record your favourite tv shows. Maybe you want to [stream your favourite internet radio station](/addons/category/music-addons) and control it all with your web browser or mobile phone? [This and so much more is all possible](/addons) and easy with Kodi.
+
+<Button variant="link" component="a" href="/about" isLarge>Show me all the good bits <ArrowRightIcon/></Button>
+
+# We need your help
+
+You can help in so many different ways. As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contibute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
+
+<Button variant="link" component="a" href="/contribute" isLarge>Other ways to help <ArrowRightIcon/></Button>
