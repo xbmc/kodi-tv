@@ -11,8 +11,6 @@ const fs = require("fs")
 const inspect = require("util").inspect // this is only here to inspect the json during debugging
 
 const ADDON_NODE_TYPE = "Addon"
-const ADDON_CLONE_TYPE = "AddonClone"
-const ADDON_CLONETWO_TYPE = "AddonCloneTwo"
 const AUTHOR_NODE_TYPE = "Author"
 const CATEGORY_NODE_TYPE = "Category"
 const PIXIE_MEMORY = "src/data/addonhistory.json"
@@ -157,32 +155,6 @@ exports.sourceNodes = async ({
         children: [],
         internal: {
           type: ADDON_NODE_TYPE,
-          content: JSON.stringify(addon),
-          contentDigest: createContentDigest(addon),
-        },
-      })
-    )
-    addons.forEach(addon =>
-      createNode({
-        ...addon,
-        id: createNodeId(`${ADDON_CLONE_TYPE}-${addon.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: ADDON_CLONE_TYPE,
-          content: JSON.stringify(addon),
-          contentDigest: createContentDigest(addon),
-        },
-      })
-    )
-    addons.forEach(addon =>
-      createNode({
-        ...addon,
-        id: createNodeId(`${ADDON_CLONETWO_TYPE}-${addon.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: ADDON_CLONETWO_TYPE,
           content: JSON.stringify(addon),
           contentDigest: createContentDigest(addon),
         },
