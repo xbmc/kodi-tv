@@ -89,7 +89,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    NewAddons: allAddon(limit: 4, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
+    NewAddons: allAddon(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
       edges {
         node {
           name
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    UpdatedAddons: allAddon(limit: 4, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
+    UpdatedAddons: allAddon(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
       edges {
         node {
           name

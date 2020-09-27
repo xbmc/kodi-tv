@@ -51,10 +51,10 @@ export default function categoryIconList(props: {
         paddingTop: "10px",
       }}
     >
-      <Gallery hasGutter>
+      <Gallery>
         {items.map((item, index) => (
           <GalleryItem>
-            <div align="center">
+            <div align="center" style={{paddingBottom: "15px"}}>
               <Link to={linkroot + item.slug}>
                 <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
               </Link>
