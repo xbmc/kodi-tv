@@ -1,0 +1,21 @@
+import { graphql } from "gatsby"
+import ListTopAuthors from "src/components/ListTopAuthors"
+
+# Top Add-On Authors
+
+<ListTopAuthors authors={props.data.allAuthor.edges} />
+
+export const pageQuery = graphql`
+  query {
+    allAuthor(limit: 28, sort: {fields: [totaladdons, name], order: [DESC, ASC]}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+          totaladdons
+        }
+      }
+    }
+  }
+`
