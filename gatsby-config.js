@@ -113,24 +113,6 @@ const sideNav = [
     ],
   },
   {
-    rootPath: "/contribute",
-    menuType: "submenu",
-    nav: [
-      {
-        title: "Donate",
-        path: "/contribute/donate",
-      },
-      {
-        title: "Kodi Store",
-        path: "/contribute/kodi-store",
-      },
-      {
-        title: "Github",
-        path: "https://github.com/xbmc",
-      },
-    ],
-  },
-  {
     // DO NOT DELETE THIS DICT
     // the side nav requires at least one item (even if not used) that has an expandable link
     // if you remove this everything will fail, I repeat
