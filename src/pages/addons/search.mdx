@@ -1,0 +1,34 @@
+import { graphql } from "gatsby"
+import SearchAddons from 'src/components/SearchAddons'
+
+# Search Addons
+
+<SearchAddons addons={props.data.allAddon.nodes} categories={props.data.allCategory.edges} />
+
+
+export const pageQuery = graphql`
+  query {
+    allAddon(sort: {fields: name, order: ASC}) {
+      nodes {
+        name
+        icon
+        slug
+        lastupdate
+        description
+        categories {
+          name
+        }
+        authors {
+          name
+        }
+      }
+    }
+    allCategory(sort: {fields: name, order: ASC}) {
+      edges {
+        node {
+          name
+        }
+      }
+    }
+  }
+`
