@@ -211,6 +211,7 @@ export default class SearchAddons extends React.Component {
       results,
       firstrun
     } = this.state;
+    let search_disabled = !(keyword || author || categorySelected)
 
     const categoryGroupItems = (
       <React.Fragment>
@@ -294,7 +295,7 @@ export default class SearchAddons extends React.Component {
     const buttonGroupItems = (
       <React.Fragment>
         <ToolbarItem>
-          <Button variant="primary" role="link" onClick={this.doSearch}>Search</Button>
+          <Button isDisabled={search_disabled} variant="primary" role="link" onClick={this.doSearch}>Search</Button>
         </ToolbarItem>
         <ToolbarItem>
           <Button variant="secondary" role="link" onClick={this.onClear}>Reset</Button>
