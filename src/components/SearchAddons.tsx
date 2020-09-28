@@ -3,7 +3,56 @@ import { Toolbar, ToolbarContent, ToolbarGroup, ToolbarItem } from '@patternfly/
 import { Button, Select, SelectOption, SelectVariant } from '@patternfly/react-core';
 import { InputGroup, TextInput } from '@patternfly/react-core';
 import IconList from './IconList'
+import SearchAddonsNoResults from './SearchAddonsNoResults'
 
+
+function nameSortAsc(a, b) {
+  const bandA = a.name.toUpperCase()
+  const bandB = b.name.toUpperCase()
+  let comparison = 0
+  if (bandA > bandB) {
+    comparison = 1
+  } else if (bandA < bandB) {
+    comparison = -1
+  }
+  return comparison
+}
+
+function nameSortDesc(a, b) {
+  const bandA = a.name.toUpperCase()
+  const bandB = b.name.toUpperCase()
+  let comparison = 0
+  if (bandA < bandB) {
+    comparison = 1
+  } else if (bandA > bandB) {
+    comparison = -1
+  }
+  return comparison
+}
+
+function dateSortAsc(a, b) {
+  const bandA = a.lastupdate.toUpperCase()
+  const bandB = b.lastupdate.toUpperCase()
+  let comparison = 0
+  if (bandA < bandB) {
+    comparison = 1
+  } else if (bandA > bandB) {
+    comparison = -1
+  }
+  return comparison
+}
+
+function dateSortDesc(a, b) {
+  const bandA = a.lastupdate.toUpperCase()
+  const bandB = b.lastupdate.toUpperCase()
+  let comparison = 0
+  if (bandA > bandB) {
+    comparison = 1
+  } else if (bandA < bandB) {
+    comparison = -1
+  }
+  return comparison
+}
 
 export default class SearchAddons extends React.Component {
   constructor(props) {
@@ -14,8 +63,10 @@ export default class SearchAddons extends React.Component {
       categorySelected: null,
       sortIsExpanded: false,
       sortSelected: null,
-      keyword: null,
-      results: null
+      keyword: '',
+      author: '',
+      results: null,
+      firstrun: true
     };
 
     this.categoryOptions = [{ value: 'Select category', disabled: false, isPlaceholder: true }]
@@ -30,6 +81,19 @@ export default class SearchAddons extends React.Component {
       { value: 'Latest Update', disabled: false },
       { value: 'Oldest Update', disabled: false }
     ];
+    
+    this.onClear = () => {
+      this.setState({
+        categoryIsExpanded: false,
+        categorySelected: null,
+        sortIsExpanded: false,
+        sortSelected: null,
+        keyword: '',
+        author: '',
+        results: null,
+        firstrun: true
+      })
+    }
 
     this.onCategoryToggle = isExpanded => {
       this.setState({
@@ -58,15 +122,26 @@ export default class SearchAddons extends React.Component {
     };
 
     this.onKeywordChange = keyword => {
+      if (keyword === ''){
+        keyword = null
+      }
       this.setState({ keyword });
     };
+
+    this.onAuthorChange = author => {
+      if (author === ''){
+        author = null
+      }
+      this.setState({ author });
+    };
     
-    this.handleClick = (event) => {
+    this.doSearch = (event) => {
+      this.state.firstrun = false
       let filtered_results = null
       props.addons.forEach(addon => {
-        // what the fuck do I do here
         let category_match = false
         let keyword_match = false
+        let author_match = false
         if (this.state.categorySelected == null) {
           category_match = true
         } else {
@@ -75,25 +150,50 @@ export default class SearchAddons extends React.Component {
             category_match = true
           }
         }
-        if (this.state.keyword == null) {
+        if (this.state.author == '') {
+          author_match = true
+        } else {
+          let authorcheck = addon.authors.find(o => o.name.toLowerCase() == this.state.author.toLowerCase())
+          if (authorcheck != undefined) {
+            author_match = true
+          }
+        }
+        if (this.state.keyword == '') {
           keyword_match = true
         } else {
+          const regex = new RegExp('\\b' + this.state.keyword + '\\b', 'i');
           if (addon.description !== null) {
-            if (addon.description.toLowerCase().includes(this.state.keyword.toLowerCase())) {
+            if (regex.test(addon.description)) {
               keyword_match = true                
             }
           }
-          if (addon.name.toLowerCase().includes(this.state.keyword.toLowerCase())) {
-           keyword_match = true        
-          }  
+          if (regex.test(addon.description)) {
+            keyword_match = true                
+          }
         }
-        if (category_match && keyword_match) {
+        if (category_match && keyword_match && author_match) {
           if (filtered_results == null) {
             filtered_results = []
           }
           filtered_results.push(addon)
         }
       });
+      if (filtered_results != null && this.state.sortSelected != null) {
+        switch(this.state.sortSelected.toLowerCase()) {
+          case "a to z":
+            filtered_results = filtered_results.sort(nameSortAsc)
+            break
+          case "z to a":
+            filtered_results = filtered_results.sort(nameSortDesc)
+            break
+          case "latest update":
+            filtered_results = filtered_results.sort(dateSortAsc)
+            break
+          case "oldest update":
+            filtered_results = filtered_results.sort(dateSortDesc)
+            break
+        }
+      }
       this.setState({
         results: filtered_results
       });
@@ -107,7 +207,9 @@ export default class SearchAddons extends React.Component {
       sortIsExpanded,
       sortSelected,
       keyword,
-      results
+      author,
+      results,
+      firstrun
     } = this.state;
 
     const categoryGroupItems = (
@@ -141,6 +243,7 @@ export default class SearchAddons extends React.Component {
               name="keyword"
               id="keyword"
               type="search"
+              value={keyword}
               aria-label="keyword to search"
               onChange={this.onKeywordChange}
             />
@@ -156,7 +259,14 @@ export default class SearchAddons extends React.Component {
         </ToolbarItem>
         <ToolbarItem>
           <InputGroup>
-            <TextInput name="author" id="author" type="search" aria-label="author to search" />
+            <TextInput
+              name="author"
+              id="author"
+              type="search"
+              value={author}
+              aria-label="author to search"
+              onChange={this.onAuthorChange}
+            />
           </InputGroup>
         </ToolbarItem>
       </React.Fragment>
@@ -184,7 +294,10 @@ export default class SearchAddons extends React.Component {
     const buttonGroupItems = (
       <React.Fragment>
         <ToolbarItem>
-          <Button variant="primary" role="link" onClick={this.handleClick}>Search</Button>
+          <Button variant="primary" role="link" onClick={this.doSearch}>Search</Button>
+        </ToolbarItem>
+        <ToolbarItem>
+          <Button variant="secondary" role="link" onClick={this.onClear}>Reset</Button>
         </ToolbarItem>
       </React.Fragment>
     );
@@ -194,7 +307,7 @@ export default class SearchAddons extends React.Component {
         <ToolbarGroup variant="filter-group">{categoryGroupItems}</ToolbarGroup>
         <ToolbarGroup variant="filter-group">{keywordGroupItems}</ToolbarGroup>
         <ToolbarGroup variant="filter-group">{authorGroupItems}</ToolbarGroup>
-        <ToolbarGroup variant="sort-group">{sortGroupItems}</ToolbarGroup>
+        <ToolbarGroup variant="filter-group">{sortGroupItems}</ToolbarGroup>
         <ToolbarGroup variant="button-group">{buttonGroupItems}</ToolbarGroup>
       </React.Fragment>
     );
@@ -202,12 +315,12 @@ export default class SearchAddons extends React.Component {
 
     return (
       <React.Fragment>
-        <Toolbar id="toolbar-group-types">
+        <Toolbar id="addon-search-toolbar">
           <ToolbarContent>{items}</ToolbarContent>
         </Toolbar>
         {
           results === null
-          ? 'no results'
+          ? <SearchAddonsNoResults firstrun={firstrun} />
           : <IconList items={results} linkroot='/addons/' />
         }
       </React.Fragment>

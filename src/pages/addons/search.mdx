@@ -13,9 +13,12 @@ export const pageQuery = graphql`
         name
         icon
         slug
-        lastupdate(formatString: "YYYY-MM-DD")
+        lastupdate
         description
         categories {
+          name
+        }
+        authors {
           name
         }
       }
