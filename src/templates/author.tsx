@@ -16,8 +16,7 @@ export default function Category({
       <TextContent>
         <Text component={TextVariants.h1}>{author.name}</Text>
         <Text>
-          This is the page for {author.name}. They have {author.totaladdons}{" "}
-          add-ons.
+          {author.name} has {author.totaladdons}{" "}add-ons.
         </Text>
       </TextContent>
       <IconList items={author.addons} linkroot="/addons/" />
