@@ -18,27 +18,25 @@ class FormPaypal extends React.Component {
     super(props);
     this.state = {
       currency_code: 'USD',
-      os0: 'Mention my name',
-      os1: '',
       amount: '',
       validated: 'noval',
       selectedItem: 'One time donation',
+      qpselectedItem: 'One+time+donation'
     };
-    this.onCurrencyChange = (currency, event) => {
-      this.setState({ currency });
-    };
-    this.onMentionChange = (os0, event) => {
-      this.setState({ os0 });
+    this.onCurrencyCodeChange = (currency_code, event) => {
+      this.setState({ currency_code });
     };
     this.handleAmountChange = amount => {
       this.setState({ amount, validated: amount === '' ? 'noval' : /^\d+$/.test(amount) ? 'success' : 'error' });
     };
-    this.handleForumUsernameChange = os1 => {
-      this.setState({ os1 });
-    };
     this.handleItemNameChange = (_, event) => {
       const { value } = event.currentTarget;
       this.setState({ selectedItem: value });
+      if (value == 'recurring') {
+        this.setState({qpselectedItem: 'Recurring+(per+month)'})
+      } else {
+        this.setState({qpselectedItem: 'One+time+donation'})      
+      }
     };
     this.coptions = [
       { value: 'USD', label: '$ USD', disabled: false },
@@ -48,24 +46,20 @@ class FormPaypal extends React.Component {
       { value: 'AUD', label: '$ AUD', disabled: false },
       { value: 'JPY', label: '¥ JPY', disabled: false }
     ];
-    this.doptions = [
-      { value: 'Mention my name', label: 'Mention my name', disabled: false },
-      { value: 'Don\'t mention my name', label: 'Don\'t mention my name', disabled: false },
-    ];
   }
 
   render() {
-    const { currency_code, os0, os1, amount, validated, selectedItem } = this.state;
+    const { currency_code, amount, validated, selectedItem, qpselectedItem } = this.state;
+    // need to quote plus the selectedItem
+    const returnUrl = 'https://pkscout.github.io/donate/success?amount=' + amount + '&currency=' + currency_code + '&type=' + qpselectedItem
     
     return (
       <Form isHorizontal action="https://www.paypal.com/cgi-bin/webscr" method="post" accept-charset="UTF-8">
         <input type="hidden" name="business" value="donate@xbmc.org" />
         <input type="hidden" name="no_note" value="0" />
         <input type="hidden" name="no_shipping" value="1" />
-        <input type="hidden" name="on0" value="Anonymity" />
-        <input type="hidden" name="on1" value="Forum Name" />
         <input type="hidden" name="lc" value="en" />
-        <input type="hidden" name="notify_url" value="https://kodi.tv/paypal-ipn-listen" />
+        <input type="hidden" name="notify_url" value={returnUrl} />
         <input type="hidden" name="cmd" value="_donations" />
         <FormGroup
           isRequired
@@ -93,7 +87,7 @@ class FormPaypal extends React.Component {
         <FormGroup label="Currency" isRequired fieldId="form-currency_code">
           <FormSelect
             value={currency_code}
-            onChange={this.onCurrencyChange}
+            onChange={this.onCurrencyCodeChange}
             id="currency_code"
             name="currency_code"
             aria-label="Currency"
@@ -102,28 +96,6 @@ class FormPaypal extends React.Component {
               <FormSelectOption isDisabled={option.disabled} key={index} value={option.value} label={option.label} />
             ))}
           </FormSelect>
-        </FormGroup>
-        <FormGroup label="Donor List Option" isRequired fieldId="form-os0">
-          <FormSelect
-            value={os0}
-            onChange={this.onMentionChange}
-            id="os0"
-            name="os0"
-            aria-label="Donor List Option"
-          >
-            {this.doptions.map((option, index) => (
-              <FormSelectOption isDisabled={option.disabled} key={index} value={option.value} label={option.label} />
-            ))}
-          </FormSelect>
-        </FormGroup>
-        <FormGroup label="Forum Username" type="text" fieldId="os1">
-          <TextInput
-            value={os1}
-            id="os1"
-            name="os1"
-            aria-describedby="Forum Username"
-            onChange={this.handleForumUsernameChange}
-          />
         </FormGroup>
         <FormGroup label="Donation Type" isRequired fieldId="item_name">
           <Radio
