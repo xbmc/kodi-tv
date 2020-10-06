@@ -31,6 +31,8 @@ class FormDonorWall extends React.Component {
       forumusername: '',
       donorwallname: '',
       amount: amount,
+      currency: currency,
+      type: type,
       validated: validated,
     };
     this.handleForumUsernameChange = forumusername => {
@@ -50,7 +52,7 @@ class FormDonorWall extends React.Component {
     return (
       <Form isHorizontal>
         <input type="hidden" name="amount" value={amount} />
-        <input type="hidden" name="currency" value={validated} />
+        <input type="hidden" name="currency" value={currency} />
         <input type="hidden" name="type" value={type} />
         <FormGroup label="Forum username" type="text" fieldId="forumusername">
           <TextInput
