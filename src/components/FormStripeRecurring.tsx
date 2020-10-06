@@ -100,16 +100,40 @@ class FormStripeOneTime extends React.Component {
         <ActionGroup>
           <Stack hasGutter>
             <StackItem>
-              <ButtonStripe stripePromise={stripePromise} amount={level_one.amount} currency={currency} price_id={level_one.price} button_text={level_one.text} />
+              <ButtonStripe
+                stripePromise={stripePromise}
+                amount={level_one.amount}
+                currency={currency}
+                price_id={level_one.price}
+                button_text={level_one.text}
+              />
             </StackItem>
             <StackItem>
-              <ButtonStripe stripePromise={stripePromise} amount={level_two.amount} currency={currency} price_id={level_two.price} button_text={level_two.text} />
+              <ButtonStripe
+                stripePromise={stripePromise}
+                amount={level_two.amount}
+                currency={currency}
+                price_id={level_two.price}
+                button_text={level_two.text}
+              />
             </StackItem>
             <StackItem>
-              <ButtonStripe stripePromise={stripePromise} amount={level_three.amount} currency={currency} price_id={level_three.price} button_text={level_three.text} />
+              <ButtonStripe
+                stripePromise={stripePromise}
+                amount={level_three.amount}
+                currency={currency}
+                price_id={level_three.price}
+                button_text={level_three.text}
+              />
             </StackItem>
             <StackItem>
-              <ButtonStripe stripePromise={stripePromise} amount={level_four.amount} currency={currency} price_id={level_four.price} button_text={level_four.text} />
+              <ButtonStripe
+                stripePromise={stripePromise}
+                amount={level_four.amount}
+                currency={currency}
+                price_id={level_four.price}
+                button_text={level_four.text}
+              />
             </StackItem>
           </Stack>
         </ActionGroup>

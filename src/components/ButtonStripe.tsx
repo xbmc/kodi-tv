@@ -6,6 +6,8 @@ export default function ButtonStripe(props: {
   stripePromise: any | undefined
   price_id: string | undefined
   button_text: string | undefined
+  amount: string | undefined
+  currency: string | undefined
 }) {
   const handleClick = async (event) => {
     // When the customer clicks on the button, redirect them to Checkout.
