@@ -496,7 +496,6 @@ function downloadImageType(imagetype) {
     const localpath = asset.localpath
     const localbase =
       rootpath + localpath.substring(0, localpath.lastIndexOf("/")) + "/"
-    console.log("the localbase is " + localbase)
     fs.mkdir(localbase, { recursive: true }, err => {
       if (err) throw err
     })
