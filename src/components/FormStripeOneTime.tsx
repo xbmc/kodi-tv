@@ -46,7 +46,7 @@ class FormStripeOneTime extends React.Component {
       let currency_label = ''
       switch(currency) {
         case 'price_1HVRC7DOVUu6yhjNHWNMz6Zf':
-          currency_label = 'US'
+          currency_label = 'USD'
           break;
         case 'price_1HVRHSDOVUu6yhjNhOGckxxU':
           currency_label = 'EUR'
