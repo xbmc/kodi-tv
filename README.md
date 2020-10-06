@@ -31,6 +31,7 @@ I promise, this is one of the next things on my list.
 1. make decision about using submenu navigation or finding a way to do dropdown menus
 1. make it look the way we want (Patternfly's CSS is pretty well documented)
 1. donor wall (need to look at how we can get data from the various platforms where we take donations)
+1. if we want a "hero" rotation of the home page, I'll need some help with that too. I can't seem to find a React component for this that both works and has decent enough documentation to figure out how to use it.
 
 ### Addon Parser:
 

@@ -6,6 +6,8 @@ export default function ButtonStripe(props: {
   stripePromise: any | undefined
   price_id: string | undefined
   button_text: string | undefined
+  amount: string | undefined
+  currency: string | undefined
 }) {
   const handleClick = async (event) => {
     // When the customer clicks on the button, redirect them to Checkout.
@@ -16,7 +18,7 @@ export default function ButtonStripe(props: {
         {price: props.price_id, quantity: 1}
       ],
       mode: 'subscription',
-      successUrl: 'https://pkscout.github.io/donate/success',
+      successUrl: 'https://pkscout.github.io/donate/success?amount=' + props.amount + '&currency=' + props.currency + '&type=Recurring+(per+month)',
       cancelUrl: 'https://pkscout.github.io/donate',
     });
     // If `redirectToCheckout` fails due to a browser or network

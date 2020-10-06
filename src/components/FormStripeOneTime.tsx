@@ -43,6 +43,27 @@ class FormStripeOneTime extends React.Component {
 
     const handleClick = async (event) => {
       // When the customer clicks on the button, redirect them to Checkout.
+      let currency_label = ''
+      switch(currency) {
+        case 'price_1HVRC7DOVUu6yhjNHWNMz6Zf':
+          currency_label = 'US'
+          break;
+        case 'price_1HVRHSDOVUu6yhjNhOGckxxU':
+          currency_label = 'EUR'
+          break;
+        case 'price_1HVRNRDOVUu6yhjN0BsrpfOo':
+          currency_label = 'GBP'
+          break;
+        case 'price_1HVRNpDOVUu6yhjNyoxCfwmQ':
+          currency_label = 'CAD'
+          break;
+        case 'price_1HVROBDOVUu6yhjNuN2o56Ob':
+          currency_label = 'AUD'
+          break;
+        case 'price_1HVROeDOVUu6yhjN83arFdQo':
+          currency_label = 'JPY'
+          break;
+      }
       const stripe = await stripePromise;
       const { error } = await stripe.redirectToCheckout({
         lineItems: [
@@ -50,7 +71,7 @@ class FormStripeOneTime extends React.Component {
           {price: currency, quantity: parseInt(price)}
         ],
         mode: 'payment',
-        successUrl: 'https://pkscout.github.io/donate/success',
+        successUrl: 'https://pkscout.github.io/donate/success?amount=' + price + '&currency=' + currency_label + '&type=One+time+donation',
         cancelUrl: 'https://pkscout.github.io/donate',
         });
       };
