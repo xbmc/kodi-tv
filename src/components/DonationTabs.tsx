@@ -40,7 +40,7 @@ class DonationTabs extends React.Component {
     return (
       <div>
         <Tabs activeKey={activeTabKey} onSelect={this.handleTabClick} isBox={isBox}>
-          <Tab eventKey="1" title=<TabTitleText>Stripe</TabTitleText>>
+          <Tab eventKey="1" title=<TabTitleText>Credit Cards</TabTitleText>>
             <div style={{'paddingTop': '15px'}}>
             <Stack hasGutter>
               <StackItem>
