@@ -134,7 +134,7 @@ exports.sourceNodes = async ({
     console.log("unable to load featured addons")
     console.log(e)
   }
-  /*    try {
+      try {
         // Fetch the data
         console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
         const res = await fetch(kodimirror + 'addons.xml')
@@ -142,9 +142,9 @@ exports.sourceNodes = async ({
     } catch (error) {
         data = ''
         console.log(error)
-    } */
+    }
   // for local testing only, if using this, remark out the try/catch block above
-  data = fs.readFileSync("src/data/addons.xml", "utf8")
+  // data = fs.readFileSync("src/data/addons.xml", "utf8")
   if (data) {
     const parsedXML = parse(data)
     parsedXML.root.children.forEach(getAddon)
