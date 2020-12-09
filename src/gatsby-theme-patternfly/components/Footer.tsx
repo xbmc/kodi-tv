@@ -38,7 +38,7 @@ const Footer = () => (
             <Link to={'/about/team'}>Kodi Team</Link><br />
             <Link to={'/privacy-policy'}>Privacy Policy</Link><br />
             <Link to={'/about/sponsors'}>Sponsorship</Link><br />
-            <Link to={'/about/foundation'}>XBMC Foundation</Link><br />
+            <Link to={'/about/foundation'}>Kodi Foundation</Link><br />
           </GalleryItem>
           <GalleryItem>
             <TextContent>
