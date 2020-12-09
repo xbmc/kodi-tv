@@ -16,7 +16,7 @@
     "gatsby-plugin-sharp": "^2.6.35",
     "gatsby-plugin-typescript": "^2.4.19",
     "gatsby-source-filesystem": "^2.3.29",
-    "gatsby-theme-patternfly": "^0.1.4",
+    "gatsby-theme-patternfly": "git+https://github.com/pkscout/gatsby-theme-patternfly.git",
     "gatsby-transformer-sharp": "^2.5.14",
     "js-yaml": "^3.14.0",
     "node-fetch": "^2.6.1",
