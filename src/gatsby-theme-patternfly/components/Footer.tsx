@@ -44,7 +44,6 @@ const Footer = () => (
             <TextContent>
               <Text component={TextVariants.h3}>Sponsors</Text>
             </TextContent>
-            <Link to={'https://www.netlify.com'}>Netlify</Link><br />
             <Link to={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</Link><br />
             <Link to={'https://flirc.tv'}>FLIRC</Link><br />
             <Link to={'https://www.macminivault.com'}>Mac Mini Vault</Link><br />
