@@ -8,38 +8,13 @@ If you are planning to work on the site, you'll need to install Gatsby. Instruct
 
 Once that is done, clone this repo. In your terminal `cd` to the directory and run `npm install`. That will install all the nodejs and Gatsby dependencies.
 
-There is one last thing to do after that. The site is currently using Patternfly 4 for layout, but the Patternfly theme comes bundles with Patternfly 3. To ensure the site renders correctly, you need to go to:
-
-`node_modules/gatsby-theme-patternfly/`
-
-and delete the `node_modules` directory there. Please note that **ANYTIME** you run `npm install` those files get reinstalled, so you'll have to delete them. 
-
 For now my suggestion is to do feature branches off of `main` if you're working on something. After you switch to that branch, you should be able to do `gastby develop` to render a local copy of the site.  The `.gitignore` ensures that none of the node_module directory is included in the repo (which is why you had to do `npm install` at the beginning).
 
 
 ## Site documentation
 
-I promise, this is one of the next things on my list.
+I promise, this will get done.
 
-## To Do List
-
-### Main site
-
-1. site documentation
-1. add sorting add-on search by popularity (requires update of addon parser)
-1. decide on a blogging CMS and do that integration
-1. make decision about using submenu navigation or finding a way to do dropdown menus
-1. make it look the way we want (Patternfly's CSS is pretty well documented)
-1. donor wall (need to look at how we can get data from the various platforms where we take donations)
-1. if we want a "hero" rotation of the home page, I'll need some help with that too. I can't seem to find a React component for this that both works and has decent enough documentation to figure out how to use it.
-
-### Addon Parser:
-
-1. parser documentation
-1. add download stats to addons: I'm stuck here - running into problems with async downloads or something. I'd also like to suggest we change over to download stats resetting with each version. This is partially because it'll be **WAY** easier with a static site generator, and I think that gives a more realistic view of the usage of an add-on.
-1. update code for new lifecycle option in addons.xml (see https://github.com/xbmc/xbmc/pull/18286)
-1. add parsing of downloads from mirrors stat url (http://mirrors.kodi.tv/addons/matrix/script.module.trakt/script.module.trakt-3.1.0+matrix.2.zip?stats)
-1. get a dump of the Leia database from Drupal so I can write a script to have it generate history
 
 # Original Readme from Gatsby Starter
 
