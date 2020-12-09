@@ -20,8 +20,8 @@ const Footer = () => (
           <img alt="" src="/images/kodi-logo-only.png" />
         </SplitItem>
         <SplitItem isFilled>
-          Kodi (formerly XBMC) is a free and open source media player application developed by the XBMC/Kodi Foundation, a non-profit technology consortium. Kodi is available for multiple operating-systems and hardware platforms, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.
-        </SplitItem>
+          Kodi is a free and open source media player application developed by the Kodi Foundation, a non-profit technology consortium. Kodi is available for multiple operating-systems and hardware platforms, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.
+        </SplitItem>        
       </Split>
     </PageSection>
     <PageSection variant={PageSectionVariants.darker}>
@@ -44,7 +44,7 @@ const Footer = () => (
             <TextContent>
               <Text component={TextVariants.h3}>Sponsors</Text>
             </TextContent>
-            <Link to={'https://www.acquia.com'}>Aquia</Link><br />
+            <Link to={'https://www.netlify.com'}>Netlify</Link><br />
             <Link to={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</Link><br />
             <Link to={'https://flirc.tv'}>FLIRC</Link><br />
             <Link to={'https://www.macminivault.com'}>Mac Mini Vault</Link><br />
@@ -72,6 +72,8 @@ const Footer = () => (
             <Link to={'https://www.thetvdb.com'}>TheTVDB.com</Link><br />
           </GalleryItem>
         </Gallery>
+        <p /><br /><p />
+        This web site is powered by <Link to={'https://www.netlify.com'}>Netlify</Link>.
       </div>
     </PageSection>
   </React.Fragment>
