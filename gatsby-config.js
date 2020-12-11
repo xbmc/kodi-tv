@@ -159,6 +159,14 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown-pages",
+        path: "src/content",
+      },
+    },
+    "gatsby-transformer-remark",
+    {
       resolve: "gatsby-plugin-root-import",
       options: {
         src: path.join(__dirname, "src"),
@@ -185,10 +193,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-kodiaddon`,
+      resolve: "gatsby-source-kodiaddon",
       options: {
-        kodiversion: `matrix`,
-        kodimirror: `ftp.halifax.rwth-aachen.de/xbmc`,
+        kodiversion: "matrix",
+        kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
       },
     },
     "gatsby-source-kodidists",
