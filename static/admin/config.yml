@@ -3,8 +3,8 @@ backend:
   repo: xbmc/kodi-tv
   branch: main
 
-media_folder: static/img
-public_folder: /img
+media_folder: /static/images/blog
+public_folder: /images/blog
 publish_mode: editorial_workflow
 
 collections:
@@ -13,7 +13,7 @@ collections:
     folder: 'src/content/blog'
     create: true
     slug: 'index'
-    media_folder: 'static/images/blog'
+    media_folder: '/static/images/blog'
     public_folder: '/images/blog'
     path: '{{title}}/index'
     editor:

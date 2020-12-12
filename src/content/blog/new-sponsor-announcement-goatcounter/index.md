@@ -1,7 +1,7 @@
 ---
 title: "New Sponsor Announcement: GoatCounter"
 date: 2020-11-14T00:07:48.460Z
-author: yol
+author: ""
 featured_image: ""
 ---
 Last year at FOSDEM, we were approached about our usage of analytics software on our websites that gives visitor data to big companies with servers located in countries with data protection laws that are less strict than what EU citizens are accustomed to. Team Kodi has always had a firm stance against user tracking in our software, so it felt inconsistent that we did not extend the same level of prudence to our websites.
