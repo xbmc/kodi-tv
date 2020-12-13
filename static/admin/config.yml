@@ -10,7 +10,7 @@ publish_mode: editorial_workflow
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'src/content/blog'
+    folder: 'src/content/article'
     create: true
     slug: 'index'
     media_folder: '/static/images/blog'
