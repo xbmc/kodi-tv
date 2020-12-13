@@ -44,35 +44,35 @@ const Footer = () => (
             <TextContent>
               <Text component={TextVariants.h3}>Sponsors</Text>
             </TextContent>
-            <Link to={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</Link><br />
-            <Link to={'https://flirc.tv'}>FLIRC</Link><br />
-            <Link to={'https://www.macminivault.com'}>Mac Mini Vault</Link><br />
+            <a target="_blank" rel="noopener" href={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</a><br />
+            <a target="_blank" rel="noopener" href={'https://flirc.tv'}>FLIRC</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.macminivault.com'}>Mac Mini Vault</a><br />
           </GalleryItem>
           <GalleryItem>
             <TextContent>
               <Text component={TextVariants.h3}>Social</Text>
             </TextContent>
-            <Link to={'https://www.facebook.com/KodiEntertainment'}>Facebook</Link><br />
-            <Link to={'https://twitter.com/KodiTV'}>Twitter</Link><br />
-            <Link to={'https://www.youtube.com/user/teamxbmc'}>YouTube</Link><br />
-            <Link to={'https://feeds.kodi.tv/xbmc'}>RSS</Link><br />
+            <a target="_blank" rel="noopener" href={'https://www.facebook.com/KodiEntertainment'}>Facebook</a><br />
+            <a target="_blank" rel="noopener" href={'https://twitter.com/KodiTV'}>Twitter</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.youtube.com/user/teamxbmc'}>YouTube</a><br />
+            <a target="_blank" rel="noopener" href={'https://feeds.kodi.tv/xbmc'}>RSS</a><br />
           </GalleryItem>
           <GalleryItem>
             <TextContent>
               <Text component={TextVariants.h3}>Friends</Text>
             </TextContent>
-            <Link to={'https://fanart.tv'}>Fanart.TV</Link><br />
-            <Link to={'https://libreelec.tv'}>LibreELEC</Link><br />
-            <Link to={'https://osmc.tv'}>OSMC</Link><br />
-            <Link to={'https://musicbrainz.org'}>MusicBrainz.org</Link><br />
-            <Link to={'https://www.theaudiodb.com'}>TheAudioDB.com</Link><br />
-            <Link to={'https://thegamesdb.net'}>TheGamesDB.net</Link><br />
-            <Link to={'https://www.themoviedb.org'}>TheMovieDB.org</Link><br />
-            <Link to={'https://www.thetvdb.com'}>TheTVDB.com</Link><br />
+            <a target="_blank" rel="noopener" href={'https://fanart.tv'}>Fanart.TV</a><br />
+            <a target="_blank" rel="noopener" href={'https://libreelec.tv'}>LibreELEC</a><br />
+            <a target="_blank" rel="noopener" href={'https://osmc.tv'}>OSMC</a><br />
+            <a target="_blank" rel="noopener" href={'https://musicbrainz.org'}>MusicBrainz.org</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.theaudiodb.com'}>TheAudioDB.com</a><br />
+            <a target="_blank" rel="noopener" href={'https://thegamesdb.net'}>TheGamesDB.net</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.themoviedb.org'}>TheMovieDB.org</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.thetvdb.com'}>TheTVDB.com</a><br />
           </GalleryItem>
         </Gallery>
         <p /><br /><p />
-        This web site is powered by <Link to={'https://www.netlify.com'}>Netlify</Link>.
+        This web site is powered by <a target="_blank" rel="noopener" href={'https://www.netlify.com'}>Netlify</a>.
       </div>
     </PageSection>
   </React.Fragment>
