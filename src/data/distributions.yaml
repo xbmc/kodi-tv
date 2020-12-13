@@ -153,7 +153,7 @@ releases:
   - id: "recommend"
     name: "Recommended"
     title: "Kodi v18.9 (Leia)"
-    description: "To install Kodi for iOS you must have a jailbroken iDevice running iOS 6.0 or higher (8.0 or higher recommended). Check the 'How To' link for instructions."
+    description: "To install Kodi for iOS you must have a jailbroken iDevice running iOS 6.0 or higher (8.0 or higher recommended). Just open your favorite package manager and search for Kodi in the BigBoss repository. For more detailed help, check the 'How To' link for instructions."
     downloads:
       - name: "Deb File(ARM)"
         url: "https://mirrors.kodi.tv/releases/darwin/ios/org.xbmc.kodi-ios_18.9-0_iphoneos-arm.deb"
