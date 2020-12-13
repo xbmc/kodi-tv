@@ -16,10 +16,10 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   return (
     <Layout>
-      <div style={{ width: "80%", marginLeft: "40px", marginRight: "40px" }}>
+      <div style={{ margin: "20px" }}>
         { markdownRemark.frontmatter.featured_image.trim() == ""
           ? ""
-          : <img alt="" src={markdownRemark.frontmatter.featured_image} /> }
+          : <img alt="" src={markdownRemark.frontmatter.featured_image} style={{maxWidth: "900px"}} /> }
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>
         </TextContent>
