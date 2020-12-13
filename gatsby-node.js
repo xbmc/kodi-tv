@@ -1,5 +1,6 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { paginate } = require('gatsby-awesome-pagination');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -17,7 +18,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  const blogPostTemplate = require.resolve(`./src/templates/blogtemplate.tsx`)
+  const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`)
 
   const result = await graphql(`
     {
@@ -52,6 +53,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   })
+
+  paginate({
+    createPage,
+    items: result.data.allMarkdownRemark.edges,
+    itemsPerPage: 20,
+    pathPrefix: '/blog',
+    component: path.resolve('src/templates/blog-index.tsx')
+  });
 
   const addonresults = await graphql(`
     query MyQuery {

@@ -11,9 +11,10 @@ import {
   graphql,
   Link,
 } from "gatsby"
-import Layout from "../../gatsby-theme-patternfly/components/Layout"
+import Layout from "../gatsby-theme-patternfly/components/Layout"
+import Pager from "../components/Pager";
 
-export default function BlogIndexPage( props ) {
+export default function BlogIndexPage( { data, pageContext, location } ) {
   return (
     <Layout>
       <div style={{ marginBottom: "10px" }}>
@@ -22,7 +23,7 @@ export default function BlogIndexPage( props ) {
         </TextContent>
       </div>
       <div style={{ width: "80%", marginLeft: "40px", marginRight: "40px" }}>
-        {props.data.allMarkdownRemark.edges.map((item, index) => (
+        {data.allMarkdownRemark.edges.map((item, index) => (
           <React.Fragment>
             { item.node.frontmatter.featured_image.trim() == ""
               ? ""
@@ -50,14 +51,19 @@ export default function BlogIndexPage( props ) {
             </div>
           </React.Fragment>
         ))}
+        <Pager pageContext={pageContext} />
       </div>
     </Layout>
   )
 }
 
 export const pageQuery = graphql`
-  query {
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
+  query ($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: {fields: frontmatter___date, order: DESC},
+      skip: $skip,
+      limit: $limit
+    ) {
       edges {
         node {
           excerpt(pruneLength: 300)
