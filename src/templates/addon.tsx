@@ -81,6 +81,7 @@ export default function Addon({
                                 url={"/addons/author/" + author.slug}
                                 index={index}
                                 length={addon.authors.length - 1}
+                                linkType="internal"
                               />
                             )
                           }
@@ -145,6 +146,7 @@ export default function Addon({
                         url={platform.path}
                         index={index}
                         length={addon.platforms.length - 1}
+                        linkType="external"
                       />
                     )
                   }
@@ -162,6 +164,7 @@ export default function Addon({
                         url={"/addons/category/" + category.slug}
                         index={index}
                         length={addon.categories.length - 1}
+                        linkType="internal"
                       />
                     )
                   }
