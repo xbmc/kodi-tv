@@ -16,9 +16,9 @@ function PrereleaseText(props) {
         Kodi v19 "Matrix" has entered the release cycle. This cycle consists of
         Alpha, Beta and RC releases followed by the stable Recommended release.
         If you are interested, you can{" "}
-        <Link to="http://en.wikipedia.org/wiki/Software_release_life_cycle">
+        <a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Software_release_life_cycle">
           read more about the software release cycle
-        </Link>
+        </a>
         .
       </Text>
       <Text component={TextVariants.p}>
@@ -32,17 +32,17 @@ function PrereleaseText(props) {
       </Text>
       <Text component={TextVariants.p}>
         Be sure to read the following pages before trying these out:{" "}
-        <Link to="http://kodi.wiki/view/development_builds">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/development_builds">
           Development builds
-        </Link>
+        </a>
         ,{" "}
-        <Link to="http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing">
           Quality assurance testing
-        </Link>
+        </a>
         , and{" "}
-        <Link to="http://kodi.wiki/view/HOW-TO:Submit_a_bug_report">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/HOW-TO:Submit_a_bug_report">
           How to submit a bug report
-        </Link>
+        </a>
         .
       </Text>
     </TextContent>
@@ -75,17 +75,17 @@ function DevelopmentText(props) {
       </Text>
       <Text component={TextVariants.p}>
         Be sure to read the following pages before trying these out:{" "}
-        <Link to="http://kodi.wiki/view/development_builds">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/development_builds">
           Development builds
-        </Link>
+        </a>
         ,{" "}
-        <Link to="http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing">
           Quality assurance testing
-        </Link>
+        </a>
         , and{" "}
-        <Link to="http://kodi.wiki/view/HOW-TO:Submit_a_bug_report">
+        <a target="_blank" rel="noopener" href="http://kodi.wiki/view/HOW-TO:Submit_a_bug_report">
           How to submit a bug report
-        </Link>
+        </a>
         .
       </Text>
     </TextContent>
