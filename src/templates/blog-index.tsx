@@ -30,7 +30,7 @@ export default function BlogIndexPage( { data, pageContext, location } ) {
             <React.Fragment>
               { item.node.frontmatter.featured_image.trim() == ""
                 ? ""
-                : <img alt="" src={item.node.frontmatter.featured_image} style={{maxWidth: "900px"}} /> }
+                : <img alt="" src={item.node.frontmatter.featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
               <TextContent>
                 <Text component={TextVariants.h2}>{item.node.frontmatter.title}</Text>
               </TextContent>

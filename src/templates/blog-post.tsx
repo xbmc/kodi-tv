@@ -21,7 +21,7 @@ export default function Template({
       <div style={{ margin: "20px" }}>
         { markdownRemark.frontmatter.featured_image.trim() == ""
           ? ""
-          : <img alt="" src={markdownRemark.frontmatter.featured_image} style={{maxWidth: "900px"}} /> }
+          : <img alt="" src={markdownRemark.frontmatter.featured_image}style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>
         </TextContent>
