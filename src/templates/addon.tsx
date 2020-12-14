@@ -20,6 +20,7 @@ import ConditionalTextListItem from "../components/ConditionalTextListItem"
 import ItemWithComma from "../components/ItemWithComma"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
 import { IAddon } from "../addon"
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Addon({
   data,
@@ -46,6 +47,7 @@ export default function Addon({
 
   return (
     <Layout>
+      <MetadataHeader title={addon.name + ' | Add-On'} />
       <Stack hasGutter>
         <StackItem>
           <Split hasGutter>

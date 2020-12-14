@@ -13,10 +13,12 @@ import {
 } from "gatsby"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
 import Pager from "../components/Pager";
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function BlogIndexPage( { data, pageContext, location } ) {
   return (
     <Layout>
+      <MetadataHeader title="News" />
       <div style={{ margin: "20px" }}>
         <div style={{ marginBottom: "10px" }}>
           <TextContent>

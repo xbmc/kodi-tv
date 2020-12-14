@@ -9,6 +9,7 @@ import {
 } from "@patternfly/react-core"
 import { graphql } from "gatsby"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -16,6 +17,7 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   return (
     <Layout>
+      <MetadataHeader title={markdownRemark.frontmatter.title + ' | News'} />
       <div style={{ margin: "20px" }}>
         { markdownRemark.frontmatter.featured_image.trim() == ""
           ? ""
