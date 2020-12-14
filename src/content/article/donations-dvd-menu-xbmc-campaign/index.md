@@ -1,0 +1,16 @@
+---
+title: 'Donations for DVD-menu in XBMC campaign'
+date: 2004-10-28T04:00:00Z
+author: Team XBMC
+featured_image: ""
+---
+we have had this idea in mind for a while and were planning to kick of this campaign at a later date but after a [recent post in mplayer-dev mailing-list](http://mplayerhq.hu/pipermail/mplayer-dev-eng/2004-october/030802.html) we have decided to bring forward the announcement. the ‘donations for dvd-menu in xbmc campaign’ basic concept is to encourage xbmc end-users to make donations (via paypal) into a fund in order to motivate the xbmc developers to prioritize programming dvd-video menu/navigation support for xbmc. this concept has been brewing for a few month now as many people have either posted in the forum or e-mailed us directly offering to donate money to this specific cause, which has been [the #1 requested feature](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=4;t=389) for quite a while. so come on, be generous and help support the xbmc project. give donations for how much you feel xbmc is worth to you as a whole if this feature were added to xbmc’s already very long feature list. the xbmc developer(s) who code this huge feature will collect the fund-pot on completion as a reward – they have adready started coding.
+
+ update (9/11-2004): just thought we let everyone that the campaign is going very well which shows the demand for this feature, the fund have already received over 100 donations and so far the fund total is at just over $1,800(us), which includes one very generous donation today of $500(us) from [team-xecuter](http://www.teamxecuter.com) (who said they will also donate 5 x [x3-modchips](http://www.teamxecuter.com) to the fund). short progress-report on the actual code development; our xbmc devs working on this internally have got basic dvd playback working and menus are also partially working, all showing great promise.
+
+ make your donation towards dvd-menu support in xbmc via paypal: [$25](https://www.paypal.com/xclick/business=donations@xboxmediacenter.com&no_shipping=1&item_name=xbmc+dvd_menu+donation&amount=25&return=http:/www.xboxmediacenter.de/info_contrib.htm), [$50](https://www.paypal.com/xclick/business=donations@xboxmediacenter.com&no_shipping=1&item_name=xbmc+dvd_menu+donation&amount=50&return=http:/www.xboxmediacenter.de/info_contrib.htm), [$100](https://www.paypal.com/xclick/business=donations@xboxmediacenter.com&no_shipping=1&item_name=xbmc+dvd_menu+donation&amount=100&return=http:/www.xboxmediacenter.de/info_contrib.htm) or [other](https://www.paypal.com/xclick/business=donations@xboxmediacenter.com&no_shipping=1&item_name=xbmc+dvd_menu+donation&return=http:/www.xboxmediacenter.de/info_contrib.htm).  
+ if like to make a none-paypal (money or maybe a gift) donation please contact gamester17.
+
+ forum discussion: [donations for dvd-menu in xbmc campaign (link)](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=1;t=7410)
+
+ 
