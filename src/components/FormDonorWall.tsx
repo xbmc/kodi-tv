@@ -47,8 +47,8 @@ class FormDonorWall extends React.Component {
     this.handleForumUsernameChange = forumusername => {
       this.setState({ forumusername });
     };
-    this.handleDonorWallNameChange = forumusername => {
-      this.setState({ forumusername });
+    this.handleDonorWallNameChange = donorwallname => {
+      this.setState({ donorwallname });
     };
   }
 
