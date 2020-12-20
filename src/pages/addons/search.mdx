@@ -13,6 +13,7 @@ export const pageQuery = graphql`
   query {
     allAddon(sort: {fields: name, order: ASC}) {
       nodes {
+        addonid
         name
         icon
         slug
