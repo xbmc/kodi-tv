@@ -5,32 +5,34 @@ import {
 } from '@patternfly/react-core'
 import { graphql } from "gatsby"
 import IconList from 'src/components/IconList'
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Category({ data }) {
-    const category = data.category
+  const category = data.category
 
-    return (
-        <Layout>
-            <TextContent>
-                <Text component={TextVariants.h1}>{category.name}</Text>
-                <Text>This category has {category.totaladdons} addons in it.</Text>
-            </TextContent>
-            <IconList items={category.addons} linkroot='/addons/' />
-        </Layout>
-    )
+  return (
+    <Layout>
+      <MetadataHeader title={category.name + ' | Category | Add-On'} />
+      <TextContent>
+        <Text component={TextVariants.h1}>{category.name}</Text>
+        <Text>This category has {category.totaladdons} addons in it.</Text>
+      </TextContent>
+      <IconList items={category.addons} linkroot='/addons/' />
+    </Layout>
+  )
 }
 
 
 export const query = graphql`
-    query($slug: String!) {
-        category(slug: { eq: $slug }) {
-            name
-            totaladdons
-            addons {
-                name
-                slug
-                icon
-            }
-        }
+  query($slug: String!) {
+    category(slug: { eq: $slug }) {
+      name
+      totaladdons
+      addons {
+        name
+        slug
+        icon
+      }
     }
+  }
 `

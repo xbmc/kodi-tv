@@ -20,6 +20,7 @@ import ConditionalTextListItem from "../components/ConditionalTextListItem"
 import ItemWithComma from "../components/ItemWithComma"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
 import { IAddon } from "../addon"
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Addon({
   data,
@@ -46,6 +47,7 @@ export default function Addon({
 
   return (
     <Layout>
+      <MetadataHeader title={addon.name + ' | Add-On'} />
       <Stack hasGutter>
         <StackItem>
           <Split hasGutter>
@@ -81,6 +83,7 @@ export default function Addon({
                                 url={"/addons/author/" + author.slug}
                                 index={index}
                                 length={addon.authors.length - 1}
+                                linkType="internal"
                               />
                             )
                           }
@@ -145,6 +148,7 @@ export default function Addon({
                         url={platform.path}
                         index={index}
                         length={addon.platforms.length - 1}
+                        linkType="external"
                       />
                     )
                   }
@@ -162,6 +166,7 @@ export default function Addon({
                         url={"/addons/category/" + category.slug}
                         index={index}
                         length={addon.categories.length - 1}
+                        linkType="internal"
                       />
                     )
                   }

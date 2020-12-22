@@ -11,7 +11,7 @@ import {
   Radio,
 } from '@patternfly/react-core';
 import ExclamationCircleIcon from '@patternfly/react-icons/dist/js/icons/exclamation-circle-icon';
-
+import config from "../../gatsby-site-config"
 
 class FormPaypal extends React.Component {
   constructor(props) {
@@ -51,7 +51,7 @@ class FormPaypal extends React.Component {
   render() {
     const { currency_code, amount, validated, selectedItem, qpselectedItem } = this.state;
     // need to quote plus the selectedItem
-    const returnUrl = 'https://pkscout.github.io/donate/success?amount=' + amount + '&currency=' + currency_code + '&type=' + qpselectedItem
+    const returnUrl = config.siteMetadata.siteUrl + '/donate/success?amount=' + amount + '&currency=' + currency_code + '&type=' + qpselectedItem
     
     return (
       <Form isHorizontal action="https://www.paypal.com/cgi-bin/webscr" method="post" accept-charset="UTF-8">

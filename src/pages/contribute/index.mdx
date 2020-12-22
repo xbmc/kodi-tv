@@ -1,10 +1,8 @@
-import {
-  Button,
-  List,
-  ListItem,
-  ListVariant,
-} from '@patternfly/react-core';
-import ArrowRightIcon from '@patternfly/react-icons/dist/js/icons/arrow-right-icon';
+import { Button, List, ListItem, ListVariant } from "@patternfly/react-core"
+import ArrowRightIcon from "@patternfly/react-icons/dist/js/icons/arrow-right-icon"
+import MetadataHeader from "src/components/SiteMetadata"
+
+<MetadataHeader title="Get Involved" />
 
 # Get Involved
 
@@ -16,19 +14,39 @@ Kodi Foundation products are for the users and created by the users. There are n
 
 Our support process relies on enthusiastic contributors like you to help others get the most out of Kodi Foundation products. The #1 priority is always answering questions in our support forums. Everyday new people discover a Kodi Foundation product, and everyday they are virtually guaranteed to have questions. If you are knowledgeable in a certain area in one of our products, or simply want to try help others, we highly encourage you to field questions in the forums.
 
-<Button variant="link" component="a" href="https://forum.kodi.tv" isLarge>Visit the Forums <ArrowRightIcon/></Button>
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="https://forum.kodi.tv"
+  isLarge
+>
+  Visit the Forums <ArrowRightIcon />
+</Button>
 
 ### Quality Assurance
 
 Quality Assurance testing is one of the easiest ways to get started with one of our products and is a great way to get familiar with our code and tools. You can find more information on our wiki page.
- 
-<Button variant="link" component="a" href="https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing" isLarge>Help with QA <ArrowRightIcon/></Button>
+
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing"
+  isLarge
+>
+  Help with QA <ArrowRightIcon />
+</Button>
 
 ### Coding
 
 Developers can help the Kodi Foundation by adding new features, making our technology smaller and faster and making development easier for others. Our code base consist of a variety of coding languages. Our add-ons mainly consist of python and XML.
- 
-<Button variant="link" component="a" href="/contribute/developers" isLarge>Help with Coding <ArrowRightIcon/></Button>
+
+<Button variant="link" component="a" href="/contribute/developers" isLarge>
+  Help with Coding <ArrowRightIcon />
+</Button>
 
 ### Spread the Word
 
@@ -36,10 +54,28 @@ Help us spread the word about how Kodi and other Kodi Foundation projects creati
 
 <List variant={ListVariant.inline}>
   <ListItem>
-    <Button variant="primary" component="a" href="https://www.facebook.com/KodiEntertainment" isLarge>Facebook</Button>
+    <Button
+      variant="primary"
+      component="a"
+      target="_blank"
+      rel="noopener"
+      href="https://www.facebook.com/KodiEntertainment"
+      isLarge
+    >
+      Facebook
+    </Button>
   </ListItem>
   <ListItem>
-    <Button variant="primary" component="a" href="https://twitter.com/koditv" isLarge>Twitter</Button>  
+    <Button
+      variant="primary"
+      component="a"
+      target="_blank"
+      rel="noopener"
+      href="https://twitter.com/koditv"
+      isLarge
+    >
+      Twitter
+    </Button>
   </ListItem>
 </List>
 
@@ -47,13 +83,31 @@ Help us spread the word about how Kodi and other Kodi Foundation projects creati
 
 Get involved with Kodi Foundation by making Kodi, add-ons and other projects available in your language. Our translation system wiki page has more detailed information.
 
-<Button variant="link" component="a" href="https://kodi.wiki/index.php?title=Translation_System" isLarge>Help with Translations <ArrowRightIcon/></Button>
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="https://kodi.wiki/index.php?title=Translation_System"
+  isLarge
+>
+  Help with Translations <ArrowRightIcon />
+</Button>
 
 ### Add-ons
 
 Add-ons are what make Kodi the most extensible and customizable entertainment center available. Get started building an add-on, and learn more about the different ways you can contribute.
- 
-<Button variant="link" component="a" href="https://kodi.wiki/view/Add-on_development" isLarge>Build Your First Add-On <ArrowRightIcon/></Button>
+
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="https://kodi.wiki/view/Add-on_development"
+  isLarge
+>
+  Build Your First Add-On <ArrowRightIcon />
+</Button>
 
 ### Visual Design
 
@@ -66,11 +120,15 @@ The Kodi Foundation wiki pages are the hub for information about Kodi Foundation
 ### Donations
 
 We are always happy to receive a donation. Donations are typically used for travel to attend conferences, any necessary paperwork and legal fees, and the yearly Kodi Foundation Developers Conference, where a great deal of planning and coding for the following year occurs. Donations may also be used to purchase necessary hardware and licenses for developers, along with t-shirts, stickers, and other accessories for conferences.
- 
-<Button variant="link" component="a" href="/donate" isLarge>Donate to Kodi <ArrowRightIcon/></Button>
+
+<Button variant="link" component="a" href="/donate" isLarge>
+  Donate to Kodi <ArrowRightIcon />
+</Button>
 
 ### Buy some Kodi Merch
 
 Purchasing Kodi gear helps just as much as a donation, and you get something in return! Checkout our store for Kodi branded gear, we are regularly adding new products so check back often.
- 
-<Button variant="link" component="a" href="/store" isLarge>Purchase Kodi Merch <ArrowRightIcon/></Button>
+
+<Button variant="link" component="a" href="/store" isLarge>
+  Purchase Kodi Merch <ArrowRightIcon />
+</Button>

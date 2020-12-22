@@ -24,6 +24,7 @@ exports.sourceNodes = async ({
     console.log("unable to load store")
     console.log(e)
   }
+  data.sort(compare)
   data.forEach(item =>
     createNode({
       ...item,
@@ -40,7 +41,14 @@ exports.sourceNodes = async ({
   return
 }
 
-function finishSetup(item) {
-  item.icon = IMAGE_PATH + item.icon
-  store.push(item)
+function compare(a, b) {
+  const bandA = a.sortorder
+  const bandB = b.sortorder
+  let comparison = 0
+  if (bandA > bandB) {
+    comparison = 1
+  } else if (bandA < bandB) {
+    comparison = -1
+  }
+  return comparison
 }

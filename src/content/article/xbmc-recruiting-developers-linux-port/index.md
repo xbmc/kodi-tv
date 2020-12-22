@@ -1,0 +1,19 @@
+---
+title: 'XBMC recruiting developers for Linux port'
+date: 2007-05-28T04:00:00Z
+author: Team XBMC
+featured_image: ""
+---
+Help wanted: As you may or may not have heard, a few developers on [Team-XBMC](http://www.xboxmediacenter.com/wiki/index.php?title=Team_XBMC_and_Others) have begun the [porting](https://en.wikipedia.org/wiki/Porting) of [XBMC](https://en.wikipedia.org/wiki/XBMC) to Linux and [OpenGL](https://en.wikipedia.org/wiki/OpenGL) using the [SDL toolkit](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer). The goal is for this to become a full [port](https://en.wikipedia.org/wiki/Porting) of XBMC containing [all the features and functions available in the Xbox version of XBMC](http://www.xboxmediacenter.com/wiki/index.php?title=XBMC_Features_and_Supported_Formats/Codecs). This is a huge task which is why we are making this public request, seeking [C/C++ programmers](https://en.wikipedia.org/wiki/Programming_language) to volunteer in assisting us with this [Linux porting development project](http://www.xboxmediacenter.com/wiki/index.php?title=Linux_port_project). Whether you have contributed to [The XBMC Project](https://sourceforge.net/projects/xbmc/) in the past or not, please consider doing so now. Those of you who are completely unfamiliar with XBMC can get a good overview of what XBMC offers for its [end-users](https://en.wikipedia.org/wiki/End-user) by reading through the [XBMC article on wikipedia.org](https://en.wikipedia.org/wiki/XBMC)
+
+ The XBMC code structure uses a fairly [modular design](https://en.wikipedia.org/wiki/Module_%28programming%29) (with [libraries](https://en.wikipedia.org/wiki/Library_%28computing%29) and [DLL](https://en.wikipedia.org/wiki/Dynamic-link_library)s), and we think that there are enough modules/libraries to keep a wide skill-level range of developers busy in the porting of them all. So please, take a look at the source code, then with the help of our [Linux port To-Do list](http://www.xboxmediacenter.com/wiki/index.php?title=Linux_port_project#To-Do) assess where the porting stage is today and see if there’s any areas you’d be willing to help out. Note that we are not abandoning the Xbox hardware – XBMC will be a [cross-platform](https://en.wikipedia.org/wiki/Cross-platform) software application, supporting both the Xbox and normal computers, (the ‘old’ Xbox still have a good amount of years to live we hope). Developers who would like to volunteer should read the [Linux porting development project article in the official XBMC WIKI](http://wiki.xboxmediacenter.com/?title=Linux_port_project) for more detailed information.
+
+ Note to all [end-users](https://en.wikipedia.org/wiki/End-user)! Please understand that this [Linux port project](http://www.xboxmediacenter.com/wiki/index.php?title=Linux_port_project) is not yet mature enough for you as an end-user to play with, no media can even be played back yet. We can not yet give you an [ETA](https://en.wikipedia.org/wiki/Estimated_time_of_arrival) as to when it will be useful for end-users. Respect that we can not accept any bug-reports or feature/function-requests for this Linux port yet.
+
+ XBMC-Forum developers discussion: [XBMC recruiting developers for Linux port](https://forum.kodi.tv/showthread.php?pid=136964%23pid136964)  
+ XBMC-Forum end-user discussion on Linux port: [XBMC Linux port questions…](https://forum.kodi.tv/showthread.php?tid=26097)  
+ XBMC official web-site: [www.xboxmediacenter.com](http://www.xboxmediacenter.com) ([wiki-manual](http://www.xboxmediacenter.com/wiki/index.php?title=Xbox_Media_Center_Online_Manual) and [FAQ](http://www.xboxmediacenter.com/wiki/index.php?title=Frequently_Asked_Questions))
+
+ Spread the news: [Digg this](https://digg.com/linux_unix/XBMC_recruiting_developers_for_Linux_port) – [Slashdot](https://linux.slashdot.org/article.pl?sid=07/05/30/122227) – [Technorati](https://www.synacor.com/posts/tag/xbmc/)
+
+ 

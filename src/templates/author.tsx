@@ -3,6 +3,7 @@ import { Text, TextVariants, TextContent } from "@patternfly/react-core"
 import { graphql } from "gatsby"
 import IconList from "../components/IconList"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
+import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Category({
   data,
@@ -13,6 +14,7 @@ export default function Category({
 
   return (
     <Layout>
+      <MetadataHeader title={author.name + ' | Author | Add-On'} />
       <TextContent>
         <Text component={TextVariants.h1}>{author.name}</Text>
         <Text>

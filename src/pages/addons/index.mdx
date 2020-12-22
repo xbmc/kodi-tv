@@ -1,4 +1,10 @@
-# Addons
+import { graphql } from "gatsby"
+import IconList from 'src/components/IconList'
+import MetadataHeader from "src/components/SiteMetadata"
+
+<MetadataHeader title="Add-Ons" />
+
+# Add-Ons
 
 ## Kodi can do so much more than what comes in the box
 
@@ -7,7 +13,7 @@ We have a huge catalogue of extra Add-On components for you to take advantage of
 [Music Add-Ons](/addons/category/music-addons) and [Video Add-Ons](/addons/category/video-addons) let you stream internet content. [Skins](/addons/category/skins) allow you to change the look and experience of the interface. [Program Add-Ons](/addons/category/program-addons) and [Service Add-Ons](/addons/category/services) provide helpful tools while [web interfaces](/addons/category/web-interfaces) are for controlling Kodi remotely. And that is just the tip of the iceberg. Browse all the categories below to see what is available and install them via Kodi.
 
 
-## Featured Add-ons
+## Featured Add-Ons
 
 <IconList items={props.data.FeaturedAddons.edges} linkroot='/addons/' />
 
@@ -37,10 +43,6 @@ We have a huge catalogue of extra Add-On components for you to take advantage of
 
 <IconList items={props.data.Others.edges} linkroot='/addons/category/' />
 
-
-
-import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
 
 export const pageQuery = graphql`
   query {

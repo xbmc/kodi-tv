@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from 'patternfly_components/Layout'
 import ReleasesTabs from 'src/components/ReleasesTabs'
-// import ReleasesAccordion from 'src/components/ReleasesAccordion'
+import MetadataHeader from "src/components/SiteMetadata"
 
 import {
   Grid, GridItem,
@@ -15,6 +15,7 @@ export default function Distribution({ data }) {
 
   return (
     <Layout>
+      <MetadataHeader title={dist.name + ' | Download'} />
       <Grid hasGutter>
         <GridItem span={1}><img width='150' height='150' alt="" src={dist.icon} /></GridItem>
         <GridItem span={11}>

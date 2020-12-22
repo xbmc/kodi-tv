@@ -28,6 +28,7 @@ exports.sourceNodes = async ({
     console.log("unable to load distributions")
     console.log(e)
   }
+  data.sort(compare)
   data.forEach(finishSetup)
   dists.forEach(dist =>
     createNode({
@@ -49,4 +50,16 @@ function finishSetup(dist) {
   dist.slug = slugify(dist.name, { lower: true })
   dist.icon = IMAGE_PATH + dist.slug + IMAGE_TYPE
   dists.push(dist)
+}
+
+function compare(a, b) {
+  const bandA = a.sortorder
+  const bandB = b.sortorder
+  let comparison = 0
+  if (bandA > bandB) {
+    comparison = 1
+  } else if (bandA < bandB) {
+    comparison = -1
+  }
+  return comparison
 }
