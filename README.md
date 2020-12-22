@@ -2,19 +2,13 @@
 
 ## Dev Install Instructions
 
-If you are planning to work on the site, you'll need to install Gatsby. Instructions for that are at:
-
-<https://www.gatsbyjs.com/tutorial/>
-
 Once that is done, clone this repo. In your terminal `cd` to the directory and run `npm install`. That will install all the nodejs and Gatsby dependencies.
 
-For now my suggestion is to do feature branches off of `main` if you're working on something. After you switch to that branch, you should be able to do `gastby develop` to render a local copy of the site.  The `.gitignore` ensures that none of the node_module directory is included in the repo (which is why you had to do `npm install` at the beginning).
-
+For now my suggestion is to do feature branches off of `main` if you're working on something. After you switch to that branch, you should be able to do `npm run develop` to render a local copy of the site. The `.gitignore` ensures that none of the node_module directory is included in the repo (which is why you had to do `npm install` at the beginning).
 
 ## Site documentation
 
 I promise, this will get done.
-
 
 # Original Readme from Gatsby Starter
 
