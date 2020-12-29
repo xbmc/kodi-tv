@@ -28,9 +28,12 @@ export default function BlogIndexPage( { data, pageContext, location } ) {
         <div style={{ marginLeft: "40px", marginRight: "40px" }}>
           {data.allMarkdownRemark.edges.map((item, index) => (
             <React.Fragment>
-              { item.node.frontmatter.featured_image.trim() == ""
-                ? ""
-                : <img alt="" src={item.node.frontmatter.featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
+              { item.node.frontmatter.featured_image == undefined 
+                ? ("")
+                : ( item.node.frontmatter.featured_image == ""
+                    ? ("")
+                    : (<img alt="" src={item.node.frontmatter.featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} />)
+                ) }
               <TextContent>
                 <Text component={TextVariants.h2}>{item.node.frontmatter.title}</Text>
               </TextContent>

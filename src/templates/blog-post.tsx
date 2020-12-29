@@ -15,13 +15,17 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
+  let featured_image = markdownRemark.frontmatter.featured_image
+  if (featured_image == null) {
+    featured_image = ""
+  }
   return (
     <Layout>
       <MetadataHeader title={markdownRemark.frontmatter.title + ' | News'} />
       <div style={{ margin: "20px" }}>
-        { markdownRemark.frontmatter.featured_image.trim() == ""
+        { featured_image.trim() == ""
           ? ""
-          : <img alt="" src={markdownRemark.frontmatter.featured_image}style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
+          : <img alt="" src={featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>
         </TextContent>
