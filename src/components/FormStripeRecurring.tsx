@@ -20,11 +20,19 @@ class FormStripeOneTime extends React.Component {
     super(props);
     this.state = {
       currency: 'USD',
+      donor: '',
+      forum: '',
       stripePromise: props.stripePromise
     };
     this.onChange = (currency, event) => {
       this.setState({ currency });
     };
+    this.handleDonorChange = donor => {
+      this.setState({ donor })
+    }
+    this.handleForumChange = forum => {
+      this.setState({ forum })
+    }
     this.coptions = [
       { value: 'USD', label: '$ USD', disabled: false },
       { value: 'EUR', label: '€ EUR', disabled: false },
@@ -37,7 +45,7 @@ class FormStripeOneTime extends React.Component {
 
   render() {
 
-    const { currency, stripePromise } = this.state;
+    const { currency, donor, forum, stripePromise } = this.state;
     let level_one = {}
     let level_two = {}
     let level_three = {}
@@ -84,6 +92,32 @@ class FormStripeOneTime extends React.Component {
 
     return (
       <Form isHorizontal>
+        <FormGroup
+          label="Name for Donor Wall"
+          type="string"
+          fieldId="donor"
+        >
+          <TextInput
+            value={donor}
+            id="donor"
+            name="donor"
+            aria-describedby="donor"
+            onChange={this.handleDonorChange}
+          />
+        </FormGroup>
+        <FormGroup
+          label="Forum Username"
+          type="string"
+          fieldId="forum"
+        >
+          <TextInput
+            value={forum}
+            id="forum"
+            name="forum"
+            aria-describedby="forum"
+            onChange={this.handleForumChange}
+          />
+        </FormGroup>
         <FormGroup label="Currency" isRequired fieldId="form-currency">
           <FormSelect
             value={currency}

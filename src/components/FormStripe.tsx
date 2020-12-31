@@ -16,6 +16,11 @@ const stripePromise = loadStripe('pk_test_AusUaUG7C3wVHkOQCs5WbcaO00ssVzaCom');
 export default function FormStripe() {
   return (
     <Grid hasGutter>
+      <GridItem span={12}>
+        <TextContent>
+          <Text>If you want your name to appear on the donor wall, please provide it in the Name for Donor Wall field. If you want credit for your donation in the forums, please provide your forum username in the Forum Username field.</Text>
+        </TextContent>
+      </GridItem>
       <GridItem span={6}>
         <TextContent>
           <Text component={TextVariants.h3}>One Time Donation</Text>
@@ -28,6 +33,6 @@ export default function FormStripe() {
         </TextContent>
         <FormStripeRecurring stripePromise={stripePromise} />
       </GridItem>
-    </Grid>  
+    </Grid>
   )
 }

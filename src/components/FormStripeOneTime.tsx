@@ -19,6 +19,8 @@ class FormStripeOneTime extends React.Component {
       currency: 'price_1HVRC7DOVUu6yhjNHWNMz6Zf',
       price: '',
       validated: 'noval',
+      donor: '',
+      forum: '',
       stripePromise: props.stripePromise
     };
     this.onChange = (currency, event) => {
@@ -27,6 +29,12 @@ class FormStripeOneTime extends React.Component {
     this.handleAmountChange = price => {
       this.setState({ price, validated: price === '' ? 'noval' : /^\d+$/.test(price) ? 'success' : 'error' });
     };
+    this.handleDonorChange = donor => {
+      this.setState({ donor })
+    }
+    this.handleForumChange = forum => {
+      this.setState({ forum })
+    }
     this.coptions = [
       { value: 'price_1HVRC7DOVUu6yhjNHWNMz6Zf', label: '$ USD', disabled: false },
       { value: 'price_1HVRHSDOVUu6yhjNhOGckxxU', label: '€ EUR', disabled: false },
@@ -39,10 +47,21 @@ class FormStripeOneTime extends React.Component {
 
   render() {
 
-    const { currency, price, validated, stripePromise } = this.state;
+    const { currency, price, validated, donor, forum, stripePromise } = this.state;
 
     const handleClick = async (event) => {
       // When the customer clicks on the button, redirect them to Checkout.
+      let sep = '--'
+      let donorname = 'Anonymous'
+      if (donor != ''){
+        donorname = donor
+      }
+      let forumname = 'na'
+      if (forum != ''){
+        forumname = forum
+      }
+      let current_datetime = new Date()
+      let datetime_str = current_datetime.getFullYear() + (current_datetime.getMonth() + 1) + current_datetime.getDate() + current_datetime.getHours() + current_datetime.getMinutes() + current_datetime.getSeconds() 
       let currency_label = ''
       switch(currency) {
         case 'price_1HVRC7DOVUu6yhjNHWNMz6Zf':
@@ -71,13 +90,40 @@ class FormStripeOneTime extends React.Component {
           {price: currency, quantity: parseInt(price)}
         ],
         mode: 'payment',
-        successUrl: config.siteMetadata.siteUrl + '/donate/success?amount=' + price + '&currency=' + currency_label + '&type=One+time+donation',
+        clientReferenceId: datetime_str + sep + donorname + sep + forumname,
+        successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
         cancelUrl: config.siteMetadata.siteUrl + '/donate',
         });
       };
 
     return (
       <Form isHorizontal>
+        <FormGroup
+          label="Name for Donor Wall"
+          type="string"
+          fieldId="donor"
+        >
+          <TextInput
+            value={donor}
+            id="donor"
+            name="donor"
+            aria-describedby="donor"
+            onChange={this.handleDonorChange}
+          />
+        </FormGroup>
+        <FormGroup
+          label="Forum Username"
+          type="string"
+          fieldId="forum"
+        >
+          <TextInput
+            value={forum}
+            id="forum"
+            name="forum"
+            aria-describedby="forum"
+            onChange={this.handleForumChange}
+          />
+        </FormGroup>
         <FormGroup
           isRequired
           label="Amount"
