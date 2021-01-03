@@ -12,7 +12,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
 
  Not all skins support control using a mouse or touch screens. This is intentional as the skin developers have decided to only allow control using a remote or controller. Additionally not all support PVR. Please respect these decision of the developers as they have their reasons to do so.
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.amber/icon.png) **Name** Amber   **Author** Jester, Pecinko   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.amber/icon.png) **Name** Amber   **Author** Jester, Pecinko   **Links**  
  * [Kodi add-ons website](/addons)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=203) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Amber)
@@ -21,7 +21,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
     **Description** No bloatware, just your media with easy to navigate interface.  
  Uses some textures from Mediastream and Aeon skin.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.apptv/icon.png) **Name** AppTV   **Author** Wyrm, SamFisher   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.apptv/icon.png) **Name** AppTV   **Author** Wyrm, SamFisher   **Links**  
  * [Kodi add-ons website](/show/skin.apptv)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=76) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:AppTV)

@@ -115,7 +115,7 @@ So, here we go. Hot on the heels of what is intended to be the [final release in
 
   
 
- If you want to take the plunge, you can get Alpha 1 from [here](http://mirrors.kodi.tv/snapshots/). Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs.
+ If you want to take the plunge, you can get Alpha 1 from [here](https://mirrors.kodi.tv/snapshots/). Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs.
 
  As usual - well, it is open source - you can see what's changed between v18 and v19 [here](https://github.com/xbmc/xbmc/compare/Leia...19.0a1-Matrix). It's a long list...
 

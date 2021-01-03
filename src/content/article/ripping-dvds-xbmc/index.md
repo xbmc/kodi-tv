@@ -10,7 +10,7 @@ A very sought after feature for many in a media center application is the abilit
 
  One of our forum members, linuxluemmel, made use of this feature and added [D](https://code.google.com/archive/p/luemmels-dvd-ripper)[VD Ripping](https://code.google.com/archive/p/luemmels-dvd-ripper) functionality to XBMC. While development is still under way, at least the [Linux version](https://code.google.com/archive/p/luemmels-dvd-ripper/wikis/readmelinux.wiki) has reached the point of usability.
 
- ![](http://luemmels-dvd-ripper.googlecode.com/files/Mainmenu.png)
+ ![](https://luemmels-dvd-ripper.googlecode.com/files/Mainmenu.png)
 
  If you are interested in this development I’d encourage you to provide feedback and bug reports in our [forum](https://forum.kodi.tv/showthread.php?tid=52166) in order to help linuxluemmel make this plugin fully functional and add all ‘bells and whistles’ on Linux, Windows and OSX.
 

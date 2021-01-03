@@ -45,7 +45,7 @@ It’s been a mere 13 days since beta 1 came out, and already we’re ready for 
  The Shirt
 ---------
 
- [![](http://images.teespring.com/shirt_pic/452953/7/355/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
+ [![](https://images.teespring.com/shirt_pic/452953/7/355/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
 
  For those of you on the fence about the  [XBMC t-shirt](https://teespring.com/xbmcbeta1shirt "XBMC Shirt") (also available in women’s sizes and as a hoodie, as well as multiple colors), you should know that as of this writing there are only 1 day and 12 hours left to buy. Time’s just about up!
 

@@ -28,7 +28,7 @@ It's been a busy half-year since Kodi's 2016 Developers' Conference last Septemb
 
   
 
- [![WeTek](http://xbmcfoundation.prod.dd:8083/sites/default/files/sponsor/field_image/WeTek.png "WeTek")](https://business.wetek.com)  
+ [![WeTek](https://xbmcfoundation.prod.dd:8083/sites/default/files/sponsor/field_image/WeTek.png "WeTek")](https://business.wetek.com)  
 We'd like to take a moment to thank our DevCon sponsor, **[WeTek](https://business.wetek.com)**. These events are costly and without their generous contribution much harder to finance. As always, we'll continue to talk about ways to improve the software we all love: Kodi for Windows x64 and UWP, GSOC projects, database refactoring, and server and infrastructure improvements are some of the scheduled topics. Perhaps most exciting to all you Kodi fans out there is that we're also going to fine-tune the path for the release of Kodi v18, "Leia".
 
   

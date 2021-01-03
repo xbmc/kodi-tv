@@ -16,9 +16,9 @@ Now that some of the excitement of the XBMC 12 release has blown over, we need t
 
  ### SCALE
 
- Once again, XBMC will be attending [SCALE](http://www.socallinuxexpo.org/scale11x/ "Southern California Linux Expo") in sunny Los Angeles, the weekend of February 22-24th. This year, we plan on showing off some pretty exciting hardware at our booth, including the Pivos XIOS DS, PVR in action, and – with luck – an Ouya Dev Box.
+ Once again, XBMC will be attending [SCALE](https://www.socallinuxexpo.org/scale11x/ "Southern California Linux Expo") in sunny Los Angeles, the weekend of February 22-24th. This year, we plan on showing off some pretty exciting hardware at our booth, including the Pivos XIOS DS, PVR in action, and – with luck – an Ouya Dev Box.
 
- Cory Fields (theuni), Keith Herrington (keith), Ned Scott (nedscott), and Nathan Betzen (natethomas) will be manning the booth, where we plan on having some awesome, never before seen XBMC swag. Additionally, Nathan will be giving a talk on[growing online software communities](http://www.socallinuxexpo.org/scale11x/presentations/growing-online-user-community-review-xbmc-method "Growing an Online User Community: A Review of the XBMC Method - SCALE") at 11:30am on Friday.
+ Cory Fields (theuni), Keith Herrington (keith), Ned Scott (nedscott), and Nathan Betzen (natethomas) will be manning the booth, where we plan on having some awesome, never before seen XBMC swag. Additionally, Nathan will be giving a talk on[growing online software communities](https://www.socallinuxexpo.org/scale11x/presentations/growing-online-user-community-review-xbmc-method "Growing an Online User Community: A Review of the XBMC Method - SCALE") at 11:30am on Friday.
 
  We’d love to see you all there, and to help make that happen the SCALE organizers have agreed to help out the XBMC community. If you enter the promotion code XBMC during [registration](https://reg.socallinuxexpo.org/reg6/ "SCALE Registration page"), you can get 50% off your full access pass for the weekend.
 

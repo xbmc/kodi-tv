@@ -12,7 +12,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
 
  Not all skins support control using a mouse or touchscreens. This is intentional as the skin developers have decided to only allow control using a remote or controller. Additionally not all support PVR. Please respect these decision of the developers as they have their reasons to do so.
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.aeon.nox.5/icon.png) **Name** Aeon Nox 5: Redux   **Author** BigNoid   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.aeon.nox.5/icon.png) **Name** Aeon Nox 5: Redux   **Author** BigNoid   **Links**  
  * [Kodi website](/addons)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=142) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Aeon_Nox)
@@ -20,7 +20,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Redux: Completely redesigned to create a modern look, while retaining the classic Aeon feel.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.arctic.zephyr/icon.png) **Name** Arctic: Zephyr   **Author** jurialmonkey   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.arctic.zephyr/icon.png) **Name** Arctic: Zephyr   **Author** jurialmonkey   **Links**  
  * [Kodi website](/addons)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=221) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Arctic:_Zephyr)
@@ -28,7 +28,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Arctic: Zephyr is the third iteration of the Arctic skin created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.back-row/icon.png) **Name** Back-Row   **Author** Sharpe   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.back-row/icon.png) **Name** Back-Row   **Author** Sharpe   **Links**  
  * [Kodi website](/show/skin.back-row)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=127) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Back_Row)
@@ -36,7 +36,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Back Row is all about recapturing the magic of going to the cinema in your own home. The skin has been designed with this aim in mind but has taken on board many good ideas and suggestions from the XBMC community. Over the years it has become a polished theme that can be easily customised to suit your needs. So go grab some popcorn and fool around on the Back Row.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.blackglassnova/icon.png) **Name** Black Glass Nova   **Author** Tgx   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.blackglassnova/icon.png) **Name** Black Glass Nova   **Author** Tgx   **Links**  
  * [Kodi website](/addon/skins/black-glass-nova)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=208) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Black_Glass_Nova)
@@ -44,7 +44,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Ported from MediaPortal, Black Glass Nova is an easy to use and fanart oriented skin designed for Full HD TV screens.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.cirrus.extended/icon.png) **Name** Cirrus Extended   **Author** paradix   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.cirrus.extended/icon.png) **Name** Cirrus Extended   **Author** paradix   **Links**  
  * [Kodi website](/show/skin.cirrus.extended)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=133) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Cirrus_Extended)
@@ -52,7 +52,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** An modification on the original Cirrus Extended skin created by Butchabay         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.mimic/icon.png) **Name** Mimic   **Author** bryanbrazil   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.mimic/icon.png) **Name** Mimic   **Author** bryanbrazil   **Links**  
  * [Kodi website](/addon/skins/mimic)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=218) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Mimic)
@@ -60,7 +60,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Mimic: A Kodi skin with touches of reFocus and Aeon Nox. Many thanks to BigNoid and Jeroen.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.nebula/icon.png) **Name** Nebula   **Author** Tgx   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.nebula/icon.png) **Name** Nebula   **Author** Tgx   **Links**  
  * [Kodi website](/addon/skins/nebula)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=211) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Nebula)
@@ -68,7 +68,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Simple and full-featured light or dark color skin designed for Full HD TV screens.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.neon/icon.png) **Name** Neon   **Author** kib, bumpaneer   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.neon/icon.png) **Name** Neon   **Author** kib, bumpaneer   **Links**  
  * [Kodi website](/show/skin.neon)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=139) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Neon)
@@ -76,7 +76,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** Neon started as the excellent Night skin by mcborzu, inspiration from djh\_ and liberal amounts of knowledge, code and graphics from Jezz\_x’s work on Confluence – all rolled into one by stoli.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.rapier/icon.png) **Name** Rapier   **Author** Gade   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.rapier/icon.png) **Name** Rapier   **Author** Gade   **Links**  
  * [Kodi website](/addon/skins/rapier)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=120) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Rapier)
@@ -84,7 +84,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin’s design goals.         
 
-    ![](http://mirrors.kodi.tv/addons/helix/skin.titan/icon.png) **Name** Titan   **Author** marcelveldt   **Links**  
+    ![](https://mirrors.kodi.tv/addons/helix/skin.titan/icon.png) **Name** Titan   **Author** marcelveldt   **Links**  
  * [Kodi website](/addons)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=212) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/view/Add-on:Titan_MediaBrowser)
@@ -92,7 +92,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** MediaPortal’s Titan skin ported to Kodi enriched with lot’s of features.         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.transparency/icon.png) **Name** Transparency!   **Author** ronie   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.transparency/icon.png) **Name** Transparency!   **Author** ronie   **Links**  
  * [Kodi website](/addon/skins/transparency)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=115) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Transparency!)
@@ -100,7 +100,7 @@ By default Kodi starts with the Confluence skin which gives users almost everyth
  
     **Description** What is Transparency!? Short answer: a fanart skin. The main goal of Transparency! is showing your fanart, fullscreen, in all of the views, all of the time. Besides this, it also tries to support every neat new feature Kodi has to offer. To save everyone a lot of time and trouble hacking the xml code themselves, all of these new features are already included in the skin, pre-configured and enabled by default (wherever possible).         
 
-    ![](http://mirrors.kodi.tv/addons/isengard/skin.xperience1080/icon.png) **Name** Xperience1080   **Author** Piers, xhaggi, ‘Black   **Links**  
+    ![](https://mirrors.kodi.tv/addons/isengard/skin.xperience1080/icon.png) **Name** Xperience1080   **Author** Piers, xhaggi, ‘Black   **Links**  
  * [Kodi website](/addon/skins/xperience1080)
  * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=197) (for questions and showing appreciation)
  * [wiki page](https://kodi.wiki/index.php?title=Add-on:Xperience1080)

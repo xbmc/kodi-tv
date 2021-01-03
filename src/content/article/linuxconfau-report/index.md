@@ -4,7 +4,7 @@ date: 2010-01-27T03:00:00Z
 author: Team XBMC
 featured_image: ""
 ---
-David Teirney and I just got back from hosting a successful booth at the [Linux.conf.au](http://www.lca2010.org.nz/) open day in Wellington, NZ.
+David Teirney and I just got back from hosting a successful booth at the [Linux.conf.au](https://www.lca2010.org.nz/) open day in Wellington, NZ.
 
  It was great to meet a bunch of people and show them just what XBMC is all about. In particular it was great meeting Erik de Castro Lopo of [libsamplerate](http://www.mega-nerd.com/SRC/) fame, which we use for resampling audio when video is synced to the refresh rate of the monitor.
 

@@ -13,7 +13,7 @@ As we approach Kodi DevCon (our annual team member conference) we continue our q
  
  * FOSDEM - @martijn, @yol and @lrusak gave talks ([here](https://archive.fosdem.org/2018/schedule/event/om_kodi/), [here](https://archive.fosdem.org/2018/schedule/event/wayland_client/) and [here](https://archive.fosdem.org/2018/schedule/event/kodi/&amp;sa=D&amp;ust=1567800781359000))
  * Open Source Leadership Summit - @natethomas spoke ([slides](https://drive.google.com/file/d/1albCdFmEBH1_GkAkVcLE1yIZadMcqpn5/view?usp=sharing))
- * SCALE - @natethomas spoke, How to Destroy a Community ([video](https://www.youtube.com/watch?v=DxW2XyWA5jA&feature=youtu.be&t=18939), [overview and slides](http://www.socallinuxexpo.org/scale/16x/presentations/how-destroy-community))
+ * SCALE - @natethomas spoke, How to Destroy a Community ([video](https://www.youtube.com/watch?v=DxW2XyWA5jA&feature=youtu.be&t=18939), [overview and slides](https://www.socallinuxexpo.org/scale/16x/presentations/how-destroy-community))
  * Linaro Connect - @lrusak spoke ([video](https://youtu.be/H1YLEXVFNfw))
  
   

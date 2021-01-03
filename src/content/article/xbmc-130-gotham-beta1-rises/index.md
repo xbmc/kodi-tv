@@ -106,7 +106,7 @@ We hope you are as excited about this as we are. After a year of hard work, impr
  The Shirt
 ---------
 
- [![](http://images.teespring.com/shirt_pic/452953/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
+ [![](https://images.teespring.com/shirt_pic/452953/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
 
  For the next two weeks, and only the next two weeks, in honor of Beta 1 of XBMC 13 finally being released, and to celebrate the fact that we’ve been around over 10 years now, [we’re selling a simple XBMC t-shirt](https://teespring.com/xbmcbeta1shirt "XBMC Shirt") (also available in women’s sizes and as a hoodie).
 

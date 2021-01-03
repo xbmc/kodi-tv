@@ -4,7 +4,7 @@ date: 2014-03-11T03:00:00Z
 author: Nathan Betzen
 featured_image: ""
 ---
-[![](http://images.teespring.com/shirt_pic/452953/7/314/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
+[![](https://images.teespring.com/shirt_pic/452953/7/314/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
 
  This is just a quick reminder for those of you not on the social networks that the [XBMC Beta shirt and hoodie sale](https://teespring.com/xbmcbeta1shirt) has less than a week to go, and after that we won’t be selling this particular design again, possibly forever.
 
