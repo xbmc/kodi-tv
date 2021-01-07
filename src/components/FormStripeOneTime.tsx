@@ -51,12 +51,12 @@ class FormStripeOneTime extends React.Component {
 
     const handleClick = async (event) => {
       // When the customer clicks on the button, redirect them to Checkout.
-      let sep = '--'
-      let donorname = 'Anonymous'
+      let sep = '\u2028'
+      let donorname = ''
       if (donor != ''){
         donorname = donor
       }
-      let forumname = 'na'
+      let forumname = ''
       if (forum != ''){
         forumname = forum
       }
@@ -90,7 +90,8 @@ class FormStripeOneTime extends React.Component {
           {price: currency, quantity: parseInt(price)}
         ],
         mode: 'payment',
-        clientReferenceId: datetime_str + sep + donorname + sep + forumname,
+        submitType: 'donate',
+        clientReferenceId: donorname + sep + forumname,
         successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
         cancelUrl: config.siteMetadata.siteUrl + '/donate',
         });

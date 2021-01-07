@@ -13,12 +13,12 @@ export default function ButtonStripe(props: {
 }) {
   const handleClick = async (event) => {
     // When the customer clicks on the button, redirect them to Checkout.
-    let sep = '--'
-    let donorname = 'Anonymous'
+    let sep = '\u2028'
+    let donorname = ''
     if (donor != ''){
       donorname = donor
     }
-    let forumname = 'na'
+    let forumname = ''
     if (forum != ''){
       forumname = forum
     }
@@ -31,7 +31,7 @@ export default function ButtonStripe(props: {
         {price: props.price_id, quantity: 1}
       ],
       mode: 'subscription',
-      clientReferenceId: datetime_str + sep + donorname + sep + forumname,
+      clientReferenceId: donorname + sep + forumname,
       successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
       cancelUrl: config.siteMetadata.siteUrl + '/donate',
     });
