@@ -60,21 +60,19 @@ class FormPaypal extends React.Component {
   render() {
     const { currency_code, amount, validated, selectedItem, qpselectedItem, donor, forum } = this.state;
     // need to quote plus the selectedItem
-    const returnUrl = config.siteMetadata.siteUrl + '/donate/success-paypal'
     
     return (
       <React.Fragment>
         <TextContent>
           <Text>If you want your name to appear on the donor wall, please provide it in the Name for Donor Wall field. If you want credit for your donation in the forums, please provide your forum username in the Forum Username field.</Text>
         </TextContent>    
-      <Form isHorizontal action="https://www.paypal.com/cgi-bin/webscr" method="post" accept-charset="UTF-8">
-        <input type="hidden" name="business" value="donate@xbmc.org" />
+      <Form isHorizontal action="https://www.sandbox.paypal.com//cgi-bin/webscr" method="post" accept-charset="UTF-8">
+        <input type="hidden" name="business" value="donate-facilitator@xbmc.org" />
         <input type="hidden" name="no_note" value="0" />
         <input type="hidden" name="no_shipping" value="1" />
         <input type="hidden" name="lc" value="en" />
         <input type="hidden" name="on0" value="Donor Name" />
         <input type="hidden" name="on1" value="Forum Name" />
-        <input type="hidden" name="notify_url" value={returnUrl} />
         <input type="hidden" name="cmd" value="_donations" />
         <FormGroup
           label="Name for Donor Wall"
