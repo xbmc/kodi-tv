@@ -149,6 +149,19 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-netlify-cms",
     {
+      resolve: 'gatsby-source-dynamodb',
+      options: {
+        typeName: 'DonorWall',
+        accessKeyId: process.env.AWS_ID, 
+        secretAccessKey: process.env.AWS_KEY,
+        region: 'us-east-1',
+        params: {
+          TableName : process.env.AWS_DBNAME,
+          // OTHER PARAMS HERE
+        }
+      }
+    },
+    {
       resolve: "gatsby-plugin-feed",
       options: {
         query: `
