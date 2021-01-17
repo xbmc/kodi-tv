@@ -11,7 +11,7 @@ import {
   TextVariants,
 } from '@patternfly/react-core'
 import FormBitcoin from 'src/components/FormBitcoin'
-import FormPaypal from 'src/components/FormPaypal'
+import FormPayPal from 'src/components/FormPayPal'
 import FormStripe from 'src/components/FormStripe'
 
 
@@ -53,7 +53,7 @@ class DonationTabs extends React.Component {
             <div style={{'paddingTop': '15px'}}>
             <Stack hasGutter>
               <StackItem>
-                <FormPaypal />
+                <FormPayPal />
               </StackItem>
             </Stack>
             </div>
