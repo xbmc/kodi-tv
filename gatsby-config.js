@@ -1,5 +1,8 @@
 const path = require("path")
 const config = require("./gatsby-site-config")
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 const topNav = [
   {
@@ -82,6 +85,10 @@ const sideNav = [
     menuType: "submenu",
     nav: [
       {
+        title: "About",
+        path: "/about",
+      },
+      {
         title: "Contact",
         path: "/about/contact",
       },
@@ -104,12 +111,30 @@ const sideNav = [
     menuType: "submenu",
     nav: [
       {
+        title: "Add-Ons",
+        path: "/addons",
+      },
+      {
         title: "Search Add-Ons",
         path: "/addons/search",
       },
       {
         title: "Top Authors",
         path: "/addons/top-authors",
+      },
+    ],
+  },
+  {
+    rootPath: "/donate",
+    menuType: "submenu",
+    nav: [
+      {
+        title: "Donate",
+        path: "/donate",
+      },
+      {
+        title: "Donor Wall",
+        path: "/donate/wall",
       },
     ],
   },
