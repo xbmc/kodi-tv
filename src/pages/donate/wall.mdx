@@ -1,0 +1,25 @@
+import { graphql } from "gatsby"
+import MetadataHeader from "src/components/SiteMetadata"
+import DonorList from 'src/components/DonorList'
+
+<MetadataHeader title="Donor Wall" />
+
+# Donor Wall
+
+Recent donors. Thanks for your support!
+
+<DonorList items={props.data.Donors.edges} />
+
+export const pageQuery = graphql`
+  query {
+    Donors: allDonor(sort: {fields: createdAt, order: DESC}) {
+      edges {
+        node {
+          amount
+          currency
+          publicName
+        }
+      }
+    }
+  }
+`

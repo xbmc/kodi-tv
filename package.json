@@ -7,6 +7,7 @@
   "dependencies": {
     "@patternfly/react-core": "^4.47.0",
     "@stripe/stripe-js": "^1.9.0",
+    "aws-sdk": "^2.828.0",
     "axios": "^0.21.1",
     "eslint": "^7.9.0",
     "gatsby": "^2.28.1",
@@ -19,7 +20,6 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.35",
     "gatsby-plugin-typescript": "^2.4.19",
-    "gatsby-source-dynamodb": "0.0.2",
     "gatsby-source-filesystem": "^2.3.29",
     "gatsby-theme-patternfly": "git+https://github.com/pkscout/gatsby-theme-patternfly.git",
     "gatsby-transformer-remark": "^2.12.0",

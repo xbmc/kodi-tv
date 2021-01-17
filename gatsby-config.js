@@ -174,19 +174,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-netlify-cms",
     {
-      resolve: 'gatsby-source-dynamodb',
-      options: {
-        typeName: 'DonorWall',
-        accessKeyId: process.env.AWS_ID, 
-        secretAccessKey: process.env.AWS_KEY,
-        region: 'us-east-1',
-        params: {
-          TableName : process.env.AWS_DBNAME,
-          // OTHER PARAMS HERE
-        }
-      }
-    },
-    {
       resolve: "gatsby-plugin-feed",
       options: {
         query: `
@@ -280,6 +267,25 @@ module.exports = {
         // one or more side navigation definitions
         sideNav: sideNav,
       },
+    },
+    {
+      resolve: 'gatsby-source-kodidonorwall',
+      options: {
+        typeName: 'Donor',
+        accessKeyId: process.env.AWS_ID, 
+        secretAccessKey: process.env.AWS_KEY,
+        region: 'us-east-1',
+        params: {
+          TableName : process.env.AWS_DBNAME,
+          IndexName: 'all',
+          Limit: 30,
+          ProjectionExpression: 'id,createdAt,amount,currency,provider,publicName',
+          ScanIndexForward: false,
+          KeyConditionExpression: 'dummy=:dummyval',
+          ExpressionAttributeValues: {":dummyval":"1"},
+          // OTHER PARAMS HERE
+        }
+      }
     },
     {
       resolve: "gatsby-source-kodiaddon",
