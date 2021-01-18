@@ -140,6 +140,8 @@ class FormStripeOneTime extends React.Component {
                 currency={currency}
                 price_id={level_one.price}
                 button_text={level_one.text}
+                donorname={donor}
+                forumname={forum}
               />
             </StackItem>
             <StackItem>
@@ -149,6 +151,8 @@ class FormStripeOneTime extends React.Component {
                 currency={currency}
                 price_id={level_two.price}
                 button_text={level_two.text}
+                donorname={donor}
+                forumname={forum}
               />
             </StackItem>
             <StackItem>
@@ -158,6 +162,8 @@ class FormStripeOneTime extends React.Component {
                 currency={currency}
                 price_id={level_three.price}
                 button_text={level_three.text}
+                donorname={donor}
+                forumname={forum}
               />
             </StackItem>
             <StackItem>
@@ -167,6 +173,8 @@ class FormStripeOneTime extends React.Component {
                 currency={currency}
                 price_id={level_four.price}
                 button_text={level_four.text}
+                donorname={donor}
+                forumname={forum}
               />
             </StackItem>
           </Stack>

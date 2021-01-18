@@ -8,20 +8,12 @@ export default function ButtonStripe(props: {
   button_text: string | undefined
   amount: string | undefined
   currency: string | undefined
-  donor: string | undefined
-  forum: string | undefined
+  donorname: string | undefined
+  forumname: string | undefined
 }) {
   const handleClick = async (event) => {
     // When the customer clicks on the button, redirect them to Checkout.
     let sep = '\u2028'
-    let donorname = ''
-    if (donor != ''){
-      donorname = donor
-    }
-    let forumname = ''
-    if (forum != ''){
-      forumname = forum
-    }
     let current_datetime = new Date()
     let datetime_str = current_datetime.getFullYear() + (current_datetime.getMonth() + 1) + current_datetime.getDate() + current_datetime.getHours() + current_datetime.getMinutes() + current_datetime.getSeconds() 
     const stripe = await props.stripePromise;
@@ -31,7 +23,7 @@ export default function ButtonStripe(props: {
         {price: props.price_id, quantity: 1}
       ],
       mode: 'subscription',
-      clientReferenceId: donorname + sep + forumname,
+      clientReferenceId: props.donorname + sep + props.forumname,
       successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
       cancelUrl: config.siteMetadata.siteUrl + '/donate',
     });
