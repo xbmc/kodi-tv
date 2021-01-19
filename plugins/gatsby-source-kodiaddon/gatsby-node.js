@@ -243,7 +243,9 @@ function getAddon(rawaddon) {
         addonhistory.agetype = "existing"
         addon.agetype = "existing"
       }
-      downloadImages()
+      if (addon.broken == null) {
+        downloadImages()      
+      }
     }
     if (addon.broken == null) {
       // getDownloadCount() // this isn't working yet
