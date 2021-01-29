@@ -10,7 +10,6 @@ import {
   Button,
 } from '@patternfly/react-core';
 import ExclamationCircleIcon from '@patternfly/react-icons/dist/js/icons/exclamation-circle-icon';
-import config from "../../gatsby-site-config"
 
 class FormStripeOneTime extends React.Component {
   constructor(props) {
@@ -92,8 +91,8 @@ class FormStripeOneTime extends React.Component {
         mode: 'payment',
         submitType: 'donate',
         clientReferenceId: donorname + sep + forumname,
-        successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
-        cancelUrl: config.siteMetadata.siteUrl + '/donate',
+        successUrl: process.env.GATSBY_SITEURL + '/donate/success-stripe',
+        cancelUrl: process.env.GATSBY_SITEURL + '/donate',
         });
       };
 

@@ -11,7 +11,6 @@ import {
   Radio,
 } from '@patternfly/react-core';
 import ExclamationCircleIcon from '@patternfly/react-icons/dist/js/icons/exclamation-circle-icon';
-import config from "../../gatsby-site-config"
 
 class FormPayPalOneTime extends React.Component {
   constructor(props) {
@@ -50,7 +49,7 @@ class FormPayPalOneTime extends React.Component {
     // need to quote plus the selectedItem
     
     return (
-      <Form isHorizontal action="https://www.sandbox.paypal.com//cgi-bin/webscr" method="post" accept-charset="UTF-8">
+      <Form isHorizontal action={process.env.GATSBY_PAYPAL_URL} method="post" accept-charset="UTF-8">
         <input type="hidden" name="business" value="donate-facilitator@xbmc.org" />
         <input type="hidden" name="no_note" value="0" />
         <input type="hidden" name="no_shipping" value="1" />

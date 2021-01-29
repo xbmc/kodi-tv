@@ -10,7 +10,7 @@ import FormStripeOneTime from 'src/components/FormStripeOneTime'
 import FormStripeRecurring from 'src/components/FormStripeRecurring'
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe('pk_test_AusUaUG7C3wVHkOQCs5WbcaO00ssVzaCom');
+const stripePromise = loadStripe(process.env.GATSBY_STRIPE_APIKEY);
 
 
 export default function FormStripe() {

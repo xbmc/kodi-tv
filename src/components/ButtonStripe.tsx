@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from '@patternfly/react-core';
-import config from "../../gatsby-site-config"
 
 export default function ButtonStripe(props: {
   stripePromise: any | undefined
@@ -24,8 +23,8 @@ export default function ButtonStripe(props: {
       ],
       mode: 'subscription',
       clientReferenceId: props.donorname + sep + props.forumname,
-      successUrl: config.siteMetadata.siteUrl + '/donate/success-stripe',
-      cancelUrl: config.siteMetadata.siteUrl + '/donate',
+      successUrl: process.env.GATSBY_SITEURL + '/donate/success-stripe',
+      cancelUrl: process.env.GATSBY_SITEURL + '/donate',
     });
     // If `redirectToCheckout` fails due to a browser or network
     // error, display the localized error message to your customer
