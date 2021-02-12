@@ -114,7 +114,7 @@ export default function Addon({
           <TextContent id="info" className="pf-u-py-xl">
             <TextList component="dl">
               <TextListItem component="dt">Description</TextListItem>
-              <TextListItem component="dd">{addon.description}</TextListItem>
+              <TextListItem component="dd"><div dangerouslySetInnerHTML={{ __html: addon.description }} /></TextListItem>
               <ConditionalTextListItem
                 hide={addon.forum == null}
                 title={"Forum"}
