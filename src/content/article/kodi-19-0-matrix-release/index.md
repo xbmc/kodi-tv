@@ -78,7 +78,7 @@ If you experience any issues or find any remaining bugs, please post in the [Gen
 
 ##### **Donate**
 
-To show support and appreciation for Kodi, please consider [making a donation](https://kodi.tv/contribute/donate) or [purchasing merchandise](https://kodi.tv/store) such as a T-shirt or Raspberry Pi case. Your donations help us operate, covering operating expenses, hardware and software licences for developers, and legal fees, as well as paying for team members to attend industry/FLOSS events and our annual conference.
+To show support and appreciation for Kodi, please consider [making a donation](/donate) or [purchasing merchandise](/store) such as a T-shirt or Raspberry Pi case. Your donations help us operate, covering operating expenses, hardware and software licences for developers, and legal fees, as well as paying for team members to attend industry/FLOSS events and our annual conference.
 
 ##### **Availability**
 
