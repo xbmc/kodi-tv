@@ -108,8 +108,8 @@ releases:
       - name: "Install Guide"
         url: "https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi"
 
---- # MacOS Distribution
-name: "MacOS"
+--- # macOS Distribution
+name: "macOS"
 sortorder: 5
 howto: "https://kodi.wiki/view/windows"
 releases:
