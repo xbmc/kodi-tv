@@ -59,7 +59,7 @@ export default function categoryIconList(props: {
                 <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
               </Link>
               <div>
-                <Link to={linkroot + item.slug}>{item.name}</Link>
+                <Link to={linkroot + item.slug}><div dangerouslySetInnerHTML={{ __html: item.name }} /></Link>
               </div>
             </div>
           </GalleryItem>
