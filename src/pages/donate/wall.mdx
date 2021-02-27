@@ -12,7 +12,7 @@ Recent donors. Thanks for your support!
 
 export const pageQuery = graphql`
   query {
-    Donors: allDonor(sort: {fields: createdAt, order: DESC}) {
+    Donors: allDonor(filter: {provider: {ne: "none"}}, sort: {fields: createdAt, order: DESC}) {
       edges {
         node {
           amount

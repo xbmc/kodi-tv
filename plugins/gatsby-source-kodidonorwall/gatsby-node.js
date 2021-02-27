@@ -32,9 +32,28 @@ exports.sourceNodes = ( { actions, createNodeId, createContentDigest },
     }
 
     const onQuery = (err, data) => {
-      if (err) {
-        console.error("Unable to query donors. Error:", JSON.stringify(err, null, 2));
-        reject(err)
+      if (err || data.Items.length == 0) {
+        if (err) {
+          console.error("Unable to query donors. Error:", JSON.stringify(err, null, 2));      
+        } else {
+          console.log("No donor records found.")
+        }
+        console.log("Creating single empty donor record.")
+        let item = {
+          amount: 0,
+          currency: 'usd',
+          createdAt: 1613609727,
+          id: 'blank-record',
+          provider: 'none',
+          publicName: 'Dummy Record'
+        }
+        const nodeData = processData(item)
+        createNode(nodeData)
+        if (err){
+          reject(err)      
+        } else {
+          resolve()
+        }
       } else {
         console.log("Query for donors succeeded.");
         data.Items.forEach((item) => {
