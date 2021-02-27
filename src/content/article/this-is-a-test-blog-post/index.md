@@ -59,3 +59,21 @@ And the usual mangled list formatting:
    1. Numbered lists
    2. Numbered lists
 3. Numbered lists
+
+**Code block (with code types):**
+
+```c
+#ifndef _STDIO_H_
+#ifdef __cplusplus
+extern "C" {
+#endif
+#define _STDIO_H_
+
+#define _FSTDIO                 /* ``function stdio'' */
+
+#define __need_size_t
+#include <stddef.h>
+
+#define __need___va_list
+#include <stdarg.h>
+```
