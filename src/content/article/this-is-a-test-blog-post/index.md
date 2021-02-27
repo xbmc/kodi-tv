@@ -26,6 +26,10 @@ You've got the usual suspects:
 
 ###### Heading 6
 
+
+
+Plus, quotes:
+
 > So, so you think you can tell\
 > Heaven from hell?\
 > Blue skies from pain?\
@@ -35,6 +39,8 @@ You've got the usual suspects:
 > Do you think you can tell?
 
 
+
+And the usual mangled list formatting:
 
 * bullets
 
@@ -46,8 +52,6 @@ You've got the usual suspects:
     * bullets
   * bullets
 * bullets
-
-
 
 1. Numbered lists
 2. Numbered lists
