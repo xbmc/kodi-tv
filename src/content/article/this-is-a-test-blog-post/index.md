@@ -26,8 +26,6 @@ You've got the usual suspects:
 
 ###### Heading 6
 
-
-
 Plus, quotes:
 
 > So, so you think you can tell\
@@ -37,8 +35,6 @@ Plus, quotes:
 > From a cold steel rail?\
 > A smile from a veil?\
 > Do you think you can tell?
-
-
 
 And the usual mangled list formatting:
 
