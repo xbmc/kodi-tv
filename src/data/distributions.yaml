@@ -116,7 +116,7 @@ releases:
   - id: "recommend"
     name: "Recommended"
     title: "Kodi v19.0 (Matrix)"
-    description: "Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide hardware video decoding for H.264 and MPEG2 video, though most CPUs are able to use software decoding for other formats in 1080 as well. Macs can use the Apple TV remote, among others, for control of Kodi. An Intel Mac running OS X 10.8 or higher is required."
+    description: "Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide hardware video decoding for H.264 and MPEG2 video, though most CPUs are able to use software decoding for other formats in 1080 as well. Macs can use the Apple TV remote, among others, for control of Kodi. An Intel Mac running OS X 10.13 or higher is required."
     downloads:
       - name: "Installer (64BIT)"
         url: "https://mirrors.kodi.tv/releases/osx/x86_64/kodi-19.0-Matrix-x86_64.dmg"
