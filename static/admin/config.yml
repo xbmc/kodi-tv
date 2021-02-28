@@ -70,6 +70,7 @@ collections:
         label: 'Platform'
         widget: 'select'
         options: ['Windows', 'Linux', 'Android', 'Raspberry Pi', 'macOS', 'iOS', 'tvOS' ]
+      - { label: 'Image', name: 'icon', widget: 'image' }
       - { name: 'version', label: 'Kodi Version Number', widget: 'number', value_type: 'float' }
       - { name: 'sort_order', label: 'Sort Order', widget: 'number', value_type: 'int' }
       - { name: 'howto', label: 'How-to Wiki Link', widget: 'string' }
