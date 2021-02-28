@@ -299,9 +299,7 @@ module.exports = {
     {
     resolve: "gatsby-plugin-netlify-cache",
     options: {
-      extraDirsToCache: [
-        "src/data"
-      ]
+      cachePublic: true
     }
   }
     // this (optional) plugin enables Progressive Web App + Offline functionality
