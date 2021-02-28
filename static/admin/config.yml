@@ -11,6 +11,7 @@ publish_mode: 'editorial_workflow'
 collections:
   - name: 'blog'
     label: 'Blog'
+    label_singular: 'Post'
     folder: 'src/content/article'
     create: true
     path: '{{title}}/index'
@@ -34,11 +35,14 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'store'
     label: 'Store'
+    label_singular: 'Item'
     extension: 'yaml'
     folder: 'src/data/yaml/store'
     create: true
     path: '{{name}}'
     slug: '{{name}}'
+    identifier_field: 'name'
+    sortable_fields: ['name', 'group_number']
     show_preview_links: false
     media_folder: '/static/images/store'
     public_folder: '/images/store'
@@ -54,6 +58,9 @@ collections:
     create: true
     path: '{{name}}-{{version}}'
     slug: '{{name}}-{{version}}'
+    identifier_field: 'name'
+    summary: '{{name}} Kodi version {{version}}'
+    sortable_fields: ['name']
     show_preview_links: false
     media_folder: '/static/images/distributions'
     public_folder: '/images/distributions'
