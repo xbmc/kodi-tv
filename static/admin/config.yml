@@ -52,8 +52,8 @@ collections:
     extension: 'yaml'
     folder: 'src/data/yaml/distribution'
     create: true
-    path: '{{name}-{version}}'
-    slug: '{{name}-{version}}'
+    path: '{{name}}-{{version}}'
+    slug: '{{name}}-{{version}}'
     show_preview_links: false
     media_folder: '/static/images/distributions'
     public_folder: '/images/distributions'
@@ -70,7 +70,7 @@ collections:
         widget: 'list'
         collapsed: true
         minimize_collapsed: true
-        summary: 'Releases'
+        summary: '{{name}} - {{title}}'
         label_singular: 'Add Release'
         fields:
           - { name: 'name', label: 'Type', widget: 'select', options: ['Recommended', 'Pre release', 'Development Builds'] }
@@ -81,7 +81,7 @@ collections:
             widget: 'list'
             collapsed: true
             minimize_collapsed: true
-            summary: 'Downloads'
+            summary: '{{name}}'
             label_singular: 'Add Download Link'
             fields:
               - { name: 'name', label: 'Title', widget: 'string' }
