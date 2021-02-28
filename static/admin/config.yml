@@ -1,12 +1,12 @@
 backend:
-  name: github
-  repo: xbmc/kodi-tv
-  branch: main
+  name: 'github'
+  repo: 'xbmc/kodi-tv'
+  branch: 'main'
 
-site_url: https://kodi-tv.netlify.app
-media_folder: /static/images/blog
-public_folder: /images/blog
-publish_mode: editorial_workflow
+site_url: 'https://kodi-tv.netlify.app'
+media_folder: '/static/images/blog'
+public_folder: '/images/blog'
+publish_mode: 'editorial_workflow'
 
 collections:
   - name: 'blog'
@@ -28,7 +28,19 @@ collections:
         collapsed: true
         summary: '{{fields.src}}'
         fields:
-          - {name: src, label: Image, widget: image}
-          - {name: title, label: Title, widget: string}
-          - {name: alt, label: Alt text, widget: string}
+          - {name: 'src', label: 'Image', widget: 'image'}
+          - {name: 'title', label: 'Title', widget: 'string'}
+          - {name: 'alt', label: 'Alt text', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'store'
+    label: 'Store'
+    folder: '/src/data/yaml/store'
+    create: true
+    show_preview_links: false
+    media_folder: '/static/images/store'
+    public_folder: '/images/store'
+    fields:
+      - { label: 'Item', name: 'name', widget: 'string' }
+      - { label: 'URL', name: 'slug', widget: 'string' }
+      - { label: 'Group Number', name: 'group_number', widget: 'string' }
+      - { label: 'Image', name: 'icon', widget: 'image' }
