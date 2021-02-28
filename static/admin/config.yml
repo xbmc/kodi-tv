@@ -52,7 +52,8 @@ collections:
       - { label: 'Group Number', name: 'group_number', widget: 'number', value_type: 'int' }
       - { label: 'Image', name: 'icon', widget: 'image' }
   - name: 'distribution'
-    label: 'Distribution'
+    label: 'Distributions'
+    label_singular: 'Distribution'
     extension: 'yaml'
     folder: 'src/data/yaml/distribution'
     create: true
@@ -74,22 +75,22 @@ collections:
       - { name: 'howto', label: 'How-to Wiki Link', widget: 'string' }
       - name: 'releases'
         label: 'Releases'
+        label_singular: 'Release'
         widget: 'list'
         collapsed: true
         minimize_collapsed: true
         summary: '{{name}} - {{title}}'
-        label_singular: 'Add Release'
         fields:
           - { name: 'name', label: 'Type', widget: 'select', options: ['Recommended', 'Pre release', 'Development Builds'] }
           - { name: 'title', label: 'Title', widget: 'string' }
           - { name: 'description', label: 'Description', widget: 'markdown'}
           - name: 'downloads'
             label: 'Download Links'
+            label_singular: 'Download Link'
             widget: 'list'
             collapsed: true
             minimize_collapsed: true
             summary: '{{name}}'
-            label_singular: 'Add Download Link'
             fields:
               - { name: 'name', label: 'Title', widget: 'string' }
               - { name: 'url', label: 'URL', widget: 'string' }
