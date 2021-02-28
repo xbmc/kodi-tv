@@ -34,8 +34,11 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'store'
     label: 'Store'
+    extension: 'yaml'
     folder: '/src/data/yaml/store'
     create: true
+    path: '{{name}}'
+    slug: '{{name}}'
     show_preview_links: false
     media_folder: '/static/images/store'
     public_folder: '/images/store'
