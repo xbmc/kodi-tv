@@ -1,6 +1,0 @@
----
-name: Kodi Matrix T-shirt
-slug: https://teespring.com/kodi-matrix?pid=2
-group_number: "10"
-icon: /images/store/classic-tee-matrix.jpg
----
