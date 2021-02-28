@@ -22,7 +22,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Author', name: 'author', widget: 'string', required: false  }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
       - name: 'featured_image'
         label: 'Featured Image'
         widget: 'object'
@@ -30,3 +29,4 @@ collections:
           - {name: src, label: Image, widget: image}
           - {name: title, label: Title, widget: string}
           - {name: alt, label: Alt text, widget: string}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
