@@ -1,4 +1,5 @@
 const path = require(`path`)
+const slugify = require("slugify")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { paginate } = require('gatsby-awesome-pagination');
 
@@ -136,24 +137,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const distresults = await graphql(`
     query MyQuery {
-      allDistribution {
+      allDistributionYaml {
         edges {
           node {
-            slug
+            name
           }
         }
       }
     }
   `)
 
-  distresults.data.allDistribution.edges.forEach(({ node }) => {
+  distresults.data.allDistributionYaml.edges.forEach(({ node }) => {
     createPage({
-      path: "download/" + node.slug,
+      path: "download/" + slugify(node.name, { lower: true }),
       component: path.resolve(`src/templates/distribution.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
-        slug: node.slug,
+        name: node.name,
       },
     })
   })

@@ -1,10 +1,11 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown'
 import {
   Tabs, Tab, TabTitleText,
   Text, TextContent, TextVariants,
   Stack, StackItem,
 } from '@patternfly/react-core'
-import { Description, DownloadLinks } from './ReleasesContent'
+import { DownloadLinks } from './ReleasesContent'
 
 class ReleasesTabs extends React.Component {
   constructor(private props: {releases: {name: string, id: string, downloads: {
@@ -37,10 +38,12 @@ class ReleasesTabs extends React.Component {
                 <Stack hasGutter>
                   <StackItem>
                     <div style={{'paddingTop': '15px'}}>
-                    <TextContent>
-                      <Text component={TextVariants.h2}>{release.title}</Text>
-                    </TextContent>
-                    <Description description={release.description} release={release.id}/>
+                      <TextContent>
+                        <Text component={TextVariants.h2}>{release.title}</Text>
+                      </TextContent>
+                      <TextContent>
+                        <Text component={TextVariants.p}><ReactMarkdown>{release.description}</ReactMarkdown></Text>
+                      </TextContent>
                     </div>
                   </StackItem>
                   <StackItem>

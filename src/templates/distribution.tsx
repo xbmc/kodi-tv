@@ -11,7 +11,7 @@ import {
 import { graphql, Link } from "gatsby"
 
 export default function Distribution({ data }) {
-  const dist = data.distribution
+  const dist = data.distributionYaml
 
   return (
     <Layout>
@@ -40,13 +40,12 @@ export default function Distribution({ data }) {
 
 
 export const query = graphql`
-  query($slug: String!) {
-    distribution(slug: { eq: $slug }) {
+  query($name: String!) {
+    distributionYaml(name: { eq: $name }) {
       name
       icon
       howto
       releases {
-        id
         name
         title
         description

@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
+import DownloadList from 'src/components/DownloadList'
 import { Button, Card, CardTitle, CardBody } from '@patternfly/react-core';
 import ArrowRightIcon from '@patternfly/react-icons/dist/js/icons/arrow-right-icon';
 import MetadataHeader from "src/components/SiteMetadata"
@@ -19,12 +19,7 @@ Kodi is available as a native application for Android, Linux, Mac OS X, iOS and 
 
 Kodi has many flavours, our developers have worked hard to make it support a large range of devices and operating system. We provide final as well as development builds for future final release versions. To get started, simply select the platform that you want to install it on.
 
-<IconList items={props.data.allDistribution.edges}
-  linkroot='/download/'
-  width='90%'
-  marginleft='5%'
-  marginright='5%'
-/>
+<DownloadList items={props.data.allDistributionYaml.edges} />
 
 # Older Releases
 
@@ -46,12 +41,11 @@ You can help in so many different ways. As you may or may not know, Kodi is main
 
 export const pageQuery = graphql`
     query {
-        allDistribution {
+        allDistributionYaml {
             edges {
                 node {
                     name
                     icon
-                    slug
                 }
             }
         }
