@@ -13,8 +13,8 @@ const inspect = require("util").inspect // this is only here to inspect the json
 const ADDON_NODE_TYPE = "Addon"
 const AUTHOR_NODE_TYPE = "Author"
 const CATEGORY_NODE_TYPE = "Category"
-const PIXIE_MEMORY = "src/data/addonhistory.json"
-const ADDONS_FEATURED = "src/data/addonsfeatured.yaml"
+const PIXIE_MEMORY = "src/data/addons/history.json"
+const ADDONS_FEATURED = "src/data/addons/featured.yaml"
 const TODAY = new Date()
 const CATEGORIES = [
   { id: "kodi.audiodecoder", desc: "Audio decoders" },
