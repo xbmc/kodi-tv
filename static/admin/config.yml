@@ -15,7 +15,7 @@ collections:
     create: true
     path: '{{title}}/index'
     slug: 'index'
-    preview_path: '/article/{{slug}}'
+    preview_path: '/article/{{title}}'
     media_folder: '/static/images/blog'
     public_folder: '/images/blog'
     fields:
