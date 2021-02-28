@@ -4,8 +4,8 @@ date: 2018-12-28T23:26:28Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Xmas.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi_Xmas'
+  alt: 'Kodi_Xmas'
 ---
  It's the days between Christmas and New Years eve, and some of our developers found the time do squash down some know issues. We hereby present you v18 RC4 that include several fixes we did past two weeks. There's not really anything more to say than wish you all a great new year. As you might have guessed by now v18 will not be released in 2018. There are several reason for this, however we feel we shouldn't rush a release just for the sake of releasing. There's good hope it will be released very early 2019 once we ironed out the remaining issues we feel should be fixed.
 

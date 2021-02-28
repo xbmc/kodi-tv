@@ -4,8 +4,8 @@ date: 2020-03-15T06:53:28Z
 author: phunkyfish
 featured_image:
   src: /images/blog/ash-edmonds-LHlC2sl0Zxs-unsplash.jpg
-  title: ''
-  alt: ''
+  title: 'ash-edmonds-LHlC2sl0Zxs-unsplash'
+  alt: 'ash-edmonds-LHlC2sl0Zxs-unsplash'
 ---
 Dear Users,
 

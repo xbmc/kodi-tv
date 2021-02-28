@@ -4,8 +4,8 @@ date: 2016-06-21T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/tableEdgeSunlight1920.jpg
-  title: ''
-  alt: ''
+  title: 'tableEdgeSunlight1920'
+  alt: 'tableEdgeSunlight1920'
 ---
 Since the first Raspberry Pi was announced in 2012, it was inextricably linked with XBMC/Kodi. It was built with the tinkerer in mind and capable of new advanced applications, but always with the perfect fallback of being the tiny living room Kodi media center that could. Today, the Raspberry Pi 3 has evolved to become a powerful media center with WiFi and Bluetooth built in. While maintaining its tiny size, it has been tuned to flawlessly play back content better than competitors and less than a third the cost. But with all of these improvements, the Raspberry Pi 3 remained incomplete.
 

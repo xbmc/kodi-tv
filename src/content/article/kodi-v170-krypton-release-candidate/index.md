@@ -4,8 +4,8 @@ date: 2016-12-28T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-17.0-RC.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-splash-17.0-RC'
+  alt: 'kodi-splash-17.0-RC'
 ---
 **UPDATE**: Due to some packaging problems for Android and initial response we had to do quick bump to RC2 to solve this. If you had downloaded and installed RC1 before 31 December (available from system information) please upgrade to the newer version.
 

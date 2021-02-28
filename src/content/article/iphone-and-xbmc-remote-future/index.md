@@ -4,8 +4,8 @@ date: 2008-09-15T04:00:00Z
 author: Team XBMC
 featured_image:
   src: /images/blog/xbmc-gotham-13_1-beta.png
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-13_1-beta'
+  alt: 'xbmc-gotham-13_1-beta'
 ---
 Pondering one would have XBMC and iPhone, wouldn’t that little touchscreen make a good remote? [Narcan](https://forum.kodi.tv/member.php?action=profile&amp;amp;uid=29109) made one, but is it all a pipe dream or could it be the remote of the future?
 

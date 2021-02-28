@@ -4,8 +4,8 @@ date: 2014-04-06T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/hastalaxp.jpg
-  title: ''
-  alt: ''
+  title: 'hastalaxp'
+  alt: 'hastalaxp'
 ---
 As you may have read, the official Microsoft support for Windows XP will ended at April 8th, 2014. This means the end of life for this 13 years old operating system which has fulfilled it’s purpose. After this date there will be no more updates any more, plugging possible security leaks. At the same time we have also ended support for Windows XP in the upcoming XBMC 13.0 release. It’s time to let go and move on. Some of you may still be using Windows XP including XBMC and are now becoming vulnerable in near future.
 

@@ -4,8 +4,8 @@ date: 2015-08-22T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/pvr_skins.jpg
-  title: ''
-  alt: ''
+  title: 'pvr_skins'
+  alt: 'pvr_skins'
 ---
 By default Kodi starts with the Confluence skin which gives users almost everything they need to enjoy it as media center. Though one of the great powers of Kodi is that it can be adjusted in many ways. One of the most noticeable ones is changing the so called skin. Each version of Kodi (and XBMC in the past) had it’s own array of third-party skins to choose from made for that specific version. By changing this you get an entire new look and feel as well as several new perks that don’t come by default in Confluence. These skins are created by Kodi enthusiasts and they develop these skins during many months months. Yes it can really take many months before a skins is close to it’s end result. First they will have to design the concept and then work out the details and code it all up till it’s actually usable and can be shared with all of you. The ones that have been update to work with Kodi 15.0 are listed bellow in an alphabetical order and not by popularity or number of downloads. Remember that they cost a lot of time to create and each has their own advantages and look and feel. As such treat them all with respect and be grateful at these developers for sharing them.
 

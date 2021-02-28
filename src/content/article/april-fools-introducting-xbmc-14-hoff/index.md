@@ -4,8 +4,8 @@ date: 2014-03-31T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/hasselhoff_crop2-600x336.jpg
-  title: ''
-  alt: ''
+  title: 'hasselhoff_crop2-600x336'
+  alt: 'hasselhoff_crop2-600x336'
 ---
 Note: This was of course an April fools prank.
 ----------------------------------------------

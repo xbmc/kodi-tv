@@ -4,8 +4,8 @@ date: 2015-03-22T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/livingroomsetup4.jpg
-  title: ''
-  alt: ''
+  title: 'livingroomsetup4'
+  alt: 'livingroomsetup4'
 ---
 We wanted to take a minute today to talk about our trip down to Los Angeles for the Southern California Linux Expo, otherwise known as SCALE.
 

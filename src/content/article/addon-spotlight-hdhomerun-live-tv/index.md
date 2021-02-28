@@ -4,8 +4,8 @@ date: 2015-03-18T03:00:00Z
 author: Keith Herrington
 featured_image:
   src: /images/blog/screenshot004.png
-  title: ''
-  alt: ''
+  title: 'screenshot004'
+  alt: 'screenshot004'
 ---
 Maybe you’ve heard the rumors, or seen the YouTube teaser video that hinted this was coming.
 

@@ -4,8 +4,8 @@ date: 2020-09-23T00:09:22Z
 author: Team Kodi
 featured_image:
   src: /images/blog/600_468058366.jpeg
-  title: ''
-  alt: ''
+  title: '600_468058366'
+  alt: '600_468058366'
 ---
 This is just a quick blog post to tell you about a presentation that might be of interest. Glenn Guy (**Aussie Addons**) is giving a presentation on Meetup this Thursday, 24th September, at 18:00 AEST (07:00 UTC) for the Sydney Video Technology group. It's featuring some pretty big names in the Video VOD world.
 

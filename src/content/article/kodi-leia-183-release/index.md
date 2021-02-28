@@ -4,8 +4,8 @@ date: 2019-06-27T02:44:00Z
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/kodi_18_3_leia.jpg
-  title: ''
-  alt: ''
+  title: 'kodi_18_3_leia'
+  alt: 'kodi_18_3_leia'
 ---
 Two months have passed since our last bugfix release and already we have a new one ready for consumption. Fancy a few more features? There aren't any, with one teeny-tiny exception. Apparently DTS-HD audio only tracks are a thing and Kodi can now play them like any other music format. That's it. No more features. Seriously.
 

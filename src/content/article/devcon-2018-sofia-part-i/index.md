@@ -4,8 +4,8 @@ date: 2018-09-27T20:18:10Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/6030201633_bbe5411b81_b.jpg
-  title: ''
-  alt: ''
+  title: '6030201633_bbe5411b81_b'
+  alt: '6030201633_bbe5411b81_b'
 ---
 \
 

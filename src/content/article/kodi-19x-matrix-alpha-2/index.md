@@ -4,8 +4,8 @@ date: 2020-10-05T15:00:00Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi_Splash_v19.0_Matrix_Alpha_1080p'
+  alt: 'Kodi_Splash_v19.0_Matrix_Alpha_1080p'
 ---
 It's been more than a month since our last "preview" release, so it's time we boxed up something new for everyone.
 

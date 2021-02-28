@@ -4,8 +4,8 @@ date: 2015-12-22T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kore_Artwork_1024x500_v2_samfisher.png
-  title: ''
-  alt: ''
+  title: 'Kore_Artwork_1024x500_v2_samfisher'
+  alt: 'Kore_Artwork_1024x500_v2_samfisher'
 ---
 It has been a while since we talked about our official Android remote and to the outside all seemed quiet. Nothing is further from the truth. We are happy to announce that our official Kore remote is getting a big update. Our developer *SyncedSynapse* has been putting a lot of work on including new features and improving what was already there. Additionally it’ s also great to see that developers from outside of the team are helping getting it better. Many thanks go out to them as well. This is what opensource is all about.
 

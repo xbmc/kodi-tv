@@ -4,8 +4,8 @@ date: 2017-04-28T09:37:14Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/v18-Android-Search_Kung-Fury.jpg
-  title: ''
-  alt: ''
+  title: 'v18-Android-Search_Kung-Fury'
+  alt: 'v18-Android-Search_Kung-Fury'
 ---
 Although we released Kodi v17 not long ago our developers never stop and already work hard towards the next version. Version 18 will have the codename Leia as announced in this [article](/article/kodi-v18-leia). Different from past years where we combined several new features in one article we will handle them separately for the upcoming Kodi v18 to not overwhelm you too much in one go.
 

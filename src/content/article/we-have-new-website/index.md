@@ -4,8 +4,8 @@ date: 2017-04-01T20:12:51Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/new-website-hero.jpg
-  title: ''
-  alt: ''
+  title: 'new-website-hero'
+  alt: 'new-website-hero'
 ---
 Now that our little April Fools' joke, which you can [read more about here](/article/andwere-baaaaack), is over, we're excited to announce that both kodi.tv and addons.kodi.tv have been fully updated and renewed! In addition, we're working hard right now to update our forums to the latest version of the forum software, so those should be up to date in the next few weeks. 
 

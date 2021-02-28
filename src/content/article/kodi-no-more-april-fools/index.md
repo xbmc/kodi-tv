@@ -4,8 +4,8 @@ date: 2018-03-31T20:45:48Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/XBMC_media_center_main.png
-  title: ''
-  alt: ''
+  title: 'XBMC_media_center_main'
+  alt: 'XBMC_media_center_main'
 ---
 **Update: Of course, this was an open source joke. We're going to keep supporting all the platforms and keep our Kodi username. The [XBMC shirt is actually real though](https://teespring.com/nextxbmcshirt#pid=374&cid=100046&sid=front), so you are welcome to keep grabbing those if you, but only for a few more days.**
 

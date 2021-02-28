@@ -4,8 +4,8 @@ date: 2013-06-10T04:00:00Z
 author: Team XBMC
 featured_image:
   src: /images/blog/new_settings.jpg
-  title: ''
-  alt: ''
+  title: 'new_settings'
+  alt: 'new_settings'
 ---
 With the release of XBMC 12.2 and GSoC, not to mention some behind the scenes work going on, an April cycle announcement was not published; however, thanks to a new process, both the April cycle and May cycle builds were built rapidly and efficiently (and on time). We have now switched from our old Billy the Buildbot to [Jenkins](https://en.wikipedia.org/wiki/Jenkins_(software) "Wikipedia article on Jenkins") for building our automated monthly alphas and nightly builds. Jenkins is quite a bit more intelligent and faster than our old buildbot, and we’re excited about the switch. In the future, for those who just can’t wait for a write-up about the newest alpha but tend to steer clear of the bleeding edge of nightlies, the new build should always be available on the 1st of the month at [mirrors.xbmc.org/snapshots](http://mirrors.xbmc.org:8989/snapshots/).
 

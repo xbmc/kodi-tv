@@ -4,8 +4,8 @@ date: 2013-10-30T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser.jpg
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-teaser'
+  alt: 'xbmc-gotham-teaser'
 ---
 As you may have already read in our [XBMC Devcon 2013 liveblog,](https://kodi.wiki/xbmc-devcon-2013-liveblog/) we have decided that it’s time to feature freeze XBMC 13 “Gotham” and get ready for a new major version release. This feature freeze date has been set around the 10th of November 2013 so this means we have less than two weeks for adding any possible features we think are worthy and more importantly are deemed ready to include. So for people who are following our monthly posts you should already know about what things were added since our Frodo release. Secondly we set the 10th of December 2013 as final date for any bigger changes that we agreed upon at our [Devcon conference](https://kodi.wiki/xbmc-devcon-2013-liveblog/), that are worth adding for the 13.0 release and might need some more time to prepare than was available.
 

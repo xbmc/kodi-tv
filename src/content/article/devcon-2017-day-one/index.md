@@ -4,8 +4,8 @@ date: 2017-05-05T06:28:09Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Porto_panorama_2017.jpg
-  title: ''
-  alt: ''
+  title: 'Porto_panorama_2017'
+  alt: 'Porto_panorama_2017'
 ---
 Welcome to DevCon 2017!
 

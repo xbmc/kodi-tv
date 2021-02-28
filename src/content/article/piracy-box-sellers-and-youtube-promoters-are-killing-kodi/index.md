@@ -4,8 +4,8 @@ date: 2016-02-13T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Screen-Shot-2015-08-19-at-2.40.37-AM.png
-  title: ''
-  alt: ''
+  title: 'Screen-Shot-2015-08-19-at-2.40.37-AM'
+  alt: 'Screen-Shot-2015-08-19-at-2.40.37-AM'
 ---
 Over the past few years it’s become clear that many users have been watching pirated content using unofficial and unsupported add-ons that frequently break, and they are installing add-on repositories whose trustworthiness is questionable, leaving themselves open to numerous security exploits. Lately there’s even been a move to install “builds,” which intentionally break Kodi and, much like viruses, are almost impossible to uninstall, but have the benefit of adding LOTS of untrustworthy repos full of add-ons that don’t work.
 

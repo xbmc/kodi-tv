@@ -4,8 +4,8 @@ date: 2014-04-18T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gotham_splash_beta.png
-  title: ''
-  alt: ''
+  title: 'gotham_splash_beta'
+  alt: 'gotham_splash_beta'
 ---
 With Beta 4 we are only looking at bug fixing rather than features. Further down we will list several of the more important fixes that have been added since last beta. Hopefully Beta 4 will be the last one, before we will enter Release Candidate stage. This means final release is nearing.
 

@@ -4,8 +4,8 @@ date: 2013-04-22T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.png
-  title: ''
-  alt: ''
+  title: 'summerofcode_0'
+  alt: 'summerofcode_0'
 ---
 Hey all you students, now is the time to beginning applying to work with XBMC on your favorite project this summer during 2013′s Google Summer of Code. To apply:
 

@@ -4,8 +4,8 @@ date: 2019-02-10T20:50:42Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Pi Case  v2 Kodi gen2_10-23-18.131.png
-  title: ''
-  alt: ''
+  title: 'Pi Case  v2 Kodi gen2_10-23-18.131'
+  alt: 'Pi Case  v2 Kodi gen2_10-23-18.131'
 ---
 ###### Upcoming bug fix release...
 

@@ -4,8 +4,8 @@ date: 2013-03-24T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/openelec20.png
-  title: ''
-  alt: ''
+  title: 'openelec20'
+  alt: 'openelec20'
 ---
 Congratulations to our friends over at OpenELEC for their release of OpenELEC 3.0.0! OpenELEC is an embedded operating system built around XBMC designed to be as lightweight as possible.
 

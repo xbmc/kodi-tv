@@ -4,8 +4,8 @@ date: 2018-11-22T06:50:13Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/K-18L-Comic-Preview.jpg
-  title: ''
-  alt: ''
+  title: 'K-18L-Comic-Preview'
+  alt: 'K-18L-Comic-Preview'
 ---
  After two years of hard work by all volunteers, either part of the team or of our great community we can finally say the last steps towards Kodi v18 are being made. In past years many things have changed, either visually or code wise and to be honest i can't even recall most. We as team would certainly like to thank every developer and user who spent time helping us get this far.
 

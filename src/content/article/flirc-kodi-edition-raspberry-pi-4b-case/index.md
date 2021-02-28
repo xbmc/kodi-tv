@@ -4,8 +4,8 @@ date: 2019-06-24T23:11:27Z
 author: Christian Hewitt
 featured_image:
   src: /images/blog/pi4_case_featured_image.png
-  title: ''
-  alt: ''
+  title: 'pi4_case_featured_image'
+  alt: 'pi4_case_featured_image'
 ---
 Yesterday the new Raspberry Pi 4B was [unveiled](https://www.raspberrypi.org/blog/raspberry-pi-4-on-sale-now-from-35/) with a revised spec that guarantees it will be super-popular with Kodi users. It brings 4K media support, faster CPUs, faster memory, faster Ethernet, faster USB, and now handles HEVC natively. It's a great update on the previous 3B+ model, and at $35 for the 1G model it's also a bargain, and we predict it will be a massively popular way to run Kodi via distro's like [LibreELEC](https://libreelec.tv/), [OSMC](https://osmc.tv/) and [Raspbian](https://www.raspberrypi.org/software/operating-systems/).
 

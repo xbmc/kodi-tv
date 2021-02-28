@@ -4,8 +4,8 @@ date: 2013-12-11T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Servers-Server-Farm-Engine-Room.jpg
-  title: ''
-  alt: ''
+  title: 'Servers-Server-Farm-Engine-Room'
+  alt: 'Servers-Server-Farm-Engine-Room'
 ---
 If you’ve tried to download XBMC, update an addon, or download a new addon over the past few days, you may have noticed that our servers have been behaving poorly. Let me begin by assuring you that we believe we have tracked down the issue to a malfunctioning piece of code on our primary mirror server running MirrorBrain. Whether this malfunction is merely a symptom of a greater problem is still being assessed. Some good news is that this code is not affecting this blog, the forum, or the wiki. Some bad news is that the bug is making it very difficult to actually download XBMC or XBMC addons.
 

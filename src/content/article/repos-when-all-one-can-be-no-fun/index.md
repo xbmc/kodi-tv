@@ -4,8 +4,8 @@ date: 2019-05-17T23:47:28Z
 author: DarrenHill
 featured_image:
   src: /images/blog/analogue-art-chest-366791.jpg
-  title: ''
-  alt: ''
+  title: 'analogue-art-chest-366791'
+  alt: 'analogue-art-chest-366791'
 ---
 **Repos: When All-in-one Can Be No Fun.**
 -----------------------------------------

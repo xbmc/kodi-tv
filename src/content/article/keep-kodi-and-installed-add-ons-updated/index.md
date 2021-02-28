@@ -4,8 +4,8 @@ date: 2017-12-09T03:53:38Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-9A-1080p_samfisher_update.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-9A-1080p_samfisher_update'
+  alt: 'Kodi-Wallpaper-9A-1080p_samfisher_update'
 ---
 These days keeping your software updated is becoming more and more important because of possible security risks. Although we will never claim Kodi will become risk free when you are using it, we will certainly try to improve security and reduce possible risks in each version we release. This not only involves the core code of which Kodi is build but also all the external code libraries we use to make it a functional program. As such it is quite important that when possible you try to update Kodi to the most recent released final version.
 

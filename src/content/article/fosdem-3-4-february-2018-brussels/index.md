@@ -4,8 +4,8 @@ date: 2018-02-01T12:16:20Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/fosdem2018-kodi.png
-  title: ''
-  alt: ''
+  title: 'fosdem2018-kodi'
+  alt: 'fosdem2018-kodi'
 ---
 FOSDEM is a free event for software developers to meet, share ideas and collaborate.
 

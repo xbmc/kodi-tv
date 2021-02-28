@@ -4,8 +4,8 @@ date: 2019-11-17T06:02:31Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/18-5 Splash Screen.jpg
-  title: ''
-  alt: ''
+  title: '18-5 Splash Screen'
+  alt: '18-5 Splash Screen'
 ---
 In our ongoing mission to bring you the very greatest (and most reliable) media centre software in the world, it's time to let another point release escape into the wild. Usual rules apply: this isn't about features, it's about stability and usability.
 

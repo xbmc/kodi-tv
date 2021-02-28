@@ -4,8 +4,8 @@ date: 2016-08-21T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Splash-Kodi17B1.png
-  title: ''
-  alt: ''
+  title: 'Splash-Kodi17B1'
+  alt: 'Splash-Kodi17B1'
 ---
 We are excited to announce the first beta of Kodi 17, codenamed Krypton. Kodi 17 features a huge amount of work in areas like video playback, live TV and PVR/DVR, the music library, skinning and more. It features a new default skin, as well as a new default touchscreen skinned, named Estuary and Estouchy, respectively.
 

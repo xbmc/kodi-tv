@@ -4,8 +4,8 @@ date: 2014-11-23T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/banner-sbs-11.png
-  title: ''
-  alt: ''
+  title: 'banner-sbs-11'
+  alt: 'banner-sbs-11'
 ---
  
 

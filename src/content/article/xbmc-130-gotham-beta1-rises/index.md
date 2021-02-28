@@ -4,8 +4,8 @@ date: 2014-03-03T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gotham_splash_beta.png
-  title: ''
-  alt: ''
+  title: 'gotham_splash_beta'
+  alt: 'gotham_splash_beta'
 ---
 We hope you are as excited about this as we are. After a year of hard work, improvements and testing since the release of version 12.0, we are delighted to announce the Beta release of the upcoming XBMC 13.0, codenamed *“Gotham”*. The past year we have kept you informed with our monthly [blog posts](https://kodi.wiki/tag/gotham/) of all the exciting new features added to this upcoming release. Now, let’s review a few of those features we’re particularly excited about.
 

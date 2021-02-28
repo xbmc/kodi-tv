@@ -4,8 +4,8 @@ date: 2020-11-22T00:41:28Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi_Splash_v19.0_Matrix_Beta_1080p'
+  alt: 'Kodi_Splash_v19.0_Matrix_Beta_1080p'
 ---
 Lights! Camera! Action!
 

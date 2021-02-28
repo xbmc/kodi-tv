@@ -4,8 +4,8 @@ date: 2014-05-03T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13_0-splash.png
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-13_0-splash'
+  alt: 'xbmc-gotham-13_0-splash'
 ---
 The dark night of waiting is finally over. Because here it is. The stable release of XBMC 13.0 Gotham edition. It has been months of hard work, improvements and testing since the 12.x releases. There have been around 530 commits (chunks of code change) done by 51 developers during this time. Also a large group of translators who aided in making the user interface available in your local language. So we would like to thank every one, inside and outside of Team XBMC for their hard work and effort to make this possible. Not to forget all users who have been using the monthly and nightly builds, helping us test this upcoming release, and all third-party software libraries we use.
 

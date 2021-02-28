@@ -4,8 +4,8 @@ date: 2016-10-21T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-31C-1080p_samfisher.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-31C-1080p_samfisher'
+  alt: 'Kodi-Wallpaper-31C-1080p_samfisher'
 ---
 Kodi 17 features a huge amount of work in areas like video playback, live TV and PVR/DVR, the music library, skinning and more. It features a new default skin, as well as a new default touchscreen skin, named Estuary and Estouchy, respectively. With all this work done over the months some bugs might slip through and were hoping to quickly squash the coming beta releases. The changes for this fourth beta are the result of the continuous effort from the developers, either from inside the team or outside to get v17 into final release shape. and any outside. We sure would like to thank every one involved with either development, testing or simply helping out others with question. Below is a condensed list of fixes and changes done in this beta 4 release.
 

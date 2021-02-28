@@ -4,8 +4,8 @@ date: 2018-11-03T10:38:03Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/K-18L-Comic-Preview.jpg
-  title: ''
-  alt: ''
+  title: 'K-18L-Comic-Preview'
+  alt: 'K-18L-Comic-Preview'
 ---
  We hereby present you the fifth and last Beta build of Kodi v18 as we are heading towards the final release. Next step will be Release candidates where our focus will be on solving bugs and possible usability problems. So far it has been proven to be quite solid to use as a daily driver for those who were brave enough to try it out. Of course you should still keep in mind it's not a final release yet and that on any upgrade a small glitch could happen as we are still doing rework. Once you decide to give it a try it is highly recommended that you create a backup first.
 

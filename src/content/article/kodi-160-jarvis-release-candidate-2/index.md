@@ -4,8 +4,8 @@ date: 2016-01-28T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi16-rc.png
-  title: ''
-  alt: ''
+  title: 'Kodi16-rc'
+  alt: 'Kodi16-rc'
 ---
 It’s time for the second Release Candidate for Kodi v16. Getting the first release candidate ready took a bit longer than we anticipated due to some problems along the way though they should be under control now. With this second release candidate we added a small number of fixes that users brought to our attention. Since we only have a small team and we can’t test it all we must rely on users reporting potential problems on our forum and we try to fix them within our limited spare time. All in all this release is looking like it’s quite solid so far.
 

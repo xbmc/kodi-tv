@@ -4,8 +4,8 @@ date: 2019-09-21T02:01:42Z
 author: DarrenHill
 featured_image:
   src: /images/blog/legal.jpg
-  title: ''
-  alt: ''
+  title: 'legal'
+  alt: 'legal'
 ---
 **Is Kodi legal?**
 ------------------

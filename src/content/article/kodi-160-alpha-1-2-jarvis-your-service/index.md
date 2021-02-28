@@ -4,8 +4,8 @@ date: 2015-09-02T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi16.0-jarvis-alpha.png
-  title: ''
-  alt: ''
+  title: 'kodi16.0-jarvis-alpha'
+  alt: 'kodi16.0-jarvis-alpha'
 ---
 While we are still working on improving the Kodi 15 release by adding numerous fixes, developers have been working on new features and new fixes for Kodi 16, codenamed Jarvis, for quite some time now. Let’s take a look at a few of those features and fixes that have made it into alphas 1 and 2 of Kodi 16.
 

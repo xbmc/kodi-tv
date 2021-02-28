@@ -4,8 +4,8 @@ date: 2013-11-03T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser2.jpg
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-teaser2'
+  alt: 'xbmc-gotham-teaser2'
 ---
 Because of our Devcon 2013 meeting we were to busy to put up a decent monthly blog post. So let’s sum up the changes done so far after the September cyle.
 

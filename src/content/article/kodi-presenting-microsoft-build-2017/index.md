@@ -4,8 +4,8 @@ date: 2017-05-10T07:52:43Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/MSbuild2017.jpg
-  title: ''
-  alt: ''
+  title: 'MSbuild2017'
+  alt: 'MSbuild2017'
 ---
 Last year we [announced](https://kodi.tv/article/kodi-goes-windows-store) that the team worked together with Microsoft on creating a Microsoft Store version of Kodi using their Desktop Bridge *(Project Centennial)* project. Taking this opportunity to reach millions of Windows 10 users has proven quite successful and since the official launch of Kodi v17 it has become one of the most popular apps in store. Due to this success and growing popularity of Kodi in Windows Store one of our two attending developers will be holding a presentation at the [Build 2017](https://mybuild.microsoft.com/) event in Seattle. During this he will highlight some of the steps it took us to enter the Store and further highlight some of the main features that makes Kodi a great project.
 

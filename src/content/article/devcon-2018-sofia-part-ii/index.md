@@ -4,8 +4,8 @@ date: 2018-09-28T20:12:35Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/joakim-honkasalo-587350-unsplash.jpg
-  title: ''
-  alt: ''
+  title: 'joakim-honkasalo-587350-unsplash'
+  alt: 'joakim-honkasalo-587350-unsplash'
 ---
 Good morning/afternoon/evening/night (delete as appropriate - we're a global community). The world has turned once more, the sun has crawled into the sky, and we're back in the room.
 

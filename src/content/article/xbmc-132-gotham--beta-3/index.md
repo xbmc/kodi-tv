@@ -4,8 +4,8 @@ date: 2014-08-03T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/13.2-Gotham-beta-600x336.png
-  title: ''
-  alt: ''
+  title: '13.2-Gotham-beta-600x336'
+  alt: '13.2-Gotham-beta-600x336'
 ---
 About two months ago we released our 13.1 version which included several bug fixes compared to the 13.0 release. Because of the fact that not all fixes could be included in that point release, we now are happy to announce a **13.2 beta3** version. We actually skipped the 13.2 beta2 announcement on our websites only mentioned it on our forums and social media. That beta release followed about a two week after the **13.2 beta1.** Current beta release includes an additional list of small fixes, that should resolve some of the common problems reported by users. Unfortunately we cannot fix all things reported. Hopefully you will understand. Below you will find a list of most important fixes included in this release.
 

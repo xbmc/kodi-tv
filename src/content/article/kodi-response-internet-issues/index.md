@@ -4,8 +4,8 @@ date: 2020-03-31T05:39:35Z
 author: Team Kodi
 featured_image:
   src: /images/blog/kodi-minimum-60.png
-  title: ''
-  alt: ''
+  title: 'kodi-minimum-60'
+  alt: 'kodi-minimum-60'
 ---
 Kodi's Response to Internet Issues
 ----------------------------------

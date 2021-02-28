@@ -4,8 +4,8 @@ date: 2017-04-01T01:15:51Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/alissa-eady-92378 - compressed.jpg
-  title: ''
-  alt: ''
+  title: 'alissa-eady-92378 - compressed'
+  alt: 'alissa-eady-92378 - compressed'
 ---
 Happy April, everyone. Did you miss us? :)
 

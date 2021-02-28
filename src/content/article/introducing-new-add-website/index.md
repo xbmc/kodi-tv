@@ -4,8 +4,8 @@ date: 2013-11-22T03:00:00Z
 author: zag
 featured_image:
   src: /images/blog/skins.png
-  title: ''
-  alt: ''
+  title: 'skins'
+  alt: 'skins'
 ---
 XBMC is a comprehensive piece of software in its own right, but what really gives it power, is the ability to extend the features beyond the normal application through 3rd party Add-ons. In the recent times we have encouraged more users to develop these Add-ons, with over 450 currently in the official repository. Many more Add-ons are scattered in unofficial repositories around the web.
 

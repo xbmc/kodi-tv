@@ -4,8 +4,8 @@ date: 2014-10-17T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash.png
-  title: ''
-  alt: ''
+  title: 'kodi-splash'
+  alt: 'kodi-splash'
 ---
 As we already mention in last [alpha4](/article/kodi-140-helix-alpha-4) release post, the first beta release is nearing pretty fast. At this moment we are only waiting for one more final change to happen and then we are good to go. We are only talking a week or two at most. About three weeks have past since but, yet we haven’t sat still. The list of changes and improvements continues to grow.  
  Although we also said feature freeze was in affect, we still found some things that were worth including in the upcoming release. These changes had little impact on stability or have been tested quite thoroughly

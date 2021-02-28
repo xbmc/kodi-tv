@@ -4,8 +4,8 @@ date: 2017-03-22T14:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-17.1.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-splash-17.1'
+  alt: 'kodi-splash-17.1'
 ---
 This is the bugfix release for v17.1 “Krypton” which contains our continuous effort to further improve the v17 release. Our team tried to tackle as much of the reported problems as possible with the limited resources we have. We do want to note that since we are just a small team some of the reported bugs might not get fixed due to lack of developers or time. As such we would certainly welcome any developer who has the ability to help us out to try and fix the bugs he or she encounters and submit it to our code base for review. We sure would like to thank every one involved with either development, testing or simply helping out others with answering their questions.
 

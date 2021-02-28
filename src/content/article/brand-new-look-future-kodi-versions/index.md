@@ -4,8 +4,8 @@ date: 2016-03-07T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Estuary-001.jpg
-  title: ''
-  alt: ''
+  title: 'Estuary-001'
+  alt: 'Estuary-001'
 ---
 A long, long time ago when Kodi was still called XBMC, a new skin came into life. It was on 21 November 2009 that the switch was made from PM3.HD to Confluence. Over the years it has fulfilled it’s purpose as the default skin which every one sees on a fresh Kodi installation and many likely never switched to one of the other skins available. During this period Confluence received several minor tweaks and updates and only one big change when we switched from a vertical to horizontal main menu.
 

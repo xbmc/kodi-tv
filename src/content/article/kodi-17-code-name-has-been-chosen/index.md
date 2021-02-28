@@ -4,8 +4,8 @@ date: 2015-12-18T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Pictures_K_____.png
-  title: ''
-  alt: ''
+  title: 'Kodi_Blog_Pictures_K_____'
+  alt: 'Kodi_Blog_Pictures_K_____'
 ---
 **Thanks for all your suggestions!  
  We decided to go with the most popular suggestion from the community and have selected 

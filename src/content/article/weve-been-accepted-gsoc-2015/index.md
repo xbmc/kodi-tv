@@ -4,8 +4,8 @@ date: 2015-03-01T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.png
-  title: ''
-  alt: ''
+  title: 'summerofcode_0'
+  alt: 'summerofcode_0'
 ---
 We are excited to announce that Kodi has been [accepted as a Google Summer of Code 2015 project](http://www.google-melange.com/gsoc/org2/google/gsoc2015/kodi)! Students, as of the time of this publication, you have about 2 weeks to start thinking about project ideas.
 

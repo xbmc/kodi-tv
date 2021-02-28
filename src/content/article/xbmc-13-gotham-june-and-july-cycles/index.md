@@ -4,8 +4,8 @@ date: 2013-08-04T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/settings_descriptions.jpg
-  title: ''
-  alt: ''
+  title: 'settings_descriptions'
+  alt: 'settings_descriptions'
 ---
 As has been the case for a few months now, for those who just can’t wait for a write-up about the newest alpha but tend to steer clear of the bleeding edge of nightlies, the new build should typically be available on the 1st of the month at [mirrors.xbmc.org/snapshots](http://mirrors.xbmc.org:8989/snapshots/).
 
@@ -39,7 +39,7 @@ As has been the case for a few months now, for those who just can’t wait for a
 
  XBMC for Android has finally be updated to match the other platforms with Zeroconf support. In particular, this means it can act as an Airplay receiver. Additionally, XBMC can now act as a default player of video, audio, and image files when launched from an Android file browser.
 
-  
+
 
  Conclusion
 ----------
@@ -48,11 +48,10 @@ As has been the case for a few months now, for those who just can’t wait for a
 
  Should want to download and install XBMC, please visit our download page.
 
- 
+
  * * [Official XBMC downloads](https://kodi.wiki/download/)
- 
+
  ### How to Contribute
 
  If you use this cycle’s build, we encourage you to submit bugs in Trac, provide support in our [Forums](https://forum.kodi.tv/ "XBMC Forums") where you can, or [donate](https://kodi.wiki/contribute/donate/ "XBMC Foundation Donations") to the Foundation if you like.
 
- 

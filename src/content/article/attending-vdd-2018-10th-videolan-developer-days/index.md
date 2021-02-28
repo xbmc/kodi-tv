@@ -4,8 +4,8 @@ date: 2018-09-23T23:09:05Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/vlc-tower - Edited.jpg
-  title: ''
-  alt: ''
+  title: 'vlc-tower - Edited'
+  alt: 'vlc-tower - Edited'
 ---
 Since the open source community is open as the name implies we as Team Kodi at times also attend other conferences. One of those is VDD which is hosted by the VideoLAN team which you might know from the VLC player. During the conference many developers related to their software projects are invited to attend and join in on presentation and technical discussions. The Kodi project is in that regards related, we are also in the multimedia "business" and share a similar vision. Next to that we use the same underlying open source projects like FFMpeg and libraries made by VideoLAN which you use for DVD and Bluray.
 

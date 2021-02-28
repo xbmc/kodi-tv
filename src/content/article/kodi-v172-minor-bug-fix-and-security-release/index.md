@@ -4,8 +4,8 @@ date: 2017-05-20T21:02:42Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/risk-knob.jpg
-  title: ''
-  alt: ''
+  title: 'risk-knob'
+  alt: 'risk-knob'
 ---
 Update: We have now released v17.3 to solve the problems mentioned below: [v17.3 announcement](https://kodi.tv/article/kodi-v173-minor-bug-fix-and-security-release)
 

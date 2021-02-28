@@ -4,8 +4,8 @@ date: 2019-06-30T05:34:00Z
 author: DarrenHill
 featured_image:
   src: /images/blog/raul-petri-unsplash.jpg
-  title: ''
-  alt: ''
+  title: 'raul-petri-unsplash'
+  alt: 'raul-petri-unsplash'
 ---
 ### The Freedom of Choice
 

@@ -4,8 +4,8 @@ date: 2016-01-18T03:00:00Z
 author: Keith Herrington
 featured_image:
   src: /images/blog/14x_logo_lg.png
-  title: ''
-  alt: ''
+  title: '14x_logo_lg'
+  alt: '14x_logo_lg'
 ---
 We’re attending the [Southern California Linux Expo](https://www.socallinuxexpo.org) aka SCALE as exhibitors this week, so drop by our booth. This year SCALE has been moved to sunny Pasadena!
 

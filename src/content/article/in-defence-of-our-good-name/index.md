@@ -4,8 +4,8 @@ date: 2020-02-15T01:06:41Z
 author: Team Kodi
 featured_image:
   src: /images/blog/wesley-tingey-9z9fxr_7Z-k-unsplash.jpg
-  title: ''
-  alt: ''
+  title: 'wesley-tingey-9z9fxr_7Z-k-unsplash'
+  alt: 'wesley-tingey-9z9fxr_7Z-k-unsplash'
 ---
 In Defence Of Our Good Name
 ---------------------------

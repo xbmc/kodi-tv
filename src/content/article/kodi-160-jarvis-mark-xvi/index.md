@@ -4,8 +4,8 @@ date: 2016-02-20T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/SplashKodi16.png
-  title: ''
-  alt: ''
+  title: 'SplashKodi16'
+  alt: 'SplashKodi16'
 ---
 We are proud to announce the release of Kodi 16.0. Kodi 16 is a heavy under-the-hood improvements release, but let’s review some of the more prominent features coming out.
 

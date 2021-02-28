@@ -4,8 +4,8 @@ date: 2015-01-28T03:00:00Z
 author: Kib
 featured_image:
   src: /images/blog/kodifosdem.png
-  title: ''
-  alt: ''
+  title: 'kodifosdem'
+  alt: 'kodifosdem'
 ---
 Hey girls and guys,
 
