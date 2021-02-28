@@ -2,7 +2,10 @@
 title: 'Kodi 14.1 - Helix Bugfix Release'
 date: 2015-02-01T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-helix-14.1.png
+featured_image:
+  src: /images/blog/kodi-helix-14.1.png
+  title: ''
+  alt: ''
 ---
 ### EDIT: Please see our Kodi 14.2 beta release
 

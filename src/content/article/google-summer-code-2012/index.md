@@ -2,7 +2,6 @@
 title: 'Google Summer of Code 2012'
 date: 2012-03-08T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/GSoC2012x1103x728-300x198.png "GSoC2012x1103x728")A quick note to let our users know that we have applied to be a sponsor for this year’s [GSOC](https://developers.google.com/open-source/gsoc/?csw=1). Some of you may recall that we were accepted a few years ago, and [by proxy](https://elinux.org/BeagleBoard/GSoC/2010_Projects/XBMC) thanks to the BeagleBoard project in 2010.
 

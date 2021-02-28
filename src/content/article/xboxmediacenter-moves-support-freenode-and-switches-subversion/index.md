@@ -2,7 +2,6 @@
 title: 'XBoxMediaCenter moves support to Freenode and switches to Subversion'
 date: 2006-11-15T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Team XBMC is in the process of moving our support channel (#XBMC on EFnet) across to the [Freenode IRC network](http://freenode.net). This is to bring us in line with other similar applications (such as MediaPortal) and also because it’s lower maintenance for the ops.
 

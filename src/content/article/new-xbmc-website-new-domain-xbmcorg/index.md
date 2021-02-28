@@ -2,7 +2,6 @@
 title: 'New XBMC Website, New Domain (XBMC.ORG)'
 date: 2008-02-06T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 This brand new website has been developed by Granqvist and co-developed by DarkDonno. Chokemaniac made the graphics.  
  It’s been in development for 2 years, and it’s “mostly” finished. Much content is unpolished, incidentally this was why we requested a ‘content master’ a while back, but we never got a suitable candidate for the job. This position is still very much unfilled.

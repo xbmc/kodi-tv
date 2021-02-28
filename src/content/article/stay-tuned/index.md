@@ -2,7 +2,6 @@
 title: 'Stay tuned!'
 date: 2008-06-06T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
  Due to the recent surge of downloads I see the need to reveal some details of the next release that will come out in June:
 

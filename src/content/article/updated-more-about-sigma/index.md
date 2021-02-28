@@ -2,7 +2,6 @@
 title: 'Updated: More About Sigma'
 date: 2011-01-11T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/Sigma-designs-logo-120x101.jpg "Sigma-designs-logo")
 

@@ -2,7 +2,6 @@
 title: 'Mac OS X developer has decided to fork our code [UPDATED]'
 date: 2008-05-21T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Elan Fieldgold, a developer on Team-XBMC who was working on the [Mac OS X port of XBMC](https://kodi.wiki/view/XBMC_for_Mac_OS_X_port_project) have decided to [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) our XBMC for Mac version and go out on his own, quiet the XBMC project, and start a new project with its own community for his fork fork. There have been differences in priorities between Elan and the other members of Team-XBMC for sometime now, and this has come to a head recently. Elan is thus now no longer a member of Team-XBMC and the official XBMC project, and his new project will from now on be hosted and supported elsewhere.
 

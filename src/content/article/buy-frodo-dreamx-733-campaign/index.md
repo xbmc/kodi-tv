@@ -2,7 +2,6 @@
 title: 'The Buy Frodo a DreamX-733 campaign'
 date: 2004-03-17T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 currently frodo (xbmc founder and lead developer) only has one xbox that he has to develop/debug/use xbmc and play games on, the xbmc-team have therefore decided to start this campaign to collect donations for frodo so he can buy a [dreamx-733](http://upgrade123.com/catalog/product_info.php?products_id=66) to dedicate for xbmc development. we hope to raise at least $500 (for [dreamx](http://upgrade123.com/catalog/product_info.php?products_id=66) and shipping), monetary donations are welcomed via paypal. so come on, be generous and help out frodo to support [the xboxmediacenter project](http://www.xboxmediacenter.com).
 

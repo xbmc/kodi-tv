@@ -2,7 +2,10 @@
 title: 'XBMC Goes Back to its Roots [April Fools]'
 date: 2013-03-31T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/xbmc_immersive.jpg
+featured_image:
+  src: /images/blog/xbmc_immersive.jpg
+  title: ''
+  alt: ''
 ---
 [![](/sites/default/files/uploads/xbmc_immersive-300x169.jpg "XBMC with Modern UI skin")](/sites/default/files/uploads/xbmc_immersive.jpg)  
  Sranshaft's Immersive skin is a leading candidate for new default XBMC skin

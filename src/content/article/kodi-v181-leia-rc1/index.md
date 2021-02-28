@@ -2,7 +2,10 @@
 title: 'Kodi v18.1 Leia RC1'
 date: 2019-02-10T20:50:42Z
 author: Martijn Kaijser
-featured_image: /images/blog/Pi Case  v2 Kodi gen2_10-23-18.131.png
+featured_image:
+  src: /images/blog/Pi Case  v2 Kodi gen2_10-23-18.131.png
+  title: ''
+  alt: ''
 ---
 ###### Upcoming bug fix release...
 

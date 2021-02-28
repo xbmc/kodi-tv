@@ -2,7 +2,6 @@
 title: 'Xbox-Scene.com holding a XBMC poll (UPDATED)'
 date: 2004-08-25T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 fyi, [xbox-scene](http://www.xbox-scene.com), the largest xbox homebrew news-site is currently holding an anonymous poll to try to find out how large percentage of their readers have xbox media center installed on their xboxes, so head over to [www.xbox-scene.com](http://www.xbox-scene.com) to register your answer to “is xboxmediacenter installed on your xbox?” (it’s anonymous and just two clicks are required). alternatively you can visit this [xbox-scene.com page (link)](http://www.xbox-scene.com/index.php?action=results&poll_ident=57) to view the result without voting.
 

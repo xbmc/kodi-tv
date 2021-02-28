@@ -2,7 +2,6 @@
 title: 'Feature Friday BIG SCREEN small room'
 date: 2011-04-21T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 For this week’s Feature Friday, we’re going to move from the [kitchen](/article/feature-friday-kitchen-hi-fi "The Kitchen Hi-Fi") to a tiny, spare bedroom. I’m sure many of you are familiar with the [massive home theaters](https://www.avsforum.com/threads/sandmans-home-theater-construction-begins.574704/ "The Sandman Home Theater: Starting something big") with moving parts, star-lit skies, curved screens, and more insulation than an average person could shake a stick at. You may also know that you can only make that kind of thing happen if you have several thousand dollars and an entire year to devote to the project.
 

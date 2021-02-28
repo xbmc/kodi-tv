@@ -2,7 +2,6 @@
 title: 'Database query speedups'
 date: 2008-08-23T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 I was testing some [smartplaylists](https://kodi.wiki/view/Playlists) out from some [bug reports](http://trac.xbmc.org), and found that the same query was performed significantly faster in [SQLiteSpy](https://www.yunqa.de/delphi/products/sqlitespy/) than in XBMC on the same machine. The performance was an order of magnitude slower in XBMC than it was in SQLiteSpy, and we actually use a newer version of SQLite than is in the version of SQLiteSpy I was testing.
 

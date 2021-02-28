@@ -2,7 +2,6 @@
 title: 'Nominate XBMC for SourceForge Community Choice Awards 2009'
 date: 2009-05-13T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It is almost time for this years [SourceForge.net Community Choice Awards (CCA)](https://sourceforge.net/community/cca09). This is the forth annual SourceForge CCA, back in year 2006 [XBMC Media Center](https://sourceforge.net/projects/xbmc/) won two categories; “best multimedia project” and “best game project”. If you are a [registered user on SourceForge.net (registration is free)](https://sourceforge.net/user/registration) then you can help to make sure that [XBMC Media Center](https://sourceforge.net/projects/xbmc/) is eligible to be in the running for this years CCA as well by nominating [XBMC Media Center](https://sourceforge.net/projects/xbmc/) to one or more categories.
 

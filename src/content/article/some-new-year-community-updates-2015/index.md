@@ -2,7 +2,10 @@
 title: 'Some New Year Community Updates 2015'
 date: 2015-01-14T03:00:00Z
 author: zag
-featured_image: /images/blog/ConfigurationGUI_zps10704b12.png
+featured_image:
+  src: /images/blog/ConfigurationGUI_zps10704b12.png
+  title: ''
+  alt: ''
 ---
 Now that the dust has settled on the new Kodi “Helix” release we thought we would take you through a few of the developments that you may have missed in our community forums. There’s some exciting stuff going on as developers and add-on creators get back to work on writing new features and brainstorming the next generation of innovations.
 

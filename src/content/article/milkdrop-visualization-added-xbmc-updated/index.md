@@ -2,7 +2,6 @@
 title: 'Milkdrop Visualization added to XBMC (updated)'
 date: 2005-05-14T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 2005-05-15 [milkdrop](https://www.nullsoft.com/free/milkdrop/) was added to xbmc cvs.  
 [nullsoft](https://www.nullsoft.com/) kindly opensourced this awesome visualization 2005-05-04, and then it was just a matter of time until one of our devs ported it ![;)](/sites/default/files/uploads/icon_wink.gif)

@@ -2,7 +2,6 @@
 title: 'Don’t Look Up'
 date: 2011-11-18T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Thanks to some unexpected freeing up of time (and more news unrelated to Feature Friday), we are happy to announce that Feature Fridays are back on the menu. As always, if you have a setup you’d like featured, feel free to send it in to natethomas AT xbmc DOT org (also, see the end of this article for a new contest).
 

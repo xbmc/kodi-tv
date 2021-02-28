@@ -2,7 +2,10 @@
 title: 'Kodi v17 “Krypton” Alpha 3'
 date: 2016-07-31T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/splash-krypton-alpha-cutout.png
+featured_image:
+  src: /images/blog/splash-krypton-alpha-cutout.png
+  title: ''
+  alt: ''
 ---
 With this announcement we’re happy to release v17 alpha 3. This v17 release which the users have named *Krypton* features a huge amount of rework in various areas like video playback, live TV & PVR, music library, skinning and more. All these areas underwent heavy changes which are now coming to an end and ready for the masses. This means this will be the last alpha and we’ll soon be pumping out beta builds at a steady rate so the broader audience can give Kodi v17 a try. However let’s first focus on what changed this past month.
 

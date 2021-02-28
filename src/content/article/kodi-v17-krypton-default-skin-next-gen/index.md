@@ -2,7 +2,10 @@
 title: 'Kodi v17 "Krypton" - Default skin: Next Gen'
 date: 2016-11-18T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/v17-estuary_ng_000.jpg
+featured_image:
+  src: /images/blog/v17-estuary_ng_000.jpg
+  title: ''
+  alt: ''
 ---
 Past March we announced that v17 would feature a brand new default skin called Estuary and since then it has been included in every build we have released. During this period our developers kept improving on how it looked, behaved and made use of the latest features that got included from what is shaping up to be the final release of v17. Since more and more users also started to use these development builds we started to receive a lot of feedback, where most was positive there was also some negative or at least constructive comments. As we are not deaf to these comments and try to create the best experience, our skin developer *phil65* went back to the drawing board and rethought on how to incorporate this feedback into wat should become the final skin. With some help from *ryanmah* for the mockups, *ichabod-fletchman* for helping out this didn’t resulted in a total rewrite but simply reworking some parts of how the skin looks and behaves. The underlying skin code still remains the same for a very large part except for the parts where a smarter way of doing this magic was found. The visual top layer what you will see should still feel quite familiar if you have used any past v17 builds as not everything was redone.
 

@@ -2,7 +2,6 @@
 title: 'Weekly report 7'
 date: 2010-07-11T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Status
 

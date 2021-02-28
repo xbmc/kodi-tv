@@ -2,7 +2,6 @@
 title: 'Forum Upgrade - It’s finally happening!'
 date: 2012-02-25T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![roman_forum](/sites/default/files/uploads/roman_forum-300x224.jpg "roman_forum")](/sites/default/files/uploads/roman_forum.jpg)This is just a quick note. Over the next few weeks, the team plans on finally updating the forums to more modern, open source software that will play nice with current browsers and will connect with plugins that will allow for better mobile browsing. Right now, the software of choice appears to be [MyBB](https://mybb.com/ "MyBB Forum software"), though we’ve also experimented with [PhpBB](https://www.phpbb.com/ "PhpBB forum software"). At the moment, the plan is for internal testing to take place on the weekend of March 3rd and full conversion to take place on the weekend of March 10th.
 

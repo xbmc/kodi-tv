@@ -2,7 +2,6 @@
 title: 'XBMC, a Google Summer of Code 2008 Project'
 date: 2008-03-16T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [XBMC](https://kodi.wiki/view/Main_Page) is participating in this year’s [Google Summer of Code (GSoC)](https://developers.google.com/open-source/gsoc/2008/?csw=1), which means that we are looking for creative college students who are skilled in the C++ programming language and would be interesting in getting paid by Google to work on new features for XBMC this summer.
 

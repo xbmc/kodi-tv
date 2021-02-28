@@ -2,7 +2,10 @@
 title: 'XBMC 13.2 Gotham - Release Candidate 1'
 date: 2014-08-07T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-13.2-rc-splash.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13.2-rc-splash.png
+  title: ''
+  alt: ''
 ---
 After three beta releases, we are happy to announce our 13.2 Release Candidate. This follows a couple of months after the 13.1 release, and is considered a small bug fix release. Unfortunately we cannot fix all things reported. Below you will find a list of most important fixes included in this release.
 

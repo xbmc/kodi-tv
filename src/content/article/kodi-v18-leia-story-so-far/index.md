@@ -2,7 +2,10 @@
 title: 'Kodi v18 Leia - The story so far'
 date: 2018-02-10T04:00:35Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-36A-1080p_samfisher-header.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-36A-1080p_samfisher-header.jpg
+  title: ''
+  alt: ''
 ---
  Around November 2016 the team decided that v17 Krypton was mature enough to start with the release steps and as such it was branched off from our main development tree. This basically means it received its own place in our development repository and would only receive bug fixes and small improvements. This is also the moment that frees up the possibility for several core developers to start another cleanup and improvement spree that was also done when just starting with v17. This usually entails to take a more evasive steps on cleaning up code and less taking in account that certain parts will be broken for a certain time. Having a good foundation to build on is key in anything and that also includes a software application.
 

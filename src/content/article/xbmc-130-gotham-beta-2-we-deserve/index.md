@@ -2,7 +2,10 @@
 title: 'XBMC 13.0 Gotham - The Beta 2 We Deserve'
 date: 2014-03-16T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/gotham_splash_beta.png
+featured_image:
+  src: /images/blog/gotham_splash_beta.png
+  title: ''
+  alt: ''
 ---
 It’s been a mere 13 days since beta 1 came out, and already we’re ready for beta 2. This is almost entirely a “fix” beta release, meaning no new features, only a more rock solid foundation. Still, many of those fixes are worth mentioning in an abbreviated change log. For a more full rundown of the features of XBMC 13, see our [Beta 1 post](https://kodi.wiki/xbmc-13-0-gotham-beta1-rises/ "beta1").
 

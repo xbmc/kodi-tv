@@ -2,7 +2,10 @@
 title: 'XBMC Audio goes HD'
 date: 2012-05-29T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/hd-audio-announce.jpg
+featured_image:
+  src: /images/blog/hd-audio-announce.jpg
+  title: ''
+  alt: ''
 ---
 It’s been long-awaited, oft-discussed and it’s finally here – AudioEngine for XBMC!
 

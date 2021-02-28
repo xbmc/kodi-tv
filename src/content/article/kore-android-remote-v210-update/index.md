@@ -2,7 +2,10 @@
 title: 'Kore - Android remote v2.1.0 update'
 date: 2016-07-09T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kore_Artwork_1024x500_v2_samfisher.png
+featured_image:
+  src: /images/blog/Kore_Artwork_1024x500_v2_samfisher.png
+  title: ''
+  alt: ''
 ---
 It has been a while since we talked about our official Android remote and to the outside all seemed quiet. Nothing is further from the truth. We are happy to announce that our official Kore remote is getting an update. Our developers *SyncedSynapse* and *poisdeux* have been putting a lot of work on including new features and improving what was already there. Additionally it’ s also great to see that developers from outside of the team are helping getting it better. Many thanks go out to them as well. This is what opensource is all about.
 

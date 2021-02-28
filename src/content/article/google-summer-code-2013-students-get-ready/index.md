@@ -2,7 +2,10 @@
 title: 'Google Summer of Code 2013: Students, Get Ready!'
 date: 2013-04-08T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/summerofcode_0.png
+featured_image:
+  src: /images/blog/summerofcode_0.png
+  title: ''
+  alt: ''
 ---
 We are excited to announce to everyone that we have been accepted as an official [GSOC 2013 mentor organization this year](http://www.google-melange.com/gsoc/org/google/gsoc2013/xbmc "XBMC at GSOC"). GSoC 2012 was an incredible success for XBMC and XBMC users, as our Library, scrapers, and media server services took a massive leap forward, and we got an awesome test suite as icing on the cake. We have high hopes that students will come up with yet more brilliant ideas for this summer.
 

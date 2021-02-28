@@ -2,7 +2,6 @@
 title: 'Working with dirty regions'
 date: 2011-06-18T04:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/soap-300x251.jpg "soap")Some of you may remember that back in 2010, Tobias (topfs2) began working on a [GSOC](https://en.wikipedia.org/wiki/Google_Summer_of_Code) project to improve XBMC performance on the [BeagleBoard](https://en.wikipedia.org/wiki/BeagleBoard). Many optimizations came out of this project, but the most ambitious feature was dirty region rendering.
 

@@ -2,7 +2,6 @@
 title: 'XBMC 12 Frodo - Beta 3'
 date: 2012-12-07T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Hot on the heels of Beta 2, we are excited to release Beta 3. This release includes a number of fixes as we work to resolve issues that have cropped up since Beta 2 and also attempt to isolate some issues that still exist. For a quick run down of some of the big ones:
 

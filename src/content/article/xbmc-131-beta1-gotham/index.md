@@ -2,7 +2,10 @@
 title: 'XBMC 13.1 beta1 Gotham'
 date: 2014-05-11T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-13_1-beta.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13_1-beta.png
+  title: ''
+  alt: ''
 ---
 Only a week ago we released the stable version of 13.0 codename “Gotham”. So far, from the responses we have received, people are pretty excited about it and are happily using it. Now that more people are starting to use the stable release, several issues popped up, that we now hope to address with this 13.1 beta1 release. Do note that this release contain only fixes and no new features. So it should be safe to install on top of current 13.0 release. In due time we will of course release a 13.1 stable version after we are confident there are no regressions compared to 13.0 stable.
 

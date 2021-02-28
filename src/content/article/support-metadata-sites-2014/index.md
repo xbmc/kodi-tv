@@ -2,7 +2,10 @@
 title: 'Support for metadata sites 2014'
 date: 2014-07-10T04:00:00Z
 author: zag
-featured_image: /images/blog/metadata_sites.png
+featured_image:
+  src: /images/blog/metadata_sites.png
+  title: ''
+  alt: ''
 ---
 This is just the yearly reminder to support our 3rd party metadata sites with data contributions or financial donations so they can keep running. XBMC relies on these sites to provide metadata and fanart for things like Music, Movies, Games and TVShows. Most sites have a donation target for each year to keep them running, so we ask users to contribute towards this. Even the smallest paypal donation can go along way. If you are unable to support these sites financially, why not contribute some data to them instead? Below is a short description of each site and what they provide:
 

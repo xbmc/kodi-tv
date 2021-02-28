@@ -2,7 +2,6 @@
 title: 'NVIDIA ION and LinuxTag'
 date: 2009-07-06T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As promised, here are some pictures of the NVIDIA ION box which were so kindly lent out to us during LinuxTag. Big thanks to NVIDIA for making this happen ![:)](/sites/default/files/uploads/icon_smile.gif)
 

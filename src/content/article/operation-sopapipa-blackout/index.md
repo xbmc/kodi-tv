@@ -2,7 +2,6 @@
 title: 'Operation SOPA/PIPA Blackout'
 date: 2012-01-15T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![zappy-censored](/sites/default/files/uploads/zappy-censored-300x300.png "zappy-censored")](/sites/default/files/uploads/zappy-censored.png)On January 18th, the entire XBMC.org website will go black in protest of SOPA/PIPA.
 

@@ -2,7 +2,6 @@
 title: 'Skin Release: Rapier'
 date: 2009-09-16T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Today scarfa came out of nowhere with a beautiful new skin, available immediately. Click the image below for a screenshot preview.
 

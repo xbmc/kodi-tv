@@ -2,7 +2,10 @@
 title: 'Attention ALL Companies attending CES!'
 date: 2016-10-15T03:00:00Z
 author: Keith Herrington
-featured_image: /images/blog/kodi_ces.png
+featured_image:
+  src: /images/blog/kodi_ces.png
+  title: ''
+  alt: ''
 ---
 For the third year in a row, Kodi is attending CES.
 

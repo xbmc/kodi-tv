@@ -2,7 +2,6 @@
 title: 'Welcome Sponsor: 9×9 Networks'
 date: 2010-02-16T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 We would like to welcome our latest sponsor, [9×9 Networks](http://127.0.0.1/). The nice people over at 9×9 are using XBMC as a frontend for their delivery network, and have agreed to make a reasonable annual donation to the XBMC Foundation to help us with travel expenses for conferences, accommodations for developer conventions, hardware for testing, etc. Here’s a brief introduction from COO Jack Chang:
 

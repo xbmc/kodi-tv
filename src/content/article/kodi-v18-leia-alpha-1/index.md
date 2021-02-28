@@ -2,7 +2,10 @@
 title: 'Kodi v18 Leia - Alpha 1'
 date: 2018-03-04T06:52:54Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-36F-1100x500_samfisher.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-36F-1100x500_samfisher.jpg
+  title: ''
+  alt: ''
 ---
  A new hope dawns and it is finally time to start heading towards a final release. Today we are happy to announce that we are bringing you the first official pre-release Alpha build to a galaxy near you.
 

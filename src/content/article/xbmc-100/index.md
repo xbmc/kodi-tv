@@ -2,7 +2,6 @@
 title: 'XBMC 10.0'
 date: 2010-12-17T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/logo.png "XBMC") It’s been a LONG time coming. Too long. But [here it is](https://kodi.wiki/download/). XBMC 10.0 “Dharma” is ready for consumption. Those who have been following development know that add-ons are the main focus of this release. In the past, in order to find a new skin, you would have to dig through the forums, find a link, and hope it worked. Ditto for plugins, scrapers, etc. Those days are over. All of these things are now available within XBMC, no need to put down the remote to find new content or change the look of your HTPC. Just head to the “add-ons” section in the system menu. At the time of this writing, there are 11 different skins available, all with distinct looks and personalities. But we didn’t stop there. Want to watch your favorite youtube videos? Listen to some web radio or podcasts? Install a web interface to control your living-room experience, or even one to manage your media? It’s all available in the new add-ons system. Even before the final release, we have seen an average of 50,000 add-on downloads per day. It’s time for you to see what many others have discovered! And remember, the best part is that the add-ons are very much alive. New ones are being added every day, and current ones are continuously updated.
 

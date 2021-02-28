@@ -2,7 +2,10 @@
 title: 'Kodi 16.0 Alpha 4 - Jarvis nearing completion'
 date: 2015-10-31T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi16.0-jarvis-alpha.png
+featured_image:
+  src: /images/blog/kodi16.0-jarvis-alpha.png
+  title: ''
+  alt: ''
 ---
 Only two weeks ago we announced 15.2 which is the last release of the Kodi version 15 range and now we’re announcing the last alpha of version 16. What does this means for users? That after four months of alpha versions we are gearing up for changing to the beta stage and working towards a final Kodi 16 release. The past four months the developers worked hard behind the scenes on further improving what is already a great piece of software. Lot’s of code clean-up and improving stability, with a dash of features added here and there. To not bore every one with all the technical changes we’ll dive into some of the most noticeable newly added features.
 

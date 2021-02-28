@@ -2,7 +2,6 @@
 title: 'Welcome sponsor: Weather Underground'
 date: 2011-12-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/wundergroundLogo_4c-168x101.jpg "wundergroundLogo_4c")
 

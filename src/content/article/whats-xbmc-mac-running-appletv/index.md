@@ -2,7 +2,6 @@
 title: 'Whats this XBMC for Mac running on the AppleTV?'
 date: 2008-09-30T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Yes sir, that’s correct. XBMC for Mac runs on the AppleTV and get this, it’s under the native AppleTV OS that you can launch right from FrontRow. Pretty cool. I do have give great thanks to Stephan Diederich for his absolutely brilliant work on the AppleTV plugin XBMC Launcher with install/update capabilities.
 

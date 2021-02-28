@@ -2,7 +2,6 @@
 title: 'Media Flagging Support'
 date: 2009-06-14T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 With commit r21076, Media Flagging was added to XBMC’s main codebase. Full history and discussion can be seen [here](https://forum.kodi.tv/showthread.php?tid=30419). Information for skinners is available [here](https://forum.kodi.tv/showthread.php?pid=347704%23pid347704). Everyone be sure to thank CapnBry for his hard work.
 

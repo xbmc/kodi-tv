@@ -2,7 +2,6 @@
 title: 'New translation service'
 date: 2012-05-29T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/API.407b6280f366.jpg "Transifex")As some of you might have noticed, we are in the process of making life for all hard working translators a whole lot easier. And for those of you who wanted to contribute with translating XBMC but have always thought it was too much hassle, we have now made it easier than ever.
 

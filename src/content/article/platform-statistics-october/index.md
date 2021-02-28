@@ -2,7 +2,6 @@
 title: 'Platform Statistics: October'
 date: 2013-10-23T03:00:00Z
 author: zag
-featured_image: ""
 ---
 XBMC runs on many platforms and everyone has their favourites, but ever wondered which is the most popular?
 

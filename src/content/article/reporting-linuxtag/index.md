@@ -2,7 +2,6 @@
 title: 'Reporting from LinuxTag'
 date: 2011-05-13T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 We have been attending LinuxTag in Berlin, Germany since wednesday the 11th.
 

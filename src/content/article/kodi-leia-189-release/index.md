@@ -2,7 +2,10 @@
 title: 'Kodi "Leia" 18.9 Release'
 date: 2020-10-23T03:00:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v18.9_Leia_Final_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v18.9_Leia_Final_1080p.jpg
+  title: ''
+  alt: ''
 ---
 *Mutter, mutter... "18.8 will be the last", they said... "all efforts will go into 19.x now", they said... famous last words...*
 

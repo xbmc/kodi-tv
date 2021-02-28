@@ -2,7 +2,10 @@
 title: 'Kodi goes Windows Store'
 date: 2016-09-19T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Windows-Store-Blog.jpg
+featured_image:
+  src: /images/blog/Kodi-Windows-Store-Blog.jpg
+  title: ''
+  alt: ''
 ---
 With the release of Windows 10 Anniversary update, Microsoft announced its Desktop Bridge *(Project Centennial)* feature which in theory should allow regular desktop applications to be converted to UWP-like store app without any real code changes. With the Desktop Bridge developers would gain easy access to the Windows Store, leading to easy distribution and several other bonuses such as access to the UWP APIs which could open up future improvements such as Live Notes and Tiles. Team Kodi looked at the development with a little disbelief. Due to Kodi’s code-complexity and the fact that we use hardware-acceleration for both audio and video playback we did not believe it would work for Kodi. 
 

@@ -2,7 +2,6 @@
 title: 'XBMC Accepted into Debian'
 date: 2012-04-09T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/debian_4-241x300.png "debian_4")](http://www.debian.org/)Linux users rejoice! Thanks primarily to the hard work of Andres Mejia, XBMC has been accepted into the [official Debian distribution](https://packages.qa.debian.org/x/xbmc.html)! In the past we have been unable to make it into Debian as the sheer size and complexity of XBMC made the review process so difficult, so Andres, an XBMC developer who was working to become a Debian Developer already, volunteered to maintain it himself. Yesterday, his Eden packages were accepted. For those unclear about what this means, Debian unstable users will now be able to install XBMC without using any third-party repositories.
 

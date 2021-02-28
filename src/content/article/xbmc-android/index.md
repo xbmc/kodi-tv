@@ -2,7 +2,6 @@
 title: 'XBMC For Android'
 date: 2012-07-12T04:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/zappy-android-scaled.png "zappy-android-scaled")We have been keeping a little secret.. the kind that is so much fun to share when the time comes.
 

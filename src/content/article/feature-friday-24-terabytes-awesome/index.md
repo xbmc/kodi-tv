@@ -2,7 +2,6 @@
 title: 'Feature Friday: 24 Terabytes of awesome'
 date: 2011-08-05T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 This is Micah’s gaming PC.
 

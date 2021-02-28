@@ -2,7 +2,6 @@
 title: 'Finally out the door: Dharma Beta1'
 date: 2010-08-29T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Today we announce the first beta in what we hope is a very short pre-release cycle. Dharma has been in development for over 9 months now, and we’re quite happy with the result.
 

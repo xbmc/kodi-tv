@@ -2,7 +2,10 @@
 title: 'Kore v2.5.0 Released!'
 date: 2020-01-07T00:56:39Z
 author: Team Kodi
-featured_image: /images/blog/Kore_Artwork_1024x500_samfisher.png
+featured_image:
+  src: /images/blog/Kore_Artwork_1024x500_samfisher.png
+  title: ''
+  alt: ''
 ---
 Kore v2.5.0 Released!
 ---------------------

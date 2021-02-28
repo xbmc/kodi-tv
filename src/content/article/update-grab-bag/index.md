@@ -2,7 +2,6 @@
 title: 'Update Grab-bag'
 date: 2012-04-24T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 There is lots going on in XBMC-land, so now seems like a good time for an update on all fronts. I’d like to touch quickly on several areas, there are sure to be some follow-ups coming soon.
 

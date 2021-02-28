@@ -2,7 +2,10 @@
 title: 'Devcon 2018 - Sofia - Part I'
 date: 2018-09-27T20:18:10Z
 author: Prof Yaffle
-featured_image: /images/blog/6030201633_bbe5411b81_b.jpg
+featured_image:
+  src: /images/blog/6030201633_bbe5411b81_b.jpg
+  title: ''
+  alt: ''
 ---
 \
 

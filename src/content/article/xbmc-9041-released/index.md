@@ -2,7 +2,6 @@
 title: 'XBMC 9.04.1 Released'
 date: 2009-05-26T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 A few bugs managed to slip into the XBMC Media Center 9.04 (Babylon) final release, so we decided to do a quick update. This maintenance release addresses those glaring Babylon issues as well as some other things that we have fixed since. No new features are present here, this is strictly a bug fix release. As always, you can [grab the latest version here](https://kodi.wiki/download/) or from the PPAs. Note: We had a bit of a problem upon initial this release, so some builds have been repacked as a result.
 

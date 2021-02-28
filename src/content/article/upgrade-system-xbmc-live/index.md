@@ -2,7 +2,6 @@
 title: 'Upgrade System from XBMC Live?'
 date: 2009-03-02T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Have you ever wanted to upgrade your system from your couch, not being forced to SSH in on your XBMC Live and do the long whinded sudo apt-get update && sudo apt-get upgrade process?  
  I have, and finally after some troublesome python learning I finally made a script that does just this!

@@ -2,7 +2,6 @@
 title: 'Feature Friday: The Kitchen Hi-Fi'
 date: 2011-04-14T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 In this first edition of Feature Friday, we are going to forego the boring old bat cave and million dollar living room in favor of a wee bit of creativity. Brilliant user Oliver Owen, of the UK, has been using various versions of XBMC since 2003. He has had XBMC installed on at least one box in nearly every room in his flat. Recently, he decided to add another room to the XBMC fold by building a custom touchscreen version of XBMC in his kitchen, primarily for music playback and easy access to the weather application.
 

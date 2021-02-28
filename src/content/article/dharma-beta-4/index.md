@@ -2,7 +2,6 @@
 title: 'Dharma Beta 4'
 date: 2010-10-28T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/Greek_beta.png "Greek_beta")Well, beta 3 had a few regressions. So rather than moving along to rc1, we decided to throw out one last (we hope!) beta. There a few things to take note of:
 

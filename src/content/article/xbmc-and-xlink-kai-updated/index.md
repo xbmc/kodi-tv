@@ -2,7 +2,6 @@
 title: 'XBMC and XLink Kai (Updated)'
 date: 2004-11-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 apologies for the somewhat delayed news post, by now you’ve probably already heard that we’ve added a major update to our cvs. support for the free multiplayer online gaming service xlink kai has been massively improved. amongst many new features, it has a voice chat function (using [team-avalaunch’s](http://www.teamavalaunch.com/) port of speex). players can use voice chat within xbmc to communicate directly or chat in “groups” with other players on xbox’s and pcs that also support xlink kai. in addition team-xbmc has open a dedicated [support forum for xlink kai in xbmc (link)](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=sf;f=23). if you don’t know what we’re ranting on about then head over to [team-xlink’s website www.teamxlink.co.uk](http://www.teamxlink.co.uk) for more information and nice screenshots, plus for support on the actual kai engine that runs on your computer you have to of course turn to [team-xlink’s own forums (link)](http://www.teamxlink.co.uk).
 

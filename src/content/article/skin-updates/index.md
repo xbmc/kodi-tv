@@ -2,7 +2,6 @@
 title: 'Skin updates'
 date: 2011-03-26T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/update-101x101.png "update")As you may remember, XBMC 10.1 was recently released in order to address a bug that would cause a crash for Windows users when receiving an automatic update for the current skin.
 

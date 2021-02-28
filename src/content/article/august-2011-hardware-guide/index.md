@@ -2,7 +2,6 @@
 title: 'August 2011 Hardware Guide'
 date: 2011-08-15T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 As time goes by, it becomes more and more evident that an incredibly expensive computer is not necessary to run an adequate version of XBMC. In fact, assuming you have a server somewhere else in the house that hosts your media, the cost of running XBMC on a modern machine is actually beginning to approach the cost of running XBMC on an old, discolored Xbox. To that end, we are going to attempt to provide a monthly buyer’s guide that gives you a rough idea of the best value in a given viewing space. If this guide ends up being fairly unpopular, it may be a one off. If it sparks a great deal of conversation, then the mission will be accomplished, and we’ll do it again next month.
 

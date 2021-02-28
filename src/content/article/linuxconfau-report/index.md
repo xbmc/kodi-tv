@@ -2,7 +2,6 @@
 title: 'Linux.conf.au Report'
 date: 2010-01-27T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 David Teirney and I just got back from hosting a successful booth at the [Linux.conf.au](https://www.lca2010.org.nz/) open day in Wellington, NZ.
 

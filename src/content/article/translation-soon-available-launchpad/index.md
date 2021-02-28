@@ -2,7 +2,6 @@
 title: 'Translation soon available on Launchpad.'
 date: 2009-01-15T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Good news to all translators out there. rwparris2 (most of the coding) and myself (ideas and small coding) has done a conversion script that allows us to take use of the [i18n](http://download.hforge.org/doc/i18n/index.html) format used on [launchpad.net](https://launchpad.net/).
 

@@ -2,7 +2,6 @@
 title: 'XBMC 11 Eden: RC2'
 date: 2012-03-01T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![rc2_xbmc](/sites/default/files/uploads/rc2_xbmc.jpg "rc2_xbmc")](/sites/default/files/uploads/rc2_xbmc.jpg)We are pleased to announce that the video sync bug introduced has been resolved and Release Candidate 2 released in record time.
 

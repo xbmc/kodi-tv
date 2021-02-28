@@ -2,7 +2,6 @@
 title: 'Feature Friday: XBMC, easy as 1-2-3'
 date: 2011-06-09T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 For this week’s Feature Friday, we turn to AJ Perkins of the UK. AJ has a pretty awesome living room [![XBMC, easy as 1-2-3](/sites/default/files/uploads/IMG_1982_5815464893_l-225x300.jpg "XBMC, easy as 1-2-3")](/sites/default/files/uploads/IMG_1982_5815464893_l.jpg)setup, but this week we’d like to take a break from just telling you about how awesome the various homes of users are. Instead, I’d like to ask you to bring a loved one over to the computer. That’s right, we’re going interactive! This week, we’d like to take a minute or two to show the friends and family members of our XBMC users just how cool XBMC can be.
 

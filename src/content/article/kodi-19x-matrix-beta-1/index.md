@@ -2,7 +2,10 @@
 title: 'Kodi 19.x "Matrix" - Beta 1'
 date: 2020-11-22T00:41:28Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
+  title: ''
+  alt: ''
 ---
 Lights! Camera! Action!
 

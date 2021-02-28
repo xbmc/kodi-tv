@@ -2,7 +2,6 @@
 title: 'Mascot Contest'
 date: 2011-05-01T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Team XBMC is interested in finding a mascot for XBMC. To that end, we have decided to have a competition in which you, the user, can submit drawings for what you think an ideal mascot would be.
 

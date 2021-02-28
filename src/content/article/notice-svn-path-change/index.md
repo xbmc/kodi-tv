@@ -2,7 +2,6 @@
 title: 'Notice: SVN Path Change'
 date: 2009-09-21T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 If you’ve been watching svn lately, you might have noticed that lots of cleaning, pruning, and reorganizing has been taking place. While everything else was churned up, it seemed like a good time to move the main development code to trunk. The linuxport branch has been removed. She was a good ship!
 

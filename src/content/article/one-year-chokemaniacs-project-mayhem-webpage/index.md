@@ -2,7 +2,6 @@
 title: 'One Year Chokemaniacs Project Mayhem Webpage'
 date: 2005-03-07T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 quote from [chokemaniac.net](http://www.chokemaniac.net):
 

@@ -2,7 +2,10 @@
 title: 'Server Issues: Solved'
 date: 2013-12-15T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/o-CAT-LAPTOP-facebook.jpg
+featured_image:
+  src: /images/blog/o-CAT-LAPTOP-facebook.jpg
+  title: ''
+  alt: ''
 ---
 We are pleased to announce that the XBMC download and addon servers are back up and running. We’ve switched over to some newer, faster hardware, and after a few hiccups, it appears the problems that have been hounding us for the past week or so have finally been resolved.
 

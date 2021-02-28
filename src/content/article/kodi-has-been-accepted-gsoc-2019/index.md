@@ -2,7 +2,10 @@
 title: 'Kodi has been accepted to GSOC 2019!'
 date: 2019-02-26T00:31:08Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/gsoc_2018.png
+featured_image:
+  src: /images/blog/gsoc_2018.png
+  title: ''
+  alt: ''
 ---
 We are thrilled to announced that Kodi has been accepted as a **[participating open source organization](https://summerofcode.withgoogle.com/organizations)** in **[Google Summer of Code 2019!](https://summerofcode.withgoogle.com)**
 

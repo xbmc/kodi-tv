@@ -2,7 +2,10 @@
 title: 'Devcon 2017 - Day One'
 date: 2017-05-05T06:28:09Z
 author: Prof Yaffle
-featured_image: /images/blog/Porto_panorama_2017.jpg
+featured_image:
+  src: /images/blog/Porto_panorama_2017.jpg
+  title: ''
+  alt: ''
 ---
 Welcome to DevCon 2017!
 

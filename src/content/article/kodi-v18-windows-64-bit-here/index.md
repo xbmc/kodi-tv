@@ -2,7 +2,10 @@
 title: 'Kodi v18: Windows 64-bit is here'
 date: 2017-06-03T00:11:30Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-35C-1080p_samfisher.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-35C-1080p_samfisher.jpg
+  title: ''
+  alt: ''
 ---
 **UPDATE: 27 December 2017**   
  The 64-bit Kodi version for Windows is now feature complete and on same level as 32-bit. From now on the 32-bit installer will include a warning to ask you to install the 64-bit instead. This upgrade from 32-bit to 64-bit version is seamless and you just need to install on top of the old version. Below is the original article.   

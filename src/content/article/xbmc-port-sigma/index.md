@@ -2,7 +2,6 @@
 title: 'XBMC Port From Sigma'
 date: 2011-01-04T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/Sigma-designs-logo-120x101.jpg "Sigma")](https://www.sigmadesigns.com/)Today Sigma Designs [announced](https://www.sigmadesigns.com/news/sigma-designs-upgrades-the-front-of-screen-experience/)(pdf) that they are working to bring XBMC to their popular line of system-on-a-chip models (their new SMP8656 in particular). For those not familiar with Sigma, they are a major player in the set-top box market and their SOCs are the heart of many products from Popcorn Hour and WDTV, as well as countless other consumer media devices
 

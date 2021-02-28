@@ -2,7 +2,10 @@
 title: 'Kodi v17.4 final: Just a bunch of fixes'
 date: 2017-08-21T21:37:20Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi_eclipse.jpg
+featured_image:
+  src: /images/blog/kodi_eclipse.jpg
+  title: ''
+  alt: ''
 ---
 It has been a while since we released 17.3 release which fixed several issues. Now the time has come to do another named 17.4 where we tackled several more issues that were identified. Although we already moved on with development towards v18 we do take the time to fix issues for the current release when we can. We recommend every one to upgrade to this version once it's available for their platform to have the best experience possible. If you want to know what has changed you can browse the list below.
 

@@ -2,7 +2,6 @@
 title: 'DevCon 2010'
 date: 2010-10-29T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/V2_logo_at_visions-101x101.png "V2_logo_at_visions")](https://www.at-visions.com/)It has been quite a while since the XBMC team has gotten together as a group to discuss the project in person. The time and effort it takes to assemble a group of people from around the world is truly staggering. We are proud to announce that this year’s conference is being sponsored by [at-visions](https://www.at-visions.com/). Andreas Krause, along with some of the others at at-visions, has invited us to join them in Vienna for a weekend of conferences, hacking sessions, and a few beers while we’re there. Around 20 team members will be in attendance during the long weekend of November 12-14. We have invited a few of our partners and sponsors along for the conferences on Saturday, and we would like to ask any local users to join us for a beer or two on Sunday. Watch for a follow-up post with more info on the meet-and-greet soon. If anyone with any corporate interest in XBMC wishes to attend on Saturday, please [contact us](/contact-kodi-team) for more details.
 

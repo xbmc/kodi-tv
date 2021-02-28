@@ -2,7 +2,10 @@
 title: 'Kodi 17.0'
 date: 2017-02-04T03:00:00Z
 author: Kib
-featured_image: /images/blog/Kodi171.png
+featured_image:
+  src: /images/blog/Kodi171.png
+  title: ''
+  alt: ''
 ---
 Team Kodi are very happy to announce the immediate availability of Kodi 17.0 (Krypton) for Windows, Android, MacOS and iOS. Krypton brings updated default user interfaces, better organisation of settings, and many under-the-hood changes on VideoPlayer, Music Library, PVR, audio on Android, and thousands of small bugfixes and improvements to stability. Note: Kodi 17 downloads will be available in [our Ubuntu PPA](https://launchpad.net/~team-xbmc/+archive/ubuntu/ppa "Kodi Stable PPA") soon, so stay tuned for updates!
 

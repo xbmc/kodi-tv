@@ -2,7 +2,10 @@
 title: 'XBMC 13.0 Gotham - Beta 3 Returns'
 date: 2014-03-31T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/gotham_splash_beta-600x336.png
+featured_image:
+  src: /images/blog/gotham_splash_beta-600x336.png
+  title: ''
+  alt: ''
 ---
 Once again with Beta 3 we are looking at almost entirely fixes rather than features. Still, many of those fixes are worth mentioning in an abbreviated change log, and at least one is worth bringing up by name.
 

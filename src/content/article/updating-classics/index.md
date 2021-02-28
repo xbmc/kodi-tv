@@ -2,7 +2,6 @@
 title: 'Updating the Classics'
 date: 2009-08-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It has come to my attention that over the last few years of development by jmarshall of the XBMC skinning engine we have come very far. The problem is with progress comes change, change is good (in some ways) unfortunately moving forward also mean sometimes breaking the old. You just can’t keep constantly maintain backwards compatibility, it slows things down and means extra legacy code to do the same thing that new code does better. 
 

@@ -2,7 +2,10 @@
 title: 'The Freedom of Choice'
 date: 2019-06-30T05:34:00Z
 author: DarrenHill
-featured_image: /images/blog/raul-petri-unsplash.jpg
+featured_image:
+  src: /images/blog/raul-petri-unsplash.jpg
+  title: ''
+  alt: ''
 ---
 ### The Freedom of Choice
 

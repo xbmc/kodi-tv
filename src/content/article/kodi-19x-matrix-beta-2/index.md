@@ -2,7 +2,10 @@
 title: 'Kodi 19.x "Matrix" - Beta 2'
 date: 2020-12-06T05:45:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
+  title: ''
+  alt: ''
 ---
 So, here we go again. Nothing earth-shattering, just a quick note to tell you that the second Beta of Kodi 19.x "Matrix" is now available for installation.
 

@@ -2,7 +2,6 @@
 title: 'Singles support in the Music Library'
 date: 2009-09-08T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 I have many singles in my music collection – songs that were released independently of an album, or perhaps in parallel to an album release. As part of an album release, the single may be a particular edit (such as an edit for radio) and thus be somewhat different than the album version of the track. There’s also a whole heap of singles released that don’t end up on an album.
 

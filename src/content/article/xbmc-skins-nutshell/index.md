@@ -2,7 +2,6 @@
 title: 'XBMC Skins in a Nutshell'
 date: 2009-06-10T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As promised in my [previous post](/xbmc-frontpages), [TheUni](/theuni) and myself are trying to keep you informed about developments from within the XBMC community. To kick it off I’ve decided to pick one of XBMC’s most admired feature – it’s skinning engine.
 

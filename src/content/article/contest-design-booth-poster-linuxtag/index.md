@@ -2,7 +2,6 @@
 title: 'Contest: Design a booth poster for LinuxTag'
 date: 2009-05-31T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [As we have already announced](/xbmc-will-have-a-booth-at-linuxtag-2009-in-berlin), XBMC is going to have a booth at LinuxTag in Berlin in 3 weeks time.
 

@@ -2,7 +2,6 @@
 title: 'Addon Authors, please prepare for Eden'
 date: 2011-12-02T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 This is just a quick note for addon authors.
 

@@ -2,7 +2,10 @@
 title: 'Kodi v17.4 RC1: Just a bunch of fixes'
 date: 2017-08-10T22:41:08Z
 author: Martijn Kaijser
-featured_image: /images/blog/o-CAT-LAPTOP-facebook.jpg
+featured_image:
+  src: /images/blog/o-CAT-LAPTOP-facebook.jpg
+  title: ''
+  alt: ''
 ---
 It has been a while since we released 17.3 release where we fixed several issues. Now the time has come to do another where we tackled several more issues that were identified. Although we already moved on with development towards v18 we do take the time to fix issues for the current release when we can. To give these fixes a proper test run before we call it final we first want to make this release candidate available for the wider audience who might be facing some of these issues we have fixed. Just browse the list below and give it a try.
 

@@ -2,7 +2,10 @@
 title: 'Kodi at FOSDEM 2020'
 date: 2020-01-31T02:35:27Z
 author: Team Kodi
-featured_image: /images/blog/Fosdem.png
+featured_image:
+  src: /images/blog/Fosdem.png
+  title: ''
+  alt: ''
 ---
 Kodi at FOSDEM 2020
 -------------------

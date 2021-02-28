@@ -2,7 +2,10 @@
 title: 'XBMC Is Getting a New Name - Introducing Kodi 14'
 date: 2014-07-31T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/kodi-splash-600x336.png
+featured_image:
+  src: /images/blog/kodi-splash-600x336.png
+  title: ''
+  alt: ''
 ---
 **UPDATE: [Download Kodi 14.0 from our download page.](https://kodi.wiki/download/)**
 

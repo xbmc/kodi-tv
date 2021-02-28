@@ -2,7 +2,6 @@
 title: 'Pbuilder or How to Compile XBMC on a chroot system.'
 date: 2008-09-30T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As a XBMC developer and as XBMC is now supported on multiple Ubuntu version (feisty, gutsy, hardy and Intrepid), you might sometimes want to compile on another system than the one you are running on. This article is to help you doing that without reinstalling your whole system.  
   

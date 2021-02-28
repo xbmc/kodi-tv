@@ -2,7 +2,6 @@
 title: 'XBMC now available on iOS 6.1 for Apple TV'
 date: 2013-02-21T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![appletv_2ndgen](/sites/default/files/uploads/appletv_2ndgen.jpg)](/sites/default/files/uploads/appletv_2ndgen.jpg)As many of you likely have been aware, neither XBMC nor any other non-Apple media center has been available for the updated Apple TV 2 Software 5.2 (iOS 6.1).
 

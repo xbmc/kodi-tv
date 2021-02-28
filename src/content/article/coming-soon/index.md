@@ -2,7 +2,6 @@
 title: 'Coming soon'
 date: 2010-02-05T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![coming_soon](/sites/default/files/uploads/coming_soon-300x156.jpg "coming_soon")It’s been a while since we’ve posted about the work currently going into XBMC, so here’s a quick taste of what’s been added lately, what’s in the works, and what we’re dreaming of:
 

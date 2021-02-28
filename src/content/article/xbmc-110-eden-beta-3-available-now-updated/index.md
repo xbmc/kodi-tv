@@ -2,7 +2,6 @@
 title: 'XBMC 11.0: Eden Beta 3 available now [Updated]'
 date: 2012-02-08T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![takeiXBMC](/sites/default/files/uploads/takeiXBMC-300x170.jpg "takeiXBMC")](/sites/default/files/uploads/takeiXBMC.jpg)As we continue moving toward the release of Eden, more and more fixes are slotting into place. With Beta 3, we’ve fixed playlist issues, altered some misbehaving Library buttons, provided a little more control over the way movie sets are scraped, and cleaned up numerous other small bugs.
 

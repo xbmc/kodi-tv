@@ -2,7 +2,6 @@
 title: 'OpenELEC 1.0 released'
 date: 2011-10-25T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Team XBMC would happily like to congratulate Team OpenELEC on their release of v1.0.
 

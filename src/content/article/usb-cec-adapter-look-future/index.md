@@ -2,7 +2,6 @@
 title: 'The USB-CEC Adapter is a look into the Future'
 date: 2011-10-31T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Sometime around 2006 or 2007, I modded my first Xbox. I admit it, I’m practically a n00b in the realm of XBMC hacking. I didn’t even know what YAMP or Xbox Media Player were until I researched them! I bring this up because since that amazing day I haven’t felt the complete astonishment of a perfect merge of hardware and software until this past weekend, when I connected my TV to my pc via the [Pulse Eight USB-CEC Adapter](https://www.pulse-eight.com/store/products/104-usb-hdmi-cec-adapter.aspx "USB HDMI CEC Adapter by Pulse Eight").
 

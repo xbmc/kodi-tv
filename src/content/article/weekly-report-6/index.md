@@ -2,7 +2,6 @@
 title: 'Weekly report 6'
 date: 2010-07-04T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Last week have been a busy week indeed and I have focused on getting the dirty region based rendering to work. I am glad I followed my mentor’s advice and did dirty region before moving to an event based rendering, especially considering that when dirty region rendering works we have gotten an event based rendering, but not a an event based processing. So while CPU could be limited further this should show if its worth doing.
 

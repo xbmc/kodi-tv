@@ -2,7 +2,6 @@
 title: 'Easier to adjust audio and video settings'
 date: 2009-05-10T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Just thought I’d comment on a nice recently added feature. ubikdood did up [a nice patch](http://trac.xbmc.org/ticket/6393 "Patch") that gave a popup slider dialog, similar to the seek bar and volume bar, when the audio and subtitle delays were adjusted, to give nice, visual feedback as you adjust these settings directly via a keypress.
 

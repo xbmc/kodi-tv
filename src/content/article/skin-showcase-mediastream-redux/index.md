@@ -2,7 +2,6 @@
 title: 'Skin Showcase: MediaStream Redux'
 date: 2009-06-30T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Jezz\_X has been kind enough to announce the initial public release of his personal MediaStream mod, though the word “mod” hardly fits. It’s more of a fresh and modern take on an already great skin; usability has been greatly improved and many of the new XBMC features have been added in. Here are some of the major updates it brings:
 

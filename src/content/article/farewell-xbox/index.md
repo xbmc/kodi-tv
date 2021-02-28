@@ -2,7 +2,6 @@
 title: 'Farewell XBOX'
 date: 2010-05-26T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC (XBMP really) started as a program for modified XBOX consoles. In the following years, XBMC has grown into a multi-platform, multi-architecture media center that runs on most standard hardware. The hardware and legal limitations of the XBOX were always a concern and the Team has instead focused on running on the hardware that most people already have.
 

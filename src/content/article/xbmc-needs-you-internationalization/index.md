@@ -2,7 +2,6 @@
 title: 'XBMC needs you (internationalization)!'
 date: 2009-04-07T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 For the upcoming release of XBMC 9.04 Babylon, we really need to get the following languages up to date or if you can translate into a language not currently supported by XBMC it would be great. There are two files that needs translations, XBMC language file and the translation for PM3.HD skin.
 

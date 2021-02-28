@@ -2,7 +2,6 @@
 title: 'ATVUSB-Creator under Windows: Whats the delay?'
 date: 2008-10-12T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 I’ve gotten numinous queries about when atvusb-creator will get released for the Windows platform. Rest assured, it’s in progress. I thought I would take a little time to explain the difficulties.
 

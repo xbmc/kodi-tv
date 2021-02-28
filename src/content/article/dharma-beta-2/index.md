@@ -2,7 +2,6 @@
 title: 'Dharma Beta 2'
 date: 2010-09-13T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/yinyang-98x101.jpg "yinyang")Just over two weeks after beta1, the next pre-release version of Dharma is ready for testing. We have closed many bugs, touched up some translations, and updated a substantial number of addons. With beta2, we also made the last-minute decision to include web-interfaces as addons. This means that we will be able to keep the new interface (still a work in progress, should be ready by final) up to date, and also developers may submit their interfaces to the official repository. There are several in development already: some for file management, some for editing metadata, and some to simply control XBMC remotely.
 

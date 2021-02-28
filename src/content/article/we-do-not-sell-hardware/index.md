@@ -2,7 +2,10 @@
 title: 'We do not sell hardware'
 date: 2019-03-19T04:56:44Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/kodi_motherboard.jpg
+featured_image:
+  src: /images/blog/kodi_motherboard.jpg
+  title: ''
+  alt: ''
 ---
 Don't be fooled by the cool wallpaper above - **we do not sell hardware**.
 

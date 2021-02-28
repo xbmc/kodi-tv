@@ -2,7 +2,10 @@
 title: 'Kodi for the Xbox One'
 date: 2017-12-28T23:42:53Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-on-xbone.png
+featured_image:
+  src: /images/blog/kodi-on-xbone.png
+  title: ''
+  alt: ''
 ---
 Let us end the year 2017 with a blast including a nostalgic reference to the past. It has long been asked for by so many and now it finally happened. Kodi for Xbox One is available worldwide through Windows and Xbox Store and will only be released from Kodi v18 and onwards. Do note it's not finished yet and may contain missing features and bugs which will be mentioned later in this article.
 

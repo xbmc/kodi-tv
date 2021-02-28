@@ -2,7 +2,6 @@
 title: 'XBMC 11.0 Eden: Beta available now'
 date: 2011-12-23T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 It took a bit longer than expected due to a few bumps in the road, but we are excited to present the first preview release of (what we consider to be) the best version of the best home theater software out there.
 

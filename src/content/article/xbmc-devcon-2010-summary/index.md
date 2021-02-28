@@ -2,7 +2,6 @@
 title: 'XBMC DevCon 2010 Summary'
 date: 2010-12-05T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It has been a few weeks since the annual XBMC Developers Conference (DevCon) took place and we thought it was about time that we gave you some feedback about what took place. What follows is a rundown of what happened at DevCon, who the sponsors for the event were, a brief discussion about sponsors, and a list of ideas and thoughts that were discussed at length during the course of our time together.
 

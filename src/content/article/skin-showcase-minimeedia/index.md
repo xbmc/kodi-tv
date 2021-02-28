@@ -2,7 +2,6 @@
 title: 'Skin Showcase: MiniMeedia'
 date: 2009-05-27T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ### Author’s description (skunkm0nkee)
 

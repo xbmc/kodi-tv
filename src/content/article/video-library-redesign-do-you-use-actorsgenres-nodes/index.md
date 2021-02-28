@@ -2,7 +2,6 @@
 title: 'Video library redesign - do you use the Actors/Genres nodes?'
 date: 2009-05-23T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 I’m currently reviewing the video library in order to make it far more flexible, as well as making it easier to use. The first thing I’m evaluating is just what sort of heirarchy is required for Movies and TV shows. Our current heirarchy gives Genre, Actor, Director, Year, and Studio nodes in addition to the Title node. Most of our users skip this stage by flattening the library – indeed, many skins nowadays take you directly to the Title nodes from the homepage, so some users may not know they exist!
 

@@ -2,7 +2,6 @@
 title: 'Bug-fix Release: 10.1'
 date: 2011-03-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 While we are moving quickly to get new features into 11.0, the time has come for a maintenance release for Dharma. We recommend that all users update to 10.1 as soon as possible to increase stability.
 

@@ -2,7 +2,10 @@
 title: 'Kodi 16.1 – Jarvis – Mark XVI'
 date: 2016-04-23T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-blue.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-blue.jpg
+  title: ''
+  alt: ''
 ---
 Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and this release is no exception. Even though tens of thousands of users were already testing the 16.0 version before release and we as team trying very hard to prevent any problems, as soon as millions start using the released version some problems we either did not think of or which we did not notice before pop up. To counter some of these new issues, we’re bringing you this maintenance release called 16.1 which has some additional fixes on top of the 16.0
 

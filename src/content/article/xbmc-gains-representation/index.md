@@ -2,7 +2,6 @@
 title: 'XBMC Gains Representation'
 date: 2010-04-26T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/sflc-139x101.png "SFLC")](http://www.softwarefreedom.org)In another sign that the project is growing up, we are happy to announce that XBMC is now legally represented by the [Software Freedom Law Center](http://www.softwarefreedom.org/). This has been in the works since our introduction at [SCALE](/article/scale-2010-report) a few months back and today it is official. From their website:
 

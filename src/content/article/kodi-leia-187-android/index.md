@@ -2,7 +2,10 @@
 title: 'Kodi "Leia" 18.7 on Android'
 date: 2020-06-08T15:30:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Android_Robot.png
+featured_image:
+  src: /images/blog/Android_Robot.png
+  title: ''
+  alt: ''
 ---
 When we launched 18.7 across all platforms a couple of weeks ago, it became apparent that there were some problems on Android that wouldn't wait until a future point release to be fixed. These issues - regressions, specifically around micro-stutter and discontinuities on multi-chapter streams - came about because we'd re-introduced MediaCodec JNI over MediaCodec NDK to address scaling/aspect ratio issues that people were seeing on AFTV devices.
 

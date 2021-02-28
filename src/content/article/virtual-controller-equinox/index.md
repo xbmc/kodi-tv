@@ -2,7 +2,6 @@
 title: 'Virtual Controller by EqUiNoX'
 date: 2009-11-15T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 In another bit of late news, here’s a cool new app from EqUiNoX. This handy (and skinnable) program lets you control XBMC from anywhere on your network. Sadly, it’s Windows only so I can’t test it myself, though I’m sure it’s up to EqUiNoX’s usual high standards.
 

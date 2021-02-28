@@ -2,7 +2,10 @@
 title: 'We are a Google Summer of Code 2017 Organization!'
 date: 2017-02-28T18:59:39Z
 author: Nathan Betzen
-featured_image: /images/blog/summer-of-code.jpg
+featured_image:
+  src: /images/blog/summer-of-code.jpg
+  title: ''
+  alt: ''
 ---
 We are excited to announce that Kodi has been [accepted as a Google Summer of Code 2017 project](https://summerofcode.withgoogle.com/archive/2017/organizations/5704018827411456/)! Students, as of the time of this publication, you have about [2 or 3 weeks](https://summerofcode.withgoogle.com/how-it-works/#timeline) to start thinking about project ideas.
 

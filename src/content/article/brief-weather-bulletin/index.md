@@ -2,7 +2,6 @@
 title: 'Brief Weather Bulletin'
 date: 2011-11-14T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![happy cloud](/sites/default/files/uploads/happy_cloud.jpg "happy cloud")](/sites/default/files/uploads/happy_cloud.jpg)As a quick followup to the previous article, we are happy to say that XBMC Eden-Pre now has working weather once again, using an addon created by Amet that connects with World Weather Online. To turn weather on, one must install a nightly build of XBMC Eden-Pre no older than 2011, Nov 15, go to addons\>Weather, and download the World Weather Online addon. Then go to System\>Weather and select World Weather Online as the default. After that, just set your location in Weather Addon settings.
 

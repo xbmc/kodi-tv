@@ -2,7 +2,6 @@
 title: 'Transparency! v2.00 released'
 date: 2009-08-31T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![screenshot home page](/sites/default/files/uploads/thumbs_home-music_0.jpg)](/wordpress/wp-content/gallery/transparency/home-music_0.jpg)It’s kinda funny, you would think building your skin upon an existing one (PM3.HD in my case) will save you a lot of time, compared to building it from scratch. But some time after the the initial work is done and released, you realize the skin still resembles the the original too much… That’s when the real work starts…replacing all of the textures with your own, finding and creating dozens of new icons for the skin. That’s what Transparency! v1.00 was about, giving it it’s own, distinct look. It took me 6 weeks of GIMP’ing and coding all day long (and night) to get to the point where i felt this was the best i could do. In case if anyone’s interested in what i did in my summer holidays…you’ve just read it.
 

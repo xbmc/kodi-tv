@@ -2,7 +2,6 @@
 title: 'XBMC 8.10 Atlantis released'
 date: 2008-11-13T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [Team-XBMC](/about/team) is proud to announce the cross-platform release of [XBMC Media Center](https://kodi.wiki/view/Main_Page) version 8.10 for Linux, Mac OS X (Leopard, Tiger, and Apple TV), Windows, and Xbox, code named ‘[Atlantis](http://trac.xbmc.org/roadmap)‘.
 

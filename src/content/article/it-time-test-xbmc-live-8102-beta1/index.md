@@ -2,7 +2,6 @@
 title: 'It’s time to test XBMC Live 8.10.2 Beta1'
 date: 2009-02-26T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Time has come for a new XBMC Live release: [XBMC Live 8.10.2b1](https://sourceforge.net/projects/xbmc/files/ "XBMC Live 8.10.2b1")
 

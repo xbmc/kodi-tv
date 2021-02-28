@@ -2,7 +2,6 @@
 title: 'XBMC 9.11: Alpha1 ready for testing'
 date: 2009-11-03T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/logo.png)Today we are pleased to announce the first official testing release of 9.11, Codename: Camelot. It’s been quite a while since Babylon, so we’re very excited to begin the release cycle and work towards a new release.
 

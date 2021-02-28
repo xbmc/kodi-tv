@@ -2,7 +2,6 @@
 title: 'Rapier Skin Update v1.60'
 date: 2009-09-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 This update tries to address all the known problems that have been reported as well as add some new features that have been requested. Some of the things users wanted were:
 

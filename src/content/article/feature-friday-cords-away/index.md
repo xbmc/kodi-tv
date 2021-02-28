@@ -2,7 +2,6 @@
 title: 'Feature Friday: Cords Away'
 date: 2011-03-13T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Perhaps the single most popular picture ever posted to the [XBMC Facebook Fanpage](https://www.facebook.com/XBMC "XBMC Facebook Fanpage") (‘like’ us, if you haven’t already) had almost nothing at all to do with XBMC. Palle Olsen was tired of trying to hide his cords. All the usual methods didn’t work or ended up even more cluttery than just letting the cords dangle. So, rather than accept messy cords as part of life, Palle got creative.
 

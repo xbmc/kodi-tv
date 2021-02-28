@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 Helix - Release candidate arrives'
 date: 2014-11-29T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Splash1.png
+featured_image:
+  src: /images/blog/Splash1.png
+  title: ''
+  alt: ''
 ---
 The last few months have certainly been rough-and-tumble, but we are pleased to announce the release candidate cycle for Kodi 14.0 Helix.
 

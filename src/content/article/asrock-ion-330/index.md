@@ -2,7 +2,6 @@
 title: 'ASRock ION 330'
 date: 2009-10-11T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 A while ago [ASRock](https://www.asrock.com/index.asp) Europe kindly lent me an [ION 330](http://www.asrock.com/nettop/overview.asp?Model=ION%20330) to try out as my new HTPC equipment. Got it delivered and started unpacking. It was packed in a neat box along with a hdmi to dvi adapter, a support cd and an anti-slip pad. The case looks just as good as it does on the pictures. Installed it with hdmi to my 37″ LCD TV and optical toslink to my surroundsystem. Booted it up and because it was a sample it came with Windows Vista preinstalled.
 

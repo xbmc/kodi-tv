@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 - Helix Unwinds'
 date: 2014-12-22T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/Kodi_Xmas.jpg
+featured_image:
+  src: /images/blog/Kodi_Xmas.jpg
+  title: ''
+  alt: ''
 ---
 Merry Christmas and happy holidays, everyone! We are proud to announce the release of Kodi 14.0, which comes with a new name, a new logo, and a wide variety of new features, but underneath the new coat of paint remains the same software we all love.
 

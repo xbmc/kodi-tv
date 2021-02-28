@@ -2,7 +2,6 @@
 title: 'Weekly report 1'
 date: 2010-05-31T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Finally the GSoC have begun and while I have been plauged with exams this week I have made some accomplishments. It is sad but next week will also be filled with exams but hopefully I will find some time during the weekend. First of I planned to fix up and use Ångström but since I just recieved kernel panics and had significant problems with the g\_ether I decided to first do an ubuntu image as a test (I’m much more comfortable in Ubuntu) and when that worked I wanted to continue creating the Ångström image.
 

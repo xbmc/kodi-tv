@@ -2,7 +2,10 @@
 title: 'Plex Add-on for Kodi'
 date: 2016-12-13T03:00:00Z
 author: Keith Herrington
-featured_image: /images/blog/plexforkodi.png
+featured_image:
+  src: /images/blog/plexforkodi.png
+  title: ''
+  alt: ''
 ---
 By now, you’ve probably heard that Plex has brought their experience to the Kodi platform, and now it’s finally in the repo!
 

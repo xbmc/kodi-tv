@@ -2,7 +2,10 @@
 title: 'XBMC 13.1 Gotham – RC1'
 date: 2014-05-24T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-13_1-rc1.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13_1-rc1.png
+  title: ''
+  alt: ''
 ---
 Now that more people are starting to use XBMC 13.0 codename “Gotham,” several issues have popped up which thorough testing hadn’t previously revealed. We have already released two 13.1 beta versions, which had several fixes and improvements compared to the 13.0 stable release. To that end, we are announcing this 13.1 RC1 release which include these fixes. Do note that this release contain only fixes, and no new features. Although we call this a release candidate release, it should be safe to install on top of your current 13.0 install, as changes are minimal and confirmed working. Should you find any problems, you can find how to report these at the bottom of this blog post.
 

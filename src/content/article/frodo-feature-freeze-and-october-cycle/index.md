@@ -2,7 +2,6 @@
 title: 'Frodo Feature Freeze! - And the October Cycle'
 date: 2012-11-02T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 The rumors are true. As you may have noticed if you avidly watch XBMC development on Github, we have now entered Feature Freeze for the upcoming release of XBMC 12: Frodo.
 

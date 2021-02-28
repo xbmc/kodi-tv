@@ -2,7 +2,10 @@
 title: 'XBMC DevCon 2013 LiveBlog'
 date: 2013-10-10T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/photo.jpg
+featured_image:
+  src: /images/blog/photo.jpg
+  title: ''
+  alt: ''
 ---
 Good morning, Germany!
 

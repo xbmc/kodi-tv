@@ -2,7 +2,6 @@
 title: 'Weekly report 0'
 date: 2010-05-24T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 First Weekly report of GSoC 2010, this is what have been done prior to the actual start.
 

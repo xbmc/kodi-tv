@@ -2,7 +2,10 @@
 title: 'XBMC 13 -Gotham - June and July Cycles'
 date: 2013-08-04T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/settings_descriptions.jpg
+featured_image:
+  src: /images/blog/settings_descriptions.jpg
+  title: ''
+  alt: ''
 ---
 As has been the case for a few months now, for those who just can’t wait for a write-up about the newest alpha but tend to steer clear of the bleeding edge of nightlies, the new build should typically be available on the 1st of the month at [mirrors.xbmc.org/snapshots](http://mirrors.xbmc.org:8989/snapshots/).
 

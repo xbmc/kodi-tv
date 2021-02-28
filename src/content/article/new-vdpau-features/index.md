@@ -2,7 +2,6 @@
 title: 'New VDPAU Features'
 date: 2009-09-04T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![Nvidia](https://docs.nvidia.com/cuda/index.html "Nvidia")Today Nvidia [announced](http://www.nvnews.net/vbulletin/showthread.php?p=2079643) a new set of beta drivers that add several new features to VDPAU in linux. For those somehow still in the dark about VDPAU read about it from [here](http://www.nvnews.net/vbulletin/showpost.php?p=1844996&postcount=1) and [here](https://en.wikipedia.org/wiki/VDPAU). Yes, it’s linux only.
 

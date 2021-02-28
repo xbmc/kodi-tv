@@ -2,7 +2,10 @@
 title: 'Kodi v17.5 final: Another bunch of fixes'
 date: 2017-10-23T12:00:42Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-system-15.jpg
+featured_image:
+  src: /images/blog/kodi-system-15.jpg
+  title: ''
+  alt: ''
 ---
 IMPORTANT: If you are having issues with Android v17.5 update please redownload the "v17.5.1" version.
 

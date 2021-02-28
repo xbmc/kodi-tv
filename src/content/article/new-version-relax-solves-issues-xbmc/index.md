@@ -2,7 +2,6 @@
 title: 'New Version of RelaX solves issues with XBMC'
 date: 2004-08-15T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 relax v0.79
 

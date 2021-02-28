@@ -2,7 +2,10 @@
 title: 'Kodi 15.0 alpha 1 - The road to Isengard'
 date: 2015-02-27T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-splash-Isengard-alpha.png
+featured_image:
+  src: /images/blog/kodi-splash-Isengard-alpha.png
+  title: ''
+  alt: ''
 ---
 Last year we shocked the community and the world with the announcement of our name change. Now some months later we are happy to see that a lot of people have adopted this change and embraced what is now know as Kodi. The best media center in the world… We promised that we would stick true to our goal of improving it as media center and we will.
 

@@ -2,7 +2,10 @@
 title: Kodi 19.0 "Matrix" - Release
 date: 2021-02-19T20:49:22.165Z
 author: Prof Yaffle
-featured_image: /images/blog/kodi_splash_v19.0_matrix_final_1080p.jpg
+featured_image:
+  src: /images/blog/kodi_splash_v19.0_matrix_final_1080p.jpg
+  title: Kodi 19 Matrix splash screen
+  alt: Kodi 19 Matrix splash screen
 ---
 ... yes, it's here! After several iterations of alpha, beta and RC, Team Kodi is pleased to announce that Kodi 19.0 "Matrix" has just been formally released on all supported platforms. Dare you take the red pill, and find out how deep the rabbit-hole goes?
 

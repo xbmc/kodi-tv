@@ -2,7 +2,10 @@
 title: 'Kodi attending FOSDEM 2015'
 date: 2015-01-28T03:00:00Z
 author: Kib
-featured_image: /images/blog/kodifosdem.png
+featured_image:
+  src: /images/blog/kodifosdem.png
+  title: ''
+  alt: ''
 ---
 Hey girls and guys,
 

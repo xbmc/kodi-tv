@@ -2,7 +2,10 @@
 title: 'Kodi 19 gets a codename'
 date: 2019-04-23T07:47:28Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/kodi_matrix.jpg
+featured_image:
+  src: /images/blog/kodi_matrix.jpg
+  title: ''
+  alt: ''
 ---
 It's that time again. After unleashing Kodi v18 Leia into the wild, it's time to give the upcoming Kodi 19 a codename.
 

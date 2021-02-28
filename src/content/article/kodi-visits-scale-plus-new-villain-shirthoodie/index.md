@@ -2,7 +2,10 @@
 title: 'Kodi Visits SCALE, Plus the New Villain Shirt/Hoodie'
 date: 2015-03-22T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/livingroomsetup4.jpg
+featured_image:
+  src: /images/blog/livingroomsetup4.jpg
+  title: ''
+  alt: ''
 ---
 We wanted to take a minute today to talk about our trip down to Los Angeles for the Southern California Linux Expo, otherwise known as SCALE.
 

@@ -2,7 +2,6 @@
 title: 'FLIRC - a new (old) way to control XBMC'
 date: 2012-04-14T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 *In a continuation of the series begun with our write-up of the [USB-CEC adapter](https://kodi.wiki/natethomas/2011/11/01/the-usb-cec-adapter-is-a-look-into-the-future/ "USB-CEC Adapter review"), we would like to take the time today to highlight another adapter out there that makes controlling XBMC dramatically easier. This week, I’d like to introduce Chris (psuedo7 in the forum), who will be telling us a bit about the project FLIRC. I’d also like to invite any other software writers or manufacturers to contact me in the forums at username natethomas, if you have come up with a new and unique method for improving the usability of XBMC and would like to share your project.* 
 

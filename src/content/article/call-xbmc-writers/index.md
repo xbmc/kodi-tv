@@ -2,7 +2,6 @@
 title: 'A Call for XBMC writers'
 date: 2011-09-18T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 As you may have noticed, our blog has often been lacking in content, outside of the occasional Feature Friday. We would like to change that. Starting right now, we will begin accepting applications for up to five XBMC writers. The pay is terrible (i.e. you will not get paid), and you probably won’t get a lot of respect, but at least the hours aren’t bad!
 

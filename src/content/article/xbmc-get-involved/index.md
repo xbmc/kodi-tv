@@ -2,7 +2,6 @@
 title: 'XBMC: Get involved!'
 date: 2009-10-26T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC has gone a long way since its first stable release in 2004. It has evolved from a xbox only application into a sleek cross platform media center that runs on almost anything you throw it at. XBMC has thousands of users, is the mother of many successful derivative projects and commercial spin-offs and is written about in the international press on a regular basis.
 

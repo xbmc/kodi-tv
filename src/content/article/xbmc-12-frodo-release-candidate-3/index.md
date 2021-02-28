@@ -2,7 +2,6 @@
 title: 'XBMC 12 Frodo - Release Candidate 3'
 date: 2013-01-02T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 We would like to take this time to announce the third release candidate for XBMC 12. Features for XBMC 12 include:
 

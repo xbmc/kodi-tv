@@ -2,7 +2,6 @@
 title: 'Donations for DVD-menu in XBMC campaign'
 date: 2004-10-28T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 we have had this idea in mind for a while and were planning to kick of this campaign at a later date but after a [recent post in mplayer-dev mailing-list](http://mplayerhq.hu/pipermail/mplayer-dev-eng/2004-october/030802.html) we have decided to bring forward the announcement. the ‘donations for dvd-menu in xbmc campaign’ basic concept is to encourage xbmc end-users to make donations (via paypal) into a fund in order to motivate the xbmc developers to prioritize programming dvd-video menu/navigation support for xbmc. this concept has been brewing for a few month now as many people have either posted in the forum or e-mailed us directly offering to donate money to this specific cause, which has been [the #1 requested feature](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=4;t=389) for quite a while. so come on, be generous and help support the xbmc project. give donations for how much you feel xbmc is worth to you as a whole if this feature were added to xbmc’s already very long feature list. the xbmc developer(s) who code this huge feature will collect the fund-pot on completion as a reward – they have adready started coding.
 

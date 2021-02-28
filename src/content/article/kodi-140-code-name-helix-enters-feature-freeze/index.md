@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 code name "Helix" enters feature freeze'
 date: 2014-09-09T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-splash.png
+featured_image:
+  src: /images/blog/kodi-splash.png
+  title: ''
+  alt: ''
 ---
 Kodi 14, which we gave the code name “*Helix*“, is shaping up to be what is often called a “stability” release. As of this moment we have entered feature freeze.
 

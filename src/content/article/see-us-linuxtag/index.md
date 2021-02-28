@@ -2,7 +2,6 @@
 title: 'See us at LinuxTag'
 date: 2011-04-11T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 For the third year in a row we are going to exhibit on [LinuxTag](http://www.linuxtag.org/2011/en.html) in Berlin, Germany.
 

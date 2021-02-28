@@ -2,7 +2,10 @@
 title: 'XBMC 13.1 - Gotham returns'
 date: 2014-06-04T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-13_1-splash.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13_1-splash.png
+  title: ''
+  alt: ''
 ---
 Now that more people are starting to use XBMC 13.0 codename “Gotham,” several issues have popped up which testing hadn’t previously revealed. After releasing two betas and a release candidate, it’s time for a final **13.1** release. The incorporated fixes are the ones already mentioned in the release candidate announcement, nonetheless we will list them again below. Do note that this release contains only fixes, and no new features. This 13.1 release can be safely installed on top of any previous XBMC releases. Please read the *important notice* at the bottom as well. Should you find any problems, you can find how to report these at the bottom of this announcement. Very likely we will release another bug-fix release after this version, with additional fixes and small improvements. These are however to intrusive to already include in this 13.1 release, as they need careful testing.
 

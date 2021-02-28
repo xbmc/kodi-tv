@@ -2,7 +2,10 @@
 title: 'Seven years ago we said goodbye to the original XBOX'
 date: 2017-05-26T04:07:46Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc4xbox-2017-05-26.png
+featured_image:
+  src: /images/blog/xbmc4xbox-2017-05-26.png
+  title: ''
+  alt: ''
 ---
 Seven years ago on this day we said goodbye to where Kodi(XBMC) once started. On 26 May 2010 we officially announced that XBOX support and it's development would continue elsewhere.
 

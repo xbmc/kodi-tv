@@ -2,7 +2,6 @@
 title: 'Thanks for all the bug reports'
 date: 2008-09-08T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Just a quick post of gratitude for all the bug reports we’ve had over the last month or so. Without your great support at testing things out and taking the time to narrow down and get any issues reproducible, XBMC wouldn’t be as great as it is now.
 

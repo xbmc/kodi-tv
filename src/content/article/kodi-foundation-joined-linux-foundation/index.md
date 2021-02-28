@@ -2,7 +2,10 @@
 title: 'The Kodi Foundation joined the Linux Foundation'
 date: 2019-03-18T23:50:46Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/LinuxFoundation.png
+featured_image:
+  src: /images/blog/LinuxFoundation.png
+  title: ''
+  alt: ''
 ---
 **The Kodi Foundation is very proud to announce that it has joined the Linux Foundation as an Associate Member.** It seemed natural for us to join, given the fact that we are strong believers in the benefits of open-source software.
 

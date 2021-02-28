@@ -2,7 +2,6 @@
 title: 'Support for TheAudioDB.com'
 date: 2013-03-16T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![tadb](/sites/default/files/uploads/tadb-210x300.png)](/sites/default/files/uploads/tadb.png)XBMC relies on many 3rd party sites like [www.thetvdb.com](https://www.thetvdb.com/) and [www.fanart.tv](https://fanart.tv/) to provide metadata transparently into your living rooms. The vast majority of these sites are run by fans of home theatre software who simply wanted a better resource for their metadata.
 

@@ -2,7 +2,6 @@
 title: 'Feature Friday: Hidden HTPCs'
 date: 2011-11-25T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 For this week’s Feature Friday, we decided to go a bit different in our theme. Rather than focusing on one setup, we decided to pull together as many setups as we could under a common theme, where the winning entries would receive a [Pulse Eight USB CEC Adapter](https://www.pulse-eight.com/store/products/104-usb-hdmi-cec-adapter.aspx "Pulse Eight USB CEC Adapter") or a [TotalMount](https://www.pulse-eight.com/store/products/105-innovelis-totalmount.aspx "Pulse Eight TotalMount"). (Once again, thanks to [Pulse Eight](https://www.facebook.com/PulseEight "Pulse Eight Facebook Page") for sponsoring the contest.) With more than three dozen submissions, I believe we fairly successfully accomplished our goal. And with hardly any repeated methods for hiding htpcs and otherwise displaying them in an elegant manner, it has been incredibly difficult to choose a winner. Next time we do something like this, we may need to come up with a better way to narrow entries.
 

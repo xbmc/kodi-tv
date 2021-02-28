@@ -2,7 +2,6 @@
 title: 'New year, new developers?'
 date: 2003-12-31T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 we are looking for new developers who want to help us develop xbmc. we are getting more feature-requests/bugs-reports every day and currently we do not have enough developers/time to fulfil them all. with more developers working on xbmc we are hoping to speed things up and get more bugs fixed, new features added in shorter time.
 

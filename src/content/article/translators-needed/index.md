@@ -2,7 +2,6 @@
 title: 'Translators needed.'
 date: 2008-10-16T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 With the upcoming Atlantis release, we would like to ask for international users to help out by translating XBMC into your language or if it’s already translated, review and improve the current translation.
 

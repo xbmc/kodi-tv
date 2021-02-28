@@ -15,17 +15,13 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  let featured_image = markdownRemark.frontmatter.featured_image
-  if (featured_image == null) {
-    featured_image = ""
-  }
   return (
     <Layout>
       <MetadataHeader title={markdownRemark.frontmatter.title + ' | News'} />
       <div style={{ margin: "20px" }}>
-        { featured_image.trim() == ""
+        { markdownRemark.frontmatter.featured_image == undefined 
           ? ""
-          : <img alt="" src={featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
+          : <img alt={markdownRemark.frontmatter.featured_image.alt} title={markdownRemark.frontmatter.featured_image.title} src={markdownRemark.frontmatter.featured_image.src} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} /> }
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>
         </TextContent>
@@ -62,7 +58,11 @@ export const pageQuery = graphql`
       frontmatter {
         author
         date(formatString: "MMMM DD, YYYY")
-        featured_image
+        featured_image {
+          alt
+          src
+          title
+        }
         title
       }
     }

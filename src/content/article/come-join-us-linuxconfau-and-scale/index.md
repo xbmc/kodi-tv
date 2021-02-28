@@ -2,7 +2,6 @@
 title: 'Come join us at Linux.conf.au and SCALE'
 date: 2010-01-13T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](https://www.lca2010.org.nz/images/lca2010/LCA2010-125by125v2openday.png)](https://www.lca2010.org.nz/)[![](https://www.socallinuxexpo.org/scale8x/sites/socallinuxexpo.org.scale8x/files/125x125_static3.gif)](https://www.socallinuxexpo.org/scale8x/)If you happen to live near Wellington, New Zealand, you should drop by [Linux.conf.au](https://www.lca2010.org.nz/) on January 23rd. Our very own Jonathan Marshall will be there hosting an XBMC booth along with David Teirney. Check out the full list of exhibitors [here](https://conf.linux.org.au/wiki/OpenDay#Open_Day_Stalls).
 

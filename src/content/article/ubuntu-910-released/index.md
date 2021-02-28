@@ -2,7 +2,6 @@
 title: 'Ubuntu 9.10 Released'
 date: 2009-10-28T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As our readers probably know by now, Ubuntu 9.10 (Karmic Koala) was released today with many new features. For those who are considering making the move, here’s what you need to know as the update relates to XBMC:
 

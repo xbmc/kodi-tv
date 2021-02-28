@@ -2,7 +2,10 @@
 title: 'GSOC 2017 Update - Python3 Update'
 date: 2017-08-01T09:46:48Z
 author: Nathan Betzen
-featured_image: /images/blog/digital-388075_1280.jpg
+featured_image:
+  src: /images/blog/digital-388075_1280.jpg
+  title: ''
+  alt: ''
 ---
 Next we have Arpit's work upgrading Kodi's add-on backend from Python2 to Python3
 

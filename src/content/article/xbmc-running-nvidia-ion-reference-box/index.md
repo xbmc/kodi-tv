@@ -2,7 +2,6 @@
 title: 'XBMC running on nVidia ION reference box'
 date: 2009-05-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [nVidia](http://nvidia.com "nVidia") have been kind enough to loan one of our devs (motd2k) an [ION](https://www.nvidia.com/object/sff_ion.html "ION") reference box that we can use to showcase XBMC at [Linuxtag](/xbmc-will-have-a-booth-at-linuxtag-2009-in-berlin "Linuxtag 2009").
 

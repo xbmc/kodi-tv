@@ -2,7 +2,10 @@
 title: 'Kodi 14.2 Helix beta 1 - Some more fixes'
 date: 2015-02-16T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-splash-14.2-beta.jpg
+featured_image:
+  src: /images/blog/kodi-splash-14.2-beta.jpg
+  title: ''
+  alt: ''
 ---
 We are proud to announce the first beta of Kodi 14.2 in which we further try to improve stability. As you may all know by now, we have a new name, a new logo, and a wide variety of new features, but underneath the new coat of paint remains the same software we all love. 14.2 beta 1 is the second of the small bugfix releases in the Helix range. As we have mentioned in our Kodi 14.0 [release announcement,](/article/kodi-140-helix-unwinds) we will be releasing these to squash down any issues left after the first final release. Below you will find a list of fixes so far. In the Kodi 14.1 [release announcement](/article/kodi-141-helix-bugfix-release) you can find the sum up of previous fixes done in the Helix range.
 

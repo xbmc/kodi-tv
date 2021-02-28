@@ -2,7 +2,6 @@
 title: 'Telematics Freedom Foundation FOSS survey'
 date: 2008-07-20T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 The [Telematics Freedom Foundation](http://www.telematicsfreedom.org) is currently sponsoring a study about state of the art Media Center projects in the FOSS (Free and Open Source Software) community; *“We picked the 10 most prominent FOSS Media Center projects out there and we’re now collecting information about their features, functionality and support. The 10 selected projects are: XBMC, MythTV, Boxee, Elisa, Neuros OSD, Freevo, My Media System, Entertainer, CenterStage+Plex and MediaPortal.*
 

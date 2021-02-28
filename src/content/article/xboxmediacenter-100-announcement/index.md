@@ -2,7 +2,6 @@
 title: 'XboxMediaCenter 1.0.0 announcement'
 date: 2004-06-28T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 xbmc 1.0.0 point release source code has now been set in our cvs, so believe it or not, the day that many of you been waiting for is finally here, today, now! we felt that we had been holding off doing release candidates for so long that we now consider the xbmc cvs to be as stable as a point release should be, so we decided that we were ready to go final (gold) without a release candidate process. yes, there are still a few known bugs but none serious enough to stop you from fully enjoying xbmc. know that we will keep the cvs feature freeze for a few more days, just in case any huge bugs are discovered in this release (in which case we fix them then set and announce a 1.0.1 point release src). all xbmp and xbmc-beta users out there are highly encouraged to upgrade to xbox media center 1.0.0 point release which is now officially the only supported version. for those of you who are new to xbmc (and/or xbmp) please understand and respect that we do not release nor distribute xbox executable (xdk binaries) at all, so please do not ask us where to find/download compiled versions of xbmc (which you do require to run xbmc on your xbox). please read through our [faq](http://www.xboxmediacenter.de/info_faq.htm) and the [online-manual](http://manual.xboxmediacenter.de) carefully before you post anything in our [forums](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl).
 

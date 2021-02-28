@@ -2,7 +2,10 @@
 title: 'Beware Killer Kodi Boxes!'
 date: 2017-11-28T02:40:54Z
 author: Prof Yaffle
-featured_image: /images/blog/pexels-photo-260314.jpeg
+featured_image:
+  src: /images/blog/pexels-photo-260314.jpeg
+  title: ''
+  alt: ''
 ---
 According to recent press, "Kodi boxes" can **KILL**.  
   

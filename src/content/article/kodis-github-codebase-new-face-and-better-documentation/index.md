@@ -2,7 +2,10 @@
 title: Kodi's GitHub codebase new face and better documentation
 date: 2018-07-27T13:28:01Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/matrix.jpg
+featured_image:
+  src: /images/blog/matrix.jpg
+  title: ''
+  alt: ''
 ---
 ### The problem
 

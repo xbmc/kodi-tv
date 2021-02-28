@@ -2,7 +2,10 @@
 title: 'XBMC and Ouya? Oh Yeah!'
 date: 2012-08-06T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/zappy-ouya-announce1.jpg
+featured_image:
+  src: /images/blog/zappy-ouya-announce1.jpg
+  title: ''
+  alt: ''
 ---
 Maybe it was inevitable. Maybe it was because of the hundreds, if not thousands, of demands on Twitter, in blogs, on Facebook, in Reddit, and in Kickstarter comments. Maybe it’s because many of Team Ouya support XBMC, and nearly a third of Team XBMC members are Ouya backers.
 

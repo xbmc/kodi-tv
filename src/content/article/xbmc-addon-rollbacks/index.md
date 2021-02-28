@@ -2,7 +2,6 @@
 title: 'XBMC Addon Rollbacks'
 date: 2011-10-19T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Today we’d like to feature a much less visible component of the upcoming Eden that is, nevertheless, something the team deems extremely important.
 

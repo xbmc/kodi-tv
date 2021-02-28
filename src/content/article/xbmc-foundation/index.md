@@ -2,7 +2,6 @@
 title: 'The XBMC Foundation'
 date: 2010-12-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 The XBMC Foundation was established as a non-profit entity on January 16, 2009. Since then we haven’t really released much information about the Foundation. We know this is something that comes up occasionally in the forums and there is a great deal of misleading information being passed around, so let me try and tackle a few of the more common questions.
 

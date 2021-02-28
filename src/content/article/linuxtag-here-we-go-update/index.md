@@ -2,7 +2,6 @@
 title: 'LinuxTag here we go [update]'
 date: 2009-06-23T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Yesterday we set the booth up, and now people are droping in. The ION box is playing 1080p stuff great, I am surely impressed. We even got to borrow a zotac ![:)](/sites/default/files/uploads/icon_smile.gif)
 

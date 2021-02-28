@@ -2,7 +2,6 @@
 title: 'Neat and Clean… and Swedish!'
 date: 2011-08-26T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 If you’re looking for clean lines and an elegant use of color and lighting, one need look no further than the living room of Nik from Sweden.
 

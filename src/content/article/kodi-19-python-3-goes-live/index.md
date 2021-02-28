@@ -2,7 +2,10 @@
 title: 'Kodi 19 with Python 3 Goes Live'
 date: 2019-11-16T02:33:03Z
 author: Team Kodi
-featured_image: /images/blog/kplusp.png
+featured_image:
+  src: /images/blog/kplusp.png
+  title: ''
+  alt: ''
 ---
 Kodi 19 with Python 3 Goes Live
 -------------------------------

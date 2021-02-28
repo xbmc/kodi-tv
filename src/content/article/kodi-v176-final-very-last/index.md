@@ -2,7 +2,10 @@
 title: 'Kodi v17.6 final: The very last'
 date: 2017-11-15T02:44:34Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-9A-1080p_samfisher.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-9A-1080p_samfisher.jpg
+  title: ''
+  alt: ''
 ---
 We are happy and sad at same time to announce that this will be the last v17.x release. When we say very last this, of course, only means for the v17 "Krypton" series as we are steadily heading towards the new v18 series called "Leia". For about a year already our developers have been working on the upcoming v18 release and have been backporting all fixes we deemed safe enough to v17 series. However with all good things there has to come a time to say enough is enough, and that moment has come. From our point of view "Krypton" has been a great release and our group has spend a lot of time improving it since its initial release on 5 February 2017. It has also been one of the series where we did things a bit different with continuous nightly versions for testing and quite a lot of point releases with only minor fixes just because we could.
 

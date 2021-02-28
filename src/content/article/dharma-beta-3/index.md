@@ -2,7 +2,6 @@
 title: 'Dharma Beta 3'
 date: 2010-10-12T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/600px-Dharma_Wheel.svg_-300x300.png "600px-Dharma_Wheel.svg")Nearly one month after the release of Beta 2, the latest Dharma pre-release is ready for testing. We have been working very hard to to stabilize XBMC for the final release; there have been over 300 commits to the release branch since the last beta. Notable fixes include:
 

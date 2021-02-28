@@ -2,7 +2,6 @@
 title: 'Keep it Simple, Stupid!'
 date: 2009-07-10T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 A primary goal of Team XBMC has always been to make the user experience as straightforward as possible. The theory goes that I should be able to accomplish nearly everything I want from within the XBMC interface.With that focus in mind, as some of you may know if you troll the message boards enough, the team has been seeking to improve and streamline the way additional applications and skins are installed into the XBMC system. While it isn’t exactly painful for a user of Windows Vista to figure out how to get to the appdata folder, forcing her to do so for the sake of installing a prettier skin or a method of viewing trailers just doesn’t seem to fit the XBMC mantra.
 

@@ -2,7 +2,6 @@
 title: 'Interview with Jonathan at brave little meme'
 date: 2009-03-06T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Giuliano Maciocci has posted an interview with our own [Jonathan Marshall](https://kodi.tv/jmarshall "Jonathan Marshall") over at [brave little meme](http://bravelittlememe.tumblr.com "brave little meme").
 

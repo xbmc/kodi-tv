@@ -2,7 +2,6 @@
 title: 'XBMC4Xbox Update'
 date: 2012-07-04T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/Original_Xbox-300x213.jpg "Original Xbox")](/sites/default/files/uploads/Original_Xbox.jpeg)As you should all know by now, Team XBMC does not maintain a build for the original Xbox. With that said, a few valiant souls have continued to port over some of the more beneficial lines of XBMC code and done other bug fixing the keep the aging Xbox as a valid option for many people out there. To this day, though more than 10 years old, the Xbox 1 remains one of the best boxes in the world for gaming, pictures, and SD video playback.
 

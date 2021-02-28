@@ -2,7 +2,6 @@
 title: 'Feature Friday: Spending Money to Save Money'
 date: 2011-05-19T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Jon Barrow is married with four children. An average trip to the movie theater for a family of that size would require two $10 tickets, plus four $8 tickets. That’s $42 $52 before the candy, popcorn, and soda. Most times, they have to leave the youngest with a sitter, as the little one is still too young to really appreciate movies. Needless to say, for a family of movie buffs, all of that can really start biting into the pocketbook.
 

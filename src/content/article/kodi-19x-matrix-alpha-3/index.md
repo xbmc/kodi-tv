@@ -2,7 +2,10 @@
 title: 'Kodi 19.x "Matrix" - Alpha 3'
 date: 2020-11-01T02:00:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
+  title: ''
+  alt: ''
 ---
 So... drum roll...hot on the heels of 19.x "Matrix" Alpha 2, and after a quick detour for an unexpected 18.9 "Leia" release, we bring you the stunningly-named 19.x "Matrix" Alpha 3. This will hopefully be the last of our alpha releases, before we move into beta and onto formal release (but no promises, obviously).
 

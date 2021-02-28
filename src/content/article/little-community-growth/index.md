@@ -2,7 +2,10 @@
 title: 'A Little Community Growth'
 date: 2014-04-20T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/1400266_10151688702906641_802001778_o.jpg
+featured_image:
+  src: /images/blog/1400266_10151688702906641_802001778_o.jpg
+  title: ''
+  alt: ''
 ---
 In this post we aren’t announcing anything or releasing anything or even providing how-to guides. Instead, in honor of our 75,000th fan on Facebook, I’d just like to take a step back and consider the past few years of XBMC community growth.
 

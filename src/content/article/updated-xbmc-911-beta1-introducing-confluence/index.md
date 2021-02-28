@@ -2,7 +2,6 @@
 title: 'Updated: XBMC 9.11 Beta1: Introducing Confluence'
 date: 2009-11-21T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![Confluence_Logo](/sites/default/files/uploads/Confluence_Logo1.png "Confluence_Logo")As the testing portion of Camelot continues, we would like to introduce Confluence as the new default XBMC skin. We have also stopped including the original Project Mayhem III skin (Don’t worry, PM3.HD is still there). It will be added to the gallery soon, but for now you can find it [here](https://sourceforge.net/projects/xboxmediacenter/files/XBMC%20Skins/Project%20Mayhem%20III/Project_Mayhem_III.rar/download).
 

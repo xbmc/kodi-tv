@@ -2,7 +2,10 @@
 title: 'XBMC 13.2 - Gotham final release'
 date: 2014-08-17T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-13.2-splash.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13.2-splash.png
+  title: ''
+  alt: ''
 ---
 Here it is. One of the last versions ever that will be using the XBMC name, as we are renaming XBMC to Kodi. All our future releases will be using the Kodi name. You can read about that [here](https://kodi.wiki/introducing-kodi-14/). However lets focus on this release. After three beta releases and a release candidate, we are happy to announce the final **13.2** release. This follows a couple of months after the 13.1 release, and is considered a small bug fix release. Unfortunately we cannot fix all things reported. Below you will find a list of most important fixes included in this release.
 

@@ -2,7 +2,10 @@
 title: 'Kodi v17 “Krypton” The last Beta 7'
 date: 2016-12-18T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi_Xmas.jpg
+featured_image:
+  src: /images/blog/Kodi_Xmas.jpg
+  title: ''
+  alt: ''
 ---
 It’s almost Christmas and as such we wanted to bring you the last Beta version of Kodi 17. This means we have good hopes we have squashed the biggest and known issues and up next we will go to *Release Candidates* which in the end will result in the final release. However let’s not get ahead of ourselves and first gather some more feedback on testing this Beta 7 version. The changes for this seventh an last beta are the result of the continuous effort from the developers, either from inside the team or outside to get v17 into final release shape. We sure would like to thank every one involved with either development, testing or simply helping out others with answering their questions.
 

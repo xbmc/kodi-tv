@@ -2,7 +2,6 @@
 title: 'And without further ado…'
 date: 2011-06-16T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 A bit over a month ago, Team XBMC started a mascot contest that resulted in a [49 page thread](https://forum.kodi.tv/showthread.php?tid=100434 "Mascot Thread") in our forum, so many [amazing Mascot contestants](http://xbmc.exstatic.org/mascots/ "Amazing Mascot Contestants") that we had to push back the results to get the best vote we could within the team, and quite a few new avatars and forum signatures. In total, there were more than 100 submissions.
 

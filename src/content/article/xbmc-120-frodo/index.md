@@ -2,7 +2,6 @@
 title: 'XBMC 12.0 - Frodo'
 date: 2013-01-28T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Everyone at Team XBMC is proud and excited to announce the long awaited XBMC 12 “Frodo.” Features for XBMC 12 include:
 

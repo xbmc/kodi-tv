@@ -2,7 +2,10 @@
 title: 'Selling Pirate Boxes Now Illegal in the EU - Dev Journal'
 date: 2017-05-04T05:37:21Z
 author: Nathan Betzen
-featured_image: /images/blog/European Court of Justice
+featured_image:
+  src: /images/blog/European Court of Justice
+  title: ''
+  alt: ''
 ---
 We wanted to address the [recent judgment](http://curia.europa.eu/jcms/upload/docs/application/pdf/2017-04/cp170040en.pdf) by the EU Court of Justice regarding so-called piracy boxes. We should start by saying that none of us are lawyers in the EU, so consider anything we say to be opinions and not facts. If you want facts, ask actual lawyers.
 

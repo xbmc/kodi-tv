@@ -2,7 +2,6 @@
 title: 'Released: XBMC Live Atlantis Beta 2'
 date: 2008-10-06T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC Live Atlantis Beta2 has been released and is available at [sourceforge](https://sourceforge.net/projects/xbmc/files/ "Atlantis beta2")!
 

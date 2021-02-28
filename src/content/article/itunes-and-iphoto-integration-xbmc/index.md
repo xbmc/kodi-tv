@@ -2,7 +2,6 @@
 title: 'iTunes and iPhoto Integration in XBMC'
 date: 2008-09-17T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC for Mac – Atlantis Beta 1, includes two new plugins that allow users to access their organized media in iTunes and iPhoto from within XBMC. (*Both released under GPL, see update at the end of this post*)
 

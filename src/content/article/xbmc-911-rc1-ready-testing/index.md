@@ -2,7 +2,6 @@
 title: 'XBMC 9.11: RC1 ready for testing'
 date: 2009-12-16T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/logo.png)The testing process is winding down, and we are happy to present XBMC 9.11 Release Candidate 1. Assuming there are no major show-stoppers, we expect that this will be the last pre-release before final. That means that this is your last chance to report major bugs, or to help us reproduce or fix the ones that have been identified. If you have submitted a trac ticket and we’ve asked for further assistance, this is the time to help! For those not bold enough to try the pre-releases, watch this site in the coming days for a summary of the new features you can expect to see in Camelot.
 

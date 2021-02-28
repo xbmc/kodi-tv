@@ -2,7 +2,6 @@
 title: 'Our Content Information Providers'
 date: 2012-09-10T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 We really don’t spend enough time pointing out and thanking those [individuals and websites](https://kodi.wiki/about/friends-and-sponsors/ "XBMC Friends and sponsors") who make the entire XBMC experience possible by agreeing to be included as default XBMC addons and scrapers. Every time you turn on XBMC, browse your library, and navigate your media, you are almost certainly benefiting from the hard work and expense of not only Team XBMC, but also numerous others. The value of these services is truly immeasurable to the user experience. For this reason, we’d like to take this time to talk about the hard work of others.
 

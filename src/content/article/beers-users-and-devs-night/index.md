@@ -2,7 +2,6 @@
 title: 'Beers, Users, and Devs Night'
 date: 2013-10-08T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![fkoch_lederhosen_klein](/sites/default/files/uploads/fkoch_lederhosen_klein-207x300.jpg)](/sites/default/files/uploads/fkoch_lederhosen_klein.jpg)We apologize for the late notice, but for those of you in the Munich area we finally have a date and time for our Devs and Users Meet-up.
 

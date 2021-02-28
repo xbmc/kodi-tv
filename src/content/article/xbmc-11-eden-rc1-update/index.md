@@ -2,7 +2,6 @@
 title: 'XBMC 11 Eden: RC1: UPDATE'
 date: 2012-02-26T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![rc_xbmc](/sites/default/files/uploads/rc_xbmc.jpg "rc_xbmc")](/sites/default/files/uploads/rc_xbmc.jpg)  
  XBMC 11 Eden: RC1, ready for take off.

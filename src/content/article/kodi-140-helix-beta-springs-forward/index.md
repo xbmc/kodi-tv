@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 Helix - Beta Springs Forward'
 date: 2014-11-02T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/KodiBeta1Splash.png
+featured_image:
+  src: /images/blog/KodiBeta1Splash.png
+  title: ''
+  alt: ''
 ---
 It’s certainly been a few rough-and-tumble months, but we’re pleased to announce the release of Beta cycle for Kodi 14.0 Helix.
 

@@ -2,7 +2,6 @@
 title: 'Updated: XBMC update for iDevice/AppleTV2'
 date: 2011-02-05T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/apple-pinwheel-smaller.png "apple-pinwheel-smaller")We expected a good amount of interest from the last post, but the response was overwhelming.
 

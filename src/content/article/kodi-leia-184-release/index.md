@@ -2,7 +2,10 @@
 title: 'Kodi "Leia" 18.4 Release'
 date: 2019-09-01T10:59:24Z
 author: Prof Yaffle
-featured_image: /images/blog/splash.jpg
+featured_image:
+  src: /images/blog/splash.jpg
+  title: ''
+  alt: ''
 ---
 Another couple of months have passed since we last pushed out a release, and so, in our ongoing efforts to produce the best media software in the world, it's time to squash another few of those more irritating bugs. Usual rules apply: don't expect any new features, don't think that this will change your life, it won't make you richer or more attractive, but it will hopefully be more stable and usable for people who've been victims of any of these bugs.
 

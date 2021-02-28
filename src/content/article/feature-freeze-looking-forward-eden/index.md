@@ -2,7 +2,6 @@
 title: 'Feature Freeze: Looking Forward to Eden'
 date: 2011-09-30T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Today marks the first step in the long-awaited release cycle for Eden: soft-freeze. Other than what is already slated for entry, no new features may be added unless they’re deemed critical for release. After that comes a hard freeze, when all APIs are frozen and we prepare to release the first Beta.
 

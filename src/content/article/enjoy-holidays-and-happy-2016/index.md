@@ -2,7 +2,10 @@
 title: 'Enjoy the holidays and a happy 2016'
 date: 2015-12-25T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi_Xmas.jpg
+featured_image:
+  src: /images/blog/Kodi_Xmas.jpg
+  title: ''
+  alt: ''
 ---
 We hope you all enjoyed the Christmas diner and are now spending some quality time using Kodi as your media center. Since we’ll probably have nothing to report in coming week we as team already want to wish you all a happy 2016. Sorry, no surprise release this time.
 

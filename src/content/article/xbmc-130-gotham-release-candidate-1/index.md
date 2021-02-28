@@ -2,7 +2,10 @@
 title: 'XBMC 13.0 Gotham - Release Candidate 1'
 date: 2014-04-27T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/Splash.png
+featured_image:
+  src: /images/blog/Splash.png
+  title: ''
+  alt: ''
 ---
 We hope you are as excited about this as we are. After a year of hard work, improvements and testing since the release of version 12.0, we are delighted to announce the first release candidate of the upcoming XBMC 13.0, codenamed *“Gotham”*. The past year we have kept you informed with our monthly [blog posts](https://kodi.wiki/tag/gotham/) of all the exciting new features added to this upcoming release. Now, let’s review a few of those features we’re particularly excited about.
 

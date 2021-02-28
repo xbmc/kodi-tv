@@ -2,7 +2,10 @@
 title: 'Kodi 16.0 "Jarvis" - Release Candidate 3'
 date: 2016-02-03T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi16-rc.png
+featured_image:
+  src: /images/blog/Kodi16-rc.png
+  title: ''
+  alt: ''
 ---
 It’s time for the third Release Candidate for Kodi v16. With this release candidate we added a small number of fixes that users brought to our attention. Since we only have a small team and we can’t test it all we must rely on users reporting potential problems on our forum and we try to fix them within our limited spare time. All in all this release is looking like it’s quite solid so far.
 

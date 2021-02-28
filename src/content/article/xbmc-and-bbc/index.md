@@ -2,7 +2,6 @@
 title: 'XBMC and The BBC'
 date: 2010-02-01T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Several forum users have brought to our attention [this article](https://www.theregister.com/2010/02/24/iplayer_xbmc_adobe_swf_verification/) from the register. Here’s the scoop (from the article):
 

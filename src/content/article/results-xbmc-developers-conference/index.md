@@ -2,7 +2,6 @@
 title: 'Results of XBMC Developers Conference'
 date: 2009-07-03T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 This year, [Team-XBMC](/about/team) held its annual XBMC Dev Con directly after [LinuxTag](/xbmc-will-have-a-booth-at-linuxtag-2009-in-berlin) in Berlin. We like to come together every now and then to meet face to face and discuss the state of things, the future of XBMC, and socialize a bit too. In attendance this time around were pike, chadoe, spiff, elupus, jmarshall, WiSo, alcoheca, vdrfan, MaestroDD, and blittan. Attending from [Boxee](https://en.wikipedia.org/wiki/Boxee) (who were nice enough to sponsor XBMC Dev Con 2009) were yuvalt, vulkanr, eli, and erez. Also mot2dk, Haggy, and Clumsy made it to LinuxTag but not to the XBMC Dev Con. Overall, it was a great success. Below is a brief outline of the topics discussed.
 

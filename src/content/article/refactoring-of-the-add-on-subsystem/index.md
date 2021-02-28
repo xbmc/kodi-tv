@@ -2,7 +2,10 @@
 title: Refactoring of the Add-on Subsystem
 date: 2021-01-03T00:52:00.000Z
 author: Frank H.
-featured_image: /images/blog/olav-ahrens-rotne-jvBXiynINGE-unsplash.jpg
+featured_image:
+  src: /images/blog/olav-ahrens-rotne-jvBXiynINGE-unsplash.jpg
+  title: ''
+  alt: ''
 ---
 Hey everybody,
 

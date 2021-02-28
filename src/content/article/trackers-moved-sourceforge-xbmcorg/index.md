@@ -2,7 +2,6 @@
 title: 'Trackers moved from SourceForge to XBMC.org'
 date: 2008-07-20T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 With our recent move to host the xbmc.org website on our own webserver, Team-XBMC have now also taken steps to setup [our own tracker-system for XBMC](http://trac.xbmc.org/) using [Trac](http://trac.edgewall.org/). Consequently, our previous trackers, which were hosted on [SourceForge](https://sourceforge.net/projects/xbmc/), has been closed and all bugs, patches and feature request tickets have been migrated to the new tracker-system under [trac](http://trac.xbmc.org).
 

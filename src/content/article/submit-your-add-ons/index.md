@@ -2,7 +2,6 @@
 title: 'Submit your Add-Ons'
 date: 2010-07-06T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It’s been quite a while since we’ve posted an update, but rest assured we’ve been very busy behind the scenes. The new add-ons system is now nearly complete, the only missing piece is the add-ons themselves. So let’s fix that!
 

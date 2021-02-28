@@ -2,7 +2,6 @@
 title: 'Xbox WMC Extender Kit announced'
 date: 2004-01-07T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 yesterday evening bill gates, microsoft chairman unveiled windows media center extender technology at 2004 international consumer electronics show (ces), one of the devices that will use this will be the xbox though a xbox windows media center extender kit xbox dvd title. quote: *“xbox media center extender kit will be a new xbox title that brings media center entertainment experiences onto your tv or display through your xbox console, so you have even more choice in where and how you enjoy your digital entertainment. microsoft will release xbox media center extender kit as a packaged software product that runs off xbox like an xbox game. with a wired or wireless connection back to the media center pc, your xbox console will now allow you to enjoy your pc’s digital entertainment media when and how you want”* 
 

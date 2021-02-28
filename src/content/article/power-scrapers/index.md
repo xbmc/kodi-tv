@@ -2,7 +2,6 @@
 title: 'The power of Scrapers'
 date: 2009-07-08T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 For a growing number of our loyal users, we’ve noticed that more and more of you are using the nfo managers to organize your movie database. The XBMC team has no problem with these programs, however we feel that many of you are overlooking one of XBMC’s most powerful features: the ability to organize your media automatically. This post isn’t about trying to start a debate or spark any feature requests (the forums are full of both), just to share some things you might not know.
 

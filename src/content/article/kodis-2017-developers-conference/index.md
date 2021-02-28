@@ -2,7 +2,10 @@
 title: Kodi's 2017 Developers' Conference
 date: 2017-04-05T23:44:01Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/porto.jpg
+featured_image:
+  src: /images/blog/porto.jpg
+  title: ''
+  alt: ''
 ---
 It's been a busy half-year since Kodi's 2016 Developers' Conference last September in Budapest. During that time Kodi v17.0 "Krypton" was [released](https://kodi.tv/kodi17), quickly followed by [v17.1](https://kodi.tv/download), a bug-fix only release. We made our way into the Windows Store, managed to scare a lot of fans with our [April 1st prank](https://kodi.tv/article/andwere-baaaaack) and redecorated while you weren't looking.
 

@@ -2,7 +2,10 @@
 title: 'Devcon 2017 - Day Three'
 date: 2017-05-06T22:12:27Z
 author: Prof Yaffle
-featured_image: /images/blog/teamkodi-porto-2017.JPG
+featured_image:
+  src: /images/blog/teamkodi-porto-2017.JPG
+  title: ''
+  alt: ''
 ---
 So - we've got to Day Three already, which means the final day of this DevCon. As the church bells rang in the day on this cloudless Sunday morning, the team was looking jaundiced. You can see the strains showing: long days of intense concentration are taking their toll on people. Perhaps it's the relentless quest to make your favourite media centre software even better. Maybe it's the stress of trying to repair Jenkins over dodgy hotel WiFi. Or could it be that it's just the effects of beer and late nights. I'm no judge, so I'll leave you to decide for yourself on that one...
 

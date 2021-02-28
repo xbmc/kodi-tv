@@ -2,7 +2,6 @@
 title: 'DevCon 2012 &amp; User Meetup'
 date: 2012-08-15T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/xbmc-devcon121-300x118.jpg "xbmc-devcon12")](/sites/default/files/uploads/xbmc-devcon121.jpg)It’s been nearly two years since Team XBMC has gotten together in person to discuss the past, present, and future of the XBMC project. The cost and complexity of getting 30+ people from nearly every corner of the world to one place is truly staggering. As such, we are pleased to announce that this year’s conference is [being sponsored](https://www.at-visions.com/XBMC-conference-in-Vienna.html/ "at-visions invites the XBMC dev conference"), once again, by [at-visions](https://www.at-visions.com/ "at-visions Hotel TV"). If you don’t recall, at-visions are the company who provide the XBMC experience through their ONEvision system to hotels across Europe. It’s entirely possible that they’ve put XBMC in front of more eyes than any other company worldwide! Our thanks to them, both for sponsoring this event and for spreading the XBMC word far and wide.
 

@@ -2,7 +2,6 @@
 title: 'XBMC Translator V0.1'
 date: 2006-06-18T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 hi all you translators out there,
 

@@ -2,7 +2,6 @@
 title: 'XBMC 13 - Gotham - February Cycle'
 date: 2013-03-13T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Before we get started with the Cycle release notes, we are going to let the cat out of the bag. Team XBMC has voted and determined that the development code name for XBMC 13 will be Gotham. Those of you with art skills are welcome to start putting together awesome XBMC 13 Gotham images now, if you like.
 

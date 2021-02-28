@@ -2,7 +2,10 @@
 title: 'A Call for Kodi Logo Ideas'
 date: 2014-08-03T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/your_idea-600x336.jpg
+featured_image:
+  src: /images/blog/your_idea-600x336.jpg
+  title: ''
+  alt: ''
 ---
 We’ve waited a few days for the dust to settle. And the response to the name change has been pretty much exactly as we expected. People are attached to the old name, no matter whether they call that name XBMC or XMBC. We assure you, we are at least as attached, if not more so. Nonetheless, the process has begun, and we are resolute in seeing it reach its conclusion.
 

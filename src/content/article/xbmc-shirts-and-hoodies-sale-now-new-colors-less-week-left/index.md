@@ -2,7 +2,6 @@
 title: 'XBMC shirts and hoodies sale, now with new colors, but less than a week left'
 date: 2014-03-11T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![](https://images.teespring.com/shirt_pic/452953/7/314/front.jpg?v=2014-03-04-05-35)](https://teespring.com/xbmcbeta1shirt)
 

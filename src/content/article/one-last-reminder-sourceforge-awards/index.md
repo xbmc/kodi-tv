@@ -2,7 +2,6 @@
 title: 'One last reminder: SourceForge Awards'
 date: 2009-07-13T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](https://kodi.tv/files/custom_cca_logo.png)](https://sourceforge.net/community/cca09/vote/?f=459)
 

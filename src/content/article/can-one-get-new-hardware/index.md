@@ -2,7 +2,6 @@
 title: 'Can one get to new hardware?'
 date: 2008-08-14T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Just bought myself a new computer. Not a superpowered one, but a decent (compared to my old).
 

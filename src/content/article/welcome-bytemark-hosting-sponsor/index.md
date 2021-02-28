@@ -2,7 +2,6 @@
 title: 'Welcome Bytemark: Hosting Sponsor'
 date: 2009-12-10T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![logo](/sites/default/files/uploads/logo.gif "logo")Lately the XBMC project has picked up a few new sponsors. Others will be announced as we begin taking advantage of their services.
 

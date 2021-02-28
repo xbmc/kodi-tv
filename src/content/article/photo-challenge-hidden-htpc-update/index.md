@@ -2,7 +2,6 @@
 title: 'Photo Challenge: Hidden HTPC - Update'
 date: 2011-11-20T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![Where's XBMC?](/sites/default/files/uploads/wheresxbmc-300x225.jpg "Where's XBMC?")](/sites/default/files/uploads/wheresxbmc.jpg)As many of you know, we’ve [set a challenge](https://kodi.wiki/natethomas/2011/11/19/dont-look-up/ "Feature Friday Challenge") for this week’s Feature Friday for you to submit your best hidden HTPC. At present, we’ve already gotten quite a few entries. Keep those coming!
 

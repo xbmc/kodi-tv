@@ -2,7 +2,6 @@
 title: 'XBMC Eden Skinning Changes'
 date: 2011-10-06T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 [![super_smooth_xbmc_skin](/sites/default/files/uploads/super_smooth_xbmc_skin.jpg "super_smooth_xbmc_skin")](/sites/default/files/uploads/super_smooth_xbmc_skin.jpg)  
  That's smooth skin!

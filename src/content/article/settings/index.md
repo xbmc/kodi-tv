@@ -2,7 +2,6 @@
 title: 'On Settings'
 date: 2009-10-10T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC has long been criticized and at the same time hailed for its multitude of settings. Depending on your point of view, it is either highly configurable or overwhelmingly confusing. In a sense, both are true.
 

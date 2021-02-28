@@ -2,7 +2,6 @@
 title: 'Updated add-on repository for nightly users'
 date: 2011-04-28T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 For those of you using unstable or nightly builds, you will soon notice a change in available add-ons at the xbmc.org repository. Dharma users shouldn’t fret as nothing changes for stable add-ons.
 

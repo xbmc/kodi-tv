@@ -2,7 +2,6 @@
 title: 'New multiimage control code allows background loading'
 date: 2009-05-13T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 With the nice new [background loading textures](/article/some-texture-tweaks-better-background-loading "better background loading"), complete with their own crossfading and so on, it made sense to rewrite the multiimage control to make use of this. Previously the multiimage control generated however many image controls it needed and did all the fading, texture loading and sizing itself.
 

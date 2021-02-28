@@ -2,7 +2,6 @@
 title: 'Xbox Versions Database'
 date: 2003-10-07T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 from [the xbox-linux project](http://xbox-linux.sourceforge.net/docs/versionsentry.html), quote: *“help us build an xbox versions database! please enter your xbox data into [this form](http://xbox-linux.sourceforge.net/docs/versionsentry.html) (you needn’t fill all fields), so we can provide you a database that will help you find out the contents of an xbox without opening it. this database will be online next week”*. please support this database and submit your xbox’s information, this database will be of great use to xbmp users too.
 

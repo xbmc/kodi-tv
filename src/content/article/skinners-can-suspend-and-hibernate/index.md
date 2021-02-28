@@ -2,7 +2,6 @@
 title: 'Skinners can suspend and hibernate!'
 date: 2008-09-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Just wanted to make it aware to skinners (and people wanting to tweak keymap.xml) that it is possible since beta1 to controll power management through actions.  
  The usefull commands are:

@@ -2,7 +2,6 @@
 title: 'Scale 9x and XBMC Meetup'
 date: 2011-02-18T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 As some of you may know, [XBMC will have a booth at SCALE 9x](https://www.socallinuxexpo.org/scale9x/exhibitors/xbmc "XBMC at SCALE 9x") at the LAX Hilton on February 25th through the 27th. This year the booth will be manned by Cory Fields (theuni), Sean Soria (malloc), and Nathan Betzen (natethomas). We’d all love to see you there. Additionally, our very own theuni will participate on a panel at 1:30PM on Saturday in the La Jolla room about FLOSS Media Centers. Naturally, we’d like to invite you to come visit that panel discussion as well.![FLOSS](https://www.realsimple.com/ "FLOSS")
 

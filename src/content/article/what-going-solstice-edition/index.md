@@ -2,7 +2,6 @@
 title: 'What’s Going On: Solstice Edition'
 date: 2011-06-21T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 As it’s been a little while since the Team’s taken a look around the community, it seems high time to do just that.
 

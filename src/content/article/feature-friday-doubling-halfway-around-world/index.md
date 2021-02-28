@@ -2,7 +2,6 @@
 title: 'Feature Friday: Doubling Up Halfway Around the World'
 date: 2011-05-05T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 A US service member was living in Great Falls, MT. When the military reassigned him to a base in Turkey, he was met with the unenviable task of trying to squeeze all of the home theater equipment that easily fit is his old house into a much smaller military home halfway across the world.
 

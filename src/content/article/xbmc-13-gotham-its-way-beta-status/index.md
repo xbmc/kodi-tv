@@ -2,7 +2,10 @@
 title: 'XBMC 13 Gotham - on its way to Beta status'
 date: 2014-01-17T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/xbmc-gotham-teaser-purple.jpg
+featured_image:
+  src: /images/blog/xbmc-gotham-teaser-purple.jpg
+  title: ''
+  alt: ''
 ---
 In the last [blog post](/article/xbmc-13-gotham--november-and-december "“XBMC 13 Gotham – November and December”") we already told you we are working hard towards a Beta release. There are still some things that need to be improved before we are confident on releasing a Beta. We will of course keep you posted when that time comes. Work continues by the developers to iron out the know remaining issues as much as possible. Thanks to the users who install our latest development builds, the remaining problems become known and we try to address these. Do note we may not be able to address all issues reported, as time and available developers are limited. We all try our best but we hope all of you will understand this and we need to accept that some issues will remain.  
  If you are a developer and you are confident enough to dive into our source code and fix it, we would appreciate it very much if you would create a so called pull-request on our github page for code review so it might be included.

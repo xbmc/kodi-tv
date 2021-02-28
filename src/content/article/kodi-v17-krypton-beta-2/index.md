@@ -2,7 +2,10 @@
 title: 'Kodi v17 "Krypton" Beta 2'
 date: 2016-09-17T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Splash-Kodi17B1.png
+featured_image:
+  src: /images/blog/Splash-Kodi17B1.png
+  title: ''
+  alt: ''
 ---
 Kodi 17 features a huge amount of work in areas like video playback, live TV and PVR/DVR, the music library, skinning and more. It features a new default skin, as well as a new default touchscreen skinned, named Estuary and Estouchy, respectively. With all this work done over the months some bugs might slip through and were hoping to quickly squash the coming beta releases.
 

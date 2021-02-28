@@ -2,7 +2,6 @@
 title: 'XBMC 9.11: Beta2 ready for testing'
 date: 2009-12-08T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/logo.png)Development for Camelot is winding down, and we have a new beta for all brave users to try. We have closed just under 200 bugs since the last beta (to be fair, some of those were translations and other small patches). That is an impressive number, thanks to all who have reported their issues. As we are feature frozen, nothing new has been added this time around, we’re purely focusing on fixing bugs.
 

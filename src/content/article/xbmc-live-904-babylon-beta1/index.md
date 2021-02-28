@@ -2,7 +2,6 @@
 title: 'XBMC Live 9.04 Babylon Beta1!'
 date: 2009-04-23T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Time has come for a new XBMC Live release: [XBMC Live 9.04 Babylon b1](https://sourceforge.net/projects/xbmc/files/ "XBMC Live 8.10.2b1")
 

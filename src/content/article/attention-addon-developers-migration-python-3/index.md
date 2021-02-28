@@ -2,7 +2,10 @@
 title: 'Attention to Addon Developers: Migration to Python 3!'
 date: 2018-01-25T23:55:34Z
 author: Roman Miroshnychenko
-featured_image: /images/blog/kplusp.png
+featured_image:
+  src: /images/blog/kplusp.png
+  title: ''
+  alt: ''
 ---
 Currently, Kodi includes the Python 2.7 interpreter to run addons written in [Python](https://www.python.org/) programming language. However, Python 3 was released almost 10 years ago and the matter of implementing the Python 3 interpreter in Kodi has been brought up on the Kodi forum several times. Now, thanks to a successful [GSOC 2017 project](https://kodi.tv/article/gsoc-2017-update-python3-update), we have a working Python 3.6 interpreter for Kodi, and on the latest [DevCon 2017 in Prague](https://kodi.tv/article/devcon-2017-part-ii-day-two) Team Kodi decided that it’s time to move on and migrate Python addon subsystem to Python 3. 
 

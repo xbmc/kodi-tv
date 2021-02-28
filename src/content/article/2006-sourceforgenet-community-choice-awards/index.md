@@ -2,7 +2,6 @@
 title: '2006 SourceForge.net Community Choice Awards'
 date: 2006-03-17T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 as you may already know, [xbmc (xbox media center)](https://sourceforge.net/projects/xbmc/) is currently in a [feature-freeze and bug-bash](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=1;t=19350) stage. we just now heard that we have been nominated for two categories in [2006 sourceforge.net community choice awards](https://sourceforge.net/awards/cca/). these are the first annual sourceforge community awards; vote for osd (open source development) projects you think are shaping the technology landscape. please support the xbmc project by submitting your votes for xboxmediacenter in both categories (thank you in advance):
 

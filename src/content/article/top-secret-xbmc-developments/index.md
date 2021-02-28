@@ -2,7 +2,6 @@
 title: 'Top Secret XBMC Developments'
 date: 2009-07-21T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 If you are curious about what *sexy* new features XBMC developers are (not sooo secretly) working on, you might find the following links to our forum enlightening:
 

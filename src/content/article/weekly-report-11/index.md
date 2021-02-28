@@ -2,7 +2,6 @@
 title: 'Weekly Report 11'
 date: 2010-08-08T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Before we go into the actual status report I would like to be abit nostalgic, this is the last week of feature addition after all.
 

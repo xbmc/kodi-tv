@@ -2,7 +2,6 @@
 title: 'Intel Graphics Benchmarking Weekend'
 date: 2008-08-29T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 I long suspected something to not be 100% correct with Intel’s Linux drivers for Graphics, so before this weekend I set out to do some benchmarking. Here’s what happened before:
 

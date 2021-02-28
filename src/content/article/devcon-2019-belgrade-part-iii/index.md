@@ -2,7 +2,10 @@
 title: 'DevCon 2019 - Belgrade - Part III'
 date: 2019-10-11T00:15:57Z
 author: Prof Yaffle
-featured_image: /images/blog/Church of Saint Sava
+featured_image:
+  src: /images/blog/Church of Saint Sava
+  title: ''
+  alt: ''
 ---
 So, here we are, the third and final day of DevCon 2019. It's likely to be a short list of topics this morning before some people head home while those who remain use the time together to write some fabulous code. So, let's get straight to business.
 

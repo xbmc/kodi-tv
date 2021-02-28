@@ -2,7 +2,10 @@
 title: 'Farewell to future Apple TV2 development'
 date: 2015-01-27T03:00:00Z
 author: Memphiz
-featured_image: /images/blog/Jailbreak-the-Apple-TV-2-With-Seas0nPass.png
+featured_image:
+  src: /images/blog/Jailbreak-the-Apple-TV-2-With-Seas0nPass.png
+  title: ''
+  alt: ''
 ---
 Dear users,
 

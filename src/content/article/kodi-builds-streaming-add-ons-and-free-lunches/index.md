@@ -2,7 +2,10 @@
 title: 'Kodi builds, streaming add-ons and free lunches'
 date: 2019-03-26T05:35:18Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/welder.jpg
+featured_image:
+  src: /images/blog/welder.jpg
+  title: ''
+  alt: ''
 ---
 So-called Kodi "builds" are essentially a preconfigured Kodi installation that someone has created, ready for you to use. They often come bundled with wizards, tons of third-party add-ons, and a boatload of stuff you don't need or doesn't work. In essence, Kodi builds take out of the equation Kodi's most prized feature, the "endlessly configure and customize" part.
 

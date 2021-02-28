@@ -2,7 +2,10 @@
 title: 'Kodi V18: Goodbye Windows Vista'
 date: 2017-05-12T04:32:25Z
 author: Martijn Kaijser
-featured_image: /images/blog/win-vista_enofsupport.jpg
+featured_image:
+  src: /images/blog/win-vista_enofsupport.jpg
+  title: ''
+  alt: ''
 ---
 Development on Kodi also includes making sure it keeps working on all current and older operating systems. However at some point we also have to say goodbye and end support.   
 In the past we already had to say goodbye to the first [XBOX](https://kodi.tv/article/farewell-xbox), [Windows XP](https://kodi.tv/article/end-windows-xp), [Apple TV2](https://kodi.tv/article/farewell-future-apple-tv2-development), Ubuntu 12.04, anything lower than OSX 10.8 and all versions lower than Android 5 (Lollipop).

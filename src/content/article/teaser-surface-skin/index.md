@@ -2,7 +2,6 @@
 title: 'Teaser: Surface skin'
 date: 2009-08-18T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 First things first, Surface (A skin developed by phyek and Minimalko) is not finished and has possibly been shelved indefinitely, but I can’t resist posting this video. Some of our forum users have undoubtedly seen it already, so this is for those who might have missed it. Here’s some info from phyek:
 

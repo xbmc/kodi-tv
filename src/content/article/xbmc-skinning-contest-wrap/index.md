@@ -2,7 +2,6 @@
 title: 'XBMC Skinning Contest Wrap-up'
 date: 2004-07-09T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 the winners of the [xbmc skinning contest](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=1;t=3115) has now been finalized, but first we like to offer a public apology for our delay in this decision, (we had some copyright issues to sort out and real-life/work stuff came up too that had to be dealt with first). 15 out the 20 submitted entries has been validated as winners and we like to congratulate the creators of those 15 skins, you can see who they are in the list bellow. know that we do not have a ranking for this contest, there are only winners and non-winners. the winners should contact gamester17 as soon as possible (if they haven’t already) with your shipping address so that we can arrange to send one xenium modchip for each valid entry that you submitted, (prizes are courtesy of [team-ozxodus](http://www.ozxodus.com) and [xbox-gear.com](https://www.xbox.com/)).
 

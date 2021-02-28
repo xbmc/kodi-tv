@@ -2,7 +2,6 @@
 title: 'Announcing XBMC DEV CON 2008 hosted by boxee'
 date: 2008-05-29T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 XBMC DEV CON 2008 will be the first event in which the [Team-XBMC](https://kodi.wiki/view/Team_XBMC_and_Others) developers get a chance to get together face-to-face, meet and greet, discuss XBMC, and maybe get a little coding done as well. After 6 years and with so many users, it is time for the Team-XBMC programmers to get out of the IRC chat-room and meet up in person to talk about the past, present, and future, set priorities and make plans (and yeah, play a few games), and who knows, this may even lead to a XBMC fan convention in the not too distant future.
 

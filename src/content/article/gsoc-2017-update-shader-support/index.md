@@ -2,7 +2,10 @@
 title: 'GSOC 2017 Update - Shader Support'
 date: 2017-07-30T06:34:37Z
 author: Nathan Betzen
-featured_image: /images/blog/neighborscale.png
+featured_image:
+  src: /images/blog/neighborscale.png
+  title: ''
+  alt: ''
 ---
 Now that we're 2/3rds finished with GSOC 2017, I've invited our intrepid student developers to spend some time writing about how their projects are going so far. For those of you out of the loop, the three projects this year are implementing shader support in Retroplayer, upgrading Kodi to Python3 for add-ons, and getting Kodi to natively support Wayland in Linuxland. 
 

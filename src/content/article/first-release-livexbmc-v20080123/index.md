@@ -2,7 +2,6 @@
 title: 'First Release of LiveXBMC - V20080123'
 date: 2008-02-06T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
  
  * Support for **Intel GPUs** – (XBMC requires high-end GPU)

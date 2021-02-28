@@ -2,7 +2,10 @@
 title: 'Devcon 2017 Part II - Day Three'
 date: 2017-10-28T02:01:45Z
 author: Prof Yaffle
-featured_image: /images/blog/Image uploaded from iOS.jpg
+featured_image:
+  src: /images/blog/Image uploaded from iOS.jpg
+  title: ''
+  alt: ''
 ---
 The final day of Devcon - still lots to get through, although, for the sake of some team members, we might need to speak slowly and quietly...
 

@@ -2,7 +2,10 @@
 title: 'Kodi 15.0 Isengard - Alpha 2'
 date: 2015-03-31T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/screenshot001.png
+featured_image:
+  src: /images/blog/screenshot001.png
+  title: ''
+  alt: ''
 ---
 In many ways, we could call Isengard the release that finally answers many of the oldest requests we have. With Alpha1 we introduced Skip Steps, which allow the user to more naturally and organically find the exact moment they are attempting to skip to in the show or movie, a request that’s existed since at least 2009. We also implemented external subtitle support over UPnP, another very old feature request. This month, we’ve added a few more.
 

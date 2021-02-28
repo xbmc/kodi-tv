@@ -2,7 +2,10 @@
 title: 'Students Time to start applying for GSoC'
 date: 2013-04-22T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/summerofcode_0.png
+featured_image:
+  src: /images/blog/summerofcode_0.png
+  title: ''
+  alt: ''
 ---
 Hey all you students, now is the time to beginning applying to work with XBMC on your favorite project this summer during 2013′s Google Summer of Code. To apply:
 

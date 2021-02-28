@@ -2,7 +2,10 @@
 title: 'Is Kodi legal?'
 date: 2019-09-21T02:01:42Z
 author: DarrenHill
-featured_image: /images/blog/legal.jpg
+featured_image:
+  src: /images/blog/legal.jpg
+  title: ''
+  alt: ''
 ---
 **Is Kodi legal?**
 ------------------

@@ -2,7 +2,6 @@
 title: 'XBMC 12.2pre testing'
 date: 2013-04-08T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 In between coding up exciting new features, we have been hard at work pushing as many fixes as possible into the next bug fix release of XBMC 12. With 12.2, we’d like to ask your help in performing some bug testing, prior to the release.
 

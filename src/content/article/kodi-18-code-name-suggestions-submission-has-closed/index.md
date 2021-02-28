@@ -2,7 +2,10 @@
 title: 'Kodi 18 Code name suggestions: Submission has closed'
 date: 2016-12-05T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi_Blog_18_Name.jpg
+featured_image:
+  src: /images/blog/Kodi_Blog_18_Name.jpg
+  title: ''
+  alt: ''
 ---
 UPDATE: 24 December 2016
 

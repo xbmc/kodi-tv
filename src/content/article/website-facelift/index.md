@@ -2,7 +2,6 @@
 title: 'Website Facelift'
 date: 2009-08-28T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It’s been a long time coming, but today xbmc.org gets a new look: the stale useless site has been replaced with one that should be far more active.
 

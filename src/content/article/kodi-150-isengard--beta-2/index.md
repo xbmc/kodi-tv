@@ -2,7 +2,10 @@
 title: 'Kodi 15.0 Isengard – Beta 2'
 date: 2015-06-13T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/shield-beta2-build.png
+featured_image:
+  src: /images/blog/shield-beta2-build.png
+  title: ''
+  alt: ''
 ---
 Here it is, the second beta build for Kodi 15.0; freshly baked and ready to be served! A little later than originally planned though, which we’ll explain later. Although we said that Kodi 15.0 a “clean-up” edition, we still managed to squeeze in a couple of really nice features. In total we had ~180 code change requests which were included since last beta release. All this sums up in a pretty big list of improvements and clean-up. As such we will only highlight some of the bigger changes.
 

@@ -2,7 +2,10 @@
 title: 'DevCon 2015 LiveBlog'
 date: 2015-10-08T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/KodiTeam2-copy.jpg
+featured_image:
+  src: /images/blog/KodiTeam2-copy.jpg
+  title: ''
+  alt: ''
 ---
 2:20
 ----

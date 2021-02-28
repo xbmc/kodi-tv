@@ -2,7 +2,10 @@
 title: 'Kodi 15.0 - Isengard - One Release to Rule Them All'
 date: 2015-07-20T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/Kodi-Isengard-2C2-1080p-Original-Size.jpg
+featured_image:
+  src: /images/blog/Kodi-Isengard-2C2-1080p-Original-Size.jpg
+  title: ''
+  alt: ''
 ---
 We are proud to announce the release of Kodi 15.0. No new name this time around, but many new features that cover requests both more than 5 years old and less than 5 months old. Let’s take a quick look at a few.
 

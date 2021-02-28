@@ -2,7 +2,6 @@
 title: 'Dharma Branched'
 date: 2010-07-17T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/yinyang-98x101.jpg "yinyang")Last night jmarshall created the Dharma branch, which will eventually become the stable Dharma release. That means that from this point on, only fixes and important updates will go into the release branch, while trunk remains open for business. So for all the skinners, translators, and add-on developers, you may now consider the Dharma branch frozen. Please begin submitting your translations via [trac](http://trac.xbmc.org). We’ve begun evaluating bugs and deciding on blockers for release, so the first beta should be out relatively soon.
 

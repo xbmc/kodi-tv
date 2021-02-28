@@ -2,7 +2,10 @@
 title: 'Kodi "Leia" 18.7 Release'
 date: 2020-05-20T04:00:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v18.7_Leia_Final_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v18.7_Leia_Final_1080p.jpg
+  title: ''
+  alt: ''
 ---
 You may have noticed that we've adopted a RERO approach to Kodi - release early, release often. Our aim is to fix problems more quickly, and then get those fixes out into the wild equally as quickly. This might mean some issues escape alongside the bug fixes, but, overall, it should mean better software, sooner, and without the disruption of a major version bump.
 

@@ -2,7 +2,6 @@
 title: 'What’s going on?'
 date: 2011-02-20T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 I promised an update a few weeks ago and here it is. Better late than never! There’s lots to discuss about what’s going on with XBMC development work. So how about this.. I’ll provide an overview as to what’s in the works, then respond to any questions/comments in a follow-up post. This information is aimed at our more technical users interested in the bleeding edge, so if you’re not interested in development, you may want to sit this one out. This is also a test-run for future posts. In the past, I have avoided writing technically as much as possible because it may not interest many of our readers. If there is a demand for more, we’ll make it a regular thing.  
 

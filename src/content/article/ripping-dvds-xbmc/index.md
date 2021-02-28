@@ -2,7 +2,6 @@
 title: 'Ripping DVDs in XBMC'
 date: 2009-06-18T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 A very sought after feature for many in a media center application is the ability to banish these terrible optical disks, which every so often get scratches or never returned after lending them to friends, to your hard drive. While XBMC has been capable of [ripping Audio CDs](https://kodi.wiki/view/Ripping_CDs) for a long time this wasn’t possible for DVDs.
 

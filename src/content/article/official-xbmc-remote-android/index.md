@@ -2,7 +2,10 @@
 title: 'Official XBMC Remote for Android'
 date: 2010-07-12T04:00:00Z
 author: Team XBMC
-featured_image: /images/blog/xbmcremote_teaser_650.png
+featured_image:
+  src: /images/blog/xbmcremote_teaser_650.png
+  title: ''
+  alt: ''
 ---
 ![](/sites/default/files/uploads/android-logo-white.jpg-101x101.png "android-logo-white.jpg")![](/sites/default/files/uploads/qrcode.png "qrcode")Nearly a year ago, topfs2 started working on a remote client for Android phones and was shortly joined by me, not even having my phone yet. The project grew rapidly and soon the\_alien and mikkle joined the show. While the app was always freely available via [Google Code](https://code.google.com/archive/p/android-xbmcremote), we’ve decided today that it’s time for a public beta release on Android Market. It’s still not final, but we’ve received much positive feedback from users, and after all a Market distribution is much more convenient for both us developers as well as the users.
 

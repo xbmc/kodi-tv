@@ -2,7 +2,10 @@
 title: 'Jenkins, servers and mirrors'
 date: 2013-11-13T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/server_racks.jpg
+featured_image:
+  src: /images/blog/server_racks.jpg
+  title: ''
+  alt: ''
 ---
 Usually we only post interesting facts about XBMC itself on our website like our monthly version or actual releases. Maybe it’s time to tell you a little about the infrastructure that goes behind all this. Without all this there wouldn’t really be much of a website, XBMC builds, add-on repo and the ease of installing them.
 

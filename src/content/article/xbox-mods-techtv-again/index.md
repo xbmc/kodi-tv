@@ -2,7 +2,6 @@
 title: 'Xbox Mods on TECHTV, again?'
 date: 2003-10-14T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 this saturday and upcomming week on [techtv](https://www.esquire.com/) (starting saturday 10/18-2003 at 10 p.m. eastern):   
 *“mod your xbox. see how modders are adding functionality to the popular gaming console. by kevin rose. why mod the xbox? well, the xbox is more than just a gaming machine. it’s the most powerful computer you can purchase for $199. under the hood, the xbox is equipped with a 733-mhz intel pentium iii processor, an nvidia graphics subsystem, hard drive, ethernet, and four usb ports. modding the xbox turns it from a gaming console into a fully functional pc that can still run games. tonight i’ll show you the first step: installing a mod chip.”*

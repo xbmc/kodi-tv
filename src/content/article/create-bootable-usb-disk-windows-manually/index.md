@@ -2,7 +2,6 @@
 title: 'Create bootable USB disk on Windows manually'
 date: 2008-02-06T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
  I have been experimenting with the creation of bootable flash disk under Windows since it is not a trivial process and I have not identified a simple and effective tool doing the job.  
  There may be several variants, but this one works and it’s easy to describe.  

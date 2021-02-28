@@ -2,7 +2,6 @@
 title: 'XBMC Wins 2 Categories at 2006 CCA'
 date: 2006-04-05T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 2006 sourceforge.net community choice awards  
 [we won!](https://sourceforge.net/awards/cca/) 

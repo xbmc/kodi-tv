@@ -2,7 +2,10 @@
 title: 'Dev Journal: Kodi and DRM'
 date: 2017-04-23T04:32:41Z
 author: Cris Silva (h.udo)
-featured_image: /images/blog/padlock.jpg
+featured_image:
+  src: /images/blog/padlock.jpg
+  title: ''
+  alt: ''
 ---
 For any of you that might have been living on Planet Mars the last few years and are not familiar with all the talk surrounding DRM, here is the digest version: Digital Rights Management (DRM) refers to a broad range of technologies, techniques, and standards, many of which are constantly evolving. Whatever the name a particular DRM technology goes by, it all comes down to the fact that it enables content publishers to enforce their own access policies on content, such as restrictions on copying or viewing.
 

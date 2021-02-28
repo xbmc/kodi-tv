@@ -2,7 +2,6 @@
 title: 'LinuxTag Report'
 date: 2010-06-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/linuxtag.png "linuxtag")LinuxTag 2010 was a great success, and XBMC was there in Berlin to do its part. In attendance this year: Sigurdur Olafsson (sho), Stephan Diederich (mdd), Gunnar Norin (blittan), Michael Probst (Stephan’s friend and helper for the week), and Cory Fields (theuni). Also, Matthias Kortstiege (vdrfan) and Thomas Thönes (clumsy) managed to drop in for a day or two.
 

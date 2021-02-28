@@ -2,7 +2,6 @@
 title: 'XBMC 9.11: Camelot'
 date: 2009-12-23T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![camelot](/sites/default/files/uploads/logo.png "camelot")It’s been quite a while in the making (and maybe a bit late), but Camelot has arrived for Windows, OSX, Linux, and XBMC Live, and just in time for the holidays. Noteworthy changes include a revamped user interface via the new default skin “[Confluence](/skins/confluence)“, DirectX support by default for the Windows platform, a complete reorganization of the settings menus, automatic video information extraction, and smoother video playback. In addition, all scrapers have been updated, new remotes are supported out of the box, and codecs have been updated for more reliable playback. For a full changelog, see the end of this post.
 

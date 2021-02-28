@@ -2,7 +2,10 @@
 title: 'Kore - The new official Android remote'
 date: 2015-05-28T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kore_03-540x336.png
+featured_image:
+  src: /images/blog/Kore_03-540x336.png
+  title: ''
+  alt: ''
 ---
 We are happy to announce that once again we have a fully working Android remote. As you may had noticed, our previous Android remote wasn’t updated for a while and as such didn’t work any more due to code changes we’ve done over time. One of our team members who developed it back then, simply lacked the time to bring up to par again nor didn’t any one else within the team.  
  Some months ago a developer *Synced Synapse* started working on a new Android remote that was more of these days. We all liked the simplicity, the design, and the fact that is was fully open source. As such we asked him if he was willing to make the remote he made the official Kodi remote and be part of our team. And here we are, an all brand new and working Android remote that will help you control all your Kodi installs throughout your home. More features will be added in the future.

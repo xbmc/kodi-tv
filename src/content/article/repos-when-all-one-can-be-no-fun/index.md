@@ -2,7 +2,10 @@
 title: 'Repos: When All-in-One Can Be No Fun.'
 date: 2019-05-17T23:47:28Z
 author: DarrenHill
-featured_image: /images/blog/analogue-art-chest-366791.jpg
+featured_image:
+  src: /images/blog/analogue-art-chest-366791.jpg
+  title: ''
+  alt: ''
 ---
 **Repos: When All-in-one Can Be No Fun.**
 -----------------------------------------

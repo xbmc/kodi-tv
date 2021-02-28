@@ -2,7 +2,10 @@
 title: 'XBMC 12.2 - Even More Frodo!'
 date: 2013-05-02T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/zappy-frodo-background-680.jpg
+featured_image:
+  src: /images/blog/zappy-frodo-background-680.jpg
+  title: ''
+  alt: ''
 ---
 About a month and a half after the release of XBMC 12.1, we are happy to announce XBMC 12.2 with substantial fixes for 12.1 and 12.0 across all platforms. Fixes include:
 

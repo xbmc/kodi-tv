@@ -2,7 +2,6 @@
 title: 'One Network to Rule Them All'
 date: 2011-09-23T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Let’s talk about brilliant user Jon from Florida. Jon has two things going for him. First of all, he started using XBMC back in the glory days when “XBMC” wasn’t a recursive name for XBMC Media Center. Second, he doesn’t do things half way. When he decided to install XBMC into his home, he decided to install XBMC into his entire home. It is running through his walls. It has wrapped its adamantium tendrils around the thick bones of Jon’s Ft. Lauderdale house, and it is going to do its very best never to let go.
 

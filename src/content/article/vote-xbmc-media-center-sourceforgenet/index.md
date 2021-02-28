@@ -2,7 +2,6 @@
 title: 'Vote for XBMC Media Center on SourceForge.net'
 date: 2009-06-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Remember a few weeks ago when you flocked in droves to cast your vote for XBMC Media Center to be eligible for SourceForge’s annual Community Choice Awards? You were at that time just voting to NOMINATE us as finalist candidate, and you did a great job at that so our thanks goes out to all of you.
 

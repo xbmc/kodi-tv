@@ -2,7 +2,10 @@
 title: 'Kodi 18.0'
 date: 2019-01-28T23:49:48Z
 author: Prof Yaffle
-featured_image: /images/blog/kodi_blog_k-18l_c_900x336.jpg
+featured_image:
+  src: /images/blog/kodi_blog_k-18l_c_900x336.jpg
+  title: ''
+  alt: ''
 ---
 **Kodi 18 is here!**
 --------------------

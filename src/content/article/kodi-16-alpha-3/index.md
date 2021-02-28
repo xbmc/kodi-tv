@@ -2,7 +2,10 @@
 title: 'Kodi 16: Alpha 3'
 date: 2015-10-02T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/kodi16.0-jarvis-alpha.png
+featured_image:
+  src: /images/blog/kodi16.0-jarvis-alpha.png
+  title: ''
+  alt: ''
 ---
 Development never ceases on Kodi, and so we’re delighted to present the 3rd alpha for Kodi 16 with features and fixes galore.
 

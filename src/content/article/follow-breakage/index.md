@@ -2,7 +2,6 @@
 title: 'Follow Up: Breakage'
 date: 2009-08-30T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It was mentioned a few days ago that [things might get bumpy for a while](/team-xbmc/2009/08/27/impending-merge-likely-temporary-breakage) and a few of you asked to be notified when all the fun was starting. Well, consider yourselves notified.
 

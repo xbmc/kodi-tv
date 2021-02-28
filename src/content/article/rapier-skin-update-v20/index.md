@@ -2,7 +2,6 @@
 title: 'Rapier Skin Update v2.0'
 date: 2009-10-01T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Check the [changelog](/skins/rapier/2) for the full list of changes
 

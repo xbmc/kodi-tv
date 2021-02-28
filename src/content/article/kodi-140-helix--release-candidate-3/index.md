@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 Helix – Release candidate 3'
 date: 2014-12-08T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Splash1.png
+featured_image:
+  src: /images/blog/Splash1.png
+  title: ''
+  alt: ''
 ---
 Although we announced our first release candidate not long ago, we’re proud to release our third one in the 14.0 Helix range. Some might find it odd that we do so many releases in this short period of time. We can assure you that this is by intention. By doing more rapid releases we get better feedback if changes done by our developers are actually effective and thus create a better final release.
 

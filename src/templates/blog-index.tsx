@@ -15,7 +15,7 @@ import Layout from "../gatsby-theme-patternfly/components/Layout"
 import Pager from "../components/Pager";
 import MetadataHeader from "src/components/SiteMetadata"
 
-export default function BlogIndexPage( { data, pageContext, location } ) {
+export default function BlogIndexPage( { data, pageContext, location } ) {  
   return (
     <Layout>
       <MetadataHeader title="News" />
@@ -30,10 +30,8 @@ export default function BlogIndexPage( { data, pageContext, location } ) {
             <React.Fragment>
               { item.node.frontmatter.featured_image == undefined 
                 ? ("")
-                : ( item.node.frontmatter.featured_image == ""
-                    ? ("")
-                    : (<img alt="" src={item.node.frontmatter.featured_image} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} />)
-                ) }
+                : (<img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} />)
+              }
               <TextContent>
                 <Text component={TextVariants.h2}>{item.node.frontmatter.title}</Text>
               </TextContent>
@@ -84,7 +82,11 @@ export const pageQuery = graphql`
           frontmatter {
             author
             date(formatString: "MMMM DD, YYYY")
-            featured_image
+            featured_image {
+              alt
+              src
+              title
+            }
             title
           }
         }

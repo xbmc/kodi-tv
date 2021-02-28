@@ -2,7 +2,10 @@
 title: '10 days till first v17 "Krypton" alpha release'
 date: 2016-06-20T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-Krypton-1920x1200.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-Krypton-1920x1200.jpg
+  title: ''
+  alt: ''
 ---
 We have been quiet for quite some time as our last official release announcement was about Kodi v16.1 “Jarvis” bugfix release end of April. We can assure we have not been sitting still as work for v17 progressed in a steadily pace. Our developers have actually been working on v17 since early December as a large part of our code base has been ripped out, put through the grinder and put back in a way that makes Kodi future proof which enables new and exciting possibilities. To be honest we actually wanted to do this upcoming alpha release a bit sooner (1st of May). However since we hit some code issues we decided to skip that date to first solve the problems. Next one was 1st of June however I was on holiday for some weeks and I guess we skipped that date as well. Fast forward to present day and all looks good to go and bring you the first “official” v17 alpha build which you as user can install and take for a test drive. Maybe not that exciting as some of you know we always build nightly version so you could have installed it whenever you wanted to. Still such a release marks a special milestone as it also means we’re gearing up for getting it out the door as a final version. This may still take some months though so don’t get your hopes up yet.
 

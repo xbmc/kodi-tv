@@ -2,7 +2,10 @@
 title: 'Kodi 14.0 "Helix" alpha 4'
 date: 2014-10-02T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/kodi-splash.png
+featured_image:
+  src: /images/blog/kodi-splash.png
+  title: ''
+  alt: ''
 ---
 Kodi 14, which we gave the codename “*Helix*“, is slowly heading towards beta status. In this possibly last alpha release, we continue to focus on stability and user friendliness. Around [117 pull-request (code changes)](https://github.com/xbmc/xbmc/issues?page=3&q=milestone%3A%22Helix+14.0-alpha4%22+is%3Aclosed) have been added past month in a variety of areas. There aren’t many additions that could be picked out as a real “features’. However we will highlight some of the main visual changes so far.
 

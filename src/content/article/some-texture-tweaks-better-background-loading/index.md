@@ -2,7 +2,6 @@
 title: 'Some texture tweaks for better background loading'
 date: 2009-05-11T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Another couple of nice changes have hit SVN for you skinners. There’s been a bug fixed in the large texture manager (that handles background loading of images) – it used to wait up to a second between loading images, which meant you couldn’t really use them in situations where you needed a lot of textures loaded all at once. This has been remedied.
 

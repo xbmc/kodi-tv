@@ -2,7 +2,6 @@
 title: 'Changes to paths: What it means for scripts and plugins'
 date: 2009-02-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As a follow up to my [last post](/article/change-internal-path-structures "last post"), scripters and plugin writers should be aware of the best practises for accessing files under python:
 

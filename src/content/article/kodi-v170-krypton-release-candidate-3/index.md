@@ -2,7 +2,10 @@
 title: 'Kodi v17.0 “Krypton” Release Candidate 3'
 date: 2017-01-11T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-32A-1080p_samfisher.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-32A-1080p_samfisher.jpg
+  title: ''
+  alt: ''
 ---
 Just before New Years’s day we released our first official Release Candidate which marks the final step towards the final release of v17.0. These Release Candidate builds are dedicated to gain further feedback from users who are willing to take the jump towards v17 and we sure are grateful if they do as that provides valuable information on general stability and usability. Our team will certainly try to tackle as much of the reported problems as possible with the limited resources we have. We do want to note that since we are just a small team some of the reported bugs might not get fixed due to lack of developers or time. As such we would certainly welcome any developer who has the ability to help us out to try and fix the bugs he or she encounters and submit it to our code base for review. We sure would like to thank every one involved with either development, testing or simply helping out others with answering their questions.
 

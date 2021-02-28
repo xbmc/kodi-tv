@@ -2,7 +2,10 @@
 title: 'Kodi "Leia" 18.8 Release'
 date: 2020-07-28T18:00:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v18.8_Leia_Final_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v18.8_Leia_Final_1080p.jpg
+  title: ''
+  alt: ''
 ---
 So, here we are again. Those of you with eagle eyes may already have seen this rolling out, but just to make everyone else aware - 18.8 is here. In our ongoing quest to make your lives as simple and fulfilling as possible, we're proud to present what is likely to be the final release in the 18.x "Leia" series, before all effort now shifts to 19.x "Matrix".
 

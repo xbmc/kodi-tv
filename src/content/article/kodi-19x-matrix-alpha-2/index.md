@@ -2,7 +2,10 @@
 title: 'Kodi 19.x "Matrix" - Alpha 2'
 date: 2020-10-05T15:00:00Z
 author: Prof Yaffle
-featured_image: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
+featured_image:
+  src: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
+  title: ''
+  alt: ''
 ---
 It's been more than a month since our last "preview" release, so it's time we boxed up something new for everyone.
 

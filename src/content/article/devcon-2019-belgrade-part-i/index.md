@@ -2,7 +2,10 @@
 title: 'DevCon 2019 - Belgrade - Part I'
 date: 2019-10-10T21:28:58Z
 author: Prof Yaffle
-featured_image: /images/blog/Belgrade_at_night2.jpg
+featured_image:
+  src: /images/blog/Belgrade_at_night2.jpg
+  title: ''
+  alt: ''
 ---
 Another year passes, and here we are once again, locked in a windowless room to discuss all things Kodi-shaped. Genuine thanks to the generosity of our sponsors and users - that means you, you lovely people - whose donations make these meetings possible. Old faces, new faces, guests - these events really do help us to come together, share ideas and shape the direction of our favourite media software.
 

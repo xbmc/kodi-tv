@@ -2,7 +2,6 @@
 title: 'Updated: XBMC Moves to Git'
 date: 2011-01-01T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/git.png "git")As we discussed in a [recent post](/article/improving-our-development-process), XBMC is finally moving to a current [SCM](https://en.wikipedia.org/wiki/Source_Code_Management). Many of us have been using git-svn for quite a while anyway, but the burden of doing a real migration has kept us from making the switch. Today the migration begins.
 

@@ -2,7 +2,6 @@
 title: 'XboxMediaCenter 2.0.1 released!'
 date: 2006-11-11T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [Team-XBMC](http://www.xboxmediacenter.com/wiki/index.php?title=Team_XBMC_and_Others) and [The XBMC Project](https://sourceforge.net/projects/xbmc/) is proud to announce the release of XboxMediaCenter 2.0.1. [XBox Media Center (XBMC)](https://en.wikipedia.org/wiki/XBMC) is an [award winning](https://sourceforge.net/awards/cca/), free and open source media player for the [Xbox™ game-console](https://en.wikipedia.org/wiki/Xbox). XboxMediaCenter 2.0.1 point-release [source code](http://www.xboxmediacenter.com/wiki/index.php?title=What_Is_Source_Code) has now been set in our [CVS](https://sourceforge.net/cvs/?group_id=87054), and all XBMC users are highly encouraged to upgrade to this version. Know that this point-release version marks the end of the 2.0 era of XBMC, there will be no more 2.0.x bug-fix point-releases. The next point-release of XBMC will be 2.1 (or maybe even 3.0), and it will probably be quite a while before that 2.1 (or 3.0) version sees the light of day with all new major features/functions we have planned for the future, (those who can not wait can always use the latest daily CVS of XBMC).
 

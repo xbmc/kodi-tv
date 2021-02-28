@@ -2,7 +2,6 @@
 title: 'Beagleboard project for GSOC 2010'
 date: 2010-05-23T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/beagle-76x101.png)I have been selected by the Beagleboard community and Google to work on Google Summer of Code 2010. My project will consist of optimizing the rendering of XBMC for the embedded market.
 

@@ -2,7 +2,10 @@
 title: 'Kodi 17 - Code name has been chosen'
 date: 2015-12-18T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi_Blog_Pictures_K_____.png
+featured_image:
+  src: /images/blog/Kodi_Blog_Pictures_K_____.png
+  title: ''
+  alt: ''
 ---
 **Thanks for all your suggestions!  
  We decided to go with the most popular suggestion from the community and have selected 

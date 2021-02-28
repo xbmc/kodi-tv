@@ -2,7 +2,6 @@
 title: 'State of the addons'
 date: 2010-04-26T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 It’s been a while since we’ve updated our readers on the status of things, so I wanted to give a quick preview of how the addons are shaping up. Many nightly users are itching for new builds, and those that have compiled their own have been greeted by broken plugins, scrapers, etc. This is by design, as the entire framework has changed to make it easier for users to acquire addons and stay up to date. Here’s a quick preview of the current state of things:
 

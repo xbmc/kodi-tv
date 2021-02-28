@@ -2,7 +2,6 @@
 title: 'MiniMeedia Added to XBMC Skinning Project'
 date: 2009-09-28T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 MiniMeedia has now been added to the Official XBMC Skinning Project SVN so that anyone can now download the project files (including all the textures etc). You can find out more details about the XBMC Skinning Project [here](https://sourceforge.net/projects/xboxmediacenter/).
 

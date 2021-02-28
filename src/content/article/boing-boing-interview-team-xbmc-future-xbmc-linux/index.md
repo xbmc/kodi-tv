@@ -2,7 +2,6 @@
 title: 'Boing Boing interview: Team-XBMC on the Future of XBMC for Linux'
 date: 2007-08-29T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Freelance writer [Joel Johnson](http://www.joeljohnson.com) recently did and interview with representatives from Team-XBMC for [Boing Boing Gadget blog](https://boingboing.net/tag/gadgets) about the Future of [XBMC for Linux](http://xboxmediacenter.com/wiki/index.php?title=Linux_port_project).
 

@@ -2,7 +2,10 @@
 title: 'XBMC 13 - Gotham - March Cycle'
 date: 2013-04-02T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/pop_up_notification.jpg
+featured_image:
+  src: /images/blog/pop_up_notification.jpg
+  title: ''
+  alt: ''
 ---
 We are now finished with month #2 of our [monthly development cycle](https://kodi.wiki/view/Development_builds "XBMC Development Builds") for XBMC 13 – Gotham. This month we see new features for iOS, Android, and PVR, as well as a new notification system, a new method for sorting images, and much more.
 

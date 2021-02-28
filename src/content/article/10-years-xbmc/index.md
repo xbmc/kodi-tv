@@ -2,7 +2,10 @@
 title: '10 Years of XBMC'
 date: 2012-09-25T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/Xbox_Classic___XBMC_Skin_by_Blackbolt.jpg
+featured_image:
+  src: /images/blog/Xbox_Classic___XBMC_Skin_by_Blackbolt.jpg
+  title: ''
+  alt: ''
 ---
 Happy Birthday To Us! Today marks a very important and proud milestone in our history. On 5th October 2002, one of the first ever betas of the XBMC source code was uploaded, as the result of a merge between two different home theatre applications. Frodo, the founder of “YAMP” (Yet Another Media Player), joined the Xbox Media Player team and the two projects were merged. The first release of the combined projects was called “Xbox Media Player” and its first beta source code was released, 10 years ago to the day!
 

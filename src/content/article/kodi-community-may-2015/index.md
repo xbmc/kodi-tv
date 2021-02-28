@@ -2,7 +2,10 @@
 title: 'Kodi Community - May 2015'
 date: 2015-05-05T04:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/Screenshot_2015-05-07-21-04-46.png
+featured_image:
+  src: /images/blog/Screenshot_2015-05-07-21-04-46.png
+  title: ''
+  alt: ''
 ---
 Exciting Google Summer of Code projects, major developments in the codebase that need testing, and even a Kickstarter are just a few of the many items that have occurred since our last community roundup in January. Let’s get updating.
 

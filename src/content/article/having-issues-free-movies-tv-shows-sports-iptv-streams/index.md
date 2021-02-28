@@ -2,7 +2,10 @@
 title: 'Having issues with free Movies, TV Shows, Sports, IPTV Streams?'
 date: 2017-06-28T21:01:52Z
 author: Christian Hewitt
-featured_image: /images/blog/kodi_news.jpg
+featured_image:
+  src: /images/blog/kodi_news.jpg
+  title: ''
+  alt: ''
 ---
 Due to recent legal action against websites and repositories promoting add-ons that use pirated (stolen) media content, many have shut-down their services. This is driving a large increase in users complaining in our forums and on social media about their "Kodi Box" no longer working.
 

@@ -2,7 +2,6 @@
 title: 'OSX Gets H.264 Acceleration'
 date: 2010-05-02T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 [![](/sites/default/files/uploads/Apple-Logo-101x101.png "Apple Logo")](/davilla/2010/05/03/osx-gets-h-264-accelleration/apple-logo-2)Apple has long been known to be tapping the GPU for accelerated video decode under OSX with their private applications such as iTunes or QuickTime player. Even with the AppleTV, there are there hints of some sort of CPU/GPU decoding deep down inside the private OS frameworks. The release of Snow Leopard (10.6) showed even more usage of the GPU for video decode and this was seen directly by the large reduction in CPU usage when playing video content using Apple’s players. But this magic API remained hidden and private, available only to Apple’s own applications.
 

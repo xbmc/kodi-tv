@@ -2,7 +2,6 @@
 title: 'XBMC interview on FLOSS Weekly'
 date: 2009-02-21T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Our very own [Scott Davilla](https://kodi.tv/davilla) and [Jonathan Marshall](https://kodi.tv/jmarshall) were recently interviewed by Leo Laporte and Randall Schwartz for the show [FLOSS Weekly](https://twit.tv/floss) on [TWiT.tv](https://twit.tv/)
 

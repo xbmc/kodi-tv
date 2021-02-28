@@ -2,7 +2,10 @@
 title: 'Kodi v18 Leia - Alpha 3'
 date: 2018-07-31T19:07:20Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi_Blog_Blueprint_Leia_900x336.jpg
+featured_image:
+  src: /images/blog/Kodi_Blog_Blueprint_Leia_900x336.jpg
+  title: ''
+  alt: ''
 ---
  We hereby present you the third and last alpha build of Kodi v18 as we are going forward entering beta stage. This release is a continuation of the previous two with our continous focus on solving bugs and usability problems. So far it has proved to be quite solid to use as a daily driver for those who were brave enough to try it out. Of course you should still keep in mind it's not a final release yet and that on any upgrade a small glitch could happen as we are still doing rework. Once you decide to give it a try it is highly recommended that you create a backup first.
 

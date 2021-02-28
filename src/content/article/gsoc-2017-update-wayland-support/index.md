@@ -2,7 +2,10 @@
 title: 'GSOC 2017 Update - Wayland Support '
 date: 2017-08-13T21:34:23Z
 author: Nathan Betzen
-featured_image: /images/blog/Wayland_demo_2.png
+featured_image:
+  src: /images/blog/Wayland_demo_2.png
+  title: ''
+  alt: ''
 ---
 Finally, we turn to Philipp, who is working to upgrade the Kodi windowing system in Linux from X11 to Wayland. As a PR is already posted, we are extremely excited about this project!
 

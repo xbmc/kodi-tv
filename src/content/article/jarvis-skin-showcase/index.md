@@ -2,7 +2,10 @@
 title: 'Jarvis Skin Showcase'
 date: 2016-06-09T04:00:00Z
 author: zag
-featured_image: /images/blog/transparency-header.jpg
+featured_image:
+  src: /images/blog/transparency-header.jpg
+  title: ''
+  alt: ''
 ---
 The Kodi “Jarvis” v16 release has been out for a while now and feedback has been incredibly positive. We have millions of users all over the world using the new release.
 

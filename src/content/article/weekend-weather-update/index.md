@@ -2,7 +2,6 @@
 title: 'Weekend Weather Update'
 date: 2011-11-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 As many of you are aware, recent API changes have forced XBMC and most XBMC-based software offshoots to change the way they handle their weather app. We have refrained from commenting until now, because the Team wanted to internally discuss what the best step forward would be.
 

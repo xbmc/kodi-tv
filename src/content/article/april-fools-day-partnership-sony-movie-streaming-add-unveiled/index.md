@@ -2,7 +2,6 @@
 title: '[April Fool&#039;s Day] Partnership with Sony, Movie streaming Add-on unveiled'
 date: 2011-03-31T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Today we are proud to announce an exciting new partnership.
 

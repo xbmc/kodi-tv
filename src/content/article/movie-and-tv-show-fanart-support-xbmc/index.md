@@ -2,7 +2,6 @@
 title: 'Movie and TV Show FanArt support in XBMC'
 date: 2008-08-22T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Many of the latest skins for XBMC are now supporting the recently added XBMC feature that is FanArt backdrops. Skins such as [Aeon](http://www.aeonproject.com/), [Focus](https://forum.kodi.tv/showthread.php?tid=33986), [MediaStream](https://www.seventech.org), and even the default Project Mayhem III, all feature FanArt backdrop support. We think that FanArt really enhances the look and feel of XBMC skins, especially when combined with the not so new ability to download posters, banners, and screenshots directly from XBMC.
 

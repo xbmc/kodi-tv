@@ -2,7 +2,6 @@
 title: 'Google Summer of Code 2012: Update'
 date: 2012-03-17T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 We are pleased and excited to announce to everyone that we have been accepted as an official [GSOC mentor organization this year](http://www.google-melange.com/gsoc/org/google/gsoc2012/xbmc "XBMC at GSOC").
 

@@ -2,7 +2,6 @@
 title: 'PulseAudio and XBMC for linux'
 date: 2009-01-08T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Since the release of Atlantis we have had dozens of new users, and a few noted one of our weaknesses, which was PulseAudio, [link to thread](https://forum.kodi.tv/showthread.php?tid=40249). People usually experienced video that ran in great speed, this was because ALSA couldn´t create a stream. And the only way of making XBMC run like it should on Ubuntu was to kill PulseAudio, this is ok if you are only using the computer as a HTPC but will quickly take away the fun of having XBMC just as a media player along with the rest of the desktop, as without PulseAudio most of the other applications won´t work properly.
 

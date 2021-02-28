@@ -2,7 +2,6 @@
 title: 'What’s going on around the community remotes, skins, and addons'
 date: 2011-04-19T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 Rather than focusing on developer work within the team, we thought we’d switch this post up to focus on work by the community at large. But before we do, a quick announcement. For those of you who don’t already know, we’ve decided to name [XBMC 12](http://trac.xbmc.org/roadmap "XBMC 12 Roadmap") (the one coming after Eden*) Frodo, after one of the three XBMC founders. You can learn a bit more about Frodo [here](https://kodi.wiki/view/User:Frodo "Frodo's XBMC profile"). As always, the Team wishes him well over at MediaPortal.
 

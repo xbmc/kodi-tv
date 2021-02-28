@@ -2,7 +2,6 @@
 title: 'XBMC is growing up. Gains cool new services.'
 date: 2010-01-07T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Remember a few weeks back when we announced our [new Bytemark server](/article/welcome-bytemark-hosting-sponsor)? Well, we’ve already put it to very good use. In addition to setting up the [buildbot](http://buildbot.net/) mentioned previously, we’ve also created an extremely versatile file repository for XBMC use. Over the past few months, we’ve worked with several university and ISP link admins to create an extensive mirror system all over the world — one that can be used for xbmc releases, nightly builds, skins, plugins… the list goes on.
 

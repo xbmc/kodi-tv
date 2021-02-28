@@ -2,7 +2,6 @@
 title: 'XBMC 12 Frodo - Beta 2 Now with Android!'
 date: 2012-12-01T03:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 We are excited to announce Beta 2 of XBMC 12 today, as it brings with it many fixes and one long awaited major update. As you know, XBMC currently supports OSX, Linux, Windows, iOS, and the ARM-based Raspberry Pi. That’s a great list, but anyone paying attention could tell you that a massive, critical platform is still missing. Well, Scott Davilla and Cory Fields (theuni) have been working tirelessly to bring one more platform to the fold. And we’re all excited to say that we are finally ready to release the very first beta of [**XBMC for Android**](https://kodi.wiki/view/XBMC_for_Android_specific_FAQ).
 

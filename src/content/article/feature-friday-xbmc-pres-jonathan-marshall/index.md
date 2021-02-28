@@ -2,7 +2,6 @@
 title: 'Feature Friday: XBMC Pres Jonathan Marshall'
 date: 2011-07-15T04:00:00Z
 author: Nathan Betzen
-featured_image: ""
 ---
 This is Jonathan Marshall. He’s a New Zealander and the president of the XBMC Foundation, and right now he’s standing in his crawl space. You may note the lack of a floor in his house.
 

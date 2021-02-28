@@ -2,7 +2,6 @@
 title: 'Broadcom Crystal HD, It`s Magic.'
 date: 2009-12-28T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 1080p HD content playback has always been the Holy Grail for any Media Center application but this has traditionally been difficult; playback using software decode alone requires a very hefty CPU and hardware decoding has only been made available recently using the nVidia’s VPDAU technology, available only on Linux. Windows has its own platform specific solutions and poor old OSX has no public APIs available at all. There really is nothing around with a common API that enables hardware accelerated 1080p HD content playback that can also be used under all three major platforms (OSX, Linux, and Windows). Well, that situation is about to change.
 

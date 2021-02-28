@@ -2,7 +2,10 @@
 title: 'Kodi 15.1 Isengard - Release Candidate'
 date: 2015-08-09T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/Kodi-Wallpaper-3A-1080p_samfisher.jpg
+featured_image:
+  src: /images/blog/Kodi-Wallpaper-3A-1080p_samfisher.jpg
+  title: ''
+  alt: ''
 ---
 Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and last release was no exception. Even though tens of thousands of users were already testing the 15.0 version before release, as soon as million started using it, some problems we either did not think of or which we did not notice popped up. To counter some of these new issues, we’re bringing you this maintenance release candidate called 15.1 RC1 which has some additional fixes on top of the 15.0 release.  
  This is still a release candidate; once enough users have verified that these improvements work out well, and we did not introduce any major regressions, we’ll be releasing it as final 15.1 version. To be safe just backup your [userdata (online manual)](https://kodi.wiki/view/Userdata) first.  

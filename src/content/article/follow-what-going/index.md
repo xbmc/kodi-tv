@@ -2,7 +2,10 @@
 title: 'Follow-Up: What’s going on?'
 date: 2011-03-24T03:00:00Z
 author: Team XBMC
-featured_image: /images/blog/xbmc-gotham-13_1-beta.png
+featured_image:
+  src: /images/blog/xbmc-gotham-13_1-beta.png
+  title: ''
+  alt: ''
 ---
 Thanks to everyone who commented on the [last post](/article/what-going). Apparently there’s enough interest to justify some technical ramblings every now and then. As promised, here is a follow-up to address the popular questions and comments. Next up after [SCALE](https://www.socallinuxexpo.org/scale9x/) will be a few words about add-on stats.
 

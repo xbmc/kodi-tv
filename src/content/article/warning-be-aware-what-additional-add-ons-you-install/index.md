@@ -2,7 +2,10 @@
 title: 'Warning - Be aware what additional add-ons you install'
 date: 2016-05-01T04:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/caution-machine_has_no_brain.jpg
+featured_image:
+  src: /images/blog/caution-machine_has_no_brain.jpg
+  title: ''
+  alt: ''
 ---
 There seems to be a growing amount of reports where users are suddenly missing add-ons from their Kodi installation. It seems there are some factions out there that are removing each others add-on without the user approving or even knowing this. While we as team do not want to be associated with the groups we do feel that we must at least warn people that this can happen.
 

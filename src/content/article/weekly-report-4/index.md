@@ -2,7 +2,6 @@
 title: 'Weekly report 4'
 date: 2010-06-20T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 After discussion with my mentor we decided to not use the EVAS model suggested in my last weekly report. While it might have worked it would have taken to much time to realize which is a bad idea due to the limited time of GSoC. Hence I have started altering the guilib to do the actual event based and dirty region creation and actually with rather great results with little work!
 

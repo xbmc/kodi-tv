@@ -2,7 +2,6 @@
 title: 'Change in the internal path structures'
 date: 2009-02-09T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 Hi – long time since my last blog – I’ve been too busy with real life stuff, not to mention XBMC related activities! This post is to detail the rather boring, but very important path cleanup work that WiSo and I have just completed.
 

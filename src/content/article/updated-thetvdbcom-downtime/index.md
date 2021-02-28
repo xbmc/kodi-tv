@@ -2,7 +2,6 @@
 title: 'Updated: TheTVDB.com Downtime'
 date: 2009-11-15T03:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 ![tv-icon](/sites/default/files/uploads/tv-icon.png "tv-icon")As many of our forum users have pointed out, thetvdb.com is currently down. This notice is a bit late, it seems that they’ve been having trouble all weekend.
 

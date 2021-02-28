@@ -2,7 +2,6 @@
 title: 'Xbox Media Center, The new (ad)venture'
 date: 2003-10-14T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 xboxmediacenter ([xbmc](https://sourceforge.net/projects/xbmc/)) is a new free open source (gpl) multimedia player for [microsoft’s xbox](https://www.xbox.com/). xboxmediacenter is still in beta stage but can currently be used to play and view most video/audio/picture formats such as mpeg/mpg, vob, avi, ogm, divx, xvid, mp3, ogg, jpg, gif and many more direct from a cd/dvd in the dvd-rom or of the xbox build-in hard disk drive, it can also play files over a network (lan) from a pc via an “xstream server” application or from a windows (smb) share. it has playlist + slideshow functions as well as the ability to function as a full replacement xbox dashboard. these and more features enables the xbox running xboxmediacenter to fully function as a multi-media jukebox. xboxmediacenter also known as “xbox media center” or simply “xbmc”. 
 

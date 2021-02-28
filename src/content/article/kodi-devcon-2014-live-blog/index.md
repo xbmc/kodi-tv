@@ -2,7 +2,10 @@
 title: 'Kodi DevCon 2014 Live Blog'
 date: 2014-10-09T03:00:00Z
 author: Nathan Betzen
-featured_image: /images/blog/IMG_0439.jpg
+featured_image:
+  src: /images/blog/IMG_0439.jpg
+  title: ''
+  alt: ''
 ---
 Friday, 10th of October, 2014
 -----------------------------

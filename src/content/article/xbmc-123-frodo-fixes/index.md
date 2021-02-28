@@ -2,7 +2,10 @@
 title: 'XBMC 12.3 - Frodo fixes!'
 date: 2013-12-23T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/12_3-Frodo.png
+featured_image:
+  src: /images/blog/12_3-Frodo.png
+  title: ''
+  alt: ''
 ---
 ![zappy-santa](/sites/default/files/uploads/zappy-santa-290x300.png)
 

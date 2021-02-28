@@ -2,7 +2,6 @@
 title: 'You asked for it: XBMC for AppleTV2, iPad, iPhone4.'
 date: 2011-01-19T03:00:00Z
 author: Cory
-featured_image: ""
 ---
 ![](/sites/default/files/uploads/apple.gif "apple")
 

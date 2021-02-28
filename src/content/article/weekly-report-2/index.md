@@ -2,7 +2,6 @@
 title: 'Weekly report 2'
 date: 2010-06-06T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 While I had exams last week there were some major work done with getting Ångström working as a development environment for XBMC, much thanks to the extremely helpful people over at #beagle!.
 

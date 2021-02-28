@@ -2,7 +2,10 @@
 title: 'DevCon 2019 - Belgrade - Part II'
 date: 2019-10-11T00:11:48Z
 author: Prof Yaffle
-featured_image: /images/blog/belgrade-clouds-fortress-33562.jpg
+featured_image:
+  src: /images/blog/belgrade-clouds-fortress-33562.jpg
+  title: ''
+  alt: ''
 ---
 Morning, all. It's a beautiful day here, and we're just waiting for the last few latecomers to arrive before another day of DevCon...
 

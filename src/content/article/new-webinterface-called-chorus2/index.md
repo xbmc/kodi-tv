@@ -2,7 +2,10 @@
 title: 'A new webinterface called Chorus2'
 date: 2016-12-03T03:00:00Z
 author: Martijn Kaijser
-featured_image: /images/blog/chorus2-artist.jpg
+featured_image:
+  src: /images/blog/chorus2-artist.jpg
+  title: ''
+  alt: ''
 ---
 Kodi has many hidden secrets and even team members don’t know the full potential it packs. One of those features you might not know is that Kodi also has a web-interface from which you can browse your library and start playback directly on your Kodi device. It’s something we’ve never really promoted that it was available and I’m not really sure why. However the past few years not much was changed to to it and it kinda fell into decay with only minor fixes done to keep it kind of functional. For Kodi v17 this has been radically changed as we have packaged up a brand new default web-interface called Chorus2.
 

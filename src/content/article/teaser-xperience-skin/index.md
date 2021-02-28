@@ -2,7 +2,6 @@
 title: 'Teaser: Xperience Skin'
 date: 2009-08-27T04:00:00Z
 author: Team XBMC
-featured_image: ""
 ---
 A few days ago I posted a trailer for the Surface skin which may or may not ever be completed. Today, XBMCG33K has unveiled a brand new video preview of Xperience, which is under heavy development, and I must say it’s looking great.
 
