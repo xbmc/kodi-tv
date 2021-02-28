@@ -6,7 +6,7 @@ import MetadataHeader from "src/components/SiteMetadata"
 
 ## The only place for official Kodi gear
 
-<IconList items={props.data.allStore.edges} iconwidth="256" iconheight="256" />
+<IconList items={props.data.allStoreYaml.edges} iconwidth="256" iconheight="256" />
 
 ## Consider Donating
 
@@ -24,10 +24,9 @@ import IconList from 'src/components/IconList'
 
 export const pageQuery = graphql`
   query {
-    allStore {
+    allStoreYaml(sort: {fields: [group_number, name]}) {
       edges {
         node {
-          sku
           name
           icon
           slug

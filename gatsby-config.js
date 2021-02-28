@@ -242,6 +242,13 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-transformer-yaml",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: "./src/data/yaml",
+      },
+    },
     {
       resolve: "gatsby-plugin-root-import",
       options: {
@@ -295,7 +302,6 @@ module.exports = {
       },
     },
     "gatsby-source-kodidists",
-    "gatsby-source-kodistore",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
