@@ -45,5 +45,5 @@ collections:
     fields:
       - { label: 'Item', name: 'name', widget: 'string' }
       - { label: 'URL', name: 'slug', widget: 'string' }
-      - { label: 'Group Number', name: 'group_number', widget: 'string' }
+      - { label: 'Group Number', name: 'group_number', widget: 'number' }
       - { label: 'Image', name: 'icon', widget: 'image' }
