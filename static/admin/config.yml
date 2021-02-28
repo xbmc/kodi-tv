@@ -26,7 +26,7 @@ collections:
         label: 'Featured Image'
         widget: 'object'
         collapsed: true
-        summary: 'Featured Image'
+        summary: {{fields.src}}
         fields:
           - {name: src, label: Image, widget: image}
           - {name: title, label: Title, widget: string}
