@@ -4,8 +4,8 @@ date: 2015-01-27T03:00:00Z
 author: Memphiz
 featured_image:
   src: /images/blog/Jailbreak-the-Apple-TV-2-With-Seas0nPass.png
-  title: ''
-  alt: ''
+  title: 'Jailbreak-the-Apple-TV-2-With-Seas0nPass'
+  alt: 'Jailbreak-the-Apple-TV-2-With-Seas0nPass'
 ---
 Dear users,
 

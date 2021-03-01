@@ -4,8 +4,8 @@ date: 2014-02-12T03:00:00Z
 author: zag
 featured_image:
   src: /images/blog/Celestium.jpg
-  title: ''
-  alt: ''
+  title: 'Celestium'
+  alt: 'Celestium'
 ---
 The XBMC skinning engine has matured over the years to allow lots of different kinds of styles such as horizontal, vertical, touchscreen menus, fanart, clearart and advanced animations. Many users are familiar with our popular skins but we also have a vibrant community of developers creating radical new skins. Getting from a mockup, to a fully working skin can take time but the results can be incredible. Sometimes the skins never make it out of the design phase so we thought it might be nice to show a few of them off. If you want to see a skin developed why not help out or show your support by taking part in our [Skin WIP forum](https://forum.kodi.tv/forumdisplay.php?fid=160)?
 

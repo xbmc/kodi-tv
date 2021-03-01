@@ -4,8 +4,8 @@ date: 2013-05-28T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.png
-  title: ''
-  alt: ''
+  title: 'summerofcode_0'
+  alt: 'summerofcode_0'
 ---
 As of yesterday, all of those who applied for Google Summer of Code should have gotten their replies from the Google Open Source group. We are very excited to be working with the four students who were selected and are only sorry that we couldn’t select more, as there were quite a lot of excellent submissions this year.
 

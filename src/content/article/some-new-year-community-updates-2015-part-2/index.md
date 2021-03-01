@@ -4,8 +4,8 @@ date: 2015-01-25T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/adsp_02.png
-  title: ''
-  alt: ''
+  title: 'adsp_02'
+  alt: 'adsp_02'
 ---
 Because we have so much great things lined up which we want to share, it’s time for a follow up on our previous [community update](/article/some-new-year-community-updates-2015). Don’t worry, we will do continues effort to further improve stability over just adding new features. We have a continues system running for building and detecting possible problem. Together with the builds we create each day, we hope that this effort will pay off and create the most seamless, powerful and easiest media center solution out there. Due to all the changes and improvements, possible problems may surface which were just dormant before. With your help and feedback on our nightly builds we can spot these in time before we start the path towards our next a final release.
 

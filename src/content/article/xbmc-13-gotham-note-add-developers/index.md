@@ -4,8 +4,8 @@ date: 2013-11-19T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gotham_repo.jpg
-  title: ''
-  alt: ''
+  title: 'gotham_repo'
+  alt: 'gotham_repo'
 ---
 As we now have reached feature freeze as you have read [here,](https://kodi.wiki/gotham-13-0-feature-freeze/) it’s safe to say that there will be no more fundamental changes done that would greatly influence the work that developers need to do to get ready for Gotham. This doesn’t mean changes are excluded but they should be minimal.
 

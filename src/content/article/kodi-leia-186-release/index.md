@@ -4,8 +4,8 @@ date: 2020-03-02T23:00:00Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v18.6_Leia_Final_1080p.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi 18.6 Splash Screen'
+  alt: 'Kodi 18.6 Splash Screen'
 ---
 And.... here we are again. The latest Kodi release in the 18.x "Leia" cycle, with more (count them!) and better (measure them!) bug fixes for your various delight, delectation, and delirious... discussion?
 

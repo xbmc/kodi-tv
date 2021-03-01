@@ -4,8 +4,8 @@ date: 2015-12-12T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-blue'
+  alt: 'Kodi-Wallpaper-blue'
 ---
 With this announcement we are releasing beta 4. Why the rapid succession of these releases you might wonder? By doing more releases in the shorter period we reduce the amount of changes that are included in each one. Instead of a huge list of changes it now only has several which gives a better overview. The advantage of that is possible regressions get picked up way faster and that you as user also get the benefit of not having to wait a long time to get these fixes.
 

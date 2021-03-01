@@ -4,8 +4,8 @@ date: 2018-11-22T19:45:46Z
 author: Jason
 featured_image:
   src: /images/blog/Pi Case  v2 Kodi gen2.126.png
-  title: ''
-  alt: ''
+  title: 'Pi Case  v2 Kodi gen2.126'
+  alt: 'Pi Case  v2 Kodi gen2.126'
 ---
 Two years ago, we surprised everyone by taking our first step into hardware by announcing the 'Kodi Edition' Raspberry Pi case. For the past year, we’ve been working with Flirc on an exciting and ambitious newly-designed case to follow that one. Using the second-generation Flirc case as a starting point, we wanted something prominent that both matches the character of Kodi and blends seamlessly into your entertainment systems.
 

@@ -4,8 +4,8 @@ date: 2016-01-20T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi16-rc.png
-  title: ''
-  alt: ''
+  title: 'Kodi16-rc'
+  alt: 'Kodi16-rc'
 ---
 The time has come to bring you all Release Candidate 1 for Kodi v16. It took a bit longer than we anticipated due to some problems along the way though they should be under control now. This release consists of some nice features but more importantly the continues effort on making the underlying code more mature and future proof which should result in a more stable Kodi in general.
 

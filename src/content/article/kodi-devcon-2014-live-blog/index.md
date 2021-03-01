@@ -4,8 +4,8 @@ date: 2014-10-09T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/IMG_0439.jpg
-  title: ''
-  alt: ''
+  title: 'IMG_0439'
+  alt: 'IMG_0439'
 ---
 Friday, 10th of October, 2014
 -----------------------------

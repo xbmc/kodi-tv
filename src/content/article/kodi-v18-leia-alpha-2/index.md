@@ -4,8 +4,8 @@ date: 2018-06-10T00:50:59Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Motherboard_2D_A_900x336.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi_Blog_Motherboard_2D_A_900x336'
+  alt: 'Kodi_Blog_Motherboard_2D_A_900x336'
 ---
  We have been relatively quiet for a while and several months have past since the first pre-release Alpha build. Today we present you the second official Alpha build in this pre-release trilogy. It is a continuation of the first one which was released beginning of March and contains our continous battle against the dark side that consist of bugs and usability problems.  
 

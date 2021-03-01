@@ -4,8 +4,8 @@ date: 2015-10-08T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/KodiTeam2-copy.jpg
-  title: ''
-  alt: ''
+  title: 'KodiTeam2-copy'
+  alt: 'KodiTeam2-copy'
 ---
 2:20
 ----

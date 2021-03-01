@@ -4,8 +4,8 @@ date: 2014-07-13T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/13.2-Gotham-beta.png
-  title: ''
-  alt: ''
+  title: '13.2-Gotham-beta'
+  alt: '13.2-Gotham-beta'
 ---
 **Update:** Our download page now contains a Gotham 13.2 beta 2 release. List of fixes has been updated.
 

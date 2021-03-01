@@ -4,8 +4,8 @@ date: 2015-06-20T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/kodishieldwide.jpg
-  title: ''
-  alt: ''
+  title: 'kodishieldwide'
+  alt: 'kodishieldwide'
 ---
 As you may have heard by now, we have a few announcements to make that should be of particular relevance to you Kodi for Android users out there.
 

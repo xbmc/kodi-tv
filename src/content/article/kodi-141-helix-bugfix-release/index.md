@@ -4,8 +4,8 @@ date: 2015-02-01T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-helix-14.1.png
-  title: ''
-  alt: ''
+  title: 'kodi-helix-14.1'
+  alt: 'kodi-helix-14.1'
 ---
 ### EDIT: Please see our Kodi 14.2 beta release
 

@@ -4,8 +4,8 @@ date: 2013-03-31T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/xbmc_immersive.jpg
-  title: ''
-  alt: ''
+  title: 'xbmc_immersive'
+  alt: 'xbmc_immersive'
 ---
 [![](/sites/default/files/uploads/xbmc_immersive-300x169.jpg "XBMC with Modern UI skin")](/sites/default/files/uploads/xbmc_immersive.jpg)  
  Sranshaft's Immersive skin is a leading candidate for new default XBMC skin

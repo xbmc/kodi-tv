@@ -4,8 +4,8 @@ date: 2015-08-15T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-system-15.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-system-15'
+  alt: 'kodi-system-15'
 ---
 Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and last release was no exception. Even though tens of thousands of users were already testing the 15.0 version before release, as soon as million started using it, some problems we either did not think of or which we did not notice popped up. To counter some of these new issues, we’re bringing you this maintenance release called 15.1 which has some additional fixes on top of the 15.0 release. To be safe just backup your [userdata (online manual)](https://kodi.wiki/view/Userdata) first.  
  It should be ok to just install this on top of your current Kodi 15.0 version. For the MySQL users out there; we never bump the database versions in our bugfix or maintenance releases – you can safely keep using it within your network. For additional information about version 15 or upgrading you can visit our [Frequently Asked Questions](https://kodi.wiki/view/Kodi_v15_(Isengard)_FAQ) page.

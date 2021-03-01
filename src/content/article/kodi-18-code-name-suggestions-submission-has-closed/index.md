@@ -4,8 +4,8 @@ date: 2016-12-05T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_18_Name.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi_Blog_18_Name'
+  alt: 'Kodi_Blog_18_Name'
 ---
 UPDATE: 24 December 2016
 

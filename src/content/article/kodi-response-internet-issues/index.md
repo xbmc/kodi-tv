@@ -4,8 +4,8 @@ date: 2020-03-31T05:39:35Z
 author: Team Kodi
 featured_image:
   src: /images/blog/kodi-minimum-60.png
-  title: ''
-  alt: ''
+  title: 'Kodi bandwidth speed limit'
+  alt: 'Kodi bandwidth speed limit'
 ---
 Kodi's Response to Internet Issues
 ----------------------------------

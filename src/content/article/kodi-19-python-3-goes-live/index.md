@@ -4,8 +4,8 @@ date: 2019-11-16T02:33:03Z
 author: Team Kodi
 featured_image:
   src: /images/blog/kplusp.png
-  title: ''
-  alt: ''
+  title: 'Kodi Matrix goes Python 3'
+  alt: 'Kodi Matrix goes Python 3'
 ---
 Kodi 19 with Python 3 Goes Live
 -------------------------------

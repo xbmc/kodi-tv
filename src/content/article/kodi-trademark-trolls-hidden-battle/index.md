@@ -4,8 +4,8 @@ date: 2017-09-07T08:46:05Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/fairy-tales-1662427_1920.jpg
-  title: ''
-  alt: ''
+  title: 'fairy-tales-1662427_1920'
+  alt: 'fairy-tales-1662427_1920'
 ---
 Many users are aware of the tug of war being played between piracy add-on writers on one side and legitimate services on the other that are using Kodi as a platform. Far fewer are aware of the other battle the Kodi project is dealing with on a regular basis. For some reason, when we announced the name Kodi would be replacing the name XBMC back in August of 2014, a number of individuals with what appear to be less than altruistic motives decided to act as trademark trolls. They attempted to register the Kodi name in various countries outside the United States with the goal of earning money off the Kodi name without doing any work beyond sending threatening letters.
 

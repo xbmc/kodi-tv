@@ -4,8 +4,8 @@ date: 2013-12-23T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/12_3-Frodo.png
-  title: ''
-  alt: ''
+  title: '12_3-Frodo'
+  alt: '12_3-Frodo'
 ---
 ![zappy-santa](/sites/default/files/uploads/zappy-santa-290x300.png)
 

@@ -4,8 +4,8 @@ date: 2017-01-08T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Kodi-tie-fighter.png
-  title: ''
-  alt: ''
+  title: 'Kodi-tie-fighter'
+  alt: 'Kodi-tie-fighter'
 ---
 When deciding on a code name for the release of Kodi 18, we determined to do things just a little differently this time around. Normally, when we pick a new code name, we go through the suggestion threads, gather together the top 5 or top 10 suggestions, and vote on them. We did something similar this year, compiled a huge list of names, including quite a lot of excellent ones… and then 2016 happened.
 

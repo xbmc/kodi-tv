@@ -4,8 +4,8 @@ date: 2014-08-30T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash.png
-  title: ''
-  alt: ''
+  title: 'kodi-splash'
+  alt: 'kodi-splash'
 ---
 Kodi 14, which we gave the codename “*Helix*“, is shaping up to be what is often called a “stability” release. In software development, many projects operate on a sort of tick-tock release schedule. The “tick” often introduces new features, dramatically alters the UI, and can likely dramatically alter the underlying framework of the software. The “tock” on the other hand, goes back and cleans up the code, fixing old incompatibilities, eliminating UI inconsistencies, and often preparing the groundwork for the next major tick. Where Gotham was quite definitely a “tick,” Helix is shaping up to be a “tock.”
 

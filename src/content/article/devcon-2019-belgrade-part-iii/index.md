@@ -4,8 +4,8 @@ date: 2019-10-11T00:15:57Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Church of Saint Sava
-  title: ''
-  alt: ''
+  title: 'Church of Saint Sava, Belgrade -  Creative Commons Attribution 2.0 Generic - https://commons.wikimedia.org/wiki/File:Church_of_Saint_Sava,_the_largest_Orthodox_church_in_the_world_(13810407793).jpg'
+  alt: 'Church of Saint Sava, Belgrade -  Creative Commons Attribution 2.0 Generic - https://commons.wikimedia.org/wiki/File:Church_of_Saint_Sava,_the_largest_Orthodox_church_in_the_world_(13810407793).jpg'
 ---
 So, here we are, the third and final day of DevCon 2019. It's likely to be a short list of topics this morning before some people head home while those who remain use the time together to write some fabulous code. So, let's get straight to business.
 

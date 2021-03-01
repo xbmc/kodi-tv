@@ -4,8 +4,8 @@ date: 2013-09-04T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/3D_in_2D.jpg
-  title: ''
-  alt: ''
+  title: '3D_in_2D'
+  alt: '3D_in_2D'
 ---
 For those keeping track, we’ve just completed alpha #7 in the August cycle, which includes two absolutely massive new features: Stereoscopic 3D support and Android Hardware video decoding. As always, the monthly alpha build is available on our [Snapshots page](http://mirrors.xbmc.org/snapshots/ "XBMC Snapshots"), and the typical warning applies: this is alpha software; things are very likely to break. With that said, let’s look at what we’ve been working on.
 

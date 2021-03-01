@@ -4,8 +4,8 @@ date: 2015-02-25T03:00:00Z
 author: Kib
 featured_image:
   src: /images/blog/kodifosdem.png
-  title: ''
-  alt: ''
+  title: 'kodifosdem'
+  alt: 'kodifosdem'
 ---
 On the 31st of January and 1st of February a few team-Kodi members visited the Free and Open Source Software Developers European Meeting (FOSDEM) 2015 to give two presentations as well as to set up a stand.
 

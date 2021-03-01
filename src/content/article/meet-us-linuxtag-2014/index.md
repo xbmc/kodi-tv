@@ -4,8 +4,8 @@ date: 2014-04-14T04:00:00Z
 author: Blittan
 featured_image:
   src: /images/blog/Skärmavbild-2014-04-15-kl.-20.52.381.png
-  title: ''
-  alt: ''
+  title: 'Skärmavbild-2014-04-15-kl.-20.52.381'
+  alt: 'Skärmavbild-2014-04-15-kl.-20.52.381'
 ---
 Once again we will be exhibit between the 8th and 10th of May at [LinuxTag](http://www.linuxtag.org/en/ "LinuxTag") in Berlin, Germany. This will be our sixth year attending.
 

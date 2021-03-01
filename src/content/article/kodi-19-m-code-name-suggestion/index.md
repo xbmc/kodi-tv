@@ -4,8 +4,8 @@ date: 2018-10-13T02:48:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-blue'
+  alt: 'Kodi-Wallpaper-blue'
 ---
 Since the dawn of time, or at least since 2008 each released version has received a code name next to the version number. Giving each development iteration a code name in a certain category is kind of a tradition that is not only applicable for software but also for hardware. Google does so for Android and Intel also names their chips. Who are we to break this tradition and as such we follow in their steps with a theme that started out with mythical places or names.
 

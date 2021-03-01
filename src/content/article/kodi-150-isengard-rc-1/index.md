@@ -4,8 +4,8 @@ date: 2015-07-01T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-system-15.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-system-15'
+  alt: 'kodi-system-15'
 ---
 Here it is, the first Release Candidate (RC) built for Kodi 15.0; freshly baked and ready to be served! Although we said that Kodi 15.0 is a “clean-up” edition, we still managed to squeeze in a couple of really nice features. So far we had around 1050 code change requests which were included since Kodi 14.2. This vast amount sums up in a pretty big list of improvements and clean-up being done by various developers for which we should show our everlasting gratitude. As such we will only highlight some of the bigger changes further on. Download link is also provided at the bottom.
 

@@ -4,8 +4,8 @@ date: 2014-03-31T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/gotham_splash_beta-600x336.png
-  title: ''
-  alt: ''
+  title: 'gotham_splash_beta-600x336'
+  alt: 'gotham_splash_beta-600x336'
 ---
 Once again with Beta 3 we are looking at almost entirely fixes rather than features. Still, many of those fixes are worth mentioning in an abbreviated change log, and at least one is worth bringing up by name.
 

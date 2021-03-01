@@ -4,8 +4,8 @@ date: 2015-03-27T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/kodi-14.2.png
-  title: ''
-  alt: ''
+  title: 'kodi-14.2'
+  alt: 'kodi-14.2'
 ---
 We are proud to announce Kodi 14.2. This marks the final point release before we move on to Kodi 15 “Isengard.”
 

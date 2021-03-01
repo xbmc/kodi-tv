@@ -4,8 +4,8 @@ date: 2017-05-24T06:31:33Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/risk-knob.jpg
-  title: ''
-  alt: ''
+  title: 'risk-knob'
+  alt: 'risk-knob'
 ---
 Sorry for this quick bump to v17.3 however we deemed it necessary. In the previous v17.2 we had a slight issue due to packaging certain binary add-ons like PVR, visualisation and Inputstream. Sadly we only uncovered this too late after release. Additionally on the older distros like Ubuntu 14.04 in combination with the available GCC 4.8 compiler an issue surfaced which we had to fix as well. This v17.3 release fixed both these issues and should be completely working again including the missing add-ons. 
 

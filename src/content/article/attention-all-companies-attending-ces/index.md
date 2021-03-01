@@ -4,8 +4,8 @@ date: 2016-10-15T03:00:00Z
 author: Keith Herrington
 featured_image:
   src: /images/blog/kodi_ces.png
-  title: ''
-  alt: ''
+  title: 'kodi_ces'
+  alt: 'kodi_ces'
 ---
 For the third year in a row, Kodi is attending CES.
 

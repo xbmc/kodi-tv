@@ -4,8 +4,8 @@ date: 2019-01-11T12:11:18Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Motherboard_2D_A_900x336.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi Motherboard'
+  alt: 'Kodi Motherboard'
 ---
  As mentioned in the RC4 release article, a final release was close on the horizon. To that end we hereby present you the last Release Candate (RC5) before we call it a wrap on v18.0. It will not be absolutely perfect but we have to go forward at some point. Don't worry as we will of course continue working on fixing any issue that might surface in the regeular v18 point releases afterwards. 
 

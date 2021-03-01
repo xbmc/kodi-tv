@@ -4,8 +4,8 @@ date: 2016-01-10T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-blue'
+  alt: 'Kodi-Wallpaper-blue'
 ---
 With this announcement we are releasing the last beta in the Jarvis line before we are switching to Release Candidates. We hope the feedback from users regarding this beta is positive since we as team can’t test all use cases ourselves. As such we wan’t to thank all the users who helped us find the biggest blockers before we can move towards the Release Candidates.
 

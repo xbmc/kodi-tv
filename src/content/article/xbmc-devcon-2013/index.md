@@ -4,8 +4,8 @@ date: 2013-10-02T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/IMG_0796.jpg
-  title: ''
-  alt: ''
+  title: 'IMG_0796'
+  alt: 'IMG_0796'
 ---
 It’s been a busy year since XBMC’s 2012 Developers’ Conference. In that time, XBMC 12.2 was released. The Raspberry Pi became one of the most used (if not the single most used) pieces of hardware to run XBMC. Hardware decoding in Android has become a real thing if only in alpha builds. PVR was added to the official XBMC release. The XBMC home page got a whole new look. Frankly, the list runs longer than any person should ever want to read.
 

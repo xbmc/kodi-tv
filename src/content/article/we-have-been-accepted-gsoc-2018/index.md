@@ -4,8 +4,8 @@ date: 2018-02-12T08:21:52Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gsoc_2018.png
-  title: ''
-  alt: ''
+  title: 'gsoc_2018'
+  alt: 'gsoc_2018'
 ---
 We are excited to announce that Kodi has been [accepted as a Google Summer of Code 2018 project](https://summerofcode.withgoogle.com/organizations/5424326371704832/)! Students, as of the time of this publication, you have about 2 weeks to start thinking about project ideas.
 

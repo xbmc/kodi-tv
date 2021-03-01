@@ -4,8 +4,8 @@ date: 2014-10-07T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Screen-Shot-2014-09-22-at-1.04.58-PM.png
-  title: ''
-  alt: ''
+  title: 'Screen-Shot-2014-09-22-at-1.04.58-PM'
+  alt: 'Screen-Shot-2014-09-22-at-1.04.58-PM'
 ---
 As many of you know, the path to our new name is only partially complete. Beyond the various legal steps still needed to be taken, we need to finally take a step forward in the design of our new logo. The logo that’s been posted on the alpha release threads has been an acceptable place holder, but now is the time to get serious about selecting something more lasting.
 

@@ -4,8 +4,8 @@ date: 2015-03-11T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-14.2-rc.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-splash-14.2-rc'
+  alt: 'kodi-splash-14.2-rc'
 ---
 We are proud to announce the release candidate of Kodi 14.2 in which we further try to improve stability. As you may all know by now, we have a new name, a new logo, and a wide variety of new features, but underneath the new coat of paint remains the same software we all love. 14.2 will become the the second and final bug-fix release in the Helix range. As we have mentioned in our Kodi 14.0 [release announcement,](/article/kodi-140-helix-unwinds) we will be releasing these extra releases to squash down any issues left after the first big release. Below you will find a list of fixes so far. In the Kodi 14.1 [release announcement](/article/kodi-141-helix-bugfix-release) you can find the sum up of previous fixes done in the Helix range.
 

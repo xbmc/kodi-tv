@@ -4,8 +4,8 @@ date: 2014-05-17T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13_1-beta.png
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-13_1-beta'
+  alt: 'xbmc-gotham-13_1-beta'
 ---
 Now that more people are starting to use XBMC 13.0 codename “Gotham,” several issues have popped up which thorough testing hadn’t previously revealed. We have already released a 13.1 beta1 which has several fixes and improvements compared to the 13.0 stable release. Since then, our developers have added even more improvements which should resolve a few remaining issues.  
  To that end, we are announcing this 13.1 beta 2 release. Do note that this release contain only fixes and no new features. Although we call this a beta release it should be safe to install on top of current 13.0 release as changes are minimal and confirmed working. In due time we will of course release a 13.1 stable version after we are confident, there are no regressions, aka problems caused by these fixes, compared to 13.0 stable. Should you find any problems, you can find how to report these at the bottom of this blog post.

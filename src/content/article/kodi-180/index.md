@@ -4,8 +4,8 @@ date: 2019-01-28T23:49:48Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi_blog_k-18l_c_900x336.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi v18 "Leia" robot'
+  alt: 'Kodi v18 "Leia" robot'
 ---
 **Kodi 18 is here!**
 --------------------

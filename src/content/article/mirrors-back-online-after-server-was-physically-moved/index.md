@@ -4,8 +4,8 @@ date: 2014-10-11T03:00:00Z
 author: Kib
 featured_image:
   src: /images/blog/move_succeedeed.png
-  title: ''
-  alt: ''
+  title: 'move_succeedeed'
+  alt: 'move_succeedeed'
 ---
 **Update:**
 

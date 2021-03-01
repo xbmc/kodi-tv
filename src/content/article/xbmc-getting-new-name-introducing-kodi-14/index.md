@@ -4,8 +4,8 @@ date: 2014-07-31T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/kodi-splash-600x336.png
-  title: ''
-  alt: ''
+  title: 'kodi-splash-600x336'
+  alt: 'kodi-splash-600x336'
 ---
 **UPDATE: [Download Kodi 14.0 from our download page.](https://kodi.wiki/download/)**
 

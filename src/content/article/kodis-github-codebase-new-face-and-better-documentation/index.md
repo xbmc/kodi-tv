@@ -4,8 +4,8 @@ date: 2018-07-27T13:28:01Z
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/matrix.jpg
-  title: ''
-  alt: ''
+  title: 'matrix'
+  alt: 'matrix'
 ---
 ### The problem
 

@@ -4,8 +4,8 @@ date: 2014-01-04T03:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser.jpg
-  title: ''
-  alt: ''
+  title: 'xbmc-gotham-teaser'
+  alt: 'xbmc-gotham-teaser'
 ---
 With Feature Freeze now being in effect and the team is working towards a Beta release which we still have not set a release day for, the last two months have had tons of new additions and fixes to XBMC, both major and minor. A quick look at the [change log](https://github.com/xbmc/xbmc/compare/Gotham_alpha9...Gotham_alpha10 "Alpha 10 Changelog") shows well over 800 new commits (commits are chunks of code additions/changes) in the month November and for December the [change log](https://github.com/xbmc/xbmc/compare/Gotham_alpha10...Gotham_alpha11 "Alpha 11 Changelog") shows over 500 commits. Of course we will not stop there and continue improving stability as at the moment of this writing more than 100 [commits](https://github.com/xbmc/xbmc/compare/Gotham_alpha11...master) have been added.
 

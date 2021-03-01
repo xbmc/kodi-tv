@@ -4,8 +4,8 @@ date: 2018-09-29T22:21:58Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi-logo-2.jpg
-  title: ''
-  alt: ''
+  title: 'kodi-logo-2'
+  alt: 'kodi-logo-2'
 ---
 One more day, with enough content to warrant a separate blog post - partly because people are still here for the most part, partly because of new stuff that's been added to the agenda as we've gone along, and partly because of the topics that, despite our best efforts, managed to escape from previous days.
 

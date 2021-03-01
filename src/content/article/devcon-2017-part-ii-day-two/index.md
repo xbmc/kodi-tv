@@ -4,8 +4,8 @@ date: 2017-10-27T04:21:54Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/20171027_184546_HDR-2.jpg
-  title: ''
-  alt: ''
+  title: '20171027_184546_HDR-2'
+  alt: '20171027_184546_HDR-2'
 ---
 Day Two dawns... most people are bright-eyed and ready for another day, although, if I'm honest, some people may be here more in body than in spirit...  
  

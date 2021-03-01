@@ -4,8 +4,8 @@ date: 2018-12-12T02:23:41Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/devon-janse-van-rensburg-763520-unsplash.jpg
-  title: ''
-  alt: ''
+  title: 'devon-janse-van-rensburg-763520-unsplash'
+  alt: 'devon-janse-van-rensburg-763520-unsplash'
 ---
 So, the sun starts to set on 2018, and another year draws to a close. At the same time, we stand ready to launch Kodi 18 "Leia" in the very near future, which opens a new chapter in how Kodi is structured, how it functions, how it's used. It seems like an appropriate time to stop and draw breath, then, and take a look backwards: what's been good, what's been bad, the what-went-wells, the where-do-we-still-have-challenges.
 

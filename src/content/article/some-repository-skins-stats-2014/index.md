@@ -4,8 +4,8 @@ date: 2014-08-21T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/header_skin_stats_2014.jpg
-  title: ''
-  alt: ''
+  title: 'header_skin_stats_2014'
+  alt: 'header_skin_stats_2014'
 ---
 We all know the default skin which XBMC comes with in 13.x Gotham. It’s designed to be simple and lightweight to support even the least powerful media device. More importantly to be new user friendly, without all bells and whistles. Some like it, some might not. However the power of customisation in XBMC let’s you install about any skin out there which is designed for this specific 13.x release series. Be it through through our build in repository (this is where add-ons are installed from), using third-party repositories or by simply installing the .zip which skinners (as we call these developers) provide. We’re not talking about a different colour or some small layout changes. Most of them are totally unlike any other. Some of these skins are as lightweight and simple to use as our Confluence skin, while others go all the way and provide a full blown customisable interface for you to tinker with, until you get it how you like. At this moment there are a whopping twenty-one different skins available from our repository, which should be enough for the average users. Even more so are available through our forums or any other place out there.
 

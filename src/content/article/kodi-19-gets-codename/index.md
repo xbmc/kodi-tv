@@ -4,8 +4,8 @@ date: 2019-04-23T07:47:28Z
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/kodi_matrix.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi Matrix v19'
+  alt: 'Kodi Matrix v19'
 ---
 It's that time again. After unleashing Kodi v18 Leia into the wild, it's time to give the upcoming Kodi 19 a codename.
 

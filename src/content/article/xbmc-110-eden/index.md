@@ -4,8 +4,8 @@ date: 2012-03-23T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/xbmc-eden-announce-2-650-1.jpg
-  title: ''
-  alt: ''
+  title: 'xbmc-eden-announce-2-650-1'
+  alt: 'xbmc-eden-announce-2-650-1'
 ---
 It’s been over a year in the works and today we are excited to announce that XBMC 11.0 is finally ready and available for download. You can [find XBMC 11.0 here](https://kodi.wiki/download/ "Download XBMC 11.0").
 

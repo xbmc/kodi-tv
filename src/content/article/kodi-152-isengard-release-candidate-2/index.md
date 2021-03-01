@@ -4,8 +4,8 @@ date: 2015-09-19T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-11A-1080p_samfisher.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi-Wallpaper-11A-1080p_samfisher'
+  alt: 'Kodi-Wallpaper-11A-1080p_samfisher'
 ---
 Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and last release was no exception. Even though tens of thousands of users were already testing the 15.0 version before release and we try very hard to prevent them, as soon as million started using it, some problems we either did not think of or which we did not notice popped up. To counter some of these new issues, we’re bringing you this second maintenance release candidate called 15.2 RC2 which has some additional fixes on top of the 15.0 and 15.1 release.
 

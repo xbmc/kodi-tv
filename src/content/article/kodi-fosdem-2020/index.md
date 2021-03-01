@@ -4,8 +4,8 @@ date: 2020-01-31T02:35:27Z
 author: Team Kodi
 featured_image:
   src: /images/blog/Fosdem.png
-  title: ''
-  alt: ''
+  title: 'Kodi at Fosdem'
+  alt: 'Kodi at Fosdem'
 ---
 Kodi at FOSDEM 2020
 -------------------

@@ -4,8 +4,8 @@ date: 2020-10-23T03:00:00Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v18.9_Leia_Final_1080p.jpg
-  title: ''
-  alt: ''
+  title: 'Kodi 18.9 Splash Screen'
+  alt: 'Kodi 18.9 Splash Screen'
 ---
 *Mutter, mutter... "18.8 will be the last", they said... "all efforts will go into 19.x now", they said... famous last words...*
 

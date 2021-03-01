@@ -4,8 +4,8 @@ date: 2015-04-30T04:00:00Z
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-installing-skin.png
-  title: ''
-  alt: ''
+  title: 'Kodi-installing-skin'
+  alt: 'Kodi-installing-skin'
 ---
 Here it is, the first beta build for Kodi 15.0; freshly baked and ready to be served! We could call Kodi 15.0 a “clean-up” edition due to the lack of any prominent features and due to the massive spring cleaning we have been doing during the past months. Although some nice new features have been added, the majority of work was done cleaning up the vast complexity of code that was built up over the years. We still have a long way to go.
 

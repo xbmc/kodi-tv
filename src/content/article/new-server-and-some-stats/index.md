@@ -4,8 +4,8 @@ date: 2015-07-12T04:00:00Z
 author: zag
 featured_image:
   src: /images/blog/splash_racks.jpg
-  title: ''
-  alt: ''
+  title: 'splash_racks'
+  alt: 'splash_racks'
 ---
 We just wanted to make a quick Blog to say thanks to one of our sponsors - [ByteMark](https://www.bytemark.co.uk) - for providing us with a brand new dedicated SSD web server. We currently run a number of back-end services for Kodi such as this website, forum, wiki, mirror redirector, buildbot ect. With the ever increasing use of Kodi, we need to build the back-end to scale with it. The new server will help with new services and taking the load of existing service that have seen a huge increase as Kodi becomes more popular.
 

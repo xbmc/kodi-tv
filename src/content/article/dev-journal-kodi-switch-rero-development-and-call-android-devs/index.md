@@ -4,8 +4,8 @@ date: 2016-04-27T04:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/early_often.jpeg
-  title: ''
-  alt: ''
+  title: 'early_often'
+  alt: 'early_often'
 ---
 *Editor’s note: Kodi 17 is a big, big release, and we’ve decided to break down blog posts about it into smaller pieces. We’re starting with an explanation of the new release philosophy we’ve been using for Kodi 15, 16, and 17.*
 

@@ -4,8 +4,8 @@ date: 2013-10-10T03:00:00Z
 author: Nathan Betzen
 featured_image:
   src: /images/blog/photo.jpg
-  title: ''
-  alt: ''
+  title: 'photo'
+  alt: 'photo'
 ---
 Good morning, Germany!
 
