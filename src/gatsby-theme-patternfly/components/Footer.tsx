@@ -55,7 +55,7 @@ const Footer = () => (
             <a target="_blank" rel="noopener" href={'https://www.facebook.com/KodiEntertainment'}>Facebook</a><br />
             <a target="_blank" rel="noopener" href={'https://twitter.com/KodiTV'}>Twitter</a><br />
             <a target="_blank" rel="noopener" href={'https://www.youtube.com/user/teamxbmc'}>YouTube</a><br />
-            <a target="_blank" rel="noopener" href={'https://feeds.kodi.tv/xbmc'}>RSS</a><br />
+            <a target="_blank" rel="noopener" href={'/rss.xml'}>RSS</a><br />
           </GalleryItem>
           <GalleryItem>
             <TextContent>
