@@ -33,6 +33,20 @@ collections:
           - {name: 'title', label: 'Title', widget: 'string'}
           - {name: 'alt', label: 'Alt text', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'featuredaddons'
+    label: 'Featured Add-ons'
+    files:
+      - label: "Featured Add-ons List"
+        name: 'featuredlist'
+        file: 'src/data/addons/featured.yaml'
+        fields:
+          - name: 'addons'
+            label: 'Add-ons'
+            label_singular: 'Add-on'
+            widget: 'list'
+            summary: '{{addonid}}'
+            fields:
+              - { name: 'addonid', label: 'Add-on ID', widget: 'string' }
   - name: 'store'
     label: 'Store'
     label_singular: 'Item'
