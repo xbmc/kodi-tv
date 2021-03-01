@@ -2,8 +2,8 @@ import React from "react"
 import {
   PageSection,
   PageSectionVariants,
-  Gallery,
-  GalleryItem,
+  Flex,
+  FlexItem,
   Split,
   SplitItem,
   TextContent,
@@ -25,9 +25,9 @@ const Footer = () => (
       </Split>
     </PageSection>
     <PageSection variant={PageSectionVariants.darker}>
-      <div style={{ width: "80%", marginLeft: "15%", marginRight: "5%" }}>
-        <Gallery hasGutter>
-          <GalleryItem>
+      <div style={{ width: "80%", marginLeft: "10%", marginRight: "10%" }}>
+        <Flex justifyContent={{ default: 'justifyContentSpaceBetween' }}>
+          <FlexItem>
             <TextContent>
               <Text component={TextVariants.h3}>About</Text>
             </TextContent>
@@ -39,25 +39,12 @@ const Footer = () => (
             <Link to={'/privacy-policy'}>Privacy Policy</Link><br />
             <Link to={'/about/sponsors'}>Sponsorship</Link><br />
             <Link to={'/about/foundation'}>Kodi Foundation</Link><br />
-          </GalleryItem>
-          <GalleryItem>
-            <TextContent>
-              <Text component={TextVariants.h3}>Sponsors</Text>
-            </TextContent>
-            <a target="_blank" rel="noopener" href={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</a><br />
-            <a target="_blank" rel="noopener" href={'https://flirc.tv'}>FLIRC</a><br />
-            <a target="_blank" rel="noopener" href={'https://www.macminivault.com'}>Mac Mini Vault</a><br />
-          </GalleryItem>
-          <GalleryItem>
-            <TextContent>
-              <Text component={TextVariants.h3}>Social</Text>
-            </TextContent>
-            <a target="_blank" rel="noopener" href={'https://www.facebook.com/KodiEntertainment'}>Facebook</a><br />
-            <a target="_blank" rel="noopener" href={'https://twitter.com/KodiTV'}>Twitter</a><br />
-            <a target="_blank" rel="noopener" href={'https://www.youtube.com/user/teamxbmc'}>YouTube</a><br />
-            <a target="_blank" rel="noopener" href={'/rss.xml'}>RSS</a><br />
-          </GalleryItem>
-          <GalleryItem>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+          </FlexItem>
+          <FlexItem>
             <TextContent>
               <Text component={TextVariants.h3}>Friends</Text>
             </TextContent>
@@ -69,9 +56,37 @@ const Footer = () => (
             <a target="_blank" rel="noopener" href={'https://thegamesdb.net'}>TheGamesDB.net</a><br />
             <a target="_blank" rel="noopener" href={'https://www.themoviedb.org'}>TheMovieDB.org</a><br />
             <a target="_blank" rel="noopener" href={'https://www.thetvdb.com'}>TheTVDB.com</a><br />
-          </GalleryItem>
-        </Gallery>
-        <p /><br /><p />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+          </FlexItem>
+          <FlexItem>
+            <TextContent>
+              <Text component={TextVariants.h3}>Sponsors</Text>
+            </TextContent>
+            <a target="_blank" rel="noopener" href={'https://www.bytemark.co.uk/r/xbmc'}>Bytemark</a><br />
+            <a target="_blank" rel="noopener" href={'https://flirc.tv'}>FLIRC</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.macminivault.com'}>Mac Mini Vault</a><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+          </FlexItem>
+          <FlexItem>
+            <TextContent>
+              <Text component={TextVariants.h3}>Social</Text>
+            </TextContent>
+            <a target="_blank" rel="noopener" href={'https://www.facebook.com/KodiEntertainment'}>Facebook</a><br />
+            <a target="_blank" rel="noopener" href={'https://twitter.com/KodiTV'}>Twitter</a><br />
+            <a target="_blank" rel="noopener" href={'https://www.youtube.com/user/teamxbmc'}>YouTube</a><br />
+            <a target="_blank" rel="noopener" href={'/rss.xml'}>RSS</a><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+          </FlexItem>
+        </Flex>
         This web site is powered by <a target="_blank" rel="noopener" href={'https://www.netlify.com'}>Netlify</a>.
       </div>
     </PageSection>
