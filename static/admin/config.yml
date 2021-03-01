@@ -36,9 +36,9 @@ collections:
   - name: 'featuredaddons'
     label: 'Featured Add-ons'
     files:
-      - label: "Featured Add-ons List"
-        name: 'featuredlist'
-        file: 'src/data/addons/featured.yaml'
+      - name: 'featuredlist'
+        label: "Featured Add-ons List"
+        file: 'src/data/addons/featured-addons.yaml'
         fields:
           - name: 'addons'
             label: 'Add-ons'
