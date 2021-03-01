@@ -4,8 +4,8 @@ date: 2020-04-09T21:42:43Z
 author: yol
 featured_image:
   src: /images/blog/cash.jpg
-  title: 'Image of man's hand holding US dollar bills'
-  alt: 'Image of man's hand holding US dollar bills'
+  title: "Image of man's hand holding US dollar bills"
+  alt: "Image of man's hand holding US dollar bills"
 ---
 As you might know, your donations help us deliver a great media center experience with Kodi. In addition to PayPal, Patreon, Bitpay, and wire transfer, we are happy to announce that you can now also support us with a recurring donation on **Liberapay** [here](https://liberapay.com/teamkodi). Liberapay is a recurrent donation platform similar to Patreon.
 
