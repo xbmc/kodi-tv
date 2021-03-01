@@ -64,33 +64,44 @@ export default function Addon({
                 </StackItem>
                 <StackItem>
                   <List variant={ListVariant.inline}>
-                    <ListItem>{addon.version}</ListItem>
-                    <ListItem>&bull;</ListItem>
-                    <ListItem>Last updated: {addon.lastupdate}</ListItem>
+                    <ListItem>&#128194; {addon.version}</ListItem>
+                    <ListItem>&#128339; {addon.lastupdate}</ListItem>
+                    <ListItem>&#128100;&nbsp;
+                      {addon.authors.map(
+                        (
+                          author: { name: string; slug: string },
+                          index: any
+                        ) => {
+                          return (
+                            <ItemWithComma
+                              description={author.name}
+                              url={"/addons/author/" + author.slug}
+                              index={index}
+                              length={addon.authors.length - 1}
+                              linkType="internal"
+                            />
+                          )
+                        }
+                      )}
+                    </ListItem>
                   </List>
-                  <TextContent id="authors">
-                    <TextList component="dl">
-                      <TextListItem component="dt">{authorlabel}</TextListItem>
-                      <TextListItem component="dd">
-                        {addon.authors.map(
-                          (
-                            author: { name: string; slug: string },
-                            index: any
-                          ) => {
-                            return (
-                              <ItemWithComma
-                                description={author.name}
-                                url={"/addons/author/" + author.slug}
-                                index={index}
-                                length={addon.authors.length - 1}
-                                linkType="internal"
-                              />
-                            )
-                          }
-                        )}
-                      </TextListItem>
-                    </TextList>
-                  </TextContent>
+                  <List variant={ListVariant.inline}>
+                    <ListItem>&#127991;&nbsp;
+                      {addon.categories.map(
+                        (category: { name: string; slug: string }, index: any) => {
+                          return (
+                            <ItemWithComma
+                              description={category.name}
+                              url={"/addons/category/" + category.slug}
+                              index={index}
+                              length={addon.categories.length - 1}
+                              linkType="internal"
+                            />
+                          )
+                        }
+                      )}
+                    </ListItem>
+                  </List>
                 </StackItem>
               </Stack>
             </SplitItem>
@@ -156,22 +167,6 @@ export default function Addon({
               </TextListItem>
               <TextListItem component="dt">Size</TextListItem>
               <TextListItem component="dd">{addon.size}</TextListItem>
-              <TextListItem component="dt">{categorylabel}</TextListItem>
-              <TextListItem component="dd">
-                {addon.categories.map(
-                  (category: { name: string; slug: string }, index: any) => {
-                    return (
-                      <ItemWithComma
-                        description={category.name}
-                        url={"/addons/category/" + category.slug}
-                        index={index}
-                        length={addon.categories.length - 1}
-                        linkType="internal"
-                      />
-                    )
-                  }
-                )}
-              </TextListItem>
             </TextList>
           </TextContent>
         </StackItem>
