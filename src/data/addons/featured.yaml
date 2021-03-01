@@ -1,7 +1,6 @@
---- # Featured Addons
 addons:
-   - metadata.tvshows.themoviedb.org.python
-   - screensaver.matrixtrails
-   - plugin.audio.radio_de
-   - metadata.themoviedb.org.python
-   - script.tvmaze.scrobbler
+  - addonid: metadata.tvshows.themoviedb.org.python
+  - addonid: screensaver.matrixtrails
+  - addonid: plugin.audio.radio_de
+  - addonid: metadata.themoviedb.org.python
+  - addonid: script.tvmaze.scrobbler

@@ -214,7 +214,7 @@ function getAddon(rawaddon) {
       .split(",")
       .map(item => item.trim())
       .forEach(assignAuthor)
-    if (featured.addons.includes(addon.id)) {
+    if (featured.addons.find(o => o.addonid === addon.id) !== undefined) {
       addon.featured = "true"
     }
     addonhistory = history.find(o => o.id === addon.id)
