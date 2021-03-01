@@ -41,7 +41,7 @@ You can help in so many different ways. As you may or may not know, Kodi is main
 
 export const pageQuery = graphql`
     query {
-        allDistributionYaml {
+        allDistributionYaml(sort: {fields: sort_order, order: ASC}) {
             edges {
                 node {
                     name
