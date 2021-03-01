@@ -4,8 +4,8 @@ date: 2019-11-20T02:57:13Z
 author: Team Kodi
 featured_image:
   src: /images/blog/WinHelpWanted.jpg
-  title: 'WinHelpWanted'
-  alt: 'WinHelpWanted'
+  title: 'Windows Devs, We Need You!'
+  alt: 'Windows Devs, We Need You!'
 ---
 Windows Developers - Kodi Needs You!
 ------------------------------------

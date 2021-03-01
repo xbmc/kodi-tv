@@ -4,8 +4,8 @@ date: 2019-01-24T01:15:52Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi fosdem2.png
-  title: 'kodi fosdem2'
-  alt: 'kodi fosdem2'
+  title: 'FOSDEM 2019 Logo - with added Kodi'
+  alt: 'FOSDEM 2019 Logo - with added Kodi'
 ---
 Belgium, here we come! Team Kodi will be at FOSDEM in Brussels next week. If you live anywhere near, if you're attending, if you can make the detour - please, come along and meet some of the team.
 

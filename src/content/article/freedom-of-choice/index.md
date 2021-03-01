@@ -4,8 +4,8 @@ date: 2019-06-30T05:34:00Z
 author: DarrenHill
 featured_image:
   src: /images/blog/raul-petri-unsplash.jpg
-  title: 'raul-petri-unsplash'
-  alt: 'raul-petri-unsplash'
+  title: 'Freedom of Choice - Photo by Raul Petri on Unsplash'
+  alt: 'Freedom of Choice - Photo by Raul Petri on Unsplash'
 ---
 ### The Freedom of Choice
 

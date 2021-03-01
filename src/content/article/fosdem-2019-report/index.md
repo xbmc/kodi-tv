@@ -4,8 +4,8 @@ date: 2019-02-10T06:17:13Z
 author: yol
 featured_image:
   src: /images/blog/kodi fosdem2.png
-  title: 'kodi fosdem2'
-  alt: 'kodi fosdem2'
+  title: 'FOSDEM 2019 Logo - with added Kodi'
+  alt: 'FOSDEM 2019 Logo - with added Kodi'
 ---
 At the beginning of the month seven Team Kodi members attended FOSDEM, Europe's largest meeting of Free and Open Source Software developers that takes place over two days each year in Brussels, Belgium. FOSDEM is a great opportunity to meet up amongst ourselves, and with friends from projects like VideoLAN and FFmpeg.
 

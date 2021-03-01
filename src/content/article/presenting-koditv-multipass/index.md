@@ -4,8 +4,8 @@ date: 2019-03-31T12:59:19Z
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/multipass.png
-  title: 'multipass'
-  alt: 'multipass'
+  title: 'Kodi MultiPass'
+  alt: 'Kodi MultiPass'
 ---
 This is going to be short and sweet: we proudly present KodiTV™ MultiPass!
 

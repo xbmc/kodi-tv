@@ -4,8 +4,8 @@ date: 2019-04-22T03:02:55Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/56497556-ef88dd00-64f5-11e9-9924-6ecc6bbea17c.jpg
-  title: '56497556-ef88dd00-64f5-11e9-9924-6ecc6bbea17c'
-  alt: '56497556-ef88dd00-64f5-11e9-9924-6ecc6bbea17c'
+  title: 'Kodi 18 Robot'
+  alt: 'Kodi 18 Robot'
 ---
 Just when you thought we were all having a rest for Easter, here's some surprise news for you: Kodi "Leia" 18.2 is ready to roll. The sun is shining and the sky is blue here in western Europe, and we're all tied to our keyboards to bring you the latest Kodi loveliness. We're kind like that.
 

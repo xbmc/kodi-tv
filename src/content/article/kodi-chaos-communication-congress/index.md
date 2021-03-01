@@ -4,8 +4,8 @@ date: 2019-12-25T10:51:29Z
 author: Team Kodi
 featured_image:
   src: /images/blog/2017-12-28_Leipzig,_34c3,_Fairy_Dust_(freddy2001)_-_denoised_and_pixelized.jpg
-  title: '2017-12-28_Leipzig,_34c3,_Fairy_Dust_(freddy2001)_-_denoised_and_pixelized'
-  alt: '2017-12-28_Leipzig,_34c3,_Fairy_Dust_(freddy2001)_-_denoised_and_pixelized'
+  title: 'Photo from 36C3 web page, by Yves Sorge, Flickr'
+  alt: 'Photo from 36C3 web page, by Yves Sorge, Flickr'
 ---
 For the next few days the 36th Chaos Communication Congress, the largest hacker conference in Europe, is held in Leipzig, Germany. Organized by the Chaos Computer Club, it features a lot of tech related talks and assemblies.
 

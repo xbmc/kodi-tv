@@ -4,8 +4,8 @@ date: 2019-09-21T02:01:42Z
 author: DarrenHill
 featured_image:
   src: /images/blog/legal.jpg
-  title: 'legal'
-  alt: 'legal'
+  title: 'Image by Fathromi Ramdlon from Pixabay '
+  alt: 'Image by Fathromi Ramdlon from Pixabay '
 ---
 **Is Kodi legal?**
 ------------------
