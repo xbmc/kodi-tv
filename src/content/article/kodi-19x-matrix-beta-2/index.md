@@ -4,8 +4,8 @@ date: 2020-12-06T05:45:00Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v19.0_Matrix_Beta_1080p.jpg
-  title: 'Kodi_Splash_v19.0_Matrix_Beta_1080p'
-  alt: 'Kodi_Splash_v19.0_Matrix_Beta_1080p'
+  title: 'Kodi 19.0 Beta Splash Screen'
+  alt: 'Kodi 19.0 Beta Splash Screen'
 ---
 So, here we go again. Nothing earth-shattering, just a quick note to tell you that the second Beta of Kodi 19.x "Matrix" is now available for installation.
 

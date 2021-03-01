@@ -4,8 +4,8 @@ date: 2020-07-29T17:00:00Z
 author: Team Kodi
 featured_image:
   src: /images/blog/password-2781614_1920.jpg
-  title: 'password-2781614_1920'
-  alt: 'password-2781614_1920'
+  title: 'Password combination lock image by Gino Crescoli from Pixabay.'
+  alt: 'Password combination lock image by Gino Crescoli from Pixabay.'
 ---
 Kodi includes a powerful web interface that can be used with any browser, but also sits behind the remote control application you use on your phone, or the web front end on your tablet - if you're using Kore, or Chorus, or one of the numerous alternatives, then you're using this interface. However, it has recently been brought to our attention that not all users follow security best practices when enabling this functionality, and are thus exposing themselves to danger. This is partially our fault, since we have not been completely clear about the implications of enabling external interfaces in Kodi. The next Kodi release, 19.x "Matrix", will provide more context when interfaces are enabled, and require a password for the web interface by default. This blog post will detail how you could be affected by an exposed interface at the moment, however, and what to do about it.
 

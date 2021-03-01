@@ -4,8 +4,8 @@ date: 2020-08-07T12:00:00Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
-  title: 'Kodi_Splash_v19.0_Matrix_Alpha_1080p'
-  alt: 'Kodi_Splash_v19.0_Matrix_Alpha_1080p'
+  title: 'Kodi 19.0 Alpha Splash Screen'
+  alt: 'Kodi 19.0 Alpha Splash Screen'
 ---
 So, here we go. Hot on the heels of what is intended to be the [final release in the 18.x "Leia" series](https://kodi.tv/article/kodi-leia-188-release), it's time to give you good people a taste of things to come. So, with no further ado, we'd like to present the first Alpha releases of Kodi 19.x "Matrix".
 

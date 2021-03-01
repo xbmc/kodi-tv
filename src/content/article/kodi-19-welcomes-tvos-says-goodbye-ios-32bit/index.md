@@ -4,8 +4,8 @@ date: 2020-03-15T06:53:28Z
 author: phunkyfish
 featured_image:
   src: /images/blog/ash-edmonds-LHlC2sl0Zxs-unsplash.jpg
-  title: 'ash-edmonds-LHlC2sl0Zxs-unsplash'
-  alt: 'ash-edmonds-LHlC2sl0Zxs-unsplash'
+  title: 'Siri remote. Photo by Ash Edmonds on Unsplash'
+  alt: 'Siri remote. Photo by Ash Edmonds on Unsplash'
 ---
 Dear Users,
 

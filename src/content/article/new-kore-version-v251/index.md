@@ -4,8 +4,8 @@ date: 2020-06-20T21:00:00Z
 author: Team Kodi
 featured_image:
   src: /images/blog/84595474-00aa5100-ae50-11ea-86ab-cc7b4a47b977.png
-  title: '84595474-00aa5100-ae50-11ea-86ab-cc7b4a47b977'
-  alt: '84595474-00aa5100-ae50-11ea-86ab-cc7b4a47b977'
+  title: 'Kore logo'
+  alt: 'Kore logo'
 ---
 **Kore v2.5.1 Released!**
 

@@ -4,8 +4,8 @@ date: 2020-01-07T00:56:39Z
 author: Team Kodi
 featured_image:
   src: /images/blog/Kore_Artwork_1024x500_samfisher.png
-  title: 'Kore_Artwork_1024x500_samfisher'
-  alt: 'Kore_Artwork_1024x500_samfisher'
+  title: 'Kodi "Kore" Artwork by samfisher'
+  alt: 'Kodi "Kore" Artwork by samfisher'
 ---
 Kore v2.5.0 Released!
 ---------------------
