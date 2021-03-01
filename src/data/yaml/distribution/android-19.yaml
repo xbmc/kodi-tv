@@ -1,0 +1,49 @@
+name: Android
+icon: /images/distributions/android.png
+version: 19
+sort_order: 3
+howto: http://kodi.wiki/view/Android
+releases:
+  - name: Recommended
+    title: Kodi v19.0 (Matrix)
+    description: The success of running Kodi on an Android device depends on a
+      number of factors, as there are so many different devices with different
+      capabilities. Check the 'How To' link for more help.
+    downloads:
+      - name: Google Play
+        url: https://play.google.com/store/apps/details?id=org.xbmc.kodi
+      - name: Huawai App Gallery
+        url: https://appgallery.huawei.com/#/app/C101763539
+      - name: ARMV7A (32BIT)
+        url: https://mirrors.kodi.tv/releases/android/arm/kodi-19.0-Matrix-armeabi-v7a.apk
+      - name: ARMV8A (64BIT)
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-19.0-Matrix-arm64-v8a.apk
+  - name: Pre release
+    title: Kodi v20 Prerelease
+    description: There are no Pre-release builds available for Kodi v20 at this time.
+  - name: Development Builds
+    title: Kodi v20 Nightly
+    description: >-
+      These development builds, often called “pre-release” builds, are what will
+      eventually lead to the final version. **THESE BUILDS ARE UNSTABLE** and
+      are for users that do not fear bugs or possibly crashes. If you want a
+      stable HTPC then please install a stable build instead. ***Always backup
+      before using a development build.***
+
+
+      **Snapshots** are semi-stable nightly snapshots of the current development version. They are a step between (often) unstable nightly builds and stable release builds, though they can sometimes still be a bit unstable.
+
+
+      **Nightly builds** are made on a daily basis and contain the most recent changes. These should be considered unstable for daily usage and should only be used for to help us find possible issues.
+
+
+      Be sure to read the following pages before trying these out: [Development builds](http://kodi.wiki/view/development_builds), [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+    downloads:
+      - name: Google Play Testing
+        url: https://play.google.com/apps/testing/org.xbmc.kodi
+      - name: ARMV7A (32BIT)
+        url: https://mirrors.kodi.tv/nightlies/android/arm/master/
+      - name: ARMV8A (64BIT)
+        url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/master/
+      - name: X86
+        url: https://mirrors.kodi.tv/nightlies/android/x86/master/
