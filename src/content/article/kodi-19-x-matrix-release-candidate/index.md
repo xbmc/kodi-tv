@@ -4,8 +4,8 @@ date: 2021-01-16T15:54:23.769Z
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi_splash_v19.0_matrix_rc_1080p.jpg
-  title: 'kodi_splash_v19.0_matrix_rc_1080p'
-  alt: 'kodi_splash_v19.0_matrix_rc_1080p'
+  title: 'Kodi 19.0 RC Splash Screen'
+  alt: 'Kodi 19.0 RC Splash Screen'
 ---
 And, off we go again. The dust settles on the festive season, so it's time for another pre-release to hit the streets... we're getting close to final release now, so we're moving out of Beta and into RC.
 
