@@ -25,20 +25,16 @@ export default function Template({
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>
         </TextContent>
-        <div style={{ marginTop: "-5px" }}>
-          <List variant={ListVariant.inline}>
-            <ListItem>{markdownRemark.frontmatter.date}</ListItem>
-            <ListItem>&bull;</ListItem>
-            { markdownRemark.frontmatter.author.trim() == ""
-              ? ""
-              : <React.Fragment><ListItem>{markdownRemark.frontmatter.author}</ListItem><ListItem>&bull;</ListItem></React.Fragment> }
-            <ListItem>{markdownRemark.wordCount.words} words</ListItem>
-            <ListItem>&bull;</ListItem>
-            <ListItem>{markdownRemark.timeToRead} { markdownRemark.timeToRead == 1 ? "minute" : "minutes" } to read</ListItem>
-          </List>
-        </div>
+        <List variant={ListVariant.inline}>
+          <ListItem>&#128358; {markdownRemark.frontmatter.date}</ListItem>
+          { markdownRemark.frontmatter.author.trim() == ""
+            ? ""
+            : <React.Fragment><ListItem>&#128100; {markdownRemark.frontmatter.author}</ListItem></React.Fragment> }
+          <ListItem>&#128214; {markdownRemark.wordCount.words} words, {markdownRemark.timeToRead} { markdownRemark.timeToRead == 1 ? "minute" : "minutes" } to read</ListItem>
+        </List>
+        <hr width="80%" style={{marginTop: "15px", marginBottom: "15px", border: "1px dashed #808080"}} />
         <div
-          style={{ marginTop: "10px" }}
+          style={{ marginTop: "10px", marginRight: "20%" }}
           className="pf-c-content"
           dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
         />

@@ -33,21 +33,17 @@ export default function BlogIndexPage( { data, pageContext, location } ) {
                 : (<img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} />)
               }
               <TextContent>
-                <Text component={TextVariants.h2}>{item.node.frontmatter.title}</Text>
+                <Text component={TextVariants.h2}><Link to={item.node.fields.slug}>{item.node.frontmatter.title}</Link></Text>
               </TextContent>
-              <div style={{ marginTop: "-5px" }}>
-                <List variant={ListVariant.inline}>
-                  <ListItem>{item.node.frontmatter.date}</ListItem>
-                  <ListItem>&bull;</ListItem>
-                  { item.node.frontmatter.author.trim() == ""
-                    ? ""
-                    : <React.Fragment><ListItem>{item.node.frontmatter.author}</ListItem><ListItem>&bull;</ListItem></React.Fragment> }
-                  <ListItem>{item.node.wordCount.words} words</ListItem>
-                  <ListItem>&bull;</ListItem>
-                  <ListItem>{item.node.timeToRead} { item.node.timeToRead == 1 ? "minute" : "minutes" } to read</ListItem>
-                </List>
-              </div>
-              <div style={{ marginTop: "10px", marginBottom: "30px" }}>
+              <List variant={ListVariant.inline}>
+                <ListItem>&#128358; {item.node.frontmatter.date}</ListItem>
+                { item.node.frontmatter.author.trim() == ""
+                  ? ""
+                  : <React.Fragment><ListItem>&#128100; {item.node.frontmatter.author}</ListItem></React.Fragment> }
+                <ListItem>&#128214; {item.node.wordCount.words} words, {item.node.timeToRead} { item.node.timeToRead == 1 ? "minute" : "minutes" } to read</ListItem>
+              </List>
+              <hr width="80%" style={{marginTop: "15px", marginBottom: "15px", border: "1px dashed #808080"}} />
+              <div style={{ marginTop: "10px", marginBottom: "100px", marginRight: "20%" }}>
                 <TextContent>
                   <Text>{item.node.excerpt}</Text>
                 </TextContent>
