@@ -1,0 +1,36 @@
+name: Linux
+icon: /images/distributions/linux.png
+version: 19
+sort_order: 2
+howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
+releases:
+  - name: Recommended
+    title: Kodi v19.0 (Matrix)
+    description: Read the 'Install Guide' instructions for people who already have a
+      Linux-based OS setup.
+    downloads:
+      - name: Install Guide
+        url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
+  - name: Pre release
+    title: Kodi v20 Prerelease
+    description: There are no Pre-release builds available for Kodi v20 at this time.
+  - name: Development Builds
+    title: Kodi v20 Nightly
+    description: >-
+      These development builds, often called “pre-release” builds, are what will
+      eventually lead to the final version. **THESE BUILDS ARE UNSTABLE** and
+      are for users that do not fear bugs or possibly crashes. If you want a
+      stable HTPC then please install a stable build instead. ***Always backup
+      before using a development build.***
+
+
+      **Snapshots** are semi-stable nightly snapshots of the current development version. They are a step between (often) unstable nightly builds and stable release builds, though they can sometimes still be a bit unstable.
+
+
+      **Nightly builds** are made on a daily basis and contain the most recent changes. These should be considered unstable for daily usage and should only be used for to help us find possible issues.
+
+
+      Be sure to read the following pages before trying these out: [Development builds](http://kodi.wiki/view/development_builds), [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+    downloads:
+      - name: Install Guide
+        url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
