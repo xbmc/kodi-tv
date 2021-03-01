@@ -10,6 +10,7 @@ export default function MetadataHeader( props ) {
 
   return (
     <Helmet>
+      <link rel="icon" type="image/png" href="/images/icon.png"/>
       <title>{title}</title>
     </Helmet>
   )
