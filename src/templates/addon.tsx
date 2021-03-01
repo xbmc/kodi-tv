@@ -59,7 +59,7 @@ export default function Addon({
                 <StackItem>
                   <TextContent>
                     <Text component={TextVariants.h1}>{addon.name}</Text>
-                    <Text>{addon.summary}</Text>
+                    <Text><div dangerouslySetInnerHTML={{ __html: addon.summary }} /></Text>
                   </TextContent>
                 </StackItem>
                 <StackItem>
