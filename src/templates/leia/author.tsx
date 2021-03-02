@@ -8,7 +8,7 @@ export default function DisplayAddonAuthor({ data }) {
 
 export const query = graphql`
   query($slug: String!) {
-    author: matrixAuthor(slug: { eq: $slug }) {
+    author: leiaAuthor(slug: { eq: $slug }) {
       name
       totaladdons
       addons {

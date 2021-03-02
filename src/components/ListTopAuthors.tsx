@@ -11,7 +11,6 @@ import { Link } from "gatsby"
 
 export default function categoryIconList(props: {
   authors: any[]
-  linkroot: string | undefined
 }) {
   let authors = []
   let width = "100%"
@@ -19,7 +18,7 @@ export default function categoryIconList(props: {
   let marginright = "0%"
   let iconwidth = "150"
   let iconheight = "150"
-  let linkroot = "/addons/" + props.kodiversion + "/author/" 
+  let linkroot = "../author/" 
   if (props.authors[0].node !== undefined) {
     props.authors.map((author: { node: any }, index: any) => authors.push(author.node))
   } else {

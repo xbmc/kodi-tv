@@ -1,14 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
-import AddonAuthorLayout from "src/components/AddonAuthorLayout"
+import AddonCategoryLayout from "src/components/AddonCategoryLayout"
 
-export default function DisplayAddonAuthor({ data }) {
-  return (<AddonAuthorLayout data={data} />)
+export default function DisplayAddon({ data }) {
+  return (<AddonCategoryLayout data={data} />)
 }
+
 
 export const query = graphql`
   query($slug: String!) {
-    author: matrixAuthor(slug: { eq: $slug }) {
+    category: leiaCategory(slug: { eq: $slug }) {
       name
       totaladdons
       addons {

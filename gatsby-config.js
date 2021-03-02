@@ -119,8 +119,26 @@ const sideNav = [
         path: "/addons/matrix/search",
       },
       {
-        title: "Top Matrix Authors",
+        title: "Top Matrix Add-on Authors",
         path: "/addons/matrix/top-authors",
+      },
+    ],
+  },
+  {
+    rootPath: "/addons/leia",
+    menuType: "submenu",
+    nav: [
+      {
+        title: "Leia Add-Ons",
+        path: "/addons/leia",
+      },
+      {
+        title: "Search Leia Add-Ons",
+        path: "/addons/leia/search",
+      },
+      {
+        title: "Top Leia Add-on Authors",
+        path: "/addons/leia/top-authors",
       },
     ],
   },

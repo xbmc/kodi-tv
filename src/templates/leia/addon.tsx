@@ -8,7 +8,7 @@ export default function DisplayAddon({ data }) {
 
 export const query = graphql`
   query($slug: String!) {
-    addon: matrixAddon(slug: { eq: $slug }) {
+    addon: leiaAddon(slug: { eq: $slug }) {
       addonid
       authors {
         icon

@@ -11,7 +11,7 @@ import MetadataHeader from "src/components/SiteMetadata"
 
 export const pageQuery = graphql`
   query {
-    allAddon: allMatrixAddon(sort: {fields: name, order: ASC}) {
+    allAddon: allLeiaAddon(sort: {fields: name, order: ASC}) {
       nodes {
         addonid
         name

@@ -1,25 +1,9 @@
-import React from 'react'
-import Layout from 'patternfly_components/Layout'
-import {
-    Text, TextVariants, TextContent,
-} from '@patternfly/react-core'
+import React from "react"
 import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
-import MetadataHeader from "src/components/SiteMetadata"
+import AddonCategoryLayout from "src/components/AddonCategoryLayout"
 
-export default function Category({ data }) {
-  const category = data.category
-
-  return (
-    <Layout>
-      <MetadataHeader title={category.name + ' | Category | Matrix | Add-On'} />
-      <TextContent>
-        <Text component={TextVariants.h1}>{category.name}</Text>
-        <Text>This category has {category.totaladdons} addons in it.</Text>
-      </TextContent>
-      <IconList items={category.addons} linkroot='/addons/matrix/' />
-    </Layout>
-  )
+export default function DisplayAddon({ data }) {
+  return (<AddonCategoryLayout data={data} />)
 }
 
 

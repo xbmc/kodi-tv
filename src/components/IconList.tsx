@@ -18,6 +18,9 @@ export default function categoryIconList(props: {
   let iconwidth = "150"
   let iconheight = "150"
   let linkroot = ""
+  if (props.items.length == 0) {
+      return ('')
+  }
   if (props.items[0].node !== undefined) {
     props.items.map((item: { node: any }, index: any) => items.push(item.node))
   } else {
