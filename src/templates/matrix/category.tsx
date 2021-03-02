@@ -12,12 +12,12 @@ export default function Category({ data }) {
 
   return (
     <Layout>
-      <MetadataHeader title={category.name + ' | Category | Add-On'} />
+      <MetadataHeader title={category.name + ' | Category | Matrix | Add-On'} />
       <TextContent>
         <Text component={TextVariants.h1}>{category.name}</Text>
         <Text>This category has {category.totaladdons} addons in it.</Text>
       </TextContent>
-      <IconList items={category.addons} linkroot='/addons/' />
+      <IconList items={category.addons} linkroot='/addons/matrix/' />
     </Layout>
   )
 }
@@ -25,7 +25,7 @@ export default function Category({ data }) {
 
 export const query = graphql`
   query($slug: String!) {
-    category(slug: { eq: $slug }) {
+    category: matrixCategory(slug: { eq: $slug }) {
       name
       totaladdons
       addons {

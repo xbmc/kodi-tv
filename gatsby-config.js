@@ -107,20 +107,20 @@ const sideNav = [
     ],
   },
   {
-    rootPath: "/addons",
+    rootPath: "/addons/matrix",
     menuType: "submenu",
     nav: [
       {
-        title: "Add-Ons",
-        path: "/addons",
+        title: "Matrix Add-Ons",
+        path: "/addons/matrix",
       },
       {
-        title: "Search Add-Ons",
-        path: "/addons/search",
+        title: "Search Matrix Add-Ons",
+        path: "/addons/matrix/search",
       },
       {
-        title: "Top Authors",
-        path: "/addons/top-authors",
+        title: "Top Matrix Authors",
+        path: "/addons/matrix/top-authors",
       },
     ],
   },

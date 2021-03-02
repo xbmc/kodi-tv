@@ -66,7 +66,8 @@ export default class SearchAddons extends React.Component {
       keyword: '',
       author: '',
       results: null,
-      firstrun: true
+      firstrun: true,
+      linkroot: '/addons/' + props.kodiversion + '/'
     };
 
     this.categoryOptions = [{ value: 'Select category', disabled: false, isPlaceholder: true }]
@@ -212,7 +213,8 @@ export default class SearchAddons extends React.Component {
       keyword,
       author,
       results,
-      firstrun
+      firstrun,
+      linkroot
     } = this.state;
     let search_disabled = !(keyword || author || categorySelected)
 
@@ -325,7 +327,7 @@ export default class SearchAddons extends React.Component {
         {
           results === null
           ? <SearchAddonsNoResults firstrun={firstrun} />
-          : <IconList items={results} linkroot='/addons/' />
+          : <IconList items={results} linkroot={linkroot} />
         }
       </React.Fragment>
     );

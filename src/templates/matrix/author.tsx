@@ -1,8 +1,8 @@
 import React from "react"
 import { Text, TextVariants, TextContent } from "@patternfly/react-core"
 import { graphql } from "gatsby"
-import IconList from "../components/IconList"
-import Layout from "../gatsby-theme-patternfly/components/Layout"
+import IconList from "src/components/IconList"
+import Layout from "src/gatsby-theme-patternfly/components/Layout"
 import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Category({
@@ -14,21 +14,21 @@ export default function Category({
 
   return (
     <Layout>
-      <MetadataHeader title={author.name + ' | Author | Add-On'} />
+      <MetadataHeader title={author.name + ' | Author | Matrix | Add-On'} />
       <TextContent>
         <Text component={TextVariants.h1}>{author.name}</Text>
         <Text>
           {author.name} has {author.totaladdons}{" "}add-ons.
         </Text>
       </TextContent>
-      <IconList items={author.addons} linkroot="/addons/" />
+      <IconList items={author.addons} linkroot="/addons/matrix/" />
     </Layout>
   )
 }
 
 export const query = graphql`
   query($slug: String!) {
-    author(slug: { eq: $slug }) {
+    author: matrixAuthor(slug: { eq: $slug }) {
       name
       totaladdons
       addons {

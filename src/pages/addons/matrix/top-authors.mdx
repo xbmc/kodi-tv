@@ -2,15 +2,15 @@ import { graphql } from "gatsby"
 import ListTopAuthors from "src/components/ListTopAuthors"
 import MetadataHeader from "src/components/SiteMetadata"
 
-<MetadataHeader title="Top Add-On Authors" />
+<MetadataHeader title="Top Add-On Authors | Matrix | Addons" />
 
 # Top Add-On Authors
 
-<ListTopAuthors authors={props.data.allAuthor.edges} />
+<ListTopAuthors authors={props.data.allAuthor.edges} kodiversion='matrix' />
 
 export const pageQuery = graphql`
   query {
-    allAuthor(limit: 28, sort: {fields: [totaladdons, name], order: [DESC, ASC]}) {
+    allAuthor: allMatrixAuthor(limit: 28, sort: {fields: [totaladdons, name], order: [DESC, ASC]}) {
       edges {
         node {
           name

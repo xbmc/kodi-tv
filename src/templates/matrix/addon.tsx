@@ -15,11 +15,11 @@ import {
 } from "@patternfly/react-core"
 import WarningTriangleIcon from "@patternfly/react-icons/dist/js/icons/warning-triangle-icon"
 import { graphql } from "gatsby"
-import ConditionalSlideshow from "../components/ConditionalSlideshow"
-import ConditionalTextListItem from "../components/ConditionalTextListItem"
-import ItemWithComma from "../components/ItemWithComma"
-import Layout from "../gatsby-theme-patternfly/components/Layout"
-import { IAddon } from "../addon"
+import ConditionalSlideshow from "src/components/ConditionalSlideshow"
+import ConditionalTextListItem from "src/components/ConditionalTextListItem"
+import ItemWithComma from "src/components/ItemWithComma"
+import Layout from "src/gatsby-theme-patternfly/components/Layout"
+import { IAddon } from "src/addon"
 import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Addon({
@@ -180,7 +180,7 @@ export default function Addon({
 
 export const query = graphql`
   query($slug: String!) {
-    addon(slug: { eq: $slug }) {
+    addon: matrixAddon(slug: { eq: $slug }) {
       addonid
       authors {
         icon

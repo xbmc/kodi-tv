@@ -65,7 +65,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const addonresults = await graphql(`
     query MyQuery {
-      allAddon {
+      allMatrixAddon {
         edges {
           node {
             slug
@@ -75,10 +75,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  addonresults.data.allAddon.edges.forEach(({ node }) => {
+  addonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/" + node.slug,
-      component: path.resolve(`src/templates/addon.tsx`),
+      path: "addons/matrix/" + node.slug,
+      component: path.resolve(`src/templates/matrix/addon.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -89,7 +89,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const categoryresults = await graphql(`
     query MyQuery {
-      allCategory {
+      allMatrixCategory {
         edges {
           node {
             slug
@@ -99,10 +99,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  categoryresults.data.allCategory.edges.forEach(({ node }) => {
+  categoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/category/" + node.slug,
-      component: path.resolve(`src/templates/category.tsx`),
+      path: "addons/matrix/category/" + node.slug,
+      component: path.resolve(`src/templates/matrix/category.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -113,7 +113,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const authorresults = await graphql(`
     query MyQuery {
-      allAuthor {
+      allMatrixAuthor {
         edges {
           node {
             slug
@@ -123,10 +123,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  authorresults.data.allAuthor.edges.forEach(({ node }) => {
+  authorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/author/" + node.slug,
-      component: path.resolve(`src/templates/author.tsx`),
+      path: "addons/matrix/author/" + node.slug,
+      component: path.resolve(`src/templates/matrix/author.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
