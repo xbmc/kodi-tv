@@ -10,11 +10,6 @@ const slugify = require("slugify")
 const fs = require("fs")
 const inspect = require("util").inspect // this is only here to inspect the json during debugging
 
-const ADDON_NODE_TYPE = "Addon"
-const AUTHOR_NODE_TYPE = "Author"
-const CATEGORY_NODE_TYPE = "Category"
-const PIXIE_MEMORY = "src/data/addons/history.json"
-const ADDONS_FEATURED = "src/data/addons/featured.yaml"
 const TODAY = new Date()
 const CATEGORIES = [
   { id: "kodi.audiodecoder", desc: "Audio decoders" },
@@ -101,6 +96,12 @@ let addonplatform = ""
 /** @type {string[]} */
 let addonimagetypes = []
 let versiondownloads = 0
+let pixiememory = ""
+let addonsfeatured = ""
+let addonnodetype = ""
+let authornodetype = ""
+let categorynodetype = ""
+
 
 exports.onPreBootstrap =
   /**
@@ -112,6 +113,11 @@ exports.onPreBootstrap =
     kodimirror =
       "http://" + pluginOptions.kodimirror + "/addons/" + kodiversion + "/"
     kodistats = "http://mirrors.kodi.tv" + "/addons/" + kodiversion + "/"
+    pixiememory = "src/data/addons/" + kodiversion + "/history.json"
+    addonsfeatured = "src/data/addons/" + kodiversion + "/featured.yaml"
+    addonnodetype = kodiversion + "Addon"
+    authornodetype = kodiversion + "Author"
+    categorynodetype = kodiversion + "Category"
   }
 
 exports.sourceNodes = async ({
@@ -123,13 +129,13 @@ exports.sourceNodes = async ({
   const { createNode, touchNode, deleteNode } = actions
   let data = ""
   try {
-    history = JSON.parse(fs.readFileSync(PIXIE_MEMORY, "utf8"))
+    history = JSON.parse(fs.readFileSync(pixiememory, "utf8"))
   } catch (e) {
     console.log("unable to load pixie memory, starting from scratch")
     console.log(e)
   }
   try {
-    featured = yaml.safeLoad(fs.readFileSync(ADDONS_FEATURED, "utf8"))
+    featured = yaml.safeLoad(fs.readFileSync(addonsfeatured, "utf8"))
   } catch (e) {
     console.log("unable to load featured addons")
     console.log(e)
@@ -150,15 +156,15 @@ exports.sourceNodes = async ({
     parsedXML.root.children.forEach(getAddon)
     authors.forEach(doCleanup)
     categories.forEach(doCleanup)
-    fs.writeFileSync(PIXIE_MEMORY, JSON.stringify(present))
+    fs.writeFileSync(pixiememory, JSON.stringify(present))
     addons.forEach(addon =>
       createNode({
         ...addon,
-        id: createNodeId(`${ADDON_NODE_TYPE}-${addon.id}`), // hashes the inputs into an ID
+        id: createNodeId(`${addonnodetype}-${addon.id}`), // hashes the inputs into an ID
         parent: null,
         children: [],
         internal: {
-          type: ADDON_NODE_TYPE,
+          type: addonnodetype,
           content: JSON.stringify(addon),
           contentDigest: createContentDigest(addon),
         },
@@ -167,11 +173,11 @@ exports.sourceNodes = async ({
     authors.forEach(author =>
       createNode({
         ...author,
-        id: createNodeId(`${AUTHOR_NODE_TYPE}-${author.id}`), // hashes the inputs into an ID
+        id: createNodeId(`${authornodetype}-${author.id}`), // hashes the inputs into an ID
         parent: null,
         children: [],
         internal: {
-          type: AUTHOR_NODE_TYPE,
+          type: authornodetype,
           content: JSON.stringify(author),
           contentDigest: createContentDigest(author),
         },
@@ -180,11 +186,11 @@ exports.sourceNodes = async ({
     categories.forEach(category =>
       createNode({
         ...category,
-        id: createNodeId(`${CATEGORY_NODE_TYPE}-${category.id}`), // hashes the inputs into an ID
+        id: createNodeId(`${categorynodetype}-${category.id}`), // hashes the inputs into an ID
         parent: null,
         children: [],
         internal: {
-          type: CATEGORY_NODE_TYPE,
+          type: categorynodetype,
           content: JSON.stringify(category),
           contentDigest: createContentDigest(category),
         },
