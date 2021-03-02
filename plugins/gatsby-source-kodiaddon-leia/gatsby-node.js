@@ -101,6 +101,7 @@ let addonsfeatured = ""
 let addonnodetype = ""
 let authornodetype = ""
 let categorynodetype = ""
+let dlcount = 0
 
 
 exports.onPreBootstrap =
@@ -200,6 +201,14 @@ exports.sourceNodes = async ({
   return
 }
 
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
 function getAddon(rawaddon) {
   let firstever = false
   addon = addons.find(o => o.id === rawaddon.attributes.id)
@@ -216,10 +225,12 @@ function getAddon(rawaddon) {
     addon.authors = []
     addon.platforms = []
     addon.categories = []
-    rawaddon.attributes["provider-name"]
-      .split(",")
-      .map(item => item.trim())
-      .forEach(assignAuthor)
+    if (rawaddon.attributes["provider-name"] != undefined){
+      rawaddon.attributes["provider-name"]
+        .split(",")
+        .map(item => item.trim())
+        .forEach(assignAuthor)
+    }
     if (featured.addons.find(o => o.addonid === addon.id) !== undefined) {
       addon.featured = "true"
     }
@@ -317,6 +328,9 @@ function parseExtensions(extension) {
 
 function checkProvides(provider) {
   if (provider.length > 0) {
+    if (provider[0].content == undefined){
+      return
+    }
     if (provider[0].content.includes("audio")) {
       assignCategory("Music addons")
     }
@@ -443,7 +457,7 @@ function getAssets(asset) {
   }
   if (assetcheck == undefined) {
     imagepath =
-      "/images/addons/" +
+      "/images/addons/" + kodiversion + "/" +
       slugify(addon.id, { lower: true }) +
       "/" +
       asset.content
@@ -497,6 +511,10 @@ function downloadImages() {
 }
 
 function downloadImageType(imagetype) {
+  if (dlcount == 5) {
+      sleep(2000)
+      dlcount = 0
+  }
   const fullurl = addon.platforms[0].path
   const urlbase = fullurl.substring(0, fullurl.lastIndexOf("/")) + "/"
   const rootpath = "./static"
@@ -512,6 +530,7 @@ function downloadImageType(imagetype) {
     )
     download(urlbase + asset.remotepath, rootpath + asset.localpath)
   })
+  dlcount = dlcount + 1
 }
 
 /**

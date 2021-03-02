@@ -295,7 +295,14 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-source-kodiaddon",
+      resolve: "gatsby-source-kodiaddon-leia",
+      options: {
+        kodiversion: "leia",
+        kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
+      },
+    },
+    {
+      resolve: "gatsby-source-kodiaddon-matrix",
       options: {
         kodiversion: "matrix",
         kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",

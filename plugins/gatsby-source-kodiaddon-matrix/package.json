@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-source-kodiaddon-matrix",
+  "version": "1.0.0",
+  "description": "A source plugin to get the correct kodi addons.xml file and generate addon objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script setup\""
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "author": "pkscout <pkscout@kodi.tv>",
+  "license": "GPL-3-ONLY",
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.0",
+    "slugify": "^1.4.5",
+    "util": "^0.12.3",
+    "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.5",
+    "@types/xml-parser": "^1.2.29"
+  }
+}
