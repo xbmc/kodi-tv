@@ -101,7 +101,6 @@ let addonsfeatured = ""
 let addonnodetype = ""
 let authornodetype = ""
 let categorynodetype = ""
-let dlcount = 0
 
 
 exports.onPreBootstrap =
@@ -199,14 +198,6 @@ exports.sourceNodes = async ({
     )
   }
   return
-}
-
-function sleep(milliseconds) {
-  const date = Date.now();
-  let currentDate = null;
-  do {
-    currentDate = Date.now();
-  } while (currentDate - date < milliseconds);
 }
 
 function getAddon(rawaddon) {
@@ -511,10 +502,6 @@ function downloadImages() {
 }
 
 function downloadImageType(imagetype) {
-  if (dlcount == 5) {
-      sleep(2000)
-      dlcount = 0
-  }
   const fullurl = addon.platforms[0].path
   const urlbase = fullurl.substring(0, fullurl.lastIndexOf("/")) + "/"
   const rootpath = "./static"
@@ -530,7 +517,6 @@ function downloadImageType(imagetype) {
     )
     download(urlbase + asset.remotepath, rootpath + asset.localpath)
   })
-  dlcount = dlcount + 1
 }
 
 /**
