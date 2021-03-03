@@ -1,4 +1,12 @@
 var AWS = require('aws-sdk');
+let DUMMYITEM = item = {
+                  amount: 0,
+                  currency: 'usd',
+                  createdAt: 1613609727,
+                  id: 'blank-record',
+                  provider: 'none',
+                  publicName: 'Dummy Record'
+                }
 
 exports.sourceNodes = ( { actions, createNodeId, createContentDigest }, 
   options, 
@@ -6,12 +14,6 @@ exports.sourceNodes = ( { actions, createNodeId, createContentDigest },
   return new Promise((resolve, reject) => {
     const { createNode } = actions
     delete options.plugins
-
-    var docClient = new AWS.DynamoDB.DocumentClient({
-      region: options.region,
-      accessKeyId: options.accessKeyId, 
-      secretAccessKey: options.secretAccessKey
-    });
 
     const processData = item => {
       const nodeId = createNodeId(`dynamodb-${item.id}`)
@@ -39,15 +41,7 @@ exports.sourceNodes = ( { actions, createNodeId, createContentDigest },
           console.log("No donor records found.")
         }
         console.log("Creating single empty donor record.")
-        let item = {
-          amount: 0,
-          currency: 'usd',
-          createdAt: 1613609727,
-          id: 'blank-record',
-          provider: 'none',
-          publicName: 'Dummy Record'
-        }
-        const nodeData = processData(item)
+        const nodeData = processData(DUMMYITEM)
         createNode(nodeData)
         if (err){
           reject(err)      
@@ -70,6 +64,20 @@ exports.sourceNodes = ( { actions, createNodeId, createContentDigest },
         }
       }
     }
-    docClient.query(options.params, onQuery);
+    
+    if (options.params.TableName == undefined || options.accessKeyId == undefined || options.secretAccessKey == undefined) {
+      console.log("Unable to query donor database.")
+      console.log("Creating single empty donor record.")
+      createNode(processData(DUMMYITEM))
+      resolve()
+    } else {
+      var docClient = new AWS.DynamoDB.DocumentClient({
+        region: options.region,
+        accessKeyId: options.accessKeyId, 
+        secretAccessKey: options.secretAccessKey
+      });
+      docClient.query(options.params, onQuery);
+    }
+
   })
 }
