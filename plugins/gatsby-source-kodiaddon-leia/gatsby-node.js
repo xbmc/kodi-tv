@@ -140,17 +140,15 @@ exports.sourceNodes = async ({
     console.log("unable to load featured addons")
     console.log(e)
   }
-      try {
-        // Fetch the data
-        console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
-        const res = await fetch(kodimirror + 'addons.xml')
-        data = await res.text()
-    } catch (error) {
-        data = ''
-        console.log(error)
-    }
-  // for local testing only, if using this, remark out the try/catch block above
-  // data = fs.readFileSync("src/data/addons.xml", "utf8")
+  try {
+    // Fetch the data
+    console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
+    const res = await fetch(kodimirror + 'addons.xml')
+    data = await res.text()
+  } catch (error) {
+    data = ''
+    console.log(error)
+  }
   if (data) {
     const parsedXML = parse(data)
     parsedXML.root.children.forEach(getAddon)
@@ -238,8 +236,6 @@ function getAddon(rawaddon) {
     }
     addon.firstseen = addonhistory.firstseen
     addon.agetype = addonhistory.agetype
-    //        addonhistory.agetype = 'existing' // add these back to change the pixie memory so every addon is exisiting
-    //        addon.agetype = 'existing'        // useful if you have to wipe the history file for some reason
     rawaddon.children.forEach(parseExtensions)
     if (addon.version == addonhistory.version) {
       addon.lastupdate = addonhistory.lastupdate
