@@ -1,5 +1,3 @@
-import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
 import MetadataHeader from "src/components/SiteMetadata"
 
 <MetadataHeader title="Add-Ons" />
@@ -10,104 +8,11 @@ import MetadataHeader from "src/components/SiteMetadata"
 
 We have a huge catalogue of extra Add-On components for you to take advantage of. All Add-Ons can be installed via the application itself and they will automatically update as new versions are released. It is kind of like an "App Store" for Kodi, but everything is **free!**
 
-[Music Add-Ons](/addons/category/music-addons) and [Video Add-Ons](/addons/category/video-addons) let you stream internet content. [Skins](/addons/category/skins) allow you to change the look and experience of the interface. [Program Add-Ons](/addons/category/program-addons) and [Service Add-Ons](/addons/category/services) provide helpful tools while [web interfaces](/addons/category/web-interfaces) are for controlling Kodi remotely. And that is just the tip of the iceberg. Browse all the categories below to see what is available and install them via Kodi.
+Music Add-Ons and Video Add-Ons let you stream internet content. Skins allow you to change the look and experience of the interface. Program Add-Ons and Service Add-Ons provide helpful tools while web interfaces are for controlling Kodi remotely. And that is just the tip of the iceberg. Find your version of Kodi and browse all the categories to see what is available and install them via Kodi.
 
+## Add-ons for your version of Kodi
 
-## Featured Add-Ons
+The add-ons available may be different depending on what version of Kodi you have.  Please select your Kodi version below to get to the add-ons available for your version.
 
-<IconList items={props.data.FeaturedAddons.edges} linkroot='/addons/' />
-
-## New Additions
-
-<IconList items={props.data.NewAddons.edges} linkroot='/addons/' />
-
-## Recently Updated
-
-<IconList items={props.data.UpdatedAddons.edges} linkroot='/addons/' />
-
-## Categories
-
-### Look and Feel
-
-<IconList items={props.data.LookAndFeel.edges} linkroot='/addons/category/' />
-
-### Information Providers
-
-<IconList items={props.data.InformationProviders.edges} linkroot='/addons/category/' />
-
-### Games
-
-<IconList items={props.data.Games.edges} linkroot='/addons/category/' />
-
-### Others
-
-<IconList items={props.data.Others.edges} linkroot='/addons/category/' />
-
-
-export const pageQuery = graphql`
-  query {
-    Games: allCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Games"}}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    InformationProviders: allCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Information providers"}}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    LookAndFeel: allCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Look and feel"}}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    Others: allCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Other"}}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    FeaturedAddons: allAddon(filter: {featured: {eq: "true"}}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    NewAddons: allAddon(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-    UpdatedAddons: allAddon(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
-      edges {
-        node {
-          name
-          slug
-          icon
-        }
-      }
-    }
-  }
-`
+* [Kodi Matrix (version 19)](/addons/matrix/)
+* [Kodi Leia (version 18)](/addons/leia/)

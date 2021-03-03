@@ -1,0 +1,104 @@
+import { graphql } from "gatsby"
+import IconList from 'src/components/IconList'
+import MetadataHeader from "src/components/SiteMetadata"
+
+<MetadataHeader title="Leia | Add-Ons" />
+
+# Featured Add-Ons
+
+<IconList items={props.data.FeaturedAddons.edges} linkroot='' />
+
+# New Additions
+
+<IconList items={props.data.NewAddons.edges} linkroot='' />
+
+# Recently Updated
+
+<IconList items={props.data.UpdatedAddons.edges} linkroot='' />
+
+# Categories
+
+## Look and Feel
+
+<IconList items={props.data.LookAndFeel.edges} linkroot='./category/' />
+
+## Information Providers
+
+<IconList items={props.data.InformationProviders.edges} linkroot='./category/' />
+
+## Games
+
+<IconList items={props.data.Games.edges} linkroot='./category/' />
+
+## Others
+
+<IconList items={props.data.Others.edges} linkroot='./category/' />
+
+
+export const pageQuery = graphql`
+  query {
+    Games: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Games"}}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    InformationProviders: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Information providers"}}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    LookAndFeel: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Look and feel"}}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    Others: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Other"}}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    FeaturedAddons: allLeiaAddon(filter: {featured: {eq: "true"}}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    NewAddons: allLeiaAddon(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+    UpdatedAddons: allLeiaAddon(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
+      edges {
+        node {
+          name
+          slug
+          icon
+        }
+      }
+    }
+  }
+`

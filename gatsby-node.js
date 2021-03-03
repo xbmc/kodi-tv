@@ -63,9 +63,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     component: path.resolve('src/templates/blog-index.tsx')
   });
 
-  const addonresults = await graphql(`
+// *** Begin Matrix Addon Page Builds
+  const matrixaddonresults = await graphql(`
     query MyQuery {
-      allAddon {
+      allMatrixAddon {
         edges {
           node {
             slug
@@ -75,10 +76,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  addonresults.data.allAddon.edges.forEach(({ node }) => {
+  matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/" + node.slug,
-      component: path.resolve(`src/templates/addon.tsx`),
+      path: "addons/matrix/" + node.slug,
+      component: path.resolve(`src/templates/matrix/addon.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -87,9 +88,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 
-  const categoryresults = await graphql(`
+  const matrixcategoryresults = await graphql(`
     query MyQuery {
-      allCategory {
+      allMatrixCategory {
         edges {
           node {
             slug
@@ -99,10 +100,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  categoryresults.data.allCategory.edges.forEach(({ node }) => {
+  matrixcategoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/category/" + node.slug,
-      component: path.resolve(`src/templates/category.tsx`),
+      path: "addons/matrix/category/" + node.slug,
+      component: path.resolve(`src/templates/matrix/category.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -111,9 +112,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     })
   })
 
-  const authorresults = await graphql(`
+  const matrixauthorresults = await graphql(`
     query MyQuery {
-      allAuthor {
+      allMatrixAuthor {
         edges {
           node {
             slug
@@ -123,10 +124,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `)
 
-  authorresults.data.allAuthor.edges.forEach(({ node }) => {
+  matrixauthorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
     createPage({
-      path: "addons/author/" + node.slug,
-      component: path.resolve(`src/templates/author.tsx`),
+      path: "addons/matrix/author/" + node.slug,
+      component: path.resolve(`src/templates/matrix/author.tsx`),
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.
@@ -134,6 +135,82 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   })
+// *** End Matrix Addon Page Builds
+
+// *** Begin Leia Addon Page Builds
+  const leiaaddonresults = await graphql(`
+    query MyQuery {
+      allLeiaAddon {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
+    createPage({
+      path: "addons/leia/" + node.slug,
+      component: path.resolve(`src/templates/leia/addon.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+  const leiacategoryresults = await graphql(`
+    query MyQuery {
+      allLeiaCategory {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  leiacategoryresults.data.allLeiaCategory.edges.forEach(({ node }) => {
+    createPage({
+      path: "addons/leia/category/" + node.slug,
+      component: path.resolve(`src/templates/leia/category.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+
+  const leiaauthorresults = await graphql(`
+    query MyQuery {
+      allLeiaAuthor {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  leiaauthorresults.data.allLeiaAuthor.edges.forEach(({ node }) => {
+    createPage({
+      path: "addons/leia/author/" + node.slug,
+      component: path.resolve(`src/templates/leia/author.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    })
+  })
+// *** End Leia Addon Page Builds
+
 
   const distresults = await graphql(`
     query MyQuery {

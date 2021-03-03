@@ -107,20 +107,38 @@ const sideNav = [
     ],
   },
   {
-    rootPath: "/addons",
+    rootPath: "/addons/matrix",
     menuType: "submenu",
     nav: [
       {
-        title: "Add-Ons",
-        path: "/addons",
+        title: "Matrix Add-Ons",
+        path: "/addons/matrix",
       },
       {
-        title: "Search Add-Ons",
-        path: "/addons/search",
+        title: "Search Matrix Add-Ons",
+        path: "/addons/matrix/search",
       },
       {
-        title: "Top Authors",
-        path: "/addons/top-authors",
+        title: "Top Matrix Add-on Authors",
+        path: "/addons/matrix/top-authors",
+      },
+    ],
+  },
+  {
+    rootPath: "/addons/leia",
+    menuType: "submenu",
+    nav: [
+      {
+        title: "Leia Add-Ons",
+        path: "/addons/leia",
+      },
+      {
+        title: "Search Leia Add-Ons",
+        path: "/addons/leia/search",
+      },
+      {
+        title: "Top Leia Add-on Authors",
+        path: "/addons/leia/top-authors",
       },
     ],
   },
@@ -170,8 +188,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-typescript",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
     "gatsby-plugin-netlify-cms",
     {
       resolve: "gatsby-plugin-feed",
@@ -295,7 +311,14 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-source-kodiaddon",
+      resolve: "gatsby-source-kodiaddon-leia",
+      options: {
+        kodiversion: "leia",
+        kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
+      },
+    },
+    {
+      resolve: "gatsby-source-kodiaddon-matrix",
       options: {
         kodiversion: "matrix",
         kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
