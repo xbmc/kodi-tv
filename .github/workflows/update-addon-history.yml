@@ -37,14 +37,14 @@ jobs:
       - name: Set Node Version
         uses: actions/setup-node@master
         with:
-          node-version: 14.x
+          node-version: 12.x
 
       - name: Install dependencies
         if: steps.nodecache.outputs.cache-hit != 'true'
         run: npm install
 
       - name: Build Gatsby site
-        run: npm run build --log-pages
+        run: npm run build
         env:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
 
