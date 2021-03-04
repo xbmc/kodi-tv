@@ -11,12 +11,12 @@ export default function AddonCategoryLayout({ data }) {
 
   return (
     <Layout>
-      <MetadataHeader title={category.name + ' | Category | Matrix | Add-On'} />
+      <MetadataHeader title={category.name + ' | Category | Add-On'} />
       <TextContent>
         <Text component={TextVariants.h1}>{category.name}</Text>
         <Text>This category has {category.totaladdons} addons in it.</Text>
       </TextContent>
-      <IconList items={category.addons} linkroot='/addons/matrix/' />
+      <IconList items={category.addons} linkroot='../../' />
     </Layout>
   )
 }

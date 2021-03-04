@@ -13,14 +13,14 @@ export default function AddonAuthorLayout({
 
   return (
     <Layout>
-      <MetadataHeader title={author.name + ' | Author | Matrix | Add-On'} />
+      <MetadataHeader title={author.name + ' | Author | Add-On'} />
       <TextContent>
         <Text component={TextVariants.h1}>{author.name}</Text>
         <Text>
           {author.name} has {author.totaladdons}{" "}add-ons.
         </Text>
       </TextContent>
-      <IconList items={author.addons} linkroot="/addons/matrix/" />
+      <IconList items={author.addons} linkroot="../../" />
     </Layout>
   )
 }
