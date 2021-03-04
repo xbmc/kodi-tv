@@ -48,7 +48,7 @@ collections:
             fields:
               - { name: 'addonid', label: 'Add-on ID', widget: 'string' }
       - name: 'leiafeaturedlist'
-        label: "Matrix Featured Add-ons List"
+        label: "Leia Featured Add-ons List"
         file: 'src/data/addons/leia/featured.yaml'
         fields:
           - name: 'addons'
