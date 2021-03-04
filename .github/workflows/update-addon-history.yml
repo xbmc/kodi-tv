@@ -1,0 +1,55 @@
+name: Update Add-on History
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '00 02 * * *'
+
+jobs:
+  add-on-update:
+    name: Update Add-on History
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Cache gatsby paths
+        uses: actions/cache@v2
+        id: gatsbycache
+        with:
+          path: |
+            .cache
+            public
+          key: ${{ runner.os }}-gatsby-caches-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-gatsby-caches
+
+      - name: Cache npm node nodules
+        uses: actions/cache@v2
+        id: nodecache
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package.json') }}
+
+      - name: Set Node Version
+        uses: actions/setup-node@master
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        if: steps.nodecache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Build Gatsby site
+        run: npm run build --log-pages
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+
+      - name: Push new files back
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: 'main'
