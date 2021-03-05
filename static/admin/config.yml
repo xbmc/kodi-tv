@@ -23,6 +23,11 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Author', name: 'author', widget: 'string', required: false  }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options: ["Community Updates", "DevCon", "Featured Software/Hardware", "Release Announcements"]
       - name: 'featured_image'
         label: 'Featured Image'
         widget: 'object'
