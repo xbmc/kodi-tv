@@ -28,7 +28,7 @@ export default function BlogIndexLayout(props: {
             <React.Fragment>
               { item.node.frontmatter.featured_image == undefined 
                 ? ("")
-                : (<img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} style={{maxWidth: "100%", maxHeight: "400px", height: "auto"}} />)
+                : (<div style={{ overflow: "hidden" }}><img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} style={{width: "100%", height: "auto"}} /></div>)
               }
               <TextContent>
                 <Text component={TextVariants.h2}><Link to={item.node.fields.slug}>{item.node.frontmatter.title}</Link></Text>
@@ -61,7 +61,7 @@ export default function BlogIndexLayout(props: {
                 }
               </List>
               <hr style={{marginTop: "15px", marginBottom: "15px", border: "1px dashed #808080"}} />
-              <div style={{ marginTop: "10px", marginBottom: "100px", marginRight: "20%" }}>
+              <div style={{ marginTop: "10px", marginBottom: "100px" }}>
                 <TextContent>
                   <Text>{item.node.excerpt}</Text>
                 </TextContent>
