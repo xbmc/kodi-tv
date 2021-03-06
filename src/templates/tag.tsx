@@ -9,25 +9,25 @@ import Layout from "../gatsby-theme-patternfly/components/Layout"
 import BlogIndexLayout from "src/components/BlogIndexLayout"
 import MetadataHeader from "src/components/SiteMetadata"
 
-export default function BlogIndexPage( { data, pageContext, location } ) {
+export default function TagPage( { data, pageContext, location } ) {
+  let tagroot = '/blog/tag/'
   
   return (
     <Layout>
-      <MetadataHeader title="News" />
+      <MetadataHeader title={pageContext.tag + " | Tags | News"} />
       <TextContent>
-        <Text component={TextVariants.h1}>News</Text>
+        <Text component={TextVariants.h1}>News with the Tag: {pageContext.tag}</Text>
       </TextContent>
-      <BlogIndexLayout data={data} pageContext={pageContext} />
+      <BlogIndexLayout data={data} />
     </Layout>
   )
 }
 
 export const pageQuery = graphql`
-  query ($skip: Int!, $limit: Int!) {
+  query ($tag: [String]!) {
     allMarkdownRemark(
       sort: {fields: frontmatter___date, order: DESC},
-      skip: $skip,
-      limit: $limit
+      filter: {frontmatter: {tags: {in:	$tag}}},
     ) {
       edges {
         node {

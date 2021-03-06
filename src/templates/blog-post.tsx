@@ -1,3 +1,5 @@
+const slugify = require("slugify")
+
 import React from "react"
 import {
   List,
@@ -9,6 +11,7 @@ import {
 } from "@patternfly/react-core"
 import { graphql } from "gatsby"
 import Layout from "../gatsby-theme-patternfly/components/Layout"
+import ItemWithComma from "src/components/ItemWithComma"
 import MetadataHeader from "src/components/SiteMetadata"
 
 export default function Template({
@@ -31,6 +34,29 @@ export default function Template({
             ? ""
             : <React.Fragment><ListItem>&#128100; {markdownRemark.frontmatter.author}</ListItem></React.Fragment> }
           <ListItem>&#128214; {markdownRemark.wordCount.words} words, {markdownRemark.timeToRead} { markdownRemark.timeToRead == 1 ? "minute" : "minutes" } to read</ListItem>
+
+                { markdownRemark.frontmatter.tags == null
+                  ? ""
+                  : <React.Fragment><ListItem>&#127991;&nbsp;
+                  { markdownRemark.frontmatter.tags.map(
+                    (
+                      tag: string,
+                      index: any
+                    ) => {
+                      return (
+                        <ItemWithComma
+                          description={tag}
+                          index={index}
+                          url={"/blog/tag/" + slugify(tag, { lower: true })}
+                          length={markdownRemark.frontmatter.tags.length - 1}
+                          linkType="internal"
+                        />
+                      )
+                    }
+                  )} </ListItem></React.Fragment>
+                }
+
+
         </List>
         <hr width="80%" style={{marginTop: "15px", marginBottom: "15px", border: "1px dashed #808080"}} />
         <div
@@ -54,6 +80,7 @@ export const pageQuery = graphql`
       frontmatter {
         author
         date(formatString: "MMMM DD, YYYY")
+        tags
         featured_image {
           alt
           src
