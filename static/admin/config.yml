@@ -27,12 +27,14 @@ collections:
         name: "tags"
         widget: "select"
         multiple: true
-        options: ["Community Updates", "DevCon", "Featured Software/Hardware", "Release Announcements"]
+        required: false
+        options: ["Community Updates", "DevCon", "Featured Software/Hardware", "Pre-releases", "Release Announcements"]
       - name: 'featured_image'
         label: 'Featured Image'
         widget: 'object'
         collapsed: true
         summary: '{{fields.src}}'
+        required: false
         fields:
           - {name: 'src', label: 'Image', widget: 'image'}
           - {name: 'title', label: 'Title', widget: 'string'}
