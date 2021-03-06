@@ -24,7 +24,7 @@ export default function Template({
       <div style={{ margin: "20px" }}>
         { markdownRemark.frontmatter.featured_image == undefined 
           ? ""
-          : (<div style={{ overflow: "hidden" }}><img alt={markdownRemark.frontmatter.featured_image.alt} title={markdownRemark.frontmatter.featured_image.title} src={markdownRemark.frontmatter.featured_image.src} style={{width: "80%", height: "auto"}} /></div>)
+          : (<div style={{ objectFit: "cover", objectPostion: "center", overflow: "hidden", maxHeight: "500px", width: "80%" }}><img alt={markdownRemark.frontmatter.featured_image.alt} title={markdownRemark.frontmatter.featured_image.title} src={markdownRemark.frontmatter.featured_image.src} /></div>)
         }
         <TextContent>
           <Text component={TextVariants.h1}>{markdownRemark.frontmatter.title}</Text>

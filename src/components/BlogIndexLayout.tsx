@@ -28,7 +28,7 @@ export default function BlogIndexLayout(props: {
             <React.Fragment>
               { item.node.frontmatter.featured_image == undefined 
                 ? ("")
-                : (<div style={{ overflow: "hidden" }}><img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} style={{width: "100%", height: "auto"}} /></div>)
+                : (<div style={{ objectFit: "cover", objectPostion: "center", overflow: "hidden", maxHeight: "500px", width: "100%" }}><img alt={item.node.frontmatter.featured_image.alt} title={item.node.frontmatter.featured_image.title} src={item.node.frontmatter.featured_image.src} /></div>)
               }
               <TextContent>
                 <Text component={TextVariants.h2}><Link to={item.node.fields.slug}>{item.node.frontmatter.title}</Link></Text>
