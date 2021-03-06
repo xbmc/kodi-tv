@@ -34,6 +34,9 @@ jobs:
             node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package.json') }}
 
+      - name: Update npm
+        run: npm -g update npm
+
       - name: Set Node Version
         uses: actions/setup-node@master
         with:
