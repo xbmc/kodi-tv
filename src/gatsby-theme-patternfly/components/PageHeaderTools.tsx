@@ -51,7 +51,7 @@ const HeaderPageHeaderTools = () => (
     <PageHeaderToolsItem>
       <div style={{ paddingLeft: "3px" }}>
         <SocialIcon
-          url="http://feeds.kodi.tv/xbmc"
+          url="/rss.xml"
           target="_blank" 
           rel="noopener" 
           network="rss"
