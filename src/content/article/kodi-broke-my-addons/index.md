@@ -43,4 +43,4 @@ So, whinge over. What can you do if you're caught in this trap.
 
 You have choices - but, please, don't have a go at us or leave us lousy reviews when we've really tried our best here, and yet something well outside of our control (your platform, your settings, third-party addons, maybe even third-party repositories) has broken something.
 
-`</grump>`
+`</grump> `
