@@ -8,8 +8,7 @@ author: Team XBMC
 
  here’s a screenshot captured using our built-in screenshot function, showing one of the 435 .milk presets currently in our cvs. the screenshot also shows our new seekbar located at top right corner, currently mapped to left-right on the right analog thumbstick. 
 
- (click image for fullsize version)  
-[![](http://pike.xboxmediacenter.de/news-xbmc_milkdrop_thumb.jpg)](http://pike.xboxmediacenter.de/news-xbmc_milkdrop.jpg)
+ (click image for fullsize version) (__image link removed, site no longer exists__)
 
  [rovastar’s page](http://www.milkdrop.co.uk) is a resource where more than 3000 milkdrop presets can be found.  
  another resource is [winamp’s milkdrop forums](http://forums.winamp.com/forumdisplay.php?forumid=81).

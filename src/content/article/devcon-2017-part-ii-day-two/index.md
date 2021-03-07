@@ -36,7 +36,7 @@ Day Two dawns... most people are bright-eyed and ready for another day, although
 
   
 
- ![Linux (Tux) Logo](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png) ![Windows Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png) ![Apple Logo](http://cdn.osxdaily.com/wp-content/uploads/2010/10/giant-apple-logo-bw.png) ![Android Logo](https://cdn.worldvectorlogo.com/logos/android.svg)
+ ![Linux (Tux) Logo](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png) ![Windows Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png) ![Apple Logo](/images/blog/giant-apple-logo-bw.png) ![Android Logo](https://cdn.worldvectorlogo.com/logos/android.svg)
 
  As the day started to lurch towards the finishing line, the sessions moved on to platform specifics.
 

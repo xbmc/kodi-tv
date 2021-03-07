@@ -19,8 +19,8 @@ author: Team XBMC
 
  Here are a few teaser screenshots from the new PM3.HD skin:
 
- [![](http://s3.supload.com/thumbs/default/screenshot001-20080914140233.png)](https://www.flickr.com:443/photos/29133065@N05/2876723351/) [![](http://s3.supload.com/thumbs/default/screenshot000-20080914140233.png)](https://www.flickr.com:443/photos/29133065@N05/2877555574/) [![](http://s3.supload.com/thumbs/default/screenshot002-20080914140233.png)](https://www.flickr.com:443/photos/29133065@N05/2877555358/)
-
+ (**dead image links removed**)
+ 
  Now go, [download XBMC ‘Atlantis’ Beta 1](https://kodi.wiki/download/) and enjoy!
 
  Yours sincerely / Team-XBMC

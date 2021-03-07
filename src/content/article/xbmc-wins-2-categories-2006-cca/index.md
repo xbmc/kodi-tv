@@ -6,8 +6,6 @@ author: Team XBMC
 2006 sourceforge.net community choice awards  
 [we won!](https://sourceforge.net/awards/cca/) 
 
- ![](http://pike.xboxmediacenter.de/awardslogo2006.gif)
-
  thanks to you – our users, [xbmc](http://www.xboxmediacenter.com) won best multimedia and also best game(!) category.  
  prize: ‘bragging rights’ and the logo on our [projectpage](https://sourceforge.net/projects/xbmc/).
 
