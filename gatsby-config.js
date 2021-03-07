@@ -311,17 +311,9 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-source-kodiaddon-leia",
+      resolve: "gatsby-source-kodiaddon",
       options: {
-        kodiversion: "leia",
-        kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
-      },
-    },
-    {
-      resolve: "gatsby-source-kodiaddon-matrix",
-      options: {
-        kodiversion: "matrix",
-        kodimirror: "ftp.halifax.rwth-aachen.de/xbmc",
+        kodiversions: ["leia", "matrix"],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

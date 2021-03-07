@@ -5,9 +5,9 @@
 
 const fetch = require("node-fetch")
 const parse = require("xml-parser")
-const yaml = require("js-yaml")
 const slugify = require("slugify")
 const fs = require("fs")
+const getargs = require('minimist')
 const inspect = require("util").inspect // this is only here to inspect the json during debugging
 
 const TODAY = new Date()
@@ -78,15 +78,14 @@ const CATEGORIES = [
 /** @type {any[]} */
 let history = []
 /** @type {any[]} */
-let present = []
 let kodiversion = ""
-let kodimirror = ""
-let kodistats = ""
+let kodimirror = "http://ftp.halifax.rwth-aachen.de/xbmc/addons/"
+let kodistats = "http://mirrors.kodi.tv/addons/"
 /** @type {import("../../src/addon").IAddon} */
 let addon = {}
 /** @type {import("../../src/addon").IAddon[]} */
 let addons = []
-let featured = { addons: [] }
+// let featured = { addons: [] }
 /** @type {any[]} */
 let authors = []
 /** @type {any[]} */
@@ -95,107 +94,26 @@ let addonpath = ""
 let addonplatform = ""
 /** @type {string[]} */
 let addonimagetypes = []
+let downloadqueue = []
 let versiondownloads = 0
-let pixiememory = ""
-let addonsfeatured = ""
+let gatsbyroot = "../../"
+let pixiememory = gatsbyroot + "src/data/addons/"
 let addonnodetype = ""
 let authornodetype = ""
 let categorynodetype = ""
+let data = ""
 
-
-exports.onPreBootstrap =
-  /**
-   * @param {any} _ref
-   * @param {{ kodiversion: string; kodimirror: string; }} pluginOptions
-   */
-  function (_ref, pluginOptions) {
-    kodiversion = pluginOptions.kodiversion
-    kodimirror =
-      "http://" + pluginOptions.kodimirror + "/addons/" + kodiversion + "/"
-    kodistats = "http://mirrors.kodi.tv" + "/addons/" + kodiversion + "/"
-    pixiememory = "src/data/addons/" + kodiversion + "/history.json"
-    addonsfeatured = "src/data/addons/" + kodiversion + "/featured.yaml"
-    addonnodetype = kodiversion + "Addon"
-    authornodetype = kodiversion + "Author"
-    categorynodetype = kodiversion + "Category"
-  }
-
-exports.sourceNodes = async ({
-  actions,
-  createContentDigest,
-  createNodeId,
-  getNodesByType,
-}) => {
-  const { createNode, touchNode, deleteNode } = actions
-  let data = ""
-  try {
-    history = JSON.parse(fs.readFileSync(pixiememory, "utf8"))
-  } catch (e) {
-    console.log("unable to load pixie memory, starting from scratch")
-    console.log(e)
-  }
-  try {
-    featured = yaml.safeLoad(fs.readFileSync(addonsfeatured, "utf8"))
-  } catch (e) {
-    console.log("unable to load featured addons")
-    console.log(e)
-  }
-  try {
-    // Fetch the data
-    console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
-    const res = await fetch(kodimirror + 'addons.xml')
-    data = await res.text()
-  } catch (error) {
-    data = ''
-    console.log(error)
-  }
-  if (data) {
-    const parsedXML = parse(data)
-    parsedXML.root.children.forEach(getAddon)
-    authors.forEach(doCleanup)
-    categories.forEach(doCleanup)
-    fs.writeFileSync(pixiememory, JSON.stringify(present))
-    addons.forEach(addon =>
-      createNode({
-        ...addon,
-        id: createNodeId(`${addonnodetype}-${addon.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: addonnodetype,
-          content: JSON.stringify(addon),
-          contentDigest: createContentDigest(addon),
-        },
-      })
-    )
-    authors.forEach(author =>
-      createNode({
-        ...author,
-        id: createNodeId(`${authornodetype}-${author.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: authornodetype,
-          content: JSON.stringify(author),
-          contentDigest: createContentDigest(author),
-        },
-      })
-    )
-    categories.forEach(category =>
-      createNode({
-        ...category,
-        id: createNodeId(`${categorynodetype}-${category.id}`), // hashes the inputs into an ID
-        parent: null,
-        children: [],
-        internal: {
-          type: categorynodetype,
-          content: JSON.stringify(category),
-          contentDigest: createContentDigest(category),
-        },
-      })
-    )
-  }
-  return
+async function loadHistoryFile() {
+  return new Promise(function(resolve, reject) {
+    console.log('loading addons.json from ' + pixiememory)
+    try {
+      ah = JSON.parse(fs.readFileSync(pixiememory + 'addons.json', "utf8"))
+    } catch (e) {
+      console.log("unable to load history, starting from scratch")
+      ah = [{}]
+    }
+    resolve(ah)
+  })
 }
 
 function getAddon(rawaddon) {
@@ -219,9 +137,6 @@ function getAddon(rawaddon) {
         .split(",")
         .map(item => item.trim())
         .forEach(assignAuthor)
-    }
-    if (featured.addons.find(o => o.addonid === addon.id) !== undefined) {
-      addon.featured = "true"
     }
     addonhistory = history.find(o => o.id === addon.id)
     if (addonhistory == undefined) {
@@ -248,12 +163,11 @@ function getAddon(rawaddon) {
         addon.agetype = "existing"
       }
       if (addon.broken == null) {
-        downloadImages()      
+        queueImages()
       }
     }
     if (addon.broken == null) {
       // getDownloadCount() // this isn't working yet
-      present.push(addonhistory)
       if (addon.icons == null) {
         addon.icons = [
           { remotepath: "", localpath: "/images/default-addon.png" },
@@ -493,35 +407,69 @@ function compare(a, b) {
   return comparison
 }
 
-function downloadImages() {
-  addonimagetypes.forEach(downloadImageType)
+function queueImages() {
+  addonimagetypes.forEach(queueImageType)
 }
 
-function downloadImageType(imagetype) {
+function queueImageType(imagetype) {
   const fullurl = addon.platforms[0].path
   const urlbase = fullurl.substring(0, fullurl.lastIndexOf("/")) + "/"
-  const rootpath = "./static"
+  const rootpath = gatsbyroot + "static"
   addon[imagetype].forEach(asset => {
     const localpath = asset.localpath
     const localbase =
       rootpath + localpath.substring(0, localpath.lastIndexOf("/")) + "/"
-    fs.mkdir(localbase, { recursive: true }, err => {
-      if (err) throw err
-    })
-    console.log(
-      "downloading " + asset.remotepath + " to " + rootpath + asset.localpath
-    )
-    download(urlbase + asset.remotepath, rootpath + asset.localpath)
+    downloadqueue.push({remote: urlbase + asset.remotepath, localdir: localbase, local: rootpath + asset.localpath })
   })
 }
 
-/**
- * @param {string} url
- * @param {fs.PathLike} localpath
- */
-function download(url, localpath) {
-  fetch(url).then(res => {
-    const dest = fs.createWriteStream(localpath)
-    res.body.pipe(dest)
-  })
+async function app() {
+  const args = getargs(process.argv.slice(2))
+  if (args['kv'] == undefined) {
+    console.log('kodi version not included on command line')
+    console.log('use --kv=<version>')
+    return
+  }
+  console.log('kodi version from command line is ' + args['kv'])
+  kodiversion = args['kv']
+  kodimirror = kodimirror  + kodiversion + "/"
+  kodistats = kodistats  + kodiversion + "/"
+  pixiememory = pixiememory + kodiversion + '/'
+  history = await loadHistoryFile()
+  console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
+  try {
+    const res = await fetch(kodimirror + 'addons.xml')
+    data = await res.text()
+  } catch (error) {
+    data = ''
+    console.log(error)
+  }
+  if (data) {
+    const parsedXML = parse(data)
+    parsedXML.root.children.forEach(getAddon)
+    authors.forEach(doCleanup)
+    categories.forEach(doCleanup)
+    for (let i=0; i < downloadqueue.length; i++) {
+      let createddir = false
+      let download = downloadqueue[i]
+      await fs.mkdir(download.localdir, { recursive: true }, err => {
+        if (err) {
+          console.log('create failed for directory' + download.localdir)
+        } 
+      })
+      console.log('downloading ' + download.remote)
+      await fetch(download.remote).then(res => {
+        const dest = fs.createWriteStream(download.local)
+        res.body.pipe(dest)
+      })
+    }
+    console.log('writing addons.json to ' + pixiememory)
+    fs.writeFileSync(pixiememory + 'addons.json', JSON.stringify(addons))
+    console.log('writing authors.json to ' + pixiememory)
+    fs.writeFileSync(pixiememory + 'authors.json', JSON.stringify(authors))
+    console.log('writing categories.json to ' + pixiememory)
+    fs.writeFileSync(pixiememory + 'categories.json', JSON.stringify(categories))
+  }
 }
+
+app()

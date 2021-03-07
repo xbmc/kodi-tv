@@ -1,5 +1,6 @@
 // gatsby-site-config.js
-if (process.env.GATSBY_SITEURL == undefined) {
+let url = ''
+if (process.env.GATSBY_SITEURL === undefined) {
   url = 'https://dont.care'
 } else {
   url = process.env.GATSBY_SITEURL
