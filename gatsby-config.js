@@ -47,11 +47,11 @@ const topNav = [
   },
   {
     // The text displayed on the item
-    title: "Wiki",
+    title: "Docs",
     // The root path that enables/activates the item
-    rootPath: "/wiki",
+    rootPath: "/docs",
     // The page that is actually linked to when the item is clicked
-    path: "https://kodi.wiki",
+    path: "/docs",
   },
   {
     // The text displayed on the item
