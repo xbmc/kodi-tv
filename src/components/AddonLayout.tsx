@@ -166,6 +166,8 @@ export default function AddonLayout({
               </TextListItem>
               <TextListItem component="dt">Size</TextListItem>
               <TextListItem component="dd">{addon.size}</TextListItem>
+              <TextListItem component="dt">Downloads</TextListItem>
+              <TextListItem component="dd">{addon.downloads.toLocaleString()} (this is the download count for the most current version)</TextListItem>
             </TextList>
           </TextContent>
         </StackItem>

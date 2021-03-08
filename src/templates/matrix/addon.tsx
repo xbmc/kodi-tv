@@ -36,6 +36,7 @@ export const query = graphql`
       firstseen(formatString: "MMMM DD, YYYY")
       forum
       icon
+      downloads
       lastupdate(formatString: "MMMM DD, YYYY")
       license
       name
