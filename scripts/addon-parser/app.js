@@ -167,7 +167,6 @@ function getAddon(rawaddon) {
       }
     }
     if (addon.broken == null) {
-      // getDownloadCount() // this isn't working yet
       if (addon.icons == null) {
         addon.icons = [
           { remotepath: "", localpath: "/images/default-addon.png" },
@@ -366,30 +365,6 @@ function getAssets(asset) {
   }
 }
 
-function getDownloadCount() {
-  version_downloads = 0
-  if (addonhistory.downloads === undefined) {
-    addonhistory.downloads = 0
-  }
-  addon.platforms.forEach(getPlatformDownloadCount)
-  addon.downloads = addonhistory.downloads + version_downloads
-}
-
-async function getPlatformDownloadCount(platform) {
-  try {
-    const res = await fetch(platform.statspath)
-    const data = await res.text()
-  } catch (error) {
-    console.log(error)
-    return
-  }
-  console.log(data)
-  stats = JSON.parse(data)
-  if (stats.Total !== undefined) {
-    versiondownloads = versiondownloads + stats.Total
-  }
-}
-
 function doCleanup(item) {
   item.addons.sort(compare)
   item.totaladdons = item.addons.length
@@ -462,6 +437,19 @@ async function app() {
         const dest = fs.createWriteStream(download.local)
         res.body.pipe(dest)
       })
+    }
+    console.log('getting addon download counts (this could take awhile)')
+    for (let i=0; i < addons.length; i++) {
+      let downloadcount = 0
+      for (let k=0; k < addons[i].platforms.length; k++) {
+        const res = await fetch(addons[i].platforms[k].statspath)
+        let rawstats = await res.text()
+        let stats = JSON.parse(rawstats)
+        if (stats.Total !== undefined) {
+          downloadcount = downloadcount + stats.Total
+        }
+      }
+      addons[i].downloads = downloadcount
     }
     console.log('writing addons.json to ' + pixiememory)
     fs.writeFileSync(pixiememory + 'addons.json', JSON.stringify(addons))

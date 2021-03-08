@@ -54,6 +54,31 @@ function dateSortDesc(a, b) {
   return comparison
 }
 
+function downloadsSortDesc(a, b) {
+  const bandA = a.downloads
+  const bandB = b.downloads
+  let comparison = 0
+  if (bandA < bandB) {
+    comparison = 1
+  } else if (bandA > bandB) {
+    comparison = -1
+  }
+  return comparison
+}
+
+function downloadsSortAsc(a, b) {
+  const bandA = a.downloads
+  const bandB = b.downloads
+  let comparison = 0
+  if (bandA > bandB) {
+    comparison = 1
+  } else if (bandA < bandB) {
+    comparison = -1
+  }
+  return comparison
+}
+
+
 export default class SearchAddons extends React.Component {
   constructor(props) {
     super(props);
@@ -79,7 +104,9 @@ export default class SearchAddons extends React.Component {
       { value: 'A to Z', disabled: false },
       { value: 'Z to A', disabled: false },
       { value: 'Latest Update', disabled: false },
-      { value: 'Oldest Update', disabled: false }
+      { value: 'Oldest Update', disabled: false },
+      { value: 'Most Popular', disabled: false },
+      { value: 'Least Popular', disabled: false }
     ];
     
     this.onClear = () => {
@@ -194,6 +221,12 @@ export default class SearchAddons extends React.Component {
             break
           case "oldest update":
             filtered_results = filtered_results.sort(dateSortDesc)
+            break
+          case "most popular":
+            filtered_results = filtered_results.sort(downloadsSortDesc)
+            break
+          case "least popular":
+            filtered_results = filtered_results.sort(downloadsSortAsc)
             break
         }
       }
