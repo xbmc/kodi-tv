@@ -80,7 +80,7 @@ let history = []
 /** @type {any[]} */
 let kodiversion = ""
 let kodimirror = "http://ftp.halifax.rwth-aachen.de/xbmc/addons/"
-let kodistats = "http://mirrors.kodi.tv/addons/"
+let kodistats = "http://mirrors.kodi.tv/.stats/redis_file_stats.json"
 /** @type {import("../../src/addon").IAddon} */
 let addon = {}
 /** @type {import("../../src/addon").IAddon[]} */
@@ -92,6 +92,7 @@ let authors = []
 let categories = []
 let addonpath = ""
 let addonplatform = ""
+let addonstats = ""
 /** @type {string[]} */
 let addonimagetypes = []
 let downloadqueue = []
@@ -154,14 +155,13 @@ function getAddon(rawaddon) {
     rawaddon.children.forEach(parseExtensions)
     if (addon.version == addonhistory.version) {
       addon.lastupdate = addonhistory.lastupdate
+      addon.downloads = addonhistory.downloads
     } else {
       addon.lastupdate = TODAY
-      addonhistory.lastupdate = TODAY
-      addonhistory.version = addon.version
       if (!firstever) {
-        addonhistory.agetype = "existing"
         addon.agetype = "existing"
       }
+      addon.downloads = 0
       if (addon.broken == null) {
         queueImages()
       }
@@ -336,7 +336,7 @@ function getMetadata(metadata) {
       String(Math.floor(Number(metadata.content) / 1024)) + "KB"
   } else if (metadata.name == "path") {
     addonpath = kodimirror + metadata.content
-    addonstatspath = kodistats + metadata.content + "?stats"
+    addonstatspath = '/addons/' + kodiversion + '/' + metadata.content
   } else if (metadata.name == "platform") {
     addonplatform = metadata.content
   } else if (metadata.name == "assets") {
@@ -398,6 +398,12 @@ function queueImageType(imagetype) {
   })
 }
 
+function getDownloadCount() {
+  if (addon.downloads === undefined) {
+    addon.downloads = 0
+  }
+}
+
 async function app() {
   const args = getargs(process.argv.slice(2))
   if (args['kv'] == undefined) {
@@ -408,7 +414,6 @@ async function app() {
   console.log('kodi version from command line is ' + args['kv'])
   kodiversion = args['kv']
   kodimirror = kodimirror  + kodiversion + "/"
-  kodistats = kodistats  + kodiversion + "/"
   pixiememory = pixiememory + kodiversion + '/'
   history = await loadHistoryFile()
   console.log('getting addons from the ' + kodiversion + ' repo using ' + kodimirror)
@@ -419,8 +424,19 @@ async function app() {
     data = ''
     console.log(error)
   }
+  console.log('getting addon download stats from ' + kodistats)
+  try {
+    const res = await fetch(kodistats)
+    rawstats = await res.json()
+    let firstKey = Object.keys(rawstats[0])[0]
+    addonstats = rawstats[0][firstKey]
+  } catch (error) {
+    addonstats = {}
+    console.log(error)
+  }
   if (data) {
     const parsedXML = parse(data)
+    console.log('parsing addon data')
     parsedXML.root.children.forEach(getAddon)
     authors.forEach(doCleanup)
     categories.forEach(doCleanup)
@@ -438,18 +454,21 @@ async function app() {
         res.body.pipe(dest)
       })
     }
-    console.log('getting addon download counts (this could take awhile)')
+    console.log('getting addon download counts')
     for (let i=0; i < addons.length; i++) {
       let downloadcount = 0
       for (let k=0; k < addons[i].platforms.length; k++) {
-        const res = await fetch(addons[i].platforms[k].statspath)
-        let rawstats = await res.text()
-        let stats = JSON.parse(rawstats)
-        if (stats.Total !== undefined) {
-          downloadcount = downloadcount + stats.Total
+        let pcstring = addonstats[addons[i].platforms[k].statspath]
+        if (pcstring != undefined) {
+          let platformcount = parseInt(pcstring)
+          downloadcount = downloadcount + platformcount
         }
       }
-      addons[i].downloads = downloadcount
+      if (downloadcount < addons[i].downloads) { // if true a new year has started, which resets the stats
+        addons[i].downloads = addons[i].downloads + downloadcount
+      } else {
+        addons[i].downloads = downloadcount
+      }
     }
     console.log('writing addons.json to ' + pixiememory)
     fs.writeFileSync(pixiememory + 'addons.json', JSON.stringify(addons))
