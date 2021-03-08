@@ -41,6 +41,6 @@ So, whinge over. What can you do if you're caught in this trap.
 * You can lobby your addon authors to get their collective fingers out and make the shift to Python 3 - as said above, this is hardly new news to anyone. Other than addons we write and provide, we have absolutely no control or influence over whether they get ported to Python 3, or whether they stay on 2 (and thus you can't go past Kodi 18 "Leia").
 * Or you could use Kodi as it's intended, and don't use these addons at all: more reputable addons either have already been updated, or are likely to be in the near future.
 
-You have choices - but, please, don't have a go at us or leave us lousy reviews when we've really tried our best here, and yet something well outside of our control (your platform, your settings, third-party addons, maybe even third-party repositories) has broken something.
+You have choices - but, please, don't have a go at us or leave us lousy reviews when we've really tried our best here, and yet something well outside of our control (your platform, your settings, third-party addons, maybe even third-party repositories) has broken something. 
 
-`</grump> `
+`</grump>`
