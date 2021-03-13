@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-const config = require("/gatsby-site-config")
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+const config = require("/gatsby-site-config");
 
 function SEO({ description, lang, meta, keywords, title, breadcrumbs }) {
   return (
@@ -13,40 +13,40 @@ function SEO({ description, lang, meta, keywords, title, breadcrumbs }) {
       titleTemplate={`${config.siteMetadata.title} | %s`}
       meta={[
         {
-          name: 'description',
+          name: "description",
           content: config.siteMetadata.description,
         },
         {
-          property: 'og:title',
+          property: "og:title",
           content: config.siteMetadata.title,
         },
         {
-          property: 'og:description',
+          property: "og:description",
           content: config.siteMetadata.description,
         },
         {
-          property: 'og:type',
-          content: 'website',
+          property: "og:type",
+          content: "website",
         },
       ]
         .concat(
           keywords.length > 0
             ? {
-                name: 'keywords',
-                content: keywords.join(', '),
+                name: "keywords",
+                content: keywords.join(", "),
               }
             : []
         )
         .concat(meta)}
     />
-  )
+  );
 }
 
 SEO.defaultProps = {
-  lang: 'en',
+  lang: "en",
   meta: [],
   keywords: [],
-}
+};
 
 SEO.propTypes = {
   description: PropTypes.string,
@@ -55,6 +55,6 @@ SEO.propTypes = {
   keywords: PropTypes.arrayOf(PropTypes.string),
   breadcrumbs: PropTypes.string,
   title: PropTypes.string.isRequired,
-}
+};
 
-export default SEO
+export default SEO;

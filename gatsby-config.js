@@ -1,8 +1,8 @@
-const path = require(`path`)
+const path = require(`path`);
 require(`dotenv`).config({
   path: `.env.${process.env.NODE_ENV}`,
-})
-const config = require(`./gatsby-site-config`)
+});
+const config = require(`./gatsby-site-config`);
 
 module.exports = {
   siteMetadata: config.siteMetadata,
@@ -59,23 +59,23 @@ module.exports = {
     `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
     {
-      resolve: 'gatsby-source-kodidonorwall',
+      resolve: "gatsby-source-kodidonorwall",
       options: {
-        typeName: 'Donor',
-        accessKeyId: process.env.AWS_ID, 
+        typeName: "Donor",
+        accessKeyId: process.env.AWS_ID,
         secretAccessKey: process.env.AWS_KEY,
-        region: 'us-east-1',
+        region: "us-east-1",
         params: {
-          TableName : process.env.AWS_DBNAME,
-          IndexName: 'all',
+          TableName: process.env.AWS_DBNAME,
+          IndexName: "all",
           Limit: 30,
-          ProjectionExpression: 'id,createdAt,amount,currency,provider,publicName',
+          ProjectionExpression: "id,createdAt,amount,currency,provider,publicName",
           ScanIndexForward: false,
-          KeyConditionExpression: 'dummy=:dummyval',
-          ExpressionAttributeValues: {":dummyval":"1"},
+          KeyConditionExpression: "dummy=:dummyval",
+          ExpressionAttributeValues: { ":dummyval": "1" },
           // OTHER PARAMS HERE
-        }
-      }
+        },
+      },
     },
     {
       resolve: "gatsby-source-kodiaddon",
@@ -88,4 +88,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

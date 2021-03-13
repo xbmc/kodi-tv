@@ -1,15 +1,15 @@
-import React from 'react'
-import Header from './header'
+import React from "react";
+import Header from "./header";
 
-function Layout (props) {
-  let frontmatter = {}
+function Layout(props) {
+  let frontmatter = {};
   if (props.pageContext === undefined) {
-    frontmatter['title'] = ''
+    frontmatter["title"] = "";
   } else {
     if (props.pageContext.frontmatter === undefined) {
-      frontmatter['title'] = ''  
+      frontmatter["title"] = "";
     } else {
-      frontmatter = props.pageContext.frontmatter
+      frontmatter = props.pageContext.frontmatter;
     }
   }
   return (
@@ -19,7 +19,10 @@ function Layout (props) {
         <main>
           <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             <div class="px-4 py-6 sm:px-0">
-              <div name="content" class="prose prose-blue max-w-7xl lg:prose-lg 2xl:prose-2xl">
+              <div
+                name="content"
+                class="prose prose-blue max-w-7xl lg:prose-lg 2xl:prose-2xl"
+              >
                 {props.children}
               </div>
             </div>
@@ -27,7 +30,7 @@ function Layout (props) {
         </main>
       </div>
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

@@ -4,23 +4,23 @@
 // console.log(inspect(authors, { colors: true, depth: Infinity }));
 // const inspect = require("util").inspect // this is only here to inspect the json during debugging
 
-const fs = require("fs")
-const yaml = require("js-yaml")
+const fs = require("fs");
+const yaml = require("js-yaml");
 
-let kodiversion = ""
-let kodiversions = ""
+let kodiversion = "";
+let kodiversions = "";
 /** @type {import("../../src/addon").IAddon[]} */
-let addons = []
-let featured = { addons: [] }
+let addons = [];
+let featured = { addons: [] };
 /** @type {any[]} */
-let authors = []
+let authors = [];
 /** @type {any[]} */
-let categories = []
-let pixiememory = ""
-let addonsfeatured = ""
-let addonnodetype = ""
-let authornodetype = ""
-let categorynodetype = ""
+let categories = [];
+let pixiememory = "";
+let addonsfeatured = "";
+let addonnodetype = "";
+let authornodetype = "";
+let categorynodetype = "";
 
 exports.onPreBootstrap =
   /**
@@ -28,16 +28,16 @@ exports.onPreBootstrap =
    * @param {{ kodiversion: string }} pluginOptions
    */
   function (_ref, pluginOptions) {
-    kodiversions = pluginOptions.kodiversions
-  }
+    kodiversions = pluginOptions.kodiversions;
+  };
 
 function setFeatured(addon) {
   if (featured.addons.find(o => o.addonid === addon.id) !== undefined) {
-    addon.featured = "true"
+    addon.featured = "true";
   } else {
-    addon.featured = ""
+    addon.featured = "";
   }
-  return addon
+  return addon;
 }
 
 exports.sourceNodes = async ({
@@ -46,20 +46,20 @@ exports.sourceNodes = async ({
   createNodeId,
   getNodesByType,
 }) => {
-  const { createNode, touchNode, deleteNode } = actions
+  const { createNode, touchNode, deleteNode } = actions;
   for (let i = 0; i < kodiversions.length; i++) {
-    kodiversion = kodiversions[i]
-    console.log("loading addon information for " + kodiversion)
-    pixiememory = "src/data/addons/" + kodiversion + "/"
-    addonnodetype = kodiversion + "Addon"
-    authornodetype = kodiversion + "Author"
-    categorynodetype = kodiversion + "Category"
-    addons = JSON.parse(fs.readFileSync(pixiememory + "addons.json", "utf8"))
-    authors = JSON.parse(fs.readFileSync(pixiememory + "authors.json", "utf8"))
+    kodiversion = kodiversions[i];
+    console.log("loading addon information for " + kodiversion);
+    pixiememory = "src/data/addons/" + kodiversion + "/";
+    addonnodetype = kodiversion + "Addon";
+    authornodetype = kodiversion + "Author";
+    categorynodetype = kodiversion + "Category";
+    addons = JSON.parse(fs.readFileSync(pixiememory + "addons.json", "utf8"));
+    authors = JSON.parse(fs.readFileSync(pixiememory + "authors.json", "utf8"));
     categories = JSON.parse(
       fs.readFileSync(pixiememory + "categories.json", "utf8")
-    )
-    featured = yaml.load(fs.readFileSync(pixiememory + "featured.yaml", "utf8"))
+    );
+    featured = yaml.load(fs.readFileSync(pixiememory + "featured.yaml", "utf8"));
     addons.forEach(addon =>
       createNode({
         ...setFeatured(addon),
@@ -72,7 +72,7 @@ exports.sourceNodes = async ({
           contentDigest: createContentDigest(addon),
         },
       })
-    )
+    );
     authors.forEach(author =>
       createNode({
         ...author,
@@ -85,7 +85,7 @@ exports.sourceNodes = async ({
           contentDigest: createContentDigest(author),
         },
       })
-    )
+    );
     categories.forEach(category =>
       createNode({
         ...category,
@@ -98,6 +98,6 @@ exports.sourceNodes = async ({
           contentDigest: createContentDigest(category),
         },
       })
-    )
+    );
   }
-}
+};
