@@ -1,296 +1,63 @@
-const path = require("path")
-require("dotenv").config({
+const path = require(`path`)
+require(`dotenv`).config({
   path: `.env.${process.env.NODE_ENV}`,
 })
-const config = require("./gatsby-site-config")
-
-const topNav = [
-  {
-    // The text displayed on the item
-    title: "About",
-    // The root path that enables/activates the item
-    rootPath: "/about",
-    // The page that is actually linked to when the item is clicked
-    path: "/about",
-  },
-  {
-    // The text displayed on the item
-    title: "News",
-    // The root path that enables/activates the item
-    rootPath: "/blog",
-    // The page that is actually linked to when the item is clicked
-    path: "/blog",
-  },
-  {
-    // The text displayed on the item
-    title: "Download",
-    // The root path that enables/activates the item
-    rootPath: "/Download",
-    // The page that is actually linked to when the item is clicked
-    path: "/download",
-  },
-  {
-    // The text displayed on the item
-    title: "Add-ons",
-    // The root path that enables/activates the item
-    rootPath: "/addons",
-    // The page that is actually linked to when the item is clicked
-    path: "/addons",
-  },
-  {
-    // The text displayed on the item
-    title: "Forum",
-    // The root path that enables/activates the item
-    rootPath: "/forum",
-    // The page that is actually linked to when the item is clicked
-    path: "https://forum.kodi.tv",
-  },
-  {
-    // The text displayed on the item
-    title: "Docs",
-    // The root path that enables/activates the item
-    rootPath: "/docs",
-    // The page that is actually linked to when the item is clicked
-    path: "/docs",
-  },
-  {
-    // The text displayed on the item
-    title: "Contribute",
-    // The root path that enables/activates the item
-    rootPath: "/contribute",
-    // The page that is actually linked to when the item is clicked
-    path: "/contribute",
-  },
-  {
-    // The text displayed on the item
-    title: "Donate",
-    // The root path that enables/activates the item
-    rootPath: "/donate",
-    // The page that is actually linked to when the item is clicked
-    path: "/donate",
-  },
-  {
-    // The text displayed on the item
-    title: "Store",
-    // The root path that enables/activates the item
-    rootPath: "/store",
-    // The page that is actually linked to when the item is clicked
-    path: "/store",
-  },
-]
-
-const sideNav = [
-  {
-    rootPath: "/about",
-    menuType: "submenu",
-    nav: [
-      {
-        title: "About",
-        path: "/about",
-      },
-      {
-        title: "Contact",
-        path: "/about/contact",
-      },
-      {
-        title: "Sponsors",
-        path: "/about/sponsors",
-      },
-      {
-        title: "Software",
-        path: "/about/software",
-      },
-      {
-        title: "Foundation",
-        path: "/about/foundation",
-      },
-    ],
-  },
-  {
-    rootPath: "/addons/matrix",
-    menuType: "submenu",
-    nav: [
-      {
-        title: "Matrix Add-Ons",
-        path: "/addons/matrix",
-      },
-      {
-        title: "Search Matrix Add-Ons",
-        path: "/addons/matrix/search",
-      },
-      {
-        title: "Top Matrix Add-on Authors",
-        path: "/addons/matrix/top-authors",
-      },
-    ],
-  },
-  {
-    rootPath: "/addons/leia",
-    menuType: "submenu",
-    nav: [
-      {
-        title: "Leia Add-Ons",
-        path: "/addons/leia",
-      },
-      {
-        title: "Search Leia Add-Ons",
-        path: "/addons/leia/search",
-      },
-      {
-        title: "Top Leia Add-on Authors",
-        path: "/addons/leia/top-authors",
-      },
-    ],
-  },
-  {
-    rootPath: "/donate",
-    menuType: "submenu",
-    nav: [
-      {
-        title: "Donate",
-        path: "/donate",
-      },
-      {
-        title: "Donor Wall",
-        path: "/donate/wall",
-      },
-    ],
-  },
-  {
-    // DO NOT DELETE THIS DICT
-    // the side nav requires at least one item (even if not used) that has an expandable link
-    // if you remove this everything will fail, I repeat
-    // DO NOT DELETE THIS DICT
-    rootPath: "DONOTDELETETHIS",
-    menuType: "none",
-    nav: [
-      {
-        // The text displayed on the item
-        title: "Direct link",
-        // The page that is linked to
-        path: "/direct/link",
-      },
-      {
-        title: "Expandable link",
-        pages: [
-          {
-            title: "Expandable link",
-            path: "/expandable/link",
-          },
-        ],
-      },
-    ],
-  },
-]
+const config = require(`./gatsby-site-config`)
 
 module.exports = {
   siteMetadata: config.siteMetadata,
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-netlify-cms",
     {
-      resolve: "gatsby-plugin-feed",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ "content:encoded": edge.node.html }],
-                })
-              })
-            },
-            query: `
-              {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  limit: 20
-                ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      fields { slug }
-                      frontmatter {
-                        title
-                        date
-                      }
-                    }
-                  }
-                }
-              }
-            `,
-            output: "/rss.xml",
-            match: "^/article/",
-          },
-        ],
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "src/images",
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-pages",
-        path: "src/content",
-      },
-    },
-    "gatsby-transformer-remark",
-    "gatsby-transformer-yaml",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: "./src/data/yaml",
+        name: `markdown-pages`,
+        path: `${__dirname}/src/content`,
       },
     },
     {
-      resolve: "gatsby-plugin-root-import",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        src: path.join(__dirname, "src"),
-        images: path.join(__dirname, "src/images"),
-        pages: path.join(__dirname, "src/pages"),
-        node_modules: path.join(__dirname, "node_modules"),
-        patternfly_components: path.join(
-          __dirname,
-          "node_modules/gatsby-theme-patternfly/src/components"
-        ),
+        path: `${__dirname}/src/data/yaml`,
       },
     },
     {
-      resolve: "gatsby-theme-patternfly",
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        // enable or disable the top nav (default true)
-        useTopNav: true,
-        // enable or disable the side navs (default true)
-        useSideNav: true,
-        // one or more top navigation definitions
-        topNav: topNav,
-        // one or more side navigation definitions
-        sideNav: sideNav,
+        defaultLayouts: { default: path.resolve(`./src/components/layout.tsx`) },
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-kodi-tv`,
+        short_name: `website`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `static/images/kodi-logo.svg`, // This path is relative to the root of the site.
+      },
+    },
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
+    `gatsby-transformer-sharp`,
     {
       resolve: 'gatsby-source-kodidonorwall',
       options: {
@@ -316,8 +83,9 @@ module.exports = {
         kodiversions: ["leia", "matrix"],
       },
     },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // 'gatsby-plugin-offline',
+    // To learn more, visit: https://gatsby.app/offline
+    // `gatsby-plugin-offline`,
   ],
 }

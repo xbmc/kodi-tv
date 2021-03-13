@@ -12,5 +12,5 @@ module.exports = {
     description: "Kodi is a free media player that is designed to look great on your big screen TV but is just as home on a small screen.",
     siteUrl: url,
     author: "Team Kodi",
-  },
+  }
 }
