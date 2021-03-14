@@ -35,7 +35,7 @@ class Tabs extends React.Component<Props, State> {
 
     return (
       <div className="tabs">
-        <nav className="tab-list flex flex-col sm:flex-row">
+        <nav className="tab-list flex flex-col sm:flex-row pb-4">
           {children.map(child => {
             const { label } = child.props;
 

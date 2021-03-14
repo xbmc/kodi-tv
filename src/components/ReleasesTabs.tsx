@@ -29,13 +29,11 @@ class ReleasesTabs extends React.Component {
             <div label={release.name} className="flex">
               <div className="flex-initial">
                 <div className="pt-15">
-                  <h2>{release.title}</h2>
-                  <p>
-                    <ReactMarkdown>{release.description}</ReactMarkdown>
-                  </p>
+                  <h1 className="text-xl font-bold">{release.title}</h1>
+                    <ReactMarkdown className="prose max-w-none">{release.description}</ReactMarkdown>
                 </div>
               </div>
-              <div className="flex-initial">
+              <div className="flex-initial pt-4">
                 <DownloadLinks downloads={release.downloads} />
               </div>
             </div>
