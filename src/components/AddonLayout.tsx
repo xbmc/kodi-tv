@@ -4,11 +4,13 @@ import { IAddon } from "./../addon";
 import ItemWithComma from "./ItemWithComma";
 import Carousel from "./carousel";
 import { ExclamationOutline } from "heroicons-react";
-import Card from "src/components/Card"
+import Card from "src/components/Card";
 
 export default function AddonLayout({
+  repo,
   data,
 }: {
+  repo: string;
   data: {
     addon: IAddon;
   };
@@ -28,7 +30,10 @@ export default function AddonLayout({
       slides.push(screenshot.localpath);
     });
   }
-  let frontmatter = {title: "Add-on Details", breadcrumbs: "Addons | " + addon.name}
+  let frontmatter = {
+    title: repo + " Add-on Details",
+    breadcrumbs: "Addons | " + repo + " | " + addon.name,
+  };
 
   return (
     <Layout className="addondetail" frontmatter={frontmatter}>
@@ -38,7 +43,10 @@ export default function AddonLayout({
             <img width="150" height="150" alt="" src={addon.icon} />
           </div>
           <div className="col-span-4 flex flex-col">
-            <div className=" text-2xl font-bold" dangerouslySetInnerHTML={{ __html: addon.name }} />
+            <div
+              className=" text-2xl font-bold"
+              dangerouslySetInnerHTML={{ __html: addon.name }}
+            />
             <p>
               <div dangerouslySetInnerHTML={{ __html: addon.summary }} />
             </p>
@@ -90,16 +98,18 @@ export default function AddonLayout({
               </div>
               <div>
                 To download this Add-On, we highly recommend you do it via the user
-                interface in Kodi. Simply look for the "Get More" button in the Add-Ons
-                menu. If you want to install it manually, you can direct download from
-                the platforms link that matches your platform then in Kodi look for the
-                "Install via Zip" option.
+                interface in Kodi. Simply look for the "Get More" button in the
+                Add-Ons menu. If you want to install it manually, you can direct
+                download from the platforms link that matches your platform then in
+                Kodi look for the "Install via Zip" option.
               </div>
             </div>
           </Card>
         </div>
         <div className="grid grid-rows-none md:grid-cols-5 pt-4 gap-4 prose max-w-none">
-          <div className="col-span-1 font-bold md:text-right pr-2">{"Description"}</div>
+          <div className="col-span-1 font-bold md:text-right pr-2">
+            {"Description"}
+          </div>
           <div
             className="md:col-span-4"
             dangerouslySetInnerHTML={{ __html: addon.description }}
@@ -123,7 +133,7 @@ export default function AddonLayout({
             {"Website"}
           </div>
           <div
-            className="md:col-span-4 font-bold md:text-right pr-2"
+            className="md:col-span-4"
             style={{ display: addon.website == null ? "none" : "block" }}
           >
             <a href={addon.website}>{addon.website}</a>
@@ -140,9 +150,13 @@ export default function AddonLayout({
           >
             <a href={addon.source}>{addon.source}</a>
           </div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">{"License"}</div>
+          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+            {"License"}
+          </div>
           <div className="md:col-span-4">{addon.license}</div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">{"Platforms"}</div>
+          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+            {"Platforms"}
+          </div>
           <div className="md:col-span-4">
             {addon.platforms.map(
               (platform: { platform: string; path: string }, index: any) => {
@@ -160,7 +174,9 @@ export default function AddonLayout({
           </div>
           <div className="pr-2 font-bold md:col-span-1 md:text-right">{"Size"}</div>
           <div className="md:col-span-4">{addon.size}</div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">{"Downloads"}</div>
+          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+            {"Downloads"}
+          </div>
           <div className="md:col-span-4">
             {addon.downloads.toLocaleString()} (this is the download count for the
             most current version)

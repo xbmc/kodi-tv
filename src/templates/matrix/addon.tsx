@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import AddonLayout from "../../components/AddonLayout";
 
 export default function DisplayAddon({ data }) {
-  return <AddonLayout data={data} />;
+  return <AddonLayout repo="Matrix" data={data} />;
 }
 
 export const query = graphql`
