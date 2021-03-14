@@ -85,6 +85,14 @@ const mainMenu = [
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
     dropdown: [
       {
+        title: "About Add-ons",
+        url: '/addons',
+        svg: (
+          <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
+        ),
+        description: "Find out how add-ons expand and enhance the Kodi experience.",
+      },
+      {
         title: "Matrix Add-ons",
         url: "/addons/matrix",
         svg: (
