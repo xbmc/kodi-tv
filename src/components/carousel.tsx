@@ -27,7 +27,7 @@ class Carousel extends React.Component<Props> {
           clickable: true,
         }}
       >
-        {this.props.slides.map((element) => (
+        {this.props.slides.map(element => (
           <SwiperSlide>
             <img src={element} />
           </SwiperSlide>

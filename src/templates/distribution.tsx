@@ -5,7 +5,10 @@ import { graphql, Link } from "gatsby";
 
 export default function Distribution({ data }) {
   const dist = data.distributionYaml;
-  let frontmatter = {title: "Downloads for " + dist.name, breadcrumbs: "Downloads | " + dist.name}
+  let frontmatter = {
+    title: "Downloads for " + dist.name,
+    breadcrumbs: "Downloads | " + dist.name,
+  };
 
   return (
     <Layout className="distribution" frontmatter={frontmatter}>

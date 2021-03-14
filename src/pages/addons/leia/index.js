@@ -1,35 +1,41 @@
 import React from "react";
-import { graphql } from "gatsby"
-import IconList from "src/components/IconList"
-import Layout from "src/components/layout"
+import { graphql } from "gatsby";
+import IconList from "src/components/IconList";
+import Layout from "src/components/layout";
 
-export default function AddonIndexPage ({data, pageContext, location}) {
-  let frontmatter = {title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia"}
+export default function AddonIndexPage({ data, pageContext, location }) {
+  let frontmatter = { title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia" };
 
   return (
     <Layout className="addonindex" frontmatter={frontmatter}>
       <h1>Featured Add-Ons</h1>
-      <IconList items={data.FeaturedAddons.edges} linkroot='/addons/leia/' />
+      <IconList items={data.FeaturedAddons.edges} linkroot="/addons/leia/" />
       <h1>New Additions</h1>
-      <IconList items={data.NewAddons.edges} linkroot='/addons/leia/' />
+      <IconList items={data.NewAddons.edges} linkroot="/addons/leia/" />
       <h1>Recently Updated</h1>
-      <IconList items={data.UpdatedAddons.edges} linkroot='/addons/leia/' />
+      <IconList items={data.UpdatedAddons.edges} linkroot="/addons/leia/" />
       <h1>Categories</h1>
       <h2>Look and Feel</h2>
-      <IconList items={data.LookAndFeel.edges} linkroot='/addons/leia/category/' />
+      <IconList items={data.LookAndFeel.edges} linkroot="/addons/leia/category/" />
       <h2>Information Providers</h2>
-      <IconList items={data.InformationProviders.edges} linkroot='/addons/leia/category/' />
+      <IconList
+        items={data.InformationProviders.edges}
+        linkroot="/addons/leia/category/"
+      />
       <h2>Games</h2>
-      <IconList items={data.Games.edges} linkroot='/addons/leia/category/' />
+      <IconList items={data.Games.edges} linkroot="/addons/leia/category/" />
       <h2>Others</h2>
-      <IconList items={data.Others.edges} linkroot='/addons/leia/category/' />  
-    </Layout>    
-  )
+      <IconList items={data.Others.edges} linkroot="/addons/leia/category/" />
+    </Layout>
+  );
 }
 
 export const pageQuery = graphql`
   query {
-    Games: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Games"}}) {
+    Games: allLeiaCategory(
+      sort: { fields: name, order: ASC }
+      filter: { grouping: { eq: "Games" } }
+    ) {
       edges {
         node {
           name
@@ -38,7 +44,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    InformationProviders: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Information providers"}}) {
+    InformationProviders: allLeiaCategory(
+      sort: { fields: name, order: ASC }
+      filter: { grouping: { eq: "Information providers" } }
+    ) {
       edges {
         node {
           name
@@ -47,7 +56,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    LookAndFeel: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Look and feel"}}) {
+    LookAndFeel: allLeiaCategory(
+      sort: { fields: name, order: ASC }
+      filter: { grouping: { eq: "Look and feel" } }
+    ) {
       edges {
         node {
           name
@@ -56,7 +68,10 @@ export const pageQuery = graphql`
         }
       }
     }
-    Others: allLeiaCategory(sort: {fields: name, order: ASC}, filter: {grouping: {eq: "Other"}}) {
+    Others: allLeiaCategory(
+      sort: { fields: name, order: ASC }
+      filter: { grouping: { eq: "Other" } }
+    ) {
       edges {
         node {
           name
@@ -65,7 +80,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    FeaturedAddons: allLeiaAddon(filter: {featured: {eq: "true"}}) {
+    FeaturedAddons: allLeiaAddon(filter: { featured: { eq: "true" } }) {
       edges {
         node {
           name
@@ -74,7 +89,11 @@ export const pageQuery = graphql`
         }
       }
     }
-    NewAddons: allLeiaAddon(limit: 5, filter: {agetype: {eq: "new"}}, sort: {fields: firstseen, order: DESC}) {
+    NewAddons: allLeiaAddon(
+      limit: 5
+      filter: { agetype: { eq: "new" } }
+      sort: { fields: firstseen, order: DESC }
+    ) {
       edges {
         node {
           name
@@ -83,7 +102,11 @@ export const pageQuery = graphql`
         }
       }
     }
-    UpdatedAddons: allLeiaAddon(limit: 5, filter: {agetype: {eq: "existing"}}, sort: {fields: lastupdate, order: DESC}) {
+    UpdatedAddons: allLeiaAddon(
+      limit: 5
+      filter: { agetype: { eq: "existing" } }
+      sort: { fields: lastupdate, order: DESC }
+    ) {
       edges {
         node {
           name
@@ -93,4 +116,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

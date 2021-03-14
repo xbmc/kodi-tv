@@ -86,7 +86,7 @@ const mainMenu = [
     dropdown: [
       {
         title: "About Add-ons",
-        url: '/addons',
+        url: "/addons",
         svg: (
           <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
         ),
