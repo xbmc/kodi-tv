@@ -1,39 +1,32 @@
+import React from "react";
 import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
-import MetadataHeader from "src/components/SiteMetadata"
+import IconList from "src/components/IconList"
+import Layout from "src/components/layout"
 
-<MetadataHeader title="Matrix | Add-Ons" />
+export default function AddonIndexPage ({data, pageContext, location}) {
+  let frontmatter = {title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix"}
+  let classnames = ""
 
-# Featured Add-Ons
-
-<IconList items={props.data.FeaturedAddons.edges} linkroot='/addons/matrix/' />
-
-# New Additions
-
-<IconList items={props.data.NewAddons.edges} linkroot='/addons/matrix/' />
-
-# Recently Updated
-
-<IconList items={props.data.UpdatedAddons.edges} linkroot='/addons/matrix/' />
-
-# Categories
-
-## Look and Feel
-
-<IconList items={props.data.LookAndFeel.edges} linkroot='/addons/matrix/category/' />
-
-## Information Providers
-
-<IconList items={props.data.InformationProviders.edges} linkroot='/addons/matrix/category/' />
-
-## Games
-
-<IconList items={props.data.Games.edges} linkroot='/addons/matrix/category/' />
-
-## Others
-
-<IconList items={props.data.Others.edges} linkroot='/addons/matrix/category/' />
-
+  return (
+    <Layout classnames={classnames} frontmatter={frontmatter}>
+      <h1>Featured Add-Ons</h1>
+      <IconList items={data.FeaturedAddons.edges} linkroot='/addons/matrix/' />
+      <h1>New Additions</h1>
+      <IconList items={data.NewAddons.edges} linkroot='/addons/matrix/' />
+      <h1>Recently Updated</h1>
+      <IconList items={data.UpdatedAddons.edges} linkroot='/addons/matrix/' />
+      <h1>Categories</h1>
+      <h2>Look and Feel</h2>
+      <IconList items={data.LookAndFeel.edges} linkroot='/addons/matrix/category/' />
+      <h2>Information Providers</h2>
+      <IconList items={data.InformationProviders.edges} linkroot='/addons/matrix/category/' />
+      <h2>Games</h2>
+      <IconList items={data.Games.edges} linkroot='/addons/matrix/category/' />
+      <h2>Others</h2>
+      <IconList items={data.Others.edges} linkroot='/addons/matrix/category/' />  
+    </Layout>    
+  )
+}
 
 export const pageQuery = graphql`
   query {

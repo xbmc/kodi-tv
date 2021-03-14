@@ -1,41 +1,32 @@
----
-title: Leia Add-on
-breadcrumbs: Add-ons | Leia
----
-
+import React from "react";
 import { graphql } from "gatsby"
-import IconList from 'src/components/IconList'
+import IconList from "src/components/IconList"
+import Layout from "src/components/layout"
 
-# Featured Add-Ons
+export default function AddonIndexPage ({data, pageContext, location}) {
+  let frontmatter = {title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia"}
+  let classnames = ""
 
-<IconList items={props.data.FeaturedAddons.edges} linkroot='' />
-
-# New Additions
-
-<IconList items={props.data.NewAddons.edges} linkroot='' />
-
-# Recently Updated
-
-<IconList items={props.data.UpdatedAddons.edges} linkroot='' />
-
-# Categories
-
-## Look and Feel
-
-<IconList items={props.data.LookAndFeel.edges} linkroot='./category/' />
-
-## Information Providers
-
-<IconList items={props.data.InformationProviders.edges} linkroot='./category/' />
-
-## Games
-
-<IconList items={props.data.Games.edges} linkroot='./category/' />
-
-## Others
-
-<IconList items={props.data.Others.edges} linkroot='./category/' />
-
+  return (
+    <Layout classnames={classnames} frontmatter={frontmatter}>
+      <h1>Featured Add-Ons</h1>
+      <IconList items={data.FeaturedAddons.edges} linkroot='/addons/leia/' />
+      <h1>New Additions</h1>
+      <IconList items={data.NewAddons.edges} linkroot='/addons/leia/' />
+      <h1>Recently Updated</h1>
+      <IconList items={data.UpdatedAddons.edges} linkroot='/addons/leia/' />
+      <h1>Categories</h1>
+      <h2>Look and Feel</h2>
+      <IconList items={data.LookAndFeel.edges} linkroot='/addons/leia/category/' />
+      <h2>Information Providers</h2>
+      <IconList items={data.InformationProviders.edges} linkroot='/addons/leia/category/' />
+      <h2>Games</h2>
+      <IconList items={data.Games.edges} linkroot='/addons/leia/category/' />
+      <h2>Others</h2>
+      <IconList items={data.Others.edges} linkroot='/addons/leia/category/' />  
+    </Layout>    
+  )
+}
 
 export const pageQuery = graphql`
   query {
