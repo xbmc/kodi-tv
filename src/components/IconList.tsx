@@ -14,7 +14,7 @@ export default function categoryIconList(props: {
   let iconwidth = "150";
   let iconheight = "150";
   let linkroot = "";
-  let classnames = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
+  let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
     return "";
   }
@@ -32,9 +32,12 @@ export default function categoryIconList(props: {
   if (props.iconheight !== undefined) {
     iconheight = props.iconheight;
   }
+  if (props.className !== undefined) {
+    className = props.className;
+  }
 
   return (
-    <div className={classnames}>
+    <div className={className}>
       {items.map((item, index) => (
         <div align="center">
           <Link to={linkroot + item.slug}>

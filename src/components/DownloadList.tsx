@@ -18,9 +18,7 @@ export default function DownloadList(props: { items: any[] }) {
     <IconList
       items={items}
       linkroot="/download/"
-      width="90%"
-      marginleft="5%"
-      marginright="5%"
+      className="grid grid-cols-2 pt-4 pb-6 gap-4 lg:grid-cols-4"
     />
   );
 }
