@@ -11,12 +11,10 @@ export default function categoryIconList(props: {
   linkroot: string | undefined;
 }) {
   let items = [];
-  let width = "100%";
-  let marginleft = "0%";
-  let marginright = "0%";
   let iconwidth = "150";
   let iconheight = "150";
   let linkroot = "";
+  let classnames = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
     return "";
   }
@@ -24,15 +22,6 @@ export default function categoryIconList(props: {
     props.items.map((item: { node: any }, index: any) => items.push(item.node));
   } else {
     items = props.items;
-  }
-  if (props.width !== undefined) {
-    width = props.width;
-  }
-  if (props.marginleft !== undefined) {
-    marginleft = props.marginleft;
-  }
-  if (props.marginright !== undefined) {
-    marginright = props.marginright;
   }
   if (props.linkroot !== undefined) {
     linkroot = props.linkroot;
@@ -45,28 +34,15 @@ export default function categoryIconList(props: {
   }
 
   return (
-    <div
-      style={{
-        width: width,
-        marginLeft: marginleft,
-        marginRight: marginright,
-      }}
-      className="pt-10"
-    >
-      <div className="grid grid-cols-5 gap-4">
-        {items.map((item, index) => (
-          <div align="center" style={{ paddingBottom: "15px" }}>
-            <Link to={linkroot + item.slug}>
-              <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
-            </Link>
-            <div>
-              <Link to={linkroot + item.slug}>
-                <div dangerouslySetInnerHTML={{ __html: item.name }} />
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className={classnames}>
+      {items.map((item, index) => (
+        <div align="center">
+          <Link to={linkroot + item.slug}>
+            <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+            <div dangerouslySetInnerHTML={{ __html: item.name }} />
+          </Link>
+        </div>
+      ))}
     </div>
   );
 }
