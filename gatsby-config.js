@@ -1,63 +1,71 @@
-const path = require(`path`);
-require(`dotenv`).config({
-  path: `.env.${process.env.NODE_ENV}`,
+const path = require("path");
+require("dotenv").config({
+  path: ".env.${process.env.NODE_ENV}",
 });
-const config = require(`./gatsby-site-config`);
+const config = require("./gatsby-site-config");
 
 module.exports = {
   siteMetadata: config.siteMetadata,
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-root-import",
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages/`,
+        src: path.join(__dirname, "src"),
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: "pages",
+        path: "src/pages/",
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/content`,
+        name: "images",
+        path: "src/images",
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/data/yaml`,
+        name: "markdown-pages",
+        path: "src/content",
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        defaultLayouts: { default: path.resolve(`./src/components/layout.tsx`) },
+        name: "yaml-pages",
+        path: "src/data/yaml",
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: "gatsby-plugin-mdx",
       options: {
-        name: `gatsby-kodi-tv`,
-        short_name: `website`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `static/images/kodi-logo.svg`, // This path is relative to the root of the site.
+        defaultLayouts: { default: path.resolve("src/components/layout.tsx") },
       },
     },
-    `gatsby-plugin-postcss`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-yaml`,
-    `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "gatsby-kodi-tv",
+        short_name: "website",
+        start_url: "/",
+        background_color: "#663399",
+        theme_color: "#663399",
+        display: "minimal-ui",
+        icon: "static/images/kodi-logo.svg", // This path is relative to the root of the site.
+      },
+    },
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-sass",
+    "gatsby-transformer-remark",
+    "gatsby-transformer-yaml",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-kodidonorwall",
       options: {
@@ -86,6 +94,6 @@ module.exports = {
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // `gatsby-plugin-offline`,
+    // "gatsby-plugin-offline",
   ],
 };
