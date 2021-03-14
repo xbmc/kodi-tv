@@ -5,7 +5,7 @@ import Layout from "src/components/layout"
 
 export default function AddonIndexPage ({data, pageContext, location}) {
   let frontmatter = {title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia"}
-  let classnames = ""
+  let classnames = "addonindex"
 
   return (
     <Layout classnames={classnames} frontmatter={frontmatter}>

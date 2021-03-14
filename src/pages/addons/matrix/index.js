@@ -5,8 +5,8 @@ import Layout from "src/components/layout"
 
 export default function AddonIndexPage ({data, pageContext, location}) {
   let frontmatter = {title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix"}
-  let classnames = ""
-
+  let classnames = "addonindex"
+  
   return (
     <Layout classnames={classnames} frontmatter={frontmatter}>
       <h1>Featured Add-Ons</h1>
