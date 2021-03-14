@@ -64,5 +64,7 @@
     "format": "prettier --write \"**/*.+(js|jsx|tsx)\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.0"
+  }
 }
