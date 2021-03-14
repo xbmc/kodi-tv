@@ -83,30 +83,30 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   //     });
   //   });
 
-  //   // *** Begin Matrix Addon Page Builds
-  //   const matrixaddonresults = await graphql(`
-  //     query MyQuery {
-  //       allMatrixAddon {
-  //         edges {
-  //           node {
-  //             slug
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `);
+  // *** Begin Matrix Addon Page Builds
+  const matrixaddonresults = await graphql(`
+    query MyQuery {
+      allMatrixAddon {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `);
 
-  //   matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
-  //     createPage({
-  //       path: "addons/matrix/" + node.slug,
-  //       component: path.resolve(`src/templates/matrix/addon.tsx`),
-  //       context: {
-  //         // Data passed to context is available
-  //         // in page queries as GraphQL variables.
-  //         slug: node.slug,
-  //       },
-  //     });
-  //   });
+  matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
+    createPage({
+      path: "addons/matrix/" + node.slug,
+      component: path.resolve(`src/templates/matrix/addon.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    });
+  });
 
   const matrixcategoryresults = await graphql(`
     query MyQuery {
@@ -157,30 +157,30 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   });
   // *** End Matrix Addon Page Builds
 
-  //   // *** Begin Leia Addon Page Builds
-  //   const leiaaddonresults = await graphql(`
-  //     query MyQuery {
-  //       allLeiaAddon {
-  //         edges {
-  //           node {
-  //             slug
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `);
+  // *** Begin Leia Addon Page Builds
+  const leiaaddonresults = await graphql(`
+    query MyQuery {
+      allLeiaAddon {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+  `);
 
-  //   leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
-  //     createPage({
-  //       path: "addons/leia/" + node.slug,
-  //       component: path.resolve(`src/templates/leia/addon.tsx`),
-  //       context: {
-  //         // Data passed to context is available
-  //         // in page queries as GraphQL variables.
-  //         slug: node.slug,
-  //       },
-  //     });
-  //   });
+  leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
+    createPage({
+      path: "addons/leia/" + node.slug,
+      component: path.resolve(`src/templates/leia/addon.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.slug,
+      },
+    });
+  });
 
   const leiacategoryresults = await graphql(`
     query MyQuery {
