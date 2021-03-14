@@ -48,7 +48,7 @@ const mainMenu = [
       },
       {
         title: "Foundation",
-        url: "/about/software",
+        url: "/about/foundation",
         svg: (
           <Icons.OfficeBuildingOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
         ),

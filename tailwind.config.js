@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       colors: {
         kodi: "#17B2E7",
+        "kodi-darker": "#149ECC",
+        "kodi-lighter": "#45C2EC",
       },
     },
   },
