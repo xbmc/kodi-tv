@@ -19,7 +19,7 @@ class Carousel extends React.Component<Props> {
   render() {
     return (
       <Swiper
-        style={{ maxWidth: "400px", "--swiper-theme-color": "#17B2E7" }}
+        style={{ maxWidth: "1000px", "--swiper-theme-color": "#17B2E7" }}
         spaceBetween={0}
         slidesPerView={1}
         navigation
