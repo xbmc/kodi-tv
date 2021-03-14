@@ -1,6 +1,6 @@
 const path = require("path");
 require("dotenv").config({
-  path: ".env.${process.env.NODE_ENV}",
+  path: `.env.${process.env.NODE_ENV}`,
 });
 const config = require("./gatsby-site-config");
 
@@ -8,47 +8,47 @@ module.exports = {
   siteMetadata: config.siteMetadata,
   plugins: [
     {
-      resolve: "gatsby-plugin-root-import",
+      resolve: `gatsby-plugin-root-import`,
       options: {
         src: path.join(__dirname, "src"),
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: "pages",
-        path: "src/pages/",
+        path: `src/pages/`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: "images",
-        path: "src/images",
+        path: `src/images`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: "markdown-pages",
-        path: "src/content",
+        path: `src/content`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
         name: "yaml-pages",
-        path: "src/data/yaml",
+        path: `src/data/yaml`,
       },
     },
     {
-      resolve: "gatsby-plugin-mdx",
+      resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: { default: path.resolve("src/components/layout.tsx") },
       },
     },
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: `gatsby-plugin-manifest`,
       options: {
         name: "gatsby-kodi-tv",
         short_name: "website",
@@ -59,15 +59,15 @@ module.exports = {
         icon: "static/images/kodi-logo.svg", // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-sass",
-    "gatsby-transformer-remark",
-    "gatsby-transformer-yaml",
-    "gatsby-transformer-sharp",
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-yaml`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: "gatsby-source-kodidonorwall",
+      resolve: `gatsby-source-kodidonorwall`,
       options: {
         typeName: "Donor",
         accessKeyId: process.env.AWS_ID,
@@ -86,7 +86,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-kodiaddon",
+      resolve: `gatsby-source-kodiaddon`,
       options: {
         kodiversions: ["leia", "matrix"],
       },
