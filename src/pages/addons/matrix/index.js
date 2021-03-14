@@ -5,10 +5,9 @@ import Layout from "src/components/layout"
 
 export default function AddonIndexPage ({data, pageContext, location}) {
   let frontmatter = {title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix"}
-  let classnames = "addonindex"
   
   return (
-    <Layout classnames={classnames} frontmatter={frontmatter}>
+    <Layout className="addonindex" frontmatter={frontmatter}>
       <h1>Featured Add-Ons</h1>
       <IconList items={data.FeaturedAddons.edges} linkroot='/addons/matrix/' />
       <h1>New Additions</h1>
