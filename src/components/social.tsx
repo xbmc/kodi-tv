@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 function Social(props) {
   return (
     <>
-      <div class="w-8">
+      <div className="w-8">
         <SocialIcon
           url="http://www.facebook.com/KodiEntertainment"
           target="_blank"
@@ -13,7 +13,7 @@ function Social(props) {
           style={{ height: 30, width: 30 }}
         />
       </div>
-      <div class="w-8">
+      <div className="w-8">
         <SocialIcon
           url="https://twitter.com/koditv"
           target="_blank"
@@ -22,7 +22,7 @@ function Social(props) {
           style={{ height: 30, width: 30 }}
         />
       </div>
-      <div class="w-8">
+      <div className="w-8">
         <SocialIcon
           url="https://www.youtube.com/c/TeamKodiOfficial"
           target="_blank"
@@ -31,7 +31,7 @@ function Social(props) {
           style={{ height: 30, width: 30 }}
         />
       </div>
-      <div class="w-8">
+      <div className="w-8">
         <SocialIcon
           url="https://github.com/xbmc"
           target="_blank"
@@ -40,7 +40,7 @@ function Social(props) {
           style={{ height: 30, width: 30 }}
         />
       </div>
-      <div class="w-8">
+      <div className="w-8">
         <SocialIcon
           url="/rss.xml"
           target="_blank"
