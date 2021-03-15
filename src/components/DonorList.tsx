@@ -38,7 +38,7 @@ export default function DonorList(props: {
         paddingTop: "10px",
       }}
     >
-      <div className="grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-5">
         {items.map((item, index) => (
           <Card>
             <b>{item.publicName == "" ? "Anonymous" : item.publicName}</b>
