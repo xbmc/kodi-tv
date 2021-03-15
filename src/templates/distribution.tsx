@@ -17,7 +17,7 @@ export default function Distribution({ data }) {
           <img width="150" height="150" alt="" src={dist.icon} />
         </div>
         <div className="col-span-11">
-          <span className="prose">
+          <span className="prose prose-blue">
             If you need extra help, checkout our{" "}
             <a href={dist.howto}>"How To" Guide</a> for {dist.name}.
           </span>
