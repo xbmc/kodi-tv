@@ -55,33 +55,33 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
-  //   paginate({
-  //     createPage,
-  //     items: result.data.allMarkdownRemark.edges,
-  //     itemsPerPage: 20,
-  //     pathPrefix: "/blog",
-  //     component: path.resolve("src/templates/blog-index.tsx"),
-  //   });
+  paginate({
+    createPage,
+    items: result.data.allMarkdownRemark.edges,
+    itemsPerPage: 20,
+    pathPrefix: "/blog",
+    component: path.resolve("src/templates/blog-index.tsx"),
+  });
 
-  //   const tagresults = await graphql(`
-  //     query MyQuery {
-  //       allMarkdownRemark {
-  //         distinct(field: frontmatter___tags)
-  //       }
-  //     }
-  //   `);
+  const tagresults = await graphql(`
+    query MyQuery {
+      allMarkdownRemark {
+        distinct(field: frontmatter___tags)
+      }
+    }
+  `);
 
-  //   tagresults.data.allMarkdownRemark.distinct.forEach(tag => {
-  //     createPage({
-  //       path: "blog/tag/" + slugify(tag, { lower: true }),
-  //       component: path.resolve(`src/templates/tag.tsx`),
-  //       context: {
-  //         // Data passed to context is available
-  //         // in page queries as GraphQL variables.
-  //         tag: tag,
-  //       },
-  //     });
-  //   });
+  tagresults.data.allMarkdownRemark.distinct.forEach(tag => {
+    createPage({
+      path: "blog/tag/" + slugify(tag, { lower: true }),
+      component: path.resolve(`src/templates/tag.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        tag: tag,
+      },
+    });
+  });
 
   // *** Begin Matrix Addon Page Builds
   const matrixaddonresults = await graphql(`
