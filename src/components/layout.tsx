@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header";
-import Footer from "./footer"
+import Footer from "./footer";
 
 function Layout(props) {
   let className = "prose prose-blue max-w-7xl lg:prose-lg 2xl:prose-2xl";
