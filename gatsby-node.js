@@ -3,85 +3,85 @@ const slugify = require("slugify");
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { paginate } = require("gatsby-awesome-pagination");
 
-// exports.onCreateNode = ({ node, getNode, actions }) => {
-//   const { createNodeField } = actions;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
 
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const value = createFilePath({ node, getNode });
-//     createNodeField({
-//       name: `slug`,
-//       node,
-//       value,
-//     });
-//   }
-// };
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode });
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    });
+  }
+};
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
-  //   const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`);
+  const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`);
 
-  //   const result = await graphql(`
-  //     {
-  //       allMarkdownRemark(
-  //         sort: { order: DESC, fields: [frontmatter___date] }
-  //         limit: 1000
-  //       ) {
-  //         edges {
-  //           node {
-  //             fields {
-  //               slug
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `);
+  const result = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
 
-  //   // Handle errors
-  //   if (result.errors) {
-  //     reporter.panicOnBuild(`Error while running GraphQL query.`);
-  //     return;
-  //   }
+  // Handle errors
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
+    return;
+  }
 
-  //   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-  //     createPage({
-  //       path: node.fields.slug,
-  //       component: blogPostTemplate,
-  //       context: {
-  //         // additional data can be passed via context
-  //         slug: node.fields.slug,
-  //       },
-  //     });
-  //   });
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: blogPostTemplate,
+      context: {
+        // additional data can be passed via context
+        slug: node.fields.slug,
+      },
+    });
+  });
 
-  //   paginate({
-  //     createPage,
-  //     items: result.data.allMarkdownRemark.edges,
-  //     itemsPerPage: 20,
-  //     pathPrefix: "/blog",
-  //     component: path.resolve("src/templates/blog-index.tsx"),
-  //   });
+  paginate({
+    createPage,
+    items: result.data.allMarkdownRemark.edges,
+    itemsPerPage: 20,
+    pathPrefix: "/blog",
+    component: path.resolve("src/templates/blog-index.tsx"),
+  });
 
-  //   const tagresults = await graphql(`
-  //     query MyQuery {
-  //       allMarkdownRemark {
-  //         distinct(field: frontmatter___tags)
-  //       }
-  //     }
-  //   `);
+  const tagresults = await graphql(`
+    query MyQuery {
+      allMarkdownRemark {
+        distinct(field: frontmatter___tags)
+      }
+    }
+  `);
 
-  //   tagresults.data.allMarkdownRemark.distinct.forEach(tag => {
-  //     createPage({
-  //       path: "blog/tag/" + slugify(tag, { lower: true }),
-  //       component: path.resolve(`src/templates/tag.tsx`),
-  //       context: {
-  //         // Data passed to context is available
-  //         // in page queries as GraphQL variables.
-  //         tag: tag,
-  //       },
-  //     });
-  //   });
+  tagresults.data.allMarkdownRemark.distinct.forEach(tag => {
+    createPage({
+      path: "blog/tag/" + slugify(tag, { lower: true }),
+      component: path.resolve(`src/templates/tag.tsx`),
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        tag: tag,
+      },
+    });
+  });
 
   // *** Begin Matrix Addon Page Builds
   const matrixaddonresults = await graphql(`
