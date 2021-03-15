@@ -206,9 +206,12 @@ function Header(props) {
   return (
     <>
       <SEO title={props.frontmatter.title} breadcrumbs={breadcrumbs} />
-      <nav className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+
+  <div className="bg-gray-800 pb-32">
+    <nav className="bg-gray-800">
+      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div className="border-b border-gray-700">
+          <div className="flex items-center justify-between h-16 px-4 sm:px-0">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <a href="/">
@@ -304,14 +307,19 @@ function Header(props) {
             </div>
           </div>
         </Transition>
-      </nav>
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">
-            {props.frontmatter.title}
-          </h1>
-        </div>
-      </header>
+      </div>
+    </nav>
+    <header className="py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 className="text-3xl font-bold text-white">
+          {props.frontmatter.title}
+        </h1>
+      </div>
+    </header>
+  </div>
+
+
+
     </>
   );
 }

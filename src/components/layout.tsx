@@ -16,16 +16,18 @@ function Layout(props) {
   }
   return (
     <>
-      <div>
-        <Header frontmatter={frontmatter} />
-        <main>
-          <div className={"max-w-7xl mx-auto py-6 sm:px-6 lg:px-8"}>
-            <div className="px-4 py-6 sm:px-0">
-              <div className={className}>{props.children}</div>
-            </div>
-          </div>
-        </main>
+
+<div class="bg-gray-200 h-full">
+  <Header frontmatter={frontmatter} />
+  <main className="-mt-32">
+    <div className="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-white rounded-lg shadow px-5 py-6 sm:px-6 min-h-screen">
+        <div className={className}>{props.children}</div>
       </div>
+    </div>
+  </main>
+</div>
+
     </>
   );
 }
