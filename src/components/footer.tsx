@@ -20,42 +20,42 @@ function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/contact" className="text-base text-gray-500 hover:text-gray-900">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/contribute" className="text-base text-gray-500 hover:text-gray-900">
                   Get Involved
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/gpl-violators" className="text-base text-gray-500 hover:text-gray-900">
                   GPL Violators
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/software" className="text-base text-gray-500 hover:text-gray-900">
                   Kodi Software
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/team" className="text-base text-gray-500 hover:text-gray-900">
                   Kodi Team
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/privacy-policy" className="text-base text-gray-500 hover:text-gray-900">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/sponsors" className="text-base text-gray-500 hover:text-gray-900">
                   Sponsorship
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="/about/foundation" className="text-base text-gray-500 hover:text-gray-900">
                   Kodi Foundation
                 </a>
               </li>
@@ -67,17 +67,17 @@ function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.bytemark.co.uk/r/xbmc" className="text-base text-gray-500 hover:text-gray-900">
                   Bytemark
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://flirc.tv" className="text-base text-gray-500 hover:text-gray-900">
                   FLIRC
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.macminivault.com" className="text-base text-gray-500 hover:text-gray-900">
                   Mac Mini Vault
                 </a>
               </li>
@@ -91,42 +91,42 @@ function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://fanart.tv" className="text-base text-gray-500 hover:text-gray-900">
                   Fanart.TV
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://libreelec.tv" className="text-base text-gray-500 hover:text-gray-900">
                   LibreELEC
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://osmc.tv" className="text-base text-gray-500 hover:text-gray-900">
                   OSMC
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://musicbrainz.org" className="text-base text-gray-500 hover:text-gray-900">
                   MusicBrainz.org
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.theaudiodb.com" className="text-base text-gray-500 hover:text-gray-900">
                   TheAudioDB.com
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://thegamesdb.net" className="text-base text-gray-500 hover:text-gray-900">
                   TheGamesDB.net
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.themoviedb.org" className="text-base text-gray-500 hover:text-gray-900">
                   TheMovieDB.org
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.thetvdb.com" className="text-base text-gray-500 hover:text-gray-900">
                   TVDB.com
                 </a>
               </li>
@@ -138,22 +138,22 @@ function Footer() {
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/KodiEntertainment" className="text-base text-gray-500 hover:text-gray-900">
                   Facebook
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://twitter.com/KodiTV" className="text-base text-gray-500 hover:text-gray-900">
                   Twitter
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="https://www.youtube.com/user/teamxbmc" className="text-base text-gray-500 hover:text-gray-900">
                   YouTube
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base text-gray-500 hover:text-gray-900">
+                <a target="_blank" rel="noopener" href="/rss.xml" className="text-base text-gray-500 hover:text-gray-900">
                   RSS
                 </a>
               </li>
@@ -164,7 +164,7 @@ function Footer() {
     </div>
     <div className="mt-12 border-t border-gray-200 pt-8">
       <p className="text-base text-gray-400 xl:text-center">
-        &copy; 2021 The Kodi Foundation. All rights reserved. This web site is powered by <a className="underline" target="_blank" rel="noopener" href={'https://www.netlify.com'}>Netlify</a>.
+        &copy; 2021 The Kodi Foundation. All rights reserved. This web site is powered by <a target="_blank" rel="noopener" href={'https://www.netlify.com'}>Netlify</a>.
       </p>
     </div>
   </div>
