@@ -2,8 +2,8 @@ const slugify = require("slugify");
 
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import ItemWithComma from "../components/ItemWithComma";
+import { DefaultLayout } from "src/components/layout";
+import ItemWithComma from "src/components/ItemWithComma";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -15,7 +15,7 @@ export default function Template({
   };
 
   return (
-    <Layout frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <div style={{ margin: "20px" }}>
         {markdownRemark.frontmatter.featured_image == undefined ? (
           ""
@@ -86,7 +86,7 @@ export default function Template({
           dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
         />
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }
 

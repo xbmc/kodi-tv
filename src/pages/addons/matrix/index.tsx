@@ -1,13 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
 import IconList from "src/components/IconList";
-import Layout from "src/components/layout";
+import { DefaultLayout } from "src/components/layout";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix" };
 
   return (
-    <Layout className="addonindex" frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <h1>Featured Add-Ons</h1>
       <IconList items={data.FeaturedAddons.edges} linkroot="/addons/matrix/" />
       <h1>New Additions</h1>
@@ -26,7 +26,7 @@ export default function AddonIndexPage({ data, pageContext, location }) {
       <IconList items={data.Games.edges} linkroot="/addons/matrix/category/" />
       <h2>Others</h2>
       <IconList items={data.Others.edges} linkroot="/addons/matrix/category/" />
-    </Layout>
+    </DefaultLayout>
   );
 }
 

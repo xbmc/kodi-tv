@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "./layout";
+import { DefaultLayout } from "./layout";
 import { IAddon } from "./../addon";
 import ItemWithComma from "./ItemWithComma";
 import Carousel from "./carousel";
@@ -36,7 +36,7 @@ export default function AddonLayout({
   };
 
   return (
-    <Layout className="addondetail" frontmatter={frontmatter}>
+    <DefaultLayout className="addondetail" frontmatter={frontmatter}>
       <div className="flex flex-col">
         <div className="grid grid-cols-5">
           <div align="right" className="col-span-1 row-span-full pr-6">
@@ -220,6 +220,6 @@ export default function AddonLayout({
           <Carousel slides={slides} />
         </div>
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import IconList from "./IconList";
-import Layout from "./layout";
+import { DefaultLayout } from "./layout";
 
 export default function AddonAuthorLayout({
   repo,
@@ -16,7 +16,7 @@ export default function AddonAuthorLayout({
   };
 
   return (
-    <Layout className="addonauthordetails" frontmatter={frontmatter}>
+    <DefaultLayout className="addonauthordetails" frontmatter={frontmatter}>
       <p>
         <div className="font-bold text-2xl">{author.name}</div>
         <p>
@@ -24,6 +24,6 @@ export default function AddonAuthorLayout({
         </p>
       </p>
       <IconList items={author.addons} linkroot="../../" />
-    </Layout>
+    </DefaultLayout>
   );
 }

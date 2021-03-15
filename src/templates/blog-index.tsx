@@ -1,14 +1,14 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import BlogIndexLayout from "../components/BlogIndexLayout";
+import { DefaultLayout } from "src/components/layout";
+import BlogIndexLayout from "src/components/BlogIndexLayout";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "News", breadcrumbs: "News" };
   return (
-    <Layout frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <BlogIndexLayout data={data} pageContext={pageContext} />
-    </Layout>
+    </DefaultLayout>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
-import BlogIndexLayout from "../components/BlogIndexLayout";
+import { DefaultLayout } from "src/components/layout";
+import BlogIndexLayout from "src/components/BlogIndexLayout";
 
 export default function TagPage({ data, pageContext, location }) {
   let tagroot = "/blog/tag/";
@@ -11,9 +11,9 @@ export default function TagPage({ data, pageContext, location }) {
   };
 
   return (
-    <Layout frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <BlogIndexLayout data={data} />
-    </Layout>
+    </DefaultLayout>
   );
 }
 

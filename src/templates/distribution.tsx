@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "src/components/layout";
+import { DefaultLayout } from "src/components/layout";
 import ReleasesTabs from "src/components/ReleasesTabs";
 import { graphql, Link } from "gatsby";
 
@@ -11,7 +11,7 @@ export default function Distribution({ data }) {
   };
 
   return (
-    <Layout className="distribution" frontmatter={frontmatter}>
+    <DefaultLayout className="distribution" frontmatter={frontmatter}>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-1">
           <img width="150" height="150" alt="" src={dist.icon} />
@@ -24,7 +24,7 @@ export default function Distribution({ data }) {
           <ReleasesTabs releases={dist.releases} />
         </div>
       </div>
-    </Layout>
+    </DefaultLayout>
   );
 }
 

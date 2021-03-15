@@ -2,19 +2,16 @@ import React from "react";
 import Header from "./header";
 import Footer from "./footer";
 
-function Layout(props) {
-  let className = "prose prose-blue max-w-7xl lg:prose-lg 2xl:prose-2xl";
+function GetFrontMatter(props) {
   let frontmatter = {};
-  if (props.className !== undefined) {
-    className = props.className;
-  }
   if (props.frontmatter !== undefined) {
     frontmatter = props.frontmatter;
-  } else if (props.pageContext !== undefined) {
-    if (props.pageContext.frontmatter !== undefined) {
-      frontmatter = props.pageContext.frontmatter;
-    }
   }
+  return frontmatter;
+}
+
+function DefaultLayout(props) {
+  let frontmatter = GetFrontMatter(props);
   return (
     <>
       <div class="bg-gray-200 h-full">
@@ -22,7 +19,7 @@ function Layout(props) {
         <main className="-mt-32">
           <div className="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
             <div className="bg-white rounded-lg shadow px-5 py-6 sm:px-6 min-h-screen">
-              <div className={className}>{props.children}</div>
+              {props.children}
             </div>
           </div>
         </main>
@@ -32,4 +29,21 @@ function Layout(props) {
   );
 }
 
-export default Layout;
+function LandingPage(props) {
+  let frontmatter = GetFrontMatter(props);
+  return (
+    <>
+      <div class="bg-white h-full">
+        <Header frontmatter={frontmatter} compact={true} />
+        <main>
+          <div className="pt-6 px-0">
+            {props.children}
+          </div>
+        </main>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
+export { DefaultLayout, LandingPage };

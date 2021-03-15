@@ -203,11 +203,17 @@ function Header(props) {
   if (props.frontmatter.breadcrumbs !== undefined) {
     breadcrumbs = props.frontmatter.breadcrumbs;
   }
+  let mainclassname = "bg-gray-800 pb-32";
+  let showtitle = true;
+  if (props.compact !== undefined) {
+    mainclassname = "bg-gray-800";
+    showtitle = false;
+  }
   return (
     <>
       <SEO title={props.frontmatter.title} breadcrumbs={breadcrumbs} />
 
-      <div className="bg-gray-800 pb-32">
+      <div className={mainclassname}>
         <nav className="bg-gray-800">
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div className="border-b border-gray-700">
@@ -309,7 +315,7 @@ function Header(props) {
             </Transition>
           </div>
         </nav>
-        <header className="py-10">
+        <header style={{ display: showtitle ? "block" : "none" }} className="py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold text-white">
               {props.frontmatter.title}
