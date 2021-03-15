@@ -50,7 +50,7 @@ export default function AddonLayout({
             <p>
               <div dangerouslySetInnerHTML={{ __html: addon.summary }} />
             </p>
-            <div className="flex prose">
+            <div className="flex prose prose-blue">
               <div className="pr-4">&#128194; {addon.version}</div>
               <div className="pr-4">&#128339; {addon.lastupdate}</div>
               <div>
@@ -70,7 +70,7 @@ export default function AddonLayout({
                 )}
               </div>
             </div>
-            <div className="flex prose">
+            <div className="flex prose prose-blue">
               <div>
                 &#127991;&nbsp;
                 {addon.categories.map(
@@ -106,12 +106,16 @@ export default function AddonLayout({
             </div>
           </Card>
         </div>
-        <div className="grid grid-rows-none md:grid-cols-5 pt-4 gap-4 prose max-w-none">
-          <div className="col-span-1 font-bold md:text-right pr-2">
+        <div className="grid grid-rows-none md:grid-cols-5 pt-4 gap-4 prose prose-blue max-w-none">
+          <div
+            className="col-span-1 font-bold md:text-right pr-2"
+            style={{ display: addon.description == null ? "none" : "block" }}
+          >
             {"Description"}
           </div>
           <div
             className="md:col-span-4"
+            style={{ display: addon.description == null ? "none" : "block" }}
             dangerouslySetInnerHTML={{ __html: addon.description }}
           />
           <div
@@ -150,14 +154,28 @@ export default function AddonLayout({
           >
             <a href={addon.source}>{addon.source}</a>
           </div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+          <div
+            className="pr-2 font-bold md:col-span-1 md:text-right"
+            style={{ display: addon.license == null ? "none" : "block" }}
+          >
             {"License"}
           </div>
-          <div className="md:col-span-4">{addon.license}</div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+          <div
+            className="md:col-span-4"
+            style={{ display: addon.license == null ? "none" : "block" }}
+          >
+            {addon.license}
+          </div>
+          <div
+            className="pr-2 font-bold md:col-span-1 md:text-right"
+            style={{ display: addon.platforms == null ? "none" : "block" }}
+          >
             {"Platforms"}
           </div>
-          <div className="md:col-span-4">
+          <div
+            className="md:col-span-4"
+            style={{ display: addon.platforms == null ? "none" : "block" }}
+          >
             {addon.platforms.map(
               (platform: { platform: string; path: string }, index: any) => {
                 return (
@@ -172,12 +190,28 @@ export default function AddonLayout({
               }
             )}
           </div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">{"Size"}</div>
-          <div className="md:col-span-4">{addon.size}</div>
-          <div className="pr-2 font-bold md:col-span-1 md:text-right">
+          <div
+            className="pr-2 font-bold md:col-span-1 md:text-right"
+            style={{ display: addon.size == null ? "none" : "block" }}
+          >
+            {"Size"}
+          </div>
+          <div
+            className="md:col-span-4"
+            style={{ display: addon.size == null ? "none" : "block" }}
+          >
+            {addon.size}
+          </div>
+          <div
+            className="pr-2 font-bold md:col-span-1 md:text-right"
+            style={{ display: addon.downloads == null ? "none" : "block" }}
+          >
             {"Downloads"}
           </div>
-          <div className="md:col-span-4">
+          <div
+            className="md:col-span-4"
+            style={{ display: addon.downloads == null ? "none" : "block" }}
+          >
             {addon.downloads.toLocaleString()} (this is the download count for the
             most current version)
           </div>

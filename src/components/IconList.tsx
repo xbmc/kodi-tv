@@ -40,7 +40,7 @@ export default function categoryIconList(props: {
     <div className={className}>
       {items.map((item, index) => (
         <div align="center">
-          <Link to={linkroot + item.slug}>
+          <Link className="underline text-blue-500" to={linkroot + item.slug}>
             <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
             <div dangerouslySetInnerHTML={{ __html: item.name }} />
           </Link>
