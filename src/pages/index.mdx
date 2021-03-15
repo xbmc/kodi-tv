@@ -3,18 +3,89 @@ title: Come Experience Kodi
 breadcrumbs: Home
 ---
 
-import { Link } from 'gatsby'
+import IconList from "src/components/IconList";
+import Button from "src/components/Button"
+import ArrowRightIcon from "src/components/ArrowRightIcon"
+import Card from "src/components/Card";
 
+# NEW HERO IMAGE/SLIDER WILL GO HERE
 
-# Hi people
+# Kodi does it all
 
-## Welcome to your new Gatsby site.
+Got a smart TV? You ain't seen nothin’ yet! Kodi puts your smart TV to shame.
 
-### Testing Strange Things.
+#  Kodi runs on just about anything
 
-OK, for some reason if you have a list that is under an open menu, the menu will receive a mouseLeave event and close the menu when your mouse gets even with the list. That is so weird. It doesn't seem to matter if it's an ordered or unordered list, and lists are the only thing I've found so far that trigger this.  Maybe it's just in Firefox. Anyway, I'm just added some text here to push the list further down the screen to "fix" it.
+Kodi runs on a huge range of devices and operating systems.
 
-- Now go build something great.
-- here's another item.
+<IconList
+  items={
+    [
+      {slug: '/download', icon: '/images/distributions/windows.png', name: 'Windows'},
+      {slug: '/download', icon: '/images/distributions/macos.png', name: 'macOS, iOS, tvOS'},
+      {slug: '/download', icon: '/images/distributions/android.png', name: 'Android'},
+      {slug: '/download', icon: '/images/distributions/linux.png', name: 'Linux'},
+      {slug: '/download', icon: '/images/distributions/raspberry-pi.png', name: 'Raspberry Pi'},
+    ]
+  }
+  iconwidth="100"
+/>
 
-<Link to="/page-2/">Go to page 2</Link>
+# Manage your media your way
+
+<div className="grid grid-cols-3 gap-4">
+  <Card>
+    <h3>Music</h3>
+    Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.
+  </Card>
+  <Card>
+    <h3>Movies</h3>
+    So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast genres and more.
+  </Card>
+  <Card>
+    <h3>TV Shows</h3>
+    Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your tv organised like nothing else.
+  </Card>
+  <Card>
+    <h3>Photos</h3>
+    Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.
+  </Card>
+  <Card>
+    <h3>PVR</h3>
+    Kodi allows you to watch and record live TV all from easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.
+  </Card>
+  <Card>
+    <h3>Games</h3>
+    Kodi isn't just for passive entertainment media. You can also play games on Kodi.  Pick from a large number of emulators, or even play a stand-alone game.  There's even extensive support for game controllers.
+  </Card>
+</div>
+
+# But wait, there is more...
+
+You can [get a new skin](/addons/category/skins) to change the look of Kodi, or [stream your favourite internet radio station](/addons/category/music-addons) and control it all with your web browser or mobile phone? [This and so much more is all possible](/addons) and easy with Kodi.
+
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="/about"
+  isLarge
+>
+  Show me all the good bits <ArrowRightIcon />
+</Button>
+
+# We need your help
+
+You can help in so many different ways. As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contibute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
+
+<Button
+  variant="link"
+  component="a"
+  target="_blank"
+  rel="noopener"
+  href="/contribute"
+  isLarge
+>
+  Other ways to help <ArrowRightIcon />
+</Button>
