@@ -1,12 +1,12 @@
+---
+title: Donor Wall
+breadcrumbs: Donate | Donor Wall
+---
+
 import { graphql } from "gatsby"
-import MetadataHeader from "src/components/SiteMetadata"
 import DonorList from 'src/components/DonorList'
 
-<MetadataHeader title="Donor Wall" />
-
-# Donor Wall
-
-Recent donors. Thanks for your support!
+Here are some of our recent donors. Thanks for your support!
 
 <DonorList items={props.data.Donors.edges} />
 

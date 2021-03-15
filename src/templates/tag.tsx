@@ -2,15 +2,16 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import BlogIndexLayout from "../components/BlogIndexLayout";
-import MetadataHeader from "../components/SiteMetadata";
 
 export default function TagPage({ data, pageContext, location }) {
   let tagroot = "/blog/tag/";
+  let frontmatter = {
+    title: "News with the Tag: " + pageContext.tag,
+    breadrumbs: "News | " + pageContext.tag,
+  };
 
   return (
-    <Layout>
-      <MetadataHeader title={pageContext.tag + " | Tags | News"} />
-      <h1>News with the Tag: {pageContext.tag}</h1>
+    <Layout frontmatter={frontmatter}>
       <BlogIndexLayout data={data} />
     </Layout>
   );

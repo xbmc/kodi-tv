@@ -2,13 +2,11 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import BlogIndexLayout from "../components/BlogIndexLayout";
-import MetadataHeader from "../components/SiteMetadata";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
+  let frontmatter = { title: "News", breadcrumbs: "News" };
   return (
-    <Layout>
-      <MetadataHeader title="News" />
-      <h1>News</h1>
+    <Layout frontmatter={frontmatter}>
       <BlogIndexLayout data={data} pageContext={pageContext} />
     </Layout>
   );

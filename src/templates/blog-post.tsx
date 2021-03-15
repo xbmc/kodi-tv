@@ -4,15 +4,18 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import ItemWithComma from "../components/ItemWithComma";
-import MetadataHeader from "../components/SiteMetadata";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
+  let frontmatter = {
+    title: markdownRemark.frontmatter.title,
+    breadcrumbs: "News | " + markdownRemark.frontmatter.title,
+  };
+
   return (
-    <Layout>
-      <MetadataHeader title={markdownRemark.frontmatter.title + " | News"} />
+    <Layout frontmatter={frontmatter}>
       <div style={{ margin: "20px" }}>
         {markdownRemark.frontmatter.featured_image == undefined ? (
           ""
@@ -33,7 +36,6 @@ export default function Template({
             />
           </div>
         )}
-        <h1>{markdownRemark.frontmatter.title}</h1>
         <div className="flex justify-between">
           <div>&#128358; {markdownRemark.frontmatter.date}</div>
           {markdownRemark.frontmatter.author.trim() == "" ? (
