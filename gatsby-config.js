@@ -51,12 +51,66 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "gatsby-kodi-tv",
-        short_name: "website",
+        short_name: "Kodi website",
         start_url: "/",
         background_color: "#663399",
         theme_color: "#663399",
         display: "minimal-ui",
-        icon: "static/images/kodi-logo.svg", // This path is relative to the root of the site.
+        icon: "static/images/kodi-logo.svg",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-feed",
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                });
+              });
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  limit: 20
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            match: "^/article/",
+          },
+        ],
       },
     },
     `gatsby-plugin-postcss`,
@@ -66,6 +120,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-kodidonorwall`,
       options: {
