@@ -122,6 +122,36 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noopener"
+                        href="https://www.leaseweb.com/?utm_source=kodi.com&utm_medium=linkback&utm_campaign=kodi"
+                        className="text-base text-gray-500 hover:text-gray-900"
+                      >
+                        Leaseweb
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://weblate.org/en/"
+                        className="text-base text-gray-500 hover:text-gray-900"
+                      >
+                        Weblate
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://www.goatcounter.com/"
+                        className="text-base text-gray-500 hover:text-gray-900"
+                      >
+                        GoatCounter
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
                         href="https://www.macminivault.com"
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
