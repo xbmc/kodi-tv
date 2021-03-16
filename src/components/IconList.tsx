@@ -42,7 +42,7 @@ export default function categoryIconList(props: {
         <div align="center">
           <Link className="underline text-blue-500" to={linkroot + item.slug}>
             <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
-            <div dangerouslySetInnerHTML={{ __html: item.name }} />
+            <div style={{ display: item.name === '' ? "none" : "block" }} dangerouslySetInnerHTML={{ __html: item.name }} />
           </Link>
         </div>
       ))}
