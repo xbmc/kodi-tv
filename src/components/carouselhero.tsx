@@ -20,7 +20,7 @@ class HeroFullWidthCarousel extends React.Component<Props> {
     return (
       <div className="relative pb-6">
         <div className="mx-auto">
-          <div className="relative shadow-xl overflow-hidden">
+          <div className="relative shadow-xl overflow-hidden flex">
             <Swiper
               style={{ "--swiper-theme-color": "#17B2E7" }}
               spaceBetween={0}
@@ -44,7 +44,7 @@ class HeroFullWidthCarousel extends React.Component<Props> {
                       style={{ mixBlendMode: "multiply" }}
                     ></div>
                   </div>
-                  <div className="relative px-6 py-14">
+                  <div className="relative px-6 pt-12 pb-16">
                     <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
                       <span className="block text-white">{element.title}</span>
                       <span className="block text-kodi-lighter">
@@ -54,7 +54,7 @@ class HeroFullWidthCarousel extends React.Component<Props> {
                     <p className="mt-6 max-w-lg mx-auto text-center text-xl text-kodi-lighter">
                       {element.description}
                     </p>
-                    <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                    <div className="mt-10 mx-auto max-w-none flex justify-center">
                       <div className="space-y-0 mx-auto grid-cols-1 gap-5">
                         <a
                           href={element.url}
