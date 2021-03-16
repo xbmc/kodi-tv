@@ -26,7 +26,7 @@ class Page extends React.Component {
               title: "There is an",
               subtitle: "Add-on for that",
               description:
-                "Kodi has a giant catalog of community add-ons available for you to customize your setup.",
+                "Kodi has a giant catalog of community add-ons available for you to customize and tweak your perfect entertainment setup.",
               url: "/addons",
               buttontext: "Browse Add-ons",
             },
