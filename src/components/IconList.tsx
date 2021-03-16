@@ -1,22 +1,29 @@
 import React from "react";
 import { Link } from "gatsby";
+import ReactMarkdown from "react-markdown";
 
-export default function categoryIconList(props: {
+function IconList(props: {
   items: any[];
-  width: string | undefined;
-  marginleft: string | undefined;
-  marginright: string | undefined;
   iconwidth: string | undefined;
   iconheight: string | undefined;
   linkroot: string | undefined;
 }) {
-  let items = [];
-  let iconwidth = "150";
-  let iconheight = "150";
-  let linkroot = "";
-  let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
     return "";
+  }
+  let items = [];
+  let linkroot = "";
+  let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
+  let iconwidth = "150";
+  let iconheight = "150";
+  if (props.className !== undefined) {
+    className = props.className;
+  }
+  if (props.iconwidth !== undefined) {
+    iconwidth = props.iconwidth;
+  }
+  if (props.iconheight !== undefined) {
+    iconheight = props.iconheight;
   }
   if (props.items[0].node !== undefined) {
     props.items.map((item: { node: any }, index: any) => items.push(item.node));
@@ -26,29 +33,23 @@ export default function categoryIconList(props: {
   if (props.linkroot !== undefined) {
     linkroot = props.linkroot;
   }
-  if (props.iconwidth !== undefined) {
-    iconwidth = props.iconwidth;
-  }
-  if (props.iconheight !== undefined) {
-    iconheight = props.iconheight;
-  }
-  if (props.className !== undefined) {
-    className = props.className;
-  }
-
   return (
     <div className={className}>
       {items.map((item, index) => (
         <div align="center">
-          <Link className="underline text-blue-500" to={linkroot + item.slug}>
+          <Link
+            className="text-base text-gray-500 hover:text-blue-900"
+            to={linkroot + item.slug}
+          >
             <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
-            <div
-              style={{ display: item.name === "" ? "none" : "block" }}
-              dangerouslySetInnerHTML={{ __html: item.name }}
-            />
+            <div style={{ display: item.name === "" ? "none" : "block" }}>
+              <ReactMarkdown>{item.name}</ReactMarkdown>
+            </div>
           </Link>
         </div>
       ))}
     </div>
   );
 }
+
+export { IconList };

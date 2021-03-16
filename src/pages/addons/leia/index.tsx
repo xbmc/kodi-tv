@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
-import IconList from "src/components/IconList";
+import { IconList } from "src/components/iconlist";
 import { DefaultLayout } from "src/components/layout";
 
 export default function AddonIndexPage({ data, pageContext, location }) {

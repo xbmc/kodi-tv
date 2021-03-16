@@ -1,6 +1,6 @@
 import React from "react";
 import { DefaultLayout } from "./layout";
-import IconList from "./IconList";
+import { IconList } from "src/components/iconlist";
 import MetadataHeader from "./SiteMetadata";
 
 export default function AddonCategoryLayout({ repo, data }) {

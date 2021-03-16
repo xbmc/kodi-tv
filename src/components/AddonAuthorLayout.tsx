@@ -1,5 +1,5 @@
 import React from "react";
-import IconList from "./IconList";
+import { IconList } from "src/components/iconlist";
 import { DefaultLayout } from "./layout";
 
 export default function AddonAuthorLayout({
