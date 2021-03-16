@@ -36,9 +36,7 @@ function LandingPage(props) {
       <div class="bg-white h-full">
         <Header frontmatter={frontmatter} compact={true} />
         <main>
-          <div className="py-0">
-            {props.children}
-          </div>
+          <div className="py-0">{props.children}</div>
         </main>
         <Footer />
       </div>
