@@ -1,9 +1,10 @@
 import React from "react";
-import { DefaultLayout } from "./layout";
-import { IAddon } from "./../addon";
-import ItemWithComma from "./ItemWithComma";
-import Carousel from "./carousel";
+import ReactMarkdown from "react-markdown";
 import { ExclamationOutline } from "heroicons-react";
+import { IAddon } from "./../addon";
+import { DefaultLayout } from "src/components/layout";
+import ItemWithComma from "src/components/ItemWithComma";
+import { Carousel } from "src/components/carousel";
 import Card from "src/components/Card";
 
 export default function AddonLayout({
@@ -43,12 +44,11 @@ export default function AddonLayout({
             <img width="150" height="150" alt="" src={addon.icon} />
           </div>
           <div className="col-span-4 flex flex-col">
-            <div
-              className=" text-2xl font-bold"
-              dangerouslySetInnerHTML={{ __html: addon.name }}
-            />
+            <ReactMarkdown className=" text-2xl font-bold">
+              {addon.name}
+            </ReactMarkdown>
             <p>
-              <div dangerouslySetInnerHTML={{ __html: addon.summary }} />
+              <ReactMarkdown>{addon.summary}</ReactMarkdown>
             </p>
             <div className="flex prose prose-blue">
               <div className="pr-4">&#128194; {addon.version}</div>
@@ -116,8 +116,9 @@ export default function AddonLayout({
           <div
             className="md:col-span-4"
             style={{ display: addon.description == null ? "none" : "block" }}
-            dangerouslySetInnerHTML={{ __html: addon.description }}
-          />
+          >
+            <ReactMarkdown>{addon.description}</ReactMarkdown>
+          </div>
           <div
             className="pr-2 font-bold md:col-span-1 md:text-right"
             style={{ display: addon.forum == null ? "none" : "block" }}
