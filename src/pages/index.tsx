@@ -36,8 +36,8 @@ class Page extends React.Component {
               subtitle: "like no other",
               description:
                 "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
-              url: "https://forum.kodi.tv",
-              buttontext: "Kodi Forum",
+              url: "/gethelp",
+              buttontext: "Get Help",
             },
           ]}
         />
