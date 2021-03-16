@@ -204,9 +204,11 @@ function Header(props) {
     breadcrumbs = props.frontmatter.breadcrumbs;
   }
   let mainclassname = "bg-gray-800 pb-32";
+  let borderclassname = "border-b border-gray-700";
   let showtitle = true;
   if (props.compact !== undefined) {
     mainclassname = "bg-gray-800";
+    borderclassname = "";
     showtitle = false;
   }
   return (
@@ -216,7 +218,7 @@ function Header(props) {
       <div className={mainclassname}>
         <nav className="bg-gray-800">
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div className="border-b border-gray-700">
+            <div className={borderclassname}>
               <div className="flex items-center justify-between h-16 px-4 sm:px-0">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
