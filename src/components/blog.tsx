@@ -11,8 +11,11 @@ function BlogPostCard(props) {
     post.frontmatter.tags = [];
   }
   if (post.frontmatter.featured_image == undefined) {
-    post.frontmatter.featured_image = { title: "", src: "", alt: "" };
+    post.frontmatter.featured_image = { title: "", src: "/images/blog/default.png", alt: "" };
     showimage = false;
+  }
+  if (post.frontmatter.author == undefined) {
+    post.frontmatter.author = ""
   }
   return (
     <>
@@ -20,17 +23,9 @@ function BlogPostCard(props) {
         <div className="flex-shrink-0">
           <img
             className="h-48 w-full object-cover"
-            style={{ display: showimage === false ? "none" : "block" }}
             title={post.frontmatter.featured_image.title}
             src={post.frontmatter.featured_image.src}
             alt={post.frontmatter.featured_image.alt}
-          />
-          <img
-            className="h-48 w-full object-cover"
-            style={{ display: showimage === true ? "none" : "block" }}
-            title=""
-            src="/images/blog/default.png"
-            alt=""
           />
         </div>
         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
