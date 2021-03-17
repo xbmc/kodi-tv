@@ -1,11 +1,11 @@
 backend:
   name: 'github'
   repo: 'xbmc/kodi-tv'
-  branch: 'main'
+  branch: 'feature-tailwind'
 
-site_url: 'https://kodi-tv.netlify.app'
-media_folder: '/static/images/blog'
-public_folder: '/images/blog'
+site_url: 'https://kodi-tv-staging.netlify.app'
+media_folder: '/static/images'
+public_folder: '/images'
 publish_mode: 'editorial_workflow'
 
 collections:
@@ -36,9 +36,24 @@ collections:
         summary: '{{fields.src}}'
         required: false
         fields:
-          - {name: 'src', label: 'Image', widget: 'image'}
-          - {name: 'title', label: 'Title', widget: 'string'}
-          - {name: 'alt', label: 'Alt text', widget: 'string'}
+          - { name: 'src', label: 'Image', widget: 'image' }
+          - { name: 'title', label: 'Title', widget: 'string' }
+          - { name: 'alt', label: 'Alt text', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'aboutpages'
+    label: 'About Pages'
+    label_singular: 'About Page'
+    folder: 'src/content/pages/about'
+    create: true
+    path: '{{pageslug}}'
+    identifier_field: 'pageslug'
+    preview_path: '/about/{{pageslug}}'
+    media_folder: '/static/images'
+    public_folder: '/images'
+    fields:
+      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
+      - { name: 'title', label: 'Page Title', widget: 'string' }
+      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'featuredaddons'
     label: 'Featured Add-ons'
@@ -116,7 +131,7 @@ collections:
         fields:
           - { name: 'name', label: 'Type', widget: 'select', options: ['Recommended', 'Pre release', 'Development Builds'] }
           - { name: 'title', label: 'Title', widget: 'string' }
-          - { name: 'description', label: 'Description', widget: 'markdown'}
+          - { name: 'description', label: 'Description', widget: 'markdown' }
           - name: 'downloads'
             label: 'Download Links'
             label_singular: 'Download Link'

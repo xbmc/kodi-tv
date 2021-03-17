@@ -15,10 +15,10 @@ Users can play and view most videos, music, podcasts, games and other digital me
 
 We also have helpful [Facebook](https://www.facebook.com/XBMC), [Twitter](https://twitter.com/KodiTV) and [Youtube](http://www.youtube.com/teamxbmc) pages so like, tweet, subscribe to us: we'd love to hear from you.
 
-x-section disclaimer x-section
+x-section-x aboutdisclaimer x-section-x
 
 ## What can Kodi do for me?
 
 Kodi is the ultimate entertainment center software. It plays almost every kind of media you can find and it looks great while doing it! These are just a few things that Kodi excels at, why not [try it yourself today](/download)?
 
-x-section gallery x-section
+x-section-x aboutgallery x-section-x

@@ -29,10 +29,45 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
+  
+  const pageTemplate = require.resolve(`./src/templates/page.tsx`);
+  
+  const pageresults = await graphql(`
+    {
+      Pages: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "pagesrc" } } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  // Handle errors
+  if (pageresults.errors) {
+    reporter.panicOnBuild(`Error while running Pages GraphQL query.`);
+    return;
+  }
+
+  pageresults.data.Pages.edges.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: pageTemplate,
+      context: {
+        // additional data can be passed via context
+        slug: node.fields.slug,
+      },
+    });
+  });  
 
   const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`);
 
-  const result = await graphql(`
+  const blogresults = await graphql(`
     {
       blogPosts: allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
@@ -51,12 +86,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   `);
 
   // Handle errors
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`);
+  if (blogresults.errors) {
+    reporter.panicOnBuild(`Error while running Blog Post GraphQL query.`);
     return;
   }
 
-  result.data.blogPosts.edges.forEach(({ node }) => {
+  blogresults.data.blogPosts.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: blogPostTemplate,
@@ -69,7 +104,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   paginate({
     createPage,
-    items: result.data.blogPosts.edges,
+    items: blogresults.data.blogPosts.edges,
     itemsPerPage: 21,
     pathPrefix: ({ pageNumber, numberOfPages }) =>
       pageNumber === 0 ? "/blog" : "/blog/page",
@@ -85,6 +120,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
+
+  // Handle errors
+  if (tagresults.errors) {
+    reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
+    return;
+  }
 
   tagresults.data.blogTags.distinct.forEach(tag => {
     createPage({
@@ -110,6 +151,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
+  
+  // Handle errors
+  if (matrixaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Matrix Add-on GraphQL query.`);
+    return;
+  }
 
   matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
     createPage({
@@ -135,6 +182,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
+  // Handle errors
+  if (matrixcategoryresults.errors) {
+    reporter.panicOnBuild(`Error while running Matrix Add-on Category GraphQL query.`);
+    return;
+  }
+
   matrixcategoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
     createPage({
       path: "addons/matrix/category/" + node.slug,
@@ -158,6 +211,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
+
+  // Handle errors
+  if (matrixauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Matrix Add-on Author GraphQL query.`);
+    return;
+  }
 
   matrixauthorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
     createPage({
@@ -185,6 +244,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
+  // Handle errors
+  if (leiaaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on GraphQL query.`);
+    return;
+  }
+
   leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
     createPage({
       path: "addons/leia/" + node.slug,
@@ -208,6 +273,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
+
+  // Handle errors
+  if (leiacategoryresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on Category GraphQL query.`);
+    return;
+  }
 
   leiacategoryresults.data.allLeiaCategory.edges.forEach(({ node }) => {
     createPage({
@@ -233,6 +304,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
+  // Handle errors
+  if (leiaauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on Author GraphQL query.`);
+    return;
+  }
+
   leiaauthorresults.data.allLeiaAuthor.edges.forEach(({ node }) => {
     createPage({
       path: "addons/leia/author/" + node.slug,
@@ -257,6 +334,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
+
+  // Handle errors
+  if (distresults.errors) {
+    reporter.panicOnBuild(`Error while running Distributions GraphQL query.`);
+    return;
+  }
 
   distresults.data.allDistributionYaml.edges.forEach(({ node }) => {
     createPage({

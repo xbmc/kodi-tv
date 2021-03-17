@@ -1,11 +1,7 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/Layout";
-import { BlogPostCard } from "src/components/Blog";
 import Card from "src/components/Card";
 
-function Disclaimer() {
+function AboutDisclaimer() {
   return (
     <>
       <Card>
@@ -22,7 +18,7 @@ function Disclaimer() {
   );
 }
 
-function FeatureGallery() {
+function AboutGallery() {
   return (
     <>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -106,42 +102,4 @@ function FeatureGallery() {
   );
 }
 
-function DynamicSection(props) {
-  let sections = { disclaimer: <Disclaimer />, gallery: <FeatureGallery /> };
-  let section = sections[props.section];
-  if (section == undefined) {
-    section = "";
-  }
-  return section;
-}
-
-export default function Page({ data, pageContext, location }) {
-  const { page } = data; // data.page holds the page data
-  let frontmatter = { title: "News", breadcrumbs: "News" };
-  let content = page.rawMarkdownBody.split("x-section");
-  return (
-    <DefaultLayout frontmatter={page.frontmatter}>
-      {content.map((section: string, index: any) => {
-        return section.trim().split(" ").length > 1 ? (
-          <ReactMarkdown className="pb-6 prose prose-blue max-w-none">
-            {section}
-          </ReactMarkdown>
-        ) : (
-          <DynamicSection section={section.trim()} />
-        );
-      })}
-    </DefaultLayout>
-  );
-}
-
-export const pageQuery = graphql`
-  query {
-    page: markdownRemark(fields: { slug: { eq: "/about/" } }) {
-      frontmatter {
-        title
-        breadcrumbs
-      }
-      rawMarkdownBody
-    }
-  }
-`;
+export { AboutDisclaimer, AboutGallery };
