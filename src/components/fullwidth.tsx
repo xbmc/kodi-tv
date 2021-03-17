@@ -215,13 +215,8 @@ function FullWidthNews(props) {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-            {props.posts.map((post, index) => (
-              <BlogPostCard
-                frontmatter={post.node.frontmatter}
-                excerpt={post.node.excerpt}
-                timeToRead={post.node.timeToRead}
-                url={post.node.fields.slug}
-              />
+            {props.edges.map((edge, index) => (
+              <BlogPostCard post={edge.node} />
             ))}
           </div>
         </div>

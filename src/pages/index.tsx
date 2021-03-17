@@ -209,7 +209,7 @@ function Page({ data, pageContext, location }) {
       <FullWidthNews
         title="News"
         subtitle="What is new in the world of Kodi"
-        posts={data.allMarkdownRemark.edges}
+        edges={data.allMarkdownRemark.edges}
       />
 
       <FullWidthCTAImageLeft
