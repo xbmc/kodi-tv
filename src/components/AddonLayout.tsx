@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { ExclamationOutline } from "heroicons-react";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "src/components/layout";
-import ItemWithComma from "src/components/ItemWithComma";
+import ItemWithComma from "src/components/itemwithcomma";
 import { Carousel } from "src/components/carousel";
 import Card from "src/components/Card";
 

@@ -3,7 +3,7 @@ title: 'Kodi 19 gets a codename'
 date: 2019-04-23T07:47:28Z
 author: Cris Silva (h.udo)
 tags:
-  - Community Updates
+  - Community
 featured_image:
   src: /images/blog/kodi_matrix.jpg
   title: 'Kodi Matrix v19'

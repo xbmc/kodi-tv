@@ -9,9 +9,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const parent = getNode(node.parent);
     let collection = parent.sourceInstanceName;
-    let prepend = ""
+    let prepend = "";
     if (collection === "blog") {
-      prepend = "/article"
+      prepend = "/article";
     }
     const value = prepend + createFilePath({ node, getNode });
     createNodeField({
@@ -21,9 +21,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
     createNodeField({
       node,
-      name: 'collection',
+      name: "collection",
       value: collection,
-    });  }
+    });
+  }
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -35,7 +36,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     {
       blogPosts: allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        filter: {fields: {collection: {eq: "blog"}}}
+        filter: { fields: { collection: { eq: "blog" } } }
         limit: 1000
       ) {
         edges {
@@ -69,15 +70,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   paginate({
     createPage,
     items: result.data.blogPosts.edges,
-    itemsPerPage: 20,
-    pathPrefix: "/blog",
+    itemsPerPage: 21,
+    pathPrefix: ({ pageNumber, numberOfPages }) =>
+      pageNumber === 0 ? "/blog" : "/blog/page",
     component: path.resolve("src/templates/blog-index.tsx"),
   });
 
   const tagresults = await graphql(`
     query MyQuery {
-      blogTags: allMarkdownRemark (
-        filter: {fields: {collection: {eq: "blog"}}}
+      blogTags: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "blog" } } }
       ) {
         distinct(field: frontmatter___tags)
       }

@@ -246,7 +246,7 @@ export const pageQuery = graphql`
   query {
     blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
-      filter: {fields: {collection: {eq: "blog"}}}
+      filter: { fields: { collection: { eq: "blog" } } }
       limit: 3
     ) {
       edges {

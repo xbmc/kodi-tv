@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "src/components/layout";
-import BlogIndexLayout from "src/components/BlogIndexLayout";
+import { BlogPostCard } from "src/components/blog";
 
 export default function TagPage({ data, pageContext, location }) {
   let tagroot = "/blog/tag/";
@@ -12,14 +12,18 @@ export default function TagPage({ data, pageContext, location }) {
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <BlogIndexLayout data={data} />
+      <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+        {data.blogPosts.edges.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+      </div>
     </DefaultLayout>
   );
 }
 
 export const pageQuery = graphql`
   query($tag: [String]!) {
-    allMarkdownRemark(
+    blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { tags: { in: $tag } } }
     ) {

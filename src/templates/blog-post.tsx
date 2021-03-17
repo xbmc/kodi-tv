@@ -4,101 +4,85 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "src/components/layout";
-import ItemWithComma from "src/components/ItemWithComma";
+import ItemWithComma from "src/components/itemwithcomma";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { blogPost } = data; // data.blogPost holds your post data
+  let tagroot = "/blog/tag/";
   let frontmatter = {
     title: blogPost.frontmatter.title,
     breadcrumbs: "News | " + blogPost.frontmatter.title,
   };
+  let showimage = true;
+  if (blogPost.frontmatter.featured_image == undefined) {
+    blogPost.frontmatter.featured_image = { title: "", src: "", alt: "" };
+    showimage = false;
+  }
+  if (blogPost.frontmatter.tags == undefined) {
+    blogPost.frontmatter.tags = [];
+  }
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <div style={{ margin: "20px" }}>
-        {blogPost.frontmatter.featured_image == undefined ? (
-          ""
-        ) : (
-          <div
-            style={{
-              objectFit: "cover",
-              objectPostion: "center",
-              overflow: "hidden",
-              maxHeight: "500px",
-              width: "80%",
-            }}
-          >
-            <img
-              alt={blogPost.frontmatter.featured_image.alt}
-              title={blogPost.frontmatter.featured_image.title}
-              src={blogPost.frontmatter.featured_image.src}
-            />
+      <div
+        style={{ display: showimage ? "block" : "none" }}
+        className="relative pb-6"
+      >
+        <div className="max-w-7xl mx-auto">
+          <div className="relative shadow-xl rounded-2xl overflow-hidden">
+            <div className="absolute inset-0">
+              <img
+                className="h-full w-full object-cover"
+                src={blogPost.frontmatter.featured_image.src}
+                title={blogPost.frontmatter.featured_image.title}
+                alt={blogPost.frontmatter.featured_image.alt}
+              />
+            </div>
+            <div className="relative px-6 py-40"></div>
           </div>
-        )}
-        <div className="flex justify-between">
-          <div>&#128358; {blogPost.frontmatter.date}</div>
-          {blogPost.frontmatter.author.trim() == "" ? (
-            ""
-          ) : (
-            <React.Fragment>
-              <div>&#128100; {blogPost.frontmatter.author}</div>
-            </React.Fragment>
-          )}
-          <div>
-            &#128214; {blogPost.wordCount.words} words,{" "}
-            {blogPost.timeToRead}{" "}
-            {blogPost.timeToRead == 1 ? "minute" : "minutes"} to read
-          </div>
-
-          {blogPost.frontmatter.tags == null ? (
-            ""
-          ) : (
-            <React.Fragment>
-              <div>
-                &#127991;&nbsp;
-                {blogPost.frontmatter.tags.map((tag: string, index: any) => {
-                  return (
-                    <ItemWithComma
-                      description={tag}
-                      index={index}
-                      url={"/blog/tag/" + slugify(tag, { lower: true })}
-                      length={blogPost.frontmatter.tags.length - 1}
-                      linkType="internal"
-                    />
-                  );
-                })}{" "}
-              </div>
-            </React.Fragment>
-          )}
-        </div>
-        <hr
-          width="80%"
-          style={{
-            marginTop: "15px",
-            marginBottom: "15px",
-            border: "1px dashed #808080",
-          }}
-        />
-        <div
-          style={{ marginTop: "10px", marginRight: "20%" }}
-          className="pf-c-content"
-        >
-          <ReactMarkdown className="prose">
-            {blogPost.rawMarkdownBody}
-          </ReactMarkdown>
         </div>
       </div>
+      <div className="mt-3">
+        <p className="text-md font-medium text-kodi">
+          {blogPost.frontmatter.tags.map((tag: string, index: any) => {
+            return (
+              <ItemWithComma
+                description={tag}
+                index={index}
+                url={tagroot + slugify(tag, { lower: true })}
+                length={blogPost.frontmatter.tags.length - 1}
+                linkType="internal"
+              />
+            );
+          })}
+          &nbsp;
+        </p>
+      </div>
+      <div className="mt-3 flex items-center">
+        <div>
+          <p className="text-lg font-medium text-gray-900">
+            {blogPost.frontmatter.author}
+          </p>
+          <div className="flex space-x-1 text-lg text-gray-500">
+            <span>{blogPost.frontmatter.date}</span>
+            <span aria-hidden="true">&middot;</span>
+            <span>{blogPost.timeToRead} min read</span>
+          </div>
+        </div>
+      </div>
+
+      <ReactMarkdown className="pt-6 prose prose-blue max-w-none">
+        {blogPost.rawMarkdownBody}
+      </ReactMarkdown>
     </DefaultLayout>
   );
 }
 
 export const pageQuery = graphql`
   query($slug: String!) {
-    blogPost: markdownRemark(
-      fields: { slug: { eq: $slug } }
-    ) {
+    blogPost: markdownRemark(fields: { slug: { eq: $slug } }) {
       rawMarkdownBody
       timeToRead
       wordCount {

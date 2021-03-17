@@ -28,7 +28,7 @@ collections:
         widget: "select"
         multiple: true
         required: false
-        options: ["Community Updates", "DevCon", "Featured Software/Hardware", "Pre-releases", "Release Announcements"]
+        options: ["Community", "DevCon", "Developer", "Pre-release", "Release"]
       - name: 'featured_image'
         label: 'Featured Image'
         widget: 'object'

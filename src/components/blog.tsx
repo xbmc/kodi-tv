@@ -1,25 +1,53 @@
 import React from "react";
 import ItemWithComma from "src/components/itemwithcomma";
 
+const slugify = require("slugify");
+
 function BlogPostCard(props) {
   let post = props.post;
+  let tagroot = "/blog/tag/";
+  let showimage = true;
+  if (post.frontmatter.tags == undefined) {
+    post.frontmatter.tags = [];
+  }
+  if (post.frontmatter.featured_image == undefined) {
+    post.frontmatter.featured_image = { title: "", src: "", alt: "" };
+    showimage = false;
+  }
   return (
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div className="flex-shrink-0">
           <img
             className="h-48 w-full object-cover"
+            style={{ display: showimage === false ? "none" : "block" }}
             title={post.frontmatter.featured_image.title}
             src={post.frontmatter.featured_image.src}
             alt={post.frontmatter.featured_image.alt}
+          />
+          <img
+            className="h-48 w-full object-cover"
+            style={{ display: showimage === true ? "none" : "block" }}
+            title=""
+            src="/images/blog/default.png"
+            alt=""
           />
         </div>
         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium text-kodi">
-              <a href="/blog/tag/releases" className="hover:underline">
-                Still Have to do Tags
-              </a>
+              {post.frontmatter.tags.map((tag: string, index: any) => {
+                return (
+                  <ItemWithComma
+                    description={tag}
+                    index={index}
+                    url={tagroot + slugify(tag, { lower: true })}
+                    length={post.frontmatter.tags.length - 1}
+                    linkType="internal"
+                  />
+                );
+              })}
+              &nbsp;
             </p>
             <a href={post.fields.slug} className="block mt-2">
               <p className="text-xl font-semibold text-gray-900">

@@ -63,8 +63,53 @@ const mainMenu = [
     svg: null,
     collapseto: null,
     description: null,
-    dropdown: null,
     footer: null,
+    dropdown: [
+      {
+        title: "All News",
+        url: "/blog",
+        svg: <Icons.NewspaperOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+      {
+        title: "Community Updates",
+        url: "/blog/tag/community",
+        svg: <Icons.UsersOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+      {
+        title: "Release Announcements",
+        url: "/blog/tag/release",
+        svg: <Icons.DownloadOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+      {
+        title: "Pre-release Announcements",
+        url: "/blog/tag/pre-release",
+        svg: (
+          <Icons.FolderDownloadOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
+        ),
+        description: null,
+      },
+      {
+        title: "Developer News",
+        url: "/blog/tag/developer",
+        svg: <Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+      {
+        title: "Devcon",
+        url: "/blog/tag/devcon",
+        svg: <Icons.FlagOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+      {
+        title: "Search the News",
+        url: "/blog/search",
+        svg: <Icons.SearchOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: null,
+      },
+    ],
   },
   {
     title: "Download",

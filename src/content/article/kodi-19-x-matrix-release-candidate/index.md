@@ -3,7 +3,7 @@ title: Kodi 19.x "Matrix" - Release Candidate
 date: 2021-01-16T15:54:23.769Z
 author: Prof Yaffle
 tags:
-  - Pre-releases
+  - Pre-release
 featured_image:
   src: /images/blog/kodi_splash_v19.0_matrix_rc_1080p.jpg
   title: 'Kodi 19.0 RC Splash Screen'

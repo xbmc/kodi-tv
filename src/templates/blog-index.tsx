@@ -1,13 +1,19 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Pager from "src/components/Pager";
 import { DefaultLayout } from "src/components/layout";
-import BlogIndexLayout from "src/components/BlogIndexLayout";
+import { BlogPostCard } from "src/components/blog";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "News", breadcrumbs: "News" };
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <BlogIndexLayout data={data} pageContext={pageContext} />
+      <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+        {data.blogPosts.edges.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+      </div>
+      {pageContext == undefined ? "" : <Pager pageContext={pageContext} />}
     </DefaultLayout>
   );
 }
@@ -16,7 +22,7 @@ export const pageQuery = graphql`
   query($skip: Int!, $limit: Int!) {
     blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
-      filter: {fields: {collection: {eq: "blog"}}}
+      filter: { fields: { collection: { eq: "blog" } } }
       skip: $skip
       limit: $limit
     ) {
@@ -43,9 +49,6 @@ export const pageQuery = graphql`
           }
         }
       }
-    }
-    allTags: allMarkdownRemark {
-      distinct(field: frontmatter___tags)
     }
   }
 `;
