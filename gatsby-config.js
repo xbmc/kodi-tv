@@ -56,18 +56,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: "gatsby-kodi-tv",
-        short_name: "Kodi website",
-        start_url: "/",
-        background_color: "#663399",
-        theme_color: "#663399",
-        display: "minimal-ui",
-        icon: "static/images/kodi-logo.svg",
-      },
-    },
-    {
       resolve: "gatsby-plugin-feed",
       options: {
         query: `
@@ -124,11 +112,9 @@ module.exports = {
     },
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-kodidonorwall`,
