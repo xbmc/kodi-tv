@@ -1,4 +1,5 @@
 ---
+pageslug: index
 title: About Kodi
 breadcrumbs: About
 ---
