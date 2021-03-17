@@ -11,11 +11,15 @@ function BlogPostCard(props) {
     post.frontmatter.tags = [];
   }
   if (post.frontmatter.featured_image == undefined) {
-    post.frontmatter.featured_image = { title: "", src: "/images/blog/default.png", alt: "" };
+    post.frontmatter.featured_image = {
+      title: "",
+      src: "/images/blog/default.png",
+      alt: "",
+    };
     showimage = false;
   }
   if (post.frontmatter.author == undefined) {
-    post.frontmatter.author = ""
+    post.frontmatter.author = "";
   }
   return (
     <>

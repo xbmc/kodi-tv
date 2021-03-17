@@ -39,7 +39,7 @@ function SEO({ description, lang, meta, keywords, title, breadcrumbs }) {
         )
         .concat(meta)}
     >
-      <link rel="icon" type="image/svg" href="/images/kodi-logo.svg"/>
+      <link rel="icon" type="image/svg" href="/images/kodi-logo.svg" />
     </Helmet>
   );
 }
