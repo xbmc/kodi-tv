@@ -2,7 +2,7 @@ import React from "react";
 import ItemWithComma from "src/components/itemwithcomma";
 
 function BlogPostCard(props) {
-  let post = props.post
+  let post = props.post;
   return (
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -22,7 +22,9 @@ function BlogPostCard(props) {
               </a>
             </p>
             <a href={post.fields.slug} className="block mt-2">
-              <p className="text-xl font-semibold text-gray-900">{post.frontmatter.title}</p>
+              <p className="text-xl font-semibold text-gray-900">
+                {post.frontmatter.title}
+              </p>
               <p className="mt-3 text-base text-gray-500">{post.excerpt}</p>
             </a>
           </div>

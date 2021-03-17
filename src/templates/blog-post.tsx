@@ -9,16 +9,16 @@ import ItemWithComma from "src/components/ItemWithComma";
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark } = data; // data.markdownRemark holds your post data
+  const { blogPost } = data; // data.blogPost holds your post data
   let frontmatter = {
-    title: markdownRemark.frontmatter.title,
-    breadcrumbs: "News | " + markdownRemark.frontmatter.title,
+    title: blogPost.frontmatter.title,
+    breadcrumbs: "News | " + blogPost.frontmatter.title,
   };
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <div style={{ margin: "20px" }}>
-        {markdownRemark.frontmatter.featured_image == undefined ? (
+        {blogPost.frontmatter.featured_image == undefined ? (
           ""
         ) : (
           <div
@@ -31,40 +31,40 @@ export default function Template({
             }}
           >
             <img
-              alt={markdownRemark.frontmatter.featured_image.alt}
-              title={markdownRemark.frontmatter.featured_image.title}
-              src={markdownRemark.frontmatter.featured_image.src}
+              alt={blogPost.frontmatter.featured_image.alt}
+              title={blogPost.frontmatter.featured_image.title}
+              src={blogPost.frontmatter.featured_image.src}
             />
           </div>
         )}
         <div className="flex justify-between">
-          <div>&#128358; {markdownRemark.frontmatter.date}</div>
-          {markdownRemark.frontmatter.author.trim() == "" ? (
+          <div>&#128358; {blogPost.frontmatter.date}</div>
+          {blogPost.frontmatter.author.trim() == "" ? (
             ""
           ) : (
             <React.Fragment>
-              <div>&#128100; {markdownRemark.frontmatter.author}</div>
+              <div>&#128100; {blogPost.frontmatter.author}</div>
             </React.Fragment>
           )}
           <div>
-            &#128214; {markdownRemark.wordCount.words} words,{" "}
-            {markdownRemark.timeToRead}{" "}
-            {markdownRemark.timeToRead == 1 ? "minute" : "minutes"} to read
+            &#128214; {blogPost.wordCount.words} words,{" "}
+            {blogPost.timeToRead}{" "}
+            {blogPost.timeToRead == 1 ? "minute" : "minutes"} to read
           </div>
 
-          {markdownRemark.frontmatter.tags == null ? (
+          {blogPost.frontmatter.tags == null ? (
             ""
           ) : (
             <React.Fragment>
               <div>
                 &#127991;&nbsp;
-                {markdownRemark.frontmatter.tags.map((tag: string, index: any) => {
+                {blogPost.frontmatter.tags.map((tag: string, index: any) => {
                   return (
                     <ItemWithComma
                       description={tag}
                       index={index}
                       url={"/blog/tag/" + slugify(tag, { lower: true })}
-                      length={markdownRemark.frontmatter.tags.length - 1}
+                      length={blogPost.frontmatter.tags.length - 1}
                       linkType="internal"
                     />
                   );
@@ -85,7 +85,9 @@ export default function Template({
           style={{ marginTop: "10px", marginRight: "20%" }}
           className="pf-c-content"
         >
-          <ReactMarkdown className="prose">{markdownRemark.rawMarkdownBody}</ReactMarkdown>
+          <ReactMarkdown className="prose">
+            {blogPost.rawMarkdownBody}
+          </ReactMarkdown>
         </div>
       </div>
     </DefaultLayout>
@@ -94,7 +96,9 @@ export default function Template({
 
 export const pageQuery = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    blogPost: markdownRemark(
+      fields: { slug: { eq: $slug } }
+    ) {
       rawMarkdownBody
       timeToRead
       wordCount {

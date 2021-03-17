@@ -6,6 +6,7 @@ const config = require("./gatsby-site-config");
 
 module.exports = {
   siteMetadata: config.siteMetadata,
+  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
   plugins: [
     {
       resolve: `gatsby-plugin-root-import`,
@@ -30,8 +31,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: "markdown-pages",
-        path: `src/content`,
+        name: "blog",
+        path: `src/content/article`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "pagesrc",
+        path: `src/content/pages`,
       },
     },
     {
@@ -76,8 +84,8 @@ module.exports = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+            serialize: ({ query: { site, blogPosts } }) => {
+              return blogPosts.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
@@ -89,8 +97,9 @@ module.exports = {
             },
             query: `
               {
-                allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                blogPosts: allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] }
+                  filter: {fields: {collection: {eq: "blog"}}}
                   limit: 20
                 ) {
                   edges {

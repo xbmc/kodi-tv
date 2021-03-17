@@ -11,7 +11,7 @@ export default function BlogIndexLayout(props: { data: any; pageContext: any }) 
   return (
     <div className="flex flex-wrap-reverse sm:flex-nowrap">
       <div>
-        {props.data.allMarkdownRemark.edges.map((item, index) => (
+        {props.data.blogPosts.edges.map((item, index) => (
           <React.Fragment>
             {item.node.frontmatter.featured_image == undefined ? (
               ""

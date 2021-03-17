@@ -19,7 +19,6 @@ let frontmatter = { title: "", breadcrumbs: "" };
 function Page({ data, pageContext, location }) {
   return (
     <LandingPage frontmatter={frontmatter}>
-
       <FullWidthHeroCarousel
         slides={[
           {
@@ -209,7 +208,7 @@ function Page({ data, pageContext, location }) {
       <FullWidthNews
         title="News"
         subtitle="What is new in the world of Kodi"
-        edges={data.allMarkdownRemark.edges}
+        edges={data.blogPosts.edges}
       />
 
       <FullWidthCTAImageLeft
@@ -237,7 +236,6 @@ function Page({ data, pageContext, location }) {
         <br />
         You can organize media you own and have rights to with no extra cost.
       </FullWidthCallOut>
-
     </LandingPage>
   );
 }
@@ -246,7 +244,11 @@ export default Page;
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }, limit: 3) {
+    blogPosts: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      filter: {fields: {collection: {eq: "blog"}}}
+      limit: 3
+    ) {
       edges {
         node {
           excerpt(pruneLength: 300)

@@ -7,13 +7,23 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode });
+    const parent = getNode(node.parent);
+    let collection = parent.sourceInstanceName;
+    let prepend = ""
+    if (collection === "blog") {
+      prepend = "/article"
+    }
+    const value = prepend + createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
     });
-  }
+    createNodeField({
+      node,
+      name: 'collection',
+      value: collection,
+    });  }
 };
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
@@ -23,8 +33,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(
+      blogPosts: allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
+        filter: {fields: {collection: {eq: "blog"}}}
         limit: 1000
       ) {
         edges {
@@ -44,7 +55,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  result.data.blogPosts.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: blogPostTemplate,
@@ -57,7 +68,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   paginate({
     createPage,
-    items: result.data.allMarkdownRemark.edges,
+    items: result.data.blogPosts.edges,
     itemsPerPage: 20,
     pathPrefix: "/blog",
     component: path.resolve("src/templates/blog-index.tsx"),
@@ -65,13 +76,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const tagresults = await graphql(`
     query MyQuery {
-      allMarkdownRemark {
+      blogTags: allMarkdownRemark (
+        filter: {fields: {collection: {eq: "blog"}}}
+      ) {
         distinct(field: frontmatter___tags)
       }
     }
   `);
 
-  tagresults.data.allMarkdownRemark.distinct.forEach(tag => {
+  tagresults.data.blogTags.distinct.forEach(tag => {
     createPage({
       path: "blog/tag/" + slugify(tag, { lower: true }),
       component: path.resolve(`src/templates/tag.tsx`),

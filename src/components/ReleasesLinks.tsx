@@ -9,7 +9,7 @@ export function DownloadLinks(props: {
   }
   return (
     <React.Fragment>
-      <h3 class="text-lg font-bold">Downloads</h3>
+      <h3 className="text-lg font-bold">Downloads</h3>
       <div className="flex">
         {props.downloads.map(
           (
