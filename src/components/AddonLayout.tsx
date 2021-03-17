@@ -44,7 +44,7 @@ export default function AddonLayout({
             <img width="150" height="150" alt="" src={addon.icon} />
           </div>
           <div className="col-span-4 flex flex-col">
-            <ReactMarkdown className=" text-2xl font-bold">
+            <ReactMarkdown className="text-2xl font-bold">
               {addon.name}
             </ReactMarkdown>
             <p>
