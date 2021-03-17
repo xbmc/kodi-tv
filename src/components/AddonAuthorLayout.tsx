@@ -1,6 +1,6 @@
 import React from "react";
-import { IconList } from "src/components/iconlist";
-import { DefaultLayout } from "./layout";
+import { IconList } from "src/components/IconList";
+import { DefaultLayout } from "src/components/Layout";
 
 export default function AddonAuthorLayout({
   repo,
@@ -16,7 +16,7 @@ export default function AddonAuthorLayout({
   };
 
   return (
-    <DefaultLayout className="addonauthordetails" frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <p>
         <div className="font-bold text-2xl">{author.name}</div>
         <p>

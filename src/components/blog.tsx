@@ -1,5 +1,5 @@
 import React from "react";
-import ItemWithComma from "src/components/itemwithcomma";
+import ItemWithComma from "src/components/ItemWithComma";
 
 const slugify = require("slugify");
 

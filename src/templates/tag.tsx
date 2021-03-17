@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/layout";
-import { BlogPostCard } from "src/components/blog";
+import { DefaultLayout } from "src/components/Layout";
+import { BlogPostCard } from "src/components/Blog";
 
 export default function TagPage({ data, pageContext, location }) {
   let tagroot = "/blog/tag/";

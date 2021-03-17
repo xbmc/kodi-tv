@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import Card from "./Card";
+import Card from "src/components/Card";
 
 export default function categoryIconList(props: { authors: any[] }) {
   let authors = [];

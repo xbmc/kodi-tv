@@ -1,5 +1,5 @@
 import React from "react";
-import { IconList } from "src/components/iconlist";
+import { IconList } from "src/components/IconList";
 
 const slugify = require("slugify");
 

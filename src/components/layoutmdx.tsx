@@ -1,5 +1,5 @@
 import React from "react";
-import { DefaultLayout } from "src/components/layout";
+import { DefaultLayout } from "src/components/Layout";
 
 function MDXLayout(props: { pageContext: any }) {
   return (

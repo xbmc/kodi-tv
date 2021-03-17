@@ -1,8 +1,8 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/layout";
-import { BlogPostCard } from "src/components/blog";
+import { DefaultLayout } from "src/components/Layout";
+import { BlogPostCard } from "src/components/Blog";
 import Card from "src/components/Card";
 
 function Disclaimer() {

@@ -1,7 +1,6 @@
 import React from "react";
-import { DefaultLayout } from "./layout";
-import { IconList } from "src/components/iconlist";
-import MetadataHeader from "./SiteMetadata";
+import { DefaultLayout } from "src/components/Layout";
+import { IconList } from "src/components/IconList";
 
 export default function AddonCategoryLayout({ repo, data }) {
   const category = data.category;
@@ -11,7 +10,7 @@ export default function AddonCategoryLayout({ repo, data }) {
   };
 
   return (
-    <DefaultLayout className="addoncategorydetail" frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <p>
         <div className="font-bold text-2xl">{category.name}</div>
         <p>This category has {category.totaladdons} addons in it.</p>

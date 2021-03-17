@@ -3,8 +3,8 @@ const slugify = require("slugify");
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/layout";
-import ItemWithComma from "src/components/itemwithcomma";
+import { DefaultLayout } from "src/components/Layout";
+import ItemWithComma from "src/components/ItemWithComma";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.

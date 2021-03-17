@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { IconList } from "src/components/iconlist";
-import { DefaultLayout } from "src/components/layout";
+import { IconList } from "src/components/IconList";
+import { DefaultLayout } from "src/components/Layout";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix" };

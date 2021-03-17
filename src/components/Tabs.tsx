@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Tab from "./Tab";
+import Tab from "src/components/Tab";
 
 interface Props {
   tabs: { name: string }[];

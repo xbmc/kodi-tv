@@ -1,8 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Pager from "src/components/Pager";
-import { DefaultLayout } from "src/components/layout";
-import { BlogPostCard } from "src/components/blog";
+import { DefaultLayout } from "src/components/Layout";
+import { BlogPostCard } from "src/components/Blog";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "News", breadcrumbs: "News" };

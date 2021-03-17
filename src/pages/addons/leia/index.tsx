@@ -1,13 +1,13 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { IconList } from "src/components/iconlist";
-import { DefaultLayout } from "src/components/layout";
+import { IconList } from "src/components/IconList";
+import { DefaultLayout } from "src/components/Layout";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia" };
 
   return (
-    <DefaultLayout className="addonindex" frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <h1>Featured Add-Ons</h1>
       <IconList items={data.FeaturedAddons.edges} linkroot="/addons/leia/" />
       <h1>New Additions</h1>

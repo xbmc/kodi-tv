@@ -2,9 +2,9 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { ExclamationOutline } from "heroicons-react";
 import { IAddon } from "./../addon";
-import { DefaultLayout } from "src/components/layout";
-import ItemWithComma from "src/components/itemwithcomma";
-import { Carousel } from "src/components/carousel";
+import { DefaultLayout } from "src/components/Layout";
+import ItemWithComma from "src/components/ItemWithComma";
+import { Carousel } from "src/components/Carousel";
 import Card from "src/components/Card";
 
 export default function AddonLayout({
@@ -37,7 +37,7 @@ export default function AddonLayout({
   };
 
   return (
-    <DefaultLayout className="addondetail" frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter}>
       <div className="flex flex-col">
         <div className="grid grid-cols-5">
           <div align="right" className="col-span-1 row-span-full pr-6">

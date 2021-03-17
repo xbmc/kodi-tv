@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 import * as Icons from "heroicons-react";
-import { IconList } from "src/components/iconlist";
-import { FullWidthHeroCarousel } from "src/components/carousel";
-import { LandingPage } from "src/components/layout";
+import { IconList } from "src/components/IconList";
+import { FullWidthHeroCarousel } from "src/components/Carousel";
+import { LandingPage } from "src/components/Layout";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -12,7 +12,7 @@ import {
   FullWidthLogoList,
   FullWidthCTAImageLeft,
   FullWidthNews,
-} from "src/components/fullwidth";
+} from "src/components/FullWidth";
 
 let frontmatter = { title: "", breadcrumbs: "" };
 

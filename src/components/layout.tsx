@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
+import Header from "src/components/Header";
+import Footer from "src/components/Footer";
 
 function GetFrontMatter(props) {
   let frontmatter = {};
