@@ -1,6 +1,7 @@
 const slugify = require("slugify");
 
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "src/components/layout";
 import ItemWithComma from "src/components/ItemWithComma";
@@ -83,8 +84,9 @@ export default function Template({
         <div
           style={{ marginTop: "10px", marginRight: "20%" }}
           className="pf-c-content"
-          dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
-        />
+        >
+          <ReactMarkdown className="prose">{markdownRemark.rawMarkdownBody}</ReactMarkdown>
+        </div>
       </div>
     </DefaultLayout>
   );
@@ -93,7 +95,7 @@ export default function Template({
 export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+      rawMarkdownBody
       timeToRead
       wordCount {
         words
