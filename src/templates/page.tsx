@@ -18,7 +18,9 @@ function DynamicSection(props) {
     aboutgallery: <AboutGallery />,
     contactnote: <AboutContactNote />,
     officialremotes: <AboutOfficialRemotes />,
-    jointheteam: <CtaButtonInternal url="/contribute/developers" buttontext="Join the Team" />,
+    jointheteam: (
+      <CtaButtonInternal url="/contribute/developers" buttontext="Join the Team" />
+    ),
     visitforum: (
       <CtaButtonExternal url="https://forum.kodi.tv" buttontext="Visit the Forums" />
     ),
@@ -49,6 +51,12 @@ function DynamicSection(props) {
     ),
     visitdonate: <CtaButtonInternal url="/donate" buttontext="Donate to Kodi" />,
     visitstore: <CtaButtonInternal url="/store" buttontext="Purchase Kodi Merch" />,
+    visitsponsoring: (
+      <CtaButtonInternal
+        url="about/sponsors"
+        buttontext="Learn More About Sponsoring Kodi"
+      />
+    ),
   };
   let section = sections[props.section];
   if (section == undefined) {

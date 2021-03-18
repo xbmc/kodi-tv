@@ -1,4 +1,5 @@
 ---
+pageslug: by-wire-transfer
 title: Donate by Wire Transfer
 breadcrumbs: Donate | Wire Transfer
 ---

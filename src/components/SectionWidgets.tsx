@@ -87,7 +87,6 @@ function AboutOfficialRemotes() {
 }
 
 function AboutContactNote() {
-  xs;
   return (
     <>
       <Card>

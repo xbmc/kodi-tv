@@ -1,4 +1,5 @@
 ---
+pageslug: success-stripe
 title: Donation Successful
 breadcrumbs: Donate | Successful
 ---

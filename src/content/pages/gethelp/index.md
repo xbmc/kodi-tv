@@ -1,4 +1,5 @@
 ---
+pageslug: index
 title: Getting Help
 breadcrumbs: Getting Help
 ---

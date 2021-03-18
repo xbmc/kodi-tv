@@ -28,7 +28,7 @@ collections:
         widget: "select"
         multiple: true
         required: false
-        options: ["Community", "DevCon", "Developer", "Pre-release", "Release"]
+        options: ["Community", "DevCon", "Developer", "Prerelease", "Release"]
       - name: 'featured_image'
         label: 'Featured Image'
         widget: 'object'
@@ -74,7 +74,40 @@ collections:
       - { name: 'title', label: 'Page Title', widget: 'string' }
       - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
+  - name: 'donatepages'
+    label: 'Donate Pages'
+    label_singular: 'Donate Page'
+    folder: 'src/content/pages/donate'
+    create: true
+    path: '{{pageslug}}'
+    identifier_field: 'pageslug'
+    preview_path: '/donate/{{pageslug}}'
+    media_folder: '/static/images'
+    public_folder: '/images'
+    summary: '{{fields.title}} ({{filename}}.{{extension}})'
+    sortable_fields: ['title', 'commit_date']
+    fields:
+      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
+      - { name: 'title', label: 'Page Title', widget: 'string' }
+      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'helppages'
+    label: 'Help Pages'
+    label_singular: 'Help Page'
+    folder: 'src/content/pages/gethelp'
+    create: true
+    path: '{{pageslug}}'
+    identifier_field: 'pageslug'
+    preview_path: '/gethelp/{{pageslug}}'
+    media_folder: '/static/images'
+    public_folder: '/images'
+    summary: '{{fields.title}} ({{filename}}.{{extension}})'
+    sortable_fields: ['title', 'commit_date']
+    fields:
+      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
+      - { name: 'title', label: 'Page Title', widget: 'string' }
+      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'featuredaddons'
     label: 'Featured Add-ons'
     files:

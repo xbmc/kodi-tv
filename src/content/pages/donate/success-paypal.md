@@ -1,4 +1,5 @@
 ---
+pageslug: success-paypal
 title: Donation Successful
 breadcrumbs: Donate | Successful
 ---
