@@ -1,7 +1,7 @@
 import React from "react";
-import { Card, RoundedCardWithImage } from "src/components/Card";
-import Button from "src/components/Button";
-import ArrowRightIcon from "src/components/ArrowRightIcon";
+import { Card, RoundedCardWithImage } from "./Card";
+import Button from "./Button";
+import ArrowRightIcon from "./ArrowRightIcon";
 
 function SpreadTheWord() {
   return (

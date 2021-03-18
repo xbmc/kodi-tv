@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "src/components/Card";
+import { Card } from "./Card";
 
 export default function DonorList(props: {
   items: any[];

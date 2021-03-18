@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/Layout";
-import { BlogPostCard, NavCard, EmptyCard } from "src/components/Blog";
+import { DefaultLayout } from "../components/Layout";
+import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 
 export default function TagPage({ data, pageContext, location }) {
   let frontmatter = {

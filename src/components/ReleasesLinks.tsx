@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "src/components/Button";
+import Button from "./Button";
 
 export function DownloadLinks(props: {
   downloads: { url: string | undefined; name: React.ReactNode }[] | null;

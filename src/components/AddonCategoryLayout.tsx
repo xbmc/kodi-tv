@@ -1,6 +1,6 @@
 import React from "react";
-import { DefaultLayout } from "src/components/Layout";
-import { IconList } from "src/components/IconList";
+import { DefaultLayout } from "./Layout";
+import { IconList } from "./IconList";
 
 export default function AddonCategoryLayout({ repo, data }) {
   const category = data.category;

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { DownloadLinks } from "src/components/ReleasesLinks";
-import Tabs from "src/components/Tabs";
+import { DownloadLinks } from "./ReleasesLinks";
+import Tabs from "./Tabs";
 
 class ReleasesTabs extends React.Component {
   constructor(

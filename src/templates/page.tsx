@@ -1,7 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/Layout";
+import { DefaultLayout } from "../components/Layout";
 import {
   AboutDisclaimer,
   AboutGallery,
@@ -10,7 +10,7 @@ import {
   CtaButtonExternal,
   CtaButtonInternal,
   SpreadTheWord,
-} from "src/components/SectionWidgets";
+} from "../components/SectionWidgets";
 
 function DynamicSection(props) {
   let sections = {

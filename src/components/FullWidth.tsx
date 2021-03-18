@@ -1,5 +1,5 @@
 import React from "react";
-import { BlogPostCard } from "src/components/Blog";
+import { BlogPostCard } from "./Blog";
 
 function FullWidthCallOut(props) {
   return (

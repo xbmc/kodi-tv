@@ -1,6 +1,6 @@
 import React from "react";
-import { DefaultLayout } from "src/components/Layout";
-import ReleasesTabs from "src/components/ReleasesTabs";
+import { DefaultLayout } from "../components/Layout";
+import ReleasesTabs from "../components/ReleasesTabs";
 import { graphql, Link } from "gatsby";
 
 export default function Distribution({ data }) {
