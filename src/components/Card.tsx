@@ -30,7 +30,9 @@ class RoundedCardWithImage extends React.Component<Props> {
           <div className="flex-1 bg-white p-6 flex flex-col justify-between">
             <div className="flex-1">
               <div className="block mt-2">
-                <p className="text-xl font-semibold text-gray-900">{this.props.title}</p>
+                <p className="text-xl font-semibold text-gray-900">
+                  {this.props.title}
+                </p>
                 <p className="mt-3 text-base text-gray-500">{this.props.children}</p>
               </div>
             </div>
