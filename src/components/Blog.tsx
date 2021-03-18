@@ -1,5 +1,5 @@
 import React from "react";
-import ItemWithComma from "src/components/ItemWithComma";
+import ItemWithComma from "./ItemWithComma";
 
 const slugify = require("slugify");
 
@@ -38,6 +38,7 @@ function BlogPostCard(props) {
               {post.frontmatter.tags.map((tag: string, index: any) => {
                 return (
                   <ItemWithComma
+                    key={index}
                     description={tag}
                     index={index}
                     url={tagroot + slugify(tag, { lower: true })}

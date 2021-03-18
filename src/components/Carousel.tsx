@@ -14,6 +14,16 @@ SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
 interface Props {
   slides: string[];
 }
+interface FullWidthProps {
+  slides: {
+    image: string;
+    title: string;
+    subtitle: string;
+    description: string;
+    url: string;
+    buttontext: string;
+  }[];
+}
 
 class Carousel extends React.Component<Props> {
   render() {
@@ -28,7 +38,7 @@ class Carousel extends React.Component<Props> {
         }}
       >
         {this.props.slides.map(element => (
-          <SwiperSlide>
+          <SwiperSlide key={element}>
             <img src={element} />
           </SwiperSlide>
         ))}
@@ -37,7 +47,7 @@ class Carousel extends React.Component<Props> {
   }
 }
 
-class FullWidthHeroCarousel extends React.Component<Props> {
+class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
   render() {
     return (
       <div className="relative pb-6">
@@ -54,7 +64,7 @@ class FullWidthHeroCarousel extends React.Component<Props> {
               }}
             >
               {this.props.slides.map(element => (
-                <SwiperSlide>
+                <SwiperSlide key={element.url}>
                   <div className="absolute inset-0">
                     <img
                       className="h-full w-full object-cover"

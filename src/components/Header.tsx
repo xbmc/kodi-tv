@@ -3,8 +3,8 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import SEO from "src/components/Seo";
 import Social from "src/components/Social";
-import HeaderDropdownMenu from "src/components/HeaderMenu";
-import HeaderDropdownMenuMobile from "src/components/HeaderMenuMobile";
+import HeaderDropdownMenu from "src/components/HeaderDropdownMenu";
+import HeaderDropdownMenuMobile from "src/components/HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
 
 const mainMenu = [
