@@ -2,10 +2,10 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { ExclamationOutline } from "heroicons-react";
 import { IAddon } from "./../addon";
-import { DefaultLayout } from "src/components/Layout";
-import ItemWithComma from "src/components/ItemWithComma";
-import { Carousel } from "src/components/Carousel";
-import Card from "src/components/Card";
+import { DefaultLayout } from "./Layout";
+import ItemWithComma from "./ItemWithComma";
+import Card from "./Card";
+import { Carousel } from "./Carousel";
 
 export default function AddonLayout({
   repo,

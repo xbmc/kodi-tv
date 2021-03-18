@@ -3,8 +3,8 @@ const slugify = require("slugify");
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
-import { DefaultLayout } from "src/components/Layout";
-import ItemWithComma from "src/components/ItemWithComma";
+import { DefaultLayout } from "../components/Layout";
+import ItemWithComma from "../components/ItemWithComma";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -49,6 +49,7 @@ export default function Template({
           {blogPost.frontmatter.tags.map((tag: string, index: any) => {
             return (
               <ItemWithComma
+                key={index}
                 description={tag}
                 index={index}
                 url={tagroot + slugify(tag, { lower: true })}

@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import SEO from "src/components/Seo";
-import Social from "src/components/Social";
-import HeaderDropdownMenu from "src/components/HeaderMenu";
-import HeaderDropdownMenuMobile from "src/components/HeaderMenuMobile";
+import SEO from "./Seo";
+import Social from "./Social";
+import HeaderDropdownMenu from "./HeaderDropdownMenu";
+import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
 
 const mainMenu = [
