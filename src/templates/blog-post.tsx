@@ -45,6 +45,7 @@ export default function Template({
         </div>
       </div>
       <div className="mt-3">
+        <h2 className="text-3xl font-bold">{blogPost.frontmatter.title}</h2>
         <p className="text-md font-medium text-kodi">
           {blogPost.frontmatter.tags.map((tag: string, index: any) => {
             return (

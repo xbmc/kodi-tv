@@ -2,13 +2,26 @@ import React from "react";
 import { graphql } from "gatsby";
 import Pager from "src/components/Pager";
 import { DefaultLayout } from "src/components/Layout";
-import { BlogPostCard } from "src/components/Blog";
+import { BlogPostCard, NavCard, EmptyCard } from "src/components/Blog";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "News", breadcrumbs: "News" };
+  let firsttwo = data.blogPosts.edges.slice(0, 2);
+  let therest = data.blogPosts.edges.slice(2);
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+      <div className="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none">
+        {firsttwo.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+        {firsttwo.length == 1 ? <EmptyCard /> : ""}
+        <NavCard />
+        {therest.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+      </div>
+      <div className="mt-12 max-w-lg mx-auto gap-5 grid lg:hidden">
+        <NavCard />
         {data.blogPosts.edges.map((edge, index) => (
           <BlogPostCard post={edge.node} />
         ))}

@@ -105,7 +105,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   paginate({
     createPage,
     items: blogresults.data.blogPosts.edges,
-    itemsPerPage: 21,
+    itemsPerPage: 20,
     pathPrefix: ({ pageNumber, numberOfPages }) =>
       pageNumber === 0 ? "/blog" : "/blog/page",
     component: path.resolve("src/templates/blog-index.tsx"),
