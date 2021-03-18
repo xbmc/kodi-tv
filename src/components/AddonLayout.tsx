@@ -4,7 +4,7 @@ import { ExclamationOutline } from "heroicons-react";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
-import Card from "./Card";
+import { Card } from "./Card";
 import { Carousel } from "./Carousel";
 
 export default function AddonLayout({

@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "src/components/Card";
+import { Card, RoundedCardWithImage } from "src/components/Card";
 import Button from "src/components/Button";
 import ArrowRightIcon from "src/components/ArrowRightIcon";
 
@@ -120,67 +120,94 @@ function AboutDisclaimer() {
 function AboutGallery() {
   return (
     <>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <Card>
-          <img alt="" src="/images/about--movies.jpg" />
-          <h3>Movies</h3>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <RoundedCardWithImage
+          title="Movies"
+          imgsrc="/images/about--movies.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi is made for Movies! Supporting all the main video formats including
           streamable online media, Kodi can import, browse and play your Movie
           collection with ease.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--tvshows.jpg" />
-          <h3>TV Shows</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="TV Shows"
+          imgsrc="/images/about--tvshows.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi's TV Shows library supports episode and season views with posters or
           banners, watched tags, show descriptions and actors. Great for keeping
           track of your progress.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--music.png" />
-          <h3>Music</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Music"
+          imgsrc="/images/about--music.png"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi can play all your music including mp3, flac, wav and wma formats. It
           has cue sheets, tag reading support and smart playlists for ultimate
           control of your music collection.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--photos.png" />
-          <h3>Photos</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Photos"
+          imgsrc="/images/about--photos.png"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi is the photographers friend. Import pictures into a library and browse
           the different views, start a slideshow, sort or filter them all using your
           remote control.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--pvr.jpg" />
-          <h3>PVR</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="PVR"
+          imgsrc="/images/about--pvr.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi allows you to watch and record live TV all through an easy to use
           interface. It works with a number of popular backends including
           MediaPortal, MythTV, NextPVR, Tvheadend and many more.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--skins.jpg" />
-          <h3>Skins</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Skins"
+          imgsrc="/images/about--skins.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi allows you to completely change the whole appearance of the interface
           using a variety of skins. We have no doubt that you will find something
           that suits your tastes (or living room).
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--addons.png" />
-          <h3>Add-Ons</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Add-ons"
+          imgsrc="/images/about--addons.png"
+          imgalt=""
+          imgtitle=""
+        >
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
           scripts. <a href="/addons">See which ones are currently available</a>.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--webinterface.jpg" />
-          <h3>Web Interface</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Web Interface"
+          imgsrc="/images/about--webinterface.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
           <a href="/addons/category/web-interfaces">web browsers</a>, and 3rd party
           tools to take Kodi to the next level.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--remotes.jpg" />
-          <h3>Remote Controls</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Remote Controls"
+          imgsrc="/images/about--remotes.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           With support for{" "}
           <a href="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
@@ -188,14 +215,17 @@ function AboutGallery() {
           , CEC-compatible TVs, or one of the{" "}
           <a href="/about/software">new Smartphone and Tablet Apps</a>, Kodi allows
           you to control your media your way.
-        </Card>
-        <Card>
-          <img alt="" src="/images/about--games.jpg" />
-          <h3>Games</h3>
+        </RoundedCardWithImage>
+        <RoundedCardWithImage
+          title="Games"
+          imgsrc="/images/about--games.jpg"
+          imgalt=""
+          imgtitle=""
+        >
           Kodi isn't just for passive entertainment media. You can also play games on
           Kodi. Pick from a large number of emulators, or even play a stand-alone
           game. There's even extensive support for game controllers.
-        </Card>
+        </RoundedCardWithImage>
       </div>
     </>
   );
