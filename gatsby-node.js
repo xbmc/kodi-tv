@@ -29,9 +29,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
-  
+
   const pageTemplate = require.resolve(`./src/templates/page.tsx`);
-  
+
   const pageresults = await graphql(`
     {
       Pages: allMarkdownRemark(
@@ -63,7 +63,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         slug: node.fields.slug,
       },
     });
-  });  
+  });
 
   const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`);
 
@@ -151,7 +151,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       }
     }
   `);
-  
+
   // Handle errors
   if (matrixaddonresults.errors) {
     reporter.panicOnBuild(`Error while running Matrix Add-on GraphQL query.`);
@@ -184,7 +184,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Handle errors
   if (matrixcategoryresults.errors) {
-    reporter.panicOnBuild(`Error while running Matrix Add-on Category GraphQL query.`);
+    reporter.panicOnBuild(
+      `Error while running Matrix Add-on Category GraphQL query.`
+    );
     return;
   }
 

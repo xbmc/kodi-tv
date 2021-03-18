@@ -1,15 +1,14 @@
 ---
+pageslug: developers
 title: Call for Developers
-breadcrumbs: Contribute | Dvelopers
+breadcrumbs: Contribute | Developers
 ---
 
 ## We want you!
 
 Since its first inception dating back to the original XBOX days, Kodi has been maintained by a group of volunteers . Over the years many volunteers have spent countless days (months really) on every aspect of what makes Kodi great. This consists of writing and maintaining the code base of Kodi, expanding to new platforms, maintaining the forum, wiki, website and download server and more.
 
-<div align="center" style="width: 80%; margin-left: 10%; margin-right: 10%; padding-bottom: 15px">
-  <img alt="" src="/images/kodi-wallpaper-32a-samfisher.jpg" />
-</div>
+![Kodi logo as sushi](/images/kodi-wallpaper-32a-samfisher.jpg)
 
 So why do we need you? Well the fact is that over the years the core team of Kodi has remained about the same size while the number of users went from a couple thousand to many, many millions while expanding from an XBOX only application to running on Linux, Windows, iOS, OSX, Raspberry Pi, and Android. Now the time has come to start calling out for some help.
 

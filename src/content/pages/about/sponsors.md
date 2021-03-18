@@ -1,25 +1,26 @@
 ---
+pageslug: sponsors
 title: Official Sponsors
 breadcrumbs: About | Sponors
 ---
 
 ## Diamond Sponsors
 
-<a href="http://www.bytemark.co.uk/r/xbmc"><img alt="Bytemark" src="/images/bytemark_logo-black.webp" /></a>
+[![Bytemark](/images/bytemark_logo-black.webp)](http://www.bytemark.co.uk/r/xbmc)
 
 Bytemark started in 2001 as a consulting firm based in York, UK. Its directors are experienced software and network engineers Matthew Bloch and Peter Taphouse. They combined their experience to build the UK’s ‘nerd hosting outfit of choice.’
 
-<a href="http://www.flirc.tv/"><img alt="FLIRC" src="/images/flirc.webp" /></a><p/>
+[![FLIRC](/images/flirc.webp)](http://www.flirc.tv/)
 
 The #1 cross platform IR receiver which features the ability to pair any remote control for use with your favorite media center application.
 
-<a href="https://www.leaseweb.com/?utm_source=kodi.com&utm_medium=linkback&utm_campaign=kodi"><img alt="Leaseweb" src="/images/Leaseweb_Logo_Color.png" /></a>
+[![Leaseweb](/images/Leaseweb_Logo_Color.png)](https://www.leaseweb.com/?utm_source=kodi.com&utm_medium=linkback&utm_campaign=kodi)
 
 Leaseweb is a leading Infrastructure as a Service (IaaS) provider serving a worldwide portfolio of 18,000 customers ranging from SMBs to Enterprises. Services include Public Cloud, Private Cloud, Dedicated Servers, Colocation, Content Delivery Network, and Cyber Security Services supported by exceptional customer service and technical support. 
 
 With more than 80,000 servers under management, Leaseweb has provided infrastructure for mission-critical websites, Internet applications, email servers, security, and storage services since 1997. The company operates 20 datacenters in locations across Europe, Asia, Australia, and North America, all of which are backed by a superior worldwide network with a total capacity of more than 10 Tbps.
 
-<a href="https://weblate.org/en/"><img alt="Weblate" src="/images/Weblate_Logo_Darktext.png" /></a><p/>
+[![Weblate](/images/Weblate_Logo_Darktext.png)](https://weblate.org/en/)
 
 Weblate is copylefted libre translation software, used by over 1,500 companies and libre software projects in over 115 countries. It has live development, cloud or self-hosted options, premium support, and excellent public documentation. Localization is continuous thanks to the tight VCS integration and many supported translation formats. 
 
@@ -29,12 +30,12 @@ Features include customizable quality checks, unlimited collaboration, various a
 
 ## Gold Sponsors
 
-<a href="http://www.macminivault.com/"><img alt="Mac Mini Vault" src="/images/macminivault.png" /></a><p/>
+[![Mac Mini Vault](/images/macminivault.png)](http://www.macminivault.com)
 
 Professional Apple Mac Mini colocation & hosting services.
 
 
-<a href="https://www.goatcounter.com/"><img alt="GoatCounter" src="/images/goatcounter_logo.png" /></a><p/>
+[![GoatCounter](/images/goatcounter-with-text.png)](https://www.goatcounter.com)
 
 GoatCounter is an open source web analytics platform available as a hosted service (free for non-commercial use) or self-hosted app. It aims to offer easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.
 

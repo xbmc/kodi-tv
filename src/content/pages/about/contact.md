@@ -1,9 +1,8 @@
 ---
+pageslug: contact
 title: Contact the Kodi Team
 breadcrumbs: About | Contact
 ---
-
-import Card from "src/components/Card"
 
 ## Kodi Support
 
@@ -27,10 +26,7 @@ Examples include whether you're using the vanilla version, a slightly-customised
 
 If you would like to discuss your project in more depth, please contact us at interest(AT)kodi.tv and describe the project and its scope as much as possible. We are always happy to work with companies who wish to include us in their projects.
 
-<Card>
-  <h3>Note</h3>
-  <p>This email address is only intended for corporate enquiries and not for support questions or other purposes.</p>
-</Card>
+x-section-x contactnote x-section-x
 
 ### Sponsorship
 

@@ -1,6 +1,7 @@
 ---
+pageslug: dmca
 title: Kodi DMCA Policy
-breadcrumbs: DMCA Policy
+breadcrumbs: About | DMCA Policy
 ---
 
 ## DMCA - Notification of Copyright Infringement

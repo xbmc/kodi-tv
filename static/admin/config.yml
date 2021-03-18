@@ -50,11 +50,31 @@ collections:
     preview_path: '/about/{{pageslug}}'
     media_folder: '/static/images'
     public_folder: '/images'
+    summary: '{{fields.title}} ({{filename}}.{{extension}})'
+    sortable_fields: ['title', 'commit_date']
     fields:
       - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
       - { name: 'title', label: 'Page Title', widget: 'string' }
       - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'contribpages'
+    label: 'Contribute Pages'
+    label_singular: 'Contribute Page'
+    folder: 'src/content/pages/contribute'
+    create: true
+    path: '{{pageslug}}'
+    identifier_field: 'pageslug'
+    preview_path: '/contribute/{{pageslug}}'
+    media_folder: '/static/images'
+    public_folder: '/images'
+    summary: '{{fields.title}} ({{filename}}.{{extension}})'
+    sortable_fields: ['title', 'commit_date']
+    fields:
+      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
+      - { name: 'title', label: 'Page Title', widget: 'string' }
+      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'featuredaddons'
     label: 'Featured Add-ons'
     files:

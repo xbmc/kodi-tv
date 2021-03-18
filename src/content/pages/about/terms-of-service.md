@@ -1,6 +1,7 @@
 ---
+pageslug: terms-of-service
 title: Kodi General Terms of Service
-breadcrumbs: Terms of Service
+breadcrumbs: About | Terms of Service
 ---
 
 ## Scope of Validity, Definition of Terms

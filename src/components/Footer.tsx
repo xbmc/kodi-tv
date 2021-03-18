@@ -69,7 +69,7 @@ function Footer() {
                     </li>
                     <li>
                       <a
-                        href="/privacy-policy"
+                        href="/about/privacy-policy"
                         className="text-base text-gray-500 hover:text-gray-900"
                       >
                         Privacy Policy

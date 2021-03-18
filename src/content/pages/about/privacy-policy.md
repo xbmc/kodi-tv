@@ -1,6 +1,7 @@
 ---
+pageslug: privacy-policy
 title: Kodi Privacy Policy
-breadcrumbs: Privacy Policy
+breadcrumbs: About | Privacy Policy
 ---
 
 2017 Mar 17

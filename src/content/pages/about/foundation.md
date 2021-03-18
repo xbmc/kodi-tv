@@ -1,4 +1,5 @@
 ---
+pageslug: foundation
 title: About the Foundation
 breadcrumbs: About | Foundation
 ---

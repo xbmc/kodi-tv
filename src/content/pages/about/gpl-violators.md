@@ -1,4 +1,5 @@
 ---
+pageslug: gpl-violators
 title: Known List of GPL Violators
 breadcrumbs: About | GPL Violators
 ---

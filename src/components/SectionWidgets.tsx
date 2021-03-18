@@ -1,5 +1,105 @@
 import React from "react";
 import Card from "src/components/Card";
+import Button from "src/components/Button";
+import ArrowRightIcon from "src/components/ArrowRightIcon";
+
+function SpreadTheWord() {
+  return (
+    <>
+      <div className="flex">
+        <div>
+          <Button
+            variant="primary"
+            component="a"
+            target="_blank"
+            rel="noopener"
+            href="https://www.facebook.com/KodiEntertainment"
+            isLarge
+          >
+            Facebook
+          </Button>
+        </div>
+        <div>
+          <Button
+            variant="primary"
+            component="a"
+            target="_blank"
+            rel="noopener"
+            href="https://twitter.com/koditv"
+            isLarge
+          >
+            Twitter
+          </Button>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function CtaButtonInternal(props) {
+  return (
+    <>
+      <Button variant="link" component="a" href={props.url} isLarge>
+        {props.buttontext + " "}
+        <ArrowRightIcon />
+      </Button>
+    </>
+  );
+}
+
+function CtaButtonExternal(props) {
+  return (
+    <>
+      <Button
+        variant="link"
+        component="a"
+        target="_blank"
+        rel="noopener"
+        href={props.url}
+        isLarge
+      >
+        {props.buttontext + " "}
+        <ArrowRightIcon />
+      </Button>
+    </>
+  );
+}
+
+function AboutOfficialRemotes() {
+  return (
+    <>
+      <div className="flex justify-start">
+        <div>
+          <span>Kore™ (Android)</span>
+          <img
+            className="w-200 h-200"
+            alt="Kore QR Code"
+            src="/images/kore-qr.png"
+          />
+        </div>
+        <div>
+          <span>Official Kodi Remote (iOS)</span>
+          <img className="w-200 h-200" alt="iOS QR Code" src="/images/ios-qr.png" />
+        </div>
+      </div>
+    </>
+  );
+}
+
+function AboutContactNote() {
+  xs;
+  return (
+    <>
+      <Card>
+        <h3>Note</h3>
+        <p>
+          This email address is only intended for corporate enquiries and not for
+          support questions or other purposes.
+        </p>
+      </Card>
+    </>
+  );
+}
 
 function AboutDisclaimer() {
   return (
@@ -102,4 +202,12 @@ function AboutGallery() {
   );
 }
 
-export { AboutDisclaimer, AboutGallery };
+export {
+  AboutDisclaimer,
+  AboutGallery,
+  AboutContactNote,
+  AboutOfficialRemotes,
+  CtaButtonExternal,
+  CtaButtonInternal,
+  SpreadTheWord,
+};

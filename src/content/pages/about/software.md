@@ -1,16 +1,12 @@
 ---
+pageslug: software
 title: Kodi Software
 breadcrumbs: About | Software
 ---
 
-import Card from "src/components/Card"
-
 The following is a list of all the software Kodi Foundation offers. If you have downloaded software not on this list or from a site not specified on this list, then that software has not been offered by Team Kodi or the Kodi Foundation, and we can provide no official support for the use of that software.
 
-<div style="width: 80%; margin-left: 10%; margin-right: 10%; padding-bottom: 15px">
-  <img alt="" src="/images/software--devices.jpg" />
-</div>
-
+![Kodi on various devices](/images/software--devices.jpg)
 
 ## XBMC or KODI
 
@@ -20,16 +16,7 @@ The only official versions of Kodi may be found in our [Kodi Foundation Download
 
 Like Kodi™ itself, both official remotes are free and open source software.
 
-<div className="flex justify-start">
-  <div>
-        <span>Kore™ (Android)</span>
-        <img className="w-200 h-200" alt="Kore QR Code" src="/images/kore-qr.png" />
-  </div>
-  <div>
-        <span>Official Kodi Remote (iOS)</span>
-        <img className="w-200 h-200" alt="iOS QR Code" src="/images/ios-qr.png" />
-  </div>
-</div>
+x-section-x officialremotes x-section-x
 
 ## Trademark policy
 

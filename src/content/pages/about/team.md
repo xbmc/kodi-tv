@@ -1,10 +1,8 @@
 ---
+pageslug: team
 title: The Kodi Team
 breadcrumbs: About | Team
 ---
-
-import Button from 'src/components/Button';
-import ArrowRightIcon from 'src/components/ArrowRightIcon';
 
 ## Who we are?
 
@@ -36,4 +34,4 @@ The Kodi team is an ever-changing group of volunteers from across the globe that
 
 As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contibute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
 
-<Button href="/contribute">Join the team <ArrowRightIcon/></Button>
+x-section-x jointheteam x-section-x
