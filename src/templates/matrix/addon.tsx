@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import AddonLayout from "src/components/AddonLayout"
+import React from "react";
+import { graphql } from "gatsby";
+import AddonLayout from "../../components/AddonLayout";
 
 export default function DisplayAddon({ data }) {
-  return (<AddonLayout data={data} />)
+  return <AddonLayout repo="Matrix" data={data} />;
 }
 
 export const query = graphql`
@@ -55,4 +55,4 @@ export const query = graphql`
       website
     }
   }
-`
+`;

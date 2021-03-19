@@ -1,38 +1,32 @@
-import React from "react"
-import {
-  Gallery,
-  GalleryItem,
-  Card,
-  CardTitle,
-  CardBody
-} from "@patternfly/react-core"
+import React from "react";
+import { Card } from "./Card";
 
 export default function DonorList(props: {
-  items: any[]
-  width: string | undefined
-  marginleft: string | undefined
-  marginright: string | undefined
+  items: any[];
+  width: string | undefined;
+  marginleft: string | undefined;
+  marginright: string | undefined;
 }) {
-  let items = []
-  let width = "100%"
-  let marginleft = "0%"
-  let marginright = "0%"
-  if (props.items.length == 0){
-      return ""
+  let items = [];
+  let width = "100%";
+  let marginleft = "0%";
+  let marginright = "0%";
+  if (props.items.length == 0) {
+    return "";
   }
   if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node))
+    props.items.map((item: { node: any }, index: any) => items.push(item.node));
   } else {
-    items = props.items
+    items = props.items;
   }
   if (props.width !== undefined) {
-    width = props.width
+    width = props.width;
   }
   if (props.marginleft !== undefined) {
-    marginleft = props.marginleft
+    marginleft = props.marginleft;
   }
   if (props.marginright !== undefined) {
-    marginright = props.marginright
+    marginright = props.marginright;
   }
 
   return (
@@ -44,39 +38,24 @@ export default function DonorList(props: {
         paddingTop: "10px",
       }}
     >
-      <Gallery hasGutter>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-5">
         {items.map((item, index) => (
-          <GalleryItem>
-            <Card>
-              <CardTitle>
-                { item.publicName == ''
-                  ? "Anonymous"
-                  : item.publicName
-                }
-              </CardTitle>
-              <CardBody>
-                { item.currency == 'usd' || item.currency == 'cad' || item.currency == 'aud'
-                  ? '$'
-                  : ''
-                }
-                { item.currency == 'eur'
-                  ? '€'
-                  : ''
-                }
-                { item.currency == 'gbp'
-                  ? '£'
-                  : ''
-                }
-                { item.currency == 'jpy'
-                  ? '¥'
-                  : ''
-                }
-                {item.amount} {item.currency.toUpperCase() }
-              </CardBody>
-            </Card>
-          </GalleryItem>
+          <Card>
+            <b>{item.publicName == "" ? "Anonymous" : item.publicName}</b>
+            <p>
+              {item.currency == "usd" ||
+              item.currency == "cad" ||
+              item.currency == "aud"
+                ? "$"
+                : ""}
+              {item.currency == "eur" ? "€" : ""}
+              {item.currency == "gbp" ? "£" : ""}
+              {item.currency == "jpy" ? "¥" : ""}
+              {item.amount} {item.currency.toUpperCase()}
+            </p>
+          </Card>
         ))}
-      </Gallery>
+      </div>
     </div>
-  )
+  );
 }

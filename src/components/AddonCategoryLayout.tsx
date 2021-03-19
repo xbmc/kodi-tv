@@ -1,22 +1,21 @@
-import React from 'react'
-import Layout from 'patternfly_components/Layout'
-import {
-    Text, TextVariants, TextContent,
-} from '@patternfly/react-core'
-import IconList from 'src/components/IconList'
-import MetadataHeader from "src/components/SiteMetadata"
+import React from "react";
+import { DefaultLayout } from "./Layout";
+import { IconList } from "./IconList";
 
-export default function AddonCategoryLayout({ data }) {
-  const category = data.category
+export default function AddonCategoryLayout({ repo, data }) {
+  const category = data.category;
+  let frontmatter = {
+    title: repo + " Add-on Category List",
+    breadcrumbs: "Addons | " + repo + " | Category | " + category.name,
+  };
 
   return (
-    <Layout>
-      <MetadataHeader title={category.name + ' | Category | Add-On'} />
-      <TextContent>
-        <Text component={TextVariants.h1}>{category.name}</Text>
-        <Text>This category has {category.totaladdons} addons in it.</Text>
-      </TextContent>
-      <IconList items={category.addons} linkroot='../../' />
-    </Layout>
-  )
+    <DefaultLayout frontmatter={frontmatter}>
+      <p>
+        <div className="font-bold text-2xl">{category.name}</div>
+        <p>This category has {category.totaladdons} addons in it.</p>
+      </p>
+      <IconList items={category.addons} linkroot="../../" />
+    </DefaultLayout>
+  );
 }

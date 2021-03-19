@@ -1,26 +1,29 @@
-import React from "react"
-import { Text, TextVariants, TextContent } from "@patternfly/react-core"
-import IconList from "src/components/IconList"
-import Layout from "src/gatsby-theme-patternfly/components/Layout"
-import MetadataHeader from "src/components/SiteMetadata"
+import React from "react";
+import { IconList } from "./IconList";
+import { DefaultLayout } from "./Layout";
 
 export default function AddonAuthorLayout({
+  repo,
   data,
 }: {
-  data: { author: { totaladdons: string; name: string; addons: string[] } }
+  repo: string;
+  data: { author: { totaladdons: string; name: string; addons: string[] } };
 }) {
-  const author = data.author
+  const author = data.author;
+  let frontmatter = {
+    title: repo + " Author Details",
+    breadcrumbs: "Addons | " + repo + " | Author | " + author.name,
+  };
 
   return (
-    <Layout>
-      <MetadataHeader title={author.name + ' | Author | Add-On'} />
-      <TextContent>
-        <Text component={TextVariants.h1}>{author.name}</Text>
-        <Text>
-          {author.name} has {author.totaladdons}{" "}add-ons.
-        </Text>
-      </TextContent>
+    <DefaultLayout frontmatter={frontmatter}>
+      <p>
+        <div className="font-bold text-2xl">{author.name}</div>
+        <p>
+          {author.name} has {author.totaladdons} add-ons.
+        </p>
+      </p>
       <IconList items={author.addons} linkroot="../../" />
-    </Layout>
-  )
+    </DefaultLayout>
+  );
 }

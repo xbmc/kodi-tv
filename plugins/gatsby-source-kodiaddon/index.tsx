@@ -1,3 +1,3 @@
 // noop
 
-export {}
+export {};

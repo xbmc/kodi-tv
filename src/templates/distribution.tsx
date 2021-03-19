@@ -1,43 +1,32 @@
-import React from 'react'
-import Layout from 'patternfly_components/Layout'
-import ReleasesTabs from 'src/components/ReleasesTabs'
-import MetadataHeader from "src/components/SiteMetadata"
-
-import {
-  Grid, GridItem,
-  Text, TextVariants, TextContent,
-  Stack, StackItem,
-} from '@patternfly/react-core'
-import { graphql, Link } from "gatsby"
+import React from "react";
+import { DefaultLayout } from "../components/Layout";
+import ReleasesTabs from "../components/ReleasesTabs";
+import { graphql, Link } from "gatsby";
 
 export default function Distribution({ data }) {
-  const dist = data.distributionYaml
+  const dist = data.distributionYaml;
+  let frontmatter = {
+    title: "Downloads for " + dist.name,
+    breadcrumbs: "Downloads | " + dist.name,
+  };
 
   return (
-    <Layout>
-      <MetadataHeader title={dist.name + ' | Download'} />
-      <Grid hasGutter>
-        <GridItem span={1}><img width='150' height='150' alt="" src={dist.icon} /></GridItem>
-        <GridItem span={11}>
-          <Stack hasGutter>
-            <StackItem>
-              <TextContent>
-                <Text component={TextVariants.h1}>{dist.name}</Text>
-                <Text>If you need extra help, checkout our <Link to={dist.howto}>"How To" Guide</Link> for {dist.name}.</Text>
-              </TextContent>
-            </StackItem>
-            <StackItem>
-              <ReleasesTabs releases={dist.releases} />
-            </StackItem>
-          </Stack>
-        </GridItem>
-      </Grid>
-    </Layout>
-  )
+    <DefaultLayout frontmatter={frontmatter}>
+      <div className="grid grid-cols-12 gap-4">
+        <div className="col-span-1">
+          <img width="150" height="150" alt="" src={dist.icon} />
+        </div>
+        <div className="col-span-11">
+          <span className="prose prose-blue">
+            If you need extra help, checkout our{" "}
+            <a href={dist.howto}>"How To" Guide</a> for {dist.name}.
+          </span>
+          <ReleasesTabs releases={dist.releases} />
+        </div>
+      </div>
+    </DefaultLayout>
+  );
 }
-
-
-
 
 export const query = graphql`
   query($name: String!) {
@@ -56,4 +45,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

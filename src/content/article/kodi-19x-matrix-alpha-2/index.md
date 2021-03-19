@@ -3,7 +3,7 @@ title: 'Kodi 19.x "Matrix" - Alpha 2'
 date: 2020-10-05T15:00:00Z
 author: Prof Yaffle
 tags:
-  - Pre-releases
+  - Prerelease
 featured_image:
   src: /images/blog/Kodi_Splash_v19.0_Matrix_Alpha_1080p.jpg
   title: 'Kodi 19.0 Alpha Splash Screen'

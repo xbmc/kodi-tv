@@ -2,6 +2,8 @@
 title: 'DevCon 2019 - Belgrade - Part II'
 date: 2019-10-11T00:11:48Z
 author: Prof Yaffle
+tags:
+  - DevCon
 featured_image:
   src: /images/blog/belgrade-clouds-fortress-33562.jpg
   title: 'Kalemegdan Park and Fortress, credit: Miloš Bogdanović, via pexels.com'

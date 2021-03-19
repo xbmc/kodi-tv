@@ -1,11 +1,10 @@
-import React from "react"
-import { graphql } from "gatsby"
-import AddonCategoryLayout from "src/components/AddonCategoryLayout"
+import React from "react";
+import { graphql } from "gatsby";
+import AddonCategoryLayout from "../../components/AddonCategoryLayout";
 
 export default function DisplayAddon({ data }) {
-  return (<AddonCategoryLayout data={data} />)
+  return <AddonCategoryLayout repo="Matrix" data={data} />;
 }
-
 
 export const query = graphql`
   query($slug: String!) {
@@ -19,4 +18,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

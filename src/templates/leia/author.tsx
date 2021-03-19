@@ -1,9 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
-import AddonAuthorLayout from "src/components/AddonAuthorLayout"
+import React from "react";
+import { graphql } from "gatsby";
+import AddonAuthorLayout from "../../components/AddonAuthorLayout";
 
 export default function DisplayAddonAuthor({ data }) {
-  return (<AddonAuthorLayout data={data} />)
+  return <AddonAuthorLayout repo="Leia" data={data} />;
 }
 
 export const query = graphql`
@@ -18,4 +18,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

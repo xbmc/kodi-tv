@@ -1,30 +1,77 @@
-const path = require(`path`)
-const slugify = require("slugify")
-const { createFilePath } = require(`gatsby-source-filesystem`)
-const { paginate } = require('gatsby-awesome-pagination');
+const path = require(`path`);
+const slugify = require("slugify");
+const { createFilePath } = require(`gatsby-source-filesystem`);
+const { paginate } = require("gatsby-awesome-pagination");
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
-  
+  const { createNodeField } = actions;
+
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const parent = getNode(node.parent);
+    let collection = parent.sourceInstanceName;
+    let prepend = "";
+    if (collection === "blog") {
+      prepend = "/article";
+    }
+    const value = prepend + createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,
       node,
       value,
-    })
+    });
+    createNodeField({
+      node,
+      name: "collection",
+      value: collection,
+    });
   }
-}
+};
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const { createPage } = actions
+  const { createPage } = actions;
 
-  const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`)
+  const pageTemplate = require.resolve(`./src/templates/page.tsx`);
 
-  const result = await graphql(`
+  const pageresults = await graphql(`
     {
-      allMarkdownRemark(
+      Pages: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "pagesrc" } } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
+
+  // Handle errors
+  if (pageresults.errors) {
+    reporter.panicOnBuild(`Error while running Pages GraphQL query.`);
+    return;
+  }
+
+  pageresults.data.Pages.edges.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: pageTemplate,
+      context: {
+        // additional data can be passed via context
+        slug: node.fields.slug,
+      },
+    });
+  });
+
+  const blogPostTemplate = require.resolve(`./src/templates/blog-post.tsx`);
+
+  const blogresults = await graphql(`
+    {
+      blogPosts: allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
+        filter: { fields: { collection: { eq: "blog" } } }
         limit: 1000
       ) {
         edges {
@@ -36,15 +83,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
 
   // Handle errors
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
-    return
+  if (blogresults.errors) {
+    reporter.panicOnBuild(`Error while running Blog Post GraphQL query.`);
+    return;
   }
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  blogresults.data.blogPosts.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: blogPostTemplate,
@@ -52,26 +99,35 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // additional data can be passed via context
         slug: node.fields.slug,
       },
-    })
-  })
+    });
+  });
 
   paginate({
     createPage,
-    items: result.data.allMarkdownRemark.edges,
+    items: blogresults.data.blogPosts.edges,
     itemsPerPage: 20,
-    pathPrefix: '/blog',
-    component: path.resolve('src/templates/blog-index.tsx')
+    pathPrefix: ({ pageNumber, numberOfPages }) =>
+      pageNumber === 0 ? "/blog" : "/blog/page",
+    component: path.resolve("src/templates/blog-index.tsx"),
   });
 
   const tagresults = await graphql(`
     query MyQuery {
-      allMarkdownRemark {
+      blogTags: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "blog" } } }
+      ) {
         distinct(field: frontmatter___tags)
       }
     }
-  `)
+  `);
 
-  tagresults.data.allMarkdownRemark.distinct.forEach((tag) => {
+  // Handle errors
+  if (tagresults.errors) {
+    reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
+    return;
+  }
+
+  tagresults.data.blogTags.distinct.forEach(tag => {
     createPage({
       path: "blog/tag/" + slugify(tag, { lower: true }),
       component: path.resolve(`src/templates/tag.tsx`),
@@ -80,11 +136,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         tag: tag,
       },
-    })
-  })
+    });
+  });
 
-
-// *** Begin Matrix Addon Page Builds
+  // *** Begin Matrix Addon Page Builds
   const matrixaddonresults = await graphql(`
     query MyQuery {
       allMatrixAddon {
@@ -95,7 +150,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (matrixaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Matrix Add-on GraphQL query.`);
+    return;
+  }
 
   matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
     createPage({
@@ -106,8 +167,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
+    });
+  });
 
   const matrixcategoryresults = await graphql(`
     query MyQuery {
@@ -119,7 +180,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (matrixcategoryresults.errors) {
+    reporter.panicOnBuild(
+      `Error while running Matrix Add-on Category GraphQL query.`
+    );
+    return;
+  }
 
   matrixcategoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
     createPage({
@@ -130,8 +199,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
+    });
+  });
 
   const matrixauthorresults = await graphql(`
     query MyQuery {
@@ -143,7 +212,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (matrixauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Matrix Add-on Author GraphQL query.`);
+    return;
+  }
 
   matrixauthorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
     createPage({
@@ -154,11 +229,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
-// *** End Matrix Addon Page Builds
+    });
+  });
+  // *** End Matrix Addon Page Builds
 
-// *** Begin Leia Addon Page Builds
+  // *** Begin Leia Addon Page Builds
   const leiaaddonresults = await graphql(`
     query MyQuery {
       allLeiaAddon {
@@ -169,7 +244,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (leiaaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on GraphQL query.`);
+    return;
+  }
 
   leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
     createPage({
@@ -180,8 +261,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
+    });
+  });
 
   const leiacategoryresults = await graphql(`
     query MyQuery {
@@ -193,7 +274,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (leiacategoryresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on Category GraphQL query.`);
+    return;
+  }
 
   leiacategoryresults.data.allLeiaCategory.edges.forEach(({ node }) => {
     createPage({
@@ -204,8 +291,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
+    });
+  });
 
   const leiaauthorresults = await graphql(`
     query MyQuery {
@@ -217,7 +304,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (leiaauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Leia Add-on Author GraphQL query.`);
+    return;
+  }
 
   leiaauthorresults.data.allLeiaAuthor.edges.forEach(({ node }) => {
     createPage({
@@ -228,10 +321,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         slug: node.slug,
       },
-    })
-  })
-// *** End Leia Addon Page Builds
-
+    });
+  });
+  // *** End Leia Addon Page Builds
 
   const distresults = await graphql(`
     query MyQuery {
@@ -243,7 +335,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     }
-  `)
+  `);
+
+  // Handle errors
+  if (distresults.errors) {
+    reporter.panicOnBuild(`Error while running Distributions GraphQL query.`);
+    return;
+  }
 
   distresults.data.allDistributionYaml.edges.forEach(({ node }) => {
     createPage({
@@ -254,20 +352,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // in page queries as GraphQL variables.
         name: node.name,
       },
-    })
-  })
-}
-
-// this fixes a slew of build warnings
-exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
-  if (stage === 'build-javascript') {
-    const config = getConfig()
-    const miniCssExtractPlugin = config.plugins.find(
-      plugin => plugin.constructor.name === 'MiniCssExtractPlugin'
-    )
-    if (miniCssExtractPlugin) {
-      miniCssExtractPlugin.options.ignoreOrder = true
-    }
-    actions.replaceWebpackConfig(config)
-  }
-}
+    });
+  });
+};

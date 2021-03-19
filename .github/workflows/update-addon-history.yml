@@ -30,7 +30,7 @@ jobs:
       - name: Set Node Version
         uses: actions/setup-node@master
         with:
-          node-version: 14.x
+          node-version: 15.x
 
       - name: Install dependencies
         if: steps.nodecache.outputs.cache-hit != 'true'

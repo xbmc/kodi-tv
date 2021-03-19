@@ -1,46 +1,39 @@
-import React from "react"
-import {
-  Gallery,
-  GalleryItem,
-  Card,
-  CardTitle,
-  CardBody,
-  CardFooter
-} from "@patternfly/react-core"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
+import { Card } from "./Card";
 
-export default function categoryIconList(props: {
-  authors: any[]
-}) {
-  let authors = []
-  let width = "100%"
-  let marginleft = "0%"
-  let marginright = "0%"
-  let iconwidth = "150"
-  let iconheight = "150"
-  let linkroot = "../author/" 
+export default function categoryIconList(props: { authors: any[] }) {
+  let authors = [];
+  let width = "100%";
+  let marginleft = "0%";
+  let marginright = "0%";
+  let iconwidth = "150";
+  let iconheight = "150";
+  let linkroot = "../author/";
   if (props.authors[0].node !== undefined) {
-    props.authors.map((author: { node: any }, index: any) => authors.push(author.node))
+    props.authors.map((author: { node: any }, index: any) =>
+      authors.push(author.node)
+    );
   } else {
-    authors = props.authors
+    authors = props.authors;
   }
   if (props.width !== undefined) {
-    width = props.width
+    width = props.width;
   }
   if (props.marginleft !== undefined) {
-    marginleft = props.marginleft
+    marginleft = props.marginleft;
   }
   if (props.marginright !== undefined) {
-    marginright = props.marginright
+    marginright = props.marginright;
   }
   if (props.linkroot !== undefined) {
-    linkroot = props.linkroot
+    linkroot = props.linkroot;
   }
   if (props.iconwidth !== undefined) {
-    iconwidth = props.iconwidth
+    iconwidth = props.iconwidth;
   }
   if (props.iconheight !== undefined) {
-    iconheight = props.iconheight
+    iconheight = props.iconheight;
   }
 
   return (
@@ -52,17 +45,17 @@ export default function categoryIconList(props: {
         paddingTop: "10px",
       }}
     >
-      <Gallery hasGutter>
+      <div className="grid grid-cols-6 gap-4">
         {authors.map((author, index) => (
-          <GalleryItem>
-            <Card>
-              <CardTitle>{author.name}</CardTitle>
-              <CardBody>{author.totaladdons + ' addons'}</CardBody>
-              <CardFooter><Link to={linkroot + author.slug}>See all addons for this author</Link></CardFooter>
-            </Card>
-          </GalleryItem>
+          <Card>
+            <b>{author.name}</b>
+            <p>{author.totaladdons + " addons"}</p>
+            <p>
+              <Link to={linkroot + author.slug}>See all addons for this author</Link>
+            </p>
+          </Card>
         ))}
-      </Gallery>
+      </div>
     </div>
-  )
+  );
 }

@@ -1,0 +1,13 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.addonindex h1 {
+  @apply text-2xl;
+  @apply font-bold;
+}
+.addonindex h2 {
+  @apply text-xl;
+  @apply font-bold;
+}

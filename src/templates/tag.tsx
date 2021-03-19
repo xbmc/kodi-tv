@@ -1,33 +1,42 @@
-import React from "react"
-import { graphql } from "gatsby"
-import {
-  Text,
-  TextVariants,
-  TextContent,
-} from "@patternfly/react-core"
-import Layout from "../gatsby-theme-patternfly/components/Layout"
-import BlogIndexLayout from "src/components/BlogIndexLayout"
-import MetadataHeader from "src/components/SiteMetadata"
+import React from "react";
+import { graphql } from "gatsby";
+import { DefaultLayout } from "../components/Layout";
+import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 
-export default function TagPage( { data, pageContext, location } ) {
-  let tagroot = '/blog/tag/'
-  
+export default function TagPage({ data, pageContext, location }) {
+  let frontmatter = {
+    title: "News with the Tag: " + pageContext.tag,
+    breadrumbs: "News | " + pageContext.tag,
+  };
+  let firsttwo = data.blogPosts.edges.slice(0, 2);
+  let therest = data.blogPosts.edges.slice(2);
   return (
-    <Layout>
-      <MetadataHeader title={pageContext.tag + " | Tags | News"} />
-      <TextContent>
-        <Text component={TextVariants.h1}>News with the Tag: {pageContext.tag}</Text>
-      </TextContent>
-      <BlogIndexLayout data={data} />
-    </Layout>
-  )
+    <DefaultLayout frontmatter={frontmatter}>
+      <div className="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none">
+        {firsttwo.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+        {firsttwo.length == 1 ? <EmptyCard /> : ""}
+        <NavCard />
+        {therest.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+      </div>
+      <div className="mt-12 max-w-lg mx-auto gap-5 grid lg:hidden">
+        <NavCard />
+        {data.blogPosts.edges.map((edge, index) => (
+          <BlogPostCard post={edge.node} />
+        ))}
+      </div>
+    </DefaultLayout>
+  );
 }
 
 export const pageQuery = graphql`
-  query ($tag: [String]!) {
-    allMarkdownRemark(
-      sort: {fields: frontmatter___date, order: DESC},
-      filter: {frontmatter: {tags: {in:	$tag}}},
+  query($tag: [String]!) {
+    blogPosts: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      filter: { frontmatter: { tags: { in: $tag } } }
     ) {
       edges {
         node {
@@ -53,8 +62,5 @@ export const pageQuery = graphql`
         }
       }
     }
-    allTags: allMarkdownRemark {
-      distinct(field: frontmatter___tags)
-    }
   }
-`
+`;
