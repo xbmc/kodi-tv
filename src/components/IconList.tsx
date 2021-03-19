@@ -4,6 +4,15 @@ import ReactMarkdown from "react-markdown";
 function FeaturedCard(props) {
   let item = props.item;
   let linkroot = props.linkroot;
+  if (item.summary == null) {
+    item.summary = ""
+  }
+  let sList = item.summary.split(" ");
+  let maxwords = 12
+  if (sList.length > maxwords) {
+    sList.splice(maxwords);
+    item.summary = sList.join(" ") + "...";
+  }
   return (
     <>
       <a className="mt-12 flex flex-col bg-gray-100" href={linkroot + item.slug}>
