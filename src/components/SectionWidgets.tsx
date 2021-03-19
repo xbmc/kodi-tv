@@ -3,6 +3,25 @@ import { Card, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import ArrowRightIcon from "./ArrowRightIcon";
 
+function DownloadNotice() {
+  return (
+    <>
+      <Card>
+        <h3 className="text-2xl font-bold">Notice</h3>
+        <p>
+          The official Kodi version does not contain any content whatsoever. This
+          means that you should provide your own content from a local or remote
+          storage location, DVD, Blu-Ray or any other media carrier that you own.
+          Additionally Kodi allows you to install third-party plugins that may
+          provide access to content that is freely available on the official content
+          provider website. The consumption of pirated content which would otherwise
+          need to be paid for is not endorsed or approved by Team Kodi.
+        </p>
+      </Card>
+    </>
+  );
+}
+
 function SpreadTheWord() {
   return (
     <>
@@ -90,7 +109,7 @@ function AboutContactNote() {
   return (
     <>
       <Card>
-        <h3>Note</h3>
+        <h3 className="text-2xl font-bold">Note</h3>
         <p>
           This email address is only intended for corporate enquiries and not for
           support questions or other purposes.
@@ -238,5 +257,6 @@ export {
   AboutOfficialRemotes,
   CtaButtonExternal,
   CtaButtonInternal,
+  DownloadNotice,
   SpreadTheWord,
 };

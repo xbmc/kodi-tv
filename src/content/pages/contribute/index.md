@@ -1,7 +1,7 @@
 ---
 pageslug: index
 title: Getting Involved
-breakcrumbs: Contribute
+breadcrumbs: Contribute
 ---
 
 ## How can I help make Kodi better?

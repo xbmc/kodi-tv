@@ -1,197 +1,235 @@
 backend:
-  name: 'github'
-  repo: 'xbmc/kodi-tv'
-  branch: 'feature-tailwind'
+  name: "github"
+  repo: "xbmc/kodi-tv"
+  branch: "feature-tailwind"
 
-site_url: 'https://kodi-tv-staging.netlify.app'
-media_folder: '/static/images'
-public_folder: '/images'
-publish_mode: 'editorial_workflow'
+site_url: "https://kodi-tv-staging.netlify.app"
+media_folder: "/static/images"
+public_folder: "/images"
+publish_mode: "editorial_workflow"
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    label_singular: 'Post'
-    folder: 'src/content/article'
+  - name: "blog"
+    label: "Blog"
+    label_singular: "Post"
+    folder: "src/content/article"
     create: true
-    path: '{{title}}/index'
-    slug: 'index'
-    preview_path: '/article/{{title}}'
-    media_folder: '/static/images/blog'
-    public_folder: '/images/blog'
+    path: "{{title}}/index"
+    slug: "index"
+    preview_path: "/article/{{title}}"
+    media_folder: "/static/images/blog"
+    public_folder: "/images/blog"
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'string', required: false  }
-      - label: "Tags"
-        name: "tags"
+      - { label: "Title", name: "title", widget: "string" }
+      - name: "date"
+        label: "Publish Date"
+        widget: "datetime"
+        date_format: "DD MMM YYYY"
+        time_format: "HH:mm"
+      - { label: "Author", name: "author", widget: "string", required: false  }
+      - name: "tags"
+        label: "Tags"
         widget: "select"
         multiple: true
         required: false
         options: ["Community", "DevCon", "Developer", "Prerelease", "Release"]
-      - name: 'featured_image'
-        label: 'Featured Image'
-        widget: 'object'
+      - name: "featured_image"
+        label: "Featured Image"
+        widget: "object"
         collapsed: true
-        summary: '{{fields.src}}'
+        summary: "{{fields.src}}"
         required: false
         fields:
-          - { name: 'src', label: 'Image', widget: 'image' }
-          - { name: 'title', label: 'Title', widget: 'string' }
-          - { name: 'alt', label: 'Alt text', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'aboutpages'
-    label: 'About Pages'
-    label_singular: 'About Page'
-    folder: 'src/content/pages/about'
+          - { name: "src", label: "Image", widget: "image" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "alt", label: "Alt text", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "aboutpages"
+    label: "About Pages"
+    label_singular: "About Page"
+    folder: "src/content/pages/about"
     create: true
-    path: '{{pageslug}}'
-    identifier_field: 'pageslug'
-    preview_path: '/about/{{pageslug}}'
-    media_folder: '/static/images'
-    public_folder: '/images'
-    summary: '{{fields.title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['title', 'commit_date']
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/about/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
     fields:
-      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
-      - { name: 'title', label: 'Page Title', widget: 'string' }
-      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'contribpages'
-    label: 'Contribute Pages'
-    label_singular: 'Contribute Page'
-    folder: 'src/content/pages/contribute'
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "addonpages"
+    label: "Add-on Pages"
+    label_singular: "Add-on Page"
+    folder: "src/content/pages/addons"
     create: true
-    path: '{{pageslug}}'
-    identifier_field: 'pageslug'
-    preview_path: '/contribute/{{pageslug}}'
-    media_folder: '/static/images'
-    public_folder: '/images'
-    summary: '{{fields.title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['title', 'commit_date']
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/addons/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
     fields:
-      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
-      - { name: 'title', label: 'Page Title', widget: 'string' }
-      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'donatepages'
-    label: 'Donate Pages'
-    label_singular: 'Donate Page'
-    folder: 'src/content/pages/donate'
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "contribpages"
+    label: "Contribute Pages"
+    label_singular: "Contribute Page"
+    folder: "src/content/pages/contribute"
     create: true
-    path: '{{pageslug}}'
-    identifier_field: 'pageslug'
-    preview_path: '/donate/{{pageslug}}'
-    media_folder: '/static/images'
-    public_folder: '/images'
-    summary: '{{fields.title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['title', 'commit_date']
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/contribute/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
     fields:
-      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
-      - { name: 'title', label: 'Page Title', widget: 'string' }
-      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'helppages'
-    label: 'Help Pages'
-    label_singular: 'Help Page'
-    folder: 'src/content/pages/gethelp'
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "donatepages"
+    label: "Donate Pages"
+    label_singular: "Donate Page"
+    folder: "src/content/pages/donate"
     create: true
-    path: '{{pageslug}}'
-    identifier_field: 'pageslug'
-    preview_path: '/gethelp/{{pageslug}}'
-    media_folder: '/static/images'
-    public_folder: '/images'
-    summary: '{{fields.title}} ({{filename}}.{{extension}})'
-    sortable_fields: ['title', 'commit_date']
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/donate/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
     fields:
-      - { name: 'pageslug', label: 'Page File Name', widget: 'string' }
-      - { name: 'title', label: 'Page Title', widget: 'string' }
-      - { name: 'breadcrumbs', label: 'Page Header Breadcrumbs', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'featuredaddons'
-    label: 'Featured Add-ons'
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "downloadpages"
+    label: "Download Pages"
+    label_singular: "Download Page"
+    folder: "src/content/pages/download"
+    create: true
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/download/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
+    fields:
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "helppages"
+    label: "Help Pages"
+    label_singular: "Help Page"
+    folder: "src/content/pages/gethelp"
+    create: true
+    path: "{{pageslug}}"
+    identifier_field: "pageslug"
+    preview_path: "/gethelp/{{pageslug}}"
+    media_folder: "/static/images"
+    public_folder: "/images"
+    summary: "{{fields.title}} ({{filename}}.{{extension}})"
+    sortable_fields: ["title", "commit_date"]
+    fields:
+      - { name: "pageslug", label: "Page File Name", widget: "string" }
+      - { name: "title", label: "Page Title", widget: "string" }
+      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "featuredaddons"
+    label: "Featured Add-ons"
     files:
-      - name: 'matrixfeaturedlist'
+      - name: "matrixfeaturedlist"
         label: "Matrix Featured Add-ons List"
-        file: 'src/data/addons/matrix/featured.yaml'
+        file: "src/data/addons/matrix/featured.yaml"
         fields:
-          - name: 'addons'
-            label: 'Add-ons'
-            label_singular: 'Add-on'
-            widget: 'list'
-            summary: '{{addonid}}'
+          - name: "addons"
+            label: "Add-ons"
+            label_singular: "Add-on"
+            widget: "list"
+            summary: "{{addonid}}"
             fields:
-              - { name: 'addonid', label: 'Add-on ID', widget: 'string' }
-      - name: 'leiafeaturedlist'
+              - { name: "addonid", label: "Add-on ID", widget: "string" }
+      - name: "leiafeaturedlist"
         label: "Leia Featured Add-ons List"
-        file: 'src/data/addons/leia/featured.yaml'
+        file: "src/data/addons/leia/featured.yaml"
         fields:
-          - name: 'addons'
-            label: 'Add-ons'
-            label_singular: 'Add-on'
-            widget: 'list'
-            summary: '{{addonid}}'
+          - name: "addons"
+            label: "Add-ons"
+            label_singular: "Add-on"
+            widget: "list"
+            summary: "{{addonid}}"
             fields:
-              - { name: 'addonid', label: 'Add-on ID', widget: 'string' }
-  - name: 'store'
-    label: 'Store'
-    label_singular: 'Item'
-    extension: 'yaml'
-    folder: 'src/data/yaml/store'
+              - { name: "addonid", label: "Add-on ID", widget: "string" }
+  - name: "distribution"
+    label: "Distributions"
+    label_singular: "Distribution"
+    extension: "yaml"
+    folder: "src/data/yaml/distribution"
     create: true
-    path: '{{name}}'
-    slug: '{{name}}'
-    identifier_field: 'name'
-    sortable_fields: ['name', 'group_number']
+    path: "{{name}}-{{version}}"
+    slug: "{{name}}-{{version}}"
+    identifier_field: "name"
+    summary: "{{name}} Kodi version {{version}}"
+    sortable_fields: ["name"]
     show_preview_links: false
-    media_folder: '/static/images/store'
-    public_folder: '/images/store'
+    media_folder: "/static/images/distributions"
+    public_folder: "/images/distributions"
     fields:
-      - { label: 'Item', name: 'name', widget: 'string' }
-      - { label: 'URL', name: 'slug', widget: 'string' }
-      - { label: 'Group Number', name: 'group_number', widget: 'number', value_type: 'int' }
-      - { label: 'Image', name: 'icon', widget: 'image' }
-  - name: 'distribution'
-    label: 'Distributions'
-    label_singular: 'Distribution'
-    extension: 'yaml'
-    folder: 'src/data/yaml/distribution'
-    create: true
-    path: '{{name}}-{{version}}'
-    slug: '{{name}}-{{version}}'
-    identifier_field: 'name'
-    summary: '{{name}} Kodi version {{version}}'
-    sortable_fields: ['name']
-    show_preview_links: false
-    media_folder: '/static/images/distributions'
-    public_folder: '/images/distributions'
-    fields:
-      - name: 'name'
-        label: 'Platform'
-        widget: 'select'
-        options: ['Windows', 'Linux', 'Android', 'Raspberry Pi', 'macOS', 'iOS', 'tvOS' ]
-      - { label: 'Image', name: 'icon', widget: 'image' }
-      - { name: 'version', label: 'Kodi Version Number', widget: 'number', value_type: 'float' }
-      - { name: 'sort_order', label: 'Sort Order', widget: 'number', value_type: 'int' }
-      - { name: 'howto', label: 'How-to Wiki Link', widget: 'string' }
-      - name: 'releases'
-        label: 'Releases'
-        label_singular: 'Release'
-        widget: 'list'
+      - name: "name"
+        label: "Platform"
+        widget: "select"
+        options: ["Windows", "Linux", "Android", "Raspberry Pi", "macOS", "iOS", "tvOS" ]
+      - { label: "Image", name: "icon", widget: "image" }
+      - { name: "version", label: "Kodi Version Number", widget: "number", value_type: "float" }
+      - { name: "sort_order", label: "Sort Order", widget: "number", value_type: "int" }
+      - { name: "howto", label: "How-to Wiki Link", widget: "string" }
+      - name: "releases"
+        label: "Releases"
+        label_singular: "Release"
+        widget: "list"
         collapsed: true
         minimize_collapsed: true
-        summary: '{{name}} - {{title}}'
+        summary: "{{name}} - {{title}}"
         fields:
-          - { name: 'name', label: 'Type', widget: 'select', options: ['Recommended', 'Pre release', 'Development Builds'] }
-          - { name: 'title', label: 'Title', widget: 'string' }
-          - { name: 'description', label: 'Description', widget: 'markdown' }
-          - name: 'downloads'
-            label: 'Download Links'
-            label_singular: 'Download Link'
-            widget: 'list'
+          - { name: "name", label: "Type", widget: "select", options: ["Recommended", "Prerelease", "Development Builds"] }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "description", label: "Description", widget: "markdown" }
+          - name: "downloads"
+            label: "Download Links"
+            label_singular: "Download Link"
+            widget: "list"
             collapsed: true
             minimize_collapsed: true
-            summary: '{{name}}'
+            summary: "{{name}}"
             fields:
-              - { name: 'name', label: 'Title', widget: 'string' }
-              - { name: 'url', label: 'URL', widget: 'string' }
+              - { name: "name", label: "Title", widget: "string" }
+              - { name: "url", label: "URL", widget: "string" }
+  - name: "store"
+    label: "Store"
+    label_singular: "Item"
+    extension: "yaml"
+    folder: "src/data/yaml/store"
+    create: true
+    path: "{{name}}"
+    slug: "{{name}}"
+    identifier_field: "name"
+    sortable_fields: ["name", "group_number"]
+    show_preview_links: false
+    media_folder: "/static/images/store"
+    public_folder: "/images/store"
+    fields:
+      - { label: "Item", name: "name", widget: "string" }
+      - { label: "URL", name: "slug", widget: "string" }
+      - { label: "Group Number", name: "group_number", widget: "number", value_type: "int" }
+      - { label: "Image", name: "icon", widget: "image" }

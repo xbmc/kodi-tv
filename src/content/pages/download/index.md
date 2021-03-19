@@ -3,26 +3,17 @@ title: Downloading Kodi
 breadcrumbs: Download
 ---
 
-import { graphql } from "gatsby"
-import { Card } from "src/components/Card";
-import DownloadList from "src/components/DownloadList";
-import ArrowRightIcon from "src/components/ArrowRightIcon";
-import Button from "src/components/Button";
-
 ## Join the millions already enjoying Kodi
 
 Kodi is available as a native application for Android, Linux, Mac OS X, iOS and Windows operating systems, running on most common processor architectures. A small overview of the features can be found on our about page. For each platform, we offer a stable and development release(s). For normal users we recommend installing the stable releases.
 
-<Card>
-  <h3>Notice</h3>
-  <p>The official Kodi version does not contain any content whatsoever. This means that you should provide your own content from a local or remote storage location, DVD, Blu-Ray or any other media carrier that you own. Additionally Kodi allows you to install third-party plugins that may provide access to content that is freely available on the official content provider website. The consumption of pirated content which would otherwise need to be paid for is not endorsed or approved by Team Kodi.</p>
-</Card>
+x-section-x downloadnotice x-section-x
 
 ## Select Your Platform
 
 Kodi has many flavours, our developers have worked hard to make it support a large range of devices and operating system. We provide final as well as development builds for future final release versions. To get started, simply select the platform that you want to install it on.
 
-<DownloadList items={props.data.allDistributionYaml.edges} />
+x-section-x downloadlist x-section-x
 
 ## Older Releases
 
@@ -38,19 +29,4 @@ Current development is done in our git repository. The source can be viewed onli
 
 You can help in so many different ways. As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contibute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
 
-<Button href="/contribute">Other ways to help <ArrowRightIcon/></Button>
-
-
-
-export const pageQuery = graphql`
-    query {
-        allDistributionYaml(sort: {fields: sort_order, order: ASC}) {
-            edges {
-                node {
-                    name
-                    icon
-                }
-            }
-        }
-    }
-`
+x-section-x otherwaystohelp x-section-x

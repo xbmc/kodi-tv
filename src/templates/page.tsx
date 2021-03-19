@@ -2,6 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "../components/Layout";
+import { DownloadList } from "../components/DownloadList";
 import {
   AboutDisclaimer,
   AboutGallery,
@@ -9,6 +10,7 @@ import {
   AboutOfficialRemotes,
   CtaButtonExternal,
   CtaButtonInternal,
+  DownloadNotice,
   SpreadTheWord,
 } from "../components/SectionWidgets";
 
@@ -17,7 +19,12 @@ function DynamicSection(props) {
     aboutdisclaimer: <AboutDisclaimer />,
     aboutgallery: <AboutGallery />,
     contactnote: <AboutContactNote />,
+    downloadnotice: <DownloadNotice />,
+    downloadlist: <DownloadList />,
     officialremotes: <AboutOfficialRemotes />,
+    otherwaystohelp: (
+      <CtaButtonInternal url="/contribute" buttontext="Other Ways to Help" />
+    ),
     jointheteam: (
       <CtaButtonInternal url="/contribute/developers" buttontext="Join the Team" />
     ),
@@ -72,11 +79,17 @@ export default function Page({ data, pageContext, location }) {
     <DefaultLayout frontmatter={onePage.frontmatter}>
       {content.map((section: string, index: any) => {
         return section.trim().split(" ").length > 1 ? (
-          <ReactMarkdown className="pb-6 prose prose-blue max-w-none">
+          <ReactMarkdown
+            key={section.trim().toLowerCase()}
+            className="pb-6 prose prose-blue max-w-none"
+          >
             {section}
           </ReactMarkdown>
         ) : (
-          <DynamicSection section={section.trim().toLowerCase()} />
+          <DynamicSection
+            key={section.trim().toLowerCase()}
+            section={section.trim().toLowerCase()}
+          />
         );
       })}
     </DefaultLayout>
