@@ -9,17 +9,11 @@ export default function AddonIndexPage({ data, pageContext, location }) {
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <h1 className="text-2xl font-bold">Featured Add-Ons</h1>
-      <IconListFeatured
-        items={data.FeaturedAddons.edges}
-        linkroot="/addons/leia/"
-      />
+      <IconListFeatured items={data.FeaturedAddons.edges} linkroot="/addons/leia/" />
       <h1 className="text-2xl font-bold">New Additions</h1>
       <IconListFeatured items={data.NewAddons.edges} linkroot="/addons/leia/" />
       <h1 className="text-2xl font-bold">Recently Updated</h1>
-      <IconListFeatured
-        items={data.UpdatedAddons.edges}
-        linkroot="/addons/leia/"
-      />
+      <IconListFeatured items={data.UpdatedAddons.edges} linkroot="/addons/leia/" />
       <h1 className="text-2xl font-bold pb-3">Categories</h1>
       <h2 className="text-xl font-bold">Look and Feel</h2>
       <IconList items={data.LookAndFeel.edges} linkroot="/addons/leia/category/" />
