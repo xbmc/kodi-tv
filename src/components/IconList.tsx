@@ -5,10 +5,10 @@ function FeaturedCard(props) {
   let item = props.item;
   let linkroot = props.linkroot;
   if (item.summary == null) {
-    item.summary = ""
+    item.summary = "";
   }
   let sList = item.summary.split(" ");
-  let maxwords = 12
+  let maxwords = 12;
   if (sList.length > maxwords) {
     sList.splice(maxwords);
     item.summary = sList.join(" ") + "...";

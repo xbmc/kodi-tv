@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import SearchAddons from "../../../components/SearchAddons";
+import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 import { DefaultLayout } from "../../../components/Layout";
 
 export default function AddonSearchPage({ data, pageContext, location }) {
@@ -8,9 +9,11 @@ export default function AddonSearchPage({ data, pageContext, location }) {
     title: "Leia Add-on Search",
     breadcrumbs: "Add-ons | Leia | Search",
   };
+  let linkroot = "/addons/leia/"
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
+      <AddonPageSubMenu linkroot={linkroot} />
       <SearchAddons
         addons={data.allAddon.nodes}
         categories={data.allCategory.edges}

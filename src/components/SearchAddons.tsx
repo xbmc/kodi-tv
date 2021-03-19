@@ -182,6 +182,11 @@ export default class SearchAddons extends React.Component {
               keyword_match = true;
             }
           }
+          if (addon.summary !== null) {
+            if (regex.test(addon.summary)) {
+              keyword_match = true;
+            }
+          }
           if (regex.test(addon.name)) {
             keyword_match = true;
           }
