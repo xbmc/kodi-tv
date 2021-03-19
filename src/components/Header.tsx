@@ -199,10 +199,6 @@ function menuCollapse(menuname) {
 
 function Header(props) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
-  let breadcrumbs = "";
-  if (props.frontmatter.breadcrumbs !== undefined) {
-    breadcrumbs = props.frontmatter.breadcrumbs;
-  }
   let mainclassname = "bg-gray-800 pb-32";
   let borderclassname = "border-b border-gray-700";
   let showtitle = true;
@@ -213,7 +209,7 @@ function Header(props) {
   }
   return (
     <>
-      <SEO title={props.frontmatter.title} breadcrumbs={breadcrumbs} />
+      <SEO frontmatter={props.frontmatter} />
 
       <div className={mainclassname}>
         <nav className="bg-gray-800">

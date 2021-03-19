@@ -3,14 +3,17 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 const config = require("/gatsby-site-config");
 
-function SEO({ description, lang, meta, keywords, title, breadcrumbs }) {
+function SEO({ description, lang, meta, keywords, frontmatter }) {
+  let breadcrumbs = config.siteMetadata.title;
+  if (frontmatter.breadcrumbs != undefined) {
+    breadcrumbs = breadcrumbs + " | " + frontmatter.breadcrumbs;
+  }
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
       title={breadcrumbs}
-      titleTemplate={`${config.siteMetadata.title} | %s`}
       meta={[
         {
           name: "description",
@@ -55,8 +58,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  breadcrumbs: PropTypes.string,
-  title: PropTypes.string.isRequired,
+  frontmatter: PropTypes.object.isRequired,
 };
 
 export default SEO;
