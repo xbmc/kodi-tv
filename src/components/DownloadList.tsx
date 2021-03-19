@@ -1,15 +1,11 @@
 import React from "react";
 import { IconList } from "./IconList";
+import { DistributionList } from "../hooks/DistributionList";
 
 const slugify = require("slugify");
 
-export default function DownloadList(props: { items: any[] }) {
-  let items = [];
-  if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node));
-  } else {
-    items = props.items;
-  }
+function DownloadList(props: { items: any[] }) {
+  const items = DistributionList();
   items.forEach(function (item, index) {
     this[index]["slug"] = slugify(item.name, { lower: true });
   }, items);
@@ -22,3 +18,5 @@ export default function DownloadList(props: { items: any[] }) {
     />
   );
 }
+
+export { DownloadList };

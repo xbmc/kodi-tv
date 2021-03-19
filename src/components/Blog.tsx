@@ -1,6 +1,8 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
+import { TagCounts } from "../hooks/TagCounts";
+import { TagList } from "../hooks/TagList";
 import {
   UsersOutline,
   DownloadOutline,
@@ -97,64 +99,13 @@ function EmptyCard() {
 }
 
 function NavCard(props) {
-  const data = useStaticQuery(graphql`
-    query TagCountQuery {
-      postCount: allMarkdownRemark(
-        filter: { fields: { collection: { eq: "blog" } } }
-      ) {
-        totalCount
-      }
-      prereleaseCount: allMarkdownRemark(
-        filter: {
-          fields: { collection: { eq: "blog" } }
-          frontmatter: { tags: { in: "Prerelease" } }
-        }
-      ) {
-        totalCount
-      }
-      releaseCount: allMarkdownRemark(
-        filter: {
-          fields: { collection: { eq: "blog" } }
-          frontmatter: { tags: { in: "Release" } }
-        }
-      ) {
-        totalCount
-      }
-      communityCount: allMarkdownRemark(
-        filter: {
-          fields: { collection: { eq: "blog" } }
-          frontmatter: { tags: { in: "Community" } }
-        }
-      ) {
-        totalCount
-      }
-      developerCount: allMarkdownRemark(
-        filter: {
-          fields: { collection: { eq: "blog" } }
-          frontmatter: { tags: { in: "Developer" } }
-        }
-      ) {
-        totalCount
-      }
-      devConCount: allMarkdownRemark(
-        filter: {
-          fields: { collection: { eq: "blog" } }
-          frontmatter: { tags: { in: "DevCon" } }
-        }
-      ) {
-        totalCount
-      }
-      allTags: allMarkdownRemark {
-        distinct(field: frontmatter___tags)
-      }
-    }
-  `);
-  let tagList = [];
-  for (let i = 0; i < data.allTags.distinct.length; i++) {
+  const data = TagCounts();
+  let tagList = TagList();
+  let tagDisplay = [];
+  for (let i = 0; i < tagList.length; i++) {
     let oneTag = {};
-    oneTag["name"] == data.allTags.distinct[i];
-    oneTag["slug"] =
-      "/blog/tag/" + slugify(data.allTags.distinct[i], { lower: true });
+    oneTag["name"] == tagList[i];
+    oneTag["slug"] = "/blog/tag/" + slugify(tagList[i], { lower: true });
     switch (data.allTags.distinct[i]) {
       case "Community":
         oneTag["displayname"] = "Community Updates";
@@ -192,7 +143,7 @@ function NavCard(props) {
         oneTag["count"] = data.releaseCount.totalCount;
         break;
     }
-    tagList.push(oneTag);
+    tagDisplay.push(oneTag);
   }
   return (
     <>
@@ -211,11 +162,11 @@ function NavCard(props) {
                   {data.postCount.totalCount}
                 </span>
               </a>
-              {tagList.map((tag: string, index: any) => {
+              {tagDisplay.map((tag: string, index: any) => {
                 return (
                   <>
                     <a
-                      key={index}
+                      key={tag.slug}
                       href={tag.slug}
                       className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                     >
@@ -230,18 +181,18 @@ function NavCard(props) {
               })}
             </nav>
             <div className="pt-6">
-              <label for="search" class="text-gray-900 font-bold text-md">
+              <label for="search" className="text-gray-900 font-bold text-md">
                 Search
               </label>
-              <div class="mt-1 px-3 relative rounded-md shadow-sm">
+              <div className="mt-1 px-3 relative rounded-md shadow-sm">
                 <input
                   type="text"
                   name="search"
                   id="search"
-                  class="focus:ring-kodi focus:border-kodi block w-full pr-10 sm:text-sm border-gray-300 rounded-md"
+                  className="focus:ring-kodi focus:border-kodi block w-full pr-10 sm:text-sm border-gray-300 rounded-md"
                   placeholder="search doesn't work yet"
                 />
-                <div class="absolute inset-y-0 right-0 pr-6 flex items-center pointer-events-none">
+                <div className="absolute inset-y-0 right-0 pr-6 flex items-center pointer-events-none">
                   <SearchOutline className="h-5 w-5 text-kodi" />
                 </div>
               </div>
