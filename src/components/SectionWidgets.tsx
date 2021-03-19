@@ -7,7 +7,7 @@ function DownloadNotice() {
   return (
     <>
       <Card>
-        <h3 className="text-2xl font-bold">Notice</h3>
+        <h3 className="text-xl font-bold">Notice</h3>
         <p>
           The official Kodi version does not contain any content whatsoever. This
           means that you should provide your own content from a local or remote
