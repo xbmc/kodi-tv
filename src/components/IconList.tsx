@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import ReactMarkdown from "react-markdown";
 
 function IconList(props: {
@@ -37,15 +36,15 @@ function IconList(props: {
     <div className={className}>
       {items.map((item, index) => (
         <div align="center">
-          <Link
-            className="text-base text-gray-500 hover:text-blue-900"
+          <a
+            className="text-base text-gray-500 hover:text-kodi-darker"
             to={linkroot + item.slug}
           >
             <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
             <div style={{ display: item.name === "" ? "none" : "block" }}>
               <ReactMarkdown>{item.name}</ReactMarkdown>
             </div>
-          </Link>
+          </a>
         </div>
       ))}
     </div>
