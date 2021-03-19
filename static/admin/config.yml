@@ -44,99 +44,14 @@ collections:
           - { name: "title", label: "Title", widget: "string" }
           - { name: "alt", label: "Alt text", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "aboutpages"
-    label: "About Pages"
-    label_singular: "About Page"
-    folder: "src/content/pages/about"
+  - name: "pages"
+    label: "Pages"
+    label_singular: "Page"
+    folder: "src/content/pages/"
     create: true
-    path: "{{pageslug}}"
+    nested:
+      depth: 5
     identifier_field: "pageslug"
-    preview_path: "/about/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "addonpages"
-    label: "Add-on Pages"
-    label_singular: "Add-on Page"
-    folder: "src/content/pages/addons"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/addons/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "contribpages"
-    label: "Contribute Pages"
-    label_singular: "Contribute Page"
-    folder: "src/content/pages/contribute"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/contribute/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "donatepages"
-    label: "Donate Pages"
-    label_singular: "Donate Page"
-    folder: "src/content/pages/donate"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/donate/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "downloadpages"
-    label: "Download Pages"
-    label_singular: "Download Page"
-    folder: "src/content/pages/download"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/download/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "helppages"
-    label: "Help Pages"
-    label_singular: "Help Page"
-    folder: "src/content/pages/gethelp"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/gethelp/{{pageslug}}"
     media_folder: "/static/images"
     public_folder: "/images"
     summary: "{{fields.title}} ({{filename}}.{{extension}})"
