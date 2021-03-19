@@ -11,10 +11,8 @@ export default function AddonCategoryLayout({ repo, data }) {
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <p>
-        <div className="font-bold text-2xl">{category.name}</div>
+        <h2 className="font-bold text-2xl">{category.name}</h2>
         <p>This category has {category.totaladdons} addons in it.</p>
-      </p>
       <IconList items={category.addons} linkroot="../../" />
     </DefaultLayout>
   );
