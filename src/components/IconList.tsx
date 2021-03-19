@@ -38,7 +38,7 @@ function IconList(props: {
         <div align="center">
           <a
             className="text-base text-gray-500 hover:text-kodi-darker"
-            to={linkroot + item.slug}
+            href={linkroot + item.slug}
           >
             <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
             <div style={{ display: item.name === "" ? "none" : "block" }}>
