@@ -162,6 +162,7 @@ function getAddon(rawaddon) {
         addon.agetype = "existing";
       }
       addon.downloads = 0;
+      addon.prevyeardl = 0;
       if (addon.broken == null) {
         queueImages();
       }
@@ -472,7 +473,15 @@ async function app() {
       }
       if (downloadcount < addons[i].downloads) {
         // if true a new year has started, which resets the stats
-        addons[i].downloads = addons[i].downloads + downloadcount;
+        // we need to figure out if we need to do the rollover or not
+        if (
+          addons[i].prevyeardl === 0 ||
+          addons[i].prevyeardl == undefined ||
+          addons[i].prevyeardl + downloadcount < addons[i].downloads
+        ) {
+          addons[i].prevyeardl = addons[i].downloads;
+        }
+        addons[i].downloads = addons.prevyeardl + downloadcount;
       } else {
         addons[i].downloads = downloadcount;
       }
