@@ -88,7 +88,7 @@ export default class PageBitPay extends React.Component {
                           id="email"
                           name="email"
                           type="email"
-                          autocomplete="email"
+                          autoComplete="email"
                           className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
