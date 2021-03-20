@@ -1,6 +1,8 @@
 import React from "react";
 
 function Footer() {
+  let year = new Date().getFullYear();
+
   return (
     <>
       <footer className="bg-gray-200" aria-labelledby="footerHeading">
@@ -301,7 +303,7 @@ function Footer() {
           </div>
           <div className="mt-12 border-t border-gray-200 pt-8">
             <p className="text-base text-gray-400 xl:text-center">
-              &copy; 2021 The Kodi Foundation. All rights reserved. This web site is
+              &copy;{year} The Kodi Foundation. All rights reserved. This web site is
               powered by{" "}
               <a target="_blank" rel="noopener" href={"https://www.netlify.com"}>
                 Netlify
