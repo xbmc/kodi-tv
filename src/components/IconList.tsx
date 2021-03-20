@@ -3,12 +3,15 @@ import ReactMarkdown from "react-markdown";
 
 function FeaturedCard(props) {
   let item = props.item;
-  let linkroot = props.linkroot;
-  if (item.summary == null) {
-    item.summary = "";
+  let linkroot = "";
+  if (props.linkroot != undefined) {
+    linkroot = props.linkroot
+  }
+  if (item.summary == undefined) {
+    item.summary = item.description;
   }
   let sList = item.summary.split(" ");
-  let maxwords = 12;
+  let maxwords = 15;
   if (sList.length > maxwords) {
     sList.splice(maxwords);
     item.summary = sList.join(" ") + "...";
