@@ -9,7 +9,7 @@ export default function AddonSearchPage({ data, pageContext, location }) {
     title: "Leia Add-on Search",
     breadcrumbs: "Add-ons | Leia | Search",
   };
-  let linkroot = "/addons/leia/"
+  let linkroot = "/addons/leia/";
 
   return (
     <DefaultLayout frontmatter={frontmatter}>

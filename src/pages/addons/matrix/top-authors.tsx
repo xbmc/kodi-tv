@@ -9,8 +9,8 @@ export default function Page({ data, pageContext, location }) {
     title: "Top Matrix Add-On Authors",
     breadcrumbs: "Add-ons | Matrix | Top Authors",
   };
-  let linkroot = "/addons/matrix/"
-  
+  let linkroot = "/addons/matrix/";
+
   return (
     <>
       <DefaultLayout frontmatter={frontmatter}>

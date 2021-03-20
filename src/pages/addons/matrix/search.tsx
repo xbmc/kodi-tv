@@ -9,7 +9,7 @@ export default function AddonSearchPage({ data, pageContext, location }) {
     title: "Matrix Add-on Search",
     breadcrumbs: "Add-ons | Matrix | Search",
   };
-  let linkroot = "/addons/matrix/"
+  let linkroot = "/addons/matrix/";
 
   return (
     <DefaultLayout frontmatter={frontmatter}>

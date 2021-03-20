@@ -6,23 +6,17 @@ import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix" };
-  let linkroot = "/addons/matrix/"
+  let linkroot = "/addons/matrix/";
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <AddonPageSubMenu linkroot={linkroot} />
       <h2 className="text-2xl font-bold">Featured Add-Ons</h2>
-      <IconListFeatured
-        items={data.FeaturedAddons.edges}
-        linkroot={linkroot}
-      />
+      <IconListFeatured items={data.FeaturedAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold">New Additions</h2>
       <IconListFeatured items={data.NewAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold">Recently Updated</h2>
-      <IconListFeatured
-        items={data.UpdatedAddons.edges}
-        linkroot={linkroot}
-      />
+      <IconListFeatured items={data.UpdatedAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold pb-3">Categories</h2>
       <h3 className="text-xl font-bold">Look and Feel</h3>
       <IconList items={data.LookAndFeel.edges} linkroot={linkroot + "/category/"} />

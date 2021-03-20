@@ -6,23 +6,17 @@ import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia" };
-  let linkroot = "/addons/leia/"
+  let linkroot = "/addons/leia/";
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <AddonPageSubMenu linkroot={linkroot} />
       <h2 className="text-2xl font-bold">Featured Add-Ons</h2>
-      <IconListFeatured
-        items={data.FeaturedAddons.edges}
-        linkroot={linkroot}
-      />
+      <IconListFeatured items={data.FeaturedAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold">New Additions</h2>
       <IconListFeatured items={data.NewAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold">Recently Updated</h2>
-      <IconListFeatured
-        items={data.UpdatedAddons.edges}
-        linkroot={linkroot}
-      />
+      <IconListFeatured items={data.UpdatedAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold pb-3">Categories</h2>
       <h3 className="text-xl font-bold">Look and Feel</h3>
       <IconList items={data.LookAndFeel.edges} linkroot={linkroot + "/category/"} />

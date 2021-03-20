@@ -9,8 +9,8 @@ export default function Page({ data, pageContext, location }) {
     title: "Top Leia Add-On Authors",
     breadcrumbs: "Add-ons | Leia | Top Authors",
   };
-  let linkroot = "/addons/leia/"
-  
+  let linkroot = "/addons/leia/";
+
   return (
     <>
       <DefaultLayout frontmatter={frontmatter}>
