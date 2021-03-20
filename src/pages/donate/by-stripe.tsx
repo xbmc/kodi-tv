@@ -9,13 +9,11 @@ export default class PageStripe extends React.Component {
   constructor() {
     super();
     this.state = {
+      donor: null,
+      forum: null,
       otPrice: null,
       otCurrency: "price_1HVRC7DOVUu6yhjNHWNMz6Zf",
-      otDonor: null,
-      otForum: null,
       recCurrency: "USD",
-      recDonor: null,
-      recForum: null,
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -180,8 +178,8 @@ export default class PageStripe extends React.Component {
       // When the customer clicks on the button, redirect them to Checkout.
       let sep = "\u2028";
       let donorname = "";
-      if (this.state.otDonor != "") {
-        donorname = this.state.otDonor;
+      if (this.state.donor != "") {
+        donorname = this.state.donor;
       }
       let forumname = "";
       if (this.state.otForum != "") {
@@ -233,231 +231,197 @@ export default class PageStripe extends React.Component {
     return (
       <>
         <DefaultLayout frontmatter={frontmatter}>
-          <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-16">
-            <div>
-              <div>
-                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                  Stripe One-Time Payment
+          <form
+            id="stripe"
+            onSubmit={e => {
+              e.preventDefault();
+              e.stopPropagation();
+            }}
+          >
+            <div className="grid grid-cols-1 divide-y-2">
+              <div></div>
+              <div className="pt-6">
+                <h3 className="text-lg leading-6 font-medium text-gray-900">
+                  Donor information
                 </h3>
-                <p class="mt-1 text-sm text-gray-500">
-                  Use this form to make a one-time payment.
-                </p>
-              </div>
-              <form
-                id="stripe-one-time"
-                onSubmit={e => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                }}
-                className="space-y-8"
-              >
-                <div className="space-y-8">
-                  <div className="pt-8">
-                    <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
-                      <div className="sm:col-span-3">
-                        <label
-                          for="price"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Amount
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="number"
-                            name="otPrice"
-                            id="otPrice"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          />
-                        </div>
-                      </div>
+                <div className="grid grid-cols-1 gap-y-6 gap-x-10 pb-8 pt-3 max-w-4xl md:grid-cols-2">
+                  <div>
+                    <div className="flex justify-between">
+                      <label
+                        for="donor"
+                        className="block text-sm font-medium text-gray-700"
+                      >
+                        Name for Donor Wall
+                      </label>
+                      <span className="text-xs pt-1 text-gray-500" id="email-optional">
+                        Optional
+                      </span>
+                    </div>
+                    <div className="mt-1">
+                      <input
+                        type="text"
+                        name="donor"
+                        id="donor"
+                        onChange={this.handleInputChange}
+                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                      />
+                    </div>
+                  </div>
 
-                      <div className="sm:col-span-3">
-                        <label
-                          for="currency"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Currency
-                        </label>
-                        <div className="mt-1">
-                          <select
-                            id="otCurrency"
-                            name="otCurrency"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          >
-                            <option value="price_1HVRC7DOVUu6yhjNHWNMz6Zf">
-                              $ USD
-                            </option>
-                            <option value="price_1HVRHSDOVUu6yhjNhOGckxxU">
-                              € EUR
-                            </option>
-                            <option value="price_1HVRNRDOVUu6yhjN0BsrpfOo">
-                              £ GBP
-                            </option>
-                            <option value="price_1HVRNpDOVUu6yhjNyoxCfwmQ">
-                              $ CAD
-                            </option>
-                            <option value="price_1HVROBDOVUu6yhjNuN2o56Ob">
-                              $ AUD
-                            </option>
-                            <option value="price_1HVROeDOVUu6yhjN83arFdQo">
-                              ¥ JPY
-                            </option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div className="sm:col-span-3">
-                        <label
-                          for="donor"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Name for Donor Wall
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="otDonor"
-                            id="otDonor"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="sm:col-span-3">
-                        <label
-                          for="forum"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Forum Username
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="otForum"
-                            id="otForum"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          />
-                        </div>
-                      </div>
+                  <div className="sm:col-span-1">
+                    <div className="flex justify-between">
+                    <label
+                      for="forum"
+                      className="block text-sm font-medium text-gray-700"
+                    >
+                      Forum Username
+                    </label>
+                      <span className="text-xs pt-1 text-gray-500" id="email-optional">
+                        Optional
+                      </span>
+                    </div>
+                    <div className="mt-1">
+                      <input
+                        type="text"
+                        name="forum"
+                        id="forum"
+                        onChange={this.handleInputChange}
+                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                      />
                     </div>
                   </div>
                 </div>
-
-                <div className="pt-5">
-                  <div className="flex justify-end">
-                    <button
-                      type="submit"
-                      onClick={handleOneTimeClick}
-                      className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
-                    >
-                      Donate
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-
-            <div>
-              <div>
-                <h3 class="text-lg leading-6 font-medium text-gray-900">
-                  Stripe Recurring Payment
-                </h3>
-                <p class="mt-1 text-sm text-gray-500">
-                  Pick your recurring payment.
-                </p>
               </div>
-              <form
-                id="stripe-recurring"
-                onSubmit={e => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                }}
-                className="space-y-8 divide-y divide-gray-200"
-              >
-                <div className="space-y-8 divide-y divide-gray-200">
-                  <div className="pt-8">
-                    <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
-                      <div className="sm:col-span-3">
-                        <label
-                          for="donor"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Name for Donor Wall
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="otDonor"
-                            id="otDonor"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          />
-                        </div>
-                      </div>
 
-                      <div className="sm:col-span-3">
-                        <label
-                          for="forum"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Forum Username
-                        </label>
-                        <div className="mt-1">
-                          <input
-                            type="text"
-                            name="otForum"
-                            id="otForum"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          />
-                        </div>
-                      </div>
-
-                      <div className="sm:col-span-3">
-                        <label
-                          for="currency"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Currency
-                        </label>
-                        <div className="mt-1">
-                          <select
-                            id="recCurrency"
-                            name="recCurrency"
-                            onChange={this.handleInputChange}
-                            className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
-                          >
-                            <option value="USD">$ USD</option>
-                            <option value="EUR">€ EUR</option>
-                            <option value="GBP">£ GBP</option>
-                            <option value="CAD">$ CAD</option>
-                            <option value="AUD">$ AUD</option>
-                            <option value="JPY">¥ JPY</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div className="sm:col-span-3">
-                        <label
-                          for="buttons"
-                          className="block text-sm font-medium text-gray-700"
-                        >
-                          Recurring Levels
-                        </label>
-                        <div className="grid grid-cols-1 -mt-1">
+              <div>
+                <div className="grid grid-cols-1 divide-y-2 pt-8 md:divide-y-0 md:divide-x-2 md:grid-cols-2">
+                  <div className="pb-8 md:pb-0 md:pr-8">
+                    <div>
+                      <h3 className="text-lg leading-6 font-medium text-gray-900">
+                        One-Time Donation
+                      </h3>
+                      <p className="mt-1 text-sm text-gray-500">
+                        Use this form to make a one-time donation.
+                      </p>
+                    </div>
+                    <div>
+                      <div className="pt-4">
+                        <div className="grid gap-x-4 grid-cols-2">
                           <div>
+                            <label
+                              for="price"
+                              className="block text-sm font-medium text-gray-700"
+                            >
+                              Amount
+                            </label>
+                            <div className="mt-1">
+                              <input
+                                type="number"
+                                name="otPrice"
+                                id="otPrice"
+                                onChange={this.handleInputChange}
+                                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                              />
+                            </div>
+                          </div>
+
+                          <div>
+                            <label
+                              for="currency"
+                              className="block text-sm font-medium text-gray-700"
+                            >
+                              Currency
+                            </label>
+                            <div className="mt-1">
+                              <select
+                                id="otCurrency"
+                                name="otCurrency"
+                                onChange={this.handleInputChange}
+                                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                              >
+                                <option value="price_1HVRC7DOVUu6yhjNHWNMz6Zf">
+                                  $ USD
+                                </option>
+                                <option value="price_1HVRHSDOVUu6yhjNhOGckxxU">
+                                  € EUR
+                                </option>
+                                <option value="price_1HVRNRDOVUu6yhjN0BsrpfOo">
+                                  £ GBP
+                                </option>
+                                <option value="price_1HVRNpDOVUu6yhjNyoxCfwmQ">
+                                  $ CAD
+                                </option>
+                                <option value="price_1HVROBDOVUu6yhjNuN2o56Ob">
+                                  $ AUD
+                                </option>
+                                <option value="price_1HVROeDOVUu6yhjN83arFdQo">
+                                  ¥ JPY
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="pt-5">
+                      <div className="flex justify-end">
+                        <button
+                          type="submit"
+                          onClick={handleOneTimeClick}
+                          className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
+                        >
+                          Donate
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-8 md:pt-0 md:pl-8">
+                    <div>
+                      <h3 className="text-lg leading-6 font-medium text-gray-900">
+                        Recurring Donation
+                      </h3>
+                      <p className="mt-1 text-sm text-gray-500">
+                        Pick your recurring donation.
+                      </p>
+                    </div>
+                    <div className="divide-y divide-gray-200">
+                      <div className="pt-4">
+                        <div className="grid grid-cols-1 max-w-xs">
+                          <div>
+                            <label
+                              for="currency"
+                              className="block text-sm font-medium text-gray-700"
+                            >
+                              Currency
+                            </label>
+                            <div className="mt-1">
+                              <select
+                                id="recCurrency"
+                                name="recCurrency"
+                                onChange={this.handleInputChange}
+                                className="shadow-sm text-sm focus:ring-kodi focus:border-kodi block w-full border-gray-300 rounded-md"
+                              >
+                                <option value="USD">$ USD</option>
+                                <option value="EUR">€ EUR</option>
+                                <option value="GBP">£ GBP</option>
+                                <option value="CAD">$ CAD</option>
+                                <option value="AUD">$ AUD</option>
+                                <option value="JPY">¥ JPY</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div className="pt-3">
                             <ButtonStripe
                               stripePromise={stripePromise}
                               amount={level_one.amount}
                               currency={this.state.recCurrency}
                               price_id={level_one.price}
                               button_text={level_one.text}
-                              donorname={this.state.recDonor}
-                              forumname={this.state.recForum}
+                              donorname={this.state.donor}
+                              forumname={this.state.forum}
                             />
                           </div>
                           <div>
@@ -467,8 +431,8 @@ export default class PageStripe extends React.Component {
                               currency={this.state.recCurrency}
                               price_id={level_two.price}
                               button_text={level_two.text}
-                              donorname={this.state.recDonor}
-                              forumname={this.state.recForum}
+                              donorname={this.state.donor}
+                              forumname={this.state.forum}
                             />
                           </div>
                           <div>
@@ -478,8 +442,8 @@ export default class PageStripe extends React.Component {
                               currency={this.state.recCurrency}
                               price_id={level_three.price}
                               button_text={level_three.text}
-                              donorname={this.state.recDonor}
-                              forumname={this.state.recForum}
+                              donorname={this.state.donor}
+                              forumname={this.state.forum}
                             />
                           </div>
                           <div>
@@ -489,8 +453,8 @@ export default class PageStripe extends React.Component {
                               currency={this.state.recCurrency}
                               price_id={level_four.price}
                               button_text={level_four.text}
-                              donorname={this.state.recDonor}
-                              forumname={this.state.recForum}
+                              donorname={this.state.donor}
+                              forumname={this.state.forum}
                             />
                           </div>
                         </div>
@@ -498,9 +462,9 @@ export default class PageStripe extends React.Component {
                     </div>
                   </div>
                 </div>
-              </form>
+              </div>
             </div>
-          </div>
+          </form>
         </DefaultLayout>
       </>
     );

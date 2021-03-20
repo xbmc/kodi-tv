@@ -12,14 +12,6 @@ export default function ButtonStripe(props: {
   const handleClick = async event => {
     // When the customer clicks on the button, redirect them to Checkout.
     let sep = "\u2028";
-    let current_datetime = new Date();
-    let datetime_str =
-      current_datetime.getFullYear() +
-      (current_datetime.getMonth() + 1) +
-      current_datetime.getDate() +
-      current_datetime.getHours() +
-      current_datetime.getMinutes() +
-      current_datetime.getSeconds();
     const stripe = await props.stripePromise;
     const { error } = await stripe.redirectToCheckout({
       lineItems: [
@@ -35,11 +27,12 @@ export default function ButtonStripe(props: {
     // error, display the localized error message to your customer
     // using `error.message`.
   };
+
   return (
     <button
       type="button"
       onClick={handleClick}
-      className="border border-kodi bg-kodi text-gray-100 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-kodi-darker focus:outline-none focus:shadow-outline"
+      className="my-2 justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
     >
       <span>{props.button_text}</span>
     </button>
