@@ -5,7 +5,7 @@ function FeaturedCard(props) {
   let item = props.item;
   let linkroot = "";
   if (props.linkroot != undefined) {
-    linkroot = props.linkroot
+    linkroot = props.linkroot;
   }
   if (item.summary == undefined) {
     item.summary = item.description;
