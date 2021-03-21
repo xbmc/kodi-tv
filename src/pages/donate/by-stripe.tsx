@@ -11,7 +11,7 @@ export default class PageStripe extends React.Component {
     this.state = {
       donor: null,
       forum: null,
-      otPrice: null,
+      otPrice: "",
       otCurrency: "price_1HVRC7DOVUu6yhjNHWNMz6Zf",
       recCurrency: "USD",
     };
@@ -178,6 +178,9 @@ export default class PageStripe extends React.Component {
       // When the customer clicks on the button, redirect them to Checkout.
       let sep = "\u2028";
       let donorname = "";
+      if (this.state.otPrice === "" || !/^\d+$/.test(this.state.otPrice)) {
+        return;
+      }
       if (this.state.donor != "") {
         donorname = this.state.donor;
       }
@@ -253,7 +256,10 @@ export default class PageStripe extends React.Component {
                       >
                         Name for Donor Wall
                       </label>
-                      <span className="text-xs pt-1 text-gray-500" id="email-optional">
+                      <span
+                        className="text-xs pt-1 text-gray-500"
+                        id="donor-optional"
+                      >
                         Optional
                       </span>
                     </div>
@@ -270,13 +276,16 @@ export default class PageStripe extends React.Component {
 
                   <div className="sm:col-span-1">
                     <div className="flex justify-between">
-                    <label
-                      for="forum"
-                      className="block text-sm font-medium text-gray-700"
-                    >
-                      Forum Username
-                    </label>
-                      <span className="text-xs pt-1 text-gray-500" id="email-optional">
+                      <label
+                        for="forum"
+                        className="block text-sm font-medium text-gray-700"
+                      >
+                        Forum Username
+                      </label>
+                      <span
+                        className="text-xs pt-1 text-gray-500"
+                        id="forum-optional"
+                      >
                         Optional
                       </span>
                     </div>
@@ -366,13 +375,27 @@ export default class PageStripe extends React.Component {
 
                     <div className="pt-5">
                       <div className="flex justify-end">
-                        <button
-                          type="submit"
-                          onClick={handleOneTimeClick}
-                          className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
-                        >
-                          Donate
-                        </button>
+                        {this.state.otPrice !== "" ? (
+                          <>
+                            <button
+                              type="submit"
+                              onClick={handleOneTimeClick}
+                              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
+                            >
+                              Donate
+                            </button>
+                          </>
+                        ) : (
+                          <>
+                            <button
+                              type="submit"
+                              disabled="true"
+                              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                            >
+                              Donate
+                            </button>
+                          </>
+                        )}
                       </div>
                     </div>
                   </div>

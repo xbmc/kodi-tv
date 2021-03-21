@@ -2,8 +2,28 @@ import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 
 export default class PageBitPay extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      price: null,
+      buttondisabled: true,
+    };
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  handleInputChange(event) {
+    const target = event.target;
+    var value = target.value;
+    const name = target.name;
+    this.setState({
+      [name]: value,
+    });
+  }
+
   render() {
     let frontmatter = { title: "Pay via Bit Pay", breadcrumbs: "Donate | Bitpay" };
+    this.state.buttondisabled = this.state.price == null;
+
     return (
       <>
         <DefaultLayout frontmatter={frontmatter}>
@@ -48,7 +68,8 @@ export default class PageBitPay extends React.Component {
                           type="number"
                           name="price"
                           id="price"
-                          className="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
+                          onChange={this.handleInputChange}
+                          className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                         />
                       </div>
                     </div>
@@ -77,12 +98,20 @@ export default class PageBitPay extends React.Component {
                     </div>
 
                     <div className="sm:col-span-4">
-                      <label
-                        for="email"
-                        className="block text-sm font-medium text-gray-700"
-                      >
-                        Email address
-                      </label>
+                      <div className="flex justify-between">
+                        <label
+                          for="email"
+                          className="block text-sm font-medium text-gray-700"
+                        >
+                          Email address
+                        </label>
+                        <span
+                          className="text-xs pt-1 text-gray-500"
+                          id="email-optional"
+                        >
+                          Optional
+                        </span>
+                      </div>
                       <div className="mt-1">
                         <input
                           id="email"
@@ -99,12 +128,25 @@ export default class PageBitPay extends React.Component {
 
               <div className="pt-5">
                 <div className="flex justify-end">
-                  <button
-                    type="submit"
-                    className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
-                  >
-                    Submit
-                  </button>
+                  {this.state.buttondisabled ? (
+                    <>
+                      <button
+                        disabled
+                        className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                      >
+                        Donate
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      <button
+                        type="submit"
+                        className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
+                      >
+                        Donate
+                      </button>
+                    </>
+                  )}
                 </div>
               </div>
             </form>
