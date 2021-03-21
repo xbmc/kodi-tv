@@ -6,6 +6,7 @@ import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
 import { Card } from "./Card";
 import { Carousel } from "./Carousel";
+import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
 export default function AddonLayout({
   repo,
@@ -38,6 +39,7 @@ export default function AddonLayout({
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
+      <AddonPageSubMenu linkroot={"/addons/" + repo.toLowerCase() + "/"} />
       <div className="flex flex-col">
         <div className="grid grid-cols-5">
           <div align="right" className="col-span-1 row-span-full pr-6">

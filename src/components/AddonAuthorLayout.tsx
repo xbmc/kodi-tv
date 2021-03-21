@@ -1,6 +1,7 @@
 import React from "react";
 import { IconList } from "./IconList";
 import { DefaultLayout } from "./Layout";
+import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
 export default function AddonAuthorLayout({
   repo,
@@ -17,6 +18,7 @@ export default function AddonAuthorLayout({
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
+      <AddonPageSubMenu linkroot={"/addons/" + repo.toLowerCase() + "/"} />
       <p>
         <div className="font-bold text-2xl">{author.name}</div>
         <p>
