@@ -5,6 +5,7 @@ import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
 import { LatestNews } from "../hooks/LatestNews";
+import { DistributionList } from "../hooks/DistributionList";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -15,8 +16,40 @@ import {
   FullWidthNews,
 } from "../components/FullWidth";
 
+function setUniqueDistributionIcons() {
+  const distributions = DistributionList();
+  let uniqueDistIcons = [];
+  let distTextList = [];
+  let didApple = false;
+  let appleList = "";
+  for (let i = 0; i < distributions.length; i++) {
+    if (
+      distributions[i].name === "iOS" ||
+      distributions[i].name === "tvOS" ||
+      distributions[i].name === "macOS"
+    ) {
+      if (appleList == "") {
+        appleList = distributions[i].name;
+      } else {
+        appleList = appleList + ", " + distributions[i].name;
+      }
+      if (!didApple) {
+        uniqueDistIcons.push({ icon: distributions[i].icon });
+        didApple = true;
+      }
+    } else {
+      uniqueDistIcons.push({ icon: distributions[i].icon });
+      distTextList.push(distributions[i].name);
+    }
+  }
+  distTextList.push(appleList);
+  return { uniqueDistIcons, distTextList };
+}
+
 function Page() {
   const news = LatestNews();
+  const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
+
   return (
     <LandingPage>
       <FullWidthHeroCarousel
@@ -109,33 +142,7 @@ function Page() {
         buttontext="Download Now"
         iconlist={
           <IconList
-            items={[
-              {
-                slug: "",
-                icon: "/images/distributions/windows.png",
-                name: "",
-              },
-              {
-                slug: "",
-                icon: "/images/distributions/macos.png",
-                name: "",
-              },
-              {
-                slug: "",
-                icon: "/images/distributions/android.png",
-                name: "",
-              },
-              {
-                slug: "",
-                icon: "/images/distributions/linux.png",
-                name: "",
-              },
-              {
-                slug: "",
-                icon: "/images/distributions/raspberry-pi.png",
-                name: "",
-              },
-            ]}
+            items={uniqueDistIcons}
             linkroot="/download"
             iconwidth="150"
             className="grid grid-cols-2 lg:pt-6 gap-8"
@@ -144,11 +151,9 @@ function Page() {
       >
         Kodi runs on a huge range of devices and operating systems, including:
         <ul className="pl-10 pt-4">
-          <li>Windows</li>
-          <li>macOS, iOS, and tvOS</li>
-          <li>Android</li>
-          <li>Linux</li>
-          <li>Raspberry Pi</li>
+          {distTextList.map((item, index) => (
+            <li key={item}>{item}</li>
+          ))}
         </ul>
       </FullWidthTwoPaneIconsRight>
 
