@@ -28,17 +28,16 @@ function BlogPostCard(props) {
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div className="flex-shrink-0">
-          { post.frontmatter.featured_image == undefined ? (
+          {post.frontmatter.featured_image == undefined ? (
             <div className="h-48 w-full object-cover bg-kodi"></div>
           ) : (
-          <img
-            className="h-48 w-full object-cover bg-gray-200"
-            title={post.frontmatter.featured_image.title}
-            src={post.frontmatter.featured_image.src}
-            alt={post.frontmatter.featured_image.alt}
-          />          
-          )
-          }
+            <img
+              className="h-48 w-full object-cover bg-gray-200"
+              title={post.frontmatter.featured_image.title}
+              src={post.frontmatter.featured_image.src}
+              alt={post.frontmatter.featured_image.alt}
+            />
+          )}
         </div>
         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
           <div className="flex-1">

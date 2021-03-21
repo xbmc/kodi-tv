@@ -4,6 +4,7 @@ import * as Icons from "heroicons-react";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
+import { LatestNews } from "../hooks/LatestNews";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -14,7 +15,8 @@ import {
   FullWidthNews,
 } from "../components/FullWidth";
 
-function Page({ data, pageContext, location }) {
+function Page() {
+  const news = LatestNews();
   return (
     <LandingPage>
       <FullWidthHeroCarousel
@@ -205,8 +207,8 @@ function Page({ data, pageContext, location }) {
 
       <FullWidthNews
         title="News"
-        subtitle="What is new in the world of Kodi"
-        edges={data.blogPosts.edges}
+        subtitle="What's new in the world of Kodi"
+        edges={news}
       />
 
       <FullWidthCTAImageLeft
@@ -239,34 +241,3 @@ function Page({ data, pageContext, location }) {
 }
 
 export default Page;
-
-export const pageQuery = graphql`
-  query {
-    blogPosts: allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-      filter: { fields: { collection: { eq: "blog" } } }
-      limit: 3
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 300)
-          timeToRead
-          fields {
-            slug
-          }
-          frontmatter {
-            author
-            date(formatString: "MMMM DD, YYYY")
-            tags
-            featured_image {
-              alt
-              src
-              title
-            }
-            title
-          }
-        }
-      }
-    }
-  }
-`;
