@@ -21,6 +21,7 @@ export default function AddonLayout({
   let slides: string[] = [];
   let authorlabel = "Author";
   let categorylabel = "Category";
+  let linkroot = "/addons/" + repo.toLowerCase() + "/";
   if (addon.authors.length > 1) {
     authorlabel = "Authors";
   }
@@ -39,7 +40,7 @@ export default function AddonLayout({
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <AddonPageSubMenu linkroot={"/addons/" + repo.toLowerCase() + "/"} />
+      <AddonPageSubMenu linkroot={linkroot} />
       <div className="flex flex-col">
         <div className="grid grid-cols-5">
           <div align="right" className="col-span-1 row-span-full pr-6">
@@ -62,7 +63,7 @@ export default function AddonLayout({
                     return (
                       <ItemWithComma
                         description={author.name}
-                        url={"../author/" + author.slug}
+                        url={linkroot + "author/" + author.slug}
                         index={index}
                         length={addon.authors.length - 1}
                         linkType="internal"
@@ -80,7 +81,7 @@ export default function AddonLayout({
                     return (
                       <ItemWithComma
                         description={category.name}
-                        url={"../category/" + category.slug}
+                        url={linkroot + "category/" + category.slug}
                         index={index}
                         length={addon.categories.length - 1}
                         linkType="internal"

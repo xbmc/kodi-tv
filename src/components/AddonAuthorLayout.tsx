@@ -11,6 +11,7 @@ export default function AddonAuthorLayout({
   data: { author: { totaladdons: string; name: string; addons: string[] } };
 }) {
   const author = data.author;
+  let linkroot = "/addons/" + repo.toLowerCase() + "/";
   let frontmatter = {
     title: repo + " Author Details",
     breadcrumbs: "Addons | " + repo + " | Author | " + author.name,
@@ -18,14 +19,14 @@ export default function AddonAuthorLayout({
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <AddonPageSubMenu linkroot={"/addons/" + repo.toLowerCase() + "/"} />
+      <AddonPageSubMenu linkroot={linkroot} />
       <p>
         <div className="font-bold text-2xl">{author.name}</div>
         <p>
           {author.name} has {author.totaladdons} add-ons.
         </p>
       </p>
-      <IconList items={author.addons} linkroot="../../" />
+      <IconList items={author.addons} linkroot={linkroot} />
     </DefaultLayout>
   );
 }

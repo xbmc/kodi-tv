@@ -5,6 +5,7 @@ import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
 export default function AddonCategoryLayout({ repo, data }) {
   const category = data.category;
+  let linkroot = "/addons/" + repo.toLowerCase() + "/";
   let frontmatter = {
     title: repo + " Add-on Category List",
     breadcrumbs: "Addons | " + repo + " | Category | " + category.name,
@@ -12,10 +13,10 @@ export default function AddonCategoryLayout({ repo, data }) {
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <AddonPageSubMenu linkroot={"/addons/" + repo.toLowerCase() + "/"} />
+      <AddonPageSubMenu linkroot={linkroot} />
       <h2 className="font-bold text-2xl">{category.name}</h2>
       <p>This category has {category.totaladdons} addons in it.</p>
-      <IconList items={category.addons} linkroot="../../" />
+      <IconList items={category.addons} linkroot={linkroot} />
     </DefaultLayout>
   );
 }
