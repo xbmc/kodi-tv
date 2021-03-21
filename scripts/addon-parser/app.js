@@ -172,12 +172,38 @@ function getAddon(rawaddon) {
         addon.icons = [{ remotepath: "", localpath: "/images/default-addon.png" }];
       }
       addon.icon = addon.icons[0].localpath;
+      cleanUpDescriptions();
       addons.push(addon);
       addon.authors.forEach(createAuthorNode);
       addon.categories.forEach(createCategoryNode);
     }
   } else {
     rawaddon.children.forEach(parseExtensions);
+  }
+}
+
+function cleanUpDescriptions() {
+  let regex = /\[(COLOR|CR|B|I)\]/g;
+  let maxwords = 15;
+  if (addon.description == undefined) {
+    addon.description = "";
+  } else {
+    addon.description = addon.description.replace(regex, " ");
+  }
+  if (addon.summary == undefined) {
+    addon.summary = "";
+  } else {
+    addon.summary = addon.summary.replace(regex, " ");
+  }
+  if (addon.summary != "") {
+    addon.snippet = addon.summary;
+  } else {
+    addon.snippet = addon.description;
+  }
+  let sList = addon.snippet.split(" ");
+  if (sList.length > maxwords) {
+    sList.splice(maxwords);
+    addon.snippet = sList.join(" ") + "...";
   }
 }
 

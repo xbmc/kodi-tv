@@ -7,18 +7,6 @@ function FeaturedCard(props) {
   if (props.linkroot != undefined) {
     linkroot = props.linkroot;
   }
-  if (item.description == undefined) {
-    item.description = ""
-  }
-  if (item.summary == undefined) {
-    item.summary = item.description;
-  }
-  let sList = item.summary.split(" ");
-  let maxwords = 15;
-  if (sList.length > maxwords) {
-    sList.splice(maxwords);
-    item.summary = sList.join(" ") + "...";
-  }
   return (
     <>
       <a className="mt-12 flex flex-col bg-gray-100" href={linkroot + item.slug}>
@@ -31,7 +19,7 @@ function FeaturedCard(props) {
               {item.name}
             </ReactMarkdown>
             <ReactMarkdown className="mt-3 text-sm text-gray-600">
-              {item.summary}
+              {item.snippet}
             </ReactMarkdown>
           </div>
         </div>

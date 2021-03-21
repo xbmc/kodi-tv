@@ -89,7 +89,7 @@ export const pageQuery = graphql`
           name
           slug
           icon
-          summary
+          snippet
         }
       }
     }
@@ -103,7 +103,7 @@ export const pageQuery = graphql`
           name
           slug
           icon
-          summary
+          snippet
         }
       }
     }
@@ -117,7 +117,7 @@ export const pageQuery = graphql`
           name
           slug
           icon
-          summary
+          snippet
         }
       }
     }

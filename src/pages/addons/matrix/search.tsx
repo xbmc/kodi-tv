@@ -34,6 +34,7 @@ export const pageQuery = graphql`
         lastupdate
         description
         summary
+        snippet
         categories {
           name
         }
