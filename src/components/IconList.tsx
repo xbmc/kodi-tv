@@ -11,7 +11,7 @@ function FeaturedCard(props) {
     <>
       <a className="mt-12 flex flex-col bg-gray-100" href={linkroot + item.slug}>
         <div className="flex-shrink-0 pl-6">
-          <img className="-mt-12 h-32 w-32 border" src={item.icon} alt="" />
+          <img className="-mt-12 h-32 w-32 border bg-white" src={item.icon} alt="" />
         </div>
         <div className="flex-1 p-6 flex flex-col justify-between">
           <div className="flex-1">
