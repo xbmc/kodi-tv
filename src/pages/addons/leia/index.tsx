@@ -19,16 +19,16 @@ export default function AddonIndexPage({ data, pageContext, location }) {
       <IconListFeatured items={data.UpdatedAddons.edges} linkroot={linkroot} />
       <h2 className="text-2xl font-bold pb-3">Categories</h2>
       <h3 className="text-xl font-bold">Look and Feel</h3>
-      <IconList items={data.LookAndFeel.edges} linkroot={linkroot + "/category/"} />
+      <IconList items={data.LookAndFeel.edges} linkroot={linkroot + "category/"} />
       <h3 className="text-xl font-bold">Information Providers</h3>
       <IconList
         items={data.InformationProviders.edges}
-        linkroot={linkroot + "/category/"}
+        linkroot={linkroot + "category/"}
       />
       <h3 className="text-xl font-bold">Games</h3>
-      <IconList items={data.Games.edges} linkroot={linkroot + "/category/"} />
+      <IconList items={data.Games.edges} linkroot={linkroot + "category/"} />
       <h3 className="text-xl font-bold">Others</h3>
-      <IconList items={data.Others.edges} linkroot={linkroot + "/category/"} />
+      <IconList items={data.Others.edges} linkroot={linkroot + "category/"} />
     </DefaultLayout>
   );
 }
