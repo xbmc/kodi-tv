@@ -507,7 +507,7 @@ async function app() {
         ) {
           addons[i].prevyeardl = addons[i].downloads;
         }
-        addons[i].downloads = addons.prevyeardl + downloadcount;
+        addons[i].downloads = addons[i].prevyeardl + downloadcount;
       } else {
         addons[i].downloads = downloadcount;
       }
