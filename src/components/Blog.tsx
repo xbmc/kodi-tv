@@ -18,17 +18,8 @@ const slugify = require("slugify");
 function BlogPostCard(props) {
   let post = props.post;
   let tagroot = "/blog/tag/";
-  let showimage = true;
   if (post.frontmatter.tags == undefined) {
     post.frontmatter.tags = [];
-  }
-  if (post.frontmatter.featured_image == undefined) {
-    post.frontmatter.featured_image = {
-      title: "",
-      src: "/images/blog/default.png",
-      alt: "",
-    };
-    showimage = false;
   }
   if (post.frontmatter.author == undefined) {
     post.frontmatter.author = "";
@@ -37,12 +28,17 @@ function BlogPostCard(props) {
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <div className="flex-shrink-0">
+          { post.frontmatter.featured_image == undefined ? (
+            <div className="h-48 w-full object-cover bg-kodi"></div>
+          ) : (
           <img
-            className="h-48 w-full object-cover"
+            className="h-48 w-full object-cover bg-gray-200"
             title={post.frontmatter.featured_image.title}
             src={post.frontmatter.featured_image.src}
             alt={post.frontmatter.featured_image.alt}
-          />
+          />          
+          )
+          }
         </div>
         <div className="flex-1 bg-white p-6 flex flex-col justify-between">
           <div className="flex-1">
@@ -181,7 +177,7 @@ function NavCard(props) {
               })}
             </nav>
             <div className="pt-6">
-              <label for="search" className="text-gray-900 font-bold text-md">
+              <label htmlFor="search" className="text-gray-900 font-bold text-md">
                 Search
               </label>
               <div className="mt-1 px-3 relative rounded-md shadow-sm">
