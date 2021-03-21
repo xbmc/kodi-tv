@@ -1,9 +1,9 @@
 backend:
   name: "github"
   repo: "xbmc/kodi-tv"
-  branch: "feature-tailwind"
+  branch: "main"
 
-site_url: "https://kodi-tv-staging.netlify.app"
+site_url: "https://kodi-tv.netlify.app"
 media_folder: "/static/images"
 public_folder: "/images"
 publish_mode: "editorial_workflow"
