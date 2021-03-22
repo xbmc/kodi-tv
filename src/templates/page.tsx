@@ -11,6 +11,7 @@ import {
   CtaButtonExternal,
   CtaButtonInternal,
   DownloadNotice,
+  SponsorList,
   SpreadTheWord,
 } from "../components/SectionWidgets";
 
@@ -22,6 +23,7 @@ function DynamicSection(props) {
     downloadnotice: <DownloadNotice />,
     downloadlist: <DownloadList />,
     officialremotes: <AboutOfficialRemotes />,
+    sponsors: <SponsorList />,
     otherwaystohelp: (
       <CtaButtonInternal url="/contribute" buttontext="Other Ways to Help" />
     ),

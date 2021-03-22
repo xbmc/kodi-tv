@@ -2,6 +2,27 @@ import React from "react";
 import { Card, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import ArrowRightIcon from "./ArrowRightIcon";
+import { Sponsors } from "../hooks/Sponsors";
+import { SponsorLevelList } from "./SponsorList";
+
+function SponsorList() {
+  const sponsors = Sponsors();
+  const diamondSponsors = sponsors.diamondSponsors.edges;
+  const goldSponsors = sponsors.goldSponsors.edges;
+  const silverSponsors = sponsors.silverSponsors.edges;
+  const bronzeSponsors = sponsors.bronzeSponsors.edges;
+
+  return (
+    <>
+      <div className="pb-6">
+        <SponsorLevelList title="Diamond Sponsors" sponsors={diamondSponsors} />
+        <SponsorLevelList title="Gold Sponsors" sponsors={goldSponsors} />
+        <SponsorLevelList title="Silver Sponsors" sponsors={silverSponsors} />
+        <SponsorLevelList title="Bronze Sponsors" sponsors={bronzeSponsors} />
+      </div>
+    </>
+  );
+}
 
 function DownloadNotice() {
   return (
@@ -258,5 +279,6 @@ export {
   CtaButtonExternal,
   CtaButtonInternal,
   DownloadNotice,
+  SponsorList,
   SpreadTheWord,
 };

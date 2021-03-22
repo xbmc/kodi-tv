@@ -6,6 +6,7 @@ import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
 import { LatestNews } from "../hooks/LatestNews";
 import { DistributionList } from "../hooks/DistributionList";
+import { Sponsors } from "../hooks/Sponsors";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -46,9 +47,36 @@ function setUniqueDistributionIcons() {
   return { uniqueDistIcons, distTextList };
 }
 
+function setSponsorImageList() {
+  const sponsors = Sponsors();
+  let sponsorImages = [];
+  {
+    sponsors.diamondSponsors.edges.map((sponsor, index) =>
+      sponsorImages.push(sponsor.node.image)
+    );
+  }
+  {
+    sponsors.goldSponsors.edges.map((sponsor, index) =>
+      sponsorImages.push(sponsor.node.image)
+    );
+  }
+  {
+    sponsors.silverSponsors.edges.map((sponsor, index) =>
+      sponsorImages.push(sponsor.node.image)
+    );
+  }
+  {
+    sponsors.bronzeSponsors.edges.map((sponsor, index) =>
+      sponsorImages.push(sponsor.node.image)
+    );
+  }
+  return sponsorImages;
+}
+
 function Page() {
   const news = LatestNews();
   const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
+  const sponsorImages = setSponsorImageList();
 
   return (
     <LandingPage>
@@ -176,38 +204,7 @@ function Page() {
 
       <FullWidthLogoList
         title="A big thanks to our sponsors. They help to keep Kodi free."
-        images={[
-          {
-            src: "/images/bytemark_logo-black.webp",
-            title: "Bytemark",
-            alt: "Bytemark",
-          },
-          {
-            src: "/images/flirc.webp",
-            title: "FLIRC",
-            alt: "FLIRC",
-          },
-          {
-            src: "/images/Leaseweb_Logo_Color.png",
-            title: "Leaseweb",
-            alt: "Leaseweb",
-          },
-          {
-            src: "/images/Weblate_Logo_Darktext.png",
-            title: "Weblate",
-            alt: "Weblate",
-          },
-          {
-            src: "/images/macminivault.png",
-            title: "Mac Mini Vault",
-            alt: "Mac Mini Vault",
-          },
-          {
-            src: "/images/goatcounter-with-text.png",
-            title: "Goatcounter",
-            alt: "Goatcounter",
-          },
-        ]}
+        images={sponsorImages}
       />
 
       <FullWidthNews

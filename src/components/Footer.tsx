@@ -1,6 +1,13 @@
 import React from "react";
+import { Sponsors } from "../hooks/Sponsors";
+import { SponsorFooterList } from "./SponsorList";
 
 function Footer() {
+  const sponsors = Sponsors();
+  const diamondSponsors = sponsors.diamondSponsors.edges;
+  const goldSponsors = sponsors.goldSponsors.edges;
+  const silverSponsors = sponsors.silverSponsors.edges;
+  const bronzeSponsors = sponsors.bronzeSponsors.edges;
   let year = new Date().getFullYear();
 
   return (
@@ -100,66 +107,12 @@ function Footer() {
                     Sponsors
                   </h3>
                   <ul className="mt-4 space-y-4">
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.bytemark.co.uk/r/xbmc"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        Bytemark
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://flirc.tv"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        FLIRC
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.leaseweb.com/?utm_source=kodi.com&utm_medium=linkback&utm_campaign=kodi"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        Leaseweb
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://weblate.org/en/"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        Weblate
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.goatcounter.com/"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        GoatCounter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.macminivault.com"
-                        className="text-base text-gray-500 hover:text-gray-900"
-                      >
-                        Mac Mini Vault
-                      </a>
-                    </li>
+                    <>
+                      <SponsorFooterList sponsors={diamondSponsors} />
+                      <SponsorFooterList sponsors={goldSponsors} />
+                      <SponsorFooterList sponsors={silverSponsors} />
+                      <SponsorFooterList sponsors={bronzeSponsors} />
+                    </>
                   </ul>
                 </div>
               </div>
