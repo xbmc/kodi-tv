@@ -15,7 +15,7 @@ function FullWidthCallOut(props) {
 function FullWidthFeaturesWithIcons(props) {
   return (
     <>
-      <div className="bg-gradient-to-r from-kodi-lighter to-kodi-darker">
+      <div className="bg-gradient-to-r from-kodibg-lighter to-kodibg-darker">
         <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white tracking-tight">
             {props.title}
@@ -171,7 +171,7 @@ function FullWidthCTAImageLeft(props) {
             alt={props.image.alt}
           />
           <div
-            className="absolute inset-0 bg-kodi-darker"
+            className="absolute inset-0 bg-kodibg-lighter"
             style={{ mixBlendMode: "multiply" }}
           ></div>
         </div>
