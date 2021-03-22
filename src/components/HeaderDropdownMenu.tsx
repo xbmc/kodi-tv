@@ -11,7 +11,7 @@ function HeaderDropdownMenu(props) {
         <button
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           type="button"
-          className="inline-flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
+          className="inline-flex items-center text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
           aria-expanded="false"
         >
           <span>{props.menu.title}</span>

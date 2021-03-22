@@ -199,11 +199,11 @@ function menuCollapse(menuname) {
 
 function Header(props) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
-  let mainclassname = "bg-gray-800 pb-32";
-  let borderclassname = "border-b border-gray-700";
+  let mainclassname = "bg-kodibg pb-32";
+  let borderclassname = "border-b border-gray-600";
   let showtitle = true;
   if (props.compact !== undefined) {
-    mainclassname = "bg-gray-800";
+    mainclassname = "bg-kodibg";
     borderclassname = "";
     showtitle = false;
   }
@@ -212,7 +212,7 @@ function Header(props) {
       <SEO frontmatter={props.frontmatter} />
 
       <div className={mainclassname}>
-        <nav className="bg-gray-800">
+        <nav className="bg-kodibg">
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div className={borderclassname}>
               <div className="flex items-center justify-between h-16 px-4 sm:px-0">
@@ -233,7 +233,7 @@ function Header(props) {
                         item.dropdown == null ? (
                           <a
                             href={item.url}
-                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                           >
                             {item.title}
                           </a>
@@ -250,7 +250,7 @@ function Header(props) {
                           item.dropdown == null ? (
                             <a
                               href={item.url}
-                              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                              className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                             >
                               {item.title}
                             </a>
@@ -274,7 +274,7 @@ function Header(props) {
                   <button
                     onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
                     type="button"
-                    className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="bg-kodibg inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-kodibg-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-kodibg focus:ring-white"
                     aria-controls="mobile-menu"
                     aria-expanded="false"
                   >
@@ -295,7 +295,7 @@ function Header(props) {
                     item.dropdown == null ? (
                       <a
                         href={item.url}
-                        className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                        className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item.title}
                       </a>

@@ -11,7 +11,7 @@ function HeaderDropdownMenuMobile(props) {
         <a
           href="#"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-          className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
         >
           <div className="flex">
             <div className="flex-grow">{props.menu.title}</div>
@@ -37,7 +37,7 @@ function HeaderDropdownMenuMobile(props) {
             {props.menu.dropdown.map((item, index) => (
               <a
                 href={item.url}
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 {item.title}
               </a>
