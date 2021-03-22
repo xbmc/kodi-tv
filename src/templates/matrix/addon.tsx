@@ -51,6 +51,7 @@ export const query = graphql`
       size
       source
       summary
+      snippet
       version
       website
     }

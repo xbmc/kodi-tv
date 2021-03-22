@@ -1,6 +1,13 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { ExclamationOutline } from "heroicons-react";
+import {
+  InformationCircleOutline,
+  TruckOutline,
+  TagOutline,
+  ClockOutline,
+  UserOutline,
+  UsersOutline,
+} from "heroicons-react";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
@@ -18,30 +25,68 @@ export default function AddonLayout({
   };
 }) {
   const addon = data.addon;
+  let frontmatter = {
+    title: repo + " Add-on Details",
+    breadcrumbs: "Addons | " + repo + " | " + addon.name,
+  };
   let slides: string[] = [];
-  let authorlabel = "Author";
-  let categorylabel = "Category";
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
+  let authoricon = <UserOutline className="h-5 w-5 text-kodi" />;
   if (addon.authors.length > 1) {
-    authorlabel = "Authors";
-  }
-  if (addon.categories.length > 1) {
-    categorylabel = "Categories";
+    authoricon = <UsersOutline className="h-5 w-5 text-kodi" />;
   }
   if (addon.screenshots != null) {
     addon.screenshots.forEach((screenshot: { localpath: string }) => {
       slides.push(screenshot.localpath);
     });
   }
-  let frontmatter = {
-    title: repo + " Add-on Details",
-    breadcrumbs: "Addons | " + repo + " | " + addon.name,
-  };
+  let details = [];
+  let fields = [
+    "Description",
+    "Forum",
+    "Website",
+    "Source",
+    "License",
+    "Platforms",
+    "Size",
+    "Downloads",
+  ];
+  let pushed = 0;
+  let classNameRoot = "px-6 gap-1 md:gap-4 py-5 grid grid-cols-1 md:grid-cols-3";
+  let className = "";
+  let datatype = "";
+  for (let i = 0; i < fields.length; i++) {
+    datatype = "general";
+    if (addon[fields[i].toLowerCase()] != undefined) {
+      if (pushed % 2 == 0) {
+        className = "bg-gray-50 " + classNameRoot;
+      } else {
+        className = "bg-white " + classNameRoot;
+      }
+      if (fields[i] === "Platforms") {
+        datatype = "platform";
+      } else if (["Forum", "Website", "Source"].includes(fields[i])) {
+        datatype = "link";
+      } else if (["Description"].includes(fields[i])) {
+        datatype = "markdown";
+      } else if (fields[i] === "Downloads") {
+        addon.downloads =
+          addon.downloads +
+          " (this is the download count for the most current version)";
+      }
+      details.push({
+        title: fields[i],
+        data: addon[fields[i].toLowerCase()],
+        className: className,
+        datatype: datatype,
+      });
+      pushed = pushed + 1;
+    }
+  }
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <AddonPageSubMenu linkroot={linkroot} />
-      <div className="flex flex-col">
         <div className="grid grid-cols-5">
           <div align="right" className="col-span-1 row-span-full pr-6">
             <img width="150" height="150" alt="" src={addon.icon} />
@@ -50,32 +95,44 @@ export default function AddonLayout({
             <ReactMarkdown className="text-2xl font-bold">
               {addon.name}
             </ReactMarkdown>
-            <p>
-              <ReactMarkdown>{addon.summary}</ReactMarkdown>
-            </p>
-            <div className="flex prose prose-blue">
-              <div className="pr-4">&#128194; {addon.version}</div>
-              <div className="pr-4">&#128339; {addon.lastupdate}</div>
-              <div>
-                &#128100;&nbsp;
-                {addon.authors.map(
-                  (author: { name: string; slug: string }, index: any) => {
-                    return (
-                      <ItemWithComma
-                        description={author.name}
-                        url={linkroot + "author/" + author.slug}
-                        index={index}
-                        length={addon.authors.length - 1}
-                        linkType="internal"
-                      />
-                    );
-                  }
-                )}
+            <ReactMarkdown>{addon.snippet}</ReactMarkdown>
+            <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm text-gray-900 prose">
+              <div className="inline-flex">
+                <div className="pr-1">
+                  <TruckOutline className="h-5 w-5 text-kodi" />
+                </div>
+                <div className="pr-4">{addon.version}</div>
+              </div>
+              <div className="inline-flex">
+                <div className="pr-1">
+                  <ClockOutline className="h-5 w-5 text-kodi" />
+                </div>
+                <div className="pr-4">{addon.lastupdate}</div>
+              </div>
+              <div className="inline-flex">
+                <div className="pr-1">{authoricon}</div>
+                <div>
+                  {addon.authors.map(
+                    (author: { name: string; slug: string }, index: any) => {
+                      return (
+                        <ItemWithComma
+                          description={author.name}
+                          url={linkroot + "author/" + author.slug}
+                          index={index}
+                          length={addon.authors.length - 1}
+                          linkType="internal"
+                        />
+                      );
+                    }
+                  )}
+                </div>
               </div>
             </div>
-            <div className="flex prose prose-blue">
+            <div className="mt-2 inline-flex text-sm text-gray-900 prose">
+              <div className="pr-1">
+                <TagOutline className="h-5 w-5 text-kodi" />
+              </div>
               <div>
-                &#127991;&nbsp;
                 {addon.categories.map(
                   (category: { name: string; slug: string }, index: any) => {
                     return (
@@ -93,137 +150,91 @@ export default function AddonLayout({
             </div>
           </div>
         </div>
-        <div className="pt-2 px-2 md:pt-4 md:px-10 lg:px-32">
-          <Card>
-            <div className="flex p-2">
-              <div className="pr-2">
-                <ExclamationOutline className="inline text-kodi" />
-              </div>
-              <div>
+        <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-blue-400 p-4">
+          <div className="flex">
+            <div className="flex-shrink-0">
+              <InformationCircleOutline className="h-5 w-5 text-blue-400" />
+            </div>
+            <div className="ml-3">
+              <p className="text-sm text-blue-700">
                 To download this Add-On, we highly recommend you do it via the user
                 interface in Kodi. Simply look for the "Get More" button in the
                 Add-Ons menu. If you want to install it manually, you can direct
                 download from the platforms link that matches your platform then in
                 Kodi look for the "Install via Zip" option.
-              </div>
+              </p>
             </div>
-          </Card>
-        </div>
-        <div className="grid grid-rows-none md:grid-cols-5 pt-4 gap-4 prose prose-blue max-w-none">
-          <div
-            className="col-span-1 font-bold md:text-right pr-2"
-            style={{ display: addon.description == null ? "none" : "block" }}
-          >
-            {"Description"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.description == null ? "none" : "block" }}
-          >
-            <ReactMarkdown>{addon.description}</ReactMarkdown>
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.forum == null ? "none" : "block" }}
-          >
-            {"Forum"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.forum == null ? "none" : "block" }}
-          >
-            <a href={addon.forum}>{addon.forum}</a>
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.website == null ? "none" : "block" }}
-          >
-            {"Website"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.website == null ? "none" : "block" }}
-          >
-            <a href={addon.website}>{addon.website}</a>
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.source == null ? "none" : "block" }}
-          >
-            {"Source"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.source == null ? "none" : "block" }}
-          >
-            <a href={addon.source}>{addon.source}</a>
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.license == null ? "none" : "block" }}
-          >
-            {"License"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.license == null ? "none" : "block" }}
-          >
-            {addon.license}
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.platforms == null ? "none" : "block" }}
-          >
-            {"Platforms"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.platforms == null ? "none" : "block" }}
-          >
-            {addon.platforms.map(
-              (platform: { platform: string; path: string }, index: any) => {
-                return (
-                  <ItemWithComma
-                    description={platform.platform}
-                    url={platform.path}
-                    index={index}
-                    length={addon.platforms.length - 1}
-                    linkType="external"
-                  />
-                );
-              }
-            )}
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.size == null ? "none" : "block" }}
-          >
-            {"Size"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.size == null ? "none" : "block" }}
-          >
-            {addon.size}
-          </div>
-          <div
-            className="pr-2 font-bold md:col-span-1 md:text-right"
-            style={{ display: addon.downloads == null ? "none" : "block" }}
-          >
-            {"Downloads"}
-          </div>
-          <div
-            className="md:col-span-4"
-            style={{ display: addon.downloads == null ? "none" : "block" }}
-          >
-            {addon.downloads.toLocaleString()} (this is the download count for the
-            most current version)
           </div>
         </div>
-        <div className="pt-6">
+        <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-white shadow overflow-hidden">
+          <div className="border-t border-gray-200">
+            <dl>
+              {details.map((item, index) => (
+                <>
+                  {item.datatype === "link" ? (
+                    <div key={item.title} className={item.className}>
+                      <dt className="col-span-1 text-sm font-medium text-gray-500">
+                        {item.title}
+                      </dt>
+                      <dd className="prose mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                        <a href={item.data}>{item.data}</a>
+                      </dd>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                  {item.datatype === "platform" ? (
+                    <div key={item.title} className={item.className}>
+                      <dt className="col-span-1 text-sm font-medium text-gray-500">
+                        {item.title}
+                      </dt>
+                      <dd className="prose mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                        {item.data.map((platform, index) => (
+                          <ItemWithComma
+                            description={platform.platform}
+                            url={platform.path}
+                            index={index}
+                            length={addon.platforms.length - 1}
+                            linkType="external"
+                          />
+                        ))}
+                      </dd>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                  {item.datatype === "markdown" ? (
+                    <div key={item.title} className={item.className}>
+                      <dt className="col-span-1 text-sm font-medium text-gray-500">
+                        {item.title}
+                      </dt>
+                      <dd className="mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                        <ReactMarkdown>{item.data}</ReactMarkdown>
+                      </dd>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                  {item.datatype === "general" ? (
+                    <div key={item.title} className={item.className}>
+                      <dt className="col-span-1 text-sm font-medium text-gray-500">
+                        {item.title}
+                      </dt>
+                      <dd className="mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                        {item.data}
+                      </dd>
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </>
+              ))}
+            </dl>
+          </div>
+        </div>
+        <div className="my-8">
           <Carousel slides={slides} />
         </div>
-      </div>
     </DefaultLayout>
   );
 }
