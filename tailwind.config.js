@@ -4,12 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "kodi": "#17B2E7",
+        kodi: "#17B2E7",
         "kodi-darker": "#149ECC",
         "kodi-lighter": "#45C2EC",
-        "kodibg": "#1B4352",
+        kodibg: "#1B4352",
         "kodibg-darker": "#12323E",
-        "kodibg-lighter": "#20576B"
+        "kodibg-lighter": "#20576B",
       },
     },
   },
