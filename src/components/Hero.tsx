@@ -9,7 +9,7 @@ function HeroRounded(props) {
             <div className="absolute inset-0">
               <img className="h-full w-full object-cover" src={props.image} alt="" />
               <div
-                className="absolute inset-0 bg-gray-700"
+                className="absolute inset-0 bg-kodibg"
                 style={{ mixBlendMode: "multiply" }}
               ></div>
             </div>
@@ -48,7 +48,7 @@ function HeroFullWidth(props) {
             <div className="absolute inset-0">
               <img className="h-full w-full object-cover" src={props.image} alt="" />
               <div
-                className="absolute inset-0 bg-gray-700"
+                className="absolute inset-0 bg-kodibg"
                 style={{ mixBlendMode: "multiply" }}
               ></div>
             </div>

@@ -72,7 +72,7 @@ class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
                       alt=""
                     />
                     <div
-                      className="absolute inset-0 bg-gray-700"
+                      className="absolute inset-0 bg-kodibg"
                       style={{ mixBlendMode: "multiply" }}
                     ></div>
                   </div>
