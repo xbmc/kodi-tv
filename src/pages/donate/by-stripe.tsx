@@ -242,7 +242,6 @@ export default class PageStripe extends React.Component {
             }}
           >
             <div className="grid grid-cols-1 divide-y-2">
-              <div></div>
               <div className="pt-6">
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
                   Donor information
