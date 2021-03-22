@@ -146,31 +146,6 @@ collections:
       - { name: "title", label: "Page Title", widget: "string" }
       - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "featuredaddons"
-    label: "Featured Add-ons"
-    files:
-      - name: "matrixfeaturedlist"
-        label: "Matrix Featured Add-ons List"
-        file: "src/data/addons/matrix/featured.yaml"
-        fields:
-          - name: "addons"
-            label: "Add-ons"
-            label_singular: "Add-on"
-            widget: "list"
-            summary: "{{addonid}}"
-            fields:
-              - { name: "addonid", label: "Add-on ID", widget: "string" }
-      - name: "leiafeaturedlist"
-        label: "Leia Featured Add-ons List"
-        file: "src/data/addons/leia/featured.yaml"
-        fields:
-          - name: "addons"
-            label: "Add-ons"
-            label_singular: "Add-on"
-            widget: "list"
-            summary: "{{addonid}}"
-            fields:
-              - { name: "addonid", label: "Add-on ID", widget: "string" }
   - name: "distribution"
     label: "Distributions"
     label_singular: "Distribution"
@@ -215,6 +190,58 @@ collections:
             fields:
               - { name: "name", label: "Title", widget: "string" }
               - { name: "url", label: "URL", widget: "string" }
+  - name: "featuredaddons"
+    label: "Featured Add-ons"
+    files:
+      - name: "matrixfeaturedlist"
+        label: "Matrix Featured Add-ons List"
+        file: "src/data/addons/matrix/featured.yaml"
+        fields:
+          - name: "addons"
+            label: "Add-ons"
+            label_singular: "Add-on"
+            widget: "list"
+            summary: "{{addonid}}"
+            fields:
+              - { name: "addonid", label: "Add-on ID", widget: "string" }
+      - name: "leiafeaturedlist"
+        label: "Leia Featured Add-ons List"
+        file: "src/data/addons/leia/featured.yaml"
+        fields:
+          - name: "addons"
+            label: "Add-ons"
+            label_singular: "Add-on"
+            widget: "list"
+            summary: "{{addonid}}"
+            fields:
+              - { name: "addonid", label: "Add-on ID", widget: "string" }
+  - name: "sponsors"
+    label: "Sponsors"
+    label_singular: "Sponsor"
+    extension: "yaml"
+    folder: "src/data/yaml/sponsor"
+    create: true
+    path: "{{name}}"
+    slug: "{{name}}"
+    identifier_field: "name"
+    sortable_fields: ["name", "sponsor_level"]
+    show_preview_links: false
+    media_folder: "/static/images/sponsors"
+    public_folder: "/images/sponsors"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "URL", name: "slug", widget: "string" }
+      - { label: "Sponsor Level", name: "sponsor_level", widget: "select", options: ["Diamond", "Gold", "Silver", "Bronze"] }
+      - name: "image"
+        label: "Image"
+        widget: "object"
+        collapsed: true
+        summary: "{{fields.src}}"
+        fields:
+          - { name: "src", label: "Image", widget: "image" }
+          - { name: "title", label: "Title", widget: "string" }
+          - { name: "alt", label: "Alt text", widget: "string" }
+      - { label: "Description", name: "body", widget: "markdown" }
   - name: "store"
     label: "Store"
     label_singular: "Item"
