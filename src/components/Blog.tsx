@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
 import { useStaticQuery, graphql } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
 import { TagCounts } from "../hooks/TagCounts";
@@ -57,14 +58,14 @@ function BlogPostCard(props) {
               &nbsp;
             </p>
             <a href={post.fields.slug} className="block mt-2">
-              <p className="text-xl font-semibold text-gray-900">
+              <ReactMarkdown className="text-xl font-semibold text-gray-900">
                 {post.frontmatter.title}
-              </p>
+              </ReactMarkdown>
               <p className="mt-3 text-base text-gray-500">{post.excerpt}</p>
             </a>
           </div>
           <div className="mt-6 flex items-center">
-            <div className="ml-3">
+            <div>
               <p className="text-sm font-medium text-gray-900">
                 {post.frontmatter.author}
               </p>
@@ -143,7 +144,7 @@ function NavCard(props) {
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div className="flex-1 bg-white px-6 pb-6 flex flex-col justify-between">
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>
@@ -174,24 +175,15 @@ function NavCard(props) {
                   </>
                 );
               })}
+              <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
+              <a
+                href="/blog/search"
+                className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+              >
+                <SearchOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
+                <span className="truncate">Advanced Search</span>
+              </a>
             </nav>
-            <div className="pt-6">
-              <label htmlFor="search" className="text-gray-900 font-bold text-md">
-                Search
-              </label>
-              <div className="mt-1 px-3 relative rounded-md shadow-sm">
-                <input
-                  type="text"
-                  name="search"
-                  id="search"
-                  className="focus:ring-kodi focus:border-kodi block w-full pr-10 sm:text-sm border-gray-300 rounded-md"
-                  placeholder="search doesn't work yet"
-                />
-                <div className="absolute inset-y-0 right-0 pr-6 flex items-center pointer-events-none">
-                  <SearchOutline className="h-5 w-5 text-kodi" />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
