@@ -43,9 +43,6 @@ export const pageQuery = graphql`
         node {
           excerpt(pruneLength: 300)
           timeToRead
-          wordCount {
-            words
-          }
           fields {
             slug
           }
