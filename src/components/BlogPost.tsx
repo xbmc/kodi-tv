@@ -7,6 +7,10 @@ import ItemWithComma from "./ItemWithComma";
 
 export default function BlogPost(props) {
   const { blogPost } = props;
+  let preview = false;
+  if (props.preview != undefined) {
+    preview = props.preview;
+  }
   let tagroot = "/blog/tag/";
   let frontmatter = {
     title: blogPost.frontmatter.title,
@@ -22,7 +26,7 @@ export default function BlogPost(props) {
   }
 
   return (
-    <DefaultLayout frontmatter={frontmatter}>
+    <DefaultLayout frontmatter={frontmatter} preview={preview}>
       <div
         style={{ display: showimage ? "block" : "none" }}
         className="relative pb-6"

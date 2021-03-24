@@ -113,9 +113,15 @@ module.exports = {
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-typescript`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+      options: {
+        modulePath: `${__dirname}/src/cms/netlify.tsx`,
+      },
+    },
     {
       resolve: `gatsby-source-kodidonorwall`,
       options: {

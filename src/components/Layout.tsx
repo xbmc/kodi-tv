@@ -12,6 +12,10 @@ function GetFrontMatter(props) {
 
 function DefaultLayout(props) {
   let frontmatter = GetFrontMatter(props);
+  let preview = false;
+  if (props.preview != undefined) {
+    preview = props.preview;
+  }
   return (
     <>
       <div className="bg-gray-200 h-full">
@@ -23,7 +27,7 @@ function DefaultLayout(props) {
             </div>
           </div>
         </main>
-        <Footer />
+        {!preview ? <Footer /> : <div className="pt-16"></div>}
       </div>
     </>
   );
