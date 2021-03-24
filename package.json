@@ -16,7 +16,7 @@
     "autoprefixer": "^10.2.5",
     "aws-sdk": "^2.863.0",
     "eslint": "^7.22.0",
-    "gatsby": "^3.0.4",
+    "gatsby": "^3.1.2",
     "gatsby-awesome-pagination": "^0.3.6",
     "gatsby-image": "^3.0.0",
     "gatsby-plugin-feed": "^3.0.0",
@@ -59,6 +59,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"**/*.+(js|jsx|tsx)\"",
+    "generate-admin-css": "npx tailwindcss build src/styles/global.css -o static/admin/global.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
