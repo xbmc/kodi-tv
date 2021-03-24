@@ -171,6 +171,7 @@ function AboutGallery() {
           streamable online media, Kodi can import, browse and play your Movie
           collection with ease.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="TV Shows"
           imgsrc="/images/about--tvshows.jpg"
@@ -181,6 +182,7 @@ function AboutGallery() {
           banners, watched tags, show descriptions and actors. Great for keeping
           track of your progress.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Music"
           imgsrc="/images/about--music.png"
@@ -191,6 +193,7 @@ function AboutGallery() {
           has cue sheets, tag reading support and smart playlists for ultimate
           control of your music collection.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Photos"
           imgsrc="/images/about--photos.png"
@@ -201,6 +204,7 @@ function AboutGallery() {
           the different views, start a slideshow, sort or filter them all using your
           remote control.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="PVR"
           imgsrc="/images/about--pvr.jpg"
@@ -211,6 +215,18 @@ function AboutGallery() {
           interface. It works with a number of popular backends including
           MediaPortal, MythTV, NextPVR, Tvheadend and many more.
         </RoundedCardWithImage>
+
+        <RoundedCardWithImage
+          title="Games"
+          imgsrc="/images/about--games.jpg"
+          imgalt=""
+          imgtitle=""
+        >
+          Kodi isn't just for passive entertainment media. You can also play games on
+          Kodi. Pick from a large number of emulators, or even play a stand-alone
+          game. There's even extensive support for game controllers.
+        </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Skins"
           imgsrc="/images/about--skins.jpg"
@@ -221,6 +237,7 @@ function AboutGallery() {
           using a variety of skins. We have no doubt that you will find something
           that suits your tastes (or living room).
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Add-ons"
           imgsrc="/images/about--addons.png"
@@ -231,6 +248,7 @@ function AboutGallery() {
           Add-ons. There are Add-Ons for popular web services, applications and
           scripts. <a href="/addons">See which ones are currently available</a>.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Web Interface"
           imgsrc="/images/about--webinterface.jpg"
@@ -242,6 +260,7 @@ function AboutGallery() {
           <a href="/addons/category/web-interfaces">web browsers</a>, and 3rd party
           tools to take Kodi to the next level.
         </RoundedCardWithImage>
+
         <RoundedCardWithImage
           title="Remote Controls"
           imgsrc="/images/about--remotes.jpg"
@@ -255,16 +274,6 @@ function AboutGallery() {
           , CEC-compatible TVs, or one of the{" "}
           <a href="/about/software">new Smartphone and Tablet Apps</a>, Kodi allows
           you to control your media your way.
-        </RoundedCardWithImage>
-        <RoundedCardWithImage
-          title="Games"
-          imgsrc="/images/about--games.jpg"
-          imgalt=""
-          imgtitle=""
-        >
-          Kodi isn't just for passive entertainment media. You can also play games on
-          Kodi. Pick from a large number of emulators, or even play a stand-alone
-          game. There's even extensive support for game controllers.
         </RoundedCardWithImage>
       </div>
     </>

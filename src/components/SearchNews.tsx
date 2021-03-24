@@ -139,7 +139,10 @@ export default class SearchAddons extends React.Component {
         >
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-4 xl:gap-4 items-startpt-5">
             <div>
-              <label HtmlFor="tag" className="block text-sm font-medium text-gray-700">
+              <label
+                HtmlFor="tag"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Tag
               </label>
               <select
@@ -195,7 +198,6 @@ export default class SearchAddons extends React.Component {
                 />
               </div>
             </div>
-
 
             <div className="pt-1">
               <label
