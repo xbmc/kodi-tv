@@ -3,6 +3,7 @@ import React from "react";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
 import { SponsorLevelList } from "../components/SponsorList";
+import { IconList } from "../components/IconList";
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
@@ -67,6 +68,18 @@ const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
   );
 };
 
+const StoreItemPreview = ({ entry, getAsset }) => {
+  let items = [];
+  let item = {};
+  item.name = entry.getIn(["data", "name"]);
+  item.slug = entry.getIn(["data", "slug"]);
+  let rawImage = entry.getIn(["data", "icon"]);
+  item.icon = getAsset(rawImage).toString();
+  items.push(item);
+
+  return <IconList items={items} iconwidth="256" iconheight="256" />;
+};
+
 CMS.registerPreviewStyle("/admin/global.css");
 CMS.registerPreviewTemplate("blog", ArticlePreview);
 CMS.registerPreviewTemplate("aboutpages", PagePreview);
@@ -76,3 +89,4 @@ CMS.registerPreviewTemplate("donatepages", PagePreview);
 CMS.registerPreviewTemplate("downloadpages", PagePreview);
 CMS.registerPreviewTemplate("helppages", PagePreview);
 CMS.registerPreviewTemplate("sponsors", SponsorPreview);
+CMS.registerPreviewTemplate("store", StoreItemPreview);
