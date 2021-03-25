@@ -1,0 +1,12 @@
+name: Raspberry Pi
+icon: /images/distributions/ios.png
+version: 20
+sort_order: 1
+howto: https://kodi.tv
+releases:
+  - name: Prerelease
+    title: This is a Title
+    description: And Here is the body
+    downloads:
+      - name: Much Fastness
+        url: https://kodi.tv
