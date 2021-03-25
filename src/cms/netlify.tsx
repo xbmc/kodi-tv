@@ -4,6 +4,7 @@ import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
 import { SponsorLevelList } from "../components/SponsorList";
 import { IconList } from "../components/IconList";
+import { Distribution } from "../components/Distribution";
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
@@ -42,6 +43,46 @@ const PagePreview = ({ entry, widgetsFor, getAsset }) => {
   page.frontmatter.breadcrumbs = entry.getIn(["data", "breadcrumbs", null]);
 
   return <Page onePage={page} preview={true} />;
+};
+
+const DistributionPreview = ({ entry, widgetsFor, getAsset }) => {
+  // have to convert the entry object to JSON to get to nested list of downloads
+  // this is a known issue with Netlify CMS
+  // see https://github.com/netlify/netlify-cms/issues/3485
+  let rawDist = entry.getIn(["data"]).toJS();
+  let rawDistStr = JSON.stringify(rawDist, null, 2);
+  let dist = {};
+  dist.name = entry.getIn(["data", "name"]);
+  let imgSrc = entry.getIn(["data", "icon"]);
+  dist.icon = getAsset(rawDist.icon).toString();
+  dist.howto = entry.getIn(["data", "howto"]);
+  if (rawDist.releases == undefined) {
+    rawDist.releases = [];
+  }
+  dist.releases = [];
+  rawDist.releases.map(function (release, index) {
+    let item = {};
+    item.name = release.name;
+    item.title = release.title;
+    item.description = release.description;
+    if (release.downloads == undefined) {
+      release.downloads = [];
+    }
+    let downloads = [];
+    release.downloads.map(function (download, index) {
+      let dlitem = {};
+      dlitem.name = download.name;
+      dlitem.url = download.url;
+      downloads.push(dlitem);
+    });
+    if (downloads.length > 0) {
+      item.downloads = downloads;
+    } else {
+      item.downloads = null;
+    }
+    dist.releases.push(item);
+  });
+  return <Distribution dist={dist} preview={true} />;
 };
 
 const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
@@ -88,5 +129,6 @@ CMS.registerPreviewTemplate("contribpages", PagePreview);
 CMS.registerPreviewTemplate("donatepages", PagePreview);
 CMS.registerPreviewTemplate("downloadpages", PagePreview);
 CMS.registerPreviewTemplate("helppages", PagePreview);
+CMS.registerPreviewTemplate("distribution", DistributionPreview);
 CMS.registerPreviewTemplate("sponsors", SponsorPreview);
 CMS.registerPreviewTemplate("store", StoreItemPreview);

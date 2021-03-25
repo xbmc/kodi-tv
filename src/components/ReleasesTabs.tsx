@@ -22,6 +22,11 @@ class ReleasesTabs extends React.Component {
 
   render() {
     const releases = this.props.releases;
+    if (releases == undefined) {
+      return "";
+    } else if (releases.length == 0) {
+      return "";
+    }
     return (
       <Tabs>
         {releases.map((release, index) => {

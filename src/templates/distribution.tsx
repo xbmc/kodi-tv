@@ -1,31 +1,9 @@
 import React from "react";
-import { DefaultLayout } from "../components/Layout";
-import ReleasesTabs from "../components/ReleasesTabs";
-import { graphql, Link } from "gatsby";
+import { Distribution } from "../components/Distribution";
+import { graphql } from "gatsby";
 
-export default function Distribution({ data }) {
-  const dist = data.distributionYaml;
-  let frontmatter = {
-    title: "Downloads for " + dist.name,
-    breadcrumbs: "Downloads | " + dist.name,
-  };
-
-  return (
-    <DefaultLayout frontmatter={frontmatter}>
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-1">
-          <img width="150" height="150" alt="" src={dist.icon} />
-        </div>
-        <div className="col-span-11">
-          <span className="prose prose-blue">
-            If you need extra help, checkout our{" "}
-            <a href={dist.howto}>"How To" Guide</a> for {dist.name}.
-          </span>
-          <ReleasesTabs releases={dist.releases} />
-        </div>
-      </div>
-    </DefaultLayout>
-  );
+export default function DistributionPage({ data }) {
+  return <Distribution dist={data.distributionYaml} />;
 }
 
 export const query = graphql`
