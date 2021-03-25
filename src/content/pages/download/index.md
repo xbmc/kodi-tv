@@ -1,4 +1,5 @@
 ---
+pageslug: index
 title: Downloading Kodi
 breadcrumbs: Download
 ---
