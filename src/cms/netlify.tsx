@@ -2,6 +2,7 @@ import CMS from "netlify-cms-app";
 import React from "react";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
+import { SponsorLevelList } from "../components/SponsorList";
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
@@ -42,6 +43,30 @@ const PagePreview = ({ entry, widgetsFor, getAsset }) => {
   return <Page onePage={page} preview={true} />;
 };
 
+const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
+  let sponsors = [];
+  let sponsor = {};
+  sponsor.node = {};
+  sponsor.node.name = entry.getIn(["data", "name"]);
+  sponsor.node.slug = entry.getIn(["data", "slug"]);
+  sponsor.node.sponsor_level = entry.getIn(["data", "sponsor_level"]);
+  sponsor.node.body = entry.getIn(["data", "body"]);
+  let rawImage = widgetsFor("image");
+  let imgSrc = rawImage.getIn(["data", "src"]);
+  sponsor.node.image = {};
+  sponsor.node.image.title = rawImage.getIn(["data", "title"]);
+  sponsor.node.image.alt = rawImage.getIn(["data", "alt"]);
+  sponsor.node.image.src = getAsset(imgSrc).toString();
+  sponsors.push(sponsor);
+
+  return (
+    <SponsorLevelList
+      title={sponsor.node.sponsor_level + " Sponsor"}
+      sponsors={sponsors}
+    />
+  );
+};
+
 CMS.registerPreviewStyle("/admin/global.css");
 CMS.registerPreviewTemplate("blog", ArticlePreview);
 CMS.registerPreviewTemplate("aboutpages", PagePreview);
@@ -50,3 +75,4 @@ CMS.registerPreviewTemplate("contribpages", PagePreview);
 CMS.registerPreviewTemplate("donatepages", PagePreview);
 CMS.registerPreviewTemplate("downloadpages", PagePreview);
 CMS.registerPreviewTemplate("helppages", PagePreview);
+CMS.registerPreviewTemplate("sponsors", SponsorPreview);
