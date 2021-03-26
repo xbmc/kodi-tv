@@ -1,5 +1,6 @@
 import React from "react";
 import { BlogPostCard } from "./Blog";
+import Button from "./Button";
 
 function FullWidthCallOut(props) {
   return (
@@ -65,12 +66,7 @@ function FullWidthTwoPaneIconsRight(props) {
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">{props.children}</p>
                   <div className="mt-6">
-                    <a
-                      href={props.url}
-                      className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-kodi-lighter to-kodi-darker"
-                    >
-                      {props.buttontext}
-                    </a>
+                    <Button href={props.url}>{props.buttontext}</Button>
                   </div>
                 </div>
               </div>
@@ -106,12 +102,7 @@ function FullWidthTwoPaneImageLeft(props) {
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">{props.children}</p>
                   <div className="mt-6">
-                    <a
-                      href={props.url}
-                      className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-kodi-lighter to-kodi-darker"
-                    >
-                      {props.buttontext}
-                    </a>
+                    <Button href={props.url}>{props.buttontext}</Button>
                   </div>
                 </div>
               </div>
@@ -185,12 +176,9 @@ function FullWidthCTAImageLeft(props) {
             <p className="mt-3 text-lg text-gray-300">{props.children}</p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a
-                  href={props.url}
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
-                >
+                <Button href={props.url} variant="secondary">
                   {props.buttontext}
-                </a>
+                </Button>
               </div>
             </div>
           </div>
