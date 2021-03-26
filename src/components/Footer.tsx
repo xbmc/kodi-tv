@@ -19,7 +19,7 @@ function Footer() {
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
-              <p className="text-gray-500 text-base">
+              <p className="text-gray-600 text-base">
                 Kodi is a free and open source media player application developed by
                 the Kodi Foundation, a non-profit technology consortium. Kodi is
                 available for multiple operating-systems and hardware platforms,
@@ -32,14 +32,14 @@ function Footer() {
             <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
                     About
                   </h3>
                   <ul className="mt-4 space-y-4">
                     <li>
                       <a
                         href="/about/contact"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Contact
                       </a>
@@ -47,7 +47,7 @@ function Footer() {
                     <li>
                       <a
                         href="/contribute"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Get Involved
                       </a>
@@ -55,7 +55,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/gpl-violators"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         GPL Violators
                       </a>
@@ -63,7 +63,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/software"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Software
                       </a>
@@ -71,7 +71,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/team"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Team
                       </a>
@@ -79,7 +79,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/privacy-policy"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Privacy Policy
                       </a>
@@ -87,7 +87,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/sponsors"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Sponsorship
                       </a>
@@ -95,7 +95,7 @@ function Footer() {
                     <li>
                       <a
                         href="/about/foundation"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Foundation
                       </a>
@@ -103,7 +103,7 @@ function Footer() {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
                     Sponsors
                   </h3>
                   <ul className="mt-4 space-y-4">
@@ -118,7 +118,7 @@ function Footer() {
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
                     Friends
                   </h3>
                   <ul className="mt-4 space-y-4">
@@ -127,7 +127,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://fanart.tv"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Fanart.TV
                       </a>
@@ -137,7 +137,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://libreelec.tv"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         LibreELEC
                       </a>
@@ -147,7 +147,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://osmc.tv"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         OSMC
                       </a>
@@ -157,7 +157,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://musicbrainz.org"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         MusicBrainz.org
                       </a>
@@ -167,7 +167,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://www.theaudiodb.com"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         TheAudioDB.com
                       </a>
@@ -177,7 +177,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://thegamesdb.net"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         TheGamesDB.net
                       </a>
@@ -187,7 +187,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://www.themoviedb.org"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         TheMovieDB.org
                       </a>
@@ -197,7 +197,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://www.thetvdb.com"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         TVDB.com
                       </a>
@@ -205,7 +205,7 @@ function Footer() {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
                     Social
                   </h3>
                   <ul className="mt-4 space-y-4">
@@ -214,7 +214,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://www.facebook.com/KodiEntertainment"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Facebook
                       </a>
@@ -224,7 +224,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://twitter.com/KodiTV"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Twitter
                       </a>
@@ -234,7 +234,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="https://www.youtube.com/user/teamxbmc"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         YouTube
                       </a>
@@ -244,7 +244,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener"
                         href="/rss.xml"
-                        className="text-base text-gray-500 hover:text-gray-900"
+                        className="text-base text-gray-600 hover:text-gray-900"
                       >
                         RSS
                       </a>
@@ -255,7 +255,7 @@ function Footer() {
             </div>
           </div>
           <div className="mt-12 border-t border-gray-200 pt-8">
-            <p className="text-base text-gray-400 xl:text-center">
+            <p className="text-base text-gray-600 xl:text-center">
               &copy;{year} The Kodi Foundation. All rights reserved. This web site is
               powered by{" "}
               <a target="_blank" rel="noopener" href={"https://www.netlify.com"}>
