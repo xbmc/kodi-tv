@@ -6,13 +6,13 @@ import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
 import { LatestNews } from "../hooks/LatestNews";
 import { DistributionList } from "../hooks/DistributionList";
-import { Sponsors } from "../hooks/Sponsors";
+import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
   FullWidthTwoPaneIconsRight,
   FullWidthTwoPaneImageLeft,
-  FullWidthLogoList,
+  FullWidthSponsorList,
   FullWidthCTAImageLeft,
   FullWidthNews,
 } from "../components/FullWidth";
@@ -47,36 +47,10 @@ function setUniqueDistributionIcons() {
   return { uniqueDistIcons, distTextList };
 }
 
-function setSponsorImageList() {
-  const sponsors = Sponsors();
-  let sponsorImages = [];
-  {
-    sponsors.diamondSponsors.edges.map((sponsor, index) =>
-      sponsorImages.push(sponsor.node.image)
-    );
-  }
-  {
-    sponsors.goldSponsors.edges.map((sponsor, index) =>
-      sponsorImages.push(sponsor.node.image)
-    );
-  }
-  {
-    sponsors.silverSponsors.edges.map((sponsor, index) =>
-      sponsorImages.push(sponsor.node.image)
-    );
-  }
-  {
-    sponsors.bronzeSponsors.edges.map((sponsor, index) =>
-      sponsorImages.push(sponsor.node.image)
-    );
-  }
-  return sponsorImages;
-}
-
 function Page() {
   const news = LatestNews();
   const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
-  const sponsorImages = setSponsorImageList();
+  const sponsors: Sponsor[] = Sponsors();
 
   return (
     <LandingPage>
@@ -202,9 +176,9 @@ function Page() {
         Kodi.
       </FullWidthTwoPaneImageLeft>
 
-      <FullWidthLogoList
+      <FullWidthSponsorList
         title="A big thanks to our sponsors. They help to keep Kodi free."
-        images={sponsorImages}
+        sponsors={sponsors}
       />
 
       <FullWidthNews

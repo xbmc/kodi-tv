@@ -1,7 +1,8 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import { Sponsor } from "../hooks/Sponsors";
 
-function SponsorLevelList(props: { title: string; sponsors: any[] }) {
+function SponsorLevelList(props: { title: string; sponsors: Sponsor[] }) {
   return (
     <>
       {props.sponsors.length > 0 ? (
@@ -15,21 +16,27 @@ function SponsorLevelList(props: { title: string; sponsors: any[] }) {
                 <div className="grid grid-cols-1 gap-8">
                   {props.sponsors.map((sponsor, index) => (
                     <>
-                      <div key={sponsor.node.name} className="pt-6">
+                      <div key={sponsor.name} className="pt-6">
                         <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
                           <div className="-mt-6">
                             <div>
                               <span className="inline-flex items-center justify-center p-3 bg-white border rounded-md shadow-lg">
-                                <img
-                                  alt={sponsor.node.image.alt}
-                                  title={sponsor.node.image.title}
-                                  src={sponsor.node.image.src}
-                                />
+                                <a
+                                  href={sponsor.slug}
+                                  target="_blank"
+                                  rel="noopener"
+                                >
+                                  <img
+                                    alt={sponsor.image.alt}
+                                    title={sponsor.image.title}
+                                    src={sponsor.image.src}
+                                  />
+                                </a>
                               </span>
                             </div>
                             <p className="mt-5 text-base text-gray-500">
                               <ReactMarkdown className="prose max-w-none">
-                                {sponsor.node.body}
+                                {sponsor.body}
                               </ReactMarkdown>
                             </p>
                           </div>
@@ -49,19 +56,19 @@ function SponsorLevelList(props: { title: string; sponsors: any[] }) {
   );
 }
 
-function SponsorFooterList(props: { sponsors: any[] }) {
+function SponsorFooterList(props: { sponsors: Sponsor[] }) {
   return (
     <>
       {props.sponsors.map((sponsor, index) => (
         <>
-          <li key={sponsor.node.title}>
+          <li key={sponsor.name}>
             <a
               target="_blank"
               rel="noopener"
-              href={sponsor.node.slug}
+              href={sponsor.slug}
               className="text-base text-gray-500 hover:text-gray-900"
             >
-              {sponsor.node.name}
+              {sponsor.name}
             </a>
           </li>
         </>

@@ -1,66 +1,17 @@
 import { useStaticQuery, graphql } from "gatsby";
 
+export interface Sponsor {
+  name: string;
+  slug: string;
+  sponsor_level: "Diamond" | "Gold" | "Silver" | "Bronze";
+  image: { alt: string; src: string; title: string };
+  body: string;
+}
+
 export const Sponsors = () => {
   const data = useStaticQuery(graphql`
     query Sponsors {
-      diamondSponsors: allSponsorYaml(
-        filter: { sponsor_level: { eq: "Diamond" } }
-        sort: { fields: name, order: ASC }
-      ) {
-        edges {
-          node {
-            name
-            slug
-            sponsor_level
-            image {
-              alt
-              src
-              title
-            }
-            body
-          }
-        }
-      }
-      goldSponsors: allSponsorYaml(
-        filter: { sponsor_level: { eq: "Gold" } }
-        sort: { fields: name, order: ASC }
-      ) {
-        edges {
-          node {
-            name
-            slug
-            sponsor_level
-            image {
-              alt
-              src
-              title
-            }
-            body
-          }
-        }
-      }
-      silverSponsors: allSponsorYaml(
-        filter: { sponsor_level: { eq: "Silver" } }
-        sort: { fields: name, order: ASC }
-      ) {
-        edges {
-          node {
-            name
-            slug
-            sponsor_level
-            image {
-              alt
-              src
-              title
-            }
-            body
-          }
-        }
-      }
-      bronzeSponsors: allSponsorYaml(
-        filter: { sponsor_level: { eq: "Bronze" } }
-        sort: { fields: name, order: ASC }
-      ) {
+      allSponsorYaml(sort: { fields: name, order: ASC }) {
         edges {
           node {
             name
@@ -77,5 +28,5 @@ export const Sponsors = () => {
       }
     }
   `);
-  return data;
+  return data.allSponsorYaml.edges.map((a: { node: Sponsor }) => a.node);
 };

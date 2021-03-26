@@ -133,7 +133,7 @@ function FullWidthTwoPaneImageLeft(props) {
   );
 }
 
-function FullWidthLogoList(props) {
+function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
   return (
     <>
       <div className="bg-white">
@@ -142,14 +142,16 @@ function FullWidthLogoList(props) {
             {props.title}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
-            {props.images.map((image, index) => (
+            {props.sponsors.map((sponsor, index) => (
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
-                  className="h-12"
-                  src={image.src}
-                  title={image.title}
-                  alt={image.alt}
-                />
+                <a href={sponsor.slug} target="_blank" rel="noopener">
+                  <img
+                    className="h-12"
+                    src={sponsor.image.src}
+                    title={sponsor.image.title}
+                    alt={sponsor.image.alt}
+                  />
+                </a>
               </div>
             ))}
           </div>
@@ -230,7 +232,7 @@ export {
   FullWidthFeaturesWithIcons,
   FullWidthTwoPaneIconsRight,
   FullWidthTwoPaneImageLeft,
-  FullWidthLogoList,
+  FullWidthSponsorList,
   FullWidthCTAImageLeft,
   FullWidthNews,
 };
