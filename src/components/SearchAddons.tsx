@@ -248,7 +248,7 @@ export default class SearchAddons extends React.Component {
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-5 xl:gap-4 items-startpt-5">
             <div>
               <label
-                for="category"
+                htmlFor="category"
                 className="block text-sm font-medium text-gray-700"
               >
                 Category
@@ -269,7 +269,7 @@ export default class SearchAddons extends React.Component {
 
             <div>
               <label
-                for="keyword"
+                htmlFor="keyword"
                 className="block text-sm font-medium text-gray-700"
               >
                 Keyword
@@ -289,7 +289,7 @@ export default class SearchAddons extends React.Component {
 
             <div>
               <label
-                for="author"
+                htmlFor="author"
                 className="block text-sm font-medium text-gray-700"
               >
                 Author
@@ -308,7 +308,10 @@ export default class SearchAddons extends React.Component {
             </div>
 
             <div>
-              <label for="sort" className="block text-sm font-medium text-gray-700">
+              <label
+                htmlFor="sort"
+                className="block text-sm font-medium text-gray-700"
+              >
                 Sort
               </label>
               <select
@@ -327,25 +330,26 @@ export default class SearchAddons extends React.Component {
 
             <div className="pt-1">
               <label
-                for="nothing"
+                htmlFor="nothing"
                 className="block text-sm font-medium text-gray-700"
               >
                 &nbsp;
               </label>
-              <button
-                style={{ display: search_disabled ? "none" : "inline-flex" }}
-                onClick={this.doSearch}
-                className="mt-3 w-full items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-              >
-                Search
-              </button>
-              <button
-                style={{ display: search_disabled ? "inline-flex" : "none" }}
-                disabled="true"
-                className="mt-3 w-full items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-              >
-                Search
-              </button>
+              {search_disabled ? (
+                <button
+                  disabled
+                  className="inline-flex mt-3 w-full items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                >
+                  Search
+                </button>
+              ) : (
+                <button
+                  onClick={this.doSearch}
+                  className="inline-flex mt-3 w-full items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                >
+                  Search
+                </button>
+              )}
               <button
                 onClick={this.onClear}
                 className="mt-3 w-full inline-flex items-center justify-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"

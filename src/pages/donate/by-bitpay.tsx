@@ -43,7 +43,7 @@ export default class PageBitPay extends React.Component {
               className="space-y-8 divide-y divide-gray-200"
               action="https://bitpay.com/checkout"
               method="post"
-              accept-charset="UTF-8"
+              acceptCharset="UTF-8"
             >
               <input type="hidden" name="action" value="checkout" />
               <input
@@ -58,7 +58,7 @@ export default class PageBitPay extends React.Component {
                   <div className="mt-6 grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-6">
                     <div className="sm:col-span-3">
                       <label
-                        for="price"
+                        htmlFor="price"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Amount
@@ -76,7 +76,7 @@ export default class PageBitPay extends React.Component {
 
                     <div className="sm:col-span-3">
                       <label
-                        for="currency"
+                        htmlFor="currency"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Currency
@@ -100,7 +100,7 @@ export default class PageBitPay extends React.Component {
                     <div className="sm:col-span-4">
                       <div className="flex justify-between">
                         <label
-                          for="email"
+                          htmlFor="email"
                           className="block text-sm font-medium text-gray-700"
                         >
                           Email address

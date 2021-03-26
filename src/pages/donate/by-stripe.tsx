@@ -250,7 +250,7 @@ export default class PageStripe extends React.Component {
                   <div>
                     <div className="flex justify-between">
                       <label
-                        for="donor"
+                        htmlFor="donor"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Name for Donor Wall
@@ -276,7 +276,7 @@ export default class PageStripe extends React.Component {
                   <div className="sm:col-span-1">
                     <div className="flex justify-between">
                       <label
-                        for="forum"
+                        htmlFor="forum"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Forum Username
@@ -317,7 +317,7 @@ export default class PageStripe extends React.Component {
                         <div className="grid gap-x-4 grid-cols-2">
                           <div>
                             <label
-                              for="price"
+                              htmlFor="price"
                               className="block text-sm font-medium text-gray-700"
                             >
                               Amount
@@ -335,7 +335,7 @@ export default class PageStripe extends React.Component {
 
                           <div>
                             <label
-                              for="currency"
+                              htmlFor="currency"
                               className="block text-sm font-medium text-gray-700"
                             >
                               Currency
@@ -413,7 +413,7 @@ export default class PageStripe extends React.Component {
                         <div className="grid grid-cols-1 max-w-xs">
                           <div>
                             <label
-                              for="currency"
+                              htmlFor="currency"
                               className="block text-sm font-medium text-gray-700"
                             >
                               Currency
