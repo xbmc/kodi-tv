@@ -2,15 +2,15 @@ import React from "react";
 import { Card, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import ArrowRightIcon from "./ArrowRightIcon";
-import { Sponsors } from "../hooks/Sponsors";
+import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
 
 function SponsorList() {
-  const sponsors = Sponsors();
-  const diamondSponsors = sponsors.diamondSponsors.edges;
-  const goldSponsors = sponsors.goldSponsors.edges;
-  const silverSponsors = sponsors.silverSponsors.edges;
-  const bronzeSponsors = sponsors.bronzeSponsors.edges;
+  const sponsors: Sponsor[] = Sponsors();
+  const diamondSponsors = sponsors.filter(a => a.sponsor_level === "Diamond");
+  const goldSponsors = sponsors.filter(a => a.sponsor_level === "Gold");
+  const silverSponsors = sponsors.filter(a => a.sponsor_level === "Silver");
+  const bronzeSponsors = sponsors.filter(a => a.sponsor_level === "Bronze");
 
   return (
     <>
