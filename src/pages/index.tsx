@@ -165,9 +165,9 @@ function Page() {
         url="/about"
         buttontext="Show me all the good bits"
         image={{
-          src: "/images/skin-arctic-horizon-example.png",
-          title: "Arctic Horizon Skin",
-          alt: "Arctic Horizon Skin",
+          src: "/images/skin-estuary-example.jpg",
+          title: "Estuary Skin",
+          alt: "Estuary Skin showing music artists",
         }}
       >
         You can get a new skin to change the look of Kodi, or maybe you want to
