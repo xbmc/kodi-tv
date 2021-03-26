@@ -9,16 +9,68 @@ interface Props {
 
 class Button extends React.Component<Props> {
   render() {
-    return (
-      <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
-        <button
-          type="button"
-          className="border border-kodi bg-kodi text-gray-100 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-kodi-darker focus:outline-none focus:shadow-outline"
-        >
-          <span>{this.props.children}</span>
-        </button>
-      </a>
-    );
+    if (this.props.variant === "secondary") {
+      return (
+        <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
+          <button
+            type="button"
+            className="
+            flex
+            items-center
+            justify-center
+            px-8
+            py-3
+            border
+            border-transparent
+            text-base
+            font-medium
+            rounded-md
+            shadow-sm
+            text-kodi
+            bg-white
+            transition
+            duration-500
+            ease
+            select-none
+            hover:bg-indigo-50
+            "
+          >
+            <span>{this.props.children}</span>
+          </button>
+        </a>
+      );
+    } else {
+      return (
+        <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
+          <button
+            type="button"
+            className="
+            flex
+            items-center
+            justify-center
+            px-8
+            py-3
+            border
+            border-transparent
+            text-base
+            font-medium
+            rounded-md
+            shadow-sm
+            text-gray-50
+            bg-kodi-darker
+            transition
+            duration-500
+            ease
+            select-none
+            hover:bg-kodi
+            focus:outline-none
+            focus:shadow-outline"
+          >
+            <span>{this.props.children}</span>
+          </button>
+        </a>
+      );
+    }
   }
 }
 

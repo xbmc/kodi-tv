@@ -2,6 +2,7 @@ import React from "react";
 // import Swiper core and required modules
 import SwiperCore, { Navigation, Pagination, A11y, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Button from "./Button";
 
 // Import Swiper styles need to be require for now
 require("swiper/swiper.scss");
@@ -88,12 +89,9 @@ class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
                     </p>
                     <div className="mt-10 mx-auto max-w-none flex justify-center">
                       <div className="space-y-0 mx-auto grid-cols-1 gap-5">
-                        <a
-                          href={element.url}
-                          className="flex items-center justify-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-kodi bg-white hover:bg-indigo-50 px-8"
-                        >
+                        <Button href={element.url} variant="secondary">
                           {element.buttontext}
-                        </a>
+                        </Button>
                       </div>
                     </div>
                   </div>
