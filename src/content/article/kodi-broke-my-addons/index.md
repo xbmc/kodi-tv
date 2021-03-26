@@ -3,10 +3,11 @@ title: '"Kodi Broke My Addons!"'
 date: 2021-03-18T10:35:45.970Z
 author: Team Kodi
 featured_image:
-  src: /images/blog/python_code-johnson_martin_pixabay.png
+  src: /images/blog/python_code-johnson_martin_pixabay.webp
   title: "Image of Python code, credit: Johnson Martin from Pixabay"
   alt: "Image of Python code, credit: Johnson Martin from Pixabay"
 ---
+
 Since we released 19.0 "Matrix", we've been hearing a lot of noise about how people's addons have stopped working, and why we're all Really Bad People for doing this. We thought it would be worth helping people understand what's happening here - mostly, because our fingers are getting tired from trying to explain, and it'll save an awful lot of typing in the forum, or on Facebook, or wherever.
 
 Please remember, first of all, that Kodi itself does **not** automatically update. We might tell you that a new version is available, sure, but we never force a new version onto you: that's entirely a product of your chosen operating system and configuration. It's probably enabled by default; it may be something you have to trigger; it may be a completely manual process - but it's not under our control. We're genuinely not "forcing a new release onto you", but we equally can do nothing to stop an automatic update if you have it enabled.
@@ -33,16 +34,17 @@ It's arguable that you really shouldn't be using these if they require you to us
 
 So, whinge over. What can you do if you're caught in this trap.
 
-* Well, if you really want to, you can stick on Python 2 with whatever addons you choose - stay on 18.x "Leia" and never update your operating system, as a future patch or wholesale upgrade is likely to remove Python 2.
+- Well, if you really want to, you can stick on Python 2 with whatever addons you choose - stay on 18.x "Leia" and never update your operating system, as a future patch or wholesale upgrade is likely to remove Python 2.
 
-  * If you're on Android and have had a forced update, be aware that "auto update" is enabled by default on applications from the Play Store. Switch this off, and you'll stick with whatever version you have installed. You *may* be able to do this on a per-application basis as well, but that varies by Android platform.
-  * If you're on Linux, be careful of *apt update* or similar, as repositories are likely to automatically shift you to the next release (our PPA definitely will). Likewise, an OS update is likely to pick up different versions of all pre-installed applications, including Kodi, if it's from a distro-maintained repository.
-  * If you're on a JeOS "bundled" platform, be sure to switch off auto-update in *Settings* - or keep a beady eye on it, anyway. LibreELEC is probably the most common platform here, and that has no auto-update between major versions ("channels") anyway, but other platforms exist, or you may have updated manually.
-  * Windows, it depends on how you installed it. If you've downloaded from our web site, simply don't upgrade it; if you're using the UWP version from the Windows Store, then you'll need to disable "Update apps automatically" for all applications.
-  * Apple devices are typically user-installed (e.g. sideloaded), so just don't install something new. The exception is if you're using a repo on a jailbroken device (e.g. Cydia) - in which case, you're in the same boat as Linux repo users.
-* If you've already updated, you can normally go back. This can be tricky on some platforms (e.g. Android), where you'll need to be careful to uninstall the application *but not the data*, and then re-install the app alone. Similarly, on a JeOS distro, you're likely to have to export your library and addon settings where you can, re-install, and then re-import everything. To explain for every platform is outside of the scope of this blog post, so perhaps turn to the forum for help here.
-* Be aware that *every* major version bump in Kodi upgrades your database. Downgrading should immediately revert to the previous version in whatever state it was (e.g. watched status) when you upgraded, but there are implications if you use a shared database across multiple client versions.
-* You can lobby your addon authors to get their collective fingers out and make the shift to Python 3 - as said above, this is hardly new news to anyone. Other than addons we write and provide, we have absolutely no control or influence over whether they get ported to Python 3, or whether they stay on 2 (and thus you can't go past Kodi 18 "Leia").
+  - If you're on Android and have had a forced update, be aware that "auto update" is enabled by default on applications from the Play Store. Switch this off, and you'll stick with whatever version you have installed. You *may* be able to do this on a per-application basis as well, but that varies by Android platform.
+  - If you're on Linux, be careful of *apt update* or similar, as repositories are likely to automatically shift you to the next release (our PPA definitely will). Likewise, an OS update is likely to pick up different versions of all pre-installed applications, including Kodi, if it's from a distro-maintained repository.
+  - If you're on a JeOS "bundled" platform, be sure to switch off auto-update in *Settings* - or keep a beady eye on it, anyway. LibreELEC is probably the most common platform here, and that has no auto-update between major versions ("channels") anyway, but other platforms exist, or you may have updated manually.
+  - Windows, it depends on how you installed it. If you've downloaded from our web site, simply don't upgrade it; if you're using the UWP version from the Windows Store, then you'll need to disable "Update apps automatically" for all applications.
+  - Apple devices are typically user-installed (e.g. sideloaded), so just don't install something new. The exception is if you're using a repo on a jailbroken device (e.g. Cydia) - in which case, you're in the same boat as Linux repo users.
+
+- If you've already updated, you can normally go back. This can be tricky on some platforms (e.g. Android), where you'll need to be careful to uninstall the application *but not the data*, and then re-install the app alone. Similarly, on a JeOS distro, you're likely to have to export your library and addon settings where you can, re-install, and then re-import everything. To explain for every platform is outside of the scope of this blog post, so perhaps turn to the forum for help here.
+- Be aware that *every* major version bump in Kodi upgrades your database. Downgrading should immediately revert to the previous version in whatever state it was (e.g. watched status) when you upgraded, but there are implications if you use a shared database across multiple client versions.
+- You can lobby your addon authors to get their collective fingers out and make the shift to Python 3 - as said above, this is hardly new news to anyone. Other than addons we write and provide, we have absolutely no control or influence over whether they get ported to Python 3, or whether they stay on 2 (and thus you can't go past Kodi 18 "Leia").
 
 We're not currently planning any future changes of this scale, so the next couple of versions are likely to be a far easier ride. However, with those upcoming releases, just like this one, you have choices, and you're always in control of your own devices - so, please, don't have a go at us or leave us lousy reviews when we've really tried our best here, and yet something well outside of our control (your platform, your settings, third-party addons, maybe even third-party repositories) has broken something.
 

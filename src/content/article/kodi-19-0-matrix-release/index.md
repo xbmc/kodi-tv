@@ -5,19 +5,20 @@ author: Prof Yaffle
 tags:
   - Release
 featured_image:
-  src: /images/blog/kodi_splash_v19.0_matrix_final_1080p.jpg
+  src: /images/blog/kodi_splash_v19.0_matrix_final_1080p.webp
   title: Kodi 19 Matrix splash screen
   alt: Kodi 19 Matrix splash screen
 ---
+
 ... yes, it's here! After several iterations of alpha, beta and RC, Team Kodi is pleased to announce that Kodi 19.0 "Matrix" has just been formally released on all supported platforms. Dare you take the red pill, and find out how deep the rabbit-hole goes?
 
 By the numbers, then, this version is the product of:
 
-* Nearly 50 individual open source developers contributed code
-* About 5,000 commits in over 1,500 pull requests since the first release of 18.x "Leia"
-* Over 5,500 changed files, with some 600,000 lines of code added, changed or removed
-* Countless hours of dedicated free time conceiving, designing, developing and testing (including all the infrastructure you see around them, including this web site)
-* ... and, of course,very little travelling, obviously - that's not good at the moment!
+- Nearly 50 individual open source developers contributed code
+- About 5,000 commits in over 1,500 pull requests since the first release of 18.x "Leia"
+- Over 5,500 changed files, with some 600,000 lines of code added, changed or removed
+- Countless hours of dedicated free time conceiving, designing, developing and testing (including all the infrastructure you see around them, including this web site)
+- ... and, of course,very little travelling, obviously - that's not good at the moment!
 
 The broad list of new features is below, but - before we get to that - I'd just like to take a moment to say "thank you" to the huge amounts of work put in by the broadest team behind this release. Whether you submitted a few lines of code or a major new feature; whether you worked on video, audio, gaming, or a skin; whether you tested in pre-release and helped identify a problem, debugged an issue or updated a translation; whether you fixed some documentation, looked after the various systems that keep kodi.tv running, or helped to moderate the forum - thank you, one and all. Kodi is a community, and, without all of you, we would all lose something.
 
@@ -71,7 +72,7 @@ Probably too hidden for many users, but there are inevitably changes and improve
 
 Why not show your support with a Kodi 19 "Matrix" [shirt or hoodie](https://teespring.com/kodi-matrix)? Or maybe a [pillow](https://teespring.com/kodi-matrix?pid=650) to lounge on while you enjoy your favourite media? As well as just making you look utterly, fabulously, unquestionably cool, all purchases will make a small donation to the Foundation, and help keep everything running the way we all like it. All are available in a series of achingly-fashionable colours.
 
-[![Kodi 19.x "Matrix" T-shirt](https://kodi.tv/sites/default/files/Matrix%20T-shirt.jpg)](https://teespring.com/kodi-matrix)[![Kodi 19.x "Matrix" Cushion](https://kodi.tv/sites/default/files/Matrix%20Cushion.jpg)](https://teespring.com/kodi-matrix?pid=650)
+[![Kodi 19.x "Matrix" T-shirt](https://kodi.tv/sites/default/files/Matrix%20T-shirt.webp)](https://teespring.com/kodi-matrix)[![Kodi 19.x "Matrix" Cushion](https://kodi.tv/sites/default/files/Matrix%20Cushion.webp)](https://teespring.com/kodi-matrix?pid=650)
 
 ##### **Changelog**
 
