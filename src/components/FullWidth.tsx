@@ -6,7 +6,7 @@ function FullWidthCallOut(props) {
     <>
       <div className="pt-12 pb-20 px-6">
         <div className="text-center text-5xl font-bold">{props.title}</div>
-        <div className="text-center text-2xl text-gray-400">{props.children}</div>
+        <div className="text-center text-2xl text-gray-500">{props.children}</div>
       </div>
     </>
   );
