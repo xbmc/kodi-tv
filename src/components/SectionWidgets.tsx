@@ -46,7 +46,7 @@ function DownloadNotice() {
 function SpreadTheWord() {
   return (
     <>
-      <div className="flex">
+      <div className="flex mb-6">
         <div>
           <Button
             variant="primary"
@@ -78,18 +78,18 @@ function SpreadTheWord() {
 
 function CtaButtonInternal(props) {
   return (
-    <>
+    <div className="mb-6">
       <Button variant="link" component="a" href={props.url} isLarge>
         {props.buttontext + " "}
         <ArrowRightIcon />
       </Button>
-    </>
+    </div>
   );
 }
 
 function CtaButtonExternal(props) {
   return (
-    <>
+    <div className="mb-6">
       <Button
         variant="link"
         component="a"
@@ -101,7 +101,7 @@ function CtaButtonExternal(props) {
         {props.buttontext + " "}
         <ArrowRightIcon />
       </Button>
-    </>
+    </div>
   );
 }
 
