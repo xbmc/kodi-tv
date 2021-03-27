@@ -1,8 +1,34 @@
 import React from "react";
+import { CurrencyDollar } from "heroicons-react";
 
 function Social() {
   return (
     <>
+
+      <a
+        className="pl-1"
+        href="/donate"
+        rel="noopener"
+      >
+          <CurrencyDollar className="
+            w-7
+            h-7
+            rounded-full
+            text-white
+            bg-kodi
+            flex
+            items-center
+            justify-center
+            transition
+            duration-500
+            ease
+            select-none
+            hover:bg-kodi-darker
+            focus:outline-none
+            focus:shadow-outline"
+           />
+      </a>
+ 
       <a
         className="pl-1"
         href="http://www.facebook.com/KodiEntertainment"
