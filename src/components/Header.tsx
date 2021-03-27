@@ -246,6 +246,7 @@ function Header(props: any) {
                       {mainMenu.map((item, index) =>
                         item.dropdown == null ? (
                           <a
+                            key={item.url}
                             href={item.url}
                             className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                           >

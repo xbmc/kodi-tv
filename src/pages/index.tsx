@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql } from "gatsby";
 import * as Icons from "heroicons-react";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";

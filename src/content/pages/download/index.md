@@ -24,7 +24,9 @@ Please note, development of the v18 "Leia" line has ended. If you discover a bug
 
 Current development is done in our git repository. The source can be viewed online, downloaded, or cloned from our github repository:
 
-`$ git clone git://github.com/xbmc/xbmc.git`
+```sh
+$ git clone git://github.com/xbmc/xbmc.git
+```
 
 ## We need your help
 
