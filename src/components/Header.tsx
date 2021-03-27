@@ -7,14 +7,31 @@ import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
 
-const mainMenu = [
+export interface MenuEntry {
+  title: string;
+  url: string | undefined;
+  collapseTo: string | null;
+  svg: JSX.Element | null;
+  description: string | null;
+  footer: string | null;
+  dropdown: DropDownItem[] | null;
+}
+
+export interface DropDownItem {
+  title: string;
+  url: string | undefined;
+  svg: JSX.Element | null;
+  description: string | null;
+}
+
+const mainMenu: MenuEntry[] = [
   {
     title: "About",
     url: "/about",
     svg: (
       <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
     ),
-    collapseto: "more",
+    collapseTo: "more",
     description:
       "More information about Kodi and our other software packages, how to contact us, our sponsors, and the Kodi foundation.",
     footer: null,
@@ -61,7 +78,7 @@ const mainMenu = [
     title: "News",
     url: "/blog",
     svg: null,
-    collapseto: null,
+    collapseTo: null,
     description: null,
     dropdown: null,
     footer: null,
@@ -70,7 +87,7 @@ const mainMenu = [
     title: "Download",
     url: "/download",
     svg: null,
-    collapseto: null,
+    collapseTo: null,
     description: null,
     dropdown: null,
     footer: null,
@@ -79,7 +96,7 @@ const mainMenu = [
     title: "Add-ons",
     url: "/addons",
     svg: null,
-    collapseto: null,
+    collapseTo: null,
     description: null,
     footer:
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
@@ -115,7 +132,7 @@ const mainMenu = [
     title: "Get Help",
     url: "/gethelp",
     svg: <Icons.ChatAlt2Outline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseto: "more",
+    collapseTo: "more",
     description:
       "Information on our forums, user documentation, and developer resources.",
     footer: null,
@@ -147,7 +164,7 @@ const mainMenu = [
     title: "Contribute",
     url: "/contribute",
     svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseto: "more",
+    collapseTo: "more",
     description:
       "Learn about working on the Kodi project, donating, or even buying merchandise.",
     footer: null,
@@ -178,26 +195,23 @@ const mainMenu = [
   },
 ];
 
-function menuCollapse(menuname) {
-  let newmenu = {
-    title: menuname,
-    url: null,
-    collapseto: null,
+function menuCollapse(menuName: string) {
+  return {
+    title: menuName,
+    url: undefined,
+    collapseTo: null,
     description: null,
     footer: null,
-    dropdown: [],
+    svg: null,
+    dropdown: mainMenu.filter(
+      a =>
+        a.collapseTo !== null &&
+        a.collapseTo.toLowerCase() === menuName.toLowerCase()
+    ),
   };
-  for (let i = 0; i < mainMenu.length; i++) {
-    if (mainMenu[i].collapseto !== null) {
-      if (mainMenu[i].collapseto.toLowerCase() === menuname.toLowerCase()) {
-        newmenu.dropdown.push(mainMenu[i]);
-      }
-    }
-  }
-  return newmenu;
 }
 
-function Header(props) {
+function Header(props: any) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let mainclassname = "bg-kodibg pb-32";
   let borderclassname = "border-b border-gray-600";
@@ -245,10 +259,11 @@ function Header(props) {
                   </div>
                   <div className="hidden md:block lg:hidden">
                     <div className="ml-10 flex items-baseline space-x-4">
-                      {mainMenu.map((item, index) =>
-                        item.collapseto === null ? (
+                      {mainMenu.map(item =>
+                        item.collapseTo === null ? (
                           item.dropdown == null ? (
                             <a
+                              key={item.url}
                               href={item.url}
                               className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                             >
