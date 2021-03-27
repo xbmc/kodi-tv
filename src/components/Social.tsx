@@ -14,8 +14,8 @@ function Social() {
             w-7
             h-7
             rounded-full
-            text-white
-            bg-kodi
+            text-kodi
+            bg-white
             flex
             items-center
             justify-center
@@ -23,7 +23,7 @@ function Social() {
             duration-500
             ease
             select-none
-            hover:bg-kodi-darker
+            hover:bg-gray-400
             focus:outline-none
             focus:shadow-outline"
            />
