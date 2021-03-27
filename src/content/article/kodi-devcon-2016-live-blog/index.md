@@ -12,7 +12,7 @@ featured_image:
 
 [![image](/sites/default/files/uploads/image-800x402.jpeg)](/sites/default/files/uploads/image.jpeg)
 
-And that’s it for today. Tomorrow there should be les.webpm talk and more actual feature presen.webpns, so we look forward to seeing you all then!
+And that’s it for today. Tomorrow there should be less team talk and more actual feature presentations, so we look forward to seeing you all then!
 
 ## Afternoon Session – Day 1
 

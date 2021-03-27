@@ -9,26 +9,32 @@ breadcrumbs: About | Team
 The Kodi team is an ever-changing group of volunteers from across the globe that firmly believes in open-source software. Put simply, we write the software because we enjoy doing it – the incredible home-theater experience that results doesn’t hurt though!
 
 ### 2016 Devcon
-![Kodi team at 2016 Devcon](/images/devcon-2016.jpg)
+
+![Kodi team at 2016 Devcon](/images/devcon-2016.webp)
 
 ### 2015 Devcon
-![Kodi team at 2015 Devcon](/images/devcon-2015.jpg)
+
+![Kodi team at 2015 Devcon](/images/devcon-2015.webp)
 
 **Top:** alwinus, jjd-uk, keith, razze, ksooo, zag
 **Middle:** ruuk, koying, montellese, mkortstiege, , phil65, martijn
 **Bottom:** natethomas, paxxi, garbear, anssi, wisler, negge, hitcher, bignoid, da-anda, kib
 
 ### 2014 Devcon
-![Kodi team at 2014 Devcon](/images/devcon-2014.jpg)
+
+![Kodi team at 2014 Devcon](/images/devcon-2014.webp)
 
 ### 2013 Devcon
-![Kodi team at 2013 Devcon](/images/devcon-2013.jpg)
+
+![Kodi team at 2013 Devcon](/images/devcon-2013.webp)
 
 ### 2012 Devcon
-![Kodi team at 2012 Devcon](/images/devcon-2012.jpg)
+
+![Kodi team at 2012 Devcon](/images/devcon-2012.webp)
 
 ### 2008 Devcon
-![Kodi team at 2008 Devcon](/images/devcon-2008.jpg)
+
+![Kodi team at 2008 Devcon](/images/devcon-2008.webp)
 
 ## Join the team
 
