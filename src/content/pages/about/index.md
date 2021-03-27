@@ -8,7 +8,7 @@ breadcrumbs: About
 
 Kodi spawned from the love of media. It is media center and entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices. It is supported by a dedicated team of volunteers and a huge community.
 
-![Kodi on various devices](/images/about--devices.jpg)
+![Kodi on various devices](/images/about--devices.webp)
 
 Kodi is an award-winning free and open source (GPL) software media player and entertainment hub that can be installed on Linux, OSX, Windows, iOS, tvOS and Android. It is designed around a "10-foot user interface" for use with televisions and remote controls.
 
