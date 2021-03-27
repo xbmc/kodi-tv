@@ -57,7 +57,7 @@ function Page() {
       <FullWidthHeroCarousel
         slides={[
           {
-            image: "/images/heroes/ultimate-mediacenter.jpg",
+            image: "/images/heroes/ultimate-mediacenter.webp",
             title: "Kodi is the ultimate",
             subtitle: "entertainment center",
             description:
@@ -66,7 +66,7 @@ function Page() {
             buttontext: "Tell Me More",
           },
           {
-            image: "/images/heroes/addons.jpg",
+            image: "/images/heroes/addons.webp",
             title: "There is an",
             subtitle: "Add-on for that",
             description:
@@ -75,7 +75,7 @@ function Page() {
             buttontext: "Browse Add-ons",
           },
           {
-            image: "/images/heroes/community.jpg",
+            image: "/images/heroes/community.webp",
             title: "Kodi has a community",
             subtitle: "like no other",
             description:
@@ -165,7 +165,7 @@ function Page() {
         url="/about"
         buttontext="Show me all the good bits"
         image={{
-          src: "/images/skin-estuary-example.jpg",
+          src: "/images/skin-estuary-example.webp",
           title: "Estuary Skin",
           alt: "Estuary Skin showing music artists",
         }}
@@ -192,7 +192,7 @@ function Page() {
         url="/contribute"
         buttontext="Find Ways to Help"
         image={{
-          src: "/images/people-working.png",
+          src: "/images/people-working.webp",
           title: "three people working at a computer",
           alt: "three people working at a computer",
         }}

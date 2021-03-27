@@ -169,7 +169,7 @@ function getAddon(rawaddon) {
     }
     if (addon.broken == null) {
       if (addon.icons == null) {
-        addon.icons = [{ remotepath: "", localpath: "/images/default-addon.png" }];
+        addon.icons = [{ remotepath: "", localpath: "/images/default-addon.webp" }];
       }
       addon.icon = addon.icons[0].localpath;
       cleanUpDescriptions();
@@ -337,7 +337,7 @@ function assignAuthor(author) {
   authorcheck = addon.authors.find(o => o.name === author);
   if (authorcheck == undefined) {
     slug = slugify(author, { lower: true });
-    icon = "/images/authors/" + slug + ".png";
+    icon = "/images/authors/" + slug + ".webp";
     addon.authors.push({ name: author, slug: slug, icon: icon });
   }
 }
@@ -346,7 +346,7 @@ function assignCategory(category) {
   categorycheck = addon.categories.find(o => o.name === category);
   if (categorycheck == undefined) {
     slug = slugify(category, { lower: true });
-    icon = "/images/categories/" + slug + ".png";
+    icon = "/images/categories/" + slug + ".webp";
     addon.categories.push({ name: category, slug: slug, icon: icon });
   }
 }
