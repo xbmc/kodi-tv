@@ -1,21 +1,16 @@
 import React from "react";
-import { CurrencyDollar } from "heroicons-react";
 
 function Social() {
   return (
     <>
-
-      <a
-        className="pl-1"
-        href="/donate"
-        rel="noopener"
-      >
-          <CurrencyDollar className="
+      <a className="pl-1" href="/donate" rel="noopener">
+        <div
+          className="
             w-7
             h-7
             rounded-full
-            text-kodi
-            bg-white
+            bg-kodi
+            text-white
             flex
             items-center
             justify-center
@@ -23,12 +18,29 @@ function Social() {
             duration-500
             ease
             select-none
-            hover:bg-gray-400
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
-           />
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-dollar-sign"
+          >
+            <line x1="12" y1="1" x2="12" y2="23"></line>
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>{" "}
+        </div>
       </a>
- 
+
       <a
         className="pl-1"
         href="http://www.facebook.com/KodiEntertainment"
@@ -48,8 +60,8 @@ function Social() {
             duration-500
             ease
             select-none
-          hover:bg-kodi-darker
-          hover:text-gray-100
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
         >
@@ -69,6 +81,7 @@ function Social() {
           </svg>
         </div>
       </a>
+
       <a
         className="pl-1"
         href="https://twitter.com/koditv"
@@ -88,8 +101,8 @@ function Social() {
             duration-500
             ease
             select-none
-          hover:bg-kodi-darker
-          hover:text-gray-100
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
         >
@@ -128,8 +141,8 @@ function Social() {
             duration-500
             ease
             select-none
-          hover:bg-kodi-darker
-          hover:text-gray-100
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
         >
@@ -169,8 +182,8 @@ function Social() {
             duration-500
             ease
             select-none
-          hover:bg-kodi-darker
-          hover:text-gray-100
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
         >
@@ -205,8 +218,8 @@ function Social() {
             duration-500
             ease
             select-none
-          hover:bg-kodi-darker
-          hover:text-gray-100
+            hover:bg-kodi-darker
+            hover:text-gray-100
             focus:outline-none
             focus:shadow-outline"
         >
