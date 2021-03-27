@@ -2,8 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { ChevronDown, ChevronUp } from "heroicons-react";
+import { MenuEntry } from "./Header";
 
-function HeaderDropdownMenuMobile(props) {
+function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <>
@@ -34,8 +35,9 @@ function HeaderDropdownMenuMobile(props) {
           leaveTo="opacity-0 translate-y-1"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {props.menu.dropdown.map((item, index) => (
+            {props.menu.dropdown?.map((item, index) => (
               <a
+                key={item.url}
                 href={item.url}
                 className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
