@@ -2,7 +2,17 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-function GetFrontMatter(props) {
+function GetFrontMatter(props: {
+  preview?: boolean | undefined;
+  children?:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  frontmatter?: any;
+}) {
   let frontmatter = {};
   if (props.frontmatter !== undefined) {
     frontmatter = props.frontmatter;
@@ -10,7 +20,17 @@ function GetFrontMatter(props) {
   return frontmatter;
 }
 
-function DefaultLayout(props) {
+function DefaultLayout(props: {
+  preview: boolean | undefined;
+  children:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  frontmatter?: any;
+}) {
   let frontmatter = GetFrontMatter(props);
   let preview = false;
   if (props.preview != undefined) {
@@ -33,7 +53,16 @@ function DefaultLayout(props) {
   );
 }
 
-function LandingPage(props) {
+function LandingPage(props: {
+  children:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  frontmatter?: any;
+}) {
   let frontmatter = GetFrontMatter(props);
   return (
     <>
