@@ -162,7 +162,7 @@ function NavCard(props) {
                 return (
                   <>
                     <a
-                      key={tag.slug}
+                      key={index}
                       href={tag.slug}
                       className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                     >

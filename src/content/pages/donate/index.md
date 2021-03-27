@@ -10,12 +10,12 @@ Donations are used solely for purchasing hardware to improve and extend the goal
 
 ## Direct Donation Options
 
-- **Credit Card:** You can [do a one-time or recurring donation via credit card](./by-stripe).  We use Stripe for processing credit cards.
-- **PayPal:** You can [donate from your PayPal account for both one-time and recurring donations](./by-paypal).
-- **Patreon:** You can [support us on Patreon](./by-patreon), a crowdfunding membership platform that provides tools for creators to run a subscription content service.
+- **Credit Card:** You can [do a one-time or recurring donation via credit card](/donate/by-stripe).  We use Stripe for processing credit cards.
+- **PayPal:** You can [donate from your PayPal account for both one-time and recurring donations](/donate/by-paypal).
+- **Patreon:** You can [support us on Patreon](/donate/by-patreon), a crowdfunding membership platform that provides tools for creators to run a subscription content service.
 - **Liberapay:** You can [support us on Liberpay](https://liberapay.com/teamkodi), a non-profit organization providing a platform to donate money to teams, organizations and individuals.
-- **Bitcoin:** You can [donate Bitcoin to us via Bitpay](./by-bitpay).
-- **Wire Transfer/IBAN:** If you are in a country which is part of SEPA (Single Euro Payments Area), you can [do a wire transfer](./by-wire-transfer). Wire transfer or credit transfer is a method of electronic funds transfer from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
+- **Bitcoin:** You can [donate Bitcoin to us via Bitpay](/donate/by-bitpay).
+- **Wire Transfer/IBAN:** If you are in a country which is part of SEPA (Single Euro Payments Area), you can [do a wire transfer](/donate/by-wire-transfer). Wire transfer or credit transfer is a method of electronic funds transfer from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
 
 ## Other Options
 

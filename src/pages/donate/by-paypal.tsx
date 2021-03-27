@@ -39,7 +39,7 @@ export default class PagePayPal extends React.Component {
             id="paypal"
             action={process.env.GATSBY_PAYPAL_URL}
             method="post"
-            accept-charset="UTF-8"
+            acceptCharset="UTF-8"
           >
             <input
               type="hidden"
@@ -72,7 +72,7 @@ export default class PagePayPal extends React.Component {
                   <div>
                     <div className="flex justify-between">
                       <label
-                        for="os0"
+                        htmlFor="os0"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Name for Donor Wall
@@ -97,7 +97,7 @@ export default class PagePayPal extends React.Component {
                   <div>
                     <div className="flex justify-between">
                       <label
-                        for="os1"
+                        htmlFor="os1"
                         className="block text-sm font-medium text-gray-700"
                       >
                         Forum Username
@@ -139,7 +139,7 @@ export default class PagePayPal extends React.Component {
                           <div className="col-span-2">
                             <div>
                               <label
-                                for="dtype"
+                                htmlFor="dtype"
                                 className="block text-sm font-medium text-gray-700"
                               >
                                 Donation Type
@@ -161,7 +161,7 @@ export default class PagePayPal extends React.Component {
                             {this.state.dtype === "One-time" ? (
                               <>
                                 <label
-                                  for="amount"
+                                  htmlFor="amount"
                                   className="block text-sm font-medium text-gray-700"
                                 >
                                   Amount
@@ -179,7 +179,7 @@ export default class PagePayPal extends React.Component {
                             ) : (
                               <>
                                 <label
-                                  for="a3"
+                                  htmlFor="a3"
                                   className="block text-sm font-medium text-gray-700"
                                 >
                                   Amount
@@ -199,7 +199,7 @@ export default class PagePayPal extends React.Component {
 
                           <div>
                             <label
-                              for="currency_code"
+                              htmlFor="currency_code"
                               className="block text-sm font-medium text-gray-700"
                             >
                               Currency

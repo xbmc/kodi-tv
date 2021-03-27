@@ -23,12 +23,9 @@ function HeroRounded(props) {
               </p>
               <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div className="space-y-0 mx-auto grid-cols-1 gap-5">
-                  <a
-                    href={props.url}
-                    className="flex items-center justify-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-kodi bg-white hover:bg-indigo-50 px-8"
-                  >
+                  <Button href={props.url} variant="secondary">
                     {props.buttontext}
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -62,12 +59,9 @@ function HeroFullWidth(props) {
               </p>
               <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                 <div className="space-y-0 mx-auto grid-cols-1 gap-5">
-                  <a
-                    href={props.url}
-                    className="flex items-center justify-center py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-kodi bg-white hover:bg-indigo-50 px-8"
-                  >
+                  <Button href={props.url} variant="secondary">
                     {props.buttontext}
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>

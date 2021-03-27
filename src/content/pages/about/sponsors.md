@@ -3,9 +3,10 @@ pageslug: sponsors
 title: Official Sponsors
 breadcrumbs: About | Sponors
 ---
+
 x-section-x sponsors x-section-x
 
-# Becoming an Kodi Foundation Sponsor
+# Becoming a Kodi Foundation Sponsor
 
 Kodi is a fairly expensive operation to maintain, and as such, we are always happy to welcome new sponsors to the fold. Additional sponsorships make it easier to maintain our infrastructure, further development the app and to spread the word. To become an Kodi Foundation sponsor, any organization may simply contact the Kodi Foundation by email to contact (AT) kodi.tv.
 

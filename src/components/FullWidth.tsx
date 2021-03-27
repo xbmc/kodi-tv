@@ -1,12 +1,13 @@
 import React from "react";
 import { BlogPostCard } from "./Blog";
+import Button from "./Button";
 
 function FullWidthCallOut(props) {
   return (
     <>
       <div className="pt-12 pb-20 px-6">
         <div className="text-center text-5xl font-bold">{props.title}</div>
-        <div className="text-center text-2xl text-gray-400">{props.children}</div>
+        <div className="text-center text-2xl text-gray-500">{props.children}</div>
       </div>
     </>
   );
@@ -65,12 +66,7 @@ function FullWidthTwoPaneIconsRight(props) {
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">{props.children}</p>
                   <div className="mt-6">
-                    <a
-                      href={props.url}
-                      className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-kodi-lighter to-kodi-darker"
-                    >
-                      {props.buttontext}
-                    </a>
+                    <Button href={props.url}>{props.buttontext}</Button>
                   </div>
                 </div>
               </div>
@@ -106,12 +102,7 @@ function FullWidthTwoPaneImageLeft(props) {
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">{props.children}</p>
                   <div className="mt-6">
-                    <a
-                      href={props.url}
-                      className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-kodi-lighter to-kodi-darker"
-                    >
-                      {props.buttontext}
-                    </a>
+                    <Button href={props.url}>{props.buttontext}</Button>
                   </div>
                 </div>
               </div>
@@ -133,7 +124,7 @@ function FullWidthTwoPaneImageLeft(props) {
   );
 }
 
-function FullWidthLogoList(props) {
+function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
   return (
     <>
       <div className="bg-white">
@@ -142,14 +133,16 @@ function FullWidthLogoList(props) {
             {props.title}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
-            {props.images.map((image, index) => (
+            {props.sponsors.map((sponsor, index) => (
               <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-                <img
-                  className="h-12"
-                  src={image.src}
-                  title={image.title}
-                  alt={image.alt}
-                />
+                <a href={sponsor.slug} target="_blank" rel="noopener">
+                  <img
+                    className="h-12"
+                    src={sponsor.image.src}
+                    title={sponsor.image.title}
+                    alt={sponsor.image.alt}
+                  />
+                </a>
               </div>
             ))}
           </div>
@@ -183,12 +176,9 @@ function FullWidthCTAImageLeft(props) {
             <p className="mt-3 text-lg text-gray-300">{props.children}</p>
             <div className="mt-8">
               <div className="inline-flex rounded-md shadow">
-                <a
-                  href={props.url}
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
-                >
+                <Button href={props.url} variant="secondary">
                   {props.buttontext}
-                </a>
+                </Button>
               </div>
             </div>
           </div>
@@ -230,7 +220,7 @@ export {
   FullWidthFeaturesWithIcons,
   FullWidthTwoPaneIconsRight,
   FullWidthTwoPaneImageLeft,
-  FullWidthLogoList,
+  FullWidthSponsorList,
   FullWidthCTAImageLeft,
   FullWidthNews,
 };
