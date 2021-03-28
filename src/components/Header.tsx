@@ -10,9 +10,7 @@ import * as Icons from "heroicons-react";
 export interface MenuEntry {
   title: string;
   url: string | undefined;
-  collapseTo: string | null;
-  svg: JSX.Element | null;
-  description: string | null;
+  buttonType: string;
   footer: string | null;
   dropdown: DropDownItem[] | null;
 }
@@ -24,16 +22,14 @@ export interface DropDownItem {
   description: string | null;
 }
 
+let regularButton = "text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+let specialButton = "text-gray-300 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+
 const mainMenu: MenuEntry[] = [
   {
     title: "About",
     url: "/about",
-    svg: (
-      <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-    ),
-    collapseTo: null,
-    description:
-      "More information about Kodi and our other software packages, how to contact us, our sponsors, and the Kodi foundation.",
+    buttonType: regularButton,
     footer: null,
     dropdown: [
       {
@@ -77,27 +73,21 @@ const mainMenu: MenuEntry[] = [
   {
     title: "News",
     url: "/blog",
-    svg: null,
-    collapseTo: null,
-    description: null,
+    buttonType: regularButton,
     dropdown: null,
     footer: null,
   },
   {
     title: "Download",
     url: "/download",
-    svg: null,
-    collapseTo: null,
-    description: null,
+    buttonType: regularButton,
     dropdown: null,
     footer: null,
   },
   {
     title: "Add-ons",
     url: "/addons",
-    svg: null,
-    collapseTo: null,
-    description: null,
+    buttonType: regularButton,
     footer:
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
     dropdown: [
@@ -131,9 +121,7 @@ const mainMenu: MenuEntry[] = [
   {
     title: "Help",
     url: null,
-    svg: null,
-    collapseTo: null,
-    description: null,
+    buttonType: regularButton,
     footer: null,
     dropdown: [
       {
@@ -167,38 +155,18 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
-    title: "Donate",
-    url: "/donate",
-    svg: null,
-    description: null,
-    collapseTo: null,
+    title: "Merch",
+    buttonType: regularButton,
+    url: "/store",
     footer: null,
   },
   {
-    title: "Store",
-    url: "/store",
-    svg: null,
-    description: null,
-    collapseTo: null,
+    title: "Donate",
+    buttonType: specialButton,
+    url: "/donate",
     footer: null,
   },
 ];
-
-function menuCollapse(menuName: string) {
-  return {
-    title: menuName,
-    url: undefined,
-    collapseTo: null,
-    description: null,
-    footer: null,
-    svg: null,
-    dropdown: mainMenu.filter(
-      a =>
-        a.collapseTo !== null &&
-        a.collapseTo.toLowerCase() === menuName.toLowerCase()
-    ),
-  };
-}
 
 function Header(props: any) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
@@ -237,7 +205,7 @@ function Header(props: any) {
                           <a
                             key={item.url}
                             href={item.url}
-                            className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            className={item.buttonType}
                           >
                             {item.title}
                           </a>
