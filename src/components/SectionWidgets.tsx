@@ -5,6 +5,7 @@ import ArrowRightIcon from "./ArrowRightIcon";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
 import * as Icons from "heroicons-react";
+import { StaticImage } from "gatsby-plugin-image";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
@@ -79,15 +80,19 @@ function AboutOfficialRemotes() {
       <div className="flex justify-start">
         <div>
           <span>Kore™ (Android)</span>
-          <img
+          <StaticImage
             className="w-200 h-200"
             alt="Kore QR Code"
-            src="/images/kore-qr.webp"
+            src="../../static/images/kore-qr.webp"
           />
         </div>
         <div>
           <span>Official Kodi Remote (iOS)</span>
-          <img className="w-200 h-200" alt="iOS QR Code" src="/images/ios-qr.webp" />
+          <StaticImage
+            className="w-200 h-200"
+            alt="iOS QR Code"
+            src="../../static/images/ios-qr.webp"
+          />
         </div>
       </div>
     </>
