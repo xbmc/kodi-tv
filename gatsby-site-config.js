@@ -6,9 +6,9 @@ if (process.env.GATSBY_SITEURL === undefined) {
   url = process.env.GATSBY_SITEURL;
 }
 if (process.env.NETLIFYCMS_BACKEND_BRANCH === undefined) {
-  backend_branch = "staging"
+  backend_branch = "staging";
 } else {
-  backend_branch = process.env.NETLIFYCMS_BACKEND_BRANCH
+  backend_branch = process.env.NETLIFYCMS_BACKEND_BRANCH;
 }
 
 module.exports = {
@@ -26,7 +26,7 @@ module.exports = {
         repo: "xbmc/kodi-tv",
         branch: backend_branch,
       },
-      site_url: url
-    }
-  }
+      site_url: url,
+    },
+  },
 };

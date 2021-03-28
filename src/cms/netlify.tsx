@@ -133,7 +133,6 @@ CMS.registerPreviewTemplate("addonpages", PagePreview);
 CMS.registerPreviewTemplate("contribpages", PagePreview);
 CMS.registerPreviewTemplate("donatepages", PagePreview);
 CMS.registerPreviewTemplate("downloadpages", PagePreview);
-CMS.registerPreviewTemplate("helppages", PagePreview);
 CMS.registerPreviewTemplate("distribution", DistributionPreview);
 CMS.registerPreviewTemplate("sponsors", SponsorPreview);
 CMS.registerPreviewTemplate("store", StoreItemPreview);
