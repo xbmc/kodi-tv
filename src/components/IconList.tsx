@@ -1,32 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-
-function FeaturedCard(props) {
-  let item = props.item;
-  let linkroot = "";
-  if (props.linkroot != undefined) {
-    linkroot = props.linkroot;
-  }
-  return (
-    <>
-      <a className="mt-12 flex flex-col bg-gray-100" href={linkroot + item.slug}>
-        <div className="flex-shrink-0 pl-6">
-          <img className="-mt-12 h-32 w-32 border bg-white" src={item.icon} alt="" />
-        </div>
-        <div className="flex-1 p-6 flex flex-col justify-between">
-          <div className="flex-1">
-            <ReactMarkdown className="text-base font-semibold text-gray-900">
-              {item.name}
-            </ReactMarkdown>
-            <ReactMarkdown className="mt-3 text-sm text-gray-600">
-              {item.snippet}
-            </ReactMarkdown>
-          </div>
-        </div>
-      </a>
-    </>
-  );
-}
+import { FeaturedCard } from "./Card";
 
 function IconListFeatured(props: {
   items: any[];
@@ -54,7 +28,23 @@ function IconListFeatured(props: {
     <>
       <div className={className}>
         {items.map((item, index) => (
-          <FeaturedCard item={item} linkroot={linkroot} />
+          <FeaturedCard
+            iconClass={
+              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-white"
+            }
+            title={item.name}
+            icon={
+              <img
+                className="rounded-md"
+                alt={item.name + " icon"}
+                title={item.name + " icon"}
+                src={item.icon}
+              />
+            }
+            url={linkroot + item.slug}
+          >
+            {item.snippet}
+          </FeaturedCard>
         ))}
       </div>
     </>
