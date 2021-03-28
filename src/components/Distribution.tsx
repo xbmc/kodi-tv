@@ -15,11 +15,11 @@ function Distribution(props) {
 
   return (
     <DefaultLayout frontmatter={frontmatter} preview={preview}>
-      <div className="grid grid-cols-12 gap-4">
-        <div className="col-span-1">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-12">
+        <div className="col-span-1 md:col-span-2">
           <img width="150" height="150" alt="" src={dist.icon} />
         </div>
-        <div className="col-span-11">
+        <div className="col-span-1 md:col-span-10">
           <span className="prose prose-blue">
             If you need extra help, checkout our{" "}
             <a href={dist.howto}>"How To" Guide</a> for {dist.name}.

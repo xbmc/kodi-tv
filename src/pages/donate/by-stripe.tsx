@@ -379,7 +379,7 @@ export default class PageStripe extends React.Component {
                             <button
                               type="submit"
                               onClick={handleOneTimeClick}
-                              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-kodi hover:bg-kodi-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-kodi-lighter"
+                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
                             >
                               Donate
                             </button>
@@ -389,7 +389,7 @@ export default class PageStripe extends React.Component {
                             <button
                               type="submit"
                               disabled="true"
-                              className="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
                             >
                               Donate
                             </button>

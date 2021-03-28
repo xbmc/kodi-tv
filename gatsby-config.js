@@ -114,12 +114,16 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/netlify.tsx`,
+        manualInit: true,
       },
     },
     {

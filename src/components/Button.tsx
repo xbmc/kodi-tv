@@ -20,6 +20,7 @@ class Button extends React.Component<Props> {
             justify-center
             px-8
             py-3
+            mr-2
             border
             border-transparent
             text-base
@@ -50,6 +51,7 @@ class Button extends React.Component<Props> {
             justify-center
             px-8
             py-3
+            mr-2
             border
             border-transparent
             text-base

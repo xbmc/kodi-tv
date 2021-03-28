@@ -60,18 +60,16 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
   return (
     <>
       {props.sponsors.map((sponsor, index) => (
-        <>
-          <li key={sponsor.name}>
-            <a
-              target="_blank"
-              rel="noopener"
-              href={sponsor.slug}
-              className="text-base text-gray-600 hover:text-gray-900"
-            >
-              {sponsor.name}
-            </a>
-          </li>
-        </>
+        <li key={sponsor.name}>
+          <a
+            target="_blank"
+            rel="noopener"
+            href={sponsor.slug}
+            className="text-base text-gray-600 hover:text-gray-900"
+          >
+            {sponsor.name}
+          </a>
+        </li>
       ))}
     </>
   );

@@ -11,7 +11,6 @@ import {
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
-import { Card } from "./Card";
 import { Carousel } from "./Carousel";
 import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
@@ -148,13 +147,13 @@ export default function AddonLayout({
           </div>
         </div>
       </div>
-      <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-blue-400 p-4">
+      <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-kodi-darker p-4">
         <div className="flex">
           <div className="flex-shrink-0">
-            <InformationCircleOutline className="h-5 w-5 text-blue-400" />
+            <InformationCircleOutline className="h-5 w-5 text-kodi-darker" />
           </div>
           <div className="ml-3">
-            <p className="text-sm text-blue-700">
+            <p className="text-sm text-kodi-darker">
               To download this Add-On, we highly recommend you do it via the user
               interface in Kodi. Simply look for the "Get More" button in the Add-Ons
               menu. If you want to install it manually, you can direct download from

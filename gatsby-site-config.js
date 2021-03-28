@@ -5,6 +5,11 @@ if (process.env.GATSBY_SITEURL === undefined) {
 } else {
   url = process.env.GATSBY_SITEURL;
 }
+if (process.env.NETLIFYCMS_BACKEND_BRANCH === undefined) {
+  backend_branch = "staging";
+} else {
+  backend_branch = process.env.NETLIFYCMS_BACKEND_BRANCH;
+}
 
 module.exports = {
   siteMetadata: {
@@ -13,5 +18,15 @@ module.exports = {
       "Kodi is a free media player that is designed to look great on your big screen TV but is just as home on a small screen.",
     siteUrl: url,
     author: "Team Kodi",
+  },
+  cms: {
+    config: {
+      backend: {
+        name: "github",
+        repo: "xbmc/kodi-tv",
+        branch: backend_branch,
+      },
+      site_url: url,
+    },
   },
 };

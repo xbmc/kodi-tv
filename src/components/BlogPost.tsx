@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
 
-export default function BlogPost(props) {
+export default function BlogPost(props: { preview?: any; blogPost?: any }) {
   const { blogPost } = props;
   let preview = false;
   if (props.preview != undefined) {

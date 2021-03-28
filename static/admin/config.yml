@@ -1,9 +1,3 @@
-backend:
-  name: "github"
-  repo: "xbmc/kodi-tv"
-  branch: "main"
-
-site_url: "https://kodi-tv.netlify.app"
 media_folder: "/static/images"
 public_folder: "/images"
 publish_mode: "editorial_workflow"
@@ -120,23 +114,6 @@ collections:
     path: "{{pageslug}}"
     identifier_field: "pageslug"
     preview_path: "/download/{{pageslug}}"
-    media_folder: "/static/images"
-    public_folder: "/images"
-    summary: "{{fields.title}} ({{filename}}.{{extension}})"
-    sortable_fields: ["title", "commit_date"]
-    fields:
-      - { name: "pageslug", label: "Page File Name", widget: "string" }
-      - { name: "title", label: "Page Title", widget: "string" }
-      - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "helppages"
-    label: "Help Pages"
-    label_singular: "Help Page"
-    folder: "src/content/pages/gethelp"
-    create: true
-    path: "{{pageslug}}"
-    identifier_field: "pageslug"
-    preview_path: "/gethelp/{{pageslug}}"
     media_folder: "/static/images"
     public_folder: "/images"
     summary: "{{fields.title}} ({{filename}}.{{extension}})"

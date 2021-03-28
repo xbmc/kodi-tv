@@ -7,16 +7,31 @@ import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
 
-const mainMenu = [
+export interface MenuEntry {
+  title: string;
+  url: string | undefined;
+  buttonType: string;
+  footer: string | null;
+  dropdown: DropDownItem[] | null;
+}
+
+export interface DropDownItem {
+  title: string;
+  url: string | undefined;
+  svg: JSX.Element | null;
+  description: string | null;
+}
+
+let regularButton =
+  "text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+let specialButton =
+  "text-gray-300 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+
+const mainMenu: MenuEntry[] = [
   {
     title: "About",
     url: "/about",
-    svg: (
-      <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-    ),
-    collapseto: "more",
-    description:
-      "More information about Kodi and our other software packages, how to contact us, our sponsors, and the Kodi foundation.",
+    buttonType: regularButton,
     footer: null,
     dropdown: [
       {
@@ -60,27 +75,21 @@ const mainMenu = [
   {
     title: "News",
     url: "/blog",
-    svg: null,
-    collapseto: null,
-    description: null,
+    buttonType: regularButton,
     dropdown: null,
     footer: null,
   },
   {
     title: "Download",
     url: "/download",
-    svg: null,
-    collapseto: null,
-    description: null,
+    buttonType: regularButton,
     dropdown: null,
     footer: null,
   },
   {
     title: "Add-ons",
     url: "/addons",
-    svg: null,
-    collapseto: null,
-    description: null,
+    buttonType: regularButton,
     footer:
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
     dropdown: [
@@ -112,14 +121,18 @@ const mainMenu = [
     ],
   },
   {
-    title: "Get Help",
-    url: "/gethelp",
-    svg: <Icons.ChatAlt2Outline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseto: "more",
-    description:
-      "Information on our forums, user documentation, and developer resources.",
+    title: "Help",
+    url: null,
+    buttonType: regularButton,
     footer: null,
     dropdown: [
+      {
+        title: "Working on Kodi",
+        url: "/contribute",
+        svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description:
+          "We are always looking for people to help develop and support Kodi.",
+      },
       {
         title: "Forum",
         url: "https://forum.kodi.tv",
@@ -144,60 +157,20 @@ const mainMenu = [
     ],
   },
   {
-    title: "Contribute",
-    url: "/contribute",
-    svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseto: "more",
-    description:
-      "Learn about working on the Kodi project, donating, or even buying merchandise.",
+    title: "Merch",
+    buttonType: regularButton,
+    url: "/store",
     footer: null,
-    dropdown: [
-      {
-        title: "Working on Kodi",
-        url: "/contribute",
-        svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description:
-          "We are always looking for people to help develop and support Kodi.",
-      },
-      {
-        title: "Donate",
-        url: "/donate",
-        svg: <Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description:
-          "Funds we raise go to improving and extending the goals of the Kodi Foundation.",
-      },
-      {
-        title: "Store",
-        url: "/store",
-        svg: (
-          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
-        description: "Buy Kodi merchandise.",
-      },
-    ],
+  },
+  {
+    title: "Donate",
+    buttonType: specialButton,
+    url: "/donate",
+    footer: null,
   },
 ];
 
-function menuCollapse(menuname) {
-  let newmenu = {
-    title: menuname,
-    url: null,
-    collapseto: null,
-    description: null,
-    footer: null,
-    dropdown: [],
-  };
-  for (let i = 0; i < mainMenu.length; i++) {
-    if (mainMenu[i].collapseto !== null) {
-      if (mainMenu[i].collapseto.toLowerCase() === menuname.toLowerCase()) {
-        newmenu.dropdown.push(mainMenu[i]);
-      }
-    }
-  }
-  return newmenu;
-}
-
-function Header(props) {
+function Header(props: any) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let mainclassname = "bg-kodibg pb-32";
   let borderclassname = "border-b border-gray-600";
@@ -213,9 +186,9 @@ function Header(props) {
 
       <div className={mainclassname}>
         <nav className="bg-kodibg">
-          <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto sm:px-2 lg:px-6">
             <div className={borderclassname}>
-              <div className="flex items-center justify-between h-16 px-4 sm:px-0">
+              <div className="flex items-center justify-between h-16 px-0">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <a href="/">
@@ -227,46 +200,26 @@ function Header(props) {
                       />
                     </a>
                   </div>
-                  <div className="hidden lg:block">
-                    <div className="ml-10 flex items-baseline space-x-2">
+                  <div className="hidden md:block">
+                    <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map((item, index) =>
                         item.dropdown == null ? (
                           <a
+                            key={item.url}
                             href={item.url}
-                            className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                            className={item.buttonType}
                           >
                             {item.title}
                           </a>
                         ) : (
-                          <HeaderDropdownMenu menu={item} />
+                          <HeaderDropdownMenu key={item.url} menu={item} />
                         )
                       )}
-                    </div>
-                  </div>
-                  <div className="hidden md:block lg:hidden">
-                    <div className="ml-10 flex items-baseline space-x-4">
-                      {mainMenu.map((item, index) =>
-                        item.collapseto === null ? (
-                          item.dropdown == null ? (
-                            <a
-                              href={item.url}
-                              className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                            >
-                              {item.title}
-                            </a>
-                          ) : (
-                            <HeaderDropdownMenu menu={item} />
-                          )
-                        ) : (
-                          ""
-                        )
-                      )}
-                      <HeaderDropdownMenu menu={menuCollapse("More")} />
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block">
-                  <div className="ml-4 flex items-center md:ml-6">
+                <div className="hidden lg:block">
+                  <div className="ml-4 flex items-center lg:ml-6">
                     <Social />
                   </div>
                 </div>
@@ -295,12 +248,13 @@ function Header(props) {
                     item.dropdown == null ? (
                       <a
                         href={item.url}
+                        key={item.url}
                         className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item.title}
                       </a>
                     ) : (
-                      <HeaderDropdownMenuMobile menu={item} />
+                      <HeaderDropdownMenuMobile key={item.url} menu={item} />
                     )
                   )}
                 </div>

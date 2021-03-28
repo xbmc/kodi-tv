@@ -1,7 +1,4 @@
-const slugify = require("slugify");
-
 import React from "react";
-import ReactMarkdown from "react-markdown";
 import { graphql } from "gatsby";
 import BlogPost from "../components/BlogPost";
 

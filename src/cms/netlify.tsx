@@ -7,6 +7,9 @@ import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
 import { Sponsor } from "../hooks/Sponsors";
 
+const config = require("../../gatsby-site-config");
+CMS.init(config.cms);
+
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
   post.rawMarkdownBody = entry.getIn(["data", "body"]);
@@ -112,13 +115,13 @@ const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
 };
 
 const StoreItemPreview = ({ entry, getAsset }) => {
-  let items = [];
-  let item = {};
-  item.name = entry.getIn(["data", "name"]);
-  item.slug = entry.getIn(["data", "slug"]);
-  let rawImage = entry.getIn(["data", "icon"]);
-  item.icon = getAsset(rawImage).toString();
-  items.push(item);
+  let items = [
+    {
+      name: entry.getIn(["data", "name"]),
+      slug: entry.getIn(["data", "slug"]),
+      icon: getAsset(entry.getIn(["data", "icon"])).toString(),
+    },
+  ];
 
   return <IconList items={items} iconwidth="256" iconheight="256" />;
 };
@@ -130,7 +133,6 @@ CMS.registerPreviewTemplate("addonpages", PagePreview);
 CMS.registerPreviewTemplate("contribpages", PagePreview);
 CMS.registerPreviewTemplate("donatepages", PagePreview);
 CMS.registerPreviewTemplate("downloadpages", PagePreview);
-CMS.registerPreviewTemplate("helppages", PagePreview);
 CMS.registerPreviewTemplate("distribution", DistributionPreview);
 CMS.registerPreviewTemplate("sponsors", SponsorPreview);
 CMS.registerPreviewTemplate("store", StoreItemPreview);
