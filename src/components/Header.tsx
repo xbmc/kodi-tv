@@ -31,7 +31,7 @@ const mainMenu: MenuEntry[] = [
     svg: (
       <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
     ),
-    collapseTo: "more",
+    collapseTo: null,
     description:
       "More information about Kodi and our other software packages, how to contact us, our sponsors, and the Kodi foundation.",
     footer: null,
@@ -129,14 +129,20 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
-    title: "Get Help",
-    url: "/gethelp",
-    svg: <Icons.ChatAlt2Outline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseTo: "more",
-    description:
-      "Information on our forums, user documentation, and developer resources.",
+    title: "Help",
+    url: null,
+    svg: null,
+    collapseTo: null,
+    description: null,
     footer: null,
     dropdown: [
+      {
+        title: "Working on Kodi",
+        url: "/contribute",
+        svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description:
+          "We are always looking for people to help develop and support Kodi.",
+      },
       {
         title: "Forum",
         url: "https://forum.kodi.tv",
@@ -161,37 +167,20 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
-    title: "Contribute",
-    url: "/contribute",
-    svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-    collapseTo: "more",
-    description:
-      "Learn about working on the Kodi project, donating, or even buying merchandise.",
+    title: "Donate",
+    url: "/donate",
+    svg: null,
+    description: null,
+    collapseTo: null,
     footer: null,
-    dropdown: [
-      {
-        title: "Working on Kodi",
-        url: "/contribute",
-        svg: <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description:
-          "We are always looking for people to help develop and support Kodi.",
-      },
-      {
-        title: "Donate",
-        url: "/donate",
-        svg: <Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description:
-          "Funds we raise go to improving and extending the goals of the Kodi Foundation.",
-      },
-      {
-        title: "Store",
-        url: "/store",
-        svg: (
-          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
-        description: "Buy Kodi merchandise.",
-      },
-    ],
+  },
+  {
+    title: "Store",
+    url: "/store",
+    svg: null,
+    description: null,
+    collapseTo: null,
+    footer: null,
   },
 ];
 
@@ -229,7 +218,7 @@ function Header(props: any) {
         <nav className="bg-kodibg">
           <div className="max-w-7xl mx-auto sm:px-2 lg:px-6">
             <div className={borderclassname}>
-              <div className="flex items-center justify-between h-16 px-4 sm:px-0">
+              <div className="flex items-center justify-between h-16 px-0">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <a href="/">
@@ -241,8 +230,8 @@ function Header(props: any) {
                       />
                     </a>
                   </div>
-                  <div className="hidden lg:block">
-                    <div className="ml-10 flex items-baseline space-x-2">
+                  <div className="hidden md:block">
+                    <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map((item, index) =>
                         item.dropdown == null ? (
                           <a
@@ -258,31 +247,9 @@ function Header(props: any) {
                       )}
                     </div>
                   </div>
-                  <div className="hidden md:block lg:hidden">
-                    <div className="ml-10 flex items-baseline space-x-4">
-                      {mainMenu.map(item =>
-                        item.collapseTo === null ? (
-                          item.dropdown == null ? (
-                            <a
-                              key={item.url}
-                              href={item.url}
-                              className="text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                            >
-                              {item.title}
-                            </a>
-                          ) : (
-                            <HeaderDropdownMenu menu={item} />
-                          )
-                        ) : (
-                          ""
-                        )
-                      )}
-                      <HeaderDropdownMenu menu={menuCollapse("More")} />
-                    </div>
-                  </div>
                 </div>
-                <div className="hidden md:block">
-                  <div className="ml-4 flex items-center md:ml-6">
+                <div className="hidden lg:block">
+                  <div className="ml-4 flex items-center lg:ml-6">
                     <Social />
                   </div>
                 </div>

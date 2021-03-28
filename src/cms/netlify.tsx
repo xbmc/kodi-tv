@@ -8,7 +8,7 @@ import { Distribution } from "../components/Distribution";
 import { Sponsor } from "../hooks/Sponsors";
 
 const config = require("../../gatsby-site-config");
-CMS.init(config.cms)
+CMS.init(config.cms);
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
