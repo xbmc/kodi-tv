@@ -78,7 +78,7 @@ function AboutOfficialRemotes() {
   return (
     <>
       <div className="flex justify-start">
-        <div>
+        <div className="flex flex-col items-center">
           <span>Kore™ (Android)</span>
           <StaticImage
             className="w-200 h-200"
@@ -86,7 +86,7 @@ function AboutOfficialRemotes() {
             src="../../static/images/kore-qr.webp"
           />
         </div>
-        <div>
+        <div className="flex flex-col items-center">
           <span>Official Kodi Remote (iOS)</span>
           <StaticImage
             className="w-200 h-200"
