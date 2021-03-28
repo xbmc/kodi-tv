@@ -7,6 +7,9 @@ import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
 import { Sponsor } from "../hooks/Sponsors";
 
+const config = require("../../gatsby-site-config");
+CMS.init(config.cms)
+
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
   post.rawMarkdownBody = entry.getIn(["data", "body"]);

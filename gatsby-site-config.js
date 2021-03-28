@@ -5,6 +5,11 @@ if (process.env.GATSBY_SITEURL === undefined) {
 } else {
   url = process.env.GATSBY_SITEURL;
 }
+if (process.env.NETLIFYCMS_BACKEND_BRANCH === undefined) {
+  backend_branch = "staging"
+} else {
+  backend_branch = process.env.NETLIFYCMS_BACKEND_BRANCH
+}
 
 module.exports = {
   siteMetadata: {
@@ -14,4 +19,14 @@ module.exports = {
     siteUrl: url,
     author: "Team Kodi",
   },
+  cms: {
+    config: {
+      backend: {
+        name: "github",
+        repo: "xbmc/kodi-tv",
+        branch: backend_branch,
+      },
+      site_url: url
+    }
+  }
 };
