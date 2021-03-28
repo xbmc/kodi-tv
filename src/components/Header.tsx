@@ -253,7 +253,7 @@ function Header(props: any) {
                             {item.title}
                           </a>
                         ) : (
-                          <HeaderDropdownMenu menu={item} />
+                          <HeaderDropdownMenu key={item.url} menu={item} />
                         )
                       )}
                     </div>
