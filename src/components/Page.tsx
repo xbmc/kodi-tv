@@ -8,11 +8,11 @@ import {
   AboutGallery,
   AboutContactNote,
   AboutOfficialRemotes,
+  ContributeGallery,
   CtaButtonExternal,
   CtaButtonInternal,
   DownloadNotice,
   SponsorList,
-  SpreadTheWord,
 } from "./SectionWidgets";
 
 function PreviewNoticeCard(props) {
@@ -37,6 +37,7 @@ function DynamicSection(props) {
     aboutdisclaimer: <AboutDisclaimer />,
     aboutgallery: <AboutGallery />,
     contactnote: <AboutContactNote />,
+    contributegallery: <ContributeGallery />,
     downloadnotice: <DownloadNotice />,
     officialremotes: <AboutOfficialRemotes />,
     otherwaystohelp: (
@@ -45,36 +46,6 @@ function DynamicSection(props) {
     jointheteam: (
       <CtaButtonInternal url="/contribute/developers" buttontext="Join the Team" />
     ),
-    visitforum: (
-      <CtaButtonExternal url="https://forum.kodi.tv" buttontext="Visit the Forums" />
-    ),
-    visitqa: (
-      <CtaButtonExternal
-        url="https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing"
-        buttontext="Help with QA"
-      />
-    ),
-    visitcoding: (
-      <CtaButtonInternal
-        url="/contribute/developers"
-        buttontext="Help with Coding"
-      />
-    ),
-    spreadtheword: <SpreadTheWord />,
-    visittranslate: (
-      <CtaButtonExternal
-        url="https://kodi.wiki/index.php?title=Translation_System"
-        buttontext="Help with Translations"
-      />
-    ),
-    visitaddondev: (
-      <CtaButtonExternal
-        url="https://kodi.wiki/view/Add-on_development"
-        buttontext="Build Your First Add-on"
-      />
-    ),
-    visitdonate: <CtaButtonInternal url="/donate" buttontext="Donate to Kodi" />,
-    visitstore: <CtaButtonInternal url="/store" buttontext="Purchase Kodi Merch" />,
     visitsponsoring: (
       <CtaButtonInternal
         url="about/sponsors"

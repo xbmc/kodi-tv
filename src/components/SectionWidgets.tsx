@@ -1,9 +1,10 @@
 import React from "react";
-import { Card, RoundedCardWithImage } from "./Card";
+import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import ArrowRightIcon from "./ArrowRightIcon";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
+import * as Icons from "heroicons-react";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
@@ -39,39 +40,6 @@ function DownloadNotice() {
           need to be paid for is not endorsed or approved by Team Kodi.
         </p>
       </Card>
-    </>
-  );
-}
-
-function SpreadTheWord() {
-  return (
-    <>
-      <div className="flex mb-6">
-        <div>
-          <Button
-            variant="primary"
-            component="a"
-            target="_blank"
-            rel="noopener"
-            href="https://www.facebook.com/KodiEntertainment"
-            isLarge
-          >
-            Facebook
-          </Button>
-        </div>
-        <div>
-          <Button
-            variant="primary"
-            component="a"
-            target="_blank"
-            rel="noopener"
-            href="https://twitter.com/koditv"
-            isLarge
-          >
-            Twitter
-          </Button>
-        </div>
-      </div>
     </>
   );
 }
@@ -154,6 +122,116 @@ function AboutDisclaimer() {
         </p>
       </Card>
     </>
+  );
+}
+
+function ContributeGallery() {
+  return (
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <FeaturedCard
+        icon={<Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        title="Helping Users"
+      >
+        Our support process relies on enthusiastic contributors like you to help
+        others get the most out of Kodi Foundation products. The #1 priority is
+        always answering questions in our support forums. Everyday new people
+        discover a Kodi Foundation product, and everyday they are virtually
+        guaranteed to have questions. If you are knowledgeable in a certain area in
+        one of our products, or simply want to try help others, we highly encourage
+        you to [field questions in the forums](https://forum.kodi.tv).
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={
+          <Icons.ShieldCheckOutline className="flex-shrink-0 h-6 w-6 text-white" />
+        }
+        title="Performing Quality Assurance"
+      >
+        Quality Assurance testing is one of the easiest ways to get started with one
+        of our products and is a great way to get familiar with our code and tools.
+        [You can find more information on our wiki
+        page](https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing).
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={
+          <Icons.DocumentTextOutline className="flex-shrink-0 h-6 w-6 text-white" />
+        }
+        title="Writing Documentation"
+      >
+        The Kodi Foundation wiki pages are the hub for information about Kodi
+        Foundation technologies. Help make our documentation better by writing new
+        content, correcting existing material or translating content into new
+        languages.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        title="Coding"
+      >
+        [Developers can help the Kodi Foundation](/contribute/developers) by adding
+        new features, making our technology smaller and faster and making development
+        easier for others. Our code base consist of a variety of coding languages.
+        Our add-ons mainly consist of python and XML.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={
+          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-white" />
+        }
+        title="Building an Add-on"
+      >
+        Add-ons are what make Kodi the most extensible and customizable entertainment
+        center available. [Get started building an
+        add-on](https://kodi.wiki/view/Add-on_development), and learn more about the
+        different ways you can contribute.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<Icons.GlobeAltOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        title="Helping with Translations"
+      >
+        Get involved with Kodi Foundation by making Kodi, add-ons and other projects
+        available in your language. [Our translation system wiki page has more
+        detailed information](https://kodi.wiki/index.php?title=Translation_System).
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        title="Donating"
+      >
+        We are always happy to [receive a donation](/donate). Donations are typically
+        used for travel to attend conferences, any necessary paperwork and legal
+        fees, and the yearly Kodi Foundation Developers Conference, where a great
+        deal of planning and coding for the following year occurs. Donations may also
+        be used to purchase necessary hardware and licenses for developers, along
+        with t-shirts, stickers, and other accessories for conferences.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={
+          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-white" />
+        }
+        title="Buying Kodi Merch"
+      >
+        Purchasing Kodi gear helps just as much as a donation, and you get something
+        in return! [Checkout our store](/store) for Kodi branded gear. We are
+        regularly adding new products so check back often.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={
+          <Icons.SpeakerphoneOutline className="flex-shrink-0 h-6 w-6 text-white" />
+        }
+        title="Spreading the Word"
+      >
+        Help us spread the word about how Kodi and other Kodi Foundation projects
+        creating a better entertainment experience. Share Kodi with the world by
+        either one the available social channels like
+        [Facebook](https://facebook.com) or [Twitter](https://twitter.com). Or simply
+        tell you friends and family about it.
+      </FeaturedCard>
+    </div>
   );
 }
 
@@ -285,9 +363,9 @@ export {
   AboutGallery,
   AboutContactNote,
   AboutOfficialRemotes,
+  ContributeGallery,
   CtaButtonExternal,
   CtaButtonInternal,
   DownloadNotice,
   SponsorList,
-  SpreadTheWord,
 };

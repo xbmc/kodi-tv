@@ -1,5 +1,5 @@
 import React from "react";
-
+import ReactMarkdown from "react-markdown";
 interface Props {}
 
 class Card extends React.Component<Props> {
@@ -11,6 +11,49 @@ class Card extends React.Component<Props> {
         </div>
       </div>
     );
+  }
+}
+
+class FeaturedCardInnerRender extends React.Component<Props> {
+  render() {
+    return (
+      <>
+        <div className="flex-shrink-0 pl-6">
+          <span className="-mt-6 flex items-center justify-center h-12 w-12 rounded-md bg-kodi">
+            {this.props.icon}
+          </span>
+        </div>
+        <div className="flex-1 p-6 flex flex-col justify-between">
+          <h3 className="text-xl font-semibold text-gray-900">{this.props.title}</h3>
+          <ReactMarkdown className="prose prose-blue flex-1 mt-3 text-sm text-gray-600">
+            {this.props.children}
+          </ReactMarkdown>
+        </div>
+      </>
+    );
+  }
+}
+
+class FeaturedCard extends React.Component<Props> {
+  render() {
+    let className = "mt-12 flex flex-col rounded-lg shadow-lg bg-gray-100";
+    if (this.props.url == undefined) {
+      return (
+        <div className={className}>
+          <FeaturedCardInnerRender icon={this.props.icon} title={this.props.title}>
+            {this.props.children}
+          </FeaturedCardInnerRender>
+        </div>
+      );
+    } else {
+      return (
+        <a className={className} href={this.props.url}>
+          <FeaturedCardInnerRender icon={this.props.icon} title={this.props.title}>
+            {this.props.children}
+          </FeaturedCardInnerRender>
+        </a>
+      );
+    }
   }
 }
 
@@ -43,4 +86,4 @@ class RoundedCardWithImage extends React.Component<Props> {
   }
 }
 
-export { Card, RoundedCardWithImage };
+export { Card, FeaturedCard, RoundedCardWithImage };
