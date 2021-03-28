@@ -19,7 +19,7 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
             <div className="flex-none">
               {isDropdownOpen ? (
                 <ChevronUp className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
-              ) : ( 
+              ) : (
                 <ChevronDown className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
               )}
             </div>

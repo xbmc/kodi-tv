@@ -22,8 +22,10 @@ export interface DropDownItem {
   description: string | null;
 }
 
-let regularButton = "text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-let specialButton = "text-gray-300 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+let regularButton =
+  "text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+let specialButton =
+  "text-gray-300 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
 const mainMenu: MenuEntry[] = [
   {
