@@ -16,7 +16,7 @@ import {
 
 const slugify = require("slugify");
 
-function BlogPostCard(props) {
+function BlogPostCard(props: { post: any }) {
   let post = props.post;
   let tagroot = "/blog/tag/";
   if (post.frontmatter.tags == undefined) {

@@ -253,7 +253,7 @@ function Header(props: any) {
                             {item.title}
                           </a>
                         ) : (
-                          <HeaderDropdownMenu menu={item} />
+                          <HeaderDropdownMenu key={item.url} menu={item} />
                         )
                       )}
                     </div>
@@ -271,7 +271,7 @@ function Header(props: any) {
                               {item.title}
                             </a>
                           ) : (
-                            <HeaderDropdownMenu menu={item} />
+                            <HeaderDropdownMenu key={item.url} menu={item} />
                           )
                         ) : (
                           ""
@@ -311,12 +311,13 @@ function Header(props: any) {
                     item.dropdown == null ? (
                       <a
                         href={item.url}
+                        key={item.url}
                         className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item.title}
                       </a>
                     ) : (
-                      <HeaderDropdownMenuMobile menu={item} />
+                      <HeaderDropdownMenuMobile key={item.url} menu={item} />
                     )
                   )}
                 </div>

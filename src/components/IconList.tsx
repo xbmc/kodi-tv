@@ -56,6 +56,7 @@ function IconList(props: {
   iconwidth: string | undefined;
   iconheight: string | undefined;
   linkroot: string | undefined;
+  className: string | undefined;
 }) {
   if (props.items.length == 0) {
     return "";
@@ -85,35 +86,28 @@ function IconList(props: {
   return (
     <div className={className}>
       {items.map((item, index) => (
-        <>
-          <div align="center">
-            {item.slug == undefined ? (
-              <>
+        <div align="center" key={item.name}>
+          {item.slug == undefined ? (
+            <>
+              <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+              <div style={{ display: item.name === "" ? "none" : "block" }}>
+                <ReactMarkdown>{item.name}</ReactMarkdown>
+              </div>
+            </>
+          ) : (
+            <>
+              <a
+                className="text-base text-gray-500 hover:text-kodi-darker"
+                href={linkroot + item.slug}
+              >
                 <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
                 <div style={{ display: item.name === "" ? "none" : "block" }}>
                   <ReactMarkdown>{item.name}</ReactMarkdown>
                 </div>
-              </>
-            ) : (
-              <>
-                <a
-                  className="text-base text-gray-500 hover:text-kodi-darker"
-                  href={linkroot + item.slug}
-                >
-                  <img
-                    width={iconwidth}
-                    height={iconheight}
-                    alt=""
-                    src={item.icon}
-                  />
-                  <div style={{ display: item.name === "" ? "none" : "block" }}>
-                    <ReactMarkdown>{item.name}</ReactMarkdown>
-                  </div>
-                </a>
-              </>
-            )}
-          </div>
-        </>
+              </a>
+            </>
+          )}
+        </div>
       ))}
     </div>
   );

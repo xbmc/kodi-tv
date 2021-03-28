@@ -1,6 +1,11 @@
 import { useStaticQuery, graphql } from "gatsby";
 
-export const DistributionList = () => {
+export interface Distribution {
+  name: string;
+  icon: string;
+}
+
+export const DistributionList = (): Distribution[] => {
   const { allDistributionYaml } = useStaticQuery(graphql`
     query {
       allDistributionYaml(sort: { fields: sort_order, order: ASC }) {
@@ -13,9 +18,7 @@ export const DistributionList = () => {
       }
     }
   `);
-  let nodes = [];
-  allDistributionYaml.edges.map((item: { node: any }, index: any) =>
-    nodes.push(item.node)
+  return allDistributionYaml.edges.map(
+    (item: { node: Distribution }, index: any) => item.node
   );
-  return nodes;
 };

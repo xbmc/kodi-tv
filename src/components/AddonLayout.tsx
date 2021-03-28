@@ -11,7 +11,6 @@ import {
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
-import { Card } from "./Card";
 import { Carousel } from "./Carousel";
 import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
