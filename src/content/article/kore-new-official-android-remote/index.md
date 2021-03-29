@@ -3,7 +3,7 @@ title: "Kore - The new official Android remote"
 date: 2015-05-28T04:00:00Z
 author: Martijn Kaijser
 featured_image:
-  src: /images/blog/Kore_03-540x336.webp
+  src: /images/blog/Kore_03-540x336_0.webp
   title: "Kore_03-540x336"
   alt: "Kore_03-540x336"
 ---
@@ -11,7 +11,7 @@ featured_image:
 We are happy to announce that once again we have a fully working Android remote. As you may had noticed, our previous Android remote wasn’t updated for a while and as such didn’t work any more due to code changes we’ve done over time. One of our team members who developed it back then, simply lacked the time to bring up to par again nor didn’t any one else within the team.  
  Some months ago a developer _Synced Synapse_ started working on a new Android remote that was more of these days. We all liked the simplicity, the design, and the fact that is was fully open source. As such we asked him if he was willing to make the remote he made the official Kodi remote and be part of our team. And here we are, an all brand new and working Android remote that will help you control all your Kodi installs throughout your home. More features will be added in the future.
 
-    **Kore™ (Android)**   [![](https://developer.android.com/images/brand/en_generic_rgb_wo_45.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)   [![org.xbmc.kore](/sites/default/files/uploads/org.xbmc_.kore_.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)    **Requirements**
+    **Kore™ (Android)**   [![](https://developer.android.com/images/brand/en_generic_rgb_wo_45.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)   [![org.xbmc.kore](/images/blog/org.xbmc_.kore_.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)    **Requirements**
 
 - - Android 4.0.3
 - - Phone or a tablet
@@ -70,4 +70,4 @@ As of this moment, it is available from [Play Store](https://play.google.com/sto
 
 Here are some screenshots showing it in action on a normal Android phone.
 
-    [![Kore - Official Android remote](/sites/default/files/uploads/Kore_01-187x300.webp)](/sites/default/files/uploads/Kore_01.webp) [![Kore - Official Android remote](/sites/default/files/uploads/Kore_02-180x300.webp)](/sites/default/files/uploads/Kore_02.webp) [![Kore - Official Android remote](/sites/default/files/uploads/Kore_03-180x300.webp)](/sites/default/files/uploads/Kore_03.webp)    [![Kore - Official Android remote](/sites/default/files/uploads/Kore_04-180x300.webp)](/sites/default/files/uploads/Kore_04.webp)  [![Kore - Official Android remote](/sites/default/files/uploads/Kore_05-180x300.webp)](/sites/default/files/uploads/Kore_05.webp)  [![Kore - Official Android remote](/sites/default/files/uploads/Kore_06-180x300.webp)](/sites/default/files/uploads/Kore_06.webp)
+    [![Kore - Official Android remote](/images/blog/Kore_01-187x300.webp)](/images/blog/Kore_01.webp) [![Kore - Official Android remote](/images/blog/Kore_02-180x300.webp)](/images/blog/Kore_02.webp) [![Kore - Official Android remote](/images/blog/Kore_03-180x300.webp)](/images/blog/Kore_03.webp)    [![Kore - Official Android remote](/images/blog/Kore_04-180x300.webp)](/images/blog/Kore_04.webp)  [![Kore - Official Android remote](/images/blog/Kore_05-180x300.webp)](/images/blog/Kore_05.webp)  [![Kore - Official Android remote](/images/blog/Kore_06-180x300.webp)](/images/blog/Kore_06.webp)

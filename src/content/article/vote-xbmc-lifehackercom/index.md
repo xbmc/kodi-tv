@@ -7,7 +7,7 @@ Lifehacker.com is currently holding a voting contest of five best media center a
 
  <https://lifehacker.com/five-best-media-center-applications-5103464>
 
- Show your support for the XBMC Media Center software ![:)](/sites/default/files/uploads/icon_smile.gif)
+ Show your support for the XBMC Media Center software ![:)](/images/blog/icon_smile.gif)
 
  Thank you in advance for your support!
 

@@ -14,7 +14,7 @@ Exciting Google Summer of Code projects, major developments in the codebase that
 
 With the last community update in January, we mentioned a desire for someone to step up and help maintain an official Kodi Remote for Android. Developer syncd has stepped forward and offered up Kore as an updated, open source option for users looking for Android remote control software, or even as a base for aspiring devs looking to make their own offering.
 
-[![PlayStore_Kore](/sites/default/files/uploads/PlayStore_Kore.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)
+[![PlayStore_Kore](/images/blog/PlayStore_Kore.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore)
 
 We are well aware that there are other closed source Android remotes out there. The goal of the Kore remote project is not to drive out or replace other devs and remotes, but rather to welcome new ones in by providing an open source base to work with.
 
@@ -34,7 +34,7 @@ Put simply, with an integrated DSP and room correction, Kodi should be able to c
 
 [**NVIDIA Gamestream**](https://forum.kodi.tv/showthread.php?tid=220965): As the code that should revolutionize [how Kodi handles inputs](https://forum.kodi.tv/showthread.php?tid=211138) finally makes it into core, one of the first projects to take advantage of it will hopefully be a Kodi-specific implementation of NVIDIA’s Gamestream tech. For those unaware of Gamestream, NVIDIA has created a solution for streaming content from a more powerful gaming PC with an NVIDIA graphics card to any of NVIDIA’s Shield devices.
 
-[![gamestream-game-support](/sites/default/files/uploads/gamestream-game-support-800x446.webp)](/sites/default/files/uploads/gamestream-game-support.webp)
+[![gamestream-game-support](/images/blog/gamestream-game-support-800x446.webp)](/images/blog/gamestream-game-support.webp)
 
 At least, that’s how it started. Since Gamestream was released, a dev going by cgutman created [Limelight](https://github.com/moonlight-stream/moonlight-pc/releases), an opensource library that makes it possible for any device or software to act as a Gamestream receiver. The goal of this GSOC project is to extend that capability to any instance of Kodi, so you could theoretically watch a show on your RaspberryPi2 running Kodi, then switch over to play some Assassin’s Creed Black Flag, and then listen to a little night music. There are some serious technical issues that will need to be resolved with this project, not the least of which is the potential for massive latency, but if it works, it should make for some really great experiences.
 
@@ -46,7 +46,7 @@ At least, that’s how it started. Since Gamestream was released, a dev going by
 
 We don’t often mention Kickstarters in our blog, but since at least one team member is helping with the project, we figured we’d point out Silicon Dust’s DVR. While the company has already met their goal, [their first stretch goal](https://www.kickstarter.com/projects/1275320038/hdhomerun-dvr-the-dvr-re-imagined/posts/1213051) is to make a DVR add-on for Kodi that essentially extends the already fairly brilliant HDHomeRun add-on we featured last month. As many of us would like to use this software, we’re definitely hoping they hit their goal, and as off this writing, they’re only about 5k away.
 
-[![screenshot002](/sites/default/files/uploads/screenshot0021-800x451.webp)](/sites/default/files/uploads/screenshot0021.webp)
+[![screenshot002](/images/blog/screenshot0021-800x451.webp)](/images/blog/screenshot0021.webp)
 
 ## Bitcoin Donations
 

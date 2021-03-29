@@ -14,17 +14,17 @@ The past year we have kept you informed with our monthly [blog posts](https://ko
 
 ## The features
 
-**Android Hardware Decoding** ![DL_Icons_Android-new](/sites/default/files/uploads/DL_Icons_Android-new.webp)
+**Android Hardware Decoding** ![DL_Icons_Android-new](/images/blog/DL_Icons_Android-new.webp)
 
 Since 2012 July 12, the single most requested feature has been hardware decoding in Android, and with XBMC 13 we are finally able to make that feature a reality. XBMC should run on Android 4.0 and higher and is offered now in two separate builds, namely ARM and x86, which are the hardware architectures of the device. You would need to consult your device specifications before you download XBMC for Android, though the vast majority of Android devices run on ARM hardware.
 
-**Raspberry Pi and Android speed improvements ![DL_Icons_RaspberryPi-new](/sites/default/files/uploads/DL_Icons_RaspberryPi-new.webp)**
+**Raspberry Pi and Android speed improvements ![DL_Icons_RaspberryPi-new](/images/blog/DL_Icons_RaspberryPi-new.webp)**
 
 Since the release of Frodo lot of effort has been put into getting XBMC to run smoother on lower powered platform like the famous Raspberry Pi and of course Android. All this effort has paid off and the experience of using these devices has become much more polished and satisfying than ever before. In particular, opening your libraries, browsing through them, loading images and starting videos have all seen dramatic speed increases.
 
 **Stereoscopic 3D Rendering**
 
-[![Some of the newly available 3D Options](/sites/default/files/uploads/3D_in_2D-300x165.webp)](/sites/default/files/uploads/3D_in_2D.webp)
+[![Some of the newly available 3D Options](/images/blog/3D_in_2D-300x165.webp)](/images/blog/3D_in_2D.webp)
 
 For you lovers of 3D out there, we are also pleased to say that we now support 3D movies encoded in the following formats: SBS, TAB, anaglyph, and interlaced (on supported platforms for passive TVs). Unfortunately, XBMC cannot yet support 3D blurays and cannot provide hardware acceleration for FullSBS/TAB movies (therefore limiting those videos to relatively high powered CPUs).
 
@@ -34,7 +34,7 @@ XBMC on touchscreens now supports gesture controls during video playback, as wel
 
 **Improved UPnP capabilities**
 
-[![gotham-upnp_play_using](/sites/default/files/uploads/gotham-upnp_play_using-300x187.webp "Gotham 13.0 - UPnP Play Using...")](/sites/default/files/uploads/gotham-upnp_play_using.webp)Instances of XBMC throughout the house can now “speak” with each other and with other UPnP devices. Support now includes more advanced library browsing as well as “[Play using…](https://www.youtube.com/watch?v=0D3JkUzUi-k "Play Using and XBMC")” functions, allowing XBMC to tell another device on the network to play a certain media file.
+[![gotham-upnp_play_using](/images/blog/gotham-upnp_play_using-300x187.webp "Gotham 13.0 - UPnP Play Using...")](/images/blog/gotham-upnp_play_using.webp)Instances of XBMC throughout the house can now “speak” with each other and with other UPnP devices. Support now includes more advanced library browsing as well as “[Play using…](https://www.youtube.com/watch?v=0D3JkUzUi-k "Play Using and XBMC")” functions, allowing XBMC to tell another device on the network to play a certain media file.
 
 So you can browse the UPnP library on your tablet and send a video from that library straight to you main XBMC HTPC, similar to Apple’s Airplay and Google’s casting features.
 
@@ -54,11 +54,11 @@ First, settings have been broken down into levels starting at beginner and going
 
 Second, every setting now includes a description, which may be found at the bottom of the settings page on the default Confluence skin. If a setting title is odd or is otherwise confusing, this description is intended to clear up the purpose of the setting and the result of changing it.
 
-Third, every setting page now includes a Reset to Default option so that if you find yourself completely unable to return to a usable state in XBMC, you can always start fresh without having to perform a complete reinstall. Importantly, resetting one group of settings to default does not affect any others. So if you have video settings just right, but audio is [screwed up](/sites/default/files/uploads/zappy-anarchy.webp), you can reset audio without affecting video.
+Third, every setting page now includes a Reset to Default option so that if you find yourself completely unable to return to a usable state in XBMC, you can always start fresh without having to perform a complete reinstall. Importantly, resetting one group of settings to default does not affect any others. So if you have video settings just right, but audio is [screwed up](/images/blog/zappy-anarchy.webp), you can reset audio without affecting video.
 
 **Making Subtitle Search Better**
 
-[![Gotham 13.0 Improved subtitle search](/sites/default/files/uploads/gotham-subtitle_search-300x187.webp)](/sites/default/files/uploads/gotham-subtitle_search.webp)
+[![Gotham 13.0 Improved subtitle search](/images/blog/gotham-subtitle_search-300x187.webp)](/images/blog/gotham-subtitle_search.webp)
 
 This change should give subtitle add-on developers a great deal more latitude for implementing changes and fixes without needing to wait for other add-on devs to submit similar fixes, all to the benefit of the user experience. From the user perspective, the only significant change will be in the way a subtitle search service is downloaded. The user will need to select and download their preferred subtitle add-on before starting a movie and searching for subtitles. At present there are 19 to choose from.
 
@@ -75,7 +75,7 @@ We look forward to the community taking advantage of this extended API and creat
 - - Various visual changes throughout the skin which should improve usability and logic.
 - - Improve the handling of subtitle downloading and selection
 - - Extend and improve the User-interface Engine which developers use to create a variety of skins to be used.
-- - [Drop of support](/sites/default/files/uploads/zappy-anarchy.webp) for Windows XP. Due to upgrades in the way we build XBMC, it is no longer possible to install or run XBMC on Windows XP. For current XP users we can suggest installing OpenELEC or XBMCbuntu as a free way to use XBMC 13 as a pure media centre.
+- - [Drop of support](/images/blog/zappy-anarchy.webp) for Windows XP. Due to upgrades in the way we build XBMC, it is no longer possible to install or run XBMC on Windows XP. For current XP users we can suggest installing OpenELEC or XBMCbuntu as a free way to use XBMC 13 as a pure media centre.
 - - When initiating a library cleaning, XBMC will send a wake-on-lan request to any sleeping servers first, before cleaning the library, to ensure that content isn’t unnecessarily cleaned
 - - Numerous PVR fixes and updates with additional new features updated on a per-platform basis. For more info, check out our [PVR wiki page](https://kodi.wiki/view/PVR "PVR for XBMC wiki page")
 - - Copy/paste support on Windows, OSX, and iOS to match copy/paste support elsewhere
@@ -92,7 +92,7 @@ Not all skins from Frodo are guaranteed to work on Gotham. The following is a li
 
 **Official XBMC Remote for iOS**
 
-[![iOS Simulator Screen shot 28 Apr, 2014 20.04.53](/sites/default/files/uploads/iOS-Simulator-Screen-shot-28-Apr-2014-20.04.53-800x600.webp)](/sites/default/files/uploads/iOS-Simulator-Screen-shot-28-Apr-2014-20.04.53.webp)
+[![iOS Simulator Screen shot 28 Apr, 2014 20.04.53](/images/blog/iOS-Simulator-Screen-shot-28-Apr-2014-20.04.53-800x600.webp)](/images/blog/iOS-Simulator-Screen-shot-28-Apr-2014-20.04.53.webp)
 
 We are also pleased to announce v1.5 of the Official XBMC Remote app for iOS. In addition to all past features, v1.5 now supports controlling LiveTV, along with access to the EPG, PVR recordings, and PVR timers. Users can now also change and update all XBMC settings from directly within the remote app by hitting the gears button on the Remote Control tab and selecting “…more.” For a complete changelog, visit the the [Official Remote page](https://apps.apple.com/us/app/official-xbmc-remote/id520480364 "Official XBMC Remote for iOS") in the Appstore.
 

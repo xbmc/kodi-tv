@@ -20,7 +20,7 @@ For you lovers of 3D out there, we are also pleased to say that we now support 3
 
 A useful feature that also comes with this alpha is a dedicated button to toggle 3D mode, which has two benefits: First, while XBMC should automatically recognize 3D-encoded movies, if it fails to recognize the format, users can force 3D mode. Second, users are now welcome to encode all their ripped blu-rays into 3D and skip making a second encode in 2D, because toggling off 3D mode on a 3D recognized movie will simply display the film in traditional 2D. This button requires an update to your skin of choice, so, if you are not using Confluence, feel free to point the feature out to your favorite Skilled Skinner.
 
-[![Some of the newly available 3D Options](/sites/default/files/uploads/3D_in_2D-300x165.webp)](/sites/default/files/uploads/3D_in_2D.webp)
+[![Some of the newly available 3D Options](/images/blog/3D_in_2D-300x165.webp)](/images/blog/3D_in_2D.webp)
  Some of the newly available 3D Options
 
 ## Context Menu Clean-up
@@ -29,21 +29,21 @@ In addition to bigger features, if you’ve been following along, you know that 
 
 In your day-to-day experience, this means the Update Library option is now always available in the side-bar, as can be seen in the below picture. This is quite similar to how we’ve moved the different setting levels (Basic/Standard/Advanced/Expert) to the sidebar on the System Settings pages.
 
-[![UpdateLibrary](/sites/default/files/uploads/UpdateLibrary-300x172.webp)](/sites/default/files/uploads/UpdateLibrary.webp)
+[![UpdateLibrary](/images/blog/UpdateLibrary-300x172.webp)](/images/blog/UpdateLibrary.webp)
 
 And the context menu has a new option to explore the Manage menu…
 
-[![ManageOption](/sites/default/files/uploads/ManageOption-300x282.webp)](/sites/default/files/uploads/ManageOption.webp)
+[![ManageOption](/images/blog/ManageOption-300x282.webp)](/images/blog/ManageOption.webp)
  Manage… option
 
-[![Manage... menu for TV shows](/sites/default/files/uploads/ManageMenu-300x179.webp)](/sites/default/files/uploads/ManageMenu.webp)
+[![Manage... menu for TV shows](/images/blog/ManageMenu-300x179.webp)](/images/blog/ManageMenu.webp)
  Manage… menu for TV shows
 
 ## Goodbye Windows XP
 
 We are happy to announce that we will be joining Microsoft in dropping support for Windows XP in 2014 by dropping support for XP with XBMC 13. At present, there are certain features that are being held back by our continuing support of the XP platform, and the best path forward is to halt support on the roughly 12 year old OS. Vista, 7, and 8 will all continue to be supported from this point forward.
 
-[![Hasta la XP, baby.](/sites/default/files/uploads/hastalaxp-300x171.webp)](/sites/default/files/uploads/hastalaxp.webp)
+[![Hasta la XP, baby.](/images/blog/hastalaxp-300x171.webp)](/images/blog/hastalaxp.webp)
  Hasta la XP, baby.
 
 ## Bug List and Other Changes

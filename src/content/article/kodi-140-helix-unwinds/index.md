@@ -14,7 +14,7 @@ A detailed changelog for Kodi 14 can be found under [milestones](https://github.
 
 ## The Next Generation of Video Codecs
 
-![ffmpeg-logo](/sites/default/files/uploads/ffmpeg-logo-300x75.webp)To begin, Kodi has been updated to use FFmpeg 2.4.4. For users, this means Kodi will now be capable of playing back h.265 (also known as HEVC) and VP9 video codecs. The use of HEVC and VP9 could result in dramatically smaller video files sizes with exactly the same level of quality. A 40 GB file could be compressed to 20 GB. Users with particularly large libraries or interest in 4K video may be especially likely to appreciate this update. Software support for the VP9 video codec is also included.
+![ffmpeg-logo](/images/blog/ffmpeg-logo-300x75.webp)To begin, Kodi has been updated to use FFmpeg 2.4.4. For users, this means Kodi will now be capable of playing back h.265 (also known as HEVC) and VP9 video codecs. The use of HEVC and VP9 could result in dramatically smaller video files sizes with exactly the same level of quality. A 40 GB file could be compressed to 20 GB. Users with particularly large libraries or interest in 4K video may be especially likely to appreciate this update. Software support for the VP9 video codec is also included.
 
 The caveat to this update is that the decoding of h.265 is entirely software based. This means most low power systems, such as those operating Android or iOS, may struggle compared to the heftier HTPCs or Intel NUCs and ZOTAC ZBOXes that are running desktop and laptop processors.
 
@@ -32,7 +32,7 @@ Second, in the past the virtual keyboard on the screen that users of tablets and
 
 ## Android, iOS, and embedded
 
-![retouched](/sites/default/files/uploads/retouched.webp)On the Android side, hardware playback improvements continue, including more and better support for various chipsets, improved fast forward and rewind capability, as well as 4K support for the AMLogic s802 chipset. On the iOS side, Airplay, which was fairly substantially broken by the update to iOS 7, appears to be almost entirely fixed on every platform save Android, which lacks certain software support, making Airplay playback only partially fixed on that platform. Additionally, support for the Freescale i.MX6 SystemOnChip has been added.
+![retouched](/images/blog/retouched.webp)On the Android side, hardware playback improvements continue, including more and better support for various chipsets, improved fast forward and rewind capability, as well as 4K support for the AMLogic s802 chipset. On the iOS side, Airplay, which was fairly substantially broken by the update to iOS 7, appears to be almost entirely fixed on every platform save Android, which lacks certain software support, making Airplay playback only partially fixed on that platform. Additionally, support for the Freescale i.MX6 SystemOnChip has been added.
 
 Furthermore, for you tablet users we’ve now replaced the ageing Touched skin with the improved Re-Touched skin, which includes a number of tweaks to bring it more in line with the features Kodi has to offer.
 

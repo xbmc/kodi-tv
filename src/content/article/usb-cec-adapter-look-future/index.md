@@ -6,7 +6,7 @@ author: Team XBMC
 
 Sometime around 2006 or 2007, I modded my first Xbox. I admit it, I’m practically a n00b in the realm of XBMC hacking. I didn’t even know what YAMP or Xbox Media Player were until I researched them! I bring this up because since that amazing day I haven’t felt the complete astonishment of a perfect merge of hardware and software until this past weekend, when I connected my TV to my pc via the [Pulse Eight USB-CEC Adapter](https://www.pulse-eight.com/store/products/104-usb-hdmi-cec-adapter.aspx "USB HDMI CEC Adapter by Pulse Eight").
 
-[![The HDMI CEC adapter](/sites/default/files/uploads/cec_adapter-300x243.webp "The HDMI CEC adapter")](/sites/default/files/uploads/cec_adapter.webp)  
+[![The HDMI CEC adapter](/images/blog/cec_adapter-300x243.webp "The HDMI CEC adapter")](/images/blog/cec_adapter.webp)  
  Here we can see the tiny adapter connected on both sides to HDMI cables and a mini-USB cable attached on the end. Those aren't over-sized HDMI cables either. The adapter is REALLY tiny.
 
 First, a bit of back story: Often, people don’t understand why the Team so excitedly awaits the coming of Binary Addons. To put it simply (and probably factually inaccurately), binary addons mark the step in which much of XBMC becomes self-updating.
@@ -31,7 +31,7 @@ The USB-CEC Adapter is sold by Pulse Eight, but was pretty well entirely develop
 
 Once the adapter is plugged in, XBMC and libCEC work together to delegate which buttons control which aspects of your system. In XBMC, you can alter these controls by visiting system -\> input -\> peripherals -\> CEC adapter. In addition, because the CEC adapter allows XBMC and your computer to control your TV and other peripherals as much as it allows your TV to control XBMC, you are given a host of thoughtful (and power-saving) commands that a Harmony remote could not hope to replicate. For example, when XBMC turns on its grayed-out screensaver, it can turn off your television. And when you turn off your television, XBMC will be able to recognize the change in state and go into sleep mode itself. For a video on some of the simpler functions, check out the bottom of [this page](https://www.pulse-eight.com/store/products/104-usb-hdmi-cec-adapter.aspx "Pulse Eight CEC Page").
 
-[![CEC Adapter settings page](/sites/default/files/uploads/cecadaptersettings.webp "CEC Adapter settings page")](/sites/default/files/uploads/cecadaptersettings.webp)
+[![CEC Adapter settings page](/images/blog/cecadaptersettings.webp "CEC Adapter settings page")](/images/blog/cecadaptersettings.webp)
 
 The CEC Adapter is currently compatible only with the most recent nightly versions of XBMC Pre-Eden. As always, when using pre-release software like Pre-Eden, users may run into odd quirks that can vary from night to night. Once the adapter is installed and working though, everything should be smooth sailing… with one major exception.
 

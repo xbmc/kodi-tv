@@ -72,7 +72,7 @@ Probably too hidden for many users, but there are inevitably changes and improve
 
 Why not show your support with a Kodi 19 "Matrix" [shirt or hoodie](https://teespring.com/kodi-matrix)? Or maybe a [pillow](https://teespring.com/kodi-matrix?pid=650) to lounge on while you enjoy your favourite media? As well as just making you look utterly, fabulously, unquestionably cool, all purchases will make a small donation to the Foundation, and help keep everything running the way we all like it. All are available in a series of achingly-fashionable colours.
 
-[![Kodi 19.x "Matrix" T-shirt](https://kodi.tv/sites/default/files/Matrix%20T-shirt.webp)](https://teespring.com/kodi-matrix)[![Kodi 19.x "Matrix" Cushion](https://kodi.tv/sites/default/files/Matrix%20Cushion.webp)](https://teespring.com/kodi-matrix?pid=650)
+[![Kodi 19.x "Matrix" T-shirt](/images/blog/Matrix%20T-shirt.webp)](https://teespring.com/kodi-matrix)[![Kodi 19.x "Matrix" Cushion](/images/blog/Matrix%20Cushion.webp)](https://teespring.com/kodi-matrix?pid=650)
 
 ##### **Changelog**
 

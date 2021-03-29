@@ -8,7 +8,7 @@ featured_image:
   alt: "xbmc_immersive"
 ---
 
-[![](/sites/default/files/uploads/xbmc_immersive-300x169.webp "XBMC with Modern UI skin")](/sites/default/files/uploads/xbmc_immersive.webp)  
+[![](/images/blog/xbmc_immersive-300x169.webp "XBMC with Modern UI skin")](/images/blog/xbmc_immersive.webp)  
  Sranshaft's Immersive skin is a leading candidate for new default XBMC skin
 
 After extensive contract talks and negotiations, we at XBMC are excited to announce an early agreement to work with Microsoft to replace the now defunct Windows Media Center with XBMC for Modern UI (formerly “Metro”) using a new skin, such as [Sranshaft’s Immersive](https://forum.kodi.tv/showthread.php?tid=139712 "Immersive for XBMC").

@@ -14,9 +14,9 @@ With this announcement we’re happy to release v17 alpha 3. This v17 release wh
 
 As you have noticed we included two new default skins. Estuary for regular use and Estouchy for touchscreen devices. At the same time we made sure some limitations we had to deal with in the past are now solved or at least improved. One of those was that the context menu (right click) didn’t work on any media items that were displayed on the home screen. Well now you can call up the menu like in library view.
 
-    [![v17 homescreen context movies](/sites/default/files/uploads/v17-homescreen-context-movie-300x168.webp)](/sites/default/files/uploads/v17-homescreen-context-movie.webp) [![v17 homescreen context add-on](/sites/default/files/uploads/v17-homescreen-context-addon-300x168.webp)](/sites/default/files/uploads/v17-homescreen-context-addon.webp)    Add-ons can now include screenshots which will be visible within Kodi itself to give you an idea how they will look.
+    [![v17 homescreen context movies](/images/blog/v17-homescreen-context-movie-300x168.webp)](/images/blog/v17-homescreen-context-movie.webp) [![v17 homescreen context add-on](/images/blog/v17-homescreen-context-addon-300x168.webp)](/images/blog/v17-homescreen-context-addon.webp)    Add-ons can now include screenshots which will be visible within Kodi itself to give you an idea how they will look.
 
-    [![v17-addon-screenshots](/sites/default/files/uploads/v17-addon-screenshots-300x168.webp)](/sites/default/files/uploads/v17-addon-screenshots.webp)
+    [![v17-addon-screenshots](/images/blog/v17-addon-screenshots-300x168.webp)](/images/blog/v17-addon-screenshots.webp)
 
 More more changes were done in different areas however we’ll let discover those yourself.
 
@@ -51,7 +51,7 @@ To make it easy i just copied the list from one of our developers on the changes
 
 In the past it has always been a pain to configure game controllers within Kodi. There were some XML files people could download and copy to a certain location. This has now been solved by making them add-ons (like almost everything else) which you can install with a click of a button. This rework of the controllers was needed for retro gaming feature which may land somewhere in the future. No sadly that doesn’t mean retro gaming will be available in v17 but we keep our hopes up for the future. Adventurous users can grab a build from our forum though [here](https://forum.kodi.tv/forumdisplay.php?fid=194).
 
-    ![v17 game controlles](/sites/default/files/uploads/v17-game-controlles-300x168.webp)    3dlut and simple ICC linking support for color correction
+    ![v17 game controlles](/images/blog/v17-game-controlles-300x168.webp)    3dlut and simple ICC linking support for color correction
 
 ---
 

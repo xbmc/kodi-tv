@@ -4,7 +4,7 @@ date: 2012-05-29T04:00:00Z
 author: Nathan Betzen
 ---
 
-![](/sites/default/files/uploads/API.407b6280f366.webp "Transifex")As some of you might have noticed, we are in the process of making life for all hard working translators a whole lot easier. And for those of you who wanted to contribute with translating XBMC but have always thought it was too much hassle, we have now made it easier than ever.
+![](/images/blog/API.407b6280f366.webp "Transifex")As some of you might have noticed, we are in the process of making life for all hard working translators a whole lot easier. And for those of you who wanted to contribute with translating XBMC but have always thought it was too much hassle, we have now made it easier than ever.
 
 Attila Jakosa have been working hard on changing the current xml-based translations into [gettext](https://en.wikipedia.org/wiki/Gettext) standard, allowing for the use of a web based translation service.
 

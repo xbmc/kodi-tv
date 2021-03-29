@@ -12,7 +12,7 @@ We are now finished with month #2 of our [monthly development cycle](https://kod
 
 ### iOS
 
-[![](/sites/default/files/uploads/multi_task_screen2-200x300.webp "XBMC on the multi-task screen")](/sites/default/files/uploads/multi_task_screen2.webp)Dev ulion has added a boatload of new items to XBMC for iOS this month, including speed and stability fixes, along with a few major new features. XBMC is now able to continue playing audio in the background on iOS, with support for the native media controller bar as well as headphone controls on the lock screen and multi-task bar. In order to continue playing music, the user will need to press play again in the multi-task bar or lock screen or with the headphone controls.
+[![](/images/blog/multi_task_screen2-200x300.webp "XBMC on the multi-task screen")](/images/blog/multi_task_screen2.webp)Dev ulion has added a boatload of new items to XBMC for iOS this month, including speed and stability fixes, along with a few major new features. XBMC is now able to continue playing audio in the background on iOS, with support for the native media controller bar as well as headphone controls on the lock screen and multi-task bar. In order to continue playing music, the user will need to press play again in the multi-task bar or lock screen or with the headphone controls.
 
 Music will also resume after an interruption such as a phone call. Additionally, thumbnail art and other info about the audio currently playing will be available on the lock screen, though this feature requires iOS 5+. Keeping video running in the background is not yet supported.
 
@@ -28,7 +28,7 @@ In PVR news, there an Electronic Program Guide (or EPG) button has been added to
 
 ### System-wide
 
-[![](/sites/default/files/uploads/pop_up_notification-300x186.webp "pop_up_notification")](/sites/default/files/uploads/pop_up_notification.webp)Many users turn off their RSS feed in XBMC and rarely visit the front page of XBMC.org, which means they may find themselves unaware that a major release has just occurred. With this cycle a pop-up has now been incorporated by Martijn that will occasionally check to see if a new version of XBMC is available. If it is, the user will be prompted to visit XBMC.org and download. The pop-up can be easily dismissed. Upon the release of XBMC 13, the pop-up will only show for final releases and bug fixes.
+[![](/images/blog/pop_up_notification-300x186.webp "pop_up_notification")](/images/blog/pop_up_notification.webp)Many users turn off their RSS feed in XBMC and rarely visit the front page of XBMC.org, which means they may find themselves unaware that a major release has just occurred. With this cycle a pop-up has now been incorporated by Martijn that will occasionally check to see if a new version of XBMC is available. If it is, the user will be prompted to visit XBMC.org and download. The pop-up can be easily dismissed. Upon the release of XBMC 13, the pop-up will only show for final releases and bug fixes.
 
 This pop-up is especially noteworthy at it is one of the first issues posted in our [public Team Member discussion area](https://forum.kodi.tv/forumdisplay.php?fid=183 "Public Team Member discussion area") in the forum that’s been resolved. With luck, that will become more and more useful as an area for open, public discussion.
 

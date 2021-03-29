@@ -20,7 +20,7 @@ As Norm MacDonald has so famously said, Germans love David Hasselhoff. And Team 
 
 ## Don’t Hassel the Hoff
 
-[![DONT-HASSEL-2013-skinny](/sites/default/files/uploads/DONT-HASSEL-2013-skinny-300x300.webp)](https://www.youtube.com)In connection with this new codename, we’re pumped to introduce the very first t-shirt sale for XBMC 14: [Don’t Hassel the Hoff](https://www.youtube.com "XBMC 14 sale"). As with the previous sale, all proceeds will be going to the XBMC Foundation, and while technically this shirt doesn’t actually include the name “XBMC,” we think enough people will be familiar with David Hasselhoff’s fine career and history of work to make that an unimportant detail.
+[![DONT-HASSEL-2013-skinny](/images/blog/DONT-HASSEL-2013-skinny-300x300.webp)](https://www.youtube.com)In connection with this new codename, we’re pumped to introduce the very first t-shirt sale for XBMC 14: [Don’t Hassel the Hoff](https://www.youtube.com "XBMC 14 sale"). As with the previous sale, all proceeds will be going to the XBMC Foundation, and while technically this shirt doesn’t actually include the name “XBMC,” we think enough people will be familiar with David Hasselhoff’s fine career and history of work to make that an unimportant detail.
 
     Conclusion
 
@@ -33,4 +33,4 @@ Some people stand in the darkness
  Some people need to help somebody  
  when the edge of surrender’s in sight.
 
-Finally, [click here for a quick preview](https://www.youtube.com/watch?v=muB4qXoQ2Uo "XBMC 14 Preview") of a few things we’d like [to see](/sites/default/files/uploads/hasselhoff.webp) in the upcoming XBMC 14.
+Finally, [click here for a quick preview](https://www.youtube.com/watch?v=muB4qXoQ2Uo "XBMC 14 Preview") of a few things we’d like [to see](/images/blog/hasselhoff.webp) in the upcoming XBMC 14.

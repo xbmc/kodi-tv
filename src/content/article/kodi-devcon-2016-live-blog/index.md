@@ -10,7 +10,7 @@ featured_image:
 
 ## Evening – Day 1
 
-[![image](/sites/default/files/uploads/image-800x402.jpeg)](/sites/default/files/uploads/image.jpeg)
+[![image](/images/blog/image-800x402.jpeg)](/images/blog/image.jpeg)
 
 And that’s it for today. Tomorrow there should be less team talk and more actual feature presentations, so we look forward to seeing you all then!
 
@@ -38,7 +38,7 @@ Just to reiterate from last year, if any devs want to go to any conference or me
 
 Good morning everyone and welcome to the Kodi DevCon 2016 Liveblog. As many of you know, my name is Nate, and much like last year, I’ll be doing my best to update the blog with as much of the content we discuss over the next few days as my jet-lagged brain will allow.
 
-[![IMG_0685](/sites/default/files/uploads/IMG_0685-800x600.webp)](/sites/default/files/uploads/IMG_0685.webp)
+[![IMG_0685](/images/blog/IMG_0685-800x600.webp)](/images/blog/IMG_0685.webp)
 
 As always, DevCon begins with all the devs who are attending introducing themselves.
 

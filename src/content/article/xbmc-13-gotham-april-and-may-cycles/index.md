@@ -20,7 +20,7 @@ The Settings Refactor is like-wise quite huge, but worth discussing in a bit mor
 
 This refactor separated settings from the GUI, so now all of those obstacles can easily be overcome. In addition, because settings are no longer dependent on the GUI, we can do a lot of interesting things that were not previously possible.
 
-[![new_settings](/sites/default/files/uploads/new_settings-300x168.webp)](/sites/default/files/uploads/new_settings.webp)  
+[![new_settings](/images/blog/new_settings-300x168.webp)](/images/blog/new_settings.webp)  
  The Basic settings are, indeed, basic.
 
 For the first time, settings can now be reset to default, so everyone who discovers they’ve completely screwed up their audio settings finally have a fallback. The reset feature is fortunately quite narrow. It only applies to the window you are currently looking at. So, for example, if you reset your audio settings, you won’t accidentally reset your video settings too.

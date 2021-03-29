@@ -35,7 +35,7 @@ For the Kodi developers the added benefit of the Windows Store version is that i
 
 Well obviously in the Windows Store and search for Kodi! Or you can click this [link](https://www.microsoft.com/p/kodi/9nblggh4t892?cid=koditvlink) and go straight to the store page itself. Yes it’s still **free** as we will never ask for money.
 
-[![Kodi Windows Store page](/sites/default/files/uploads/Kodi-v17-Windows-store-page-800x433.webp)](/sites/default/files/uploads/Kodi-v17-Windows-store-page.webp)
+[![Kodi Windows Store page](/images/blog/Kodi-v17-Windows-store-page-800x433.webp)](/images/blog/Kodi-v17-Windows-store-page.webp)
 
 For now we have added our **Kodi v17 beta 2** to the store and will continue updating it till the final release comes. Afterwards we will just stick to final releases so you don’t need to worry about getting potential unstable builds afterwards. For those who don’t use the store you can still download the Windows version of Kodi from our official [download page](/download).
 

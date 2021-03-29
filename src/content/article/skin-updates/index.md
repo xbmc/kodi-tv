@@ -4,7 +4,7 @@ date: 2011-03-26T03:00:00Z
 author: Team XBMC
 ---
 
-![](/sites/default/files/uploads/update-101x101.webp "update")As you may remember, XBMC 10.1 was recently released in order to address a bug that would cause a crash for Windows users when receiving an automatic update for the current skin.
+![](/images/blog/update-101x101.webp "update")As you may remember, XBMC 10.1 was recently released in order to address a bug that would cause a crash for Windows users when receiving an automatic update for the current skin.
 
 Now that a few weeks have gone by we are comfortable sending out skin updates. For those of you who still have not updated to 10.1 (especially Windows users who don’t use the default skin!), please be sure to update now.
 

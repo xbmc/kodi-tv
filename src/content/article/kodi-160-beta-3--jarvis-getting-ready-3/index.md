@@ -16,7 +16,7 @@ This Release Early Release Often (RERO) is what we as a team have decided to go 
 
 Well not exactly new but certainly something that got overlooked a lot is getting your music scanned to library. For videos it’s quite obvious there’s a library where you can scan in all your movies and tv show from your local or remote storage. Setting this up is relatively straight forward because when you add a source it immediately asks if you want to add it to the library. For music this was anything but obvious. You add a new music source which contain all your music files and that was it. Although that was how it seemed. Somewhere hidden in the context menu _(which you pull up with right or using “C” key)_ there was an option _scan to library_. This magically started scanning your music files and reading all the tag data which contain artist, title, year and whatever more in a nicely organised library. Time to make it more obvious.
 
-    [![Add music source](/sites/default/files/uploads/Kodi-v16-add_music_source-300x168.webp)](/sites/default/files/uploads/Kodi-v16-add_music_source.webp) [![Scan music to library](/sites/default/files/uploads/Kodi-v16-add_music_scan-300x168.webp)](/sites/default/files/uploads/Kodi-v16-add_music_scan.webp)    After you added a new music file source it will now ask you if you want to scan all the files in that folder using the tag data in those files and organise it for you.
+    [![Add music source](/images/blog/Kodi-v16-add_music_source-300x168.webp)](/images/blog/Kodi-v16-add_music_source.webp) [![Scan music to library](/images/blog/Kodi-v16-add_music_scan-300x168.webp)](/images/blog/Kodi-v16-add_music_scan.webp)    After you added a new music file source it will now ask you if you want to scan all the files in that folder using the tag data in those files and organise it for you.
 
 ### Caveates to music library:
 
@@ -106,7 +106,7 @@ More in depth information can be found through the following links about the 16 
 
 ## Community Designed Kodi Shirt and Hoodie
 
-[![](/sites/default/files/uploads/kodi-graffiti-6-1446613526868.webp)](https://teespring.com/kodi-graffiti-6?kodi_site=beta1)
+[![](/images/blog/kodi-graffiti-6-1446613526868.webp)](https://teespring.com/kodi-graffiti-6?kodi_site=beta1)
 
 ## At Kodi DevCon this year we spent a lot of time talking about how to better recognize our community, and this solution was proposed. We’re going to try featuring a new, different shirt every month designed by a community member. So this month, thanks to Sam Fisher for an awesome design! Sam was a major help in our logo search and makes most of that cool artwork you see on [Facebook](https://www.facebook.com/XBMC/photos/a.10150616705636641.378985.20916311640/10153158972611641/?type=3&theater). If you would like to be the featured artist next month, post your design in the[shirt forum thread](https://forum.kodi.tv/showthread.php?tid=246239)! Also, be sure to browse through the available options. There are multiple colors of shirts and – it being winter time – we’ve also made hoodie versions available. T-shirt is available up to 5XL and the hoodie to 2XL and shipping is worldwide at a very reasonable fee. This design is only available for a limited amount of time! Conclusion
 

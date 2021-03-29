@@ -22,7 +22,7 @@ Beyond showing off a bunch of cool hardware, we gave a few interviews, including
 
 When the showroom closed each night, we spent most of our time talking about how we could make Kodi better. Rick talked about his add-on work. Garrett talked about Retroplayer. Both looked exceedingly cool doing so.
 
-[![looking cool](/sites/default/files/uploads/looking_cool_and_collected-429x600.webp)](/sites/default/files/uploads/looking_cool_and_collected.webp)  
+[![looking cool](/images/blog/looking_cool_and_collected-429x600.webp)](/images/blog/looking_cool_and_collected.webp)  
  Rick on the left, Garrett on the right
 
 It was a fantastic weekend. We hope even more people can make it next year, when we’ll no doubt have even more toys to play with.
@@ -31,4 +31,4 @@ It was a fantastic weekend. We hope even more people can make it next year, when
 
 Also making its first appearance at SCALE was a [new shirt](https://teespring.com/kodi-villain-shirt) we’re pretty pleased with. The last shirt was designed to give off a Green Lantern vibe, so we thought it might be fun to do the opposite with this one. If the last shirt was a hero shirt, we thought this time we’d make a cooler, darker villain alternative. Also, because people requested it, this one is [available as a hoodie](https://teespring.com/kodi-villain-shirt "Kodi Hoodie").
 
-[![kodi_villian_shirt](/sites/default/files/uploads/kodi_villian_shirt-800x447.webp)](https://teespring.com/kodi-villain-shirt)
+[![kodi_villian_shirt](/images/blog/kodi_villian_shirt-800x447.webp)](https://teespring.com/kodi-villain-shirt)

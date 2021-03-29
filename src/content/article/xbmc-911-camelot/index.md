@@ -4,7 +4,7 @@ date: 2009-12-23T03:00:00Z
 author: Team XBMC
 ---
 
-![camelot](/sites/default/files/uploads/logo.webp "camelot")It’s been quite a while in the making (and maybe a bit late), but Camelot has arrived for Windows, OSX, Linux, and XBMC Live, and just in time for the holidays. Noteworthy changes include a revamped user interface via the new default skin “[Confluence](/skins/confluence)“, DirectX support by default for the Windows platform, a complete reorganization of the settings menus, automatic video information extraction, and smoother video playback. In addition, all scrapers have been updated, new remotes are supported out of the box, and codecs have been updated for more reliable playback. For a full changelog, see the end of this post.
+![camelot](/images/blog/logo.webp "camelot")It’s been quite a while in the making (and maybe a bit late), but Camelot has arrived for Windows, OSX, Linux, and XBMC Live, and just in time for the holidays. Noteworthy changes include a revamped user interface via the new default skin “[Confluence](/skins/confluence)“, DirectX support by default for the Windows platform, a complete reorganization of the settings menus, automatic video information extraction, and smoother video playback. In addition, all scrapers have been updated, new remotes are supported out of the box, and codecs have been updated for more reliable playback. For a full changelog, see the end of this post.
 
 Look to the [download page](https://kodi.wiki/download/) for the good stuff. We wish to thank our community for helping to make XBMC what it is. Several new [skins](/slideshow/skins) and [plugins](https://forum.kodi.tv/forumdisplay.php?fid=26) have been created since Babylon, be sure to check them out as well.
 

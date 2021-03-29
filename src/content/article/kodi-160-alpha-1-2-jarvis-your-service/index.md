@@ -12,15 +12,15 @@ While we are still working on improving the Kodi 15 release by adding numerous f
 
 ## DirectX 11 upgrade
 
-[![DX11](/sites/default/files/uploads/DX11.webp)](/sites/default/files/uploads/DX11.webp)One of our developers _afedchin_ took on this task and completely revised our DirectX 9 implementation and upgraded it to the more current standard of DirectX 11. Don’t worry if you still have an older card, we only use low level features so you don’t need to run to the shop for new gear. So why is this so important? The old DirectX 9 implementation we were still using was done in a way that it could fail for newer videocard drivers. By updating it to DX11 proper support is assured for the newer video cards as well of a whole lot of other improvements across the board.
+[![DX11](/images/blog/DX11.webp)](/images/blog/DX11.webp)One of our developers _afedchin_ took on this task and completely revised our DirectX 9 implementation and upgraded it to the more current standard of DirectX 11. Don’t worry if you still have an older card, we only use low level features so you don’t need to run to the shop for new gear. So why is this so important? The old DirectX 9 implementation we were still using was done in a way that it could fail for newer videocard drivers. By updating it to DX11 proper support is assured for the newer video cards as well of a whole lot of other improvements across the board.
 
-[![screenshot001](/sites/default/files/uploads/screenshot0011-800x456.webp)](/sites/default/files/uploads/screenshot0011.webp)
+[![screenshot001](/images/blog/screenshot0011-800x456.webp)](/images/blog/screenshot0011.webp)
 
 ## 4:3 Non-linear Stretch
 
 It’s perhaps a bit late in coming, but Kodi finally supports stretching 4:3 content to 16:9 in a way that doesn’t warp the content that’s occurring in the center of the screen. Finally, you’ll be able to watch Friends, Seinfeld, Cheers, and Duck Tales in full screen without the awkward screen stretching from the past.
 
-[![screenshot000](/sites/default/files/uploads/screenshot0001-800x449.webp)](/sites/default/files/uploads/screenshot0001.webp)
+[![screenshot000](/images/blog/screenshot0001-800x449.webp)](/images/blog/screenshot0001.webp)
 
 ## Event logging
 
@@ -28,7 +28,7 @@ Have you ever added your folder of movies to Kodi and then discovered, sometimes
 
 Event logging is an option that tracks some events and shows these in a chronological order in system settings -\> logging. By the time of the final release of Kodi 16, we will have refined what will actually be shown in that list as it currently only adds the basic “notifications”. Ultimately, we think this may become an incredibly useful feature, as you’ll finally be able to see all of the things Kodi is doing and, in some cases, failing to do.
 
-    [![EventLogging01](/sites/default/files/uploads/EventLogging01-300x168.webp)](/sites/default/files/uploads/EventLogging01.webp) [![EventLogging02](/sites/default/files/uploads/EventLogging02-300x168.webp)](/sites/default/files/uploads/EventLogging02.webp)    Split up skin settings
+    [![EventLogging01](/images/blog/EventLogging01-300x168.webp)](/images/blog/EventLogging01.webp) [![EventLogging02](/images/blog/EventLogging02-300x168.webp)](/images/blog/EventLogging02.webp)    Split up skin settings
 
 ---
 

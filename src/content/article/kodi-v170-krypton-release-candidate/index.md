@@ -20,7 +20,7 @@ First and foremost we sure would like to thank every one involved with either de
 
 Past March we announced that we had replaced the aging Confluence skin which did it’s job since 2009 as default skin. V17 will mark the new arrival of Estuary and Estouchy (touch enabled) skin as the new default skins. Many months have been put in getting these skins build from the ground up by _phil65_ and utilise all of the new features Kodi has to offer. During this period we also rethought on what was actually needed for skins and with this we also added features we only came up with by rebuilding this skin as we wondered why it never was able to do it in the first place. The home screen has been revamped and now utilises a smartplaylists implementation to automatically show you what probably interests you the most. We suggest you just give it a try and see for yourself. If you still prefer Confluence skin then you don’t need to worry as it’s still available from the official Kodi repository. With some help from _ryanmah_ for the mockups, _ichabod-fletchman_ for helping out this final version of Estuary.
 
-    [![Home screen](/sites/default/files/uploads/v17-rc_000-300x168.webp)](/sites/default/files/uploads/v17-rc_000.webp) [![Movie library](/sites/default/files/uploads/v17-rc_006-300x168.webp)](/sites/default/files/uploads/v17-rc_006.webp)    At same time the touch skin Estouchy also got matched by our senior skin developer ronie to match the Estuary look.
+    [![Home screen](/images/blog/v17-rc_000-300x168.webp)](/images/blog/v17-rc_000.webp) [![Movie library](/images/blog/v17-rc_006-300x168.webp)](/images/blog/v17-rc_006.webp)    At same time the touch skin Estouchy also got matched by our senior skin developer ronie to match the Estuary look.
 
 For some more screenshots you can visit the release announcement here: [Default skin: Next Gen](/article/kodi-v17-krypton-default-skin-next-gen). Regardless you’ll see when you install this new update.
 
@@ -28,17 +28,17 @@ For some more screenshots you can visit the release announcement here: [Default 
 
 One of the things probably most of us hate the most is going through settings and see what they do. Often are not clear what they do or just not obvious. We felt the same and we have now made a big shuffle of certain settings to group them in a better way and improve the text and help description. I’m sure it’s not perfect and things still need changing however it’s already a big step forward. Additionally we’ve put a central button in settings screen for adding new media sources that you can add to your library. To make a long story short here are some screenshots to give you an idea on how it looks. Other than that I guess you’ll just have to try for yourself. Remember to look at the bottom of the screen as that often contains hints on what a settings actually does.
 
-    [![Settings](/sites/default/files/uploads/v17-rc_029-300x168.webp)](/sites/default/files/uploads/v17-rc_029.webp) [![Sources](/sites/default/files/uploads/v17-rc_033-300x168.webp)](/sites/default/files/uploads/v17-rc_033.webp)    ###  PVR made easier and better
+    [![Settings](/images/blog/v17-rc_029-300x168.webp)](/images/blog/v17-rc_029.webp) [![Sources](/images/blog/v17-rc_033-300x168.webp)](/images/blog/v17-rc_033.webp)    ###  PVR made easier and better
 
 With v17 the way we handle PVR add-ons has been given a makeover as well. With these changes we hope that the threshold of getting PVR running inside Kodi has been greatly reduced. Once you configured and enabled the PVR add-on you are ready. No more additional options to enable to get going. Of course you will still need to set up a PVR backend/server first however that is outside of our scope of work. Additionally a lof work has been done to improve stability and usability to this section. Switching channels, EPG (electronic program guide) as well as setting and changing recording timers have all been greatly improved. From the user interface little has changed besides the new default skin and some settings that are moved or are now a bit more clear what they do.
 
-    [![Channel list](/sites/default/files/uploads/v17-rc_013-300x168.webp)](/sites/default/files/uploads/v17-rc_013.webp) [![EPG](/sites/default/files/uploads/v17-rc_017-300x168.webp)](/sites/default/files/uploads/v17-rc_017.webp)
+    [![Channel list](/images/blog/v17-rc_013-300x168.webp)](/images/blog/v17-rc_013.webp) [![EPG](/images/blog/v17-rc_017-300x168.webp)](/images/blog/v17-rc_017.webp)
 
 ### Privacy policy
 
 Your privacy is an important factor that the XBMC Foundation and Team Kodi considers in the development of all of our software and services. We are committed to being transparent and open. This Privacy Policy explains generally how we receive information about you, and what we do with that information once we have it. As such we have added this [privacy policy](/kodi-privacy-policy) to our website and also made it available from within Kodi itself to read.
 
-[![Privacy policy](/sites/default/files/uploads/v17-rc_030-300x168.webp)](/sites/default/files/uploads/v17-rc_030.webp)
+[![Privacy policy](/images/blog/v17-rc_030-300x168.webp)](/images/blog/v17-rc_030.webp)
 
 WARNING: This of course does not mean your privacy is totally protected. In the end you are still responsible yourself for whatever you install or share. For the official Kodi repository we have a set of strict rules in place for any add-on that is added or updated and strive towards protecting the users from any harm that might come from using them. However once you decide to install any other repository or add-ons from outside our official repository you must make sure you are informed of any consequences. Do not blindly install any add-on but make sure to read up on what it does and what it might share with others. If you are not sure then take the safe route and don’t install it.
 
@@ -56,13 +56,13 @@ First of all we added an option to warn new users that installing add-ons outsid
 
 From now on you are able to see which add-ons recently updated. It might come in handy should some problems arise as you not always noticed the popup telling you an update was installed. At least now you are able to track down which one(s).
 
-    [![Recently updated](/sites/default/files/uploads/v17-rc_032-300x168.webp)](/sites/default/files/uploads/v17-rc_032.webp) [![Unknown sources](/sites/default/files/uploads/v17-rc_031-300x168.webp)](/sites/default/files/uploads/v17-rc_031.webp)
+    [![Recently updated](/images/blog/v17-rc_032-300x168.webp)](/images/blog/v17-rc_032.webp) [![Unknown sources](/images/blog/v17-rc_031-300x168.webp)](/images/blog/v17-rc_031.webp)
 
 ### Music library
 
 Over the years our music library handling wasn’t always the best and luckily a while ago some developers stepped up and started improving the lacking functionality and added new features. Some improvements are better tag reading and scraping. Handling of albums and artist has also been improved with the addition of adding artist role handling for music (composer, conductor, djmixer). Certain files or websites also support mood and this has now also been added so you can now select music based on certain type of mood instead of genre. With all these changes in regards to the music library and part and better tag scanning and usage a mandatory music files re-scan has to be done to extract all this information. After you upgrade and enter the music library a choice will be giving to re-scan now or later. As this re-scan can take up quite some time and resources you can answer NO and continue browsing your library. Once you exit library and re-enter you will be prompted again asking to re-scan. Once you answer YES Kodi will start scanning all your music files and extract the tag data they contain to a certain degree. As mentioned this process takes quite some time depending on the size. During this time Kodi might be somewhat slower than normal. Do note that this will not reset your library to a new state or that you will loose data. It will simply update what is available and will leave all play counts and the rest as they were.
 
-    [![Music library](/sites/default/files/uploads/v17-rc_021-300x168.webp)](/sites/default/files/uploads/v17-rc_021.webp) [![Music library](/sites/default/files/uploads/v17-rc_022-300x168.webp)](/sites/default/files/uploads/v17-rc_022.webp)
+    [![Music library](/images/blog/v17-rc_021-300x168.webp)](/images/blog/v17-rc_021.webp) [![Music library](/images/blog/v17-rc_022-300x168.webp)](/images/blog/v17-rc_022.webp)
 
 ### Video Player
 
@@ -96,7 +96,7 @@ One of the last custom implementation we had was Amlogic related code which was 
 
 ### Windows Store
 
-[![KODI_BLOG_WIN_300x300_C](/sites/default/files/uploads/KODI_BLOG_WIN_300x300_C-160x160.webp)](https://www.microsoft.com/p/kodi/9nblggh4t892?cid=koditvlinkRC)In case you missed the big news some time ago, Kodi got added to the Windows Store as a Desktop Bridge UWP app. It is still the same Kodi version you are used to use, without any limitations. Although it is still possible (and always will be) to download and install Kodi from our website, it is now also possible for Windows 10 users to download and install Kodi from the Windows Store. This brings a few benefits, such as automatic updating. The Windows Store application uses the same _userdata_ as the version from our website so you can switch between the two versions without issues.
+[![KODI_BLOG_WIN_300x300_C](/images/blog/KODI_BLOG_WIN_300x300_C-160x160.webp)](https://www.microsoft.com/p/kodi/9nblggh4t892?cid=koditvlinkRC)In case you missed the big news some time ago, Kodi got added to the Windows Store as a Desktop Bridge UWP app. It is still the same Kodi version you are used to use, without any limitations. Although it is still possible (and always will be) to download and install Kodi from our website, it is now also possible for Windows 10 users to download and install Kodi from the Windows Store. This brings a few benefits, such as automatic updating. The Windows Store application uses the same _userdata_ as the version from our website so you can switch between the two versions without issues.
 
 NOTE: This also means that if you are currently running Kodi v16 and want to try out the Windows Store version, your Kodi databases and add-ons will be upgraded to the v17 versions. You might want to make a backup of the userdata before! You can read the full announcement here: [Kodi goes Windows Store](/article/kodi-goes-windows-store)
 
@@ -112,7 +112,7 @@ Developer _laurimyllari_ added a ColorManager class that supports loading madVR 
 
 Kodi has many hidden secrets and even team members don’t know the full potential it packs. One of those features you might not know is that Kodi also has a web-interface from which you can browse your library and start playback directly on your Kodi device. It’s something we’ve never really promoted that it was available and I’m not really sure why. However the past few years not much was changed to to it and it kinda fell into decay with only minor fixes done to keep it kind of functional. For Kodi v17 this has been radically changed as we have packaged up a brand new default web-interface called Chorus2.
 
-[![chorus2-artist](/sites/default/files/uploads/chorus2-artist-800x450.webp)](/sites/default/files/uploads/chorus2-artist.webp)
+[![chorus2-artist](/images/blog/chorus2-artist-800x450.webp)](/images/blog/chorus2-artist.webp)
 
 For some screenshot you can visit the release announcement here: [A new webinterface called Chorus2](/article/new-webinterface-called-chorus2). Regardless you’ll see when you install this new update.
 

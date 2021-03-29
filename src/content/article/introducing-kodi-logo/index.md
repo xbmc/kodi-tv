@@ -16,7 +16,7 @@ It has been several months now since we introduced the new name for the software
 
 So with that in mind, we went to the community for ideas and opinions on what might make the best kind of logo for our new name. The feedback we got was phenomenal, to the extent that we had a whole new problem: there were too many great ideas. Well over a hundred at last count.
 
-[![thumbnail-light](/sites/default/files/uploads/thumbnail-light-300x300.webp)](/sites/default/files/uploads/thumbnail-light.webp)With that in mind, we did a few things to narrow down the results. First, we had a user vote to get an idea of which ideas were more popular, and where some commonalities might lay.
+[![thumbnail-light](/images/blog/thumbnail-light-300x300.webp)](/images/blog/thumbnail-light.webp)With that in mind, we did a few things to narrow down the results. First, we had a user vote to get an idea of which ideas were more popular, and where some commonalities might lay.
 
 It became clear fairly quickly that users prefered a logo that was more design mark than wordmark. Which is to say, most votes tilted towards single really cool designs, like play symbols, highly stylized versions of the letter K, and navigation buttons, rather than highly stylized versions of the entire word. The only stylized word that got many votes was the one for which there was a nifty animation. Beyond leaning towards design marks, there was a clear preference for stylized Ks and navigation arrows.
 

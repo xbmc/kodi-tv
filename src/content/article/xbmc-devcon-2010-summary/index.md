@@ -12,7 +12,7 @@ This year’s DevCon was possibly the largest to date with a total of 24 people 
 
 ## Team XBMC and our hosts
 
-![](/sites/default/files/uploads/XBMC-DevCon-2010-Attendees-resized.webp)  
+![](/images/blog/XBMC-DevCon-2010-Attendees-resized.webp)  
  Hover over faces to see names
 
 ## **This year’s DevCon host: at-visions**

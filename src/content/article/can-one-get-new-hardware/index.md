@@ -20,7 +20,7 @@ Just bought myself a new computer. Not a superpowered one, but a decent (compare
 
  Gave up today (thinking I could bare with windows until Intrepid is released) I installed windows, but that didn’t go smooth either (after a few reboots, failsafe mode and biosupgrade) I am finally enjoying my speedy computer.
 
- Also I did discover [kernel.ubuntu.com](https://kernel.ubuntu.com/) today, and downloaded a new kernel (which I am gonna give a try tomorrow) because I can’t stand the thought of being without linux ![:)](/sites/default/files/uploads/icon_smile.gif)
+ Also I did discover [kernel.ubuntu.com](https://kernel.ubuntu.com/) today, and downloaded a new kernel (which I am gonna give a try tomorrow) because I can’t stand the thought of being without linux ![:)](/images/blog/icon_smile.gif)
 
  Just needed to let some steam of, why can’t hardware just work?
 

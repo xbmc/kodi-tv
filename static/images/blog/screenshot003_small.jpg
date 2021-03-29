@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:1485009178,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dok3v=1613a3a185/"},atok:"6b7ecd6a790d4185daeb6affd7510f12",petok:"da1d4e82629085ffe0a3b8c6c5a396238e34aa92-1485877462-1800",zone:"kodi.tv",rocket:"0",apps:{"ga_key":{"ua":"UA-3066672-1","ga_bs":"2"}}}];!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dok3v=f2befc48d1/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
+//]]>
+</script>
+<link rel="shortcut icon" href="/wp-content/uploads/thumbnail-favicon1.png"/>
+<title>Kodi | Open Source Home Theater Software</title>
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+<link rel="alternate" type="application/rss+xml" title="Kodi &raquo; Feed" href="https://kodi.tv/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Kodi &raquo; Comments Feed" href="https://kodi.tv/comments/feed/"/>
+<link rel='stylesheet' id='css_main-css' href='https://kodi.tv/wp-content/themes/paradise/Paradise/stylesheets/styles.css?ver=3.5.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='css_dark-css' href='https://kodi.tv/wp-content/themes/paradise/Paradise/colors/dark.css?ver=3.5.2' type='text/css' media='screen'/>
+<link rel='stylesheet' id='css_tipsy-css' href='https://kodi.tv/wp-content/themes/paradise/Paradise/stylesheets/tipsy.css?ver=3.5.2' type='text/css' media='all'/>
+<link rel='stylesheet' id='jquery.lightbox.min.css-css' href='https://kodi.tv/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css?ver=1.4' type='text/css' media='all'/>
+<script type='text/javascript' src='https://kodi.tv/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.tipsy.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.scrollTo-min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.localscroll-min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.flexibleColumns.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.preloader.js?ver=3.5.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/themes/paradise/Paradise/js/common.js?ver=1.0.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://kodi.tv/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://kodi.tv/wp-includes/wlwmanifest.xml"/>
+<meta name="generator" content="WordPress 3.5.2"/>
+  
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<style type="text/css">.wp_social_bookmarking_light{border:0!important;padding:0!important;margin:0!important;}.wp_social_bookmarking_light div{float:left!important;border:0!important;padding:0!important;margin:0 5px 0px 0!important;height:23px!important;text-indent:0!important;}.wp_social_bookmarking_light img{border:0!important;padding:0;margin:0;vertical-align:top!important;}.wp_social_bookmarking_light_clear{clear:both!important;}.wsbl_twitter{width:100px;}</style>
+ 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3066672-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3066672-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body id="sp">
+ 
+<div class="container">
+ 
+<div id="header">
+ 
+<a href="https://kodi.tv/" class="logo">
+<img src="https://kodi.tv/wp-content/themes/paradise/Paradise/images/logo.png" alt=""/>
+</a>
+ 
+<form role="search" method="get" id="searchform" action="https://kodi.tv/">
+<div><label class="screen-reader-text" for="s">Search for:</label>
+<input type="text" value="" name="s" id="s"/>
+<input type="submit" id="searchsubmit" value="Search"/>
+</div>
+</form> <div class="clear"></div>
+</div>
+ 
+ 
+<div id="MainNav">
+<a href="https://kodi.tv/" class="home_btn"><img src="https://kodi.tv/wp-content/themes/paradise/Paradise/images/icon_home.gif" width="17" height="19" alt="Home"/></a>
+<div id="menu">
+<ul id="menu-main-menu" class="ddsmoothmenu"><li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="https://kodi.tv/about/">About</a></li>
+<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="https://kodi.tv/download/">Downloads</a></li>
+<li id="menu-item-2613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2613"><a href="http://addons.xbmc.org">Add-ons</a></li>
+<li id="menu-item-734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-734"><a href="http://kodi.wiki">Wiki</a></li>
+<li id="menu-item-733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-733"><a href="http://forum.kodi.tv">Forum</a></li>
+<li id="menu-item-4388" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4388"><a href="https://kodi.tv/contribute/donate/">Donate</a></li>
+<li id="menu-item-2344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2344"><a href="https://kodi.tv/contact/">Contact</a></li>
+<li id="menu-item-3738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3738"><a href="https://kodi.tv/get-involved/">Get involved</a></li>
+</ul> </div>
+ 
+<ul class="social">
+<li><a href="https://kodi.tv/contribute/donate/" style="background: url(https://kodi.tv/wp-content/themes/paradise/Paradise/images/social/donate.png) no-repeat 0px 0px;" title="Donate"></a></li>
+<li><a href="https://plus.google.com/+Kodi-TV/posts" style="background: url(https://kodi.tv/wp-content/themes/paradise/Paradise/images/social/googleplus.png) no-repeat 0px 0px;" title="Googleplus"></a></li>
+<li><a href="http://www.facebook.com/KodiEntertainment" style="background: url(https://kodi.tv/wp-content/themes/paradise/Paradise/images/social/facebook.png) no-repeat 0px 0px;" title="Facebook"></a></li>
+<li><a href="https://twitter.com/KodiTV" style="background: url(https://kodi.tv/wp-content/themes/paradise/Paradise/images/social/twitter.png) no-repeat 0px 0px;" title="Twitter"></a></li>
+<li><a href="https://www.youtube.com/c/TeamKodiOfficial" style="background: url(https://kodi.tv/wp-content/themes/paradise/Paradise/images/social/youtube.png) no-repeat 0px 0px;" title="Youtube"></a></li>
+</ul>
+ 
+<div class="clear"></div>
+</div>
+ 
+ 
+<div id="content_wrapper_sbr">
+ 
+<div id="content">
+ 
+<div class="box">
+ 
+<div class="post">
+ 
+<div class="post_title_wrap">
+ 
+<div class="post_date">
+<span class="day">27</span>
+<span class="month">Jan</span>
+</div>
+<div class="post_title">
+<h2><a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-4/">Kodi v17.0 “Krypton” Release Candidate 4</a></h2>
+ 
+<div class="posted">
+<div class="alignright"><a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-4/#comments" title="No Comments">No Comments &raquo;</a></div>
+Posted By:&nbsp;<a href="https://kodi.tv/author/martijn/" title="View all posts by Martijn Kaijser">Martijn Kaijser</a>&nbsp;on&nbsp;Jan 27, 2017&nbsp;in&nbsp;<a href="https://kodi.tv/category/pre-release/" title="View all posts in Pre-Release" rel="category tag">Pre-Release</a> </div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-4/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Kodi-Wallpaper-15B-1080p_samfisher-600x336.jpg" class="pic wp-post-image" alt="Kodi-Wallpaper-15B-1080p_samfisher" title=""/></a>
+ 
+ 
+<p>This is the fourth Release Candidate for our upcoming v17.0 &#8220;Krypton&#8221; which contains our continuous effort to further improve v17.0 before we make it final. Our team will certainly try to tackle as much of the reported problems as possible with the limited resources we have. We do want to note that since we are just &hellip;</p>
+ 
+<a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-4/" class="btn" title="Read more">Read more</a>
+<div class="clear"></div>
+</div>
+ 
+ 
+<div class="post">
+ 
+<div class="post_title_wrap">
+ 
+<div class="post_date">
+<span class="day">12</span>
+<span class="month">Jan</span>
+</div>
+<div class="post_title">
+<h2><a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-3/">Kodi v17.0 “Krypton” Release Candidate 3</a></h2>
+ 
+<div class="posted">
+<div class="alignright"><a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-3/#comments" title="161 Comments">161 Comments &raquo;</a></div>
+Posted By:&nbsp;<a href="https://kodi.tv/author/martijn/" title="View all posts by Martijn Kaijser">Martijn Kaijser</a>&nbsp;on&nbsp;Jan 12, 2017&nbsp;in&nbsp;<a href="https://kodi.tv/category/pre-release/" title="View all posts in Pre-Release" rel="category tag">Pre-Release</a> </div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-3/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Kodi-Wallpaper-32A-1080p_samfisher-600x336.jpg" class="pic wp-post-image" alt="Kodi-Wallpaper-32A-1080p_samfisher" title=""/></a>
+ 
+ 
+<p>Just before New Years&#8217;s day we released our first official Release Candidate which marks the final step towards the final release of v17.0. These Release Candidate builds are dedicated to gain further feedback from users who are willing to take the jump towards v17 and we sure are grateful if they do as that provides &hellip;</p>
+ 
+<a href="https://kodi.tv/kodi-v17-0-krypton-release-candidate-3/" class="btn" title="Read more">Read more</a>
+<div class="clear"></div>
+</div>
+ 
+ 
+<div class="post">
+ 
+<div class="post_title_wrap">
+ 
+<div class="post_date">
+<span class="day">09</span>
+<span class="month">Jan</span>
+</div>
+<div class="post_title">
+<h2><a href="https://kodi.tv/kodi-18-leia/">Kodi 18 &#8211; &#8220;Leia&#8221;</a></h2>
+ 
+<div class="posted">
+<div class="alignright"><a href="https://kodi.tv/kodi-18-leia/#comments" title="177 Comments">177 Comments &raquo;</a></div>
+Posted By:&nbsp;<a href="https://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Jan 09, 2017&nbsp;in&nbsp;<a href="https://kodi.tv/category/dev-journal/" title="View all posts in Dev Journal" rel="category tag">Dev Journal</a>, <a href="https://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a> </div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<a href="https://kodi.tv/kodi-18-leia/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Kodi-tie-fighter-600x336.png" class="pic wp-post-image" alt="Kodi tie fighter" title=""/></a>
+ 
+ 
+<p>When deciding on a code name for the release of Kodi 18, we determined to do things just a little differently this time around. Normally, when we pick a new code name, we go through the suggestion threads, gather together the top 5 or top 10 suggestions, and vote on them. We did something similar &hellip;</p>
+ 
+<a href="https://kodi.tv/kodi-18-leia/" class="btn" title="Read more">Read more</a>
+<div class="clear"></div>
+</div>
+ 
+ 
+<div class="post">
+ 
+<div class="post_title_wrap">
+ 
+<div class="post_date">
+<span class="day">29</span>
+<span class="month">Dec</span>
+</div>
+<div class="post_title">
+<h2><a href="https://kodi.tv/kodi-v17-krypton-release-candidate-1/">Kodi v17.0 &#8220;Krypton&#8221; Release Candidate</a></h2>
+ 
+<div class="posted">
+<div class="alignright"><a href="https://kodi.tv/kodi-v17-krypton-release-candidate-1/#comments" title="229 Comments">229 Comments &raquo;</a></div>
+Posted By:&nbsp;<a href="https://kodi.tv/author/martijn/" title="View all posts by Martijn Kaijser">Martijn Kaijser</a>&nbsp;on&nbsp;Dec 29, 2016&nbsp;in&nbsp;<a href="https://kodi.tv/category/pre-release/" title="View all posts in Pre-Release" rel="category tag">Pre-Release</a> </div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<a href="https://kodi.tv/kodi-v17-krypton-release-candidate-1/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/kodi-splash-17.0-RC.jpg" class="pic wp-post-image" alt="kodi-splash-17.0-RC" title=""/></a>
+ 
+ 
+<p>UPDATE: Due to some packaging problems for Android and initial response we had to do quick bump to RC2 to solve this. If you had downloaded and installed RC1 before 31 December (available from system information) please upgrade to the newer version. We want to close the year 2016 with a blast and as such &hellip;</p>
+ 
+<a href="https://kodi.tv/kodi-v17-krypton-release-candidate-1/" class="btn" title="Read more">Read more</a>
+<div class="clear"></div>
+</div>
+ 
+ 
+<div class="post">
+ 
+<div class="post_title_wrap">
+ 
+<div class="post_date">
+<span class="day">19</span>
+<span class="month">Dec</span>
+</div>
+<div class="post_title">
+<h2><a href="https://kodi.tv/kodi-v17-krypton-the-last-beta-7/">Kodi v17 “Krypton” The last Beta 7</a></h2>
+ 
+<div class="posted">
+<div class="alignright"><a href="https://kodi.tv/kodi-v17-krypton-the-last-beta-7/#comments" title="145 Comments">145 Comments &raquo;</a></div>
+Posted By:&nbsp;<a href="https://kodi.tv/author/martijn/" title="View all posts by Martijn Kaijser">Martijn Kaijser</a>&nbsp;on&nbsp;Dec 19, 2016&nbsp;in&nbsp;<a href="https://kodi.tv/category/pre-release/" title="View all posts in Pre-Release" rel="category tag">Pre-Release</a> </div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<a href="https://kodi.tv/kodi-v17-krypton-the-last-beta-7/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Kodi_Xmas-600x336.jpg" class="pic wp-post-image" alt="Kodi_Xmas" title=""/></a>
+ 
+ 
+<p>It&#8217;s almost Christmas and as such we wanted to bring you the last Beta version of Kodi 17. This means we have good hopes we have squashed the biggest and known issues and up next we will go to Release Candidates which in the end will result in the final release. However let&#8217;s not get &hellip;</p>
+ 
+<a href="https://kodi.tv/kodi-v17-krypton-the-last-beta-7/" class="btn" title="Read more">Read more</a>
+<div class="clear"></div>
+</div>
+ 
+ 
+<div class="navigation" id="nav-below">
+<div class="nav-previous"><a href="https://kodi.tv/d4rk/files/2008/09/screenshot003_small.jpg/page/2/"><span class="meta-nav">&larr;</span> Older posts</a></div>
+<div class="nav-next"></div>
+</div> 
+<div class="clear"></div>
+ 
+<div class="clear"></div>
+</div>
+ 
+</div>
+ 
+ 
+<div id="sidebar">
+<div id="text-4" class="widget-container widget_text"><h3>Latest Releases</h3> <div class="textwidget"><b>Latest Release:</b> <a href="/download">Kodi 16.1 "Jarvis"</a><br/>
+<b>Release Date:</b> 24 April 2016<br/>
+<b>Announcement:</b> <a href="/kodi-16-1-jarvis-mark-xvi/">Kodi 16.1 "Jarvis"</a>
+<br/><br/>
+<center><a href="/download"><img src="/wp-content/uploads/download-button1.png" alt="Downloads"></a></center>
+<b>Get the Kodi Edition Pi Case</b>
+<center><a href="https://flirc.tv/more/raspberry-pi-case-ke"><img src="/wp-content/uploads/GetCaseButtonUS.png" onClick="_gaq.push(['_trackEvent', 'Sales', 'Pi Case', 'USA']);" alt="US" target="_blank"></a></center>
+<center><a href="https://thepihut.com/products/kodi-edition-raspberry-pi-case"><img src="/wp-content/uploads/GetCaseButtonUKEU.png" onClick="_gaq.push(['_trackEvent', 'Sales', 'Pi Case', 'EU-UK']);" alt="EU-UK" target="_blank"></a></center>
+</div>
+</div><div id="text-13" class="widget-container widget_text"><h3>Sponsors</h3> <div class="textwidget"><ul class="supporter" style="text-align:center;">
+<li><a href="https://www.silicondust.com/" title="HDHomerun SD" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'HDHomerun SD']);" target="_blank"><img src="/wp-content/uploads/HDHomerun_SD.png" alt="HDHomerun SD"/></a></li>
+<br>
+<li><a href="http://www.dell.com/en-us/gaming/alienware" title="alienware" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'Alienware']);" target="_blank"><img src="/wp-content/uploads/RGB-Gray_Alienware-Logo_02.png" alt="alienware"/></a></li>
+<br>
+<li><a href="http://www.minix.com.hk/" title="MINIX" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'MINIX']);" target="_blank"><img src="/wp-content/uploads/MINIX-LOGO-150-45px-011-e1429260102839.png" alt="MINIX"/></a></li>
+<br>
+<li><a href="http://www.nvidia.com/" title="NVIDIA" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'NVIDIA']);" target="_blank"><img src="/wp-content/uploads/NV_Logo_150x45.png" alt="NVIDIA"/></a></li>
+<br>
+<li><a href="http://www.wetek.com/" title="Wetek" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'Wetek']);" target="_blank"><img src="/wp-content/uploads/wetek.jpg" alt="Wetek"/></a></li>
+<br>
+<li><a href="http://www.bytemark.co.uk/r/xbmc" title="bytemark" onClick="_gaq.push(['_trackEvent', 'Sponsor', 'Bytemark']);" target="_blank"><img src="/wp-content/uploads/bytemark.png" alt="bytemark"/></a></li>
+</ul></div>
+</div><div id="text-11" class="widget-container widget_text"><h3>Buy a Kodi Shirt</h3> <div class="textwidget"><a href="https://teespring.com/stores/kodi-t-shirt-store" title="kodi shirt store" onClick="_gaq.push(['_trackEvent', 'Sales', 'Teespring', 'store']);" target="_blank"/><img src="https://kodi.tv/wp-content/uploads/kodi-graffiti-6-1446613526868.png" style="width:250px"></a></div>
+</div><div id="text-8" class="widget-container widget_text"> <div class="textwidget"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FXBMC&amp;width=295px&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=224830747546962" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:295pxpx; height:80px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/KodiTV" class="twitter-follow-button" data-show-count="false">Follow @KodiTV</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<br/>
+<div class="g-plusone"></div></div>
+</div><div id="categories-2" class="widget-container widget_categories"><h3>Categories</h3> <ul>
+<li class="cat-item cat-item-109"><a href="https://kodi.tv/category/april-fools-2/" title="View all posts filed under April Fools">April Fools</a> (3)
+</li>
+<li class="cat-item cat-item-104"><a href="https://kodi.tv/category/community-updates/" title="View all posts filed under Community Updates">Community Updates</a> (97)
+</li>
+<li class="cat-item cat-item-45"><a href="https://kodi.tv/category/dev-journal/" title="View all posts filed under Dev Journal">Dev Journal</a> (79)
+</li>
+<li class="cat-item cat-item-110"><a href="https://kodi.tv/category/feature-friday/" title="View all posts filed under Feature Friday">Feature Friday</a> (13)
+</li>
+<li class="cat-item cat-item-108"><a href="https://kodi.tv/category/featured-software-and-hardware/" title="View all posts filed under Featured Software and Hardware">Featured Software and Hardware</a> (6)
+</li>
+<li class="cat-item cat-item-106"><a href="https://kodi.tv/category/pre-release/" title="View all posts filed under Pre-Release">Pre-Release</a> (90)
+</li>
+<li class="cat-item cat-item-105"><a href="https://kodi.tv/category/release-announcements/" title="View all posts filed under Release Announcements">Release Announcements</a> (29)
+</li>
+<li class="cat-item cat-item-3"><a href="https://kodi.tv/category/site-news/" title="View all posts filed under Site News">Site News</a> (276)
+</li>
+<li class="cat-item cat-item-107"><a href="https://kodi.tv/category/trademark-and-branding/" title="View all posts filed under Trademark and Branding">Trademark and Branding</a> (7)
+</li>
+</ul>
+</div> </div>
+ 
+<script type="text/javascript">
+	jQuery(window).load(function() {
+		var offset = jQuery('#sidebar').height();
+		jQuery('#content > .box').each(function(index) {
+			offset -= this.offsetHeight + parseInt(jQuery(this).css('margin-top')) + parseInt(jQuery(this).css('margin-bottom'));
+		});
+		if (offset > 0)
+			jQuery('#content .box:last-child').height(jQuery('#content .box:last-child').height() + offset);
+	});
+</script> <div class="clear"></div>
+</div>
+ 
+</div>
+ 
+ 
+<div id="f_sidebar">
+<div class="sb_wrapper">
+<div id="text-3" class="widget-container widget_text"><h3>About Kodi</h3> <div class="textwidget">Kodi is a free and open source media player application developed by the XBMC Foundation, a non-profit technology consortium. Kodi is available for multiple operating-systems and hardware platforms, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.</div>
+</div><div id="linkcat-35" class="widget-container widget_links"><h3>Internal Links</h3>
+<ul class='xoxo blogroll'>
+<li><a href="/Corporate-Enquiries/">Corporate</a></li>
+<li><a href="/get-involved/" title="You can help XBMC!">Get involved</a></li>
+<li><a href="/known-list-of-gpl-violators" title="A list of all current XBMC GPL Violators">GPL Violators</a></li>
+<li><a href="/about/xbmc-software/">Kodi Software</a></li>
+<li><a href="/about/team/">Kodi Team</a></li>
+<li><a href="https://kodi.tv/kodi-privacy-policy/">Privacy Policy</a></li>
+<li><a href="/xbmc-sponsor-page">Sponsorship</a></li>
+<li><a href="/about/xbmc-foundation/">XBMC Foundation</a></li>
+</ul>
+</div>
+<div id="linkcat-37" class="widget-container widget_links"><h3>RSS Feeds</h3>
+<ul class='xoxo blogroll'>
+<li><a href="/comments/feed/">Blog Comments</a></li>
+<li><a href="/feed/">Blog News</a></li>
+<li><a href="http://forum.kodi.tv/syndication.php?fid=6&#038;limit=15">Forum General</a></li>
+<li><a href="http://forum.kodi.tv/syndication.php?fid=202&#038;limit=15">Forum Showcase</a></li>
+<li><a href="https://github.com/xbmc/xbmc/commits/master.atom" target="_blank">Github Commits</a></li>
+<li><a href="http://feeds.kodi.tv/latest_xbmc_addons">New Add-ons</a></li>
+<li><a href="http://feeds.kodi.tv/updated_xbmc_addons">Updated Add-ons</a></li>
+</ul>
+</div>
+<div id="linkcat-36" class="widget-container widget_links"><h3>Sponsors</h3>
+<ul class='xoxo blogroll'>
+<li><a href="http://www.dell.com/en-us/gaming/alienware">Alienware</a></li>
+<li><a href="http://www.bytemark.co.uk/r/xbmc">bytemark</a></li>
+<li><a href="http://flirc.tv" target="_blank">FLIRC</a></li>
+<li><a href="http://www.minix.com.hk/">MINIX</a></li>
+<li><a href="http://www.nvidia.com">NVIDIA</a></li>
+<li><a href="http://www.webhostingbuzz.com">WebHostingBuzz</a></li>
+<li><a href="http://www.wetek.com" target="_blank">WETEK</a></li>
+</ul>
+</div>
+<div id="linkcat-2" class="widget-container widget_links"><h3>Friends</h3>
+<ul class='xoxo blogroll'>
+<li><a href="http://fanart.tv">Fanart.TV</a></li>
+<li><a href="https://musicbrainz.org/" title="Musicbrainz" target="_blank">MusicBrainz.org</a></li>
+<li><a href="http://openelec.tv/">OpenELEC.tv</a></li>
+<li><a href="http://www.theaudiodb.com">TheAudioDB.com</a></li>
+<li><a href="http://thegamesdb.net">TheGamesDB.net</a></li>
+<li><a href="http://www.themoviedb.org/">TheMovieDB.org</a></li>
+<li><a href="http://www.thetvdb.com/">TheTVDB.com</a></li>
+<li><a href="http://xbmclogs.com">XBMCLogs.com</a></li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+ 
+ 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script src="https://apis.google.com/js/platform.js" async defer>{lang: "en-US"}</script>
+ 
+<script type='text/javascript' src='https://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js?ver=1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"showInfo":"1","fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"1","navbarOnTop":"0","resizeCenter":"","marginSize":"0","linkTarget":"_self","slideshowSpeed":"4000","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://kodi.tv/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js?ver=1.4'></script>
+</body>
+</html>
+ 
+ 
+ 
+ 

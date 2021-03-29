@@ -14,7 +14,7 @@ Good morning everyone. As with last year, we’re going to try to keep a running
 
 ## Nedscott’s Wiki Update
 
-[![IMG_0440](/sites/default/files/uploads/IMG_0440-800x600.webp)](/sites/default/files/uploads/IMG_0440.webp)For anyone who sees something missing in the wiki, adding a new page and linking it has never been easier. Now if you have some new advice, like a How-To on adding videos to the video library, you have a really easy way to add that now.
+[![IMG_0440](/images/blog/IMG_0440-800x600.webp)](/images/blog/IMG_0440.webp)For anyone who sees something missing in the wiki, adding a new page and linking it has never been easier. Now if you have some new advice, like a How-To on adding videos to the video library, you have a really easy way to add that now.
 
 First, do a search for the content. When the page isn’t found, go to the bottom of the search screen and a link will appear saying, “Do you want to create a new page?” You say yes, and the page is created.
 
@@ -76,4 +76,4 @@ Discussion followed from media importing to the idea of running Kodi as a headle
 
 Just FYI, as of right now, there have been 4532 votes for the Kodi logo. Awesome work everyone!
 
-[![DevCon2014](/sites/default/files/uploads/DevCon2014-800x526.webp)](/sites/default/files/uploads/DevCon2014.webp)
+[![DevCon2014](/images/blog/DevCon2014-800x526.webp)](/images/blog/DevCon2014.webp)

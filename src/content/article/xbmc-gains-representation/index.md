@@ -4,7 +4,7 @@ date: 2010-04-26T04:00:00Z
 author: Team XBMC
 ---
 
-[![](/sites/default/files/uploads/sflc-139x101.webp "SFLC")](http://www.softwarefreedom.org)In another sign that the project is growing up, we are happy to announce that XBMC is now legally represented by the [Software Freedom Law Center](http://www.softwarefreedom.org/). This has been in the works since our introduction at [SCALE](/article/scale-2010-report) a few months back and today it is official. From their website:
+[![](/images/blog/sflc-139x101.webp "SFLC")](http://www.softwarefreedom.org)In another sign that the project is growing up, we are happy to announce that XBMC is now legally represented by the [Software Freedom Law Center](http://www.softwarefreedom.org/). This has been in the works since our introduction at [SCALE](/article/scale-2010-report) a few months back and today it is official. From their website:
 
 We provide legal representation and other law-related services to protect and advance Free, Libre and Open Source Software (FLOSS). Founded in 2005, the Center now represents many of the most important and well-established free software and open source projects.
 

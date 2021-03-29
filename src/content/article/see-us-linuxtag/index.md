@@ -6,7 +6,7 @@ author: Team XBMC
 
 For the third year in a row we are going to exhibit on [LinuxTag](http://www.linuxtag.org/2011/en.html) in Berlin, Germany.
 
-The exhibition is running from [![](/sites/default/files/uploads/LinuxTag-Logo-plain-yellow-300x193.webp "LinuxTag 2011")](/blittan/2011/04/12/see-us-at-linuxtag/linuxtag-logo-plain-yellow)May 11 to 14 at the Berlin Fairgrounds ([Messedamm 22](http://www.linuxtag.org/2011/en/visitors/directions.html "Directions")) in hall 7 (S-Bahn station Messe Süd, next to the Deutschlandhalle).
+The exhibition is running from [![](/images/blog/LinuxTag-Logo-plain-yellow-300x193.webp "LinuxTag 2011")](/blittan/2011/04/12/see-us-at-linuxtag/linuxtag-logo-plain-yellow)May 11 to 14 at the Berlin Fairgrounds ([Messedamm 22](http://www.linuxtag.org/2011/en/visitors/directions.html "Directions")) in hall 7 (S-Bahn station Messe Süd, next to the Deutschlandhalle).
 
 We will be in hall 7.2.a booth 101.
 

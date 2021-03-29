@@ -20,7 +20,7 @@ Ripped CDs are now automatically added the the music library, and ripping suppor
 
 One of the first big benefits of the settings refactor has been the inclusion of new settings descriptions. Now, when you highlight a setting that previously made next to no sense, a small description will pop up clarifying what the setting actually accomplishes, as can be seen near the bottom of the below image.
 
-[![settings_descriptions](/sites/default/files/uploads/settings_descriptions-300x187.webp)](/sites/default/files/uploads/settings_descriptions.webp)
+[![settings_descriptions](/images/blog/settings_descriptions-300x187.webp)](/images/blog/settings_descriptions.webp)
 
 Those familiar with Github are encouraged to consider [adding more settings descriptions](https://forum.kodi.tv/showthread.php?tid=170528&amp;pid=1476835 "Help adding settings descriptions").
 

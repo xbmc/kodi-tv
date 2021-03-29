@@ -19,6 +19,6 @@ Hi everyone!
 
  **Update 2:** The bug has been fixed and the updated addon is now available from the official repository. Before you install it, make sure it’s version **0.0.4**. If not you can either force refresh XBMC’s official repository (using the context menu) or wait a few hours until it happens automatically. Once again, we are sorry for the inconvenience.
 
- **Update 3:** The server is brought down while I go through and backup the data. You all might be interested to know that you almost took down the server with all the data ![:)](/sites/default/files/uploads/icon_smile.gif) So thank you all so much, you have given me more than I ever hoped for! I will post updates ASAP!
+ **Update 3:** The server is brought down while I go through and backup the data. You all might be interested to know that you almost took down the server with all the data ![:)](/images/blog/icon_smile.gif) So thank you all so much, you have given me more than I ever hoped for! I will post updates ASAP!
 
  

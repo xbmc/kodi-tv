@@ -4,7 +4,7 @@ date: 2010-10-28T03:00:00Z
 author: Team XBMC
 ---
 
-![](/sites/default/files/uploads/Greek_beta.webp "Greek_beta")Well, beta 3 had a few regressions. So rather than moving along to rc1, we decided to throw out one last (we hope!) beta. There a few things to take note of:
+![](/images/blog/Greek_beta.webp "Greek_beta")Well, beta 3 had a few regressions. So rather than moving along to rc1, we decided to throw out one last (we hope!) beta. There a few things to take note of:
 
 - Live now contains an Audio Mixer. You’ll find it in the Programs section. Non-Live users (Linux and OSX) may install it from the add-ons browser. This replaces the previous scripts that attempted to set volume levels. As a result, volumes may be low or muted by default, but now you can adjust them with your remote.
 - After installing a skin from the add-on browser, you’ll now be prompted to switch to it. It just makes sense.

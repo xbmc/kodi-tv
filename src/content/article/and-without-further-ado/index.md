@@ -10,7 +10,7 @@ We want to thank all the participants for their art and their ideas, and we hate
 
 Without further ado, Team XBMC has selected Zapy by da-anda to be the mascot of XBMC. Congrats da-anda! And Zapy, do you have anything you’d like to say?
 
-[![zomg!](/sites/default/files/uploads/zappy-omg-300x300.webp "zappy-omg")](/sites/default/files/uploads/zappy-welcome.webp)  
+[![zomg!](/images/blog/zappy-omg-300x300.webp "zappy-omg")](/images/blog/zappy-welcome.webp)  
  Clearly, Zapy is speechless.
 
 As I said, it was a tough vote for Team XBMC. Coming in 2nd place was htpc_guy’s absolutely amazing and versatile dragon. And in 3rd was grumpygamer’s awesomely friendly and sloth.

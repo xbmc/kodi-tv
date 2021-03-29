@@ -4,11 +4,11 @@ date: 2009-11-21T03:00:00Z
 author: Team XBMC
 ---
 
-![Confluence_Logo](/sites/default/files/uploads/Confluence_Logo1.webp "Confluence_Logo")As the testing portion of Camelot continues, we would like to introduce Confluence as the new default XBMC skin. We have also stopped including the original Project Mayhem III skin (Don’t worry, PM3.HD is still there). It will be added to the gallery soon, but for now you can find it [here](https://sourceforge.net/projects/xboxmediacenter/files/XBMC%20Skins/Project%20Mayhem%20III/Project_Mayhem_III.rar/download).
+![Confluence_Logo](/images/blog/Confluence_Logo1.webp "Confluence_Logo")As the testing portion of Camelot continues, we would like to introduce Confluence as the new default XBMC skin. We have also stopped including the original Project Mayhem III skin (Don’t worry, PM3.HD is still there). It will be added to the gallery soon, but for now you can find it [here](https://sourceforge.net/projects/xboxmediacenter/files/XBMC%20Skins/Project%20Mayhem%20III/Project_Mayhem_III.rar/download).
 
 A ‘Confluence’ is the coming together of many things into one point, and the skin lives up to that for sure. Jezz_X started it as a progression of his MediaStream_Redux, but it has evolved into something entirely different from its origins. You’ll surely notice that it shares a home-screen ‘blade’ with MediaStream, a settings screen feel with Aeon, views from many other skins, etc. In short, he’s used ideas from existing skins to make a coherent amalgamation that is both sexy and easy to use. Feel free to visit the [gallery](https://kodi.tv/skins/confluence) for screenshots or the [forum](https://forum.kodi.tv/forumdisplay.php?fid=125) to discuss the skin.
 
-[![screenshot002](/sites/default/files/uploads/screenshot002.webp "screenshot002")](https://kodi.tv/skins/confluence)  
+[![screenshot002](/images/blog/screenshot002.webp "screenshot002")](https://kodi.tv/skins/confluence)  
  Confluence 'Fanart' View
 
 ### Soft String Freeze

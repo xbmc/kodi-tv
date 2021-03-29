@@ -10,12 +10,12 @@ With that said, let’s review some of the more notable changes in the [April Ch
 
 First on the list is a major reshuffle of XBMC settings. In the past, many of the controls for allowing XBMC to interact with your network were found on the Network page. Because the Network group was primarily being used for interacting with various external services, the Network page has been entirely replaced with a Services page. The “Internet Access” setting, which was the only other purpose of the Network page, has been moved to the System page.
 
-[![Confluence_Service_Settings](/sites/default/files/uploads/Confluence_Service_Settings-300x170.webp "Confluence_Service_Settings")](/sites/default/files/uploads/Confluence_Service_Settings.webp)  
+[![Confluence_Service_Settings](/images/blog/Confluence_Service_Settings-300x170.webp "Confluence_Service_Settings")](/images/blog/Confluence_Service_Settings.webp)  
  XBMC has quite a lot of services to deal with these days!
 
 Next, extending XBMC’s default ability to scrape sets, we’ve now added a new “Sets” submenu item.
 
-[![Eden_sets](/sites/default/files/uploads/Eden_sets-300x168.webp "Eden_sets")](/sites/default/files/uploads/Eden_sets.webp)
+[![Eden_sets](/images/blog/Eden_sets-300x168.webp "Eden_sets")](/images/blog/Eden_sets.webp)
 
 For all you iOS users out there, we have an even more exciting announcement. Those of you with iPads, recent iPod Touches, and recent iPhones that are running XBMC will now be able to switch your screen from the local screen to your TV using one of the available TV Out cords provided by Apple. Then, you can use your local screen as a remote control. Or, to put it more succinctly, **mirroring for XBMC** is now enabled. For a video on how this works, see below. (Note: as already mentioned, the lack of an iOS build for April means this feature will not actually be available until iOS nightly builds start back up again. Keep an eye on our [social](https://www.facebook.com/XBMC "XBMC on Facebook") [network](https://twitter.com/#!/xbmc "XBMC on Twitter") [pages](https://plus.google.com/b/102926840947534443602/ "XBMC on Google+"), as those will likely be the first places with news on the builds.)
 

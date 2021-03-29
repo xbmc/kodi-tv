@@ -17,7 +17,7 @@ As part of our ongoing goal to improve communication to all the Kodi fans this b
 FOSDEM is an event held yearly in Brussels, Belgium and is attended by thousands of developers and enthusiasts. This year marked the first time Kodi representatives visited the event, and in more than one way it turned out to be a success.  
  After driving around for what seemed hours for a parking spot, we made our way to the campus of the Free University of Brussels. Immediately upon arriving we were impressed by the location and by the sheer number of people attending. Walking over the campus there was a nice buzz of excitement as many open source enthusiasts had already arrived and were walking between the many beautiful campus buildings. The general atmosphere was very friendly; after approaching some people holding a map to ask them which way the AW building – where we were located – was, one of them promptly handed me the map stating they had several anyway.
 
-[![FOSDEM_map](/sites/default/files/uploads/20150207_lageplan_bruxelles-300x212.webp)](/sites/default/files/uploads/20150207_lageplan_bruxelles.webp)  
+[![FOSDEM_map](/images/blog/20150207_lageplan_bruxelles-300x212.webp)](/images/blog/20150207_lageplan_bruxelles.webp)  
  Map of the FOSDEM terrain
 
 ### Setting up the stand
@@ -26,7 +26,7 @@ The stands are FOSDEM are basic; ours consisted of a table with a tablecloth and
  We had a 40-inch TV and some devices at the stand, and were glad to see many long time Kodi users joined us to ask us questions, look at some of the Android devices we had with us, as well as talk to our main (only!) Android developer Koying. It was a slight shame that we were not able to show off our add-on capabilities as much as we liked, because the wifi at FOSDEM was split into a legacy (IPv4) and a new (IPv6) network, and the legacy network did not cover the AW building at all. With many android devices unable to do IPv6, we were out of luck in that regard.  
  By the way, the name of the faculty was very fitting as you can see:
 
-[![The AW building](/sites/default/files/uploads/IMG_20150131_152448-222x300.webp)](/sites/default/files/uploads/IMG_20150131_152448.webp)  
+[![The AW building](/images/blog/IMG_20150131_152448-222x300.webp)](/images/blog/IMG_20150131_152448.webp)  
  a.k.a. ‘Faculty of Droid’
 
 ### Presentations
@@ -42,10 +42,10 @@ Both presentations are now available to be watched directly from the links below
 - [FOSDEM ’15 Kodi Open Media room presentation](https://video.fosdem.org/2015/devroom-open_media/kodi.mp4) (32 minutes, 149 MB)
 - [FOSDEM ’15 Kodi lightning talk presentation](https://video.fosdem.org/2015/lightning_talks/kodi_mediacenter.mp4) (18 minutes, 53 MB)
 
-[![Open Media room](/sites/default/files/uploads/IMG_20150131_160844-300x222.webp)](/sites/default/files/uploads/IMG_20150131_160844.webp)  
+[![Open Media room](/images/blog/IMG_20150131_160844-300x222.webp)](/images/blog/IMG_20150131_160844.webp)  
  People still pushing into the left …
 
-[![Open Media room](/sites/default/files/uploads/IMG_20150131_160850-300x222.webp)](/sites/default/files/uploads/IMG_20150131_160850.webp)  
+[![Open Media room](/images/blog/IMG_20150131_160850-300x222.webp)](/images/blog/IMG_20150131_160850.webp)  
  … and the right was already full!
 
 ### Podcast interview
@@ -70,7 +70,7 @@ One of the things which is always in our head when going to conferences and show
 
 Saturday night at FOSDEM is traditionally held at the Delirium bar in Brussels Central. By a stroke of good luck the hotel we booked was about 100 meters from this bar and Martijn and myself enjoyed the crazy busy atmosphere and good beers there. Koying, who lives in Brussels, spend the evening at home with his family.
 
-[![Going out for a beer in Brussels...](/sites/default/files/uploads/fosdem_delirium-225x300.webp)](/sites/default/files/uploads/fosdem_delirium.webp)  
+[![Going out for a beer in Brussels...](/images/blog/fosdem_delirium-225x300.webp)](/images/blog/fosdem_delirium.webp)  
  Ground rules at Delirium pub
 
 ### Conclusion

@@ -24,7 +24,7 @@ Enough said. Downloads links are at the bottom…
 
 ## The most awesome surprise in years…….
 
-[![zappy-santa](/sites/default/files/uploads/zappy-santa-160x160.webp)](/sites/default/files/uploads/zappy-santa.webp)Over the years we have been playing with some random awesome and insane ideas that never came to life. Either they were to complicated, lack of skill sor we simply forgot about it as it took too long to realise. In the coming days however we will announce one of these ideas that has actually been talked about, worked on, discussed a lot and has actually been finished as well. It is something that’s way out of our comfort zone so we hope that this big surprise will be something you as users will be enjoying as much as we will.
+[![zappy-santa](/images/blog/zappy-santa-160x160.webp)](/images/blog/zappy-santa.webp)Over the years we have been playing with some random awesome and insane ideas that never came to life. Either they were to complicated, lack of skill sor we simply forgot about it as it took too long to realise. In the coming days however we will announce one of these ideas that has actually been talked about, worked on, discussed a lot and has actually been finished as well. It is something that’s way out of our comfort zone so we hope that this big surprise will be something you as users will be enjoying as much as we will.
 
 What it is? Well it’s a **_SPOILER ALERT_** that can be use to **\***SPOILER ALERT**\***.**\***more info follow [this link](/article/official-kodi-edition-raspberry-pi-case)\*
 
@@ -67,4 +67,4 @@ Please report any problems on our forum <https://forum.kodi.tv/> and not on the 
 
 ###
 
-[![XBMC SF award 2008](/sites/default/files/uploads/XBMC-SF-award-2008-200x300.webp)](/sites/default/files/uploads/XBMC-SF-award-2008.webp)
+[![XBMC SF award 2008](/images/blog/XBMC-SF-award-2008-200x300.webp)](/images/blog/XBMC-SF-award-2008.webp)

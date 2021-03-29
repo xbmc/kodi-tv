@@ -5,7 +5,7 @@ author: Team XBMC
 ---
 hi all you translators out there,
 
- this tool is exclusively made for you. ![;)](/sites/default/files/uploads/icon_wink.gif) since i (bobbin007) am one of the maintainers of the german language file, i thought it would be time to simplify the whole process of updating a language file a little. after a lot of pondering and hacking, i proudly present the first version of my xbmc translator. hope this tool will be useful as it is now, but as always i’m open for suggestions.
+ this tool is exclusively made for you. ![;)](/images/blog/icon_wink.gif) since i (bobbin007) am one of the maintainers of the german language file, i thought it would be time to simplify the whole process of updating a language file a little. after a lot of pondering and hacking, i proudly present the first version of my xbmc translator. hope this tool will be useful as it is now, but as always i’m open for suggestions.
 
  feature list:  
  - create new translations  

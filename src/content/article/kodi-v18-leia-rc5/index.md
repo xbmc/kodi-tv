@@ -60,4 +60,4 @@ Getting involved is quite easy. Simply take the plunge and start using v18.0 Lei
 
 **_May the source be with you….._**
 
-**_![](https://kodi.tv/sites/default/files/K-18L-Comic-Preview.webp)_**
+**_![](/images/blog/K-18L-Comic-Preview.webp)_**

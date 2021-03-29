@@ -6,7 +6,7 @@ author: Nathan Betzen
 
 As you may have noticed, our blog has often been lacking in content, outside of the occasional Feature Friday. We would like to change that. Starting right now, we will begin accepting applications for up to five XBMC writers. The pay is terrible (i.e. you will not get paid), and you probably won’t get a lot of respect, but at least the hours aren’t bad!
 
-[![XBMC Blogging Idol](/sites/default/files/uploads/xbmcbloggingidol-300x171.webp "XBMC Blogging Idol")](/sites/default/files/uploads/xbmcbloggingidol.webp)The XBMC home page is viewed approximately 30,000 times a day. As an XBMC blogger, you will be seen by over 400,000 unique visitors per month. People will probably start randomly buying you drinks in fancy and exclusive bars. Also, if you have an idea for an interesting story, even our angriest and scariest developers (who need no introduction) might be nice to you, if you ask them questions.
+[![XBMC Blogging Idol](/images/blog/xbmcbloggingidol-300x171.webp "XBMC Blogging Idol")](/images/blog/xbmcbloggingidol.webp)The XBMC home page is viewed approximately 30,000 times a day. As an XBMC blogger, you will be seen by over 400,000 unique visitors per month. People will probably start randomly buying you drinks in fancy and exclusive bars. Also, if you have an idea for an interesting story, even our angriest and scariest developers (who need no introduction) might be nice to you, if you ask them questions.
 
 At least three of the previous sentences are true.
 

@@ -49,7 +49,7 @@ Privacy policy
 
 Your privacy is an important factor that the XBMC Foundation and Team Kodi considers in the development of all of our software and services. We are committed to being transparent and open. This Privacy Policy explains generally how we receive information about you, and what we do with that information once we have it. As such we have added this [privacy policy](/kodi-privacy-policy) to our website and also made it available from within Kodi itself to read.
 
-[![v17-privacy-policy](/sites/default/files/uploads/v17-privacy-policy-800x450.webp)](/sites/default/files/uploads/v17-privacy-policy.webp)
+[![v17-privacy-policy](/images/blog/v17-privacy-policy-800x450.webp)](/images/blog/v17-privacy-policy.webp)
 
 WARNING: This of course does not mean your privacy is totally protected. In the end you are still responsible yourself for whatever you install or share. For the official Kodi repository we have a set of strict rules in place for any add-on that is added or updated and strive towards protecting the users from any harm that might come from using them. However once you decide to install any other repository or add-ons from outside our official repository you must make sure you are informed of any consequences. Do not blindly install any add-on but make sure to read up on what it does and what it might share with others. If you are not sure then take the safe route and don’t install it.
 
@@ -59,7 +59,7 @@ Force music tag re-scan
 
 With Kodi v17 a lot has changed in regards to the music library and part of this has been better tag scanning and usage. For this to work to it’s full potential it’s mandatory for your music files to be re-scanned and the available tags to be extracted. After you upgrade and enter the music library a choice will be giving to re-scan now or later. As this re-scan can take up quite some time and resources you can answer NO and continue browsing your library. Once you exit library and re-enter you will be prompted again asking to re-scan. Once you answer YES Kodi will start scanning all your music files and extract the tag data they contain to a certain degree. As mentioned this process takes quite some time depending on the size. During this time Kodi might be somewhat slower than normal. Do note that this will not reset your library to a new state or that you will loose data. It will simply update what is available and will leave all play counts and the rest as they were.
 
-[![v17-music-rescan](/sites/default/files/uploads/v17-music-rescan-800x450.webp)](/sites/default/files/uploads/v17-music-rescan.webp)
+[![v17-music-rescan](/images/blog/v17-music-rescan-800x450.webp)](/images/blog/v17-music-rescan.webp)
 
 Estuary and Estouchy: next generation
 

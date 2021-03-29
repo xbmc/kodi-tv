@@ -14,7 +14,7 @@ With that said, several features, fixes, and updates have been included so far t
 
 ## The Next Generation of Video Codecs
 
-![ffmpeg-logo](/sites/default/files/uploads/ffmpeg-logo-300x75.webp)To begin, Kodi has been updated to use FFmpeg 2.2.4. For users, this means Kodi will now be capable of playing back h.265 (also known as HEVC) and VP9 video codecs. This could result in dramatically smaller video files sizes with exactly the same level of quality. A 40 GB file could be compressed to 20 GB. A 1 GB file could be compressed to 500 MB without any loss in perceivable quality. Users with particularly large libraries or interest in 4K video may be especially likely to appreciate this update.
+![ffmpeg-logo](/images/blog/ffmpeg-logo-300x75.webp)To begin, Kodi has been updated to use FFmpeg 2.2.4. For users, this means Kodi will now be capable of playing back h.265 (also known as HEVC) and VP9 video codecs. This could result in dramatically smaller video files sizes with exactly the same level of quality. A 40 GB file could be compressed to 20 GB. A 1 GB file could be compressed to 500 MB without any loss in perceivable quality. Users with particularly large libraries or interest in 4K video may be especially likely to appreciate this update.
 
 The caveat to this update is that it is entirely software based. This means most low power systems, such as those operating Android or iOS, may struggle compared to the heftier HTPCs or Intel NUCs and ZOTAC ZBOXes that are running desktop and laptop processors.
 
@@ -58,7 +58,7 @@ Helix compatible skins in our repository at the moment are: Aeon Nox 5, Transpar
 
 ## The Last XBMC Shirt Ever
 
-[![xbmclastshirt](/sites/default/files/uploads/xbmclastshirt.webp)](https://teespring.com/lastxbmcshirt1)Because of your generosity in t-shirt sales, straight-up donations, and word-of-mouth evangelizing, this project has lasted for 12 years and through four different names, and with your help, we all believe it can last twice that long again. So we figured we’d offer a t-shirt to commemorate the name change.
+[![xbmclastshirt](/images/blog/xbmclastshirt.webp)](https://teespring.com/lastxbmcshirt1)Because of your generosity in t-shirt sales, straight-up donations, and word-of-mouth evangelizing, this project has lasted for 12 years and through four different names, and with your help, we all believe it can last twice that long again. So we figured we’d offer a t-shirt to commemorate the name change.
 
 There’s only one thing. The image at the top of this article is not the final logo. We are working with [doghousemedia](https://doghouse.agency/ "doghousemedia") to truly realize an awesome logo, and we aren’t quite there yet.
 

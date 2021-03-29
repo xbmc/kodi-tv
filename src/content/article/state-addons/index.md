@@ -6,7 +6,7 @@ author: Team XBMC
 
 It’s been a while since we’ve updated our readers on the status of things, so I wanted to give a quick preview of how the addons are shaping up. Many nightly users are itching for new builds, and those that have compiled their own have been greeted by broken plugins, scrapers, etc. This is by design, as the entire framework has changed to make it easier for users to acquire addons and stay up to date. Here’s a quick preview of the current state of things:
 
-![](/sites/default/files/uploads/screenshot014.webp "Addons")  
+![](/images/blog/screenshot014.webp "Addons")  
  Current state of the Addons Manager
 
 Right away you’ll notice that scrapers are now addons, which initially may seem strange. The reasoning behind the change is that scrapers change often, yet we only do roughly two stable releases of XBMC each year. With a full-fledged addon manager in place (think firefox), you’ll be able to stay up to date without ever touching a keyboard. Obviously plugins, scripts, and skins will work the same way.

@@ -6,7 +6,7 @@ author: Nathan Betzen
 
 As it’s been a little while since the Team’s taken a look around the community, it seems high time to do just that.
 
-[![TV Logos](/sites/default/files/uploads/screenshot006-300x181.webp "TV Logos")](/sites/default/files/uploads/screenshot006.webp)  
+[![TV Logos](/images/blog/screenshot006-300x181.webp "TV Logos")](/images/blog/screenshot006.webp)  
  TV Logos (extra credit if you can name all 5 shows on the screen in the comments)
 
 First off, chances are, if you’ve used a modern skin that isn’t Confluence, you’ve had the opportunity to check out some really interesting alternative methods for presenting your tv shows and music. An incredible [number of skins](https://kodi.wiki/view/Comparison_of_skin_features "Skin Comparison Chart")\* make it possible to view TV show logos, clearart, cdart, and several other features not present in the version of Confluence found in stock XBMC 10.1.
@@ -25,7 +25,7 @@ Of major interest to non-Windows users (and particularly iOS users), [NFS](<http
 
 Finally, this week we’d like to feature Aeon Nox.
 
-[![Aeon Nox](/sites/default/files/uploads/screenshot007-300x181.webp "Aeon Nox")](/sites/default/files/uploads/screenshot007.webp)  
+[![Aeon Nox](/images/blog/screenshot007-300x181.webp "Aeon Nox")](/images/blog/screenshot007.webp)  
  Aeon Nox
 
 Aeon Nox has the distinction of being the first modification of Aeon to be based on Confluence, rather than the underlying Aeon code. It supports all those goodies mentioned above, plus TV Tunes, Cinema Experience, Weather+, the TV Schedule, and many other skin enhancements, and it can be downloaded right now from our skins repository, so get it while it’s hot.

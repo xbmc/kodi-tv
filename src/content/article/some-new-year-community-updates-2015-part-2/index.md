@@ -27,13 +27,13 @@ Basically the audio data will undergo the following steps:
 
 This sounds all technical so let’s put this into some example screenshots to give you a better idea.
 
-    [![adsp_01](/sites/default/files/uploads/adsp_01-300x157.webp)](/sites/default/files/uploads/adsp_01.webp) [![adsp_02](/sites/default/files/uploads/adsp_02-300x157.webp)](/sites/default/files/uploads/adsp_02.webp)   [![adsp_03](/sites/default/files/uploads/adsp_03-300x157.webp)](/sites/default/files/uploads/adsp_03.webp) [![adsp_04](/sites/default/files/uploads/adsp_04-300x157.webp)](/sites/default/files/uploads/adsp_04.webp)   [![adsp_05](/sites/default/files/uploads/adsp_05-300x157.webp)](/sites/default/files/uploads/adsp_05.webp) [![adsp_06](/sites/default/files/uploads/adsp_06-300x171.webp)](/sites/default/files/uploads/adsp_06.webp)    As you can see from the screenshot, this can give you some powerful option regarding audio processing and it will lift Kodi to a new level in the audio world. Currently we are not near the end stage yet and only a few add-ons are currently in the works. Never the less this sure looks promising.
+    [![adsp_01](/images/blog/adsp_01-300x157.webp)](/images/blog/adsp_01.webp) [![adsp_02](/images/blog/adsp_02-300x157.webp)](/images/blog/adsp_02.webp)   [![adsp_03](/images/blog/adsp_03-300x157.webp)](/images/blog/adsp_03.webp) [![adsp_04](/images/blog/adsp_04-300x157.webp)](/images/blog/adsp_04.webp)   [![adsp_05](/images/blog/adsp_05-300x157.webp)](/images/blog/adsp_05.webp) [![adsp_06](/images/blog/adsp_06-300x171.webp)](/images/blog/adsp_06.webp)    As you can see from the screenshot, this can give you some powerful option regarding audio processing and it will lift Kodi to a new level in the audio world. Currently we are not near the end stage yet and only a few add-ons are currently in the works. Never the less this sure looks promising.
 
 ## Radio RDS support
 
 PVR currently supports listening to radio stations with tuning to the channel you want. With RDS (Radio Data System) it’s possible for PVR add-ons to extract the RDS data feed from the signal and integrate this into the Kodi user interface. Radio Data System (RDS) is a communications protocol standard for embedding small amounts of digital information in conventional FM radio broadcasts. RDS standardizes several types of information transmitted, including time, station identification and program information.
 
-    [![rds_01](/sites/default/files/uploads/rds_01-300x168.webp)](/sites/default/files/uploads/rds_01.webp) [![rds_02](/sites/default/files/uploads/rds_02-300x168.webp)](/sites/default/files/uploads/rds_02.webp)   [![rsd_03](/sites/default/files/uploads/rsd_03-300x168.webp)](/sites/default/files/uploads/rsd_03.webp) [![rds_04](/sites/default/files/uploads/rds_04-300x168.webp)](/sites/default/files/uploads/rds_04.webp)    Headless mode
+    [![rds_01](/images/blog/rds_01-300x168.webp)](/images/blog/rds_01.webp) [![rds_02](/images/blog/rds_02-300x168.webp)](/images/blog/rds_02.webp)   [![rsd_03](/images/blog/rsd_03-300x168.webp)](/images/blog/rsd_03.webp) [![rds_04](/images/blog/rds_04-300x168.webp)](/images/blog/rds_04.webp)    Headless mode
 
 ---
 

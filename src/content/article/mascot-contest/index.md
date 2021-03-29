@@ -6,7 +6,7 @@ author: Nathan Betzen
 
 Team XBMC is interested in finding a mascot for XBMC. To that end, we have decided to have a competition in which you, the user, can submit drawings for what you think an ideal mascot would be.
 
-![Your Design Here](/sites/default/files/uploads/tshirt.webp "Your Design Here")  
+![Your Design Here](/images/blog/tshirt.webp "Your Design Here")  
  Can you make the XBMC Mascot?
 
 The winner will receive a [Nyxboard Hybrid Remote](https://www.pulse-eight.com/store/products/96-motorola-nyxboard-remote-designed-for-xbmc.aspx "Pulse-Eight Remote for XBMC") and an [OpenELEC HTPC](https://www.pulse-eight.com/store/products/97-openelec-htpc.aspx "HTPC with XBMC pre-installed") with XBMC pre-installed from Pulse-Eight, along with an [XBMC t-shirt](https://www.cafepress.com/+mens-classic-t-shirts?cat=100004 "XBMC T-Shirt"). If you’d like, one of the Team members can sign the computer, the t-shirt, or random other items, like shipping boxes and small, furry animals. And if you’d like your winnings to have any resale value at all, you can ask us politely to refrain from signing them.

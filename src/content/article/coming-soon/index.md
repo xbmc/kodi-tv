@@ -4,7 +4,7 @@ date: 2010-02-05T03:00:00Z
 author: Team XBMC
 ---
 
-![coming_soon](/sites/default/files/uploads/coming_soon-300x156.webp "coming_soon")It’s been a while since we’ve posted about the work currently going into XBMC, so here’s a quick taste of what’s been added lately, what’s in the works, and what we’re dreaming of:
+![coming_soon](/images/blog/coming_soon-300x156.webp "coming_soon")It’s been a while since we’ve posted about the work currently going into XBMC, so here’s a quick taste of what’s been added lately, what’s in the works, and what we’re dreaming of:
 
 - **DXVA2**: Elupus has already added the initial code for [gpu offloading in Windows](https://forum.kodi.tv/showthread.php?tid=69306) (Vista/7 only). Not to be confused with DSPlayer below.
 - **DSPlayer**: A new DirectShow based internal player from tiben (Windows only) that also provides GPU acceleration. See the [forum thread](https://forum.kodi.tv/showthread.php?tid=61355) for more info.

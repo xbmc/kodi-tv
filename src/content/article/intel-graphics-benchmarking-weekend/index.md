@@ -6,7 +6,7 @@ author: Team XBMC
 
 I long suspected something to not be 100% correct with Intel’s Linux drivers for Graphics, so before this weekend I set out to do some benchmarking. Here’s what happened before:
 
-I chatted briefly with people in #Intel-gfx on [FREENODE](http://freenode.net/) earlier this week, understandably they thought I was _bitching_, I can’t blame them ![;)](/sites/default/files/uploads/icon_wink.gif) A couple of days earlier I tried XBMC+projectM @1080p on my Mac Mini that I won @ DevCon (Thanks [Boxee](http://blog.boxee.tv)!). I did this test, because I’m VERY disappointed with the 5 (five) FPS I get on XBMC+projectM on my more powerful Aopen MiniPC using Ubuntu 8.04.1
+I chatted briefly with people in #Intel-gfx on [FREENODE](http://freenode.net/) earlier this week, understandably they thought I was _bitching_, I can’t blame them ![;)](/images/blog/icon_wink.gif) A couple of days earlier I tried XBMC+projectM @1080p on my Mac Mini that I won @ DevCon (Thanks [Boxee](http://blog.boxee.tv)!). I did this test, because I’m VERY disappointed with the 5 (five) FPS I get on XBMC+projectM on my more powerful Aopen MiniPC using Ubuntu 8.04.1
 
 So I tested [projectM](http://projectm.sourceforge.net/) on OSX, and I got a **mindblowing** 20-60fps (30-40 average)FPS! I had heard that OS X had better drivers for Intel Graphics than Linux, but this was just ridiculous.
 
@@ -14,6 +14,6 @@ Some days later, some chaps in #intel-gfx suggested I did a little benchmarking.
 
 Here’s what my testing resulted in:
 
-[![](/sites/default/files/uploads/timedemo3_1.webp)](/sites/default/files/uploads/timedemo3_1.webp)
+[![](/images/blog/timedemo3_1.webp)](/images/blog/timedemo3_1.webp)
 
 Now I need to find a good way to let Intel Linux Driver Developers know about these results. If you got any tips, please email or leave a comment

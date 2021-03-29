@@ -24,9 +24,9 @@ We can now finally say all this has been finalised and are happy to say we can f
 
 Binary repositort is currently available for Android, OSX and Windows. For Linux you still have to use the PPA and iOS and UWP will continue to include the binary add-ons in the installer because of platform limitations and for now nothing changes.
 
-![](https://kodi.tv/sites/default/files/v18_binary_repo.webp)
+![](/images/blog/v18_binary_repo.webp)
 
-![](https://kodi.tv/sites/default/files/v18_binary_repo_installed.webp)
+![](/images/blog/v18_binary_repo_installed.webp)
 
 **Installing**
 

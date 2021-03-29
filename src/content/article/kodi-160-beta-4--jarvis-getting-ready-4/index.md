@@ -69,7 +69,7 @@ More in depth information can be found through the following links about the 16 
 
 ## Community Designed Kodi Shirt and Hoodie
 
-[![](/sites/default/files/uploads/kodi-graffiti-6-1446613526868.webp)](https://teespring.com/kodi-graffiti-6?kodi_site=beta1)
+[![](/images/blog/kodi-graffiti-6-1446613526868.webp)](https://teespring.com/kodi-graffiti-6?kodi_site=beta1)
 
 ## At Kodi DevCon this year we spent a lot of time talking about how to better recognize our community, and this solution was proposed. We’re going to try featuring a new, different shirt every month designed by a community member. So this month, thanks to Sam Fisher for an awesome design! Sam was a major help in our logo search and makes most of that cool artwork you see on [Facebook](https://www.facebook.com/XBMC/photos/a.10150616705636641.378985.20916311640/10153158972611641/?type=3&theater). If you would like to be the featured artist next month, post your design in the[shirt forum thread](https://forum.kodi.tv/showthread.php?tid=246239)! Also, be sure to browse through the available options. There are multiple colors of shirts and – it being winter time – we’ve also made hoodie versions available. T-shirt is available up to 5XL and the hoodie to 2XL and shipping is worldwide at a very reasonable fee. This design is only available for a limited amount of time! Conclusion
 

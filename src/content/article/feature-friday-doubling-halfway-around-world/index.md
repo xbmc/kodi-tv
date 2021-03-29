@@ -6,7 +6,7 @@ author: Nathan Betzen
 
 A US service member was living in Great Falls, MT. When the military reassigned him to a base in Turkey, he was met with the unenviable task of trying to squeeze all of the home theater equipment that easily fit is his old house into a much smaller military home halfway across the world.
 
-[![XBMC on TV](/sites/default/files/uploads/SDC13695-300x225.webp "XBMC on TV")](/sites/default/files/uploads/SDC13695.webp)  
+[![XBMC on TV](/images/blog/SDC13695-300x225.webp "XBMC on TV")](/images/blog/SDC13695.webp)  
  XBMC in Turkey
 
 The old house had a living room, plenty of bedrooms and a basement. Sean had read enough on AVSForum to know what to do with a basement that nobody was using. He tricked it out, home theater style.
@@ -17,18 +17,18 @@ Sean could have given up, put the projector, screen, and audio system into stora
 
 We start with a [Sharp Aquos 52″ TV](https://www.amazon.com/gp/product/B003B5NFPI/ref=as_li_ss_tl?ie=UTF8&tag=thfefi02-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=B003B5NFPI "Sharp Aquos") which the family uses for the week and everyday stuff, including watching AFN, television, and movies. An old Sony 5.1 receiver is powering a Bose AM7 speaker setup for sound. And all of that is being driving by a [Gateway NV54](https://www.amazon.com/gp/product/B004G6005E/ref=as_li_ss_tl?ie=UTF8&tag=thfefi02-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=B004G6005E "Gateway NV") laptop running, of course, XBMC.
 
-[![The Tv](/sites/default/files/uploads/SDC13714-300x225.webp "Sharp Aquos 52 Inch")](/sites/default/files/uploads/SDC13714.webp)  
+[![The Tv](/images/blog/SDC13714-300x225.webp "Sharp Aquos 52 Inch")](/images/blog/SDC13714.webp)  
  Sharp Aquos 52 Inch
 
-[![laptop](/sites/default/files/uploads/SDC13705-300x225.webp "laptop")](/sites/default/files/uploads/SDC13705.webp)  
+[![laptop](/images/blog/SDC13705-300x225.webp "laptop")](/images/blog/SDC13705.webp)  
  Gateway NV54
 
 Next, if we shift our attention 90 degrees to the right, we’ll see a 120″ [Elite Screen](https://www.amazon.com/gp/product/B00366S0UW/ref=as_li_ss_tl?ie=UTF8&tag=thfefi02-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=B00366S0UW "Elite Screen") (that was mildly damaged during the move). That screen is surrounded by yet more Bose speakers which are being driven by a Yamaha 7.1 receiver. This time that receiver is connected to a [Toshiba Media Laptop](https://www.amazon.com/gp/product/B004GEBQ18/ref=as_li_ss_tl?ie=UTF8&tag=thfefi02-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=B004GEBQ18 "Toshiba Media Laptop"). Driving the screen is a [1080p Mitsubishi DLP projector](https://www.amazon.com/gp/product/B0044UF0PM/ref=as_li_ss_tl?ie=UTF8&tag=thfefi02-20&linkCode=as2&camp=217145&creative=399349&creativeASIN=B0044UF0PM "DLP Projector").
 
-[![Shift Left](/sites/default/files/uploads/SDC13708-300x225.webp "Shift Left")](/sites/default/files/uploads/SDC13708.webp)  
+[![Shift Left](/images/blog/SDC13708-300x225.webp "Shift Left")](/images/blog/SDC13708.webp)  
  Shift Left
 
-[![Toshiba Media Laptop](/sites/default/files/uploads/SDC13701-300x225.webp "Toshiba Media Laptop")](/sites/default/files/uploads/SDC13701.webp)  
+[![Toshiba Media Laptop](/images/blog/SDC13701-300x225.webp "Toshiba Media Laptop")](/images/blog/SDC13701.webp)  
  Toshiba Media Laptop
 
 Both setups have an additional Acoustimass bass module to make up for Bose weakness in the sub-woofer department, along with a powered Infinity sub and a powered Yamaha sub, resulting in a grand total of 16 different speakers in one single living room. Truly, this is dedication to the craft!

@@ -16,8 +16,8 @@ author: Team XBMC
 
  
  * Need to google abit for rebase in git so I can upload the patches done during gsoc to google. Or just use format-patch, not sure which is the best.
- * Take a few weeks off before going back to school ![:)](/sites/default/files/uploads/icon_smile.gif)
- * Need to find a suitable something to hook up the beagleboard to when arriving to Canada so I can continue to play with it ![:)](/sites/default/files/uploads/icon_smile.gif)
+ * Take a few weeks off before going back to school ![:)](/images/blog/icon_smile.gif)
+ * Need to find a suitable something to hook up the beagleboard to when arriving to Canada so I can continue to play with it ![:)](/images/blog/icon_smile.gif)
  * Continue with the lightweight skin, I very much like to use it despite it being far from finished.
  
   

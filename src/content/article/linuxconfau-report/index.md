@@ -12,5 +12,5 @@ We had 3 systems showing off what XBMC could do, one of which was the MSI Windto
 
 Thanks heaps to the Linux.conf.au organizing committee and everyone who popped over to the booth – we’ll definitely see you all again in Brisbane at next year’s Linux.conf.au!
 
-![Left: Jonathan Right: Patrick](/sites/default/files/uploads/linuxconf-scaled.webp "linuxconf-scaled")  
+![Left: Jonathan Right: Patrick](/images/blog/linuxconf-scaled.webp "linuxconf-scaled")  
  Left: Jonathan Marshall (almost smiling for once), Right: Patrick, JM's helper for the day

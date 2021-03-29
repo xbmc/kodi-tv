@@ -16,6 +16,6 @@ Now, you have another option for your Singles, thanks to the [suggestion](https:
 
 3.  If you browse to an artist, then it’ll list all the albums by that artist and, in addition, will group the singles by that artist into a Singles folder.
 
-![Singles item when browsing by Albums by Artist.](/sites/default/files/uploads/Picture-3.webp "Singles item when browsing by Albums by Artist.")4. Lastly, if you have any Singles in your music library, a new Singles item will be available in your Library listing.![Library listing with Singles](/sites/default/files/uploads/Picture-2.webp "Library listing with Singles")
+![Singles item when browsing by Albums by Artist.](/images/blog/Picture-3.webp "Singles item when browsing by Albums by Artist.")4. Lastly, if you have any Singles in your music library, a new Singles item will be available in your Library listing.![Library listing with Singles](/images/blog/Picture-2.webp "Library listing with Singles")
 
 Finally, a nice way to have your singles available in the library without them cluttering up the albums listing!

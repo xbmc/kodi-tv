@@ -6,7 +6,7 @@ author: Team XBMC
 
 As many of you are aware, recent API changes have forced XBMC and most XBMC-based software offshoots to change the way they handle their weather app. We have refrained from commenting until now, because the Team wanted to internally discuss what the best step forward would be.
 .webp
-[![weather](/sites/default/files/uploads/sadweather-300x286.webp "weather")](/sites/default/files/uploads/sadweather.jpeg)We were debating between a few different options, ranging from simply updating the current app with a new provider to totally nuking the weather app from XBMC-core and making it all addon-based.
+[![weather](/images/blog/sadweather-300x286.webp "weather")](/images/blog/sadweather.jpeg)We were debating between a few different options, ranging from simply updating the current app with a new provider to totally nuking the weather app from XBMC-core and making it all addon-based.
 
 Well, as you can probably guess, we here at XBMC don’t like doing things halfway. If there is a “right” way to code something, we will do everything in our power to code it that way. And so we’ve chosen to acknowledge our mistake in making weather part of XBMC core, and, as we speak, Spiff and Amet are busily pulling weather out and creating an easily replaceable and updateable Weather Addon.
 
