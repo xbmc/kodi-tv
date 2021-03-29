@@ -19,20 +19,18 @@ releases:
   - name: Development Builds
     title: Kodi v20 Nightly
     description: >-
-      These development builds, often called “pre-release” builds, are what will
-      eventually lead to the final version. **THESE BUILDS ARE UNSTABLE** and
-      are for users that do not fear bugs or possibly crashes. If you want a
-      stable HTPC then please install a stable build instead. ***Always backup
-      before using a development build.***
+      **Nightly builds** are made on a daily basis and contain the most recent
+      changes. These should be considered unstable for daily usage and should
+      only be used by testers and advanced users to help us find possible bugs.
 
 
-      **Snapshots** are semi-stable nightly snapshots of the current development version. They are a step between (often) unstable nightly builds and stable release builds, though they can sometimes still be a bit unstable.
+      **THESE BUILDS MAY BE UNSTABLE** so be sure to always backup before using a development build.
 
 
-      **Nightly builds** are made on a daily basis and contain the most recent changes. These should be considered unstable for daily usage and should only be used for to help us find possible issues.
+      If you want a stable setup, then please install a stable build from the **Recommended** tab instead.
 
 
-      Be sure to read the following pages before trying these out: [Development builds](http://kodi.wiki/view/development_builds), [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+      Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
       - name: iDevice (ARM 64BIT)
         url: http://mirrors.kodi.tv/nightlies/darwin/ios-arm64/master/
