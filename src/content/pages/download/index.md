@@ -3,7 +3,6 @@ pageslug: index
 title: Downloading Kodi
 breadcrumbs: Download
 ---
-
 ## Join the millions already enjoying Kodi
 
 Kodi is available as a native application for Android, Linux, Mac OS X, iOS and Windows operating systems, running on most common processor architectures. A small overview of the features can be found on our about page. For each platform, we offer a stable and development release(s). For normal users we recommend installing the stable releases.
@@ -15,6 +14,12 @@ x-section-x downloadnotice x-section-x
 Kodi has many flavours, our developers have worked hard to make it support a large range of devices and operating system. We provide final as well as development builds for future final release versions. To get started, simply select the platform that you want to install it on.
 
 x-section-x downloadlist x-section-x
+
+## Kodi Foundation Remotes
+
+Like Kodi itself, both official remotes are free and open source software.
+
+x-section-x officialremotes x-section-x
 
 ## Older Releases
 
