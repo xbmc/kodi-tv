@@ -5,10 +5,10 @@ if (process.env.GATSBY_SITEURL === undefined) {
 } else {
   url = process.env.GATSBY_SITEURL;
 }
-if (process.env.NETLIFY_CMS_BACKEND === undefined) {
+if (process.env.GATSBY_NETLIFY_CMS_BACKEND === undefined) {
   backend_branch = "staging";
 } else {
-  backend_branch = process.env.NETLIFY_CMS_BACKEND;
+  backend_branch = process.env.GATSBY_NETLIFY_CMS_BACKEND;
 }
 
 module.exports = {
