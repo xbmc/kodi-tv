@@ -3,7 +3,7 @@ title: "Kore - The new official Android remote"
 date: 2015-05-28T04:00:00Z
 author: Martijn Kaijser
 featured_image:
-  src: /images/blog/Kore_03-540x336.webp
+  src: /images/blog/Kore_03-540x336_0.webp
   title: "Kore_03-540x336"
   alt: "Kore_03-540x336"
 ---

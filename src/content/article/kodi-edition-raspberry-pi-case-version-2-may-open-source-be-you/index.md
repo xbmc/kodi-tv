@@ -3,7 +3,7 @@ title: "Kodi Edition Raspberry Pi Case Version 2 - May The (Open) Source Be With
 date: 2018-11-22T19:45:46Z
 author: Jason
 featured_image:
-  src: /images/blog/Pi Case  v2 Kodi gen2.126.webp
+  src: /images/blog/Pi Case -v2-Kodi-gen2_10-23-18.131.webp
   title: "Pi Case  v2 Kodi gen2.126"
   alt: "Pi Case  v2 Kodi gen2.126"
 ---
