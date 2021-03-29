@@ -3,20 +3,17 @@ pageslug: software
 title: Kodi Software
 breadcrumbs: About | Software
 ---
-
 The following is a list of all the software Kodi Foundation offers. If you have downloaded software not on this list or from a site not specified on this list, then that software has not been offered by Team Kodi or the Kodi Foundation, and we can provide no official support for the use of that software.
 
 ![Kodi on various devices](/images/software--devices.webp)
 
-## XBMC or KODI
+## XBMC or Kodi
 
 The only official versions of Kodi may be found in our [Kodi Foundation Downloads area](/download). Official versions of Kodi will exclusively be hosted at <http://mirrors.kodi.tv>, with the exception of certain specific Linux distributions.
 
 ## Kodi Foundation Remote Controls
 
-Like Kodi™ itself, both official remotes are free and open source software.
-
-x-section-x officialremotes x-section-x
+We offer software based remote controls for Andriod and iOS.  Like Kodi™ itself, both official remotes are free and open source software and may be found in our [Kodi Foundation Downloads area](/download).
 
 ## Trademark policy
 
