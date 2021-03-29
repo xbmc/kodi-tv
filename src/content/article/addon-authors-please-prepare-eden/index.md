@@ -6,7 +6,7 @@ author: Team XBMC
 
 This is just a quick note for addon authors.
 
-[![XBMC API Changes](/sites/default/files/uploads/XBMCAPIChanges-216x300.webp "XBMC API Changes")](/sites/default/files/uploads/XBMCAPIChanges.webp)  
+[![XBMC API Changes](/images/blog/XBMCAPIChanges-216x300.webp "XBMC API Changes")](/images/blog/XBMCAPIChanges.webp)  
  "Please return your trays and seatbacks to upright position and prepare for Eden."
 
 XBMC 11.0 Eden represents the first update to the addon repository since Dharma was released and a number of API changes have occurred in between these two releases. First off, our thanks to all the authors who have been keeping on top of API changes. You are doing a great job. The Team would like to recommend that those authors who have not yet upgraded to Eden do so now.

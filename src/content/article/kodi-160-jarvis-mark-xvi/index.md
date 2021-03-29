@@ -14,7 +14,7 @@ We are proud to announce the release of Kodi 16.0. Kodi 16 is a heavy under-the-
 
 The first big step in making Kodi better at communicating with you, the user, is the addition of event logging. With this feature you always have a constantly updating list of all the most important things Kodi has done recently, along with little issues you can fix. For example, when you scan in a library for the first time, the Event Logger will provide you with a list of videos that didn’t quite make it into the library, each one of which is clickable, so you can go straight to the offending video and fix it personally.
 
-[![Event logging](/sites/default/files/uploads/EventLogging02-800x450.webp)](/sites/default/files/uploads/EventLogging02.webp)
+[![Event logging](/images/blog/EventLogging02-800x450.webp)](/images/blog/EventLogging02.webp)
 
 You’ll also get a constant list of all recently updated add-ons, so if a recent update breaks, you’ll know the update happened and can then easily rollback.
 
@@ -26,7 +26,7 @@ More and more hardware companies are coming out with remote controls with a very
 
 It’s perhaps a bit late in coming, but Kodi finally supports stretching 4:3 content to 16:9 in a way that doesn’t warp the content that’s occurring in the center of the screen. Finally, you’ll be able to watch Friends, Seinfeld, Cheers, and Duck Tales in full screen without the awkward screen stretching from the past.
 
-[![screenshot000](/sites/default/files/uploads/screenshot0001-800x449.webp)](/sites/default/files/uploads/screenshot0001.webp)
+[![screenshot000](/images/blog/screenshot0001-800x449.webp)](/images/blog/screenshot0001.webp)
 
 ## Add-on Manager Changes
 
@@ -46,7 +46,7 @@ The music library has rarely received the same support as Kodi’s video library
 
 ### **DirectX 11 upgrade**
 
-[![DX11](/sites/default/files/uploads/DX11.webp)](/sites/default/files/uploads/DX11.webp)Developer afedchin has gone through the long and arduous process of updating Kodi to DirectX 11, which brings with it support for modern tools and modern graphics cards, while maintaining backwards compatibility with old DirectX 9 cards. This major shift will help Kodi for Windows stay up to date for a long time to come.
+[![DX11](/images/blog/DX11.webp)](/images/blog/DX11.webp)Developer afedchin has gone through the long and arduous process of updating Kodi to DirectX 11, which brings with it support for modern tools and modern graphics cards, while maintaining backwards compatibility with old DirectX 9 cards. This major shift will help Kodi for Windows stay up to date for a long time to come.
 
 ### **Android Surface Rendering**
 

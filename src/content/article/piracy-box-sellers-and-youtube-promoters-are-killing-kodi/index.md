@@ -18,7 +18,7 @@ The problem is this: There have been a wave of sellers who decided to make a qui
 
 And there are even more people out there seeking to make a quick buck by selling ads on videos about getting free movies and TV while using Kodi in their channel name to make their content seem official, as if those videos are coming from us.
 
-[![2016-02-12](/sites/default/files/uploads/2016-02-12-800x85.webp)](/sites/default/files/uploads/2016-02-12.webp)  
+[![2016-02-12](/images/blog/2016-02-12-800x85.webp)](/images/blog/2016-02-12.webp)  
  **A Typical eBay Listing – They even spell XBMC wrong**
 
 Team Kodi is officially tired of this. We are tired of new users coming into the forum, asking why the box that “we” sold them was broken. We are tired of this endless campaign by dishonest salesmen to push a single use of Kodi that nobody on the team actually recommends. We are tired of these salesmen lying to users, claiming that pirate streams and pirate boxes are “legal” when they are absolutely not at some level or other. We are tired of being told by companies that they don’t want to work with us, because we are selling pirate boxes. Being removed from an App Store this summer because of the campaigning of others was like a slap in the face. Most of all, we are tired of a thousand different salesmen and Youtubers making money off ruining our name.

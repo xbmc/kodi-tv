@@ -96,7 +96,7 @@ After the beta release you can also install the nightly versions we build each d
 
 In addition to creating Kodi, the members of Team Kodi have created official remotes to be installed on your tablet or phone.
 
-    **Kore™ (Android)** **Official Kodi Remote (iOS)**   [![](https://developer.android.com/images/brand/en_generic_rgb_wo_45.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)   [![org.xbmc.kore](/sites/default/files/uploads/org.xbmc_.kore_.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![Official Kodi Remote (iOS)](/sites/default/files/uploads/qrcode.webp)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    Like Kodi™ itself, both official remotes are free and open source software.
+    **Kore™ (Android)** **Official Kodi Remote (iOS)**   [![](https://developer.android.com/images/brand/en_generic_rgb_wo_45.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)   [![org.xbmc.kore](/images/blog/org.xbmc_.kore_.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![Official Kodi Remote (iOS)](/images/blog/qrcode.webp)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    Like Kodi™ itself, both official remotes are free and open source software.
 
 ### Get involved
 

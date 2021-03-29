@@ -4,7 +4,7 @@ date: 2012-03-01T03:00:00Z
 author: Team XBMC
 ---
 
-[![rc2_xbmc](/sites/default/files/uploads/rc2_xbmc.webp "rc2_xbmc")](/sites/default/files/uploads/rc2_xbmc.webp)We are pleased to announce that the video sync bug introduced has been resolved and Release Candidate 2 released in record time.
+[![rc2_xbmc](/images/blog/rc2_xbmc.webp "rc2_xbmc")](/images/blog/rc2_xbmc.webp)We are pleased to announce that the video sync bug introduced has been resolved and Release Candidate 2 released in record time.
 
 For those of you who skipped RC1, a review of major changes since Beta 3 may be found in [this post](https://kodi.wiki/natethomas/2012/02/27/xbmc-11-eden-rc1/ "XBMC RC1 Changes"). Additionally, you are welcome, as always, to review our coding changes on [Github](https://github.com/xbmc/xbmc/commits/master "XBMC Coding Changes").
 

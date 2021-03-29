@@ -8,7 +8,7 @@ After discussion with my mentor we decided to not use the EVAS model suggested i
 
 Status
 
-- Initial split of rendering methods in control to one processing stage and one rendering stage. Most controls seems to work except the containers which I am yet to fully understand ![:)](/sites/default/files/uploads/icon_smile.gif)
+- Initial split of rendering methods in control to one processing stage and one rendering stage. Most controls seems to work except the containers which I am yet to fully understand ![:)](/images/blog/icon_smile.gif)
 - Initial calculation of dirty regions based on what skinners provide. See figure 1. Looking at the figure we can see that even the simple generation of render regions works reasonably well!
 - Controls mark a dirty region if their animation transformation has changed. This works surprisingly well on control groups but much more can change than just the animation transformation (moving in a list etc.)
 - Since the code for this is still crude I haven’t commited it. I have however added it to [ticket #﻿9448](http://trac.xbmc.org/ticket/9448) so it can be discussed.
@@ -24,7 +24,7 @@ Risks
 
 - Calculating dirty regions in lists seems to be hard, say just one item in the list changes without the entire list changing. I doubt it won’t be solvable and alternatively just marking the entire list should still be an ok workaround for now.
 
-![Possible dirty regions in confluence settings screen](/sites/default/files/uploads/PossibleDirtyRegionSettings.webp)  
+![Possible dirty regions in confluence settings screen](/images/blog/PossibleDirtyRegionSettings.webp)  
  Figure 1 – Controls possible dirty regions\*
 
 \*)

@@ -3,7 +3,7 @@ title: 'Impending Merge: Addons'
 date: 2010-02-28T03:00:00Z
 author: Team XBMC
 ---
-[![](https://kodi.tv/wp-content/uploads/2010/03/under-construction-111x101.gif "under-construction")](/theuni/2010/03/01/impending-merge-addons/under-construction)The next version of XBMC is shaping up quite well, with a host of new features already in. For a refresher, see a [few posts back](/article/coming-soon).
+The next version of XBMC is shaping up quite well, with a host of new features already in. For a refresher, see a [few posts back](/article/coming-soon).
 
  Next up is the merge from the addons branch, the underpinning of the new addons manager (go figure) as well as the basis for the PVR frontend branch. Once finished, though still a ways out, this will add the capability of extending XBMC from the couch. No need to ssh/ftp into your box to add skins, scrapers, plugins, PVR Backends, etc.
 

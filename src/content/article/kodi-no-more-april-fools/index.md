@@ -22,6 +22,6 @@ We will be reskinning XBMC 3.0.0 to something a bit more appropriate ASAP. But w
 
 In addition, we're excited to announce a [limited 3 day sale for this rename featuring XBMC shirts, mugs, and stickers](https://teespring.com/nextxbmcshirt#pid=374&cid=100046&sid=front)!
 
-[![Kodi Sale](https://kodi.tv/sites/default/files/styles/focal_point_preview/public/shirtback_0.webp?itok=2d4htCmH)](https://teespring.com/nextxbmcshirt#pid=374&cid=100046&sid=front)
+[![Kodi Sale](/images/blog/shirtback_0.webp)](https://teespring.com/nextxbmcshirt#pid=374&cid=100046&sid=front)
 
 Thanks for sticking with us all these years! And Android, OSX, iOS, and Linux... see ya later!

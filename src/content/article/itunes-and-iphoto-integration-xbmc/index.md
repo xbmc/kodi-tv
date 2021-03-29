@@ -9,18 +9,18 @@ XBMC for Mac – Atlantis Beta 1, includes two new plugins that allow users to a
 ### **iTunes**
 
 - The iTunes plugin is in the **Music** section.  
-  ![](/sites/default/files/uploads/screenshot000_small.webp)
+  ![](/images/blog/screenshot000_small.webp)
 - To start using it, you need to first import your iTunes library. You can do that by selecting the \<\<Import My iTunes Library\>\> entry. A library with about 15,000 songs takes a little under 20 seconds on initial import. YMMV. (Note that importing the library doesn’t involve copying the media into different locations, so you don’t have to worry about duplicating the actual files.)  
-  ![](/sites/default/files/uploads/screenshot001_small.webp)
+  ![](/images/blog/screenshot001_small.webp)
 - Once your library has been imported you’ll be able to access its playlists, ratings etc. Since the media is made available in the file system layer, you can perform common tasks like queuing up your _Top 25 Most Played_ followed by all _5 star rated tracks_. You can even create new playlists by combining one or more of your iTunes playlists using XBMC’s playlist editor.  
-  ![](/sites/default/files/uploads/screenshot003_small.webp)![](/sites/default/files/uploads/screenshot002_small.webp)
+  ![](/images/blog/screenshot003_small.webp)![](/images/blog/screenshot002_small.webp)
 
 ### **iPhoto**
 
 - The iPhoto plugin is in the **Pictures** section. Similar to the iTunes plugin, you need to import your iPhoto Library into XBMC first. The process is fairly quick but again depends on the number of photographs in your library.  
-  ![](/sites/default/files/uploads/screenshot005_small.webp)
+  ![](/images/blog/screenshot005_small.webp)
 - Once imported, you will be able to browse your photos by Albums, Events and Ratings.  
-  ![](/sites/default/files/uploads/screenshot004_small.webp)
+  ![](/images/blog/screenshot004_small.webp)
 
 ### **A Few Tips**
 

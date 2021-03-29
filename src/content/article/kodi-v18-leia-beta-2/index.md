@@ -63,4 +63,4 @@ _Go to the [Official download page](https://kodi.tv/download) and choose the pla
 
 **_May the force be with you….._**
 
-**_![](https://kodi.tv/sites/default/files/K-18L-Comic-Preview.webp)_**
+**_![](/images/blog/K-18L-Comic-Preview.webp)_**

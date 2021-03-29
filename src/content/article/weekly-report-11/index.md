@@ -9,7 +9,7 @@ Before we go into the actual status report I would like to be abit nostalgic, th
 
  While not all of the original ideas made it into XBMC we have still come a long way and XBMC have went from not running to becoming rather usable on the BeagleBoard, still room left for more improvement ofcourse but still great progress IMO. Since the YUV transform is done by NEON and the hardware overlay videos actually run good, before GSOC it couldn’t even present the lowest resolution video at anything beyond 10fps.
 
- It has been made clear what is slowing down GUI rendering and much lies in the skinners hands, which is what the next weeks documentation will be about. I have commited a minimal but still useable skin which might just hit 100fps ![;)](/sites/default/files/uploads/icon_wink.gif) . If we add backgrounds and make it static but close to looking as ordinary skins that number goes down to about 20fps, with the addition of the dirty region rendering this number actually gets to about 30fps, which was my goal for 720p!
+ It has been made clear what is slowing down GUI rendering and much lies in the skinners hands, which is what the next weeks documentation will be about. I have commited a minimal but still useable skin which might just hit 100fps ![;)](/images/blog/icon_wink.gif) . If we add backgrounds and make it static but close to looking as ordinary skins that number goes down to about 20fps, with the addition of the dirty region rendering this number actually gets to about 30fps, which was my goal for 720p!
 
  Status
 

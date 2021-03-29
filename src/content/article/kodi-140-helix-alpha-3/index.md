@@ -14,11 +14,11 @@ This months alpha release doesn’t contain anything that could be picked out as
 
 ## International keyboard layout
 
-[/](/sites/default/files/uploads/keyboard_layout_setting.webp) The virtual keyboard which included in Kodi has been the same for many years, with a set layout. From this alpha release, it’s now possible to change the layout to some well of the well known ones, like QWERTY and AZERTY. Additionally there’s also a Hebrew and Bulgarian layout included. Important: As an affect of this change you will notice that most of the third-party skins will now have a blank keyboard layout as they have not been updated yet.
+[/](/images/blog/keyboard_layout_setting.webp) The virtual keyboard which included in Kodi has been the same for many years, with a set layout. From this alpha release, it’s now possible to change the layout to some well of the well known ones, like QWERTY and AZERTY. Additionally there’s also a Hebrew and Bulgarian layout included. Important: As an affect of this change you will notice that most of the third-party skins will now have a blank keyboard layout as they have not been updated yet.
 
 ## Auto update add-ons
 
-[/](https://kodi.wiki/sites/default/files/uploads/keyboard_layout_setting.webp)We have added several option considering the updating of add-ons. You can set it to always auto-update, so you never have to worry about not being up-to-date. Second option is to let you notify you when there are updates available. You can then manually install them. Third is simply turning it all off. This means no add-ons will be auto update and you won’t be notified. You will have to manually trigger the check for new updates.
+[/](https://kodi.wiki/images/blog/keyboard_layout_setting.webp)We have added several option considering the updating of add-ons. You can set it to always auto-update, so you never have to worry about not being up-to-date. Second option is to let you notify you when there are updates available. You can then manually install them. Third is simply turning it all off. This means no add-ons will be auto update and you won’t be notified. You will have to manually trigger the check for new updates.
 
 The changelog for Kodi 14 alpha 3 alone contains 138 changes so far. Alpha 2 had 333 changes Needless to say, they can’t all be summarized here or are to technical or boring the regular users. Here are some that are surely worth mentioning:
 

@@ -39,7 +39,7 @@ For the upcoming release of XBMC 9.04 Babylon, we really need to get the followi
 
  For usage and more info see our [wiki](https://kodi.wiki/?ns0=1&amp;amp;search=translator&amp;amp;searchx=Search)
 
- Thanks in advance ![:)](/sites/default/files/uploads/icon_smile.gif)
+ Thanks in advance ![:)](/images/blog/icon_smile.gif)
 
  * The following languages are covered by either team XBMC or an official translator. English, English (US), Finnish, French, Greek, Korean, Swedish.
 

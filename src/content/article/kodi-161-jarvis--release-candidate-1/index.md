@@ -106,7 +106,7 @@ Wiki pages to get you started: <https://kodi.wiki/view/Development>Forum: [Devel
 
 In addition to creating Kodi, the members of Team Kodi have created official remotes to be installed on your tablet or phone. These can take control of your Kodi installation from where you browse your movies, tvshows, PVR/DVR, start add-ons and navigate through the interface.
 
-    **Kore™ (Android)** **Official Kodi Remote (iOS)**   [![Google-play-store-icon](/sites/default/files/uploads/Google-play-store-icon-300x112.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    [![Official Kodi Remote (iOS)](/sites/default/files/uploads/qrcode.webp)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    Like Kodi itself, both official remotes are free and open source software.
+    **Kore™ (Android)** **Official Kodi Remote (iOS)**   [![Google-play-store-icon](/images/blog/Google-play-store-icon-300x112.webp)](https://play.google.com/store/apps/details?id=org.xbmc.kore) [![](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    [![Official Kodi Remote (iOS)](/images/blog/qrcode.webp)](https://itunes.apple.com/en/app/official-xbmc-remote/id520480364)    Like Kodi itself, both official remotes are free and open source software.
 
 ### Donations or getting involved
 

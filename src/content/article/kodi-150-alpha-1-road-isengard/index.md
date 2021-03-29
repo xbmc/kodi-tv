@@ -10,7 +10,7 @@ featured_image:
 
 Last year we shocked the community and the world with the announcement of our name change. Now some months later we are happy to see that a lot of people have adopted this change and embraced what is now know as Kodi. The best media center in the world… We promised that we would stick true to our goal of improving it as media center and we will.
 
-[![](/sites/default/files/uploads/da-anda_hobbiton-200x300.webp "da-anda visiting Hobbiton ")](/sites/default/files/uploads/da-anda_hobbiton.webp)With this first public alpha release we will look back at the changes we have been doing for the past two months since the 14.0 release. We would certainly like to thank users who were already using our nightly builds to reach this stage.
+[![](/images/blog/da-anda_hobbiton-200x300.webp "da-anda visiting Hobbiton ")](/images/blog/da-anda_hobbiton.webp)With this first public alpha release we will look back at the changes we have been doing for the past two months since the 14.0 release. We would certainly like to thank users who were already using our nightly builds to reach this stage.
 
 As most will already know, with a new big version comes a new release code name following the alphabet. After a team vote and da-anda (our artwork guru) actually visited Middle Earth we chose to go for _Isengard._ At times you will find this as reference for the actual version number which will be 15.x
 
@@ -47,7 +47,7 @@ We’ve had about 400 pull-request for code merges, 1322 commits and thousands o
 
 ## Skip steps (Step Forward & Back improvement)
 
-[![Adaptive seek in action](/sites/default/files/uploads/addaptive_seek_inaction-300x187.webp)](/sites/default/files/uploads/addaptive_seek_inaction.webp)The Step Forward, Step Back and Small Step Back actions are now forwarded to a new seeking function that is configurable in the GUI via the Skip steps and Skip delay settings. It allows single skip steps backwards and forwards with the left and right cursor keys as before, however a new feature is that by pressing the left and right keys multiple times you can skip with increasingly larger steps. Another feature of this new seeking function is that music files can also now can make use of skip steps. For more on this see [https://kodi.wiki/view/Skip_Steps](https://kodi.wiki/view/Skip_Steps)
+[![Adaptive seek in action](/images/blog/addaptive_seek_inaction-300x187.webp)](/images/blog/addaptive_seek_inaction.webp)The Step Forward, Step Back and Small Step Back actions are now forwarded to a new seeking function that is configurable in the GUI via the Skip steps and Skip delay settings. It allows single skip steps backwards and forwards with the left and right cursor keys as before, however a new feature is that by pressing the left and right keys multiple times you can skip with increasingly larger steps. Another feature of this new seeking function is that music files can also now can make use of skip steps. For more on this see [https://kodi.wiki/view/Skip_Steps](https://kodi.wiki/view/Skip_Steps)
 
 ## Apple devices
 
@@ -61,7 +61,7 @@ _note: These changes do not apply to Kodi 14.x so you can keep enjoying that ver
 
 ## Android
 
-![Android_jelly_bean](/sites/default/files/uploads/Android_jelly_bean-201x300.webp)Sadly at some point we have to say goodbye to certain things to not hold us back. The release of 15.0 will mean that your Android device will need at least have Android 4.2 “Jelly Bean MR1″. Since the Android platform wasn’t as mature at the time we added it to our platform list, we had to incorporate certain workarounds to keep functioning. With the introduction of Android 5.0 platform and Android TV it was felt this was the time to release us from these workarounds of older Android versions.
+![Android_jelly_bean](/images/blog/Android_jelly_bean-201x300.webp)Sadly at some point we have to say goodbye to certain things to not hold us back. The release of 15.0 will mean that your Android device will need at least have Android 4.2 “Jelly Bean MR1″. Since the Android platform wasn’t as mature at the time we added it to our platform list, we had to incorporate certain workarounds to keep functioning. With the introduction of Android 5.0 platform and Android TV it was felt this was the time to release us from these workarounds of older Android versions.
 
 So what does this mean for 15.0 and up?
 

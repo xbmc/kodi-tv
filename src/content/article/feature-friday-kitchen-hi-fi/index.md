@@ -6,7 +6,7 @@ author: Nathan Betzen
 
 In this first edition of Feature Friday, we are going to forego the boring old bat cave and million dollar living room in favor of a wee bit of creativity. Brilliant user Oliver Owen, of the UK, has been using various versions of XBMC since 2003. He has had XBMC installed on at least one box in nearly every room in his flat. Recently, he decided to add another room to the XBMC fold by building a custom touchscreen version of XBMC in his kitchen, primarily for music playback and easy access to the weather application.
 
-[![XBMC Touch Screen](/sites/default/files/uploads/1-300x225.webp "XBMC Touch Screen")](/sites/default/files/uploads/1.webp)  
+[![XBMC Touch Screen](/images/blog/1-300x225.webp "XBMC Touch Screen")](/images/blog/1.webp)  
  The XBMC Touchscreen… that ISN'T an iPad
 
 XBMC on the iPad, of course, would not do, because Oli’s twin goals were minimal expenses and girlfriend approval. As such, portability wasn’t a major concern, but cost was.
@@ -19,17 +19,17 @@ So Mr. Owen picked up an [Acer Travelmate C110](https://www.amazon.com/gp/produc
 
 He then convinced his friends Mr. Smith and Mr. Yates to cut a wooden box frame and a thin metal border, respectively.
 
-[![Wooden Box for Computer](/sites/default/files/uploads/4-300x225.webp "Wooden Box for Computer")](/sites/default/files/uploads/4.webp)  
+[![Wooden Box for Computer](/images/blog/4-300x225.webp "Wooden Box for Computer")](/images/blog/4.webp)  
  Step #1: Make wooden box
 
-[![metal for bezel](/sites/default/files/uploads/5-300x225.webp "metal for bezel")](/sites/default/files/uploads/5.webp)  
+[![metal for bezel](/images/blog/5-300x225.webp "metal for bezel")](/images/blog/5.webp)  
  Step #2: Cut thin metal border for bezel
 
 Oli then slapped the kit together, and attached the entire setup to the Hi-Fi that was already installed in the kitchen. For the touch-enabled skin, Oli downloaded the modifications found at [this forum post](https://forum.kodi.tv/showthread.php?tid=48818 "Touch-enabled PM3"), which appear to be user mods of PM3.HD, designed with touchscreens in mind. (Thanks LoloMc2 and our entire skinning/addon community for this skin and many other amazing addons!)
 
 The converted HTPC had built-in Wi-Fi, so Oli simply browsed to the shared music folders on the two house laptops. The Weather application came set up out of the box, so that needed next to no attention. And with that, the installation was complete.
 
-[![finished product](/sites/default/files/uploads/2-300x225.webp "Finished product")](/sites/default/files/uploads/2.webp)  
+[![finished product](/images/blog/2-300x225.webp "Finished product")](/images/blog/2.webp)  
  The Finished Product!
 
 In the future, Oliver hopes to set up various podcast or radio features and possibly catch a few vids with the [tvcatchup addon](http://plugins.tvcatchup.com/~xbmc/ "TVCatchup"). For now, he just has to figure out how to convince the girlfriend to start using the new kitchen tablet. We have faith in his persuasion skills!

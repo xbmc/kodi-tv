@@ -28,7 +28,7 @@ So if you’d like to see what XBMC 13 is going to look like, feel free to insta
 
 There are many ways you can help actually. The easiest way to help is actually installing the Gotham builds and take them for a test-drive to see if you encounter any issues which can be reproducible by our developers. By providing detailed information like [debuglogs](https://kodi.wiki/view/Log_file) and steps to reproduce, bugs can be narrowed down more quickly to find a solution for them. If you are a developer yourself it would even be great if you could fix the issue and send it to our code base on Github. Another option is helping out on the translation of XBMC and it’s many Add-ons and skins as explained here: [Translating XBMC](https://forum.kodi.tv/showthread.php?tid=141158&amp;pid=1198024). There are of course more ways like helping other users out on the forum or simply help spreading the use of XBMC.
 
-**Bonus:** If you really like the Gotham image used in this post you can get a 1080p version [here](/sites/default/files/uploads/xbmc-gotham-teaser.webp) to replace your background with.
+**Bonus:** If you really like the Gotham image used in this post you can get a 1080p version [here](/images/blog/xbmc-gotham-teaser.webp) to replace your background with.
 
 ## Conclusion
 

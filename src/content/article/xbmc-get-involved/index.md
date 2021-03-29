@@ -8,7 +8,7 @@ XBMC has gone a long way since its first stable release in 2004. It has evolved 
 
 It has been key to XBMC’s success that its user (or little Schumpeter’s) apply their [creative destruction](https://en.wikipedia.org/wiki/Creative_destruction) to the application and move it into new directions on a regular basis. Agathorn has done so with the integration of FanArt into XBMC, Yuvalt with the port of XBMC from xbox to linux which gave rise to XBMC’s cross-platform nature or motd2k with the addition of GPU accelerated video decoding. XBMC wouldn’t be where it is today without the contribution of the many designers, writers, coders, helpful forum users and bug reporters.
 
-[![Noir](/sites/default/files/uploads/Noir1.webp)](https://forum.kodi.tv/showthread.php?tid=60193)  
+[![Noir](/images/blog/Noir1.webp)](https://forum.kodi.tv/showthread.php?tid=60193)  
  Community contributions: Noir… A skin concept by Ayala
 
 Since XBMC prides itself with being an extremely versatile and flexible media center there are a wide-range of areas where YOU can contribute:

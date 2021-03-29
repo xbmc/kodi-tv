@@ -8,7 +8,7 @@ It took a bit longer than expected due to a few bumps in the road, but we are ex
 
 Ladies and Gentlemen, XBMC 11.0 Eden: Beta 1 is available to [download](https://kodi.wiki/download/ "XBMC Eden Download").
 
-[![xbmc-eden-beta-announce-xmas-wide](/sites/default/files/uploads/xbmc-eden-beta-announce-xmas-wide.webp "xbmc-eden-beta-announce-xmas-wide")](https://kodi.wiki/download/)
+[![xbmc-eden-beta-announce-xmas-wide](/images/blog/xbmc-eden-beta-announce-xmas-wide.webp "xbmc-eden-beta-announce-xmas-wide")](https://kodi.wiki/download/)
 
 The sheer number of new features, platforms, and improvements to nearly every facet of the XBMC experience found within Eden are nearly too numerous to count.
 

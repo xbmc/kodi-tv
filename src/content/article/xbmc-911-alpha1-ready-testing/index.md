@@ -4,7 +4,7 @@ date: 2009-11-03T03:00:00Z
 author: Team XBMC
 ---
 
-![](/sites/default/files/uploads/logo.webp)Today we are pleased to announce the first official testing release of 9.11, Codename: Camelot. It’s been quite a while since Babylon, so we’re very excited to begin the release cycle and work towards a new release.
+![](/images/blog/logo.webp)Today we are pleased to announce the first official testing release of 9.11, Codename: Camelot. It’s been quite a while since Babylon, so we’re very excited to begin the release cycle and work towards a new release.
 
 Please keep in mind that this is an early alpha build, and it should be treated as such. While it’s not likely to burn your house down or eat your pets, it’s likely that testers will run into a few bugs. If this happens, please search TRAC to see if someone else has already reported it. If not, you may submit a [QUALITY bug report](https://kodi.wiki/view/HOW-TO_submit_a_proper_Bug_Report). Keep in mind that the reason for releasing alphas/betas is so that we can get a better feel for what bugs are out there. If you don’t report them, we can’t fix them.
 

@@ -4,7 +4,7 @@ date: 2011-11-20T03:00:00Z
 author: Nathan Betzen
 ---
 
-[![Where's XBMC?](/sites/default/files/uploads/wheresxbmc-300x225.webp "Where's XBMC?")](/sites/default/files/uploads/wheresxbmc.webp)As many of you know, we’ve [set a challenge](https://kodi.wiki/natethomas/2011/11/19/dont-look-up/ "Feature Friday Challenge") for this week’s Feature Friday for you to submit your best hidden HTPC. At present, we’ve already gotten quite a few entries. Keep those coming!
+[![Where's XBMC?](/images/blog/wheresxbmc-300x225.webp "Where's XBMC?")](/images/blog/wheresxbmc.webp)As many of you know, we’ve [set a challenge](https://kodi.wiki/natethomas/2011/11/19/dont-look-up/ "Feature Friday Challenge") for this week’s Feature Friday for you to submit your best hidden HTPC. At present, we’ve already gotten quite a few entries. Keep those coming!
 
 We’d just like to update with the announcement that now we can confirm the addition of a prize for the winner of the challenge!
 

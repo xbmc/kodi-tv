@@ -4,7 +4,7 @@ date: 2013-03-16T03:00:00Z
 author: Team XBMC
 ---
 
-[![tadb](/sites/default/files/uploads/tadb-210x300.webp)](/sites/default/files/uploads/tadb.webp)XBMC relies on many 3rd party sites like [www.thetvdb.com](https://www.thetvdb.com/) and [www.fanart.tv](https://fanart.tv/) to provide metadata transparently into your living rooms. The vast majority of these sites are run by fans of home theatre software who simply wanted a better resource for their metadata.
+[![tadb](/images/blog/tadb-210x300.webp)](/images/blog/tadb.webp)XBMC relies on many 3rd party sites like [www.thetvdb.com](https://www.thetvdb.com/) and [www.fanart.tv](https://fanart.tv/) to provide metadata transparently into your living rooms. The vast majority of these sites are run by fans of home theatre software who simply wanted a better resource for their metadata.
 
 A while ago Last.fm made a change to their API which cut off full music artist biographies from being scraped properly by XBMC. We had a discussion with them and it was clear we were causing their API a massive load. Luckily a new site [www.theaudiodb.com](https://www.theaudiodb.com/) stepped up as a free to use, open music metadata source. The site has been running for over a year now and has had over 100,000 edits from 600+ active members. Currently the API has an average of 1.5 million API hits from 9,000 unique users each night. On Sundays the load can reach nearly 2 million requests in a 24hr period. That’s some pretty big numbers for a hobby site.
 

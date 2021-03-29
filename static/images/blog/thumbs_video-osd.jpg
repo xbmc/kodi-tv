@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<link rel="shortcut icon" href="/wp-content/uploads/thumbnail-favicon1.png" />
+<title>Kodi | Open Source Home Theatre Software</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+		
+	
+							
+<link rel="alternate" type="application/rss+xml" title="Kodi &raquo; Feed" href="http://kodi.tv/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kodi &raquo; Comments Feed" href="http://kodi.tv/comments/feed/" />
+<link rel='stylesheet' id='css_main-css'  href='http://kodi.tv/wp-content/themes/paradise/Paradise/stylesheets/styles.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='css_dark-css'  href='http://kodi.tv/wp-content/themes/paradise/Paradise/colors/dark.css?ver=3.5.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='css_tipsy-css'  href='http://kodi.tv/wp-content/themes/paradise/Paradise/stylesheets/tipsy.css?ver=3.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.lightbox.min.css-css'  href='http://kodi.tv/wp-content/plugins/wp-jquery-lightbox/styles/lightbox.min.css?ver=1.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://kodi.tv/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.tipsy.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.scrollTo-min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.localscroll-min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.flexibleColumns.min.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/jquery.preloader.js?ver=3.5.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/themes/paradise/Paradise/js/common.js?ver=1.0.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kodi.tv/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kodi.tv/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.2" />
+<!-- WALL=/contribute/donate/ --><script type='text/javascript' src='http://kodi.tv/wp-content/plugins/sponsors-slideshow-widget/js/jquery.cycle.all.js?ver=2.65'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/plugins/sponsors-slideshow-widget/sponsors-slideshow-widget.js'></script>
+<link rel='stylesheet' id='sponsors-slideshow-css'  href='http://kodi.tv/wp-content/plugins/sponsors-slideshow-widget/style.css?ver=1.9.2' type='text/css' media='all' />
+<!-- BEGIN: WP Social Bookmarking Light -->
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+<style type="text/css">
+.wp_social_bookmarking_light{
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.wp_social_bookmarking_light div{
+    float: left !important;
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 5px 0px 0 !important;
+    height: 23px !important;
+    text-indent: 0 !important;
+}
+.wp_social_bookmarking_light img{
+    border: 0 !important;
+    padding: 0;
+    margin: 0;
+    vertical-align: top !important;
+}
+.wp_social_bookmarking_light_clear{
+    clear: both !important;
+}
+.wsbl_twitter{
+    width: 100px;
+}</style>
+<!-- END: WP Social Bookmarking Light -->
+	
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3066672-1', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+<body id="sp">
+<!-- Begin Container -->
+<div class="container">
+	<!-- Begin Header -->
+	<div id="header">
+		<!-- Site Logo -->
+		<a href="http://kodi.tv/" class="logo">
+			<img src="http://kodi.tv/wp-content/themes/paradise/Paradise/images/logo.png" alt="" />
+		</a>
+		<!-- SearchBox -->
+		<form role="search" method="get" id="searchform" action="http://kodi.tv/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		<div class="clear"></div>
+	</div>
+	<!-- End Header -->
+	<!-- Start Main Nav -->
+	<div id="MainNav">
+		<a href="http://kodi.tv/" class="home_btn"><img src="http://kodi.tv/wp-content/themes/paradise/Paradise/images/icon_home.gif" width="17" height="19" alt="Home" /></a>
+		<div id="menu">
+		<ul id="menu-main-menu" class="ddsmoothmenu"><li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="http://kodi.tv/about/">About</a></li>
+<li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="http://kodi.tv/download/">Downloads</a></li>
+<li id="menu-item-2613" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2613"><a href="http://addons.xbmc.org">Add-ons</a></li>
+<li id="menu-item-734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-734"><a href="http://kodi.wiki">Wiki</a></li>
+<li id="menu-item-733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-733"><a href="http://forum.kodi.tv">Forum</a></li>
+<li id="menu-item-1414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1414"><a href="http://kodi.tv/contribute/donate/">Donate</a></li>
+<li id="menu-item-2344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2344"><a href="http://kodi.tv/contact/">Contact</a></li>
+<li id="menu-item-3738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3738"><a href="http://kodi.tv/get-involved/">Get involved</a></li>
+</ul>		</div>
+				<!-- Start Social Icons -->
+			<ul class="social">
+						<li><a href="http://kodi.tv/contribute/donate/" style="background: url(http://kodi.tv/wp-content/themes/paradise/Paradise/images/social/donate.png) no-repeat 0px 0px;" title="Donate"></a></li>
+						<li><a href="https://plus.google.com/+XBMC/posts" style="background: url(http://kodi.tv/wp-content/themes/paradise/Paradise/images/social/googleplus.png) no-repeat 0px 0px;" title="Googleplus"></a></li>
+						<li><a href="http://www.facebook.com/xbmc" style="background: url(http://kodi.tv/wp-content/themes/paradise/Paradise/images/social/facebook.png) no-repeat 0px 0px;" title="Facebook"></a></li>
+						<li><a href="https://twitter.com/XBMC" style="background: url(http://kodi.tv/wp-content/themes/paradise/Paradise/images/social/twitter.png) no-repeat 0px 0px;" title="Twitter"></a></li>
+						<li><a href="http://www.youtube.com/user/teamxbmc" style="background: url(http://kodi.tv/wp-content/themes/paradise/Paradise/images/social/youtube.png) no-repeat 0px 0px;" title="Youtube"></a></li>
+						</ul>
+		<!-- End Social Icons -->
+		<div class="clear"></div>
+	</div>
+	<!-- End Main Nav -->
+					<!-- Start Content Wrapper -->
+		<div id="content_wrapper_sbr">
+			<!-- Content Area -->
+		<div id="content">
+			<!-- Content Box -->
+			<div class="box">
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">15</span>
+							<span class="month">Jan</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/some-new-year-community-updates-2015/">Some New Year Community Updates 2015</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/some-new-year-community-updates-2015/#comments" title="33 Comments">33 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/zag2me/" title="View all posts by zag">zag</a>&nbsp;on&nbsp;Jan 15, 2015&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/some-new-year-community-updates-2015/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/ConfigurationGUI_zps10704b12-600x336.png" class="pic wp-post-image" alt="ConfigurationGUI_zps10704b12" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>Now that the dust has settled on the new Kodi &#8220;Helix&#8221; release we thought we would take you through a few of the developments that you may have missed in our community forums. There&#8217;s some exciting stuff going on as developers and add-on creators get back to work on writing new features and brainstorming the &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/some-new-year-community-updates-2015/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">23</span>
+							<span class="month">Dec</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-14-0-helix-unwinds/">Kodi 14.0 Helix Unwinds</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-14-0-helix-unwinds/#comments" title="203 Comments">203 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Dec 23, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-14-0-helix-unwinds/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Kodi_Xmas-600x336.jpg" class="pic wp-post-image" alt="Kodi_Xmas" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>Merry Christmas and happy holidays, everyone! We are proud to announce the release of Kodi 14.0, which comes with a new name, a new logo, and a wide variety of new features, but underneath the new coat of paint remains the same software we all love. A detailed changelog for Kodi 14 can be found &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-14-0-helix-unwinds/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">09</span>
+							<span class="month">Dec</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-14-0-helix-release-candidate-3/">Kodi 14.0 Helix – Release candidate 3</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-14-0-helix-release-candidate-3/#comments" title="121 Comments">121 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/martijn/" title="View all posts by Martijn">Martijn</a>&nbsp;on&nbsp;Dec 09, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-14-0-helix-release-candidate-3/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Splash1-600x336.png" class="pic wp-post-image" alt="Splash" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>Although we announced our first release candidate not long ago, we&#8217;re proud to release our third one in the 14.0 Helix range. Some might find it odd that we do so many releases in this short period of time. We can assure you that this is by intention. By doing more rapid releases we get &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-14-0-helix-release-candidate-3/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">30</span>
+							<span class="month">Nov</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-14-0-helix-release-candidate-arives/">Kodi 14.0 Helix &#8211; Release candidate arrives</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-14-0-helix-release-candidate-arives/#comments" title="103 Comments">103 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/martijn/" title="View all posts by Martijn">Martijn</a>&nbsp;on&nbsp;Nov 30, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-14-0-helix-release-candidate-arives/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Splash1-600x336.png" class="pic wp-post-image" alt="Splash" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>The last few months have certainly been rough-and-tumble, but we are pleased to announce the release candidate cycle for Kodi 14.0 Helix. This 14.0 release brings many updates and changes, not the least of which is the change to the software&#8217;s name and logo. The release candidate cycle will also be the first to include &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-14-0-helix-release-candidate-arives/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">24</span>
+							<span class="month">Nov</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/introducing-the-kodi-logo/">Introducing the Kodi Logo</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/introducing-the-kodi-logo/#comments" title="183 Comments">183 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Nov 24, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/introducing-the-kodi-logo/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/banner-sbs-11-600x336.png" class="pic wp-post-image" alt="banner-sbs-1" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>&nbsp; After many weeks of designing, deliberation, and a few beers, we are pleased to present the official logo of Kodi! Logo Design History It has been several months now since we introduced the new name for the software that we all love so much. In that time, the feedback we took most to heart &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/introducing-the-kodi-logo/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">03</span>
+							<span class="month">Nov</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-14-0-helix-beta-1-springs-forward/">Kodi 14.0 Helix &#8211; Beta Springs Forward</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-14-0-helix-beta-1-springs-forward/#comments" title="225 Comments">225 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Nov 03, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-14-0-helix-beta-1-springs-forward/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/KodiBeta1Splash-600x336.png" class="pic wp-post-image" alt="KodiBeta1Splash" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>It&#8217;s certainly been a few rough-and-tumble months, but we&#8217;re pleased to announce the release of Beta cycle for Kodi 14.0 Helix. This release brings many updates and changes, not the least of which being the name of the software. For those of you curious, we&#8217;ve now taken the top 10 or so vote getters in &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-14-0-helix-beta-1-springs-forward/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">18</span>
+							<span class="month">Oct</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-14-0-helix-nearing-beta-release/">Kodi 14.0 &#8220;Helix&#8221; nearing beta release</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-14-0-helix-nearing-beta-release/#comments" title="72 Comments">72 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/martijn/" title="View all posts by Martijn">Martijn</a>&nbsp;on&nbsp;Oct 18, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-14-0-helix-nearing-beta-release/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/kodi-splash-600x336.png" class="pic wp-post-image" alt="kodi-splash" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>As we already mention in last alpha4 release post, the first beta release is nearing pretty fast. At this moment we are only waiting for one more final change to happen and then we are good to go. We are only talking a week or two at most. About three weeks have past since but, &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-14-0-helix-nearing-beta-release/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">12</span>
+							<span class="month">Oct</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/20141014-mirror-downtime/">Mirrors back online after server was physically moved.</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/20141014-mirror-downtime/#comments" title="54 Comments">54 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/kib/" title="View all posts by kib">kib</a>&nbsp;on&nbsp;Oct 12, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/20141014-mirror-downtime/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/move_succeedeed-600x336.png" class="pic wp-post-image" alt="move_succeedeed" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>Update: As you can see our mirroring server came back online nicely after the physical move. We are excited to be able to use the better networking link, and to know that the server is yet again in the caring hands of the entire networking team at Bytemark, who communicated very well with us during &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/20141014-mirror-downtime/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">10</span>
+							<span class="month">Oct</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/kodi-devcon-2014-live-blog/">Kodi DevCon 2014 Live Blog</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/kodi-devcon-2014-live-blog/#comments" title="29 Comments">29 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Oct 10, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/kodi-devcon-2014-live-blog/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/IMG_0439-600x336.jpg" class="pic wp-post-image" alt="IMG_0439" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>Friday, 10th of October, 2014 Good morning everyone. As with last year, we&#8217;re going to try to keep a running update of useful info that comes from this year&#8217;s devcon. To begin, we&#8217;re having a number of developers and support members give various presentations, so we&#8217;ll start with that. &nbsp; Nedscott&#8217;s Wiki Update For anyone &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/kodi-devcon-2014-live-blog/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+				<!-- Start Post -->
+				<div class="post">
+					<!-- Start Post Title -->
+					<div class="post_title_wrap">
+						<!-- Start Post Date -->
+						<div class="post_date">
+							<span class="day">08</span>
+							<span class="month">Oct</span>
+						</div>
+						<div class="post_title">
+							<h2><a href="http://kodi.tv/the-kodi-logo-decision-and-kodi-devcon/">The Kodi Logo Decision and Kodi DevCon</a></h2>
+							<!-- Posted When, Where &amp; Comments -->
+							<div class="posted">
+								<div class="alignright"><a href="http://kodi.tv/the-kodi-logo-decision-and-kodi-devcon/#comments" title="137 Comments">137 Comments &raquo;</a></div>
+								Posted By:&nbsp;<a href="http://kodi.tv/author/natethomas/" title="View all posts by Nathan Betzen">Nathan Betzen</a>&nbsp;on&nbsp;Oct 08, 2014&nbsp;in&nbsp;<a href="http://kodi.tv/category/site-news/" title="View all posts in Site News" rel="category tag">Site News</a>							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!-- End Post Title -->
+										<!-- Post Thumbnail -->
+					<a href="http://kodi.tv/the-kodi-logo-decision-and-kodi-devcon/" class="post_thumb"><img width="600" height="336" src="/wp-content/uploads/Screen-Shot-2014-09-22-at-1.04.58-PM-600x336.png" class="pic wp-post-image" alt="Screen Shot 2014-09-22 at 1.04.58 PM" title="" /></a>
+					<!-- End Post Thumbnail -->
+										<!-- Post Excerpt -->
+					<p>As many of you know, the path to our new name is only partially complete. Beyond the various legal steps still needed to be taken, we need to finally take a step forward in the design of our new logo. The logo that&#8217;s been posted on the alpha release threads has been an acceptable place &hellip;</p>
+					<!-- Read More Btn -->
+										<a href="http://kodi.tv/the-kodi-logo-decision-and-kodi-devcon/" class="btn" title="Read more">Read more</a>
+										<div class="clear"></div>
+				</div>
+				<!-- End Post -->
+								<!-- Start Paging -->
+									<div class="navigation" id="nav-below">
+					<div class="nav-previous"><a href="http://kodi.tv/wordpress/wp-content/gallery/transparency/thumbs/thumbs_video-osd.jpg/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+									<div class="clear"></div>
+				<!-- End Paging -->
+								<div class="clear"></div>
+			</div>
+			<!-- End Content Box -->
+		</div>
+		<!-- End Content Area -->
+				<!-- Sidebar -->
+		<div id="sidebar">
+			<div id="text-4" class="widget-container widget_text"><h3>Latest Releases</h3>			<div class="textwidget"><b>Latest Stable: </b><a href="/download">Kodi 14.0 "Helix"</a><br>
+<b>Release Date: </b> 23 December 2014<br><br>
+
+<center><a href="/download"><img src="/wp-content/uploads/download-button.png" alt="Downloads"> </a></center></div>
+		</div><div id="text-9" class="widget-container widget_text"><h3>Kodi T-Shirt Store</h3>			<div class="textwidget"><center>
+
+
+<a href="http://teespring.com/stores/kodi-t-shirt-store" title="kodi shirt store" target="_blank" onClick="_gaq.push(['_trackEvent', 'Sales', 'SideStore']);" /><img src="/wp-content/uploads/kodishirt.png" style="width:250px"></a>
+</div>
+		</div><div id="text-5" class="widget-container widget_text"><h3>Sponsors</h3>			<div class="textwidget"><center>
+<a href="http://www.bytemark.co.uk/r/xbmc" title="bytemark" target="_blank" /><img src="/wp-content/uploads/bytemark.png"></a>
+<br>
+<a href="http://www.vidon.me/" title="VidOnMe" target="_blank" /><img src="/wp-content/uploads/logo1.png" style="width:140px;"></a>
+<br>
+<a href="http://www.webhostingbuzz.com/" title="WebHostingBuzz" target="_blank" /><img src="/wp-content/uploads/sponsor-webhostingbuzz.png"></a>
+<br>
+<a href="http://www.wetek.com/" title="Wetek" target="_blank" /><img src="/wp-content/uploads/wetek.jpg"></a>
+</center></div>
+		</div><div id="text-8" class="widget-container widget_text">			<div class="textwidget"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FXBMC&amp;width=295px&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=224830747546962" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:295pxpx; height:80px;" allowTransparency="true"></iframe>
+
+<a href="https://twitter.com/XBMC" class="twitter-follow-button" data-show-count="false">Follow @XBMC</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
+		</div><div id="archives-2" class="widget-container widget_archive"><h3>Blog archive</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://kodi.tv/2015/01/'> January 2015 </option>
+	<option value='http://kodi.tv/2014/12/'> December 2014 </option>
+	<option value='http://kodi.tv/2014/11/'> November 2014 </option>
+	<option value='http://kodi.tv/2014/10/'> October 2014 </option>
+	<option value='http://kodi.tv/2014/09/'> September 2014 </option>
+	<option value='http://kodi.tv/2014/08/'> August 2014 </option>
+	<option value='http://kodi.tv/2014/07/'> July 2014 </option>
+	<option value='http://kodi.tv/2014/06/'> June 2014 </option>
+	<option value='http://kodi.tv/2014/05/'> May 2014 </option>
+	<option value='http://kodi.tv/2014/04/'> April 2014 </option>
+	<option value='http://kodi.tv/2014/03/'> March 2014 </option>
+	<option value='http://kodi.tv/2014/02/'> February 2014 </option>
+	<option value='http://kodi.tv/2014/01/'> January 2014 </option>
+	<option value='http://kodi.tv/2013/12/'> December 2013 </option>
+	<option value='http://kodi.tv/2013/11/'> November 2013 </option>
+	<option value='http://kodi.tv/2013/10/'> October 2013 </option>
+	<option value='http://kodi.tv/2013/09/'> September 2013 </option>
+	<option value='http://kodi.tv/2013/08/'> August 2013 </option>
+	<option value='http://kodi.tv/2013/07/'> July 2013 </option>
+	<option value='http://kodi.tv/2013/06/'> June 2013 </option>
+	<option value='http://kodi.tv/2013/05/'> May 2013 </option>
+	<option value='http://kodi.tv/2013/04/'> April 2013 </option>
+	<option value='http://kodi.tv/2013/03/'> March 2013 </option>
+	<option value='http://kodi.tv/2013/02/'> February 2013 </option>
+	<option value='http://kodi.tv/2013/01/'> January 2013 </option>
+	<option value='http://kodi.tv/2012/12/'> December 2012 </option>
+	<option value='http://kodi.tv/2012/11/'> November 2012 </option>
+	<option value='http://kodi.tv/2012/10/'> October 2012 </option>
+	<option value='http://kodi.tv/2012/09/'> September 2012 </option>
+	<option value='http://kodi.tv/2012/08/'> August 2012 </option>
+	<option value='http://kodi.tv/2012/07/'> July 2012 </option>
+	<option value='http://kodi.tv/2012/06/'> June 2012 </option>
+	<option value='http://kodi.tv/2012/05/'> May 2012 </option>
+	<option value='http://kodi.tv/2012/04/'> April 2012 </option>
+	<option value='http://kodi.tv/2012/03/'> March 2012 </option>
+	<option value='http://kodi.tv/2012/02/'> February 2012 </option>
+	<option value='http://kodi.tv/2012/01/'> January 2012 </option>
+	<option value='http://kodi.tv/2011/12/'> December 2011 </option>
+	<option value='http://kodi.tv/2011/11/'> November 2011 </option>
+	<option value='http://kodi.tv/2011/10/'> October 2011 </option>
+	<option value='http://kodi.tv/2011/09/'> September 2011 </option>
+	<option value='http://kodi.tv/2011/08/'> August 2011 </option>
+	<option value='http://kodi.tv/2011/07/'> July 2011 </option>
+	<option value='http://kodi.tv/2011/06/'> June 2011 </option>
+	<option value='http://kodi.tv/2011/05/'> May 2011 </option>
+	<option value='http://kodi.tv/2011/04/'> April 2011 </option>
+	<option value='http://kodi.tv/2011/03/'> March 2011 </option>
+	<option value='http://kodi.tv/2011/02/'> February 2011 </option>
+	<option value='http://kodi.tv/2011/01/'> January 2011 </option>
+	<option value='http://kodi.tv/2010/12/'> December 2010 </option>
+	<option value='http://kodi.tv/2010/11/'> November 2010 </option>
+	<option value='http://kodi.tv/2010/10/'> October 2010 </option>
+	<option value='http://kodi.tv/2010/09/'> September 2010 </option>
+	<option value='http://kodi.tv/2010/08/'> August 2010 </option>
+	<option value='http://kodi.tv/2010/07/'> July 2010 </option>
+	<option value='http://kodi.tv/2010/06/'> June 2010 </option>
+	<option value='http://kodi.tv/2010/05/'> May 2010 </option>
+	<option value='http://kodi.tv/2010/04/'> April 2010 </option>
+	<option value='http://kodi.tv/2010/03/'> March 2010 </option>
+	<option value='http://kodi.tv/2010/02/'> February 2010 </option>
+	<option value='http://kodi.tv/2010/01/'> January 2010 </option>
+	<option value='http://kodi.tv/2009/12/'> December 2009 </option>
+	<option value='http://kodi.tv/2009/11/'> November 2009 </option>
+	<option value='http://kodi.tv/2009/10/'> October 2009 </option>
+	<option value='http://kodi.tv/2009/09/'> September 2009 </option>
+	<option value='http://kodi.tv/2009/08/'> August 2009 </option>
+	<option value='http://kodi.tv/2009/07/'> July 2009 </option>
+	<option value='http://kodi.tv/2009/06/'> June 2009 </option>
+	<option value='http://kodi.tv/2009/05/'> May 2009 </option>
+	<option value='http://kodi.tv/2009/04/'> April 2009 </option>
+	<option value='http://kodi.tv/2009/03/'> March 2009 </option>
+	<option value='http://kodi.tv/2009/02/'> February 2009 </option>
+	<option value='http://kodi.tv/2009/01/'> January 2009 </option>
+	<option value='http://kodi.tv/2008/12/'> December 2008 </option>
+	<option value='http://kodi.tv/2008/11/'> November 2008 </option>
+	<option value='http://kodi.tv/2008/10/'> October 2008 </option>
+	<option value='http://kodi.tv/2008/09/'> September 2008 </option>
+	<option value='http://kodi.tv/2008/08/'> August 2008 </option>
+	<option value='http://kodi.tv/2008/07/'> July 2008 </option>
+	<option value='http://kodi.tv/2008/06/'> June 2008 </option>
+	<option value='http://kodi.tv/2008/05/'> May 2008 </option>
+	<option value='http://kodi.tv/2008/03/'> March 2008 </option>
+	<option value='http://kodi.tv/2008/02/'> February 2008 </option>
+	<option value='http://kodi.tv/2007/12/'> December 2007 </option>
+	<option value='http://kodi.tv/2007/08/'> August 2007 </option>
+	<option value='http://kodi.tv/2007/07/'> July 2007 </option>
+	<option value='http://kodi.tv/2007/05/'> May 2007 </option>
+	<option value='http://kodi.tv/2006/11/'> November 2006 </option>
+	<option value='http://kodi.tv/2006/09/'> September 2006 </option>
+	<option value='http://kodi.tv/2006/06/'> June 2006 </option>
+	<option value='http://kodi.tv/2006/05/'> May 2006 </option>
+	<option value='http://kodi.tv/2006/04/'> April 2006 </option>
+	<option value='http://kodi.tv/2006/03/'> March 2006 </option>
+	<option value='http://kodi.tv/2005/09/'> September 2005 </option>
+	<option value='http://kodi.tv/2005/05/'> May 2005 </option>
+	<option value='http://kodi.tv/2005/03/'> March 2005 </option>
+	<option value='http://kodi.tv/2005/02/'> February 2005 </option>
+	<option value='http://kodi.tv/2005/01/'> January 2005 </option>
+	<option value='http://kodi.tv/2004/12/'> December 2004 </option>
+	<option value='http://kodi.tv/2004/11/'> November 2004 </option>
+	<option value='http://kodi.tv/2004/10/'> October 2004 </option>
+	<option value='http://kodi.tv/2004/09/'> September 2004 </option>
+	<option value='http://kodi.tv/2004/08/'> August 2004 </option>
+	<option value='http://kodi.tv/2004/07/'> July 2004 </option>
+	<option value='http://kodi.tv/2004/06/'> June 2004 </option>
+	<option value='http://kodi.tv/2004/05/'> May 2004 </option>
+	<option value='http://kodi.tv/2004/04/'> April 2004 </option>
+	<option value='http://kodi.tv/2004/03/'> March 2004 </option>
+	<option value='http://kodi.tv/2004/02/'> February 2004 </option>
+	<option value='http://kodi.tv/2004/01/'> January 2004 </option>
+	<option value='http://kodi.tv/2003/12/'> December 2003 </option>
+	<option value='http://kodi.tv/2003/11/'> November 2003 </option>
+	<option value='http://kodi.tv/2003/10/'> October 2003 </option>
+ </select>
+</div><div id="tag_cloud-2" class="widget-container widget_tag_cloud"><h3>Tags</h3><div class="tagcloud"><a href='http://kodi.tv/tag/add-ons/' class='tag-link-57' title='3 topics' style='font-size: 11.7837837838pt;'>add-ons</a>
+<a href='http://kodi.tv/tag/alpha/' class='tag-link-46' title='14 topics' style='font-size: 19.0990990991pt;'>Alpha</a>
+<a href='http://kodi.tv/tag/android/' class='tag-link-43' title='2 topics' style='font-size: 10.2702702703pt;'>android</a>
+<a href='http://kodi.tv/tag/audio/' class='tag-link-42' title='2 topics' style='font-size: 10.2702702703pt;'>audio</a>
+<a href='http://kodi.tv/tag/beta/' class='tag-link-75' title='9 topics' style='font-size: 16.8288288288pt;'>Beta</a>
+<a href='http://kodi.tv/tag/bytemark/' class='tag-link-64' title='2 topics' style='font-size: 10.2702702703pt;'>bytemark</a>
+<a href='http://kodi.tv/tag/database/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>Database</a>
+<a href='http://kodi.tv/tag/devcon/' class='tag-link-77' title='3 topics' style='font-size: 11.7837837838pt;'>devcon</a>
+<a href='http://kodi.tv/tag/developers/' class='tag-link-70' title='1 topic' style='font-size: 8pt;'>developers</a>
+<a href='http://kodi.tv/tag/development/' class='tag-link-41' title='5 topics' style='font-size: 14.0540540541pt;'>development</a>
+<a href='http://kodi.tv/tag/download/' class='tag-link-62' title='1 topic' style='font-size: 8pt;'>download</a>
+<a href='http://kodi.tv/tag/final/' class='tag-link-83' title='2 topics' style='font-size: 10.2702702703pt;'>final</a>
+<a href='http://kodi.tv/tag/freeze/' class='tag-link-56' title='1 topic' style='font-size: 8pt;'>freeze</a>
+<a href='http://kodi.tv/tag/gotham/' class='tag-link-55' title='25 topics' style='font-size: 22pt;'>Gotham</a>
+<a href='http://kodi.tv/tag/gsoc/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>GSOC</a>
+<a href='http://kodi.tv/tag/helix/' class='tag-link-89' title='8 topics' style='font-size: 16.1981981982pt;'>Helix</a>
+<a href='http://kodi.tv/tag/history/' class='tag-link-34' title='1 topic' style='font-size: 8pt;'>History</a>
+<a href='http://kodi.tv/tag/jenkins/' class='tag-link-59' title='1 topic' style='font-size: 8pt;'>jenkins</a>
+<a href='http://kodi.tv/tag/kodi/' class='tag-link-88' title='11 topics' style='font-size: 17.8378378378pt;'>Kodi</a>
+<a href='http://kodi.tv/tag/macminivault/' class='tag-link-67' title='1 topic' style='font-size: 8pt;'>MacMiniVault</a>
+<a href='http://kodi.tv/tag/mirrorbrain/' class='tag-link-61' title='1 topic' style='font-size: 8pt;'>mirrorbrain</a>
+<a href='http://kodi.tv/tag/mirrors/' class='tag-link-63' title='2 topics' style='font-size: 10.2702702703pt;'>mirrors</a>
+<a href='http://kodi.tv/tag/monthly/' class='tag-link-73' title='1 topic' style='font-size: 8pt;'>monthly</a>
+<a href='http://kodi.tv/tag/mythicbeasts/' class='tag-link-66' title='1 topic' style='font-size: 8pt;'>MythicBeasts</a>
+<a href='http://kodi.tv/tag/openelec/' class='tag-link-39' title='1 topic' style='font-size: 8pt;'>openelec</a>
+<a href='http://kodi.tv/tag/ouya/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>ouya</a>
+<a href='http://kodi.tv/tag/performance/' class='tag-link-47' title='1 topic' style='font-size: 8pt;'>Performance</a>
+<a href='http://kodi.tv/tag/php/' class='tag-link-69' title='1 topic' style='font-size: 8pt;'>php</a>
+<a href='http://kodi.tv/tag/platforms/' class='tag-link-53' title='1 topic' style='font-size: 8pt;'>platforms</a>
+<a href='http://kodi.tv/tag/plug-ins/' class='tag-link-68' title='1 topic' style='font-size: 8pt;'>plug-ins</a>
+<a href='http://kodi.tv/tag/pvr/' class='tag-link-72' title='1 topic' style='font-size: 8pt;'>pvr</a>
+<a href='http://kodi.tv/tag/rc/' class='tag-link-85' title='3 topics' style='font-size: 11.7837837838pt;'>RC</a>
+<a href='http://kodi.tv/tag/release/' class='tag-link-48' title='19 topics' style='font-size: 20.6126126126pt;'>Release</a>
+<a href='http://kodi.tv/tag/release-candidate/' class='tag-link-96' title='2 topics' style='font-size: 10.2702702703pt;'>release candidate</a>
+<a href='http://kodi.tv/tag/release-cycle/' class='tag-link-40' title='10 topics' style='font-size: 17.3333333333pt;'>release cycle</a>
+<a href='http://kodi.tv/tag/servers/' class='tag-link-60' title='1 topic' style='font-size: 8pt;'>servers</a>
+<a href='http://kodi.tv/tag/skins-2/' class='tag-link-58' title='2 topics' style='font-size: 10.2702702703pt;'>skins</a>
+<a href='http://kodi.tv/tag/stable/' class='tag-link-84' title='2 topics' style='font-size: 10.2702702703pt;'>stable</a>
+<a href='http://kodi.tv/tag/statistics/' class='tag-link-52' title='1 topic' style='font-size: 8pt;'>statistics</a>
+<a href='http://kodi.tv/tag/v12/' class='tag-link-93' title='10 topics' style='font-size: 17.3333333333pt;'>v12</a>
+<a href='http://kodi.tv/tag/v13/' class='tag-link-91' title='15 topics' style='font-size: 19.3513513514pt;'>v13</a>
+<a href='http://kodi.tv/tag/v14/' class='tag-link-90' title='2 topics' style='font-size: 10.2702702703pt;'>v14</a>
+<a href='http://kodi.tv/tag/version/' class='tag-link-54' title='2 topics' style='font-size: 10.2702702703pt;'>version</a>
+<a href='http://kodi.tv/tag/webhostingbuzz/' class='tag-link-65' title='1 topic' style='font-size: 8pt;'>WebHostingBuzz</a>
+<a href='http://kodi.tv/tag/xbmc/' class='tag-link-71' title='1 topic' style='font-size: 8pt;'>xbmc</a></div>
+</div>		</div>
+		<!-- End Sidebar -->
+<script type="text/javascript">
+	jQuery(window).load(function() {
+		var offset = jQuery('#sidebar').height();
+		jQuery('#content > .box').each(function(index) {
+			offset -= this.offsetHeight + parseInt(jQuery(this).css('margin-top')) + parseInt(jQuery(this).css('margin-bottom'));
+		});
+		if (offset > 0)
+			jQuery('#content .box:last-child').height(jQuery('#content .box:last-child').height() + offset);
+	});
+</script>		<div class="clear"></div>
+	</div>
+	<!-- End Content Wrapper -->
+</div>
+<!-- End Container -->
+
+
+<!-- Start Footer Sidebar -->
+<div id="f_sidebar">
+	<div class="sb_wrapper">
+		<div id="text-3" class="widget-container widget_text"><h3>About Kodi</h3>			<div class="textwidget">Kodi is a free and open source media player application developed by the XBMC Foundation, a non-profit technology consortium. Kodi is available for multiple operating-systems and hardware platforms, featuring a 10-foot user interface for use with televisions and remote controls. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.</div>
+		</div><div id="linkcat-35" class="widget-container widget_links"><h3>Internal Links</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="/Corporate-Enquiries/">Corporate</a></li>
+<li><a href="/get-involved/" title="You can help XBMC!">Get involved</a></li>
+<li><a href="/known-list-of-gpl-violators" title="A list of all current XBMC GPL Violators">GPL Violators</a></li>
+<li><a href="/about/xbmc-software/">Kodi Software</a></li>
+<li><a href="/about/team/">Kodi Team</a></li>
+<li><a href="/xbmc-sponsor-page">Sponsorship</a></li>
+<li><a href="/about/xbmc-foundation/">XBMC Foundation</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-37" class="widget-container widget_links"><h3>RSS Feeds</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="/comments/feed/">Blog Comments</a></li>
+<li><a href="/feed/">Blog News</a></li>
+<li><a href="http://forum.kodi.tv/syndication.php?fid=6&#038;limit=15">Forum General</a></li>
+<li><a href="http://forum.kodi.tv/syndication.php?fid=202&#038;limit=15">Forum Showcase</a></li>
+<li><a href="https://github.com/xbmc/xbmc/commits/master.atom" target="_blank">Github Commits</a></li>
+<li><a href="http://feeds.xbmc.org/latest_xbmc_addons">New Add-ons</a></li>
+<li><a href="http://feeds.xbmc.org/updated_xbmc_addons">Updated Add-ons</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-36" class="widget-container widget_links"><h3>Sponsors</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.bytemark.co.uk/r/xbmc">bytemark</a></li>
+<li><a href="http://flirc.tv" target="_blank">FLIRC</a></li>
+<li><a href="http://www.vidon.me/">VidOn.Me</a></li>
+<li><a href="http://www.webhostingbuzz.com">WebHostingBuzz</a></li>
+<li><a href="http://www.wetek.com" target="_blank">WETEK</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-2" class="widget-container widget_links"><h3>Friends</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://fanart.tv">Fanart.TV</a></li>
+<li><a href="http://openelec.tv/">OpenELEC</a></li>
+<li><a href="http://www.theaudiodb.com">TheAudioDB.com</a></li>
+<li><a href="http://thegamesdb.net">TheGamesDB.net</a></li>
+<li><a href="http://www.themoviedb.org/">TheMovieDB.org</a></li>
+<li><a href="http://www.thetvdb.com/">TheTVDB.com</a></li>
+<li><a href="http://xbmclogs.com">XBMCLogs.com</a></li>
+
+	</ul>
+</div>
+	</div>
+	<div class="clear"></div>
+</div>
+<!-- End Footer Sidebar -->
+<!-- BEGIN: WP Social Bookmarking Light -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-US'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- END: WP Social Bookmarking Light -->
+<script type='text/javascript' src='http://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/plugins/wp-jquery-lightbox/jquery.touchwipe.min.js?ver=1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"showInfo":"1","fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"1","navbarOnTop":"0","resizeCenter":"","marginSize":"0","linkTarget":"_self","slideshowSpeed":"4000","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+var JQLBSettings = {"showInfo":"1","fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"1","navbarOnTop":"0","resizeCenter":"","marginSize":"0","linkTarget":"_self","slideshowSpeed":"4000","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+var JQLBSettings = {"showInfo":"1","fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"1","navbarOnTop":"0","resizeCenter":"","marginSize":"0","linkTarget":"_self","slideshowSpeed":"4000","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","pause":"(pause slideshow)","play":"(play slideshow)"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://kodi.tv/wp-content/plugins/wp-jquery-lightbox/jquery.lightbox.min.js?ver=1.4'></script>
+</body>
+</html>
+<!-- Dynamic page generated in 0.643 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-01-18 02:52:09 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

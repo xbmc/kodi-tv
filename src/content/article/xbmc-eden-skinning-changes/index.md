@@ -4,7 +4,7 @@ date: 2011-10-06T03:00:00Z
 author: Nathan Betzen
 ---
 
-[![super_smooth_xbmc_skin](/sites/default/files/uploads/super_smooth_xbmc_skin.webp "super_smooth_xbmc_skin")](/sites/default/files/uploads/super_smooth_xbmc_skin.webp)  
+[![super_smooth_xbmc_skin](/images/blog/super_smooth_xbmc_skin.webp "super_smooth_xbmc_skin")](/images/blog/super_smooth_xbmc_skin.webp)  
  That's smooth skin!
 
 Confluence has been XBMC’s default skin for approximately 2 years now. In software dev terms, that makes it practically ancient. Fortunately, XBMC’s Jezz_X has been on the case to update Confluence so that it might better take advantage of a bushel bag of new tricks.
@@ -25,21 +25,21 @@ It became clear fairly early after the release of Dharma, and even before, that 
 
 Aside from handling addons, the other major frustration of the Dharma Confluence skin was the way links to TV Shows and Movies were handled. People didn’t like having to click over to get to those links. Jezz_X had to include a method of displaying those crucial links on the main list, because it was in no way obvious that the links could be brought up through a simple click to the right.
 
-[![Dharma Home Screen highlighting Videos](/sites/default/files/uploads/confluencevideodharma.webp "Dharma Home Screen highlighting Videos")](/sites/default/files/uploads/confluencevideodharma.webp)  
+[![Dharma Home Screen highlighting Videos](/images/blog/confluencevideodharma.webp "Dharma Home Screen highlighting Videos")](/images/blog/confluencevideodharma.webp)  
  The fact that I added movies is not especially clear.
 
 ## XBMC Eden’s Home Screen
 
 To resolve the issue, Jezz_X did one simple little thing that resolved both problems at once. He tilted the navigation bar horizontally.
 
-[![The New Eden Home Screen](/sites/default/files/uploads/XBMCEden.webp "The New Eden Home Screen")](/sites/default/files/uploads/XBMCEden.webp)  
+[![The New Eden Home Screen](/images/blog/XBMCEden.webp "The New Eden Home Screen")](/images/blog/XBMCEden.webp)  
  As you can see, just about everything is visible now without clicking, and EVERYTHING has changed.
 
 With this simple trick, Movies and TV Shows became automatically visible without requiring a single additional click. particularly useful addons could be accessed directly from the home page, and additional addons could be easily accessed through the visible “Addons” link. Jezz_X further confirms that, while Confluence limits skinners to a mere five favorite addons for Videos, five for Music, five for Pictures, etc. for a total of twenty visible addons on the home screen, the skinning engine allows for an enterprising skinner to devote the entire screen to addons, similar to the current Android and iOS browser methods of listing apps.
 
 Finally, one of the most popular links on the home screen was the “recently added” link. Now, that link has been made mildly redundant by simply listing all recently added content in the space above the bar on the screen.
 
-[![Recently Added on the Home Screen](/sites/default/files/uploads/recentadditions.webp "Recently Added on the Home Screen")](/sites/default/files/uploads/recentadditions.webp)  
+[![Recently Added on the Home Screen](/images/blog/recentadditions.webp "Recently Added on the Home Screen")](/images/blog/recentadditions.webp)  
  Four recently added episodes and five recently added movies are all visible now.
 
 For those of you concerned, these changes haven’t upset your preferences too much. If you prefer to keep TV Shows or Movies in the main menu, Confluence naturally has options to pull those items out of the Videos submenu and onto the main menu.
@@ -48,7 +48,7 @@ For those of you concerned, these changes haven’t upset your preferences too m
 
 With luck, most of the remaining changes to Confluence will be so clean and natural that a typical user won’t even notice them. Display styles have been made more uniform. Hidden options were either removed or made visible. The side menu in the media window is more visibly accessible. 15 thumbnails, rather than 10, are now visible at a time. Flags have been updated. Dozens of similar changes have occurred that won’t be immediately obvious, but will all make navigation just a little easier.
 
-[![XBMC Eden Library View](/sites/default/files/uploads/libraryview.webp "XBMC Eden Library View")](/sites/default/files/uploads/libraryview.webp)  
+[![XBMC Eden Library View](/images/blog/libraryview.webp "XBMC Eden Library View")](/images/blog/libraryview.webp)  
  The Eden Library view wastes much less space and is far easier to navigate.
 
 ## The On Screen Display (OSD)
@@ -59,7 +59,7 @@ Fortunately, thanks to the generous contributions of our fans, the Foundation wa
 
 We’ll discuss this in greater depth in a later article, but for now the take away is that Confluence is one of the rare skins that is navigable both by remote and by touch. Which brings us to the OSD.
 
-[![XBMC Eden On Screen Display](/sites/default/files/uploads/OSD.webp "XBMC Eden On Screen Display")](/sites/default/files/uploads/OSD.webp)
+[![XBMC Eden On Screen Display](/images/blog/OSD.webp "XBMC Eden On Screen Display")](/images/blog/OSD.webp)
 
 As you should see, the menu obscures much less of the video than it did in Dharma. It is now possible to return to the menu while the video is still playing by hitting the X in the top right corner. Knowledge of special buttons is no longer required. Also, you can use your mouse or finger to seek using the slider.
 

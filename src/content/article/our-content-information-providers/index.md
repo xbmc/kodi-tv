@@ -8,7 +8,7 @@ We really don’t spend enough time pointing out and thanking those [individuals
 
 ### The TVDB.com
 
-[![](/sites/default/files/uploads/tvdb_chuck-300x197.webp "tvdb_chuck")](/sites/default/files/uploads/tvdb_chuck.webp)  
+[![](/images/blog/tvdb_chuck-300x197.webp "tvdb_chuck")](/images/blog/tvdb_chuck.webp)  
  The TVDB covers a lot of ground
 
 One of XBMC’s earliest online content providers was TheTVDB. Back in 2006 and early 2007, the leading media center software for the PC was actually not XBMC (since XBMC had not yet been ported to the PC). Instead, in those days the major PC software was Meedios and Media Portal. Given XBMC’s memory limitations and the fact that we were all still several years away from the efficiency improvements that would make XBMC the beast it is now on embedded devices, Meedios and Media Portal were the primary platforms on which users could install fanart and really go crazy with the early artwork heavy skins of the time, like the original Aeon. TVDB helped to shape many of the rules we take for granted these days. For example, on the XBMC wiki, we have a number of examples of [“good” and “bad” fanart](https://kodi.wiki/view/FanArt "Good and Bad Fanart"), where “good” fanart has no vignetting and is left entirely clean, so that the skinner can do with the art as the skin dictates, rather than as the artist dictates. Such rules were originally created and enforced by the TVDB and revolutionized the way we interact with skins today. The TVDB was also the site behind thumbnails, banners, and other multi-format image work.
@@ -18,7 +18,7 @@ Since those days, media center software has only gotten bigger and more popular,
 ### Fanart.tv
 
 .webp
-[![](/sites/default/files/uploads/tvshow_art-300x300.webp "tvshow_art")](/sites/default/files/uploads/tvshow_art.jpeg)  
+[![](/images/blog/tvshow_art-300x300.webp "tvshow_art")](/images/blog/tvshow_art.jpeg)  
  Various examples of fanart.tv-style art
 
 As time went on, more and more forms of artwork arrived on the scene, until eventually TVDB was simply unable to accomodate all the different types of artwork people wanted included. Users wanted png-style artwork that could incorporate transparencies. In particular, they wanted what came to be known as “clearlogos” which are simply the logos of the show without a rectangular background or any other art. They wanted art for individual seasons. They wanted “clearart” which was typically the cast of a show without a background. Seeing a need, XBMC user Kode began adding clearlogos to his site “Lockstockmods.” As more and more art was submitted, it became clear that all this artwork was going to need its own website. And thus was fanart.tv born.

@@ -20,7 +20,7 @@ The expression _don’t judge the book by it’s cover_ is certainly something t
 
 Past March we announced that we had replaced the aging Confluence skin which did it’s job since 2009 as default skin. V17 will mark the new arrival of Estuary and Estouchy (touch enabled) skin as the new default skins. Many months have been put in getting these skins build from the ground up and utilise all of the new features Kodi has to offer. During this period we also rethought on what was actually needed for skins and with this we also added features we only came up with by rebuilding this skin as we wondered why it never was able to do it in the first place. The home screen has been revamped and now utilises a smartplaylists implementation to automatically show you what probably interests you the most. We suggest you just give it a try and see for yourself. If you still prefer Confluence skin then you don’t need to worry as it’s still available from the official Kodi repository.
 
-    [![Estuary: Movies](/sites/default/files/uploads/Estuary-001-300x168.webp)](/sites/default/files/uploads/Estuary-001.webp) [![Estuary: TV Shows](/sites/default/files/uploads/Estuary-010-300x168.webp)](/sites/default/files/uploads/Estuary-010.webp)   [![Estuary: Movies](/sites/default/files/uploads/Estuary-008-300x168.webp)](/sites/default/files/uploads/Estuary-008.webp) [![Estuary: Albums](/sites/default/files/uploads/Estuary-013-300x168.webp)](/sites/default/files/uploads/Estuary-013.webp)   [![Estuary: Albums](/sites/default/files/uploads/Estuary-003-300x168.webp)](/sites/default/files/uploads/Estuary-003.webp) [![Estuary: Video sources](/sites/default/files/uploads/Estuary-006-300x168.webp)](/sites/default/files/uploads/Estuary-006.webp)    For a more extensive initial review you can read: [A brand new look for future Kodi versions](/article/brand-new-look-future-kodi-versions)
+    [![Estuary: Movies](/images/blog/Estuary-001-300x168.webp)](/images/blog/Estuary-001.webp) [![Estuary: TV Shows](/images/blog/Estuary-010-300x168.webp)](/images/blog/Estuary-010.webp)   [![Estuary: Movies](/images/blog/Estuary-008-300x168.webp)](/images/blog/Estuary-008.webp) [![Estuary: Albums](/images/blog/Estuary-013-300x168.webp)](/images/blog/Estuary-013.webp)   [![Estuary: Albums](/images/blog/Estuary-003-300x168.webp)](/images/blog/Estuary-003.webp) [![Estuary: Video sources](/images/blog/Estuary-006-300x168.webp)](/images/blog/Estuary-006.webp)    For a more extensive initial review you can read: [A brand new look for future Kodi versions](/article/brand-new-look-future-kodi-versions)
 
 For support you can visit the [Estuary](https://forum.kodi.tv/forumdisplay.php?fid=260) or [Estouchy](https://forum.kodi.tv/forumdisplay.php?fid=261) forum section.
 
@@ -57,7 +57,7 @@ More features will come from this complete VideoPlayer rework and we will be sur
 
 With v17 the way we handle PVR add-ons has been given a makeover as well. With these changes we hope that the threshold of getting PVR running inside Kodi has been greatly reduced. Once you configured and enabled the PVR add-on you are ready. No more additional options to enable to get going. Of course you will still need to set up a PVR backend/server first however that is outside of our scope of work. Additionally a lof work has been done to improve stability and usability to this section. Switching channels, EPG (electronic program guide) as well as setting and changing recording timers have all been greatly improved. From the user interface little has changed besides the new default skin and some settings that are moved or are now a bit more clear what they do.
 
-    [![Estuary: Live TV](/sites/default/files/uploads/Estuary-016-300x168.webp)](/sites/default/files/uploads/Estuary-016.webp)    ### Android HD Audio and more
+    [![Estuary: Live TV](/images/blog/Estuary-016-300x168.webp)](/images/blog/Estuary-016.webp)    ### Android HD Audio and more
 
 ### HD awesomeness
 
@@ -77,23 +77,23 @@ _Note: You can auto receive latest alpha test builds by subscribing [here](https
 
 Since v10 the add-on repository has been an integral part of Kodi and has made it a breeze for expanding the capabilities and receiving updates for these add-ons and skins. Together with the skin changes we did in Estuary we certainly hope to make the experience a bit better.
 
-    [![v17-addon-navigation](/sites/default/files/uploads/v17-addon-navigation-300x168.webp)](/sites/default/files/uploads/v17-addon-navigation.webp) [![v17-addon-check-updates](/sites/default/files/uploads/v17-addon-check-updates-300x168.webp)](/sites/default/files/uploads/v17-addon-check-updates.webp)   [![v17-addon-repo](/sites/default/files/uploads/v17-addon-repo-300x168.webp)](/sites/default/files/uploads/v17-addon-repo.webp) [![v17-addon-repo-skin](/sites/default/files/uploads/v17-addon-repo-skin-300x168.webp)](/sites/default/files/uploads/v17-addon-repo-skin.webp)    ###  Unknown sources….
+    [![v17-addon-navigation](/images/blog/v17-addon-navigation-300x168.webp)](/images/blog/v17-addon-navigation.webp) [![v17-addon-check-updates](/images/blog/v17-addon-check-updates-300x168.webp)](/images/blog/v17-addon-check-updates.webp)   [![v17-addon-repo](/images/blog/v17-addon-repo-300x168.webp)](/images/blog/v17-addon-repo.webp) [![v17-addon-repo-skin](/images/blog/v17-addon-repo-skin-300x168.webp)](/images/blog/v17-addon-repo-skin.webp)    ###  Unknown sources….
 
 First of all we added an option to warn new users that installing add-ons outside of Kodi repository could potentially bring harmful add-ons to their system. A more extensive write up ([read here](/article/warning-be-aware-what-additional-add-ons-you-install)) explains these hazards they might get their selves into. Of course this doesn’t mean all are bad however we do feel that users should at least be warned. From now on if a user wants to install any add-on from .zip they need to acknowledge they understood the risk and enable the option to allow installation. This is a **one time** warning so you do not need to do this each time.
 
-    [![v17-addons-settings](/sites/default/files/uploads/v17-addons-settings-300x168.webp)](/sites/default/files/uploads/v17-addons-settings.webp) [![v17-addon-unknown-source-warning](/sites/default/files/uploads/v17-addon-unknown-source-warning-300x168.webp)](/sites/default/files/uploads/v17-addon-unknown-source-warning.webp)
+    [![v17-addons-settings](/images/blog/v17-addons-settings-300x168.webp)](/images/blog/v17-addons-settings.webp) [![v17-addon-unknown-source-warning](/images/blog/v17-addon-unknown-source-warning-300x168.webp)](/images/blog/v17-addon-unknown-source-warning.webp)
 
 ### Recently installed or update
 
 From now on you are able to see which add-ons recently updated. It might come in handy should some problems arise as you not always noticed the popup telling you an update was installed. At least now you are able to track down which one(s).
 
-    [![v17-addons-recently-updated](/sites/default/files/uploads/v17-addons-recently-updated-300x168.webp)](/sites/default/files/uploads/v17-addons-recently-updated.webp)    Setting section has been more clear
+    [![v17-addons-recently-updated](/images/blog/v17-addons-recently-updated-300x168.webp)](/images/blog/v17-addons-recently-updated.webp)    Setting section has been more clear
 
 ---
 
 One of the things probably most of us hate the most is going through settings and see what they do. Often are not clear what they do or just not obvious. We felt the same and we have now made a big shuffle of certain settings to group them in a better way and improve the text and help description. I’m sure it’s not perfect and things still need changing however it’s already a big step forward. Additionally we’ve put a central button in settings screen for adding new media sources that you can add to your library. To make a long story short here are some screenshots to give you an idea on how it looks. Other than that I guess you’ll just have to try for yourself.
 
-    [![v17-settings-1](/sites/default/files/uploads/v17-settings-1-300x168.webp)](/sites/default/files/uploads/v17-settings-1.webp) [![v17-settings-2](/sites/default/files/uploads/v17-settings-2-300x168.webp)](/sites/default/files/uploads/v17-settings-2.webp)   [![v17-settings-3](/sites/default/files/uploads/v17-settings-3-300x168.webp)](/sites/default/files/uploads/v17-settings-3.webp) [![v17-settings-4](/sites/default/files/uploads/v17-settings-4-300x168.webp)](/sites/default/files/uploads/v17-settings-4.webp)    Music library
+    [![v17-settings-1](/images/blog/v17-settings-1-300x168.webp)](/images/blog/v17-settings-1.webp) [![v17-settings-2](/images/blog/v17-settings-2-300x168.webp)](/images/blog/v17-settings-2.webp)   [![v17-settings-3](/images/blog/v17-settings-3-300x168.webp)](/images/blog/v17-settings-3.webp) [![v17-settings-4](/images/blog/v17-settings-4-300x168.webp)](/images/blog/v17-settings-4.webp)    Music library
 
 ---
 
@@ -163,8 +163,8 @@ Currently you also sponsor us and donate to charity by buying the [The Official 
 
 The Kodi Edition Raspberry Pi case is a limited edition product. Additional units might be available in the future if there is strong user demand, but for now, get them while you can!
 
-[![GetCaseButtonUKEU](/sites/default/files/uploads/GetCaseButtonUKEU.webp)](https://thepihut.com/products/kodi-edition-raspberry-pi-case)  
+[![GetCaseButtonUKEU](/images/blog/GetCaseButtonUKEU.webp)](https://thepihut.com/products/kodi-edition-raspberry-pi-case)  
  [Buy UK/EU](https://thepihut.com/products/kodi-edition-raspberry-pi-case)
 
-[![Buy US](/sites/default/files/uploads/GetCaseButtonUS.webp)](https://flirc.tv/more/raspberry-pi-case-ke)  
+[![Buy US](/images/blog/GetCaseButtonUS.webp)](https://flirc.tv/more/raspberry-pi-case-ke)  
  [Buy US](https://flirc.tv/more/raspberry-pi-case-ke)

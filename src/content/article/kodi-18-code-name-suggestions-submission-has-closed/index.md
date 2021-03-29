@@ -13,7 +13,7 @@ UPDATE: 24 December 2016
 ..and with those wise words, it’s time to bring our search to a closure.
 
 over the course of the upcoming days, our team members will spend some time going through the list of all suggested names,  
- we’ll be counting, re-counting, checking and double-checking and trying very hard not to place our personal favourites at the top spot ![;-)](/sites/default/files/uploads/icon_wink.gif)
+ we’ll be counting, re-counting, checking and double-checking and trying very hard not to place our personal favourites at the top spot ![;-)](/images/blog/icon_wink.gif)
 
 and big thanx to all of our users who have participated, the amount of feedback we’ve received has been simply amazing!  
  as soon as possible we will let you know which name we’ve selected as the name for Kodi v18,  

@@ -8,7 +8,7 @@ For those of you using unstable or nightly builds, you will soon notice a change
 
 With each new version of XBMC, there are sure to be changes that require add-on authors to make changes in order to remain compatible. We have made improvements to python, JSON, the skinning engine, etc. So much like Firefox, we will be asking all add-on authors to test their creations against each version of XBMC and mark them as compatible in each before they’re available in that version. For more detailed information on API changes for Eden, check out [the wiki](https://kodi.wiki/view/Eden_API_Changes).
 
-![](/sites/default/files/uploads/repository.webp "repository")  
+![](/images/blog/repository.webp "repository")  
  Browsing the repository list with the new Xeebo skin
 
 So what does this mean for you?

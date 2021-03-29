@@ -14,7 +14,7 @@ Overall I’m very pleased with how the skin has turned out. It still holds to i
 
 ### Visual Tour
 
-[![](/sites/default/files/uploads/homemusicplaying.webp)](/sites/default/files/uploads/homemusicplaying.webp)  
+[![](/images/blog/homemusicplaying.webp)](/images/blog/homemusicplaying.webp)  
  Click the image for a screenshot gallery
 
 ### More Information

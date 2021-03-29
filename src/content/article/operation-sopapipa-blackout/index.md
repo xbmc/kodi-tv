@@ -4,7 +4,7 @@ date: 2012-01-15T03:00:00Z
 author: Nathan Betzen
 ---
 
-[![zappy-censored](/sites/default/files/uploads/zappy-censored-300x300.webp "zappy-censored")](/sites/default/files/uploads/zappy-censored.webp)On January 18th, the entire XBMC.org website will go black in protest of SOPA/PIPA.
+[![zappy-censored](/images/blog/zappy-censored-300x300.webp "zappy-censored")](/images/blog/zappy-censored.webp)On January 18th, the entire XBMC.org website will go black in protest of SOPA/PIPA.
 
 XBMC prefers to avoid political activism. It is our opinion that we are builders of software. [Awesome software](https://kodi.wiki/natethomas/2011/12/24/xbmc-11-0-eden-beta-available-now/ "XBMC Eden Beta Available"), to be precise. And we, as a group, [do not care one bit](https://kodi.wiki/natethomas/2011/10/20/xbmc-addon-rollbacks/ "XBMC Rollbacks - because it's your XBMC") how our users choose to use that software, nor do we have any interest in standing in our users way.
 

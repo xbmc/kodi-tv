@@ -8,7 +8,7 @@ Since the release of Atlantis we have had dozens of new users, and a few noted o
 
 Anyway, the days of having to kill PulseAudio is now gone! in SVN we have added full native support for PulseAudio, this works in both DVDPlayer and PAPlayer. This is also a runtime drop in replacement for ALSA so if PulseAudio crashed or got killed XBMC would fallback and use ALSA. We also added a gui notification when XBMC failed to open either ALSA or PulseAudio so the user this time knows that there actually was an error without hitting the log. So if you see this please check your audiosettings and if nothing seems wrong provide a log on the forum
 
-[![](/sites/default/files/uploads/xbmcnullaudio-300x174.webp)](/topfs2/files/2009/01/xbmcnullaudio.webp)
+[![](/images/blog/xbmcnullaudio-300x174.webp)](/topfs2/files/2009/01/xbmcnullaudio.webp)
 
 A feature of PulseAudio is that it´s network transparent, and as such you can connect to a remote computer and have it play the audio. And of course we added this to XBMC, just create an advancedsettings.xml as this:
 

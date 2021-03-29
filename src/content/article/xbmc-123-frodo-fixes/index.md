@@ -8,7 +8,7 @@ featured_image:
   alt: "12_3-Frodo"
 ---
 
-![zappy-santa](/sites/default/files/uploads/zappy-santa-290x300.webp)
+![zappy-santa](/images/blog/zappy-santa-290x300.webp)
 
 First of all we want to wish happy holidays and a merry Christmas to all our users, developers, contributors and every one else. Thank you all for the support and help and for enjoying our software. Let’s hope the year 2014 will bring all of you health and happiness and of course make XBMC even more great than it already is.
 

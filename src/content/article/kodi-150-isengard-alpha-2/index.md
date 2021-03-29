@@ -14,7 +14,7 @@ In many ways, we could call Isengard the release that finally answers many of th
 
 It’s gone by a bunch of names in the forum, but one of the [oldest requests we’ve had since porting away from the Xbox](https://forum.kodi.tv/showthread.php?tid=46071) was for the ability to browse and visually select from the chapters available included in mkv and other files that support chapters. With Isengard, that is finally very possible. When you first launch a movie and navigate to the Bookmarks icon in the Video GUI, Kodi will automatically populate all the necessary bookmarks with the name and a picture of each chapter.
 
-[![screenshot000](/sites/default/files/uploads/screenshot000-800x441.webp)](/sites/default/files/uploads/screenshot000.webp)
+[![screenshot000](/images/blog/screenshot000-800x441.webp)](/images/blog/screenshot000.webp)
 
 This process currently benefits from having a faster CPU, as the chapter images are generated using software, so the first time you open bookmarks on a new video using something like the Raspberry Pi 1 you may experience some severe hiccups. For this reason, this setting is disabled by default on slower devices. To enable visual chapters on slower devices, visit System -\> Video -\> File lists and select Extract chapter thumbnails. For speedy HTPCs, this setting is enabled by default.
 
@@ -22,13 +22,13 @@ This process currently benefits from having a faster CPU, as the chapter images 
 
 Many BluRay movies include a large number of audio and subtitle streams to choose from, including numerous director’s commentaries, alternative language tracks, etc. In the past, the user was forced to to slowly scroll through them, one item at a time, using something called a software spinner. Now, these streams are listed as one big list, so the user can easily find and select exactly the stream they are looking for.
 
-[![screenshot001](/sites/default/files/uploads/screenshot001-800x441.webp)](/sites/default/files/uploads/screenshot001.webp)
+[![screenshot001](/images/blog/screenshot001-800x441.webp)](/images/blog/screenshot001.webp)
 
 ### Language Add-ons and an Expansion of International Options
 
 Another big improvement with Isengard will be a far more precise control over most of the International settings, including the ability to individually adjust how your date and time are set, whether your temperature is listed as Fahrenheit, Celsius, or even Kelvin, and how you want the speed of your wind measured in the weather add-on.
 
-[![screenshot002](/sites/default/files/uploads/screenshot002-800x441.webp)](/sites/default/files/uploads/screenshot002.webp)
+[![screenshot002](/images/blog/screenshot002-800x441.webp)](/images/blog/screenshot002.webp)
 
 Additionally, languages are now installed on a just-in-time basis. Rather than shipping with every possible language and needing to wait between releases for language updates, languages in Kodi have been add-on-ified so that changes can be fixed and updated almost instantly. This does mean that if you want to set up a new install of Kodi with anything other than the default English language, you will need to have your machine connected to the internet, so Kodi can download your preferred language.
 
@@ -36,7 +36,7 @@ Additionally, languages are now installed on a just-in-time basis. Rather than s
 
 Finally, work is being done presently to improve and simplify navigating the Add-on Manager. This will be an ongoing project, so please bear with us.
 
-[![screenshot003](/sites/default/files/uploads/screenshot0033-800x441.webp)](/sites/default/files/uploads/screenshot0033.webp)
+[![screenshot003](/images/blog/screenshot0033-800x441.webp)](/images/blog/screenshot0033.webp)
 
 ### Other Improvements
 
@@ -57,7 +57,7 @@ There were 241 fixes, features, and improvements for Alpha2. Beyond the highligh
 
 This release coincides with the release of our Kodi Villain shirt and hoodie. We’re pretty excited about both and hope you like them too.
 
-[![kodivillainshirt](/sites/default/files/uploads/kodivillainshirt.webp)](https://teespring.com/kodi-villain-shirt)
+[![kodivillainshirt](/images/blog/kodivillainshirt.webp)](https://teespring.com/kodi-villain-shirt)
 
 ## Conclusion
 

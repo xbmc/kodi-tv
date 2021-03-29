@@ -24,7 +24,7 @@ Flirc allows you to pair your same television remote to your computer with easy 
 
 Flirc is a small USB infra-red (I.R.) adapter that receives I.R. commands from a remote control.
 
-[![the_flirc_adapter](/sites/default/files/uploads/the_flirc_adapter.webp "the_flirc_adapter")](/sites/default/files/uploads/the_flirc_adapter.webp)
+[![the_flirc_adapter](/images/blog/the_flirc_adapter.webp "the_flirc_adapter")](/images/blog/the_flirc_adapter.webp)
 
 However, Flirc is different from other I.R. adapters. Conventionally, I.R. adapters require the computer to understand I.R. commands, which is what LIRC is for. However, methods like LIRC require extensive knowledge should your remote control not be supported, which can be more frequent than expected. LIRC is not meant for the novice. (I am not trying to bad mouth the hard work on remote support by LIRC devs – just stating my opinion and experience.)
 

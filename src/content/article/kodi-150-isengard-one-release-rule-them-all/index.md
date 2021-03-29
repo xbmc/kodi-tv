@@ -30,15 +30,15 @@ Across platforms, Kodi itself has gained quite a lot of features. Some notable e
 
 **• Audio and Subtitle Lists** – For content that includes multiple audio and subtitle choices, you can select from a full list of choices, rather than manually searching through a spinner.
 
-[![screenshot001](/sites/default/files/uploads/screenshot001-800x441.webp)](/sites/default/files/uploads/screenshot001.webp)
+[![screenshot001](/images/blog/screenshot001-800x441.webp)](/images/blog/screenshot001.webp)
 
 **• Language Add-ons and Expanded International Preferences** – Now language translations aren’t dependent upon release, but get regularly updated to all users as the add-ons themselves update. Additionally, you now have total control over date, time, temperature and more displayed formats.
 
-[![screenshot002](/sites/default/files/uploads/screenshot002-800x441.webp)](/sites/default/files/uploads/screenshot002.webp)
+[![screenshot002](/images/blog/screenshot002-800x441.webp)](/images/blog/screenshot002.webp)
 
 • **Improved Add-on Manager** – The add-on manager has now been reworked to help make finding the add-ons you are looking for easier.
 
-[![screenshot002](/sites/default/files/uploads/screenshot0022-800x411.webp)](/sites/default/files/uploads/screenshot0022.webp)
+[![screenshot002](/images/blog/screenshot0022-800x411.webp)](/images/blog/screenshot0022.webp)
 
 ## Additional Improvements and Changes
 
@@ -69,12 +69,12 @@ Across platforms, Kodi itself has gained quite a lot of features. Some notable e
 
 ## DirectX 11 upgrade (not included in 15.0)
 
-[![DX11](/sites/default/files/uploads/DX11.webp)](/sites/default/files/uploads/DX11.webp)Although this release post is all about the 15.0 version, mentioning the DX11 upgrade for Kodi 16 is very important. One of our developers _afedchin_ took on this task and completely revised our DirectX 9 implementation and upgraded it to the more current standard of DirectX 11. Don’t worry if you still have an older card, we only use low level features so you don’t need to run to the shop for new gear. If you are having problems on Windows you can head to our forum where you can find the most recent build available which is currently based on our 15.0 release. We appreciate all the feedback we can get. Read more: [here](https://forum.kodi.tv/showthread.php?tid=218274). Again this will not be part of our final 15.0 release, it will be in 16.0.
+[![DX11](/images/blog/DX11.webp)](/images/blog/DX11.webp)Although this release post is all about the 15.0 version, mentioning the DX11 upgrade for Kodi 16 is very important. One of our developers _afedchin_ took on this task and completely revised our DirectX 9 implementation and upgraded it to the more current standard of DirectX 11. Don’t worry if you still have an older card, we only use low level features so you don’t need to run to the shop for new gear. If you are having problems on Windows you can head to our forum where you can find the most recent build available which is currently based on our 15.0 release. We appreciate all the feedback we can get. Read more: [here](https://forum.kodi.tv/showthread.php?tid=218274). Again this will not be part of our final 15.0 release, it will be in 16.0.
 
 ## Kodi Protest Shirt
 
 To celebrate the release of Kodi 15 “Isengard” (and because multiple people have requested it), we’ve decided to re-launch this campaign until the end of this month. We do not have plans to relaunch the campaign after that.  
-[![kodiprotestcollection](/sites/default/files/uploads/kodiprotestcollection-450x600.webp)](https://fabrily.com/kodi-protest-collection)
+[![kodiprotestcollection](/images/blog/kodiprotestcollection-450x600.webp)](https://fabrily.com/kodi-protest-collection)
 
 ## Download
 

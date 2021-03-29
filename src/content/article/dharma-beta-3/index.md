@@ -4,7 +4,7 @@ date: 2010-10-12T03:00:00Z
 author: Team XBMC
 ---
 
-![](/sites/default/files/uploads/600px-Dharma_Wheel.svg_-300x300.webp "600px-Dharma_Wheel.svg")Nearly one month after the release of Beta 2, the latest Dharma pre-release is ready for testing. We have been working very hard to to stabilize XBMC for the final release; there have been over 300 commits to the release branch since the last beta. Notable fixes include:
+![](/images/blog/600px-Dharma_Wheel.svg_-300x300.webp "600px-Dharma_Wheel.svg")Nearly one month after the release of Beta 2, the latest Dharma pre-release is ready for testing. We have been working very hard to to stabilize XBMC for the final release; there have been over 300 commits to the release branch since the last beta. Notable fixes include:
 
 - Lots of Live fixes and clean-ups. We want Dharma Live to work out-of-the-box as much as possible. Those who have been plagued with broken ALSA upgrades and unsupported soundcards will be happy to know that these issues have been resolved. In addition, most ION/ION2 systems should just work ™, though there are a few small issues remaining.
 - Shoutcast, which is now an add-on, was causing hard-freezes. Now Fixed.

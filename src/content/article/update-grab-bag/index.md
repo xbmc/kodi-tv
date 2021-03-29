@@ -8,7 +8,7 @@ There is lots going on in XBMC-land, so now seems like a good time for an update
 
 ### We’ve been busy
 
-This was mentioned a few weeks ago on the forum but was never brought up here: In a recent presentation to the Linux Foundation, XBMC was listed in the top 50 live projects (gleaned from [Openhub’s](https://www.openhub.net/) statistics). It is truly an honor to be among the others [in that list](/sites/default/files/uploads/opensource_top50.webp)!
+This was mentioned a few weeks ago on the forum but was never brought up here: In a recent presentation to the Linux Foundation, XBMC was listed in the top 50 live projects (gleaned from [Openhub’s](https://www.openhub.net/) statistics). It is truly an honor to be among the others [in that list](/images/blog/opensource_top50.webp)!
 
 ### Releases
 

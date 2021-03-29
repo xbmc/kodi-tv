@@ -214,7 +214,7 @@ Global elements:
 
 ## Statistics/ Public Relations
 
-[![Year over year user growth](/sites/default/files/uploads/Screen-Shot-2013-10-08-at-6.35.37-AM-278x300.webp)](/sites/default/files/uploads/Screen-Shot-2013-10-08-at-6.35.37-AM.webp)First topic of the day was stats. As noted on the [Raspberry Pi blog](https://www.raspberrypi.org/blog/xbmc-performance-demo/ "XBMC on the Raspberry Pi"), there are quite a lot of R-Pi users these days. It appears all that growth in Raspberry Pi and now Android appears to have fairly dramatically increased the number of XBMC users from last August to this August. The number is even higher in September.
+[![Year over year user growth](/images/blog/Screen-Shot-2013-10-08-at-6.35.37-AM-278x300.webp)](/images/blog/Screen-Shot-2013-10-08-at-6.35.37-AM.webp)First topic of the day was stats. As noted on the [Raspberry Pi blog](https://www.raspberrypi.org/blog/xbmc-performance-demo/ "XBMC on the Raspberry Pi"), there are quite a lot of R-Pi users these days. It appears all that growth in Raspberry Pi and now Android appears to have fairly dramatically increased the number of XBMC users from last August to this August. The number is even higher in September.
 
 A couple suggestions for the future. First, we should increase the number of blog posts so that we talk about already existing features in depth. Second, we should seriously consider making semi-official statements about hardware to give users better guidance.
 

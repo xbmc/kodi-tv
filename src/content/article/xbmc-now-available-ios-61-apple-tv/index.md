@@ -4,7 +4,7 @@ date: 2013-02-21T03:00:00Z
 author: Nathan Betzen
 ---
 
-[![appletv_2ndgen](/sites/default/files/uploads/appletv_2ndgen.webp)](/sites/default/files/uploads/appletv_2ndgen.webp)As many of you likely have been aware, neither XBMC nor any other non-Apple media center has been available for the updated Apple TV 2 Software 5.2 (iOS 6.1).
+[![appletv_2ndgen](/images/blog/appletv_2ndgen.webp)](/images/blog/appletv_2ndgen.webp)As many of you likely have been aware, neither XBMC nor any other non-Apple media center has been available for the updated Apple TV 2 Software 5.2 (iOS 6.1).
 
 Now, we are pleased to announce that XBMC finally supports this update, thanks to the incredible work of XBMC dev Memphiz.
 

@@ -37,7 +37,7 @@ How it should be:
 - • A way to reach out when you get stuck
 - • Finally, document code and other work
 
-[![FullSizeRender 18](/sites/default/files/uploads/FullSizeRender-18-800x347.webp)](/sites/default/files/uploads/FullSizeRender-18.webp)
+[![FullSizeRender 18](/images/blog/FullSizeRender-18-800x347.webp)](/images/blog/FullSizeRender-18.webp)
 
 ## 9:00
 
@@ -71,7 +71,7 @@ An obvious reminder that all the metadata in your library comes from metadata we
 
 Now we’re answering your [questions that you posted in the forum](https://forum.kodi.tv/showthread.php?tid=241654)!
 
-[![FullSizeRender 15](/sites/default/files/uploads/FullSizeRender-15-800x354.webp)](/sites/default/files/uploads/FullSizeRender-15.webp)
+[![FullSizeRender 15](/images/blog/FullSizeRender-15-800x354.webp)](/images/blog/FullSizeRender-15.webp)
 
 ## 11:00
 
@@ -85,13 +85,13 @@ Achim is talking about his own cross-platform room correction project. He create
 
 Alwin and Achim have worked together on AudioDSP for Kodi that allows for basically professional audio signal processing. For example, for those who are into fine control, you can have a separate equalizer for every speaker.
 
-[![FullSizeRender 14](/sites/default/files/uploads/FullSizeRender-14-800x432.webp)](/sites/default/files/uploads/FullSizeRender-14.webp)
+[![FullSizeRender 14](/images/blog/FullSizeRender-14-800x432.webp)](/images/blog/FullSizeRender-14.webp)
 
 ## 9:30 AM
 
 It’s a bit of a slow start today, so we’ve begun by having Garbear demo some of the new features of retroplayer, including 2 player support.
 
-[![FullSizeRender 12](/sites/default/files/uploads/FullSizeRender-12-800x521.webp)](/sites/default/files/uploads/FullSizeRender-12.webp)
+[![FullSizeRender 12](/images/blog/FullSizeRender-12-800x521.webp)](/images/blog/FullSizeRender-12.webp)
 
 ## End of Day 1
 
@@ -101,13 +101,13 @@ Settings refactor – jjd-uk is pushing forward a new task-oriented way to organ
 
 Aside from coming up with category names, much of the discussion revolved around the idea of trying to get rid of the Weather settings altogether.
 
-[![FullSizeRender 11](/sites/default/files/uploads/FullSizeRender-11-800x413.webp)](/sites/default/files/uploads/FullSizeRender-11.webp)
+[![FullSizeRender 11](/images/blog/FullSizeRender-11-800x413.webp)](/images/blog/FullSizeRender-11.webp)
 
 ## 12:50
 
 There are some major platform refactors planned for the future centered around video players and other things. We need to get the critical devs together in person for conversations where a really big change with multiple devs would benefit. The team agrees that the Foundation should absolutely be able to pay for that.
 
-[![FullSizeRender 9](/sites/default/files/uploads/FullSizeRender-9-800x600.webp)](/sites/default/files/uploads/FullSizeRender-9.webp)
+[![FullSizeRender 9](/images/blog/FullSizeRender-9-800x600.webp)](/images/blog/FullSizeRender-9.webp)
 
 ## 12:30
 
@@ -137,4 +137,4 @@ Sidenote: We’ve switched from Mirrorbrainz to Mirrorbits, which is much faster
 
 Good morning everyone, and welcome to another Kodi DevCon Live Blog! This year I hope to regale you all with many interesting and exciting stories, decisions, and developments. And failing that, I hope to record those things for posterity. We should be getting rolling soon. Feel free to ask your questions or leave comments below.
 
-[![IMG_0802](/sites/default/files/uploads/IMG_0802-800x533.webp)](/sites/default/files/uploads/IMG_0802.webp)
+[![IMG_0802](/images/blog/IMG_0802-800x533.webp)](/images/blog/IMG_0802.webp)

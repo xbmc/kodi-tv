@@ -24,6 +24,6 @@ Team XBMC is in the process of moving our support channel (#XBMC on EFnet) acros
 
  Note that the main trunk of SVN, where the main development work is done should be considered pre-2.1. The 2.0.1 source tree is tagged in SVN and no more development work will be done in it as we move forward towards 2.1.
 
- Please don’t ask about release dates for 2.1 – we are currently in full feature addition mode. Expect more announcements shortly of a few of the changes ![:)](/sites/default/files/uploads/icon_smile.gif)
+ Please don’t ask about release dates for 2.1 – we are currently in full feature addition mode. Expect more announcements shortly of a few of the changes ![:)](/images/blog/icon_smile.gif)
 
  

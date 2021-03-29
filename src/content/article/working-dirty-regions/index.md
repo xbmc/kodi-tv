@@ -4,7 +4,7 @@ date: 2011-06-18T04:00:00Z
 author: Cory
 ---
 
-![](/sites/default/files/uploads/soap-300x251.webp "soap")Some of you may remember that back in 2010, Tobias (topfs2) began working on a [GSOC](https://en.wikipedia.org/wiki/Google_Summer_of_Code) project to improve XBMC performance on the [BeagleBoard](https://en.wikipedia.org/wiki/BeagleBoard). Many optimizations came out of this project, but the most ambitious feature was dirty region rendering.
+![](/images/blog/soap-300x251.webp "soap")Some of you may remember that back in 2010, Tobias (topfs2) began working on a [GSOC](https://en.wikipedia.org/wiki/Google_Summer_of_Code) project to improve XBMC performance on the [BeagleBoard](https://en.wikipedia.org/wiki/BeagleBoard). Many optimizations came out of this project, but the most ambitious feature was dirty region rendering.
 
 The short of it is that a major chunk of dirty-region rendering has finally been merged into XBMC’s bleeding-edge code, though it is disabled by default while we continue polishing the rough edges. The change produces impressive performance gains on low-powered hardware, and is the groundwork for many changes to come that will further reduce CPU and GPU consumption for all XBMC users.
 
@@ -16,7 +16,7 @@ As you may remember, XBMC started as a project for the original XBOX where thing
 
 So how is this accomplished? Let’s use an example.
 
-![](/sites/default/files/uploads/dirty-region-tracking.webp "dirty-region-tracking")
+![](/images/blog/dirty-region-tracking.webp "dirty-region-tracking")
 
 In this screen, the user has moved from the Browse button to Add. Previously, XBMC’s renderer would’ve happily uploaded the entire screen to the GPU for each frame (remember that almost every movement in XBMC comes with an animation, so there’s rarely a single-frame change). So in this example, assuming we’re running at 1080p, we have uploaded an entire 1920×1080 scene 30 times just to change the selection. In addition, each pixel is likely rendered more than once due to the layering of dialogs and blending of translucent textures – in the above case each pixel is rendered around 4 times. That’s roughly 1GB of data sent to the GPU for a half-second animation! But not only that, even after the animation is finished, data continues flowing at the same rate – even if nothing on screen is changing at all!
 

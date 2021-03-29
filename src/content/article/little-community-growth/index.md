@@ -22,7 +22,7 @@ Maybe worst of all, the forums were known, particularly starting around 2008, as
 
 ## Agents of Change
 
-[![](/sites/default/files/uploads/db7b479-e1305360425611.jpeg)](/sites/default/files/uploads/db7b479-e1305360425611.jpeg)  
+[![](/images/blog/db7b479-e1305360425611.jpeg)](/images/blog/db7b479-e1305360425611.jpeg)  
  XBMC at LinuxTag 2011.webp.webp
 
 As I said, I grabbed the title of Community Manager, but the reality is that dozens of people saw the unsociable issues that we had back then, and stepped up to help.
@@ -45,14 +45,14 @@ Our wiki has been transformed from a random collection of pages that almost cert
 
 The blog and main site have seen even greater growth with triple the visits at 2.4 million visits per month, and almost quadruple the unique visitors per month.
 
-[![XBMC Fan Growth on Facebook ](/sites/default/files/uploads/Screen-Shot-2014-04-17-at-2.24.38-PM-300x182.webp)](/sites/default/files/uploads/Screen-Shot-2014-04-17-at-2.24.38-PM.webp)  
+[![XBMC Fan Growth on Facebook ](/images/blog/Screen-Shot-2014-04-17-at-2.24.38-PM-300x182.webp)](/images/blog/Screen-Shot-2014-04-17-at-2.24.38-PM.webp)  
  XBMC Fan Growth on Facebook
 
 And all those social media sites? [XBMC on Facebook](https://www.facebook.com/XBMC "XBMC on Facebook") has just passed the 75,000 fans mark. In less than 4 years, we users have managed to increase the Facebook fanbase by 1150%. [XBMC on twitter](https://twitter.com/xbmc "XBMC on Twitter") has 38k followers. [XBMC on Google+](https://plus.google.com/+XBMC/posts "XBMC on Google Plus") has been added to nearly 29k circles from zero back in 2010. And the [XBMC Google+ community](https://plus.google.com/communities/103500025928494876747 "XBMC Google Plus Community") just recently passed 10k members who are actively providing each other with answers and support on a constant basis. Our Youtube channel has a [video posted](https://www.youtube.com/watch?v=4NR57ELY28s "XBMC on the Raspberry Pi") that’s passed 650,000 views. There’s even an incredibly active [subreddit](https://www.reddit.com/r/xbmc "XBMC on reddit") dedicated entirely to XBMC and XBMC users.
 
 And finally, hopefully, the forums, all these other social sites, and even the blog comment section have become friendlier places, both for newbies and old timers. These days, unless you are specifically asking how to pirate something, possibly the rudest response you’ll ever receive is a link to [lmgtfy.com](https://lmgtfy.app/ "Let Me Google That For You"). Beyond that, users are more helpful, more friendly, and generally more excited to carry the torch than they’ve ever been before.
 
-[![64gr](/sites/default/files/uploads/64gr-199x300.webp)](/sites/default/files/uploads/64gr.webp)
+[![64gr](/images/blog/64gr-199x300.webp)](/images/blog/64gr.webp)
 
 ## Thanks
 
