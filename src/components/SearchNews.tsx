@@ -22,7 +22,7 @@ export default class SearchAddons extends React.Component {
       tagSelected: null,
       keyword: "",
       author: "",
-      results: null,
+      results: [],
       firstrun: true,
     };
 
@@ -39,7 +39,7 @@ export default class SearchAddons extends React.Component {
         sortSelected: null,
         keyword: "",
         author: "",
-        results: null,
+        results: [],
         firstrun: true,
       });
       document.getElementById("news-search").reset();
@@ -68,52 +68,36 @@ export default class SearchAddons extends React.Component {
 
     this.doSearch = event => {
       this.state.firstrun = false;
-      let filtered_results = null;
-      props.posts.forEach(post => {
-        let tag_match = false;
-        let keyword_match = false;
-        let author_match = false;
-        if (this.state.tagSelected == null) {
-          tag_match = true;
-        } else {
-          if (post.node.frontmatter.tags !== null) {
+      let filtered_results = props.posts;
+      if (this.state.tagSelected != null) {
+        filtered_results = filtered_results.filter(post => {
+          if (post.node.frontmatter.tags != undefined) {
             if (post.node.frontmatter.tags.includes(this.state.tagSelected)) {
-              tag_match = true;
+              return post;
             }
           }
-        }
-        if (this.state.author == "") {
-          author_match = true;
-        } else {
-          const regex = new RegExp("\\b" + this.state.author + "\\b", "i");
-          if (post.node.frontmatter.author !== null) {
+        });
+      }
+      if (this.state.author != "") {
+        const regex = new RegExp("\\b" + this.state.author + "\\b", "i");
+        filtered_results = filtered_results.filter(post => {
+          if (post.node.frontmatter.author != undefined) {
             if (regex.test(post.node.frontmatter.author)) {
-              author_match = true;
+              return post;
             }
           }
-        }
-        if (this.state.keyword == "") {
-          keyword_match = true;
-        } else {
-          const regex = new RegExp("\\b" + this.state.keyword + "\\b", "i");
-          if (post.node.rawMarkdownBody !== null) {
+        });
+      }
+      if (this.state.keyword != "") {
+        const regex = new RegExp("\\b" + this.state.keyword + "\\b", "i");
+        filtered_results = filtered_results.filter(post => {
+          if (post.node.rawMarkdownBody != undefined) {
             if (regex.test(post.node.rawMarkdownBody)) {
-              keyword_match = true;
+              return post;
             }
           }
-          if (post.title !== null) {
-            if (regex.test(post.node.frontmatter.title)) {
-              keyword_match = true;
-            }
-          }
-        }
-        if (tag_match && keyword_match && author_match) {
-          if (filtered_results == null) {
-            filtered_results = [];
-          }
-          filtered_results.push(post);
-        }
-      });
+        });
+      }
 
       this.setState({
         results: filtered_results,
@@ -231,7 +215,7 @@ export default class SearchAddons extends React.Component {
           </div>
         </form>
 
-        {this.state.results === null ? (
+        {this.state.results.length === 0 ? (
           <SearchNewsNoResults firstrun={this.state.firstrun} />
         ) : (
           <>

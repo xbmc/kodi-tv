@@ -83,7 +83,7 @@ export default class SearchAddons extends React.Component {
       sortSelected: null,
       keyword: "",
       author: "",
-      results: null,
+      results: [],
       firstrun: true,
     };
 
@@ -110,7 +110,7 @@ export default class SearchAddons extends React.Component {
         sortSelected: null,
         keyword: "",
         author: "",
-        results: null,
+        results: [],
         firstrun: true,
       });
       document.getElementById("addon-search").reset();
@@ -148,60 +148,42 @@ export default class SearchAddons extends React.Component {
 
     this.doSearch = event => {
       this.state.firstrun = false;
-      let filtered_results = null;
-      props.addons.forEach(addon => {
-        let category_match = false;
-        let keyword_match = false;
-        let author_match = false;
-        if (this.state.categorySelected == null) {
-          category_match = true;
-        } else {
-          let categorycheck = addon.categories.find(
-            o => o.name == this.state.categorySelected
-          );
-          if (categorycheck != undefined) {
-            category_match = true;
+      let filtered_results = props.addons;
+      if (this.state.categorySelected != null) {
+        filtered_results = filtered_results.filter(addon => {
+          if (
+            addon.categories.find(o => o.name == this.state.categorySelected) !=
+            undefined
+          ) {
+            return addon;
           }
-        }
-        if (this.state.author == "") {
-          author_match = true;
-        } else {
-          let authorcheck = addon.authors.find(
-            o => o.name.toLowerCase() == this.state.author.toLowerCase()
-          );
-          if (authorcheck != undefined) {
-            author_match = true;
+        });
+      }
+      if (this.state.author != "") {
+        filtered_results = filtered_results.filter(addon => {
+          if (
+            addon.authors.find(
+              o => o.name.toLowerCase() == this.state.author.toLowerCase()
+            ) != undefined
+          ) {
+            return addon;
           }
-        }
-        if (this.state.keyword == "") {
-          keyword_match = true;
-        } else {
-          const regex = new RegExp("\\b" + this.state.keyword + "\\b", "i");
-          if (addon.description !== null) {
-            if (regex.test(addon.description)) {
-              keyword_match = true;
-            }
+        });
+      }
+      if (this.state.keyword != "") {
+        const regex = new RegExp("\\b" + this.state.keyword + "\\b", "i");
+        filtered_results = filtered_results.filter(addon => {
+          if (
+            regex.test(addon.description) ||
+            regex.test(addon.summary) ||
+            regex.test(addon.name) ||
+            regex.test(addon.addonid)
+          ) {
+            return addon;
           }
-          if (addon.summary !== null) {
-            if (regex.test(addon.summary)) {
-              keyword_match = true;
-            }
-          }
-          if (regex.test(addon.name)) {
-            keyword_match = true;
-          }
-          if (regex.test(addon.addonid)) {
-            keyword_match = true;
-          }
-        }
-        if (category_match && keyword_match && author_match) {
-          if (filtered_results == null) {
-            filtered_results = [];
-          }
-          filtered_results.push(addon);
-        }
-      });
-      if (filtered_results != null && this.state.sortSelected != null) {
+        });
+      }
+      if (filtered_results.length > 0 && this.state.sortSelected != null) {
         switch (this.state.sortSelected.toLowerCase()) {
           case "a to z":
             filtered_results = filtered_results.sort(nameSortAsc);
@@ -360,7 +342,7 @@ export default class SearchAddons extends React.Component {
           </div>
         </form>
 
-        {this.state.results === null ? (
+        {this.state.results.length === 0 ? (
           <SearchAddonsNoResults firstrun={this.state.firstrun} />
         ) : (
           <IconListFeatured items={this.state.results} linkroot="../" />
