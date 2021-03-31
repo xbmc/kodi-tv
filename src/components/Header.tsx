@@ -30,7 +30,7 @@ let specialButton =
 const mainMenu: MenuEntry[] = [
   {
     title: "About",
-    url: "/about",
+    url: "#",
     buttonType: regularButton,
     footer: null,
     dropdown: [
@@ -88,7 +88,7 @@ const mainMenu: MenuEntry[] = [
   },
   {
     title: "Add-ons",
-    url: "/addons",
+    url: "#",
     buttonType: regularButton,
     footer:
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
@@ -122,7 +122,7 @@ const mainMenu: MenuEntry[] = [
   },
   {
     title: "Help",
-    url: null,
+    url: "#",
     buttonType: regularButton,
     footer: null,
     dropdown: [
@@ -160,12 +160,14 @@ const mainMenu: MenuEntry[] = [
     title: "Merch",
     buttonType: regularButton,
     url: "/store",
+    dropdown: null,
     footer: null,
   },
   {
     title: "Donate",
     buttonType: specialButton,
     url: "/donate",
+    dropdown: null,
     footer: null,
   },
 ];
