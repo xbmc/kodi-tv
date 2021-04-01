@@ -120,6 +120,18 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-yaml`,
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "gatsby-kodi-tv",
+        short_name: "Kodi website",
+        start_url: "/",
+        background_color: "#663399",
+        theme_color: "#663399",
+        display: "minimal-ui",
+        icon: "static/images/kodi-logo.webp",
+      },
+    },
+    {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/netlify.tsx`,
