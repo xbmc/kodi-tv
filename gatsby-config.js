@@ -4,6 +4,20 @@ require("dotenv").config({
 });
 const config = require("./gatsby-site-config");
 
+// this is an incredibly hacky way to get around a Gatsby bug
+// if you load the Netlify CMS in development, you get a bunch of 
+// Static Query won't load errors when trying to view the site
+// but everything works fine at build
+// so this creates a one item list with the Netlify CMS plugin only
+// if running in non-development mode and concats it to the plugins list
+let netlifyCms = [];
+if (process.env.NODE_ENV != "development") {
+  netlifyCms.push({
+    resolve: "gatsby-plugin-netlify-cms",
+    options: { modulePath: `${__dirname}/src/cms/netlify.tsx`, manualInit: true },
+  });
+}
+
 module.exports = {
   siteMetadata: config.siteMetadata,
   flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
@@ -132,13 +146,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-netlify-cms",
-      options: {
-        modulePath: `${__dirname}/src/cms/netlify.tsx`,
-        manualInit: true,
-      },
-    },
-    {
       resolve: `gatsby-source-kodidonorwall`,
       options: {
         typeName: "Donor",
@@ -153,7 +160,6 @@ module.exports = {
           ScanIndexForward: false,
           KeyConditionExpression: "dummy=:dummyval",
           ExpressionAttributeValues: { ":dummyval": "1" },
-          // OTHER PARAMS HERE
         },
       },
     },
@@ -163,9 +169,5 @@ module.exports = {
         kodiversions: ["leia", "matrix"],
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // "gatsby-plugin-offline",
-  ],
+  ].concat(netlifyCms),
 };
