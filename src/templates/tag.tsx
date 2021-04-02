@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "../components/Layout";
+import Pager from "../components/Pager";
 import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 
 export default function TagPage({ data, pageContext, location }) {
@@ -28,15 +29,18 @@ export default function TagPage({ data, pageContext, location }) {
           <BlogPostCard post={edge.node} />
         ))}
       </div>
+      {pageContext == undefined ? "" : <Pager pageContext={pageContext} />}
     </DefaultLayout>
   );
 }
 
 export const pageQuery = graphql`
-  query($tag: [String]!) {
+  query($tag: [String]!, $skip: Int!, $limit: Int!) {
     blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { tags: { in: $tag } } }
+      skip: $skip
+      limit: $limit
     ) {
       edges {
         node {

@@ -79,6 +79,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
+            frontmatter {
+              tags
+            }
           }
         }
       }
@@ -126,16 +129,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
     return;
   }
-
+  let tagSlug = "";
   tagresults.data.blogTags.distinct.forEach(tag => {
-    createPage({
-      path: "blog/tag/" + slugify(tag, { lower: true }),
-      component: path.resolve(`src/templates/tag.tsx`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        tag: tag,
-      },
+    tagSlug = slugify(tag, { lower: true });
+    paginate({
+      createPage,
+      items: blogresults.data.blogPosts.edges.filter(post => {
+        if (post.node.frontmatter.tags != undefined) {
+          if (post.node.frontmatter.tags.includes(tag)) {
+            return post;
+          }
+        }
+      }),
+      itemsPerPage: 20,
+      pathPrefix: ({ pageNumber, numberOfPages }) =>
+        pageNumber === 0 ? "/blog/tag/" + tagSlug : "/blog/tag/" + tagSlug + "/page",
+      component: path.resolve("src/templates/tag.tsx"),
+      context: { tag: tag },
     });
   });
 

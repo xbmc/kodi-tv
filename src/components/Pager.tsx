@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 
+const slugify = require("slugify");
+
 const Pager = ({ pageContext }) => {
   const {
     previousPagePath,
@@ -11,13 +13,17 @@ const Pager = ({ pageContext }) => {
   } = pageContext;
   let paginationinfo = [];
   let url = "";
+  let urlbase = "/blog";
+  if (pageContext.tag != undefined) {
+    urlbase = urlbase + "/tag/" + slugify(pageContext.tag, { lower: true });
+  }
   let onpage = false;
   let hidepage = false;
   for (let i = 1; i <= numberOfPages; i++) {
     if (i == 1) {
-      url = "/blog";
+      url = urlbase;
     } else {
-      url = "/blog/page/" + i.toString();
+      url = urlbase + "/page/" + i.toString();
     }
     onpage = humanPageNumber == i;
     if (
