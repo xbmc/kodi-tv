@@ -50,6 +50,11 @@ function Page() {
   const news = LatestNews();
   const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
   const sponsors: Sponsor[] = Sponsors();
+  const orderedSponsors: Sponsor[] = sponsors
+    .filter(a => a.sponsor_level === "Diamond")
+    .concat(sponsors.filter(a => a.sponsor_level === "Gold"))
+    .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
+    .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
 
   return (
     <LandingPage>
@@ -177,7 +182,7 @@ function Page() {
 
       <FullWidthSponsorList
         title="A big thanks to our sponsors. They help to keep Kodi free."
-        sponsors={sponsors}
+        sponsors={orderedSponsors}
       />
 
       <FullWidthNews
