@@ -190,7 +190,7 @@ function Header(props: any) {
         <nav className="bg-kodibg">
           <div className="max-w-7xl mx-auto sm:px-2 lg:px-6">
             <div className={borderclassname}>
-              <div className="flex items-center justify-between h-16 px-0">
+              <div className="flex items-center justify-between h-16 px-4 md:px-0 lg:px-4">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
                     <a href="/">
