@@ -3,7 +3,7 @@ import React from "react";
 function AddonPageSubMenu(props) {
   let linkroot = props.linkroot;
   return (
-    <div className="flex space-x-1 text-gray-700 text-base pb-6">
+    <div className="flex space-x-1 text-base pb-6 prose prose-blue">
       <span>
         <a className="hover:text-kodi" href={linkroot}>
           Add-Ons Home

@@ -11,3 +11,7 @@
   @apply text-xl;
   @apply font-bold;
 }
+
+.prose-blue a {
+  @apply text-kodi-darker;
+}
