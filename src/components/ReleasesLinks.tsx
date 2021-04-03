@@ -18,7 +18,7 @@ export function DownloadLinks(props: {
           ) => {
             return (
               <div className="lg:flex-initial">
-                <Button href={download.url} target="_blank" variant="primary">
+                <Button href={download.url!} target="_blank" variant="primary">
                   {download.name}
                 </Button>
               </div>

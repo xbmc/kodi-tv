@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
 import { TagCounts } from "../hooks/TagCounts";
 import { TagList } from "../hooks/TagList";
@@ -57,12 +57,12 @@ function BlogPostCard(props: { post: any }) {
               })}
               &nbsp;
             </p>
-            <a href={post.fields.slug} className="block mt-2">
+            <Link to={post.fields.slug} className="block mt-2">
               <ReactMarkdown className="text-xl font-semibold text-gray-900">
                 {post.frontmatter.title}
               </ReactMarkdown>
               <p className="mt-3 text-base text-gray-500">{post.excerpt}</p>
-            </a>
+            </Link>
           </div>
           <div className="mt-6 flex items-center">
             <div>
@@ -148,8 +148,8 @@ function NavCard(props) {
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>
-              <a
-                href="/blog"
+              <Link
+                to="/blog"
                 className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
                 <NewspaperOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
@@ -157,12 +157,12 @@ function NavCard(props) {
                 <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
                   {data.postCount.totalCount}
                 </span>
-              </a>
+              </Link>
               {tagDisplay.map((tag: string) => {
                 return (
-                  <a
+                  <Link
                     key={tag.slug}
-                    href={tag.slug}
+                    to={tag.slug}
                     className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                   >
                     {tag.icon}
@@ -170,17 +170,17 @@ function NavCard(props) {
                     <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
                       {tag.count}
                     </span>
-                  </a>
+                  </Link>
                 );
               })}
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
-              <a
-                href="/blog/search"
+              <Link
+                to="/blog/search"
                 className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
                 <SearchOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

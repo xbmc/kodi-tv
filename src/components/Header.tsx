@@ -6,6 +6,7 @@ import Social from "./Social";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
+import { Link } from "gatsby";
 
 export interface MenuEntry {
   title: string;
@@ -193,26 +194,26 @@ function Header(props: any) {
               <div className="flex items-center justify-between h-16 px-4 md:px-0 lg:px-4">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="/">
+                    <Link to="/">
                       <img
                         className="h-8 w-24"
                         src="/images/kodi-logo-with-text.svg"
                         title="Home"
                         alt="Kodi Logo"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="hidden md:block">
                     <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map((item, index) =>
-                        item.dropdown == null ? (
-                          <a
+                        item.dropdown == null && item.url ? (
+                          <Link
                             key={item.url}
-                            href={item.url}
+                            to={item.url}
                             className={item.buttonType}
                           >
                             {item.title}
-                          </a>
+                          </Link>
                         ) : (
                           <HeaderDropdownMenu key={item.url} menu={item} />
                         )
@@ -247,14 +248,14 @@ function Header(props: any) {
               <div className="md:hidden" id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {mainMenu.map((item, index) =>
-                    item.dropdown == null ? (
-                      <a
-                        href={item.url}
+                    item.dropdown == null && item.url ? (
+                      <Link
+                        to={item.url}
                         key={item.url}
                         className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item.title}
-                      </a>
+                      </Link>
                     ) : (
                       <HeaderDropdownMenuMobile key={item.url} menu={item} />
                     )

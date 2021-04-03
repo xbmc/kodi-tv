@@ -6,6 +6,7 @@ import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
 import * as Icons from "heroicons-react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
@@ -45,10 +46,10 @@ function DownloadNotice() {
   );
 }
 
-function CtaButtonInternal(props) {
+function CtaButtonInternal(props: { url: string; buttontext: string }) {
   return (
     <div className="mb-6">
-      <Button variant="link" component="a" href={props.url} isLarge>
+      <Button linkType="internal" href={props.url}>
         {props.buttontext + " "}
         <ArrowRightIcon />
       </Button>
@@ -56,17 +57,10 @@ function CtaButtonInternal(props) {
   );
 }
 
-function CtaButtonExternal(props) {
+function CtaButtonExternal(props: { url: string; buttontext: string }) {
   return (
     <div className="mb-6">
-      <Button
-        variant="link"
-        component="a"
-        target="_blank"
-        rel="noopener"
-        href={props.url}
-        isLarge
-      >
+      <Button target="_blank" rel="noopener" href={props.url}>
         {props.buttontext + " "}
         <ArrowRightIcon />
       </Button>
@@ -329,7 +323,7 @@ function AboutGallery() {
         >
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
-          scripts. <a href="/addons">See which ones are currently available</a>.
+          scripts. <Link to="/addons">See which ones are currently available</Link>.
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -340,8 +334,8 @@ function AboutGallery() {
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <a href="/addons/category/web-interfaces">web browsers</a>, and 3rd party
-          tools to take Kodi to the next level.
+          <Link to="/addons/category/web-interfaces">web browsers</Link>, and 3rd
+          party tools to take Kodi to the next level.
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -351,12 +345,12 @@ function AboutGallery() {
           imgtitle=""
         >
           With support for{" "}
-          <a href="http://kodi.wiki/view/Remote_controls">
+          <Link to="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
-          </a>
+          </Link>
           , CEC-compatible TVs, or one of the{" "}
-          <a href="/about/software">new Smartphone and Tablet Apps</a>, Kodi allows
-          you to control your media your way.
+          <Link to="/about/software">new Smartphone and Tablet Apps</Link>, Kodi
+          allows you to control your media your way.
         </RoundedCardWithImage>
       </div>
     </>
