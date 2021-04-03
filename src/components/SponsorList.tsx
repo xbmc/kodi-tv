@@ -8,7 +8,7 @@ function SponsorLevelList(props: { title: string; sponsors: Sponsor[] }) {
       {props.sponsors.length > 0 ? (
         <>
           <div className="relative bg-white py-6">
-            <div className="mx-auto max-w-3xl px-6 lg:px-8 lg:max-w-7xl">
+            <div className="mx-auto max-w-3xl lg:max-w-7xl">
               <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                 {props.title}
               </h2>
