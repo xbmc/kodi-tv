@@ -65,7 +65,7 @@ const Pager = ({ pageContext }) => {
               />
             </svg>
           </a>
-          {paginationinfo.map((info: string, index: any) => {
+          {paginationinfo.map((info: any, index: any) => {
             return (
               <>
                 <a
