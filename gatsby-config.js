@@ -88,21 +88,31 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, blogPosts } }) => {
+              let post = {}
+              let featuredImageHtml = ""
+              let fi = {}
               return blogPosts.edges.map(edge => {
-                return Object.assign({}, edge.node.frontmatter, {
-                  title: edge.node.frontmatter.title,
-                  description: edge.node.excerpt,
-                  date: edge.node.frontmatter.date,
-                  author: edge.node.frontmatter.author,
-                  categories: edge.node.frontmatter.tags,
-                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  enclosure: edge.node.frontmatter.featured_image && {
-                    url:
-                      site.siteMetadata.siteUrl +
-                      edge.node.frontmatter.featured_image.src,
-                  },
-                  custom_elements: [{ "content:encoded": edge.node.html }],
+                post = edge.node
+                fi = post.frontmatter.featured_image
+                if (fi != undefined) {
+                  imgSrc = site.siteMetadata.siteUrl + fi.src
+                  featuredImageHtml = `
+                    <figure>
+                      <img title="${fi.title}" alt="${fi.alt}" src="${imgSrc}" />
+                    </figure>
+                  `
+                } else {
+                  featuredImageHtml = ""
+                }
+                return Object.assign({}, post.frontmatter, {
+                  title: post.frontmatter.title,
+                  description: post.excerpt,
+                  date: post.frontmatter.date,
+                  author: post.frontmatter.author,
+                  categories: post.frontmatter.tags,
+                  url: site.siteMetadata.siteUrl + post.fields.slug,
+                  guid: site.siteMetadata.siteUrl + post.fields.slug,
+                  custom_elements: [{ "content:encoded": featuredImageHtml + post.html }],
                 });
               });
             },
@@ -125,6 +135,8 @@ module.exports = {
                         tags
                         featured_image {
                           src
+                          title
+                          alt
                         }
                       }
                     }
