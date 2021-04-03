@@ -5,7 +5,7 @@ import Button from "./Button";
 function FullWidthCallOut(props) {
   return (
     <>
-      <div className="pt-12 pb-20 px-6">
+      <div className="pt-6 pb-12 lg:pt-12 lg:pb-20 px-6">
         <div className="text-center text-5xl font-bold">{props.title}</div>
         <div className="text-center text-2xl text-gray-500">{props.children}</div>
       </div>
@@ -17,7 +17,7 @@ function FullWidthFeaturesWithIcons(props) {
   return (
     <>
       <div className="bg-gradient-to-r from-kodibg-lighter to-kodibg-darker">
-        <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 pt-12 pb-12 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-18 lg:pb-18 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white tracking-tight">
             {props.title}
           </h2>
@@ -46,7 +46,7 @@ function FullWidthFeaturesWithIcons(props) {
 function FullWidthTwoPaneIconsRight(props) {
   return (
     <>
-      <div className="relative pt-16 pb-32 overflow-hidden">
+      <div className="relative pt-6 pb-12 md:pt-12 lg:pb-16 overflow-hidden">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"
@@ -56,7 +56,7 @@ function FullWidthTwoPaneIconsRight(props) {
             <div className="px-6 max-w-xl mx-auto lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
+                  <span className="hidden md:flex h-12 w-12 rounded-md items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
                     {props.icon}
                   </span>
                 </div>
@@ -86,24 +86,22 @@ function FullWidthTwoPaneIconsRight(props) {
 function FullWidthTwoPaneImageLeft(props) {
   return (
     <>
-      <div className="relative pt-16 pb-32 overflow-hidden bg-gray-100">
-        <div className="mt-24">
+      <div className="relative pt-6 pb-12 md:pt-12 lg:pt-16 lg:pb-16 overflow-hidden bg-gray-100">
+        <div>
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-            <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div className="px-6 max-w-xl mx-auto lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
-                <div>
-                  <span className="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
-                    {props.icon}
-                  </span>
-                </div>
+                <span className="hidden md:flex h-12 w-12 rounded-md items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
+                  {props.icon}
+                </span>
+              </div>
+              <div className="mt-6">
+                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  {props.title}
+                </h2>
+                <p className="mt-4 text-lg text-gray-500">{props.children}</p>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    {props.title}
-                  </h2>
-                  <p className="mt-4 text-lg text-gray-500">{props.children}</p>
-                  <div className="mt-6">
-                    <Button href={props.url}>{props.buttontext}</Button>
-                  </div>
+                  <Button href={props.url}>{props.buttontext}</Button>
                 </div>
               </div>
             </div>
@@ -128,7 +126,7 @@ function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
   return (
     <>
       <div className="bg-white">
-        <div className="max-w-7xl mx-auto py-16 px-4 px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-12 lg:py-16 px-4 lg:px-8">
           <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
             {props.title}
           </p>
@@ -191,7 +189,7 @@ function FullWidthCTAImageLeft(props) {
 function FullWidthNews(props) {
   return (
     <>
-      <div className="relative bg-gray-100 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+      <div className="relative bg-gray-100 pt-6 pb-12 lg:pt-12 lg:pb-20 px-4 lg:px-8">
         <div className="absolute inset-0">
           <div className="bg-gray-100 h-1/3 sm:h-2/3"></div>
         </div>
