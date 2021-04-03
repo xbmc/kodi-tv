@@ -3,15 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.addonindex h1 {
-  @apply text-2xl;
-  @apply font-bold;
-}
-.addonindex h2 {
-  @apply text-xl;
-  @apply font-bold;
-}
-
 .prose-blue a {
   @apply text-kodi-darker;
+}
+
+.prose-blue a:hover {
+  @apply text-kodi-lighter;
+}
+
+a {
+  @apply text-kodi-darker;
+}
+
+a:hover {
+  @apply text-kodi-lighter;
 }

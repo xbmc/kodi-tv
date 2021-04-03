@@ -89,18 +89,27 @@ function IconList(props: {
         <div align="center" key={item.name}>
           {item.slug == undefined ? (
             <>
-              <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+              <img
+                className="rounded-md"
+                width={iconwidth}
+                height={iconheight}
+                alt=""
+                src={item.icon}
+              />
               <div style={{ display: item.name === "" ? "none" : "block" }}>
                 <ReactMarkdown>{item.name}</ReactMarkdown>
               </div>
             </>
           ) : (
             <>
-              <a
-                className="text-base text-gray-500 hover:text-kodi-darker"
-                href={linkroot + item.slug}
-              >
-                <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+              <a href={linkroot + item.slug}>
+                <img
+                  className="rounded-md"
+                  width={iconwidth}
+                  height={iconheight}
+                  alt=""
+                  src={item.icon}
+                />
                 <div style={{ display: item.name === "" ? "none" : "block" }}>
                   <ReactMarkdown>{item.name}</ReactMarkdown>
                 </div>

@@ -265,7 +265,12 @@ function Footer() {
             <p className="text-base text-gray-600 xl:text-center">
               &copy;{year} The Kodi Foundation. All rights reserved. This web site is
               powered by{" "}
-              <a target="_blank" rel="noopener" href={"https://www.netlify.com"}>
+              <a
+                className="underline"
+                target="_blank"
+                rel="noopener"
+                href={"https://www.netlify.com"}
+              >
                 Netlify
               </a>
               .
