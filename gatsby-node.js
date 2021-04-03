@@ -48,7 +48,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (pageresults.errors) {
     reporter.panicOnBuild(`Error while running Pages GraphQL query.`);
     return;
@@ -59,7 +58,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: node.fields.slug,
       component: pageTemplate,
       context: {
-        // additional data can be passed via context
         slug: node.fields.slug,
       },
     });
@@ -88,7 +86,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (blogresults.errors) {
     reporter.panicOnBuild(`Error while running Blog Post GraphQL query.`);
     return;
@@ -99,7 +96,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: node.fields.slug,
       component: blogPostTemplate,
       context: {
-        // additional data can be passed via context
         slug: node.fields.slug,
       },
     });
@@ -124,7 +120,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (tagresults.errors) {
     reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
     return;
@@ -162,7 +157,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (matrixaddonresults.errors) {
     reporter.panicOnBuild(`Error while running Matrix Add-on GraphQL query.`);
     return;
@@ -173,8 +167,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/matrix/" + node.slug,
       component: path.resolve(`src/templates/matrix/addon.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -192,7 +184,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (matrixcategoryresults.errors) {
     reporter.panicOnBuild(
       `Error while running Matrix Add-on Category GraphQL query.`
@@ -205,8 +196,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/matrix/category/" + node.slug,
       component: path.resolve(`src/templates/matrix/category.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -224,7 +213,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (matrixauthorresults.errors) {
     reporter.panicOnBuild(`Error while running Matrix Add-on Author GraphQL query.`);
     return;
@@ -235,8 +223,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/matrix/author/" + node.slug,
       component: path.resolve(`src/templates/matrix/author.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -256,7 +242,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (leiaaddonresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on GraphQL query.`);
     return;
@@ -267,8 +252,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/leia/" + node.slug,
       component: path.resolve(`src/templates/leia/addon.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -286,7 +269,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (leiacategoryresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on Category GraphQL query.`);
     return;
@@ -297,8 +279,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/leia/category/" + node.slug,
       component: path.resolve(`src/templates/leia/category.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -316,7 +296,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (leiaauthorresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on Author GraphQL query.`);
     return;
@@ -327,8 +306,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "addons/leia/author/" + node.slug,
       component: path.resolve(`src/templates/leia/author.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.slug,
       },
     });
@@ -347,7 +324,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (distresults.errors) {
     reporter.panicOnBuild(`Error while running Distributions GraphQL query.`);
     return;
@@ -358,8 +334,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: "download/" + slugify(node.name, { lower: true }),
       component: path.resolve(`src/templates/distribution.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         name: node.name,
       },
     });
