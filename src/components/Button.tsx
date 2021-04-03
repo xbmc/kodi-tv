@@ -1,20 +1,19 @@
+import { Link } from "gatsby";
 import React from "react";
 
 interface Props {
   href: string;
-  target: "_blank" | undefined;
-  variant: "primary" | "secondary";
-  rel: string;
+  target?: "_blank";
+  variant?: "primary" | "secondary";
+  rel?: string;
+  linkType?: "internal" | "external";
 }
 
 class Button extends React.Component<Props> {
   render() {
-    if (this.props.variant === "secondary") {
-      return (
-        <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
-          <button
-            type="button"
-            className="
+    const buttonStyle =
+      this.props.variant === "secondary"
+        ? `
             flex
             items-center
             justify-center
@@ -34,18 +33,8 @@ class Button extends React.Component<Props> {
             ease
             select-none
             hover:bg-indigo-50
-            "
-          >
-            <span>{this.props.children}</span>
-          </button>
-        </a>
-      );
-    } else {
-      return (
-        <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
-          <button
-            type="button"
-            className="
+            `
+        : `
             flex
             items-center
             justify-center
@@ -66,8 +55,20 @@ class Button extends React.Component<Props> {
             select-none
             hover:bg-kodi
             focus:outline-none
-            focus:shadow-outline"
-          >
+            focus:shadow-outline`;
+
+    if (this.props.linkType === "internal") {
+      return (
+        <Link to={this.props.href} target={this.props.target} rel={this.props.rel}>
+          <button type="button" className={buttonStyle}>
+            <span>{this.props.children}</span>
+          </button>
+        </Link>
+      );
+    } else {
+      return (
+        <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
+          <button type="button" className={buttonStyle}>
             <span>{this.props.children}</span>
           </button>
         </a>

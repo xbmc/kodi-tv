@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { ChevronDown, ChevronUp } from "heroicons-react";
 import { MenuEntry } from "./Header";
+import { Link } from "gatsby";
 
 function HeaderDropdownMenu(props: { menu: MenuEntry }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -27,9 +28,9 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 {props.menu.dropdown?.map((item, index) => (
-                  <a
+                  <Link
                     key={item.url}
-                    href={item.url}
+                    to={item.url!}
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                   >
                     {item.svg}
@@ -41,7 +42,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                         {item.description}
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 ))}
                 {props.menu.footer === null ? (
                   ""

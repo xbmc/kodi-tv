@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql } from "gatsby";
 import { DefaultLayout } from "../../components/Layout";
 import Button from "../../components/Button";
 
@@ -18,11 +17,9 @@ export default function Page({ data, pageContext, location }) {
           <div>
             <Button
               variant="primary"
-              component="a"
               target="_blank"
               rel="noopener"
               href="https://www.patreon.com/join/teamkodi/checkout?rid=3395480"
-              isLarge
             >
               Join the $10 Tier
             </Button>
@@ -31,11 +28,9 @@ export default function Page({ data, pageContext, location }) {
           <div>
             <Button
               variant="primary"
-              component="a"
               target="_blank"
               rel="noopener"
               href="https://www.patreon.com/join/teamkodi/checkout?rid=3395485"
-              isLarge
             >
               Join the $25 Tier
             </Button>
@@ -44,11 +39,9 @@ export default function Page({ data, pageContext, location }) {
           <div>
             <Button
               variant="primary"
-              component="a"
               target="_blank"
               rel="noopener"
               href="https://www.patreon.com/join/teamkodi/checkout?rid=3395486"
-              isLarge
             >
               Join the $50 Tier
             </Button>

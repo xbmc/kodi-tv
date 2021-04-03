@@ -1,25 +1,26 @@
+import { Link } from "gatsby";
 import React from "react";
 
-function AddonPageSubMenu(props) {
+function AddonPageSubMenu(props: { linkroot: string }) {
   let linkroot = props.linkroot;
   return (
-    <div className="flex space-x-1 text-gray-700 text-base pb-6">
+    <div className="flex space-x-1 text-base pb-6 prose prose-blue">
       <span>
-        <a className="hover:text-kodi" href={linkroot}>
+        <Link className="hover:text-kodi" to={linkroot}>
           Add-Ons Home
-        </a>
+        </Link>
       </span>
       <span aria-hidden="true">&middot;</span>
       <span>
-        <a className="hover:text-kodi" href={linkroot + "search"}>
+        <Link className="hover:text-kodi" to={linkroot + "search"}>
           Search Add-ons
-        </a>
+        </Link>
       </span>
       <span aria-hidden="true">&middot;</span>
       <span>
-        <a className=" hover:text-kodi" href={linkroot + "top-authors"}>
+        <Link className=" hover:text-kodi" to={linkroot + "top-authors"}>
           Top Authors
-        </a>
+        </Link>
       </span>
     </div>
   );

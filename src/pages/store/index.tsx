@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Button from "../../components/Button";
-import ArrowRightIcon from "../../components/ArrowRightIcon";
 import { IconList } from "../../components/IconList";
 import { DefaultLayout } from "../../components/Layout";
 
@@ -20,7 +19,9 @@ export default function Page({ data, pageContext, location }) {
           and legal fees, purchase necessary hardware and licenses for developers and
           hopefully the yearly Kodi Foundation Developers Conference.
         </p>
-        <Button href="/donate">Donate to Kodi</Button>
+        <Button href="/donate" linkType="internal">
+          Donate to Kodi
+        </Button>
       </DefaultLayout>
     </>
   );

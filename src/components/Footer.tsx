@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorFooterList } from "./SponsorList";
@@ -38,68 +39,68 @@ function Footer() {
                   </h3>
                   <ul className="mt-4 space-y-4">
                     <li>
-                      <a
-                        href="/about/contact"
+                      <Link
+                        to="/about/contact"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Contact
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/contribute"
+                      <Link
+                        to="/contribute"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Get Involved
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/gpl-violators"
+                      <Link
+                        to="/about/gpl-violators"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         GPL Violators
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/software"
+                      <Link
+                        to="/about/software"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Software
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/team"
+                      <Link
+                        to="/about/team"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Team
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/privacy-policy"
+                      <Link
+                        to="/about/privacy-policy"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/sponsors"
+                      <Link
+                        to="/about/sponsors"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Sponsorship
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/foundation"
+                      <Link
+                        to="/about/foundation"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Foundation
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
