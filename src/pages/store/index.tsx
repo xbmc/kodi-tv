@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Button from "../../components/Button";
-import ArrowRightIcon from "../../components/ArrowRightIcon";
 import { IconList } from "../../components/IconList";
 import { DefaultLayout } from "../../components/Layout";
 

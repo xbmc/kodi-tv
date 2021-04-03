@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import ArrowRightIcon from "./ArrowRightIcon";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
 import * as Icons from "heroicons-react";
@@ -51,7 +50,6 @@ function CtaButtonInternal(props: { url: string; buttontext: string }) {
     <div className="mb-6">
       <Button linkType="internal" href={props.url}>
         {props.buttontext + " "}
-        <ArrowRightIcon />
       </Button>
     </div>
   );
@@ -62,7 +60,6 @@ function CtaButtonExternal(props: { url: string; buttontext: string }) {
     <div className="mb-6">
       <Button target="_blank" rel="noopener" href={props.url}>
         {props.buttontext + " "}
-        <ArrowRightIcon />
       </Button>
     </div>
   );
