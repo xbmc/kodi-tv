@@ -1,11 +1,12 @@
 const path = require("path");
+const { node } = require("prop-types");
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 const config = require("./gatsby-site-config");
 
 // this is an incredibly hacky way to get around a Gatsby bug
-// if you load the Netlify CMS in development, you get a bunch of 
+// if you load the Netlify CMS in development, you get a bunch of
 // Static Query won't load errors when trying to view the site
 // but everything works fine at build
 // so this creates a one item list with the Netlify CMS plugin only
@@ -89,10 +90,18 @@ module.exports = {
             serialize: ({ query: { site, blogPosts } }) => {
               return blogPosts.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
+                  title: edge.node.frontmatter.title,
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
+                  author: edge.node.frontmatter.author,
+                  categories: edge.node.frontmatter.tags,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  enclosure: edge.node.frontmatter.featured_image && {
+                    url:
+                      site.siteMetadata.siteUrl +
+                      edge.node.frontmatter.featured_image.src,
+                  },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 });
               });
@@ -112,14 +121,19 @@ module.exports = {
                       frontmatter {
                         title
                         date
+                        author
+                        tags
+                        featured_image {
+                          src
+                        }
                       }
                     }
                   }
                 }
               }
             `,
+            title: "Kodi News",
             output: "/rss.xml",
-            match: "^/article/",
           },
         ],
       },
