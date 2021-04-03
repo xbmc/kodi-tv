@@ -65,12 +65,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: { default: path.resolve("src/components/LayoutMdx.tsx") },
-      },
-    },
-    {
       resolve: "gatsby-plugin-feed",
       options: {
         query: `
@@ -168,7 +162,7 @@ module.exports = {
         background_color: "#663399",
         theme_color: "#663399",
         display: "minimal-ui",
-        icon: "static/images/kodi-logo.webp",
+        icon: "static/images/kodi-logo.svg",
       },
     },
     {
