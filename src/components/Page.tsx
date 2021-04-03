@@ -48,7 +48,7 @@ function DynamicSection(props) {
     ),
     visitsponsoring: (
       <CtaButtonInternal
-        url="about/sponsors"
+        url="/about/sponsors"
         buttontext="Learn More About Sponsoring Kodi"
       />
     ),
