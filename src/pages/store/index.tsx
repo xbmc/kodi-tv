@@ -11,7 +11,7 @@ export default function Page({ data, pageContext, location }) {
       <DefaultLayout frontmatter={frontmatter}>
         <h2 className="text-2xl font-bold">The only place for official Kodi gear</h2>
         <IconList items={data.allStoreYaml.edges} iconwidth="256" iconheight="256" />
-        <h2 className="text-2lg font-bold">Consider Donating</h2>
+        <h2 className="text-2xl font-bold">Consider Donating</h2>
         <p className="pb-6">
           We are always happy to receive a donation by which you show your support
           and appreciation. All donations go towards the XBMC foundation and are
