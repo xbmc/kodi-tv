@@ -10,6 +10,7 @@
   "author": "pkscout <pkscout@kodi.tv>",
   "license": "GPL-3-ONLY",
   "dependencies": {
+    "js-yaml": "^4.0.0",
     "minimist": "^1.2.5",
     "node-fetch": "^2.6.1",
     "slugify": "^1.4.7",

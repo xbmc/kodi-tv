@@ -6,6 +6,7 @@
 const fetch = require("node-fetch");
 const parse = require("xml-parser");
 const slugify = require("slugify");
+const yaml = require("js-yaml");
 const fs = require("fs");
 const getargs = require("minimist");
 const inspect = require("util").inspect; // this is only here to inspect the json during debugging
@@ -81,6 +82,8 @@ let history = [];
 let kodiversion = "";
 let kodimirror = "http://ftp.halifax.rwth-aachen.de/xbmc/addons/";
 let kodistats = "http://mirrors.kodi.tv/.stats/redis_file_stats.json";
+let gitHubStats = "https://api.github.com/repos/xbmc/xbmc/commits?per_page=1";
+let forumStats = "https://forum.kodi.tv/stats.php";
 /** @type {import("../../src/addon").IAddon} */
 let addon = {};
 /** @type {import("../../src/addon").IAddon[]} */
@@ -99,6 +102,7 @@ let downloadqueue = [];
 let versiondownloads = 0;
 let gatsbyroot = "../../";
 let pixiememory = gatsbyroot + "src/data/addons/";
+let statslocation = gatsbyroot + "src/data/yaml/stats/stats.yaml";
 let addonnodetype = "";
 let authornodetype = "";
 let categorynodetype = "";
@@ -518,6 +522,54 @@ async function app() {
     fs.writeFileSync(pixiememory + "authors.json", JSON.stringify(authors));
     console.log("writing categories.json to " + pixiememory);
     fs.writeFileSync(pixiememory + "categories.json", JSON.stringify(categories));
+    if (args["getstats"] != undefined) {
+      let stats = "";
+      let gitHubCommits = "0";
+      let forumThreads = "0";
+      console.log("getting commits to xbmc branch from github");
+      try {
+        await fetch(gitHubStats).then(response => {
+          for (var pair of response.headers.entries()) {
+            if (pair[0] == "link") {
+              stats = pair[1];
+              break;
+            }
+          }
+        });
+      } catch (error) {
+        stats = "";
+        console.log(error);
+      }
+      if (stats) {
+        let gitHubRegEx = new RegExp(".*next.*page=(.*)>");
+        let gitHubMatch = gitHubRegEx.exec(stats);
+        if (gitHubMatch !== null) {
+          gitHubCommits = Number(gitHubMatch[1]);
+        }
+      }
+      console.log("getting threads from forum");
+      try {
+        const forumRes = await fetch(forumStats);
+        stats = await forumRes.text();
+      } catch (error) {
+        stats = "";
+        console.log(error);
+      }
+      if (stats) {
+        let forumRegEx = new RegExp("<span .*>(.*)<span>Threads");
+        let forumMatch = forumRegEx.exec(stats);
+        if (forumMatch !== null) {
+          forumThreads = forumMatch[1];
+        }
+      }
+      let statsArray = {};
+      statsArray.gitcommits = gitHubCommits.toLocaleString();
+      statsArray.forumthreads = forumThreads;
+      statsArray.addons = addons.length.toLocaleString();
+      let yamlString = yaml.dump(statsArray);
+      console.log("writing stats to " + statslocation);
+      fs.writeFileSync(statslocation, yamlString, "utf8");
+    }
   }
 }
 
