@@ -8,20 +8,26 @@ import ItemWithComma from "./ItemWithComma";
 
 function FullWidthCallOut(props) {
   let backgroundColor = "bg-white";
+  let titleTextColor = "text-gray-900";
   let subtextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
   }
+  if (props.titleTextColor != undefined) {
+    titleTextColor = props.titleTextColor;
+  }
   if (props.subtextColor != undefined) {
     subtextColor = props.subtextColor;
   }
-  let mainDivClassName = "pt-6 pb-12 lg:pt-12 lg:pb-20 px-6 " + backgroundColor;
-  let subtextClassName = "mt-1 text-center text-2xl " + subtextColor;
   return (
     <>
-      <div className={mainDivClassName}>
-        <div className="text-center text-5xl font-bold">{props.title}</div>
-        <div className={subtextClassName}>{props.children}</div>
+      <div className={"pt-6 pb-12 lg:pt-12 lg:pb-20 px-6 " + backgroundColor}>
+        <div className={"text-center text-5xl font-bold " + titleTextColor}>
+          {props.title}
+        </div>
+        <div className={"mt-1 text-center text-2xl " + subtextColor}>
+          {props.children}
+        </div>
       </div>
     </>
   );
@@ -91,8 +97,16 @@ function FullWidthFeaturesWithIcons(props) {
 
 function FullWidthTwoPaneIconsRight(props) {
   let backgroundColor = "bg-white";
+  let titleTextColor = "text-gray-900";
+  let subtextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
+  }
+  if (props.titleTextColor != undefined) {
+    titleTextColor = props.titleTextColor;
+  }
+  if (props.subtextColor != undefined) {
+    subtextColor = props.subtextColor;
   }
   return (
     <>
@@ -111,10 +125,14 @@ function FullWidthTwoPaneIconsRight(props) {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                  <h2
+                    className={
+                      "text-3xl font-extrabold tracking-tight " + titleTextColor
+                    }
+                  >
                     {props.title}
                   </h2>
-                  <p className="mt-4 text-lg text-gray-500">{props.children}</p>
+                  <p className={"mt-4 text-lg " + subtextColor}>{props.children}</p>
                   <div className="mt-6">
                     <Button href={props.url}>{props.buttontext}</Button>
                   </div>
