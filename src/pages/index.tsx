@@ -6,6 +6,7 @@ import { LandingPage } from "../components/Layout";
 import { LatestNews } from "../hooks/LatestNews";
 import { DistributionList } from "../hooks/DistributionList";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
+import { Stats } from "../hooks/Stats";
 import {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -14,6 +15,7 @@ import {
   FullWidthSponsorList,
   FullWidthCTAImageLeft,
   FullWidthNews,
+  FullWidthStats,
 } from "../components/FullWidth";
 
 function setUniqueDistributionIcons() {
@@ -55,6 +57,7 @@ function Page() {
     .concat(sponsors.filter(a => a.sponsor_level === "Gold"))
     .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
     .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
+  const stats = Stats();
 
   return (
     <LandingPage>
@@ -216,6 +219,12 @@ function Page() {
         <br />
         You can organize media you own and have rights to with no extra cost.
       </FullWidthCallOut>
+
+      <FullWidthStats
+        title="Vital statistics"
+        subtitle="Users and members of the community contribute to Kodi in so many different ways."
+        stats={stats}
+      />
     </LandingPage>
   );
 }

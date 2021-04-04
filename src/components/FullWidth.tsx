@@ -1,3 +1,4 @@
+import { propTypes } from "gatsby-plugin-image/dist/src/components/gatsby-image.server";
 import React from "react";
 import { BlogPostCard } from "./Blog";
 import Button from "./Button";
@@ -213,6 +214,31 @@ function FullWidthNews(props) {
   );
 }
 
+function FullWidthStats(props) {
+  return (
+    <div className="bg-kodi-darker">
+      <div className="max-w-7xl mx-auto py-6 lg:py-12 px-4 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-5xl font-extrabold text-white">{props.title}</h2>
+          <p className="mt-1 text-2xl text-kodibg">{props.subtitle}</p>
+        </div>
+        <dl className="mt-10 text-center max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {props.stats.map((stat, index) => (
+            <div key={stat.key} className="flex flex-col">
+              <dt className="order-2 mt-2 text-lg leading-6 font-medium text-gray-700">
+                {stat.title}
+              </dt>
+              <dd className="order-1 text-4xl font-extrabold text-white">
+                {stat.value}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+    </div>
+  );
+}
+
 export {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -221,4 +247,5 @@ export {
   FullWidthSponsorList,
   FullWidthCTAImageLeft,
   FullWidthNews,
+  FullWidthStats,
 };
