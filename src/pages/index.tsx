@@ -167,6 +167,7 @@ function Page() {
       </FullWidthTwoPaneIconsRight>
 
       <FullWidthTwoPaneImageLeft
+        backgroundColor="bg-gray-100"
         icon={<Icons.SparklesOutline className="h-6 w-6 text-white" />}
         title="But wait, there's more!"
         url="/about"
@@ -189,6 +190,7 @@ function Page() {
       />
 
       <FullWidthNews
+        backgroundColor="bg-gray-100"
         title="News"
         subtitle="What's new in the world of Kodi"
         edges={news}
@@ -221,6 +223,9 @@ function Page() {
       </FullWidthCallOut>
 
       <FullWidthStats
+        backgroundColor="bg-kodi-darker"
+        titleTextColor="text-white"
+        subtitleTextColor="text-gray-700"
         title="Vital statistics"
         subtitle="Users and members of the community contribute to Kodi in so many different ways."
         stats={stats}
