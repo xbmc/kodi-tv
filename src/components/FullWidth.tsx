@@ -1,7 +1,10 @@
 import { propTypes } from "gatsby-plugin-image/dist/src/components/gatsby-image.server";
 import React from "react";
 import { BlogPostCard } from "./Blog";
+import { RoundedCardWithImage } from "./Card";
 import Button from "./Button";
+import { ImportExport } from "aws-sdk";
+import ItemWithComma from "./ItemWithComma";
 
 function FullWidthCallOut(props) {
   let backgroundColor = "bg-white";
@@ -293,7 +296,11 @@ function FullWidthNews(props) {
   }
   return (
     <>
-      <div className="relative bg-gray-100 pt-6 pb-12 lg:pt-12 lg:pb-20 px-4 lg:px-8">
+      <div
+        className={
+          "relative pt-6 pb-12 lg:pt-12 lg:pb-20 px-4 lg:px-8 " + backgroundColor
+        }
+      >
         <div className="absolute inset-0">
           <div className={"h-1/3 sm:h-2/3 " + backgroundColor}></div>
         </div>
@@ -369,6 +376,62 @@ function FullWidthStats(props) {
   );
 }
 
+function FullWidthRoundedCardList(props) {
+  let backgroundColor = "bg-white";
+  let titleTextColor = "text-gray-900";
+  let subtitleTextColor = "text-gray-500";
+  if (props.backgroundColor != undefined) {
+    backgroundColor = props.backgroundColor;
+  }
+  if (props.titleTextColor != undefined) {
+    titleTextColor = props.titleTextColor;
+  }
+  if (props.subtitleTextColor != undefined) {
+    subtitleTextColor = props.subtitleTextColor;
+  }
+  return (
+    <>
+      <div
+        className={
+          "relative pt-6 pb-12 lg:pt-12 lg:pb-20 px-4 lg:px-8 " + backgroundColor
+        }
+      >
+        <div className="relative max-w-7xl mx-auto">
+          <div className="text-center">
+            <h2
+              className={
+                "text-3xl tracking-tight font-extrabold sm:text-4xl " +
+                titleTextColor
+              }
+            >
+              {props.title}
+            </h2>
+            <p
+              className={
+                "mt-3 max-w-2xl mx-auto text-xl sm:mt-4 " + subtitleTextColor
+              }
+            >
+              {props.subtitle}
+            </p>
+          </div>
+          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+            {props.items.map((item, index) => (
+              <RoundedCardWithImage
+                title={item.title}
+                imgsrc={item.imgsrc}
+                imgalt=""
+                imgtitle=""
+              >
+                {item.description}
+              </RoundedCardWithImage>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 export {
   FullWidthCallOut,
   FullWidthFeaturesWithIcons,
@@ -378,4 +441,5 @@ export {
   FullWidthCTAImageLeft,
   FullWidthNews,
   FullWidthStats,
+  FullWidthRoundedCardList,
 };
