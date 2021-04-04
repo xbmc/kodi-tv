@@ -82,21 +82,21 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, blogPosts } }) => {
-              let post = {}
-              let featuredImageHtml = ""
-              let fi = {}
+              let post = {};
+              let featuredImageHtml = "";
+              let fi = {};
               return blogPosts.edges.map(edge => {
-                post = edge.node
-                fi = post.frontmatter.featured_image
+                post = edge.node;
+                fi = post.frontmatter.featured_image;
                 if (fi != undefined) {
-                  imgSrc = site.siteMetadata.siteUrl + fi.src
+                  imgSrc = site.siteMetadata.siteUrl + fi.src;
                   featuredImageHtml = `
                     <figure>
                       <img title="${fi.title}" alt="${fi.alt}" src="${imgSrc}" />
                     </figure>
-                  `
+                  `;
                 } else {
-                  featuredImageHtml = ""
+                  featuredImageHtml = "";
                 }
                 return Object.assign({}, post.frontmatter, {
                   title: post.frontmatter.title,
@@ -106,7 +106,9 @@ module.exports = {
                   categories: post.frontmatter.tags,
                   url: site.siteMetadata.siteUrl + post.fields.slug,
                   guid: site.siteMetadata.siteUrl + post.fields.slug,
-                  custom_elements: [{ "content:encoded": featuredImageHtml + post.html }],
+                  custom_elements: [
+                    { "content:encoded": featuredImageHtml + post.html },
+                  ],
                 });
               });
             },
