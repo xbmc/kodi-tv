@@ -322,7 +322,7 @@ function FullWidthNews(props) {
               {props.subtitle}
             </p>
           </div>
-          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+          <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
             {props.edges.map((edge, index) => (
               <BlogPostCard post={edge.node} />
             ))}
@@ -414,7 +414,7 @@ function FullWidthRoundedCardList(props) {
               {props.subtitle}
             </p>
           </div>
-          <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
+          <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
             {props.items.map((item, index) => (
               <RoundedCardWithImage
                 title={item.title}
