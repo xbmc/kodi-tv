@@ -153,7 +153,26 @@ function Page() {
         />
       </div>
 
+      <FullWidthTwoPaneImageLeft
+        titleTextColor="text-kodi-darker"
+        icon={<Icons.SparklesOutline className="h-6 w-6 text-white" />}
+        title="But wait, there's more!"
+        url="/about"
+        buttontext="Show me all the good bits"
+        image={{
+          src: "/images/skin-estuary-example.webp",
+          title: "Estuary Skin",
+          alt: "Estuary Skin showing music artists",
+        }}
+      >
+        You can get a new skin to change the look of Kodi, or maybe you want to
+        stream your favourite internet radio station and control it all with your web
+        browser or mobile phone? This and so much more is all possible and easy with
+        Kodi.
+      </FullWidthTwoPaneImageLeft>
+
       <FullWidthTwoPaneIconsRight
+        backgroundColor="bg-gray-100"
         titleTextColor="text-kodi-darker"
         icon={<Icons.DownloadOutline className="h-6 w-6 text-white" />}
         title="Kodi runs on just about anything"
@@ -175,25 +194,6 @@ function Page() {
           ))}
         </ul>
       </FullWidthTwoPaneIconsRight>
-
-      <FullWidthTwoPaneImageLeft
-        backgroundColor="bg-gray-100"
-        titleTextColor="text-kodi-darker"
-        icon={<Icons.SparklesOutline className="h-6 w-6 text-white" />}
-        title="But wait, there's more!"
-        url="/about"
-        buttontext="Show me all the good bits"
-        image={{
-          src: "/images/skin-estuary-example.webp",
-          title: "Estuary Skin",
-          alt: "Estuary Skin showing music artists",
-        }}
-      >
-        You can get a new skin to change the look of Kodi, or maybe you want to
-        stream your favourite internet radio station and control it all with your web
-        browser or mobile phone? This and so much more is all possible and easy with
-        Kodi.
-      </FullWidthTwoPaneImageLeft>
 
       <FullWidthSponsorList
         title="A big thanks to our sponsors. They help to keep Kodi free."
