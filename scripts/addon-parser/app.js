@@ -189,20 +189,23 @@ function getAddon(rawaddon) {
 function cleanUpDescriptions() {
   let regex = /\[(COLOR|CR|B|I)\]/g;
   let maxwords = 15;
-  if (addon.description == undefined) {
-    addon.description = "";
-  } else {
-    addon.description = addon.description.replace(regex, " ");
-  }
-  if (addon.summary == undefined) {
-    addon.summary = "";
-  } else {
+  let summary = "";
+  let description = "";
+  if (addon.summary != undefined) {
     addon.summary = addon.summary.replace(regex, " ");
+    summary = addon.summary;
   }
-  if (addon.summary != "") {
-    addon.snippet = addon.summary;
+  if (addon.description != undefined) {
+    addon.description = addon.description.replace(regex, " ");
+    description = addon.description;
+  } else if (summary != "") {
+    addon.description = summary;
+    description = addon.description;
+  }
+  if (summary != "") {
+    addon.snippet = summary;
   } else {
-    addon.snippet = addon.description;
+    addon.snippet = description;
   }
   let sList = addon.snippet.split(" ");
   if (sList.length > maxwords) {
