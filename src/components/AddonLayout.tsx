@@ -93,7 +93,7 @@ export default function AddonLayout({
         <div className="col-span-4 flex flex-col">
           <ReactMarkdown className="text-2xl font-bold">{addon.name}</ReactMarkdown>
           <ReactMarkdown>{addon.snippet}</ReactMarkdown>
-          <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm prose prose-blue">
+          <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm">
             <div className="inline-flex">
               <div className="pr-1">
                 <TruckOutline className="h-5 w-5 text-kodi" />
@@ -125,7 +125,7 @@ export default function AddonLayout({
               </div>
             </div>
           </div>
-          <div className="mt-2 inline-flex text-sm prose prose-blue">
+          <div className="mt-2 inline-flex text-sm">
             <div className="pr-1">
               <TagOutline className="h-5 w-5 text-kodi" />
             </div>
@@ -173,7 +173,7 @@ export default function AddonLayout({
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
                     </dt>
-                    <dd className="prose prose-blue mt-0 col-span-1 md:col-span-2 text-sm">
+                    <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
                       <a href={item.data}>{item.data}</a>
                     </dd>
                   </div>
@@ -185,7 +185,7 @@ export default function AddonLayout({
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
                     </dt>
-                    <dd className="prose prose-blue mt-0 col-span-1 md:col-span-2 text-sm">
+                    <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
                       {item.data.map((platform, index) => (
                         <ItemWithComma
                           description={platform.platform}
