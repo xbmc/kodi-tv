@@ -345,7 +345,10 @@ export default class SearchAddons extends React.Component {
         {this.state.results.length === 0 ? (
           <SearchAddonsNoResults firstrun={this.state.firstrun} />
         ) : (
-          <IconListFeatured items={this.state.results} linkroot="../" />
+          <IconListFeatured
+            items={this.state.results}
+            linkroot={this.props.linkroot}
+          />
         )}
       </>
     );

@@ -17,6 +17,7 @@ export default function AddonSearchPage({ data, pageContext, location }) {
       <SearchAddons
         addons={data.allAddon.nodes}
         categories={data.allCategory.edges}
+        linkroot={linkroot}
       />
     </DefaultLayout>
   );
