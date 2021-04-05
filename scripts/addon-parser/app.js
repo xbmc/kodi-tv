@@ -185,17 +185,17 @@ function getAddon(rawaddon) {
 function cleanUpDescriptions() {
   let regex = /\[(COLOR|CR|B|I)\]/g;
   let maxwords = 15;
-  if (addon.description == undefined) {
-    addon.description = "";
-  } else {
-    addon.description = addon.description.replace(regex, " ");
-  }
-  if (addon.summary == undefined) {
+   if (addon.summary == undefined) {
     addon.summary = "";
   } else {
     addon.summary = addon.summary.replace(regex, " ");
   }
-  if (addon.summary != "") {
+  if (addon.description == undefined) {
+    addon.description = addon.summary;
+  } else {
+    addon.description = addon.description.replace(regex, " ");
+  }
+ if (addon.summary != "") {
     addon.snippet = addon.summary;
   } else {
     addon.snippet = addon.description;
