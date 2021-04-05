@@ -40,34 +40,10 @@ function Footer() {
                   <ul className="mt-4 space-y-4">
                     <li>
                       <Link
-                        to="/about/contact"
+                        to="/about/foundation"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
-                        Contact
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/contribute"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Get Involved
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/about/gpl-violators"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        GPL Violators
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/about/software"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Kodi Software
+                        Kodi Foundation
                       </Link>
                     </li>
                     <li>
@@ -80,14 +56,6 @@ function Footer() {
                     </li>
                     <li>
                       <Link
-                        to="/about/privacy-policy"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Privacy Policy
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
                         to="/about/sponsors"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -96,10 +64,34 @@ function Footer() {
                     </li>
                     <li>
                       <Link
-                        to="/about/foundation"
+                        to="/about/terms-of-service"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
-                        Kodi Foundation
+                        Terms of Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/privacy-policy"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Privacy Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/dmca"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        DMCA Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/gpl-violators"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        GPL Violators
                       </Link>
                     </li>
                   </ul>
