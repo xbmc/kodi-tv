@@ -59,9 +59,9 @@ export default function AddonLayout({
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {
       if (pushed % 2 == 0) {
-        className = "bg-gray-50 " + classNameRoot;
+        className = "bg-gray-100 " + classNameRoot;
       } else {
-        className = "bg-white " + classNameRoot;
+        className = "bg-gray-50 " + classNameRoot;
       }
       if (fields[i] === "Platforms") {
         datatype = "platform";
@@ -163,7 +163,7 @@ export default function AddonLayout({
           </div>
         </div>
       </div>
-      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-white shadow overflow-hidden">
+      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-gray-50 shadow overflow-hidden">
         <div className="border-t border-gray-200">
           <dl>
             {details.map((item, index) => (

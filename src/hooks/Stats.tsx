@@ -10,7 +10,11 @@ export const Stats = () => {
       }
     }
   `);
-  let stats = [];
+  let stats: {
+    key: string;
+    title: string;
+    value: number | string;
+  }[] = [];
   stats.push({
     key: "gitcommits",
     title: "Github Commits",

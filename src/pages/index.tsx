@@ -153,7 +153,7 @@ function Page() {
       </div>
 
       <FullWidthTwoPaneImageLeft
-        icon={<Icons.SparklesOutline className="h-6 w-6 text-white" />}
+        icon={<Icons.SparklesOutline className="h-6 w-6 text-gray-50" />}
         title="But wait, there's more!"
         url="/about"
         buttontext="Show me all the good bits"
@@ -171,7 +171,7 @@ function Page() {
 
       <FullWidthTwoPaneIconsRight
         backgroundColor="bg-gray-100"
-        icon={<Icons.DownloadOutline className="h-6 w-6 text-white" />}
+        icon={<Icons.DownloadOutline className="h-6 w-6 text-gray-50" />}
         title="Kodi runs on just about anything"
         url="/download"
         buttontext="Download Now"
@@ -213,8 +213,8 @@ function Page() {
 
       <FullWidthStats
         backgroundColor="bg-kodi-darker"
-        titleTextColor="text-white"
-        subtitleTextColor="text-gray-700"
+        titleTextColor="text-gray-50"
+        subtitleTextColor="text-gray-50"
         title="Vital statistics"
         subtitle="Users and members of the community contribute to Kodi in so many different ways."
         stats={stats}

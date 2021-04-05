@@ -40,7 +40,7 @@ function BlogPostCard(props: { post: any }) {
             />
           )}
         </Link>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium">
               {post.frontmatter.tags.map((tag: string, index: any) => {
@@ -86,7 +86,7 @@ function EmptyCard() {
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
           <div className="flex-1">&nbsp;</div>
         </div>
       </div>
@@ -144,7 +144,7 @@ function NavCard(props) {
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
-        <div className="flex-1 bg-white px-6 pb-6 flex flex-col justify-between">
+        <div className="flex-1 bg-gray-50 px-6 pt-4 pb-6 flex flex-col justify-between">
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>

@@ -125,7 +125,7 @@ function ContributeGallery() {
   return (
     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       <FeaturedCard
-        icon={<Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={<Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Coding"
       >
         [Developers can help the Kodi Foundation](/contribute/developers) by adding
@@ -136,7 +136,7 @@ function ContributeGallery() {
 
       <FeaturedCard
         icon={
-          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-white" />
+          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
         }
         title="Building an Add-on"
       >
@@ -147,7 +147,9 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={
+          <Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
+        }
         title="Helping Users"
       >
         Everyday new people discover a Kodi Foundation product, and everyday they are
@@ -157,7 +159,9 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<Icons.GlobeAltOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={
+          <Icons.GlobeAltOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
+        }
         title="Helping with Translations"
       >
         Get involved with Kodi Foundation by making Kodi, add-ons and other projects
@@ -167,7 +171,7 @@ function ContributeGallery() {
 
       <FeaturedCard
         icon={
-          <Icons.ShieldCheckOutline className="flex-shrink-0 h-6 w-6 text-white" />
+          <Icons.ShieldCheckOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
         }
         title="Performing Quality Assurance"
       >
@@ -179,7 +183,7 @@ function ContributeGallery() {
 
       <FeaturedCard
         icon={
-          <Icons.DocumentTextOutline className="flex-shrink-0 h-6 w-6 text-white" />
+          <Icons.DocumentTextOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
         }
         title="Writing Documentation"
       >
@@ -190,7 +194,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={<Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Donating"
       >
         We are always happy to [receive a donation](/donate). Donations are typically
@@ -203,7 +207,7 @@ function ContributeGallery() {
 
       <FeaturedCard
         icon={
-          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-white" />
+          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
         }
         title="Buying Kodi Merch"
       >
@@ -214,7 +218,7 @@ function ContributeGallery() {
 
       <FeaturedCard
         icon={
-          <Icons.SpeakerphoneOutline className="flex-shrink-0 h-6 w-6 text-white" />
+          <Icons.SpeakerphoneOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
         }
         title="Spreading the Word"
       >

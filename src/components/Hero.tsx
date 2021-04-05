@@ -16,7 +16,7 @@ function HeroRounded(props) {
             </div>
             <div className="relative px-6 py-14">
               <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
-                <span className="block text-white">{props.title}</span>
+                <span className="block text-gray-50">{props.title}</span>
                 <span className="block text-kodi-lighter">{props.subtitle}</span>
               </h1>
               <p className="mt-6 max-w-lg mx-auto text-center text-xl text-kodi-lighter">
@@ -52,7 +52,7 @@ function HeroFullWidth(props) {
             </div>
             <div className="relative px-6 py-14">
               <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
-                <span className="block text-white">{props.title}</span>
+                <span className="block text-gray-50">{props.title}</span>
                 <span className="block text-kodi-lighter">{props.subtitle}</span>
               </h1>
               <p className="mt-6 max-w-lg mx-auto text-center text-xl text-kodi-lighter">

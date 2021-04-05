@@ -17,7 +17,7 @@ export default function Page({ data, pageContext, location }) {
                 donor.node.publicName == "" ? "Anonymous" : donor.node.publicName
               }
               icon={
-                <UserCircleOutline className="flex-shrink-0 h-6 w-6 text-white" />
+                <UserCircleOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
               }
             >
               {(donor.node.currency == "usd" ||
