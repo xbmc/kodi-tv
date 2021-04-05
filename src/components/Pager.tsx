@@ -48,7 +48,7 @@ const Pager = ({ pageContext }) => {
         >
           <Link
             to={previousPagePath}
-            className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Previous</span>
             <svg
@@ -71,14 +71,14 @@ const Pager = ({ pageContext }) => {
                 <Link
                   style={{ display: info.onpage ? "none" : "block" }}
                   to={info.url}
-                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-50 text-sm font-medium text-gray-700 hover:bg-gray-50"
                 >
                   {info.pagenum}
                 </Link>
                 <Link
                   style={{ display: info.onpage ? "block" : "none" }}
                   to={info.url}
-                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-kodi text-sm font-medium text-white hover:bg-gray-50"
+                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-kodi text-sm font-medium text-gray-50 hover:bg-gray-50"
                 >
                   {info.pagenum}
                 </Link>
@@ -87,7 +87,7 @@ const Pager = ({ pageContext }) => {
           })}
           <Link
             to={nextPagePath}
-            className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Next</span>
             <svg
@@ -110,7 +110,7 @@ const Pager = ({ pageContext }) => {
         <nav className="relative z-0 inline-flex space-x-32" aria-label="Pagination">
           <Link
             to={previousPagePath}
-            className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Previous</span>
             <svg
@@ -129,7 +129,7 @@ const Pager = ({ pageContext }) => {
           </Link>
           <Link
             to={nextPagePath}
-            className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+            className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Next</span>
             <svg

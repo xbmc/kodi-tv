@@ -42,7 +42,7 @@ function DefaultLayout(props: {
         <Header frontmatter={frontmatter} />
         <main className="-mt-32">
           <div className="max-w-7xl mx-auto pb-0 px-4 sm:px-6 lg:px-8">
-            <div className="bg-white rounded-lg shadow px-5 py-6 sm:px-6 min-h-screen">
+            <div className="bg-gray-50 rounded-lg shadow px-5 py-6 sm:px-6 min-h-screen">
               {props.children}
             </div>
           </div>
@@ -66,7 +66,7 @@ function LandingPage(props: {
   let frontmatter = GetFrontMatter(props);
   return (
     <>
-      <div className="bg-white h-full">
+      <div className="bg-gray-50 h-full">
         <Header frontmatter={frontmatter} compact={true} />
         <main>
           <div className="py-0">{props.children}</div>

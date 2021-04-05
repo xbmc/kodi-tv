@@ -13,15 +13,15 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
         <Link
           to="#"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-          className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
         >
           <div className="flex">
             <div className="flex-grow">{props.menu.title}</div>
             <div className="flex-none">
               {isDropdownOpen ? (
-                <ChevronUp className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
+                <ChevronUp className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               ) : (
-                <ChevronDown className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
+                <ChevronDown className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               )}
             </div>
           </div>
@@ -40,7 +40,7 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
               <Link
                 key={item.url}
                 to={item.url!}
-                className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
               >
                 {item.title}
               </Link>

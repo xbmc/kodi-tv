@@ -30,7 +30,7 @@ function IconListFeatured(props: {
         {items.map((item, index) => (
           <FeaturedCard
             iconClass={
-              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-white"
+              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-gray-50"
             }
             title={item.name}
             icon={

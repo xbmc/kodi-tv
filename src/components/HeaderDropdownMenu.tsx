@@ -13,7 +13,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
         <button
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           type="button"
-          className="inline-flex items-center text-gray-300 hover:bg-kodibg-lighter hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
+          className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
           aria-expanded="false"
         >
           <span>{props.menu.title}</span>
@@ -26,12 +26,12 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
         <Transition show={isDropdownOpen}>
           <div className="absolute z-50 left-1/2 transform -translate-x-1/2 -translate-y-3 mt-3 mx-3 px-2 w-screen max-w-md sm:px-0">
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-              <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+              <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
                 {props.menu.dropdown?.map((item, index) => (
                   <Link
                     key={item.url}
                     to={item.url!}
-                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                    className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
                   >
                     {item.svg}
                     <div className="ml-4">

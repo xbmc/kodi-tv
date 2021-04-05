@@ -7,7 +7,7 @@ import { ImportExport } from "aws-sdk";
 import ItemWithComma from "./ItemWithComma";
 
 function FullWidthCallOut(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
@@ -35,8 +35,8 @@ function FullWidthCallOut(props) {
 
 function FullWidthFeaturesWithIcons(props) {
   let backgroundColor = "bg-gradient-to-r from-kodi to-kodi-darker";
-  let foregroundTextColor = "text-white";
-  let foregroundOpacityColor = "bg-white bg-opacity-10";
+  let foregroundTextColor = "text-gray-50";
+  let foregroundOpacityColor = "bg-gray-50 bg-opacity-10";
   let subtextColor = "text-gray-200";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
@@ -96,7 +96,7 @@ function FullWidthFeaturesWithIcons(props) {
 }
 
 function FullWidthTwoPaneIconsRight(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
@@ -152,7 +152,7 @@ function FullWidthTwoPaneIconsRight(props) {
 }
 
 function FullWidthTwoPaneImageLeft(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let bodyTextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
@@ -212,7 +212,7 @@ function FullWidthTwoPaneImageLeft(props) {
 }
 
 function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
   }
@@ -245,7 +245,7 @@ function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
 
 function FullWidthCTAImageLeft(props) {
   let backgroundColor = "bg-gray-800";
-  let titleTextColor = "text-white";
+  let titleTextColor = "text-gray-50";
   let bodyTextColor = "text-gray-300";
   let buttonType = "secondary";
   if (props.backgroundColor != undefined) {
@@ -300,7 +300,7 @@ function FullWidthCTAImageLeft(props) {
 }
 
 function FullWidthNews(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
@@ -352,7 +352,7 @@ function FullWidthNews(props) {
 }
 
 function FullWidthStats(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {
@@ -395,7 +395,7 @@ function FullWidthStats(props) {
 }
 
 function FullWidthRoundedCardList(props) {
-  let backgroundColor = "bg-white";
+  let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
   if (props.backgroundColor != undefined) {

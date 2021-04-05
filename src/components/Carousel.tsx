@@ -79,7 +79,7 @@ class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
                   </div>
                   <div className="relative px-6 pt-12 pb-16">
                     <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
-                      <span className="block text-white">{element.title}</span>
+                      <span className="block text-gray-50">{element.title}</span>
                       <span className="block text-kodi-lighter">
                         {element.subtitle}
                       </span>

@@ -26,13 +26,13 @@ class Button extends React.Component<Props> {
             font-medium
             rounded-md
             shadow-sm
-            text-kodi
-            bg-white
+            text-kodi-darker
+            bg-gray-50
             transition
             duration-500
             ease
             select-none
-            hover:bg-indigo-50
+            hover:bg-gray-200
             `
         : `
             flex
