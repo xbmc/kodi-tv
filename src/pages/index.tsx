@@ -106,7 +106,7 @@ function Page() {
         <FullWidthRoundedCardList
           backgroundColor="bg-gray-100"
           title="Got a smart TV? You ain't seen nothin’ yet!"
-          subtitle="Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and it looks great while doing it! Here are just a few things Kodi excels at:"
+          subtitle="Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and looks great while doing it! Here are just a few things Kodi excels at:"
           items={[
             {
               imgsrc: "/images/about--music.webp",
