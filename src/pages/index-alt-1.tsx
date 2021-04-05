@@ -87,8 +87,17 @@ function Page() {
             subtitle: "like no other",
             description:
               "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
-            url: "/gethelp",
+            url: "https://forum.kodi.tv",
             buttontext: "Get Help",
+          },
+          {
+            image: "/images/kodi-wallpaper-32a-samfisher.webp",
+            title: "Are you a developer?",
+            subtitle: "Join the team!",
+            description:
+              "We would welcome anyone who is willing to do their part on any improvement that is needed.",
+            url: "/contribute/developers",
+            buttontext: "Contribute",
           },
         ]}
       />
