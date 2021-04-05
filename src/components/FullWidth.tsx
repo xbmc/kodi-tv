@@ -418,16 +418,13 @@ function FullWidthRoundedCardList(props) {
           <div className="text-center">
             <h2
               className={
-                "text-4xl max-w-5xl tracking-tight font-extrabold " + titleTextColor
+                "max-w-5xl mx-auto tracking-tight text-4xl font-extrabold " +
+                titleTextColor
               }
             >
               {props.title}
             </h2>
-            <p
-              className={
-                "mt-3 max-w-3xl mx-auto text-xl sm:mt-4 " + subtitleTextColor
-              }
-            >
+            <p className={"mt-4 max-w-3xl mx-auto text-xl " + subtitleTextColor}>
               {props.subtitle}
             </p>
           </div>
