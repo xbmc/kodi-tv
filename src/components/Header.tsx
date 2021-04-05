@@ -30,41 +30,6 @@ let specialButton =
 
 const mainMenu: MenuEntry[] = [
   {
-    title: "About",
-    url: "#",
-    buttonType: regularButton,
-    footer: null,
-    dropdown: [
-      {
-        title: "About Kodi",
-        url: "/about",
-        svg: (
-          <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
-        description: "Find out everything Kodi can do for you.",
-      },
-      {
-        title: "Sponsors",
-        url: "/about/sponsors",
-        svg: <Icons.CashOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description: "A list of companies supporting the work we do.",
-      },
-      {
-        title: "Software",
-        url: "/about/software",
-        svg: <Icons.ChipOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description: "Information about the suite of software we offer.",
-      },
-      {
-        title: "Contact",
-        url: "/about/contact",
-        svg: <Icons.InboxInOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description:
-          "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
-      },
-    ],
-  },
-  {
     title: "News",
     url: "/blog",
     buttonType: regularButton,
@@ -118,6 +83,41 @@ const mainMenu: MenuEntry[] = [
     url: "/contribute",
     dropdown: null,
     footer: null,
+  },
+  {
+    title: "About",
+    url: "#",
+    buttonType: regularButton,
+    footer: null,
+    dropdown: [
+      {
+        title: "About Kodi",
+        url: "/about",
+        svg: (
+          <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
+        ),
+        description: "Find out everything Kodi can do for you.",
+      },
+      {
+        title: "Sponsors",
+        url: "/about/sponsors",
+        svg: <Icons.CashOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: "A list of companies supporting the work we do.",
+      },
+      {
+        title: "Software",
+        url: "/about/software",
+        svg: <Icons.ChipOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description: "Information about the suite of software we offer.",
+      },
+      {
+        title: "Contact",
+        url: "/about/contact",
+        svg: <Icons.InboxInOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        description:
+          "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
+      },
+    ],
   },
   {
     title: "Store",
