@@ -88,7 +88,13 @@ export default function AddonLayout({
       <AddonPageSubMenu linkroot={linkroot} />
       <div className="grid grid-cols-5">
         <div align="right" className="col-span-1 row-span-full pr-6">
-          <img width="150" height="150" alt="" src={addon.icon} />
+          <img
+            className="rounded-md"
+            width="150"
+            height="150"
+            alt=""
+            src={addon.icon}
+          />
         </div>
         <div className="col-span-4 flex flex-col">
           <ReactMarkdown className="text-2xl font-bold">{addon.name}</ReactMarkdown>
