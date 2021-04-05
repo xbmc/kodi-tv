@@ -41,8 +41,8 @@ function DefaultLayout(props: {
       <div className="bg-gray-200 h-full">
         <Header frontmatter={frontmatter} />
         <main className="-mt-32">
-          <div className="max-w-7xl mx-auto pb-0 px-4 sm:px-6 lg:px-8">
-            <div className="bg-gray-50 rounded-lg shadow px-5 py-6 sm:px-6 min-h-screen">
+          <div className="max-w-7xl mx-auto pb-0 px-6 lg:px-8">
+            <div className="bg-gray-50 rounded-lg shadow py-6 px-6 min-h-screen">
               {props.children}
             </div>
           </div>
