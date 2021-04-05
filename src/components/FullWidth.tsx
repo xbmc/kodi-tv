@@ -351,7 +351,18 @@ function FullWidthNews(props) {
   );
 }
 
-function FullWidthStats(props) {
+function FullWidthStats(props: {
+  backgroundColor: string | undefined;
+  titleTextColor: string | undefined;
+  subtitleTextColor: string | undefined;
+  title: string;
+  subtitle: string;
+  stats: {
+    key: string;
+    title: string;
+    value: number | string;
+  }[];
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
