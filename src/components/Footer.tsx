@@ -212,26 +212,6 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noopener"
-                        href="https://twitter.com/KodiTV"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.youtube.com/user/teamxbmc"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        YouTube
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
                         href="https://www.github.com/xbmc"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -246,6 +226,26 @@ function Footer() {
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         RSS
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://twitter.com/KodiTV"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Twitter
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://www.youtube.com/user/teamxbmc"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        YouTube
                       </a>
                     </li>
                   </ul>
