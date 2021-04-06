@@ -2,6 +2,8 @@
 title: Kodi's Response to Internet Issues
 date: 2020-03-31T05:39:35Z
 author: Team Kodi
+tags:
+  - April Fools
 featured_image:
   src: /images/blog/kodi-minimum-60.webp
   title: "Kodi bandwidth speed limit"

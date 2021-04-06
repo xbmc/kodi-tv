@@ -9,10 +9,17 @@ export default function AddonSearchPage({ data, pageContext, location }) {
     title: "News Search",
     breadcrumbs: "News | Search",
   };
+  let tags = [];
+  let tagList = TagList();
+  for (let i = 0; i < tagList.length; i++) {
+    if (tagList[i].insearch) {
+      tags.push(tagList[i].name);
+    }
+  }
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <SearchNews posts={data.blogPosts.edges} tags={TagList()} />
+      <SearchNews posts={data.blogPosts.edges} tags={tags} />
     </DefaultLayout>
   );
 }

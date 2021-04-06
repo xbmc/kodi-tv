@@ -2,17 +2,8 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
-import { TagCounts } from "../hooks/TagCounts";
 import { TagList } from "../hooks/TagList";
-import {
-  UsersOutline,
-  DownloadOutline,
-  FolderDownloadOutline,
-  CodeOutline,
-  FlagOutline,
-  SearchOutline,
-  NewspaperOutline,
-} from "heroicons-react";
+import { SearchOutline } from "heroicons-react";
 
 const slugify = require("slugify");
 
@@ -95,52 +86,7 @@ function EmptyCard() {
 }
 
 function NavCard(props) {
-  const data = TagCounts();
-  let tagList = TagList();
-  let tagDisplay = [];
-  for (let i = 0; i < tagList.length; i++) {
-    let oneTag = {};
-    oneTag["name"] == tagList[i];
-    oneTag["slug"] = "/blog/tag/" + slugify(tagList[i], { lower: true });
-    switch (data.allTags.distinct[i]) {
-      case "Community":
-        oneTag["displayname"] = "Community Updates";
-        oneTag["icon"] = (
-          <UsersOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.communityCount.totalCount;
-        break;
-      case "DevCon":
-        oneTag["displayname"] = "DevCon";
-        oneTag["icon"] = (
-          <FlagOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.devConCount.totalCount;
-        break;
-      case "Developer":
-        oneTag["displayname"] = "Developer Updates";
-        oneTag["icon"] = (
-          <CodeOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.developerCount.totalCount;
-        break;
-      case "Prerelease":
-        oneTag["displayname"] = "Prerelease Announcements";
-        oneTag["icon"] = (
-          <FolderDownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.prereleaseCount.totalCount;
-        break;
-      case "Release":
-        oneTag["displayname"] = "Release Announcements";
-        oneTag["icon"] = (
-          <DownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.releaseCount.totalCount;
-        break;
-    }
-    tagDisplay.push(oneTag);
-  }
+  const tagList = TagList();
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
@@ -148,22 +94,12 @@ function NavCard(props) {
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>
-              <Link
-                to="/blog"
-                className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
-              >
-                <NewspaperOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-                <span className="truncate">All News</span>
-                <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
-                  {data.postCount.totalCount}
-                </span>
-              </Link>
-              {tagDisplay.map((tag: string) => {
+              {tagList.map((tag: string) => {
                 return (
                   <Link
                     key={tag.slug}
                     to={tag.slug}
-                    className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+                    className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                   >
                     {tag.icon}
                     <span className="truncate">{tag.displayname}</span>
@@ -176,7 +112,7 @@ function NavCard(props) {
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
               <Link
                 to="/blog/search"
-                className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+                className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
                 <SearchOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>

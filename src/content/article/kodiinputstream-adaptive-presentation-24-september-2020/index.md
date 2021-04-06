@@ -2,6 +2,8 @@
 title: "Kodi/Inputstream Adaptive Presentation - 24 September 2020"
 date: 2020-09-23T00:09:22Z
 author: Team Kodi
+tags:
+  - Conferences
 featured_image:
   src: /images/blog/600_468058366.webp
   title: "Sydney Video Technology Group Logo"
