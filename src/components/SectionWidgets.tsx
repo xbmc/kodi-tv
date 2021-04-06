@@ -321,7 +321,11 @@ function AboutGallery() {
         >
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
-          scripts. <Link to="/addons">See which ones are currently available</Link>.
+          scripts.{" "}
+          <Link className="underline" to="/addons">
+            See which ones are currently available
+          </Link>
+          .
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -332,8 +336,10 @@ function AboutGallery() {
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <Link to="/addons/category/web-interfaces">web browsers</Link>, and 3rd
-          party tools to take Kodi to the next level.
+          <Link className="underline" to="/addons/category/web-interfaces">
+            web browsers
+          </Link>
+          , and 3rd party tools to take Kodi to the next level.
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -343,12 +349,14 @@ function AboutGallery() {
           imgtitle=""
         >
           With support for{" "}
-          <Link to="http://kodi.wiki/view/Remote_controls">
+          <Link className="underline" to="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
           </Link>
           , CEC-compatible TVs, or one of the{" "}
-          <Link to="/about/software">new Smartphone and Tablet Apps</Link>, Kodi
-          allows you to control your media your way.
+          <Link className="underline" to="/about/software">
+            new Smartphone and Tablet Apps
+          </Link>
+          , Kodi allows you to control your media your way.
         </RoundedCardWithImage>
       </div>
     </>

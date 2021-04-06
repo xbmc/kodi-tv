@@ -4,7 +4,7 @@ import React from "react";
 function AddonPageSubMenu(props: { linkroot: string }) {
   let linkroot = props.linkroot;
   return (
-    <div className="grid grid-cols-3 space-x-6 text-base pb-6 prose prose-blue md:space-x-3 md:flex">
+    <div className="grid grid-cols-3 space-x-6 text-base pb-6 md:space-x-3 md:flex">
       <span className="text-left">
         <Link to={linkroot}>Add-Ons Home</Link>
       </span>
