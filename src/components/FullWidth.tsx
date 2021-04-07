@@ -225,7 +225,7 @@ function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
           </p>
           <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
             {props.sponsors.map((sponsor, index) => (
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 filter grayscale transition duration-500 ease-in-out hover:filter-none">
                 <a href={sponsor.slug} target="_blank" rel="noopener">
                   <img
                     className="h-12"
