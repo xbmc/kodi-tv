@@ -3,7 +3,7 @@ import * as Icons from "heroicons-react";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
-import { LatestNews } from "../hooks/LatestNews";
+import { LatestNews, News } from "../hooks/LatestNews";
 import { DistributionList } from "../hooks/DistributionList";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { Stats } from "../hooks/Stats";
@@ -49,7 +49,7 @@ function setUniqueDistributionIcons() {
 }
 
 function Page() {
-  const news = LatestNews();
+  const news: News[] = LatestNews();
   const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
   const sponsors: Sponsor[] = Sponsors();
   const orderedSponsors: Sponsor[] = sponsors
@@ -201,7 +201,7 @@ function Page() {
         backgroundColor="bg-gray-100"
         title="News"
         subtitle="What's new in the world of Kodi"
-        edges={news}
+        news={news}
       />
 
       <FullWidthCallOut title="100% Open Source!">

@@ -52,16 +52,26 @@ function IconListFeatured(props: {
 }
 
 function IconList(props: {
-  items: any[];
+  items: {
+    icon: string;
+    node?: any;
+    slug?: string;
+    name?: string;
+  }[];
   iconwidth: string | undefined;
-  iconheight: string | undefined;
-  linkroot: string | undefined;
+  iconheight?: string;
+  linkroot: string;
   className: string | undefined;
 }) {
   if (props.items.length == 0) {
     return "";
   }
-  let items = [];
+  let items: {
+    icon: string;
+    node?: any;
+    slug?: string;
+    name?: string;
+  }[] = [];
   let linkroot = "";
   let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   let iconwidth = "150";

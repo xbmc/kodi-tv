@@ -1,13 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
 import { TagList } from "../hooks/TagList";
 import { SearchOutline } from "heroicons-react";
+import { News } from "../hooks/LatestNews";
 
 const slugify = require("slugify");
 
-function BlogPostCard(props: { post: any }) {
+function BlogPostCard(props: { post: News }) {
   let post = props.post;
   let tagroot = "/blog/tag/";
   if (post.frontmatter.tags == undefined) {
@@ -85,7 +86,7 @@ function EmptyCard() {
   );
 }
 
-function NavCard(props) {
+function NavCard(_props: unknown) {
   const tagList = TagList();
   return (
     <>
@@ -94,21 +95,28 @@ function NavCard(props) {
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>
-              {tagList.map((tag: string) => {
-                return (
-                  <Link
-                    key={tag.slug}
-                    to={tag.slug}
-                    className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
-                  >
-                    {tag.icon}
-                    <span className="truncate">{tag.displayname}</span>
-                    <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
-                      {tag.count}
-                    </span>
-                  </Link>
-                );
-              })}
+              {tagList.map(
+                (tag: {
+                  slug: string;
+                  icon: JSX.Element;
+                  count: string;
+                  displayname: string;
+                }) => {
+                  return (
+                    <Link
+                      key={tag.slug}
+                      to={tag.slug}
+                      className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+                    >
+                      {tag.icon}
+                      <span className="truncate">{tag.displayname}</span>
+                      <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
+                        {tag.count}
+                      </span>
+                    </Link>
+                  );
+                }
+              )}
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
               <Link
                 to="/blog/search"
