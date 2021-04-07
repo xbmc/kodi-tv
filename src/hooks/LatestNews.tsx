@@ -1,6 +1,23 @@
 import { useStaticQuery, graphql } from "gatsby";
 
-export const LatestNews = () => {
+export interface News {
+  excerpt: string;
+  timeToRead: string;
+  fields: { slug: string };
+  frontmatter: {
+    author: string;
+    date: string;
+    tags: string[];
+    featured_image: {
+      alt: string;
+      src: string;
+      title: string;
+    };
+    title: string;
+  };
+}
+
+export function LatestNews(): News[] {
   const { blogPosts } = useStaticQuery(graphql`
     query {
       blogPosts: allMarkdownRemark(
@@ -31,5 +48,5 @@ export const LatestNews = () => {
       }
     }
   `);
-  return blogPosts.edges;
-};
+  return blogPosts.edges.map((item: { node: News }, index: any) => item.node);
+}

@@ -8,7 +8,7 @@ export interface Sponsor {
   body: string;
 }
 
-export const Sponsors = () => {
+export function Sponsors(): Sponsor[] {
   const data = useStaticQuery(graphql`
     query Sponsors {
       allSponsorYaml(sort: { fields: name, order: ASC }) {
@@ -29,4 +29,4 @@ export const Sponsors = () => {
     }
   `);
   return data.allSponsorYaml.edges.map((a: { node: Sponsor }) => a.node);
-};
+}

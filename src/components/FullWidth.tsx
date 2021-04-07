@@ -1,12 +1,17 @@
-import { propTypes } from "gatsby-plugin-image/dist/src/components/gatsby-image.server";
 import React from "react";
 import { BlogPostCard } from "./Blog";
 import { RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import { ImportExport } from "aws-sdk";
-import ItemWithComma from "./ItemWithComma";
+import { Sponsor } from "../hooks/Sponsors";
+import { News } from "../hooks/LatestNews";
 
-function FullWidthCallOut(props) {
+function FullWidthCallOut(props: {
+  backgroundColor?: string;
+  titleTextColor?: string;
+  subtextColor?: string;
+  title: string;
+  children?: boolean | React.ReactChild | React.ReactFragment | React.ReactPortal;
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtextColor = "text-gray-500";
@@ -33,7 +38,15 @@ function FullWidthCallOut(props) {
   );
 }
 
-function FullWidthFeaturesWithIcons(props) {
+function FullWidthFeaturesWithIcons(props: {
+  backgroundColor: string | undefined;
+  foregroundTextColor: string | undefined;
+  foregroundOpacityColor: string | undefined;
+  subtextColor: string | undefined;
+  title: string;
+  description: string;
+  items: any[];
+}) {
   let backgroundColor = "bg-gradient-to-r from-kodi to-kodi-darker";
   let foregroundTextColor = "text-gray-50";
   let foregroundOpacityColor = "bg-gray-50 bg-opacity-10";
@@ -95,7 +108,35 @@ function FullWidthFeaturesWithIcons(props) {
   );
 }
 
-function FullWidthTwoPaneIconsRight(props) {
+function FullWidthTwoPaneIconsRight(props: {
+  backgroundColor: string | undefined;
+  titleTextColor?: string;
+  subtextColor?: string;
+  icon:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  title: string;
+  children:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  url: string;
+  buttontext: string;
+  iconlist:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtextColor = "text-gray-500";
@@ -151,7 +192,45 @@ function FullWidthTwoPaneIconsRight(props) {
   );
 }
 
-function FullWidthTwoPaneImageLeft(props) {
+function FullWidthTwoPaneImageLeft(props: {
+  backgroundColor?: string;
+  titleTextColor?: string;
+  bodyTextColor?: string;
+  icon:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  title:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  children:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  url: string;
+  buttontext:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  image: {
+    src: string | undefined;
+    title: string | undefined;
+    alt: string | undefined;
+  };
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let bodyTextColor = "text-gray-500";
@@ -211,7 +290,11 @@ function FullWidthTwoPaneImageLeft(props) {
   );
 }
 
-function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
+function FullWidthSponsorList(props: {
+  title: string;
+  sponsors: Sponsor[];
+  backgroundColor?: string;
+}) {
   let backgroundColor = "bg-gray-50";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
@@ -243,11 +326,31 @@ function FullWidthSponsorList(props: { title: string; sponsors: Sponsor[] }) {
   );
 }
 
-function FullWidthCTAImageLeft(props) {
+function FullWidthCTAImageLeft(props: {
+  backgroundColor: string | undefined;
+  titleTextColor: string | undefined;
+  bodyTextColor: string | undefined;
+  buttonType: "primary" | "secondary";
+  image: {
+    src: string | undefined;
+    title: string | undefined;
+    alt: string | undefined;
+  };
+  title: string;
+  children:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  url: string;
+  buttontext: string;
+}) {
   let backgroundColor = "bg-gray-800";
   let titleTextColor = "text-gray-50";
   let bodyTextColor = "text-gray-300";
-  let buttonType = "secondary";
+  let buttonType: "primary" | "secondary" = "secondary";
   if (props.backgroundColor != undefined) {
     backgroundColor = props.backgroundColor;
   }
@@ -299,7 +402,14 @@ function FullWidthCTAImageLeft(props) {
   );
 }
 
-function FullWidthNews(props) {
+function FullWidthNews(props: {
+  backgroundColor: string | undefined;
+  titleTextColor?: string;
+  subtitleTextColor?: string;
+  title: string;
+  subtitle: string;
+  news: News[];
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
@@ -341,8 +451,8 @@ function FullWidthNews(props) {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
-            {props.edges.map((edge, index) => (
-              <BlogPostCard post={edge.node} />
+            {props.news.map((news: News, index: any) => (
+              <BlogPostCard post={news} />
             ))}
           </div>
         </div>
@@ -405,7 +515,30 @@ function FullWidthStats(props: {
   );
 }
 
-function FullWidthRoundedCardList(props) {
+function FullWidthRoundedCardList(props: {
+  backgroundColor: string | undefined;
+  titleTextColor?: string;
+  subtitleTextColor?: string;
+  title:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  subtitle:
+    | boolean
+    | React.ReactChild
+    | React.ReactFragment
+    | React.ReactPortal
+    | null
+    | undefined;
+  items: {
+    imgsrc: string;
+    title: string;
+    description: string;
+  }[];
+}) {
   let backgroundColor = "bg-gray-50";
   let titleTextColor = "text-gray-900";
   let subtitleTextColor = "text-gray-500";
@@ -440,16 +573,31 @@ function FullWidthRoundedCardList(props) {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
-            {props.items.map((item, index) => (
-              <RoundedCardWithImage
-                title={item.title}
-                imgsrc={item.imgsrc}
-                imgalt=""
-                imgtitle=""
-              >
-                {item.description}
-              </RoundedCardWithImage>
-            ))}
+            {props.items.map(
+              (
+                item: {
+                  title: any;
+                  imgsrc: any;
+                  description:
+                    | boolean
+                    | React.ReactChild
+                    | React.ReactFragment
+                    | React.ReactPortal
+                    | null
+                    | undefined;
+                },
+                index: any
+              ) => (
+                <RoundedCardWithImage
+                  title={item.title}
+                  imgsrc={item.imgsrc}
+                  imgalt=""
+                  imgtitle=""
+                >
+                  {item.description}
+                </RoundedCardWithImage>
+              )
+            )}
           </div>
         </div>
       </div>
