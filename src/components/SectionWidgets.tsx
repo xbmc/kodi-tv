@@ -68,8 +68,8 @@ function CtaButtonExternal(props: { url: string; buttontext: string }) {
 function AboutOfficialRemotes() {
   return (
     <>
-      <div className="flex justify-start">
-        <div className="flex flex-col items-center">
+      <div className="max-w-xl grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col items-center pb-6 md:pb-0">
           <span>Kore™ (Android)</span>
           <StaticImage
             className="w-200 h-200"
