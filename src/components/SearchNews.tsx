@@ -26,13 +26,6 @@ export default class SearchAddons extends React.Component {
       firstrun: true,
     };
 
-    this.tagOptions = [
-      { value: "Select tag", disabled: false, isPlaceholder: true },
-    ];
-    props.tags.forEach(tag => {
-      this.tagOptions.push({ value: tag, disabled: false });
-    });
-
     this.onClear = () => {
       this.setState({
         tagSelected: null,
@@ -47,10 +40,7 @@ export default class SearchAddons extends React.Component {
 
     this.onTagSelect = event => {
       this.setState({
-        tagSelected:
-          event.target.value === this.tagOptions[0].value
-            ? null
-            : event.target.value,
+        tagSelected: event.target.value === "null" ? null : event.target.value,
       });
     };
 
@@ -71,8 +61,8 @@ export default class SearchAddons extends React.Component {
       let filtered_results = props.posts;
       if (this.state.tagSelected != null) {
         filtered_results = filtered_results.filter(post => {
-          if (post.node.frontmatter.tags != undefined) {
-            if (post.node.frontmatter.tags.includes(this.state.tagSelected)) {
+          if (post.frontmatter.tags != undefined) {
+            if (post.frontmatter.tags.includes(this.state.tagSelected)) {
               return post;
             }
           }
@@ -81,8 +71,8 @@ export default class SearchAddons extends React.Component {
       if (this.state.author != "") {
         const regex = new RegExp("\\b" + this.state.author + "\\b", "i");
         filtered_results = filtered_results.filter(post => {
-          if (post.node.frontmatter.author != undefined) {
-            if (regex.test(post.node.frontmatter.author)) {
+          if (post.frontmatter.author != undefined) {
+            if (regex.test(post.frontmatter.author)) {
               return post;
             }
           }
@@ -91,8 +81,8 @@ export default class SearchAddons extends React.Component {
       if (this.state.keyword != "") {
         const regex = new RegExp("\\b" + this.state.keyword + "\\b", "i");
         filtered_results = filtered_results.filter(post => {
-          if (post.node.rawMarkdownBody != undefined) {
-            if (regex.test(post.node.rawMarkdownBody)) {
+          if (post.rawMarkdownBody != undefined) {
+            if (regex.test(post.rawMarkdownBody)) {
               return post;
             }
           }
@@ -137,8 +127,9 @@ export default class SearchAddons extends React.Component {
                 name="category"
                 className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
               >
-                {this.tagOptions.map((item, index) => (
-                  <option>{item.value}</option>
+                <option value="null">Select a Tag</option>
+                {this.props.tags.map((tag, index) => (
+                  <option value={tag.name}>{tag.displayname}</option>
                 ))}
               </select>
             </div>
@@ -221,7 +212,7 @@ export default class SearchAddons extends React.Component {
           <>
             <div className="mt-12 max-w-lg mx-auto gap-5 grid grid-cols-1 lg:grid-cols-3 lg:max-w-none">
               {this.state.results.map((post, index) => (
-                <BlogPostCard post={post.node} />
+                <BlogPostCard post={post} />
               ))}
             </div>
           </>
