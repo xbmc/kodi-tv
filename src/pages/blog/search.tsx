@@ -9,17 +9,13 @@ export default function AddonSearchPage({ data, pageContext, location }) {
     title: "News Search",
     breadcrumbs: "News | Search",
   };
-  let tags = [];
-  let tagList = TagList();
-  for (let i = 0; i < tagList.length; i++) {
-    if (tagList[i].insearch) {
-      tags.push(tagList[i].name);
-    }
-  }
 
   return (
     <DefaultLayout frontmatter={frontmatter}>
-      <SearchNews posts={data.blogPosts.edges} tags={tags} />
+      <SearchNews
+        posts={data.blogPosts.nodes}
+        tags={TagList().filter(a => a.insearch)}
+      />
     </DefaultLayout>
   );
 }
@@ -31,26 +27,24 @@ export const pageQuery = graphql`
       sort: { fields: frontmatter___date, order: DESC }
       limit: 1000
     ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            author
-            date(formatString: "MMMM DD, YYYY")
-            featured_image {
-              alt
-              src
-              title
-            }
-            tags
+      nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          author
+          date(formatString: "MMMM DD, YYYY")
+          featured_image {
+            alt
+            src
             title
           }
-          rawMarkdownBody
-          timeToRead
-          excerpt
+          tags
+          title
         }
+        rawMarkdownBody
+        timeToRead
+        excerpt
       }
     }
   }
