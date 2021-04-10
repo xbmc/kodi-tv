@@ -158,13 +158,13 @@ const mainMenu: MenuEntry[] = [
         url: "https://webchat.freenode.net/#kodi",
         svg: <Icons.ChatAltOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
         description:
-          "Join us on irc.freenode.org/kodi or use this menu link to join the channel via the web. Registration required.",
+          "Join us on FreeNode or use this menu link to join the channel via the web. Registration required.",
       },
       {
-        title: "Matrix.to",
+        title: "Matrix",
         url: "https://matrix.to/#/#kodi:matrix.org",
         svg: <Icons.ChatAltOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
-        description: "Get help from team members hanging out in matrix.to.",
+        description: "Get help from team members hanging out in Matrix.",
       },
     ],
   },

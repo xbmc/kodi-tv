@@ -21,7 +21,7 @@ function GetFrontMatter(props: {
 }
 
 function DefaultLayout(props: {
-  preview: boolean | undefined;
+  preview?: boolean;
   children:
     | boolean
     | React.ReactChild
