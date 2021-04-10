@@ -25,28 +25,26 @@ export function LatestNews(): News[] {
         filter: { fields: { collection: { eq: "blog" } } }
         limit: 3
       ) {
-        edges {
-          node {
-            excerpt(pruneLength: 300)
-            timeToRead
-            fields {
-              slug
-            }
-            frontmatter {
-              author
-              date(formatString: "MMMM DD, YYYY")
-              tags
-              featured_image {
-                alt
-                src
-                title
-              }
+        nodes {
+          excerpt(pruneLength: 300)
+          timeToRead
+          fields {
+            slug
+          }
+          frontmatter {
+            author
+            date(formatString: "MMMM DD, YYYY")
+            tags
+            featured_image {
+              alt
+              src
               title
             }
+            title
           }
         }
       }
     }
   `);
-  return blogPosts.edges.map((item: { node: News }, index: any) => item.node);
+  return blogPosts.nodes;
 }

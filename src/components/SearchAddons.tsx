@@ -91,7 +91,7 @@ export default class SearchAddons extends React.Component {
       { value: "Select category", disabled: false, isPlaceholder: true },
     ];
     props.categories.forEach(category => {
-      this.categoryOptions.push({ value: category.node.name, disabled: false });
+      this.categoryOptions.push({ value: category.name, disabled: false });
     });
 
     this.sortOptions = [

@@ -7,16 +7,11 @@ function IconListFeatured(props: {
   className: string | undefined;
   linkroot: string | undefined;
 }) {
-  let items = [];
+  let items = props.items;
   let linkroot = "";
   let className = "my-6 max-w-none mx-auto gap-5 grid md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
     return "";
-  }
-  if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node));
-  } else {
-    items = props.items;
   }
   if (props.className !== undefined) {
     className = props.className;
@@ -66,12 +61,7 @@ function IconList(props: {
   if (props.items.length == 0) {
     return "";
   }
-  let items: {
-    icon: string;
-    node?: any;
-    slug?: string;
-    name?: string;
-  }[] = [];
+  let items = props.items;
   let linkroot = "";
   let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   let iconwidth = "150";
@@ -84,11 +74,6 @@ function IconList(props: {
   }
   if (props.iconheight !== undefined) {
     iconheight = props.iconheight;
-  }
-  if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node));
-  } else {
-    items = props.items;
   }
   if (props.linkroot !== undefined) {
     linkroot = props.linkroot;

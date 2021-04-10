@@ -15,7 +15,7 @@ export default function Page({ data, pageContext, location }) {
     <>
       <DefaultLayout frontmatter={frontmatter}>
         <AddonPageSubMenu linkroot={linkroot} />
-        <ListTopAuthors authors={data.allAuthor.edges} />
+        <ListTopAuthors linkroot={linkroot} authors={data.allAuthor.nodes} />
       </DefaultLayout>
     </>
   );
@@ -24,16 +24,14 @@ export default function Page({ data, pageContext, location }) {
 export const pageQuery = graphql`
   query {
     allAuthor: allMatrixAuthor(
-      limit: 28
+      limit: 20
       sort: { fields: [totaladdons, name], order: [DESC, ASC] }
     ) {
-      edges {
-        node {
-          name
-          slug
-          icon
-          totaladdons
-        }
+      nodes {
+        name
+        slug
+        icon
+        totaladdons
       }
     }
   }

@@ -16,7 +16,7 @@ export default function AddonSearchPage({ data, pageContext, location }) {
       <AddonPageSubMenu linkroot={linkroot} />
       <SearchAddons
         addons={data.allAddon.nodes}
-        categories={data.allCategory.edges}
+        categories={data.allCategory.nodes}
         linkroot={linkroot}
       />
     </DefaultLayout>
@@ -45,10 +45,8 @@ export const pageQuery = graphql`
       }
     }
     allCategory: allLeiaCategory(sort: { fields: name, order: ASC }) {
-      edges {
-        node {
-          name
-        }
+      nodes {
+        name
       }
     }
   }
