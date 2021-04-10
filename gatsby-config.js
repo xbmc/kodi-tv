@@ -82,11 +82,9 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, blogPosts } }) => {
-              let post = {};
               let featuredImageHtml = "";
               let fi = {};
-              return blogPosts.edges.map(edge => {
-                post = edge.node;
+              return blogPosts.nodes.map(post => {
                 fi = post.frontmatter.featured_image;
                 if (fi != undefined) {
                   imgSrc = site.siteMetadata.siteUrl + fi.src;
@@ -119,21 +117,19 @@ module.exports = {
                   filter: {fields: {collection: {eq: "blog"}}}
                   limit: 20
                 ) {
-                  edges {
-                    node {
-                      excerpt
-                      html
-                      fields { slug }
-                      frontmatter {
+                  nodes {
+                    excerpt
+                    html
+                    fields { slug }
+                    frontmatter {
+                      title
+                      date
+                      author
+                      tags
+                      featured_image {
+                        src
                         title
-                        date
-                        author
-                        tags
-                        featured_image {
-                          src
-                          title
-                          alt
-                        }
+                        alt
                       }
                     }
                   }

@@ -37,11 +37,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       Pages: allMarkdownRemark(
         filter: { fields: { collection: { eq: "pagesrc" } } }
       ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
+        nodes {
+          fields {
+            slug
           }
         }
       }
@@ -53,12 +51,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  pageresults.data.Pages.edges.forEach(({ node }) => {
+  pageresults.data.Pages.nodes.forEach(page => {
     createPage({
-      path: node.fields.slug,
+      path: page.fields.slug,
       component: pageTemplate,
       context: {
-        slug: node.fields.slug,
+        slug: page.fields.slug,
       },
     });
   });
@@ -72,14 +70,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         filter: { fields: { collection: { eq: "blog" } } }
         limit: 1000
       ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              tags
-            }
+        nodes {
+          fields {
+            slug
+          }
+          frontmatter {
+            tags
           }
         }
       }
@@ -91,19 +87,20 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  blogresults.data.blogPosts.edges.forEach(({ node }) => {
+  let posts = blogresults.data.blogPosts.nodes;
+  posts.forEach(post => {
     createPage({
-      path: node.fields.slug,
+      path: post.fields.slug,
       component: blogPostTemplate,
       context: {
-        slug: node.fields.slug,
+        slug: post.fields.slug,
       },
     });
   });
 
   paginate({
     createPage,
-    items: blogresults.data.blogPosts.edges,
+    items: posts,
     itemsPerPage: 20,
     pathPrefix: ({ pageNumber, numberOfPages }) =>
       pageNumber === 0 ? "/blog" : "/blog/page",
@@ -124,14 +121,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
     return;
   }
+
+  let tags = tagresults.data.blogTags.distinct;
   let tagSlug = "";
-  tagresults.data.blogTags.distinct.forEach(tag => {
+  tags.forEach(tag => {
     tagSlug = slugify(tag, { lower: true });
     paginate({
       createPage,
-      items: blogresults.data.blogPosts.edges.filter(post => {
-        if (post.node.frontmatter.tags != undefined) {
-          if (post.node.frontmatter.tags.includes(tag)) {
+      items: posts.filter(post => {
+        if (post.frontmatter.tags != undefined) {
+          if (post.frontmatter.tags.includes(tag)) {
             return post;
           }
         }
@@ -148,10 +147,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixaddonresults = await graphql(`
     query MyQuery {
       allMatrixAddon {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -162,12 +159,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
+  matrixaddonresults.data.allMatrixAddon.nodes.forEach(addon => {
     createPage({
-      path: "addons/matrix/" + node.slug,
+      path: "addons/matrix/" + addon.slug,
       component: path.resolve(`src/templates/matrix/addon.tsx`),
       context: {
-        slug: node.slug,
+        slug: addon.slug,
       },
     });
   });
@@ -175,10 +172,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixcategoryresults = await graphql(`
     query MyQuery {
       allMatrixCategory {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -191,12 +186,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  matrixcategoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
+  matrixcategoryresults.data.allMatrixCategory.nodes.forEach(category => {
     createPage({
-      path: "addons/matrix/category/" + node.slug,
+      path: "addons/matrix/category/" + category.slug,
       component: path.resolve(`src/templates/matrix/category.tsx`),
       context: {
-        slug: node.slug,
+        slug: category.slug,
       },
     });
   });
@@ -204,10 +199,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixauthorresults = await graphql(`
     query MyQuery {
       allMatrixAuthor {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -218,12 +211,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  matrixauthorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
+  matrixauthorresults.data.allMatrixAuthor.nodes.forEach(author => {
     createPage({
-      path: "addons/matrix/author/" + node.slug,
+      path: "addons/matrix/author/" + author.slug,
       component: path.resolve(`src/templates/matrix/author.tsx`),
       context: {
-        slug: node.slug,
+        slug: author.slug,
       },
     });
   });
@@ -233,10 +226,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiaaddonresults = await graphql(`
     query MyQuery {
       allLeiaAddon {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -247,12 +238,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
+  leiaaddonresults.data.allLeiaAddon.nodes.forEach(addon => {
     createPage({
-      path: "addons/leia/" + node.slug,
+      path: "addons/leia/" + addon.slug,
       component: path.resolve(`src/templates/leia/addon.tsx`),
       context: {
-        slug: node.slug,
+        slug: addon.slug,
       },
     });
   });
@@ -260,10 +251,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiacategoryresults = await graphql(`
     query MyQuery {
       allLeiaCategory {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -274,12 +263,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  leiacategoryresults.data.allLeiaCategory.edges.forEach(({ node }) => {
+  leiacategoryresults.data.allLeiaCategory.nodes.forEach(category => {
     createPage({
-      path: "addons/leia/category/" + node.slug,
+      path: "addons/leia/category/" + category.slug,
       component: path.resolve(`src/templates/leia/category.tsx`),
       context: {
-        slug: node.slug,
+        slug: category.slug,
       },
     });
   });
@@ -287,10 +276,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiaauthorresults = await graphql(`
     query MyQuery {
       allLeiaAuthor {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
@@ -301,12 +288,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  leiaauthorresults.data.allLeiaAuthor.edges.forEach(({ node }) => {
+  leiaauthorresults.data.allLeiaAuthor.nodes.forEach(author => {
     createPage({
-      path: "addons/leia/author/" + node.slug,
+      path: "addons/leia/author/" + author.slug,
       component: path.resolve(`src/templates/leia/author.tsx`),
       context: {
-        slug: node.slug,
+        slug: author.slug,
       },
     });
   });
@@ -315,10 +302,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const distresults = await graphql(`
     query MyQuery {
       allDistributionYaml {
-        edges {
-          node {
-            name
-          }
+        nodes {
+          name
         }
       }
     }
@@ -329,12 +314,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  distresults.data.allDistributionYaml.edges.forEach(({ node }) => {
+  distresults.data.allDistributionYaml.nodes.forEach(dist => {
     createPage({
-      path: "download/" + slugify(node.name, { lower: true }),
+      path: "download/" + slugify(dist.name, { lower: true }),
       component: path.resolve(`src/templates/distribution.tsx`),
       context: {
-        name: node.name,
+        name: dist.name,
       },
     });
   });

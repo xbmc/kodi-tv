@@ -11,26 +11,24 @@ export default function Page({ data, pageContext, location }) {
       <DefaultLayout frontmatter={frontmatter}>
         Here are some of our recent donors. Thanks for your support!
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {data.Donors.edges.map((donor, index) => (
+          {data.Donors.nodes.map((donor, index) => (
             <FeaturedCard
-              title={
-                donor.node.publicName == "" ? "Anonymous" : donor.node.publicName
-              }
+              title={donor.publicName == "" ? "Anonymous" : donor.publicName}
               icon={
                 <UserCircleOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
               }
             >
-              {(donor.node.currency == "usd" ||
-              donor.node.currency == "cad" ||
-              donor.node.currency == "aud"
+              {(donor.currency == "usd" ||
+              donor.currency == "cad" ||
+              donor.currency == "aud"
                 ? "$"
                 : "") +
-                (donor.node.currency == "eur" ? "€" : "") +
-                (donor.node.currency == "gbp" ? "£" : "") +
-                (donor.node.currency == "jpy" ? "¥" : "") +
-                donor.node.amount.toString() +
+                (donor.currency == "eur" ? "€" : "") +
+                (donor.currency == "gbp" ? "£" : "") +
+                (donor.currency == "jpy" ? "¥" : "") +
+                donor.amount.toString() +
                 " " +
-                donor.node.currency.toUpperCase()}
+                donor.currency.toUpperCase()}
             </FeaturedCard>
           ))}
         </div>
@@ -45,12 +43,10 @@ export const pageQuery = graphql`
       filter: { provider: { ne: "none" } }
       sort: { fields: createdAt, order: DESC }
     ) {
-      edges {
-        node {
-          amount
-          currency
-          publicName
-        }
+      nodes {
+        amount
+        currency
+        publicName
       }
     }
   }
