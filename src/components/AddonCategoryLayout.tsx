@@ -1,6 +1,6 @@
 import React from "react";
 import { DefaultLayout } from "./Layout";
-import { IconList } from "./IconList";
+import { IconListFeatured } from "./IconList";
 import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
 export default function AddonCategoryLayout({ repo, data }) {
@@ -16,7 +16,7 @@ export default function AddonCategoryLayout({ repo, data }) {
       <AddonPageSubMenu linkroot={linkroot} />
       <h2 className="font-bold text-2xl">{category.name}</h2>
       <p>This category has {category.totaladdons} addons in it.</p>
-      <IconList items={category.addons} linkroot={linkroot} />
+      <IconListFeatured items={category.addons} linkroot={linkroot} />
     </DefaultLayout>
   );
 }
