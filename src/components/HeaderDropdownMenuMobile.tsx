@@ -3,15 +3,14 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { ChevronDown, ChevronUp } from "heroicons-react";
 import { MenuEntry } from "./Header";
-import { Link } from "gatsby";
 
 function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   return (
     <>
       <div className="relative">
-        <Link
-          to="#"
+        <a
+          href="#"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
         >
@@ -25,7 +24,7 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
               )}
             </div>
           </div>
-        </Link>
+        </a>
         <Transition
           show={isDropdownOpen}
           enter="transition ease-out duration-200"
