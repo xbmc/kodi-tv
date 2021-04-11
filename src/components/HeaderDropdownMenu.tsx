@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { ChevronDown, ChevronUp } from "heroicons-react";
 import { MenuEntry } from "./Header";
-import { Link } from "gatsby";
 
 function HeaderDropdownMenu(props: { menu: MenuEntry }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -13,14 +12,14 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
         <button
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           type="button"
-          className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium focus:outline-none"
+          className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 pl-3 pr-2 py-2 rounded-md text-sm font-medium focus:outline-none"
           aria-expanded="false"
         >
           <span>{props.menu.title}</span>
           {isDropdownOpen ? (
-            <ChevronUp className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" />
+            <ChevronUp className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
           ) : (
-            <ChevronDown className="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" />
+            <ChevronDown className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
           )}
         </button>
         <Transition show={isDropdownOpen}>
@@ -28,9 +27,9 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
             <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="relative grid gap-6 bg-gray-50 px-5 py-6 sm:gap-8 sm:p-8">
                 {props.menu.dropdown?.map((item, index) => (
-                  <Link
+                  <a
                     key={item.url}
-                    to={item.url!}
+                    href={item.url!}
                     className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
                   >
                     {item.svg}
@@ -42,7 +41,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                         {item.description}
                       </p>
                     </div>
-                  </Link>
+                  </a>
                 ))}
                 {props.menu.footer === null ? (
                   ""

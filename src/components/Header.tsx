@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import SEO from "./Seo";
-import Social from "./Social";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import * as Icons from "heroicons-react";
@@ -169,6 +168,13 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
+    title: "Github",
+    buttonType: regularButton,
+    url: "https://github.com/xbmc",
+    dropdown: null,
+    footer: null,
+  },
+  {
     title: "Donate",
     buttonType: specialButton,
     url: "/donate",
@@ -211,13 +217,13 @@ function Header(props: any) {
                     <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map((item, index) =>
                         item.dropdown == null && item.url ? (
-                          <Link
+                          <a
                             key={item.url}
-                            to={item.url}
+                            href={item.url}
                             className={item.buttonType}
                           >
                             {item.title}
-                          </Link>
+                          </a>
                         ) : (
                           <HeaderDropdownMenu key={item.url} menu={item} />
                         )
@@ -248,13 +254,13 @@ function Header(props: any) {
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {mainMenu.map((item, index) =>
                     item.dropdown == null && item.url ? (
-                      <Link
-                        to={item.url}
+                      <a
+                        href={item.url}
                         key={item.url}
                         className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
                       >
                         {item.title}
-                      </Link>
+                      </a>
                     ) : (
                       <HeaderDropdownMenuMobile key={item.url} menu={item} />
                     )

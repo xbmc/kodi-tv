@@ -37,13 +37,13 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {props.menu.dropdown?.map((item, index) => (
-              <Link
+              <a
                 key={item.url}
-                to={item.url!}
+                href={item.url!}
                 className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
         </Transition>
