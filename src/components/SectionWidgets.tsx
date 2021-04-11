@@ -349,7 +349,7 @@ function AboutGallery() {
           imgtitle=""
         >
           With support for{" "}
-          <a className="underline" to="http://kodi.wiki/view/Remote_controls">
+          <a className="underline" href="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
           </a>
           , CEC-compatible TVs, or one of the{" "}
