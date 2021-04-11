@@ -349,9 +349,9 @@ function AboutGallery() {
           imgtitle=""
         >
           With support for{" "}
-          <Link className="underline" to="http://kodi.wiki/view/Remote_controls">
+          <a className="underline" to="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
-          </Link>
+          </a>
           , CEC-compatible TVs, or one of the{" "}
           <Link className="underline" to="/about/software">
             new Smartphone and Tablet Apps
