@@ -41,7 +41,9 @@ function SEO({ description, lang, meta, keywords, frontmatter }) {
             : []
         )
         .concat(meta)}
-    ></Helmet>
+    >
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    </Helmet>
   );
 }
 
