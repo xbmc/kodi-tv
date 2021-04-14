@@ -212,16 +212,6 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noopener"
-                        href="https://www.github.com/xbmc"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        GitHub
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
                         href="/rss.xml"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >

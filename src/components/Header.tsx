@@ -24,20 +24,15 @@ export interface DropDownItem {
 
 let regularButton =
   "text-gray-100 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
-let specialButton =
+let primaryButton =
   "text-gray-100 bg-kodi-darker hover:bg-kodi hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
+let secondaryButton =
+  "text-gray-100 bg-kodibg-lighter hover:bg-kodibg-darker hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
 
 const mainMenu: MenuEntry[] = [
   {
     title: "News",
     url: "/blog",
-    buttonType: regularButton,
-    dropdown: null,
-    footer: null,
-  },
-  {
-    title: "Download",
-    url: "/download",
     buttonType: regularButton,
     dropdown: null,
     footer: null,
@@ -175,8 +170,15 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    title: "Download",
+    url: "/download",
+    buttonType: primaryButton,
+    dropdown: null,
+    footer: null,
+  },
+  {
     title: "Donate",
-    buttonType: specialButton,
+    buttonType: primaryButton,
     url: "/donate",
     dropdown: null,
     footer: null,
