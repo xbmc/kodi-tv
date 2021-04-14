@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "../../components/Layout";
 import { FeaturedCard } from "../../components/Card";
-import { UserCircleOutline } from "heroicons-react";
+import { UserCircleIcon } from "@heroicons/react/outline";
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Recent Donors", breadcrumbs: "Donors | Wall" };
@@ -15,7 +15,7 @@ export default function Page({ data, pageContext, location }) {
             <FeaturedCard
               title={donor.publicName == "" ? "Anonymous" : donor.publicName}
               icon={
-                <UserCircleOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
+                <UserCircleIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />
               }
             >
               {(donor.currency == "usd" ||

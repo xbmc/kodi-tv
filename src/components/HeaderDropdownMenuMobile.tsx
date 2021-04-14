@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { ChevronDown, ChevronUp } from "heroicons-react";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
 import { MenuEntry } from "./Header";
 
 function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
@@ -18,9 +18,9 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
             <div className="flex-grow">{props.menu.title}</div>
             <div className="flex-none">
               {isDropdownOpen ? (
-                <ChevronUp className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
+                <ChevronUpIcon className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               ) : (
-                <ChevronDown className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
+                <ChevronDownIcon className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               )}
             </div>
           </div>

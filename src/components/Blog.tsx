@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
 import { TagList } from "../hooks/TagList";
-import { SearchOutline } from "heroicons-react";
+import { SearchIcon } from "@heroicons/react/outline";
 import { News } from "../hooks/LatestNews";
 
 const slugify = require("slugify");
@@ -98,7 +98,7 @@ function NavCard(_props: unknown) {
               {tagList.map(
                 (tag: {
                   slug: string;
-                  icon: JSX.Element;
+                  icon: any;
                   count: string;
                   displayname: string;
                 }) => {
@@ -108,7 +108,7 @@ function NavCard(_props: unknown) {
                       to={tag.slug}
                       className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                     >
-                      {tag.icon}
+                      <tag.icon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                       <span className="truncate">{tag.displayname}</span>
                       <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
                         {tag.count}
@@ -122,7 +122,7 @@ function NavCard(_props: unknown) {
                 to="/blog/search"
                 className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
-                <SearchOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
+                <SearchIcon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>
               </Link>
             </nav>

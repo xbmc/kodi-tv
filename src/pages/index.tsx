@@ -1,5 +1,5 @@
 import React from "react";
-import * as Icons from "heroicons-react";
+import { SparklesIcon, DownloadIcon } from "@heroicons/react/outline";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
@@ -12,7 +12,6 @@ import {
   FullWidthTwoPaneIconsRight,
   FullWidthTwoPaneImageLeft,
   FullWidthSponsorList,
-  FullWidthCTAImageLeft,
   FullWidthNews,
   FullWidthStats,
   FullWidthRoundedCardList,
@@ -153,7 +152,7 @@ function Page() {
       </div>
 
       <FullWidthTwoPaneImageLeft
-        icon={<Icons.SparklesOutline className="h-6 w-6 text-gray-50" />}
+        icon={<SparklesIcon className="h-6 w-6 text-gray-50" />}
         title="But wait, there's more!"
         url="/about"
         buttontext="Show me all the good bits"
@@ -171,7 +170,7 @@ function Page() {
 
       <FullWidthTwoPaneIconsRight
         backgroundColor="bg-gray-100"
-        icon={<Icons.DownloadOutline className="h-6 w-6 text-gray-50" />}
+        icon={<DownloadIcon className="h-6 w-6 text-gray-50" />}
         title="Kodi runs on just about anything"
         url="/download"
         buttontext="Download Now"

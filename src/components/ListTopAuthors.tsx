@@ -1,6 +1,6 @@
 import React from "react";
 import { FeaturedCard } from "./Card";
-import { UserCircleOutline } from "heroicons-react";
+import { UserCircleIcon } from "@heroicons/react/outline";
 
 export default function AuthorList(props: { authors: any[] }) {
   let authors = props.authors;
@@ -14,7 +14,7 @@ export default function AuthorList(props: { authors: any[] }) {
             <FeaturedCard
               title={author.name}
               icon={
-                <UserCircleOutline className="flex-shrink-0 h-6 w-6 text-gray-50" />
+                <UserCircleIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />
               }
               url={linkroot + author.slug}
             >

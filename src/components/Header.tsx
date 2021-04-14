@@ -4,7 +4,18 @@ import { Transition } from "@headlessui/react";
 import SEO from "./Seo";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
-import * as Icons from "heroicons-react";
+import { XIcon, MenuIcon } from "@heroicons/react/solid";
+import {
+  InformationCircleIcon,
+  CloudDownloadIcon,
+  CashIcon,
+  ChipIcon,
+  InboxInIcon,
+  DocumentTextIcon,
+  CodeIcon,
+  ChatAltIcon,
+  ChatAlt2Icon,
+} from "@heroicons/react/outline";
 import { Link } from "gatsby";
 
 export interface MenuEntry {
@@ -18,7 +29,7 @@ export interface MenuEntry {
 export interface DropDownItem {
   title: string;
   url: string | undefined;
-  svg: JSX.Element | null;
+  icon: JSX.Element | null;
   description: string | null;
 }
 
@@ -47,25 +58,19 @@ const mainMenu: MenuEntry[] = [
       {
         title: "About Add-ons",
         url: "/addons",
-        svg: (
-          <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
+        icon: InformationCircleIcon,
         description: "Find out how add-ons expand and enhance the Kodi experience.",
       },
       {
         title: "Matrix Add-ons",
         url: "/addons/matrix",
-        svg: (
-          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
+        icon: CloudDownloadIcon,
         description: "Add-ons for Kodi 19, the latest and greatest version of Kodi.",
       },
       {
         title: "Leia Add-ons",
         url: "/addons/leia",
-        svg: (
-          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
+        icon: CloudDownloadIcon,
         description:
           "Add-ons for Kodi 18, the most recent previous version of Kodi.",
       },
@@ -87,27 +92,25 @@ const mainMenu: MenuEntry[] = [
       {
         title: "About Kodi",
         url: "/about",
-        svg: (
-          <Icons.InformationCircleOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
+        icon: InformationCircleIcon,
         description: "Find out everything Kodi can do for you.",
       },
       {
         title: "Sponsors",
         url: "/about/sponsors",
-        svg: <Icons.CashOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: CashIcon,
         description: "A list of companies supporting the work we do.",
       },
       {
         title: "Software",
         url: "/about/software",
-        svg: <Icons.ChipOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: ChipIcon,
         description: "Information about the suite of software we offer.",
       },
       {
         title: "Contact",
         url: "/about/contact",
-        svg: <Icons.InboxInOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: InboxInIcon,
         description:
           "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
       },
@@ -129,35 +132,33 @@ const mainMenu: MenuEntry[] = [
       {
         title: "Wiki",
         url: "https://kodi.wiki",
-        svg: (
-          <Icons.DocumentTextOutline className="flex-shrink-0 h-6 w-6 text-kodi" />
-        ),
+        icon: DocumentTextIcon,
         description: "Our user documentation and how-to guides.",
       },
       {
         title: "Developer Resources",
         url: "https://docs.kodi.tv",
-        svg: <Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: CodeIcon,
         description:
           "Documentation, including information for skin development and interfaces for Python and C++ .",
       },
       {
         title: "Forum",
         url: "https://forum.kodi.tv",
-        svg: <Icons.ChatAlt2Outline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: ChatAlt2Icon,
         description: "Our user forum for asking questions and finding answers.",
       },
       {
         title: "IRC",
         url: "https://webchat.freenode.net/#kodi",
-        svg: <Icons.ChatAltOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: ChatAltIcon,
         description:
           "Join us on FreeNode or use this menu link to join the channel via the web. Registration required.",
       },
       {
         title: "Matrix",
         url: "https://matrix.to/#/#kodi:matrix.org",
-        svg: <Icons.ChatAltOutline className="flex-shrink-0 h-6 w-6 text-kodi" />,
+        icon: ChatAltIcon,
         description: "Get help from team members hanging out in Matrix.",
       },
     ],
@@ -198,7 +199,6 @@ function Header(props: any) {
   return (
     <>
       <SEO frontmatter={props.frontmatter} />
-
       <div className={mainclassname}>
         <nav className="bg-kodibg">
           <div className="max-w-7xl mx-auto px-2 lg:px-6">
@@ -243,9 +243,9 @@ function Header(props: any) {
                   >
                     <span className="sr-only">Open main menu</span>
                     {isHamburgerOpen ? (
-                      <Icons.X className="block h-6 w-6" />
+                      <XIcon className="block h-6 w-6" />
                     ) : (
-                      <Icons.Menu className="block h-6 w-6" />
+                      <MenuIcon className="block h-6 w-6" />
                     )}
                   </button>
                 </div>

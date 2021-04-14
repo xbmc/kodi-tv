@@ -1,16 +1,16 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import {
-  CodeOutline,
-  DownloadOutline,
-  FlagOutline,
-  FolderDownloadOutline,
-  NewspaperOutline,
-  PresentationChartBarOutline,
-  TagOutline,
-  TicketOutline,
-  UsersOutline,
-} from "heroicons-react";
+  CodeIcon,
+  DownloadIcon,
+  FlagIcon,
+  FolderDownloadIcon,
+  NewspaperIcon,
+  PresentationChartBarIcon,
+  TagIcon,
+  TicketIcon,
+  UsersIcon,
+} from "@heroicons/react/outline";
 
 const slugify = require("slugify");
 
@@ -41,9 +41,7 @@ export const TagList = () => {
       name: "All News",
       displayname: "All News",
       slug: "/blog",
-      icon: (
-        <NewspaperOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-      ),
+      icon: NewspaperIcon,
       count: posts.length,
       insearch: false,
     },
@@ -56,51 +54,35 @@ export const TagList = () => {
       name: tags[i],
       displayname: tags[i],
       slug: "/blog/tag/" + slugify(tags[i], { lower: true }),
-      icon: (
-        <TagOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-      ),
+      icon: TagIcon,
       count: taggedPosts.filter(a => a.frontmatter.tags.includes(tags[i])).length,
       insearch: true,
     };
     switch (tags[i]) {
       case "Community":
         oneTag.displayname = "Community Updates";
-        oneTag.icon = (
-          <UsersOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.icon = UsersIcon;
         break;
       case "Conferences":
-        oneTag["icon"] = (
-          <TicketOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.icon = TicketIcon;
         break;
       case "DevCon":
-        oneTag["icon"] = (
-          <FlagOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.icon = FlagIcon;
         break;
       case "Deep Dives":
-        oneTag["icon"] = (
-          <PresentationChartBarOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.icon = PresentationChartBarIcon;
         break;
       case "Developer":
-        oneTag["displayname"] = "Developer Updates";
-        oneTag["icon"] = (
-          <CodeOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.displayname = "Developer Updates";
+        oneTag.icon = CodeIcon;
         break;
       case "Prerelease":
-        oneTag["displayname"] = "Prerelease Announcements";
-        oneTag["icon"] = (
-          <FolderDownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.displayname = "Prerelease Announcements";
+        oneTag.icon = FolderDownloadIcon;
         break;
       case "Release":
-        oneTag["displayname"] = "Release Announcements";
-        oneTag["icon"] = (
-          <DownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
+        oneTag.displayname = "Release Announcements";
+        oneTag.icon = DownloadIcon;
         break;
     }
     if (oneTag.name == "April Fools") {

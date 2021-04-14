@@ -1,13 +1,13 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {
-  InformationCircleOutline,
-  TruckOutline,
-  TagOutline,
-  ClockOutline,
-  UserOutline,
-  UsersOutline,
-} from "heroicons-react";
+  InformationCircleIcon,
+  TruckIcon,
+  TagIcon,
+  ClockIcon,
+  UserIcon,
+  UsersIcon,
+} from "@heroicons/react/outline";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
@@ -30,9 +30,9 @@ export default function AddonLayout({
   };
   let slides: string[] = [];
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
-  let authoricon = <UserOutline className="h-5 w-5 text-kodi" />;
+  let authoricon = <UserIcon className="h-5 w-5 text-kodi" />;
   if (addon.authors.length > 1) {
-    authoricon = <UsersOutline className="h-5 w-5 text-kodi" />;
+    authoricon = <UsersIcon className="h-5 w-5 text-kodi" />;
   }
   if (addon.screenshots != null) {
     addon.screenshots.forEach((screenshot: { localpath: string }) => {
@@ -102,13 +102,13 @@ export default function AddonLayout({
           <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm">
             <div className="inline-flex">
               <div className="pr-1">
-                <TruckOutline className="h-5 w-5 text-kodi" />
+                <TruckIcon className="h-5 w-5 text-kodi" />
               </div>
               <div className="pr-4">{addon.version}</div>
             </div>
             <div className="inline-flex">
               <div className="pr-1">
-                <ClockOutline className="h-5 w-5 text-kodi" />
+                <ClockIcon className="h-5 w-5 text-kodi" />
               </div>
               <div className="pr-4">{addon.lastupdate}</div>
             </div>
@@ -133,7 +133,7 @@ export default function AddonLayout({
           </div>
           <div className="mt-2 inline-flex text-sm">
             <div className="pr-1">
-              <TagOutline className="h-5 w-5 text-kodi" />
+              <TagIcon className="h-5 w-5 text-kodi" />
             </div>
             <div>
               {addon.categories.map(
@@ -156,7 +156,7 @@ export default function AddonLayout({
       <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-kodi-darker p-4">
         <div className="flex">
           <div className="flex-shrink-0">
-            <InformationCircleOutline className="h-5 w-5 text-kodi-darker" />
+            <InformationCircleIcon className="h-5 w-5 text-kodi-darker" />
           </div>
           <div className="ml-3">
             <p className="text-sm text-kodi-darker">
