@@ -12,6 +12,7 @@ export const pageQuery = graphql`
   query($slug: String!) {
     blogPost: markdownRemark(fields: { slug: { eq: $slug } }) {
       rawMarkdownBody
+      excerpt(pruneLength: 300)
       timeToRead
       frontmatter {
         author

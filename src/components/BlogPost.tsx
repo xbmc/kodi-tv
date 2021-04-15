@@ -15,11 +15,14 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
   let frontmatter = {
     title: blogPost.frontmatter.title,
     breadcrumbs: "News | " + blogPost.frontmatter.title,
+    description: blogPost.excerpt,
   };
   let showimage = true;
   if (blogPost.frontmatter.featured_image == undefined) {
     blogPost.frontmatter.featured_image = { title: "", src: "", alt: "" };
     showimage = false;
+  } else {
+    frontmatter.image = blogPost.frontmatter.featured_image.src;
   }
   if (blogPost.frontmatter.tags == undefined) {
     blogPost.frontmatter.tags = [];
