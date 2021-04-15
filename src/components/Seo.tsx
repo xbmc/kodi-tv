@@ -5,16 +5,18 @@ const config = require("/gatsby-site-config");
 
 function SEO({ lang, meta, keywords, frontmatter }) {
   let breadcrumbs = config.siteMetadata.title;
+  let shortcrumbs = breadcrumbs;
   let description = config.siteMetadata.description;
-  let image = "/images/kodi_og_default.webp";
+  let image = config.siteMetadata.siteUrl + "/images/kodi_og_default.webp";
   if (frontmatter.breadcrumbs != undefined) {
     breadcrumbs = breadcrumbs + " | " + frontmatter.breadcrumbs;
+    shortcrumbs = frontmatter.breadcrumbs;
   }
   if (frontmatter.description != undefined) {
     description = frontmatter.description;
   }
   if (frontmatter.image != undefined) {
-    image = frontmatter.image;
+    image = config.siteMetadata.siteUrl + frontmatter.image;
   }
   return (
     <Helmet
@@ -29,18 +31,18 @@ function SEO({ lang, meta, keywords, frontmatter }) {
         },
         {
           property: "og:title",
-          content: breadcrumbs,
+          content: shortcrumbs,
         },
         {
-          property: "twitter:title",
-          content: breadcrumbs,
+          name: "twitter:title",
+          content: shortcrumbs,
         },
         {
           property: "og:description",
           content: description,
         },
         {
-          property: "twitter:description",
+          name: "twitter:description",
           content: description,
         },
         {
@@ -48,8 +50,20 @@ function SEO({ lang, meta, keywords, frontmatter }) {
           content: image,
         },
         {
-          property: "twitter:image",
+          name: "twitter:image",
           content: image,
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:creator",
+          content: "@KodiTV",
+        },
+        {
+          name: "twitter:site",
+          content: "@KodiTV",
         },
         {
           property: "og:type",
