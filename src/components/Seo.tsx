@@ -3,10 +3,18 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 const config = require("/gatsby-site-config");
 
-function SEO({ description, lang, meta, keywords, frontmatter }) {
+function SEO({ lang, meta, keywords, frontmatter }) {
   let breadcrumbs = config.siteMetadata.title;
+  let description = config.siteMetadata.description;
+  let image = "/images/kodi_og_default.webp";
   if (frontmatter.breadcrumbs != undefined) {
     breadcrumbs = breadcrumbs + " | " + frontmatter.breadcrumbs;
+  }
+  if (frontmatter.description != undefined) {
+    description = frontmatter.description;
+  }
+  if (frontmatter.image != undefined) {
+    image = frontmatter.image;
   }
   return (
     <Helmet
@@ -17,15 +25,31 @@ function SEO({ description, lang, meta, keywords, frontmatter }) {
       meta={[
         {
           name: "description",
-          content: config.siteMetadata.description,
+          content: description,
         },
         {
           property: "og:title",
-          content: config.siteMetadata.title,
+          content: breadcrumbs,
+        },
+        {
+          property: "twitter:title",
+          content: breadcrumbs,
         },
         {
           property: "og:description",
-          content: config.siteMetadata.description,
+          content: description,
+        },
+        {
+          property: "twitter:description",
+          content: description,
+        },
+        {
+          property: "og:image",
+          content: image,
+        },
+        {
+          property: "twitter:image",
+          content: image,
         },
         {
           property: "og:type",
@@ -52,7 +76,6 @@ SEO.defaultProps = {
 };
 
 SEO.propTypes = {
-  description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),
