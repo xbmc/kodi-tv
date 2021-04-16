@@ -7,7 +7,7 @@ import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 export default function TagPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "News with the Tag: " + pageContext.tag,
-    breadrumbs: "News | " + pageContext.tag,
+    breadcrumbs: "News | " + pageContext.tag,
   };
   let posts = data.blogPosts.nodes;
   let firsttwo = posts.slice(0, 2);
