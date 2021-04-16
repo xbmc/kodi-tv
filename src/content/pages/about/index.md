@@ -2,6 +2,7 @@
 pageslug: index
 title: About Kodi
 breadcrumbs: About
+description: Information on the features in Kodi.
 ---
 
 ## Let us entertain you!

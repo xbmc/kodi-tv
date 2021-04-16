@@ -27,6 +27,7 @@ export default function AddonLayout({
   let frontmatter = {
     title: repo + " Add-on Details",
     breadcrumbs: "Addons | " + repo + " | " + addon.name,
+    description: addon.snippet,
   };
   let slides: string[] = [];
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
@@ -35,6 +36,7 @@ export default function AddonLayout({
     authoricon = <UsersIcon className="h-5 w-5 text-kodi" />;
   }
   if (addon.screenshots != null) {
+    frontmatter.image = addon.screenshots[0].localpath;
     addon.screenshots.forEach((screenshot: { localpath: string }) => {
       slides.push(screenshot.localpath);
     });

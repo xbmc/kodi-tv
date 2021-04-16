@@ -5,7 +5,10 @@ import { DefaultLayout } from "../../../components/Layout";
 import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
-  let frontmatter = { title: "Leia Add-ons", breadcrumbs: "Add-ons | Leia" };
+  let frontmatter = {
+    title: "Leia Add-ons",
+    breadcrumbs: "Add-ons | Leia",
+  };
   let linkroot = "/addons/leia/";
 
   return (

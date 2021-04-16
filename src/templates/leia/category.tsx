@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import AddonCategoryLayout from "../../components/AddonCategoryLayout";
 
-export default function DisplayAddon({ data }) {
+export default function DisplayAddonCategory({ data }) {
   return <AddonCategoryLayout repo="Leia" data={data} />;
 }
 

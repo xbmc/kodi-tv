@@ -5,7 +5,12 @@ import { DefaultLayout } from "../components/Layout";
 import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 
 export default function BlogIndexPage({ data, pageContext, location }) {
-  let frontmatter = { title: "News", breadcrumbs: "News" };
+  let frontmatter = {
+    title: "News",
+    breadcrumbs: "News",
+    description:
+      "Get information about new releases, test builds, and other news from Team Kodi.",
+  };
   let posts = data.blogPosts.nodes;
   let firsttwo = posts.slice(0, 2);
   let therest = posts.slice(2);

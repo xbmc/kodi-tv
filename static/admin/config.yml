@@ -20,7 +20,7 @@ collections:
         widget: "datetime"
         date_format: "DD MMM YYYY"
         time_format: "HH:mm"
-      - { label: "Author", name: "author", widget: "string", required: false  }
+      - { label: "Author", name: "author", widget: "string", required: false }
       - name: "tags"
         label: "Tags"
         widget: "select"
@@ -54,6 +54,7 @@ collections:
       - { name: "pageslug", label: "Page File Name", widget: "string" }
       - { name: "title", label: "Page Title", widget: "string" }
       - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { name: "description", label: "Page Description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "addonpages"
     label: "Add-on Pages"
@@ -88,6 +89,7 @@ collections:
       - { name: "pageslug", label: "Page File Name", widget: "string" }
       - { name: "title", label: "Page Title", widget: "string" }
       - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { name: "description", label: "Page Description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "donatepages"
     label: "Donate Pages"
@@ -105,6 +107,7 @@ collections:
       - { name: "pageslug", label: "Page File Name", widget: "string" }
       - { name: "title", label: "Page Title", widget: "string" }
       - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { name: "description", label: "Page Description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "downloadpages"
     label: "Download Pages"
@@ -122,6 +125,7 @@ collections:
       - { name: "pageslug", label: "Page File Name", widget: "string" }
       - { name: "title", label: "Page Title", widget: "string" }
       - { name: "breadcrumbs", label: "Page Header Breadcrumbs", widget: "string" }
+      - { name: "description", label: "Page Description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "distribution"
     label: "Distributions"
@@ -141,10 +145,21 @@ collections:
       - name: "name"
         label: "Platform"
         widget: "select"
-        options: ["Windows", "Linux", "Android", "Raspberry Pi", "macOS", "iOS", "tvOS" ]
+        options:
+          ["Windows", "Linux", "Android", "Raspberry Pi", "macOS", "iOS", "tvOS"]
       - { label: "Image", name: "icon", widget: "image" }
-      - { name: "version", label: "Kodi Version Number", widget: "number", value_type: "float" }
-      - { name: "sort_order", label: "Sort Order", widget: "number", value_type: "int" }
+      - {
+          name: "version",
+          label: "Kodi Version Number",
+          widget: "number",
+          value_type: "float",
+        }
+      - {
+          name: "sort_order",
+          label: "Sort Order",
+          widget: "number",
+          value_type: "int",
+        }
       - { name: "howto", label: "How-to Wiki Link", widget: "string" }
       - name: "releases"
         label: "Releases"
@@ -154,7 +169,12 @@ collections:
         minimize_collapsed: true
         summary: "{{name}} - {{title}}"
         fields:
-          - { name: "name", label: "Type", widget: "select", options: ["Recommended", "Prerelease", "Development Builds"] }
+          - {
+              name: "name",
+              label: "Type",
+              widget: "select",
+              options: ["Recommended", "Prerelease", "Development Builds"],
+            }
           - { name: "title", label: "Title", widget: "string" }
           - { name: "description", label: "Description", widget: "markdown" }
           - name: "downloads"
@@ -208,7 +228,12 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "URL", name: "slug", widget: "string" }
-      - { label: "Sponsor Level", name: "sponsor_level", widget: "select", options: ["Diamond", "Gold", "Silver", "Bronze"] }
+      - {
+          label: "Sponsor Level",
+          name: "sponsor_level",
+          widget: "select",
+          options: ["Diamond", "Gold", "Silver", "Bronze"],
+        }
       - name: "image"
         label: "Image"
         widget: "object"
@@ -235,5 +260,10 @@ collections:
     fields:
       - { label: "Item", name: "name", widget: "string" }
       - { label: "URL", name: "slug", widget: "string" }
-      - { label: "Group Number", name: "group_number", widget: "number", value_type: "int" }
+      - {
+          label: "Group Number",
+          name: "group_number",
+          widget: "number",
+          value_type: "int",
+        }
       - { label: "Image", name: "icon", widget: "image" }
