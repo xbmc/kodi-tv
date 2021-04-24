@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 - Gotham: Note to Add-on developers"
 date: 2013-11-19T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gotham_repo.webp

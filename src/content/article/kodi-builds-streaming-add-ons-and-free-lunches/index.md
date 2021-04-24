@@ -1,6 +1,8 @@
 ---
 title: "Kodi builds, streaming add-ons and free lunches"
 date: 2019-03-26T05:35:18Z
+tags:
+  - Community
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/welder.webp

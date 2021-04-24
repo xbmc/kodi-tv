@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.2 - Helix: The Final Translation"
 date: 2015-03-27T03:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/kodi-14.2.webp

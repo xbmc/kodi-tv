@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2018 - Sofia - Part II"
 date: 2018-09-28T20:12:35Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/joakim-honkasalo-587350-unsplash.webp

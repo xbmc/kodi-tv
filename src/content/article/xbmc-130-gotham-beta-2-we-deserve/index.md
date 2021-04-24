@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.0 Gotham - The Beta 2 We Deserve"
 date: 2014-03-16T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/gotham_splash_beta.webp

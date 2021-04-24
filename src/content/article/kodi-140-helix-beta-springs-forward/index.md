@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.0 Helix - Beta Springs Forward"
 date: 2014-11-02T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/KodiBeta1Splash.webp

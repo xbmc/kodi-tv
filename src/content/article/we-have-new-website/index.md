@@ -1,6 +1,8 @@
 ---
 title: "We Have a New Website"
 date: 2017-04-01T20:12:51Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/new-website-hero.webp

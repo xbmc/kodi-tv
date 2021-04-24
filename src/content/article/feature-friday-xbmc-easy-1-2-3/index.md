@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: XBMC, easy as 1-2-3"
 date: 2011-06-09T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

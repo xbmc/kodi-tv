@@ -1,6 +1,8 @@
 ---
 title: 'Impending Merge: Addons'
 date: 2010-02-28T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 The next version of XBMC is shaping up quite well, with a host of new features already in. For a refresher, see a [few posts back](/article/coming-soon).

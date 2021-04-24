@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - Beta 5"
 date: 2018-11-03T10:38:03Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/K-18L-Comic-Preview.webp

@@ -1,6 +1,8 @@
 ---
 title: "Updated add-on repository for nightly users"
 date: 2011-04-28T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

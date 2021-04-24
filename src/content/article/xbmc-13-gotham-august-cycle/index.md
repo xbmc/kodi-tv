@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 - Gotham - August Cycle"
 date: 2013-09-04T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/3D_in_2D.webp

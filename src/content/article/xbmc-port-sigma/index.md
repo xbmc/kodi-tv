@@ -1,6 +1,8 @@
 ---
 title: "XBMC Port From Sigma"
 date: 2011-01-04T03:00:00Z
+tags:
+  - Developer
 author: Cory
 ---
 

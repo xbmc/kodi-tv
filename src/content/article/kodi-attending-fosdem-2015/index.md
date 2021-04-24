@@ -1,6 +1,8 @@
 ---
 title: "Kodi attending FOSDEM 2015"
 date: 2015-01-28T03:00:00Z
+tags:
+  - Conferences
 author: Kib
 featured_image:
   src: /images/blog/kodifosdem.webp

@@ -1,6 +1,8 @@
 ---
-title: 'What&#039;s Going On: April Fools - Non-Technical Edition'
+title: "What's Going On: April Fools - Non-Technical Edition"
 date: 2011-04-06T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 It’s been a bit over a month since last we let you in on the inner workings of the Team, so we figured it was time to bring everyone up to date on some new and slightly less new developments. Today it’s going to be technical-light, but we promise next week to provide some more interesting tech news.

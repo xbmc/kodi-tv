@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.2 Gotham - Release Candidate 1"
 date: 2014-08-07T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13.2-rc-splash.webp

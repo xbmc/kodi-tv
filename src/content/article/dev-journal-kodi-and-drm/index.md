@@ -1,6 +1,8 @@
 ---
 title: "Dev Journal: Kodi and DRM"
 date: 2017-04-23T04:32:41Z
+tags:
+  - Developer
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/padlock.webp

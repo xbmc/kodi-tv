@@ -1,6 +1,8 @@
 ---
 title: Kodi's GitHub codebase new face and better documentation
 date: 2018-07-27T13:28:01Z
+tags:
+  - Developer
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/matrix.webp

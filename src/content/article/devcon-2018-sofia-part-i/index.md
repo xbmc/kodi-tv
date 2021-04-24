@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2018 - Sofia - Part I"
 date: 2018-09-27T20:18:10Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 ---
 

@@ -2,6 +2,8 @@
 title: "XBMC 13.0 Gotham – Beta 4"
 date: 2014-04-18T04:00:00Z
 author: Martijn Kaijser
+tags:
+  - Prerelease
 featured_image:
   src: /images/blog/gotham_splash_beta.webp
   title: "gotham_splash_beta"

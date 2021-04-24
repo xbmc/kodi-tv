@@ -1,6 +1,8 @@
 ---
 title: "Dharma Beta 2"
 date: 2010-09-13T04:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

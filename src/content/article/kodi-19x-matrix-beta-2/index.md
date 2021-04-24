@@ -1,6 +1,8 @@
 ---
 title: 'Kodi 19.x "Matrix" - Beta 2'
 date: 2020-12-06T05:45:00Z
+tags:
+  - Prerelease
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi_splash_v19.0_matrix_beta_1080p.webp

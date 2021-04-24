@@ -1,6 +1,8 @@
 ---
 title: "Updated: XBMC Moves to Git"
 date: 2011-01-01T03:00:00Z
+tags:
+  - Developer
 author: Cory
 ---
 

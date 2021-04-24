@@ -1,6 +1,9 @@
 ---
 title: "XBMC Addon Rollbacks"
 date: 2011-10-19T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17 "Krypton" Beta 1'
 date: 2016-08-21T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Splash-Kodi17B1.webp

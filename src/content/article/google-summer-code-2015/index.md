@@ -1,6 +1,8 @@
 ---
 title: "Google Summer of Code 2015"
 date: 2015-02-19T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.webp

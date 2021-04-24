@@ -1,6 +1,8 @@
 ---
 title: "Kodi at FOSDEM 2020"
 date: 2020-01-31T02:35:27Z
+tags:
+  - Conferences
 author: Team Kodi
 featured_image:
   src: /images/blog/Fosdem.webp

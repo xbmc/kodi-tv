@@ -1,6 +1,9 @@
 ---
 title: '10 days till first v17 "Krypton" alpha release'
 date: 2016-06-20T04:00:00Z
+tags:
+  - Community
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-Krypton-1920x1200.webp

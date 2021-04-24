@@ -1,6 +1,8 @@
 ---
 title: "Weekend Weather Update"
 date: 2011-11-09T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

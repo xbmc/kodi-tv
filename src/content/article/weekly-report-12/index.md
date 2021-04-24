@@ -1,6 +1,8 @@
 ---
 title: 'Weekly report 12'
 date: 2010-08-15T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
  This is the last weekly report and I would like to thank google and the beagleboard community for the fun summer! It have been a wonderful opportunity and I’ve learned heaps and gotten extremely interested in embedded development.

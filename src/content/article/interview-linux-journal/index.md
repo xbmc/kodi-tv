@@ -1,6 +1,8 @@
 ---
 title: "Interview with Linux Journal"
 date: 2010-05-04T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

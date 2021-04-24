@@ -1,6 +1,9 @@
 ---
 title: "Kodi DevCon 2014 Live Blog"
 date: 2014-10-09T03:00:00Z
+tags:
+  - Conferences
+  - DevCon
 author: Nathan Betzen
 featured_image:
   src: /images/blog/IMG_0439.webp

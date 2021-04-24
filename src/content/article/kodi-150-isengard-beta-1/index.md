@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 Isengard - Beta 1"
 date: 2015-04-30T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-installing-skin.webp

@@ -1,6 +1,8 @@
 ---
 title: "XBMC August 2012 Cycle"
 date: 2012-09-05T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 ---
 

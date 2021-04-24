@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17 "Krypton" Beta 2'
 date: 2016-09-17T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Splash-Kodi17B1.webp

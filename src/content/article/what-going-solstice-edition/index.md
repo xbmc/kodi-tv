@@ -1,6 +1,8 @@
 ---
 title: "What’s Going On: Solstice Edition"
 date: 2011-06-21T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

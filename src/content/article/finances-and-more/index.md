@@ -1,6 +1,8 @@
 ---
 title: 'Finances and more!'
 date: 2019-09-06T09:14:39Z
+tags:
+  - Community
 author: Keith Herrington
 ---
 As we approach Kodi DevCon (our annual team member conference) we continue our quest for greater transparency and openness in how the project is managed. We’d like to touch on project finances: specifically where the money comes from, and where it goes.

@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.0 Helix – Release candidate 3"
 date: 2014-12-08T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Splash1.webp

@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.2 - Gotham final release"
 date: 2014-08-17T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13.2-splash.webp

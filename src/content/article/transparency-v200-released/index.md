@@ -1,6 +1,8 @@
 ---
 title: "Transparency! v2.00 released"
 date: 2009-08-31T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

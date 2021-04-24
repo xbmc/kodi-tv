@@ -1,6 +1,8 @@
 ---
 title: "Is Kodi legal?"
 date: 2019-09-21T02:01:42Z
+tags:
+  - Community
 author: DarrenHill
 featured_image:
   src: /images/blog/legal.webp

@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18: Windows 64-bit is here"
 date: 2017-06-03T00:11:30Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-35C-1080p_samfisher.webp

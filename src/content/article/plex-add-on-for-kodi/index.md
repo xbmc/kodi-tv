@@ -1,6 +1,8 @@
 ---
 title: "Plex Add-on for Kodi"
 date: 2016-12-13T03:00:00Z
+tags:
+  - Community
 author: Keith Herrington
 featured_image:
   src: /images/blog/plexforkodi.webp

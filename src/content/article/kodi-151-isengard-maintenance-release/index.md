@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.1 Isengard - Maintenance release"
 date: 2015-08-15T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-system-15.webp

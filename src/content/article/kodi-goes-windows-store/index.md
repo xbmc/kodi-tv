@@ -1,6 +1,8 @@
 ---
 title: "Kodi goes Windows Store"
 date: 2016-09-19T04:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Windows-Store-Blog.webp

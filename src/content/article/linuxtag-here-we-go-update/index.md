@@ -1,6 +1,8 @@
 ---
 title: "LinuxTag here we go [update]"
 date: 2009-06-23T04:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

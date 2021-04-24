@@ -1,6 +1,8 @@
 ---
 title: "Dharma Beta 3"
 date: 2010-10-12T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

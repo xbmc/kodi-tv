@@ -1,6 +1,8 @@
 ---
 title: "Introducing the Kodi Logo"
 date: 2014-11-23T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/banner-sbs-11.webp

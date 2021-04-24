@@ -1,6 +1,8 @@
 ---
 title: "FOSDEM 2019 report"
 date: 2019-02-10T06:17:13Z
+tags:
+  - Conferences
 author: yol
 featured_image:
   src: /images/blog/kodi fosdem2.webp

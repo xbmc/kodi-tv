@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 Isengard – RC 2"
 date: 2015-07-10T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-system-15.webp

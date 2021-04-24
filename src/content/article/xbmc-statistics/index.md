@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Statistics'
 date: 2011-06-01T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 As a group, Team XBMC has been curious for quite some time about how popular the website and XBMC actually are with the general population. I know many users have also asked similar questions. This post is intended answer a lot of those questions. My apologies if that makes it run fairly long. We’ve got a lot of ground to cover!

@@ -1,6 +1,8 @@
 ---
 title: "Beware Killer Kodi Boxes!"
 date: 2017-11-28T02:40:54Z
+tags:
+  - Community
 author: Prof Yaffle
 featured_image:
   src: /images/blog/pexels-photo-260314.webp

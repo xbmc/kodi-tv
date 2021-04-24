@@ -1,6 +1,8 @@
 ---
 title: 'XBMC recruiting developers for Linux port'
 date: 2007-05-28T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 Help wanted: As you may or may not have heard, a few developers on [Team-XBMC](http://www.xboxmediacenter.com/wiki/index.php?title=Team_XBMC_and_Others) have begun the [porting](https://en.wikipedia.org/wiki/Porting) of [XBMC](https://en.wikipedia.org/wiki/XBMC) to Linux and [OpenGL](https://en.wikipedia.org/wiki/OpenGL) using the [SDL toolkit](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer). The goal is for this to become a full [port](https://en.wikipedia.org/wiki/Porting) of XBMC containing [all the features and functions available in the Xbox version of XBMC](http://www.xboxmediacenter.com/wiki/index.php?title=XBMC_Features_and_Supported_Formats/Codecs). This is a huge task which is why we are making this public request, seeking [C/C++ programmers](https://en.wikipedia.org/wiki/Programming_language) to volunteer in assisting us with this [Linux porting development project](http://www.xboxmediacenter.com/wiki/index.php?title=Linux_port_project). Whether you have contributed to [The XBMC Project](https://sourceforge.net/projects/xbmc/) in the past or not, please consider doing so now. Those of you who are completely unfamiliar with XBMC can get a good overview of what XBMC offers for its [end-users](https://en.wikipedia.org/wiki/End-user) by reading through the [XBMC article on wikipedia.org](https://en.wikipedia.org/wiki/XBMC)

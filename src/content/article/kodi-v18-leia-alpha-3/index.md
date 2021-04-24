@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - Alpha 3"
 date: 2018-07-31T19:07:20Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Blueprint_Leia_900x336.webp

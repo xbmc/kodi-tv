@@ -1,6 +1,8 @@
 ---
 title: "Xperience Teaser"
 date: 2009-12-12T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

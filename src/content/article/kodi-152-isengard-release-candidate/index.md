@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.2 Isengard - Release Candidate"
 date: 2015-08-27T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-11A-1080p_samfisher.webp

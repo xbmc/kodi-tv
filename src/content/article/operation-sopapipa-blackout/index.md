@@ -1,6 +1,8 @@
 ---
 title: "Operation SOPA/PIPA Blackout"
 date: 2012-01-15T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Kodi Edition Raspberry Pi Case Version 2 - May The (Open) Source Be With You!"
 date: 2018-11-22T19:45:46Z
+tags:
+  - Community
 author: Jason
 featured_image:
   src: /images/blog/Pi Case -v2-Kodi-gen2_10-23-18.131.webp

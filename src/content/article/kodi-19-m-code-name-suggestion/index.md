@@ -1,6 +1,8 @@
 ---
 title: "Kodi 19 M***** - Code name suggestion"
 date: 2018-10-13T02:48:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.webp

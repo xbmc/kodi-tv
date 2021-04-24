@@ -1,6 +1,8 @@
 ---
 title: 'Kodi "Leia" 18.3 Release'
 date: 2019-06-27T02:44:00Z
+tags:
+  - Release
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/kodi_18_3_leia.webp

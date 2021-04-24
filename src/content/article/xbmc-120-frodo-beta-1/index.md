@@ -1,6 +1,8 @@
 ---
 title: 'XBMC 12.0 Frodo - Beta 1'
 date: 2012-11-14T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 ---
 **Update:** There was a packaging issue with the Beta1 Windows build that caused some scrapers to not install correctly. This has since been resolved, any Windows Beta1 users should grab the repack available at the download page.

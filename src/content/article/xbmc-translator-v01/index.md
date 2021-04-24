@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Translator V0.1'
 date: 2006-06-18T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 hi all you translators out there,

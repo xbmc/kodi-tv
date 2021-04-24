@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.2 Isengard - Final Chapter"
 date: 2015-10-18T03:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-11A-1080p_samfisher.webp

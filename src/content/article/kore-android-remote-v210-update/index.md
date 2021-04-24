@@ -1,6 +1,8 @@
 ---
 title: "Kore - Android remote v2.1.0 update"
 date: 2016-07-09T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kore_Artwork_1024x500_v2_samfisher.webp

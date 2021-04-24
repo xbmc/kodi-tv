@@ -1,6 +1,8 @@
 ---
 title: "XBMC 11 Eden: RC1: UPDATE"
 date: 2012-02-26T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

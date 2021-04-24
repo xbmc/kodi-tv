@@ -1,6 +1,8 @@
 ---
 title: "Weekly report 4"
 date: 2010-06-20T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

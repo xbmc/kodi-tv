@@ -1,6 +1,8 @@
 ---
 title: "Donating with Liberapay"
 date: 2020-04-09T21:42:43Z
+tags:
+  - Community
 author: yol
 featured_image:
   src: /images/blog/cash.webp

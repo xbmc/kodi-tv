@@ -1,6 +1,8 @@
 ---
 title: 'XBMC 12 Frodo - Release Candidate 1'
 date: 2012-12-11T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 ---
 We would quickly like to take this time to announce the first release candidate for XBMC 12. Features for XBMC 12 include:

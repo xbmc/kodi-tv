@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: Doubling Up Halfway Around the World"
 date: 2011-05-05T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

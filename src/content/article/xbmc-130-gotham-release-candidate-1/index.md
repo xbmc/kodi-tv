@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.0 Gotham - Release Candidate 1"
 date: 2014-04-27T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Splash.webp

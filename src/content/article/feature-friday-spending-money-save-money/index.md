@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: Spending Money to Save Money"
 date: 2011-05-19T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Warning - Be aware what additional add-ons you install"
 date: 2016-05-01T04:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/caution-machine_has_no_brain.webp

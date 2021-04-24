@@ -1,6 +1,8 @@
 ---
 title: "April fools: Introducting XBMC 14 - The Hoff"
 date: 2014-03-31T03:00:00Z
+tags:
+  - April Fools
 author: Nathan Betzen
 featured_image:
   src: /images/blog/hasselhoff_crop2-600x336.webp

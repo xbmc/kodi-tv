@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18.1 Leia RC1"
 date: 2019-02-10T20:50:42Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Pi_Case_v2_Kodi_gen2.webp

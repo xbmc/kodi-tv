@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 - Binary add-ons repository"
 date: 2018-10-21T23:18:30Z
+tags:
+  - Developer
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Blueprint_Leia_900x336.webp

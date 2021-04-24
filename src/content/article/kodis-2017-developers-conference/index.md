@@ -1,6 +1,9 @@
 ---
 title: Kodi's 2017 Developers' Conference
 date: 2017-04-05T23:44:01Z
+tags:
+  - DevCon
+  - Conferences
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/porto.webp

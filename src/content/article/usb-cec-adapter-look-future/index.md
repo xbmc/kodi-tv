@@ -1,6 +1,8 @@
 ---
 title: "The USB-CEC Adapter is a look into the Future"
 date: 2011-10-31T03:00:00Z
+tags:
+  - Deep Dive
 author: Team XBMC
 ---
 

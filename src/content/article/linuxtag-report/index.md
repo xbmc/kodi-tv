@@ -1,6 +1,8 @@
 ---
 title: "LinuxTag Report"
 date: 2010-06-22T04:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

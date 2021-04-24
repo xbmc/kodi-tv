@@ -1,6 +1,8 @@
 ---
 title: 'XBMC recruiting developers for Mac OS X port'
 date: 2008-02-07T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 [Help wanted from Mac OS X programmers!](https://forum.kodi.tv/showthread.php?tid=31106) As you may or may not know, back in May last year a few developers from [Team-XBMC](https://kodi.wiki/view/Team_XBMC_and_Others) began [porting](https://en.wikipedia.org/wiki/Porting) the [XBMC media-player application](https://en.wikipedia.org/wiki/XBMC) to [Linux](https://kodi.wiki/view/Linux_port_project) (and [OpenGL](https://en.wikipedia.org/wiki/OpenGL) using the [SDL toolkit](https://en.wikipedia.org/wiki/Simple_DirectMedia_Layer)), with the goal of it someday becoming a full [port](https://en.wikipedia.org/wiki/Porting) of XBMC containing [all the features and functions available in the Xbox version of XBMC](https://kodi.wiki/view/XBMC_Features_and_Supported_Formats/Codecs), (this Linux-port of XBMC is still in [pre-alpha development stage](https://en.wikipedia.org/wiki/Development_stage). However, by now it is usable for [white box testing](https://en.wikipedia.org/wiki/White_box_testing) by most experienced Linux users). 

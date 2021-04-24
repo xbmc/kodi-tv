@@ -1,6 +1,9 @@
 ---
 title: "XBMC Audio goes HD"
 date: 2012-05-29T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/hd-audio-announce.webp

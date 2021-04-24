@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2017 - Day Two"
 date: 2017-05-05T22:35:24Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/wetek_play_front.webp

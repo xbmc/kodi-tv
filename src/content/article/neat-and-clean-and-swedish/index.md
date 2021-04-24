@@ -1,6 +1,8 @@
 ---
 title: "Neat and Clean… and Swedish!"
 date: 2011-08-26T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

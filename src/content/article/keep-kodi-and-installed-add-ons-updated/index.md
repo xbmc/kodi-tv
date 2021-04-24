@@ -1,6 +1,9 @@
 ---
 title: "Keep Kodi and the installed add-ons updated"
 date: 2017-12-09T03:53:38Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-9A-1080p_samfisher_update.webp

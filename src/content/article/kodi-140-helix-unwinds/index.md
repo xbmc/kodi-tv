@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.0 - Helix Unwinds"
 date: 2014-12-22T03:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Kodi_Xmas.webp

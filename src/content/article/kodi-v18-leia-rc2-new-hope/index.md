@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia RC2 - A new hope"
 date: 2018-12-03T07:43:41Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/K-18L-Comic-Preview.webp

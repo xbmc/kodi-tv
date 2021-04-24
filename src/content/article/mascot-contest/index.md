@@ -1,6 +1,8 @@
 ---
 title: "Mascot Contest"
 date: 2011-05-01T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

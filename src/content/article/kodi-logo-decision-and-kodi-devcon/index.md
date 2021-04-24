@@ -1,6 +1,10 @@
 ---
 title: "The Kodi Logo Decision and Kodi DevCon"
 date: 2014-10-07T03:00:00Z
+tags:
+  - Community
+  - Conferences
+  - DevCon
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Screen-Shot-2014-09-22-at-1.04.58-PM.webp

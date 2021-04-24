@@ -1,6 +1,8 @@
 ---
 title: 'Weekly report 3'
 date: 2010-06-13T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 Since I’ve been without computer the last week the status update will be slim.

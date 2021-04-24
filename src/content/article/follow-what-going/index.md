@@ -1,6 +1,8 @@
 ---
 title: "Follow-Up: What’s going on?"
 date: 2011-03-24T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 featured_image:
   src: /images/blog/xbmc-gotham-13_1-beta.webp

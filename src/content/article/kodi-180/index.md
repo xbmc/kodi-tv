@@ -1,6 +1,8 @@
 ---
 title: "Kodi 18.0"
 date: 2019-01-28T23:49:48Z
+tags:
+  - Release
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi_blog_k-18l_c_900x336.webp

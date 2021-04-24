@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.2 Gotham – beta 1"
 date: 2014-07-13T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/13.2-Gotham-beta.webp

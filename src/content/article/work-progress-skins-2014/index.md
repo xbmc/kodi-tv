@@ -1,6 +1,8 @@
 ---
 title: "Work in Progress Skins 2014"
 date: 2014-02-12T03:00:00Z
+tags:
+  - Community
 author: zag
 featured_image:
   src: /images/blog/Celestium.webp

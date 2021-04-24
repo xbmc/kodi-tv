@@ -1,6 +1,8 @@
 ---
 title: "XBMC 11.0: Eden Beta 3 available now [Updated]"
 date: 2012-02-08T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

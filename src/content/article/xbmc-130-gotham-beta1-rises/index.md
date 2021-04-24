@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.0 Gotham - Beta1 rises!"
 date: 2014-03-03T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gotham_splash_beta.webp

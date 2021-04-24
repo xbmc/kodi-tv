@@ -1,6 +1,8 @@
 ---
 title: "August 2011 Hardware Guide"
 date: 2011-08-15T04:00:00Z
+tags:
+  - Deep Dive
 author: Nathan Betzen
 ---
 

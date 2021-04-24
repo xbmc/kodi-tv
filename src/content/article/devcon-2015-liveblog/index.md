@@ -1,6 +1,9 @@
 ---
 title: "DevCon 2015 LiveBlog"
 date: 2015-10-08T03:00:00Z
+tags:
+  - DevCon
+  - Conferences
 author: Nathan Betzen
 featured_image:
   src: /images/blog/KodiTeam2-copy.webp

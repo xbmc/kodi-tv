@@ -1,6 +1,8 @@
 ---
 title: "Working with dirty regions"
 date: 2011-06-18T04:00:00Z
+tags:
+  - Developer
 author: Cory
 ---
 

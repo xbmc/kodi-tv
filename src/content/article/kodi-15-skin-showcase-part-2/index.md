@@ -1,6 +1,9 @@
 ---
 title: "Kodi 15 Skin Showcase - Part 2"
 date: 2015-08-22T04:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/pvr_skins_0.webp

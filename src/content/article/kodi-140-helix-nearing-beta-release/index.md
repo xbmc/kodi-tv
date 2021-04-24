@@ -1,6 +1,8 @@
 ---
 title: 'Kodi 14.0 "Helix" nearing beta release'
 date: 2014-10-17T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash.webp

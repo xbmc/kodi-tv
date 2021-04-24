@@ -1,6 +1,8 @@
 ---
 title: "We are a Google Summer of Code 2017 Organization!"
 date: 2017-02-28T18:59:39Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summer-of-code.webp

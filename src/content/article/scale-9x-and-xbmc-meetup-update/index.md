@@ -1,6 +1,8 @@
 ---
 title: "SCALE 9x and XBMC Meetup - Update"
 date: 2011-02-20T03:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 ---
 

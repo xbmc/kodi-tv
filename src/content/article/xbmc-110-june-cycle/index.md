@@ -1,6 +1,8 @@
 ---
 title: "XBMC 11.0 - June Cycle"
 date: 2012-06-11T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 ---
 

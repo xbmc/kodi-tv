@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Atlantis Beta 2 released - added Apple TV support'
 date: 2008-10-05T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 [Team-XBMC](/about/team) is proud to announce the second cross-platform Beta version of [XBMC Media Center](https://kodi.wiki/view/Main_Page) for Linux, Mac OS X (Leopard, Tiger, and Apple TV), Windows, and Xbox, in preparation for the upcoming point release of XBMC, code named ‘[Atlantis](http://trac.xbmc.org/roadmap)‘.

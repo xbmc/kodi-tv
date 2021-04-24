@@ -1,6 +1,8 @@
 ---
 title: "A Call for Kodi Logo Ideas"
 date: 2014-08-03T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/your_idea-600x336.webp

@@ -1,6 +1,8 @@
 ---
 title: "XBMC 9.11: Alpha2 ready for testing"
 date: 2009-11-11T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

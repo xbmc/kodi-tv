@@ -1,6 +1,8 @@
 ---
 title: "In Defence of Our Good Name"
 date: 2020-02-15T01:06:41Z
+tags:
+  - Community
 author: Team Kodi
 featured_image:
   src: /images/blog/wesley-tingey-9z9fxr_7Z-k-unsplash.webp

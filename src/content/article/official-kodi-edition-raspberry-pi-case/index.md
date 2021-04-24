@@ -1,6 +1,8 @@
 ---
 title: "The Official Kodi Edition Raspberry Pi Case"
 date: 2016-06-21T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/tableEdgeSunlight1920.webp

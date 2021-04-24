@@ -1,6 +1,8 @@
 ---
 title: "Kodi 17.0"
 date: 2017-02-04T03:00:00Z
+tags:
+  - Release
 author: Kib
 featured_image:
   src: /images/blog/Kodi171.webp

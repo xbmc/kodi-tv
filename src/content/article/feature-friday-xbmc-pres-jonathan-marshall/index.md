@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: XBMC Pres Jonathan Marshall"
 date: 2011-07-15T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

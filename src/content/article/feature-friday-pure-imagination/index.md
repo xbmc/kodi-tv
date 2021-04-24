@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: Pure Imagination"
 date: 2011-07-08T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

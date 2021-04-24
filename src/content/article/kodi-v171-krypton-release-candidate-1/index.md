@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.1 “Krypton” Release Candidate 1"
 date: 2017-02-23T01:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-15B-1080p_samfisher.webp

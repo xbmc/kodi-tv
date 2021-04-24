@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - The story so far"
 date: 2018-02-10T04:00:35Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-36A-1080p_samfisher-header.webp

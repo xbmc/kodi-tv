@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.0 Alpha 4 - Jarvis nearing completion"
 date: 2015-10-31T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi16.0-jarvis-alpha.webp

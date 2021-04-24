@@ -1,6 +1,9 @@
 ---
 title: "Server Issues"
 date: 2013-12-11T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Servers-Server-Farm-Engine-Room.webp

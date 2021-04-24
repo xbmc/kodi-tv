@@ -1,6 +1,8 @@
 ---
 title: "Seven years ago we said goodbye to the original XBOX"
 date: 2017-05-26T04:07:46Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc4xbox-2017-05-26.webp

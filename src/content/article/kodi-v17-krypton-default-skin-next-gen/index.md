@@ -1,6 +1,9 @@
 ---
 title: 'Kodi v17 "Krypton" - Default skin: Next Gen'
 date: 2016-11-18T03:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/v17-estuary_ng_000.webp

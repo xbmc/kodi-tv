@@ -1,6 +1,8 @@
 ---
 title: "Kodi V18: Goodbye Windows Vista"
 date: 2017-05-12T04:32:25Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/win-vista_enofsupport.webp

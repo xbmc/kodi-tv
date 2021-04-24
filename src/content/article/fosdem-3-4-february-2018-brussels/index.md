@@ -1,6 +1,8 @@
 ---
 title: "FOSDEM 3 &amp; 4 February 2018 - Brussels "
 date: 2018-02-01T12:16:20Z
+tags:
+  - Conferences
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/fosdem2018-kodi.webp

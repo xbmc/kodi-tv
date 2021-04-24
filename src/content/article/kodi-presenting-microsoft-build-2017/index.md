@@ -1,6 +1,8 @@
 ---
 title: "Kodi presenting at Microsoft Build 2017"
 date: 2017-05-10T07:52:43Z
+tags:
+  - Conferences
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/MSbuild2017.webp

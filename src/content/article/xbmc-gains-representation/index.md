@@ -1,6 +1,8 @@
 ---
 title: "XBMC Gains Representation"
 date: 2010-04-26T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

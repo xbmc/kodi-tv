@@ -1,6 +1,9 @@
 ---
 title: "DevCon 2012 &amp; User Meetup"
 date: 2012-08-15T04:00:00Z
+tags:
+  - DevCon
+  - Conferences
 author: Nathan Betzen
 ---
 

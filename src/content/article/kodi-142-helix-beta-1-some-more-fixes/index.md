@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.2 Helix beta 1 - Some more fixes"
 date: 2015-02-16T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-14.2-beta.webp

@@ -1,6 +1,8 @@
 ---
 title: "Attention to Addon Developers: Migration to Python 3!"
 date: 2018-01-25T23:55:34Z
+tags:
+  - Developer
 author: Roman Miroshnychenko
 featured_image:
   src: /images/blog/kplusp.webp

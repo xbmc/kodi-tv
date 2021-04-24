@@ -1,6 +1,8 @@
 ---
 title: "Some New Year Community Updates 2015 (part 2)"
 date: 2015-01-25T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/adsp_02.webp

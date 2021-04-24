@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.1 - Helix Bugfix Release"
 date: 2015-02-01T03:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-helix-14.1.webp

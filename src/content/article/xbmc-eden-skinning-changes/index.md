@@ -1,6 +1,8 @@
 ---
 title: "XBMC Eden Skinning Changes"
 date: 2011-10-06T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 ---
 

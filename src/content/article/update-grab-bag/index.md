@@ -1,6 +1,9 @@
 ---
 title: "Update Grab-bag"
 date: 2012-04-24T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 ---
 

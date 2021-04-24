@@ -1,6 +1,8 @@
 ---
 title: "The Piracy Box Sellers and Youtube Promoters Are Killing Kodi"
 date: 2016-02-13T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Screen-Shot-2015-08-19-at-2.40.37-AM.webp

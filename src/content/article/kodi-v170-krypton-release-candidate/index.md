@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17.0 "Krypton" Release Candidate'
 date: 2016-12-28T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-17.0-RC.webp

@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.5 final: Another bunch of fixes"
 date: 2017-10-23T12:00:42Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-system-15.webp

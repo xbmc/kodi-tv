@@ -1,6 +1,8 @@
 ---
 title: "XBMC 9.11: Camelot"
 date: 2009-12-23T03:00:00Z
+tags:
+  - Release
 author: Team XBMC
 ---
 

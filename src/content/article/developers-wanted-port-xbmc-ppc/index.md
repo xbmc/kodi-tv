@@ -1,5 +1,8 @@
 ---
 title: 'Developers wanted to port XBMC to PPC'
+tags:
+  - DevCon
+  - Conferences
 date: 2008-08-21T04:00:00Z
 author: Team XBMC
 ---

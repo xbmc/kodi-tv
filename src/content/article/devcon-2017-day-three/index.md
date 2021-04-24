@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2017 - Day Three"
 date: 2017-05-06T22:12:27Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/teamkodi-porto-2017.webp

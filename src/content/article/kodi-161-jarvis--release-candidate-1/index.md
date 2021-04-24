@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.1 “Jarvis” – Release Candidate 1"
 date: 2016-03-05T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.webp

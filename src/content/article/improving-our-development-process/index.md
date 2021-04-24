@@ -1,6 +1,8 @@
 ---
 title: 'Improving our development process'
 date: 2010-12-06T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 At this year’s [DevCon](/article/xbmc-devcon-2010-summary) we took a long hard look our development process; we decided that while it works, it is starting to show a few cracks and we know we can do better.

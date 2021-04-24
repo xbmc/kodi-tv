@@ -1,6 +1,8 @@
 ---
 title: "XBMC shirts and hoodies sale, now with new colors, but less than a week left"
 date: 2014-03-11T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

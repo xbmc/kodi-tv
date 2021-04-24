@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17 “Krypton” Alpha 3"
 date: 2016-07-31T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/splash-krypton-alpha-cutout.webp

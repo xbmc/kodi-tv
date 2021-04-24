@@ -1,6 +1,9 @@
 ---
 title: "Updated: Planned Add-ons Downtime - Now Done."
 date: 2010-09-17T04:00:00Z
+tags:
+  - Developer
+  - Community
 author: Team XBMC
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "We do not sell hardware"
 date: 2019-03-19T04:56:44Z
+tags:
+  - Community
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/kodi_motherboard.webp

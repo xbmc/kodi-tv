@@ -1,6 +1,8 @@
 ---
 title: "Submit your Add-Ons"
 date: 2010-07-06T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

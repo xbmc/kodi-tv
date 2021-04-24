@@ -1,6 +1,8 @@
 ---
 title: "Kodi Trademark Trolls - The Hidden Battle"
 date: 2017-09-07T08:46:05Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/fairy-tales-1662427_1920.webp

@@ -1,6 +1,8 @@
 ---
 title: "Addon Spotlight: HDHomeRun Live TV"
 date: 2015-03-18T03:00:00Z
+tags:
+  - Deep Dive
 author: Keith Herrington
 featured_image:
   src: /images/blog/screenshot004.webp

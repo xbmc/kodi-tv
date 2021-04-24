@@ -1,6 +1,9 @@
 ---
 title: "Kodi 15.0 skin showcase"
 date: 2015-08-08T04:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/15.0_skins_august.webp

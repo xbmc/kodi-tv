@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2017 Part II - Day Three"
 date: 2017-10-28T02:01:45Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Image uploaded from iOS.webp

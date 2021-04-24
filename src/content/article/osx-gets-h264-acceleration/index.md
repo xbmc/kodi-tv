@@ -1,6 +1,8 @@
 ---
 title: "OSX Gets H.264 Acceleration"
 date: 2010-05-02T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

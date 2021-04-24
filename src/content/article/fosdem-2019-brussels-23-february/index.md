@@ -1,6 +1,8 @@
 ---
 title: "FOSDEM 2019: Brussels, 2/3 February"
 date: 2019-01-24T01:15:52Z
+tags:
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi fosdem2.webp

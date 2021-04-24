@@ -1,6 +1,8 @@
 ---
 title: "Jenkins, servers and mirrors"
 date: 2013-11-13T03:00:00Z
+tags:
+  - Developer
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/server_racks.webp

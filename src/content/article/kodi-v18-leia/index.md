@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v18 - "Leia"'
 date: 2017-01-08T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Kodi-tie-fighter.webp

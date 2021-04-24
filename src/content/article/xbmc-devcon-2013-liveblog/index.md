@@ -1,6 +1,9 @@
 ---
 title: "XBMC DevCon 2013 LiveBlog"
 date: 2013-10-10T03:00:00Z
+tags:
+  - Conferences
+  - DevCon
 author: Nathan Betzen
 featured_image:
   src: /images/blog/photo.webp

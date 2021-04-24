@@ -1,6 +1,8 @@
 ---
 title: "Support for TheAudioDB.com"
 date: 2013-03-16T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

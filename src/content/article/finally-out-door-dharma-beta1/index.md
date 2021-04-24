@@ -1,6 +1,8 @@
 ---
 title: "Finally out the door: Dharma Beta1"
 date: 2010-08-29T04:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

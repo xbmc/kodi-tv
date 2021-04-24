@@ -1,6 +1,8 @@
 ---
 title: "Kodi No More! - April Fools"
 date: 2018-03-31T20:45:48Z
+tags:
+  - April Fools
 author: Nathan Betzen
 featured_image:
   src: /images/blog/XBMC_media_center_main.webp

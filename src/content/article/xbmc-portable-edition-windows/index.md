@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Portable Edition for Windows?'
 date: 2008-08-21T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 Are there anyone out there who would like to volunteers to help us make “*XBMC Portable*” for us, a PortableApps.com USB Edition of XBMC for Windows?

@@ -1,6 +1,8 @@
 ---
 title: 'Dharma RC2'
 date: 2010-12-01T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 Dharma RC2 is ready, and this one is a Release Candidate in the truest sense. There are a few reasons we decided to do one last pre-release:

@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.1 – Jarvis – Mark XVI"
 date: 2016-04-23T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.webp

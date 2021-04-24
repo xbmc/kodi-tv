@@ -4,6 +4,7 @@ date: 2019-10-10T21:28:58Z
 author: Prof Yaffle
 tags:
   - DevCon
+  - Conferences
 featured_image:
   src: /images/blog/Belgrade_at_night2.webp
   title: "Belgrade, Serbia at night - Creative Commons Attribution-Share Alike 3.0 Unported - https://commons.wikimedia.org/wiki/File:Belgrade_at_night.webp"

@@ -1,6 +1,8 @@
 ---
 title: "XBMC 12.1 - Now Even Better"
 date: 2013-03-17T03:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/zappy-frodo-background-680.webp

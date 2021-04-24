@@ -1,6 +1,8 @@
 ---
 title: 'Impending merge: Likely temporary breakage'
 date: 2009-08-26T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 All of our loyal self-compilers and nightly-build users please take note:

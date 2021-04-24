@@ -1,5 +1,7 @@
 ---
 title: 'XBMC 8.10 Atlantis released'
+tags:
+  - Release
 date: 2008-11-13T03:00:00Z
 author: Team XBMC
 ---

@@ -1,6 +1,8 @@
 ---
 title: 'Contest results delayed - just a little'
 date: 2011-06-13T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 Hey all, this is only a brief note. As you know, we are currently hosting a contest for a new XBMC mascot, and the results of that contest were supposed to be finished and announced today. Unfortunately (or fortunately), our community went absolutely above and beyond the call of duty and submitted an incredible number of [really awesome mascots](http://xbmc.exstatic.org/mascots/ "really awesome mascots").

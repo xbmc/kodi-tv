@@ -1,6 +1,9 @@
 ---
 title: "The Kodi Foundation joined the Linux Foundation"
 date: 2019-03-18T23:50:46Z
+tags:
+  - Community
+  - Developer
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/LinuxFoundation.webp

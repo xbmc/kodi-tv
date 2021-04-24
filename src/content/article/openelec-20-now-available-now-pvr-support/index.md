@@ -1,6 +1,8 @@
 ---
 title: 'OpenELEC 2.0 now available - Now with PVR Support'
 date: 2012-10-17T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 For those of you interested in using XBMC purely as an appliance, which is to say, for those of you who don’t want to deal with a full operating system like Windows or OSX, and would rather boot directly into a super fast, super efficient version of XBMC, we are happy to congratulate our friends over at [OpenELEC for releasing version 2.0](https://openelec.tv/news/22-releases/63-openelec-2-0-released "OpenELEC 2.0").

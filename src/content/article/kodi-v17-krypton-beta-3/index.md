@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17 "Krypton" Beta 3'
 date: 2016-10-04T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-physical-ms-store-1080p.webp
