@@ -191,6 +191,16 @@ function Footer() {
                         TVDB.com
                       </a>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://www.tvmaze.com"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        TVMaze
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
