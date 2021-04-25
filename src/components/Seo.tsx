@@ -79,7 +79,13 @@ function SEO({ lang, meta, keywords, frontmatter }) {
             : []
         )
         .concat(meta)}
-    ></Helmet>
+    >
+      <script
+        data-goatcounter="https://koditv.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
+    </Helmet>
   );
 }
 
