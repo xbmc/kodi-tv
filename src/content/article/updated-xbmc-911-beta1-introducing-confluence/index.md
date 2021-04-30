@@ -1,6 +1,8 @@
 ---
 title: "Updated: XBMC 9.11 Beta1: Introducing Confluence"
 date: 2009-11-21T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

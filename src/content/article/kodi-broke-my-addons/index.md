@@ -2,6 +2,8 @@
 title: '"Kodi Broke My Addons!"'
 date: 2021-03-18T10:35:45.970Z
 author: Team Kodi
+tags:
+  - Community
 featured_image:
   src: /images/blog/python_code-johnson_martin_pixabay.webp
   title: "Image of Python code, credit: Johnson Martin from Pixabay"

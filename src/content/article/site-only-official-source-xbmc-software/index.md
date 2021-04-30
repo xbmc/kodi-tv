@@ -1,6 +1,8 @@
 ---
 title: 'This Site is the Only Official Source of XBMC Software'
 date: 2013-05-05T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 A few months ago, some of you may remember that a number of news sites wrote articles under the apparent mistaken impression that a site making a modified version of XBMC was an official XBMC source. For the most part, most of those sites (with the exception of Engadget) updated their original stories with a clarification after a quick email was sent by Team XBMC.

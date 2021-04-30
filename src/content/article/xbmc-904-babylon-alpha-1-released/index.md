@@ -1,5 +1,7 @@
 ---
 title: 'XBMC 9.04 (Babylon) Alpha 1 released'
+tags:
+  - Prerelease
 date: 2009-04-04T03:00:00Z
 author: Team XBMC
 ---

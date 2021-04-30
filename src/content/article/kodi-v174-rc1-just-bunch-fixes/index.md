@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.4 RC1: Just a bunch of fixes"
 date: 2017-08-10T22:41:08Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/o-CAT-LAPTOP-facebook.webp

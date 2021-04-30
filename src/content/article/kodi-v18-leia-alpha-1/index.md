@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - Alpha 1"
 date: 2018-03-04T06:52:54Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-36F-1100x500_samfisher.webp

@@ -1,6 +1,8 @@
 ---
 title: 'Kodi 16.0 "Jarvis" - Release Candidate 3'
 date: 2016-02-03T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi16-rc.webp

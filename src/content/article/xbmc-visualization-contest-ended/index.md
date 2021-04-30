@@ -1,6 +1,9 @@
 ---
 title: 'XBMC Visualization Contest Ended'
 date: 2004-04-20T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Team XBMC
 ---
 the last submission date for our [xbmc audio visualization competition](http://www.xboxmediaplayer.de/cgi-bin/forums/ikonboard.pl?act=st;f=1;t=1077) has now passed and six valid entries was received. since we had ten prize positions all six entries are winners and will each be awarded with a [final version of the xecuter-3 modchip](http://www.teamxecuter.com/modules.php?name=news&file=article&sid=25&mode=&order=0&thold=0) courtesy of [team-xecuter](http://www.teamxecuter.com). know that we are still waiting for an exact e.t.a. of the [x3](http://www.teamxecuter.com/modules.php?name=news&file=article&sid=25&mode=&order=0&thold=0) to be announced by [team-xecuter](http://www.teamxecuter.com), so the winners will be contacted now but only sent their prize once the [x3 mod chips](http://www.teamxecuter.com/modules.php?name=news&file=article&sid=25&mode=&order=0&thold=0) are ready for shipping. congratulations to all the winners and thank you very much for your work, we hope you will continue develop for xbmc. note that the tripex vis is not working yet in xbmc but we decided to award this a prize in the competition anyway, on side note to that we would love if there was directx/direct3d guru developer out there that could please help us get [tripex](http://www.xboxmediacenter.com/temp/tripex_19-04-2004src.zip) to fully work in xbmc.

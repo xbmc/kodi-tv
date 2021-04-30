@@ -1,6 +1,8 @@
 ---
 title: "Come join us at Linux.conf.au and SCALE"
 date: 2010-01-13T03:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

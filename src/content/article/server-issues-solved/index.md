@@ -1,6 +1,9 @@
 ---
 title: "Server Issues: Solved"
 date: 2013-12-15T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/o-CAT-LAPTOP-facebook.webp

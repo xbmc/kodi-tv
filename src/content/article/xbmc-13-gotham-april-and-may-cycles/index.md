@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 - Gotham - April and May cycles"
 date: 2013-06-10T04:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 featured_image:
   src: /images/blog/new_settings.webp

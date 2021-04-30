@@ -1,6 +1,8 @@
 ---
 title: "Google Summer of Code 2013: Students, Get Ready!"
 date: 2013-04-08T04:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.webp

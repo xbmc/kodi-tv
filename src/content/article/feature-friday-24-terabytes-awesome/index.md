@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: 24 Terabytes of awesome"
 date: 2011-08-05T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

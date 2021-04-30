@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 -Gotham - June and July Cycles"
 date: 2013-08-04T04:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/settings_descriptions.webp

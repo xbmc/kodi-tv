@@ -1,6 +1,8 @@
 ---
 title: "Updated: XBMC update for iDevice/AppleTV2"
 date: 2011-02-05T03:00:00Z
+tags:
+  - Release
 author: Cory
 ---
 

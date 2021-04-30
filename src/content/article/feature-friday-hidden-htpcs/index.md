@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: Hidden HTPCs"
 date: 2011-11-25T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

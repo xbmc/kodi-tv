@@ -15,7 +15,7 @@ import {
   SponsorList,
 } from "./SectionWidgets";
 
-function PreviewNoticeCard(props) {
+function PreviewNoticeCard(props: { section: "downloadlist" | "sponsors" }) {
   return (
     <Card>
       <h3 className="text-2xl font-bold">No Live Preview</h3>
@@ -24,7 +24,7 @@ function PreviewNoticeCard(props) {
   );
 }
 
-function DynamicSection(props) {
+function DynamicSection(props: { preview: any; section: string | number }) {
   let dlcomponent = <DownloadList />;
   let spcomponent = <SponsorList />;
   if (props.preview) {
@@ -48,7 +48,7 @@ function DynamicSection(props) {
     ),
     visitsponsoring: (
       <CtaButtonInternal
-        url="about/sponsors"
+        url="/about/sponsors"
         buttontext="Learn More About Sponsoring Kodi"
       />
     ),
@@ -60,7 +60,7 @@ function DynamicSection(props) {
   return section;
 }
 
-export default function Page(props) {
+export default function Page(props: { onePage: any; preview: boolean | undefined }) {
   let onePage = props.onePage;
   let preview = false;
   if (props.preview != undefined) {

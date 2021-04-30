@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2017 Part II - Day One"
 date: 2017-10-26T23:14:17Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/prague-1002963_1920.webp

@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday BIG SCREEN small room"
 date: 2011-04-21T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

@@ -4,7 +4,7 @@ import { DistributionList } from "../hooks/DistributionList";
 
 const slugify = require("slugify");
 
-function DownloadList(props: { items: any[] }) {
+function DownloadList(props: { items?: any[] }) {
   const items = DistributionList();
   items.forEach(function (item, index) {
     this[index]["slug"] = slugify(item.name, { lower: true });

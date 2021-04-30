@@ -1,6 +1,8 @@
 ---
 title: "XBMC 12.2 - Even More Frodo!"
 date: 2013-05-02T04:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/zappy-frodo-background-680.webp

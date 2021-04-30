@@ -1,6 +1,8 @@
 ---
 title: 'Kodi "Leia" 18.6 Release'
 date: 2020-03-02T23:00:00Z
+tags:
+  - Release
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Kodi_Splash_v18.6_Leia_Final_1080p.webp

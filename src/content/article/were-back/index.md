@@ -1,6 +1,8 @@
 ---
 title: 'We’re back!'
 date: 2010-03-16T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 After a nasty lightning strike at our ISP, we were temporarily left with no networking and no power. That in itself is not so bad. Unfortunately, due to the power loss, there was substantial filesystem corruption and data loss to deal with.

@@ -1,6 +1,8 @@
 ---
 title: "Addon Authors, please prepare for Eden"
 date: 2011-12-02T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

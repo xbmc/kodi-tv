@@ -1,6 +1,8 @@
 ---
 title: "And without further ado…"
 date: 2011-06-16T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

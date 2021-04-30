@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.0 - Helix alpha 3"
 date: 2014-08-30T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash.webp

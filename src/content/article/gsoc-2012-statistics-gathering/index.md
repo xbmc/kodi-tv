@@ -1,6 +1,8 @@
 ---
 title: 'GSoC 2012 Statistics gathering'
 date: 2012-06-19T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 Hi everyone!

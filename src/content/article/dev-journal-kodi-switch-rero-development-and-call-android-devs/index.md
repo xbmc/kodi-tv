@@ -1,6 +1,8 @@
 ---
 title: "Dev Journal: Kodi’s Switch to RERO Development And A Call For Android Devs"
 date: 2016-04-27T04:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/early_often.webp

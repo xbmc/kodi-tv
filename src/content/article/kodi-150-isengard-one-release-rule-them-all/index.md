@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 - Isengard - One Release to Rule Them All"
 date: 2015-07-20T04:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Kodi-Isengard-2C2-1080p-Original-Size.webp

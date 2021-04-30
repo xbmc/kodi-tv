@@ -1,6 +1,8 @@
 ---
 title: "Meetup Postponed to Next DevCon/SCALE/LinuxTag"
 date: 2012-09-01T04:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 ---
 

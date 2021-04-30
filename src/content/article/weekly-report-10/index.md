@@ -1,6 +1,8 @@
 ---
 title: 'Weekly report 10'
 date: 2010-08-03T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 Status

@@ -1,6 +1,8 @@
 ---
 title: Kodi @Remote Chaos Experience (RC3)
 date: 2020-12-29T00:52:25.454Z
+tags:
+  - Conferences
 author: yol
 ---
 Heya fellow net dwellers,

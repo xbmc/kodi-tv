@@ -1,6 +1,8 @@
 ---
 title: "Kodi 14.2 Helix - Release Candidate"
 date: 2015-03-11T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-14.2-rc.webp

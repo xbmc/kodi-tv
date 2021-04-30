@@ -1,6 +1,9 @@
 ---
 title: "Support for metadata sites 2014"
 date: 2014-07-10T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: zag
 featured_image:
   src: /images/blog/metadata_sites.webp

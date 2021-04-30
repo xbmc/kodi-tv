@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia RC4 - A new hope"
 date: 2018-12-28T23:26:28Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Xmas.webp

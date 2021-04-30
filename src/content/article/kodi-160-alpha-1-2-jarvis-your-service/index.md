@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.0 Alpha 1 &amp; 2 - Jarvis at your service"
 date: 2015-09-02T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi16.0-jarvis-alpha.webp

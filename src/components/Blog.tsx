@@ -1,22 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { useStaticQuery, graphql } from "gatsby";
+import { Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
-import { TagCounts } from "../hooks/TagCounts";
 import { TagList } from "../hooks/TagList";
-import {
-  UsersOutline,
-  DownloadOutline,
-  FolderDownloadOutline,
-  CodeOutline,
-  FlagOutline,
-  SearchOutline,
-  NewspaperOutline,
-} from "heroicons-react";
+import { SearchIcon } from "@heroicons/react/outline";
+import { News } from "../hooks/LatestNews";
 
 const slugify = require("slugify");
 
-function BlogPostCard(props: { post: any }) {
+function BlogPostCard(props: { post: News }) {
   let post = props.post;
   let tagroot = "/blog/tag/";
   if (post.frontmatter.tags == undefined) {
@@ -28,7 +20,7 @@ function BlogPostCard(props: { post: any }) {
   return (
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        <div className="flex-shrink-0">
+        <Link to={post.fields.slug} className="flex-shrink-0">
           {post.frontmatter.featured_image == undefined ? (
             <div className="h-48 w-full object-cover bg-kodi"></div>
           ) : (
@@ -39,10 +31,10 @@ function BlogPostCard(props: { post: any }) {
               alt={post.frontmatter.featured_image.alt}
             />
           )}
-        </div>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+        </Link>
+        <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
           <div className="flex-1">
-            <p className="text-sm font-medium text-kodi">
+            <p className="text-sm font-medium">
               {post.frontmatter.tags.map((tag: string, index: any) => {
                 return (
                   <ItemWithComma
@@ -57,12 +49,12 @@ function BlogPostCard(props: { post: any }) {
               })}
               &nbsp;
             </p>
-            <a href={post.fields.slug} className="block mt-2">
+            <Link to={post.fields.slug} className="block mt-2">
               <ReactMarkdown className="text-xl font-semibold text-gray-900">
                 {post.frontmatter.title}
               </ReactMarkdown>
               <p className="mt-3 text-base text-gray-500">{post.excerpt}</p>
-            </a>
+            </Link>
           </div>
           <div className="mt-6 flex items-center">
             <div>
@@ -86,7 +78,7 @@ function EmptyCard() {
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+        <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
           <div className="flex-1">&nbsp;</div>
         </div>
       </div>
@@ -94,93 +86,45 @@ function EmptyCard() {
   );
 }
 
-function NavCard(props) {
-  const data = TagCounts();
-  let tagList = TagList();
-  let tagDisplay = [];
-  for (let i = 0; i < tagList.length; i++) {
-    let oneTag = {};
-    oneTag["name"] == tagList[i];
-    oneTag["slug"] = "/blog/tag/" + slugify(tagList[i], { lower: true });
-    switch (data.allTags.distinct[i]) {
-      case "Community":
-        oneTag["displayname"] = "Community Updates";
-        oneTag["icon"] = (
-          <UsersOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.communityCount.totalCount;
-        break;
-      case "DevCon":
-        oneTag["displayname"] = "DevCon";
-        oneTag["icon"] = (
-          <FlagOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.devConCount.totalCount;
-        break;
-      case "Developer":
-        oneTag["displayname"] = "Developer Updates";
-        oneTag["icon"] = (
-          <CodeOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.developerCount.totalCount;
-        break;
-      case "Prerelease":
-        oneTag["displayname"] = "Prerelease Announcements";
-        oneTag["icon"] = (
-          <FolderDownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.prereleaseCount.totalCount;
-        break;
-      case "Release":
-        oneTag["displayname"] = "Release Announcements";
-        oneTag["icon"] = (
-          <DownloadOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-        );
-        oneTag["count"] = data.releaseCount.totalCount;
-        break;
-    }
-    tagDisplay.push(oneTag);
-  }
+function NavCard(_props: unknown) {
+  const tagList = TagList();
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
-        <div className="flex-1 bg-white px-6 pb-6 flex flex-col justify-between">
+        <div className="flex-1 bg-gray-50 px-6 pt-4 pb-6 flex flex-col justify-between">
           <div className="flex-1">
             <nav className="space-y-1" aria-label="Sidebar">
               <h2 className="text-gray-900 font-bold text-md">Tags</h2>
-              <a
-                href="/blog"
-                className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
-              >
-                <NewspaperOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
-                <span className="truncate">All News</span>
-                <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
-                  {data.postCount.totalCount}
-                </span>
-              </a>
-              {tagDisplay.map((tag: string) => {
-                return (
-                  <a
-                    key={tag.slug}
-                    href={tag.slug}
-                    className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
-                  >
-                    {tag.icon}
-                    <span className="truncate">{tag.displayname}</span>
-                    <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
-                      {tag.count}
-                    </span>
-                  </a>
-                );
-              })}
+              {tagList.map(
+                (tag: {
+                  slug: string;
+                  icon: any;
+                  count: string;
+                  displayname: string;
+                }) => {
+                  return (
+                    <Link
+                      key={tag.slug}
+                      to={tag.slug}
+                      className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+                    >
+                      <tag.icon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
+                      <span className="truncate">{tag.displayname}</span>
+                      <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
+                        {tag.count}
+                      </span>
+                    </Link>
+                  );
+                }
+              )}
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
-              <a
-                href="/blog/search"
-                className="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
+              <Link
+                to="/blog/search"
+                className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
-                <SearchOutline className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
+                <SearchIcon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

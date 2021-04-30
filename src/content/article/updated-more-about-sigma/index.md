@@ -1,6 +1,8 @@
 ---
 title: "Updated: More About Sigma"
 date: 2011-01-11T03:00:00Z
+tags:
+  - Developer
 author: Cory
 ---
 

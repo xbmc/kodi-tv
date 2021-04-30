@@ -1,6 +1,9 @@
 ---
 title: "2018 - Looking Back..."
 date: 2018-12-12T02:23:41Z
+tags:
+  - Community
+  - Developer
 author: Prof Yaffle
 featured_image:
   src: /images/blog/devon-janse-van-rensburg-763520-unsplash.webp

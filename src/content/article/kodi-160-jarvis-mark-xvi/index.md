@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.0 - Jarvis - Mark XVI"
 date: 2016-02-20T03:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/SplashKodi16.webp

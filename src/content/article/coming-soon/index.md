@@ -1,6 +1,8 @@
 ---
 title: "Coming soon"
 date: 2010-02-05T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Search } from "heroicons-react";
+import { SearchIcon } from "@heroicons/react/solid";
 
 export default function SeachAddonsNoResult(props) {
   let title = "No results found";
@@ -12,7 +12,7 @@ export default function SeachAddonsNoResult(props) {
   return (
     <>
       <div className="flex flex-col">
-        <Search />
+        <SearchIcon className="flex-shrink-0 h-16 w-16" />
         <h2 className="text-2xl font-bold">{title}</h2>
         <p>{body}</p>
       </div>

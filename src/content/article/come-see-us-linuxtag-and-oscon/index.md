@@ -1,6 +1,8 @@
 ---
 title: "Come see us at LinuxTag and OSCON"
 date: 2010-05-06T04:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

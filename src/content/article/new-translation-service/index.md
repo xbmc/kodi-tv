@@ -1,6 +1,8 @@
 ---
 title: "New translation service"
 date: 2012-05-29T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

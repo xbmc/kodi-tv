@@ -1,6 +1,8 @@
 ---
 title: "Kodi Community - May 2015"
 date: 2015-05-05T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Screenshot_2015-05-07-21-04-46.webp

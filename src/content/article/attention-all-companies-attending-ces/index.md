@@ -1,6 +1,8 @@
 ---
 title: "Attention ALL Companies attending CES!"
 date: 2016-10-15T03:00:00Z
+tags:
+  - Conferences
 author: Keith Herrington
 featured_image:
   src: /images/blog/kodi_ces.webp

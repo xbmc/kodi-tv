@@ -1,6 +1,8 @@
 ---
 title: 'XBMC official logo finalized'
 date: 2004-04-27T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 **Note:** As of 2021-03-07, the links and media mentioned here are no longer available. This post is maintained for historical purposes only without any of the links or associated media.

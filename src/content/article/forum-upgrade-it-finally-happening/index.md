@@ -1,6 +1,8 @@
 ---
 title: "Forum Upgrade - It’s finally happening!"
 date: 2012-02-25T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

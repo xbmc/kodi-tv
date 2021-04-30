@@ -1,6 +1,8 @@
 ---
 title: 'XBMC future versioning and codenames'
 date: 2008-08-18T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 The XBMC project have decided to adopt Ubuntu’s Year.Month versioning for all of our future XBMC stable point-releases. This means that if we hold true to the current [XBMC roadmap schedule](http://trac.xbmc.org/roadmap) then the next [‘Gold’](https://en.wikipedia.org/wiki/Software_release_life_cycle) release should be released in October 2008 and will thus have the version 8.10 (so “8″ stands for the year 2008 and “10″ stands for the 10th month of the year which is October).

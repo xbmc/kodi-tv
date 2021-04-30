@@ -1,6 +1,9 @@
 ---
 title: "Mirrors back online after server was physically moved."
 date: 2014-10-11T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Kib
 featured_image:
   src: /images/blog/move_succeedeed.webp

@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 Isengard – Beta 2"
 date: 2015-06-13T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/shield-beta2-build.webp

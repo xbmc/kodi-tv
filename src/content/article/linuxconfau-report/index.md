@@ -1,6 +1,8 @@
 ---
 title: "Linux.conf.au Report"
 date: 2010-01-27T03:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

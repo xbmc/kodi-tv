@@ -1,6 +1,9 @@
 ---
 title: "XBMC: Get involved!"
 date: 2009-10-26T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Team XBMC
 ---
 

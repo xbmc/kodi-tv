@@ -1,6 +1,8 @@
 ---
 title: 'Dharma RC1'
 date: 2010-11-17T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 It’s that time again. After an extremely productive DevCon where we hammered out some nasty bugs, we’re proud to announce Dharma Release Candidate 1.

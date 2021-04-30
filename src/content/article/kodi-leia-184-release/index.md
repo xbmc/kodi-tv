@@ -1,6 +1,8 @@
 ---
 title: 'Kodi "Leia" 18.4 Release'
 date: 2019-09-01T10:59:24Z
+tags:
+  - Release
 author: Prof Yaffle
 featured_image:
   src: /images/blog/splash.webp

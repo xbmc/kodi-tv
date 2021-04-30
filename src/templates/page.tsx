@@ -12,6 +12,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         breadcrumbs
+        description
       }
       rawMarkdownBody
     }

@@ -1,6 +1,8 @@
 ---
 title: "Welcome sponsor: Weather Underground"
 date: 2011-12-09T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

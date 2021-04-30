@@ -1,6 +1,8 @@
 ---
 title: "Kodi 19 with Python 3 Goes Live"
 date: 2019-11-16T02:33:03Z
+tags:
+  - Developer
 author: Team Kodi
 featured_image:
   src: /images/blog/kplusp.webp

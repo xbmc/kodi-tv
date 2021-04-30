@@ -1,6 +1,8 @@
 ---
 title: "We’ve been accepted to GSOC 2015!"
 date: 2015-03-01T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.webp

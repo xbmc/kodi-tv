@@ -1,6 +1,8 @@
 ---
 title: "Beers, Users, and Devs Night"
 date: 2013-10-08T03:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 ---
 

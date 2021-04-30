@@ -1,6 +1,8 @@
 ---
 title: "Google Summer of Code 2012: Update"
 date: 2012-03-17T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 ---
 

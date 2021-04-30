@@ -1,6 +1,8 @@
 ---
 title: "And.....we&#039;re baaaaack!"
 date: 2017-04-01T01:15:51Z
+tags:
+  - April Fools
 author: Prof Yaffle
 featured_image:
   src: /images/blog/alissa-eady-92378 - compressed.webp

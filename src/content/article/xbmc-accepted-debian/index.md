@@ -1,6 +1,9 @@
 ---
 title: "XBMC Accepted into Debian"
 date: 2012-04-09T04:00:00Z
+tags:
+  - Release
+  - Community
 author: Team XBMC
 ---
 

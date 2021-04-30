@@ -1,6 +1,8 @@
 ---
 title: "Having issues with free Movies, TV Shows, Sports, IPTV Streams?"
 date: 2017-06-28T21:01:52Z
+tags:
+  - Community
 author: Christian Hewitt
 featured_image:
   src: /images/blog/kodi_news.webp

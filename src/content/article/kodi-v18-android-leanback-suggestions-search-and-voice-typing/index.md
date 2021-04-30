@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18: Android Leanback suggestions, search and voice typing"
 date: 2017-04-28T09:37:14Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/v18-Android-Search_Kung-Fury.webp
@@ -15,8 +17,6 @@ At times you do wonder what else could still be added to Kodi as it has been mad
 If you already have a Android TV device you are probably familiar with the main screen that shows some random tiles of YouTube videos and depending on the apps you installed some content of those as well. Finally the time has come that Kodi joins this elite group and will now be able to show it’s library content on the Android interface as well with full voice and search integration. You will get suggested content like unwatched random movies,and episodes to continue binge watching them till the end. For the music enthusiasts we show you random albums from your library to keep your listening as diverse as possible. Clicking on one of those tiles will jump straight to the information panel or listing inside Kodi where you can hit play.
 
 breakThat’s not all as at the same time you can now use the Google voice search to search through your Kodi library straight from the Android screen. Just hit the voice search button and speak whatever you want to search for and it will try to match and show you the results. It is of course important that the content has been added to your library as that is the main source we use to search from. The available results currently are movies, tv shows, actors, albums or artists. Since add-ons and plugins are not part of your library these will obviously not be included in the results.
-
-**[gallery:1]**
 
 #### Wait, there's still more...
 

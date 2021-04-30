@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17 “Krypton” The last Beta 7"
 date: 2016-12-18T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Xmas.webp

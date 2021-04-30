@@ -1,6 +1,9 @@
 ---
 title: 'Kodi 14.0 code name "Helix" enters feature freeze'
 date: 2014-09-09T04:00:00Z
+tags:
+  - Prerelease
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash.webp

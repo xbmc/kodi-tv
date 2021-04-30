@@ -1,6 +1,8 @@
 ---
 title: "Kodi has been accepted to GSOC 2019!"
 date: 2019-02-26T00:31:08Z
+tags:
+  - Developer
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/gsoc_2018.webp

@@ -1,6 +1,8 @@
 ---
 title: 'Kodi "Leia" 18.7 on Android'
 date: 2020-06-08T15:30:00Z
+tags:
+  - Community
 author: Prof Yaffle
 featured_image:
   src: /images/blog/Android_Robot.webp

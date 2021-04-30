@@ -1,6 +1,9 @@
 ---
 title: "What’s going on around the community remotes, skins, and addons"
 date: 2011-04-19T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 ---
 

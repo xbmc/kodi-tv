@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.0 - Gotham rises"
 date: 2014-05-03T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13_0-splash.webp

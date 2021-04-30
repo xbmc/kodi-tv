@@ -1,6 +1,8 @@
 ---
 title: "XBMC For Android"
 date: 2012-07-12T04:00:00Z
+tags:
+  - Community
 author: Cory
 ---
 

@@ -1,6 +1,9 @@
 ---
 title: "DevCon 2010"
 date: 2010-10-29T03:00:00Z
+tags:
+  - DevCon
+  - Conferences
 author: Team XBMC
 ---
 

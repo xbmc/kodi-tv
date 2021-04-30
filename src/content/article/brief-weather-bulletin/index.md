@@ -1,6 +1,8 @@
 ---
 title: "Brief Weather Bulletin"
 date: 2011-11-14T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 ---
 

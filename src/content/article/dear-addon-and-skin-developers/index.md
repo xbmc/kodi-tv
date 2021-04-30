@@ -1,6 +1,8 @@
 ---
 title: 'Dear addon and skin developers!'
 date: 2012-10-29T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 As you might already know, XBMC has [moved](https://forum.kodi.tv/showthread.php?tid=141158) translations handling to a great web based translation system called [Transifex](https://www.transifex.com/projects/p/XBMC-Main-Frodo/) lately for the Frodo release. This turned out to work really awesome with the help of our regular and a lot of new translators.

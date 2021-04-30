@@ -1,6 +1,8 @@
 ---
 title: "Introducing the new Add-on Website"
 date: 2013-11-22T03:00:00Z
+tags:
+  - Community
 author: zag
 featured_image:
   src: /images/blog/skins.webp

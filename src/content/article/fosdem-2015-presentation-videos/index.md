@@ -1,6 +1,8 @@
 ---
 title: "FOSDEM 2015 presentation videos"
 date: 2015-02-25T03:00:00Z
+tags:
+  - Conferences
 author: Kib
 featured_image:
   src: /images/blog/kodifosdem.webp

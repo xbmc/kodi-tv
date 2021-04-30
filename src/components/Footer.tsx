@@ -1,13 +1,15 @@
+import { Link } from "gatsby";
 import React from "react";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorFooterList } from "./SponsorList";
 
 function Footer() {
   const sponsors: Sponsor[] = Sponsors();
-  const diamondSponsors = sponsors.filter(a => a.sponsor_level === "Diamond");
-  const goldSponsors = sponsors.filter(a => a.sponsor_level === "Gold");
-  const silverSponsors = sponsors.filter(a => a.sponsor_level === "Silver");
-  const bronzeSponsors = sponsors.filter(a => a.sponsor_level === "Bronze");
+  const orderedSponsors: Sponsor[] = sponsors
+    .filter(a => a.sponsor_level === "Diamond")
+    .concat(sponsors.filter(a => a.sponsor_level === "Gold"))
+    .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
+    .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
   let year = new Date().getFullYear();
 
   return (
@@ -37,68 +39,60 @@ function Footer() {
                   </h3>
                   <ul className="mt-4 space-y-4">
                     <li>
-                      <a
-                        href="/about/contact"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Contact
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/contribute"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Get Involved
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/gpl-violators"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        GPL Violators
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/software"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Kodi Software
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/team"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Kodi Team
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/privacy-policy"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/sponsors"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Sponsorship
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/about/foundation"
+                      <Link
+                        to="/about/foundation"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Foundation
-                      </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/team"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Kodi Team
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/sponsors"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Sponsorship
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/terms-of-service"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Terms of Service
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/privacy-policy"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Privacy Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/dmca"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        DMCA Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/about/gpl-violators"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        GPL Violators
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -107,12 +101,7 @@ function Footer() {
                     Sponsors
                   </h3>
                   <ul className="mt-4 space-y-4">
-                    <>
-                      <SponsorFooterList sponsors={diamondSponsors} />
-                      <SponsorFooterList sponsors={goldSponsors} />
-                      <SponsorFooterList sponsors={silverSponsors} />
-                      <SponsorFooterList sponsors={bronzeSponsors} />
-                    </>
+                    <SponsorFooterList sponsors={orderedSponsors} />
                   </ul>
                 </div>
               </div>
@@ -202,6 +191,16 @@ function Footer() {
                         TVDB.com
                       </a>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="https://www.tvmaze.com"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        TVMaze
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
@@ -217,6 +216,16 @@ function Footer() {
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Facebook
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noopener"
+                        href="/rss.xml"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        RSS
                       </a>
                     </li>
                     <li>
@@ -239,26 +248,6 @@ function Footer() {
                         YouTube
                       </a>
                     </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="https://www.github.com/xbmc"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        GitHub
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noopener"
-                        href="/rss.xml"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        RSS
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -268,7 +257,12 @@ function Footer() {
             <p className="text-base text-gray-600 xl:text-center">
               &copy;{year} The Kodi Foundation. All rights reserved. This web site is
               powered by{" "}
-              <a target="_blank" rel="noopener" href={"https://www.netlify.com"}>
+              <a
+                className="underline"
+                target="_blank"
+                rel="noopener"
+                href={"https://www.netlify.com"}
+              >
                 Netlify
               </a>
               .

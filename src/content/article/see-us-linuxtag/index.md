@@ -1,6 +1,8 @@
 ---
 title: "See us at LinuxTag"
 date: 2011-04-11T04:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

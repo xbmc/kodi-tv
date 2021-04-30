@@ -7,8 +7,8 @@ function SponsorLevelList(props: { title: string; sponsors: Sponsor[] }) {
     <>
       {props.sponsors.length > 0 ? (
         <>
-          <div className="relative bg-white py-6">
-            <div className="mx-auto max-w-3xl px-6 lg:px-8 lg:max-w-7xl">
+          <div className="relative bg-gray-50 py-6">
+            <div className="mx-auto max-w-3xl lg:max-w-7xl">
               <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
                 {props.title}
               </h2>
@@ -20,7 +20,7 @@ function SponsorLevelList(props: { title: string; sponsors: Sponsor[] }) {
                         <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
                           <div className="-mt-6">
                             <div>
-                              <span className="inline-flex items-center justify-center p-3 bg-white border rounded-md shadow-lg">
+                              <span className="inline-flex items-center justify-center p-3 bg-gray-50 border rounded-md shadow-lg">
                                 <a
                                   href={sponsor.slug}
                                   target="_blank"

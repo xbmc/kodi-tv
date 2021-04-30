@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.0 beta 2 – Jarvis is getting ready #2"
 date: 2015-11-21T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.webp

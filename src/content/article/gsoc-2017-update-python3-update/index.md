@@ -1,6 +1,8 @@
 ---
 title: "GSOC 2017 Update - Python3 Update"
 date: 2017-08-01T09:46:48Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/digital-388075_1280.webp

@@ -1,6 +1,8 @@
 ---
 title: 'Flirc "Kodi Edition" Raspberry Pi 4B Case'
 date: 2019-06-24T23:11:27Z
+tags:
+  - Community
 author: Christian Hewitt
 featured_image:
   src: /images/blog/pi4_case_featured_image.webp

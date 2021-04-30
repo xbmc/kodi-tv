@@ -1,6 +1,10 @@
 ---
 title: 'XBMC Server Update, SCALE, and Other Notes'
 date: 2013-02-04T03:00:00Z
+tags:
+  - Community
+  - Developer
+  - Conferences
 author: Nathan Betzen
 ---
 Now that some of the excitement of the XBMC 12 release has blown over, we need to take a moment to handle some maintenance and take a look at the very near future.

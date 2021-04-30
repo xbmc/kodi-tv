@@ -1,6 +1,8 @@
 ---
 title: "OpenELEC 1.0 released"
 date: 2011-10-25T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

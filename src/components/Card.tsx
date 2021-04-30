@@ -1,6 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-interface Props {}
+interface Props {
+  title?: string;
+  icon?: React.ReactFragment;
+  iconClass?: string;
+  imgtitle?: string;
+  imgsrc?: string;
+  imgalt?: string;
+  url?: string;
+}
 
 class Card extends React.Component<Props> {
   render() {
@@ -84,7 +92,7 @@ class RoundedCardWithImage extends React.Component<Props> {
               alt={this.props.imgalt}
             />
           </div>
-          <div className="flex-1 bg-white p-6 flex flex-col justify-between">
+          <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
             <div className="flex-1">
               <div className="block mt-2">
                 <p className="text-xl font-semibold text-gray-900">

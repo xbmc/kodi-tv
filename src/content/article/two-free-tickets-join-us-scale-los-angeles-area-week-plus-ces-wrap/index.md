@@ -1,6 +1,8 @@
 ---
 title: "Two Free Tickets to Join Us at SCALE in the Los Angeles area this week, Plus CES Wrap-up"
 date: 2016-01-18T03:00:00Z
+tags:
+  - Conferences
 author: Keith Herrington
 featured_image:
   src: /images/blog/14x_logo_lg.webp

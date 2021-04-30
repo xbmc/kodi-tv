@@ -1,6 +1,8 @@
 ---
 title: "GSOC 2017 Update - Shader Support"
 date: 2017-07-30T06:34:37Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/neighborscale.webp

@@ -1,6 +1,9 @@
 ---
 title: "A new webinterface called Chorus2"
 date: 2016-12-03T03:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/chorus2-artist.webp

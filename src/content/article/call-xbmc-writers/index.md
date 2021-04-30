@@ -1,6 +1,8 @@
 ---
 title: "A Call for XBMC writers"
 date: 2011-09-18T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

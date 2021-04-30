@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17 "Krypton" Beta 6'
 date: 2016-11-29T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-32A-1080p_samfisher.webp

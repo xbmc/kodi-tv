@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 Isengard - Alpha 2"
 date: 2015-03-31T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/screenshot001.webp

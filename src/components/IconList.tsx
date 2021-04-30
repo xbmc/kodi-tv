@@ -7,16 +7,11 @@ function IconListFeatured(props: {
   className: string | undefined;
   linkroot: string | undefined;
 }) {
-  let items = [];
+  let items = props.items;
   let linkroot = "";
   let className = "my-6 max-w-none mx-auto gap-5 grid md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
     return "";
-  }
-  if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node));
-  } else {
-    items = props.items;
   }
   if (props.className !== undefined) {
     className = props.className;
@@ -30,7 +25,7 @@ function IconListFeatured(props: {
         {items.map((item, index) => (
           <FeaturedCard
             iconClass={
-              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-white"
+              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-gray-50"
             }
             title={item.name}
             icon={
@@ -52,16 +47,21 @@ function IconListFeatured(props: {
 }
 
 function IconList(props: {
-  items: any[];
+  items: {
+    icon: string;
+    node?: any;
+    slug?: string;
+    name?: string;
+  }[];
   iconwidth: string | undefined;
-  iconheight: string | undefined;
-  linkroot: string | undefined;
+  iconheight?: string;
+  linkroot: string;
   className: string | undefined;
 }) {
   if (props.items.length == 0) {
     return "";
   }
-  let items = [];
+  let items = props.items;
   let linkroot = "";
   let className = "grid grid-cols-2 pt-4 pb-6 gap-4 md:grid-cols-3 lg:grid-cols-5";
   let iconwidth = "150";
@@ -75,11 +75,6 @@ function IconList(props: {
   if (props.iconheight !== undefined) {
     iconheight = props.iconheight;
   }
-  if (props.items[0].node !== undefined) {
-    props.items.map((item: { node: any }, index: any) => items.push(item.node));
-  } else {
-    items = props.items;
-  }
   if (props.linkroot !== undefined) {
     linkroot = props.linkroot;
   }
@@ -89,18 +84,27 @@ function IconList(props: {
         <div align="center" key={item.name}>
           {item.slug == undefined ? (
             <>
-              <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+              <img
+                className="rounded-md"
+                width={iconwidth}
+                height={iconheight}
+                alt=""
+                src={item.icon}
+              />
               <div style={{ display: item.name === "" ? "none" : "block" }}>
                 <ReactMarkdown>{item.name}</ReactMarkdown>
               </div>
             </>
           ) : (
             <>
-              <a
-                className="text-base text-gray-500 hover:text-kodi-darker"
-                href={linkroot + item.slug}
-              >
-                <img width={iconwidth} height={iconheight} alt="" src={item.icon} />
+              <a href={linkroot + item.slug}>
+                <img
+                  className="rounded-md"
+                  width={iconwidth}
+                  height={iconheight}
+                  alt=""
+                  src={item.icon}
+                />
                 <div style={{ display: item.name === "" ? "none" : "block" }}>
                   <ReactMarkdown>{item.name}</ReactMarkdown>
                 </div>

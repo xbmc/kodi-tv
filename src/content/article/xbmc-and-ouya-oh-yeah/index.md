@@ -1,6 +1,9 @@
 ---
 title: "XBMC and Ouya? Oh Yeah!"
 date: 2012-08-06T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/zappy-ouya-announce1.webp

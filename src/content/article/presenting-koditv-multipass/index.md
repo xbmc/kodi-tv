@@ -1,6 +1,8 @@
 ---
 title: "Presenting KodiTV MultiPass"
 date: 2019-03-31T12:59:19Z
+tags:
+  - April Fools
 author: Cris Silva (h.udo)
 featured_image:
   src: /images/blog/multipass.webp

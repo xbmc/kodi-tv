@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Live 8.10 (Atlantis) released'
 date: 2008-11-14T03:00:00Z
+tags:
+  - Release
 author: Team XBMC
 ---
 The new release is out in public. It contains the following notable changes:

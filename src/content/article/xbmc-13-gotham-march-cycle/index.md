@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 - Gotham - March Cycle"
 date: 2013-04-02T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/pop_up_notification.webp

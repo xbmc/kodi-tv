@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2017 - Day One"
 date: 2017-05-05T06:28:09Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 ---
 

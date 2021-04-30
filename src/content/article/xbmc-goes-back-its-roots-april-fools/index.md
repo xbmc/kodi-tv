@@ -1,6 +1,8 @@
 ---
 title: "XBMC Goes Back to its Roots [April Fools]"
 date: 2013-03-31T03:00:00Z
+tags:
+  - April Fools
 author: Nathan Betzen
 featured_image:
   src: /images/blog/xbmc_immersive.webp

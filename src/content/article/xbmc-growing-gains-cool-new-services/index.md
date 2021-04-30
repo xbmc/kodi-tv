@@ -1,6 +1,8 @@
 ---
 title: "XBMC is growing up. Gains cool new services."
 date: 2010-01-07T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

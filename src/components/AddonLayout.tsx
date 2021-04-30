@@ -1,13 +1,13 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {
-  InformationCircleOutline,
-  TruckOutline,
-  TagOutline,
-  ClockOutline,
-  UserOutline,
-  UsersOutline,
-} from "heroicons-react";
+  InformationCircleIcon,
+  TruckIcon,
+  TagIcon,
+  ClockIcon,
+  UserIcon,
+  UsersIcon,
+} from "@heroicons/react/outline";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
@@ -27,14 +27,16 @@ export default function AddonLayout({
   let frontmatter = {
     title: repo + " Add-on Details",
     breadcrumbs: "Addons | " + repo + " | " + addon.name,
+    description: addon.snippet,
   };
   let slides: string[] = [];
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
-  let authoricon = <UserOutline className="h-5 w-5 text-kodi" />;
+  let authoricon = <UserIcon className="h-5 w-5 text-kodi" />;
   if (addon.authors.length > 1) {
-    authoricon = <UsersOutline className="h-5 w-5 text-kodi" />;
+    authoricon = <UsersIcon className="h-5 w-5 text-kodi" />;
   }
   if (addon.screenshots != null) {
+    frontmatter.image = addon.screenshots[0].localpath;
     addon.screenshots.forEach((screenshot: { localpath: string }) => {
       slides.push(screenshot.localpath);
     });
@@ -59,9 +61,9 @@ export default function AddonLayout({
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {
       if (pushed % 2 == 0) {
-        className = "bg-gray-50 " + classNameRoot;
+        className = "bg-gray-100 " + classNameRoot;
       } else {
-        className = "bg-white " + classNameRoot;
+        className = "bg-gray-50 " + classNameRoot;
       }
       if (fields[i] === "Platforms") {
         datatype = "platform";
@@ -88,21 +90,27 @@ export default function AddonLayout({
       <AddonPageSubMenu linkroot={linkroot} />
       <div className="grid grid-cols-5">
         <div align="right" className="col-span-1 row-span-full pr-6">
-          <img width="150" height="150" alt="" src={addon.icon} />
+          <img
+            className="rounded-md"
+            width="150"
+            height="150"
+            alt=""
+            src={addon.icon}
+          />
         </div>
         <div className="col-span-4 flex flex-col">
           <ReactMarkdown className="text-2xl font-bold">{addon.name}</ReactMarkdown>
           <ReactMarkdown>{addon.snippet}</ReactMarkdown>
-          <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm text-gray-900 prose">
+          <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm">
             <div className="inline-flex">
               <div className="pr-1">
-                <TruckOutline className="h-5 w-5 text-kodi" />
+                <TruckIcon className="h-5 w-5 text-kodi" />
               </div>
               <div className="pr-4">{addon.version}</div>
             </div>
             <div className="inline-flex">
               <div className="pr-1">
-                <ClockOutline className="h-5 w-5 text-kodi" />
+                <ClockIcon className="h-5 w-5 text-kodi" />
               </div>
               <div className="pr-4">{addon.lastupdate}</div>
             </div>
@@ -125,9 +133,9 @@ export default function AddonLayout({
               </div>
             </div>
           </div>
-          <div className="mt-2 inline-flex text-sm text-gray-900 prose">
+          <div className="mt-2 inline-flex text-sm">
             <div className="pr-1">
-              <TagOutline className="h-5 w-5 text-kodi" />
+              <TagIcon className="h-5 w-5 text-kodi" />
             </div>
             <div>
               {addon.categories.map(
@@ -150,7 +158,7 @@ export default function AddonLayout({
       <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-kodi-darker p-4">
         <div className="flex">
           <div className="flex-shrink-0">
-            <InformationCircleOutline className="h-5 w-5 text-kodi-darker" />
+            <InformationCircleIcon className="h-5 w-5 text-kodi-darker" />
           </div>
           <div className="ml-3">
             <p className="text-sm text-kodi-darker">
@@ -163,7 +171,7 @@ export default function AddonLayout({
           </div>
         </div>
       </div>
-      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-white shadow overflow-hidden">
+      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-gray-50 shadow overflow-hidden">
         <div className="border-t border-gray-200">
           <dl>
             {details.map((item, index) => (
@@ -173,7 +181,7 @@ export default function AddonLayout({
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
                     </dt>
-                    <dd className="prose mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                    <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
                       <a href={item.data}>{item.data}</a>
                     </dd>
                   </div>
@@ -185,7 +193,7 @@ export default function AddonLayout({
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
                     </dt>
-                    <dd className="prose mt-0 col-span-1 md:col-span-2 text-sm text-gray-900">
+                    <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
                       {item.data.map((platform, index) => (
                         <ItemWithComma
                           description={platform.platform}

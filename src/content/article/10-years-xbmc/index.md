@@ -1,6 +1,8 @@
 ---
 title: "10 Years of XBMC"
 date: 2012-09-25T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Xbox_Classic___XBMC_Skin_by_Blackbolt.webp

@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - Beta 2"
 date: 2018-09-10T06:16:02Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_K-18L_A_900x336.webp

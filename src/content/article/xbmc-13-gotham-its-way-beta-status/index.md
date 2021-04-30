@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 Gotham - on its way to Beta status"
 date: 2014-01-17T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser-purple.webp

@@ -1,6 +1,8 @@
 ---
 title: "Beagleboard project for GSOC 2010"
 date: 2010-05-23T04:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 

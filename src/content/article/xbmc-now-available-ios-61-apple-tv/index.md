@@ -1,6 +1,9 @@
 ---
 title: "XBMC now available on iOS 6.1 for Apple TV"
 date: 2013-02-21T03:00:00Z
+tags:
+  - Community
+  - Release
 author: Nathan Betzen
 ---
 

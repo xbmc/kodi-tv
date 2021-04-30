@@ -1,6 +1,9 @@
 ---
 title: "Platform Statistics: October"
 date: 2013-10-23T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: zag
 ---
 

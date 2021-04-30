@@ -1,6 +1,9 @@
 ---
 title: "Some repository skins stats 2014"
 date: 2014-08-21T04:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/header_skin_stats_2014.webp

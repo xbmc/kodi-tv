@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: The Kitchen Hi-Fi"
 date: 2011-04-14T04:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

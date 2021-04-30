@@ -1,6 +1,8 @@
 ---
 title: "New server and some stats"
 date: 2015-07-12T04:00:00Z
+tags:
+  - Community
 author: zag
 featured_image:
   src: /images/blog/splash_racks.webp

@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Atlantis Beta 1 released - now serving all common platforms'
 date: 2008-09-17T04:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 [Team-XBMC](/about/team) is proud to announce the first cross-platform Beta version of [XBMC media center](https://kodi.wiki/view/Main_Page) for Linux, Mac OS X (Leopard and Tiger), Windows, and Xbox, in preparation for the upcoming stable release of XBMC, code named ‘Atlantis’. There are three important news items associated with this release:

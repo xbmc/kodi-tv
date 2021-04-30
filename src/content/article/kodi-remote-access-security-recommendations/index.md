@@ -1,6 +1,9 @@
 ---
 title: "Kodi Remote Access Security Recommendations"
 date: 2020-07-29T17:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Team Kodi
 featured_image:
   src: /images/blog/password-2781614_1920.webp

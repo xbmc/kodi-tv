@@ -1,6 +1,8 @@
 ---
 title: "We have been accepted to GSOC 2018!"
 date: 2018-02-12T08:21:52Z
+tags:
+  - Developer
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/gsoc_2018.webp

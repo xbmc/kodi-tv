@@ -1,6 +1,8 @@
 ---
 title: "Kodi Visits SCALE, Plus the New Villain Shirt/Hoodie"
 date: 2015-03-22T03:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 featured_image:
   src: /images/blog/livingroomsetup4.webp

@@ -1,6 +1,8 @@
 ---
 title: "Some New Year Community Updates 2015"
 date: 2015-01-14T03:00:00Z
+tags:
+  - Community
 author: zag
 featured_image:
   src: /images/blog/ConfigurationGUI_zps10704b12.webp

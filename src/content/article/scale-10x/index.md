@@ -1,6 +1,8 @@
 ---
 title: "Scale 10X"
 date: 2012-01-04T03:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 ---
 

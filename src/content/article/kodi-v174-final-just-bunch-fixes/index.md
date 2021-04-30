@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.4 final: Just a bunch of fixes"
 date: 2017-08-21T21:37:20Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi_eclipse.webp

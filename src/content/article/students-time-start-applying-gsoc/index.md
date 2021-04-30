@@ -1,6 +1,8 @@
 ---
 title: "Students Time to start applying for GSoC"
 date: 2013-04-22T04:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.webp

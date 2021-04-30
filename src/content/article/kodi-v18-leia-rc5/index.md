@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia RC5"
 date: 2019-01-11T12:11:18Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Motherboard_2D_A_900x336.webp

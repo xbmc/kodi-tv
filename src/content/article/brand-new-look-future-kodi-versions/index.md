@@ -1,6 +1,9 @@
 ---
 title: "A brand new look for future Kodi versions"
 date: 2016-03-07T03:00:00Z
+tags:
+  - Community
+  - Deep Dive
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Estuary-001.webp

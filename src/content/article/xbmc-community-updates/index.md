@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Community Updates'
 date: 2009-05-24T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 Boys and Gals

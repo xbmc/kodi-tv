@@ -1,6 +1,8 @@
 ---
 title: "Skin updates"
 date: 2011-03-26T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

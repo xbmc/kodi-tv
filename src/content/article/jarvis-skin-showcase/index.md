@@ -1,6 +1,8 @@
 ---
 title: "Jarvis Skin Showcase"
 date: 2016-06-09T04:00:00Z
+tags:
+  - Deep Dive
 author: zag
 featured_image:
   src: /images/blog/transparency-header.webp

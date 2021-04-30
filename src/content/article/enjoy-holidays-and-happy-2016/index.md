@@ -1,6 +1,8 @@
 ---
 title: "Enjoy the holidays and a happy 2016"
 date: 2015-12-25T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Xmas.webp

@@ -1,11 +1,21 @@
 import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import ArrowRightIcon from "./ArrowRightIcon";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
-import * as Icons from "heroicons-react";
+import {
+  CodeIcon,
+  CloudDownloadIcon,
+  SupportIcon,
+  GlobeAltIcon,
+  ShieldCheckIcon,
+  DocumentTextIcon,
+  GiftIcon,
+  ShoppingCartIcon,
+  SpeakerphoneIcon,
+} from "@heroicons/react/outline";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
@@ -45,30 +55,21 @@ function DownloadNotice() {
   );
 }
 
-function CtaButtonInternal(props) {
+function CtaButtonInternal(props: { url: string; buttontext: string }) {
   return (
     <div className="mb-6">
-      <Button variant="link" component="a" href={props.url} isLarge>
+      <Button linkType="internal" href={props.url}>
         {props.buttontext + " "}
-        <ArrowRightIcon />
       </Button>
     </div>
   );
 }
 
-function CtaButtonExternal(props) {
+function CtaButtonExternal(props: { url: string; buttontext: string }) {
   return (
     <div className="mb-6">
-      <Button
-        variant="link"
-        component="a"
-        target="_blank"
-        rel="noopener"
-        href={props.url}
-        isLarge
-      >
+      <Button target="_blank" rel="noopener" href={props.url}>
         {props.buttontext + " "}
-        <ArrowRightIcon />
       </Button>
     </div>
   );
@@ -77,8 +78,8 @@ function CtaButtonExternal(props) {
 function AboutOfficialRemotes() {
   return (
     <>
-      <div className="flex justify-start">
-        <div className="flex flex-col items-center">
+      <div className="max-w-xl grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col items-center pb-6 md:pb-0">
           <span>Kore™ (Android)</span>
           <StaticImage
             className="w-200 h-200"
@@ -134,44 +135,7 @@ function ContributeGallery() {
   return (
     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       <FeaturedCard
-        icon={<Icons.SupportOutline className="flex-shrink-0 h-6 w-6 text-white" />}
-        title="Helping Users"
-      >
-        Our support process relies on enthusiastic contributors like you to help
-        others get the most out of Kodi Foundation products. The #1 priority is
-        always answering questions in our support forums. Everyday new people
-        discover a Kodi Foundation product, and everyday they are virtually
-        guaranteed to have questions. If you are knowledgeable in a certain area in
-        one of our products, or simply want to try help others, we highly encourage
-        you to [field questions in the forums](https://forum.kodi.tv).
-      </FeaturedCard>
-
-      <FeaturedCard
-        icon={
-          <Icons.ShieldCheckOutline className="flex-shrink-0 h-6 w-6 text-white" />
-        }
-        title="Performing Quality Assurance"
-      >
-        Quality Assurance testing is one of the easiest ways to get started with one
-        of our products and is a great way to get familiar with our code and tools.
-        [You can find more information on our wiki
-        page](https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing).
-      </FeaturedCard>
-
-      <FeaturedCard
-        icon={
-          <Icons.DocumentTextOutline className="flex-shrink-0 h-6 w-6 text-white" />
-        }
-        title="Writing Documentation"
-      >
-        The Kodi Foundation wiki pages are the hub for information about Kodi
-        Foundation technologies. Help make our documentation better by writing new
-        content, correcting existing material or translating content into new
-        languages.
-      </FeaturedCard>
-
-      <FeaturedCard
-        icon={<Icons.CodeOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={<CodeIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Coding"
       >
         [Developers can help the Kodi Foundation](/contribute/developers) by adding
@@ -181,9 +145,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={
-          <Icons.CloudDownloadOutline className="flex-shrink-0 h-6 w-6 text-white" />
-        }
+        icon={<CloudDownloadIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Building an Add-on"
       >
         Add-ons are what make Kodi the most extensible and customizable entertainment
@@ -193,7 +155,17 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<Icons.GlobeAltOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={<SupportIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        title="Helping Users"
+      >
+        Everyday new people discover a Kodi Foundation product, and everyday they are
+        virtually guaranteed to have questions. If you are knowledgeable in a certain
+        area in one of our products, or simply want to try help others, we highly
+        encourage you to [field questions in the forums](https://forum.kodi.tv).
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<GlobeAltIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Helping with Translations"
       >
         Get involved with Kodi Foundation by making Kodi, add-ons and other projects
@@ -202,7 +174,27 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<Icons.GiftOutline className="flex-shrink-0 h-6 w-6 text-white" />}
+        icon={<ShieldCheckIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        title="Performing Quality Assurance"
+      >
+        Quality Assurance testing is one of the easiest ways to get started with one
+        of our products and is a great way to get familiar with our code and tools.
+        [You can find more information on our wiki
+        page](https://kodi.wiki/index.php?title=HOW-TO:Help_with_quality_assurance_testing).
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<DocumentTextIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        title="Writing Documentation"
+      >
+        The Kodi Foundation wiki pages are the hub for information about Kodi
+        Foundation technologies. Help make our documentation better by writing new
+        content, correcting existing material or translating content into new
+        languages.
+      </FeaturedCard>
+
+      <FeaturedCard
+        icon={<GiftIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Donating"
       >
         We are always happy to [receive a donation](/donate). Donations are typically
@@ -214,9 +206,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={
-          <Icons.ShoppingCartOutline className="flex-shrink-0 h-6 w-6 text-white" />
-        }
+        icon={<ShoppingCartIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Buying Kodi Merch"
       >
         Purchasing Kodi gear helps just as much as a donation, and you get something
@@ -225,9 +215,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={
-          <Icons.SpeakerphoneOutline className="flex-shrink-0 h-6 w-6 text-white" />
-        }
+        icon={<SpeakerphoneIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Spreading the Word"
       >
         Help us spread the word about how Kodi and other Kodi Foundation projects
@@ -329,7 +317,11 @@ function AboutGallery() {
         >
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
-          scripts. <a href="/addons">See which ones are currently available</a>.
+          scripts.{" "}
+          <Link className="underline" to="/addons">
+            See which ones are currently available
+          </Link>
+          .
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -340,8 +332,10 @@ function AboutGallery() {
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <a href="/addons/category/web-interfaces">web browsers</a>, and 3rd party
-          tools to take Kodi to the next level.
+          <Link className="underline" to="/addons/category/web-interfaces">
+            web browsers
+          </Link>
+          , and 3rd party tools to take Kodi to the next level.
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
@@ -351,12 +345,14 @@ function AboutGallery() {
           imgtitle=""
         >
           With support for{" "}
-          <a href="http://kodi.wiki/view/Remote_controls">
+          <a className="underline" href="http://kodi.wiki/view/Remote_controls">
             hundreds of remote controls
           </a>
           , CEC-compatible TVs, or one of the{" "}
-          <a href="/about/software">new Smartphone and Tablet Apps</a>, Kodi allows
-          you to control your media your way.
+          <Link className="underline" to="/about/software">
+            new Smartphone and Tablet Apps
+          </Link>
+          , Kodi allows you to control your media your way.
         </RoundedCardWithImage>
       </div>
     </>

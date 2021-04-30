@@ -1,6 +1,8 @@
 ---
 title: "Kodi 16.0 beta 5 – Last Jarvis beta"
 date: 2016-01-10T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-blue.webp

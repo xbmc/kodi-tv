@@ -1,6 +1,8 @@
 ---
 title: "Meet us at LinuxTag 2014"
 date: 2014-04-14T04:00:00Z
+tags:
+  - Conferences
 author: Blittan
 featured_image:
   src: /images/blog/Skärmavbild-2014-04-15-kl.-20.52.381.webp

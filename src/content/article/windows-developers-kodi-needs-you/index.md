@@ -1,6 +1,8 @@
 ---
 title: "Windows Developers - Kodi Needs You!"
 date: 2019-11-20T02:57:13Z
+tags:
+  - Developer
 author: Team Kodi
 featured_image:
   src: /images/blog/WinHelpWanted.webp

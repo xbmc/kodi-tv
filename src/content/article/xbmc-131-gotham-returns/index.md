@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.1 - Gotham returns"
 date: 2014-06-04T04:00:00Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-13_1-splash.webp

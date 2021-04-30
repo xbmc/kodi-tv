@@ -1,6 +1,8 @@
 ---
 title: 'Kodi v17 "Krypton" Alpha 2'
 date: 2016-07-01T04:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 ---
 

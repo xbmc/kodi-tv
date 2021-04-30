@@ -1,6 +1,8 @@
 ---
 title: "The end of Windows XP"
 date: 2014-04-06T04:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/hastalaxp.webp

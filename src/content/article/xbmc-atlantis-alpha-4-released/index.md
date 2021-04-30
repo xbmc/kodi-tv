@@ -1,6 +1,8 @@
 ---
 title: 'XBMC Atlantis Alpha 4 released'
 date: 2008-08-23T04:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 Due to the great feedback from [Alpha 3](/upcoming-xbmc-atlantis-release-feature-freeze-updated) users in terms of bug reports, [many of which have already been fixed](http://trac.xbmc.org/milestone/8.10), Team-XBMC have released the latest Alpha version of XBMC for Linux, Mac OS X, Windows and Xbox. This is the last in a [series of alpha releases](https://en.wikipedia.org/wiki/Software_release_life_cycle) in preparation for the upcoming stable release of XBMC, [code named ‘Atlantis’](../../gamester17/?p=3).

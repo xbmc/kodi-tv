@@ -1,6 +1,9 @@
 ---
 title: "Devcon 2018 - Sofia - Part III"
 date: 2018-09-29T22:21:58Z
+tags:
+  - DevCon
+  - Conferences
 author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi-logo-2.webp

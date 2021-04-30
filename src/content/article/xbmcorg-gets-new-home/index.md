@@ -1,6 +1,8 @@
 ---
 title: 'Xbmc.org Gets a New Home'
 date: 2010-02-10T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 As I alluded in the [last post](/article/coming-soon), the main xbmc.org site, as well as the wiki, trac, and forum have all been moved to a new location, graciously provided by [WebHostingBuzz](https://www.webhostingbuzz.com/). They have stepped up in a huge way and provided an 8-core Xeon server with all the bells and whistles at their Atlanta hosting facility. Even better, they’ve agreed to help with future projects as needed. For the foreseeable future, the sky is the limit.

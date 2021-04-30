@@ -1,6 +1,8 @@
 ---
 title: 'XBMC PC environment for skinners and python developers'
 date: 2006-11-16T03:00:00Z
+tags:
+  - Developer
 author: Team XBMC
 ---
 A little over a month ago, I was away from home without the xbox and still wanted to get some development done. To solve this problem, I decided to port parts of XBMC to the PC.

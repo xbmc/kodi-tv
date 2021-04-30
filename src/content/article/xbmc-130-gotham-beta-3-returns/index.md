@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13.0 Gotham - Beta 3 Returns"
 date: 2014-03-31T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 featured_image:
   src: /images/blog/gotham_splash_beta-600x336.webp

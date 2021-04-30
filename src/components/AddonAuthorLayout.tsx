@@ -1,5 +1,5 @@
 import React from "react";
-import { IconList } from "./IconList";
+import { IconListFeatured } from "./IconList";
 import { DefaultLayout } from "./Layout";
 import { AddonPageSubMenu } from "./AddonPageSubMenu";
 
@@ -20,13 +20,11 @@ export default function AddonAuthorLayout({
   return (
     <DefaultLayout frontmatter={frontmatter}>
       <AddonPageSubMenu linkroot={linkroot} />
-      <p>
-        <div className="font-bold text-2xl">{author.name}</div>
-        <p>
-          {author.name} has {author.totaladdons} add-ons.
-        </p>
-      </p>
-      <IconList items={author.addons} linkroot={linkroot} />
+      <div className="font-bold text-2xl">{author.name}</div>
+      <div>
+        {author.name} has {author.totaladdons} add-ons.
+      </div>
+      <IconListFeatured items={author.addons} linkroot={linkroot} />
     </DefaultLayout>
   );
 }

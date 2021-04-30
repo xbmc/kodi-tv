@@ -1,6 +1,9 @@
 ---
 title: "Kodi Available on Google Play, Not on Amazon"
 date: 2015-06-20T04:00:00Z
+tags:
+  - Community
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/kodishieldwide.webp

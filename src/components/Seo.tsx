@@ -3,10 +3,20 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 const config = require("/gatsby-site-config");
 
-function SEO({ description, lang, meta, keywords, frontmatter }) {
+function SEO({ lang, meta, keywords, frontmatter }) {
   let breadcrumbs = config.siteMetadata.title;
+  let shortcrumbs = breadcrumbs;
+  let description = config.siteMetadata.description;
+  let image = config.siteMetadata.siteUrl + "/images/kodi_og_default.webp";
   if (frontmatter.breadcrumbs != undefined) {
     breadcrumbs = breadcrumbs + " | " + frontmatter.breadcrumbs;
+    shortcrumbs = frontmatter.breadcrumbs;
+  }
+  if (frontmatter.description != undefined) {
+    description = frontmatter.description;
+  }
+  if (frontmatter.image != undefined) {
+    image = config.siteMetadata.siteUrl + frontmatter.image;
   }
   return (
     <Helmet
@@ -17,15 +27,43 @@ function SEO({ description, lang, meta, keywords, frontmatter }) {
       meta={[
         {
           name: "description",
-          content: config.siteMetadata.description,
+          content: description,
         },
         {
           property: "og:title",
-          content: config.siteMetadata.title,
+          content: shortcrumbs,
+        },
+        {
+          name: "twitter:title",
+          content: shortcrumbs,
         },
         {
           property: "og:description",
-          content: config.siteMetadata.description,
+          content: description,
+        },
+        {
+          name: "twitter:description",
+          content: description,
+        },
+        {
+          property: "og:image",
+          content: image,
+        },
+        {
+          name: "twitter:image",
+          content: image,
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:creator",
+          content: "@KodiTV",
+        },
+        {
+          name: "twitter:site",
+          content: "@KodiTV",
         },
         {
           property: "og:type",
@@ -42,7 +80,11 @@ function SEO({ description, lang, meta, keywords, frontmatter }) {
         )
         .concat(meta)}
     >
-      <link rel="icon" type="image/svg" href="/images/kodi-logo.svg" />
+      <script
+        data-goatcounter="https://koditv.goatcounter.com/count"
+        async
+        src="//gc.zgo.at/count.js"
+      ></script>
     </Helmet>
   );
 }
@@ -54,7 +96,6 @@ SEO.defaultProps = {
 };
 
 SEO.propTypes = {
-  description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
   keywords: PropTypes.arrayOf(PropTypes.string),

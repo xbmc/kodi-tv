@@ -1,6 +1,8 @@
 ---
 title: "GSOC 2017 Update - Wayland Support "
 date: 2017-08-13T21:34:23Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/Wayland_demo_2.webp

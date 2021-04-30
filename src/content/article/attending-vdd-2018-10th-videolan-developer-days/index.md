@@ -1,6 +1,8 @@
 ---
 title: "Attending VDD 2018 - The 10th VideoLAN developer days"
 date: 2018-09-23T23:09:05Z
+tags:
+  - Conferences
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/vlc-tower - Edited.webp

@@ -1,6 +1,8 @@
 ---
 title: "Kodi v18 Leia - Beta 4"
 date: 2018-10-22T23:15:35Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-35C-1080p_samfisher.webp

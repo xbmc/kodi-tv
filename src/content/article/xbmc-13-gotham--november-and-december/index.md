@@ -1,6 +1,8 @@
 ---
 title: "XBMC 13 Gotham – November and December"
 date: 2014-01-04T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser.webp

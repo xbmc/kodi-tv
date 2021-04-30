@@ -1,6 +1,8 @@
 ---
 title: "XBMC 11.0 Eden: Beta available now"
 date: 2011-12-23T03:00:00Z
+tags:
+  - Prerelease
 author: Nathan Betzen
 ---
 

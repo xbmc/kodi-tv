@@ -1,6 +1,9 @@
 ---
 title: 'Making Subtitle Search Better'
 date: 2013-11-14T03:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 ---
 We’d like to take a minute to quickly announce that we’ve dramatically changed the way subtitle search works under the hood in XBMC. In XBMC 12.2, all subtitle search services are part of a single piece of code that comes in the form of the XBMC Subtitles addon that is released by Team XBMC. This means every subtitle search developer must go through an XBMC Team gatekeeper if they want to make a fix, either big or small.

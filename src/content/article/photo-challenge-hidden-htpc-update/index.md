@@ -1,6 +1,8 @@
 ---
 title: "Photo Challenge: Hidden HTPC - Update"
 date: 2011-11-20T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

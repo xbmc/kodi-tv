@@ -1,6 +1,8 @@
 ---
 title: "Kodi 19 Welcomes tvOS but Says Goodbye to iOS 32bit"
 date: 2020-03-15T06:53:28Z
+tags:
+  - Community
 author: phunkyfish
 featured_image:
   src: /images/blog/ash-edmonds-LHlC2sl0Zxs-unsplash.webp

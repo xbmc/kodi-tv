@@ -1,6 +1,8 @@
 ---
 title: "Feature Friday: Cords Away"
 date: 2011-03-13T03:00:00Z
+tags:
+  - Community
 author: Nathan Betzen
 ---
 

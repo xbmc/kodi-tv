@@ -1,6 +1,9 @@
 ---
 title: 'The New XBMC Website Look'
 date: 2013-07-03T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 ---
 After quite a lot of hard work, we are very excited to present to everyone the new and improved look for XBMC.org (as well as a very necessary WordPress update). In particular, thanks go to Zag and Da-anda for their major contributions to the site, as well as Keith, Clumsy, theuni, and many others.

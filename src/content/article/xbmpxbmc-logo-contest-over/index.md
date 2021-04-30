@@ -1,6 +1,8 @@
 ---
 title: "XBMP/XBMC Logo Contest Over"
 date: 2004-03-25T03:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

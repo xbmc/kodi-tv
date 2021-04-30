@@ -1,6 +1,8 @@
 ---
 title: "Feature Freeze: Looking Forward to Eden"
 date: 2011-09-30T04:00:00Z
+tags:
+  - Community
 author: Team XBMC
 ---
 

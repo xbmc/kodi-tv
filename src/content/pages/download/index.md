@@ -2,7 +2,9 @@
 pageslug: index
 title: Downloading Kodi
 breadcrumbs: Download
+description: Kodi is available as a native application for Android, Linux, Mac OS X, iOS and Windows operating systems, running on most common processor architectures.
 ---
+
 ## Join the millions already enjoying Kodi
 
 Kodi is available as a native application for Android, Linux, Mac OS X, iOS and Windows operating systems, running on most common processor architectures. A small overview of the features can be found on our about page. For each platform, we offer a stable and development release(s). For normal users we recommend installing the stable releases.

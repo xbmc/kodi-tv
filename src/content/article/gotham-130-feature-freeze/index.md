@@ -1,6 +1,8 @@
 ---
 title: "Gotham 13.0 Feature freeze"
 date: 2013-10-30T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/xbmc-gotham-teaser.webp

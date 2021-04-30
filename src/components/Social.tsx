@@ -4,7 +4,7 @@ function Social() {
   return (
     <>
       <a
-        className="pl-1"
+        className="text-gray-900 pl-1"
         href="http://www.facebook.com/KodiEntertainment"
         target="_blank"
         rel="noopener"
@@ -45,7 +45,7 @@ function Social() {
       </a>
 
       <a
-        className="pl-1"
+        className="text-gray-900 pl-1"
         href="https://twitter.com/koditv"
         target="_blank"
         rel="noopener"
@@ -85,7 +85,7 @@ function Social() {
         </div>
       </a>
       <a
-        className="pl-1"
+        className="text-gray-900 pl-1"
         href="https://www.youtube.com/c/TeamKodiOfficial"
         target="_blank"
         rel="noopener"
@@ -126,7 +126,7 @@ function Social() {
         </div>
       </a>
       <a
-        className="pl-1"
+        className="text-gray-900 pl-1"
         href="https://github.com/xbmc"
         target="_blank"
         rel="noopener"
@@ -166,7 +166,12 @@ function Social() {
         </div>
       </a>
 
-      <a className="pl-1" href="/rss.xml" target="_blank" rel="noopener">
+      <a
+        className="text-gray-900 pl-1"
+        href="/rss.xml"
+        target="_blank"
+        rel="noopener"
+      >
         <div
           className="
             w-7

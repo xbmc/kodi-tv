@@ -1,6 +1,8 @@
 ---
 title: "Kodi for the Xbox One"
 date: 2017-12-28T23:42:53Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-on-xbone.webp

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { ChevronDown, ChevronUp } from "heroicons-react";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
 import { MenuEntry } from "./Header";
 
 function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
@@ -12,15 +12,15 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
         <a
           href="#"
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-          className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
         >
           <div className="flex">
             <div className="flex-grow">{props.menu.title}</div>
             <div className="flex-none">
               {isDropdownOpen ? (
-                <ChevronUp className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
+                <ChevronUpIcon className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               ) : (
-                <ChevronDown className="text-gray-300 ml-1 h-5 w-5 group-hover:text-white" />
+                <ChevronDownIcon className="text-gray-300 ml-1 h-5 w-5 group-hover:text-gray-50" />
               )}
             </div>
           </div>
@@ -38,8 +38,8 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
             {props.menu.dropdown?.map((item, index) => (
               <a
                 key={item.url}
-                href={item.url}
-                className="text-gray-300 hover:bg-kodibg-lighter hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                href={item.url!}
+                className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
               >
                 {item.title}
               </a>

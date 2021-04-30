@@ -1,6 +1,8 @@
 ---
 title: "Kodi 17 - Code name has been chosen"
 date: 2015-12-18T03:00:00Z
+tags:
+  - Community
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi_Blog_Pictures_K_____.webp

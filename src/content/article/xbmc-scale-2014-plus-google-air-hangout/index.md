@@ -1,6 +1,8 @@
 ---
 title: "XBMC at SCALE 2014 (Plus Google On Air Hangout)"
 date: 2014-02-17T03:00:00Z
+tags:
+  - Conferences
 author: Nathan Betzen
 featured_image:
   src: /images/blog/scale_writeup.webp

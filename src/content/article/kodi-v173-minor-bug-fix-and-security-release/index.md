@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.3: A minor bug fix and security release"
 date: 2017-05-24T06:31:33Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/risk-knob.webp

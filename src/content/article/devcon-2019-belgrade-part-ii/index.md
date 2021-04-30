@@ -4,6 +4,7 @@ date: 2019-10-11T00:11:48Z
 author: Prof Yaffle
 tags:
   - DevCon
+  - Conferences
 featured_image:
   src: /images/blog/belgrade-clouds-fortress-33562.webp
   title: "Kalemegdan Park and Fortress, credit: Miloš Bogdanović, via pexels.com"

@@ -1,6 +1,8 @@
 ---
 title: "XBMC 11.0 - Eden"
 date: 2012-03-23T03:00:00Z
+tags:
+  - Release
 author: Nathan Betzen
 featured_image:
   src: /images/blog/xbmc-eden-announce-2-650-1.webp

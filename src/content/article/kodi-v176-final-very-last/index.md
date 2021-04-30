@@ -1,6 +1,8 @@
 ---
 title: "Kodi v17.6 final: The very last"
 date: 2017-11-15T02:44:34Z
+tags:
+  - Release
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-9A-1080p_samfisher.webp

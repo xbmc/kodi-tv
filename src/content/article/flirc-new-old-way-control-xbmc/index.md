@@ -1,6 +1,8 @@
 ---
 title: "FLIRC - a new (old) way to control XBMC"
 date: 2012-04-14T04:00:00Z
+tags:
+  - Deep Dive
 author: Nathan Betzen
 ---
 

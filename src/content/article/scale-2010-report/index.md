@@ -1,6 +1,8 @@
 ---
 title: "SCALE 2010 Report"
 date: 2010-02-05T03:00:00Z
+tags:
+  - Conferences
 author: Team XBMC
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Dharma Beta 4"
 date: 2010-10-28T03:00:00Z
+tags:
+  - Prerelease
 author: Team XBMC
 ---
 

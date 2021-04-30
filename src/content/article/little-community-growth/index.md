@@ -1,6 +1,9 @@
 ---
 title: "A Little Community Growth"
 date: 2014-04-20T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/1400266_10151688702906641_802001778_o.webp

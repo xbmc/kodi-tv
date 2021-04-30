@@ -37,30 +37,26 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       Pages: allMarkdownRemark(
         filter: { fields: { collection: { eq: "pagesrc" } } }
       ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
+        nodes {
+          fields {
+            slug
           }
         }
       }
     }
   `);
 
-  // Handle errors
   if (pageresults.errors) {
     reporter.panicOnBuild(`Error while running Pages GraphQL query.`);
     return;
   }
 
-  pageresults.data.Pages.edges.forEach(({ node }) => {
+  pageresults.data.Pages.nodes.forEach(page => {
     createPage({
-      path: node.fields.slug,
+      path: page.fields.slug,
       component: pageTemplate,
       context: {
-        // additional data can be passed via context
-        slug: node.fields.slug,
+        slug: page.fields.slug,
       },
     });
   });
@@ -74,37 +70,37 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         filter: { fields: { collection: { eq: "blog" } } }
         limit: 1000
       ) {
-        edges {
-          node {
-            fields {
-              slug
-            }
+        nodes {
+          fields {
+            slug
+          }
+          frontmatter {
+            tags
           }
         }
       }
     }
   `);
 
-  // Handle errors
   if (blogresults.errors) {
     reporter.panicOnBuild(`Error while running Blog Post GraphQL query.`);
     return;
   }
 
-  blogresults.data.blogPosts.edges.forEach(({ node }) => {
+  let posts = blogresults.data.blogPosts.nodes;
+  posts.forEach(post => {
     createPage({
-      path: node.fields.slug,
+      path: post.fields.slug,
       component: blogPostTemplate,
       context: {
-        // additional data can be passed via context
-        slug: node.fields.slug,
+        slug: post.fields.slug,
       },
     });
   });
 
   paginate({
     createPage,
-    items: blogresults.data.blogPosts.edges,
+    items: posts,
     itemsPerPage: 20,
     pathPrefix: ({ pageNumber, numberOfPages }) =>
       pageNumber === 0 ? "/blog" : "/blog/page",
@@ -121,21 +117,29 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  // Handle errors
   if (tagresults.errors) {
     reporter.panicOnBuild(`Error while running Tags GraphQL query.`);
     return;
   }
 
-  tagresults.data.blogTags.distinct.forEach(tag => {
-    createPage({
-      path: "blog/tag/" + slugify(tag, { lower: true }),
-      component: path.resolve(`src/templates/tag.tsx`),
-      context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        tag: tag,
-      },
+  let tags = tagresults.data.blogTags.distinct;
+  let tagSlug = "";
+  tags.forEach(tag => {
+    tagSlug = slugify(tag, { lower: true });
+    paginate({
+      createPage,
+      items: posts.filter(post => {
+        if (post.frontmatter.tags != undefined) {
+          if (post.frontmatter.tags.includes(tag)) {
+            return post;
+          }
+        }
+      }),
+      itemsPerPage: 20,
+      pathPrefix: ({ pageNumber, numberOfPages }) =>
+        pageNumber === 0 ? "/blog/tag/" + tagSlug : "/blog/tag/" + tagSlug + "/page",
+      component: path.resolve("src/templates/tag.tsx"),
+      context: { tag: tag },
     });
   });
 
@@ -143,29 +147,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixaddonresults = await graphql(`
     query MyQuery {
       allMatrixAddon {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (matrixaddonresults.errors) {
     reporter.panicOnBuild(`Error while running Matrix Add-on GraphQL query.`);
     return;
   }
 
-  matrixaddonresults.data.allMatrixAddon.edges.forEach(({ node }) => {
+  matrixaddonresults.data.allMatrixAddon.nodes.forEach(addon => {
     createPage({
-      path: "addons/matrix/" + node.slug,
+      path: "addons/matrix/" + addon.slug,
       component: path.resolve(`src/templates/matrix/addon.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: addon.slug,
       },
     });
   });
@@ -173,16 +172,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixcategoryresults = await graphql(`
     query MyQuery {
       allMatrixCategory {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (matrixcategoryresults.errors) {
     reporter.panicOnBuild(
       `Error while running Matrix Add-on Category GraphQL query.`
@@ -190,14 +186,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return;
   }
 
-  matrixcategoryresults.data.allMatrixCategory.edges.forEach(({ node }) => {
+  matrixcategoryresults.data.allMatrixCategory.nodes.forEach(category => {
     createPage({
-      path: "addons/matrix/category/" + node.slug,
+      path: "addons/matrix/category/" + category.slug,
       component: path.resolve(`src/templates/matrix/category.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: category.slug,
       },
     });
   });
@@ -205,29 +199,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const matrixauthorresults = await graphql(`
     query MyQuery {
       allMatrixAuthor {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (matrixauthorresults.errors) {
     reporter.panicOnBuild(`Error while running Matrix Add-on Author GraphQL query.`);
     return;
   }
 
-  matrixauthorresults.data.allMatrixAuthor.edges.forEach(({ node }) => {
+  matrixauthorresults.data.allMatrixAuthor.nodes.forEach(author => {
     createPage({
-      path: "addons/matrix/author/" + node.slug,
+      path: "addons/matrix/author/" + author.slug,
       component: path.resolve(`src/templates/matrix/author.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: author.slug,
       },
     });
   });
@@ -237,29 +226,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiaaddonresults = await graphql(`
     query MyQuery {
       allLeiaAddon {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (leiaaddonresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on GraphQL query.`);
     return;
   }
 
-  leiaaddonresults.data.allLeiaAddon.edges.forEach(({ node }) => {
+  leiaaddonresults.data.allLeiaAddon.nodes.forEach(addon => {
     createPage({
-      path: "addons/leia/" + node.slug,
+      path: "addons/leia/" + addon.slug,
       component: path.resolve(`src/templates/leia/addon.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: addon.slug,
       },
     });
   });
@@ -267,29 +251,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiacategoryresults = await graphql(`
     query MyQuery {
       allLeiaCategory {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (leiacategoryresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on Category GraphQL query.`);
     return;
   }
 
-  leiacategoryresults.data.allLeiaCategory.edges.forEach(({ node }) => {
+  leiacategoryresults.data.allLeiaCategory.nodes.forEach(category => {
     createPage({
-      path: "addons/leia/category/" + node.slug,
+      path: "addons/leia/category/" + category.slug,
       component: path.resolve(`src/templates/leia/category.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: category.slug,
       },
     });
   });
@@ -297,29 +276,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const leiaauthorresults = await graphql(`
     query MyQuery {
       allLeiaAuthor {
-        edges {
-          node {
-            slug
-          }
+        nodes {
+          slug
         }
       }
     }
   `);
 
-  // Handle errors
   if (leiaauthorresults.errors) {
     reporter.panicOnBuild(`Error while running Leia Add-on Author GraphQL query.`);
     return;
   }
 
-  leiaauthorresults.data.allLeiaAuthor.edges.forEach(({ node }) => {
+  leiaauthorresults.data.allLeiaAuthor.nodes.forEach(author => {
     createPage({
-      path: "addons/leia/author/" + node.slug,
+      path: "addons/leia/author/" + author.slug,
       component: path.resolve(`src/templates/leia/author.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.slug,
+        slug: author.slug,
       },
     });
   });
@@ -328,29 +302,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const distresults = await graphql(`
     query MyQuery {
       allDistributionYaml {
-        edges {
-          node {
-            name
-          }
+        nodes {
+          name
         }
       }
     }
   `);
 
-  // Handle errors
   if (distresults.errors) {
     reporter.panicOnBuild(`Error while running Distributions GraphQL query.`);
     return;
   }
 
-  distresults.data.allDistributionYaml.edges.forEach(({ node }) => {
+  distresults.data.allDistributionYaml.nodes.forEach(dist => {
     createPage({
-      path: "download/" + slugify(node.name, { lower: true }),
+      path: "download/" + slugify(dist.name, { lower: true }),
       component: path.resolve(`src/templates/distribution.tsx`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        name: node.name,
+        name: dist.name,
       },
     });
   });

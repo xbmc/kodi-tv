@@ -1,6 +1,8 @@
 ---
 title: "Kodi 15.0 alpha 1 - The road to Isengard"
 date: 2015-02-27T03:00:00Z
+tags:
+  - Prerelease
 author: Martijn Kaijser
 featured_image:
   src: /images/blog/kodi-splash-Isengard-alpha.webp

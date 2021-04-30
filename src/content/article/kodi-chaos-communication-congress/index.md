@@ -1,6 +1,8 @@
 ---
 title: "Kodi at the Chaos Communication Congress "
 date: 2019-12-25T10:51:29Z
+tags:
+  - Conferences
 author: Team Kodi
 featured_image:
   src: /images/blog/2017-12-28_Leipzig,_34c3,_Fairy_Dust_(freddy2001)_-_denoised_and_pixelized.webp

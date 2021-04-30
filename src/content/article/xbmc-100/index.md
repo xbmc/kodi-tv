@@ -1,6 +1,8 @@
 ---
 title: "XBMC 10.0"
 date: 2010-12-17T03:00:00Z
+tags:
+  - Release
 author: Team XBMC
 ---
 

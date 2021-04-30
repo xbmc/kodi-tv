@@ -1,6 +1,8 @@
 ---
 title: "You asked for it: XBMC for AppleTV2, iPad, iPhone4."
 date: 2011-01-19T03:00:00Z
+tags:
+  - Release
 author: Cory
 ---
 

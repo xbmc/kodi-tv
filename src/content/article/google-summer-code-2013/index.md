@@ -1,6 +1,8 @@
 ---
 title: "Google Summer of Code 2013"
 date: 2013-03-28T03:00:00Z
+tags:
+  - Developer
 author: Nathan Betzen
 featured_image:
   src: /images/blog/summerofcode_0.webp

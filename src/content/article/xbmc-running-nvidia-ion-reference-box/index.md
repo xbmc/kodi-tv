@@ -1,6 +1,9 @@
 ---
 title: "XBMC running on nVidia ION reference box"
 date: 2009-05-22T04:00:00Z
+tags:
+  - Community
+  - Developer
 author: Team XBMC
 ---
 
