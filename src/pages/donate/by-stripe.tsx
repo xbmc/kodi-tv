@@ -2,7 +2,6 @@ import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 import { loadStripe } from "@stripe/stripe-js";
 import ButtonStripe from "../../components/ButtonStripe";
-import { stripe } from "../../../gatsby-site-config";
 
 const config = require("../../../gatsby-site-config");
 const stripePromise = loadStripe(config.stripe.apikey);
@@ -36,146 +35,6 @@ export default class PageStripe extends React.Component {
       breadcrumbs: "Donate | Stripe",
     };
 
-    let level_one = {};
-    let level_two = {};
-    let level_three = {};
-    let level_four = {};
-
-    switch (this.state.recCurrency) {
-      case "USD":
-        level_one = {
-          price: "price_1HVP1ODOVUu6yhjNAUMDRlrr",
-          text: "$5 a month",
-          amount: "5",
-        };
-        level_two = {
-          price: "price_1HVP3mDOVUu6yhjNL7qjHUyW",
-          text: "$10 a month",
-          amount: "10",
-        };
-        level_three = {
-          price: "price_1HVP3kDOVUu6yhjN7kaQEJ8L",
-          text: "$25 a month",
-          amount: "25",
-        };
-        level_four = {
-          price: "price_1HVP3lDOVUu6yhjN1Z1gYPNf",
-          text: "$50 a month",
-          amount: "50",
-        };
-        break;
-      case "EUR":
-        level_one = {
-          price: "price_1HVTTwDOVUu6yhjNVOWyY3hy",
-          text: "€5 a month",
-          amount: "5",
-        };
-        level_two = {
-          price: "price_1HVTU9DOVUu6yhjNQjBxH8mv",
-          text: "€10 a month",
-          amount: "10",
-        };
-        level_three = {
-          price: "price_1HVTULDOVUu6yhjNAMa8cdQg",
-          text: "€20 a month",
-          amount: "20",
-        };
-        level_four = {
-          price: "price_1HVTUWDOVUu6yhjNmtcktSi7",
-          text: "€40 a month",
-          amount: "40",
-        };
-        break;
-      case "GBP":
-        level_one = {
-          price: "price_1HVTUuDOVUu6yhjNJr8FS5hm",
-          text: "£5 a month",
-          amount: "5",
-        };
-        level_two = {
-          price: "price_1HVTV4DOVUu6yhjNXZemCrK0",
-          text: "£10 a month",
-          amount: "10",
-        };
-        level_three = {
-          price: "price_1HVTVEDOVUu6yhjNg0MVZShG",
-          text: "£20 a month",
-          amount: "20",
-        };
-        level_four = {
-          price: "price_1HVTVTDOVUu6yhjNOpg1jIfU",
-          text: "£40 a month",
-          amount: "40",
-        };
-        break;
-      case "CAD":
-        level_one = {
-          price: "price_1HVTVpDOVUu6yhjNZjhMEWO2",
-          text: "$10 a month",
-          amount: "10",
-        };
-        level_two = {
-          price: "price_1HVTW1DOVUu6yhjNg1TIoWum",
-          text: "$15 a month",
-          amount: "15",
-        };
-        level_three = {
-          price: "price_1HVTWCDOVUu6yhjNBjXG9Fe9",
-          text: "$35 a month",
-          amount: "35",
-        };
-        level_four = {
-          price: "price_1HVTWMDOVUu6yhjNDz4y9Jzt",
-          text: "$65 a month",
-          amount: "65",
-        };
-        break;
-      case "AUD":
-        level_one = {
-          price: "price_1HVTWeDOVUu6yhjNWKXIu8WJ",
-          text: "$10 a month",
-          amount: "10",
-        };
-        level_two = {
-          price: "price_1HVTWtDOVUu6yhjNMZRWL8bX",
-          text: "$15 a month",
-          amount: "15",
-        };
-        level_three = {
-          price: "price_1HVTX4DOVUu6yhjNK21runP2",
-          text: "$35 a month",
-          amount: "35",
-        };
-        level_four = {
-          price: "price_1HVTXJDOVUu6yhjNl3UvxLrr",
-          text: "$70 a month",
-          amount: "70",
-        };
-        break;
-      case "JPY":
-        level_one = {
-          price: "price_1HVTXgDOVUu6yhjNhETVDMbW",
-          text: "¥500 a month",
-          amount: "500",
-        };
-        level_two = {
-          price: "price_1HVTXtDOVUu6yhjNtDjMUo4W",
-          text: "¥1000 a month",
-          amount: "1000",
-        };
-        level_three = {
-          price: "price_1HVTYADOVUu6yhjNJoEjtHcY",
-          text: "¥2500 a month",
-          amount: "2500",
-        };
-        level_four = {
-          price: "price_1HVTYLDOVUu6yhjNziS2gXhj",
-          text: "¥5000 a month",
-          amount: "5000",
-        };
-        break;
-    }
-
     const handleOneTimeClick = async event => {
       // When the customer clicks on the button, redirect them to Checkout.
       let sep = "\u2028";
@@ -191,13 +50,6 @@ export default class PageStripe extends React.Component {
         forumname = this.state.otForum;
       }
       let current_datetime = new Date();
-      let datetime_str =
-        current_datetime.getFullYear() +
-        (current_datetime.getMonth() + 1) +
-        current_datetime.getDate() +
-        current_datetime.getHours() +
-        current_datetime.getMinutes() +
-        current_datetime.getSeconds();
       const stripe = await stripePromise;
       const { error } = await stripe.redirectToCheckout({
         lineItems: [
@@ -409,10 +261,19 @@ export default class PageStripe extends React.Component {
                           <div className="pt-3">
                             <ButtonStripe
                               stripePromise={stripePromise}
-                              amount={level_one.amount}
+                              amount={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelOne.amount
+                              }
                               currency={this.state.recCurrency}
-                              price_id={level_one.price}
-                              button_text={level_one.text}
+                              price_id={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelOne.price
+                              }
+                              button_text={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelOne.text
+                              }
                               donorname={this.state.donor}
                               forumname={this.state.forum}
                             />
@@ -420,10 +281,19 @@ export default class PageStripe extends React.Component {
                           <div>
                             <ButtonStripe
                               stripePromise={stripePromise}
-                              amount={level_two.amount}
+                              amount={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelTwo.amount
+                              }
                               currency={this.state.recCurrency}
-                              price_id={level_two.price}
-                              button_text={level_two.text}
+                              price_id={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelTwo.price
+                              }
+                              button_text={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelTwo.text
+                              }
                               donorname={this.state.donor}
                               forumname={this.state.forum}
                             />
@@ -431,10 +301,19 @@ export default class PageStripe extends React.Component {
                           <div>
                             <ButtonStripe
                               stripePromise={stripePromise}
-                              amount={level_three.amount}
+                              amount={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelThree.amount
+                              }
                               currency={this.state.recCurrency}
-                              price_id={level_three.price}
-                              button_text={level_three.text}
+                              price_id={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelThree.price
+                              }
+                              button_text={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelThree.text
+                              }
                               donorname={this.state.donor}
                               forumname={this.state.forum}
                             />
@@ -442,10 +321,19 @@ export default class PageStripe extends React.Component {
                           <div>
                             <ButtonStripe
                               stripePromise={stripePromise}
-                              amount={level_four.amount}
+                              amount={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelFour.amount
+                              }
                               currency={this.state.recCurrency}
-                              price_id={level_four.price}
-                              button_text={level_four.text}
+                              price_id={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelFour.price
+                              }
+                              button_text={
+                                config.stripe.monthly[this.state.recCurrency]
+                                  .levelFour.text
+                              }
                               donorname={this.state.donor}
                               forumname={this.state.forum}
                             />
