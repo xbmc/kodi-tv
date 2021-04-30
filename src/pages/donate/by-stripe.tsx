@@ -2,8 +2,10 @@ import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 import { loadStripe } from "@stripe/stripe-js";
 import ButtonStripe from "../../components/ButtonStripe";
+import { stripe } from "../../../gatsby-site-config";
 
-const stripePromise = loadStripe(process.env.GATSBY_STRIPE_APIKEY);
+const config = require("../../../gatsby-site-config");
+const stripePromise = loadStripe(config.stripe.apikey);
 
 export default class PageStripe extends React.Component {
   constructor() {
@@ -12,7 +14,7 @@ export default class PageStripe extends React.Component {
       donor: null,
       forum: null,
       otPrice: "",
-      otCurrency: "price_1HVRC7DOVUu6yhjNHWNMz6Zf",
+      otCurrency: "USD",
       recCurrency: "USD",
     };
 
@@ -196,32 +198,13 @@ export default class PageStripe extends React.Component {
         current_datetime.getHours() +
         current_datetime.getMinutes() +
         current_datetime.getSeconds();
-      let currency_label = "";
-      switch (this.state.otCurrency) {
-        case "price_1HVRC7DOVUu6yhjNHWNMz6Zf":
-          currency_label = "USD";
-          break;
-        case "price_1HVRHSDOVUu6yhjNhOGckxxU":
-          currency_label = "EUR";
-          break;
-        case "price_1HVRNRDOVUu6yhjN0BsrpfOo":
-          currency_label = "GBP";
-          break;
-        case "price_1HVRNpDOVUu6yhjNyoxCfwmQ":
-          currency_label = "CAD";
-          break;
-        case "price_1HVROBDOVUu6yhjNuN2o56Ob":
-          currency_label = "AUD";
-          break;
-        case "price_1HVROeDOVUu6yhjN83arFdQo":
-          currency_label = "JPY";
-          break;
-      }
       const stripe = await stripePromise;
       const { error } = await stripe.redirectToCheckout({
         lineItems: [
-          // Replace with the ID of your price
-          { price: this.state.otCurrency, quantity: parseInt(this.state.otPrice) },
+          {
+            price: config.stripe.oneTime[this.state.otCurrency],
+            quantity: parseInt(this.state.otPrice),
+          },
         ],
         mode: "payment",
         submitType: "donate",
@@ -347,24 +330,12 @@ export default class PageStripe extends React.Component {
                                 onChange={this.handleInputChange}
                                 className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               >
-                                <option value="price_1HVRC7DOVUu6yhjNHWNMz6Zf">
-                                  $ USD
-                                </option>
-                                <option value="price_1HVRHSDOVUu6yhjNhOGckxxU">
-                                  € EUR
-                                </option>
-                                <option value="price_1HVRNRDOVUu6yhjN0BsrpfOo">
-                                  £ GBP
-                                </option>
-                                <option value="price_1HVRNpDOVUu6yhjNyoxCfwmQ">
-                                  $ CAD
-                                </option>
-                                <option value="price_1HVROBDOVUu6yhjNuN2o56Ob">
-                                  $ AUD
-                                </option>
-                                <option value="price_1HVROeDOVUu6yhjN83arFdQo">
-                                  ¥ JPY
-                                </option>
+                                <option value="USD">$ USD</option>
+                                <option value="EUR">€ EUR</option>
+                                <option value="GBP">£ GBP</option>
+                                <option value="CAD">$ CAD</option>
+                                <option value="AUD">$ AUD</option>
+                                <option value="JPY">¥ JPY</option>
                               </select>
                             </div>
                           </div>
@@ -388,7 +359,7 @@ export default class PageStripe extends React.Component {
                           <>
                             <button
                               type="submit"
-                              disabled="true"
+                              disabled
                               className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
                             >
                               Donate
