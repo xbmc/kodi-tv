@@ -62,7 +62,7 @@ export default class PageStripe extends React.Component {
         submitType: "donate",
         clientReferenceId: donorname + sep + forumname,
         successUrl: process.env.GATSBY_SITEURL + "/donate/success-stripe",
-        cancelUrl: process.env.GATSBY_SITEURL + "/donate",
+        cancelUrl: process.env.GATSBY_SITEURL + "/donate/by-stripe",
       });
     };
 
