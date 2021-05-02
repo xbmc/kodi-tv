@@ -2,3 +2,47 @@
   for = "/*"
   [headers.values]
     Permissions-Policy =  "interest-cohort=()"
+
+[[redirects]]
+  from: /contact-kodi-team
+  to: /about/contact
+
+[[redirects]]
+  from: /sponsors
+  to: /about/sponsors
+
+[[redirects]]
+  from: /about/xbmc-foundation
+  to: /about/foundation
+
+[[redirects]]
+  from: /contact-kodi-team
+  to: /about/contact
+
+[[redirects]]
+  from: /addons/browse
+  to: /addons/matrix/search
+
+[[redirects]]
+  from: /addon-top-authors
+  to: /addons/matrix/top-authors
+
+[[redirects]]
+  from: /get-involved
+  to: /contribute
+
+[[redirects]]
+  from: /contribute/donate
+  to: /donate
+
+[[redirects]]
+  from: /corporate-enquires
+  to: /about/sponsors
+
+[[redirects]]
+  from: /known-list-of-gpl-violators
+  to: /about/gpl-violators
+
+[[redirects]]
+  from: /kodi-team
+  to: /about/team
