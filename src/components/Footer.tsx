@@ -222,7 +222,7 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noopener"
-                        href="/rss.xml"
+                        href="http://feeds.kodi.tv/xbmc"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         RSS
