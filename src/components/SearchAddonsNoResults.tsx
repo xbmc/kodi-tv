@@ -1,7 +1,7 @@
 import React from "react";
 import { SearchIcon } from "@heroicons/react/solid";
 
-export default function SeachAddonsNoResult(props) {
+export default function SeachAddonsNoResult(props: { firstrun: any }) {
   let title = "No results found";
   let body =
     "No results match the filter criteria. Remove some of the filters or clear all the filters and try again.";
@@ -12,9 +12,9 @@ export default function SeachAddonsNoResult(props) {
   return (
     <>
       <div className="flex flex-col">
-        <SearchIcon className="flex-shrink-0 h-16 w-16" />
-        <h2 className="text-2xl font-bold">{title}</h2>
-        <p>{body}</p>
+        <SearchIcon className="flex-shrink-0 h-16 w-16 self-center" />
+        <h2 className="text-2xl font-bold self-center">{title}</h2>
+        <p className="self-center">{body}</p>
       </div>
     </>
   );

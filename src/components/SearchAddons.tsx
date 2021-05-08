@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 import { IconListFeatured } from "./IconList";
 import SearchAddonsNoResults from "./SearchAddonsNoResults";
 
@@ -228,27 +229,6 @@ export default class SearchAddons extends React.Component {
           className="pt-6 pb-10"
         >
           <div className="grid grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-7 xl:gap-4 items-startpt-5">
-            <div className="xl:col-span-2">
-              <label
-                htmlFor="category"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Category
-              </label>
-              <select
-                id="category"
-                aria-label="Select Category"
-                onChange={this.onCategorySelect}
-                value={this.state.categorySelected}
-                name="category"
-                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
-              >
-                {this.categoryOptions.map((item, index) => (
-                  <option>{item.value}</option>
-                ))}
-              </select>
-            </div>
-
             <div>
               <label
                 htmlFor="keyword"
@@ -289,6 +269,27 @@ export default class SearchAddons extends React.Component {
               </div>
             </div>
 
+            <div className="xl:col-span-2">
+              <label
+                htmlFor="category"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Category
+              </label>
+              <select
+                id="category"
+                aria-label="Select Category"
+                onChange={this.onCategorySelect}
+                value={this.state.categorySelected}
+                name="category"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
+              >
+                {this.categoryOptions.map((item, index) => (
+                  <option>{item.value}</option>
+                ))}
+              </select>
+            </div>
+
             <div>
               <label
                 htmlFor="sort"
@@ -317,27 +318,13 @@ export default class SearchAddons extends React.Component {
               >
                 &nbsp;
               </label>
-              {search_disabled ? (
-                <button
-                  disabled
-                  className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
-                >
-                  Search
-                </button>
-              ) : (
-                <button
-                  onClick={this.doSearch}
-                  className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
-                >
-                  Search
-                </button>
-              )}
-              <button
-                onClick={this.onClear}
-                className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
+              <Button
+                disabled={search_disabled}
+                onClick={this.doSearch}
+                buttonType="button"
               >
-                Reset
-              </button>
+                Search
+              </Button>
             </div>
           </div>
         </form>

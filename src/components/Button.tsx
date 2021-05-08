@@ -2,11 +2,13 @@ import { Link } from "gatsby";
 import React from "react";
 
 interface Props {
-  href: string;
+  href?: string;
+  disabled?: boolean;
   target?: "_blank";
   variant?: "primary" | "secondary";
   rel?: string;
-  linkType?: "internal" | "external";
+  buttonType?: "internal" | "external" | "button";
+  onClick?: any;
 }
 
 class Button extends React.Component<Props> {
@@ -57,10 +59,25 @@ class Button extends React.Component<Props> {
             focus:outline-none
             focus:shadow-outline`;
 
-    if (this.props.linkType === "internal") {
+    if (this.props.buttonType === "button") {
+      return (
+        <button
+          disabled={this.props.disabled}
+          onClick={this.props.onClick}
+          type="button"
+          className={buttonStyle}
+        >
+          <span>{this.props.children}</span>
+        </button>
+      );
+    } else if (this.props.buttonType === "internal") {
       return (
         <Link to={this.props.href} target={this.props.target} rel={this.props.rel}>
-          <button type="button" className={buttonStyle}>
+          <button
+            disabled={this.props.disabled}
+            type="button"
+            className={buttonStyle}
+          >
             <span>{this.props.children}</span>
           </button>
         </Link>
@@ -68,7 +85,11 @@ class Button extends React.Component<Props> {
     } else {
       return (
         <a href={this.props.href} target={this.props.target} rel={this.props.rel}>
-          <button type="button" className={buttonStyle}>
+          <button
+            disabled={this.props.disabled}
+            type="button"
+            className={buttonStyle}
+          >
             <span>{this.props.children}</span>
           </button>
         </a>
