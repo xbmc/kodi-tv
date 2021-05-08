@@ -52,10 +52,11 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
       } else {
         console.log("Query for donors succeeded.");
         data.Items.forEach(item => {
-          if (item.publicName != "[object HTMLInputElement]") {
+          if (item.publicName == "[object HTMLInputElement]") {
+            item.publicName = ""
+          }
             const nodeData = processData(item);
             createNode(nodeData);          
-          }
         });
 
         if (typeof data.LastEvaluatedKey != "undefined") {
