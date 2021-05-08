@@ -39,7 +39,7 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
             JSON.stringify(err, null, 2)
           );
         } else {
-          console.log("No donor records found.");
+          console.log("No donor records found during this pagination cycle.");
         }
         console.log("Creating single empty donor record.");
         const nodeData = processData(DUMMYITEM);
@@ -52,14 +52,16 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
       } else {
         console.log("Query for donors succeeded.");
         data.Items.forEach(item => {
-          const nodeData = processData(item);
-          createNode(nodeData);
+          if (item.publicName != "[object HTMLInputElement]") {
+            const nodeData = processData(item);
+            createNode(nodeData);          
+          }
         });
 
         if (typeof data.LastEvaluatedKey != "undefined") {
           console.log("Querying for more...");
-          params.ExclusiveStartKey = data.LastEvaluatedKey;
-          docClient.query(params, onQuery);
+          options.params.ExclusiveStartKey = data.LastEvaluatedKey;
+          docClient.query(options.params, onQuery);
         } else {
           resolve();
         }
