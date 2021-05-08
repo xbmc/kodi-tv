@@ -3,6 +3,7 @@ pageslug: software
 title: Kodi Software
 breadcrumbs: About | Software
 ---
+
 The following is a list of all the software Kodi Foundation offers. If you have downloaded software not on this list or from a site not specified on this list, then that software has not been offered by Team Kodi or the Kodi Foundation, and we can provide no official support for the use of that software.
 
 ![Kodi on various devices](/images/software--devices.webp)
@@ -13,7 +14,7 @@ The only official versions of Kodi may be found in our [Kodi Foundation Download
 
 ## Kodi Foundation Remote Controls
 
-We offer software based remote controls for Andriod and iOS.  Like Kodi™ itself, both official remotes are free and open source software and may be found in our [Kodi Foundation Downloads area](/download).
+We offer software based remote controls for Andriod and iOS. Like Kodi™ itself, both official remotes are free and open source software and may be found in our [Kodi Foundation Downloads area](/download).
 
 ## Trademark policy
 
@@ -25,4 +26,4 @@ Kodi Foundation does not sell hardware, either on eBay or anywhere else. With th
 
 ## A Note on Development and other Kodi Foundation-related News
 
-The only place to receive official news from Team XBMC/Kodi and the Kodi Foundation regarding Kodi development is via [kodi.tv](/). There are numerous great fan-created and even team member-created sites out there that also focus on providing XBMC-related content and info. These other sites should be considered unofficial and do not represent the Kodi Foundation or Team XBMC/Kodi. If you are uncertain as to whether a piece of news is official, don’t hesitate to email [contact@kodi.tv](mailto:contact@kodi.tv).
+The only place to receive official news from Team Kodi and the Kodi Foundation regarding Kodi development is via [kodi.tv](/). There are numerous great fan-created and even team member-created sites out there that also focus on providing Kodi-related content and info. These other sites should be considered unofficial and do not represent the Kodi Foundation or Team Kodi. If you are uncertain as to whether a piece of news is official, don’t hesitate to email [contact@kodi.tv](mailto:contact@kodi.tv).
