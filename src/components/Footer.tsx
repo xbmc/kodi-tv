@@ -86,14 +86,6 @@ function Footer() {
                         DMCA Policy
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        to="/about/gpl-violators"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        GPL Violators
-                      </Link>
-                    </li>
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
