@@ -19,7 +19,7 @@ export default function Page({ data, pageContext, location }) {
           and legal fees, purchase necessary hardware and licenses for developers and
           hopefully the yearly Kodi Foundation Developers Conference.
         </p>
-        <Button href="/donate" linkType="internal">
+        <Button href="/donate" buttonType="internal">
           Donate to Kodi
         </Button>
       </DefaultLayout>

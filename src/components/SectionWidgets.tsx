@@ -58,7 +58,7 @@ function DownloadNotice() {
 function CtaButtonInternal(props: { url: string; buttontext: string }) {
   return (
     <div className="mb-6">
-      <Button linkType="internal" href={props.url}>
+      <Button buttonType="internal" href={props.url}>
         {props.buttontext + " "}
       </Button>
     </div>

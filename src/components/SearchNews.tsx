@@ -1,5 +1,6 @@
 import React from "react";
 import { BlogPostCard } from "./Blog";
+import Button from "./Button";
 import SearchNewsNoResults from "./SearchNewsNoResults";
 
 function nameSortAsc(a, b) {
@@ -114,28 +115,6 @@ export default class SearchAddons extends React.Component {
           <div className="grid grid-cols-1 gap-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-4 items-startpt-5">
             <div>
               <label
-                htmlFor="tag"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Tag
-              </label>
-              <select
-                id="tag"
-                aria-label="Select Tag"
-                onChange={this.onTagSelect}
-                value={this.state.tagSelected}
-                name="category"
-                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
-              >
-                <option value="null">Select a Tag</option>
-                {this.props.tags.map((tag, index) => (
-                  <option value={tag.name}>{tag.displayname}</option>
-                ))}
-              </select>
-            </div>
-
-            <div>
-              <label
                 htmlFor="keyword"
                 className="block text-sm font-medium text-gray-700"
               >
@@ -174,6 +153,28 @@ export default class SearchAddons extends React.Component {
               </div>
             </div>
 
+            <div>
+              <label
+                htmlFor="tag"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Tag
+              </label>
+              <select
+                id="tag"
+                aria-label="Select Tag"
+                onChange={this.onTagSelect}
+                value={this.state.tagSelected}
+                name="category"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
+              >
+                <option value="null">Select a Tag</option>
+                {this.props.tags.map((tag, index) => (
+                  <option value={tag.name}>{tag.displayname}</option>
+                ))}
+              </select>
+            </div>
+
             <div className="-mt-2">
               <label
                 htmlFor="nothing"
@@ -181,27 +182,13 @@ export default class SearchAddons extends React.Component {
               >
                 &nbsp;
               </label>
-              {search_disabled ? (
-                <button
-                  disabled
-                  className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
-                >
-                  Search
-                </button>
-              ) : (
-                <button
-                  onClick={this.doSearch}
-                  className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
-                >
-                  Search
-                </button>
-              )}
-              <button
-                onClick={this.onClear}
-                className="inline-flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
+              <Button
+                disabled={search_disabled}
+                onClick={this.doSearch}
+                buttonType="button"
               >
-                Reset
-              </button>
+                Search
+              </Button>
             </div>
           </div>
         </form>
