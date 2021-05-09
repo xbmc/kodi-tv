@@ -5,15 +5,15 @@ sort_order: 1
 howto: https://kodi.wiki/view/windows
 releases:
   - name: Recommended
-    title: Kodi v19.0 (Matrix)
+    title: Kodi v19.1 (Matrix)
     description: The installation of Kodi for Windows is straightforward and like
       most other Windows applications. Simply download the installer, run it,
       and follow the prompts.
     downloads:
       - name: Installer (64BIT)
-        url: https://mirrors.kodi.tv/releases/windows/win64/kodi-19.0-Matrix-x64.exe
+        url: https://mirrors.kodi.tv/releases/windows/win64/kodi-19.1-Matrix-x64.exe?https=1
       - name: Installer (32BIT)
-        url: https://mirrors.kodi.tv/releases/windows/win32/kodi-19.0-Matrix-x86.exe
+        url: https://mirrors.kodi.tv/releases/windows/win32/kodi-19.1-Matrix-x86.exe?https=1
       - name: Windows Store
         url: https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge
   - name: Prerelease
