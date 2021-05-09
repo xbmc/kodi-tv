@@ -13,7 +13,7 @@ It is a truth universally acknowledged that, no matter how much testing you do b
 
 In no particular order, this version includes fixes for the following:
 
-As a bug fix release, don't bother going to look for new features; while there are some, that's not the main purpose of this version. Full details are on [GitHub](https://github.com/xbmc/xbmc/compare/19.0-Matrix...v19.1), but here's the short form...
+As a bug fix release, don't bother going to look for new features; while there are some, that's not the main purpose of this version. Full details are on [GitHub](https://github.com/xbmc/xbmc/compare/19.0-Matrix...v19.1-Matrix), but here's the short form...
 
 **Video**
 
@@ -26,15 +26,19 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 **PVR**
 
-* Fixed: Context menu not accessible in PVR Guide window when using very basic remote to control Kodi
-* Fixed: Client channel name and number not persisted when changed
-* Fixed: Play count and resume position of recordings lost after Kodi restart
-* Fixed: Crash while browsing the EPG when MySQL is used as EPG database
-* Fixed: Next recording on ... label time is not localized in Estuary Timer/Timer rules window
-* Fixed: Channel manager does not rename backend channel
-* Fixed: Playing archived programme not selected when opening the Guide window
+* Fixed: context menu not accessible in PVR Guide window when using very basic remote to control Kodi
+* Fixed: client channel name and number not persisted when changed
+* Fixed: play count and resume position of recordings lost after Kodi restart
+* Fixed: crash while browsing the EPG when MySQL is used as EPG database
+* Fixed: next recording on ... label time is not localized in Estuary Timer/Timer rules window
+* Fixed: channel manager does not rename backend channel
+* Fixed: playing archived programme not selected when opening the Guide window
 * Fixed: GUI not updated on removal/insert/hide/unhide of channel groups
-* Updated: Improved look of PVR windows in Estuary
+* Updated: improved look of PVR windows in Estuary
+
+**Music Library**
+
+* Fixed: issue with music from cuesheets where only the first track was being added to the library on rescanning, with the rest being deleted
 
 **JSON-RPC**
 
@@ -49,7 +53,7 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 **GUI/Interface**
 
-* Fixed: Media flagging for DVD/BluRay
+* Fixed: media flagging for DVD/BluRay
 
 **Web Interface**
 
@@ -57,17 +61,17 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 **Filesystem**
 
-* Updated: Enable filecaching by default for network filesystems
-* Updated: Improve filecache error handling
+* Updated: enable filecaching by default for network filesystems
+* Updated: improve filecache error handling
 
 **Network**
 
-* Updated: Improved reliability for HTTP and NFS network filesystems
+* Updated: improved reliability for HTTP and NFS network filesystems
 
 **Windows specifics**
 
 * Added: support for WS-Discovery protocol that enables locating SMB servers and browsing shared folders using SMBv3.
-* Added: Debug Info OSD Video. Extends current Debug Info Player (Ctrl+Shift+O) with new video-only info (Alt+O)
+* Added: debug Info OSD Video. Extends current Debug Info Player (Ctrl+Shift+O) with new video-only info (Alt+O)
 * Fixed: with some unusual streams, incorrect HDR metadata could be passed (HDR10 passthrough).
 * Fixed: green screen on systems with old HW (DX feature level 9.1) playing 10-bit videos.
 * Fixed: black screen with Software render method and with DXVA2 hardware acceleration disabled.
@@ -79,6 +83,12 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 * Fixed: SMB shares mounted on system level not visible in Kodi
 * Fixed: SMB shares labelled with cryptic numbers (UUID) instead of actual disk name
+
+**Xbox specifics**
+
+* This version also brings 19.1 to the Xbox - while 19.0 has been in the Windows Store since launch, this was Windows-only while we found a way to adequately test the new release on Xbox. We've fixed that now, so Xbox users will automatically upgrade from 18.9 to 19.1 if you've got auto-update enabled. It's worth mentioning that there's a known memory limitation - present in 18.x as well - that causes Xbox application crashes with 4k content, so please be aware.
+
+
 
 Thanks to everyone who has helped by reporting, isolating or fixing issues.
 
