@@ -86,7 +86,7 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 **Xbox specifics**
 
-* This version also brings 19.1 to the Xbox - while 19.0 has been in the Windows Store since launch, this was Windows-only while we found a way to adequately test the new release on Xbox. We've fixed that now, so Xbox users will automatically upgrade from 18.9 to 19.1 if you've got auto-update enabled. It's worth mentioning that there's a known memory limitation - present in 18.x as well - that causes Xbox application crashes with 4k content, so please be aware.
+* This version also brings 19.1 to the Xbox - while 19.0 has been in the Microsoft Store since launch, this was Windows-only while we found a way to adequately test the new release on Xbox. We've fixed that now, so Xbox users will automatically upgrade from 18.9 to 19.1 if you've got auto-update enabled. It's worth mentioning that there's a known memory limitation - present in 18.x as well - that causes Xbox application crashes with 4k content, so please be aware.
 
 
 
