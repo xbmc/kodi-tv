@@ -5,12 +5,12 @@ sort_order: 7
 howto: https://kodi.wiki/view/TvOS
 releases:
   - name: Recommended
-    title: Kodi v19.0 (Matrix)
+    title: Kodi v19.1 (Matrix)
     description: To install Kodi Matrix on tvOS, please see the 'How To' link for
       instructions.
     downloads:
       - name: tvOS
-        url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_19.0-0-tvos.deb
+        url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_19.1-0-tvos.deb?https=1
   - name: Prerelease
     title: Kodi v20 Prerelease
     description: There are no Pre-release builds available for Kodi v20 at this time.
