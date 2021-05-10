@@ -88,8 +88,9 @@ As a bug fix release, don't bother going to look for new features; while there a
 
 * This version also brings 19.1 to the Xbox - while 19.0 has been in the Microsoft Store since launch, this was Windows-only while we found a way to adequately test the new release on Xbox. We've fixed that now, so Xbox users will automatically upgrade from 18.9 to 19.1 if you've got auto-update enabled. It's worth mentioning that there's a known memory limitation - present in 18.x as well - that causes Xbox application crashes with 4k content, so please be aware.
 
+***EDIT** Ah, so close. Sadly, this isn't going to happen - there's a new issue that's bubbled up on Xbox that means you can't download any addons, which is a touch... inconvenient. As such, we've had to pull Xbox 19.1 - sorry, folks. Let's see if we can resolve that for 19.2...*
 
-
+\
 Thanks to everyone who has helped by reporting, isolating or fixing issues.
 
 As usual, there really should be no problems in installing this straight over the top of your existing Kodi version - indeed, this will happen automatically on many platforms - but, if you've any doubts, back up your userdata beforehand. Similarly, this is a minor version bump, so there's no change to database versions or anything else that's likely to break things.
