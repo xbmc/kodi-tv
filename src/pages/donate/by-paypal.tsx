@@ -44,7 +44,7 @@ export default class PagePayPal extends React.Component {
             <input
               type="hidden"
               name="business"
-              value="donate-facilitator@xbmc.org"
+              value={process.env.GATSBY_PAYPAL_BUSINESS}
             />
             <input type="hidden" name="no_note" value="0" />
             <input type="hidden" name="no_shipping" value="1" />
