@@ -46,8 +46,8 @@ export default class PageStripe extends React.Component {
         donorname = this.state.donor;
       }
       let forumname = "";
-      if (this.state.otForum != "") {
-        forumname = this.state.otForum;
+      if (this.state.forum != "") {
+        forumname = this.state.forum;
       }
       let current_datetime = new Date();
       const stripe = await stripePromise;
