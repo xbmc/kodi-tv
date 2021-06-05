@@ -15,8 +15,20 @@ releases:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi
   - name: Prerelease
-    title: Kodi v20 Prerelease
-    description: There are no Pre-release builds available for Kodi v20 at this time.
+    title: Kodi v19.x (Matrix) Nightly Builds
+    description: >-
+      Kodi v19 is the current stable release and is still receiving maintenance
+      and bug fix updates. These updates are merged and built nightly for the
+      v19 line.
+
+
+      There are no new features. All new features are merged into the v20 line.
+
+
+      These nightlies are safe to use as they are bug fixes only.
+    downloads:
+      - name: Install Guide
+        url: https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi
   - name: Development Builds
     title: Kodi v20 Nightly
     description: >-
