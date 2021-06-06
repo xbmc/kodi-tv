@@ -38,17 +38,11 @@ export default class PageStripe extends React.Component {
     const handleOneTimeClick = async event => {
       // When the customer clicks on the button, redirect them to Checkout.
       let sep = "\u2028";
-      let donorname = "";
       if (this.state.otPrice === "" || !/^\d+$/.test(this.state.otPrice)) {
         return;
       }
-      if (this.state.donor != "") {
-        donorname = this.state.donor;
-      }
-      let forumname = "";
-      if (this.state.forum != "") {
-        forumname = this.state.forum;
-      }
+      let donorname = this.state.donor || "";
+      let forumname = this.state.forum || "";
       let current_datetime = new Date();
       const stripe = await stripePromise;
       const { error } = await stripe.redirectToCheckout({

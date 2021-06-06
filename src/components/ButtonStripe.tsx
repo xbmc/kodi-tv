@@ -19,7 +19,7 @@ export default function ButtonStripe(props: {
         { price: props.price_id, quantity: 1 },
       ],
       mode: "subscription",
-      clientReferenceId: props.donorname + sep + props.forumname,
+      clientReferenceId: (props.donorname || "") + sep + (props.forumname || ""),
       successUrl: process.env.GATSBY_SITEURL + "/donate/success-stripe",
       cancelUrl: process.env.GATSBY_SITEURL + "/donate",
     });
