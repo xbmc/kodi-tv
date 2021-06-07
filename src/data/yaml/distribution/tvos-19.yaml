@@ -12,10 +12,22 @@ releases:
       - name: tvOS
         url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_19.1-0-tvos.deb?https=1
   - name: Prerelease
-    title: Kodi v20 Prerelease
-    description: There are no Pre-release builds available for Kodi v20 at this time.
+    title: Kodi v19.x (Matrix) Nightly Builds
+    description: >-
+      Kodi v19 is the current stable release and is still receiving maintenance
+      and bug fix updates. These updates are merged and built nightly for the
+      v19 line.
+
+
+      There are no new features. All new features are merged into the v20 line.
+
+
+      These nightlies are safe to use as they are bug fixes only.
+    downloads:
+      - name: tvOS
+        url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Matrix/
   - name: Development Builds
-    title: Kodi v20 Nightly
+    title: Kodi v20 (Nexus) Nightly
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
