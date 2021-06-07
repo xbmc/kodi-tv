@@ -17,10 +17,24 @@ releases:
       - name: Windows Store
         url: https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge
   - name: Prerelease
-    title: Kodi v20 Prerelease
-    description: There are no Pre-release builds available for Kodi v20 at this time.
+    title: Kodi v19.x (Matrix) Nightly Builds
+    description: >-
+      Kodi v19 is the current stable release and is still receiving maintenance
+      and bug fix updates. These updates are merged and built nightly for the
+      v19 line.
+
+
+      There are no new features. All new features are merged into the v20 line.
+
+
+      These nightlies are safe to use as they are bug fixes only.
+    downloads:
+      - name: Installer (64BIT)
+        url: https://mirrors.kodi.tv/nightlies/windows/win64/Matrix/
+      - name: Installer (32BIT)
+        url: https://mirrors.kodi.tv/nightlies/windows/win32/Matrix/
   - name: Development Builds
-    title: Kodi v20 "N..." nightly
+    title: Kodi v20 (Nexus) Nightly
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
