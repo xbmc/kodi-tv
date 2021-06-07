@@ -19,10 +19,24 @@ releases:
       - name: ARMV8A (64BIT)
         url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-19.1-Matrix-arm64-v8a.apk?https=1
   - name: Prerelease
-    title: Kodi v20 Prerelease
-    description: There are no Pre-release builds available for Kodi v20 at this time.
+    title: Kodi v19.x (Matrix) Nightly Builds
+    description: >-
+      Kodi v19 is the current stable release and is still receiving maintenance
+      and bug fix updates. These updates are merged and built nightly for the
+      v19 line.
+
+
+      There are no new features. All new features are merged into the v20 line.
+
+
+      These nightlies are safe to use as they are bug fixes only.
+    downloads:
+      - url: https://mirrors.kodi.tv/nightlies/android/arm/Matrix/
+        name: ARMV7A (32BIT)
+      - url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/Matrix/
+        name: ARMV8A (64BIT)
   - name: Development Builds
-    title: Kodi v20 Nightly
+    title: Kodi v20 (Nexus) Nightly
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -35,7 +49,7 @@ releases:
       If you want a stable setup, then please install a stable build from the **Recommended** tab instead.
 
 
-      Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).nd [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+      Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report) and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
       - name: Google Play Testing
         url: https://play.google.com/apps/testing/org.xbmc.kodi
