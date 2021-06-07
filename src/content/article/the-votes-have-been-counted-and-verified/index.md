@@ -9,7 +9,7 @@ featured_image:
   title: "Credit: Photo by Emily Morter on Unsplash"
   alt: "Credit: Photo by Emily Morter on Unsplash"
 ---
-Many of you will probably be aware that, since the dawn of time, each version of Kodi takes a vaguely sci-fi/fantasy/movie-themed name, in alphabetical order (no, don't ask what happens after we get to Z). This has become common practice throughout the IT industry - look at iOS, Android, Ubuntu, Intel chips, and similar: it provides a useful and friendly way to refer to a release without getting tied up in numbers and decimal points.
+Many of you will probably be aware that, since the dawn of time, each version of Kodi takes a vaguely sci-fi/fantasy/movie-themed name, in alphabetical order (*Ed: no, don't ask what happens after we get to Z*). This has become common practice throughout the IT industry - look at iOS, Android, Ubuntu, Intel chips, and similar: it provides a useful and friendly way to refer to a release without getting tied up in numbers and decimal points.
 
 Anyway, over the past 13 years or so we've chewed through Atlantis, Babylon, Camelot, Dharma, Eden, Frodo, Gotham, Helix, Isengard, Jarvis, Krypton, Leia and Matrix ... and, as we branch the code for the next release, it's time to bestow a name on our next version.
 
