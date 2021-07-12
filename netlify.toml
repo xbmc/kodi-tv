@@ -2,6 +2,19 @@
   for = "/*"
   [headers.values]
     Permissions-Policy =  "interest-cohort=()"
+    cache-control = '''
+    public,
+    max-age=86400'''
+  for = "/images/*"
+  [header.values]
+    cache-control = '''
+    public,
+    max-age=604800'''
+  for = "/styles/*"
+  [header.values]
+    cache-control = '''
+    public,
+    max-age=604800'''
 
 [[redirects]]
   from = "/contact-kodi-team"
