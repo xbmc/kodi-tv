@@ -3,7 +3,7 @@ name: Update Add-on Info
 on:
   workflow_dispatch:
   schedule:
-    - cron: "00 02 * * 1"
+    - cron: "00 02 * * *"
 
 defaults:
   run:
