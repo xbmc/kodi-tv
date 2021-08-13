@@ -145,7 +145,7 @@ function Page() {
               title: "Games",
               description: `Kodi isn't just for passive entertainment media. You can also
                     play games on Kodi. Pick from a large number of emulators, or
-                    even play a stand-alone game. There"s even extensive support for
+                    even play a stand-alone game. There's even extensive support for
                     game controllers.`,
             },
           ]}
