@@ -150,10 +150,10 @@ const mainMenu: MenuEntry[] = [
       },
       {
         title: "IRC",
-        url: "https://webchat.freenode.net/#kodi",
+        url: "https://web.libera.chat/#kodi",
         icon: ChatAltIcon,
         description:
-          "Join us on FreeNode or use this menu link to join the channel via the web. Registration required.",
+          "Join us on Libera.Chat or use this menu link to join the channel via the web.",
       },
       {
         title: "Matrix",
