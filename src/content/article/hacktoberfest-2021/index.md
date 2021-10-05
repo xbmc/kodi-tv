@@ -15,7 +15,7 @@ For yet another year, Kodi is participating as a project in [Hacktoberfest](http
 
 ## How to get started?
 
-Head over to the [event website](url) and have a read over the [provided resources](https://hacktoberfest.digitalocean.com/resources). For Kodi, a good starting point is our exhaustive list of [open issues](https://github.com/xbmc/xbmc/issues). Team Kodi members (maintainers) will make sure that all the code submissions that take place during the month of October towards our eligible repositories are labeled with the `hacktoberfest-accepted` label in case they are valid. Please don't abuse your luck: spam contributions will be tracked and marked invalid, making you ineligible for the competition!
+Head over to the [event website](https://hacktoberfest.digitalocean.com) and have a read over the [provided resources](https://hacktoberfest.digitalocean.com/resources). For Kodi, a good starting point is our exhaustive list of [open issues](https://github.com/xbmc/xbmc/issues). Team Kodi members (maintainers) will make sure that all the code submissions that take place during the month of October towards our eligible repositories are labeled with the `hacktoberfest-accepted` label in case they are valid. Please don't abuse your luck: spam contributions will be tracked and marked invalid, making you ineligible for the competition!
 
 ## What are Kodi eligible repositories?
 
