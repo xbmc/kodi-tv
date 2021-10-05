@@ -21,15 +21,15 @@ Head over to the [event website](https://hacktoberfest.digitalocean.com) and hav
 
 If you'd like to do some C++ you can send your code contributions to:
 
-- [The Kodi core repository](https://github.com/xbmc/xbmc)
+* [The Kodi core repository](https://github.com/xbmc/xbmc)
 
-- Our inputstream binary addons
+* Our inputstream binary addons
 
   [inputstream.adaptive addon](https://github.com/xbmc/inputstream.adaptive)
 
   [inputstream.ffmpegdirect addon](https://github.com/xbmc/inputstream.ffmpegdirect)
 
-- Our PVR binary addons
+* Our PVR binary addons
 
   [pvr.argustv addon](https://github.com/kodi-pvr/pvr.argustv)
 
@@ -67,27 +67,27 @@ If you'd like to do some C++ you can send your code contributions to:
 
 If you want to work on Java/Android:
 
-- [Kore remote control](https://github.com/xbmc/Kore)
+* [Kore remote control](https://github.com/xbmc/Kore)
 
 More of an ios/objective-c person:
 
-- [Kodi official iOS remote](https://github.com/xbmc/Official-Kodi-Remote-iOS)
+* [Kodi official iOS remote](https://github.com/xbmc/Official-Kodi-Remote-iOS)
 
 Typescript/Gatsby?
 
-- [The Kodi official website](https://github.com/xbmc/kodi-tv)
+* [The Kodi official website](https://github.com/xbmc/kodi-tv)
 
 Pythonista over there?
 
-- [Our addon-checker tool](https://github.com/xbmc/addon-check)
+* [Our addon-checker tool](https://github.com/xbmc/addon-check)
 
 Are you a Kodi addon developer? 
 You can submit your addon (or updating your existing addons with new features or bug fixes) to the Kodi official addon repository:
 
-- [Plugins](https://github.com/xbmc/repo-plugins)
-- [Scripts](https://github.com/xbmc/repo-scripts)
-- [Skins](https://github.com/xbmc/repo-skins)
-- [Resources](https://github.com/xbmc/repo-resources)
+* [Plugins](https://github.com/xbmc/repo-plugins)
+* [Scripts](https://github.com/xbmc/repo-scripts)
+* [Skins](https://github.com/xbmc/repo-skins)
+* [Resources](https://github.com/xbmc/repo-resources)
 
 ## What you should do after reading this blog post
 
