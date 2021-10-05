@@ -1,6 +1,6 @@
 ---
 title: Hacktoberfest 2021
-date: 2021-10-05T16:33:29.656Z
+date: 2021-10-05T17:00:00.000Z
 author: Team Kodi
 tags:
   - Developer
