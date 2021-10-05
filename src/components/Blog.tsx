@@ -22,10 +22,10 @@ function BlogPostCard(props: { post: News }) {
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
         <Link to={post.fields.slug} className="flex-shrink-0">
           {post.frontmatter.featured_image == undefined ? (
-            <div className="h-48 w-full object-cover bg-kodi"></div>
+            <div className="h-48 w-full bg-kodi"></div>
           ) : (
             <img
-              className="h-48 w-full object-cover bg-gray-200"
+              className="h-48 w-full object-fill bg-gray-200"
               title={post.frontmatter.featured_image.title}
               src={post.frontmatter.featured_image.src}
               alt={post.frontmatter.featured_image.alt}
