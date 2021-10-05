@@ -6,6 +6,8 @@ tags:
   - Developer
 featured_image:
   src: /images/blog/hacktoberfest-2021.png
+  title: Hacktoberfest 2021 logo
+  alt: Hacktoberfest 2021 logo
 ---
 October...the month that gave birth to the world's most famous and traditional beer festival. What's possibly better than two weeks of collective beer drinking? Under normal circumstances...probably nothing. In the so called new normal? Let's pretend we can tolerate a bit more of this social awkwardness and find an alternative way: let's just celebrate beer...and open-source. Or in Team Kodi's dictionary: just another month at the office :)
 
