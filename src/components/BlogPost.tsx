@@ -38,7 +38,7 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
           <div className="relative shadow-xl rounded-2xl overflow-hidden">
             <div className="absolute inset-0">
               <img
-                className="h-full w-full object-fill"
+                className="h-full w-full object-cover"
                 src={blogPost.frontmatter.featured_image.src}
                 title={blogPost.frontmatter.featured_image.title}
                 alt={blogPost.frontmatter.featured_image.alt}
