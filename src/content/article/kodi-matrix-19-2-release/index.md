@@ -58,7 +58,7 @@ As with other point releases, don't go looking for new features, as that isn't r
 
 **Xbox specifics**
 
-We can finally make 19.x "Matrix" available on the Xbox - thanks for putting up with the delay while we fixed the blockers!
+The big news here is that we can finally make 19.x "Matrix" available on the Xbox - thanks for putting up with the delay while we fixed the blockers!
 
 - Fixed: crash on playback of 4K HEVC videos due to out-of-memory condition.
 - Fixed: GUI rendered at 1080 and upscaled to 4K instead of native 4K.
