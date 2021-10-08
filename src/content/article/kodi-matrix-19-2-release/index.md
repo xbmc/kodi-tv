@@ -74,7 +74,7 @@ The big news here is that we can finally make 19.x "Matrix" available on the Xbo
 
 Thanks, as always, to everyone who has helped by reporting, isolating or fixing issues.
 
-You should be fine to install this straight over the top of your existing Kodi version - indeed, this will happen automatically on many platforms - but, if you've any doubts, back up your userdata beforehand. Similarly, this is a minor version bump, so there's no change to database versions or anything else that's likely to break things.
+You should be fine to install this straight over the top of your existing Kodi version - indeed, this will happen automatically on many platforms - but, if you've any doubts, back up your userdata beforehand. Similarly, this is a minor version bump, so there's no change to database versions or anything similar on the vast majority of platforms. The exception is obviously Xbox, where users need to be aware that, for them, this is a major upgrade (18.9 to 19.2).
 
 If you're interested, you can read the merged PRs [here](https://github.com/xbmc/xbmc/pulls?q=is%3Apr+sort%3Aupdated-desc+milestone%3A%22Matrix+19.2%22+label%3A%22v19+Matrix%22+). If you want to read back on the full history of v19 itself, or of previous versions, you can find the corresponding articles in the relevant [blog posts](https://kodi.tv/blog/tag/release).
 
