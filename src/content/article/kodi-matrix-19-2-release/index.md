@@ -11,7 +11,7 @@ featured_image:
 ---
 It's been some time since we released 19.1, and numerous issues have revealed themselves and been resolved in the intervening months. As such, we're probably overdue a formal release of the updates, so, without further ado - here's the latest release in the "Matrix" series.
 
-As with other point releases, don't go looking for new features, as that isn't really the purpose here. Full details are on [GitHub](https://github.com/xbmc/xbmc/compare/19.1-Matrix...v19.2-Matrix), but here's the short form...
+As with other point releases, don't go looking for new features, as that isn't really the purpose here. Full details are on [GitHub](https://github.com/xbmc/xbmc/compare/19.1-Matrix...19.2-Matrix), but here's the short form...
 
 **PVR**
 
