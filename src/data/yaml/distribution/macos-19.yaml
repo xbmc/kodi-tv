@@ -5,7 +5,7 @@ sort_order: 5
 howto: https://kodi.wiki/view/Mac_OS_X
 releases:
   - name: Recommended
-    title: Kodi v19.2 (Matrix)
+    title: Kodi v19.3 (Matrix)
     description: Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide
       hardware video decoding for H.264 and MPEG2 video, though most CPUs are
       able to use software decoding for other formats in 1080 as well. Macs can
@@ -13,7 +13,7 @@ releases:
       running OS X 10.13 or higher is required.
     downloads:
       - name: Installer (64BIT)
-        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-19.2-Matrix-x86_64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-19.3-Matrix-x86_64.dmg?https=1
   - name: Prerelease
     title: Kodi v19.x (Matrix) Nightly Builds
     description: >-
