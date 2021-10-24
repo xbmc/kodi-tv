@@ -5,14 +5,14 @@ sort_order: 6
 howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_iOS
 releases:
   - name: Recommended
-    title: Kodi v19.2 (Matrix)
+    title: Kodi v19.3 (Matrix)
     description: To install Kodi for iOS you must have a jailbroken iDevice running
       iOS 6.0 or higher (8.0 or higher recommended). Just open your favorite
       package manager and search for Kodi in the BigBoss repository. For more
       detailed help, check the 'How To' link for instructions.
     downloads:
       - name: iOS (64 Bit)
-        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_19.2-0_iphoneos-arm64.deb?https=1
+        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_19.3-0_iphoneos-arm64.deb?https=1
   - name: Prerelease
     title: Kodi v19.x (Matrix) Nightly Builds
     description: >-
