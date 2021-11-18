@@ -5,19 +5,19 @@ sort_order: 3
 howto: http://kodi.wiki/view/Android
 releases:
   - name: Recommended
-    title: Kodi v19.1 (Matrix)
+    title: Kodi v19.3 (Matrix)
     description: The success of running Kodi on an Android device depends on a
       number of factors, as there are so many different devices with different
       capabilities. Check the 'How To' link for more help.
     downloads:
       - name: Google Play
         url: https://play.google.com/store/apps/details?id=org.xbmc.kodi
-      - name: Huawai App Gallery
+      - name: Huawei App Gallery
         url: https://appgallery.huawei.com/#/app/C101763539
       - name: ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm/kodi-19.1-Matrix-armeabi-v7a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm/kodi-19.3-Matrix-armeabi-v7a.apk?https=1
       - name: ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-19.1-Matrix-arm64-v8a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-19.3-Matrix-arm64-v8a.apk?https=1
   - name: Prerelease
     title: Kodi v19.x (Matrix) Nightly Builds
     description: >-
