@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
 import { MenuEntry } from "./Header";
+import { Link } from "gatsby";
 
 function HeaderDropdownMenu(props: { menu: MenuEntry }) {
   return (
@@ -36,23 +37,41 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
             >
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div className="relative grid gap-8 bg-gray-50 p-8">
-                  {props.menu.dropdown?.map((item, index) => (
-                    <a
-                      key={item.url}
-                      href={item.url!}
-                      className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
-                    >
-                      <item.icon className="flex-shrink-0 h-6 w-6 text-kodi" />
-                      <div className="ml-4">
-                        <p className="text-base font-medium text-gray-900">
-                          {item.title}
-                        </p>
-                        <p className="mt-1 text-sm text-gray-500">
-                          {item.description}
-                        </p>
-                      </div>
-                    </a>
-                  ))}
+                  {props.menu.dropdown?.map((item, index) =>
+                    item.url?.type === "internal" ? (
+                      <Link
+                        key={item.url?.url}
+                        to={item.url?.url!}
+                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
+                      >
+                        <item.icon className="flex-shrink-0 h-6 w-6 text-kodi" />
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-gray-900">
+                            {item.title}
+                          </p>
+                          <p className="mt-1 text-sm text-gray-500">
+                            {item.description}
+                          </p>
+                        </div>
+                      </Link>
+                    ) : (
+                      <a
+                        key={item.url?.url}
+                        href={item.url?.url!}
+                        className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
+                      >
+                        <item.icon className="flex-shrink-0 h-6 w-6 text-kodi" />
+                        <div className="ml-4">
+                          <p className="text-base font-medium text-gray-900">
+                            {item.title}
+                          </p>
+                          <p className="mt-1 text-sm text-gray-500">
+                            {item.description}
+                          </p>
+                        </div>
+                      </a>
+                    )
+                  )}
                   {props.menu.footer === null ? (
                     ""
                   ) : (
