@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Button from "./Button";
 
 // Import Swiper styles need to be require for now
-require("swiper/swiper.scss");
-require("swiper/components/navigation/navigation.scss");
-require("swiper/components/pagination/pagination.scss");
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+	
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
 
