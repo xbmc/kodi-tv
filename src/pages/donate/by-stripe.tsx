@@ -49,7 +49,7 @@ export default class PageStripe extends React.Component {
         lineItems: [
           {
             price: config.stripe.oneTime[this.state.otCurrency],
-            quantity: parseInt(this.state.otPrice),
+            quantity: priceInt,
           },
         ],
         mode: "payment",
@@ -139,6 +139,9 @@ export default class PageStripe extends React.Component {
                       </h3>
                       <p className="mt-1 text-sm text-gray-500">
                         Use this form to make a one-time donation.
+                        <br />
+                        Your donation must be at least $5 USD (€5, £4, $7 CAD, $7
+                        AUD, ¥500).
                       </p>
                     </div>
                     <div>
@@ -191,7 +194,8 @@ export default class PageStripe extends React.Component {
 
                     <div className="pt-5">
                       <div className="flex justify-end">
-                        {this.state.otPrice !== "" ? (
+                        {parseInt(this.state.otPrice) >=
+                        config.stripe.minCharge[this.state.otCurrency] ? (
                           <>
                             <button
                               type="submit"
