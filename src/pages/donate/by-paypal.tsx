@@ -32,8 +32,12 @@ export default class PagePayPal extends React.Component {
     };
 
     this.state.buttondisabled =
-      (this.state.dtype === "One-time") & (this.state.amount == null) ||
-      (this.state.dtype !== "One-time") & (this.state.a3 == null);
+      (this.state.dtype === "One-time" &&
+        (parseInt(this.state.amount) <
+          config.stripe.minCharge[this.state.currency_code] ||
+          this.state.amount == "")) ||
+      (this.state.dtype !== "One-time" &&
+        (parseInt(this.state.a3) <
           config.stripe.minCharge[this.state.currency_code] ||
           this.state.a3 == ""));
 
