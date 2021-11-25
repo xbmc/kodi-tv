@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
 import { MenuEntry } from "./Header";
+import { Link } from "gatsby";
 
 function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -36,13 +37,23 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {props.menu.dropdown?.map((item, index) => (
-              <a
-                key={item.url}
-                href={item.url!}
-                className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
-              >
-                {item.title}
-              </a>
+                item.url.type === "internal" ? (
+                  <Link
+                    key={item.url.url}
+                    to={item.url.url}
+                     className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    {item.title}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.url.url}
+                    href={item.url.url}
+                     className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    {item.title}
+                  </a>
+                )
             ))}
           </div>
         </Transition>
