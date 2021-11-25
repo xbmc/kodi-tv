@@ -266,15 +266,25 @@ function Header(props: any) {
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   {mainMenu.map((item, index) =>
                     item.dropdown == null && item.url ? (
-                      <a
-                        href={item.url}
-                        key={item.url}
-                        className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
-                      >
-                        {item.title}
-                      </a>
+                      item.url.type === "internal" ? (
+                        <Link
+                          key={item.url.url}
+                          to={item.url.url}
+                          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                        >
+                          {item.title}
+                        </Link>
+                      ) : (
+                        <a
+                          key={item.url.url}
+                          href={item.url.url}
+                          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                        >
+                          {item.title}
+                        </a>
+                      )
                     ) : (
-                      <HeaderDropdownMenuMobile key={item.url} menu={item} />
+                      <HeaderDropdownMenuMobile key={item.url.url} menu={item} />
                     )
                   )}
                 </div>
