@@ -1,7 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {
-  DownloadIcon,
   InformationCircleIcon,
   TruckIcon,
   TagIcon,
@@ -195,20 +194,15 @@ export default function AddonLayout({
                       {item.title}
                     </dt>
                     <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
-                      <div className="flex space-x-3">
-                        <DownloadIcon className="h-5 w-5 text-kodi" />
-                        <div>
-                          {item.data.map((platform, index) => (
-                            <ItemWithComma
-                              description={platform.platform}
-                              url={platform.path}
-                              index={index}
-                              length={addon.platforms.length - 1}
-                              linkType="external"
-                            />
-                          ))}
-                        </div>
-                      </div>
+                      {item.data.map((platform, index) => (
+                        <ItemWithComma
+                          description={platform.platform}
+                          url={platform.path}
+                          index={index}
+                          length={addon.platforms.length - 1}
+                          linkType="external"
+                        />
+                      ))}
                     </dd>
                   </div>
                 ) : (
