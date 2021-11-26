@@ -7,7 +7,7 @@ import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "Leia Add-ons",
-    breadcrumbs: "Add-ons | Leia",
+    breadcrumbs: "Leia | Add-ons",
   };
   let linkroot = "/addons/leia/";
 

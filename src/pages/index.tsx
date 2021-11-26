@@ -57,10 +57,13 @@ function Page() {
     .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
     .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
   const stats = Stats();
-  let frontmatter = { title: "Home", breadcrumbs: "Home" };
+  let frontmatter = {
+    title: "Open Source Home Theater Software",
+    breadcrumbs: "Open Source Home Theater Software",
+  };
 
   return (
-    <LandingPage frontmatter={{}}>
+    <LandingPage frontmatter={frontmatter}>
       <FullWidthHeroCarousel
         slides={[
           {

@@ -21,7 +21,7 @@ export default class PageBitPay extends React.Component {
   }
 
   render() {
-    let frontmatter = { title: "Pay via Bit Pay", breadcrumbs: "Donate | Bitpay" };
+    let frontmatter = { title: "Pay via Bit Pay", breadcrumbs: "Bitpay | Donate" };
     this.state.buttondisabled = this.state.price == null;
 
     return (

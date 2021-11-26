@@ -7,7 +7,7 @@ import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 export default function TagPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "News with the Tag: " + pageContext.tag,
-    breadcrumbs: "News | " + pageContext.tag,
+    breadcrumbs: pageContext.tag + " | News",
   };
   let posts = data.blogPosts.nodes;
   let firsttwo = posts.slice(0, 2);
@@ -36,7 +36,7 @@ export default function TagPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query($tag: [String]!, $skip: Int!, $limit: Int!) {
+  query ($tag: [String]!, $skip: Int!, $limit: Int!) {
     blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { tags: { in: $tag } } }

@@ -7,7 +7,7 @@ import { TagList } from "../../hooks/TagList";
 export default function AddonSearchPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "News Search",
-    breadcrumbs: "News | Search",
+    breadcrumbs: "Search | News",
   };
 
   return (

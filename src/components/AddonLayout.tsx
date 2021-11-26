@@ -26,7 +26,7 @@ export default function AddonLayout({
   const addon = data.addon;
   let frontmatter = {
     title: repo + " Add-on Details",
-    breadcrumbs: "Addons | " + repo + " | " + addon.name,
+    breadcrumbs: addon.name + " | " + repo + " | Addons",
     description: addon.snippet,
   };
   let slides: string[] = [];

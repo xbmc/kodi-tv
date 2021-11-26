@@ -28,7 +28,7 @@ export default class PagePayPal extends React.Component {
   render() {
     let frontmatter = {
       title: "Pay via PayPal",
-      breadcrumbs: "Donate | PayPal",
+      breadcrumbs: "PayPal | Donate",
     };
 
     this.state.buttondisabled =

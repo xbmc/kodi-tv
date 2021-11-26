@@ -307,7 +307,7 @@ if (process.env.GATSBY_STRIPE_TYPE == "prod") {
 
 module.exports = {
   siteMetadata: {
-    title: "Kodi | Open Source Home Theater Software",
+    title: "Kodi",
     description:
       "Kodi is a free media player that is designed to look great on your big screen TV but is just as at home on a small screen.",
     siteUrl: url,

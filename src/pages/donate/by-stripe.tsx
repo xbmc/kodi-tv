@@ -32,7 +32,7 @@ export default class PageStripe extends React.Component {
   render() {
     let frontmatter = {
       title: "Pay via Credit Card",
-      breadcrumbs: "Donate | Stripe",
+      breadcrumbs: "Stripe | Donate",
     };
 
     const handleOneTimeClick = async event => {

@@ -7,7 +7,7 @@ import { DefaultLayout } from "../../../components/Layout";
 export default function Page({ data, pageContext, location }) {
   let frontmatter = {
     title: "Top Matrix Add-On Authors",
-    breadcrumbs: "Add-ons | Matrix | Top Authors",
+    breadcrumbs: "Top Authors | Matrix | Addons",
   };
   let linkroot = "/addons/matrix/";
 

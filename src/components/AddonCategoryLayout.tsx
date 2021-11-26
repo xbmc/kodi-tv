@@ -8,7 +8,7 @@ export default function AddonCategoryLayout({ repo, data }) {
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
   let frontmatter = {
     title: repo + " Add-on Category List",
-    breadcrumbs: "Addons | " + repo + " | Category | " + category.name,
+    breadcrumbs: category.name + " | Category | " + repo + " | Addons",
   };
 
   return (

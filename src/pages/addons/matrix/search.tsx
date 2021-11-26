@@ -7,7 +7,7 @@ import { DefaultLayout } from "../../../components/Layout";
 export default function AddonSearchPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "Matrix Add-on Search",
-    breadcrumbs: "Add-ons | Matrix | Search",
+    breadcrumbs: "Search | Matrix | Addons",
   };
   let linkroot = "/addons/matrix/";
 

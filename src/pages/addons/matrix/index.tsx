@@ -5,7 +5,7 @@ import { DefaultLayout } from "../../../components/Layout";
 import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 
 export default function AddonIndexPage({ data, pageContext, location }) {
-  let frontmatter = { title: "Matrix Add-ons", breadcrumbs: "Add-ons | Matrix" };
+  let frontmatter = { title: "Matrix Add-ons", breadcrumbs: "Matrix | Addons" };
   let linkroot = "/addons/matrix/";
 
   return (
