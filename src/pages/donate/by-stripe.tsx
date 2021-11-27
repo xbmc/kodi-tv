@@ -38,9 +38,6 @@ export default class PageStripe extends React.Component {
     const handleOneTimeClick = async event => {
       // When the customer clicks on the button, redirect them to Checkout.
       let sep = "\u2028";
-      if (this.state.otPrice === "" || !/^\d+$/.test(this.state.otPrice)) {
-        return;
-      }
       let donorname = this.state.donor || "";
       let forumname = this.state.forum || "";
       let current_datetime = new Date();
@@ -49,7 +46,7 @@ export default class PageStripe extends React.Component {
         lineItems: [
           {
             price: config.stripe.oneTime[this.state.otCurrency],
-            quantity: priceInt,
+            quantity: parseInt(this.state.otPrice),
           },
         ],
         mode: "payment",
