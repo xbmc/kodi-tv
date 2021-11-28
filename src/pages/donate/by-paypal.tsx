@@ -183,6 +183,7 @@ export default class PagePayPal extends React.Component {
                                     type="number"
                                     name="amount"
                                     id="amount"
+                                    step="0.01"
                                     onChange={this.handleInputChange}
                                     className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />
@@ -201,6 +202,7 @@ export default class PagePayPal extends React.Component {
                                     type="number"
                                     name="a3"
                                     id="a3"
+                                    step="0.01"
                                     onChange={this.handleInputChange}
                                     className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />

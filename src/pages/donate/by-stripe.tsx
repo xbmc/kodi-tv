@@ -37,6 +37,9 @@ export default class PageStripe extends React.Component {
 
     const handleOneTimeClick = async event => {
       // When the customer clicks on the button, redirect them to Checkout.
+      if (!Number.isInteger(Number(this.state.otPrice))) {
+        return;
+      }
       let sep = "\u2028";
       let donorname = this.state.donor || "";
       let forumname = this.state.forum || "";
@@ -138,7 +141,7 @@ export default class PageStripe extends React.Component {
                         Use this form to make a one-time donation.
                         <br />
                         Your donation must be at least $5 USD (€5, £4, $7 CAD, $7
-                        AUD, ¥500).
+                        AUD, ¥500) and in whole dollar increments.
                       </p>
                     </div>
                     <div>
