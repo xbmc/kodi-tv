@@ -1,4 +1,5 @@
 export interface IAddon {
+  id: any;
   downloads: any;
   authors: { name: string; slug: string }[];
   categories: { name: string; slug: string }[];

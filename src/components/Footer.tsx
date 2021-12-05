@@ -106,7 +106,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://fanart.tv"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -116,7 +116,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://libreelec.tv"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -126,7 +126,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://osmc.tv"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -136,7 +136,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://musicbrainz.org"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -146,7 +146,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.theaudiodb.com"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -156,7 +156,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://thegamesdb.net"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -166,7 +166,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.themoviedb.org"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -176,7 +176,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.thetvdb.com"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -186,7 +186,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.tvmaze.com"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -203,7 +203,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.facebook.com/KodiEntertainment"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -213,7 +213,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="/rss.xml"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -223,7 +223,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://twitter.com/KodiTV"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -233,7 +233,7 @@ function Footer() {
                     <li>
                       <a
                         target="_blank"
-                        rel="noopener"
+                        rel="noreferrer"
                         href="https://www.youtube.com/user/teamxbmc"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
@@ -252,7 +252,7 @@ function Footer() {
               <a
                 className="underline"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
                 href={"https://www.netlify.com"}
               >
                 Netlify

@@ -7,7 +7,7 @@ export default function DisplayAddon({ data }) {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     addon: leiaAddon(slug: { eq: $slug }) {
       addonid
       authors {

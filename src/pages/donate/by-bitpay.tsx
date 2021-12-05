@@ -13,7 +13,7 @@ export default class PageBitPay extends React.Component {
 
   handleInputChange(event) {
     const target = event.target;
-    var value = target.value;
+    let value = target.value;
     const name = target.name;
     this.setState({
       [name]: value,
@@ -28,8 +28,8 @@ export default class PageBitPay extends React.Component {
       <>
         <DefaultLayout frontmatter={frontmatter}>
           <div>
-            <h3 class="text-lg leading-6 font-medium text-gray-900">Note:</h3>
-            <p class="mt-1 text-sm text-gray-500">
+            <h3 className="text-lg leading-6 font-medium text-gray-900">Note:</h3>
+            <p className="mt-1 text-sm text-gray-500">
               Due to new European regulations, BitPay now requires you to have an
               account to use the service. If you have one, you will be prompted to
               login on the next screen. If you do not have one and wish to use
