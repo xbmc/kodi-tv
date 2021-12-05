@@ -107,9 +107,10 @@ let addonnodetype = "";
 let authornodetype = "";
 let categorynodetype = "";
 let data = "";
-let ah;
+
 async function loadHistoryFile() {
   return new Promise(function (resolve, reject) {
+    let ah;
     console.log("loading addons.json from " + pixiememory);
     try {
       ah = JSON.parse(fs.readFileSync(pixiememory + "addons.json", "utf8"));
