@@ -87,7 +87,7 @@ module.exports = {
               return blogPosts.nodes.map(post => {
                 fi = post.frontmatter.featured_image;
                 if (fi != undefined) {
-                  const imgSrc = site.siteMetadata.siteUrl + fi.src;
+                  imgSrc = site.siteMetadata.siteUrl + fi.src;
                   featuredImageHtml = `
                     <figure>
                       <img title="${fi.title}" alt="${fi.alt}" src="${imgSrc}" />
