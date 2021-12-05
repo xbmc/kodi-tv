@@ -10,17 +10,23 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
     <Popover className="relative">
       {({ open }) => (
         <>
-          <Popover.Button
-            className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 pl-3 pr-2 py-2 rounded-md text-sm font-medium focus:outline-none"
-            aria-expanded="false"
-          >
-            <span>{props.menu.title}</span>
-            {open ? (
+          {open ? (
+            <button
+              className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 pl-3 pr-2 py-2 rounded-md text-sm font-medium focus:outline-none"
+              aria-expanded="false"
+            >
+              <span>{props.menu.title}</span>
               <ChevronUpIcon className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
-            ) : (
+            </button>
+          ) : (
+            <Popover.Button
+              className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 pl-3 pr-2 py-2 rounded-md text-sm font-medium focus:outline-none"
+              aria-expanded="false"
+            >
+              <span>{props.menu.title}</span>
               <ChevronDownIcon className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
-            )}
-          </Popover.Button>
+            </Popover.Button>
+          )}
           <Transition
             show={open}
             as={Fragment}

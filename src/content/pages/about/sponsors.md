@@ -1,7 +1,7 @@
 ---
 pageslug: sponsors
 title: Official Sponsors
-breadcrumbs: About | Sponors
+breadcrumbs: Sponors | About
 ---
 
 x-section-x sponsors x-section-x

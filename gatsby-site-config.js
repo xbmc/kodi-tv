@@ -9,6 +9,14 @@ if (process.env.GATSBY_NETLIFY_CMS_BACKEND !== undefined) {
 }
 let stripeConfig = {
   apikey: process.env.GATSBY_STRIPE_APIKEY,
+  minCharge: {
+    USD: 5,
+    EUR: 5,
+    GBP: 4,
+    CAD: 7,
+    AUD: 7,
+    JPY: 500,
+  },
   oneTime: {
     USD: "price_1HVRC7DOVUu6yhjNHWNMz6Zf",
     EUR: "price_1HVRHSDOVUu6yhjNhOGckxxU",
@@ -299,7 +307,7 @@ if (process.env.GATSBY_STRIPE_TYPE == "prod") {
 
 module.exports = {
   siteMetadata: {
-    title: "Kodi | Open Source Home Theater Software",
+    title: "Kodi",
     description:
       "Kodi is a free media player that is designed to look great on your big screen TV but is just as at home on a small screen.",
     siteUrl: url,

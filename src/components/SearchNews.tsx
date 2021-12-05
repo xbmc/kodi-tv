@@ -106,6 +106,11 @@ export default class SearchAddons extends React.Component {
       <>
         <form
           id="news-search"
+          onKeyPress={e => {
+            if (e.key === "Enter") {
+              this.doSearch();
+            }
+          }}
           onSubmit={e => {
             e.preventDefault();
             e.stopPropagation();

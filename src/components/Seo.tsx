@@ -9,7 +9,7 @@ function SEO({ lang, meta, keywords, frontmatter }) {
   let description = config.siteMetadata.description;
   let image = config.siteMetadata.siteUrl + "/images/kodi_og_default.webp";
   if (frontmatter.breadcrumbs != undefined) {
-    breadcrumbs = breadcrumbs + " | " + frontmatter.breadcrumbs;
+    breadcrumbs = frontmatter.breadcrumbs + " | " + breadcrumbs;
     shortcrumbs = frontmatter.breadcrumbs;
   }
   if (frontmatter.description != undefined) {

@@ -14,7 +14,7 @@ export default function AddonAuthorLayout({
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
   let frontmatter = {
     title: repo + " Author Details",
-    breadcrumbs: "Addons | " + repo + " | Author | " + author.name,
+    breadcrumbs: author.name + " | Author | " + repo + " | Addons",
   };
 
   return (

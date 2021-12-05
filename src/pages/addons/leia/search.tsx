@@ -7,7 +7,7 @@ import { DefaultLayout } from "../../../components/Layout";
 export default function AddonSearchPage({ data, pageContext, location }) {
   let frontmatter = {
     title: "Leia Add-on Search",
-    breadcrumbs: "Add-ons | Leia | Search",
+    breadcrumbs: "Search | Leia | Addons",
   };
   let linkroot = "/addons/leia/";
 

@@ -1,36 +1,34 @@
 ---
 pageslug: terms-of-service
 title: Kodi General Terms of Service
-breadcrumbs: About | Terms of Service
+breadcrumbs: Terms of Service | About
 ---
 
 ## Scope of Validity, Definition of Terms
 
-These General Terms and Conditions apply to the use of the [Kodi.tv](https://kodi.tv/) website and all affiliated websites provided and maintained by the Kodi Foundation (hereafter called the "Foundation") and supported by the volunteers behind Kodi (hereafter called "Team Kodi"). This includes subsidiary sections such as the [Kodi Forum](https://forum.kodi.tv/) (hereafter called the "Forum") and the [Kodi Wiki](https://kodi.wiki/view/Main_Page) (hereafter called the "Wiki"). 
+These General Terms and Conditions apply to the use of the [Kodi.tv](https://kodi.tv/) website and all affiliated websites provided and maintained by the Kodi Foundation (hereafter called the "Foundation") and supported by the volunteers behind Kodi (hereafter called "Team Kodi"). This includes subsidiary sections such as the [Kodi Forum](https://forum.kodi.tv/) (hereafter called the "Forum") and the [Kodi Wiki](https://kodi.wiki/view/Main_Page) (hereafter called the "Wiki").
 
 By registering on any of the Foundation websites, the user (hereafter called "User") enters into an agreement with the Foundation and declares that he/she/they accepts the terms set out below. The agreement is applicable for an indefinite period of time.
 
 Using Kodi, the Foundation websites or any other service provided by the Foundation is only possible in conjunction with these Terms and Conditions. Users accordingly accept that these Terms and Conditions form the basis for the use of those services.
 
 In relation to the Forum, these Terms of Service apply as part of the wider [forum rules](https://kodi.wiki/view/Official:Forum_rules).
- 
 
 ## Facilities Provided
 
-The main Foundation website hosts the main download source of Kodi. 
+The main Foundation website hosts the main download source of Kodi.
 
-It also provides access to the latest news and blog posts from the Foundation, plus access to the Forum and the Wiki. 
+It also provides access to the latest news and blog posts from the Foundation, plus access to the Forum and the Wiki.
 
-The Forum is provided for use by the community of Kodi users (hereafter called the "Community")and is intended for discussion of Kodi and as the primary source of help and support. 
+The Forum is provided for use by the community of Kodi users (hereafter called the "Community")and is intended for discussion of Kodi and as the primary source of help and support.
 
 The Wiki is the main source of information for Kodi, and is maintained both by Team Kodi and also by the Community.
-
 
 ## Registration and General Obligations
 
 No registration is required to use the main Kodi website, or to download Kodi.
 
-Both the Forum and the Wiki can be browsed without requiring the registration of an account. 
+Both the Forum and the Wiki can be browsed without requiring the registration of an account.
 
 Any User wishing to post or otherwise contribute to either must register an account. Such registration is free of charge, and the two services are to be treated as separate entities with their own individual account registration requirements.
 
@@ -56,42 +54,37 @@ When registering, Users have to choose a password with which to log on to the Fo
 
 It is not permitted to sell or transfer the members account to any third parties. The same applies to other persons using a member’s account.
 
-
 ## Costs
 
 Registration of accounts on the Foundation websites are free of charge, as is downloading Kodi itself from the Foundation website.
-
 
 ## Suspension of User Accounts, Termination of Membership
 
 The Foundation exercises domiciliary rights over the Kodi websites. In the event of any breach of these Terms and Conditions, laws and/or any other regulations, the Foundation is entitled to exclude Users temporarily or permanently from using the Kodi website and the services provided without prior notice and to issue a house ban.
 
-To this end, Users will allow the Foundation to block their user accounts and any information or posts that may have been made.  
-
+To this end, Users will allow the Foundation to block their user accounts and any information or posts that may have been made.
 
 ## Rights of Use
 
 By posting contents on the Forum or the Wiki, Users grant the Foundation a simple, temporally and spatially unlimited and royalty-free right to use the contributions within the context of Kodi. This right of use includes in particular the right to make contents publicly accessible worldwide via the Kodi website or, under certain circumstances, other media, to duplicate and distribute them or to transfer them to third parties (such as Facebook, press images, blogs).
 
 Granting these rights does not enable the Foundation to appropriate the Users contents in the context of any liability standards but serves merely to simplify the administrative work and the implementation of the contents when operating the Foundation website or promoting Kodi.
- 
 
 ## Data Protection
 
-The Foundation processes the personal particulars of its Users for specific purposes in accordance with the statutory provisions. 
+The Foundation processes the personal particulars of its Users for specific purposes in accordance with the statutory provisions.
 
-The personal data (name, email address, account data etc.) required for registration for membership are used by the Foundation to conclude the registration on the website. These data are treated as confidential and will not be forwarded to any third parties. 
+The personal data (name, email address, account data etc.) required for registration for membership are used by the Foundation to conclude the registration on the website. These data are treated as confidential and will not be forwarded to any third parties.
 
-Users have the right to ask for details of the personal particulars the Foundation has saved in their case. This information will be provided free of charge. Users are also entitled to have any incorrect particulars rectified should the need arise. 
+Users have the right to ask for details of the personal particulars the Foundation has saved in their case. This information will be provided free of charge. Users are also entitled to have any incorrect particulars rectified should the need arise.
 
 The User may close his or her account at any time, with the option of removing personal data under GDPR rules. This includes the replacement of the User name on any Forum posts made with an anonymous alternative, but it does not include the removal of the post information itself, nor any quotes of that information made by other Forum users.
 
 Please refer to the Foundation [Privacy Policy](privacy-policy), which forms part of these General Terms and Conditions, for further details regarding the handling of data and means of contact.
- 
 
 ## Amendments to the General Terms of Service
 
-The Foundation is entitled to change these General Terms of Service and the data security guidelines. Amendments will only be made when there are sufficient, valid grounds and provided they do not distort the contractual balance between the Users and the Foundation. Such reasons might include legal or technical changes, experience with user behaviour or unintentional gaps in the provisions. 
+The Foundation is entitled to change these General Terms of Service and the data security guidelines. Amendments will only be made when there are sufficient, valid grounds and provided they do not distort the contractual balance between the Users and the Foundation. Such reasons might include legal or technical changes, experience with user behaviour or unintentional gaps in the provisions.
 
 Users are entitled to challenge the changes. In the event of any opposition, the Foundation reserves the right to terminate its contractual relationship with the user concerned with immediate effect.
 

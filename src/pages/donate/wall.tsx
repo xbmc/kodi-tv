@@ -5,7 +5,7 @@ import { FeaturedCard } from "../../components/Card";
 import { UserCircleIcon } from "@heroicons/react/outline";
 
 export default function Page({ data, pageContext, location }) {
-  let frontmatter = { title: "Recent Donors", breadcrumbs: "Donors | Wall" };
+  let frontmatter = { title: "Recent Donors", breadcrumbs: "Wall | Donate" };
   return (
     <>
       <DefaultLayout frontmatter={frontmatter}>

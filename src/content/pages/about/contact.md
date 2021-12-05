@@ -1,7 +1,7 @@
 ---
 pageslug: contact
 title: Contact the Kodi Team
-breadcrumbs: About | Contact
+breadcrumbs: Contact | About
 ---
 
 ## Kodi Support

@@ -1,7 +1,7 @@
 ---
 pageslug: software
 title: Kodi Software
-breadcrumbs: About | Software
+breadcrumbs: Software | About
 ---
 
 The following is a list of all the software Kodi Foundation offers. If you have downloaded software not on this list or from a site not specified on this list, then that software has not been offered by Team Kodi or the Kodi Foundation, and we can provide no official support for the use of that software.

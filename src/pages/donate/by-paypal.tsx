@@ -1,21 +1,24 @@
 import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 
+const config = require("../../../gatsby-site-config");
+
 export default class PagePayPal extends React.Component {
   constructor() {
     super();
     this.state = {
       dtype: "One-time",
-      amount: null,
-      a3: null,
+      amount: "",
+      a3: "",
       buttondisabled: true,
+      currency_code: "USD",
     };
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
   handleInputChange(event) {
     const target = event.target;
-    var value = target.value;
+    let value = target.value;
     const name = target.name;
     this.setState({
       [name]: value,
@@ -25,12 +28,18 @@ export default class PagePayPal extends React.Component {
   render() {
     let frontmatter = {
       title: "Pay via PayPal",
-      breadcrumbs: "Donate | PayPal",
+      breadcrumbs: "PayPal | Donate",
     };
 
     this.state.buttondisabled =
-      (this.state.dtype === "One-time") & (this.state.amount == null) ||
-      (this.state.dtype !== "One-time") & (this.state.a3 == null);
+      (this.state.dtype === "One-time" &&
+        (parseInt(this.state.amount) <
+          config.stripe.minCharge[this.state.currency_code] ||
+          this.state.amount == "")) ||
+      (this.state.dtype !== "One-time" &&
+        (parseInt(this.state.a3) <
+          config.stripe.minCharge[this.state.currency_code] ||
+          this.state.a3 == ""));
 
     return (
       <>
@@ -131,6 +140,9 @@ export default class PagePayPal extends React.Component {
                       <p className="mt-1 text-sm text-gray-500">
                         Use this form to make either a one-time or recurring
                         donation.
+                        <br />
+                        Your donation must be at least $5 USD (€5, £4, $7 CAD, $7
+                        AUD, ¥500).
                       </p>
                     </div>
                     <div>
@@ -171,6 +183,7 @@ export default class PagePayPal extends React.Component {
                                     type="number"
                                     name="amount"
                                     id="amount"
+                                    step="0.01"
                                     onChange={this.handleInputChange}
                                     className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />
@@ -189,6 +202,7 @@ export default class PagePayPal extends React.Component {
                                     type="number"
                                     name="a3"
                                     id="a3"
+                                    step="0.01"
                                     onChange={this.handleInputChange}
                                     className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />
@@ -208,6 +222,7 @@ export default class PagePayPal extends React.Component {
                               <select
                                 id="currency_code"
                                 name="currency_code"
+                                onChange={this.handleInputChange}
                                 className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               >
                                 <option value="USD">$ USD</option>

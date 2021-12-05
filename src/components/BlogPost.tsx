@@ -14,7 +14,7 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
   let tagroot = "/blog/tag/";
   let frontmatter = {
     title: blogPost.frontmatter.title,
-    breadcrumbs: "News | " + blogPost.frontmatter.title,
+    breadcrumbs: blogPost.frontmatter.title + " | News",
     description: blogPost.excerpt,
   };
   let showimage = true;

@@ -1,7 +1,7 @@
 ---
 pageslug: developers
 title: Call for Developers
-breadcrumbs: Contribute | Developers
+breadcrumbs: Developers | Contribute
 ---
 
 ## We want you!

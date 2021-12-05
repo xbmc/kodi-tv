@@ -1,7 +1,7 @@
 ---
 pageslug: by-wire-transfer
 title: Donate by Wire Transfer
-breadcrumbs: Donate | Wire Transfer
+breadcrumbs: Wire Transfer | Donate
 ---
 
 Wire transfer or credit transfer is a method of electronic funds transfer from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.

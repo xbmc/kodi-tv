@@ -10,7 +10,7 @@ function Distribution(props) {
   }
   let frontmatter = {
     title: "Downloads for " + dist.name,
-    breadcrumbs: "Downloads | " + dist.name,
+    breadcrumbs: dist.name + " | Downloads",
   };
 
   return (

@@ -22,7 +22,7 @@ export default class PageStripe extends React.Component {
 
   handleInputChange(event) {
     const target = event.target;
-    var value = target.value;
+    let value = target.value;
     const name = target.name;
     this.setState({
       [name]: value,
@@ -32,15 +32,15 @@ export default class PageStripe extends React.Component {
   render() {
     let frontmatter = {
       title: "Pay via Credit Card",
-      breadcrumbs: "Donate | Stripe",
+      breadcrumbs: "Stripe | Donate",
     };
 
     const handleOneTimeClick = async event => {
       // When the customer clicks on the button, redirect them to Checkout.
-      let sep = "\u2028";
-      if (this.state.otPrice === "" || !/^\d+$/.test(this.state.otPrice)) {
+      if (!Number.isInteger(Number(this.state.otPrice))) {
         return;
       }
+      let sep = "\u2028";
       let donorname = this.state.donor || "";
       let forumname = this.state.forum || "";
       let current_datetime = new Date();
@@ -139,6 +139,9 @@ export default class PageStripe extends React.Component {
                       </h3>
                       <p className="mt-1 text-sm text-gray-500">
                         Use this form to make a one-time donation.
+                        <br />
+                        Your donation must be at least $5 USD (€5, £4, $7 CAD, $7
+                        AUD, ¥500) and in whole dollar increments.
                       </p>
                     </div>
                     <div>
@@ -191,7 +194,8 @@ export default class PageStripe extends React.Component {
 
                     <div className="pt-5">
                       <div className="flex justify-end">
-                        {this.state.otPrice !== "" ? (
+                        {parseInt(this.state.otPrice) >=
+                        config.stripe.minCharge[this.state.otCurrency] ? (
                           <>
                             <button
                               type="submit"

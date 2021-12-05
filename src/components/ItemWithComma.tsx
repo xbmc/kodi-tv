@@ -26,7 +26,7 @@ export default function ItemWithComma(props: {
     } else
       return (
         <React.Fragment>
-          <a target="_blank" rel="noopener" href={props.url}>
+          <a target="_blank" rel="noreferrer" href={props.url}>
             {props.description}
           </a>
           {props.index !== props.length ? ", " : ""}

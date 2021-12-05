@@ -7,7 +7,7 @@ import { DefaultLayout } from "../../../components/Layout";
 export default function Page({ data, pageContext, location }) {
   let frontmatter = {
     title: "Top Leia Add-On Authors",
-    breadcrumbs: "Add-ons | Leia | Top Authors",
+    breadcrumbs: "Top Authors | Leia | Addons",
   };
   let linkroot = "/addons/leia/";
 

@@ -109,6 +109,7 @@ let categorynodetype = "";
 let data = "";
 
 async function loadHistoryFile() {
+  let ah;
   return new Promise(function (resolve, reject) {
     console.log("loading addons.json from " + pixiememory);
     try {

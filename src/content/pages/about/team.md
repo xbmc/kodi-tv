@@ -1,7 +1,7 @@
 ---
 pageslug: team
 title: The Kodi Team
-breadcrumbs: About | Team
+breadcrumbs: Team | About
 ---
 
 ## Who we are?

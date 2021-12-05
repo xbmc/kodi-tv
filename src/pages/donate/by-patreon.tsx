@@ -3,7 +3,7 @@ import { DefaultLayout } from "../../components/Layout";
 import Button from "../../components/Button";
 
 export default function Page({ data, pageContext, location }) {
-  let frontmatter = { title: "Donate via Patreon", breadcrumbs: "Donate | Patreon" };
+  let frontmatter = { title: "Donate via Patreon", breadcrumbs: "Patreon | Donate" };
   return (
     <>
       <DefaultLayout frontmatter={frontmatter}>

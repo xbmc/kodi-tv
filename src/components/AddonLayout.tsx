@@ -1,6 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {
+  DownloadIcon,
   InformationCircleIcon,
   TruckIcon,
   TagIcon,
@@ -26,7 +27,7 @@ export default function AddonLayout({
   const addon = data.addon;
   let frontmatter = {
     title: repo + " Add-on Details",
-    breadcrumbs: "Addons | " + repo + " | " + addon.name,
+    breadcrumbs: addon.name + " | " + repo + " | Addons",
     description: addon.snippet,
   };
   let slides: string[] = [];
@@ -195,13 +196,12 @@ export default function AddonLayout({
                     </dt>
                     <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
                       {item.data.map((platform, index) => (
-                        <ItemWithComma
-                          description={platform.platform}
-                          url={platform.path}
-                          index={index}
-                          length={addon.platforms.length - 1}
-                          linkType="external"
-                        />
+                        <div className="flex space-x-2 mb-1">
+                          <a href={platform.path}>
+                            <DownloadIcon className="h-5 w-5 text-kodi" />
+                          </a>
+                          <a href={platform.path}>{platform.platform}</a>
+                        </div>
                       ))}
                     </dd>
                   </div>
