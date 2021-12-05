@@ -7,7 +7,7 @@ export default function DisplayAddonCategory({ data }) {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     category: leiaCategory(slug: { eq: $slug }) {
       name
       totaladdons

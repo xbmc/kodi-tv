@@ -24,7 +24,7 @@ function SponsorLevelList(props: { title: string; sponsors: Sponsor[] }) {
                                 <a
                                   href={sponsor.slug}
                                   target="_blank"
-                                  rel="noopener"
+                                  rel="noreferrer"
                                 >
                                   <img
                                     alt={sponsor.image.alt}
@@ -63,7 +63,7 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
         <li key={sponsor.name}>
           <a
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             href={sponsor.slug}
             className="text-base text-gray-600 hover:text-gray-900"
           >

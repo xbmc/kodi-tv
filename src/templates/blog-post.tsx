@@ -9,7 +9,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     blogPost: markdownRemark(fields: { slug: { eq: $slug } }) {
       rawMarkdownBody
       excerpt(pruneLength: 195)

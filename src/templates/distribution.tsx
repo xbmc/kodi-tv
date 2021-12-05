@@ -7,7 +7,7 @@ export default function DistributionPage({ data }) {
 }
 
 export const query = graphql`
-  query($name: String!) {
+  query ($name: String!) {
     distributionYaml(name: { eq: $name }) {
       name
       icon

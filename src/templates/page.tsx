@@ -7,7 +7,7 @@ export default function PageTemplate({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     onePage: markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
