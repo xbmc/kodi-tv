@@ -36,7 +36,7 @@ export default function TagPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query($tag: [String]!, $skip: Int!, $limit: Int!) {
+  query ($tag: [String]!, $skip: Int!, $limit: Int!) {
     blogPosts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { tags: { in: $tag } } }

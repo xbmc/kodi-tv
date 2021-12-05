@@ -107,7 +107,7 @@ let addonnodetype = "";
 let authornodetype = "";
 let categorynodetype = "";
 let data = "";
-
+let ah;
 async function loadHistoryFile() {
   return new Promise(function (resolve, reject) {
     console.log("loading addons.json from " + pixiememory);
@@ -143,7 +143,7 @@ function getAddon(rawaddon) {
         .map(item => item.trim())
         .forEach(assignAuthor);
     }
-    addonhistory = history.find(o => o.id === addon.id);
+    let addonhistory = history.find(o => o.id === addon.id);
     if (addonhistory == undefined) {
       addonhistory = {};
       addonhistory.id = addon.id;

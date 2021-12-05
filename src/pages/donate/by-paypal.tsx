@@ -15,7 +15,7 @@ export default class PagePayPal extends React.Component {
 
   handleInputChange(event) {
     const target = event.target;
-    var value = target.value;
+    let value = target.value;
     const name = target.name;
     this.setState({
       [name]: value,
