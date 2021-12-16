@@ -121,7 +121,7 @@ function Page() {
               imgsrc: "/images/about--movies.webp",
               title: "Movies",
               description: `So much better than a pile of DVDs on a shelf. Kodi brings your
-                    movie collection to life with artwork, cast genres and more.`,
+                    movie collection to life with artwork, cast, genres and more.`,
             },
             {
               imgsrc: "/images/about--tvshows.webp",
