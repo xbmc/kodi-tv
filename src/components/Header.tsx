@@ -136,18 +136,17 @@ const mainMenu: MenuEntry[] = [
         description: "Our user documentation and how-to guides.",
       },
       {
+        title: "Kodi Developer Resources",
+        url: { url: "https://docs.kodi.tv", type: "external" },
+        icon: CodeIcon,
+        description: "Documentation, including information for Kodi itself.",
+      },
+      {
         title: "Add-on Developer Resources",
         url: { url: "https://dev-kit.kodi.tv", type: "external" },
         icon: CodeIcon,
         description:
           "Documentation, including information for skin development and interfaces for Python and C++ .",
-      },
-      {
-        title: "Kodi Developer Resources",
-        url: { url: "https://docs.kodi.tv", type: "external" },
-        icon: CodeIcon,
-        description:
-          "Documentation, including information for Kodi itself.",
       },
       {
         title: "Forum",
