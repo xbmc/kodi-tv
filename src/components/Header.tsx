@@ -163,7 +163,7 @@ const mainMenu: MenuEntry[] = [
       },
       {
         title: "Matrix",
-        url: { url: "https://matrix.to/#/#kodi:matrix.org", type: "external" },
+        url: { url: "https://matrix.to/#/#kodi-space:matrix.org", type: "external" },
         icon: ChatAltIcon,
         description: "Get help from team members hanging out in Matrix.",
       },
