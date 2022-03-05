@@ -9,7 +9,7 @@ featured_image:
   title: Kodi 19.4 "Matrix" Splash Screen
   alt: Kodi 19.4 "Matrix" Splash Screen
 ---
-Is it too late to say "Happy New Year"? Maybe, maybe not, but this is still the first release of 2022, so let's go with that anyway.
+Is it too late to say "Happy New Year"? Probably, but this is still the first release of 2022, so let's go with that anyway.
 
 It's point release o'clock once more, so, without further fanfare, I give you Kodi "Matrix" 19.4: more bug fixes, some backports, no real new features. Full changelog since 19.3 on [Github](https://github.com/xbmc/xbmc/compare/19.3-Matrix...19.4-Matrix), as usual.
 
