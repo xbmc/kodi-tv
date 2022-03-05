@@ -77,9 +77,9 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-Please note that we are currently unable to provide this update via the Play Store. An updated Google requirement demands that apps now target API level 30 (Android 11) as a minimum, while Kodi targets API level 29 (Android 10). 
+Please note that we are currently unable to provide this update via the Google Play Store. An updated Google requirement demands that apps now target API level 30 (Android 11) as a minimum, while Kodi targets API level 29 (Android 10). 
 
-As such, we're unable to upload 19.4 to the Google Play Store, although 19.3 will remain available. However, for those who want the new release, 19.4 can be downloaded from our servers and installed manually:
+As such, we're unable to upload 19.4 to the Play Store, although 19.3 will remain available. However, for those who want the new release, 19.4 can be downloaded from our servers and installed manually:
 
 - 32-bit download: <http://mirrors.kodi.tv/releases/android/arm/kodi-19.4-Matrix-armeabi-v7a.apk>
 
