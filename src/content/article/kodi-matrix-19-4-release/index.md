@@ -25,7 +25,7 @@ It's point release o'clock once more, so, without further fanfare, I give you Ko
 
 **Music**
 
-* New: Artist discography export to NFO.
+* Fix: Artist discography export to NFO.
 
 **PVR**
 
