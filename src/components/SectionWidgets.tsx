@@ -170,7 +170,7 @@ function ContributeGallery() {
       >
         Get involved with Kodi Foundation by making Kodi, add-ons and other projects
         available in your language. [Our translation system wiki page has more
-        detailed information](https://kodi.wiki/index.php?title=Translation_System).
+        detailed information](https://kodi.wiki/index.php?title=Translations).
       </FeaturedCard>
 
       <FeaturedCard
