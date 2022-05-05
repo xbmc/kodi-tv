@@ -1,20 +1,19 @@
 ---
-title: "And.....we&#039;re baaaaack!"
-date: 2017-04-01T01:15:51Z
+title: And.....we're baaaaack!
+date: 2017-04-01T01:15:51.000Z
+author: Prof Yaffle
 tags:
   - April Fools
-author: Prof Yaffle
 featured_image:
   src: /images/blog/alissa-eady-92378 - compressed.webp
-  title: "alissa-eady-92378 - compressed"
-  alt: "alissa-eady-92378 - compressed"
+  title: alissa-eady-92378 - compressed
+  alt: alissa-eady-92378 - compressed
 ---
-
 Happy April, everyone. Did you miss us? :)
 
 Apologies if we scared you, but you'll have noticed that [we've redecorated while you were looking the other way](/article/we-have-new-website). Some might even suggest that taking the website and forum down for a couple of days was all part of the plan...
 
-However, despite the "seized-and-offline" gag, there's a serious message here. It is genuinely true that we're facing a constant tidal wave of piracy boxes, trademark infringements and erroneous (or outright misleading) news reports. Hardly a day goes past without the Kodi brand getting dragged into the mud somewhere, and it is a continuous and thankless task to push back on that across this forum, Facebook, Twitter, and the press.
+However, despite the "seized-and-offline" gag, there's a serious message here. It is genuinely true that we're facing a constant tidal wave of piracy boxes, trademark infringements, and erroneous (or outright misleading) news reports. Hardly a day goes past without the Kodi brand getting dragged into the mud somewhere, and it is a continuous and thankless task to push back on that across this forum, Facebook, Twitter, and the press.
 
 #### What We've Learned
 
