@@ -9,9 +9,7 @@ featured_image:
   title: Image of La Sagrada Familia, Barcelona; Photo by Sung Jin Cho on Unsplash
   alt: Image of La Sagrada Familia, Barcelona; Photo by Sung Jin Cho on Unsplash
 ---
-*Hello - okay - new teeth, that’s weird. So, where was I? Oh, that’s right, Barcelona!*
-
-![Image of La Sagrada Familia, Barcelona; Photo by Sung Jin Cho on Unsplash](https://user-images.githubusercontent.com/6093716/163229789-d665c78f-6400-4ad0-84e7-41e2549d49ae.jpg)
+*Hello - okay - new teeth, that’s weird. So, where was I? Oh, that’s right... Barcelona!*
 
 Well, we did it. After a couple of years of pandemic-induced isolation, we managed to get most of the team together in early April for the first time in forever. We successfully brought people in from as far afield as western Canada and Australia, from Europe and from India, for a few days of brainstorming, hacking, direction-setting, updates and, yes, beer. Without straying into politics, we had notable absences, of course, from our Russian and Ukrainian team members. Stay safe, guys: you were genuinely missed.
 
@@ -39,6 +37,6 @@ There were also things we can't really talk about - top secret plans, and bar bi
 
 In the meantime, please delight in a picture of your favourite open-source devs, relaxing in the sunshine after a hard day huddled around laptops and projector screens. 
 
-![Kodi team photograph, Barcelona, 2022 ](/images/blog/img_8359_r.jpeg "Kodi team photograph, Barcelona, 2022 ")
+![Kodi team photograph, Barcelona, 2022 ](/images/blog/img_8359_r.jpeg "Kodi team photograph, Barcelona, 2022")
 
 Onwards!
