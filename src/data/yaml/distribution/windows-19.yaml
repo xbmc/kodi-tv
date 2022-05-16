@@ -17,31 +17,27 @@ releases:
       - name: Windows Store
         url: https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge
   - name: Prerelease
-    title: Kodi v19.x (Matrix) Nightly Builds
+    title: Kodi v20 (Nexus) Pre-release Builds
     description: >-
-      Kodi v19 is the current stable release and is still receiving maintenance
-      and bug fix updates. These updates are merged and built nightly for the
-      v19 line.
+      Kodi v20 (Nexus) is the next iteration of Kodi. It has a number of new
+      features and lots of fixes.
 
 
-      There are no new features. All new features are merged into the v20 line.
-
-
-      These nightlies are safe to use as they are bug fixes only.
+      The pre-release builds have become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
     downloads:
       - name: Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win64/Matrix/
       - name: Installer (32BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win32/Matrix/
   - name: Development Builds
-    title: Kodi v20 (Nexus) Nightly
+    title: Kodi v19 & v20 Nightly
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
       only be used by testers and advanced users to help us find possible bugs.
 
 
-      **THESE BUILDS MAY BE UNSTABLE** so be sure to always backup before using a development build.
+      These builds may occassionally be unstable, so be sure to always backup before using a development/nightly build.
 
 
       If you want a stable setup, then please install a stable build from the **Recommended** tab instead.
@@ -49,7 +45,11 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: Installer (64BIT)
+      - name: v19 Nightly Installer (64BIT)
         url: http://mirrors.kodi.tv/nightlies/windows/win64/master/
-      - name: Installer (32BIT)
+      - name: v19 Nightly Installer (32BIT)
+        url: http://mirrors.kodi.tv/nightlies/windows/win32/master/
+      - name: v20 Nightly Installer (64BIT)
+        url: http://mirrors.kodi.tv/nightlies/windows/win32/master/
+      - name: v20 Nightly Installer (32BIT)
         url: http://mirrors.kodi.tv/nightlies/windows/win32/master/
