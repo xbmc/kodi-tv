@@ -30,7 +30,7 @@ As usual, topics were many and varied over the days, including:
 * **Jenkins deep dive** - an overview plus challenges and opportunities around the open source automation server we use to test/build
 * **Board stuff** - internal governance and oversight of all things Kodi
 * **Android maintenance and Play Store** - our ongoing issues with a lack of Android devs, and implications (e.g. our current inability to update in the Play Store because of API versions)
-* **Flatpak** - conversations around containerisation and distribution, and work done so far to explore this
+* **Flatpak** - how we maintain an support our Flatpak, general Flathub changes and how to improve the user experience in the future
 * **GSoC 2021+2022** - Google Summer of Code - updates on students' work, plans, mentoring, and so on
 
 There were also things we can't really talk about - top secret plans, and bar bills, for example - but this gives a flavour of what we discussed. There's enough here to keep us all busy for many years yet, and that's before new stuff inevitably gets added.
