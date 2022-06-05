@@ -44,6 +44,7 @@ export const pageQuery = graphql`
     Donors: allDonor(
       filter: { provider: { ne: "none" } }
       sort: { fields: createdAt, order: DESC }
+      limit: 30
     ) {
       nodes {
         amount
