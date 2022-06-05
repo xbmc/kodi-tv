@@ -57,7 +57,7 @@ export default function AddonLayout({
   let classNameRoot = "px-6 gap-1 md:gap-4 py-5 grid grid-cols-1 md:grid-cols-3";
   let className = "";
   let datatype = "";
-  let dlcount = addon.downloads;
+  let dlcount = Number(addon.downloads);
   for (let i = 0; i < fields.length; i++) {
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {
@@ -74,7 +74,8 @@ export default function AddonLayout({
         datatype = "markdown";
       } else if (fields[i] === "Downloads") {
         addon.downloads =
-          dlcount + " (this is the download count for the most current version)";
+          dlcount.toLocaleString() +
+          " (this is the download count for the most current version)";
       }
       details.push({
         title: fields[i],
