@@ -62,17 +62,23 @@ const mainMenu: MenuEntry[] = [
         description: "Find out how add-ons expand and enhance the Kodi experience.",
       },
       {
+        title: "Nexus Add-ons",
+        url: { url: "/addons/nexus", type: "internal" },
+        icon: CloudDownloadIcon,
+        description: "Add-ons for Kodi 20, the latest and greatest version of Kodi.",
+      },
+      {
         title: "Matrix Add-ons",
         url: { url: "/addons/matrix", type: "internal" },
         icon: CloudDownloadIcon,
-        description: "Add-ons for Kodi 19, the latest and greatest version of Kodi.",
+        description:
+          "Add-ons for Kodi 19, the most recent previous version of Kodi.",
       },
       {
         title: "Leia Add-ons",
         url: { url: "/addons/leia", type: "internal" },
         icon: CloudDownloadIcon,
-        description:
-          "Add-ons for Kodi 18, the most recent previous version of Kodi.",
+        description: "Add-ons for Kodi 18, the older version of Kodi.",
       },
     ],
   },

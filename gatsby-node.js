@@ -143,6 +143,85 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
+  // *** Begin Nexus Addon Page Builds
+  const nexusaddonresults = await graphql(`
+    query MyQuery {
+      allNexusAddon {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+
+  if (nexusaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Nexus Add-on GraphQL query.`);
+    return;
+  }
+
+  nexusaddonresults.data.allNexusAddon.nodes.forEach(addon => {
+    createPage({
+      path: "addons/nexus/" + addon.slug,
+      component: path.resolve(`src/templates/nexus/addon.tsx`),
+      context: {
+        slug: addon.slug,
+      },
+    });
+  });
+
+  const nexuscategoryresults = await graphql(`
+    query MyQuery {
+      allNexusCategory {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+
+  if (nexuscategoryresults.errors) {
+    reporter.panicOnBuild(
+      `Error while running Nexus Add-on Category GraphQL query.`
+    );
+    return;
+  }
+
+  nexuscategoryresults.data.allNexusCategory.nodes.forEach(category => {
+    createPage({
+      path: "addons/nexus/category/" + category.slug,
+      component: path.resolve(`src/templates/nexus/category.tsx`),
+      context: {
+        slug: category.slug,
+      },
+    });
+  });
+
+  const nexusauthorresults = await graphql(`
+    query MyQuery {
+      allNexusAuthor {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+
+  if (nexusauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Nexus Add-on Author GraphQL query.`);
+    return;
+  }
+
+  nexusauthorresults.data.allNexusAuthor.nodes.forEach(author => {
+    createPage({
+      path: "addons/nexus/author/" + author.slug,
+      component: path.resolve(`src/templates/nexus/author.tsx`),
+      context: {
+        slug: author.slug,
+      },
+    });
+  });
+  // *** End Nexus Addon Page Builds
+
   // *** Begin Matrix Addon Page Builds
   const matrixaddonresults = await graphql(`
     query MyQuery {

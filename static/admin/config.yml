@@ -190,6 +190,17 @@ collections:
   - name: "featuredaddons"
     label: "Featured Add-ons"
     files:
+      - name: "nexusfeaturedlist"
+        label: "Nexus Featured Add-ons List"
+        file: "src/data/addons/nexus/featured.yaml"
+        fields:
+          - name: "addons"
+            label: "Add-ons"
+            label_singular: "Add-on"
+            widget: "list"
+            summary: "{{addonid}}"
+            fields:
+              - { name: "addonid", label: "Add-on ID", widget: "string" }
       - name: "matrixfeaturedlist"
         label: "Matrix Featured Add-ons List"
         file: "src/data/addons/matrix/featured.yaml"
