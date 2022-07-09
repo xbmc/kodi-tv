@@ -25,11 +25,11 @@ releases:
       features and lots of fixes.
 
 
-      The pre-release builds have become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
+      The **Alpha2** pre-release build has become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
     downloads:
-      - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-20.0-Nexus_alpha1-armeabi-v7a.apk?https=1
+      - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-20.0-Nexus_alpha2-armeabi-v7a.apk?https=1
         name: ARMV7A (32BIT)
-      - url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-20.0-Nexus_alpha1-arm64-v8a.apk?https=1
+      - url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-20.0-Nexus_alpha2-arm64-v8a.apk?https=1
         name: ARMV8A (64BIT)
   - name: Development Builds
     title: Kodi v19 & v20 Nightly
