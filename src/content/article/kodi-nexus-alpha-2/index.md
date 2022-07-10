@@ -57,13 +57,13 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
 
 **Skinning**
 
-* a couple of skinning changes have been introduced. [gui: info: Add VideoPlayer.Art(type) and positional variants ](https://github.com/xbmc/xbmc/pull/21401) and \[[gui]\[info] Add Addon.Setting* infos](https://github.com/xbmc/xbmc/pull/21405)
-* Skin timers - \[[skinning] Skin timer implementation](https://github.com/xbmc/xbmc/pull/21320)
-* Removal of player.DisplayAfterSeek - \[[gui]\[info] Remove Player.DisplayAfterSeek](https://github.com/xbmc/xbmc/pull/21425)
+* a couple of skinning changes have been introduced. [gui: info: Add VideoPlayer.Art(type) and positional variants ](https://github.com/xbmc/xbmc/pull/21401) and [gui: info: Add Addon.Setting* infos](https://github.com/xbmc/xbmc/pull/21405)
+* Skin timers - [skinning: Skin timer implementation](https://github.com/xbmc/xbmc/pull/21320)
+* Removal of player.DisplayAfterSeek - [gui: info: Remove Player.DisplayAfterSeek](https://github.com/xbmc/xbmc/pull/21425)
 * Skip border infill - [Adds GUI hint for skins to skip border infill](https://github.com/xbmc/xbmc/pull/20754)
-* Moving speed - \[[gui] Implemented movingspeed to mover/resize controls](https://github.com/xbmc/xbmc/pull/21364)
+* Moving speed - [gui: Implemented movingspeed to mover/resize controls](https://github.com/xbmc/xbmc/pull/21364)
 * diffuse fading animations - [Added diffuse fading animation effect ](https://github.com/xbmc/xbmc/pull/21400)
-* VideoPlayer.Art(type) and positional variants - \[[gui]\[info] Add VideoPlayer.Art(type) and positional variants](https://github.com/xbmc/xbmc/pull/21401)
+* VideoPlayer.Art(type) and positional variants - [gui: info: Add VideoPlayer.Art(type) and positional variants](https://github.com/xbmc/xbmc/pull/21401)
 
 Skinners, have a look on the forums for info <https://forum.kodi.tv/showthread.php?tid=363553>.
 
