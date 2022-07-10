@@ -24,7 +24,7 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
   * Fix a packaging error for binary python modules (*pycryptodome*) - [Android: packaging: don't delete cryptodome libraries from depends i...](https://github.com/xbmc/xbmc/pull/21561).
 * **XBox**
 
-  * Fixes some specific H265 video crashes - [XBox: DXVA2: Allows the use of more than 16 decoding surfaces for H265 Full HD or less](https://github.com/xbmc/xbmc/pull/21497).
+  * Fixes some specific H.265 video crashes - [XBox: DXVA2: Allows the use of more than 16 decoding surfaces for H265 Full HD or less](https://github.com/xbmc/xbmc/pull/21497).
 
 **Python**
 
@@ -38,7 +38,7 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
 
 **Closed Captions**
 
-* Fix an instance of Closed Captions not working. A forum member was able to provide an extremely helpful sample that allowed **@enen92** to track down an issue with closed captions not working correctly. Incidentally, this also fixes Closed captions for some *Inputstream.Adaptive* streams as confirmed by **@CastagnaIT**.
+* Fix an instance of Closed Captions not working. A forum member was able to provide an extremely helpful sample that allowed **@enen92** to track down an issue with closed captions not working correctly. Incidentally, this also fixes Closed Captions for some *Inputstream.Adaptive* streams as confirmed by **@CastagnaIT**.
 
 **Subtitles**
 
@@ -68,7 +68,7 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
 * Diffuse fading animations - [Added diffuse fading animation effect ](https://github.com/xbmc/xbmc/pull/21400).
 * *VideoPlayer.Art(type)* and positional variants - [gui: info: Add VideoPlayer.Art(type) and positional variants](https://github.com/xbmc/xbmc/pull/21401).
 
-Skinners, have a look on the forums for info <https://forum.kodi.tv/showthread.php?tid=363553>.
+Skinners, have a look [on the forums](https://forum.kodi.tv/showthread.php?tid=363553) for more info.
 
 Once again, consider this an alpha release. Backup your configs before testing, and please let us know of any regressions or issues
 
