@@ -21,14 +21,16 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
   * Fix a stutter when the Kodi Android app was opened, closed and opened again. One of our team members (**@thexai**) noticed an issue with a recent PR that caused media stuttering to occur only after the app was opened and closed and reopened again without a force close. **@ksooo** has come up with a fix, so hopefully playback should be a better experience over Alpha 1.
   * Another TrueHD fix - buffers reduced to a specific level to optimise data throughput - [Android: Adjust buffer size/duration for TrueHD IEC](https://github.com/xbmc/xbmc/pull/21428).
   * More local app icons should render fully in Kodi - [Android: CFileAndroidApp::ReadIcon: Add support for icons provided a...](https://github.com/xbmc/xbmc/pull/21423).
-  * Fix a packaging error for binary python modules (pycryptodome) - [Android: packaging: don't delete cryptodome libraries from depends i...](https://github.com/xbmc/xbmc/pull/21561).
+  * Fix a packaging error for binary python modules (*pycryptodome*) - [Android: packaging: don't delete cryptodome libraries from depends i...](https://github.com/xbmc/xbmc/pull/21561).
 * **XBox**
 
   * Fixes some specific H265 video crashes - [XBox: DXVA2: Allows the use of more than 16 decoding surfaces for H265 Full HD or less](https://github.com/xbmc/xbmc/pull/21497).
 
 **Python**
 
-* Android and Apple systems have had their Python version bumped to 3.9.13 in accordance with the latest release of the CPython 3.9 series. Of note, there have been fixes by the CPython team specifically for issues raised by Kodi community members around some crashes. Thanks to those members raising the upstream issues, and the fantastic CPython team for fixing them. **Please note, this does not affect any of our Windows releases, or if you are using Linux.**
+* Android and Apple systems have had their Python version bumped to 3.9.13 in accordance with the latest release of the CPython 3.9 series. Of note, there have been fixes by the CPython team specifically for issues raised by Kodi community members around some crashes. Thanks to those members raising the upstream issues, and the fantastic CPython team for fixing them.
+
+  **Please note, this does not affect any of our Windows releases, or if you are using Linux.**
 
 **Filesystems**
 
@@ -36,7 +38,7 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
 
 **Closed Captions**
 
-* Fix an instance of Closed Captions not working. A forum member was able to provide an extremely helpful sample that allowed **@enen92** to track down an issue with closed captions not working correctly. Incidentally, this also fixes Closed captions for some Inputstream.Adaptive streams as confirmed by **@CastagnaIT**.
+* Fix an instance of Closed Captions not working. A forum member was able to provide an extremely helpful sample that allowed **@enen92** to track down an issue with closed captions not working correctly. Incidentally, this also fixes Closed captions for some *Inputstream.Adaptive* streams as confirmed by **@CastagnaIT**.
 
 **Subtitles**
 
@@ -48,22 +50,23 @@ Slightly delayed Alpha 2, but here we go. We had a bit of a wild ride more due t
 
 **Bluray**
 
-* Fix BluRay resume issues - [Discs: Fix resume of Blurays and BluRay ISOs (state serializer)](https://github.com/xbmc/xbmc/pull/21462)
+* Fix BluRay resume issues - [Discs: Fix resume of Blurays and BluRay ISOs (state serializer)](https://github.com/xbmc/xbmc/pull/21462).
 
 **Thumbnail Images**
 
 * Reduce "quality" of thumbnail creation - [FFmpegImage: Reduce quality a tiny bit](https://github.com/xbmc/xbmc/pull/21418)
-  **NOTE**: An advanced setting is available for those users who wish to alter the default further. info can be found on the wiki - <https://kodi.wiki/view/Advancedsettings.xml#Library_artwork>
+
+  **NOTE**: An advanced setting is available for those users who wish to alter the default further. More information can be found [on the wiki](https://kodi.wiki/view/Advancedsettings.xml#Library_artwork).
 
 **Skinning**
 
-* a couple of skinning changes have been introduced. [gui: info: Add VideoPlayer.Art(type) and positional variants ](https://github.com/xbmc/xbmc/pull/21401) and [gui: info: Add Addon.Setting* infos](https://github.com/xbmc/xbmc/pull/21405)
-* Skin timers - [skinning: Skin timer implementation](https://github.com/xbmc/xbmc/pull/21320)
-* Removal of player.DisplayAfterSeek - [gui: info: Remove Player.DisplayAfterSeek](https://github.com/xbmc/xbmc/pull/21425)
-* Skip border infill - [Adds GUI hint for skins to skip border infill](https://github.com/xbmc/xbmc/pull/20754)
-* Moving speed - [gui: Implemented movingspeed to mover/resize controls](https://github.com/xbmc/xbmc/pull/21364)
-* diffuse fading animations - [Added diffuse fading animation effect ](https://github.com/xbmc/xbmc/pull/21400)
-* VideoPlayer.Art(type) and positional variants - [gui: info: Add VideoPlayer.Art(type) and positional variants](https://github.com/xbmc/xbmc/pull/21401)
+* A couple of skinning changes have been introduced. [gui: info: Add VideoPlayer.Art(type) and positional variants ](https://github.com/xbmc/xbmc/pull/21401) and [gui: info: Add Addon.Setting* infos](https://github.com/xbmc/xbmc/pull/21405).
+* Skin timers - [skinning: Skin timer implementation](https://github.com/xbmc/xbmc/pull/21320).
+* Removal of *player.DisplayAfterSeek* - [gui: info: Remove Player.DisplayAfterSeek](https://github.com/xbmc/xbmc/pull/21425).
+* Skip border infill - [Adds GUI hint for skins to skip border infill](https://github.com/xbmc/xbmc/pull/20754).
+* Moving speed - [gui: Implemented movingspeed to mover/resize controls](https://github.com/xbmc/xbmc/pull/21364).
+* Diffuse fading animations - [Added diffuse fading animation effect ](https://github.com/xbmc/xbmc/pull/21400).
+* *VideoPlayer.Art(type)* and positional variants - [gui: info: Add VideoPlayer.Art(type) and positional variants](https://github.com/xbmc/xbmc/pull/21401).
 
 Skinners, have a look on the forums for info <https://forum.kodi.tv/showthread.php?tid=363553>.
 
