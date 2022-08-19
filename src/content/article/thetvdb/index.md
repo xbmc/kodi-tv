@@ -1,7 +1,7 @@
 ---
 title: TheTVDB
 date: 2022-08-15T07:23:36.379Z
-author: Scott
+author: Scott @ TheTVDB
 tags:
   - Community
   - Developer
