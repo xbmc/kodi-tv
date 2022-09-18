@@ -18,7 +18,7 @@ As always, thanks go out to all contributors for their work. Both those in Team 
 * Some crashes in addon installation and repository checks have been corrected (**ksooo**, **howie-f**)
 * **AlwinEsch** has implemented a large feature to allow binary addons to have multiple instances of the same addon running
 
-  This allows, for example, to have 2 instances of a PVR addon (e.g. pvr) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following PVR.Demo PR (https://github.com/kodi-pvr/pvr.demo/pull/123)
+  This allows, for example, to have 2 instances of a PVR addon (e.g. PVR.HTS) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following PVR.Demo PR (https://github.com/kodi-pvr/pvr.demo/pull/123)
 
 **Database**
 
