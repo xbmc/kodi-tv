@@ -16,73 +16,73 @@ As always, thanks go out to all contributors for their work. Both those in Team 
 **Addons**
 
 * Some crashes in addon installation and repository checks have been corrected (**ksooo**, **howie-f**)
-* **AlwinEsch** has implemented a large feature to allow binary addons to have multiple instances of the same addon running
+* **AlwinEsch** has implemented a large feature to allow multiple instances of the same binary addon.
 
-  This allows, for example, to have 2 instances of a PVR addon (e.g. PVR.HTS) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following PVR.Demo PR (https://github.com/kodi-pvr/pvr.demo/pull/123)
+  This allows, for example, to have 2 instances of a PVR addon (e.g. [PVR.HTS](https://github.com/kodi-pvr/pvr.hts/pull/591)) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following [PVR.Demo PR](https://github.com/kodi-pvr/pvr.demo/pull/123)
 
 **Database**
 
-* @ksooo has been optimising various things in our db wrappers for better performance (https://github.com/xbmc/xbmc/pull/21780)
+* **ksooo** has been optimising various things in our db wrappers for better performance ([link](https://github.com/xbmc/xbmc/pull/21780))
 
 **DVD**
 
-* Fix DVD Menu indicators for DRMPrime (https://github.com/xbmc/xbmc/pull/21655)
+* Fix DVD Menu indicators for DRMPrime ([link](https://github.com/xbmc/xbmc/pull/21655))
 
 **Filesystem**
 
-* Fix NFS for windows platforms after some reason NFS updates
-* several NFS improvements/cleanups
-* Initial NFS4 implementation (https://github.com/xbmc/xbmc/pull/21659)
+* Fix NFS for Windows platforms after some recent NFS updates
+* Several NFS improvements/cleanups
+* Initial NFS4 implementation ([link](https://github.com/xbmc/xbmc/pull/21659))
 
 **Font/Glyh**
 
-* Several improvements around our Font/Glyph Handling code from several team members (@ksooo @thexai @sarbes ). Improvements that should help low power machines in particular, but all platforms generally.
-* Harbuzz glyph caching improvements (https://github.com/xbmc/xbmc/pull/21683)
-* Fix some inconsistencies with RTL languages and certain skinning components (https://github.com/xbmc/xbmc/pull/21746)
+* Several improvements around our Font/Glyph Handling code from several team members (**ksooo,** **thexai,** **sarbes**) - improvements that should help low power machines in particular, but all platforms generally. 
+* Harbuzz glyph caching improvements ([link](https://github.com/xbmc/xbmc/pull/21683))
+* Fix some inconsistencies with RTL languages and certain skinning components ([link](https://github.com/xbmc/xbmc/pull/21746))
 
 **Games**
 
-* Improvements/cleanups regarding controllers (https://github.com/xbmc/xbmc/pull/21695)
-* Fix crash if controller info files dont have correct info (https://github.com/xbmc/xbmc/pull/21713)
+* Improvements/cleanups regarding controllers ([link](https://github.com/xbmc/xbmc/pull/21695))
+* Fix crash if controller info files don't have correct info ([link](https://github.com/xbmc/xbmc/pull/21713))
 
 **General**
 
-* @Rechi has done a bunch of leg work implementing improvements from Static analysis tools like CPPCheck (https://github.com/xbmc/xbmc/pull/21362) and ClangTidy (https://github.com/xbmc/xbmc/pull/21789)
-* Remove obsolete addons from Core Kodi install (https://github.com/xbmc/xbmc/pull/21793)
+* **Rechi** has done a bunch of leg work implementing improvements from Static analysis tools like CPPCheck ([link](https://github.com/xbmc/xbmc/pull/21362)) and ClangTidy ([link](https://github.com/xbmc/xbmc/pull/21789))
+* Remove obsolete addons from Core Kodi install ([link](https://github.com/xbmc/xbmc/pull/21793))
 
 **Input**
 
-* Fix using mouse to drag/drop some controls (https://github.com/xbmc/xbmc/pull/21748)
+* Fix using mouse to drag/drop some controls ([link](https://github.com/xbmc/xbmc/pull/21748))
 
 **Platform Specific**
 
 * **Linux GBM**
 
-  * Ability to set HDR Output (https://github.com/xbmc/xbmc/pull/20199)
+  * Ability to set HDR Output ([link](https://github.com/xbmc/xbmc/pull/20199))
 * **MacOS**
 
   * Allow the OSX arm64 (Apple Silicon) build to correctly find appropriate binary addons from repositories.
 * **Windows**
 
-  * Fix incorrect window positioning when transitioning window to fullscreen and back (https://github.com/xbmc/xbmc/pull/21802)
+  * Fix incorrect window positioning when transitioning window to fullscreen and back ([link](https://github.com/xbmc/xbmc/pull/21802))
 
 **PVR**
 
-* @ksooo continues updating/refining/fixing all things PVR related
+* **ksooo** continues updating/refining/fixing all things PVR related
 
 **Skinning**
 
 * **Estuary**
 
-  * Show titles when "Flatten Hierarchy" setting enabled (https://github.com/xbmc/xbmc/pull/21676)
+  * Show titles when "Flatten Hierarchy" setting enabled ([link](https://github.com/xbmc/xbmc/pull/21676))
 
 **Subtitles**
 
-* Further improvements/refinements to subtitles from @CastagnaIT 
+* Further improvements/refinements to subtitles from **CastagnaIT** 
 
 **Video**
 
-* Fix for 3D MVC Playback (https://github.com/xbmc/xbmc/pull/21702)
+* Fix for 3D MVC Playback ([link](https://github.com/xbmc/xbmc/pull/21702))
 
 Once again, consider this an alpha release. Backup your configs before testing, and please let us know of any regressions or issues
 
