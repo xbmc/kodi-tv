@@ -4,12 +4,12 @@ date: 2022-09-18T15:14:52.824Z
 author: Team Kodi
 featured_image:
   src: /images/blog/nexus-a1-splash.jpg
-  title: Kodi 20.x "Nexus" Splash Screen
-  alt: Kodi 20.x "Nexus" Splash Screen
+  title: Kodi 20.x "Nexus" Alpha Splash Screen
+  alt: Kodi 20.x "Nexus" Alpha Splash Screen
 ---
-Time for another Alpha release for the upcoming Version 20 Nexus release of Kodi.
+Time for another Alpha release for the upcoming Version 20 "Nexus" release of Kodi.
 
-As always, thanks go out to all contributors for their work. Both those in Team kodi, but also to all the 3rd party users that choose to roll up their sleeves and fix an issue. Everyone appreciates you for making Kodi better.
+As always, thanks go out to all contributors for their work. Both those in Team Kodi, but also to all the 3rd party users that choose to roll up their sleeves and fix an issue. Everyone appreciates you for making Kodi better.
 
 ### **Release notes**
 
