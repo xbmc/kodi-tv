@@ -49,8 +49,7 @@ As always, thanks go out to all contributors for their work - not only those in 
 
 * **Rechi** has done a bunch of leg work implementing improvements from Static analysis tools like CPPCheck ([link](https://github.com/xbmc/xbmc/pull/21362)) and ClangTidy ([link](https://github.com/xbmc/xbmc/pull/21789))
 * Remove obsolete addons from Core Kodi install ([link](https://github.com/xbmc/xbmc/pull/21793))
-* Fix wrong player playlist type when playing STRM files from library ([link](https://github.com/xbmc/xbmc/pull/21667))
-* Fix broken JSON-RPC *Player.GetProperties*, *Player.GetActivePlayers* response when playing STRM files from library ([link](https://github.com/xbmc/xbmc/pull/21667))
+* Fix wrong player playlist type for STRM file playback ([link](https://github.com/xbmc/xbmc/pull/21667))
 
 **Input**
 
