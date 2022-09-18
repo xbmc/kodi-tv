@@ -9,7 +9,7 @@ featured_image:
 ---
 Time for another Alpha release for the upcoming Version 20 "Nexus" release of Kodi.
 
-As always, thanks go out to all contributors for their work. Both those in Team Kodi, but also to all the 3rd party users that choose to roll up their sleeves and fix an issue. Everyone appreciates you for making Kodi better.
+As always, thanks go out to all contributors for their work - not only those in Team Kodi, but also to all the third party users that choose to roll up their sleeves and fix an issue. Everyone appreciates you for making Kodi better!
 
 ### **Release notes**
 
@@ -18,7 +18,7 @@ As always, thanks go out to all contributors for their work. Both those in Team 
 * Some crashes in addon installation and repository checks have been corrected (**ksooo**, **howie-f**)
 * **AlwinEsch** has implemented a large feature to allow multiple instances of the same binary addon.
 
-  This allows, for example, to have 2 instances of a PVR addon (e.g. [PVR.HTS](https://github.com/kodi-pvr/pvr.hts/pull/591)) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following [PVR.Demo PR](https://github.com/kodi-pvr/pvr.demo/pull/123)
+  This allows, for example, two instances of a PVR addon (e.g. [PVR.HTS](https://github.com/kodi-pvr/pvr.hts/pull/591)) to run using different backend provider instances. The usage of this will require updates from the various binary addons that will start to happen, so if you are interested in helping your favourite PVR addon to implement this, check out the above PVR.HTS PR, as well as the following [PVR.Demo PR](https://github.com/kodi-pvr/pvr.demo/pull/123)
 
 **Database**
 
