@@ -18,19 +18,24 @@ I worked on the front end and created its UI from scratch which included rework 
 
 `{"jsonrpc":"2.0", "id":1, "method":"Files.PrepareDownload", "params":{ "path": "/home/xyz/Videos/test.mp4" }}`
 
-
 We can expect the returned `PreparedDownload` path to be something like - `"vfs/%2fhome%2fxyz%2fVideos%2ftest.mp4"` which we can be fed into the src of the html5 video player
 `(“http://localhost:8080/vfs/%2fhome%2fxyz%2fVideos%2ftest.mp4”)`
 
 An issue arose when we tried to do so — [CORS Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Since we were sending an HTTP request to fetch the JSON data from the Kodi RPC server, we were facing issues with it. Therefore to work on it during development, I suggested using an extension in a browser that allows CORS. Web sockets, which were used to retrieve json data, could have made things much simpler, but during development, things don’t always go according to plan :).
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif)
+
+*Videoid_int page* 
+
+
 
 In Chorus 2, the video playback was done through a pop-up window that had an HTML5 Player. To make the user experience better, I implemented a modal for it.
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-I﻿MAGE
+![](https://miro.medium.com/max/1200/1*qP_8lXAzHu1FaghuyEXzaw.gif)
+
+*movideid_int page*
 
 Tvshow pages required more time and effort than others. I implemented its UI, front-end, and backend from scratch. I also had to create two new pages from scratch — The seasons and the Episode page. I created new objects and decoders for each of them and wrote JSON RPC calls to fetch data for them.
 
@@ -61,8 +66,6 @@ I﻿MAGE
 On September 5th, the official coding phase of GSoC ended. It was a great learning experience and my first internship in freshman year. I learned a lot and would love to keep contributing to Kodi on this project and help in any way possible.
 
 Again I would like to thank my mentor — Razze 😄 and Kodi Community for being so supportive, and helpful, and for making sure to give positive feedback about my work which kept me motivated.
-
-
 
 *T﻿his post was originally published on [Medium](https://medium.com/@mshaheer2003/gsoc-2022-kodi-final-evaluation-43ff20a51f17).*
 
