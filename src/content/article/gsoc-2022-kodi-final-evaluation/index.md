@@ -27,8 +27,6 @@ An issue arose when we tried to do so — [CORS Policy](https://developer.mozill
 
 *Videoid_int page* 
 
-
-
 In Chorus 2, the video playback was done through a pop-up window that had an HTML5 Player. To make the user experience better, I implemented a modal for it.
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
@@ -39,34 +37,46 @@ In a similar manner, I implemented the video playback functionality for the **mo
 
 Tvshow pages required more time and effort than others. I implemented its UI, front-end, and backend from scratch. I also had to create two new pages from scratch — The seasons and the Episode page. I created new objects and decoders for each of them and wrote JSON RPC calls to fetch data for them.
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/1*bbRhM4xNjSoWq0B-PTqdAw.png)
 
-I﻿MAGE
+*Tvshowid_int page*
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/1*hjRY_CchSPjegD17wJbwSw.png)
+
+*Season page*
+
+![](https://miro.medium.com/max/1200/1*HsIxKC-WSvvgnYQLey7Lfw.gif)
+
+*Episode page*
 
 Another functionality that I worked on was “Filter functionality” for all the pages. I created a fully working front-end and wrote filter methods that would filter the objects based on particular fields such as genre, artist, album, etc.
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/0*jRSjj2b4Fr1Xk0Bh.png)*Filter functionality + reworked Movie card UI*
 
 While working on the functionalities, I also reworked the UI of previously implemented cards and pages. For example:
 
 **Top Music Page**
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/0*82ogFwuwAVvn62ew.png)
 
-I﻿MAGE
+*Before*
+
+![](https://miro.medium.com/max/1400/0*wyDB5ulbFxyi5Xfs.png)
+
+*After*
 
 **Album page**
 
-I﻿MAGE
+![](https://miro.medium.com/max/1400/0*AOaKRSPTrTASnPKk.png)
 
-I﻿MAGE
+*Before*
+
+![](https://miro.medium.com/max/1400/0*LIglmnuk3fWNNCsp.png)
+
+*After*
 
 On September 5th, the official coding phase of GSoC ended. It was a great learning experience and my first internship in freshman year. I learned a lot and would love to keep contributing to Kodi on this project and help in any way possible.
 
 Again I would like to thank my mentor — Razze 😄 and Kodi Community for being so supportive, and helpful, and for making sure to give positive feedback about my work which kept me motivated.
 
 *T﻿his post was originally published on [Medium](https://medium.com/@mshaheer2003/gsoc-2022-kodi-final-evaluation-43ff20a51f17).*
-
-[](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fp%2F43ff20a51f17&operation=register&redirect=https%3A%2F%2Fmedium.com%2F%40mshaheer2003%2Fgsoc-2022-kodi-final-evaluation-43ff20a51f17&user=Mohd.+Shaheer&userId=2f6f1b7a6149&source=-----43ff20a51f17---------------------clap_footer-----------)
