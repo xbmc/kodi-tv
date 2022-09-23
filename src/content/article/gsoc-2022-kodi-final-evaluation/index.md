@@ -23,9 +23,11 @@ We can expect the returned `PreparedDownload` path to be something like - `"vfs/
 
 An issue arose when we tried to do so — [CORS Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Since we were sending an HTTP request to fetch the JSON data from the Kodi RPC server, we were facing issues with it. Therefore to work on it during development, I suggested using an extension in a browser that allows CORS. Web sockets, which were used to retrieve json data, could have made things much simpler, but during development, things don’t always go according to plan :).
 
-![Videoid_int page - animated video showing a sample of the selected video](/images/blog/mohd.-shaheer-1.gif "Videoid_int page")
+![Videoid_int page - animated video showing a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
 
-![Videoid_int page - animated video showing a sample of the selected video](https://miro.medium.com/max/350/1*EW9zuihZOU7gRvjgnhBxTw.gif =720x350)*Videoid_int page* 
+![Videoid_int page - animated video showing a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif?nf_resize=fit&w=350)
+
+*Videoid_int page* 
 
 In Chorus 2, the video playback was done through a pop-up window that had an HTML5 Player. To make the user experience better, I implemented a modal for it.
 
