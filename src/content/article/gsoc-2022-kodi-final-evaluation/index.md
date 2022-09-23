@@ -25,7 +25,9 @@ An issue arose when we tried to do so — [CORS Policy](https://developer.mozill
 
 ![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.webp "Videoid_int page")
 
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif?nf_resize=fit&w=350 "Videoid_int page")
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
+
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif "Videoid_int page")
 
 *Videoid_int page* 
 
