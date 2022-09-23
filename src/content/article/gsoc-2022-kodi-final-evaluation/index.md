@@ -25,13 +25,13 @@ An issue arose when we tried to do so — [CORS Policy](https://developer.mozill
 
 ![Videoid_int page - animated video showing a sample of the selected video](/images/blog/mohd.-shaheer-1.gif "Videoid_int page")
 
-*Videoid_int page* 
+![Videoid_int page - animated video showing a sample of the selected video](https://miro.medium.com/max/350/1*EW9zuihZOU7gRvjgnhBxTw.gif =720x350)*Videoid_int page* 
 
 In Chorus 2, the video playback was done through a pop-up window that had an HTML5 Player. To make the user experience better, I implemented a modal for it.
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-![](https://miro.medium.com/max/1200/1*qP_8lXAzHu1FaghuyEXzaw.gif)
+![]()
 
 *movideid_int page*
 
