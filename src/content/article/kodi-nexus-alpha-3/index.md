@@ -3,7 +3,7 @@ title: Kodi "Nexus" Alpha 3
 date: 2022-09-18T15:14:52.824Z
 author: Team Kodi
 featured_image:
-  src: /images/blog/nexus-a1-splash.png
+  src: /images/blog/nexus-a1-splash.gif
   title: Kodi 20.x "Nexus" Alpha Splash Screen
   alt: Kodi 20.x "Nexus" Alpha Splash Screen
 ---
