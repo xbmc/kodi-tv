@@ -23,9 +23,9 @@ We can expect the returned `PreparedDownload` path to be something like - `"vfs/
 
 An issue arose when we tried to do so — [CORS Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Since we were sending an HTTP request to fetch the JSON data from the Kodi RPC server, we were facing issues with it. Therefore to work on it during development, I suggested using an extension in a browser that allows CORS. Web sockets, which were used to retrieve json data, could have made things much simpler, but during development, things don’t always go according to plan :).
 
-![Videoid_int page - animated video showing a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
+![](/images/blog/mohdshaheer1.webp)
 
-![Videoid_int page - animated video showing a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif?nf_resize=fit&w=350)
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif?nf_resize=fit&w=350 "Videoid_int page")
 
 *Videoid_int page* 
 
@@ -33,7 +33,7 @@ In Chorus 2, the video playback was done through a pop-up window that had an HTM
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-![]()
+![](https://miro.medium.com/max/640/1*qP_8lXAzHu1FaghuyEXzaw.gif)
 
 *movideid_int page*
 
