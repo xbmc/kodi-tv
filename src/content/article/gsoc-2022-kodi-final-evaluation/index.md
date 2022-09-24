@@ -25,19 +25,7 @@ An issue arose when we tried to do so — [CORS Policy](https://developer.mozill
 
 1
 
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
-
-2
-
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.webp "Videoid_int page")
-
-3
-
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif "Videoid_int page")
-
-4
-
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](https://miro.medium.com/max/1400/1*EW9zuihZOU7gRvjgnhBxTw.gif?nf_resize=fit&w=300 "Videoid_int page")
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1-720x350.webp "Videoid_int page")
 
 *Videoid_int page* 
 
@@ -45,7 +33,7 @@ In Chorus 2, the video playback was done through a pop-up window that had an HTM
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-![](https://miro.medium.com/max/640/1*qP_8lXAzHu1FaghuyEXzaw.gif)
+![](/images/blog/mohdshaheer2-600x320.gif)
 
 *movideid_int page*
 
