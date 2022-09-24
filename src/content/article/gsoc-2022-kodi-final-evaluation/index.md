@@ -88,6 +88,6 @@ While working on the functionalities, I also reworked the UI of previously imple
 
 On September 5th, the official coding phase of GSoC ended. It was a great learning experience and my first internship in freshman year. I learned a lot and would love to keep contributing to Kodi on this project and help in any way possible.
 
-Again I would like to thank my mentor — Razze 😄 and Kodi Community for being so supportive, and helpful, and for making sure to give positive feedback about my work which kept me motivated.
+Again I would like to thank my mentor - Razze 😄 - and Kodi Community for being so supportive, and helpful, and for making sure to give positive feedback about my work which kept me motivated.
 
 *T﻿his post was originally published on [Medium](https://medium.com/@mshaheer2003/gsoc-2022-kodi-final-evaluation-43ff20a51f17).*
