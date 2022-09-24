@@ -68,21 +68,21 @@ While working on the functionalities, I also reworked the UI of previously imple
 
 **Top Music Page**
 
-![Top Music Page - before UI rework](/images/blog/mohdshaheer7-720x350.png "Top Music Page - before UI rework")
+![Screenshot of Top Music Page - before UI rework](/images/blog/mohdshaheer7-720x350.png "Top Music Page - before UI rework")
 
 *Before*
 
-![Top Music Page - after UI rework](/images/blog/mohdshaheer8-720x350.png "Top Music Page - after UI rework")
+![Screenshot of Top Music Page - after UI rework](/images/blog/mohdshaheer8-720x350.png "Top Music Page - after UI rework")
 
 *After*
 
 **Album page**
 
-![Album Page - before UI rework](/images/blog/mohdshaheer9-720x350.png "Album Page - before UI rework")
+![Screenshot of Album Page - before UI rework](/images/blog/mohdshaheer9-720x350.png "Album Page - before UI rework")
 
 *Before*
 
-![Album Page - after UI rework](/images/blog/mohdshaheer10-720x354.png "Album Page - after UI rework")
+![Screenshot of Album Page - after UI rework](/images/blog/mohdshaheer10-720x354.png "Album Page - after UI rework")
 
 *After*
 
