@@ -2,6 +2,15 @@
 title: "GSoC 2022 @ Kodi : Final Evaluation"
 date: 2022-09-22T17:09:19.549Z
 author: Mohd. Shaheer
+tags:
+  - Developer
+  - Prerelease
+  - Community
+featured_image:
+  src: /images/blog/google_summer_of_code_sun_logo_2022.svg
+  title: Google Summer of Code Sun Logo - By Google -
+    https://summerofcode.withgoogle.com/
+  alt: Google Summer of Code Sun Logo
 ---
 Hi, everyone! I am Mohd. Shaheer, Computer Science undergrad in freshman year. I am a GSoC contributor working on the project “Finish the web interface” for Kodi. I have been working on this project for the past 3 months. This blog post contains my experience through phase 2 (Final evaluation) of GSoC and an overview of my work during that period.
 
