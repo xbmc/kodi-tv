@@ -25,11 +25,11 @@ An issue arose when we tried to do so — [CORS Policy](https://developer.mozill
 
 1
 
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.webp "Videoid_int page")
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
 
 2
 
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.gif "Videoid_int page")
+![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1.webp "Videoid_int page")
 
 3
 
