@@ -59,21 +59,21 @@ While working on the functionalities, I also reworked the UI of previously imple
 
 **Top Music Page**
 
-![](/images/blog/mohdshaheer7-720x350.png)
+![Top Music Page - before UI rework](/images/blog/mohdshaheer7-720x350.png "Top Music Page - before UI rework")
 
 *Before*
 
-![](/images/blog/mohdshaheer8-720x350.png)
+![Top Music Page - after UI rework](/images/blog/mohdshaheer8-720x350.png "Top Music Page - after UI rework")
 
 *After*
 
 **Album page**
 
-![](/images/blog/mohdshaheer9-720x350.png)
+![Album Page - before UI rework](/images/blog/mohdshaheer9-720x350.png "Album Page - before UI rework")
 
 *Before*
 
-![](/images/blog/mohdshaheer10-720x354.png)
+![Album Page - after UI rework](/images/blog/mohdshaheer10-720x354.png "Album Page - after UI rework")
 
 *After*
 
