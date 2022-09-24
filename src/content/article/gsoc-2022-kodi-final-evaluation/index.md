@@ -23,7 +23,7 @@ We can expect the returned `PreparedDownload` path to be something like - `"vfs/
 
 An issue arose when we tried to do so — [CORS Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Since we were sending an HTTP request to fetch the JSON data from the Kodi RPC server, we were facing issues with it. Therefore to work on it during development, I suggested using an extension in a browser that allows CORS. Web sockets, which were used to retrieve json data, could have made things much simpler, but during development, things don’t always go according to plan :).
 
-![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1-720x350.webp "Videoid_int page")
+![Animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1-720x350.webp "Videoid_int page")
 
 *Videoid_int page* 
 
@@ -31,47 +31,49 @@ In Chorus 2, the video playback was done through a pop-up window that had an HTM
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-![](/images/blog/mohdshaheer2-600x320.gif)
+![Animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer2-600x320.gif "Movideid_int Page")
 
 *movideid_int page*
 
 Tvshow pages required more time and effort than others. I implemented its UI, front-end, and backend from scratch. I also had to create two new pages from scratch — The seasons and the Episode page. I created new objects and decoders for each of them and wrote JSON RPC calls to fetch data for them.
 
-![](/images/blog/mohdshaheer3-720x355.png)
+![Screenshot of Tvshowid_int Page](/images/blog/mohdshaheer3-720x355.png "Tvshowid_int Page")
 
 *Tvshowid_int page*
 
-![](/images/blog/mohdshaheer4-720x350.png)
+![Screenshot of Season Page](/images/blog/mohdshaheer4-720x350.png "Season Page")
 
 *Season page*
 
-![]()
+![Animated screenshot of Episode Page](/images/blog/mohdshaheer5-600x287.gif "Episode Page")
 
 *Episode page*
 
 Another functionality that I worked on was “Filter functionality” for all the pages. I created a fully working front-end and wrote filter methods that would filter the objects based on particular fields such as genre, artist, album, etc.
 
-![]()*Filter functionality + reworked Movie card UI*
+![Screenshot of Filter functionality and reworked Movie card UI](/images/blog/mohdshaheer6-720x350.png "Filter functionality and reworked Movie card UI")
+
+*Filter functionality + reworked Movie card UI*
 
 While working on the functionalities, I also reworked the UI of previously implemented cards and pages. For example:
 
 **Top Music Page**
 
-![]()
+![](/images/blog/mohdshaheer7-720x350.png)
 
 *Before*
 
-![]()
+![](/images/blog/mohdshaheer8-720x350.png)
 
 *After*
 
 **Album page**
 
-![]()
+![](/images/blog/mohdshaheer9-720x350.png)
 
 *Before*
 
-![]()
+![](/images/blog/mohdshaheer10-720x354.png)
 
 *After*
 
