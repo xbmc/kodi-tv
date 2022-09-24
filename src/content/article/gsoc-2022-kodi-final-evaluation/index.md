@@ -23,8 +23,6 @@ We can expect the returned `PreparedDownload` path to be something like - `"vfs/
 
 An issue arose when we tried to do so — [CORS Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS). Since we were sending an HTTP request to fetch the JSON data from the Kodi RPC server, we were facing issues with it. Therefore to work on it during development, I suggested using an extension in a browser that allows CORS. Web sockets, which were used to retrieve json data, could have made things much simpler, but during development, things don’t always go according to plan :).
 
-1
-
 ![Videoid_int page - animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer1-720x350.webp "Videoid_int page")
 
 *Videoid_int page* 
@@ -39,41 +37,41 @@ In a similar manner, I implemented the video playback functionality for the **mo
 
 Tvshow pages required more time and effort than others. I implemented its UI, front-end, and backend from scratch. I also had to create two new pages from scratch — The seasons and the Episode page. I created new objects and decoders for each of them and wrote JSON RPC calls to fetch data for them.
 
-![](https://miro.medium.com/max/1400/1*bbRhM4xNjSoWq0B-PTqdAw.png)
+![](/images/blog/mohdshaheer3-720x355.png)
 
 *Tvshowid_int page*
 
-![](https://miro.medium.com/max/1400/1*hjRY_CchSPjegD17wJbwSw.png)
+![](/images/blog/mohdshaheer4-720x350.png)
 
 *Season page*
 
-![](https://miro.medium.com/max/1200/1*HsIxKC-WSvvgnYQLey7Lfw.gif)
+![]()
 
 *Episode page*
 
 Another functionality that I worked on was “Filter functionality” for all the pages. I created a fully working front-end and wrote filter methods that would filter the objects based on particular fields such as genre, artist, album, etc.
 
-![](https://miro.medium.com/max/1400/0*jRSjj2b4Fr1Xk0Bh.png)*Filter functionality + reworked Movie card UI*
+![]()*Filter functionality + reworked Movie card UI*
 
 While working on the functionalities, I also reworked the UI of previously implemented cards and pages. For example:
 
 **Top Music Page**
 
-![](https://miro.medium.com/max/1400/0*82ogFwuwAVvn62ew.png)
+![]()
 
 *Before*
 
-![](https://miro.medium.com/max/1400/0*wyDB5ulbFxyi5Xfs.png)
+![]()
 
 *After*
 
 **Album page**
 
-![](https://miro.medium.com/max/1400/0*AOaKRSPTrTASnPKk.png)
+![]()
 
 *Before*
 
-![](https://miro.medium.com/max/1400/0*LIglmnuk3fWNNCsp.png)
+![]()
 
 *After*
 
