@@ -8,6 +8,18 @@ breadcrumbs: Team | About
 
 The Kodi team is an ever-changing group of volunteers from across the globe that firmly believes in open-source software. Put simply, we write the software because we enjoy doing it – the incredible home-theater experience that results doesn’t hurt though!
 
+### 2018 Devcon
+
+![Kodi team at 2018 Devcon](/images/devcon-2018.webp)
+
+### 2017 Devcon
+
+![Kodi team at 2017 Devcon in Czech Republic](/images/devcon-2017.webp)
+
+### 2017 Devcon
+
+![Kodi team at 2017 Devcon in Portugal](/images/devcon-2017_portugal.webp)
+
 ### 2016 Devcon
 
 ![Kodi team at 2016 Devcon](/images/devcon-2016.webp)
@@ -31,6 +43,14 @@ The Kodi team is an ever-changing group of volunteers from across the globe that
 ### 2012 Devcon
 
 ![Kodi team at 2012 Devcon](/images/devcon-2012.webp)
+
+### 2010 Devcon
+
+![Kodi team at 2010 Devcon](/images/devcon-2010.webp)
+
+### 2009 Devcon
+
+![Kodi team at 2009 Devcon](/images/devcon-2009.webp)
 
 ### 2008 Devcon
 
