@@ -9,8 +9,6 @@ featured_image:
   title: Kodi "Kore" Remote Logo
   alt: Kodi "Kore" Remote Logo
 ---
-![Kore_Artwork_Concept_2](https://user-images.githubusercontent.com/6040384/190921147-537142e5-4f69-4090-900a-d8936d37b46f.png)
-
 Is Web 3.0 here? We don't know, but Kore 3.0 certainly is! Shiny, decentralized and software-based, it's ready to take over your old, centralized, atom-based remote.
 
 As a major release there are lots of changes, too many in fact to list here, but the main ones are:
