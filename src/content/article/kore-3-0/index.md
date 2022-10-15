@@ -23,7 +23,7 @@ As a major release there are lots of changes, too many in fact to list here, but
 
 * The *Remote* screen, adding the current playback state, and better media controls, allowing for direct control of what's playing;
 * The *Now Playing* panel, adding the current playback state and media control buttons;
-* The *Movies*, *TV Shows*, *Music* and *Addons* screens, which went through a redesign, particularly on the actions section. All the previously available actions are still there, they just got moved around (well, except for the IMDb link, which was seldom broken, and therefore was replaced with a generic Google search). Note that the "Play locally" function is now called "Stream", which is more appropriate and concise;
+* The *Movies*, *TV Shows*, *Music* and *Addons* screens, which went through a redesign, particularly on the actions section. All the previously available actions are still there, they just got moved around (well, except for the IMDb link, which was often broken, and therefore was replaced with a generic Google search). Note that the "Play locally" function is now called "Stream", which is more appropriate and concise;
 * The *Artist* details screen, to show the artist albums beneath its general information instead of on a separate tab;
 * The connection status indication (*connecting*, *not connected* or *connected*) has been improved and made explicit on the various screens;
 * The top app bar is collapsible where appropriate, and the remote section allows the background image to use up all the screen;
