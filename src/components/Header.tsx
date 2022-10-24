@@ -170,7 +170,7 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
-    title: "Github",
+    title: "GitHub",
     buttonType: regularButton,
     url: { url: "https://github.com/xbmc", type: "external" },
     dropdown: null,
