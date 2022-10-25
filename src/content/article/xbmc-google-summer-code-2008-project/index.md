@@ -1,9 +1,9 @@
 ---
-title: 'XBMC, a Google Summer of Code 2008 Project'
-date: 2008-03-16T03:00:00Z
+title: XBMC, a Google Summer of Code 2008 Project
+date: 2008-03-16T03:00:00.000Z
+author: Team XBMC
 tags:
   - Developer
-author: Team XBMC
 ---
 [XBMC](https://kodi.wiki/view/Main_Page) is participating in this year’s [Google Summer of Code (GSoC)](https://developers.google.com/open-source/gsoc/2008/?csw=1), which means that we are looking for creative college students who are skilled in the C++ programming language and would be interesting in getting paid by Google to work on new features for XBMC this summer.
 
@@ -14,10 +14,7 @@ author: Team XBMC
  **UPDATE!** The student application deadline has been extended to Monday, April 7, 2008.
 
  Links:  
- - [The XBMC GSoC 2008 Wiki Article](https://kodi.wiki/view/Google_Summer_of_Code_2008)  
- - [Google Summer of Code Sign-up](http://code.google.com/soc/2008/student_step1.html)  
- - [XBMC community forum discussion](https://forum.kodi.tv/showthread.php?tid=31986)
 
- Our [essay help online service](https://essaylab.org/) has already had some run. It was one of our original offers to do this. Along with actually writing your essay Essaylab.org is also able to check your ones.
-
- 
+* [The XBMC GSoC 2008 Wiki Article](https://kodi.wiki/view/Google_Summer_of_Code_2008)  
+* [Google Summer of Code Sign-up](http://code.google.com/soc/2008/student_step1.html)  
+* [XBMC community forum discussion](https://forum.kodi.tv/showthread.php?tid=31986)
