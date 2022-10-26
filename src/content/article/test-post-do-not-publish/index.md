@@ -21,6 +21,10 @@ then some text, then a single image:
 
 ![](/images/blog/kore-3.0-screenshot-3.webp)
 
+... and then a larger single image ...
+
+![](/images/blog/kore-3.0-screenshot-5-large.webp)
+
 ... and then a wider one:
 
 ![](/images/blog/kore-3.0-screenshot-4.webp)
