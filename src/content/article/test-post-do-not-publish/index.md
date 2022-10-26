@@ -13,6 +13,10 @@ Some images, to see if they render side-by-side:
 
 ![](/images/blog/kore-3.0-screenshot-2.webp)
 
+The same, but edited in markdown to have no newline between:
+
+![](/images/blog/kore-3.0-screenshot-1.webp) ![](/images/blog/kore-3.0-screenshot-2.webp)
+
 then some text, then a single image:
 
 ![](/images/blog/kore-3.0-screenshot-3.webp)
