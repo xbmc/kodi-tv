@@ -9,11 +9,11 @@ featured_image:
   title: Kodi-Wallpaper-3A-1080p_samfisher
   alt: Kodi-Wallpaper-3A-1080p_samfisher
 ---
-Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and last release was no exception. Even though tens of thousands of users were already testing the 15.0 version before release, as soon as million started using it, some problems we either did not think of or which we did not notice popped up. To counter some of these new issues, we’re bringing you this maintenance release candidate called 15.1 RC1 which has some additional fixes on top of the 15.0 release.
+Once a ‘final’ version is released some new bugs and/or problems usually appear out of nowhere, and last release was no exception. Even though tens of thousands of users were already testing the 15.0 version before release, as soon as millions started using it, some problems we either did not think of or which we did not notice popped up. To counter some of these new issues, we’re bringing you this maintenance release candidate called 15.1 RC1 which has some additional fixes on top of the 15.0 release.
 
-This is still a release candidate; once enough users have verified that these improvements work out well, and we did not introduce any major regressions, we’ll be releasing it as final 15.1 version. To be safe just backup your [userdata (online manual)](https://kodi.wiki/view/Userdata) first.
+This is still a release candidate; once enough users have verified that these improvements work out well, and we did not introduce any major regressions, we’ll be releasing it as a final 15.1 version. To be safe just backup your [userdata (online manual)](https://kodi.wiki/view/Userdata) first.
 
-It should be ok to just install this on top of your current Kodi 15.0 version. For the MySQL users out there; we never bump the database versions in our bugfix or maintenance releases – you can safely keep using it within your network.
+It should be okay to just install this on top of your current Kodi 15.0 version. For the MySQL users out there, we never bump the database versions in our bugfix or maintenance releases – you can safely keep using it within your network.
 
 We will continue to solve some remaining issues and release it as a next point release in the 15.x range.
 
@@ -59,7 +59,7 @@ More in depth information can be found through the following links about the 15.
 
 ### Windows 10
 
-Users who have installed Windows 10 should make sure that they have the correct video card drivers installed. We see a lot of problems that have to do with this reported on the forum. It’s not something we as team can do anything about. Make sure you have updated all drivers according to the manufacturers website in case you are experiencing problems. Windows 10 has just been released and as such is still in active development. Another thing that might be helpful is installing the special Kodi 15.1 DirectX11 build which is mentioned a bit further down.
+Users who have installed Windows 10 should make sure that they have the correct video card drivers installed. We see a lot of problems that have to do with this reported on the forum. It’s not something we as team can do anything about. Make sure you have updated all drivers according to the manufacturer's website in case you are experiencing problems. Windows 10 has just been released and as such is still in active development. Another thing that might be helpful is installing the special Kodi 15.1 DirectX11 build which is mentioned a bit further down.
 
 ### DirectX 11 upgrade (not included in 15.0 or 15.1)
 
