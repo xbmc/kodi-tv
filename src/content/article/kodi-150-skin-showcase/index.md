@@ -153,29 +153,50 @@ Not all skins support control using a mouse or touchscreens. This is intentional
 
 **Description** The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin’s design goals.
 
-  ![](https://mirrors.kodi.tv/addons/helix/skin.titan/icon.webp) **Name** Titan **Author** marcelveldt **Links**
+![](https://mirrors.kodi.tv/addons/helix/skin.titan/icon.png)
+
+**Name** Titan
+
+**Author** marcelveldt
+
+**Links**
+
 * [Kodi website](/addons)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=212) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/view/Add-on:Titan_MediaBrowser)
 * [Youtube showcase](https://www.youtube.com/watch?v=HbwG7ZuBrDU)
 
-  **Description** MediaPortal’s Titan skin ported to Kodi enriched with lot’s of features.
+**Description** MediaPortal’s Titan skin ported to Kodi enriched with lot’s of features.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.transparency/icon.webp) **Name** Transparency! **Author** ronie **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.transparency/icon.png)
+
+**Name** Transparency!
+
+**Author** ronie
+
+**Links**
+
 * [Kodi website](/addon/skins/transparency)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=115) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Transparency!)
 * [Youtube showcase](https://www.youtube.com/watch?v=45RRLaPErAQ)
 
-  **Description** What is Transparency!? Short answer: a fanart skin. The main goal of Transparency! is showing your fanart, fullscreen, in all of the views, all of the time. Besides this, it also tries to support every neat new feature Kodi has to offer. To save everyone a lot of time and trouble hacking the xml code themselves, all of these new features are already included in the skin, pre-configured and enabled by default (wherever possible).
+**Description** What is Transparency!? Short answer: a fanart skin. The main goal of Transparency! is showing your fanart, fullscreen, in all of the views, all of the time. Besides this, it also tries to support every neat new feature Kodi has to offer. To save everyone a lot of time and trouble hacking the xml code themselves, all of these new features are already included in the skin, pre-configured and enabled by default (wherever possible).
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.xperience1080/icon.webp) **Name** Xperience1080 **Author** Piers, xhaggi, ‘Black **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.xperience1080/icon.png)
+
+**Name** Xperience1080
+
+**Author** Piers, xhaggi, ‘Black
+
+**Links**
+
 * [Kodi website](/addon/skins/xperience1080)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=197) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Xperience1080)
 * [Youtube showcase](https://www.youtube.com/watch?v=2qF5OZmgd98)
 
-  **Description** Xperience1080 provides a clean, full-width, panel-based interface. Conclusion
+**Description** Xperience1080 provides a clean, full-width, panel-based interface. Conclusion
 
 - - -
 
