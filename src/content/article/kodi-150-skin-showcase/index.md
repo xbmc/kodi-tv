@@ -46,63 +46,112 @@ Not all skins support control using a mouse or touchscreens. This is intentional
 * [wiki page](https://kodi.wiki/view/Add-on:Arctic:_Zephyr)
 * [Youtube showcase](https://www.youtube.com/watch?v=rMzXmX4RCes)
 
-  **Description** Arctic: Zephyr is the third iteration of the Arctic skin created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.
+**Description** Arctic: Zephyr is the third iteration of the Arctic skin created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.back-row/icon.webp) **Name** Back-Row **Author** Sharpe **Links**
+![](https://mirror.netcologne.de/xbmc/addons/isengard/skin.back-row/icon.png)
+
+**Name** Back-Row
+
+**Author** Sharpe
+
+**Links**
+
 * [Kodi website](/show/skin.back-row)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=127) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/view/Add-on:Back_Row)
 * [Youtube showcase](https://www.youtube.com/watch?v=sm6CU5K6OWA)
 
-  **Description** Back Row is all about recapturing the magic of going to the cinema in your own home. The skin has been designed with this aim in mind but has taken on board many good ideas and suggestions from the XBMC community. Over the years it has become a polished theme that can be easily customised to suit your needs. So go grab some popcorn and fool around on the Back Row.
+**Description** Back Row is all about recapturing the magic of going to the cinema in your own home. The skin has been designed with this aim in mind but has taken on board many good ideas and suggestions from the XBMC community. Over the years it has become a polished theme that can be easily customised to suit your needs. So go grab some popcorn and fool around on the Back Row.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.blackglassnova/icon.webp) **Name** Black Glass Nova **Author** Tgx **Links**
+![](https://mirror.karneval.cz/pub/xbmc/addons/isengard/skin.blackglassnova/icon.png)
+
+**Name** Black Glass Nova
+
+**Author** Tgx
+
+**Links**
+
 * [Kodi website](/addon/skins/black-glass-nova)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=208) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/view/Add-on:Black_Glass_Nova)
 * [Youtube showcase](https://www.youtube.com/watch?v=dxbijwL5efQ)
 
-  **Description** Ported from MediaPortal, Black Glass Nova is an easy to use and fanart oriented skin designed for Full HD TV screens.
+**Description** Ported from MediaPortal, Black Glass Nova is an easy to use and fanart oriented skin designed for Full HD TV screens.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.cirrus.extended/icon.webp) **Name** Cirrus Extended **Author** paradix **Links**
+![](https://ftp.fau.de/xbmc/addons/isengard/skin.cirrus.extended/icon.png)
+
+**Name** Cirrus Extended
+
+**Author** paradix
+
+**Links**
+
 * [Kodi website](/show/skin.cirrus.extended)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=133) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/view/Add-on:Cirrus_Extended)
 * [Youtube showcase](https://www.youtube.com/watch?v=q2wj87BXxcU)
 
-  **Description** An modification on the original Cirrus Extended skin created by Butchabay
+**Description** A modification of the original Cirrus Extended skin created by Butchabay
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.mimic/icon.webp) **Name** Mimic **Author** bryanbrazil **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.mimic/icon.png)
+
+**Name** Mimic
+
+**Author** bryanbrazil
+
+**Links**
+
 * [Kodi website](/addon/skins/mimic)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=218) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Mimic)
 * [Youtube showcase](https://www.youtube.com/watch?v=RGfpbUWVkgQ)
 
-  **Description** Mimic: A Kodi skin with touches of reFocus and Aeon Nox. Many thanks to BigNoid and Jeroen.
+**Description** Mimic: A Kodi skin with touches of reFocus and Aeon Nox. Many thanks to BigNoid and Jeroen.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.nebula/icon.webp) **Name** Nebula **Author** Tgx **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.nebula/icon.png)
+
+**Name** Nebula
+
+**Author** Tgx
+
+**Links**
+
 * [Kodi website](/addon/skins/nebula)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=211) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Nebula)
 * [Youtube showcase](https://www.youtube.com/watch?v=NAg_XVAHmic)
 
-  **Description** Simple and full-featured light or dark color skin designed for Full HD TV screens.
+**Description** Simple and full-featured light or dark color skin designed for Full HD TV screens.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.neon/icon.webp) **Name** Neon **Author** kib, bumpaneer **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.neon/icon.png)
+
+**Name** Neon
+
+**Author** kib, bumpaneer
+
+**Links**
+
 * [Kodi website](/show/skin.neon)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=139) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Neon)
 * [Youtube showcase](https://www.youtube.com/watch?v=2yfWgOb2lyM)
 
-  **Description** Neon started as the excellent Night skin by mcborzu, inspiration from djh_ and liberal amounts of knowledge, code and graphics from Jezz_x’s work on Confluence – all rolled into one by stoli.
+**Description** Neon started as the excellent Night skin by mcborzu, inspiration from djh_ and liberal amounts of knowledge, code and graphics from Jezz_x’s work on Confluence – all rolled into one by stoli.
 
-  ![](https://mirrors.kodi.tv/addons/isengard/skin.rapier/icon.webp) **Name** Rapier **Author** Gade **Links**
+![](https://mirrors.kodi.tv/addons/isengard/skin.rapier/icon.png)
+
+**Name** Rapier
+
+**Author** Gade
+
+**Links**
+
 * [Kodi website](/addon/skins/rapier)
 * [sub-forum](https://forum.kodi.tv/forumdisplay.php?fid=120) (for questions and showing appreciation)
 * [wiki page](https://kodi.wiki/index.php?title=Add-on:Rapier)
 * [Youtube showcase](https://www.youtube.com/watch?v=CZQWrJYgTa0)
 
-  **Description** The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin’s design goals.
+**Description** The goal is to provide a simple to use but clean and elegant interface that focuses on efficiency when browsing your media. Important considerations are put on usability, performance, and providing the user with flexibility when it comes to customization. Rapier tries to support all the latest features Kodi has to offer as long as it fits in with the skin’s design goals.
 
   ![](https://mirrors.kodi.tv/addons/helix/skin.titan/icon.webp) **Name** Titan **Author** marcelveldt **Links**
 * [Kodi website](/addons)
