@@ -7,8 +7,8 @@ tags:
   - Developer
 featured_image:
   src: /images/blog/skip1s.webp
-  title: Image of Flirc's Skip1s Remote
-  alt: Image of Flirc's Skip1s remote, sitting on its box, in front of an open
+  title: Image of Flirc's Skip 1s Remote
+  alt: Image of Flirc's Skip 1s remote, sitting on its box, in front of an open
     laptop.
 ---
 This is perhaps a little short notice, but Jason from Flirc - a long-time friend of Kodi - is hosting an ask-me-anything on Cordcutters on 9th November 2022. We just wanted to let you know, and give him the chance to say a few words about what's going on.
