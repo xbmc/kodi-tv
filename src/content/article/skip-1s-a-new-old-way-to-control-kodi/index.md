@@ -15,7 +15,7 @@ This is perhaps a little short notice, but Jason from Flirc - a long-time friend
 
 - - -
 
-[I originally made Flirc, my first product](https://kodi.tv/article/flirc-new-old-way-control-xbmc/), because I was frustrated that I couldn't use our same television remote control with Kodi. That worked really well for a long time, but, as the years passed, our Kodi boxes evolved, and I became increasingly irritated with our growing number of remote controls and the state of universal remotes. I thought I could do it better.
+[I originally made Flirc, my first product](https://kodi.tv/article/flirc-new-old-way-control-xbmc/), because I was frustrated that I couldn't use our same television remote control with Kodi. That worked really well for a long time, but, as the years passed, and our Kodi boxes evolved, I became increasingly irritated with our growing number of remote controls and the state of universal remotes. I thought I could do it better.
 
 My vision for our first remote always favored a Kodi-esque environment - so much so that half our team now is comprised of Kodi leaders. Nate Thomas, who helped lead Kodi's growth, and Sam Fisher, an integral part of visual design and Kodi animations, joined me on what would be a three year journey.
 
