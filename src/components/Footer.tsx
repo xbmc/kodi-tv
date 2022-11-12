@@ -214,6 +214,16 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noreferrer"
+                        href="https://mastodon.cloud/@Kodi"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Mastodon
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
                         href="/rss.xml"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
