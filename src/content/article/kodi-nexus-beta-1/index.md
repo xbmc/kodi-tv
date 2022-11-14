@@ -45,10 +45,10 @@ We also want to thank all those users who provide endless support on the forums,
 * Fix bookmark resume for .strm files ([link](https://github.com/xbmc/xbmc/pull/21830)).
 * Fix `jsonrpc Player.GetProperties` response when playback from a widget is done ([link](https://github.com/xbmc/xbmc/pull/21829)).
 * Fix race condition in `CJobmanager` causing crashes ([link](https://github.com/xbmc/xbmc/pull/21841)) - *Sidenote: **@neo1973** is our newest team member, welcome to the team!*
-* Application refactors. A large effort by **@notspiff** refactoring some very old code into more manageable chunks .
-* Assorted improvements found by static analysis tools. Thanks **@Rechi** .
+* Application refactors. A large effort by **@notspiff** refactoring some very old code into more manageable chunks.
+* Assorted improvements found by static analysis tools. Thanks **@Rechi**.
 * Write correct duration to tracks in M3U playlists ([link](https://github.com/xbmc/xbmc/pull/21940)).
-* Improvements to the header inclusions for a lot of areas of Kodi. This is a step to improve build times in general that mostly aims to reduce the number of components rebuilt when changes were made in a few extremely common objects. Thanks **@notspiff**, **@ksooo** .
+* Improvements to the header inclusions for a lot of areas of Kodi. This is a step to improve build times in general that mostly aims to reduce the number of components rebuilt when changes were made in a few extremely common objects. Thanks **@notspiff**, **@ksooo**.
 * **@rubpa** has diagnosed and fixed a race condition in picture thumbnail loading ([link](https://github.com/xbmc/xbmc/pull/22082)).
 
 **Input**
@@ -63,7 +63,7 @@ We also want to thank all those users who provide endless support on the forums,
 
 * **Unix based platforms**
 
-  * Android and Apple platforms now ship with Python 3.11 built in. Python3.11 is a very notable release due to considerable improvements in CPython regarding speed. Checkout the [python release notes](https://docs.python.org/3/whatsnew/3.11.html) for more info.
+  * Android and Apple platforms now ship with Python 3.11 built in. Python 3.11 is a very notable release due to considerable improvements in CPython regarding speed. Checkout the [python release notes](https://docs.python.org/3/whatsnew/3.11.html) for more info.
 * **Android**
 
   * Android builds will now be built as `RelwithDebinfo` by default for our Jenkins builds. This means nightlies and most other Android builds built by PRs will be with the more optimised `RelwithDebinfo` instead of `Debug`. This was done as some issues being investigated by devs was found to be purely cause by the slower Debug build types.
@@ -97,13 +97,12 @@ We also want to thank all those users who provide endless support on the forums,
 **Skinning**
 
 * Added a new infobool `System.Setting(hideunwatchedepisodethumbs)` ([link](https://github.com/xbmc/xbmc/pull/21874)).
-
 * **Estuary specifics**
 
   * PVR Channel Manager redesign.
   * Click on PVR Home screen section icon now opens Channels window again.
   * Some smaller changes to the PVR OSD.
-  * Extend music context menu functionality, add ability to play albums directly from home screen .
+  * Extend music context menu functionality, add ability to play albums directly from home screen.
   * Extend video context menu functionality.
 
 **Subtitles**
