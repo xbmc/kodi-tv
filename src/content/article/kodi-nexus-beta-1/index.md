@@ -19,88 +19,101 @@ We also want to thank all those users who provide endless support on the forums,
 ### **Release notes**
 
 **Addons**
-- Assorted binary addon fixes/updates - imagedecoder, screensaver, vis. Thanks to @AlwinEsch as always for the huge amount of work supporting Kodi's addon interfaces
-- Fix/refactor "multi instance" GUI settings for addons. This work carries on from the PVR binary addons being able to have multiple backend instances ([link](https://github.com/xbmc/xbmc/pull/21890))
-- New id3 tag metadata stream support for PVR Radio addons ([link](https://github.com/xbmc/xbmc/pull/21424))
-- Add new `SetVideoResolution` with max resolution ([link](https://github.com/xbmc/xbmc/pull/21319))
+
+* Assorted binary addon fixes/updates - imagedecoder, screensaver, vis. Thanks to **@AlwinEsch** as always for the huge amount of work supporting Kodi's addon interfaces.
+* Fix/refactor "multi instance" GUI settings for addons. This work carries on from the PVR binary addons being able to have multiple backend instances ([link](https://github.com/xbmc/xbmc/pull/21890)).
+* New id3 tag metadata stream support for PVR Radio addons ([link](https://github.com/xbmc/xbmc/pull/21424)).
+* Add new `SetVideoResolution` with max resolution ([link](https://github.com/xbmc/xbmc/pull/21319)).
 
 **Database**
-- Clean DB was previously broken in earlier Nexus builds. This has now been fixed by @enen92 ([link](https://github.com/xbmc/xbmc/pull/21980))
+
+* Clean DB was previously broken in earlier Nexus builds. This has now been fixed by **@enen92** ([link](https://github.com/xbmc/xbmc/pull/21980)).
 
 **Disc**
-- Update libbluray to 1.3.2 for all platforms ([link](https://github.com/xbmc/xbmc/pull/21809))
-- Fix a "double free" issue when ejecting a disk ([link](https://github.com/xbmc/xbmc/pull/21903)) - _Sidenote: thank you @prahal for your first contribution to Kodi core._
-- Handle `BD_EVENT_DISCONTINUITY` ([link](https://github.com/xbmc/xbmc/pull/21918))
+
+* Update libbluray to 1.3.2 for all platforms ([link](https://github.com/xbmc/xbmc/pull/21809)).
+* Fix a "double free" issue when ejecting a disk ([link](https://github.com/xbmc/xbmc/pull/21903)) - *Sidenote: thank you **@prahal** for your first contribution to Kodi core.*
+* Handle `BD_EVENT_DISCONTINUITY` ([link](https://github.com/xbmc/xbmc/pull/21918)).
 
 **Filesystem**
-- UPNP fixes for picture handling ([link](https://github.com/xbmc/xbmc/pull/21823))
-- First time contributor @ihipop improved support for subtitle formats when accessed via UPNP DLNA ([link](https://github.com/xbmc/xbmc/pull/22038))
+
+* UPNP fixes for picture handling ([link](https://github.com/xbmc/xbmc/pull/21823)).
+* First time contributor **@ihipop** improved support for subtitle formats when accessed via UPNP DLNA ([link](https://github.com/xbmc/xbmc/pull/22038)).
 
 **General**
-- Fix bookmark resume for .strm files ([link](https://github.com/xbmc/xbmc/pull/21830))
-- Fix `jsonrpc Player.GetProperties` response when playback from a widget is done ([link](https://github.com/xbmc/xbmc/pull/21829))
-- Fix race condition in `CJobmanager` causing crashes ([link](https://github.com/xbmc/xbmc/pull/21841)) - _Sidenote: @neo1973 is our newest team member, welcome to the team!_
-- Application refactors. A large effort by @notspiff refactoring some very old code into more manageable chunks 
-- Assorted improvements found by static analysis tools. Thanks @Rechi 
-- Write correct duration to tracks in M3U playlists ([link](https://github.com/xbmc/xbmc/pull/21940))
-- Improvements to the header inclusions for a lot of areas of Kodi. This is a step to improve build times in general that mostly aims to reduce the number of components rebuilt when changes were made in a few extremely common objects. Thanks @notspiff, @ksooo 
-- @rubpa has diagnosed and fixed a race condition in picture thumbnail loading. ([link](https://github.com/xbmc/xbmc/pull/22082))
+
+* Fix bookmark resume for .strm files ([link](https://github.com/xbmc/xbmc/pull/21830)).
+* Fix `jsonrpc Player.GetProperties` response when playback from a widget is done ([link](https://github.com/xbmc/xbmc/pull/21829)).
+* Fix race condition in `CJobmanager` causing crashes ([link](https://github.com/xbmc/xbmc/pull/21841)) - *Sidenote: **@neo1973** is our newest team member, welcome to the team!*
+* Application refactors. A large effort by **@notspiff** refactoring some very old code into more manageable chunks .
+* Assorted improvements found by static analysis tools. Thanks **@Rechi** .
+* Write correct duration to tracks in M3U playlists ([link](https://github.com/xbmc/xbmc/pull/21940)).
+* Improvements to the header inclusions for a lot of areas of Kodi. This is a step to improve build times in general that mostly aims to reduce the number of components rebuilt when changes were made in a few extremely common objects. Thanks **@notspiff**, **@ksooo** .
+* **@rubpa** has diagnosed and fixed a race condition in picture thumbnail loading ([link](https://github.com/xbmc/xbmc/pull/22082)).
 
 **Input**
-- Mouse cleanup ([link](https://github.com/xbmc/xbmc/pull/21876))
+
+* Mouse cleanup ([link](https://github.com/xbmc/xbmc/pull/21876)).
 
 **network**
-- Another first time contributor @jjlin added support for HTTPS proxies ([link](https://github.com/xbmc/xbmc/pull/21966))
+
+* Another first time contributor **@jjlin** added support for HTTPS proxies ([link](https://github.com/xbmc/xbmc/pull/21966)).
 
 **Platform Specific**
 
-- **Unix based platforms**
-  - Android and Apple platforms now ship with Python 3.11 built in. Python3.11 is a very notable release due to considerable improvements in CPython regarding speed. Checkout the [python release notes](https://docs.python.org/3/whatsnew/3.11.html ) for more info 
+* **Unix based platforms**
 
-- **Android**
-  - Android builds will now be built as `RelwithDebinfo` by default for our Jenkins builds. This means nightlies and most other Android builds built by PRs will be with the more optimised `RelwithDebinfo` instead of `Debug`. This was done as some issues being investigated by devs was found to be purely cause by the slower Debug build types.
-  - A number of improvements by @joseluismarti
-  - More class parameters have been added to allow more corner cases for starting android apps (https://github.com/xbmc/xbmc/pull/21922)
+  * Android and Apple platforms now ship with Python 3.11 built in. Python3.11 is a very notable release due to considerable improvements in CPython regarding speed. Checkout the [python release notes](https://docs.python.org/3/whatsnew/3.11.html) for more info.
+* **Android**
 
-- **macOS**
-  - Prevent crash on exit (https://github.com/xbmc/xbmc/pull/21853)
+  * Android builds will now be built as `RelwithDebinfo` by default for our Jenkins builds. This means nightlies and most other Android builds built by PRs will be with the more optimised `RelwithDebinfo` instead of `Debug`. This was done as some issues being investigated by devs was found to be purely cause by the slower Debug build types.
+  * A number of improvements by **@joseluismarti.**
+  * More class parameters have been added to allow more corner cases for starting android apps ([link](https://github.com/xbmc/xbmc/pull/21922)).
+* **macOS**
 
-- **TVOS**
-  - Sensitivity on the Remote has been reduced, and the tooltip and setting has been made more intuitive by @sy6sy2 
+  * Prevent crash on exit ([link](https://github.com/xbmc/xbmc/pull/21853)).
+* **TVOS**
 
-- **Windows**
-  - Remember window position of Kodi when run in windowed mode (https://github.com/xbmc/xbmc/pull/21820)
-  - First time contributor @sryze fixed a cmake warning for windows building (https://github.com/xbmc/xbmc/pull/22026)
-  - A new setting to allow setting the peak luminance for a display (https://github.com/xbmc/xbmc/pull/21973)
-  - Fixes to slow python usage on UWP platforms (eg Xbox) (https://github.com/xbmc/xbmc/pull/21997)
+  * Sensitivity on the Remote has been reduced, and the tooltip and setting has been made more intuitive by **@sy6sy2.**
+* **Windows**
+
+  * Remember window position of Kodi when run in windowed mode ([link](https://github.com/xbmc/xbmc/pull/21820)).
+  * First time contributor **@sryze** fixed a cmake warning for windows building ([link](https://github.com/xbmc/xbmc/pull/22026)).
+  * A new setting to allow setting the peak luminance for a display ([link](https://github.com/xbmc/xbmc/pull/21973)).
+  * Fixes to slow python usage on UWP platforms (eg Xbox) ([link](https://github.com/xbmc/xbmc/pull/21997)).
 
 **PVR**
-- Assorted EPG search fixes
-- Added possibility to browse available PVR client add-ons from PVR settings
-- Channels and Recordings now can be sorted by provider
-- Some fixes and performance improvements
-- Large refactoring improvements.
+
+* Assorted EPG search fixes.
+* Added possibility to browse available PVR client add-ons from PVR settings.
+* Channels and Recordings now can be sorted by provider.
+* Some fixes and performance improvements.
+* Large refactoring improvements.
 
 **Favourites**
-- Replace favourites dialog with new favourites window, providing different views and other enhancements
+
+* Replace favourites dialog with new favourites window, providing different views and other enhancements.
 
 **Skinning**
-- Added a new infobool `System.Setting(hideunwatchedepisodethumbs)` (https://github.com/xbmc/xbmc/pull/21874)
 
-- **Estuary**
-- PVR Channel Manager redesign
-- Click on PVR Home screen section icon now opens Channels window again
-- Some smaller changes to the PVR OSD
-- Extend music context menu functionality, add ability to play albums directly from home screen 
-- Extend video context menu functionality
+* Added a new infobool `System.Setting(hideunwatchedepisodethumbs)` ([link](https://github.com/xbmc/xbmc/pull/21874)).
+
+* **Estuary specifics**
+
+  * PVR Channel Manager redesign.
+  * Click on PVR Home screen section icon now opens Channels window again.
+  * Some smaller changes to the PVR OSD.
+  * Extend music context menu functionality, add ability to play albums directly from home screen .
+  * Extend video context menu functionality.
 
 **Subtitles**
-- Fix for 3D MVC subtitles not appearing correct when frame packed (https://github.com/xbmc/xbmc/pull/17317)
+
+* Fix for 3D MVC subtitles not appearing correct when frame packed ([link](https://github.com/xbmc/xbmc/pull/17317)).
 
 **Video**
-- Inputstream support for AV1 codec (https://github.com/xbmc/xbmc/pull/21390)
-- Don't attempt to use hardware AV1 decode if forcing software decoding. This fixes AV1 thumbnail generation on devices that don't support AV1 hardware decoding (https://github.com/xbmc/xbmc/pull/21834)
 
+* Inputstream support for AV1 codec ([link](https://github.com/xbmc/xbmc/pull/21390)).
+* Don't attempt to use hardware AV1 decode if forcing software decoding. This fixes AV1 thumbnail generation on devices that don't support AV1 hardware decoding ([link](https://github.com/xbmc/xbmc/pull/21834)).
 
 Thank you once again to everyone who has contributed to this release.
 
