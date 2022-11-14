@@ -87,7 +87,7 @@ We also want to thank all those users who provide endless support on the forums,
 * Assorted EPG search fixes.
 * Added possibility to browse available PVR client add-ons from PVR settings.
 * Channels and Recordings now can be sorted by provider.
-* Some fixes and performance improvements.
+* Various fixes and performance improvements.
 * Large refactoring improvements.
 
 **Favourites**
