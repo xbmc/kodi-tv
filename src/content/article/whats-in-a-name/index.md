@@ -10,7 +10,7 @@ featured_image:
   title: '"Next Big Thing" - Image by Gerd Altmann from Pixabay.'
   src: /images/blog/place-name-sign-1647341_1920.jpg
 ---
-... "that which we call a rose by any other name would smell just as sweet" - okay, Shakespeare maybe had a point, but, for obvious reasons, he didn't know anything about software. For us, names matter because they usually herald a new release, a major change, and, yes, lots of lovely, cuddly new features.
+After all, "that which we call a rose by any other name would smell just as sweet" - okay, Shakespeare maybe had a point, but, for obvious reasons, he didn't know anything about software. For us, names matter because they usually herald a new release, a major change, and, yes, lots of lovely, cuddly new features.
 
 So, as is traditional as we move through our current release cycle - Kodi v20 "Nexus" recently entered beta - it's time to announce the name for what will become Kodi v21. As usual, we ran a forum post for suggestions, and we then worked through them to remove the obviously-profane, legislatively-dubious or downright impossible to type quickly, and then put it to a Kodi Team vote.
 
