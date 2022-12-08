@@ -1,6 +1,9 @@
 ---
 title: What's In A Name?
 date: 2022-12-08T17:55:59.711Z
+author: Prof Yaffle
+tags:
+  - Community
 featured_image:
   alt: Image of a place name sign, yellow, blue metal frame, with black lettering
     spelling out "Next Big Thing". Image by Gerd Altmann from Pixabay.
