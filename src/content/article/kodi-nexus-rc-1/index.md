@@ -12,8 +12,6 @@ featured_image:
     artefacts surround it all - a background of computer noise. At the bottom, a
     solitary purple section of the circle, "Kodi Nexus Release Candidate".
 ---
-![Kodi_Splash_v20 0_Nexus_RC_1080p](https://raw.githubusercontent.com/xbmc/xbmc/master/media/splash.jpg)
-
 Here we go folks, ramping things up and we have the first Release Candidate (RC) for Kodi "Nexus".
 
 As always, thanks go out to all contributors for their work. We are nearing 4,000 commits since v19 "Matrix" was first released on February 19th 2021. For everyone that has contributed, both those in Team Kodi and all other devs that choose to roll up their sleeves and fix an issue. Everyone appreciates you for making Kodi better.
