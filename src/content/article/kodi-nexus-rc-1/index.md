@@ -73,7 +73,7 @@ We strongly advise users to always update to the latest test releases if you are
   * Add speech to text service implementation (usable from keyboard dialog)
 * **Windows and Xbox**
 
-  * Kodi RC 1 has been submitted to the Microsoft Store as an update. Users should start receiving this shortly. You may have to uninstall and reinstall your Xbox version, because the OS is not updating cleanly correctly.
+  * Kodi RC 1 has been submitted to the Microsoft Store as an update. Users should start receiving this shortly. Be aware that you may have to uninstall and reinstall your Xbox version, because the OS is not updating cleanly.
 
 **Skinning**
 
