@@ -1,7 +1,7 @@
 ---
 title: Kodi Nexus RC 1
 date: 2022-12-15T10:21:05.423Z
-author: Prof Yaffle
+author: Team Kodi
 tags:
   - Developer
   - Prerelease
