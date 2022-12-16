@@ -25,7 +25,7 @@ releases:
       - name: iOS (64 Bit)
         url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_20.0-0~rc1_iphoneos-arm64.deb?https=1
   - name: Development Builds
-    title: Kodi v19 & v20 Nightly
+    title: Kodi v19, v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -43,4 +43,6 @@ releases:
       - name: v19 iOS (64 Bit)
         url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/Matrix/
       - name: v20 iOS (64 Bit)
+        url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/Nexus/
+      - name: v21 iOS (64 Bit)
         url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/master/
