@@ -30,7 +30,7 @@ releases:
       - name: Installer (32BIT)
         url: https://mirrors.kodi.tv/releases/windows/win32/kodi-20.0-Nexus_rc1-x86.exe?https=1
   - name: Development Builds
-    title: Kodi v19 & v20 Nightly
+    title: Kodi v19, v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -50,6 +50,10 @@ releases:
       - name: v19 Nightly Installer (32BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win32/Matrix/
       - name: v20 Nightly Installer (64BIT)
-        url: https://mirrors.kodi.tv/nightlies/windows/win64/master/
+        url: https://mirrors.kodi.tv/nightlies/windows/win64/Nexus/
       - name: v20 Nightly Installer (32BIT)
+        url: https://mirrors.kodi.tv/nightlies/windows/win32/Nexus/
+      - name: v21 Nightly Installer (64BIT)
+        url: https://mirrors.kodi.tv/nightlies/windows/win64/master/
+      - name: v21 Nightly Installer (32BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win32/master/
