@@ -26,7 +26,7 @@ releases:
       - url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-20.0-Nexus_rc1-x86_64.dmg?https=1
         name: Installer (64BIT)
   - name: Development Builds
-    title: Kodi v19 & v20 Nightly
+    title: Kodi v19, v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -44,4 +44,6 @@ releases:
       - name: v19 Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/osx/x86_64/Matrix/
       - name: v20 Installer (64BIT)
+        url: https://mirrors.kodi.tv/nightlies/osx/x86_64/Nexus/
+      - name: v21 Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/osx/x86_64/master/
