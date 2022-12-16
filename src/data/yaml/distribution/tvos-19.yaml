@@ -23,7 +23,7 @@ releases:
       - name: tvOS
         url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_20.0-0~rc1-tvos.deb?https=1
   - name: Development Builds
-    title: Kodi v19 & v20 Nightly
+    title: Kodi v19, v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -41,4 +41,6 @@ releases:
       - name: v19 tvOS
         url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Matrix/
       - name: v20 tvOS
+        url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Nexus/
+      - name: v21 tvOS
         url: https://mirrors.kodi.tv/nightlies/darwin/tvos/master/
