@@ -57,8 +57,8 @@ We strongly advise users to always update to the latest test releases if you are
   * **@popcornmix** has fixed an issue for DRMPrime on Linux. This allows hardware formats like Broadcom 8-bit (SAND128) and 10-bit (P030) can now be correctly rendered with the latest Mesa.
 * **macOS**
 
-  * A fix to allow Kodi to execute on MacOS 10.13 has been made. We would still strongly suggest users use a newer version (10.14+), however this allows users still on 10.13 to run Kodi.
-  * A regression for MacOS reading actual disks was resolved by **@enen92** . As part of this, the `libcdio` driver was also fixed to enable disk usage on Apple Silicon native builds.
+  * A fix to allow Kodi to execute on macOS 10.13 has been made. We would still strongly suggest users use a newer version (10.14+), however this allows users still on 10.13 to run Kodi.
+  * A regression for macOS reading actual disks was resolved by **@enen92** . As part of this, the `libcdio` driver was also fixed to enable disk usage on Apple Silicon native builds.
 * **Windows**
 
   * A fix to a crash that only occurred on Windows Debug builds has been resolved. This didn't affect users of the actual RC1 release, but Windows devs who would attempt to execute Kodi as a Debug build were quickly halted.
