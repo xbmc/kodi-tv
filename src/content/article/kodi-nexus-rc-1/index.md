@@ -43,16 +43,16 @@ We strongly advise users to always update to the latest test releases if you are
 
 **Games**
 
-* @lrusak fixed a crash that was introduced into Beta1. Some Linux users were finding Kodi was crashing on startup ([link](https://github.com/xbmc/xbmc/pull/22185)).
-* @lrusak again fixed a black screen issue with standalone games ([link](https://github.com/xbmc/xbmc/pull/22195)).
+* **@lrusak** fixed a crash that was introduced into Beta1. Some Linux users were finding Kodi was crashing on startup ([link](https://github.com/xbmc/xbmc/pull/22185)).
+* **@lrusak** again fixed a black screen issue with standalone games ([link](https://github.com/xbmc/xbmc/pull/22195)).
 
 **General**
 
 * Add support for action "play" to many more items such as widgets/favourites on the homescreen ([link](https://github.com/xbmc/xbmc/pull/22129)).
 * Fix a regression with duplicate/incorrect context menu entries ([link](https://github.com/xbmc/xbmc/pull/22179)).
-* @ksooo fixed another regression for addons that caused the "continue watching" context menu not to show the resume time ([link](https://github.com/xbmc/xbmc/pull/22166)).
-* @repojohnray has been providing a number of fixes/cleanups lately that are targeting memory leaks. Subtitles and a number of Linux specific areas have had improvements made to them.
-* A new contributer @larrignon has fixed a logging message that occurred when an empty directory was searched by scrapers ([link](https://github.com/xbmc/xbmc/pull/22173)).
+* **@ksooo** fixed another regression for addons that caused the "continue watching" context menu not to show the resume time ([link](https://github.com/xbmc/xbmc/pull/22166)).
+* **@repojohnray** has been providing a number of fixes/cleanups lately that are targeting memory leaks. Subtitles and a number of Linux specific areas have had improvements made to them.
+* A new contributer **@larrignon** has fixed a logging message that occurred when an empty directory was searched by scrapers ([link](https://github.com/xbmc/xbmc/pull/22173)).
 
 **Music**
 
@@ -63,11 +63,11 @@ We strongly advise users to always update to the latest test releases if you are
 
 * **Android**
 
-  * @joseluismarti has contributed a number of cleanups/fixes for Android.
-  * @a1rwulf bumped our SDK target to 31. Along with a number of fixes @joseluismarti contributed over the past few months, this has allowed us to finally do a release to the Google Play Store. RC1 has been released to the Testing channel, and we'll ramp up deployment over the next week or so to more users in the Testing channel
+  * **@joseluismarti** has contributed a number of cleanups/fixes for Android.
+  * **@a1rwulf** bumped our SDK target to 31. Along with a number of fixes **@joseluismarti** contributed over the past few months, this has allowed us to finally do a release to the Google Play Store. RC1 has been released to the Testing channel, and we'll ramp up deployment over the next week or so to more users in the Testing channel
 * **macOS**
 
-  * @enen92 has made a number of fixes to what is know as the macOS native windowing implementation. This won't affect too many people right now, as the default release uses SDL windowing, however anyone building the native macOS ARM version (or using the test builds) should see a number of improvements around windowing.
+  * **@enen92** has made a number of fixes to what is know as the macOS native windowing implementation. This won't affect too many people right now, as the default release uses SDL windowing, however anyone building the native macOS ARM version (or using the test builds) should see a number of improvements around windowing.
   * Add speech to text service implementation (usable from keyboard dialog)
 * **Windows and Xbox**
 
@@ -75,7 +75,7 @@ We strongly advise users to always update to the latest test releases if you are
 
 **Skinning**
 
-* Fix a crash if an include has an empty condition. This was reported by @jurialmunkey and was an effect when a PARAM was used in the include condition that may have been empty ([link](https://github.com/xbmc/xbmc/pull/22146)).
+* Fix a crash if an include has an empty condition. This was reported by **@jurialmunkey** and was an effect when a PARAM was used in the include condition that may have been empty ([link](https://github.com/xbmc/xbmc/pull/22146)).
 * Fix a crash that could occur in the event of a textbox that was too small for a font used, and therefore the text would not fit ([link](https://github.com/xbmc/xbmc/pull/22151)).
 
   **Estuary Specifics**
@@ -93,7 +93,7 @@ We strongly advise users to always update to the latest test releases if you are
 
 **Teletext**
 
-* @enen92 has made a few fixes for teletext usage. A crash and a usability issue were resolved ([link](https://github.com/xbmc/xbmc/pull/22161)).
+* **@enen92** has made a few fixes for teletext usage. A crash and a usability issue were resolved ([link](https://github.com/xbmc/xbmc/pull/22161)).
 * Another crash was resolved ([link](https://github.com/xbmc/xbmc/pull/22155)).
 * Flashing teletext was blinking at an extremely fast pace. This fixes an regression introduced by a large core change regarding time related functions ([link](https://github.com/xbmc/xbmc/pull/22164)).
 
