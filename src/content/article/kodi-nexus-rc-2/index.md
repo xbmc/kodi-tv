@@ -22,13 +22,14 @@ We also want to thank all those users who provide endless support on the forums,
 
 A note for any users who are running Kodi on Android 11+. Android has had a number of large permission changes that we, and all apps released on the Google Play Store, have had to adhere to. The major change is permissions to locally attached storage (i.e. USB disks). If you use USB storage for your media on these versions of Android, after first run do the following to allow Kodi access to these disks:
 
-Nvidia Shield - <https://nvidia.custhelp.com/app/answers/detail/a_id/5303/kw/permission>
+Go to Android *Settings*
 
-1. Go to Android *Settings*
-2. *Apps* and then "*See all apps*" (or just straight to *Kodi* if it's in *Recently Opened*)
-3. Tap on *Kodi*
-4. Go to *Permissions*
-5. *Files and media,* and change to *Allow all the time*
+1. *Apps* and then "*See all apps*" (or just straight to *Kodi* if it's in *Recently Opened*)
+2. Tap on *Kodi*
+3. Go to *Permissions*
+4. *Files and media,* and change to *Allow all the time*
+
+We know many people use Nvidia Shield devices, so here's a specific link to [Nvidia customer help](https://nvidia.custhelp.com/app/answers/detail/a_id/5303/kw/permission).
 
 ### **Add-on Devs**
 
