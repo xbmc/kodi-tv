@@ -78,5 +78,5 @@ As always, and we are quite confident in its stability - however, always backup 
 
 If you want to take the plunge, you can get RC 2 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. 
 
-If you wish you can see all the gory details of what's changed between v20 RC 2 and RC 1 [here](https://github.com/xbmc/xbmc/compare/20.0b1-Nexus...20.0rc1-Nexus).
+If you wish you can see all the gory details of what's changed between v20 RC 2 and RC 1 [here](https://github.com/xbmc/xbmc/compare/20.0rc1-Nexus...20.0rc2-Nexus).
 For further information on changes for the entire Nexus release so far, we have highlighted most of the major features/changes in the previous Alpha/Beta blogs, go to our website to catch up on them [here](https://kodi.tv/blog)
