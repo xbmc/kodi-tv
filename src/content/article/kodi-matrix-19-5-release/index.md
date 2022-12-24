@@ -22,8 +22,6 @@ As this is a point release, there are no major changes since the previous versio
 
 If you're interested, you can read the merged PRs [here](https://github.com/xbmc/xbmc/pulls?q=is%3Apr+sort%3Aupdated-desc+milestone%3A%22Matrix+19.5%22+label%3A%22v19+Matrix%22+). If you want to read back on the full history of v19 itself, or of previous versions, you can find the corresponding articles in the relevant [blog posts](https://kodi.tv/blog/tag/release).
 
-This release will NOT be released on either the Google Play store, or the Microsoft App store. With v20 "Nexus" Final extremely close, as well as difficulties with the Google Play store submission for v19, there is no possibility to do store submissions for 19.5. As always, we provide the packages for all platforms on the Kodi mirror website if you wish to install on your device.
-
 **Android/Windows Store Deployment**
 
 For Android specifically, please note that we are unable to provide this update via Google Play. An updated Google requirement demands that apps now target API level 31 (Android 12) as a minimum, while Kodi v19 targets API level 29 (Android 10). 
