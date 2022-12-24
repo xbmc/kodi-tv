@@ -24,8 +24,10 @@ If you're interested, you can read the merged PRs [here](https://github.com/xbmc
 
 This release will NOT be released on either the Google Play store, or the Microsoft App store. With v20 "Nexus" Final extremely close, as well as difficulties with the Google Play store submission for v19, there is no possibility to do store submissions for 19.5. As always, we provide the packages for all platforms on the Kodi mirror website if you wish to install on your device.
 
-**Android Deployment**
+**Android/Windows Store Deployment**
 
-Please note that we are currently unable to provide this update via the Google Play Store. An updated Google requirement demands that apps now target API level 31 (Android 12) as a minimum, while Kodi v19 targets API level 29 (Android 10). 
+For Android specifically, please note that we are unable to provide this update via Google Play. An updated Google requirement demands that apps now target API level 31 (Android 12) as a minimum, while Kodi v19 targets API level 29 (Android 10). 
 
-As such, we're unable to upload 19.5 to the Play Store, although 19.3 will remain available until 20.0 is available for the masses. However, for those who want the new release, 19.5 can be downloaded from our servers and installed manually
+As such, we're unable to upload 19.5 to the Play Store, although 19.3 will remain available until 20.0 is available for the masses. However, for those who want the new release, 19.5 can be downloaded from our servers and installed manually.
+
+More than that, though, for both the Play Store and Microsoft App store, there's simply too much throwaway work. With the final release of v20 "Nexus" extremely close, as well as difficulties with the Google Play store submission for v19, there is no practical possibility to do store submissions for 19.5 - as such, this release will NOT be released on either Google Play or the Microsoft App store. As always, we provide the packages for all platforms on the Kodi mirror website if you wish to install them on your device.
