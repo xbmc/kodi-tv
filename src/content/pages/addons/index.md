@@ -16,4 +16,3 @@ The add-ons available may be different depending on what version of Kodi you hav
 
 - [Kodi Nexus (version 20)](/addons/nexus/)
 - [Kodi Matrix (version 19)](/addons/matrix/)
-- [Kodi Leia (version 18)](/addons/leia/)

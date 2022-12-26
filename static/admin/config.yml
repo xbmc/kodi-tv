@@ -212,17 +212,6 @@ collections:
             summary: "{{addonid}}"
             fields:
               - { name: "addonid", label: "Add-on ID", widget: "string" }
-      - name: "leiafeaturedlist"
-        label: "Leia Featured Add-ons List"
-        file: "src/data/addons/leia/featured.yaml"
-        fields:
-          - name: "addons"
-            label: "Add-ons"
-            label_singular: "Add-on"
-            widget: "list"
-            summary: "{{addonid}}"
-            fields:
-              - { name: "addonid", label: "Add-on ID", widget: "string" }
   - name: "sponsors"
     label: "Sponsors"
     label_singular: "Sponsor"

@@ -74,12 +74,6 @@ const mainMenu: MenuEntry[] = [
         description:
           "Add-ons for Kodi 19, the most recent previous version of Kodi.",
       },
-      {
-        title: "Leia Add-ons",
-        url: { url: "/addons/leia", type: "internal" },
-        icon: CloudDownloadIcon,
-        description: "Add-ons for Kodi 18, the older version of Kodi.",
-      },
     ],
   },
   {
