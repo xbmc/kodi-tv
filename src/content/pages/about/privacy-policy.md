@@ -25,7 +25,7 @@ We learn information about you when:
 - You give it to us directly (e.g., when you choose to send us logs in the forums)
 - We collect it automatically through our software and services (e.g., when your Kodi connects with our servers to update add-ons, or in download statistics provided by Google Play)
 - When we try and understand more about you based on information you’ve given to us (e.g., when we use your platform information provided to the add-on server to figure out which platforms use Kodi the most, to better understand where we should focus our efforts)
-- You visit the website, wiki, or forum (We employ Google Analytics on our website, which may use cookies for the purposes of tracking how many unique visits we get to the site, and where, generally, they come from. To learn more, visit the Google Analytics wiki page.)
+- You visit the website, wiki, or forum (We employ GoatCounter on our website, which does not use cookies for the purposes of tracking how many unique visits we get to the site, or where, generally, they come from. To learn more, [visit the GoatCounter web site](https://goatcounter.com)).
 
 ## What do we do with your information once we have it?
 
@@ -54,6 +54,9 @@ If you are under 13, we don’t want your personal information, and you must not
 We may need to change this policy and our notices. The updates will be posted online. If the changes are substantive, we will announce the update through Kodi’s usual channels for such announcements such as blog posts and forums. Your continued use of the product or service after the effective date of such changes constitutes your acceptance of such changes. To make your review more convenient, we will post an effective date at the top of the page.
 
 ## History
+
+2022 Dec 22 - Chnagelog
+- Updated "how we learn information about you" section to include information on GoatCounter instead of Google Analytics (which we no longer use)
 
 2017 Mar 17 - Changelog
 
