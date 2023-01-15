@@ -1,29 +1,22 @@
 name: tvOS
 icon: /images/distributions/tvos.webp
-version: 19
+version: 20
 sort_order: 7
 howto: https://kodi.wiki/view/TvOS
 releases:
   - name: Recommended
-    title: Kodi v19.5 (Matrix)
-    description: To install Kodi Matrix on tvOS, please see the [How
+    title: Kodi v20.0 (Nexus)
+    description: To install Kodi on tvOS, please see the [How
       To](https://kodi.wiki/view/TvOS) guide for instructions.
     downloads:
       - name: tvOS
-        url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_19.5-0-tvos.deb?https=1
+        url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_20.0-0-tvos.deb?https=1
   - name: Prerelease
-    title: Kodi v20 (Nexus) Pre-release Builds
-    description: >-
-      Kodi v20 (Nexus) is the next iteration of Kodi. It has a number of new
-      features and lots of fixes.
-
-
-      The **Release Candidate 2** pre-release build has become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
-    downloads:
-      - name: tvOS
-        url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_20.0-0~rc2-tvos.deb?https=1
+    title: Kodi v21 (Omega) Pre-release Builds
+    description: There are no pre-release builds available at this time.
+    downloads: []
   - name: Development Builds
-    title: Kodi v19, v20 & v21 Nightly Development Builds
+    title: Kodi v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -38,8 +31,6 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: v19 tvOS
-        url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Matrix/
       - name: v20 tvOS
         url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Nexus/
       - name: v21 tvOS
