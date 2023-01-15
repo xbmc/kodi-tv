@@ -1,11 +1,11 @@
 name: Android
 icon: /images/distributions/android.webp
-version: 19
+version: 20
 sort_order: 3
 howto: http://kodi.wiki/view/Android
 releases:
   - name: Recommended
-    title: Kodi v19.5 (Matrix)
+    title: Kodi v20.0 (Nexus)
     description: The success of running Kodi on an Android device depends on a
       number of factors as there are so many different devices with different
       capabilities. Check the [How To](https://kodi.wiki/view/Android) guide for
@@ -16,24 +16,15 @@ releases:
       - name: Huawei App Gallery
         url: https://appgallery.huawei.com/#/app/C101763539
       - name: ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm/kodi-19.5-Matrix-armeabi-v7a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm/kodi-20.0-Nexus-armeabi-v7a.apk?https=1
       - name: ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-19.5-Matrix-arm64-v8a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-20.0-Nexus-arm64-v8a.apk?https=1
   - name: Prerelease
-    title: Kodi v20 (Nexus) Pre-release Builds
-    description: >-
-      Kodi v20 (Nexus) is the next iteration of Kodi. It has a number of new
-      features and lots of fixes.
-
-
-      The **Release Candidate 2** pre-release build has become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
-    downloads:
-      - url: https://mirrors.kodi.tv/releases/android/arm/kodi-20.0-Nexus_rc2-armeabi-v7a.apk?https=1
-        name: ARMV7A (32BIT)
-      - url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-20.0-Nexus_rc2-arm64-v8a.apk?https=1
-        name: ARMV8A (64BIT)
+    title: Kodi v21 (Omega) Pre-release Builds
+    description: There are no pre-release builds available at this time.
+    downloads: []
   - name: Development Builds
-    title: Kodi v19, v20 & v21 Nightly Development Builds
+    title: Kodi v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -50,10 +41,6 @@ releases:
     downloads:
       - name: Google Play Testing
         url: https://play.google.com/apps/testing/org.xbmc.kodi
-      - name: v19 ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/nightlies/android/arm/Matrix/
-      - name: v19 ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/Matrix/
       - name: v20 ARMV7A (32BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm/Nexus/
       - name: v20 ARMV8A (64BIT)
