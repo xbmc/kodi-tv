@@ -1,11 +1,11 @@
 name: macOS
 icon: /images/distributions/macos.webp
-version: 19
+version: 20
 sort_order: 5
 howto: https://kodi.wiki/view/Mac_OS_X
 releases:
   - name: Recommended
-    title: Kodi v19.5 (Matrix)
+    title: Kodi v20.0 (Nexus)
     description: Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide
       hardware video decoding for H.264 and MPEG2 video, though most CPUs are
       able to use software decoding for other formats in 1080 as well. Macs can
@@ -13,20 +13,13 @@ releases:
       running OS X 10.13 or higher is required.
     downloads:
       - name: Installer (64BIT)
-        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-19.5-Matrix-x86_64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-20.0-Nexus-x86_64.dmg?https=1
   - name: Prerelease
-    title: Kodi v20 (Nexus) Pre-release Builds
-    description: >-
-      Kodi v20 (Nexus) is the next iteration of Kodi. It has a number of new
-      features and lots of fixes.
-
-
-      The **Release Candidate 2** pre-release build has become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
-    downloads:
-      - url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-20.0-Nexus_rc2-x86_64.dmg?https=1
-        name: Installer (64BIT)
+    title: Kodi v21 (Omega) Pre-release Builds
+    description: There are no pre-release builds available at this time.
+    downloads: []
   - name: Development Builds
-    title: Kodi v19, v20 & v21 Nightly Development Builds
+    title: Kodi v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -41,8 +34,6 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: v19 Installer (64BIT)
-        url: https://mirrors.kodi.tv/nightlies/osx/x86_64/Matrix/
       - name: v20 Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/osx/x86_64/Nexus/
       - name: v21 Installer (64BIT)
