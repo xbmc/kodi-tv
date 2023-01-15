@@ -1,29 +1,22 @@
 name: Linux
 icon: /images/distributions/linux.webp
-version: 19
+version: 20
 sort_order: 2
 howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
 releases:
   - name: Recommended
-    title: Kodi v19.5 (Matrix)
+    title: Kodi v20.0 (Nexus)
     description: Read the 'Install Guide' instructions for people who already have a
       Linux-based OS setup.
     downloads:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
   - name: Prerelease
-    title: Kodi v20 (Nexus) Pre-release Builds
-    description: >-
-      Kodi v20 (Nexus) is the next iteration of Kodi. It has a number of new
-      features and lots of fixes.
-
-
-      The **Release Candidate 2** pre-release build has become available because we think it is ready for wider testing and usage. It also means we are getting closer to a stable release of v20.
-    downloads:
-      - name: Install Guide
-        url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
+    title: Kodi v21 (Omega) Pre-release Builds
+    description: There are no pre-release builds available at this time.
+    downloads: []
   - name: Development Builds
-    title: Kodi v19, v20 & v21 Nightly Development Builds
+    title: Kodi v20 & v21 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
