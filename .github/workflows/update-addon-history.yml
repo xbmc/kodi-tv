@@ -36,11 +36,11 @@ jobs:
         if: steps.nodecache.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: Run addon-parser for Leia branch
-        run: node app.js --kv=leia
+      - name: Run addon-parser for Matrix branch
+        run: node app.js --kv=matrix
 
-      - name: Run addon-parser for Matrix branch and get site stats
-        run: node app.js --kv=matrix --getstats
+      - name: Run addon-parser for Nexus branch and get site stats
+        run: node app.js --kv=nexus --getstats
 
       - name: Push new files back
         uses: mikeal/publish-to-github-action@master
