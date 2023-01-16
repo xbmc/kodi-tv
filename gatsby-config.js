@@ -184,7 +184,7 @@ module.exports = {
     {
       resolve: `gatsby-source-kodiaddon`,
       options: {
-        kodiversions: ["leia", "matrix"],
+        kodiversions: ["matrix", "nexus"],
       },
     },
   ].concat(netlifyCms),

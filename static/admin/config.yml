@@ -190,9 +190,9 @@ collections:
   - name: "featuredaddons"
     label: "Featured Add-ons"
     files:
-      - name: "matrixfeaturedlist"
-        label: "Matrix Featured Add-ons List"
-        file: "src/data/addons/matrix/featured.yaml"
+      - name: "nexusfeaturedlist"
+        label: "Nexus Featured Add-ons List"
+        file: "src/data/addons/nexus/featured.yaml"
         fields:
           - name: "addons"
             label: "Add-ons"
@@ -201,9 +201,9 @@ collections:
             summary: "{{addonid}}"
             fields:
               - { name: "addonid", label: "Add-on ID", widget: "string" }
-      - name: "leiafeaturedlist"
-        label: "Leia Featured Add-ons List"
-        file: "src/data/addons/leia/featured.yaml"
+      - name: "matrixfeaturedlist"
+        label: "Matrix Featured Add-ons List"
+        file: "src/data/addons/matrix/featured.yaml"
         fields:
           - name: "addons"
             label: "Add-ons"
