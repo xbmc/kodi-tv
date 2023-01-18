@@ -1,17 +1,16 @@
 ---
-title: '10 days till first v17 "Krypton" alpha release'
-date: 2016-06-20T04:00:00Z
+title: 10 days till first v17 "Krypton" alpha release
+date: 2016-06-20T04:00:00.000Z
+author: Martijn Kaijser
 tags:
   - Community
   - Prerelease
-author: Martijn Kaijser
 featured_image:
   src: /images/blog/Kodi-Wallpaper-Krypton-1920x1200.webp
-  title: "Kodi-Wallpaper-Krypton-1920x1200"
-  alt: "Kodi-Wallpaper-Krypton-1920x1200"
+  title: Kodi-Wallpaper-Krypton-1920x1200
+  alt: Kodi-Wallpaper-Krypton-1920x1200
 ---
-
-We have been quiet for quite some time as our last official release announcement was about Kodi v16.1 “Jarvis” bugfix release end of April. We can assure we have not been sitting still as work for v17 progressed in a steadily pace. Our developers have actually been working on v17 since early December as a large part of our code base has been ripped out, put through the grinder and put back in a way that makes Kodi future proof which enables new and exciting possibilities. To be honest we actually wanted to do this upcoming alpha release a bit sooner (1st of May). However since we hit some code issues we decided to skip that date to first solve the problems. Next one was 1st of June however I was on holiday for some weeks and I guess we skipped that date as well. Fast forward to present day and all looks good to go and bring you the first “official” v17 alpha build which you as user can install and take for a test drive. Maybe not that exciting as some of you know we always build nightly version so you could have installed it whenever you wanted to. Still such a release marks a special milestone as it also means we’re gearing up for getting it out the door as a final version. This may still take some months though so don’t get your hopes up yet.
+We have been quiet for quite some time as our last official release announcement was about Kodi v16.1 “Jarvis” bugfix release end of April. We can assure we have not been sitting still as work for v17 progressed in a steadily pace. Our developers have actually been working on v17 since early December as a large part of our code base has been ripped out, put through the grinder and put back in a way that makes Kodi future proof which enables new and exciting possibilities. To be honest we actually wanted to do this upcoming alpha release a bit sooner (1st of May). However since we hit some code issues we decided to skip that date to first solve the problems. Next one was 1st of June however I was on holiday for some weeks and I guess we skipped that date as well. Fast forward to present day and all looks good to go and bring you the first “official” v17 alpha build which you as user can install and take for a test drive. Maybe not that exciting as some of you know we always build nightly version so you could have installed it whenever you wanted to. Still such a release marks a special milestone as it also means we’re gearing up for getting it out the door as a final version. This may still take some months though so don’t get your hopes up yet. 
 
 ## Krypton….
 
@@ -29,7 +28,7 @@ Enough said. Downloads links are at the bottom…
 
 [![zappy-santa](/images/blog/zappy-santa-160x160.webp)](/images/blog/zappy-santa.webp)Over the years we have been playing with some random awesome and insane ideas that never came to life. Either they were to complicated, lack of skill sor we simply forgot about it as it took too long to realise. In the coming days however we will announce one of these ideas that has actually been talked about, worked on, discussed a lot and has actually been finished as well. It is something that’s way out of our comfort zone so we hope that this big surprise will be something you as users will be enjoying as much as we will.
 
-What it is? Well it’s a **_SPOILER ALERT_** that can be use to **\***SPOILER ALERT**\***.**\***more info follow [this link](/article/official-kodi-edition-raspberry-pi-case)\*
+What it is? Well it’s a ***SPOILER ALERT*** that can be use to **\***SPOILER ALERT**\***.**\***more info follow [this link](/article/official-kodi-edition-raspberry-pi-case)*
 
 ## Call out for developers
 
@@ -43,13 +42,10 @@ So in short what we are looking for are C/C++ developers who are willing to put 
 
 What we currently need most are developers with knowledge of the following components to improve current implementations to ensure the future of Kodi as a whole:
 
-- • Windows DirectX11 / audio / video
-
-- • Android NDK / audio / video
-
-- • iOS & OSX / audio / video
-
-- • General knowledge of C/C++ and willing to do some coding in areas of their interest.
+* • Windows DirectX11 / audio / video
+* • Android NDK / audio / video
+* • iOS & OSX / audio / video
+* • General knowledge of C/C++ and willing to do some coding in areas of their interest.
 
 For the moment the biggest problem is our Android version which lacks the attention it needs. The audio part is mostly in good shape however the video playback part needs some attention. Any bugfix patch can be send to our main github code repository for review straight away. If you are not sure or want to take on a bigger task or change feel free to open up a thread on our forum where you write down your proposal to get some initial feedback.
 
@@ -63,11 +59,9 @@ Code on Github: <https://github.com/xbmc/xbmc>
 
 Should you want to download and install this build please visit our download page.
 
-- - [Official Kodi 17.0 development downloads](/download) (near the bottom of the page)
-- - Raspberry Pi versions can be found from [LibreELEC](https://libreelec.tv/) as well as x86 versions (LibreELEC can be upgrade to if you have OpenELEC installed).
+* * [Official Kodi 17.0 development downloads](/download) (near the bottom of the page)
+* * Raspberry Pi versions can be found from [LibreELEC](https://libreelec.tv/) as well as x86 versions (LibreELEC can be upgrade to if you have OpenELEC installed).
 
 Please report any problems on our forum <https://forum.kodi.tv/> and not on the release announcement.
-
-###
 
 [![XBMC SF award 2008](/images/blog/XBMC-SF-award-2008-200x300.webp)](/images/blog/XBMC-SF-award-2008.webp)
