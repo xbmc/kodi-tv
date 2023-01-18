@@ -24,7 +24,7 @@ This allows Kodi to load multiple instances of a binary add-on. For example: TVH
 
 ### AV1 Video Support
 
-Several Kodi platforms now allow hardware decoding of AV1 media. The Inputstream API has been updated to support AV1 and this allows add-ons using `inputsream.adaptive` to play AV1 streams.
+Several Kodi platforms now allow hardware decoding of AV1 media. The Inputstream API has been updated to support AV1 and this allows add-ons using `inputstream.adaptive` to play AV1 streams.
 
 ### Subtitles Rework
 
