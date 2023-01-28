@@ -4,10 +4,14 @@ date: 2023-01-28T16:45:24.040Z
 author: Testy McTestface
 tags:
   - Developer
+featured_image:
+  src: /images/blog/kodi-20-nexus-splash.jpg
+  title: Nexus splash title text - featured image
+  alt: Nexus splash alt text - featured image
 ---
 Text text text
 
-![Sample alt text](/images/blog/kodi-20-nexus-splash.jpg "Sample title text")
+![Nexus splash inline image - alt text](/images/blog/kodi-20-nexus-splash.jpg "Nexus splash inline image - title text")
 
 text text text
 
