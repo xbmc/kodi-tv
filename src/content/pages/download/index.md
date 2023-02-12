@@ -26,7 +26,7 @@ x-section-x officialremotes x-section-x
 
 ## Older Releases
 
-Please note, development of the v18 "Leia" line has ended. If you discover a bug in v18, please test if the bug is also present in v19 and submit your bug report for v19 if present. While we do not recommend using old builds, you can [download an old build](http://mirrors.kodi.tv/releases/) from our mirrors site if you need to.
+Please note, development of the v19 "Matrix" line has ended. If you discover a bug in v19, please test if the bug is also present in v20 "Nexus" and submit your bug report for v20 if present. While we do not recommend using old builds, you can [download an old build](http://mirrors.kodi.tv/releases/) from our mirrors site if you need to.
 
 ## Source Code
 
