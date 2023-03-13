@@ -10,7 +10,7 @@ featured_image:
   alt: Kodi 20.1 "Nexus" Splash Screen - a blue Kodi logo sits in the centre of a
     black page, around it, a dial - a gauge or chronograph, perhaps.
 ---
-As is always inevitable in software, we are back with a new release of Kodi "Nexus".
+As is always inevitable in software, we are back with a new release of Kodi 20.x "Nexus".
 
 An assortment of bug fixes, some backports, no real new features. Full changelog since 20.0 on [Github](https://github.com/xbmc/xbmc/compare/20.0-Nexus...20.1-Nexus), as usual.
 
@@ -18,9 +18,9 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Audio**
 
-**@fritsch** has been working feverishly on Android-related audio issues over the past couple of months, and in combination with **@thexai** they have introduced an algorithm to look to overcome some audio issues particularly aimed at Android devices. A summary is:
+* **@fritsch** has been working feverishly on Android-related audio issues over the past couple of months, and in combination with **@thexai** has introduced an algorithm to look to overcome some audio issues particularly aimed at Android devices. A summary is:
 
-* Algorithm runs for 30 seconds to learn what is going on: during this time no corrections are done, but the internal `m_disconAdjustTimeMs` is updated to a new value whenever when the sync error is found to increase. After 30 seconds the learning stops and the final `m_disconAdjustTimeMs` is set as: `m_disconAdjustTimeMs * 1.15 + 5.0`.
+  * Algorithm runs for 30 seconds to learn what is going on: during this time no corrections are done, but the internal `m_disconAdjustTimeMs` is updated to a new value whenever when the sync error is found to increase. After 30 seconds the learning stops and the final `m_disconAdjustTimeMs` is set as: `m_disconAdjustTimeMs * 1.15 + 5.0`.
 
   With firmware specialities for AudioTrack Write behaviour now kind of "well known" the systematic issue can be worked around easily. This helps users on affected system to not have to create an `advancedsettings.xml` for a manual fix.
 
@@ -30,7 +30,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Filesystems**
 
-* A fix in Samba was made that "corrected" a long-standing assumption - it turns out that documentation doesn't always match the code implementation. We now handle both the old Samba implementation, and the new "correct" implementation.
+* A fix in Samba was made that "corrected" a long-standing assumption - it turns out that documentation doesn't always match code implementation. We now handle both the old Samba implementation and the new "correct" implementation.
 * Further improvements to the new NFS4 implementation have been made by **@thexai** . This fixes stalls/errors and brings some performance improvements to our NFS implementation.
 
 **Game/Retroplayer**
@@ -41,10 +41,10 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 * Input fixes have been made that allow resetting multitap controller inputs, as well as fixing an issue around "ignored" input buttons not being saved.
 * Sync of some of the common controller types has been made
 
-  * game.controller.default
-  * game.controller.keyboard
-  * game.controller.mouse
-  * game.controller.snes
+  * `game.controller.default`
+  * `game.controller.keyboard`
+  * `game.controller.mouse`
+  * `game.controller.snes`
 
 **General**
 
@@ -74,7 +74,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Python**
 
-* A bump of cPython to 3.11.2 was made to fix an upstream issue with the `ElementTree` binary module. This fixes crashes on android when an addon installed uses the common ElementTree python module.
+* A bump of cPython to 3.11.2 was made to fix an upstream issue with the `ElementTree` binary module. This fixes crashes on Android when an installed addon uses the common `ElementTree` Python module.
 
 **Subtitles**
 
@@ -82,9 +82,9 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 * A couple of fixes for WebVTT subtitles were made to resolve overlapping of segments.
 * Line spacing has been altered in our use of `libass` to avoid overlapping of text boxes.
 
-**UPNP**
+**UPnP**
 
-* **@enen92** has made a number of improvements/fixes when Kodi is being used as a UPNP server. He has fixed a number of regressions around listings and artwork.
+* **@enen92** has made a number of improvements and fixes when Kodi is being used as a UPnP server. He has fixed a number of regressions around listings and artwork.
 
 Thanks, as always, to everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. if you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
 
