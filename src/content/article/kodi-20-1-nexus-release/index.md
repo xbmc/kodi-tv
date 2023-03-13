@@ -20,7 +20,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 * **@fritsch** has been working feverishly on Android-related audio issues over the past couple of months, and in combination with **@thexai** has introduced an algorithm to look to overcome some audio issues particularly aimed at Android devices. A summary is:
 
-  * Algorithm runs for 30 seconds to learn what is going on: during this time no corrections are done, but the internal `m_disconAdjustTimeMs` is updated to a new value whenever when the sync error is found to increase. After 30 seconds the learning stops and the final `m_disconAdjustTimeMs` is set as: `m_disconAdjustTimeMs * 1.15 + 5.0`.
+  *Algorithm runs for 30 seconds to learn what is going on: during this time no corrections are done, but the internal `m_disconAdjustTimeMs` is updated to a new value whenever when the sync error is found to increase. After 30 seconds the learning stops and the final `m_disconAdjustTimeMs` is set as: `m_disconAdjustTimeMs * 1.15 + 5.0`.*
 
   With firmware specialities for AudioTrack Write behaviour now kind of "well known" the systematic issue can be worked around easily. This helps users on affected system to not have to create an `advancedsettings.xml` for a manual fix.
 
