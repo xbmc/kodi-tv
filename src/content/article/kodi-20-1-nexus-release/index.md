@@ -53,9 +53,9 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 * A fix for an issue on 32-bit systems that affected the sorting of items. Thanks **@vpeter4**.
 * Fixes regarding the rework of the Favourites window have been addressed. This returns behaviour found in v19 for the following:
 
-  * support actions `up`/`down` plus key mapping for `u` and `d` keys.
-  * support action delete plus key mapping for `delete` key.
-  * change keymaps to open the Favourites Browser window instead of the Favourites dialog as currently.
+  * Support actions `up`/`down` plus key mapping for `u` and `d` keys.
+  * Support action delete plus key mapping for `delete` key.
+  * Change keymaps to open the Favourites Browser window instead of the Favourites dialog as currently.
 * A fix by a returning team member (**@CrystalP**) that resolves crashes due to Unicode characters.
 
 **Platform Specific**
