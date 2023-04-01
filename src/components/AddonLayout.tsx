@@ -91,7 +91,7 @@ export default function AddonLayout({
     <DefaultLayout frontmatter={frontmatter}>
       <AddonPageSubMenu linkroot={linkroot} />
       <div className="grid grid-cols-5">
-        <div align="right" className="col-span-1 row-span-full pr-6">
+        <div className="flex justify-end col-span-1 row-span-full pr-6">
           <img
             className="rounded-md"
             width="150"
