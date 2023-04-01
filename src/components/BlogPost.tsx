@@ -4,6 +4,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
+import remarkGfm from "remark-gfm";
 
 export default function BlogPost(props: { preview?: any; blogPost?: any }) {
   const { blogPost } = props;
@@ -79,7 +80,7 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
         </div>
       </div>
 
-      <ReactMarkdown className="pt-6 prose prose-blue max-w-none">
+      <ReactMarkdown remarkPlugins={[remarkGfm]} className="pt-6 prose prose-blue max-w-none">
         {blogPost.rawMarkdownBody}
       </ReactMarkdown>
     </DefaultLayout>

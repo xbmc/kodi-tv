@@ -149,7 +149,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        gfm: true,
+      },
+    },
     `gatsby-transformer-yaml`,
     {
       resolve: `gatsby-plugin-manifest`,

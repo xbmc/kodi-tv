@@ -5,6 +5,7 @@ import ItemWithComma from "./ItemWithComma";
 import { TagList } from "../hooks/TagList";
 import { SearchIcon } from "@heroicons/react/outline";
 import { News } from "../hooks/LatestNews";
+import remarkGfm from "remark-gfm";
 
 const slugify = require("slugify");
 
@@ -53,7 +54,10 @@ function BlogPostCard(props: { post: News }) {
               <ReactMarkdown className="text-xl font-semibold text-gray-900">
                 {post.frontmatter.title}
               </ReactMarkdown>
-              <p className="mt-3 text-base text-gray-500">{post.excerpt}</p>
+
+              <ReactMarkdown remarkPlugins={[remarkGfm]} className="mt-3 text-base text-gray-500">
+                {post.excerpt}
+              </ReactMarkdown>
             </Link>
           </div>
           <div className="mt-6 flex items-center">
