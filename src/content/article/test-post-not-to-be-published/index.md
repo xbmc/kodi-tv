@@ -2,6 +2,8 @@
 title: Test Post Not to be Published
 date: 2023-04-01T13:26:08.640Z
 author: Yaffle
+tags:
+  - Developer
 featured_image:
   src: /images/blog/lago-d-iseo.jpg
   title: Lago d'Iseo
