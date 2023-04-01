@@ -80,7 +80,10 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
         </div>
       </div>
 
-      <ReactMarkdown remarkPlugins={[remarkGfm]} className="pt-6 prose prose-blue max-w-none">
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        className="pt-6 prose prose-blue max-w-none"
+      >
         {blogPost.rawMarkdownBody}
       </ReactMarkdown>
     </DefaultLayout>
