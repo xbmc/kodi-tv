@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
 import { TagList } from "../hooks/TagList";
-import { SearchIcon } from "@heroicons/react/outline";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { News } from "../hooks/LatestNews";
 import remarkGfm from "remark-gfm";
 
@@ -129,7 +129,7 @@ function NavCard(_props: unknown) {
                 to="/blog/search"
                 className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
-                <SearchIcon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
+                <MagnifyingGlassIcon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>
               </Link>
             </nav>

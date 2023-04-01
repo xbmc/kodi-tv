@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 import { MenuEntry } from "./Header";
 import { Link } from "gatsby";
 

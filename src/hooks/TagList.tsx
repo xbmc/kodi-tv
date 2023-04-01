@@ -1,16 +1,16 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import {
-  CodeIcon,
-  DownloadIcon,
+  CodeBracketIcon,
+  ArrowDownTrayIcon,
   FlagIcon,
-  FolderDownloadIcon,
+  FolderArrowDownIcon,
   NewspaperIcon,
   PresentationChartBarIcon,
   TagIcon,
   TicketIcon,
   UsersIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/outline";
 
 const slugify = require("slugify");
 
@@ -74,15 +74,15 @@ export const TagList = () => {
         break;
       case "Developer":
         oneTag.displayname = "Developer Updates";
-        oneTag.icon = CodeIcon;
+        oneTag.icon = CodeBracketIcon;
         break;
       case "Prerelease":
         oneTag.displayname = "Prerelease Announcements";
-        oneTag.icon = FolderDownloadIcon;
+        oneTag.icon = FolderArrowDownIcon;
         break;
       case "Release":
         oneTag.displayname = "Release Announcements";
-        oneTag.icon = DownloadIcon;
+        oneTag.icon = ArrowDownTrayIcon;
         break;
     }
     if (oneTag.name == "April Fools") {

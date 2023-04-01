@@ -4,16 +4,16 @@ import Button from "./Button";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorLevelList } from "./SponsorList";
 import {
-  CodeIcon,
-  CloudDownloadIcon,
-  SupportIcon,
+  CodeBracketIcon,
+  CloudArrowDownIcon,
+  LifebuoyIcon,
   GlobeAltIcon,
   ShieldCheckIcon,
   DocumentTextIcon,
   GiftIcon,
   ShoppingCartIcon,
-  SpeakerphoneIcon,
-} from "@heroicons/react/outline";
+  MegaphoneIcon,
+} from "@heroicons/react/24/outline";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
@@ -135,7 +135,7 @@ function ContributeGallery() {
   return (
     <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       <FeaturedCard
-        icon={<CodeIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        icon={<CodeBracketIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Coding"
       >
         [Developers can help the Kodi Foundation](/contribute/developers) by adding
@@ -145,7 +145,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<CloudDownloadIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        icon={<CloudArrowDownIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Building an Add-on"
       >
         Add-ons are what make Kodi the most extensible and customizable entertainment
@@ -155,7 +155,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<SupportIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        icon={<LifebuoyIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Helping Users"
       >
         Everyday new people discover a Kodi Foundation product, and everyday they are
@@ -215,7 +215,7 @@ function ContributeGallery() {
       </FeaturedCard>
 
       <FeaturedCard
-        icon={<SpeakerphoneIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
+        icon={<MegaphoneIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />}
         title="Spreading the Word"
       >
         Help us spread the word about how Kodi and other Kodi Foundation projects

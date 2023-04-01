@@ -1,5 +1,5 @@
 import React from "react";
-import { SparklesIcon, DownloadIcon } from "@heroicons/react/outline";
+import { SparklesIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
 import { LandingPage } from "../components/Layout";
@@ -174,7 +174,7 @@ function Page() {
 
       <FullWidthTwoPaneIconsRight
         backgroundColor="bg-gray-100"
-        icon={<DownloadIcon className="h-6 w-6 text-gray-50" />}
+        icon={<ArrowDownTrayIcon className="h-6 w-6 text-gray-50" />}
         title="Kodi runs on just about anything"
         url="/download"
         buttontext="Download Now"

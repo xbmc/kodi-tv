@@ -4,18 +4,18 @@ import { Transition } from "@headlessui/react";
 import SEO from "./Seo";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
-import { XIcon, MenuIcon } from "@heroicons/react/solid";
+import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 import {
   InformationCircleIcon,
-  CloudDownloadIcon,
-  CashIcon,
-  ChipIcon,
-  InboxInIcon,
+  CloudArrowDownIcon,
+  BanknotesIcon,
+  CpuChipIcon,
+  InboxArrowDownIcon,
   DocumentTextIcon,
-  CodeIcon,
-  ChatAltIcon,
-  ChatAlt2Icon,
-} from "@heroicons/react/outline";
+  CodeBracketIcon,
+  ChatBubbleLeftEllipsisIcon,
+  ChatBubbleLeftRightIcon,
+} from "@heroicons/react/24/outline";
 import { Link } from "gatsby";
 
 export interface MenuEntry {
@@ -64,13 +64,13 @@ const mainMenu: MenuEntry[] = [
       {
         title: "Nexus Add-ons",
         url: { url: "/addons/nexus", type: "internal" },
-        icon: CloudDownloadIcon,
+        icon: CloudArrowDownIcon,
         description: "Add-ons for Kodi 20, the latest and greatest version of Kodi.",
       },
       {
         title: "Matrix Add-ons",
         url: { url: "/addons/matrix", type: "internal" },
-        icon: CloudDownloadIcon,
+        icon: CloudArrowDownIcon,
         description:
           "Add-ons for Kodi 19, the most recent previous version of Kodi.",
       },
@@ -98,19 +98,19 @@ const mainMenu: MenuEntry[] = [
       {
         title: "Sponsors",
         url: { url: "/about/sponsors", type: "internal" },
-        icon: CashIcon,
+        icon: BanknotesIcon,
         description: "A list of companies supporting the work we do.",
       },
       {
         title: "Software",
         url: { url: "/about/software", type: "internal" },
-        icon: ChipIcon,
+        icon: CpuChipIcon,
         description: "Information about the suite of software we offer.",
       },
       {
         title: "Contact",
         url: { url: "/about/contact", type: "internal" },
-        icon: InboxInIcon,
+        icon: InboxArrowDownIcon,
         description:
           "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
       },
@@ -138,33 +138,33 @@ const mainMenu: MenuEntry[] = [
       {
         title: "Kodi Developer Resources",
         url: { url: "https://docs.kodi.tv", type: "external" },
-        icon: CodeIcon,
+        icon: CodeBracketIcon,
         description: "Documentation, including information for Kodi itself.",
       },
       {
         title: "Add-on Developer Resources",
         url: { url: "https://dev-kit.kodi.tv", type: "external" },
-        icon: CodeIcon,
+        icon: CodeBracketIcon,
         description:
           "Documentation, including information for skin development and interfaces for Python and C++ .",
       },
       {
         title: "Forum",
         url: { url: "https://forum.kodi.tv", type: "external" },
-        icon: ChatAlt2Icon,
+        icon: ChatBubbleLeftRightIcon,
         description: "Our user forum for asking questions and finding answers.",
       },
       {
         title: "IRC",
         url: { url: "https://web.libera.chat/#kodi", type: "external" },
-        icon: ChatAltIcon,
+        icon: ChatBubbleLeftEllipsisIcon,
         description:
           "Join us on Libera.Chat or use this menu link to join the channel via the web.",
       },
       {
         title: "Matrix",
         url: { url: "https://matrix.to/#/#kodi-space:matrix.org", type: "external" },
-        icon: ChatAltIcon,
+        icon: ChatBubbleLeftEllipsisIcon,
         description: "Get help from team members hanging out in Matrix.",
       },
     ],
@@ -259,9 +259,9 @@ function Header(props: any) {
                   >
                     <span className="sr-only">Open main menu</span>
                     {isHamburgerOpen ? (
-                      <XIcon className="block h-6 w-6" />
+                      <XMarkIcon className="block h-6 w-6" />
                     ) : (
-                      <MenuIcon className="block h-6 w-6" />
+                      <Bars3Icon className="block h-6 w-6" />
                     )}
                   </button>
                 </div>
