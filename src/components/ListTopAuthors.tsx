@@ -1,6 +1,6 @@
 import React from "react";
 import { FeaturedCard } from "./Card";
-import { UserCircleIcon } from "@heroicons/react/outline";
+import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 export default function AuthorList(props: { authors: any[] }) {
   let authors = props.authors;

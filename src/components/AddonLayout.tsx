@@ -1,14 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import {
-  DownloadIcon,
+  ArrowDownTrayIcon,
   InformationCircleIcon,
   TruckIcon,
   TagIcon,
   ClockIcon,
   UserIcon,
   UsersIcon,
-} from "@heroicons/react/outline";
+} from "@heroicons/react/24/outline";
 import { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
@@ -199,7 +199,7 @@ export default function AddonLayout({
                       {item.data.map((platform, index) => (
                         <div className="flex space-x-2 mb-1">
                           <a href={platform.path}>
-                            <DownloadIcon className="h-5 w-5 text-kodi" />
+                            <ArrowDownTrayIcon className="h-5 w-5 text-kodi" />
                           </a>
                           <a href={platform.path}>{platform.platform}</a>
                         </div>

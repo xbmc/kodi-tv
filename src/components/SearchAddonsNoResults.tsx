@@ -1,5 +1,5 @@
 import React from "react";
-import { SearchIcon } from "@heroicons/react/solid";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 
 export default function SeachAddonsNoResult(props: { firstrun: any }) {
   let title = "No results found";
@@ -12,7 +12,7 @@ export default function SeachAddonsNoResult(props: { firstrun: any }) {
   return (
     <>
       <div className="flex flex-col">
-        <SearchIcon className="flex-shrink-0 h-16 w-16 self-center" />
+        <MagnifyingGlassIcon className="flex-shrink-0 h-16 w-16 self-center" />
         <h2 className="text-2xl font-bold self-center">{title}</h2>
         <p className="self-center">{body}</p>
       </div>

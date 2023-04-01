@@ -2,7 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import { DefaultLayout } from "../../components/Layout";
 import { FeaturedCard } from "../../components/Card";
-import { UserCircleIcon } from "@heroicons/react/outline";
+import { UserCircleIcon } from "@heroicons/react/24/outline";
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Recent Donors", breadcrumbs: "Wall | Donate" };
