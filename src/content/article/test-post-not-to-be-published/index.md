@@ -23,9 +23,13 @@ Text. Text text text.
 
 Link to a user @ProfYaffle 
 
-Link to an issue https://github.com/xbmc/blog/issues/82
+Link to a github issue - 1  https://github.com/xbmc/blog/issues/82
 
-Link to a PR https://github.com/xbmc/xbmc/pull/23087
+Link to a github issue - 2 <https://github.com/xbmc/blog/issues/82>
+
+Link to a PR -1 https://github.com/xbmc/xbmc/pull/23087
+
+Link to a PR -2 <https://github.com/xbmc/xbmc/pull/23087>
 
 Link to [external website](kodi.tv)
 
