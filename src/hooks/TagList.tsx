@@ -29,7 +29,7 @@ export const TagList = () => {
       allTags: allMarkdownRemark(
         filter: { fields: { collection: { eq: "blog" } } }
       ) {
-        distinct(field: frontmatter___tags)
+        distinct(field: { frontmatter: { tags: SELECT } })
       }
     }
   `);

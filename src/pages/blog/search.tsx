@@ -21,10 +21,10 @@ export default function AddonSearchPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
+  {
     blogPosts: allMarkdownRemark(
       filter: { fields: { collection: { eq: "blog" } } }
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { frontmatter: { date: DESC } }
       limit: 1000
     ) {
       nodes {

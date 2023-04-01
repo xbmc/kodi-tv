@@ -19,9 +19,9 @@ export interface News {
 
 export function LatestNews(): News[] {
   const { blogPosts } = useStaticQuery(graphql`
-    query {
+    {
       blogPosts: allMarkdownRemark(
-        sort: { fields: frontmatter___date, order: DESC }
+        sort: { frontmatter: { date: DESC } }
         filter: { fields: { collection: { eq: "blog" } } }
         limit: 3
       ) {

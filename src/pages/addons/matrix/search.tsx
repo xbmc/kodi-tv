@@ -24,8 +24,8 @@ export default function AddonSearchPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
-    allAddon: allMatrixAddon(sort: { fields: name, order: ASC }) {
+  {
+    allAddon: allMatrixAddon(sort: { name: ASC }) {
       nodes {
         addonid
         name
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allCategory: allMatrixCategory(sort: { fields: name, order: ASC }) {
+    allCategory: allMatrixCategory(sort: { name: ASC }) {
       nodes {
         name
       }

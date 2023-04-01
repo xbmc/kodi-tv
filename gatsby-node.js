@@ -66,7 +66,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const blogresults = await graphql(`
     {
       blogPosts: allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { frontmatter: { date: DESC } }
         filter: { fields: { collection: { eq: "blog" } } }
         limit: 1000
       ) {
@@ -112,7 +112,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       blogTags: allMarkdownRemark(
         filter: { fields: { collection: { eq: "blog" } } }
       ) {
-        distinct(field: frontmatter___tags)
+        distinct(field: { frontmatter: { tags: SELECT } })
       }
     }
   `);
