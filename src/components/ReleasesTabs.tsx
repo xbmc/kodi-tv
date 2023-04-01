@@ -31,7 +31,7 @@ class ReleasesTabs extends React.Component {
       <Tabs>
         {releases.map((release, index) => {
           return (
-            <div label={release.name} className="flex">
+            <div key={index} label={release.name} className="flex">
               <div className="flex-initial">
                 <div className="pt-15">
                   <h1 className="text-xl font-bold">{release.title}</h1>
