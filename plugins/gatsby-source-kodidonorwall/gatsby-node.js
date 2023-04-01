@@ -1,4 +1,6 @@
-var AWS = require("aws-sdk");
+var { DynamoDBDocument } = require("@aws-sdk/lib-dynamodb"),
+  { DynamoDB } = require("@aws-sdk/client-dynamodb");
+
 let DUMMYITEM = (item = {
   amount: 0,
   currency: "usd",
@@ -79,11 +81,13 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
       createNode(processData(DUMMYITEM));
       resolve();
     } else {
-      var docClient = new AWS.DynamoDB.DocumentClient({
-        region: options.region,
-        accessKeyId: options.accessKeyId,
-        secretAccessKey: options.secretAccessKey,
-      });
+      var docClient = DynamoDBDocument.from(
+        new DynamoDB({
+          region: options.region,
+          accessKeyId: options.accessKeyId,
+          secretAccessKey: options.secretAccessKey,
+        })
+      );
       docClient.query(options.params, onQuery);
     }
   });

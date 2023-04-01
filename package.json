@@ -20,11 +20,12 @@
     "generate-admin-css": "npx tailwindcss build -i src/styles/global.css -o static/admin/global.css"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.303.0",
+    "@aws-sdk/lib-dynamodb": "^3.303.0",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
     "@stripe/react-stripe-js": "^1.9.0",
     "@stripe/stripe-js": "^1.32.0",
-    "aws-sdk": "^2.1162.0",
     "gatsby": "^5.8.1",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-feed": "^5.8.0",
