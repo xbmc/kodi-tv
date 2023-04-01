@@ -1,17 +1,14 @@
 ---
-title: "In Defence of Our Good Name"
-date: 2020-02-15T01:06:41Z
+title: In Defence of Our Good Name
+date: 2020-02-15T01:06:41.000Z
+author: Team Kodi
 tags:
   - Community
-author: Team Kodi
 featured_image:
   src: /images/blog/wesley-tingey-9z9fxr_7Z-k-unsplash.webp
-  title: "Photo of gavel by Wesley Tingey (Unsplash)"
-  alt: "Photo of gavel by Wesley Tingey (Unsplash)"
+  title: Photo of gavel by Wesley Tingey (Unsplash)
+  alt: Photo of gavel by Wesley Tingey (Unsplash)
 ---
-
-## In Defence Of Our Good Name
-
 As most who read this will know well, Kodi is a free and open source media centre software application. It is created and supported by the group of unpaid volunteers known as Team Kodi, along with a large number of members of our very large and active user community. The software is freely available for anyone to download and use, and to fork and modify if they so desire. It is not a commercial product, and no money is gained from it, as it is not sold.
 
 One important point of note is that whilst Team Kodi produces media centre software, one thing that we do not provide is actual media. We don't make films, television channels or programmes, nor do we directly provide them as part of the software package that we distribute.
