@@ -11,11 +11,11 @@ Text. Text text text.
 
 * Bullets
 * Bullets
-
   * Bullets
-    Blockquote
-    Blockquote
-    Blockquote
+
+> Blockquote
+> Blockquote
+> Blockquote
 
 1. Numbers
 2. Numbers
