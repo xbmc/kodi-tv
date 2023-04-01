@@ -55,7 +55,10 @@ function BlogPostCard(props: { post: News }) {
                 {post.frontmatter.title}
               </ReactMarkdown>
 
-              <ReactMarkdown remarkPlugins={[remarkGfm]} className="mt-3 text-base text-gray-500">
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                className="mt-3 text-base text-gray-500"
+              >
                 {post.excerpt}
               </ReactMarkdown>
             </Link>
