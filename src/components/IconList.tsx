@@ -81,7 +81,7 @@ function IconList(props: {
   return (
     <div className={className}>
       {items.map((item, index) => (
-        <div align="center" key={item.name}>
+        <div className="flex justify-center text-center" key={item.name}>
           {item.slug == undefined ? (
             <>
               <img
