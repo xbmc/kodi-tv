@@ -24,8 +24,8 @@ export default function AddonSearchPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
-    allAddon: allNexusAddon(sort: { fields: name, order: ASC }) {
+  {
+    allAddon: allNexusAddon(sort: { name: ASC }) {
       nodes {
         addonid
         name
@@ -44,7 +44,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    allCategory: allNexusCategory(sort: { fields: name, order: ASC }) {
+    allCategory: allNexusCategory(sort: { name: ASC }) {
       nodes {
         name
       }

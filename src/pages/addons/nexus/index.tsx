@@ -34,9 +34,9 @@ export default function AddonIndexPage({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
+  {
     Games: allNexusCategory(
-      sort: { fields: name, order: ASC }
+      sort: { name: ASC }
       filter: { grouping: { eq: "Games" } }
     ) {
       nodes {
@@ -46,7 +46,7 @@ export const pageQuery = graphql`
       }
     }
     InformationProviders: allNexusCategory(
-      sort: { fields: name, order: ASC }
+      sort: { name: ASC }
       filter: { grouping: { eq: "Information providers" } }
     ) {
       nodes {
@@ -56,7 +56,7 @@ export const pageQuery = graphql`
       }
     }
     LookAndFeel: allNexusCategory(
-      sort: { fields: name, order: ASC }
+      sort: { name: ASC }
       filter: { grouping: { eq: "Look and feel" } }
     ) {
       nodes {
@@ -66,7 +66,7 @@ export const pageQuery = graphql`
       }
     }
     Others: allNexusCategory(
-      sort: { fields: name, order: ASC }
+      sort: { name: ASC }
       filter: { grouping: { eq: "Other" } }
     ) {
       nodes {
@@ -86,7 +86,7 @@ export const pageQuery = graphql`
     NewAddons: allNexusAddon(
       limit: 5
       filter: { agetype: { eq: "new" } }
-      sort: { fields: firstseen, order: DESC }
+      sort: { firstseen: DESC }
     ) {
       nodes {
         name
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
     UpdatedAddons: allNexusAddon(
       limit: 5
       filter: { agetype: { eq: "existing" } }
-      sort: { fields: lastupdate, order: DESC }
+      sort: { lastupdate: DESC }
     ) {
       nodes {
         name

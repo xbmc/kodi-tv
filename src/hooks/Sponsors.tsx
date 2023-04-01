@@ -11,7 +11,7 @@ export interface Sponsor {
 export function Sponsors(): Sponsor[] {
   const data = useStaticQuery(graphql`
     query Sponsors {
-      allSponsorYaml(sort: { fields: name, order: ASC }) {
+      allSponsorYaml(sort: { name: ASC }) {
         nodes {
           name
           slug

@@ -40,10 +40,10 @@ export default function Page({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
+  {
     Donors: allDonor(
       filter: { provider: { ne: "none" } }
-      sort: { fields: createdAt, order: DESC }
+      sort: { createdAt: DESC }
       limit: 30
     ) {
       nodes {

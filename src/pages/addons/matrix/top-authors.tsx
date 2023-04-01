@@ -22,10 +22,10 @@ export default function Page({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
+  {
     allAuthor: allMatrixAuthor(
       limit: 20
-      sort: { fields: [totaladdons, name], order: [DESC, ASC] }
+      sort: [{ totaladdons: DESC }, { name: ASC }]
     ) {
       nodes {
         name

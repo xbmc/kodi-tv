@@ -28,8 +28,8 @@ export default function Page({ data, pageContext, location }) {
 }
 
 export const pageQuery = graphql`
-  query {
-    allStoreYaml(sort: { fields: [group_number, name] }) {
+  {
+    allStoreYaml(sort: [{ group_number: ASC }, { name: ASC }]) {
       nodes {
         name
         icon

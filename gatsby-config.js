@@ -21,7 +21,7 @@ if (process.env.NODE_ENV != "development") {
 
 module.exports = {
   siteMetadata: config.siteMetadata,
-  flags: { PRESERVE_WEBPACK_CACHE: true, FAST_DEV: true, DEV_SSR: true },
+  flags: { FAST_DEV: true, DEV_SSR: true },
   plugins: [
     {
       resolve: `gatsby-plugin-root-import`,
@@ -110,32 +110,32 @@ module.exports = {
                 });
               });
             },
-            query: `
-              {
-                blogPosts: allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] }
-                  filter: {fields: {collection: {eq: "blog"}}}
-                  limit: 20
-                ) {
-                  nodes {
-                    excerpt
-                    html
-                    fields { slug }
-                    frontmatter {
-                      title
-                      date
-                      author
-                      tags
-                      featured_image {
-                        src
-                        title
-                        alt
-                      }
-                    }
-                  }
-                }
-              }
-            `,
+            query: `{
+  blogPosts: allMarkdownRemark(
+    sort: {frontmatter: {date: DESC}}
+    filter: {fields: {collection: {eq: "blog"}}}
+    limit: 20
+  ) {
+    nodes {
+      excerpt
+      html
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+        date
+        author
+        tags
+        featured_image {
+          src
+          title
+          alt
+        }
+      }
+    }
+  }
+}`,
             title: "Kodi News",
             output: "/rss.xml",
           },
