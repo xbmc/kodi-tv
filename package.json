@@ -17,7 +17,7 @@
     "check:lint": "eslint  \"**/*.+(js|jsx|tsx)\"",
     "fix:format": "prettier --write \"**/*.+(js|jsx|tsx)\"",
     "check:format": "prettier --check \"**/*.+(js|jsx|tsx)\"",
-    "generate-admin-css": "npx tailwindcss build src/styles/global.css -o static/admin/global.css"
+    "generate-admin-css": "npx tailwindcss build -i src/styles/global.css -o static/admin/global.css"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.5",
