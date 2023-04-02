@@ -26,7 +26,7 @@ If you don't want to give directly to us, you can still support us in other ways
 
 ## Donor Recognition
 
-Everyone who donates **$50US** (or **€40**) or more may be recognized as an official Kodi Foundation donor in the forums. We also have a [wall of our most recent donors](/donate/wall). Donations via Credit Card and PayPal automatically show up on our donor wall within a day.  Other donations we have to do manually, so it may take longer for those to show up.
+Everyone who donates **50 USD** (or **40 EUR**) or more may be recognized as an official Kodi Foundation donor in the forums. We also have a [wall of our most recent donors](/donate/wall). Donations via Credit Card and PayPal automatically show up on our donor wall within a day.  Other donations we have to do manually, so it may take longer for those to show up.
 
 ### Recognition for Recurring Donations
 
