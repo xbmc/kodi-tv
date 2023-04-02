@@ -179,12 +179,12 @@ export default class PageStripe extends React.Component {
                                 onChange={this.handleInputChange}
                                 className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               >
-                                <option value="USD">$ USD</option>
-                                <option value="EUR">€ EUR</option>
-                                <option value="GBP">£ GBP</option>
-                                <option value="CAD">$ CAD</option>
-                                <option value="AUD">$ AUD</option>
-                                <option value="JPY">¥ JPY</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="GBP">GBP</option>
+                                <option value="CAD">CAD</option>
+                                <option value="AUD">AUD</option>
+                                <option value="JPY">JPY</option>
                               </select>
                             </div>
                           </div>
@@ -246,12 +246,12 @@ export default class PageStripe extends React.Component {
                                 onChange={this.handleInputChange}
                                 className="shadow-sm text-sm focus:ring-kodi focus:border-kodi block w-full border-gray-300 rounded-md"
                               >
-                                <option value="USD">$ USD</option>
-                                <option value="EUR">€ EUR</option>
-                                <option value="GBP">£ GBP</option>
-                                <option value="CAD">$ CAD</option>
-                                <option value="AUD">$ AUD</option>
-                                <option value="JPY">¥ JPY</option>
+                                <option value="USD">USD</option>
+                                <option value="EUR">EUR</option>
+                                <option value="GBP">GBP</option>
+                                <option value="CAD">CAD</option>
+                                <option value="AUD">AUD</option>
+                                <option value="JPY">JPY</option>
                               </select>
                             </div>
                           </div>
