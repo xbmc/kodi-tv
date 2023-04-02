@@ -195,7 +195,7 @@ export default class PageStripe extends React.Component {
                     <div className="pt-5">
                       <div className="flex justify-end">
                         {parseInt(this.state.otPrice) >=
-                          config.stripe.minCharge[this.state.otCurrency] ? (
+                        config.stripe.minCharge[this.state.otCurrency] ? (
                           <>
                             <button
                               type="submit"

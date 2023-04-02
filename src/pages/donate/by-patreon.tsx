@@ -9,9 +9,12 @@ export default function Page({ data, pageContext, location }) {
       <DefaultLayout frontmatter={frontmatter}>
         <div className="flex flex-col">
           <p>
-            You can now support Team Kodi on Patreon. If you do not see a tier you like
-            below, you can{" "}
-            <a className="underline text-blue-700" href="https://patreon.com/teamkodi">
+            You can now support Team Kodi on Patreon. If you do not see a tier you
+            like below, you can{" "}
+            <a
+              className="underline text-blue-700"
+              href="https://patreon.com/teamkodi"
+            >
               go directly to the Patreon site
             </a>{" "}
             and pick an amount.
