@@ -19,17 +19,7 @@ export default function Page({ data, pageContext, location }) {
                   <UserCircleIcon className="flex-shrink-0 h-6 w-6 text-gray-50" />
                 }
               >
-                {(donor.currency == "usd" ||
-                donor.currency == "cad" ||
-                donor.currency == "aud"
-                  ? "$"
-                  : "") +
-                  (donor.currency == "eur" ? "€" : "") +
-                  (donor.currency == "gbp" ? "£" : "") +
-                  (donor.currency == "jpy" ? "¥" : "") +
-                  donor.amount.toString() +
-                  " " +
-                  donor.currency.toUpperCase()}
+                {donor.amount.toString() + " " + donor.currency.toUpperCase()}
               </FeaturedCard>
             </div>
           ))}
