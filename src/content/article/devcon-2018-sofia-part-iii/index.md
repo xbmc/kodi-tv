@@ -1,14 +1,14 @@
 ---
-title: "Devcon 2018 - Sofia - Part III"
-date: 2018-09-29T22:21:58Z
+title: DevCon 2018 - Sofia - Part III
+date: 2018-09-29T22:21:58.000Z
+author: Prof Yaffle
 tags:
   - DevCon
   - Conferences
-author: Prof Yaffle
 featured_image:
   src: /images/blog/kodi-logo-2.webp
-  title: "kodi-logo-2"
-  alt: "kodi-logo-2"
+  title: kodi-logo-2
+  alt: kodi-logo-2
 ---
 
 One more day, with enough content to warrant a separate blog post - partly because people are still here for the most part, partly because of new stuff that's been added to the agenda as we've gone along, and partly because of the topics that, despite our best efforts, managed to escape from previous days.
