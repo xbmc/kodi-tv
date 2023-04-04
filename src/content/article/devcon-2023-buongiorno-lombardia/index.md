@@ -8,9 +8,10 @@ featured_image:
   src: /images/blog/lago-d-iseo.jpg
   title: Lago d'Iseo, Italia. Image copyright Ian Harper/Team Kodi, used with
     permission.
-  alt: A picture of a whart alongside Lago d'Iseo - Lake Iseo - in northern Italy.
-    Clear blue water, mountains soaring in the background, a hint of snow atop
-    them.
+  alt: A wharf alongside Lago d'Iseo - Lake Iseo - in northern Italy. Clear blue
+    water, mountains soaring in the background, a hint of snow atop them. The
+    overwhelming impression is one of irridescent blue, which might *just*
+    possibly be from an over-zealous filter.
 ---
 Welcome, everyone, to Kodi Devcon 2023, coming to you this year from halfway up an Italian mountain overlooking Lake Iseo. We're full of coffee, it's seven degrees outside, we don't have enough power outlets, and we're struggling to stream over dubious Internet connectivity (courtesy of Mr Musk). What could be better?
 
