@@ -1,14 +1,14 @@
 ---
-title: "Devcon 2017 - Day Two"
-date: 2017-05-05T22:35:24Z
+title: DevCon 2017 - Day Two
+date: 2017-05-05T22:35:24.000Z
+author: Prof Yaffle
 tags:
   - DevCon
   - Conferences
-author: Prof Yaffle
 featured_image:
   src: /images/blog/wetek_play_front.webp
-  title: "wetek_play_front"
-  alt: "wetek_play_front"
+  title: wetek_play_front
+  alt: wetek_play_front
 ---
 
 Day two dawns on what is a much better day in now-sunny Portugal. The team has emerged, blinking slowly in the unfamiliar daylight - copious amounts of espresso have been drunk to neutralise the effects of all those craft beers - and we're off once again. This is also probably an opportune time to publicly say thank you to **Wetek**, who joined us last night and whose generous sponsorship has helped to make this DevCon happen.
