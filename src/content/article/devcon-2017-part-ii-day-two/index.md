@@ -1,14 +1,14 @@
 ---
-title: "Devcon 2017 Part II - Day Two"
-date: 2017-10-27T04:21:54Z
+title: DevCon 2017 Part II - Day Two
+date: 2017-10-27T04:21:54.000Z
+author: Prof Yaffle
 tags:
   - DevCon
   - Conferences
-author: Prof Yaffle
 featured_image:
   src: /images/blog/20171027_184546_HDR-2.webp
-  title: "20171027_184546_HDR-2"
-  alt: "20171027_184546_HDR-2"
+  title: 20171027_184546_HDR-2
+  alt: 20171027_184546_HDR-2
 ---
 
 Day Two dawns... most people are bright-eyed and ready for another day, although, if I'm honest, some people may be here more in body than in spirit...
