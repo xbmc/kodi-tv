@@ -1,12 +1,13 @@
 ---
-title: Devcon 2023 - Buongiorno Lombardia!
+title: DevCon 2023 - Buongiorno Lombardia!
 date: 2023-04-04T19:50:43.324Z
 author: Prof Yaffle
 tags:
   - DevCon
 featured_image:
   src: /images/blog/lago-d-iseo.jpg
-  title: Lago d'Iseo, Italia
+  title: Lago d'Iseo, Italia. Image copyright Ian Harper/Team Kodi, used with
+    permission.
   alt: A picture of a whart alongside Lago d'Iseo - Lake Iseo - in northern Italy.
     Clear blue water, mountains soaring in the background, a hint of snow atop
     them.
