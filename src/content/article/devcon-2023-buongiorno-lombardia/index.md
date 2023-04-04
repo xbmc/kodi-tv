@@ -96,9 +96,7 @@ Lots of sideline projects - finishing outstanding tasks, starting some new ones,
 
 We've seen a growth in people using Macs for development, so we took some time to explain some features and quirks of this environment, specifically how to install and run portable apps. This not only allows multiple different versions of Kodi to coexist for test/development purposes, but also the different ARM and x86 architectures that modern Macs support. We also explored some specifics about building and cross-compiling both Kodi and addons on this platform, as it's much more Linux-like than perhaps the Windows platforms people had maybe used before.
 
-
-
-![Team Kodi, 2023 - a photo of the Kodi team members who attended Devcon 2023. Mountains soar in the background behind this motley crew. One has his back turned to the camera, while people point to the logo on the back of his shirt - 20, signifying the 20th anniversary of XBMC/Kodi.](/images/blog/team-kodi-2023-italy-ceratello-lovere.jpg "Team Kodi, 2023 - Italy")
+![Team Kodi, 2023 - Kodi team members at Devcon 2023. in northern Italy. A group of people stand, spread out, facing the camera. Grass in front, but mountains soar in the background behind this motley crew of technological reprobates. One team member has his back turned to the camera, while people point to the logo on the back of his shirt: the numbers 20, signifying the 20th anniversary of XBMC/Kodi, but made up of the names of all the people and companies that have helped us make this awesome software happen.](/images/blog/team-kodi-2023-italy-ceratello-lovere.jpg "Team Kodi, 2023 - Italy")
 
 And that's it for Devcon 2023 - friendships made and rekindled, beer drunk, code written, plans made. Special thanks go out to Beppe at for hosting us at [Ai Ciar](https://www.airbnb.com/rooms/25868161), and to Alec and Michal from [RudeChefKitchen](https://www.rudechefkitchen.com) for keeping us fed throughout. 
 
