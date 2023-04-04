@@ -1,14 +1,14 @@
 ---
-title: "Devcon 2017 Part II - Day One"
-date: 2017-10-26T23:14:17Z
+title: DevCon 2017 Part II - Day One
+date: 2017-10-26T23:14:17.000Z
+author: Prof Yaffle
 tags:
   - DevCon
   - Conferences
-author: Prof Yaffle
 featured_image:
   src: /images/blog/prague-1002963_1920.webp
-  title: "prague-1002963_1920"
-  alt: "prague-1002963_1920"
+  title: prague-1002963_1920
+  alt: prague-1002963_1920
 ---
 
 Well, 2017 has turned out to be unusual, and we're not just talking world politics. This year, we've managed to bring the newly-extended team together for a second time; it's something we'd like to do more often, although it's unlikely that we'll be able to do it every year.
