@@ -102,3 +102,5 @@ We've seen a growth in people using Macs for development, so we took some time t
 And that's it for Devcon 2023 - friendships made and rekindled, beer drunk, code written, plans made. Special thanks go out to Beppe at for hosting us at [Ai Ciar](https://www.airbnb.com/rooms/25868161), and to Alec and Michal from [RudeChefKitchen](https://www.rudechefkitchen.com) for keeping us fed throughout. 
 
 Onwards towards Kodi v21!
+
+*PS Did you notice that awesome "20 years of Kodi" T-shirt in the picture above? You want one, don't you... well, you can buy that and other superb Kodi merchandise from [our store](https://kodi.tv/store/). Go on, you know you want to.*
