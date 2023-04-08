@@ -23,4 +23,4 @@ Although MyBB stores passwords in an encrypted format we must assume all passwor
 * The admin team are investigating how best to perform a global password reset and how best to assure the integrity of the server host and associated software. The forum server has been taken offline while this activity completes. This will also impact the Kodi pastebin and wiki sites. There is currently no time estimate for the forum server being online again; our focus is being thorough, not being quick.
 * Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
 
-This post will be updated as more information becomes available.
+We will post more information as it becomes available.
