@@ -24,3 +24,7 @@ Although MyBB stores passwords in an encrypted format we must assume all passwor
 * Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
 
 We will post more information as it becomes available.
+
+\----
+
+*If you need help in the meantime, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
