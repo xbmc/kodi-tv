@@ -35,7 +35,7 @@ We will post more information as it becomes available.
 
 \----
 
-**Update 11th April 2023**
+**Update, 11th April 2023**
 
 The admin team are in the process of commissioning a new forum server. We have not seen any evidence of compromise or other reason to question the integrity of the existing system, but a migration was already being planned and we will bring this forwards.
 
