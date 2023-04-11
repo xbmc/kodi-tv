@@ -1,5 +1,5 @@
 ---
-title: "Devcon 2022: Moltes gràcies, Catalunya!"
+title: "DevCon 2022: Moltes gràcies, Catalunya!"
 date: 2022-05-16T11:52:28.082Z
 author: Prof Yaffle
 tags:

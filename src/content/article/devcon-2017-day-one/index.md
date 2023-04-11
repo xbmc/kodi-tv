@@ -1,10 +1,10 @@
 ---
-title: "Devcon 2017 - Day One"
-date: 2017-05-05T06:28:09Z
+title: DevCon 2017 - Day One
+date: 2017-05-05T06:28:09.000Z
+author: Prof Yaffle
 tags:
   - DevCon
   - Conferences
-author: Prof Yaffle
 ---
 
 Welcome to DevCon 2017!
