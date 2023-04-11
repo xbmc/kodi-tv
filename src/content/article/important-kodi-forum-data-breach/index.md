@@ -12,7 +12,7 @@ featured_image:
 ---
 **Updated 11th April** - please see below.
 
-*If you need while we recover the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
+*If you need help while we recover the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
 
 *\----*
 
