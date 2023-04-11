@@ -43,10 +43,10 @@ We have chosen to redeploy the forum on the latest version of MyBB software. Thi
 
 The current forum server was hosted in the UK, so we have notified the UK Information Commissioner's Office of the breach and a report has been filed with the UK police. There are no plans to make other country-level breach notifications.
 
-We are in the process of sharing exposed email address data with the breach disclosure website [https://www.haveibeenpwned.com](https://www.haveibeenpwned.com/) to increase awareness. We are also investigating how to best send a notification and password reset advice email to users once the forum is online again.
+We are in the process of sharing exposed email address data with the breach disclosure website [haveibeenpwned](https://www.haveibeenpwned.com) to increase awareness. We are also investigating how to best send a notification and password reset advice email to users once the forum is online again.
 
 The wiki is being moved to another server host. A review of the code files has been completed and it will be redeployed using the latest MediaWiki version. We recognise the wiki is the go-to Kodi info resource for many users and we aim to bring it online again as a priority. The paste server will also be moved and restored but this is less urgent.
 
-The anarchic nature of a global internet-based software project guarantees there will always be areas to improve upon, so the admin team would like to conduct formal penetration testing once forum and other services are online again. Team Kodi members are all volunteers who contribute to the project for free. If you or your company offer professional pentest services, and can donate some time and expertise to help us audit our infrastructure, we would like to hear from you.
+The anarchic nature of a global internet-based software project guarantees there will always be areas to improve upon, so the admin team would like to conduct formal penetration testing once the forum and other services are back online. Team Kodi members are all volunteers who contribute to the project for free. If you or your company offer professional pentest services, and can donate some time and expertise to help us audit our infrastructure, we would like to hear from you.
 
 Thank you for your continued patience, understanding, and support.
