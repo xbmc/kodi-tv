@@ -10,6 +10,14 @@ featured_image:
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.
 ---
+**Updated 11th April** - please see below.
+
+*If you need while we recover the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
+
+*\----*
+
+**Original post, 08th April 2023**
+
 In the last 24 hours we became aware of a dump of the Kodi user forum (MyBB) software being advertised for sale on internet forums. This post confirms that a breach has taken place.
 
 MyBB admin logs show the account of a trusted but currently inactive member of the forum admin team was used to access the web-based MyBB admin console twice: on 16 February and again on 21 February. The account was used to create database backups which were then downloaded and deleted. It also downloaded existing nightly full-backups of the database. The account owner has confirmed they did not access the admin console to perform these actions.
@@ -27,4 +35,18 @@ We will post more information as it becomes available.
 
 \----
 
-*If you need help in the meantime, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
+**Update 11th April 2023**
+
+The admin team are in the process of commissioning a new forum server. We have not seen any evidence of compromise or other reason to question the integrity of the existing system, but a migration was already being planned and we will bring this forwards.
+
+We have chosen to redeploy the forum on the latest version of MyBB software. This requires us to extract and review all differences between the latest MyBB release and the fork we maintain, which includes numerous functional changes and backported security fixes. This is not a simple task and the forum will remain offline until it completes: we estimate several days more work. As part of the redeployment we will restrict and harden access to the MyBB admin console, revise admin roles to reduce privileges wherever possible, and improve audit logging and backup processes.
+
+The current forum server was hosted in the UK, so we have notified the UK Information Commissioner's Office of the breach and a report has been filed with the UK police. There are no plans to make other country-level breach notifications.
+
+We are in the process of sharing exposed email address data with the breach disclosure website [https://www.haveibeenpwned.com](https://www.haveibeenpwned.com/) to increase awareness. We are also investigating how to best send a notification and password reset advice email to users once the forum is online again.
+
+The wiki is being moved to another server host. A review of the code files has been completed and it will be redeployed using the latest MediaWiki version. We recognise the wiki is the go-to Kodi info resource for many users and we aim to bring it online again as a priority. The paste server will also be moved and restored but this is less urgent.
+
+The anarchic nature of a global internet-based software project guarantees there will always be areas to improve upon, so the admin team would like to conduct formal penetration testing once forum and other services are online again. Team Kodi members are all volunteers who contribute to the project for free. If you or your company offer professional pentest services, and can donate some time and expertise to help us audit our infrastructure, we would like to hear from you.
+
+Thank you for your continued patience, understanding, and support.
