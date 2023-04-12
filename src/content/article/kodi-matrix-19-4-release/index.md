@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - Release
 featured_image:
-  src: /images/blog/kodi-19.4-splash.jpg
+  src: /images/blog/kodi-19.4-splash.webp
   title: Kodi 19.4 "Matrix" Splash Screen
   alt: Kodi 19.4 "Matrix" Splash Screen
 ---

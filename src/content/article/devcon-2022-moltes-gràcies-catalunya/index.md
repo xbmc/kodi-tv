@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - DevCon
 featured_image:
-  src: /images/blog/la-sagrada-familia.jpg
+  src: /images/blog/la-sagrada-familia.webp
   title: Image of La Sagrada Familia, Barcelona; Photo by Sung Jin Cho on Unsplash
   alt: Image of La Sagrada Familia, Barcelona; Photo by Sung Jin Cho on Unsplash
 ---

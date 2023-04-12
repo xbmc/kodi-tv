@@ -6,7 +6,7 @@ tags:
   - Developer
   - Prerelease
 featured_image:
-  src: /images/blog/nexus-a1-splash.jpg
+  src: /images/blog/nexus-a1-splash.webp
   title: Kodi "Nexus" Alpha 1 Splash Screen
   alt: Kodi "Nexus" Alpha 1 Splash Screen
 ---

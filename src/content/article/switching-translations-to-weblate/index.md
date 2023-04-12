@@ -7,7 +7,7 @@ tags:
 featured_image:
   title: Photo by Edurne Chopeitia on Unsplash
   alt: Photo by Edurne Chopeitia on Unsplash
-  src: /images/blog/dictionary-image-photo-by-edurne-chopeitia-on-unsplash.jpg
+  src: /images/blog/dictionary-image-photo-by-edurne-chopeitia-on-unsplash.webp
 ---
 The moment is here to move to an even more optimal translation service for our application. Ultimately we have chosen Weblate, and its service will be hosted at <https://kodi.weblate.cloud/>.
 
