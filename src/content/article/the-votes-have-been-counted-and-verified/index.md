@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - Community
 featured_image:
-  src: /images/blog/emily-morter-8xaa0f9yqne-unsplash.jpg
+  src: /images/blog/emily-morter-8xaa0f9yqne-unsplash.webp
   title: "Credit: Photo by Emily Morter on Unsplash"
   alt: "Credit: Photo by Emily Morter on Unsplash"
 ---

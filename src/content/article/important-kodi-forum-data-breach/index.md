@@ -5,7 +5,7 @@ author: Team Kodi
 tags:
   - Community
 featured_image:
-  src: /images/blog/hacker.jpg
+  src: /images/blog/hacker.webp
   title: '"Hacker" Image by Gerd Altmann from Pixabay'
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.

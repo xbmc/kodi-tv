@@ -6,7 +6,7 @@ tags:
   - Developer
   - Prerelease
 featured_image:
-  src: /images/blog/nexus-a1-splash.jpg
+  src: /images/blog/nexus-a1-splash.webp
   title: Kodi 20.x "Nexus" Alpha Splash Screen
   alt: Kodi 20.x "Nexus" Alpha Splash Screen
 ---

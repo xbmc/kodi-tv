@@ -10,7 +10,7 @@ featured_image:
     surrounded and overlaid with a cascade of random computer characters,
     falling like rain from the top of the screen. Below the image, in blue text:
     "Kodi 19.4 - Matrix".'
-  src: /images/blog/kodi-19.5-splash.jpg
+  src: /images/blog/kodi-19.5-splash.webp
 ---
 Happy Holidays, everyone! To celebrate, here we have release 19.5. This release caps off the v19 Matrix development cycle - we are not intending anything further now until 20.0 "Nexus".
 
