@@ -40,7 +40,7 @@ In Chorus 2, the video playback was done through a pop-up window that had an HTM
 
 In a similar manner, I implemented the video playback functionality for the **movideid_int** page where I implemented the page’s UI from scratch, worked on its routing, modified json decoders, and created new ones from scratch.
 
-![Animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer2-600x320.gif "Movideid_int Page")
+![Animated image demonstrating how Kodi will show a sample of the selected video](/images/blog/mohdshaheer2-600x320.webp "Movideid_int Page")
 
 *movideid_int page*
 
@@ -54,7 +54,7 @@ Tvshow pages required more time and effort than others. I implemented its UI, fr
 
 *Season page*
 
-![Animated screenshot of Episode Page](/images/blog/mohdshaheer5-600x287.gif "Episode Page")
+![Animated screenshot of Episode Page](/images/blog/mohdshaheer5-600x287.webp "Episode Page")
 
 *Episode page*
 

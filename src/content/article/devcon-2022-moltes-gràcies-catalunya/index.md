@@ -37,6 +37,6 @@ There were also things we can't really talk about - top secret plans, and bar bi
 
 In the meantime, please delight in a picture of your favourite open-source devs, relaxing in the sunshine after a hard day huddled around laptops and projector screens. 
 
-![Kodi team photograph, Barcelona, 2022](/images/blog/img_8359_r.jpeg "Kodi team photograph, Barcelona, 2022")
+![Kodi team photograph, Barcelona, 2022](/images/blog/img_8359_r.webp "Kodi team photograph, Barcelona, 2022")
 
 Onwards!
