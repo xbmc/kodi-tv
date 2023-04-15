@@ -10,7 +10,7 @@ featured_image:
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.
 ---
-**Updated 11th April** - please see below.
+**Updated 15th April** - please see below.
 
 *If you need help while we recover/rebuild the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
 
@@ -50,3 +50,13 @@ The wiki is being moved to another server host. A review of the code files has b
 The anarchic nature of a global internet-based software project guarantees there will always be areas to improve upon, so the admin team would like to conduct formal penetration testing once the forum and other services are back online. Team Kodi members are all volunteers who contribute to the project for free. If you or your company offer professional pentest services, and can donate some time and expertise to help us audit our infrastructure, we would like to hear from you.
 
 Thank you for your continued patience, understanding, and support.
+
+\----
+
+**Update, 15th April 2023**
+
+As promised, we are now very close to bringing the wiki back online as a first step towards normality. As part of the system rebuild, we have upgraded both the core MediaWiki software and its associated plugins, which will improve both feature set and security.
+
+Please note that we have reset both secrets and user passwords, so current sessions are invalid and old passwords will no longer work: once the system is available, you will need to use the "forgotten password" link to gain access.
+
+Further systems will be brought back on line in due course. Thank you for bearing with us in the meantime.
