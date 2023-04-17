@@ -13,8 +13,12 @@ releases:
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
-    description: There are no pre-release builds available at this time.
-    downloads: []
+    description: The **Alpha 1** pre-release build has become available because we
+      think it is ready for wider testing and usage. It also means we are
+      getting closer to a stable release of v21.
+    downloads:
+      - name: Install Guide
+        url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux
   - name: Development Builds
     title: Kodi v20 & v21 Nightly Development Builds
     description: >-
