@@ -12,7 +12,7 @@ featured_image:
 ---
 **Updated 17th April** - please see below.
 
-*If you need help while we recover/rebuild the systems, a read-only April snapshot of the forum can be found on the Internet Archive [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/). [Wiki](https://wiki.kodi.tv/) and [paste](https://paste.kodi.tv/) sites are now live.*
+*If you need help while we recover/rebuild the systems, you can find a read-only April snapshot of the forum on the Internet Archive [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/). In addition, the Kodi [wiki](https://wiki.kodi.tv/) and [paste](https://paste.kodi.tv/) sites are now back online.*
 
 *\----*
 
