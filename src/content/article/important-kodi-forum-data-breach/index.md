@@ -10,9 +10,9 @@ featured_image:
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.
 ---
-**Updated 15th April** - please see below.
+**Updated 17th April** - please see below.
 
-*If you need help while we recover/rebuild the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
+*If you need help while we recover/rebuild the systems, a read-only April snapshot of the forum can be found on the Internet Archive [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/). [Wiki](https://wiki.kodi.tv/) and [paste](https://paste.kodi.tv/) sites are now live.*
 
 *\----*
 
@@ -60,3 +60,9 @@ As promised, we are now very close to bringing the wiki back online as a first s
 Please note that we have reset both secrets and user passwords, so current sessions are invalid and old passwords will no longer work: once the system is available, you will need to use the "forgotten password" link to gain access.
 
 Further systems will be brought back on line in due course. Thank you for bearing with us in the meantime.
+
+\----
+
+**Update, 17th April 2023**
+
+System recovery and rebuild continues apace: the Kodi [wiki](https://wiki.kodi.tv/) and [paste](https://paste.kodi.tv/) sites are now back online, with work continuing on bringing the forum back up as soon as we can.
