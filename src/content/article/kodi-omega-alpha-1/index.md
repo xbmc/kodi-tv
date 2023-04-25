@@ -104,7 +104,7 @@ So, all that aside... what's actually changed?
 
 **Settings**
 
-* Some fixes to regressions in Settings visibility have been made.
+* Some fixes to regressions in *Settings* visibility have been made.
 
 **Subtitles:**
 
