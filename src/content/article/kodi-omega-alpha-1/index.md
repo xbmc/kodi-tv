@@ -63,7 +63,7 @@ So, all that aside... what's actually changed?
 
 * **Android**:
 
-  * Improved Dolby Vision detection and compatibility: implemented support of DV in MKV containers, better handling of different DV profiles with fallback to HDR10 when is possible and display is not DV capable. For some devices, we can now also support hardware tone mapping DV profiles 4, 5 to SDR. Supported profiles vary on different Android devices: for example, the 2019 Shield supports profiles 4, 5, 7, 8 in DV and fallback to HDR10 (profiles 7, 8) but not HW tone mapping to SDR. Similarly, Fire TV Stick doesn't supports profile 7 although it does support HW tone mapping of profile 5 to SDR (profiles 4, 5, 8 are supported with DV display).
+  * Improved Dolby Vision detection and compatibility: implemented support of DV in MKV containers, better handling of different DV profiles with fallback to HDR10 when is possible and display is not DV capable. For some devices, we can now also support hardware tone mapping DV profiles 4, 5 to SDR. Supported profiles vary on different Android devices: for example, the 2019 Shield supports profiles 4, 5, 7, 8 in DV and fallback to HDR10 (profiles 7, 8) but not HW tone mapping to SDR. Similarly, the Fire TV Stick doesn't supports profile 7 although it does support HW tone mapping of profile 5 to SDR (profiles 4, 5, 8 are supported with DV display).
   * Implemented minimise shutdown function in Power Saving settings.
   * Multiple small internal improvements and use of newer Android APIs to replace deprecated ones.
   * **@joseluismarti** is slowly improving/updating a number of Android-specific features that enable the project to stay up to date with Google Play Store submission requirements.
