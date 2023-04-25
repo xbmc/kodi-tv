@@ -69,7 +69,7 @@ So, all that aside... what's actually changed?
   * **@joseluismarti** is slowly improving/updating a number of Android-specific features that enable the project to stay up to date with Google Play Store submission requirements.
 * **iOS/TVOS**:
 
-  * Support for Channel Up/Down keys when using the iPhone Apple TV Remote app connected to an Apple TV has been added
+  * Support for Channel Up/Down keys when using the iPhone Apple TV Remote app connected to an Apple TV has been added.
 * **Linux**:
 
   * Pipewire:
