@@ -87,7 +87,7 @@ So, all that aside... what's actually changed?
 
   * Minimum Windows supported version has been raised to Windows 8.1.
   * If they're available, we will now use displays' friendly names in settings (e.g. `"LG TV #1"`).
-  * Added a setting to use the Windows "HDR/SDR brightness balance" setting for GUI and subtitles when the display is in HDR PQ mode, and also improved the curve of internal method "GUI SDR max peak luminance".
+  * Added a setting to use the Windows *HDR/SDR brightness balance* setting for GUI and subtitles when the display is in HDR PQ mode, and also improved the curve of internal method *GUI SDR max peak luminance*.
   * Improved read performance over SMB in some special cases, e.g. playing full Blu-ray folders.
   * Improved graphics compatibility and fallback to enable running in some limited VM hardware (Hyper-V) even without video decoding support.
   * Various improvements in DXVA render method to avoid incompatibilities in old hardware or Windows 8, especially in the case of sources with BT.2020 colour space.
