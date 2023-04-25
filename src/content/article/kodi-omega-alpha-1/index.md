@@ -6,10 +6,11 @@ tags:
   - Prerelease
   - Developer
 featured_image:
-  src: /images/blog/blank-notepad-pexels-pixabay.webp
-  title: Blank notepad because we don't have a logo yet...
-  alt: A hand holds up a blank notepad for all the world to see, mostly because we
-    haven't got a logo for this release yet...
+  src: /images/blog/pexels-blank-paper.webp
+  title: Blank paper because we don't have a logo yet... photo courtesy of Lum3n
+    via Pexels.
+  alt: A hand holds a pencil to a blank sheet of paper, mostly because we haven't
+    got a logo for this release yet...
 ---
 *This release is so fresh that we don't yet even have an image... oops!*
 
