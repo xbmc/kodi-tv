@@ -53,7 +53,7 @@ So, all that aside... what's actually changed?
 
 **JSON-RPC**
 
-* *genre* has been added to the Video.Fields.Episodes field.
+* *genre* has been added to the `Video.Fields.Episodes` field.
 
 **Music**
 
