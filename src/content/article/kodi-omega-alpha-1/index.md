@@ -43,7 +43,7 @@ So, all that aside... what's actually changed?
 **General**
 
 * **@repojonray** has provided a number of general fixes/improvements to various areas to address e.g. memory leaks and performance improvements.
-* Modernisation of several areas of Kodi have been undertaken by a number of developers. A lot of this work will go unseen by users, however its helping to make Kodi's huge amount of code more maintainable for the future. **@lrusak**, **@neo1973** , **@repojohnray**, **@enen92**, **@Rechi** .
+* Modernisation of several areas of Kodi have been undertaken by a number of developers. A lot of this work will go unseen by users, however it's helping to make Kodi's huge amount of code more maintainable for the future. **@lrusak**, **@neo1973** , **@repojohnray**, **@enen92**, **@Rechi** .
 * Add setting to disable screensaver while playing audio.
 * **@DeltaMikeCharlie** has contributed some improvements to the UX regarding date format options.
 
