@@ -92,7 +92,7 @@ So, all that aside... what's actually changed?
   * Improved graphics compatibility and fallback to enable running in some limited VM hardware (Hyper-V) even without video decoding support.
   * Various improvements in DXVA render method to avoid incompatibilities in old hardware or Windows 8, especially in the case of sources with BT.2020 colour space.
   * Implemented support for DXVA2 AV1 hardware video decoding 8-bit and 10-bit.
-  * Specific SDK requirements for building UWP packages have been removed to allow the use of newer SDK's from Visual Studio.
+  * Specific SDK requirements for building UWP packages have been removed to allow the use of newer SDKs from Visual Studio.
 
 **Picture**
 
