@@ -10,11 +10,10 @@ featured_image:
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.
 ---
-**Updated 11th April** - please see below.
 
-*If you need help while we recover/rebuild the systems, a March snapshot of the Wiki can be found on the Internet Archive [here](https://web.archive.org/web/20230324154746/https://kodi.wiki/view/Main_Page), and a read-only April copy of the forum [here](https://web.archive.org/web/20230402060846/http://forum.kodi.tv/).*
+**Updated 25th April** - forum, wiki and paste systems are now back on line - please see below.
 
-*\----*
+_\----_
 
 **Original post, 08th April 2023**
 
@@ -28,8 +27,8 @@ The nightly full backups that were downloaded expose all public forum posts, all
 
 Although MyBB stores passwords in an encrypted format we must assume all passwords are compromised. This requires actions from the team, and forum users:
 
-* The admin team are investigating how best to perform a global password reset and how best to assure the integrity of the server host and associated software. The forum server has been taken offline while this activity completes. This will also impact the Kodi pastebin and wiki sites. There is currently no time estimate for the forum server being online again; our focus is being thorough, not being quick.
-* Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
+- The admin team are investigating how best to perform a global password reset and how best to assure the integrity of the server host and associated software. The forum server has been taken offline while this activity completes. This will also impact the Kodi pastebin and wiki sites. There is currently no time estimate for the forum server being online again; our focus is being thorough, not being quick.
+- Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
 
 We will post more information as it becomes available.
 
@@ -50,3 +49,27 @@ The wiki is being moved to another server host. A review of the code files has b
 The anarchic nature of a global internet-based software project guarantees there will always be areas to improve upon, so the admin team would like to conduct formal penetration testing once the forum and other services are back online. Team Kodi members are all volunteers who contribute to the project for free. If you or your company offer professional pentest services, and can donate some time and expertise to help us audit our infrastructure, we would like to hear from you.
 
 Thank you for your continued patience, understanding, and support.
+
+\----
+
+**Update, 15th April 2023**
+
+As promised, we are now very close to bringing the wiki back online as a first step towards normality. As part of the system rebuild, we have upgraded both the core MediaWiki software and its associated plugins, which will improve both feature set and security.
+
+Please note that we have reset both secrets and user passwords, so current sessions are invalid and old passwords will no longer work: once the system is available, you will need to use the "forgotten password" link to gain access.
+
+Further systems will be brought back on line in due course. Thank you for bearing with us in the meantime.
+
+\----
+
+**Update, 17th April 2023**
+
+System recovery and rebuild continues apace: the Kodi [wiki](https://wiki.kodi.tv/) and [paste](https://paste.kodi.tv/) sites are now back online, with work continuing on bringing the forum back up as soon as we can.
+
+\----
+
+**Update, 25th April 2023**
+
+The forum is now back on line and available to everybody. There will inevitably be a few tweaks yet to come as we fine-tune plugins, formats and similar, but the content is all there. Thank you for your patience.
+
+Remember that you will need to use the password recovery function (to your registered email address) before you can log in, as all passwords and sessions have been reset.
