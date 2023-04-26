@@ -6,7 +6,7 @@ tags:
   - Developer
   - Prerelease
 featured_image:
-  src: /images/blog/nexus-rc-splash.jpg
+  src: /images/blog/nexus-rc-splash.webp
   title: Kodi 20.x "Nexus" RC Splash Screen
   alt: A blue Kodi logo sits in a circle, atop white text - "Kodi". Clock
     artefacts surround it all - a background of computer noise. At the bottom, a

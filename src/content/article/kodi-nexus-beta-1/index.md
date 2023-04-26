@@ -6,7 +6,7 @@ tags:
   - Developer
   - Prerelease
 featured_image:
-  src: /images/blog/nexus-beta-splash.jpg
+  src: /images/blog/nexus-beta-splash.webp
   title: Kodi 20.x "Nexus" Beta Splash Screen
   alt: Kodi 20.x "Nexus" Beta Splash Screen
 ---

@@ -5,8 +5,8 @@ author: Team Kodi
 tags:
   - Release
 featured_image:
-  title: Kodi 20.0 "Nexus" Splash Screen
-  src: /images/blog/kodi-20.1-nexus-splash.jpg
+  title: Kodi 20.1 "Nexus" Splash Screen
+  src: /images/blog/kodi-20.1-nexus-splash.webp
   alt: Kodi 20.1 "Nexus" Splash Screen - a blue Kodi logo sits in the centre of a
     black page, around it, a dial - a gauge or chronograph, perhaps.
 ---

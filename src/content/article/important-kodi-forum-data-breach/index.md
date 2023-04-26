@@ -5,14 +5,15 @@ author: Team Kodi
 tags:
   - Community
 featured_image:
-  src: /images/blog/hacker.jpg
+  src: /images/blog/hacker.webp
   title: '"Hacker" Image by Gerd Altmann from Pixabay'
   alt: An anonymous, hooded figure stares out from the screen, his face hidden in
     darkness. Zeroes and ones - binary - flood everywhere.
 ---
+
 **Updated 25th April** - forum, wiki and paste systems are now back on line - please see below.
 
-*\----*
+_\----_
 
 **Original post, 08th April 2023**
 
@@ -26,8 +27,8 @@ The nightly full backups that were downloaded expose all public forum posts, all
 
 Although MyBB stores passwords in an encrypted format we must assume all passwords are compromised. This requires actions from the team, and forum users:
 
-* The admin team are investigating how best to perform a global password reset and how best to assure the integrity of the server host and associated software. The forum server has been taken offline while this activity completes. This will also impact the Kodi pastebin and wiki sites. There is currently no time estimate for the forum server being online again; our focus is being thorough, not being quick.
-* Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
+- The admin team are investigating how best to perform a global password reset and how best to assure the integrity of the server host and associated software. The forum server has been taken offline while this activity completes. This will also impact the Kodi pastebin and wiki sites. There is currently no time estimate for the forum server being online again; our focus is being thorough, not being quick.
+- Users must assume their Kodi forum credentials and any private data shared with other users through the user-to-user messaging system is compromised. If you have used the same username and password on any other site, you should follow the password reset/change procedure for that site. Once the Kodi forum comes back online we will provide instructions on how to complete a reset of your Kodi forum password.
 
 We will post more information as it becomes available.
 

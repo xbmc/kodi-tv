@@ -8,7 +8,7 @@ featured_image:
   alt: Image of a place name sign, yellow, blue metal frame, with black lettering
     spelling out "Next Big Thing". Image by Gerd Altmann from Pixabay.
   title: '"Next Big Thing" - Image by Gerd Altmann from Pixabay.'
-  src: /images/blog/place-name-sign-1647341_1920.jpg
+  src: /images/blog/place-name-sign-1647341_1920.webp
 ---
 After all, "that which we call a rose by any other name would smell just as sweet" - okay, Shakespeare maybe had a point, but, for obvious reasons, he didn't know anything about software. For us, names matter because they usually herald a new release, a major change, and, yes, lots of lovely, cuddly new features.
 

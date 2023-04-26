@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - Release
 featured_image:
-  src: /images/blog/kodi_splash_v19.2_matrix_final_1080p.jpg
+  src: /images/blog/kodi_splash_v19.2_matrix_final_1080p.webp
   title: Kodi 19.2 "Matrix" Splash Screen
   alt: Kodi 19.2 "Matrix" Splash Screen
 ---
