@@ -14,7 +14,8 @@ featured_image:
 
 * Forum, Wiki and Paste sites are now all active.
 * Systems have been rebuilt from scratch with new images, software and patches.
-*All users will need to reset their passwords before they can log in.
+* All users will need to reset their passwords before they can log in.
+* Forum registration is now open for new users.
 
 **Known issues**
 
