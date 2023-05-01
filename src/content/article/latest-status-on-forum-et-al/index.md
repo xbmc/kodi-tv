@@ -1,6 +1,6 @@
 ---
 title: Latest Status on Forum et al.
-date: 2023-04-30T13:44:25.753Z
+date: 2023-05-01T09:10:26.672Z
 author: Team Kodi
 tags:
   - Community
@@ -10,7 +10,7 @@ featured_image:
   alt: 'An old electric typwriter, a single sheet of white paper feeding through
     it, one word centred on the visible page: "Update".'
 ---
-**Current Status - Last Updated, Sunday 30th April 2023**
+**Current Status - Last Updated, Monday 01 May 2023**
 
 * Forum, Wiki and Paste sites are now all active.
 * Systems have been rebuilt from scratch with new images, software and patches.
