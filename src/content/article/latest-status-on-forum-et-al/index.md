@@ -20,7 +20,7 @@ featured_image:
 **Known issues**
 
 * Fixed: We identified a login bug in the forum software which we've fixed and are reporting to the authors. The resolution may require some users to reset their passwords again.
-* Fixed: There was an intial problem with registration of new accounts on the forum after we re-enabled registrations. This has now been resolved.
-* Open: MyAlerts/Pings are not currently available because there's no supported plugin that provides this functionality. We are looking to see if there are alternatives.
+* Fixed: There was an initial problem with registration of new accounts on the forum after we re-enabled registrations. This has now been resolved.
+* Open: MyAlerts/Pings were not available because there's no supported plugin to provide this functionality. We believe that we've found a fix, though, so will let you know soon.
 * Open: Some users are having issues with unexpected logouts. Monitoring to understand.
 * No further action: We do not have, nor do we plan on implementing, Tapatalk integration.
