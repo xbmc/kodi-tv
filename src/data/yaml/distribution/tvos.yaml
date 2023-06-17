@@ -13,12 +13,12 @@ releases:
         url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_20.1-0-tvos.deb?https=1
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Alpha 1** pre-release build has become available because we
+    description: The **Alpha 2** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are
       getting closer to a stable release of v21.
     downloads:
       - name: tvOS
-        url: https://mirrors.kodi.tv/snapshots/darwin/tvos/org.xbmc.kodi-tvos_21.0-~a1-tvos.deb?https=1
+        url: https://mirrors.kodi.tv/snapshots/darwin/tvos/org.xbmc.kodi-tvos_21.0~a2-tvos.deb?https=1
   - name: Development Builds
     title: Kodi v20 & v21 Nightly Development Builds
     description: >-
