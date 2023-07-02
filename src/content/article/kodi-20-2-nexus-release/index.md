@@ -22,7 +22,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Estuary**
 
-* A fix to the Music Viz screen has been made by @enen92 in an endeavour to chase that elusive target of perfection
+* A fix to the Music Viz screen has been made by **@enen92** in an endeavour to chase that elusive target of perfection
 * Fixes to the seekbar timer when seeking.
 
 **Game/Retroplayer**
@@ -36,17 +36,16 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 **Platform Specific**
 
 * Android
-
   * A fix for a crash that occurred when >100 jobs where scheduled for the Android TV recommendation channels.
   * For some old Android devices that had both MediaTek and Google decoders for some media, a preference to using the Google decoder was put in as the MediaTek decoders fail to play back audio in encrypted streams.
-* Linux
 
+* Linux
   * A PR was reverted that fixes some Linux setups to use the more generic library (GL) rather than the specific GLX library.
 * macOS/iOS
 
   * Fix speech recognition not working (https://github.com/xbmc/xbmc/pull/23341).
-* Windows
 
+* Windows
   * Fixes to HDR playback when windows was already in HDR mode.
   * A backported fix for a potential deadlock for Xbox users when using pixel shaders and SW decoding.
 
@@ -57,7 +56,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Python**
 
-* @garbear has backported a fix for setting Picture and Game info via infotags.
+* **@garbear** has backported a fix for setting Picture and Game info via infotags.
 * GameInfo has been added to the Player class to allow get/set GameInfoTag data.
 * A fix was backported that mainly affected Linux platforms: the path used when searching for modules was appending Kodi script paths at the end of the list, and therefore could potentially find system Python scripts/modules instead of Kodi-specific scripts/modules
 
