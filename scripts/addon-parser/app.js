@@ -560,7 +560,7 @@ async function app() {
         console.log(error);
       }
       if (stats) {
-        let forumRegEx = new RegExp("<span .*>(.*)</span><i .*></i> Total Threads");
+        let forumRegEx = new RegExp("<span .*>(.*)<span>Threads");
         let forumMatch = forumRegEx.exec(stats);
         if (forumMatch !== null) {
           forumThreads = forumMatch[1];
