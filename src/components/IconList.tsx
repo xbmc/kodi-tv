@@ -11,7 +11,7 @@ function IconListFeatured(props: {
   let linkroot = "";
   let className = "my-6 max-w-none mx-auto gap-5 grid md:grid-cols-3 lg:grid-cols-5";
   if (props.items.length == 0) {
-    return "";
+    return null;
   }
   if (props.className !== undefined) {
     className = props.className;
@@ -53,13 +53,13 @@ function IconList(props: {
     slug?: string;
     name?: string;
   }[];
-  iconwidth: string | undefined;
+  iconwidth?: string | undefined;
   iconheight?: string;
-  linkroot: string;
-  className: string | undefined;
+  linkroot?: string;
+  className?: string | undefined;
 }) {
   if (props.items.length == 0) {
-    return "";
+    return null;
   }
   let items = props.items;
   let linkroot = "";
