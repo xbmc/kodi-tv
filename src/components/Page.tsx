@@ -14,8 +14,11 @@ import {
   DownloadNotice,
   SponsorList,
 } from "./SectionWidgets";
+import { StoreCta } from "./StoreCta";
 
-function PreviewNoticeCard(props: { section: "downloadlist" | "sponsors" }) {
+function PreviewNoticeCard(props: {
+  section: "downloadlist" | "sponsors" | "merch-cta";
+}) {
   return (
     <Card>
       <h3 className="text-2xl font-bold">No Live Preview</h3>
@@ -25,13 +28,16 @@ function PreviewNoticeCard(props: { section: "downloadlist" | "sponsors" }) {
 }
 
 function DynamicSection(props: { preview: any; section: string | number }) {
+  let storeCta = <StoreCta />;
   let dlcomponent = <DownloadList />;
   let spcomponent = <SponsorList />;
   if (props.preview) {
+    storeCta = <PreviewNoticeCard section="store-cta" />;
     dlcomponent = <PreviewNoticeCard section="downloadlist" />;
     spcomponent = <PreviewNoticeCard section="sponsors" />;
   }
   let sections = {
+    "store-cta": storeCta,
     downloadlist: dlcomponent,
     sponsors: spcomponent,
     aboutdisclaimer: <AboutDisclaimer />,

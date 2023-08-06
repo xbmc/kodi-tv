@@ -24,6 +24,8 @@ If you don't want to give directly to us, you can still support us in other ways
 * If you use Amazon for any of your online shopping, you can [select the Kodi Foundation as your Amazon Smile donation choice](https://smile.amazon.com/ch/47-4565769). Amazon Smile donates a small amount to the non-profit of your choice each time you purchase from Amazon.
 * Purchasing Kodi gear helps just as much as a donation, and you get something in return! [Check out our store for Kodi branded gear](/store). We are regularly adding new products so check back often.
 
+x-section-x store-cta x-section-x
+
 ## Donor Recognition
 
 Everyone who donates **50 USD** (or **40 EUR**) or more may be recognized as an official Kodi Foundation donor in the forums. We also have a [wall of our most recent donors](/donate/wall). Donations via Credit Card and PayPal automatically show up on our donor wall within a day.  Other donations we have to do manually, so it may take longer for those to show up.
