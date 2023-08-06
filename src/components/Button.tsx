@@ -9,6 +9,7 @@ interface Props {
   rel?: string;
   buttonType?: "internal" | "external" | "button";
   onClick?: any;
+  children: React.ReactNode;
 }
 
 class Button extends React.Component<Props> {

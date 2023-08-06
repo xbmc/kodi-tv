@@ -4,28 +4,26 @@ import { DownloadLinks } from "./ReleasesLinks";
 import Tabs from "./Tabs";
 
 class ReleasesTabs extends React.Component {
-  constructor(
-    private props: {
-      releases: {
-        name: string;
-        id: string;
-        downloads: {
-          url: string | undefined;
-          name: React.ReactNode;
-        }[];
-        description: string;
+  constructor(props: {
+    releases: {
+      name: string;
+      id: string;
+      downloads: {
+        url: string | undefined;
+        name: React.ReactNode;
       }[];
-    }
-  ) {
+      description: string;
+    }[];
+  }) {
     super(props);
   }
 
   render() {
     const releases = this.props.releases;
     if (releases == undefined) {
-      return "";
+      return null;
     } else if (releases.length == 0) {
-      return "";
+      return null;
     }
     return (
       <Tabs>
