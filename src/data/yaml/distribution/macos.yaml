@@ -16,12 +16,12 @@ releases:
         url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-20.2-Nexus-x86_64.dmg?https=1
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Alpha 2** pre-release build has become available because we
+    description: The **Alpha 3** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are
       getting closer to a stable release of v21.
     downloads:
       - name: Installer (64BIT)
-        url: https://mirrors.kodi.tv/snapshots/osx/x86_64/kodi-21.0-Omega_alpha2-x86_64.dmg?https=1
+        url: https://mirrors.kodi.tv/snapshots/osx/x86_64/kodi-21.0-Omega_alpha3-x86_64.dmg?https=1
   - name: Development Builds
     title: Kodi v20 & v21 Nightly Development Builds
     description: >-
