@@ -76,7 +76,7 @@ So... what's actually changed?
 **PVR**
 
 * A first time contributor **@ivanllc** has had a PR merged to add a "2 minute" option to the padding timer for PVR recordings.
-* **@ksooo** continues to improve the Kodi PVR system. A number of changes were made, including fixes and tidy ups from static analysis tools (`cppcheck`/`clang-tidy`).
+* **@ksooo** continues to improve the Kodi PVR system. A number of changes were made, including fixes and tidy ups from static analysis tools (`cppcheck` and `clang-tidy`).
 * Fixed a long-standing bug with subtitle selection not being preserved upon channel playback restart.
 
 **Python**
@@ -86,7 +86,7 @@ So... what's actually changed?
 
 **Skinning**
 
-* a change by **@smfontes** to allow loading of font sets defined in a skins /Fonts folder. https://github.com/xbmc/xbmc/pull/22993.
+* a change by **@smfontes** to allow loading of font sets defined in a skins/fonts folder: https://github.com/xbmc/xbmc/pull/22993.
 
 **Subtitles**
 
