@@ -9,6 +9,8 @@ npm install
 npm start
 ```
 
+Then open [http://localhost:8000](http://localhost:8000) in your browser to see the site.
+
 ## Issues
 
 If you are having issues with the site, please submit a Github issue.
