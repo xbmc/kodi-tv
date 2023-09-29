@@ -15,7 +15,6 @@ Donations are used solely for purchasing hardware to improve and extend the goal
 * **Patreon:** You can [support us on Patreon](/donate/by-patreon), a crowdfunding membership platform that provides tools for creators to run a subscription content service.
 * **Liberapay:** You can [support us on Liberpay](https://liberapay.com/teamkodi), a non-profit organization providing a platform to donate money to teams, organizations and individuals.
 * **Cryptocurrency:** You can donate via [Every.org](https://www.every.org/kodi#/donate).
-* **Wire Transfer/IBAN:** If you are in a country which is part of SEPA (Single Euro Payments Area), you can [do a wire transfer](/donate/by-wire-transfer). Wire transfer or credit transfer is a method of electronic funds transfer from one person or institution (entity) to another. A wire transfer can be made from one bank account to another bank account or through a transfer of cash at a cash office.
 
 ## Other Options
 
