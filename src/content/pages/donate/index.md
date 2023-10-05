@@ -20,7 +20,6 @@ Donations are used solely for purchasing hardware to improve and extend the goal
 
 If you don't want to give directly to us, you can still support us in other ways.
 
-* If you use Amazon for any of your online shopping, you can [select the Kodi Foundation as your Amazon Smile donation choice](https://smile.amazon.com/ch/47-4565769). Amazon Smile donates a small amount to the non-profit of your choice each time you purchase from Amazon.
 * Purchasing Kodi gear helps just as much as a donation, and you get something in return! [Check out our store for Kodi branded gear](/store). We are regularly adding new products so check back often.
 
 x-section-x store-cta x-section-x
