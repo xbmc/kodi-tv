@@ -14,14 +14,9 @@
   "author": "pkscout <pkscout@kodi.tv>",
   "license": "GPL-3-ONLY",
   "dependencies": {
-    "js-yaml": "^4.1.0",
-    "node-fetch": "^2.6.9",
-    "slugify": "^1.6.6",
-    "util": "^0.12.5",
-    "xml-parser": "^1.2.1"
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.5",
-    "@types/xml-parser": "^1.2.30"
+    "@types/js-yaml": "^4.0.5"
   }
 }
