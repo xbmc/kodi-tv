@@ -9,7 +9,7 @@ const slugify = require("slugify");
 const yaml = require("js-yaml");
 const fs = require("fs");
 const getargs = require("minimist");
-const inspect = require("util").inspect; // this is only here to inspect the json during debugging
+// const inspect = require("util").inspect; // this is only here to inspect the json during debugging
 
 const TODAY = new Date();
 const CATEGORIES = [
