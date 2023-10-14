@@ -1,6 +1,6 @@
 import React from "react";
 // import Swiper core and required modules
-import SwiperCore, { Navigation, Pagination, A11y, Autoplay } from "swiper";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Button from "./Button";
 
@@ -8,9 +8,6 @@ import Button from "./Button";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-// install Swiper modules
-SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
 
 interface Props {
   slides: string[];
@@ -30,6 +27,7 @@ class Carousel extends React.Component<Props> {
   render() {
     return (
       <Swiper
+        modules={[Navigation, Pagination, A11y, Autoplay]}
         style={{ maxWidth: "1000px", "--swiper-theme-color": "#17B2E7" }}
         spaceBetween={0}
         slidesPerView={1}
@@ -55,7 +53,9 @@ class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
         <div className="mx-auto">
           <div className="relative shadow-xl overflow-hidden flex">
             <Swiper
+              modules={[Navigation, Pagination, A11y, Autoplay]}
               style={{ "--swiper-theme-color": "#17B2E7" }}
+              className="w-full"
               spaceBetween={0}
               slidesPerView={1}
               loop
