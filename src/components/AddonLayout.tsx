@@ -123,6 +123,7 @@ export default function AddonLayout({
                   (author: { name: string; slug: string }, index: any) => {
                     return (
                       <ItemWithComma
+                        key={author.name}
                         description={author.name}
                         url={linkroot + "author/" + author.slug}
                         index={index}
@@ -144,6 +145,7 @@ export default function AddonLayout({
                 (category: { name: string; slug: string }, index: any) => {
                   return (
                     <ItemWithComma
+                      key={category.name}
                       description={category.name}
                       url={linkroot + "category/" + category.slug}
                       index={index}
@@ -176,7 +178,7 @@ export default function AddonLayout({
       <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-gray-50 shadow overflow-hidden">
         <div className="border-t border-gray-200">
           <dl>
-            {details.map((item, index) => (
+            {details.map(item => (
               <>
                 {item.datatype === "link" ? (
                   <div key={item.title} className={item.className}>
@@ -196,8 +198,8 @@ export default function AddonLayout({
                       {item.title}
                     </dt>
                     <dd className="mt-0 col-span-1 md:col-span-2 text-sm">
-                      {item.data.map((platform, index) => (
-                        <div className="flex space-x-2 mb-1">
+                      {item.data.map(platform => (
+                        <div className="flex space-x-2 mb-1" key={platform.platform}>
                           <a href={platform.path}>
                             <ArrowDownTrayIcon className="h-5 w-5 text-kodi" />
                           </a>
