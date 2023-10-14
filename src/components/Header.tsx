@@ -19,6 +19,7 @@ import {
 import { Link } from "gatsby";
 
 export interface MenuEntry {
+  id: string;
   title: string;
   url: { url: string; type: "external" | "internal" } | undefined;
   buttonType: string;
@@ -42,6 +43,7 @@ let secondaryButton =
 
 const mainMenu: MenuEntry[] = [
   {
+    id: "home",
     title: "News",
     url: { url: "/blog", type: "internal" },
     buttonType: regularButton,
@@ -49,6 +51,7 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    id: "addons",
     title: "Add-ons",
     url: { url: "#", type: "internal" },
     buttonType: regularButton,
@@ -56,18 +59,21 @@ const mainMenu: MenuEntry[] = [
       "Add-on availability depends on your version of Kodi, so please select the version you are running.",
     dropdown: [
       {
+        id: "addons-about",
         title: "About Add-ons",
         url: { url: "/addons", type: "internal" },
         icon: InformationCircleIcon,
         description: "Find out how add-ons expand and enhance the Kodi experience.",
       },
       {
+        id: "addons-nexus",
         title: "Nexus Add-ons",
         url: { url: "/addons/nexus", type: "internal" },
         icon: CloudArrowDownIcon,
         description: "Add-ons for Kodi 20, the latest and greatest version of Kodi.",
       },
       {
+        id: "addons-matrix",
         title: "Matrix Add-ons",
         url: { url: "/addons/matrix", type: "internal" },
         icon: CloudArrowDownIcon,
@@ -77,6 +83,7 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
+    id: "contribute",
     title: "Contribute",
     buttonType: regularButton,
     url: { url: "/contribute", type: "internal" },
@@ -84,30 +91,35 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    id: "about",
     title: "About",
     url: { url: "#", type: "internal" },
     buttonType: regularButton,
     footer: null,
     dropdown: [
       {
+        id: "about-kodi",
         title: "About Kodi",
         url: { url: "/about", type: "internal" },
         icon: InformationCircleIcon,
         description: "Find out everything Kodi can do for you.",
       },
       {
+        id: "about-sponsors",
         title: "Sponsors",
         url: { url: "/about/sponsors", type: "internal" },
         icon: BanknotesIcon,
         description: "A list of companies supporting the work we do.",
       },
       {
+        id: "about-software",
         title: "Software",
         url: { url: "/about/software", type: "internal" },
         icon: CpuChipIcon,
         description: "Information about the suite of software we offer.",
       },
       {
+        id: "about-contact",
         title: "Contact",
         url: { url: "/about/contact", type: "internal" },
         icon: InboxArrowDownIcon,
@@ -117,6 +129,7 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
+    id: "store",
     title: "Store",
     buttonType: regularButton,
     url: { url: "/store", type: "internal" },
@@ -124,24 +137,28 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    id: "help",
     title: "Help",
     url: { url: "#", type: "internal" },
     buttonType: regularButton,
     footer: null,
     dropdown: [
       {
+        id: "help-wiki",
         title: "Wiki",
         url: { url: "https://kodi.wiki", type: "external" },
         icon: DocumentTextIcon,
         description: "Our user documentation and how-to guides.",
       },
       {
+        id: "help-developer",
         title: "Kodi Developer Resources",
         url: { url: "https://docs.kodi.tv", type: "external" },
         icon: CodeBracketIcon,
         description: "Documentation, including information for Kodi itself.",
       },
       {
+        id: "help-addon",
         title: "Add-on Developer Resources",
         url: { url: "https://dev-kit.kodi.tv", type: "external" },
         icon: CodeBracketIcon,
@@ -149,12 +166,14 @@ const mainMenu: MenuEntry[] = [
           "Documentation, including information for skin development and interfaces for Python and C++ .",
       },
       {
+        id: "help-forum",
         title: "Forum",
         url: { url: "https://forum.kodi.tv", type: "external" },
         icon: ChatBubbleLeftRightIcon,
         description: "Our user forum for asking questions and finding answers.",
       },
       {
+        id: "help-irc",
         title: "IRC",
         url: { url: "https://web.libera.chat/#kodi", type: "external" },
         icon: ChatBubbleLeftEllipsisIcon,
@@ -162,6 +181,7 @@ const mainMenu: MenuEntry[] = [
           "Join us on Libera.Chat or use this menu link to join the channel via the web.",
       },
       {
+        id: "help-matrix",
         title: "Matrix",
         url: { url: "https://matrix.to/#/#kodi-space:matrix.org", type: "external" },
         icon: ChatBubbleLeftEllipsisIcon,
@@ -170,6 +190,7 @@ const mainMenu: MenuEntry[] = [
     ],
   },
   {
+    id: "github",
     title: "GitHub",
     buttonType: regularButton,
     url: { url: "https://github.com/xbmc", type: "external" },
@@ -177,6 +198,7 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    id: "download",
     title: "Download",
     url: { url: "/download", type: "internal" },
     buttonType: primaryButton,
@@ -184,6 +206,7 @@ const mainMenu: MenuEntry[] = [
     footer: null,
   },
   {
+    id: "donate",
     title: "Donate",
     buttonType: primaryButton,
     url: { url: "/donate", type: "internal" },
@@ -227,7 +250,7 @@ function Header(props: any) {
                         item.dropdown == null && item.url ? (
                           item.url.type === "internal" ? (
                             <Link
-                              key={item.url.url}
+                              key={item.id}
                               to={item.url.url}
                               className={item.buttonType}
                             >
@@ -235,7 +258,7 @@ function Header(props: any) {
                             </Link>
                           ) : (
                             <a
-                              key={item.url.url}
+                              key={item.id}
                               href={item.url.url}
                               className={item.buttonType}
                             >
@@ -243,7 +266,7 @@ function Header(props: any) {
                             </a>
                           )
                         ) : (
-                          <HeaderDropdownMenu key={item.url?.url} menu={item} />
+                          <HeaderDropdownMenu key={item.id} menu={item} />
                         )
                       )}
                     </div>
