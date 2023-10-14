@@ -22,8 +22,9 @@ function IconListFeatured(props: {
   return (
     <>
       <div className={className}>
-        {items.map((item, index) => (
+        {items.map(item => (
           <FeaturedCard
+            key={item.name}
             iconClass={
               "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-gray-50"
             }

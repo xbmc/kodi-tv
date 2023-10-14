@@ -8,6 +8,7 @@ interface Props {
   imgsrc?: string;
   imgalt?: string;
   url?: string;
+  children?: React.ReactNode;
 }
 
 class Card extends React.Component<Props> {
