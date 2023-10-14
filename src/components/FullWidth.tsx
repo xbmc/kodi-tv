@@ -173,7 +173,9 @@ function FullWidthTwoPaneIconsRight(props: {
                   >
                     {props.title}
                   </h2>
-                  <p className={"mt-4 text-lg " + subtextColor}>{props.children}</p>
+                  <div className={"mt-4 text-lg " + subtextColor}>
+                    {props.children}
+                  </div>
                   <div className="mt-6">
                     <Button href={props.url}>{props.buttontext}</Button>
                   </div>
@@ -307,8 +309,11 @@ function FullWidthSponsorList(props: {
             {props.title}
           </p>
           <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
-            {props.sponsors.map((sponsor, index) => (
-              <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 filter grayscale transition duration-500 ease-in-out hover:filter-none">
+            {props.sponsors.map(sponsor => (
+              <div
+                key={sponsor.slug}
+                className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 filter grayscale transition duration-500 ease-in-out hover:filter-none"
+              >
                 <a href={sponsor.slug} target="_blank" rel="noreferrer">
                   <img
                     className="h-12"
@@ -319,82 +324,6 @@ function FullWidthSponsorList(props: {
                 </a>
               </div>
             ))}
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-
-function FullWidthCTAImageLeft(props: {
-  backgroundColor: string | undefined;
-  titleTextColor: string | undefined;
-  bodyTextColor: string | undefined;
-  buttonType: "primary" | "secondary";
-  image: {
-    src: string | undefined;
-    title: string | undefined;
-    alt: string | undefined;
-  };
-  title: string;
-  children:
-    | boolean
-    | React.ReactChild
-    | React.ReactFragment
-    | React.ReactPortal
-    | null
-    | undefined;
-  url: string;
-  buttontext: string;
-}) {
-  let backgroundColor = "bg-gray-800";
-  let titleTextColor = "text-gray-50";
-  let bodyTextColor = "text-gray-300";
-  let buttonType: "primary" | "secondary" = "secondary";
-  if (props.backgroundColor != undefined) {
-    backgroundColor = props.backgroundColor;
-  }
-  if (props.titleTextColor != undefined) {
-    titleTextColor = props.titleTextColor;
-  }
-  if (props.bodyTextColor != undefined) {
-    bodyTextColor = props.bodyTextColor;
-  }
-  if (props.buttonType != undefined) {
-    buttonType = props.buttonType;
-  }
-  return (
-    <>
-      <div className={"relative " + backgroundColor}>
-        <div className="h-56 md:absolute md:left-0 md:h-full md:w-1/2">
-          <img
-            className="w-full h-full object-cover"
-            src={props.image.src}
-            title={props.image.title}
-            alt={props.image.alt}
-          />
-          <div
-            className="absolute inset-0 bg-kodibg-lighter"
-            style={{ mixBlendMode: "multiply" }}
-          ></div>
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <h2
-              className={
-                "mt-2 text-4xl font-extrabold tracking-tight " + titleTextColor
-              }
-            >
-              {props.title}
-            </h2>
-            <p className={"mt-3 text-lg " + bodyTextColor}>{props.children}</p>
-            <div className="mt-8">
-              <div className="inline-flex rounded-md shadow">
-                <Button href={props.url} variant={buttonType}>
-                  {props.buttontext}
-                </Button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -451,8 +380,8 @@ function FullWidthNews(props: {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
-            {props.news.map((news: News, index: any) => (
-              <BlogPostCard post={news} />
+            {props.news.map(news => (
+              <BlogPostCard key={news.fields.slug} post={news} />
             ))}
           </div>
         </div>
@@ -536,7 +465,7 @@ function FullWidthRoundedCardList(props: {
   items: {
     imgsrc: string;
     title: string;
-    description: string;
+    description: React.ReactNode;
   }[];
 }) {
   let backgroundColor = "bg-gray-50";
@@ -573,31 +502,15 @@ function FullWidthRoundedCardList(props: {
             </p>
           </div>
           <div className="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-1 md:max-w-none md:grid-cols-2 lg:grid-cols-3">
-            {props.items.map(
-              (
-                item: {
-                  title: any;
-                  imgsrc: any;
-                  description:
-                    | boolean
-                    | React.ReactChild
-                    | React.ReactFragment
-                    | React.ReactPortal
-                    | null
-                    | undefined;
-                },
-                index: any
-              ) => (
-                <RoundedCardWithImage
-                  title={item.title}
-                  imgsrc={item.imgsrc}
-                  imgalt=""
-                  imgtitle=""
-                >
-                  {item.description}
-                </RoundedCardWithImage>
-              )
-            )}
+            {props.items.map(item => (
+              <RoundedCardWithImage
+                title={item.title}
+                imgsrc={item.imgsrc}
+                key={item.title}
+              >
+                {item.description}
+              </RoundedCardWithImage>
+            ))}
           </div>
         </div>
       </div>
@@ -611,7 +524,6 @@ export {
   FullWidthTwoPaneIconsRight,
   FullWidthTwoPaneImageLeft,
   FullWidthSponsorList,
-  FullWidthCTAImageLeft,
   FullWidthNews,
   FullWidthStats,
   FullWidthRoundedCardList,

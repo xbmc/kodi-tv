@@ -67,22 +67,15 @@ const Pager = ({ pageContext }) => {
           </Link>
           {paginationinfo.map((info: any, index: any) => {
             return (
-              <>
-                <Link
-                  style={{ display: info.onpage ? "none" : "block" }}
-                  to={info.url}
-                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-50 text-sm font-medium text-gray-700 hover:bg-gray-50"
-                >
-                  {info.pagenum}
-                </Link>
-                <Link
-                  style={{ display: info.onpage ? "block" : "none" }}
-                  to={info.url}
-                  className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-kodi text-sm font-medium text-gray-50 hover:bg-gray-50"
-                >
-                  {info.pagenum}
-                </Link>
-              </>
+              <Link
+                key={index}
+                to={info.url}
+                className={`relative inline-flex items-center px-4 py-2 border border-gray-300  text-sm font-medium hover:bg-gray-50 ${
+                  info.onpage ? "bg-kodi text-gray-50" : "text-gray-700 bg-gray-50"
+                }`}
+              >
+                {info.pagenum}
+              </Link>
             );
           })}
           <Link
