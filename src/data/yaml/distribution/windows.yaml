@@ -18,14 +18,14 @@ releases:
         url: https://www.microsoft.com/store/apps/kodi/9nblggh4t892?cid=koditvlinkbadge
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Alpha 3** pre-release build has become available because we
+    description: The **Beta 1** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are
       getting closer to a stable release of v21.
     downloads:
-      - url: https://mirrors.kodi.tv/snapshots/windows/win64/kodi-21.0-Omega_alpha3-x64.exe?https=1
+      - url: https://mirrors.kodi.tv/releases/windows/win64/kodi-21.0-Omega_beta1-x64.exe?https=1
         name: Installer (64BIT)
       - name: Installer (32BIT)
-        url: https://mirrors.kodi.tv/snapshots/windows/win32/kodi-21.0-Omega_alpha3-x86.exe?https=1
+        url: https://mirrors.kodi.tv/releases/windows/win32/kodi-21.0-Omega_beta1-x86.exe?https=1
   - name: Development Builds
     title: Kodi v20 & v21 Nightly Development Builds
     description: >-
