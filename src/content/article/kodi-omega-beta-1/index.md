@@ -88,48 +88,48 @@ And now, for the list of changes for Beta 1.
   * DRMPrime has had a check based on pitch value removed as it was causing failures with some formats, like single plane and/or compressed ones, where the pitch can be 0 and therefore it has no meaning. Thanks **@jernejsk** (https://github.com/xbmc/xbmc/pull/23889).
 * **macOS**:
 
-  * SDL windowing while not enabled by default since Alpha1 (in favour of native windowing) was still a possible build compile switch. It was finally removed in Beta 1 (https://github.com/xbmc/xbmc/pull/22990)
-  * Kodi now relies on an external library, `smctemp`, to display the CPU and GPU sensor values - this being valid for either x86 or Apple Silicon (https://github.com/xbmc/xbmc/pull/23770)
-  * Network info subsystem was improved avoiding the execution of external commands to obtain the current gateway and DNS server list (https://github.com/xbmc/xbmc/pull/23724)
-  * Improvements to input, e.g. the enter keyboard key was not being recognised (only key return)  https://github.com/xbmc/xbmc/pull/23860
+  * SDL windowing while not enabled by default since Alpha1 (in favour of native windowing) was still a possible build compile switch. It has finally been removed in Beta 1 (https://github.com/xbmc/xbmc/pull/22990).
+  * Kodi now relies on an external library, `smctemp`, to display the CPU and GPU sensor values - this being valid for either x86 or Apple Silicon (https://github.com/xbmc/xbmc/pull/23770).
+  * Network info subsystem was improved avoiding the execution of external commands to obtain the current gateway and DNS server list (https://github.com/xbmc/xbmc/pull/23724).
+  * Improvements to input, e.g. the enter keyboard key was not being recognised (only key return)  (https://github.com/xbmc/xbmc/pull/23860).
 * **webOS**
 
-  * **@quietvoid** has contributed a fix to allow webOS to play back AV1 DolbyVision files on supported devices (https://github.com/xbmc/xbmc/pull/23771)
-  * Support to allow webOS to to suspend to background rather than exit was made by **@sundermann** (https://github.com/xbmc/xbmc/pull/23684)
-  * With the support to suspend/minimise for webOS, behaviour to pause/resume media playback when Kodi is minimised/restored has been implemented by **@sundermann** 
-  * Initial support for webOS 4 devices has been implemented by **@mariotaku**
+  * **@quietvoid** has contributed a fix to allow webOS to play back AV1 DolbyVision files on supported devices (https://github.com/xbmc/xbmc/pull/23771).
+  * Support to allow webOS to to suspend to background rather than exit was made by **@sundermann** (https://github.com/xbmc/xbmc/pull/23684).
+  * With the support to suspend/minimise for webOS, behaviour to pause/resume media playback when Kodi is minimised/restored has been implemented by **@sundermann**.
+  * Initial support for webOS 4 devices has been implemented by **@mariotaku.**
 * **Windows**:
 
-  * Fixed Windows 11 refresh rate switching (https://github.com/xbmc/xbmc/pull/23766)
-  * Improved the vsync detection used by "Sync playback to display" mode (https://github.com/xbmc/xbmc/pull/23893). Breaks compatibility with Windows 7 (not supported in v21).
+  * Fixed Windows 11 refresh rate switching (https://github.com/xbmc/xbmc/pull/23766).
+  * Improved the vsync detection used by "Sync playback to display" mode (https://github.com/xbmc/xbmc/pull/23893). Breaks compatibility with Windows 7 (which is not supported in v21).
 
 **PVR**
 
-* Fix 'switch to previous channel' not working if it is in another group than the currently playing channel (https://github.com/xbmc/xbmc/pull/23932) 
-* Fix Live TV - Randomly spinner stays forever although channel is playing fine (https://github.com/xbmc/xbmc/pull/23844) 
+* Fix 'switch to previous channel' not working if it is in another group than the currently playing channel (https://github.com/xbmc/xbmc/pull/23932).
+* Fix Live TV - Randomly spinner stays forever although channel is playing fine (https://github.com/xbmc/xbmc/pull/23844).
 
 **Skinning**
 
-* **@DeltaMikeCharlie** has provided a way for skinners to use a ParentalRatingCode info label (https://github.com/xbmc/xbmc/pull/23586)
-* Infolabels for video width and height have been added by **@graham8** (https://github.com/xbmc/xbmc/pull/23850)
+* **@DeltaMikeCharlie** has provided a way for skinners to use a `ParentalRatingCode` info label (https://github.com/xbmc/xbmc/pull/23586).
+* Infolabels for video width and height have been added by **@graham8** (https://github.com/xbmc/xbmc/pull/23850).
 
 **Videos**
 
-* Respect default select action setting at more places - Home screen widgets, PVR recordings window, Favourites window (https://github.com/xbmc/xbmc/pull/23848 , https://github.com/xbmc/xbmc/pull/23857)
-* Add default play action setting to control resume behavior when starting playback of videos (xhttps://github.com/xbmc/xbmc/pull/23863)
-* Fix play/resume of BD and DVD disc images not working from Home screen widgets (https://github.com/xbmc/xbmc/pull/23905)
-* Automatic video rotation from metadata was fixed (https://github.com/xbmc/xbmc/pull/23832)
-* Teletext language codes sometimes were not persisted correctly in the teletext browser (https://github.com/xbmc/xbmc/pull/23890)
-* Improvements to the teletext browser window https://github.com/xbmc/xbmc/pull/23896
-* EDL files are now valid even if they are not on the same subnet of the Kodi host - valid across all private subnet ranges (https://github.com/xbmc/xbmc/pull/23836)
-* **@joseluismarti** also contributed outside of his usual Android improvements with a fix for a crash when scan to library on a directory contained new movies (https://github.com/xbmc/xbmc/pull/23767)
+* Respect default select action setting at more places - Home screen widgets, PVR recordings window, Favourites window (https://github.com/xbmc/xbmc/pull/23848 , https://github.com/xbmc/xbmc/pull/23857).
+* Add default play action setting to control resume behaviour when starting playback of videos (xhttps://github.com/xbmc/xbmc/pull/23863).
+* Fix play/resume of BD and DVD disc images not working from Home screen widgets (https://github.com/xbmc/xbmc/pull/23905).
+* Automatic video rotation from metadata was fixed (https://github.com/xbmc/xbmc/pull/23832).
+* Teletext language codes sometimes were not persisted correctly in the teletext browser (https://github.com/xbmc/xbmc/pull/23890).
+* Improvements to the teletext browser window (https://github.com/xbmc/xbmc/pull/23896).
+* EDL files are now valid even if they are not on the same subnet of the Kodi host - valid across all private subnet ranges (https://github.com/xbmc/xbmc/pull/23836).
+* **@joseluismarti** also contributed outside of his usual Android improvements with a fix for a crash when scan to library on a directory contained new movies (https://github.com/xbmc/xbmc/pull/23767).
 
 **Known Issues**
 
 You can see open issues on our tracker at https://github.com/xbmc/xbmc/issues. However, to call out a couple of specifics, please be aware of the following if you're planning on upgrading:
 
-* There are seek issues with multi-part MP4 files on Android (https://github.com/xbmc/xbmc/issues/23673)
-* There is an upstream FFmpeg issue that means that OGG music playback does not work. This will be rectified upstream to Kodi. (https://github.com/xbmc/xbmc/issues/23198)
+* There are seek issues with multi-part MP4 files on Android (https://github.com/xbmc/xbmc/issues/23673).
+* There is an upstream FFmpeg issue that means that OGG music playback does not work. This will be rectified upstream to Kodi. (https://github.com/xbmc/xbmc/issues/23198).
 * We've had reports that the new splash screen looks like an OpenGL corruption; we know, it's not a problem, so don't panic. We'd be happy to have your artwork contributions if you'd like to work on an alternative. 
 
 If you love to live on the bleeding edge of new, you can get Beta 1 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs.
