@@ -1,5 +1,5 @@
 ---
-title: Kodi "Omega" Alpha 3
+title: Kodi 21.0 "Omega" Alpha 3
 date: 2023-09-09T10:36:03.973Z
 author: Team Kodi
 tags:
