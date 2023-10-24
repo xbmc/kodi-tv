@@ -1,5 +1,5 @@
 ---
-title: Kodi "Omega" Beta 1
+title: Kodi 21.0 "Omega" Beta 1
 date: 2023-10-24T10:39:36.343Z
 author: Team Kodi
 tags:
