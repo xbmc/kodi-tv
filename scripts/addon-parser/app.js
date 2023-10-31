@@ -188,7 +188,7 @@ function getAddon(rawaddon) {
 }
 
 function cleanUpDescriptions() {
-  let regex = /\[(COLOR|CR|B|I)\]/g;
+  let regex = /\[\/?(COLOR|CR|B|I)(\s\w+)?\]/g;
   let maxwords = 15;
   let summary = "";
   let description = "";
