@@ -128,7 +128,7 @@ function getAddon(rawaddon) {
   addonpath = "";
   addonplatform = "";
   addonimagetypes = [];
-  if (addon == undefined) {
+  if (!addon) {
     addon = {};
     addon.id = rawaddon.attributes.id;
     addon.addonid = addon.id;
@@ -138,14 +138,14 @@ function getAddon(rawaddon) {
     addon.authors = [];
     addon.platforms = [];
     addon.categories = [];
-    if (rawaddon.attributes["provider-name"] != undefined) {
+    if (rawaddon.attributes["provider-name"]) {
       rawaddon.attributes["provider-name"]
         .split(",")
         .map(item => item.trim())
         .forEach(assignAuthor);
     }
     addonhistory = history.find(o => o.id === addon.id);
-    if (addonhistory == undefined) {
+    if (!addonhistory) {
       addonhistory = {};
       addonhistory.id = addon.id;
       addonhistory.version = "none";
@@ -168,12 +168,12 @@ function getAddon(rawaddon) {
       }
       addon.downloads = 0;
       addon.prevyeardl = 0;
-      if (addon.broken == null) {
+      if (!addon.broken) {
         queueImages();
       }
     }
-    if (addon.broken == null) {
-      if (addon.icons == null) {
+    if (!addon.broken) {
+      if (!addon.icons) {
         addon.icons = [{ remotepath: "", localpath: "/images/default-addon.webp" }];
       }
       addon.icon = addon.icons[0].localpath;
@@ -192,18 +192,18 @@ function cleanUpDescriptions() {
   let maxwords = 15;
   let summary = "";
   let description = "";
-  if (addon.summary != undefined) {
+  if (addon.summary) {
     addon.summary = addon.summary.replace(regex, " ");
     summary = addon.summary;
   }
-  if (addon.description != undefined) {
+  if (addon.description) {
     addon.description = addon.description.replace(regex, " ");
     description = addon.description;
-  } else if (summary != "") {
+  } else if (summary.length > 0) {
     addon.description = summary;
     description = addon.description;
   }
-  if (summary != "") {
+  if (summary.length > 0) {
     addon.snippet = summary;
   } else {
     addon.snippet = description;
@@ -212,6 +212,9 @@ function cleanUpDescriptions() {
   if (sList.length > maxwords) {
     sList.splice(maxwords);
     addon.snippet = sList.join(" ") + "...";
+  }
+  if (addon.news) {
+    addon.news = addon.news.replace(regex, " ");
   }
 }
 
@@ -252,7 +255,7 @@ function parseExtensions(extension) {
         break;
       default:
         cat = CATEGORIES.find(o => o.id === extension.attributes.point);
-        if (cat != undefined) {
+        if (cat) {
           assignCategory(cat.desc);
         }
     }
@@ -261,7 +264,7 @@ function parseExtensions(extension) {
 
 function checkProvides(provider) {
   if (provider.length > 0) {
-    if (provider[0].content == undefined) {
+    if (!provider[0].content) {
       return;
     }
     if (provider[0].content.includes("audio")) {
@@ -282,13 +285,13 @@ function checkProvides(provider) {
 function createAuthorNode(author) {
   newauthor = JSON.parse(JSON.stringify(author));
   authorcheck = authors.find(o => o.id === newauthor.name);
-  if (authorcheck == undefined) {
+  if (!authorcheck) {
     newauthor.id = newauthor.name;
     newauthor.addons = [addon];
     authors.push(newauthor);
   } else {
     addoncheck = authorcheck.addons.find(o => o.id === addon.id);
-    if (addoncheck == undefined) {
+    if (!addoncheck) {
       authorcheck.addons.push(addon);
     }
   }
@@ -297,19 +300,22 @@ function createAuthorNode(author) {
 function createCategoryNode(category) {
   newcategory = JSON.parse(JSON.stringify(category));
   categorycheck = categories.find(o => o.id === newcategory.name);
-  if (categorycheck == undefined) {
+  if (!categorycheck) {
     newcategory.id = newcategory.name;
     newcategory.grouping = setCategoryGrouping(newcategory.name);
     newcategory.addons = [addon];
     categories.push(newcategory);
   } else {
     addoncheck = categorycheck.addons.find(o => o.id === addon.id);
-    if (addoncheck == undefined) {
+    if (!addoncheck) {
       categorycheck.addons.push(addon);
     }
   }
 }
 
+/**
+ * @param {string} name
+ */
 function setCategoryGrouping(name) {
   switch (name.toLowerCase()) {
     case "game clients":
@@ -343,7 +349,7 @@ function setCategoryGrouping(name) {
 
 function assignAuthor(author) {
   authorcheck = addon.authors.find(o => o.name === author);
-  if (authorcheck == undefined) {
+  if (!authorcheck) {
     slug = slugify(author, { lower: true });
     icon = "/images/authors/" + slug + ".webp";
     addon.authors.push({ name: author, slug: slug, icon: icon });
@@ -352,7 +358,7 @@ function assignAuthor(author) {
 
 function assignCategory(category) {
   categorycheck = addon.categories.find(o => o.name === category);
-  if (categorycheck == undefined) {
+  if (!categorycheck) {
     slug = slugify(category, { lower: true });
     icon = "/images/categories/" + slug + ".webp";
     addon.categories.push({ name: category, slug: slug, icon: icon });
@@ -382,13 +388,13 @@ function getMetadata(metadata) {
 function getAssets(asset) {
   let assetcheck = undefined;
   let arrayname = asset.name + "s";
-  if (addon[arrayname] == undefined) {
+  if (!addon[arrayname]) {
     addon[arrayname] = [];
     addonimagetypes.push(arrayname);
   } else {
     assetcheck = addon[arrayname].find(o => o.remotepath === asset.content);
   }
-  if (assetcheck == undefined) {
+  if (!assetcheck) {
     imagepath =
       "/images/addons/" +
       kodiversion +
@@ -445,7 +451,7 @@ function getDownloadCount() {
 
 async function app() {
   const args = getargs(process.argv.slice(2));
-  if (args["kv"] == undefined) {
+  if (!args["kv"]) {
     console.log("kodi version not included on command line");
     console.log("use --kv=<version>");
     return;
@@ -500,7 +506,7 @@ async function app() {
       let downloadcount = 0;
       for (let k = 0; k < addons[i].platforms.length; k++) {
         let pcstring = addonstats[addons[i].platforms[k].statspath];
-        if (pcstring != undefined) {
+        if (pcstring) {
           let platformcount = parseInt(pcstring);
           downloadcount = downloadcount + platformcount;
         }
@@ -510,7 +516,7 @@ async function app() {
         // we need to figure out if we need to do the rollover or not
         if (
           addons[i].prevyeardl === 0 ||
-          addons[i].prevyeardl == undefined ||
+          !addons[i].prevyeardl ||
           addons[i].prevyeardl + downloadcount < addons[i].downloads
         ) {
           addons[i].prevyeardl = addons[i].downloads;
@@ -526,7 +532,7 @@ async function app() {
     fs.writeFileSync(pixiememory + "authors.json", JSON.stringify(authors));
     console.log("writing categories.json to " + pixiememory);
     fs.writeFileSync(pixiememory + "categories.json", JSON.stringify(categories));
-    if (args["getstats"] != undefined) {
+    if (args["getstats"]) {
       let stats = "";
       let gitHubCommits = "0";
       let forumThreads = "0";

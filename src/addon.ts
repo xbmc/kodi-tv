@@ -1,6 +1,8 @@
 export interface IAddon {
-  id: any;
+  id: string;
+  addonid: string;
   downloads: any;
+  slug: string;
   authors: { name: string; slug: string }[];
   categories: { name: string; slug: string }[];
   screenshots: { localpath: string }[];
@@ -16,4 +18,6 @@ export interface IAddon {
   license: string;
   description: string;
   platforms: { platform: string; path: string }[];
+  news?: string;
+  snippet?: string;
 }
