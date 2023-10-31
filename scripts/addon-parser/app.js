@@ -11,6 +11,9 @@ const fs = require("fs");
 const getargs = require("minimist");
 // const inspect = require("util").inspect; // this is only here to inspect the json during debugging
 
+const regex = /\[\/?(COLOR|B|I)(\s\w+)?\]/g;
+const crRegex = /\[CR\]/g;
+const maxwords = 15;
 const TODAY = new Date();
 const CATEGORIES = [
   { id: "kodi.audiodecoder", desc: "Audio decoders" },
@@ -98,6 +101,9 @@ let addonplatform = "";
 let addonstats = "";
 /** @type {string[]} */
 let addonimagetypes = [];
+/**
+ * @type {any[]}
+ */
 let downloadqueue = [];
 let versiondownloads = 0;
 let gatsbyroot = "../../";
@@ -122,6 +128,9 @@ async function loadHistoryFile() {
   });
 }
 
+/**
+ * @param {{ attributes: { [x: string]: string; id: string; name: string; version: string; }; children: any[]; }} rawaddon
+ */
 function getAddon(rawaddon) {
   let firstever = false;
   addon = addons.find(o => o.id === rawaddon.attributes.id);
@@ -141,7 +150,7 @@ function getAddon(rawaddon) {
     if (rawaddon.attributes["provider-name"]) {
       rawaddon.attributes["provider-name"]
         .split(",")
-        .map(item => item.trim())
+        .map((/** @type {string} */ item) => item.trim())
         .forEach(assignAuthor);
     }
     addonhistory = history.find(o => o.id === addon.id);
@@ -177,7 +186,7 @@ function getAddon(rawaddon) {
         addon.icons = [{ remotepath: "", localpath: "/images/default-addon.webp" }];
       }
       addon.icon = addon.icons[0].localpath;
-      cleanUpDescriptions();
+      addon = cleanUpDescriptions(addon);
       addons.push(addon);
       addon.authors.forEach(createAuthorNode);
       addon.categories.forEach(createCategoryNode);
@@ -187,16 +196,38 @@ function getAddon(rawaddon) {
   }
 }
 
-function cleanUpDescriptions() {
-  let regex = /\[\/?(COLOR|CR|B|I)(\s\w+)?\]/g;
-  let maxwords = 15;
+/**
+ * @param {string} summary
+ */
+function cleanupSummary(summary) {
+  if (summary) {
+    return summary.replace(regex, "").replace(crRegex, "\n");
+  }
+  return undefined;
+}
+
+/**
+ * @param {string} description
+ */
+function cleanupDescription(description) {
+  if (description) {
+    return description.replace(regex, "").replace(crRegex, "\n");
+  }
+  return undefined;
+}
+
+/**
+ * @param {import("../../src/addon").IAddon} addon
+ * @returns {import("../../src/addon").IAddon}
+ */
+function cleanUpDescriptions(addon) {
   let summary = "";
   if (addon.summary) {
-    addon.summary = addon.summary.replace(regex, " ");
+    addon.summary = cleanupSummary(addon.summary);
     summary = addon.summary;
   }
   if (addon.description) {
-    addon.description = addon.description.replace(regex, " ");
+    addon.description = cleanupDescription(addon.description);
   } else if (summary.length > 0) {
     addon.description = summary;
   }
@@ -211,10 +242,15 @@ function cleanUpDescriptions() {
     addon.snippet = sList.join(" ") + "...";
   }
   if (addon.news) {
-    addon.news = addon.news.replace(regex, " ");
+    addon.news = addon.news.replace(regex, "").replace(crRegex, "\n");
   }
+
+  return addon;
 }
 
+/**
+ * @param {{ name: string; attributes: { point: string; }; children: any[]; }} extension
+ */
 function parseExtensions(extension) {
   if (extension.name == "extension") {
     switch (extension.attributes.point) {
@@ -259,6 +295,9 @@ function parseExtensions(extension) {
   }
 }
 
+/**
+ * @param {string | any[]} provider
+ */
 function checkProvides(provider) {
   if (provider.length > 0) {
     if (!provider[0].content) {
@@ -279,6 +318,9 @@ function checkProvides(provider) {
   }
 }
 
+/**
+ * @param {any} author
+ */
 function createAuthorNode(author) {
   newauthor = JSON.parse(JSON.stringify(author, null, 2));
   authorcheck = authors.find(o => o.id === newauthor.name);
@@ -287,13 +329,18 @@ function createAuthorNode(author) {
     newauthor.addons = [addon];
     authors.push(newauthor);
   } else {
-    addoncheck = authorcheck.addons.find(o => o.id === addon.id);
+    addoncheck = authorcheck.addons.find(
+      (/** @type {{ id: string; }} */ o) => o.id === addon.id
+    );
     if (!addoncheck) {
       authorcheck.addons.push(addon);
     }
   }
 }
 
+/**
+ * @param {any} category
+ */
 function createCategoryNode(category) {
   newcategory = JSON.parse(JSON.stringify(category, null, 2));
   categorycheck = categories.find(o => o.id === newcategory.name);
@@ -303,7 +350,9 @@ function createCategoryNode(category) {
     newcategory.addons = [addon];
     categories.push(newcategory);
   } else {
-    addoncheck = categorycheck.addons.find(o => o.id === addon.id);
+    addoncheck = categorycheck.addons.find(
+      (/** @type {{ id: string; }} */ o) => o.id === addon.id
+    );
     if (!addoncheck) {
       categorycheck.addons.push(addon);
     }
@@ -344,6 +393,9 @@ function setCategoryGrouping(name) {
   }
 }
 
+/**
+ * @param {string} author
+ */
 function assignAuthor(author) {
   authorcheck = addon.authors.find(o => o.name === author);
   if (!authorcheck) {
@@ -353,6 +405,9 @@ function assignAuthor(author) {
   }
 }
 
+/**
+ * @param {string} category
+ */
 function assignCategory(category) {
   categorycheck = addon.categories.find(o => o.name === category);
   if (!categorycheck) {
@@ -362,10 +417,17 @@ function assignCategory(category) {
   }
 }
 
+/**
+ * @param {{ name: string; attributes: { lang: string; }; content: string; children: any[]; }} metadata
+ */
 function getMetadata(metadata) {
-  if (metadata.name == "summary" || metadata.name == "description") {
+  if (metadata.name == "summary") {
     if (metadata.attributes.lang == "en_GB") {
-      addon[metadata.name] = metadata.content;
+      addon[metadata.name] = cleanupSummary(metadata.content);
+    }
+  } else if (metadata.name == "description") {
+    if (metadata.attributes.lang == "en_GB") {
+      addon[metadata.name] = cleanupDescription(metadata.content);
     }
   } else if (metadata.name == "size") {
     addon[metadata.name] =
@@ -382,6 +444,9 @@ function getMetadata(metadata) {
   }
 }
 
+/**
+ * @param {{ name: string; content: string; }} asset
+ */
 function getAssets(asset) {
   let assetcheck = undefined;
   let arrayname = asset.name + "s";
@@ -389,7 +454,9 @@ function getAssets(asset) {
     addon[arrayname] = [];
     addonimagetypes.push(arrayname);
   } else {
-    assetcheck = addon[arrayname].find(o => o.remotepath === asset.content);
+    assetcheck = addon[arrayname].find(
+      (/** @type {{ remotepath: any; }} */ o) => o.remotepath === asset.content
+    );
   }
   if (!assetcheck) {
     imagepath =
@@ -403,11 +470,18 @@ function getAssets(asset) {
   }
 }
 
+/**
+ * @param {{ addons: any[]; totaladdons: any; }} item
+ */
 function doCleanup(item) {
   item.addons.sort(compare);
   item.totaladdons = item.addons.length;
 }
 
+/**
+ * @param {{ name: string; }} a
+ * @param {{ name: string; }} b
+ */
 function compare(a, b) {
   const bandA = a.name.toUpperCase();
   const bandB = b.name.toUpperCase();
@@ -424,20 +498,25 @@ function queueImages() {
   addonimagetypes.forEach(queueImageType);
 }
 
+/**
+ * @param {string | number} imagetype
+ */
 function queueImageType(imagetype) {
   const fullurl = addon.platforms[0].path;
   const urlbase = fullurl.substring(0, fullurl.lastIndexOf("/")) + "/";
   const rootpath = gatsbyroot + "static";
-  addon[imagetype].forEach(asset => {
-    const localpath = asset.localpath;
-    const localbase =
-      rootpath + localpath.substring(0, localpath.lastIndexOf("/")) + "/";
-    downloadqueue.push({
-      remote: urlbase + asset.remotepath,
-      localdir: localbase,
-      local: rootpath + asset.localpath,
-    });
-  });
+  addon[imagetype].forEach(
+    (/** @type {{ localpath: string; remotepath: string; }} */ asset) => {
+      const localpath = asset.localpath;
+      const localbase =
+        rootpath + localpath.substring(0, localpath.lastIndexOf("/")) + "/";
+      downloadqueue.push({
+        remote: urlbase + asset.remotepath,
+        localdir: localbase,
+        local: rootpath + asset.localpath,
+      });
+    }
+  );
 }
 
 async function app() {
@@ -487,10 +566,14 @@ async function app() {
         }
       });
       console.log("downloading " + download.remote);
-      await fetch(download.remote).then(res => {
-        const dest = fs.createWriteStream(download.local);
-        res.body.pipe(dest);
-      });
+      await fetch(download.remote).then(
+        (
+          /** @type {{ body: { pipe: (arg0: fs.WriteStream) => void; }; }} */ res
+        ) => {
+          const dest = fs.createWriteStream(download.local);
+          res.body.pipe(dest);
+        }
+      );
     }
     console.log("getting addon download counts");
     for (let i = 0; i < addons.length; i++) {
@@ -532,21 +615,23 @@ async function app() {
       let forumThreads = "0";
       console.log("getting commits to xbmc branch from github");
       try {
-        await fetch(gitHubStats).then(response => {
-          for (var pair of response.headers.entries()) {
-            if (pair[0] == "link") {
-              stats = pair[1];
-              break;
+        await fetch(gitHubStats).then(
+          (/** @type {{ headers: any[]; }} */ response) => {
+            for (var pair of response.headers.entries()) {
+              if (pair[0] == "link") {
+                stats = pair[1];
+                break;
+              }
             }
           }
-        });
+        );
       } catch (error) {
         stats = "";
         console.log(error);
       }
       if (stats) {
-        let gitHubRegEx = new RegExp(".*next.*page=(.*)>");
-        let gitHubMatch = gitHubRegEx.exec(stats);
+        const gitHubRegEx = new RegExp(".*next.*page=(.*)>");
+        const gitHubMatch = gitHubRegEx.exec(stats);
         if (gitHubMatch !== null) {
           gitHubCommits = Number(gitHubMatch[1]);
         }
