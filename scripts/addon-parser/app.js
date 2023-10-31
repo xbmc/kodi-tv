@@ -283,7 +283,7 @@ function checkProvides(provider) {
 }
 
 function createAuthorNode(author) {
-  newauthor = JSON.parse(JSON.stringify(author));
+  newauthor = JSON.parse(JSON.stringify(author, null, 2));
   authorcheck = authors.find(o => o.id === newauthor.name);
   if (!authorcheck) {
     newauthor.id = newauthor.name;
@@ -298,7 +298,7 @@ function createAuthorNode(author) {
 }
 
 function createCategoryNode(category) {
-  newcategory = JSON.parse(JSON.stringify(category));
+  newcategory = JSON.parse(JSON.stringify(category, null, 2));
   categorycheck = categories.find(o => o.id === newcategory.name);
   if (!categorycheck) {
     newcategory.id = newcategory.name;
@@ -521,11 +521,14 @@ async function app() {
       }
     }
     console.log("writing addons.json to " + pixiememory);
-    fs.writeFileSync(pixiememory + "addons.json", JSON.stringify(addons));
+    fs.writeFileSync(pixiememory + "addons.json", JSON.stringify(addons, null, 2));
     console.log("writing authors.json to " + pixiememory);
-    fs.writeFileSync(pixiememory + "authors.json", JSON.stringify(authors));
+    fs.writeFileSync(pixiememory + "authors.json", JSON.stringify(authors, null, 2));
     console.log("writing categories.json to " + pixiememory);
-    fs.writeFileSync(pixiememory + "categories.json", JSON.stringify(categories));
+    fs.writeFileSync(
+      pixiememory + "categories.json",
+      JSON.stringify(categories, null, 2)
+    );
     if (args["getstats"]) {
       let stats = "";
       let gitHubCommits = "0";
