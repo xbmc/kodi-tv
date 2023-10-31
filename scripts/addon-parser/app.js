@@ -443,12 +443,6 @@ function queueImageType(imagetype) {
   });
 }
 
-function getDownloadCount() {
-  if (addon.downloads === undefined) {
-    addon.downloads = 0;
-  }
-}
-
 async function app() {
   const args = getargs(process.argv.slice(2));
   if (!args["kv"]) {
