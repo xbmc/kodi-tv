@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactMarkdown from "react-markdown";
 import {
   ArrowDownTrayIcon,
@@ -57,7 +57,6 @@ export default function AddonLayout({
   let classNameRoot = "px-6 gap-1 md:gap-4 py-5 grid grid-cols-1 md:grid-cols-3";
   let className = "";
   let datatype = "";
-  let dlcount = addon.downloads;
   for (let i = 0; i < fields.length; i++) {
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {
@@ -73,9 +72,9 @@ export default function AddonLayout({
       } else if (["Description"].includes(fields[i])) {
         datatype = "markdown";
       } else if (fields[i] === "Downloads") {
-        addon.downloads =
-          dlcount.toLocaleString() +
-          " (this is the download count for the most current version)";
+        addon.downloads = isNaN(Number(addon.downloads))
+          ? addon.downloads
+          : `${addon.downloads.toLocaleString()} (this is the download count for the most current version)`;
       }
       details.push({
         title: fields[i],
@@ -179,8 +178,8 @@ export default function AddonLayout({
         <div className="border-t border-gray-200">
           <dl>
             {details.map(item => (
-              <>
-                {item.datatype === "link" ? (
+              <Fragment key={item.title}>
+                {item.datatype === "link" && (
                   <div key={item.title} className={item.className}>
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
@@ -189,10 +188,8 @@ export default function AddonLayout({
                       <a href={item.data}>{item.data}</a>
                     </dd>
                   </div>
-                ) : (
-                  ""
                 )}
-                {item.datatype === "platform" ? (
+                {item.datatype === "platform" && (
                   <div key={item.title} className={item.className}>
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
@@ -208,10 +205,8 @@ export default function AddonLayout({
                       ))}
                     </dd>
                   </div>
-                ) : (
-                  ""
                 )}
-                {item.datatype === "markdown" ? (
+                {item.datatype === "markdown" && (
                   <div key={item.title} className={item.className}>
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
@@ -220,10 +215,8 @@ export default function AddonLayout({
                       <ReactMarkdown>{item.data}</ReactMarkdown>
                     </dd>
                   </div>
-                ) : (
-                  ""
                 )}
-                {item.datatype === "general" ? (
+                {item.datatype === "general" && (
                   <div key={item.title} className={item.className}>
                     <dt className="col-span-1 text-sm font-medium text-gray-500">
                       {item.title}
@@ -232,10 +225,8 @@ export default function AddonLayout({
                       {item.data}
                     </dd>
                   </div>
-                ) : (
-                  ""
                 )}
-              </>
+              </Fragment>
             ))}
           </dl>
         </div>
