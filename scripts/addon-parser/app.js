@@ -191,24 +191,21 @@ function cleanUpDescriptions() {
   let regex = /\[\/?(COLOR|CR|B|I)(\s\w+)?\]/g;
   let maxwords = 15;
   let summary = "";
-  let description = "";
   if (addon.summary) {
     addon.summary = addon.summary.replace(regex, " ");
     summary = addon.summary;
   }
   if (addon.description) {
     addon.description = addon.description.replace(regex, " ");
-    description = addon.description;
   } else if (summary.length > 0) {
     addon.description = summary;
-    description = addon.description;
   }
   if (summary.length > 0) {
     addon.snippet = summary;
   } else {
-    addon.snippet = description;
+    addon.snippet = addon.description;
   }
-  let sList = addon.snippet.split(" ");
+  let sList = addon.snippet?.split(" ") || [];
   if (sList.length > maxwords) {
     sList.splice(maxwords);
     addon.snippet = sList.join(" ") + "...";
