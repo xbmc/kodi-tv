@@ -15,4 +15,3 @@ Music Add-Ons and Video Add-Ons let you stream internet content. Skins allow you
 The add-ons available may be different depending on what version of Kodi you have. Please select your Kodi version below to get to the add-ons available for your version.
 
 - [Kodi Nexus (version 20)](/addons/nexus/)
-- [Kodi Matrix (version 19)](/addons/matrix/)
