@@ -189,7 +189,7 @@ module.exports = {
     {
       resolve: `gatsby-source-kodiaddon`,
       options: {
-        kodiversions: ["matrix", "nexus"],
+        kodiversions: ["nexus"],
       },
     },
   ].concat(netlifyCms),

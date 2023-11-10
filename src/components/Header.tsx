@@ -72,14 +72,6 @@ const mainMenu: MenuEntry[] = [
         icon: CloudArrowDownIcon,
         description: "Add-ons for Kodi 20, the latest and greatest version of Kodi.",
       },
-      {
-        id: "addons-matrix",
-        title: "Matrix Add-ons",
-        url: { url: "/addons/matrix", type: "internal" },
-        icon: CloudArrowDownIcon,
-        description:
-          "Add-ons for Kodi 19, the most recent previous version of Kodi.",
-      },
     ],
   },
   {
