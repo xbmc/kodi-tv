@@ -36,9 +36,6 @@ jobs:
         if: steps.nodecache.outputs.cache-hit != 'true'
         run: npm install
 
-      - name: Run addon-parser for Leia branch
-        run: node app.js --kv=matrix
-
       - name: Run addon-parser for Matrix branch and get site stats
         run: node app.js --kv=nexus --getstats
 
