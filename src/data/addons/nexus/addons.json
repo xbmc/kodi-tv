@@ -1,5 +1,143 @@
 [
   {
+    "id": "pvr.hts",
+    "addonid": "pvr.hts",
+    "name": "Tvheadend HTSP Client",
+    "slug": "pvr.hts",
+    "version": "20.6.5",
+    "authors": [
+      {
+        "name": "Adam Sutton",
+        "slug": "adam-sutton",
+        "icon": "/images/authors/adam-sutton.webp"
+      },
+      {
+        "name": "Sam Stenvall",
+        "slug": "sam-stenvall",
+        "icon": "/images/authors/sam-stenvall.webp"
+      },
+      {
+        "name": "Lars Op den Kamp",
+        "slug": "lars-op-den-kamp",
+        "icon": "/images/authors/lars-op-den-kamp.webp"
+      },
+      {
+        "name": "Kai Sommerfeld",
+        "slug": "kai-sommerfeld",
+        "icon": "/images/authors/kai-sommerfeld.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+osx-x86_64/pvr.hts-20.6.5.zip",
+        "statspath": "/addons/nexus/pvr.hts+osx-x86_64/pvr.hts-20.6.5.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+android-aarch64/pvr.hts-20.6.5.zip",
+        "statspath": "/addons/nexus/pvr.hts+android-aarch64/pvr.hts-20.6.5.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+android-armv7/pvr.hts-20.6.5.zip",
+        "statspath": "/addons/nexus/pvr.hts+android-armv7/pvr.hts-20.6.5.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+osx-arm64/pvr.hts-20.6.5.zip",
+        "statspath": "/addons/nexus/pvr.hts+osx-arm64/pvr.hts-20.6.5.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+windows-i686/pvr.hts-20.6.4.zip",
+        "statspath": "/addons/nexus/pvr.hts+windows-i686/pvr.hts-20.6.4.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+windows-x86_64/pvr.hts-20.6.4.zip",
+        "statspath": "/addons/nexus/pvr.hts+windows-x86_64/pvr.hts-20.6.4.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "PVR clients",
+        "slug": "pvr-clients",
+        "icon": "/images/categories/pvr-clients.webp"
+      }
+    ],
+    "firstseen": "2020-09-07T01:49:29.889Z",
+    "agetype": "existing",
+    "license": "GPL-2.0-or-later",
+    "source": "https://github.com/kodi-pvr/pvr.hts",
+    "forum": "https://forum.kodi.tv/forumdisplay.php?fid=168",
+    "icons": [
+      {
+        "localpath": "/images/addons/nexus/pvr.hts/icon.png",
+        "remotepath": "icon.png"
+      }
+    ],
+    "summary": "Kodi's frontend for Tvheadend",
+    "description": "Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers",
+    "size": "418KB",
+    "lastupdate": "2023-11-16T02:15:43.712Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/nexus/pvr.hts/icon.png",
+    "snippet": "Kodi's frontend for Tvheadend"
+  },
+  {
+    "id": "script.module.dropbox",
+    "addonid": "script.module.dropbox",
+    "name": "Dropbox API",
+    "slug": "script.module.dropbox",
+    "version": "10.3.1+matrix.1",
+    "authors": [
+      {
+        "name": "Dropbox",
+        "slug": "dropbox",
+        "icon": "/images/authors/dropbox.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/script.module.dropbox/script.module.dropbox-10.3.1+matrix.1.zip",
+        "statspath": "/addons/nexus/script.module.dropbox/script.module.dropbox-10.3.1+matrix.1.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Python modules",
+        "slug": "python-modules",
+        "icon": "/images/categories/python-modules.webp"
+      }
+    ],
+    "firstseen": "2020-09-07T01:49:29.889Z",
+    "agetype": "existing",
+    "summary": "Dropbox API",
+    "description": "Provide Dropbox Python API support",
+    "license": "Apache2",
+    "website": "https://www.dropbox.com/developers/documentation/python",
+    "source": "https://github.com/dropbox/dropbox-sdk-python",
+    "news": "v10.3.1+matrix.1 (2023-10-24)\n- fixes for strptime bug\nv10.3.1 (2020-08-10)\n- remove beta feature comments\nv10.3.0 (2020-07-15)\n- Update Readme\n- Fix error message for non-UTF8 strings\n- Make with_path_root() update existing headers rather than overwrite them\n- Add Close() method to _DropboxTransport to cleanup any network resources\n- Add default timeout to oauth flow finish calls\nv10.2.0 (2020-05-27)\n- support additional properties for Dropbox Teams\nv10.1.0 (2020-04-16)\n- support additional properties for Dropbox Teams\nv10.0.0 (2020-04-16)\n- support for PKCE\n- Added support for short lived access tokens\n- added support for scopes\n- requirements update\nv9.5.0 (2020-04-02)\n- support additional properties for Dropbox Teams\n    ",
+    "noicon": "true",
+    "nofanart": "true",
+    "nochangelog": "true",
+    "size": "651KB",
+    "lastupdate": "2023-11-16T02:15:43.712Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icons": [
+      {
+        "remotepath": "",
+        "localpath": "/images/default-addon.webp"
+      }
+    ],
+    "icon": "/images/default-addon.webp",
+    "snippet": "Dropbox API"
+  },
+  {
     "id": "script.service.hue",
     "addonid": "script.service.hue",
     "name": "Hue Service",
@@ -794,92 +932,6 @@
     "lastupdate": "2023-11-06T02:13:45.927Z",
     "downloads": 0,
     "icon": "/images/addons/nexus/skin.arctic.zephyr.mod/icon.png"
-  },
-  {
-    "id": "pvr.hts",
-    "addonid": "pvr.hts",
-    "name": "Tvheadend HTSP Client",
-    "slug": "pvr.hts",
-    "version": "20.6.4",
-    "authors": [
-      {
-        "name": "Adam Sutton",
-        "slug": "adam-sutton",
-        "icon": "/images/authors/adam-sutton.webp"
-      },
-      {
-        "name": "Sam Stenvall",
-        "slug": "sam-stenvall",
-        "icon": "/images/authors/sam-stenvall.webp"
-      },
-      {
-        "name": "Lars Op den Kamp",
-        "slug": "lars-op-den-kamp",
-        "icon": "/images/authors/lars-op-den-kamp.webp"
-      },
-      {
-        "name": "Kai Sommerfeld",
-        "slug": "kai-sommerfeld",
-        "icon": "/images/authors/kai-sommerfeld.webp"
-      }
-    ],
-    "platforms": [
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+windows-i686/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+windows-i686/pvr.hts-20.6.4.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+windows-x86_64/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+windows-x86_64/pvr.hts-20.6.4.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+android-aarch64/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+android-aarch64/pvr.hts-20.6.4.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+android-armv7/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+android-armv7/pvr.hts-20.6.4.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+osx-x86_64/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+osx-x86_64/pvr.hts-20.6.4.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/pvr.hts+osx-arm64/pvr.hts-20.6.4.zip",
-        "statspath": "/addons/nexus/pvr.hts+osx-arm64/pvr.hts-20.6.4.zip"
-      }
-    ],
-    "categories": [
-      {
-        "name": "PVR clients",
-        "slug": "pvr-clients",
-        "icon": "/images/categories/pvr-clients.webp"
-      }
-    ],
-    "firstseen": "2020-09-07T01:49:29.889Z",
-    "agetype": "existing",
-    "license": "GPL-2.0-or-later",
-    "source": "https://github.com/kodi-pvr/pvr.hts",
-    "forum": "https://forum.kodi.tv/forumdisplay.php?fid=168",
-    "icons": [
-      {
-        "localpath": "/images/addons/nexus/pvr.hts/icon.png",
-        "remotepath": "icon.png"
-      }
-    ],
-    "summary": "Kodi's frontend for Tvheadend",
-    "description": "Tvheadend frontend; supporting streaming of Live TV &amp; Recordings, EPG, Timers",
-    "size": "395KB",
-    "lastupdate": "2023-11-05T02:13:55.615Z",
-    "downloads": 0,
-    "icon": "/images/addons/nexus/pvr.hts/icon.png",
-    "snippet": "Kodi's frontend for Tvheadend"
   },
   {
     "id": "pvr.iptvsimple",
@@ -14765,10 +14817,10 @@
     "description": "A port of DeSmuME to libretro based on DeSmuME SVN, circa 2015.",
     "size": "1161KB",
     "lastupdate": "2023-07-12T02:32:39.168Z",
-    "downloads": 4714,
+    "downloads": 4777,
     "icon": "/images/addons/nexus/game.libretro.desmume2015/resources/icon.png",
     "snippet": "Nintendo - DS (DeSmuME 2015)",
-    "prevyeardl": 4651
+    "prevyeardl": 4714
   },
   {
     "id": "game.libretro.beetle-supergrafx",
@@ -15461,12 +15513,12 @@
     "disclaimer": "特别感谢 yopyop（DeSmuME的原作者）和 Martin Korth（GBATEK 的作者）",
     "size": "1511KB",
     "lastupdate": "2023-07-10T02:33:43.364Z",
-    "downloads": 5744,
+    "downloads": 5782,
     "icon": "/images/addons/nexus/game.libretro.desmume/resources/icon.png",
     "snippet": "Nintendo - DS (DeSmuME)",
     "noicon": "true",
     "nofanart": "true",
-    "prevyeardl": 5706
+    "prevyeardl": 5744
   },
   {
     "id": "script.video.nfl.gamepass",
@@ -17786,10 +17838,10 @@
     "description": "DAPHNE is a multi-arcade LaserDisc emulator that lets one play the original LaserDisc version on a PC.",
     "size": "1791KB",
     "lastupdate": "2023-06-27T02:33:22.520Z",
-    "downloads": 6374,
+    "downloads": 6394,
     "icon": "/images/addons/nexus/game.libretro.daphne/resources/icon.png",
     "snippet": "Arcade (Daphne)",
-    "prevyeardl": 6354
+    "prevyeardl": 6374
   },
   {
     "id": "game.libretro.craft",
@@ -19727,13 +19779,13 @@
     "description": "Supported files: .zip",
     "size": "754KB",
     "lastupdate": "2023-06-26T02:35:29.860Z",
-    "downloads": 5445,
+    "downloads": 5485,
     "icon": "/images/addons/nexus/game.libretro.mame2003_midway/resources/icon.png",
     "snippet": "Arcade (MAME 2003 Midway)",
     "noicon": "true",
     "nofanart": "true",
     "nochangelog": "true",
-    "prevyeardl": 5405
+    "prevyeardl": 5445
   },
   {
     "id": "game.libretro.mame2000",
@@ -21405,7 +21457,7 @@
     "nochangelog": "true",
     "size": "535KB",
     "lastupdate": "2023-06-26T02:35:29.860Z",
-    "downloads": 5791,
+    "downloads": 5812,
     "icons": [
       {
         "remotepath": "",
@@ -21414,7 +21466,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Tomb Raider (OpenLara)",
-    "prevyeardl": 5770
+    "prevyeardl": 5791
   },
   {
     "id": "game.libretro.sameboy",
@@ -22247,13 +22299,13 @@
     "description": "Supported files: .smc, .swc, .sfc, .fig",
     "size": "975KB",
     "lastupdate": "2023-06-25T02:37:36.007Z",
-    "downloads": 19614,
+    "downloads": 19658,
     "icon": "/images/addons/nexus/game.libretro.supafaust/resources/icon.png",
     "snippet": "Nintendo - SNES / SFC (Beetle Supafaust)",
     "noicon": "true",
     "nofanart": "true",
     "nochangelog": "true",
-    "prevyeardl": 19570
+    "prevyeardl": 19614
   },
   {
     "id": "pvr.sledovanitv.cz",
@@ -22914,57 +22966,6 @@
     "icon": "/images/addons/nexus/service.languagepreferencemanager/resources/icon.png",
     "snippet": "Language Preference Manager",
     "prevyeardl": 22400
-  },
-  {
-    "id": "script.module.dropbox",
-    "addonid": "script.module.dropbox",
-    "name": "Dropbox API",
-    "slug": "script.module.dropbox",
-    "version": "10.3.1",
-    "authors": [
-      {
-        "name": "Dropbox",
-        "slug": "dropbox",
-        "icon": "/images/authors/dropbox.webp"
-      }
-    ],
-    "platforms": [
-      {
-        "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/nexus/script.module.dropbox/script.module.dropbox-10.3.1.zip",
-        "statspath": "/addons/nexus/script.module.dropbox/script.module.dropbox-10.3.1.zip"
-      }
-    ],
-    "categories": [
-      {
-        "name": "Python modules",
-        "slug": "python-modules",
-        "icon": "/images/categories/python-modules.webp"
-      }
-    ],
-    "firstseen": "2020-09-07T01:49:29.889Z",
-    "agetype": "existing",
-    "summary": "Dropbox API",
-    "description": "Provide Dropbox Python API support",
-    "license": "Apache2",
-    "website": "https://www.dropbox.com/developers/documentation/python",
-    "source": "https://github.com/dropbox/dropbox-sdk-python",
-    "news": "v10.3.1 (2020-08-10)\n- remove beta feature comments\nv10.3.0 (2020-07-15)\n- Update Readme\n- Fix error message for non-UTF8 strings\n- Make with_path_root() update existing headers rather than overwrite them\n- Add Close() method to _DropboxTransport to cleanup any network resources\n- Add default timeout to oauth flow finish calls\nv10.2.0 (2020-05-27)\n- support additional properties for Dropbox Teams\nv10.1.0 (2020-04-16)\n- support additional properties for Dropbox Teams\nv10.0.0 (2020-04-16)\n- support for PKCE\n- Added support for short lived access tokens\n- added support for scopes\n- requirements update\nv9.5.0 (2020-04-02)\n- support additional properties for Dropbox Teams\n    ",
-    "noicon": "true",
-    "nofanart": "true",
-    "nochangelog": "true",
-    "size": "651KB",
-    "lastupdate": "2023-05-21T02:22:25.221Z",
-    "downloads": 188937,
-    "icons": [
-      {
-        "remotepath": "",
-        "localpath": "/images/default-addon.webp"
-      }
-    ],
-    "icon": "/images/default-addon.webp",
-    "snippet": "Dropbox API",
-    "prevyeardl": 188937
   },
   {
     "id": "script.playrandomvideos",
@@ -29009,10 +29010,10 @@
     "disclaimer": "In loving memory of Near / Byuu",
     "size": "879KB",
     "lastupdate": "2023-01-19T02:29:34.137Z",
-    "downloads": 166404,
+    "downloads": 166469,
     "icon": "/images/addons/nexus/game.libretro.bnes/resources/icon.png",
     "snippet": "Nintendo - NES / Famicom (bnes) v083",
-    "prevyeardl": 166339
+    "prevyeardl": 166404
   },
   {
     "id": "game.libretro.scummvm",
@@ -29085,10 +29086,10 @@
     "description": "ScummVM is a collection of game engine recreations. ScummVM emulates several systems, including the SCUMM system for LucasArts adventure games.\n\nSupported files: .scummvm",
     "size": "21229KB",
     "lastupdate": "2023-01-19T02:29:34.137Z",
-    "downloads": 52011,
+    "downloads": 52112,
     "icon": "/images/addons/nexus/game.libretro.scummvm/resources/icon.png",
     "snippet": "ScummVM 2.1.1",
-    "prevyeardl": 51910
+    "prevyeardl": 52011
   },
   {
     "id": "plugin.video.sms",
@@ -41487,10 +41488,10 @@
     "description": "Create and edit custom library nodes.",
     "size": "168KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 2428596,
+    "downloads": 2428757,
     "icon": "/images/addons/nexus/plugin.library.node.editor/icon.png",
     "snippet": "Manage custom library nodes.",
-    "prevyeardl": 2428435
+    "prevyeardl": 2428596
   },
   {
     "id": "plugin.audio.radio_de",
@@ -41570,10 +41571,10 @@
     "description": "Music plugin to access over 30000 international radio broadcasts from rad.io, radio.de, radio.fr, radio.pt and radio.es\nCurrently features\n- English, german, french translated\n- Browse stations by location, genre, topic, country, city and language\n- Search for stations\n- 115 genres, 59 topics, 94 countrys, 1010 citys, 63 languages",
     "size": "1331KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 1758105,
+    "downloads": 1758284,
     "icon": "/images/addons/nexus/plugin.audio.radio_de/resources/art/icon.png",
     "snippet": "Access &gt;30000 radio broadcasts",
-    "prevyeardl": 1757926
+    "prevyeardl": 1758105
   },
   {
     "id": "plugin.video.filmsforaction",
@@ -41631,10 +41632,10 @@
     ],
     "size": "164KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 812912,
+    "downloads": 812925,
     "icon": "/images/addons/nexus/plugin.video.filmsforaction/icon.png",
     "snippet": "Films For Action videos",
-    "prevyeardl": 812899
+    "prevyeardl": 812912
   },
   {
     "id": "metadata.common.omdbapi.com",
@@ -41669,7 +41670,7 @@
     "nofanart": "true",
     "size": "14KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 1430360,
+    "downloads": 1430758,
     "icons": [
       {
         "remotepath": "",
@@ -41677,7 +41678,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1429962
+    "prevyeardl": 1430360
   },
   {
     "id": "service.listenbrainz",
@@ -41722,10 +41723,10 @@
     ],
     "size": "47KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 145944,
+    "downloads": 145952,
     "icon": "/images/addons/nexus/service.listenbrainz/resources/icon.png",
     "snippet": "ListenBrainz listener",
-    "prevyeardl": 145936
+    "prevyeardl": 145944
   },
   {
     "id": "script.program.homeassistant",
@@ -41800,10 +41801,10 @@
     "news": "Version 1.2.0 (2021-05-10)\n- Camera support (view picture of HA camera's)\n- Fan support (toggle)\n- Fixed issue: Crash when friendly name is not available\n- Fixed issue: Persons state not visible\n- Translations: Updated NL with some items previously not translated\n\t\t",
     "size": "1209KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 544658,
+    "downloads": 544726,
     "icon": "/images/addons/nexus/script.program.homeassistant/icon.png",
     "snippet": "Home Assistant Kodi Addon",
-    "prevyeardl": 544590
+    "prevyeardl": 544658
   },
   {
     "id": "plugin.video.ahltv",
@@ -41862,10 +41863,10 @@
     "source": "https://github.com/sobralik/plugin.video.ahltv",
     "size": "956KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 496518,
+    "downloads": 496573,
     "icon": "/images/addons/nexus/plugin.video.ahltv/icon.png",
     "snippet": "AHLTV",
-    "prevyeardl": 496463
+    "prevyeardl": 496518
   },
   {
     "id": "service.watchedlist",
@@ -41928,10 +41929,10 @@
     ],
     "size": "212KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 426308,
+    "downloads": 426383,
     "icon": "/images/addons/nexus/service.watchedlist/icon.png",
     "snippet": "Save watched state of movies and TV-series episodes independent from filenames",
-    "prevyeardl": 426233
+    "prevyeardl": 426308
   },
   {
     "id": "script.module.xbmcswift2",
@@ -41980,10 +41981,10 @@
     ],
     "size": "45KB",
     "lastupdate": "2022-06-05T13:49:48.561Z",
-    "downloads": 5620374,
+    "downloads": 5632511,
     "icon": "/images/addons/nexus/script.module.xbmcswift2/icon.png",
     "snippet": "xbmcswift2 is a small framework to ease development of KODI addons.",
-    "prevyeardl": 5608237
+    "prevyeardl": 5620374
   },
   {
     "id": "script.xbmc.unpausejumpback",
@@ -42050,10 +42051,10 @@
     ],
     "size": "83KB",
     "lastupdate": "2021-11-12T02:15:16.001Z",
-    "downloads": 288382,
+    "downloads": 288495,
     "icon": "/images/addons/nexus/script.xbmc.unpausejumpback/icon.png",
     "snippet": "Kodi automatic jump back on un-pausing of videos",
-    "prevyeardl": 288269
+    "prevyeardl": 288382
   },
   {
     "id": "plugin.video.dailymotion_com",
@@ -42126,10 +42127,10 @@
     ],
     "size": "263KB",
     "lastupdate": "2021-11-03T02:14:11.858Z",
-    "downloads": 7209629,
+    "downloads": 7221465,
     "icon": "/images/addons/nexus/plugin.video.dailymotion_com/icon.png",
     "snippet": "Movies, TV, Music, User-Clips, and Livestreams",
-    "prevyeardl": 7197793
+    "prevyeardl": 7209629
   },
   {
     "id": "plugin.video.iranintl",
@@ -42180,10 +42181,10 @@
     ],
     "size": "26KB",
     "lastupdate": "2021-10-31T02:16:40.620Z",
-    "downloads": 182241,
+    "downloads": 182292,
     "icon": "/images/addons/nexus/plugin.video.iranintl/icon.png",
     "snippet": "Iran International TV",
-    "prevyeardl": 182190
+    "prevyeardl": 182241
   },
   {
     "id": "game.libretro.boom3",
@@ -42233,7 +42234,7 @@
     "nochangelog": "true",
     "size": "3247KB",
     "lastupdate": "2021-10-21T02:20:43.969Z",
-    "downloads": 44760,
+    "downloads": 44823,
     "icons": [
       {
         "remotepath": "",
@@ -42242,7 +42243,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Doom 3 (boom3) v1.5.0",
-    "prevyeardl": 44697
+    "prevyeardl": 44760
   },
   {
     "id": "game.libretro.remotejoy",
@@ -42292,7 +42293,7 @@
     "nochangelog": "true",
     "size": "131KB",
     "lastupdate": "2021-10-20T02:17:50.737Z",
-    "downloads": 104782,
+    "downloads": 104887,
     "icons": [
       {
         "remotepath": "",
@@ -42301,7 +42302,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "PSP RemotePlay (RemoteJoy) v1",
-    "prevyeardl": 104677
+    "prevyeardl": 104782
   },
   {
     "id": "script.module.libarte",
@@ -42342,10 +42343,10 @@
     ],
     "size": "17KB",
     "lastupdate": "2021-10-19T02:17:01.288Z",
-    "downloads": 682217,
+    "downloads": 682470,
     "icon": "/images/addons/nexus/script.module.libarte/resources/icon.png",
     "snippet": "This is a scraper for http://arte.tv.",
-    "prevyeardl": 681964
+    "prevyeardl": 682217
   },
   {
     "id": "plugin.video.zdftivi",
@@ -42403,10 +42404,10 @@
     ],
     "size": "33KB",
     "lastupdate": "2021-10-19T02:17:01.288Z",
-    "downloads": 268925,
+    "downloads": 269018,
     "icon": "/images/addons/nexus/plugin.video.zdftivi/resources/icon.png",
     "snippet": "Videos on demand for children from the ZDF Mediathek.",
-    "prevyeardl": 268832
+    "prevyeardl": 268925
   },
   {
     "id": "plugin.audio.pureradio",
@@ -42462,10 +42463,10 @@
     "news": "Version 2.0.0 (01-OCT-2020)\n\t\t\t\t[*] Python3 used for matrix\t\t\t\n\t\t\t\t[*] Spreaker podcast section optimalisation\n\t\t\tVersion 3.0.0 (01-NOV-2020) \n\t\t\t\t[*] Rewrite based on current Kodi guidelines\n\t\t\t\t[*] Removed screenshots\n\t\t\tVersion 3.0.1 (02-NOV-2020)\n\t\t\t\t[*] Removed static strings from API\n\t\t\t\t[*] Dynamic Streaming and podcast urls\n\t\t\t\t[*] Replaced eval function for static function calls\n\t\t\tVersion 3.0.2 (04-NOV-2020)\n\t\t\t\t[*] Commit to matrix branch\n\t\t\tVersion 3.0.3 (08-10-2021)\n\t\t\t\t[*] made a single commit\n\t\t\tVersion 3.0.4 (13-10-2021)\n\t\t\t\t[*] stream and podcast urls from settings.xml\n\t\t",
     "size": "133KB",
     "lastupdate": "2021-10-18T02:19:45.448Z",
-    "downloads": 162561,
+    "downloads": 162617,
     "icon": "/images/addons/nexus/plugin.audio.pureradio/resources/icon.png",
     "snippet": "Pureradio.One stream and podcast",
-    "prevyeardl": 162505
+    "prevyeardl": 162561
   },
   {
     "id": "script.module.pyqrcode",
@@ -42509,10 +42510,10 @@
     ],
     "size": "64KB",
     "lastupdate": "2021-10-17T02:15:16.176Z",
-    "downloads": 14334531,
+    "downloads": 14338101,
     "icon": "/images/addons/nexus/script.module.pyqrcode/icon.png",
     "snippet": "A Python interface to generate QR Code",
-    "prevyeardl": 14330961
+    "prevyeardl": 14334531
   },
   {
     "id": "service.subtitles.rvm.addic7ed",
@@ -42564,10 +42565,10 @@
     "reuselanguageinvoker": "true",
     "size": "61KB",
     "lastupdate": "2021-10-17T02:15:16.176Z",
-    "downloads": 1316673,
+    "downloads": 1317123,
     "icon": "/images/addons/nexus/service.subtitles.rvm.addic7ed/icon.png",
     "snippet": "Addic7ed.com Subtitles",
-    "prevyeardl": 1316223
+    "prevyeardl": 1316673
   },
   {
     "id": "script.service.playbackresumer",
@@ -42619,10 +42620,10 @@
     ],
     "size": "346KB",
     "lastupdate": "2021-10-13T02:17:56.848Z",
-    "downloads": 604966,
+    "downloads": 605158,
     "icon": "/images/addons/nexus/script.service.playbackresumer/icon.png",
     "snippet": "Periodically sets the resume point of videos and can automatically resume last played video if...",
-    "prevyeardl": 604774
+    "prevyeardl": 604966
   },
   {
     "id": "skin.confluence",
@@ -42716,10 +42717,10 @@
     "description": "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.",
     "size": "7371KB",
     "lastupdate": "2021-10-10T02:15:21.471Z",
-    "downloads": 4691755,
+    "downloads": 4693267,
     "icon": "/images/addons/nexus/skin.confluence/resources/icon.png",
     "snippet": "Confluence skin by Jezz_X.",
-    "prevyeardl": 4690243
+    "prevyeardl": 4691755
   },
   {
     "id": "script.module.pyhdhr",
@@ -42763,10 +42764,10 @@
     ],
     "size": "14KB",
     "lastupdate": "2021-10-05T02:14:56.681Z",
-    "downloads": 588718,
+    "downloads": 589079,
     "icon": "/images/addons/nexus/script.module.pyhdhr/icon.png",
     "snippet": "A Python interface for the HDHomeRun JSON API",
-    "prevyeardl": 588357
+    "prevyeardl": 588718
   },
   {
     "id": "plugin.video.locast",
@@ -42849,10 +42850,10 @@
     ],
     "size": "2362KB",
     "lastupdate": "2021-10-04T02:18:33.704Z",
-    "downloads": 46220,
+    "downloads": 46313,
     "icon": "/images/addons/nexus/plugin.video.locast/resources/images/icon.png",
     "snippet": "Locast is a public service to Americans, providing local broadcast signals over the Internet in...",
-    "prevyeardl": 46127
+    "prevyeardl": 46220
   },
   {
     "id": "screensaver.bing",
@@ -42921,10 +42922,10 @@
     ],
     "size": "1077KB",
     "lastupdate": "2021-10-04T02:18:33.704Z",
-    "downloads": 218088,
+    "downloads": 218207,
     "icon": "/images/addons/nexus/screensaver.bing/resources/images/icon.png",
     "snippet": "Explore breathtaking images from the Bing homepage... ",
-    "prevyeardl": 217969
+    "prevyeardl": 218088
   },
   {
     "id": "screensaver.google.earth",
@@ -42993,10 +42994,10 @@
     ],
     "size": "1228KB",
     "lastupdate": "2021-10-04T02:18:33.704Z",
-    "downloads": 302717,
+    "downloads": 302864,
     "icon": "/images/addons/nexus/screensaver.google.earth/resources/images/icon.png",
     "snippet": "Earth View displays a beautiful Satellite image from Google Earth...",
-    "prevyeardl": 302570
+    "prevyeardl": 302717
   },
   {
     "id": "screensaver.unsplash",
@@ -43066,10 +43067,10 @@
     ],
     "size": "659KB",
     "lastupdate": "2021-10-04T02:18:33.704Z",
-    "downloads": 96557,
+    "downloads": 96628,
     "icon": "/images/addons/nexus/screensaver.unsplash/resources/images/icon.png",
     "snippet": "Beautiful, free photos. Gifted by the world's most generous community of photographers.",
-    "prevyeardl": 96486
+    "prevyeardl": 96557
   },
   {
     "id": "skin.eminence.2",
@@ -43160,10 +43161,10 @@
     ],
     "size": "10510KB",
     "lastupdate": "2021-10-03T02:16:38.843Z",
-    "downloads": 1006018,
+    "downloads": 1006324,
     "icon": "/images/addons/nexus/skin.eminence.2/icon.png",
     "snippet": "Clean, clear, simple, modern.",
-    "prevyeardl": 1005712
+    "prevyeardl": 1006018
   },
   {
     "id": "weather.gismeteo",
@@ -43211,10 +43212,10 @@
     ],
     "size": "73KB",
     "lastupdate": "2021-09-29T02:12:07.896Z",
-    "downloads": 4890396,
+    "downloads": 4892534,
     "icon": "/images/addons/nexus/weather.gismeteo/icon.png",
     "snippet": "Gismeteo Weather Forecast. Real time weather and detailed forecast all round the world",
-    "prevyeardl": 4888258
+    "prevyeardl": 4890396
   },
   {
     "id": "screensaver.kaster",
@@ -43283,10 +43284,10 @@
     ],
     "size": "3330KB",
     "lastupdate": "2021-09-29T02:12:07.896Z",
-    "downloads": 166198,
+    "downloads": 166292,
     "icon": "/images/addons/nexus/screensaver.kaster/resources/images/icon.png",
     "snippet": "A chromecast-like screensaver for Kodi",
-    "prevyeardl": 166104
+    "prevyeardl": 166198
   },
   {
     "id": "script.module.kutils",
@@ -43335,10 +43336,10 @@
     ],
     "size": "75KB",
     "lastupdate": "2021-09-13T02:14:25.758Z",
-    "downloads": 1641500,
+    "downloads": 1641536,
     "icon": "/images/addons/nexus/script.module.kutils/resources/icon.png",
     "snippet": "Helper module for Kodi add-ons",
-    "prevyeardl": 1641464
+    "prevyeardl": 1641500
   },
   {
     "id": "plugin.video.pcloud-video-streaming",
@@ -43412,10 +43413,10 @@
     ],
     "size": "110KB",
     "lastupdate": "2021-09-13T02:14:25.758Z",
-    "downloads": 688920,
+    "downloads": 689156,
     "icon": "/images/addons/nexus/plugin.video.pcloud-video-streaming/icon.png",
     "snippet": "Provides streaming from a pcloud.com bucket",
-    "prevyeardl": 688684
+    "prevyeardl": 688920
   },
   {
     "id": "script.service.janitor",
@@ -43479,10 +43480,10 @@
     ],
     "size": "591KB",
     "lastupdate": "2021-08-26T02:12:01.170Z",
-    "downloads": 540207,
+    "downloads": 540445,
     "icon": "/images/addons/nexus/script.service.janitor/resources/icon.png",
     "snippet": "Regularly deletes old movies, TV show episodes and music videos",
-    "prevyeardl": 539969
+    "prevyeardl": 540207
   },
   {
     "id": "plugin.audio.radiorecord",
@@ -43540,10 +43541,10 @@
     "news": "Fix API",
     "size": "223KB",
     "lastupdate": "2021-08-26T02:12:01.170Z",
-    "downloads": 181501,
+    "downloads": 181621,
     "icon": "/images/addons/nexus/plugin.audio.radiorecord/resources/icon.png",
     "snippet": "Radio Record",
-    "prevyeardl": 181381
+    "prevyeardl": 181501
   },
   {
     "id": "script.trakt",
@@ -43619,10 +43620,10 @@
     "description": "Automatically scrobble all TV episodes and movies you are watching to Trakt.tv! Keep a comprehensive history of everything you've watched and be part of a global community of TV and movie enthusiasts. Sign up for a free account at http://trakt.tv and get a ton of features:\n\n- Automatically scrobble what you're watching\n- Mobile apps for iPhone, iPad, Android, and Windows Phone\n- Share what you're watching (in real time) and rating to facebook and twitter\n- Personalized calendar so you never miss a TV show\n- Follow your friends and people you're interesed in\n- Use watchlists so you don't forget to what to watch\n- Track your media collections and impress your friends\n- Create custom lists around any topics you choose\n- Easily track your TV show progress across all seasons and episodes\n- Track your progress against industry lists such as the IMDb Top 250\n- Discover new shows and movies based on your viewing habits\n- Widgets for your forum signature\n\nWhat can this addon do?\n\n- Automatically scrobble all TV episodes and movies you are watching\n- Sync your TV episode and movie collections to Trakt (triggered after a library update)\n- Auto clean your Trakt collection so that it matches up with Kodi\n- Keep watched statuses synced between Kodi and Trakt\n- Rate movies and episode after watching them\n\nSpecial thanks to all who contributed to this plugin! Check the commit history and changelog to see these talented developers.",
     "size": "2130KB",
     "lastupdate": "2021-08-26T02:12:01.170Z",
-    "downloads": 3328487,
+    "downloads": 3330417,
     "icon": "/images/addons/nexus/script.trakt/icon.png",
     "snippet": "TV and movie scrobbler for Trakt.tv",
-    "prevyeardl": 3326557
+    "prevyeardl": 3328487
   },
   {
     "id": "plugin.video.tv3.cat",
@@ -43678,10 +43679,10 @@
     ],
     "size": "225KB",
     "lastupdate": "2021-08-14T02:13:29.508Z",
-    "downloads": 323894,
+    "downloads": 324011,
     "icon": "/images/addons/nexus/plugin.video.tv3.cat/resources/icon.png",
     "snippet": "Entertainment, news, documentaries, etc from catalan television www.tv3.cat",
-    "prevyeardl": 323777
+    "prevyeardl": 323894
   },
   {
     "id": "script.service.next-episode",
@@ -43732,10 +43733,10 @@
     "news": "1.2.5:\n- Fixed crashes when movies do not have IMDB ID.\n\n1.2.4:\n- Fixed compatibility with Kodi 20 \"Nexus\".",
     "size": "43KB",
     "lastupdate": "2021-08-13T02:13:19.126Z",
-    "downloads": 293728,
+    "downloads": 293868,
     "icon": "/images/addons/nexus/script.service.next-episode/icon.png",
     "snippet": "A service for Next Episode (next-episode.net) website.",
-    "prevyeardl": 293588
+    "prevyeardl": 293728
   },
   {
     "id": "script.favourites",
@@ -43786,10 +43787,10 @@
     "news": "- get favourites using json-rpc instead of parsing the favourites.xml file\n- fix crash when no favourites exist",
     "size": "131KB",
     "lastupdate": "2021-07-28T02:17:26.047Z",
-    "downloads": 8104939,
+    "downloads": 8126257,
     "icon": "/images/addons/nexus/script.favourites/resources/icon.png",
     "snippet": "Favourites script",
-    "prevyeardl": 8083621
+    "prevyeardl": 8104939
   },
   {
     "id": "plugin.video.liveleak",
@@ -43847,10 +43848,10 @@
     ],
     "size": "373KB",
     "lastupdate": "2021-07-20T02:17:53.450Z",
-    "downloads": 67881,
+    "downloads": 67953,
     "icon": "/images/addons/nexus/plugin.video.liveleak/resources/icon.png",
     "snippet": "Watch LiveLeak.com Videos",
-    "prevyeardl": 67809
+    "prevyeardl": 67881
   },
   {
     "id": "plugin.video.filmarkivet",
@@ -43906,10 +43907,10 @@
     ],
     "size": "50KB",
     "lastupdate": "2021-07-20T02:17:53.450Z",
-    "downloads": 388641,
+    "downloads": 388782,
     "icon": "/images/addons/nexus/plugin.video.filmarkivet/resources/icon.png",
     "snippet": "Watch movies from the Swedish Film Institute film archive",
-    "prevyeardl": 388500
+    "prevyeardl": 388641
   },
   {
     "id": "plugin.video.jpcandioti.5rtv",
@@ -43962,11 +43963,11 @@
     "source": "https://github.com/jpcandioti/plugin.video.jpcandioti.5rtv",
     "size": "77KB",
     "lastupdate": "2021-07-20T02:17:53.450Z",
-    "downloads": 559812,
+    "downloads": 560006,
     "icon": "/images/addons/nexus/plugin.video.jpcandioti.5rtv/icon.png",
     "description": "5RTV is the Public Channel of the Province of Santa Fe, Argentina.",
     "snippet": "5RTV is the Public Channel of the Province of Santa Fe, Argentina.",
-    "prevyeardl": 559618
+    "prevyeardl": 559812
   },
   {
     "id": "plugin.audio.sverigesradio",
@@ -44024,10 +44025,10 @@
     ],
     "size": "75KB",
     "lastupdate": "2021-07-20T02:17:53.450Z",
-    "downloads": 87690,
+    "downloads": 87764,
     "icon": "/images/addons/nexus/plugin.audio.sverigesradio/icon.png",
     "snippet": "Swedish National Radio (Sveriges Radio)",
-    "prevyeardl": 87616
+    "prevyeardl": 87690
   },
   {
     "id": "visualization.vortex",
@@ -44068,7 +44069,7 @@
     "nochangelog": "true",
     "size": "1314KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 37742,
+    "downloads": 37816,
     "icons": [
       {
         "remotepath": "",
@@ -44078,7 +44079,7 @@
     "icon": "/images/default-addon.webp",
     "description": "Vortex Visualization from XBOX package",
     "snippet": "Vortex Visualization from XBOX package",
-    "prevyeardl": 37668
+    "prevyeardl": 37742
   },
   {
     "id": "game.libretro.reicast",
@@ -44137,10 +44138,10 @@
     ],
     "size": "2029KB",
     "lastupdate": "2021-01-30T17:44:58.119Z",
-    "downloads": 145612,
+    "downloads": 145786,
     "icon": "/images/addons/nexus/game.libretro.reicast/resources/icon.png",
     "snippet": "Sega - Dreamcast/NAOMI (Flycast) 0.1",
-    "prevyeardl": 145438
+    "prevyeardl": 145612
   },
   {
     "id": "game.libretro.mupen64plus",
@@ -44180,7 +44181,7 @@
     "nochangelog": "true",
     "size": "1534KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 66918,
+    "downloads": 66977,
     "icons": [
       {
         "remotepath": "",
@@ -44189,7 +44190,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Nintendo - Nintendo 64 (Mupen64Plus) 2.5",
-    "prevyeardl": 66859
+    "prevyeardl": 66918
   },
   {
     "id": "game.libretro.mame2015",
@@ -44229,7 +44230,7 @@
     "nochangelog": "true",
     "size": "27155KB",
     "lastupdate": "2021-02-01T15:55:01.157Z",
-    "downloads": 28505,
+    "downloads": 28566,
     "icons": [
       {
         "remotepath": "",
@@ -44238,7 +44239,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Arcade (MAME 2015) 0.160",
-    "prevyeardl": 28444
+    "prevyeardl": 28505
   },
   {
     "id": "game.libretro.mame2014",
@@ -44278,7 +44279,7 @@
     "nochangelog": "true",
     "size": "27154KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 18828,
+    "downloads": 18869,
     "icons": [
       {
         "remotepath": "",
@@ -44287,7 +44288,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Arcade (MAME 2014) 0.159",
-    "prevyeardl": 18787
+    "prevyeardl": 18828
   },
   {
     "id": "game.libretro.gme",
@@ -44347,7 +44348,7 @@
     "nochangelog": "true",
     "size": "378KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 133684,
+    "downloads": 133891,
     "icons": [
       {
         "remotepath": "",
@@ -44356,7 +44357,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Game Music Emu v0.6.1",
-    "prevyeardl": 133477
+    "prevyeardl": 133684
   },
   {
     "id": "game.libretro.fbalpha",
@@ -44420,10 +44421,10 @@
     ],
     "size": "8207KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 160883,
+    "downloads": 161097,
     "icon": "/images/addons/nexus/game.libretro.fbalpha/resources/icon.png",
     "snippet": "Arcade (FB Alpha) v0.2.97.44",
-    "prevyeardl": 160669
+    "prevyeardl": 160883
   },
   {
     "id": "game.libretro.dolphin",
@@ -44463,7 +44464,7 @@
     "nochangelog": "true",
     "size": "6113KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 22184,
+    "downloads": 22229,
     "icons": [
       {
         "remotepath": "",
@@ -44472,7 +44473,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Nintendo - GameCube / Wii (Dolphin) 1a7d1bc8",
-    "prevyeardl": 22139
+    "prevyeardl": 22184
   },
   {
     "id": "game.libretro.beetle-wswan",
@@ -44549,10 +44550,10 @@
     ],
     "size": "810KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 182746,
+    "downloads": 183016,
     "icon": "/images/addons/nexus/game.libretro.beetle-wswan/resources/icon.png",
     "snippet": "Bandai - WonderSwan/Color (Beetle Cygne) v1.23.0.0",
-    "prevyeardl": 182476
+    "prevyeardl": 182746
   },
   {
     "id": "game.libretro.4do",
@@ -44615,10 +44616,10 @@
     ],
     "size": "392KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 149586,
+    "downloads": 149796,
     "icon": "/images/addons/nexus/game.libretro.4do/resources/icon.png",
     "snippet": "The 3DO Company - 3DO (4DO) 1.3.2.4",
-    "prevyeardl": 149376
+    "prevyeardl": 149586
   },
   {
     "id": "webinterface.chorus",
@@ -44654,7 +44655,7 @@
     "forum": "http://forum.xbmc.org/showthread.php?tid=183451",
     "size": "8813KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 986124,
+    "downloads": 986513,
     "icons": [
       {
         "remotepath": "",
@@ -44662,7 +44663,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 985735
+    "prevyeardl": 986124
   },
   {
     "id": "webinterface.hax",
@@ -44696,7 +44697,7 @@
     "source": "https://github.com/bailus/Hax",
     "size": "1118KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 666395,
+    "downloads": 666684,
     "icons": [
       {
         "remotepath": "",
@@ -44704,7 +44705,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 666106
+    "prevyeardl": 666395
   },
   {
     "id": "webinterface.arch",
@@ -44741,7 +44742,7 @@
     "source": "https://github.com/abricot/webinterface.arch",
     "size": "2533KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1232759,
+    "downloads": 1233217,
     "icons": [
       {
         "remotepath": "",
@@ -44749,7 +44750,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1232301
+    "prevyeardl": 1232759
   },
   {
     "id": "webinterface.awxi",
@@ -44790,7 +44791,7 @@
     "nofanart": "true",
     "size": "2559KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 780334,
+    "downloads": 780653,
     "icons": [
       {
         "remotepath": "",
@@ -44798,7 +44799,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 780015
+    "prevyeardl": 780334
   },
   {
     "id": "skin.pellucid",
@@ -44874,10 +44875,10 @@
     ],
     "size": "93531KB",
     "lastupdate": "2021-03-21T02:37:50.686Z",
-    "downloads": 607261,
+    "downloads": 607506,
     "icon": "/images/addons/nexus/skin.pellucid/resources/icon.png",
     "snippet": "A skin for Kodi by theDeadManInYossariansTent",
-    "prevyeardl": 607016
+    "prevyeardl": 607261
   },
   {
     "id": "skin.ftv",
@@ -44980,10 +44981,10 @@
     "news": "Updated for Kodi v19 (Matrix).",
     "size": "65722KB",
     "lastupdate": "2021-07-12T02:12:22.340Z",
-    "downloads": 864898,
+    "downloads": 865280,
     "icon": "/images/addons/nexus/skin.ftv/resources/icon.png",
     "snippet": "Skin based on the Fire TV UI",
-    "prevyeardl": 864516
+    "prevyeardl": 864898
   },
   {
     "id": "skin.embuary-matrix",
@@ -45076,10 +45077,10 @@
     ],
     "size": "28514KB",
     "lastupdate": "2021-04-24T02:26:45.250Z",
-    "downloads": 1974301,
+    "downloads": 1974932,
     "icon": "/images/addons/nexus/skin.embuary-matrix/resources/icon.png",
     "snippet": "Embuary skin by Sualfred",
-    "prevyeardl": 1973670
+    "prevyeardl": 1974301
   },
   {
     "id": "skin.bello.8",
@@ -45172,9 +45173,9 @@
     ],
     "size": "10264KB",
     "lastupdate": "2021-06-11T02:25:17.578Z",
-    "downloads": 716540,
+    "downloads": 716904,
     "icon": "/images/addons/nexus/skin.bello.8/resources/icon.png",
-    "prevyeardl": 716176
+    "prevyeardl": 716540
   },
   {
     "id": "skin.amber",
@@ -45282,10 +45283,10 @@
     "news": "3.4.11 (04-01-2021)\n\t\t- Make embuary helper and tmdb helper completely optional\n\t\t- Fix for overlay not shown for files in list views\n\t\t- Update translations\n\t\t- Misc. fixes\n\t\t3.4.10 (31-12-2020)\n\t\t- Add smaller favourites options\n\t\t- Fixes for inclusion in Kodi repo\n\t\t3.4.8 (23-12-2020)\n\t\t- Add fanart.jpg as background option (for files mode)\n\t\t- Add Logo view \n\t\t- Add Director to all applicable views\n\t\t- Misc. Fixes\n\t\t3.4.7 (14-12-2020)\n\t\t- Fix header poistioning in select dialogs\n\t\t- Fix missing localizations\n\t\t- Update French translation\n\t\t3.4.6 (13-12-2020)\n\t\t- Provide color picker without addons (thx jurialmunkey)\n\t\t- Replace backup options with script.xbmcbackup\n\t\t- Add auto close video OSD options\n\t\t- More extra artwork options for applicable media views\n\t\t- Add Estonian translation (thx rimasx)\n\t\t- Update Finnish translation (thx g0mez)\n\t\t- Misc. fixes\n        ",
     "size": "67968KB",
     "lastupdate": "2021-01-09T17:50:09.345Z",
-    "downloads": 1674237,
+    "downloads": 1675597,
     "icon": "/images/addons/nexus/skin.amber/resources/icon.png",
     "snippet": "No bloatware, just your media with an easy to navigate interface",
-    "prevyeardl": 1672877
+    "prevyeardl": 1674237
   },
   {
     "id": "service.subtitles.titlovi-com-official",
@@ -45345,10 +45346,10 @@
     "source": "https://github.com/tturkalj/service.subtitles.titlovi-com-official",
     "size": "202KB",
     "lastupdate": "2021-04-11T02:26:42.640Z",
-    "downloads": 671857,
+    "downloads": 672114,
     "icon": "/images/addons/nexus/service.subtitles.titlovi-com-official/icon.png",
     "snippet": "Titlovi.com",
-    "prevyeardl": 671600
+    "prevyeardl": 671857
   },
   {
     "id": "service.subtitles.subsceneplus",
@@ -45392,10 +45393,10 @@
     ],
     "size": "181KB",
     "lastupdate": "2021-04-24T02:26:45.250Z",
-    "downloads": 2146512,
+    "downloads": 2147252,
     "icon": "/images/addons/nexus/service.subtitles.subsceneplus/logo.png",
     "snippet": "Subscene.com Subtitles",
-    "prevyeardl": 2145772
+    "prevyeardl": 2146512
   },
   {
     "id": "service.subtitles.napiprojekt",
@@ -45446,10 +45447,10 @@
     ],
     "size": "33KB",
     "lastupdate": "2021-03-22T02:45:34.367Z",
-    "downloads": 467452,
+    "downloads": 467635,
     "icon": "/images/addons/nexus/service.subtitles.napiprojekt/icon.png",
     "snippet": "Napiprojekt.pl",
-    "prevyeardl": 467269
+    "prevyeardl": 467452
   },
   {
     "id": "service.scrobbler.lastfm",
@@ -45494,10 +45495,10 @@
     "news": "- updates for kodi v19",
     "size": "132KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 263121,
+    "downloads": 263267,
     "icon": "/images/addons/nexus/service.scrobbler.lastfm/resources/icon.png",
     "snippet": "Last.fm scrobbler",
-    "prevyeardl": 262975
+    "prevyeardl": 263121
   },
   {
     "id": "service.scrobbler.librefm",
@@ -45542,10 +45543,10 @@
     "news": "- changes for kodi v19",
     "size": "83KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 172726,
+    "downloads": 172816,
     "icon": "/images/addons/nexus/service.scrobbler.librefm/resources/icon.png",
     "snippet": "Scrobble service for libre.fm",
-    "prevyeardl": 172636
+    "prevyeardl": 172726
   },
   {
     "id": "service.stinger.notification",
@@ -45590,10 +45591,10 @@
     ],
     "size": "45KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 166227,
+    "downloads": 166316,
     "icon": "/images/addons/nexus/service.stinger.notification/icon.png",
     "snippet": "This add-on notifies you of stinger scenes in the current movie, popping up a notification...",
-    "prevyeardl": 166138
+    "prevyeardl": 166227
   },
   {
     "id": "service.master.lock",
@@ -45638,10 +45639,10 @@
     "news": "* Added: Option to navigate to the Home screen after locking.",
     "size": "22KB",
     "lastupdate": "2021-01-06T16:00:35.899Z",
-    "downloads": 267438,
+    "downloads": 267576,
     "icon": "/images/addons/nexus/service.master.lock/resources/media/icon.png",
     "snippet": "Simple service that engages the Master Lock (if Kodi has one) when the screensaver starts.",
-    "prevyeardl": 267300
+    "prevyeardl": 267438
   },
   {
     "id": "service.partymode.autostart",
@@ -45706,10 +45707,10 @@
     ],
     "size": "1082KB",
     "lastupdate": "2021-03-20T02:39:57.946Z",
-    "downloads": 199242,
+    "downloads": 199340,
     "icon": "/images/addons/nexus/service.partymode.autostart/resources/icon.png",
     "snippet": "PartyMode Autostart",
-    "prevyeardl": 199144
+    "prevyeardl": 199242
   },
   {
     "id": "service.iptv.manager",
@@ -45795,10 +45796,10 @@
     "reuselanguageinvoker": "true",
     "size": "680KB",
     "lastupdate": "2021-02-10T20:52:56.636Z",
-    "downloads": 3253491,
+    "downloads": 3254383,
     "icon": "/images/addons/nexus/service.iptv.manager/resources/icon.png",
     "snippet": "Integrate IPTV channels from other add-ons in the Kodi TV and Radio menus",
-    "prevyeardl": 3252599
+    "prevyeardl": 3253491
   },
   {
     "id": "service.autosubs",
@@ -45859,10 +45860,10 @@
     ],
     "size": "79KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 932592,
+    "downloads": 933092,
     "icon": "/images/addons/nexus/service.autosubs/resources/media/srt_logo_256x256.png",
     "snippet": "Auto Search for Subtitles on Play",
-    "prevyeardl": 932092
+    "prevyeardl": 932592
   },
   {
     "id": "script.video.randomtv",
@@ -45924,10 +45925,10 @@
     ],
     "size": "50KB",
     "lastupdate": "2021-02-26T16:37:07.025Z",
-    "downloads": 448258,
+    "downloads": 448427,
     "icon": "/images/addons/nexus/script.video.randomtv/resources/icon.png",
     "snippet": "RandomTV",
-    "prevyeardl": 448089
+    "prevyeardl": 448258
   },
   {
     "id": "script.tvmaze.integration",
@@ -45982,10 +45983,10 @@
     "source": "https://github.com/pkscout/script.tvmaze.integration",
     "size": "135KB",
     "lastupdate": "2021-03-23T02:40:40.901Z",
-    "downloads": 451408,
+    "downloads": 451603,
     "icon": "/images/addons/nexus/script.tvmaze.integration/icon.png",
     "snippet": "Integration between Kodi and TV Maze.",
-    "prevyeardl": 451213
+    "prevyeardl": 451408
   },
   {
     "id": "script.tvmaze.scrobbler",
@@ -46042,10 +46043,10 @@
     "news": "1.2.1:\n- Fixed compatibility with Kodi 20 \"Nexus\".",
     "size": "368KB",
     "lastupdate": "2021-06-11T02:25:17.578Z",
-    "downloads": 450242,
+    "downloads": 450457,
     "icon": "/images/addons/nexus/script.tvmaze.scrobbler/resources/images/icon.png",
     "snippet": "TVmaze Tracker/Scrobbler for Kodi Mediacenter",
-    "prevyeardl": 450027
+    "prevyeardl": 450242
   },
   {
     "id": "script.video.bgtime_tv",
@@ -46103,10 +46104,10 @@
     ],
     "size": "870KB",
     "lastupdate": "2021-03-15T02:38:25.318Z",
-    "downloads": 600167,
+    "downloads": 600367,
     "icon": "/images/addons/nexus/script.video.bgtime_tv/resources/icon.png",
     "snippet": "Video addon for BGTime.TV - bgtime.tv",
-    "prevyeardl": 599967
+    "prevyeardl": 600167
   },
   {
     "id": "script.transmission",
@@ -46156,10 +46157,10 @@
     ],
     "size": "1199KB",
     "lastupdate": "2020-12-27T22:41:36.446Z",
-    "downloads": 457754,
+    "downloads": 457984,
     "icon": "/images/addons/nexus/script.transmission/icon.png",
     "snippet": "A client for the popular Transmission BitTorrent application",
-    "prevyeardl": 457524
+    "prevyeardl": 457754
   },
   {
     "id": "script.toolbox",
@@ -46209,10 +46210,10 @@
     ],
     "size": "89KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1697494,
+    "downloads": 1698212,
     "icon": "/images/addons/nexus/script.toolbox/resources/icon.png",
     "snippet": "ToolBox Script",
-    "prevyeardl": 1696776
+    "prevyeardl": 1697494
   },
   {
     "id": "script.speedfaninfo",
@@ -46259,10 +46260,10 @@
     "source": "https://github.com/pkscout/script.speedfaninfo",
     "size": "216KB",
     "lastupdate": "2021-04-12T02:26:48.587Z",
-    "downloads": 304603,
+    "downloads": 304765,
     "icon": "/images/addons/nexus/script.speedfaninfo/icon.png",
     "snippet": "Display information from your SpeedFan log.",
-    "prevyeardl": 304441
+    "prevyeardl": 304603
   },
   {
     "id": "script.speedtester",
@@ -46329,10 +46330,10 @@
     ],
     "size": "1552KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 1661299,
+    "downloads": 1661927,
     "icon": "/images/addons/nexus/script.speedtester/resources/media/icon.png",
     "snippet": "Test your Internet bandwidth",
-    "prevyeardl": 1660671
+    "prevyeardl": 1661299
   },
   {
     "id": "script.skinvariables",
@@ -46382,10 +46383,10 @@
     "news": "0.2.1 - Improve variable build speed",
     "size": "311KB",
     "lastupdate": "2021-03-21T02:37:50.686Z",
-    "downloads": 803878,
+    "downloads": 804194,
     "icon": "/images/addons/nexus/script.skinvariables/icon.png",
     "snippet": "Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using...",
-    "prevyeardl": 803562
+    "prevyeardl": 803878
   },
   {
     "id": "script.skin.helper.colorpicker",
@@ -46440,10 +46441,10 @@
     ],
     "size": "239KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 3051739,
+    "downloads": 3053140,
     "icon": "/images/addons/nexus/script.skin.helper.colorpicker/resources/icon.png",
     "snippet": "Colorpicker for Kodi Skins. Part of Skin Helper Suite",
-    "prevyeardl": 3050338
+    "prevyeardl": 3051739
   },
   {
     "id": "script.rss.editor",
@@ -46492,10 +46493,10 @@
     "news": "- fix broken ok and yesno dialogs\n- skin improvements",
     "size": "66KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 1229523,
+    "downloads": 1230086,
     "icon": "/images/addons/nexus/script.rss.editor/icon.png",
     "snippet": "A Script for editing Kodi's built in RSS Ticker",
-    "prevyeardl": 1228960
+    "prevyeardl": 1229523
   },
   {
     "id": "script.pystone.benchmark",
@@ -46557,10 +46558,10 @@
     ],
     "size": "880KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 526300,
+    "downloads": 526530,
     "icon": "/images/addons/nexus/script.pystone.benchmark/resources/images/icon.png",
     "snippet": "Test your devices python performance.",
-    "prevyeardl": 526070
+    "prevyeardl": 526300
   },
   {
     "id": "script.motr",
@@ -46632,10 +46633,10 @@
     ],
     "size": "2745KB",
     "lastupdate": "2021-03-21T17:23:26.907Z",
-    "downloads": 1331064,
+    "downloads": 1331434,
     "icon": "/images/addons/nexus/script.motr/icon.png",
     "snippet": "Movies On The Run (MOTR) client for Kodi",
-    "prevyeardl": 1330694
+    "prevyeardl": 1331064
   },
   {
     "id": "script.openweathermap.maps",
@@ -46686,10 +46687,10 @@
     "news": "- fix crash on timeout",
     "size": "224KB",
     "lastupdate": "2021-06-11T02:25:17.578Z",
-    "downloads": 4669940,
+    "downloads": 4671908,
     "icon": "/images/addons/nexus/script.openweathermap.maps/resources/icon.png",
     "snippet": "Weather maps from openweathermap.org",
-    "prevyeardl": 4667972
+    "prevyeardl": 4669940
   },
   {
     "id": "script.playalbum",
@@ -46734,10 +46735,10 @@
     "news": "- code refactor",
     "size": "65KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 219912,
+    "downloads": 220072,
     "icon": "/images/addons/nexus/script.playalbum/resources/icon.png",
     "snippet": "Play Album Script",
-    "prevyeardl": 219752
+    "prevyeardl": 219912
   },
   {
     "id": "script.module.youtube.dl",
@@ -46801,10 +46802,10 @@
     ],
     "size": "1862KB",
     "lastupdate": "2021-03-13T02:39:00.543Z",
-    "downloads": 16578818,
+    "downloads": 16581386,
     "icon": "/images/addons/nexus/script.module.youtube.dl/icon.png",
     "snippet": "Module providing access to youtube-dl video stream extraction",
-    "prevyeardl": 16576250
+    "prevyeardl": 16578818
   },
   {
     "id": "script.module.xmltodict",
@@ -46848,10 +46849,10 @@
     ],
     "size": "17KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 5184400,
+    "downloads": 5186289,
     "icon": "/images/addons/nexus/script.module.xmltodict/icon.png",
     "snippet": "Makes working with XML feel like you are working with JSON",
-    "prevyeardl": 5182511
+    "prevyeardl": 5184400
   },
   {
     "id": "script.module.yaml",
@@ -46895,10 +46896,10 @@
     ],
     "size": "52KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 1091939,
+    "downloads": 1092362,
     "icon": "/images/addons/nexus/script.module.yaml/icon.png",
     "snippet": "YAML parser and emitter for Python",
-    "prevyeardl": 1091516
+    "prevyeardl": 1091939
   },
   {
     "id": "script.module.ws4py",
@@ -46943,10 +46944,10 @@
     ],
     "size": "49KB",
     "lastupdate": "2021-03-21T02:37:50.686Z",
-    "downloads": 1287660,
+    "downloads": 1288011,
     "icon": "/images/addons/nexus/script.module.ws4py/resources/icon.png",
     "snippet": "WebSocket client and server library for Python 2 and 3 as well as PyPy.",
-    "prevyeardl": 1287309
+    "prevyeardl": 1287660
   },
   {
     "id": "script.module.webencodings",
@@ -46990,10 +46991,10 @@
     ],
     "size": "17KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 14454465,
+    "downloads": 14457997,
     "icon": "/images/addons/nexus/script.module.webencodings/icon.png",
     "snippet": "This is a Python implementation of the WHATWG Encoding standard.",
-    "prevyeardl": 14450933
+    "prevyeardl": 14454465
   },
   {
     "id": "script.module.websocket",
@@ -47036,11 +47037,11 @@
     "license": "LGPL-2.1-only",
     "size": "63KB",
     "lastupdate": "2021-05-23T03:01:29.931Z",
-    "downloads": 16972171,
+    "downloads": 16976980,
     "icon": "/images/addons/nexus/script.module.websocket/icon.png",
     "description": "websocket library repacked for Kodi",
     "snippet": "websocket library repacked for Kodi",
-    "prevyeardl": 16967362
+    "prevyeardl": 16972171
   },
   {
     "id": "script.module.win_inet_pton",
@@ -47085,10 +47086,10 @@
     ],
     "size": "9KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 86326,
+    "downloads": 86398,
     "icon": "/images/addons/nexus/script.module.win_inet_pton/icon.png",
     "snippet": "Native python inet_pton implementation on Windows (with ctypes)",
-    "prevyeardl": 86254
+    "prevyeardl": 86326
   },
   {
     "id": "script.module.typing_extensions",
@@ -47141,10 +47142,10 @@
     ],
     "size": "28KB",
     "lastupdate": "2021-04-04T02:27:35.160Z",
-    "downloads": 13575402,
+    "downloads": 13579400,
     "icon": "/images/addons/nexus/script.module.typing_extensions/icon.png",
     "snippet": "Typing Extensions – Backported and Experimental Type Hints for Python",
-    "prevyeardl": 13571404
+    "prevyeardl": 13575402
   },
   {
     "id": "script.module.uritemplate",
@@ -47188,10 +47189,10 @@
     ],
     "size": "20KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 229335,
+    "downloads": 229449,
     "icon": "/images/addons/nexus/script.module.uritemplate/icon.png",
     "snippet": "URItemplates python module",
-    "prevyeardl": 229221
+    "prevyeardl": 229335
   },
   {
     "id": "script.module.watchdog",
@@ -47235,10 +47236,10 @@
     ],
     "size": "73KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 492907,
+    "downloads": 493155,
     "icon": "/images/addons/nexus/script.module.watchdog/icon.png",
     "snippet": "Watchdog",
-    "prevyeardl": 492659
+    "prevyeardl": 492907
   },
   {
     "id": "script.module.tvdbsimple",
@@ -47281,10 +47282,10 @@
     ],
     "size": "26KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1299943,
+    "downloads": 1300455,
     "icon": "/images/addons/nexus/script.module.tvdbsimple/icon.png",
     "snippet": "tvdbsimple module",
-    "prevyeardl": 1299431
+    "prevyeardl": 1299943
   },
   {
     "id": "script.module.twitter",
@@ -47328,10 +47329,10 @@
     ],
     "size": "55KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 30881,
+    "downloads": 30924,
     "icon": "/images/addons/nexus/script.module.twitter/icon.png",
     "snippet": "An API and command-line toolset for Twitter (twitter.com)",
-    "prevyeardl": 30838
+    "prevyeardl": 30881
   },
   {
     "id": "script.module.tmdbsimple",
@@ -47380,10 +47381,10 @@
     ],
     "size": "51KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 266597,
+    "downloads": 266649,
     "icon": "/images/addons/nexus/script.module.tmdbsimple/resources/icon.png",
     "snippet": "A wrapper for The Movie Database API v3",
-    "prevyeardl": 266545
+    "prevyeardl": 266597
   },
   {
     "id": "script.module.trakt",
@@ -47432,10 +47433,10 @@
     ],
     "size": "88KB",
     "lastupdate": "2021-04-03T02:26:02.226Z",
-    "downloads": 6170763,
+    "downloads": 6172463,
     "icon": "/images/addons/nexus/script.module.trakt/icon.png",
     "snippet": "Python interface for the trakt.tv API",
-    "prevyeardl": 6169063
+    "prevyeardl": 6170763
   },
   {
     "id": "script.module.six",
@@ -47479,10 +47480,10 @@
     ],
     "size": "17KB",
     "lastupdate": "2021-04-02T02:30:28.721Z",
-    "downloads": 103418614,
+    "downloads": 103486927,
     "icon": "/images/addons/nexus/script.module.six/icon.png",
     "snippet": "Python 2 and 3 compatibility utilities.",
-    "prevyeardl": 103350301
+    "prevyeardl": 103418614
   },
   {
     "id": "script.module.sseclient",
@@ -47525,10 +47526,10 @@
     ],
     "size": "11KB",
     "lastupdate": "2021-07-18T13:28:32.776Z",
-    "downloads": 345493,
+    "downloads": 345626,
     "icon": "/images/addons/nexus/script.module.sseclient/icon.png",
     "snippet": "Python client library for reading Server Sent Event streams.",
-    "prevyeardl": 345360
+    "prevyeardl": 345493
   },
   {
     "id": "script.module.requests-cache",
@@ -47572,10 +47573,10 @@
     ],
     "size": "27KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 2491400,
+    "downloads": 2492514,
     "icon": "/images/addons/nexus/script.module.requests-cache/icon.png",
     "snippet": "Persistent cache for requests library",
-    "prevyeardl": 2490286
+    "prevyeardl": 2491400
   },
   {
     "id": "script.module.requests_oauthlib",
@@ -47620,10 +47621,10 @@
     ],
     "size": "27KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 284292,
+    "downloads": 284344,
     "icon": "/images/addons/nexus/script.module.requests_oauthlib/icon.png",
     "snippet": "This project provides first-class OAuth library support for Requests.",
-    "prevyeardl": 284240
+    "prevyeardl": 284292
   },
   {
     "id": "script.module.routing",
@@ -47672,10 +47673,10 @@
     ],
     "size": "24KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 27706070,
+    "downloads": 27713024,
     "icon": "/images/addons/nexus/script.module.routing/resources/icon.png",
     "snippet": "Routing module for plugins",
-    "prevyeardl": 27699116
+    "prevyeardl": 27706070
   },
   {
     "id": "script.module.sgmllib3k",
@@ -47718,10 +47719,10 @@
     ],
     "size": "12KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 2305694,
+    "downloads": 2306862,
     "icon": "/images/addons/nexus/script.module.sgmllib3k/icon.png",
     "snippet": "Python 3 port of sgmllib",
-    "prevyeardl": 2304526
+    "prevyeardl": 2305694
   },
   {
     "id": "script.module.simplecache",
@@ -47764,10 +47765,10 @@
     ],
     "size": "16KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 25038739,
+    "downloads": 25045097,
     "icon": "/images/addons/nexus/script.module.simplecache/resources/icon.png",
     "snippet": "Provides a simple file- and memory based cache for Kodi addons",
-    "prevyeardl": 25032381
+    "prevyeardl": 25038739
   },
   {
     "id": "script.module.simpleeval",
@@ -47810,10 +47811,10 @@
     ],
     "size": "14KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 9631965,
+    "downloads": 9635379,
     "icon": "/images/addons/nexus/script.module.simpleeval/icon.png",
     "snippet": "Simple Eval",
-    "prevyeardl": 9628551
+    "prevyeardl": 9631965
   },
   {
     "id": "script.module.qrcode",
@@ -47857,10 +47858,10 @@
     ],
     "size": "32KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 228626,
+    "downloads": 228686,
     "icon": "/images/addons/nexus/script.module.qrcode/icon.png",
     "snippet": "QR Code image generator",
-    "prevyeardl": 228566
+    "prevyeardl": 228626
   },
   {
     "id": "script.module.pyrollbar",
@@ -47909,10 +47910,10 @@
     ],
     "size": "43KB",
     "lastupdate": "2021-04-15T02:22:08.857Z",
-    "downloads": 455537,
+    "downloads": 455741,
     "icon": "/images/addons/nexus/script.module.pyrollbar/resources/icon.png",
     "snippet": "Error tracking and logging from Python to Rollbar",
-    "prevyeardl": 455333
+    "prevyeardl": 455537
   },
   {
     "id": "script.module.pyscrypt",
@@ -47956,10 +47957,10 @@
     ],
     "size": "30KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 369242,
+    "downloads": 369413,
     "icon": "/images/addons/nexus/script.module.pyscrypt/resources/icon.png",
     "snippet": "Pure-Python Implementation of the scrypt password-based key derivation function and scrypt file format library",
-    "prevyeardl": 369071
+    "prevyeardl": 369242
   },
   {
     "id": "script.module.pyserial",
@@ -48004,10 +48005,10 @@
     ],
     "size": "100KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 38344,
+    "downloads": 38387,
     "icon": "/images/addons/nexus/script.module.pyserial/icon.png",
     "snippet": "Python serial port access library",
-    "prevyeardl": 38301
+    "prevyeardl": 38344
   },
   {
     "id": "script.module.pysocks",
@@ -48051,10 +48052,10 @@
     ],
     "size": "23KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 5270375,
+    "downloads": 5275347,
     "icon": "/images/addons/nexus/script.module.pysocks/icon.png",
     "snippet": "A SOCKS proxy client and wrapper for Python",
-    "prevyeardl": 5265403
+    "prevyeardl": 5270375
   },
   {
     "id": "script.module.pyaes",
@@ -48098,10 +48099,10 @@
     ],
     "size": "37KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 649911,
+    "downloads": 650318,
     "icon": "/images/addons/nexus/script.module.pyaes/resources/icon.png",
     "snippet": "Pure-Python Implementation of the AES block-cipher and common modes of operation",
-    "prevyeardl": 649504
+    "prevyeardl": 649911
   },
   {
     "id": "script.module.pyjwt",
@@ -48146,10 +48147,10 @@
     ],
     "size": "28KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 2185626,
+    "downloads": 2186100,
     "icon": "/images/addons/nexus/script.module.pyjwt/icon.png",
     "snippet": "pyjwt module",
-    "prevyeardl": 2185152
+    "prevyeardl": 2185626
   },
   {
     "id": "script.module.pylast",
@@ -48203,10 +48204,10 @@
     ],
     "size": "30KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 37166,
+    "downloads": 37213,
     "icon": "/images/addons/nexus/script.module.pylast/icon.png",
     "snippet": "A Python interface to Last.fm and Libre.fm",
-    "prevyeardl": 37119
+    "prevyeardl": 37166
   },
   {
     "id": "script.module.pymysql",
@@ -48250,10 +48251,10 @@
     ],
     "size": "94KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 78737,
+    "downloads": 78788,
     "icon": "/images/addons/nexus/script.module.pymysql/icon.png",
     "snippet": "Simple MySql Connector for Python",
-    "prevyeardl": 78686
+    "prevyeardl": 78737
   },
   {
     "id": "script.module.oauth2",
@@ -48298,10 +48299,10 @@
     ],
     "size": "19KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 29333,
+    "downloads": 29383,
     "icon": "/images/addons/nexus/script.module.oauth2/icon.png",
     "snippet": "oAuth2 module",
-    "prevyeardl": 29283
+    "prevyeardl": 29333
   },
   {
     "id": "script.module.oauth2client",
@@ -48346,10 +48347,10 @@
     ],
     "size": "115KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 219958,
+    "downloads": 220068,
     "icon": "/images/addons/nexus/script.module.oauth2client/icon.png",
     "snippet": "OAuth 2.0 client library",
-    "prevyeardl": 219848
+    "prevyeardl": 219958
   },
   {
     "id": "script.module.oauthlib",
@@ -48394,10 +48395,10 @@
     ],
     "size": "150KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 285244,
+    "downloads": 285297,
     "icon": "/images/addons/nexus/script.module.oauthlib/icon.png",
     "snippet": "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic",
-    "prevyeardl": 285191
+    "prevyeardl": 285244
   },
   {
     "id": "script.module.pathtools",
@@ -48441,10 +48442,10 @@
     ],
     "size": "14KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 496342,
+    "downloads": 496591,
     "icon": "/images/addons/nexus/script.module.pathtools/icon.png",
     "snippet": "Pathtools",
-    "prevyeardl": 496093
+    "prevyeardl": 496342
   },
   {
     "id": "script.module.mutagen",
@@ -48488,10 +48489,10 @@
     ],
     "size": "207KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 3528951,
+    "downloads": 3530455,
     "icon": "/images/addons/nexus/script.module.mutagen/icon.png",
     "snippet": "Library to handle audio metadata.",
-    "prevyeardl": 3527447
+    "prevyeardl": 3528951
   },
   {
     "id": "script.module.libmediathek4",
@@ -48534,10 +48535,10 @@
     ],
     "size": "21KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 2801505,
+    "downloads": 2802373,
     "icon": "/images/addons/nexus/script.module.libmediathek4/resources/icon.png",
     "snippet": "Supplementary lib for Mediathek add-ons.",
-    "prevyeardl": 2800637
+    "prevyeardl": 2801505
   },
   {
     "id": "script.module.libwdr",
@@ -48580,10 +48581,10 @@
     ],
     "size": "19KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 372904,
+    "downloads": 373076,
     "icon": "/images/addons/nexus/script.module.libwdr/resources/icon.png",
     "snippet": "This is a scraper for content of the German broadcaster \"WDR\".",
-    "prevyeardl": 372732
+    "prevyeardl": 372904
   },
   {
     "id": "script.module.libzdf",
@@ -48623,7 +48624,7 @@
     "nochangelog": "true",
     "size": "20KB",
     "lastupdate": "2021-02-20T17:21:38.064Z",
-    "downloads": 1546185,
+    "downloads": 1546715,
     "icons": [
       {
         "remotepath": "",
@@ -48632,7 +48633,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "This is a scraper for the ZDF Mediathek (http://www.zdf.de).",
-    "prevyeardl": 1545655
+    "prevyeardl": 1546185
   },
   {
     "id": "script.module.livestreamer",
@@ -48676,10 +48677,10 @@
     ],
     "size": "215KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 3933483,
+    "downloads": 3934593,
     "icon": "/images/addons/nexus/script.module.livestreamer/icon.png",
     "snippet": "Livestreamer extracts streams from various services",
-    "prevyeardl": 3932373
+    "prevyeardl": 3933483
   },
   {
     "id": "script.module.mechanize",
@@ -48723,10 +48724,10 @@
     ],
     "size": "111KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 1247170,
+    "downloads": 1247621,
     "icon": "/images/addons/nexus/script.module.mechanize/icon.png",
     "snippet": "Stateful programmatic web browsing in Python.",
-    "prevyeardl": 1246719
+    "prevyeardl": 1247170
   },
   {
     "id": "script.module.monotonic",
@@ -48769,10 +48770,10 @@
     ],
     "size": "15KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 377771,
+    "downloads": 377902,
     "icon": "/images/addons/nexus/script.module.monotonic/icon.png",
     "snippet": "An implementation of time.monotonic() for Python 2 &amp; &lt; 3.3",
-    "prevyeardl": 377640
+    "prevyeardl": 377771
   },
   {
     "id": "script.module.iptcinfo3",
@@ -48821,10 +48822,10 @@
     ],
     "size": "25KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 212419,
+    "downloads": 212555,
     "icon": "/images/addons/nexus/script.module.iptcinfo3/icon.png",
     "snippet": "Extract IPTC info from images.",
-    "prevyeardl": 212283
+    "prevyeardl": 212419
   },
   {
     "id": "script.module.kodi-six",
@@ -48869,10 +48870,10 @@
     "news": "0.1.3:\n- Fix non-UTF-8 byte string decoding in Python 2.",
     "size": "23KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 72214853,
+    "downloads": 72231583,
     "icon": "/images/addons/nexus/script.module.kodi-six/icon.png",
     "snippet": "Wrappers around Kodi Python API for seamless Python 2/3 compatibility",
-    "prevyeardl": 72198123
+    "prevyeardl": 72214853
   },
   {
     "id": "script.module.libbr",
@@ -48915,10 +48916,10 @@
     ],
     "size": "23KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 484147,
+    "downloads": 484324,
     "icon": "/images/addons/nexus/script.module.libbr/resources/icon.png",
     "snippet": "This is a scraper for the BR Mediathek (http://www.br.de/mediathek/video/index.html).",
-    "prevyeardl": 483970
+    "prevyeardl": 484147
   },
   {
     "id": "script.module.htmlement",
@@ -48963,10 +48964,10 @@
     ],
     "size": "15KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 8437451,
+    "downloads": 8438738,
     "icon": "/images/addons/nexus/script.module.htmlement/resources/icon.png",
     "snippet": "Pure-Python HTML parser with ElementTree support.",
-    "prevyeardl": 8436164
+    "prevyeardl": 8437451
   },
   {
     "id": "script.module.httplib2",
@@ -49010,10 +49011,10 @@
     ],
     "size": "103KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 9367744,
+    "downloads": 9376122,
     "icon": "/images/addons/nexus/script.module.httplib2/icon.png",
     "snippet": "httplib2 module",
-    "prevyeardl": 9359366
+    "prevyeardl": 9367744
   },
   {
     "id": "script.module.future",
@@ -49057,10 +49058,10 @@
     ],
     "size": "486KB",
     "lastupdate": "2020-10-06T16:32:37.076Z",
-    "downloads": 24685251,
+    "downloads": 24691737,
     "icon": "/images/addons/nexus/script.module.future/icon.png",
     "snippet": "Clean single-source support for Python 3 and 2",
-    "prevyeardl": 24678765
+    "prevyeardl": 24685251
   },
   {
     "id": "script.module.googleapi",
@@ -49101,7 +49102,7 @@
     "nofanart": "true",
     "size": "56KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 219603,
+    "downloads": 219714,
     "icons": [
       {
         "remotepath": "",
@@ -49110,7 +49111,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Google API python classes and dependencies",
-    "prevyeardl": 219492
+    "prevyeardl": 219603
   },
   {
     "id": "script.module.html2text",
@@ -49154,10 +49155,10 @@
     ],
     "size": "80KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 741217,
+    "downloads": 741378,
     "icon": "/images/addons/nexus/script.module.html2text/icon.png",
     "snippet": "Turn HTML into equivalent Markdown-structured text",
-    "prevyeardl": 741056
+    "prevyeardl": 741217
   },
   {
     "id": "script.module.feedparser",
@@ -49200,10 +49201,10 @@
     ],
     "size": "85KB",
     "lastupdate": "2021-04-11T02:26:42.640Z",
-    "downloads": 1982077,
+    "downloads": 1983292,
     "icon": "/images/addons/nexus/script.module.feedparser/icon.png",
     "snippet": "Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom...",
-    "prevyeardl": 1980862
+    "prevyeardl": 1982077
   },
   {
     "id": "script.module.dropbox_auth",
@@ -49243,7 +49244,7 @@
     "nochangelog": "true",
     "size": "6KB",
     "lastupdate": "2021-01-24T16:28:40.324Z",
-    "downloads": 65608,
+    "downloads": 65667,
     "icons": [
       {
         "remotepath": "",
@@ -49252,7 +49253,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Dropbox Auth API",
-    "prevyeardl": 65549
+    "prevyeardl": 65608
   },
   {
     "id": "script.module.exifread",
@@ -49296,10 +49297,10 @@
     ],
     "size": "44KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 214160,
+    "downloads": 214297,
     "icon": "/images/addons/nexus/script.module.exifread/icon.png",
     "snippet": "Read Exif metadata from tiff and jpeg files.",
-    "prevyeardl": 214023
+    "prevyeardl": 214160
   },
   {
     "id": "script.module.defusedxml",
@@ -49343,10 +49344,10 @@
     ],
     "size": "32KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 10034095,
+    "downloads": 10037277,
     "icon": "/images/addons/nexus/script.module.defusedxml/icon.png",
     "snippet": "defusedxml -- defusing XML bombs and other exploits",
-    "prevyeardl": 10030913
+    "prevyeardl": 10034095
   },
   {
     "id": "script.module.buggalo",
@@ -49391,7 +49392,7 @@
     "nofanart": "true",
     "size": "105KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1047072,
+    "downloads": 1047458,
     "icons": [
       {
         "remotepath": "",
@@ -49400,7 +49401,7 @@
     ],
     "icon": "/images/default-addon.webp",
     "snippet": "Automatic exception collector",
-    "prevyeardl": 1046686
+    "prevyeardl": 1047072
   },
   {
     "id": "script.module.blinker",
@@ -49444,10 +49445,10 @@
     ],
     "size": "19KB",
     "lastupdate": "2021-02-22T15:49:33.266Z",
-    "downloads": 283365,
+    "downloads": 283418,
     "icon": "/images/addons/nexus/script.module.blinker/icon.png",
     "snippet": "Blinker provides a fast dispatching system that allows any number of interested parties to subscribe...",
-    "prevyeardl": 283312
+    "prevyeardl": 283365
   },
   {
     "id": "script.module.adobepass",
@@ -49490,10 +49491,10 @@
     ],
     "size": "16KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 1988220,
+    "downloads": 1988747,
     "icon": "/images/addons/nexus/script.module.adobepass/resources/icon.png",
     "snippet": "Simplify authentication to services that use adobe primetime (formely adobe pass)",
-    "prevyeardl": 1987693
+    "prevyeardl": 1988220
   },
   {
     "id": "script.module.arlo",
@@ -49536,10 +49537,10 @@
     ],
     "size": "33KB",
     "lastupdate": "2021-07-12T02:12:22.340Z",
-    "downloads": 364645,
+    "downloads": 364777,
     "icon": "/images/addons/nexus/script.module.arlo/icon.png",
     "snippet": "Python module for interacting with Netgear's Arlo camera system.",
-    "prevyeardl": 364513
+    "prevyeardl": 364645
   },
   {
     "id": "script.module.arrow",
@@ -49588,10 +49589,10 @@
     ],
     "size": "69KB",
     "lastupdate": "2021-04-06T02:28:06.974Z",
-    "downloads": 13918051,
+    "downloads": 13922149,
     "icon": "/images/addons/nexus/script.module.arrow/icon.png",
     "snippet": "Arrow: better dates and times for Python",
-    "prevyeardl": 13913953
+    "prevyeardl": 13918051
   },
   {
     "id": "script.module.addon.signals",
@@ -49634,10 +49635,10 @@
     ],
     "size": "19KB",
     "lastupdate": "2020-10-06T16:32:37.076Z",
-    "downloads": 23229039,
+    "downloads": 23234573,
     "icon": "/images/addons/nexus/script.module.addon.signals/icon.png",
     "snippet": "Inter-addon signalling",
-    "prevyeardl": 23223505
+    "prevyeardl": 23229039
   },
   {
     "id": "script.lazytv",
@@ -49694,10 +49695,10 @@
     "source": "https://github.com/KODeKarnage/script.lazytv/",
     "size": "1491KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1260090,
+    "downloads": 1260555,
     "icon": "/images/addons/nexus/script.lazytv/icon.png",
     "snippet": "LazyTV",
-    "prevyeardl": 1259625
+    "prevyeardl": 1260090
   },
   {
     "id": "script.litebox",
@@ -49764,10 +49765,10 @@
     ],
     "size": "413KB",
     "lastupdate": "2021-07-18T13:28:32.776Z",
-    "downloads": 560725,
+    "downloads": 560968,
     "icon": "/images/addons/nexus/script.litebox/resources/icon.png",
     "snippet": "colour matching tools",
-    "prevyeardl": 560482
+    "prevyeardl": 560725
   },
   {
     "id": "script.kodi.loguploader",
@@ -49812,10 +49813,10 @@
     "news": "- allow 2MB uploads",
     "size": "24KB",
     "lastupdate": "2021-06-08T02:39:16.715Z",
-    "downloads": 2914186,
+    "downloads": 2915112,
     "icon": "/images/addons/nexus/script.kodi.loguploader/resources/icon.png",
     "snippet": "Uploads your kodi.log file.",
-    "prevyeardl": 2913260
+    "prevyeardl": 2914186
   },
   {
     "id": "script.image.resource.select",
@@ -49860,10 +49861,10 @@
     "news": "- code refactor",
     "size": "31KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 5610935,
+    "downloads": 5612911,
     "icon": "/images/addons/nexus/script.image.resource.select/resources/icon.png",
     "snippet": "Image resource selection addon",
-    "prevyeardl": 5608959
+    "prevyeardl": 5610935
   },
   {
     "id": "script.grab.fanart",
@@ -49915,10 +49916,10 @@
     ],
     "size": "84KB",
     "lastupdate": "2021-05-03T02:48:22.689Z",
-    "downloads": 782019,
+    "downloads": 782368,
     "icon": "/images/addons/nexus/script.grab.fanart/resources/media/icon.png",
     "snippet": "Exposes fanart as skin properties for slideshows, etc",
-    "prevyeardl": 781670
+    "prevyeardl": 782019
   },
   {
     "id": "script.domoticz.scenes",
@@ -49975,11 +49976,11 @@
     ],
     "size": "765KB",
     "lastupdate": "2021-04-03T02:26:02.226Z",
-    "downloads": 307383,
+    "downloads": 307530,
     "icon": "/images/addons/nexus/script.domoticz.scenes/resources/icon.png",
     "description": "Control Domoticz from Kodi",
     "snippet": "Control Domoticz from Kodi",
-    "prevyeardl": 307236
+    "prevyeardl": 307383
   },
   {
     "id": "script.embuary.helper",
@@ -50044,10 +50045,10 @@
     ],
     "size": "575KB",
     "lastupdate": "2021-04-15T02:22:08.857Z",
-    "downloads": 7234872,
+    "downloads": 7237774,
     "icon": "/images/addons/nexus/script.embuary.helper/resources/icon.png",
     "snippet": "Embuary Helper Script",
-    "prevyeardl": 7231970
+    "prevyeardl": 7234872
   },
   {
     "id": "script.embuary.info",
@@ -50112,10 +50113,10 @@
     ],
     "size": "812KB",
     "lastupdate": "2021-04-15T02:22:08.857Z",
-    "downloads": 8730477,
+    "downloads": 8732892,
     "icon": "/images/addons/nexus/script.embuary.info/resources/icon.png",
     "snippet": "Embuary Info Script",
-    "prevyeardl": 8728062
+    "prevyeardl": 8730477
   },
   {
     "id": "script.commands",
@@ -50168,11 +50169,11 @@
     ],
     "size": "14KB",
     "lastupdate": "2021-03-04T20:27:10.534Z",
-    "downloads": 603866,
+    "downloads": 604127,
     "icon": "/images/addons/nexus/script.commands/icon.png",
     "description": "Map multiple Kodi commands to one remote button. All availabe commands: https://kodi.wiki/view/List_of_built-in_functions",
     "snippet": "Map multiple Kodi commands to one remote button. All availabe commands: https://kodi.wiki/view/List_of_built-in_functions",
-    "prevyeardl": 603605
+    "prevyeardl": 603866
   },
   {
     "id": "script.audio.mixer",
@@ -50215,10 +50216,10 @@
     ],
     "size": "84KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 100712,
+    "downloads": 100810,
     "icon": "/images/addons/nexus/script.audio.mixer/icon.png",
     "snippet": "Kodi Audio Mixer",
-    "prevyeardl": 100614
+    "prevyeardl": 100712
   },
   {
     "id": "script.check.theme",
@@ -50261,10 +50262,10 @@
     "news": "- Python 3 conversion",
     "size": "47KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 94013,
+    "downloads": 94086,
     "icon": "/images/addons/nexus/script.check.theme/resources/icon.png",
     "snippet": "MP3 theme check addon",
-    "prevyeardl": 93940
+    "prevyeardl": 94013
   },
   {
     "id": "screensaver.videosaver",
@@ -50316,10 +50317,10 @@
     ],
     "size": "171KB",
     "lastupdate": "2021-02-25T18:51:13.947Z",
-    "downloads": 116552,
+    "downloads": 116647,
     "icon": "/images/addons/nexus/screensaver.videosaver/resources/images/icon.png",
     "snippet": "Create a screensaver from any Kodi video source.",
-    "prevyeardl": 116457
+    "prevyeardl": 116552
   },
   {
     "id": "script.adzapper",
@@ -50395,10 +50396,10 @@
     ],
     "size": "1252KB",
     "lastupdate": "2021-02-23T16:26:42.536Z",
-    "downloads": 744833,
+    "downloads": 745107,
     "icon": "/images/addons/nexus/script.adzapper/icon.png",
     "snippet": "Rezap to current channel after some time (advertisment)",
-    "prevyeardl": 744559
+    "prevyeardl": 744833
   },
   {
     "id": "screensaver.turnoff",
@@ -50445,10 +50446,10 @@
     ],
     "size": "19KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 95268,
+    "downloads": 95337,
     "icon": "/images/addons/nexus/screensaver.turnoff/resources/media/icon.png",
     "snippet": "Screensaver that turns your display off to save power",
-    "prevyeardl": 95199
+    "prevyeardl": 95268
   },
   {
     "id": "resource.uisounds.titan.modern",
@@ -50487,7 +50488,7 @@
     "nochangelog": "true",
     "size": "869KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 165418,
+    "downloads": 165524,
     "icons": [
       {
         "remotepath": "",
@@ -50495,7 +50496,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 165312
+    "prevyeardl": 165418
   },
   {
     "id": "resource.uisounds.transparency",
@@ -50529,7 +50530,7 @@
     "nofanart": "true",
     "size": "206KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 110966,
+    "downloads": 111038,
     "icons": [
       {
         "remotepath": "",
@@ -50537,7 +50538,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 110894
+    "prevyeardl": 110966
   },
   {
     "id": "resource.uisounds.xperience1080",
@@ -50572,7 +50573,7 @@
     "nochangelog": "true",
     "size": "84KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 172560,
+    "downloads": 172652,
     "icons": [
       {
         "remotepath": "",
@@ -50580,7 +50581,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 172468
+    "prevyeardl": 172560
   },
   {
     "id": "resource.uisounds.nebula",
@@ -50615,7 +50616,7 @@
     "nochangelog": "true",
     "size": "66KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 158856,
+    "downloads": 158946,
     "icons": [
       {
         "remotepath": "",
@@ -50623,7 +50624,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 158766
+    "prevyeardl": 158856
   },
   {
     "id": "resource.uisounds.rapier",
@@ -50656,7 +50657,7 @@
     "agetype": "existing",
     "size": "2097KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 130160,
+    "downloads": 130241,
     "icons": [
       {
         "remotepath": "",
@@ -50664,7 +50665,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 130079
+    "prevyeardl": 130160
   },
   {
     "id": "resource.uisounds.refocus",
@@ -50698,7 +50699,7 @@
     "nochangelog": "true",
     "size": "118KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 103308,
+    "downloads": 103378,
     "icons": [
       {
         "remotepath": "",
@@ -50706,7 +50707,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 103238
+    "prevyeardl": 103308
   },
   {
     "id": "resource.uisounds.titan.classic",
@@ -50745,7 +50746,7 @@
     "nochangelog": "true",
     "size": "261KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 108896,
+    "downloads": 108964,
     "icons": [
       {
         "remotepath": "",
@@ -50753,7 +50754,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 108828
+    "prevyeardl": 108896
   },
   {
     "id": "resource.uisounds.bursting-bubbles",
@@ -50788,7 +50789,7 @@
     "nochangelog": "true",
     "size": "29KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 133787,
+    "downloads": 133885,
     "icons": [
       {
         "remotepath": "",
@@ -50796,7 +50797,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 133689
+    "prevyeardl": 133787
   },
   {
     "id": "resource.uisounds.embuary",
@@ -50845,10 +50846,10 @@
     ],
     "size": "373KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1531303,
+    "downloads": 1531871,
     "icon": "/images/addons/nexus/resource.uisounds.embuary/resources/icon.png",
     "snippet": "Embuary Sounds",
-    "prevyeardl": 1530735
+    "prevyeardl": 1531303
   },
   {
     "id": "resource.uisounds.fromashes",
@@ -50882,7 +50883,7 @@
     "nofanart": "true",
     "size": "212KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 195088,
+    "downloads": 195186,
     "icons": [
       {
         "remotepath": "",
@@ -50890,7 +50891,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 194990
+    "prevyeardl": 195088
   },
   {
     "id": "resource.uisounds.ftv",
@@ -50924,7 +50925,7 @@
     "nochangelog": "true",
     "size": "1068KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 725958,
+    "downloads": 726275,
     "icons": [
       {
         "remotepath": "",
@@ -50932,7 +50933,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 725641
+    "prevyeardl": 725958
   },
   {
     "id": "resource.uisounds.grid",
@@ -50965,7 +50966,7 @@
     "agetype": "existing",
     "size": "1500KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 95144,
+    "downloads": 95207,
     "icons": [
       {
         "remotepath": "",
@@ -50973,7 +50974,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 95081
+    "prevyeardl": 95144
   },
   {
     "id": "resource.uisounds.aeonmq6",
@@ -51008,7 +51009,7 @@
     "nochangelog": "true",
     "size": "394KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 325709,
+    "downloads": 325872,
     "icons": [
       {
         "remotepath": "",
@@ -51016,7 +51017,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 325546
+    "prevyeardl": 325709
   },
   {
     "id": "resource.uisounds.amber",
@@ -51051,7 +51052,7 @@
     "nochangelog": "true",
     "size": "95KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1401336,
+    "downloads": 1401932,
     "icons": [
       {
         "remotepath": "",
@@ -51059,7 +51060,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1400740
+    "prevyeardl": 1401336
   },
   {
     "id": "resource.uisounds.androidtv",
@@ -51095,7 +51096,7 @@
     "nochangelog": "true",
     "size": "57KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 356469,
+    "downloads": 356634,
     "icons": [
       {
         "remotepath": "",
@@ -51103,7 +51104,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 356304
+    "prevyeardl": 356469
   },
   {
     "id": "resource.uisounds.appletv",
@@ -51138,7 +51139,7 @@
     "nochangelog": "true",
     "size": "301KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 304751,
+    "downloads": 304892,
     "icons": [
       {
         "remotepath": "",
@@ -51146,7 +51147,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 304610
+    "prevyeardl": 304751
   },
   {
     "id": "resource.uisounds.apptv",
@@ -51180,7 +51181,7 @@
     "nofanart": "true",
     "size": "609KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1474160,
+    "downloads": 1474738,
     "icons": [
       {
         "remotepath": "",
@@ -51188,7 +51189,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1473582
+    "prevyeardl": 1474160
   },
   {
     "id": "resource.uisounds.backrow",
@@ -51223,7 +51224,7 @@
     "nochangelog": "true",
     "size": "151KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 107468,
+    "downloads": 107535,
     "icons": [
       {
         "remotepath": "",
@@ -51231,7 +51232,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 107401
+    "prevyeardl": 107468
   },
   {
     "id": "resource.images.weathericons.transparent",
@@ -51265,7 +51266,7 @@
     "nofanart": "true",
     "size": "839KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 116322,
+    "downloads": 116392,
     "icons": [
       {
         "remotepath": "",
@@ -51273,7 +51274,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 116252
+    "prevyeardl": 116322
   },
   {
     "id": "resource.images.weathericons.white",
@@ -51307,7 +51308,7 @@
     "nofanart": "true",
     "size": "69KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 2812529,
+    "downloads": 2813459,
     "icons": [
       {
         "remotepath": "",
@@ -51315,7 +51316,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 2811599
+    "prevyeardl": 2812529
   },
   {
     "id": "resource.images.weathericons.outline-hd",
@@ -51351,7 +51352,7 @@
     "nofanart": "true",
     "size": "379KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 359864,
+    "downloads": 360057,
     "icons": [
       {
         "remotepath": "",
@@ -51359,7 +51360,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 359671
+    "prevyeardl": 359864
   },
   {
     "id": "resource.images.weathericons.monstr",
@@ -51396,7 +51397,7 @@
     "nochangelog": "true",
     "size": "168KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 78096,
+    "downloads": 78166,
     "icons": [
       {
         "remotepath": "",
@@ -51404,7 +51405,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 78026
+    "prevyeardl": 78096
   },
   {
     "id": "resource.images.weathericons.outline",
@@ -51438,7 +51439,7 @@
     "nofanart": "true",
     "size": "94KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 693094,
+    "downloads": 693429,
     "icons": [
       {
         "remotepath": "",
@@ -51446,7 +51447,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 692759
+    "prevyeardl": 693094
   },
   {
     "id": "resource.images.weathericons.hd.animated",
@@ -51480,7 +51481,7 @@
     "nofanart": "true",
     "size": "154696KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 314431,
+    "downloads": 314591,
     "icons": [
       {
         "remotepath": "",
@@ -51488,7 +51489,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 314271
+    "prevyeardl": 314431
   },
   {
     "id": "resource.images.weathericons.grey",
@@ -51522,7 +51523,7 @@
     "nofanart": "true",
     "size": "171KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 57211,
+    "downloads": 57264,
     "icons": [
       {
         "remotepath": "",
@@ -51530,7 +51531,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 57158
+    "prevyeardl": 57211
   },
   {
     "id": "resource.images.weathericons.coloured",
@@ -51564,7 +51565,7 @@
     "nofanart": "true",
     "size": "572KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 605833,
+    "downloads": 606155,
     "icons": [
       {
         "remotepath": "",
@@ -51572,7 +51573,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 605511
+    "prevyeardl": 605833
   },
   {
     "id": "resource.images.weathericons.flat",
@@ -51606,7 +51607,7 @@
     "nofanart": "true",
     "size": "117KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 66320,
+    "downloads": 66380,
     "icons": [
       {
         "remotepath": "",
@@ -51614,7 +51615,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 66260
+    "prevyeardl": 66320
   },
   {
     "id": "resource.images.weathericons.cloud.animated",
@@ -51648,7 +51649,7 @@
     "nofanart": "true",
     "size": "35685KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 131809,
+    "downloads": 131898,
     "icons": [
       {
         "remotepath": "",
@@ -51656,7 +51657,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 131720
+    "prevyeardl": 131809
   },
   {
     "id": "resource.images.weathericons.animated",
@@ -51690,7 +51691,7 @@
     "nofanart": "true",
     "size": "2869KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 286775,
+    "downloads": 286910,
     "icons": [
       {
         "remotepath": "",
@@ -51698,7 +51699,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 286640
+    "prevyeardl": 286775
   },
   {
     "id": "resource.images.weathericons.3d-white",
@@ -51732,7 +51733,7 @@
     "nofanart": "true",
     "size": "395KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 75269,
+    "downloads": 75329,
     "icons": [
       {
         "remotepath": "",
@@ -51740,7 +51741,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 75209
+    "prevyeardl": 75269
   },
   {
     "id": "resource.images.weathericons.3d-coloured",
@@ -51774,7 +51775,7 @@
     "nofanart": "true",
     "size": "434KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 156591,
+    "downloads": 156693,
     "icons": [
       {
         "remotepath": "",
@@ -51782,7 +51783,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 156489
+    "prevyeardl": 156591
   },
   {
     "id": "resource.images.weatherfanart.single",
@@ -51821,7 +51822,7 @@
     "nofanart": "true",
     "size": "16359KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 4597584,
+    "downloads": 4597675,
     "icons": [
       {
         "remotepath": "",
@@ -51829,7 +51830,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 4597493
+    "prevyeardl": 4597584
   },
   {
     "id": "resource.images.weatherfanart.prairie",
@@ -51869,7 +51870,7 @@
     "nofanart": "true",
     "size": "5618KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 624787,
+    "downloads": 625097,
     "icons": [
       {
         "remotepath": "",
@@ -51877,7 +51878,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 624477
+    "prevyeardl": 624787
   },
   {
     "id": "resource.images.weatherfanart.multi",
@@ -51911,7 +51912,7 @@
     "nofanart": "true",
     "size": "82012KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 5771915,
+    "downloads": 5786666,
     "icons": [
       {
         "remotepath": "",
@@ -51919,7 +51920,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 5757164
+    "prevyeardl": 5771915
   },
   {
     "id": "resource.images.weatherfanart.faded",
@@ -51958,7 +51959,7 @@
     "nofanart": "true",
     "size": "3415KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 104667,
+    "downloads": 104749,
     "icons": [
       {
         "remotepath": "",
@@ -51966,7 +51967,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 104585
+    "prevyeardl": 104667
   },
   {
     "id": "resource.images.skinthemes.aeonmq",
@@ -52000,7 +52001,7 @@
     "nofanart": "true",
     "size": "74636KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 155835,
+    "downloads": 155936,
     "icons": [
       {
         "remotepath": "",
@@ -52008,7 +52009,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 155734
+    "prevyeardl": 155835
   },
   {
     "id": "resource.images.skinicons.wide",
@@ -52043,7 +52044,7 @@
     "nochangelog": "true",
     "size": "3731KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 115424,
+    "downloads": 115543,
     "icons": [
       {
         "remotepath": "",
@@ -52051,7 +52052,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 115305
+    "prevyeardl": 115424
   },
   {
     "id": "resource.images.skinicons.skyrim",
@@ -52089,7 +52090,7 @@
     "agetype": "existing",
     "size": "1756KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 86031,
+    "downloads": 86104,
     "icons": [
       {
         "remotepath": "",
@@ -52097,7 +52098,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 85958
+    "prevyeardl": 86031
   },
   {
     "id": "resource.images.skinicons.squares",
@@ -52135,7 +52136,7 @@
     "agetype": "existing",
     "size": "2220KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 71548,
+    "downloads": 71607,
     "icons": [
       {
         "remotepath": "",
@@ -52143,7 +52144,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 71489
+    "prevyeardl": 71548
   },
   {
     "id": "resource.images.skinicons.ring",
@@ -52181,7 +52182,7 @@
     "agetype": "existing",
     "size": "1916KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 70894,
+    "downloads": 70954,
     "icons": [
       {
         "remotepath": "",
@@ -52189,7 +52190,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 70834
+    "prevyeardl": 70894
   },
   {
     "id": "resource.images.skinicons.silver",
@@ -52227,7 +52228,7 @@
     "agetype": "existing",
     "size": "1824KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 70799,
+    "downloads": 70857,
     "icons": [
       {
         "remotepath": "",
@@ -52235,7 +52236,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 70741
+    "prevyeardl": 70799
   },
   {
     "id": "resource.images.skinicons.cd",
@@ -52273,7 +52274,7 @@
     "agetype": "existing",
     "size": "2193KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 78433,
+    "downloads": 78498,
     "icons": [
       {
         "remotepath": "",
@@ -52281,7 +52282,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 78368
+    "prevyeardl": 78433
   },
   {
     "id": "resource.images.skinicons.classicwhite",
@@ -52319,7 +52320,7 @@
     "agetype": "existing",
     "size": "1567KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 69629,
+    "downloads": 69687,
     "icons": [
       {
         "remotepath": "",
@@ -52327,7 +52328,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 69571
+    "prevyeardl": 69629
   },
   {
     "id": "resource.images.skinicons.darkwood",
@@ -52365,7 +52366,7 @@
     "agetype": "existing",
     "size": "1777KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 82672,
+    "downloads": 82733,
     "icons": [
       {
         "remotepath": "",
@@ -52373,7 +52374,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 82611
+    "prevyeardl": 82672
   },
   {
     "id": "resource.images.skinbackgrounds.zigzag",
@@ -52411,7 +52412,7 @@
     "agetype": "existing",
     "size": "25750KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 98686,
+    "downloads": 98758,
     "icons": [
       {
         "remotepath": "",
@@ -52419,7 +52420,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 98614
+    "prevyeardl": 98686
   },
   {
     "id": "resource.images.skinicons.boss",
@@ -52457,7 +52458,7 @@
     "agetype": "existing",
     "size": "1908KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 94761,
+    "downloads": 94840,
     "icons": [
       {
         "remotepath": "",
@@ -52465,7 +52466,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 94682
+    "prevyeardl": 94761
   },
   {
     "id": "resource.images.skinbackgrounds.wallsquare",
@@ -52503,7 +52504,7 @@
     "agetype": "existing",
     "size": "16523KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 89594,
+    "downloads": 89672,
     "icons": [
       {
         "remotepath": "",
@@ -52511,7 +52512,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 89516
+    "prevyeardl": 89594
   },
   {
     "id": "resource.images.skinbackgrounds.titanium",
@@ -52545,7 +52546,7 @@
     "nochangelog": "true",
     "size": "6144KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 200201,
+    "downloads": 200374,
     "icons": [
       {
         "remotepath": "",
@@ -52553,7 +52554,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 200028
+    "prevyeardl": 200201
   },
   {
     "id": "resource.images.skinbackgrounds.silver",
@@ -52591,7 +52592,7 @@
     "agetype": "existing",
     "size": "12676KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 89527,
+    "downloads": 89600,
     "icons": [
       {
         "remotepath": "",
@@ -52599,7 +52600,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 89454
+    "prevyeardl": 89527
   },
   {
     "id": "resource.images.skinbackgrounds.phenominence",
@@ -52637,7 +52638,7 @@
     "agetype": "existing",
     "size": "18259KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 107235,
+    "downloads": 107316,
     "icons": [
       {
         "remotepath": "",
@@ -52645,7 +52646,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 107154
+    "prevyeardl": 107235
   },
   {
     "id": "resource.images.skinbackgrounds.metrocity",
@@ -52730,9 +52731,9 @@
     ],
     "size": "13856KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 148716,
+    "downloads": 148822,
     "icon": "/images/addons/nexus/resource.images.skinbackgrounds.metrocity/icon.png",
-    "prevyeardl": 148610
+    "prevyeardl": 148716
   },
   {
     "id": "resource.images.skinbackgrounds.diamond",
@@ -52770,7 +52771,7 @@
     "agetype": "existing",
     "size": "33785KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 105054,
+    "downloads": 105136,
     "icons": [
       {
         "remotepath": "",
@@ -52778,7 +52779,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 104972
+    "prevyeardl": 105054
   },
   {
     "id": "resource.images.skinbackgrounds.darkwood",
@@ -52816,7 +52817,7 @@
     "agetype": "existing",
     "size": "16151KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 117257,
+    "downloads": 117343,
     "icons": [
       {
         "remotepath": "",
@@ -52824,7 +52825,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 117171
+    "prevyeardl": 117257
   },
   {
     "id": "resource.images.skinbackgrounds.clear",
@@ -52862,7 +52863,7 @@
     "agetype": "existing",
     "size": "25482KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 133058,
+    "downloads": 133157,
     "icons": [
       {
         "remotepath": "",
@@ -52870,7 +52871,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 132959
+    "prevyeardl": 133058
   },
   {
     "id": "resource.images.recordlabels.white",
@@ -52905,7 +52906,7 @@
     "nofanart": "true",
     "size": "6663KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 6576601,
+    "downloads": 6578432,
     "icons": [
       {
         "remotepath": "",
@@ -52913,7 +52914,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 6574770
+    "prevyeardl": 6576601
   },
   {
     "id": "resource.images.musicgenreicons.text",
@@ -52947,7 +52948,7 @@
     "nofanart": "true",
     "size": "49696KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1771912,
+    "downloads": 1772101,
     "icons": [
       {
         "remotepath": "",
@@ -52955,7 +52956,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1771723
+    "prevyeardl": 1771912
   },
   {
     "id": "resource.images.musicgenreicons.poster",
@@ -52989,7 +52990,7 @@
     "nofanart": "true",
     "size": "18914KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 122819,
+    "downloads": 122911,
     "icons": [
       {
         "remotepath": "",
@@ -52997,7 +52998,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 122727
+    "prevyeardl": 122819
   },
   {
     "id": "resource.images.musicgenreicons.grey",
@@ -53031,7 +53032,7 @@
     "nofanart": "true",
     "size": "4778KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 75134,
+    "downloads": 75197,
     "icons": [
       {
         "remotepath": "",
@@ -53039,7 +53040,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 75071
+    "prevyeardl": 75134
   },
   {
     "id": "resource.images.musicgenrefanart.coloured",
@@ -53073,7 +53074,7 @@
     "nofanart": "true",
     "size": "9685KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 139063,
+    "downloads": 139163,
     "icons": [
       {
         "remotepath": "",
@@ -53081,7 +53082,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 138963
+    "prevyeardl": 139063
   },
   {
     "id": "resource.images.moviegenreicons.xzener-reflection",
@@ -53120,7 +53121,7 @@
     "nofanart": "true",
     "size": "19946KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 93671,
+    "downloads": 93742,
     "icons": [
       {
         "remotepath": "",
@@ -53128,7 +53129,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 93600
+    "prevyeardl": 93671
   },
   {
     "id": "resource.images.moviegenreicons.xzener-flat",
@@ -53167,7 +53168,7 @@
     "nofanart": "true",
     "size": "12870KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 141652,
+    "downloads": 141741,
     "icons": [
       {
         "remotepath": "",
@@ -53175,7 +53176,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 141563
+    "prevyeardl": 141652
   },
   {
     "id": "resource.images.moviegenreicons.white",
@@ -53209,7 +53210,7 @@
     "nofanart": "true",
     "size": "770KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 83858,
+    "downloads": 83931,
     "icons": [
       {
         "remotepath": "",
@@ -53217,7 +53218,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 83785
+    "prevyeardl": 83858
   },
   {
     "id": "resource.images.moviegenreicons.transparent",
@@ -53251,7 +53252,7 @@
     "nofanart": "true",
     "size": "155KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 587067,
+    "downloads": 587379,
     "icons": [
       {
         "remotepath": "",
@@ -53259,7 +53260,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 586755
+    "prevyeardl": 587067
   },
   {
     "id": "resource.images.moviegenreicons.poster",
@@ -53293,7 +53294,7 @@
     "nofanart": "true",
     "size": "9513KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 125507,
+    "downloads": 125595,
     "icons": [
       {
         "remotepath": "",
@@ -53301,7 +53302,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 125419
+    "prevyeardl": 125507
   },
   {
     "id": "resource.images.moviegenreicons.grey",
@@ -53335,7 +53336,7 @@
     "nofanart": "true",
     "size": "4567KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 69374,
+    "downloads": 69432,
     "icons": [
       {
         "remotepath": "",
@@ -53343,7 +53344,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 69316
+    "prevyeardl": 69374
   },
   {
     "id": "resource.images.moviegenreicons.filmstrip-hd.colour",
@@ -53383,7 +53384,7 @@
     "nofanart": "true",
     "size": "44060KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 1775234,
+    "downloads": 1775756,
     "icons": [
       {
         "remotepath": "",
@@ -53391,7 +53392,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1774712
+    "prevyeardl": 1775234
   },
   {
     "id": "resource.images.moviegenreicons.filmstrip-hd.bw",
@@ -53431,7 +53432,7 @@
     "nofanart": "true",
     "size": "27316KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 1626115,
+    "downloads": 1626242,
     "icons": [
       {
         "remotepath": "",
@@ -53439,7 +53440,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1625988
+    "prevyeardl": 1626115
   },
   {
     "id": "resource.images.moviegenreicons.filmstrip",
@@ -53473,7 +53474,7 @@
     "nofanart": "true",
     "size": "9494KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 100234,
+    "downloads": 100304,
     "icons": [
       {
         "remotepath": "",
@@ -53481,7 +53482,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 100164
+    "prevyeardl": 100234
   },
   {
     "id": "resource.images.moviegenreicons.coloured",
@@ -53515,7 +53516,7 @@
     "nofanart": "true",
     "size": "7064KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 140304,
+    "downloads": 140400,
     "icons": [
       {
         "remotepath": "",
@@ -53523,7 +53524,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 140208
+    "prevyeardl": 140304
   },
   {
     "id": "resource.images.moviegenreicons.arctic.zephyr",
@@ -53559,7 +53560,7 @@
     "nofanart": "true",
     "size": "188KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 155765,
+    "downloads": 155853,
     "icons": [
       {
         "remotepath": "",
@@ -53567,7 +53568,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 155677
+    "prevyeardl": 155765
   },
   {
     "id": "resource.images.moviegenrefanart.wall-red",
@@ -53605,7 +53606,7 @@
     "agetype": "existing",
     "size": "31108KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 90893,
+    "downloads": 90961,
     "icons": [
       {
         "remotepath": "",
@@ -53613,7 +53614,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 90825
+    "prevyeardl": 90893
   },
   {
     "id": "resource.images.moviegenrefanart.wall-grey",
@@ -53656,7 +53657,7 @@
     "agetype": "existing",
     "size": "29856KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 89442,
+    "downloads": 89508,
     "icons": [
       {
         "remotepath": "",
@@ -53664,7 +53665,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 89376
+    "prevyeardl": 89442
   },
   {
     "id": "resource.images.moviegenrefanart.wall-blue",
@@ -53702,7 +53703,7 @@
     "agetype": "existing",
     "size": "30644KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 127777,
+    "downloads": 127871,
     "icons": [
       {
         "remotepath": "",
@@ -53710,7 +53711,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 127683
+    "prevyeardl": 127777
   },
   {
     "id": "resource.images.moviegenrefanart.panel",
@@ -53744,7 +53745,7 @@
     "nofanart": "true",
     "size": "13331KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 112093,
+    "downloads": 112171,
     "icons": [
       {
         "remotepath": "",
@@ -53752,7 +53753,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 112015
+    "prevyeardl": 112093
   },
   {
     "id": "resource.images.moviegenrefanart.metrocity",
@@ -53837,9 +53838,9 @@
     ],
     "size": "21881KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 159612,
+    "downloads": 159730,
     "icon": "/images/addons/nexus/resource.images.moviegenrefanart.metrocity/icon.png",
-    "prevyeardl": 159494
+    "prevyeardl": 159612
   },
   {
     "id": "resource.images.moviecountryicons.flags",
@@ -53893,9 +53894,9 @@
     ],
     "size": "5498KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 203587,
+    "downloads": 203712,
     "icon": "/images/addons/nexus/resource.images.moviecountryicons.flags/icon.png",
-    "prevyeardl": 203462
+    "prevyeardl": 203587
   },
   {
     "id": "resource.images.moviecountryicons.maps",
@@ -53949,9 +53950,9 @@
     ],
     "size": "2153KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 451267,
+    "downloads": 451540,
     "icon": "/images/addons/nexus/resource.images.moviecountryicons.maps/icon.png",
-    "prevyeardl": 450994
+    "prevyeardl": 451267
   },
   {
     "id": "resource.images.languageflags.rounded",
@@ -53997,9 +53998,9 @@
     ],
     "size": "2130KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1671997,
+    "downloads": 1672437,
     "icon": "/images/addons/nexus/resource.images.languageflags.rounded/icon.png",
-    "prevyeardl": 1671557
+    "prevyeardl": 1671997
   },
   {
     "id": "resource.images.languageflags.colour",
@@ -54035,7 +54036,7 @@
     "nofanart": "true",
     "size": "1166KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 2811687,
+    "downloads": 2812368,
     "icons": [
       {
         "remotepath": "",
@@ -54043,7 +54044,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 2811006
+    "prevyeardl": 2811687
   },
   {
     "id": "resource.images.languageflags.completepack",
@@ -54088,10 +54089,10 @@
     ],
     "size": "157KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 182279,
+    "downloads": 182393,
     "icon": "/images/addons/nexus/resource.images.languageflags.completepack/icon.png",
     "snippet": "Language Flags Complete Pack",
-    "prevyeardl": 182165
+    "prevyeardl": 182279
   },
   {
     "id": "resource.images.languageflags-flat",
@@ -54127,7 +54128,7 @@
     "nofanart": "true",
     "size": "116KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 94694,
+    "downloads": 94766,
     "icons": [
       {
         "remotepath": "",
@@ -54135,7 +54136,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 94622
+    "prevyeardl": 94694
   },
   {
     "id": "resource.images.classificationicons.colour",
@@ -54185,10 +54186,10 @@
     "news": "0.0.3\n  - Add additional naming of Spanish files to allow for Embuary helper returning additional characters in locale name .\n  - Update readme file to show current state of play.",
     "size": "407KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1463039,
+    "downloads": 1463561,
     "icon": "/images/addons/nexus/resource.images.classificationicons.colour/icon.png",
     "snippet": "Colour Video Classification Icons",
-    "prevyeardl": 1462517
+    "prevyeardl": 1463039
   },
   {
     "id": "resource.images.busyspinners.basic",
@@ -54223,7 +54224,7 @@
     "nochangelog": "true",
     "size": "7415KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 276241,
+    "downloads": 276391,
     "icons": [
       {
         "remotepath": "",
@@ -54231,7 +54232,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 276091
+    "prevyeardl": 276241
   },
   {
     "id": "resource.images.backgroundoverlays.basic",
@@ -54270,7 +54271,7 @@
     "nochangelog": "true",
     "size": "4749KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 302936,
+    "downloads": 303145,
     "icons": [
       {
         "remotepath": "",
@@ -54278,7 +54279,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 302727
+    "prevyeardl": 302936
   },
   {
     "id": "resource.images.aspectratio.color",
@@ -54313,7 +54314,7 @@
     "nochangelog": "true",
     "size": "785KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 164235,
+    "downloads": 164330,
     "icons": [
       {
         "remotepath": "",
@@ -54321,7 +54322,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 164140
+    "prevyeardl": 164235
   },
   {
     "id": "resource.images.actorart",
@@ -54366,9 +54367,9 @@
     ],
     "size": "296931KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 255353,
+    "downloads": 255492,
     "icon": "/images/addons/nexus/resource.images.actorart/icon.png",
-    "prevyeardl": 255214
+    "prevyeardl": 255353
   },
   {
     "id": "plugin.video.zdf_de_lite",
@@ -54426,10 +54427,10 @@
     ],
     "size": "130KB",
     "lastupdate": "2021-02-21T16:01:00.126Z",
-    "downloads": 713824,
+    "downloads": 714150,
     "icon": "/images/addons/nexus/plugin.video.zdf_de_lite/resources/icon.png",
     "snippet": "Watch videos on demand from the ZDF Mediathek.",
-    "prevyeardl": 713498
+    "prevyeardl": 713824
   },
   {
     "id": "plugin.video.zoneminder",
@@ -54483,10 +54484,10 @@
     ],
     "size": "221KB",
     "lastupdate": "2021-06-02T05:23:50.084Z",
-    "downloads": 373032,
+    "downloads": 373205,
     "icon": "/images/addons/nexus/plugin.video.zoneminder/resources/icon.png",
     "snippet": "View ZoneMinder video surveillance system",
-    "prevyeardl": 372859
+    "prevyeardl": 373032
   },
   {
     "id": "plugin.video.wrallocal",
@@ -54545,10 +54546,10 @@
     ],
     "size": "166KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 184491,
+    "downloads": 184597,
     "icon": "/images/addons/nexus/plugin.video.wrallocal/resources/icon.png",
     "snippet": "WRAL Local Weather and News",
-    "prevyeardl": 184385
+    "prevyeardl": 184491
   },
   {
     "id": "plugin.video.wsj",
@@ -54607,10 +54608,10 @@
     ],
     "size": "315KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 203626,
+    "downloads": 203744,
     "icon": "/images/addons/nexus/plugin.video.wsj/resources/icon.png",
     "snippet": "The Wall Street Journal Live",
-    "prevyeardl": 203508
+    "prevyeardl": 203626
   },
   {
     "id": "plugin.video.yelo",
@@ -54673,10 +54674,10 @@
     "news": "v1.0.2 (2021-03-04)\n- Fix an exception on Matrix when using IPTV Manager (@dagwieers)\n\nv1.0.1 (2020-11-02)\n- Add Kodi 19 checks @shycoderX)\n- Load EPG in the background (@shycoderX)\n- Add device registration for Play subscription (@fripsy)\n- Use sock.sendall instead of sock.send (@michaelarnauts)\n\n### v1.0.0 (2020-05-22)\n- Add Dutch translations (@dagwieers)\n- Add support for IPTV Manager (@shycoderX, @dagwieers)\n        ",
     "size": "51KB",
     "lastupdate": "2021-03-04T05:13:19.298Z",
-    "downloads": 365050,
+    "downloads": 365218,
     "icon": "/images/addons/nexus/plugin.video.yelo/resources/icon.png",
     "snippet": "Stream live streams from Yelo Play",
-    "prevyeardl": 364882
+    "prevyeardl": 365050
   },
   {
     "id": "plugin.video.wabc",
@@ -54735,10 +54736,10 @@
     ],
     "size": "96KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 427832,
+    "downloads": 428055,
     "icon": "/images/addons/nexus/plugin.video.wabc/resources/icon.png",
     "snippet": "WABC Programs",
-    "prevyeardl": 427609
+    "prevyeardl": 427832
   },
   {
     "id": "plugin.video.wdrmaus",
@@ -54796,10 +54797,10 @@
     ],
     "size": "213KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 183783,
+    "downloads": 183882,
     "icon": "/images/addons/nexus/plugin.video.wdrmaus/resources/icon.png",
     "snippet": "View videos from the German tv broadcaster \"WDR\" catered towards children.",
-    "prevyeardl": 183684
+    "prevyeardl": 183783
   },
   {
     "id": "plugin.video.wnbc",
@@ -54858,10 +54859,10 @@
     ],
     "size": "109KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 528417,
+    "downloads": 528753,
     "icon": "/images/addons/nexus/plugin.video.wnbc/resources/icon.png",
     "snippet": "WNBC Programs",
-    "prevyeardl": 528081
+    "prevyeardl": 528417
   },
   {
     "id": "plugin.video.vimcasts",
@@ -54922,10 +54923,10 @@
     ],
     "size": "186KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 183755,
+    "downloads": 183844,
     "icon": "/images/addons/nexus/plugin.video.vimcasts/icon.png",
     "snippet": "Watch screencasts about Vim, the text editor, from http://vimcasts.org",
-    "prevyeardl": 183666
+    "prevyeardl": 183755
   },
   {
     "id": "plugin.video.tvo",
@@ -54984,10 +54985,10 @@
     ],
     "size": "405KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 242080,
+    "downloads": 242202,
     "icon": "/images/addons/nexus/plugin.video.tvo/resources/icon.png",
     "snippet": "TV Ontario Videos",
-    "prevyeardl": 241958
+    "prevyeardl": 242080
   },
   {
     "id": "plugin.video.tvokids",
@@ -55046,10 +55047,10 @@
     ],
     "size": "97KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 197292,
+    "downloads": 197382,
     "icon": "/images/addons/nexus/plugin.video.tvokids/resources/icon.png",
     "snippet": "TV Ontario Kids Videos",
-    "prevyeardl": 197202
+    "prevyeardl": 197292
   },
   {
     "id": "plugin.video.tweakers",
@@ -55108,10 +55109,10 @@
     ],
     "size": "196KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 281978,
+    "downloads": 282100,
     "icon": "/images/addons/nexus/plugin.video.tweakers/resources/icon.png",
     "snippet": "Watch tech videos from Tweakers.net (dutch)",
-    "prevyeardl": 281856
+    "prevyeardl": 281978
   },
   {
     "id": "plugin.video.ted.talks",
@@ -55168,10 +55169,10 @@
     ],
     "size": "56KB",
     "lastupdate": "2021-05-07T02:47:45.989Z",
-    "downloads": 654306,
+    "downloads": 654546,
     "icon": "/images/addons/nexus/plugin.video.ted.talks/resources/icon.png",
     "snippet": "Watch talks from TED.com, a site dedicated to 'Ideas Worth Spreading'",
-    "prevyeardl": 654066
+    "prevyeardl": 654306
   },
   {
     "id": "plugin.video.tbdtv",
@@ -55230,10 +55231,10 @@
     ],
     "size": "84KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 237701,
+    "downloads": 237812,
     "icon": "/images/addons/nexus/plugin.video.tbdtv/resources/icon.png",
     "snippet": "TBD TV Live",
-    "prevyeardl": 237590
+    "prevyeardl": 237701
   },
   {
     "id": "plugin.video.spurs-tv",
@@ -55291,10 +55292,10 @@
     "news": "Compatible with Kodi 19 (Matrix)\n      Added search\n      Added separate Men's and Womens's team categories\n      Added Europa League category\n      Removed the broken New Stadium category\n    ",
     "size": "218KB",
     "lastupdate": "2021-04-12T02:26:48.587Z",
-    "downloads": 253560,
+    "downloads": 253675,
     "icon": "/images/addons/nexus/plugin.video.spurs-tv/icon.png",
     "snippet": "Watch videos from Spurs TV",
-    "prevyeardl": 253445
+    "prevyeardl": 253560
   },
   {
     "id": "plugin.video.sportschau",
@@ -55352,10 +55353,10 @@
     ],
     "size": "20KB",
     "lastupdate": "2021-02-19T15:05:41.383Z",
-    "downloads": 499200,
+    "downloads": 499391,
     "icon": "/images/addons/nexus/plugin.video.sportschau/resources/icon.png",
     "snippet": "Videos und livestreams of the German Sportschau.",
-    "prevyeardl": 499009
+    "prevyeardl": 499200
   },
   {
     "id": "plugin.video.roosterteeth",
@@ -55414,10 +55415,10 @@
     ],
     "size": "309KB",
     "lastupdate": "2021-03-21T02:37:50.686Z",
-    "downloads": 222423,
+    "downloads": 222527,
     "icon": "/images/addons/nexus/plugin.video.roosterteeth/resources/icon.png",
     "snippet": "Watch funny videos from RoosterTeeth.com",
-    "prevyeardl": 222319
+    "prevyeardl": 222423
   },
   {
     "id": "plugin.video.sarpur",
@@ -55480,10 +55481,10 @@
     "news": "Version 5.0 (2021-02-23)\n- Upgraded to Python 3 for Kodi 19 compatibility\n- Fixed podcast scraping",
     "size": "94KB",
     "lastupdate": "2021-02-27T16:11:18.424Z",
-    "downloads": 158783,
+    "downloads": 158870,
     "icon": "/images/addons/nexus/plugin.video.sarpur/resources/icon.png",
     "snippet": "Play media off the Icelandic Public Radio's website",
-    "prevyeardl": 158696
+    "prevyeardl": 158783
   },
   {
     "id": "plugin.video.redbull.tv",
@@ -55560,10 +55561,10 @@
     "reuselanguageinvoker": "true",
     "size": "1368KB",
     "lastupdate": "2021-01-17T16:09:08.328Z",
-    "downloads": 1378000,
+    "downloads": 1378779,
     "icon": "/images/addons/nexus/plugin.video.redbull.tv/resources/media/icon.png",
     "snippet": "Watch Red Bull TV, live and on demand.",
-    "prevyeardl": 1377221
+    "prevyeardl": 1378000
   },
   {
     "id": "plugin.video.regiotv",
@@ -55623,10 +55624,10 @@
     "reuselanguageinvoker": "true",
     "size": "51KB",
     "lastupdate": "2021-03-04T20:27:10.534Z",
-    "downloads": 448294,
+    "downloads": 448459,
     "icon": "/images/addons/nexus/plugin.video.regiotv/resources/media/icon.png",
     "snippet": "Flemish regional television",
-    "prevyeardl": 448129
+    "prevyeardl": 448294
   },
   {
     "id": "plugin.video.popcornflix",
@@ -55685,10 +55686,10 @@
     ],
     "size": "264KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 3041492,
+    "downloads": 3043204,
     "icon": "/images/addons/nexus/plugin.video.popcornflix/resources/icon.png",
     "snippet": "Popcornflix.com Video Addon",
-    "prevyeardl": 3039780
+    "prevyeardl": 3041492
   },
   {
     "id": "plugin.video.popcorntimes",
@@ -55744,10 +55745,10 @@
     ],
     "size": "332KB",
     "lastupdate": "2021-02-01T15:55:01.157Z",
-    "downloads": 1359146,
+    "downloads": 1359474,
     "icon": "/images/addons/nexus/plugin.video.popcorntimes/resources/img/icon.png",
     "snippet": "Video plugin for popcorntimes.tv",
-    "prevyeardl": 1358818
+    "prevyeardl": 1359146
   },
   {
     "id": "plugin.video.powerunlimited",
@@ -55805,10 +55806,10 @@
     ],
     "size": "454KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 427630,
+    "downloads": 427774,
     "icon": "/images/addons/nexus/plugin.video.powerunlimited/resources/icon.png",
     "snippet": "Watch videos from PowerUnlimited Tv (dutch)",
-    "prevyeardl": 427486
+    "prevyeardl": 427630
   },
   {
     "id": "plugin.video.pbskids",
@@ -55867,10 +55868,10 @@
     ],
     "size": "504KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 377121,
+    "downloads": 377272,
     "icon": "/images/addons/nexus/plugin.video.pbskids/resources/icon.png",
     "snippet": "PBS Kids",
-    "prevyeardl": 376970
+    "prevyeardl": 377121
   },
   {
     "id": "plugin.video.phoenixmediathek",
@@ -55927,10 +55928,10 @@
     ],
     "size": "156KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 368027,
+    "downloads": 368169,
     "icon": "/images/addons/nexus/plugin.video.phoenixmediathek/resources/icon.png",
     "snippet": "This video add-on provides access to videos of the German broadcaster Phoenix.",
-    "prevyeardl": 367885
+    "prevyeardl": 368027
   },
   {
     "id": "plugin.video.npr",
@@ -55989,10 +55990,10 @@
     ],
     "size": "829KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 263450,
+    "downloads": 263599,
     "icon": "/images/addons/nexus/plugin.video.npr/resources/icon.png",
     "snippet": "NPR Music Video Addon",
-    "prevyeardl": 263301
+    "prevyeardl": 263450
   },
   {
     "id": "plugin.video.nlhardwareinfo",
@@ -56050,10 +56051,10 @@
     ],
     "size": "779KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 308058,
+    "downloads": 308194,
     "icon": "/images/addons/nexus/plugin.video.nlhardwareinfo/resources/icon.png",
     "snippet": "Hardware.Info TV is a webcast in which the editors of Hardware.Info discuss the latest hardware,...",
-    "prevyeardl": 307922
+    "prevyeardl": 308058
   },
   {
     "id": "plugin.video.newyankeeworkshop",
@@ -56110,10 +56111,10 @@
     ],
     "size": "285KB",
     "lastupdate": "2020-12-31T19:40:18.062Z",
-    "downloads": 227621,
+    "downloads": 227732,
     "icon": "/images/addons/nexus/plugin.video.newyankeeworkshop/icon.png",
     "snippet": "Episodes of The New Yankee Workshop",
-    "prevyeardl": 227510
+    "prevyeardl": 227621
   },
   {
     "id": "plugin.video.metv",
@@ -56172,10 +56173,10 @@
     ],
     "size": "147KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 719778,
+    "downloads": 720141,
     "icon": "/images/addons/nexus/plugin.video.metv/resources/icon.png",
     "snippet": "MeTV",
-    "prevyeardl": 719415
+    "prevyeardl": 719778
   },
   {
     "id": "plugin.video.mms",
@@ -56236,10 +56237,10 @@
     ],
     "size": "372KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 955400,
+    "downloads": 955715,
     "icon": "/images/addons/nexus/plugin.video.mms/resources/media/icon.png",
     "snippet": "Find missing videos",
-    "prevyeardl": 955085
+    "prevyeardl": 955400
   },
   {
     "id": "plugin.video.mazacka",
@@ -56308,10 +56309,10 @@
     "news": "v2.0.1 (2021-07-04)\n  - 1080p stream currently unavailable\n  ",
     "size": "1203KB",
     "lastupdate": "2021-07-05T02:14:15.591Z",
-    "downloads": 192620,
+    "downloads": 192720,
     "icon": "/images/addons/nexus/plugin.video.mazacka/icon.png",
     "snippet": "Take a live tour through the streets of Prague, Czech Republic.",
-    "prevyeardl": 192520
+    "prevyeardl": 192620
   },
   {
     "id": "plugin.video.mdrplus",
@@ -56369,10 +56370,10 @@
     ],
     "size": "191KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 236918,
+    "downloads": 237013,
     "icon": "/images/addons/nexus/plugin.video.mdrplus/resources/icon.png",
     "snippet": "This is an add-on for http://www.mdr.de/.",
-    "prevyeardl": 236823
+    "prevyeardl": 236918
   },
   {
     "id": "plugin.video.longnow",
@@ -56430,10 +56431,10 @@
     "news": "v0.1.2 (2020-12-28)\n- update for matrix compatibility",
     "size": "178KB",
     "lastupdate": "2020-12-29T00:55:32.981Z",
-    "downloads": 169581,
+    "downloads": 169653,
     "icon": "/images/addons/nexus/plugin.video.longnow/resources/icon.png",
     "snippet": "Long Now Seminar Viewer",
-    "prevyeardl": 169509
+    "prevyeardl": 169581
   },
   {
     "id": "plugin.video.lighttv",
@@ -56492,10 +56493,10 @@
     ],
     "size": "60KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 387555,
+    "downloads": 387730,
     "icon": "/images/addons/nexus/plugin.video.lighttv/resources/icon.png",
     "snippet": "LIGHTtv Live",
-    "prevyeardl": 387380
+    "prevyeardl": 387555
   },
   {
     "id": "plugin.video.livestream",
@@ -56553,10 +56554,10 @@
     ],
     "size": "91KB",
     "lastupdate": "2021-06-20T02:25:05.407Z",
-    "downloads": 1665099,
+    "downloads": 1665644,
     "icon": "/images/addons/nexus/plugin.video.livestream/icon.png",
     "snippet": "Livestream.com Videos",
-    "prevyeardl": 1664554
+    "prevyeardl": 1665099
   },
   {
     "id": "plugin.video.funcarrun",
@@ -56629,10 +56630,10 @@
     ],
     "size": "2160KB",
     "lastupdate": "2021-04-12T02:26:48.587Z",
-    "downloads": 171855,
+    "downloads": 171943,
     "icon": "/images/addons/nexus/plugin.video.funcarrun/resources/icon.png",
     "snippet": "Watch videos of the Dutch Funcarrun Rally",
-    "prevyeardl": 171767
+    "prevyeardl": 171855
   },
   {
     "id": "plugin.video.gq",
@@ -56691,10 +56692,10 @@
     ],
     "size": "357KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 404340,
+    "downloads": 404526,
     "icon": "/images/addons/nexus/plugin.video.gq/resources/icon.png",
     "snippet": "GQ Magazine HD Video Addon",
-    "prevyeardl": 404154
+    "prevyeardl": 404340
   },
   {
     "id": "plugin.video.fox.news",
@@ -56753,10 +56754,10 @@
     ],
     "size": "133KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1008971,
+    "downloads": 1009547,
     "icon": "/images/addons/nexus/plugin.video.fox.news/resources/icon.png",
     "snippet": "Fox News Videos",
-    "prevyeardl": 1008395
+    "prevyeardl": 1008971
   },
   {
     "id": "plugin.video.freeform",
@@ -56815,10 +56816,10 @@
     ],
     "size": "201KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 582302,
+    "downloads": 582528,
     "icon": "/images/addons/nexus/plugin.video.freeform/resources/icon.png",
     "snippet": "Freeform",
-    "prevyeardl": 582076
+    "prevyeardl": 582302
   },
   {
     "id": "plugin.video.filmfriend",
@@ -56876,10 +56877,10 @@
     ],
     "size": "194KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 415416,
+    "downloads": 415565,
     "icon": "/images/addons/nexus/plugin.video.filmfriend/resources/icon.png",
     "snippet": "This video add-on provides access to shows and movies of Filmfriend.de.",
-    "prevyeardl": 415267
+    "prevyeardl": 415416
   },
   {
     "id": "plugin.video.foodnetwork.canada",
@@ -56938,10 +56939,10 @@
     ],
     "size": "206KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 260539,
+    "downloads": 260667,
     "icon": "/images/addons/nexus/plugin.video.foodnetwork.canada/resources/icon.png",
     "snippet": "Food Network Canada Video Addon",
-    "prevyeardl": 260411
+    "prevyeardl": 260539
   },
   {
     "id": "plugin.video.formula1",
@@ -56998,11 +56999,11 @@
     ],
     "size": "196KB",
     "lastupdate": "2021-05-23T03:01:29.931Z",
-    "downloads": 1057181,
+    "downloads": 1057438,
     "icon": "/images/addons/nexus/plugin.video.formula1/resources/icon.png",
     "description": "Videos from the Formula 1 website",
     "snippet": "Videos from the Formula 1 website",
-    "prevyeardl": 1056924
+    "prevyeardl": 1057181
   },
   {
     "id": "plugin.video.eventvods",
@@ -57054,10 +57055,10 @@
     ],
     "size": "1720KB",
     "lastupdate": "2021-04-14T02:23:37.364Z",
-    "downloads": 265105,
+    "downloads": 265217,
     "icon": "/images/addons/nexus/plugin.video.eventvods/resources/icon.png",
     "snippet": "This is an unofficial addon that gives you access to the latests esports events from...",
-    "prevyeardl": 264993
+    "prevyeardl": 265105
   },
   {
     "id": "plugin.video.eitb",
@@ -57116,9 +57117,9 @@
     ],
     "size": "28KB",
     "lastupdate": "2021-02-25T18:51:13.947Z",
-    "downloads": 233530,
+    "downloads": 233643,
     "icon": "/images/addons/nexus/plugin.video.eitb/icon.png",
-    "prevyeardl": 233417
+    "prevyeardl": 233530
   },
   {
     "id": "plugin.video.esa",
@@ -57176,10 +57177,10 @@
     ],
     "size": "164KB",
     "lastupdate": "2021-06-22T02:19:00.797Z",
-    "downloads": 486893,
+    "downloads": 487100,
     "icon": "/images/addons/nexus/plugin.video.esa/icon.png",
     "snippet": "Watch the ESA videos from the ESA web site.",
-    "prevyeardl": 486686
+    "prevyeardl": 486893
   },
   {
     "id": "plugin.video.documentaryheaven",
@@ -57259,10 +57260,10 @@
     ],
     "size": "1477KB",
     "lastupdate": "2021-05-07T02:47:45.989Z",
-    "downloads": 1077761,
+    "downloads": 1078174,
     "icon": "/images/addons/nexus/plugin.video.documentaryheaven/resources/icon.png",
     "snippet": "Documentary Heaven is a website offering collection of documentaries spanning across many genres.",
-    "prevyeardl": 1077348
+    "prevyeardl": 1077761
   },
   {
     "id": "plugin.video.contv",
@@ -57321,10 +57322,10 @@
     ],
     "size": "162KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 705826,
+    "downloads": 706587,
     "icon": "/images/addons/nexus/plugin.video.contv/resources/icon.png",
     "snippet": "ConTV",
-    "prevyeardl": 705065
+    "prevyeardl": 705826
   },
   {
     "id": "plugin.video.cook",
@@ -57383,10 +57384,10 @@
     ],
     "size": "38KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 549613,
+    "downloads": 549847,
     "icon": "/images/addons/nexus/plugin.video.cook/resources/icon.png",
     "snippet": "Cooking Channel",
-    "prevyeardl": 549379
+    "prevyeardl": 549613
   },
   {
     "id": "plugin.video.courttv",
@@ -57445,10 +57446,10 @@
     ],
     "size": "366KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 623430,
+    "downloads": 623886,
     "icon": "/images/addons/nexus/plugin.video.courttv/resources/icon.png",
     "snippet": "Court TV Live",
-    "prevyeardl": 622974
+    "prevyeardl": 623430
   },
   {
     "id": "plugin.video.dabl",
@@ -57507,10 +57508,10 @@
     ],
     "size": "212KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 210649,
+    "downloads": 210767,
     "icon": "/images/addons/nexus/plugin.video.dabl/resources/icon.png",
     "snippet": "DABL Network Live",
-    "prevyeardl": 210531
+    "prevyeardl": 210649
   },
   {
     "id": "plugin.video.cinear",
@@ -57584,10 +57585,10 @@
     "news": "Updated to Python 3",
     "size": "321KB",
     "lastupdate": "2021-06-22T02:19:00.797Z",
-    "downloads": 874894,
+    "downloads": 875116,
     "icon": "/images/addons/nexus/plugin.video.cinear/resources/icon.png",
     "snippet": "CINE.AR PLAY",
-    "prevyeardl": 874672
+    "prevyeardl": 874894
   },
   {
     "id": "plugin.video.comettv",
@@ -57646,10 +57647,10 @@
     ],
     "size": "258KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 712513,
+    "downloads": 712956,
     "icon": "/images/addons/nexus/plugin.video.comettv/resources/icon.png",
     "snippet": "Comet TV Live",
-    "prevyeardl": 712070
+    "prevyeardl": 712513
   },
   {
     "id": "plugin.video.comingsoon.it",
@@ -57701,10 +57702,10 @@
     ],
     "size": "81KB",
     "lastupdate": "2021-04-08T02:28:35.926Z",
-    "downloads": 320733,
+    "downloads": 320859,
     "icon": "/images/addons/nexus/plugin.video.comingsoon.it/resources/icon.png",
     "snippet": "Watch trailers from www.comingsoon.it",
-    "prevyeardl": 320607
+    "prevyeardl": 320733
   },
   {
     "id": "plugin.video.charge",
@@ -57763,10 +57764,10 @@
     ],
     "size": "85KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 908125,
+    "downloads": 908700,
     "icon": "/images/addons/nexus/plugin.video.charge/resources/icon.png",
     "snippet": "Charge! TV Live",
-    "prevyeardl": 907550
+    "prevyeardl": 908125
   },
   {
     "id": "plugin.video.cbcnews",
@@ -57825,10 +57826,10 @@
     ],
     "size": "253KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 332982,
+    "downloads": 333131,
     "icon": "/images/addons/nexus/plugin.video.cbcnews/resources/icon.png",
     "snippet": "CBC.ca News",
-    "prevyeardl": 332833
+    "prevyeardl": 332982
   },
   {
     "id": "plugin.video.artemediathek",
@@ -57886,10 +57887,10 @@
     ],
     "size": "35KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 591515,
+    "downloads": 591760,
     "icon": "/images/addons/nexus/plugin.video.artemediathek/resources/icon.png",
     "snippet": "This add-on allows access to the French/German broadcaster Arte.",
-    "prevyeardl": 591270
+    "prevyeardl": 591515
   },
   {
     "id": "plugin.video.aswim",
@@ -57948,10 +57949,10 @@
     ],
     "size": "39KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 2951071,
+    "downloads": 2952606,
     "icon": "/images/addons/nexus/plugin.video.aswim/resources/icon.png",
     "snippet": "Adult Swim",
-    "prevyeardl": 2949536
+    "prevyeardl": 2951071
   },
   {
     "id": "plugin.video.brmediathek",
@@ -58009,10 +58010,10 @@
     ],
     "size": "210KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 476144,
+    "downloads": 476324,
     "icon": "/images/addons/nexus/plugin.video.brmediathek/resources/icon.png",
     "snippet": "This is an add-on for the BR Mediathek.",
-    "prevyeardl": 475964
+    "prevyeardl": 476144
   },
   {
     "id": "plugin.video.buzzr",
@@ -58071,10 +58072,10 @@
     ],
     "size": "287KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 512366,
+    "downloads": 512682,
     "icon": "/images/addons/nexus/plugin.video.buzzr/resources/icon.png",
     "snippet": "BUZZR Live",
-    "prevyeardl": 512050
+    "prevyeardl": 512366
   },
   {
     "id": "plugin.video.ardmediathek_de",
@@ -58132,10 +58133,10 @@
     ],
     "size": "274KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 838434,
+    "downloads": 838764,
     "icon": "/images/addons/nexus/plugin.video.ardmediathek_de/resources/icon.png",
     "snippet": "Watch videos on demand from the ARD Mediathek.",
-    "prevyeardl": 838104
+    "prevyeardl": 838434
   },
   {
     "id": "plugin.video.arloview",
@@ -58197,10 +58198,10 @@
     ],
     "size": "1285KB",
     "lastupdate": "2021-07-18T13:28:32.776Z",
-    "downloads": 375292,
+    "downloads": 375429,
     "icon": "/images/addons/nexus/plugin.video.arloview/resources/icon.png",
     "snippet": "Stream your Arlo cameras in Kodi",
-    "prevyeardl": 375155
+    "prevyeardl": 375292
   },
   {
     "id": "plugin.program.mceremote",
@@ -58249,10 +58250,10 @@
     ],
     "size": "241KB",
     "lastupdate": "2021-03-23T02:40:40.901Z",
-    "downloads": 87132,
+    "downloads": 87210,
     "icon": "/images/addons/nexus/plugin.program.mceremote/resources/icon.png",
     "snippet": "MCE Remote configuration",
-    "prevyeardl": 87054
+    "prevyeardl": 87132
   },
   {
     "id": "plugin.video.3satmediathek",
@@ -58310,10 +58311,10 @@
     ],
     "size": "210KB",
     "lastupdate": "2021-02-20T17:21:38.064Z",
-    "downloads": 1137469,
+    "downloads": 1137826,
     "icon": "/images/addons/nexus/plugin.video.3satmediathek/resources/icon.png",
     "snippet": "Videos from the 3sat Mediathek.",
-    "prevyeardl": 1137112
+    "prevyeardl": 1137469
   },
   {
     "id": "plugin.program.AML",
@@ -58417,10 +58418,10 @@
     "news": "See changelog.txt file in https://github.com/Wintermute0110/plugin.program.AML.dev/ for information about the latest release.",
     "size": "14209KB",
     "lastupdate": "2021-06-20T02:25:05.407Z",
-    "downloads": 1529612,
+    "downloads": 1530277,
     "icon": "/images/addons/nexus/plugin.program.aml/media/icon.png",
     "snippet": "Kodi meets MAME!",
-    "prevyeardl": 1528947
+    "prevyeardl": 1529612
   },
   {
     "id": "plugin.image.dumpert",
@@ -58479,10 +58480,10 @@
     ],
     "size": "143KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 249340,
+    "downloads": 249454,
     "icon": "/images/addons/nexus/plugin.image.dumpert/resources/icon.png",
     "snippet": "Watch funny pictures from Dumpert.nl (dutch)",
-    "prevyeardl": 249226
+    "prevyeardl": 249340
   },
   {
     "id": "plugin.audio.vrt.radio",
@@ -58541,10 +58542,10 @@
     "reuselanguageinvoker": "true",
     "size": "325KB",
     "lastupdate": "2020-12-20T16:35:31.304Z",
-    "downloads": 132274,
+    "downloads": 132357,
     "icon": "/images/addons/nexus/plugin.audio.vrt.radio/resources/media/icon.png",
     "snippet": "Listen to VRT Radio streams",
-    "prevyeardl": 132191
+    "prevyeardl": 132274
   },
   {
     "id": "plugin.audio.wdr3konzert",
@@ -58602,10 +58603,10 @@
     ],
     "size": "214KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 111952,
+    "downloads": 112023,
     "icon": "/images/addons/nexus/plugin.audio.wdr3konzert/resources/icon.png",
     "snippet": "Play concert content from the German tv broadcaster \"WDR3\".",
-    "prevyeardl": 111881
+    "prevyeardl": 111952
   },
   {
     "id": "plugin.audio.wdraudiothek",
@@ -58663,10 +58664,10 @@
     ],
     "size": "213KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 122786,
+    "downloads": 122865,
     "icon": "/images/addons/nexus/plugin.audio.wdraudiothek/resources/icon.png",
     "snippet": "Play audio content from the German tv broadcaster \"WDR\".",
-    "prevyeardl": 122707
+    "prevyeardl": 122786
   },
   {
     "id": "plugin.audio.wdrrockpalast",
@@ -58724,10 +58725,10 @@
     ],
     "size": "145KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 141268,
+    "downloads": 141356,
     "icon": "/images/addons/nexus/plugin.audio.wdrrockpalast/resources/icon.png",
     "snippet": "This add-on lists all videos of the WDR Rockpalast.",
-    "prevyeardl": 141180
+    "prevyeardl": 141268
   },
   {
     "id": "plugin.audio.shoutcast",
@@ -58789,10 +58790,10 @@
     ],
     "size": "160KB",
     "lastupdate": "2021-05-08T02:45:26.831Z",
-    "downloads": 537632,
+    "downloads": 537855,
     "icon": "/images/addons/nexus/plugin.audio.shoutcast/icon.png",
     "snippet": "more than 50.000 free internet radio stations",
-    "prevyeardl": 537409
+    "prevyeardl": 537632
   },
   {
     "id": "plugin.audio.mixcloud",
@@ -58851,10 +58852,10 @@
     "reuselanguageinvoker": "true",
     "size": "163KB",
     "lastupdate": "2020-12-08T18:56:18.357Z",
-    "downloads": 498281,
+    "downloads": 498585,
     "icon": "/images/addons/nexus/plugin.audio.mixcloud/resources/icon.png",
     "snippet": "KODI plugin for Mixcloud",
-    "prevyeardl": 497977
+    "prevyeardl": 498281
   },
   {
     "id": "plugin.audio.kvartal",
@@ -58926,11 +58927,11 @@
     ],
     "size": "4093KB",
     "lastupdate": "2021-06-21T02:24:16.562Z",
-    "downloads": 84546,
+    "downloads": 84612,
     "icon": "/images/addons/nexus/plugin.audio.kvartal/resources/icon.png",
     "description": "Swedish online journal publishing podcasts and articles with a focus on public affair journalism.",
     "snippet": "Swedish online journal publishing podcasts and articles with a focus on public affair journalism.",
-    "prevyeardl": 84480
+    "prevyeardl": 84546
   },
   {
     "id": "plugin.audio.eco99music",
@@ -59007,10 +59008,10 @@
     ],
     "size": "659KB",
     "lastupdate": "2021-03-15T02:38:25.318Z",
-    "downloads": 155215,
+    "downloads": 155307,
     "icon": "/images/addons/nexus/plugin.audio.eco99music/resources/media/icon.png",
     "snippet": "Thousands of premium music playlists for any mood, activity and time!",
-    "prevyeardl": 155123
+    "prevyeardl": 155215
   },
   {
     "id": "plugin.audio.arteconcert",
@@ -59068,10 +59069,10 @@
     ],
     "size": "191KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 261448,
+    "downloads": 261574,
     "icon": "/images/addons/nexus/plugin.audio.arteconcert/resources/icon.png",
     "snippet": "This add-on allows access to the concert section of the French/German broadcaster Arte.",
-    "prevyeardl": 261322
+    "prevyeardl": 261448
   },
   {
     "id": "metadata.thexem.de",
@@ -59108,7 +59109,7 @@
     "nofanart": "true",
     "size": "28KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 457898,
+    "downloads": 458112,
     "icons": [
       {
         "remotepath": "",
@@ -59116,7 +59117,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 457684
+    "prevyeardl": 457898
   },
   {
     "id": "metadata.generic.artists",
@@ -59162,10 +59163,10 @@
     "news": "- add wikipedia support",
     "size": "33KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 542538,
+    "downloads": 542796,
     "icon": "/images/addons/nexus/metadata.generic.artists/resources/icon.png",
     "snippet": "Generic music scraper for artists",
-    "prevyeardl": 542280
+    "prevyeardl": 542538
   },
   {
     "id": "metadata.mtime.com",
@@ -59200,7 +59201,7 @@
     "nofanart": "true",
     "size": "31KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 460947,
+    "downloads": 461202,
     "icons": [
       {
         "remotepath": "",
@@ -59208,7 +59209,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 460692
+    "prevyeardl": 460947
   },
   {
     "id": "metadata.musicvideos.theaudiodb.com",
@@ -59273,9 +59274,9 @@
     "source": "https://github.com/zag2me/metadata.musicvideos.theaudiodb.com",
     "size": "430KB",
     "lastupdate": "2020-10-06T16:32:37.076Z",
-    "downloads": 672848,
+    "downloads": 673188,
     "icon": "/images/addons/nexus/metadata.musicvideos.theaudiodb.com/icon.png",
-    "prevyeardl": 672508
+    "prevyeardl": 672848
   },
   {
     "id": "metadata.filmweb.pl",
@@ -59317,9 +59318,9 @@
     ],
     "size": "43KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 520129,
+    "downloads": 520389,
     "icon": "/images/addons/nexus/metadata.filmweb.pl/icon.png",
-    "prevyeardl": 519869
+    "prevyeardl": 520129
   },
   {
     "id": "metadata.generic.albums",
@@ -59365,10 +59366,10 @@
     "news": "- add wikipedia support",
     "size": "36KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 745994,
+    "downloads": 746410,
     "icon": "/images/addons/nexus/metadata.generic.albums/resources/icon.png",
     "snippet": "Generic music scraper for albums",
-    "prevyeardl": 745578
+    "prevyeardl": 745994
   },
   {
     "id": "metadata.common.movie.daum.net",
@@ -59405,7 +59406,7 @@
     "nochangelog": "true",
     "size": "2KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 23662,
+    "downloads": 23710,
     "icons": [
       {
         "remotepath": "",
@@ -59413,7 +59414,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 23614
+    "prevyeardl": 23662
   },
   {
     "id": "metadata.common.musicbrainz.org",
@@ -59448,7 +59449,7 @@
     "nochangelog": "true",
     "size": "9KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 160243,
+    "downloads": 160338,
     "icons": [
       {
         "remotepath": "",
@@ -59456,7 +59457,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 160148
+    "prevyeardl": 160243
   },
   {
     "id": "metadata.douban.com",
@@ -59492,7 +59493,7 @@
     "nofanart": "true",
     "size": "6KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 617535,
+    "downloads": 617830,
     "icons": [
       {
         "remotepath": "",
@@ -59500,7 +59501,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 617240
+    "prevyeardl": 617535
   },
   {
     "id": "metadata.common.ofdb.de",
@@ -59540,7 +59541,7 @@
     "nofanart": "true",
     "size": "1KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 1487466,
+    "downloads": 1488088,
     "icons": [
       {
         "remotepath": "",
@@ -59548,7 +59549,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 1486844
+    "prevyeardl": 1487466
   },
   {
     "id": "metadata.common.theaudiodb.com",
@@ -59583,7 +59584,7 @@
     "nochangelog": "true",
     "size": "10KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 178897,
+    "downloads": 179002,
     "icons": [
       {
         "remotepath": "",
@@ -59591,7 +59592,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 178792
+    "prevyeardl": 178897
   },
   {
     "id": "metadata.atmovies.com.tw",
@@ -59631,7 +59632,7 @@
     "nofanart": "true",
     "size": "71KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 539952,
+    "downloads": 540215,
     "icons": [
       {
         "remotepath": "",
@@ -59639,7 +59640,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 539689
+    "prevyeardl": 539952
   },
   {
     "id": "metadata.common.allmusic.com",
@@ -59674,7 +59675,7 @@
     "nochangelog": "true",
     "size": "8KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 209389,
+    "downloads": 209498,
     "icons": [
       {
         "remotepath": "",
@@ -59682,7 +59683,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 209280
+    "prevyeardl": 209389
   },
   {
     "id": "metadata.albums.theaudiodb.com",
@@ -59724,7 +59725,7 @@
     "nofanart": "true",
     "size": "55KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 425786,
+    "downloads": 426036,
     "icons": [
       {
         "remotepath": "",
@@ -59732,7 +59733,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 425536
+    "prevyeardl": 425786
   },
   {
     "id": "metadata.albums.xiami.com",
@@ -59769,7 +59770,7 @@
     "nochangelog": "true",
     "size": "5KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 264935,
+    "downloads": 265090,
     "icons": [
       {
         "remotepath": "",
@@ -59777,7 +59778,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 264780
+    "prevyeardl": 264935
   },
   {
     "id": "metadata.artists.theaudiodb.com",
@@ -59814,7 +59815,7 @@
     "nofanart": "true",
     "size": "91KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 365459,
+    "downloads": 365688,
     "icons": [
       {
         "remotepath": "",
@@ -59822,7 +59823,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 365230
+    "prevyeardl": 365459
   },
   {
     "id": "metadata.artists.xiami.com",
@@ -59859,7 +59860,7 @@
     "nochangelog": "true",
     "size": "6KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 224728,
+    "downloads": 224868,
     "icons": [
       {
         "remotepath": "",
@@ -59867,7 +59868,7 @@
       }
     ],
     "icon": "/images/default-addon.webp",
-    "prevyeardl": 224588
+    "prevyeardl": 224728
   },
   {
     "id": "context.item.extras",
@@ -59934,10 +59935,10 @@
     ],
     "size": "519KB",
     "lastupdate": "2021-02-19T15:05:41.383Z",
-    "downloads": 688779,
+    "downloads": 689112,
     "icon": "/images/addons/nexus/context.item.extras/icon.png",
     "snippet": "View extras and special features",
-    "prevyeardl": 688446
+    "prevyeardl": 688779
   },
   {
     "id": "context.trakt.addtowatchlist",
@@ -59980,10 +59981,10 @@
     ],
     "size": "35KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 443026,
+    "downloads": 443208,
     "icon": "/images/addons/nexus/context.trakt.addtowatchlist/icon.png",
     "snippet": "Add Trakt add to watchlist button to context menu in video library",
-    "prevyeardl": 442844
+    "prevyeardl": 443026
   },
   {
     "id": "context.trakt.contextmenu",
@@ -60025,10 +60026,10 @@
     ],
     "size": "35KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 676538,
+    "downloads": 676884,
     "icon": "/images/addons/nexus/context.trakt.contextmenu/icon.png",
     "snippet": "Adds a Trakt contextmenu button to context menu in your videolibrary",
-    "prevyeardl": 676192
+    "prevyeardl": 676538
   },
   {
     "id": "context.trakt.rate",
@@ -60071,10 +60072,10 @@
     ],
     "size": "47KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 346123,
+    "downloads": 346276,
     "icon": "/images/addons/nexus/context.trakt.rate/icon.png",
     "snippet": "Add Trakt rating button to context menu in library",
-    "prevyeardl": 345970
+    "prevyeardl": 346123
   },
   {
     "id": "context.trakt.watched",
@@ -60116,10 +60117,10 @@
     ],
     "size": "46KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 402487,
+    "downloads": 402653,
     "icon": "/images/addons/nexus/context.trakt.watched/icon.png",
     "snippet": "Add Trakt watched button to context menu in library",
-    "prevyeardl": 402321
+    "prevyeardl": 402487
   },
   {
     "id": "context.embuary.info",
@@ -60169,9 +60170,9 @@
     ],
     "size": "429KB",
     "lastupdate": "2020-09-07T01:49:29.889Z",
-    "downloads": 732462,
+    "downloads": 732783,
     "icon": "/images/addons/nexus/context.embuary.info/resources/icon.png",
     "snippet": "Open Embuary Info dialog from context menu",
-    "prevyeardl": 732141
+    "prevyeardl": 732462
   }
 ]
