@@ -1,4 +1,4 @@
-import CMS from "netlify-cms-app";
+import CMS from "decap-cms-app";
 import React from "react";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
