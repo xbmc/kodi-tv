@@ -53,7 +53,9 @@ export const TagList = () => {
     oneTag = {
       name: tags[i],
       displayname: tags[i],
-      slug: "/blog/tag/" + slugify(tags[i], { lower: true }),
+      slug:
+        "/blog/tag/" +
+        slugify(tags[i], { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g }),
       icon: TagIcon,
       count: taggedPosts.filter(a => a.frontmatter.tags.includes(tags[i])).length,
       insearch: true,

@@ -125,7 +125,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   let tags = tagresults.data.blogTags.distinct;
   let tagSlug = "";
   tags.forEach(tag => {
-    tagSlug = slugify(tag, { lower: true });
+    tagSlug = slugify(tag, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
     paginate({
       createPage,
       items: posts.filter(post => {
@@ -239,7 +239,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   distresults.data.allDistributionYaml.nodes.forEach(dist => {
     createPage({
-      path: "download/" + slugify(dist.name, { lower: true }),
+      path:
+        "download/" +
+        slugify(dist.name, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g }),
       component: path.resolve(`src/templates/distribution.tsx`),
       context: {
         name: dist.name,
