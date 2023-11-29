@@ -601,13 +601,31 @@ async function app() {
       }
     }
     console.log("writing addons.json to " + pixiememory);
-    fs.writeFileSync(pixiememory + "addons.json", JSON.stringify(addons, null, 2));
+    fs.writeFileSync(
+      pixiememory + "addons.json",
+      JSON.stringify(
+        addons.sort((a, b) => a.id.localeCompare(b.id)),
+        null,
+        2
+      )
+    );
     console.log("writing authors.json to " + pixiememory);
-    fs.writeFileSync(pixiememory + "authors.json", JSON.stringify(authors, null, 2));
+    fs.writeFileSync(
+      pixiememory + "authors.json",
+      JSON.stringify(
+        authors.sort((a, b) => a.id.localeCompare(b.id)),
+        null,
+        2
+      )
+    );
     console.log("writing categories.json to " + pixiememory);
     fs.writeFileSync(
       pixiememory + "categories.json",
-      JSON.stringify(categories, null, 2)
+      JSON.stringify(
+        categories.sort((a, b) => a.id.localeCompare(b.id)),
+        null,
+        2
+      )
     );
     if (args["getstats"]) {
       let stats = "";
