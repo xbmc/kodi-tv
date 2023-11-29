@@ -1,5 +1,6 @@
 backend:
   repo: github
+  name: github
   branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "/static/images"
