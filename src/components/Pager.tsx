@@ -15,7 +15,10 @@ const Pager = ({ pageContext }) => {
   let url = "";
   let urlbase = "/blog";
   if (pageContext.tag != undefined) {
-    urlbase = urlbase + "/tag/" + slugify(pageContext.tag, { lower: true });
+    urlbase =
+      urlbase +
+      "/tag/" +
+      slugify(pageContext.tag, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
   }
   let onpage = false;
   let hidepage = false;

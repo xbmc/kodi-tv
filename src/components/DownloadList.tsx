@@ -7,7 +7,10 @@ const slugify = require("slugify");
 function DownloadList(props: { items?: any[] }) {
   const items = DistributionList();
   items.forEach(function (item, index) {
-    this[index]["slug"] = slugify(item.name, { lower: true });
+    this[index]["slug"] = slugify(item.name, {
+      lower: true,
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+    });
   }, items);
 
   return (

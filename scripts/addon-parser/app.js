@@ -142,7 +142,10 @@ function getAddon(rawaddon) {
     addon.id = rawaddon.attributes.id;
     addon.addonid = addon.id;
     addon.name = rawaddon.attributes.name;
-    addon.slug = slugify(rawaddon.attributes.id, { lower: true });
+    addon.slug = slugify(rawaddon.attributes.id, {
+      lower: true,
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+    });
     addon.version = rawaddon.attributes.version;
     addon.authors = [];
     addon.platforms = [];
@@ -399,7 +402,7 @@ function setCategoryGrouping(name) {
 function assignAuthor(author) {
   authorcheck = addon.authors.find(o => o.name === author);
   if (!authorcheck) {
-    slug = slugify(author, { lower: true });
+    slug = slugify(author, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
     icon = "/images/authors/" + slug + ".webp";
     addon.authors.push({ name: author, slug: slug, icon: icon });
   }
@@ -411,7 +414,7 @@ function assignAuthor(author) {
 function assignCategory(category) {
   categorycheck = addon.categories.find(o => o.name === category);
   if (!categorycheck) {
-    slug = slugify(category, { lower: true });
+    slug = slugify(category, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
     icon = "/images/categories/" + slug + ".webp";
     addon.categories.push({ name: category, slug: slug, icon: icon });
   }
@@ -463,7 +466,7 @@ function getAssets(asset) {
       "/images/addons/" +
       kodiversion +
       "/" +
-      slugify(addon.id, { lower: true }) +
+      slugify(addon.id, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g }) +
       "/" +
       asset.content;
     addon[arrayname].push({ localpath: imagepath, remotepath: asset.content });

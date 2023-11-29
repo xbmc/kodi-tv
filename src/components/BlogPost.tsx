@@ -58,7 +58,10 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
                 key={index}
                 description={tag}
                 index={index}
-                url={tagroot + slugify(tag, { lower: true })}
+                url={
+                  tagroot +
+                  slugify(tag, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g })
+                }
                 length={blogPost.frontmatter.tags.length - 1}
                 linkType="internal"
               />

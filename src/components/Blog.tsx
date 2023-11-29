@@ -42,7 +42,13 @@ function BlogPostCard(props: { post: News }) {
                     key={index}
                     description={tag}
                     index={index}
-                    url={tagroot + slugify(tag, { lower: true })}
+                    url={
+                      tagroot +
+                      slugify(tag, {
+                        lower: true,
+                        remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+                      })
+                    }
                     length={post.frontmatter.tags.length - 1}
                     linkType="internal"
                   />
