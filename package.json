@@ -20,7 +20,7 @@
     "generate-admin-css": "npx tailwindcss build -i src/styles/global.css -o static/admin/global.css"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.460.0",
+    "@aws-sdk/client-dynamodb": "^3.462.0",
     "@aws-sdk/lib-dynamodb": "^3.418.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
