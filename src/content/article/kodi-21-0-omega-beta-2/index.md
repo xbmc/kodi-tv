@@ -33,7 +33,7 @@ https://github.com/xbmc/xbmc/pull/23862
 
 This will require changes and submissions to the Omega branch for skins for those who submit to the Kodi Repository. Reach out on the forums if you have any questions/concerns.
 
-Please note, https://github.com/xbmc/xbmc/pull/23927 has been merged shortly after Beta 2, and all skins will need to  update the GUI version number in skins to be available in Omega repos for any builds (including nightlies) after Beta 2.
+Please note, https://github.com/xbmc/xbmc/pull/23927 has been merged shortly after Beta 2, and all skins will need to update the GUI version number to be available in Omega repos for any builds (including nightlies) after Beta 2.
 
 The following forum thread has the skinning change info for Omega: https://forum.kodi.tv/showthread.php?tid=372280&pid=3174566#pid3174566
 
