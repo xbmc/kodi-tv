@@ -117,5 +117,4 @@ We continue to march forward to what we hope will be a successful v21 Omega rele
 
 If you love to live on the bleeding edge, you can get Beta 2 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs.
 
-There is always a great deal more changes/fixes/updates than what we can highlight in these reports, so as usual you can see a fuller list of what has been merged between v21 and v20 [here](https://github.com/xbmc/xbmc/compare/Nexus...xbmc:21.0b2-Omega).
-For a more targeted look at the changes made since v21 Beta 1, you can see those changes [here](https://github.com/xbmc/xbmc/compare/21.0b1-Omega...21.0b2-Omega).
+There is always a great deal more changes/fixes/updates than what we can highlight in these reports, so as usual you can see a fuller list of what has been merged between v21 and v20 [here](https://github.com/xbmc/xbmc/compare/Nexus...xbmc:21.0b2-Omega). For a more targeted look at the changes made since v21 Beta 1, you can see those changes [here](https://github.com/xbmc/xbmc/compare/21.0b1-Omega...21.0b2-Omega).
