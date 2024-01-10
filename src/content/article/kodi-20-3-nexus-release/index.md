@@ -90,4 +90,13 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-We always do what's known as a "staged" deployment roll out for Android. So if you don't receive the update immediately, be patient, as it will come through over the next week.
+10th January, 18:50 UTC: Unfortunately, it seems that our attempts to backport the PRs required to submit to Google Play have been unsuccessful, and we have received multiple reports of installation failure ("Cannot download OBB"). We have thus halted the rollout of 20.3 via Play with immediate effect.
+
+For those who did get the initial deployment, you will unfortunately have to uninstall and reinstall from Google Play. This should then reinstall 20.2 as of now.
+
+It is unlikely that we will be able to do a Play release of 20.3. If you do wish to use 20.3, you will need to sideload the APK from our mirrors at https://mirrors.kodi.tv/releases/android/.
+
+We apologise for the inconvenience.
+
+
+
