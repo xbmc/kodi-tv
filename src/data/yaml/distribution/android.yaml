@@ -5,7 +5,7 @@ sort_order: 3
 howto: http://kodi.wiki/view/Android
 releases:
   - name: Recommended
-    title: Kodi v20.2 (Nexus)
+    title: Kodi v20.3 (Nexus)
     description: The success of running Kodi on an Android device depends on a
       number of factors as there are so many different devices with different
       capabilities. Check the [How To](https://kodi.wiki/view/Android) guide for
@@ -16,9 +16,9 @@ releases:
       - name: Huawei App Gallery
         url: https://appgallery.huawei.com/#/app/C101763539
       - name: ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm/kodi-20.2-Nexus-armeabi-v7a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm/kodi-20.3-Nexus-armeabi-v7a.apk?https=1
       - name: ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-20.2-Nexus-arm64-v8a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-20.3-Nexus-arm64-v8a.apk?https=1
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
     description: The **Beta 2** pre-release build has become available because we
