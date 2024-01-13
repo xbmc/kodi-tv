@@ -90,9 +90,7 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-12th January, 10:00 UTC:
-
-After the initial problems with 20.3 on Google Play ("Cannot download OBB"), **@fuzzard** has done a sterling job and has not long released an updated version into the wild. Testing suggests that it's installing correctly now, and so will be available to all Android users imminently.
+12th January, 10:00 UTC: After the initial problems with 20.3 on Google Play ("Cannot download OBB"), **@fuzzard** has done a sterling job and has not long released an updated version into the wild. Testing suggests that it's installing correctly now, and so will be available to all Android users imminently.
 
 Thanks for bearing with us on this. Apologies again for any inconvenience, and, please, let us know if you have any problems (or, indeed, if you're an Android developer who might want to give us some help...).
 
