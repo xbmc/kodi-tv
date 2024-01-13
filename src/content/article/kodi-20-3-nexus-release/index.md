@@ -90,13 +90,8 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-10th January, 18:50 UTC: Unfortunately, it seems that our attempts to backport the PRs required to submit to Google Play have been unsuccessful, and we have received multiple reports of installation failure ("Cannot download OBB"). We have thus halted the rollout of 20.3 via Play with immediate effect.
+12th January, 10:00 UTC: After the initial problems with 20.3 on Google Play ("Cannot download OBB"), **@fuzzard** has done a sterling job and has not long released an updated version into the wild. Testing suggests that it's installing correctly now, and so will be available to all Android users imminently.
 
-For those who did get the initial deployment, you will unfortunately have to uninstall and reinstall from Google Play. This should then reinstall 20.2 as of now.
-
-It is unlikely that we will be able to do a Play release of 20.3. If you do wish to use 20.3, you will need to sideload the APK from our mirrors at https://mirrors.kodi.tv/releases/android/.
-
-We apologise for the inconvenience.
-
+Thanks for bearing with us on this. Apologies again for any inconvenience, and, please, let us know if you have any problems (or, indeed, if you're an Android developer who might want to give us some help...).
 
 
