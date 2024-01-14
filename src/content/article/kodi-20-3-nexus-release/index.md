@@ -18,15 +18,15 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **Estuary**
 
-* An assortment of fixes for Estuary, including home categories' focus position, alignment of counter labels and Shift view for collections.
+* An assortment of fixes for Estuary, including home categories' focus positions, alignment of counter labels and *Shift* view for collections.
 * Fixes to the weather layout when busy.
 
 **Game/Retroplayer**
 
 * Fixed controllers not assigned to game ports correctly on Android.
 * Fixed blue/pink washed out colours on Windows with 10-bit displays.
-* Fixed possible crash in Port dialogue box.
-* Fixed typo for the mouse middle button in Controller dialogue box.
+* Fixed possible crash in *Port* dialogue box.
+* Fixed typo for the mouse middle button in *Controller* dialogue box.
 
 **General**
 
