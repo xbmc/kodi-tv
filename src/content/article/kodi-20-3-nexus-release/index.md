@@ -33,7 +33,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 * A DVD playback fix that resolves unmounted drives not being playable.
 * A fix for infinite loops in `CPluginFile` that occurred when using scrapers.
 * A fix for a crash that occurred due to Addon settings being destructed in an incorrect order.
-* Redact some information from Toast notifications (user/passwords incorrectly being shown).
+* Redact some information from Toast notifications (usernames/passwords incorrectly being shown).
 * A memory leak in context menus was resolved.
 * Image cache handling was fixed to correctly regenerate when cached files for JSON API consumers.
 
@@ -52,7 +52,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
   * A fix for a leak of `EGLFences` in the DRM Prime renderer.
 * macOS/iOS
 
-  * Fix a crash on Apple Silicon based Macs when pressing the Caps Lock key.
+  * Fix a crash on Apple silicon based Macs when pressing the Caps Lock key.
 * tvOS
 
   * Fixed: Not persistent binary addons (PVR) settings.
@@ -60,11 +60,11 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
   * Fixed: 24 Hz refresh rate related to HDR in specific use cases only (when Windows HDR auto-switch is not used).
   * Fixed: audio device "WASAPI:default" was listed multiple times in audio device list.
-  * Fixed: fractional refresh rates 119.88 Hz and higher they were not displayed correctly.
+  * Fixed: fractional refresh rates 119.88 Hz and higher were not displayed correctly.
 
 **Pictures**
 
-* An exif parsing regression from v19 was resolved.
+* An EXIF parsing regression from v19 was resolved.
 
 **PVR**
 
@@ -73,14 +73,14 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 **UPNP**
 
-* A fix for a crash that occurred when a user added a UPNP source without having UPNP enabled.
+* A fix for a crash that occurred when a user added a UPnP source without having UPnP enabled.
 * Playback from remote sources (ftp, http, etc.) has been fixed.
 
 **Video**
 
-* A fix to the default Select action on certain movie-related windows.
+* A fix to the default *Select* action on certain movie-related windows.
 
-Thanks, as always, to everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. if you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
+Thanks, as always, to everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. If you happen to experience any bugs or issues, please don't hesitate to reach out on the forums, or raise an issue on GitHub.
 
 As this is a point release, there are no major changes since the previous version, and you should be fine to install this straight over the top of any existing Kodi 20.x installation - indeed, this will happen automatically on many platforms. However, as for all software installations, back up your userdata beforehand if you've any doubts or have anything you can't afford to lose (and definitely do this if you're going for a major version upgrade).
 
