@@ -52,7 +52,7 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
   * A fix for a leak of `EGLFences` in the DRM Prime renderer.
 * macOS/iOS
 
-  * Fix a crash on Apple silicon based Macs when pressing the Caps Lock key.
+  * Fix a crash on Apple silicon-based Macs when pressing the *Caps Lock* key.
 * tvOS
 
   * Fixed: Not persistent binary addons (PVR) settings.
