@@ -127,7 +127,7 @@ function Page() {
               imgsrc: "/images/about--tvshows.webp",
               title: "TV Shows",
               description: `Perfect for binge watching or the occasional catch up on your
-                    favourite show. Kodi keeps all your tv organised like nothing
+                    favourite show. Kodi keeps all your TV organised like nothing
                     else.`,
             },
             {
