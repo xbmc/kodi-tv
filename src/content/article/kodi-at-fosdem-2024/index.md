@@ -16,4 +16,4 @@ This is just a quick note to let everyone know that Team Kodi will be present at
 
 We have team members attending that are knowledgeable about, among other things, Python add-on programming, Kodi on Linux, the Kodi flatpak package, and Kodi on embedded GPUs.
 
-If you're in the area, we'd love to see you and get your first-hand feedback about ... well, anything, really. Please, join us for a chat and a coffee!
+If you're in the area, we'd love to see you and get your first-hand feedback about ... well, anything, really. We're also planning to have some sample branded merchandise for you to look at - so, please, join us for a chat and a coffee!
