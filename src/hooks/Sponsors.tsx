@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby";
 export interface Sponsor {
   name: string;
   slug: string;
-  sponsor_level: "Diamond" | "Gold" | "Silver" | "Bronze";
   image: { alt: string; src: string; title: string };
   body: string;
 }
@@ -15,7 +14,6 @@ export function Sponsors(): Sponsor[] {
         nodes {
           name
           slug
-          sponsor_level
           image {
             alt
             src

@@ -308,7 +308,7 @@ function FullWidthSponsorList(props: {
           <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
             {props.title}
           </p>
-          <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
+          <div className="mt-6 flex justify-center flex-wrap grid-cols-2 gap-8">
             {props.sponsors.map(sponsor => (
               <div
                 key={sponsor.slug}

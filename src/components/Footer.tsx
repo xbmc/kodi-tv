@@ -5,11 +5,6 @@ import { SponsorFooterList } from "./SponsorList";
 
 function Footer() {
   const sponsors: Sponsor[] = Sponsors();
-  const orderedSponsors: Sponsor[] = sponsors
-    .filter(a => a.sponsor_level === "Diamond")
-    .concat(sponsors.filter(a => a.sponsor_level === "Gold"))
-    .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
-    .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
   let year = new Date().getFullYear();
 
   return (
@@ -93,7 +88,7 @@ function Footer() {
                     Sponsors
                   </h3>
                   <ul className="mt-4 space-y-4">
-                    <SponsorFooterList sponsors={orderedSponsors} />
+                    <SponsorFooterList sponsors={sponsors} />
                   </ul>
                 </div>
               </div>

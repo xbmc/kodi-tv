@@ -9,7 +9,6 @@ import {
   AboutContactNote,
   AboutOfficialRemotes,
   ContributeGallery,
-  CtaButtonExternal,
   CtaButtonInternal,
   DownloadNotice,
   SponsorList,
