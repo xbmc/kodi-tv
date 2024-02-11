@@ -14,6 +14,8 @@ It looks like one last hurrah was premature for the "Nexus" line: we find oursel
 
 An assortment of bug fixes, some backports, no real new features. Full changelog since 20.3 on [Github](https://github.com/xbmc/xbmc/compare/20.3-Nexus...20.4-Nexus), as usual.
 
+**Android users, please see note at the bottom of this post**
+
 ### **Release notes**
 
 **Build**
@@ -52,3 +54,9 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 **Android Deployment**
 
 We always do what's known as a "staged" roll out for Android - so, if you don't receive the update immediately, be patient, as it will come through over the next week. As the majority of fixes are related to Google Play deployment, we will deliberately be cautious with the schedule. If you do receive 20.4 and have any issues with the deployment, please let us know as soon as possible.
+
+*Update, 11 Feb 20:55 UTC*
+
+We're aware of some (at this time) non-specific "input issues" on Android - buttons not working properly, for example - so we've halted the deployment for now until we understand more. We would also advise against anyone installing manually unless you know how to roll back. Please bear with us while we isolate and squash the [offending bug](https://github.com/xbmc/xbmc/issues/24696).
+
+Oh, by the way - we might have mentioned this before - does anyone know of any good Android developers who'd like to give us a hand? We're a little short-handed at the moment :(
