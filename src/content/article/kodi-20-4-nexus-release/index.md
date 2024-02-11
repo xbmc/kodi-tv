@@ -10,32 +10,36 @@ featured_image:
     black page, around it, a dial - a gauge or chronograph, perhaps.
   src: /images/blog/kodi-20.4-nexus-splash.webp
 ---
-It looks like one last hurrah was premature for the "Nexus" line: once more we are back with a new 20.4 release.
+It looks like one last hurrah was premature for the "Nexus" line: once more we are back, this time with a new 20.4 release.
 
 An assortment of bug fixes, some backports, no real new features. Full changelog since 20.3 on [Github](https://github.com/xbmc/xbmc/compare/20.3-Nexus...20.4-Nexus), as usual.
 
 ### **Release notes**
 
 **Build**
-- A backport aimed at fixing the failure rate of binary addon builds has been merged by @garbear. 
+
+* A backport aimed at fixing the failure rate of binary addon builds has been merged by **@garbear**. 
 
 **Input**
+
 * Update to the controller addons.
 
 **Platform Specific**
-- Android
-  - Several fixes have been backported from master to fix deployment on the Google Play. Thanks to @joseluismarti for working with us on these.
-  - A number of fixes to resolve input issues (remote/controllers) for Android have been backported.
 
-- iOS/tvOS
-  - A long-time-coming fix to reduce black screen playback when interlaced content is played on iOS/tvOS. Users should no longer have to specifically disable VTB Hardware playback for most interlaced content. Please keep in mind some methods of content playback (HTTP URLs provided in .strm files) will still be affected.
-  - A memory leak with game controllers on iOS/tvOS has been made by @kambala-decapitator.
+* Android
 
-- tvOS
-  - @kambala-decapitator fixed what seems to be a long standing bug regarding framework `plist` metadata for shared library frameworks.
+  * Several fixes have been backported from master to fix deployment issues on Google Play. Thanks to **@joseluismarti** for working with us on these.
+  * A number of fixes backported to resolve input issues (remotes/controllers).
+* iOS/tvOS
 
-- Windows
-  - A fix for `AESinkWASAPI` to improve fallback when the exact output channel layout is not supported by driver/hardware.
+  * A long-time-coming fix to reduce black screen playback when interlaced content is played on iOS/tvOS. Users should no longer have to specifically disable VTB Hardware playback for most interlaced content. Please keep in mind some methods of content playback (HTTP URLs provided in .strm files) will still be affected.
+  * A memory leak with game controllers on iOS/tvOS has been fixed by **@kambala-decapitator**.
+* tvOS
+
+  * **@kambala-decapitator** fixed what seems to be a long standing bug regarding framework `plist` metadata for shared library frameworks.
+* Windows
+
+  * A fix for `AESinkWASAPI` to improve fallback when the exact output channel layout isn't supported by drivers or hardware.
 
 Thanks, as always, to everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. if you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
 
@@ -47,4 +51,4 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-We always do what's known as a "staged" deployment roll out for Android. So if you don't receive the update immediately, be patient, as it will come through over the next week. As the majority of fixes are related to Android Playstore deployment, we will be cautious with the deployment time. If you do receive 20.4 and have any issues with the Playstore deployment, please let us know as soon as possible.
+We always do what's known as a "staged" roll out for Android - so, if you don't receive the update immediately, be patient, as it will come through over the next week. As the majority of fixes are related to Google Play deployment, we will deliberately be cautious with the schedule. If you do receive 20.4 and have any issues with the deployment, please let us know as soon as possible.
