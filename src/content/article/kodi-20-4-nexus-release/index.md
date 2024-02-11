@@ -10,7 +10,7 @@ featured_image:
     black page, around it, a dial - a gauge or chronograph, perhaps.
   src: /images/blog/kodi-20.4-nexus-splash.webp
 ---
-It looks like one last hurrah was premature for the "Nexus" line: once more we are back, this time with a new 20.4 release.
+It looks like one last hurrah was premature for the "Nexus" line: we find ourselves back again already, this time with a new 20.4 release.
 
 An assortment of bug fixes, some backports, no real new features. Full changelog since 20.3 on [Github](https://github.com/xbmc/xbmc/compare/20.3-Nexus...20.4-Nexus), as usual.
 
