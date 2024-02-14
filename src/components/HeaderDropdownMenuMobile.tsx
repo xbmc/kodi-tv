@@ -53,7 +53,7 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
                 >
                   {item.title}
                 </a>
-              )
+              ),
             )}
           </div>
         </Transition>

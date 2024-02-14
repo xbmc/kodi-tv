@@ -76,7 +76,7 @@ function SEO({ lang, meta, keywords, frontmatter }) {
                 name: "keywords",
                 content: keywords.join(", "),
               }
-            : []
+            : [],
         )
         .concat(meta)}
     >

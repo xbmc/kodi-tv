@@ -164,7 +164,7 @@ export default class SearchAddons extends React.Component {
         filtered_results = filtered_results.filter(addon => {
           if (
             addon.authors.find(
-              o => o.name.toLowerCase() == this.state.author.toLowerCase()
+              o => o.name.toLowerCase() == this.state.author.toLowerCase(),
             ) != undefined
           ) {
             return addon;

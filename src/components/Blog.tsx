@@ -128,7 +128,7 @@ function NavCard(_props: unknown) {
                       </span>
                     </Link>
                   );
-                }
+                },
               )}
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
               <Link

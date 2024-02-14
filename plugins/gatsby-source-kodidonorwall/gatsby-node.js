@@ -38,7 +38,7 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
         if (err) {
           console.error(
             "Unable to query donors. Error:",
-            JSON.stringify(err, null, 2)
+            JSON.stringify(err, null, 2),
           );
         } else {
           console.log("No donor records found during this pagination cycle.");
@@ -88,7 +88,7 @@ exports.sourceNodes = ({ actions, createNodeId, createContentDigest }, options) 
             accessKeyId: options.accessKeyId,
             secretAccessKey: options.secretAccessKey,
           },
-        })
+        }),
       );
       docClient.query(options.params, onQuery);
     }
