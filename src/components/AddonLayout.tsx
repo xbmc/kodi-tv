@@ -130,7 +130,7 @@ export default function AddonLayout({
                         linkType="internal"
                       />
                     );
-                  }
+                  },
                 )}
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function AddonLayout({
                       linkType="internal"
                     />
                   );
-                }
+                },
               )}
             </div>
           </div>

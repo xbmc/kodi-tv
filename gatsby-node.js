@@ -181,7 +181,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   if (nexuscategoryresults.errors) {
     reporter.panicOnBuild(
-      `Error while running Nexus Add-on Category GraphQL query.`
+      `Error while running Nexus Add-on Category GraphQL query.`,
     );
     return;
   }

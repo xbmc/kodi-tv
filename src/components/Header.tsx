@@ -259,7 +259,7 @@ function Header(props: any) {
                           )
                         ) : (
                           <HeaderDropdownMenu key={item.id} menu={item} />
-                        )
+                        ),
                       )}
                     </div>
                   </div>
@@ -306,7 +306,7 @@ function Header(props: any) {
                       )
                     ) : (
                       <HeaderDropdownMenuMobile key={item.url.url} menu={item} />
-                    )
+                    ),
                   )}
                 </div>
               </div>

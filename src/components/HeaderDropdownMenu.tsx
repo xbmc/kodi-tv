@@ -76,7 +76,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                           </p>
                         </div>
                       </a>
-                    )
+                    ),
                   )}
                   {props.menu.footer === null ? (
                     ""

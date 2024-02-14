@@ -14,7 +14,7 @@ export function DownloadLinks(props: {
         {props.downloads.map(
           (
             download: { url: string | undefined; name: React.ReactNode },
-            index: any
+            index: any,
           ) => {
             return (
               <div className="lg:flex-initial">
@@ -23,7 +23,7 @@ export function DownloadLinks(props: {
                 </Button>
               </div>
             );
-          }
+          },
         )}
       </div>
     </React.Fragment>

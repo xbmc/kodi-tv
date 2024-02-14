@@ -333,7 +333,7 @@ function createAuthorNode(author) {
     authors.push(newauthor);
   } else {
     addoncheck = authorcheck.addons.find(
-      (/** @type {{ id: string; }} */ o) => o.id === addon.id
+      (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
       authorcheck.addons.push(addon);
@@ -354,7 +354,7 @@ function createCategoryNode(category) {
     categories.push(newcategory);
   } else {
     addoncheck = categorycheck.addons.find(
-      (/** @type {{ id: string; }} */ o) => o.id === addon.id
+      (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
       categorycheck.addons.push(addon);
@@ -458,7 +458,7 @@ function getAssets(asset) {
     addonimagetypes.push(arrayname);
   } else {
     assetcheck = addon[arrayname].find(
-      (/** @type {{ remotepath: any; }} */ o) => o.remotepath === asset.content
+      (/** @type {{ remotepath: any; }} */ o) => o.remotepath === asset.content,
     );
   }
   if (!assetcheck) {
@@ -518,7 +518,7 @@ function queueImageType(imagetype) {
         localdir: localbase,
         local: rootpath + asset.localpath,
       });
-    }
+    },
   );
 }
 
@@ -535,7 +535,7 @@ async function app() {
   pixiememory = pixiememory + kodiversion + "/";
   history = await loadHistoryFile();
   console.log(
-    "getting addons from the " + kodiversion + " repo using " + kodimirror
+    "getting addons from the " + kodiversion + " repo using " + kodimirror,
   );
   try {
     const res = await fetch(kodimirror + "addons.xml");
@@ -571,11 +571,11 @@ async function app() {
       console.log("downloading " + download.remote);
       await fetch(download.remote).then(
         (
-          /** @type {{ body: { pipe: (arg0: fs.WriteStream) => void; }; }} */ res
+          /** @type {{ body: { pipe: (arg0: fs.WriteStream) => void; }; }} */ res,
         ) => {
           const dest = fs.createWriteStream(download.local);
           res.body.pipe(dest);
-        }
+        },
       );
     }
     console.log("getting addon download counts");
@@ -609,8 +609,8 @@ async function app() {
       JSON.stringify(
         addons.sort((a, b) => a.id.localeCompare(b.id)),
         null,
-        2
-      )
+        2,
+      ),
     );
     console.log("writing authors.json to " + pixiememory);
     fs.writeFileSync(
@@ -618,8 +618,8 @@ async function app() {
       JSON.stringify(
         authors.sort((a, b) => a.id.localeCompare(b.id)),
         null,
-        2
-      )
+        2,
+      ),
     );
     console.log("writing categories.json to " + pixiememory);
     fs.writeFileSync(
@@ -627,8 +627,8 @@ async function app() {
       JSON.stringify(
         categories.sort((a, b) => a.id.localeCompare(b.id)),
         null,
-        2
-      )
+        2,
+      ),
     );
     if (args["getstats"]) {
       let stats = "";
@@ -644,7 +644,7 @@ async function app() {
                 break;
               }
             }
-          }
+          },
         );
       } catch (error) {
         stats = "";

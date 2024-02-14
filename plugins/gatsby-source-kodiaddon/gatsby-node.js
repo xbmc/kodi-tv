@@ -57,7 +57,7 @@ exports.sourceNodes = async ({
     addons = JSON.parse(fs.readFileSync(pixiememory + "addons.json", "utf8"));
     authors = JSON.parse(fs.readFileSync(pixiememory + "authors.json", "utf8"));
     categories = JSON.parse(
-      fs.readFileSync(pixiememory + "categories.json", "utf8")
+      fs.readFileSync(pixiememory + "categories.json", "utf8"),
     );
     featured = yaml.load(fs.readFileSync(pixiememory + "featured.yaml", "utf8"));
     addons.forEach(addon =>
@@ -71,7 +71,7 @@ exports.sourceNodes = async ({
           content: JSON.stringify(addon),
           contentDigest: createContentDigest(addon),
         },
-      })
+      }),
     );
     authors.forEach(author =>
       createNode({
@@ -84,7 +84,7 @@ exports.sourceNodes = async ({
           content: JSON.stringify(author),
           contentDigest: createContentDigest(author),
         },
-      })
+      }),
     );
     categories.forEach(category =>
       createNode({
@@ -97,7 +97,7 @@ exports.sourceNodes = async ({
           content: JSON.stringify(category),
           contentDigest: createContentDigest(category),
         },
-      })
+      }),
     );
   }
 };
