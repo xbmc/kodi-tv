@@ -23,15 +23,17 @@ Many users may still be on the Kodi testing track for their Android devices. It'
 
 With that said, for those adventurous types who would like to help us with testing, you can use the same link to opt in for a Google Play account.
 
-**XBox users**
+**Xbox users**
 
-As we do not have a testing track available for XBox users, we will continue our customary deployment of RC1+ of our major releases to the Microsoft App store. This means that XBox users will start to see their Nexus deployments updated to Omega RC1.
-If you do not wish to receive this update, the only option we are aware of is for you to disable auto updates for all apps/games on your xbox
+As we do not have a testing track available for Xbox users, we will continue our customary deployment of RC1+ of our major releases to the Microsoft App store. This means that Xbox users will start to see their Nexus deployments updated to Omega RC1.
+
+If you do not wish to receive this update, the only option we are aware of is for you to disable auto updates for all apps/games on your Xbox
 
 - You can disable auto updates to games and apps in the Microsoft Store through the Store's settings. 
-   Select the Start screen, then select Microsoft Store.
-   In Microsoft Store at the upper right, select the account menu (the three dots) and then select Settings.
-   Under App updates, set Update apps automatically to Off.
+
+  -  Select the `Start` screen, then select `Microsoft Store`.
+  -  In `Microsoft Store` at the upper right, select the `account` menu (the three dots) and then select `Settings`.
+  -  Under `App updates`, set `Update apps automatically` to `Off`.
 
 **Skin Developers**
 
@@ -50,7 +52,7 @@ The following forum thread has the skinning change info for Omega: https://forum
 And now, for the list of changes for RC 1.
 
 **Estuary**
-- A consistency fix was made by @Hitcher to make OSD controls for some buttons to just be disabled, rather than hidden, so the buttons stay shown in a consistent manner
+- A consistency fix was made by @Hitcher to make OSD controls for some buttons to just be disabled, rather than hidden, so the buttons stay shown in a consistent manner.
 
 **Filesystem**
 - A partial revert has been made that fixes some binary addons not being able to correctly parse some xml files.
@@ -59,17 +61,17 @@ And now, for the list of changes for RC 1.
 - @ksooo continues to cleanup things related to the Video Version feature. This time he has fixed a label skinners would use to display a media name that would be blank under certain circumstances.
 
 **Music**
-- A fix that was having audiobooks showing their last chapter with no duration was made by @the-black-eagle 
+- audiobooks were showing their last chapter with no duration; this has been fixed by @the-black-eagle.
 
 **Platform Specifics**
 - **Android**:
-  - Cleanups to build/package files have been made by @joseluismarti. This helps get the codebase nice and clean for the newer Android SDK's leading into the future, meaning we can more easily backport to Omega when we are making changes for v22 "P" in the future. 
+  - Cleanups to build/package files have been made by @joseluismarti. This helps get the codebase nice and clean for the newer Android SDKs leading into the future, meaning we can more easily backport to Omega when we are making changes for v22 "P" in the future. 
 
 - **Linux**:
   - @fritsch, our resident audio expert, has submitted a change to allow Pipewire to properly identify HDMI for passthrough usage.
  
 - **macOS**:
-  - @enen92 has implemented Hotkeycontroller for Media keys on macOS. This allows Kodi to more accurately capture and handle media related keys and allow us to play nicer with other running apps on a system expecting to use the same media keys
+  - @enen92 has implemented Hotkeycontroller for Media keys on macOS. This allows Kodi to more accurately capture and handle media related keys and allow us to play nicer with other running apps on a system expecting to use the same media keys.
 
 - **Windows**:
   - @thexai has submitted some colour accuracy changes for 10bit SDR/HDR colour mapping.
