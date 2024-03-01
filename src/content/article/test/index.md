@@ -7,7 +7,7 @@ tags:
   - Developer
 featured_image:
   src: /images/blog/kodi_splash_v21.0_omega_beta_1080p.webp
-  title: ""
+  title: Kodi 21 "Omega" Splash Screen
   alt: ""
 ---
 
