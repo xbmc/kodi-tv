@@ -70,15 +70,15 @@ And now, for the list of changes for Beta 3.
   * Due to various firmware bugs on multiple devices we were forced to add some opt-in audio settings for (especially) the widely-used FireTV Cube 3rd Gen, which were enabled by default until this beta, but sadly regressed on half-broken firmwares of other devices. It's not possible to maintain a deny list as available systems and versions change too quickly, plus Kodi release cycles can't be synchronised with every big vendor putting out fixes. As such, we decided to move this into an advanced setting, with more information available in the linked forum thread. Feel free to open new issues if you see regressions of some sort, but please don't forget your debug log, as help isn't possible otherwise due to the sheer variety of differently-broken boxes.
   * Another advanced setting now allows the output of high-precision 32-bit float from within Kodi for multi-channel PCM files. This is again an advanced setting because some devices fail silently when opening this combination. Float32 is the highest precision Android's Audiotrack Soundserver can handle. It was tested and is working on Shield and FireTV 4K 2nd Gen.
   * We received a whole lot of bug fixes from external contributors this time, with the focus on HDMI Hotplug after refresh rate changes and also Audio device enumeration. The long-standing bug of losing Android IEC devices during IDLE is solved. We are very thankful for these contributions.
-  * **@quietvoid** has implemented a new setting in Player / Processing that allows filter HDR dynamic metadata HDR10+ and/or Dolby Vision to improve compatibility in devices that has issues especially with hybrid videos that includes both types at same time.
+  * **@quietvoid** has implemented a new setting in Player / Processing that allows filtering of HDR dynamic metadata HDR10+ and/or Dolby Vision to improve compatibility on devices that had issues, especially with hybrid videos that includes both types at same time.
 * **iOS/tvOS**
 
   * Disable VTB (hardware decoding) for real-time interlaced videos.
 * **Linux**:
 
   * Pipewire sink got a fixup for sample rate switching. With that updated code, the back-end server of Pipewire will switch the base sample rate whenever Kodi is run without additional other clients. This way, Kodi's audio will be output in the best possible and lossless way throughout the audio chain, including soundserver and audio device.
-  * Adjust dependencies to build packages compatible with Ubuntu focal to noble for CPack building
-  * @fightforlife has fixed an issue with RenderCapture used by things like Hyperion that fixes sporadic black screen captures
+  * Adjusted dependencies to build packages compatible with Ubuntu *Focal* to *Noble* for CPack building
+  * **@fightforlife** has fixed an issue with RenderCapture used by things like Hyperion that fixes sporadic black screen captures
 * **webOS**
 
   * Map info key on webos remotes.
