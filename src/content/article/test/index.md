@@ -11,7 +11,6 @@ featured_image:
   alt: Kodi 21 "Omega" Splash Screen - the Kodi logo sits at the centre of a black
     screen, a stylised Greek letter "Omega" around it.
 ---
-
 *Editorial note: this blog post has been delayed for technical reasons, so the release is already available.*
 
 Time marches on for Kodi 21 "Omega", we are here with the third Beta release!
@@ -60,7 +59,7 @@ And now, for the list of changes for Beta 3.
 **Music**
 
 * Fix an issue with m3u playlists which didn't show art for the second and subsequent tracks: https://github.com/xbmc/xbmc/pull/24675.
-* Allow navigation from artists directly to songs, missing out albums and discs.  This is more like how Spotify et al. navigate: https://github.com/xbmc/xbmc/pull/24649, forum thread https://forum.kodi.tv/showthread.php?tid=375313.
+* Allow navigation from artists directly to songs, missing out albums and discs.  This is more like how Spotify *et al.* navigate: https://github.com/xbmc/xbmc/pull/24649, forum thread https://forum.kodi.tv/showthread.php?tid=375313.
 * Only drop music database triggers on clean if they exist, which fixes a problem that occurred if Kodi was closed/crashed whilst a clean was underway on the Music database.
 
 **Platform Specifics**
@@ -68,10 +67,10 @@ And now, for the list of changes for Beta 3.
 * **Android**:
 
   * The audio changes for the Android ecosystem were documented in https://forum.kodi.tv/showthread.php?tid=376161.
-  * Due to various firmware bugs on multiple devices we were forced to add some opt-in audio settings for (especially) the widely used FireTV Cube 3rd Gen, which were enabled by default until this beta, but sadly regressed on half-broken firmwares of other devices. It's not possible to maintain a deny list as available systems and versions change too quickly, plus Kodi release cycles can't be synchronised with every big vendor putting out fixes. As such, we decided to move this into an advanced setting, with more information available in the linked forum thread. Feel free to open new issues if you see regressions of some sort, but please don't forget your debug log, as help isn't possible otherwise due to the sheer variety of differently-broken boxes.
+  * Due to various firmware bugs on multiple devices we were forced to add some opt-in audio settings for (especially) the widely-used FireTV Cube 3rd Gen, which were enabled by default until this beta, but sadly regressed on half-broken firmwares of other devices. It's not possible to maintain a deny list as available systems and versions change too quickly, plus Kodi release cycles can't be synchronised with every big vendor putting out fixes. As such, we decided to move this into an advanced setting, with more information available in the linked forum thread. Feel free to open new issues if you see regressions of some sort, but please don't forget your debug log, as help isn't possible otherwise due to the sheer variety of differently-broken boxes.
   * Another advanced setting now allows the output of high-precision 32-bit float from within Kodi for multi-channel PCM files. This is again an advanced setting because some devices fail silently when opening this combination. Float32 is the highest precision Android's Audiotrack Soundserver can handle. It was tested and is working on Shield and FireTV 4K 2nd Gen.
-  * We received a whole lot of bug fixes from external contributors this time, with the focus on HDMI Hotplug after refresh rate changes and also Audio device enumeration. The long standing bug of losing Android IEC devices during IDLE is solved. We are very thankful for these contributions.
-  * @quietvoid has implemented a new setting in Player / Processing that allows filter HDR dynamic metadata HDR10+ and/or Dolby Vision to improve compatibility in devices that has issues especially with hybrid videos that includes both types at same time.
+  * We received a whole lot of bug fixes from external contributors this time, with the focus on HDMI Hotplug after refresh rate changes and also Audio device enumeration. The long-standing bug of losing Android IEC devices during IDLE is solved. We are very thankful for these contributions.
+  * **@quietvoid** has implemented a new setting in Player / Processing that allows filter HDR dynamic metadata HDR10+ and/or Dolby Vision to improve compatibility in devices that has issues especially with hybrid videos that includes both types at same time.
 * **iOS/tvOS**
 
   * Disable VTB (hardware decoding) for real-time interlaced videos.
