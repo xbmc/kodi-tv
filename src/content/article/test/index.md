@@ -98,18 +98,18 @@ And now, for the list of changes for Beta 3.
 **Scraping**
 
 * `.nomedia` files can now be used to exclude folders inside a TV show: https://github.com/xbmc/xbmc/pull/24330
-* **@78andyp** fixed, what looks like has been broken for a long period, the ability to scrape episodes in Bluray folders (BDMV)
+* **@78andyp** fixed what looks like has been broken for a long period - the ability to scrape episodes in Bluray folders (BDMV).
 
 **Skinning**
 
 * The estouchy skin has been retired from default installs. If anyone would like to continue working on the skin for future use/availability, you can find the new home for the skin at https://github.com/jjd-uk/skin.estouchy for now.
-* Player control dialog for Estuary has been updated, along with other changes to bring the skin up to date for 5.17.0 API
-* A fix for duplicate music flags was made by @jjd-uk 
+* The player control dialog for Estuary has been updated, along with other changes to bring the skin up to date for 5.17.0 API.
+* A fix for duplicate music flags was made by **@jjd-uk**.
 
 **UPnP**
 
-* @enen92 has once again made an assortment of fixes for UPNP such as fixed broadcasting of item updates and mark as watched state.
-* An option was added to avoid volume synchronization to a UPNP target
+* **@enen92** has once again made an assortment of fixes for UPnP, such as fixed broadcasting of item updates and 'mark as watched' state.
+* An option was added to avoid volume synchronisation to a UPnP target.
 
 **Known Issues**
 
