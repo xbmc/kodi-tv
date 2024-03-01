@@ -8,7 +8,8 @@ tags:
 featured_image:
   src: /images/blog/kodi_splash_v21.0_omega_beta_1080p.webp
   title: Kodi 21 "Omega" Splash Screen
-  alt: ""
+  alt: Kodi 21 "Omega" Splash Screen - the Kodi logo sits at the centre of a black
+    screen, a stylised Greek letter "Omega" around it.
 ---
 
 *Editorial note: this blog post has been delayed for technical reasons, so the release is already available.*
