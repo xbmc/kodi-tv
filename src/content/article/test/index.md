@@ -92,13 +92,13 @@ And now, for the list of changes for Beta 3.
 
 **Pictures**
 
-* Long time contributer @notspiff added avif image support.
-* @enen92 fixed exif parsing regression that was introduced in Matrix (v19)
+* Long time contributer **@notspiff** added avif image support.
+* **@enen92** fixed an Exif parsing regression that was introduced in Matrix (v19).
 
 **Scraping**
 
 * `.nomedia` files can now be used to exclude folders inside a TV show: https://github.com/xbmc/xbmc/pull/24330
-* @78andyp fixed, what looks like has been broken for a long period, the ability to scrape episodes in Bluray folders (BDMV)
+* **@78andyp** fixed, what looks like has been broken for a long period, the ability to scrape episodes in Bluray folders (BDMV)
 
 **Skinning**
 
