@@ -81,13 +81,13 @@ And now, for the list of changes for Beta 3.
   * **@fightforlife** has fixed an issue with RenderCapture used by things like Hyperion that fixes sporadic black screen captures
 * **webOS**
 
-  * Map info key on webos remotes.
-  * Disable core dumps by default to reduce less storage being used on webOS TV's
-  * Implement shutdown/reboot 
+  * Map info key on webOS remotes.
+  * Disable core dumps by default to reduce less storage being used on webOS TVs.
+  * Implement shutdown/reboot .
 * **Windows**:
 
-  * Improved chroma upscaling when are used Pixel Shaders or Software render methods and also DXVA only in specific cases: AMD + old drivers + 10-bit SDR.
-  * Improved channel layout match in WASAPI when audio drivers not support same exact speakers’ layout. This is only relevant for PCM (not passthrough).
+  * Improved chroma upscaling when using Pixel Shaders or Software render methods, and also DXVA only in specific cases: AMD + old drivers + 10-bit SDR.
+  * Improved channel layout match in WASAPI when audio drivers do not support the exact speaker layout. This is only relevant for PCM (not passthrough).
   * Increased the number of video surfaces in DXVA H.264 decoding to prevent video corruption in some rare H.264 streams.
 
 **Pictures**
