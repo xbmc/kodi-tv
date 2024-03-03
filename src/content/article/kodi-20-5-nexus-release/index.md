@@ -16,8 +16,6 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 
 ### **Release notes**
 
-**Build**
-
 **Input**
 
 * Reverted a number of controller changes that caused massive failures on Android devices. Input handling will now be the same as what was available in 20.3.
@@ -34,6 +32,8 @@ An assortment of bug fixes, some backports, no real new features. Full changelog
 * iOS/tvOS
 
   * A change that wasn't actually in Kodi's codebase, but a fix nonetheless, means that the `inputstream.ffmpegdirect` addon is now available to the iOS/tvOS release debs.
+
+... plus, of course, some behind-the-scenes fixes and updates for e.g. library versions.
 
 Thanks, as always, to everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. if you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
 
