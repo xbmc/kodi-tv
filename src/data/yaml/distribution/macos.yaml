@@ -16,14 +16,14 @@ releases:
         url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-20.5-Nexus-x86_64.dmg?https=1
   - name: Prerelease
     title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Beta 3** pre-release build has become available because we
-      think it is ready for wider testing and usage. It also means we are
-      getting closer to a stable release of v21.
+    description: The **Release Candidate 1** pre-release build has become available
+      because we think it is ready for wider testing and usage. It also means we
+      are getting closer to a stable release of v21.
     downloads:
       - name: Intel (x86_64)
-        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-21.0-Omega_beta3-x86_64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-21.0-Omega_rc1-x86_64.dmg?https=1
       - name: Apple Silicon (ARM64)
-        url: https://mirrors.kodi.tv/releases/osx/arm64/kodi-21.0-Omega_beta3-arm64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/arm64/kodi-21.0-Omega_rc1-arm64.dmg?https=1
   - name: Development Builds
     title: Kodi v20 & v21 Nightly Development Builds
     description: >-
