@@ -1,6 +1,6 @@
 ---
 title: DevCon 2024 - Budapest - Part I
-date: 2024-03-22T21:19:29.891Z
+date: 2024-03-22T21:32:29.515Z
 author: Prof Yaffle
 tags:
   - DevCon
