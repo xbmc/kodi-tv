@@ -1,0 +1,38 @@
+name: Windows
+icon: /images/distributions/webos.png
+version: 20
+sort_order: 8
+howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_webOS
+releases:
+  - name: Recommended
+    description: |-
+      There is no official release for Kodi v20.
+
+      Check the Prerelease and Development Builds tab for Kodi v21 webOS builds.
+    title: Kodi v20.5 (Nexus)
+  - name: Prerelease
+    title: Kodi v21 (Omega) Pre-release Builds
+    description: The **Release Candidate 2** pre-release build has become available
+      because we think it is ready for wider testing and usage. It also means we
+      are getting closer to a stable release of v21.
+    downloads:
+      - name: webOS
+        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_21.0~rc2.ipk?https=1
+  - name: Development Builds
+    title: Kodi v21 Nightly Development Builds
+    description: >-
+      **Nightly builds** are made on a daily basis and contain the most recent
+      changes. These should be considered unstable for daily usage and should
+      only be used by testers and advanced users to help us find possible bugs.
+
+
+      These builds may occassionally be unstable, so be sure to always backup before using a development/nightly build.
+
+
+      If you want a stable setup, then please install a stable build from the **Recommended** tab instead.
+
+
+      Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
+    downloads:
+      - name: webOS
+        url: https://mirrors.kodi.tv/nightlies/webos/master/
