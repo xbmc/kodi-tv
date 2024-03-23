@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - DevCon
 featured_image:
-  src: /images/blog/img20240320121816.webp
+  src: /images/blog/hercegprímás-st-looking-towards-szent-istván-bazilika-st.-stephen-s-basilica.webp
   title: Hercegprímás St, looking towards Szent István-bazilika - St. Stephen's
     Basilica. Image copyright Ian Harper, used with permission.
   alt: A grand street, with dressed stone buildings to each side. A cobbled road -
