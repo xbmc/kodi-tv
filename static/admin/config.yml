@@ -151,7 +151,16 @@ collections:
         label: "Platform"
         widget: "select"
         options:
-          ["Windows", "Linux", "Android", "Raspberry Pi", "macOS", "iOS", "tvOS"]
+          [
+            "Windows",
+            "Linux",
+            "Android",
+            "Raspberry Pi",
+            "macOS",
+            "iOS",
+            "tvOS",
+            "webOS",
+          ]
       - { label: "Image", name: "icon", widget: "image" }
       - {
           name: "version",
