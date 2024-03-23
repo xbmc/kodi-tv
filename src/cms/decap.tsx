@@ -2,7 +2,7 @@ import CMS from "decap-cms-app";
 import React from "react";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
-import { SponsorLevelList } from "../components/SponsorList";
+import { SponsorDetailList } from "../components/SponsorList";
 import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
 import { Sponsor } from "../hooks/Sponsors";
@@ -96,7 +96,6 @@ const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
   let sponsor: Sponsor = {
     name: entry.getIn(["data", "name"]),
     slug: entry.getIn(["data", "slug"]),
-    sponsor_level: entry.getIn(["data", "sponsor_level"]),
     body: entry.getIn(["data", "body"]),
     image: {
       title: rawImage.getIn(["data", "title"]),
@@ -106,12 +105,7 @@ const SponsorPreview = ({ entry, widgetsFor, getAsset }) => {
   };
   sponsors.push(sponsor);
 
-  return (
-    <SponsorLevelList
-      title={sponsor.sponsor_level + " Sponsor"}
-      sponsors={sponsors}
-    />
-  );
+  return <SponsorDetailList sponsors={sponsors} />;
 };
 
 const StoreItemPreview = ({ entry, getAsset }) => {

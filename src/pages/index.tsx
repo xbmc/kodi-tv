@@ -51,11 +51,7 @@ function Page() {
   const news: News[] = LatestNews();
   const { uniqueDistIcons, distTextList } = setUniqueDistributionIcons();
   const sponsors: Sponsor[] = Sponsors();
-  const orderedSponsors: Sponsor[] = sponsors
-    .filter(a => a.sponsor_level === "Diamond")
-    .concat(sponsors.filter(a => a.sponsor_level === "Gold"))
-    .concat(sponsors.filter(a => a.sponsor_level === "Silver"))
-    .concat(sponsors.filter(a => a.sponsor_level === "Bronze"));
+  const orderedSponsors: Sponsor[] = sponsors;
   const stats = Stats();
   let frontmatter = {
     title: "Open Source Home Theater Software",

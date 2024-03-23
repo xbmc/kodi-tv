@@ -15,4 +15,3 @@ The Kodi Foundation remains a non-profit organization, and as such, we would lik
 1. In a paragraph, could you tell us a bit about your organization?
 1. Why would you like to become a Kodi Foundation sponsor?
 1. What efforts have you made (if any) to support, promote and/or advance Open Source Software generally and Kodi specifically?
-1. What level of sponsorship are you interested in?

@@ -215,19 +215,13 @@ collections:
     path: "{{name}}"
     slug: "{{name}}"
     identifier_field: "name"
-    sortable_fields: ["name", "sponsor_level"]
+    sortable_fields: ["name"]
     show_preview_links: false
     media_folder: "/static/images/sponsors"
     public_folder: "/images/sponsors"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "URL", name: "slug", widget: "string" }
-      - {
-          label: "Sponsor Level",
-          name: "sponsor_level",
-          widget: "select",
-          options: ["Diamond", "Gold", "Silver", "Bronze"],
-        }
       - name: "image"
         label: "Image"
         widget: "object"

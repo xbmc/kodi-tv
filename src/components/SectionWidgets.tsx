@@ -2,7 +2,7 @@ import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
-import { SponsorLevelList } from "./SponsorList";
+import { SponsorDetailList } from "./SponsorList";
 import {
   CodeBracketIcon,
   CloudArrowDownIcon,
@@ -19,18 +19,11 @@ import { Link } from "gatsby";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
-  const diamondSponsors = sponsors.filter(a => a.sponsor_level === "Diamond");
-  const goldSponsors = sponsors.filter(a => a.sponsor_level === "Gold");
-  const silverSponsors = sponsors.filter(a => a.sponsor_level === "Silver");
-  const bronzeSponsors = sponsors.filter(a => a.sponsor_level === "Bronze");
 
   return (
     <>
       <div className="pb-6">
-        <SponsorLevelList title="Diamond Sponsors" sponsors={diamondSponsors} />
-        <SponsorLevelList title="Gold Sponsors" sponsors={goldSponsors} />
-        <SponsorLevelList title="Silver Sponsors" sponsors={silverSponsors} />
-        <SponsorLevelList title="Bronze Sponsors" sponsors={bronzeSponsors} />
+        <SponsorDetailList sponsors={sponsors} />
       </div>
     </>
   );
