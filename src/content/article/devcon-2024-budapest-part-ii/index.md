@@ -5,7 +5,7 @@ author: Prof Yaffle
 tags:
   - DevCon
 featured_image:
-  src: /images/blog/tobias-reich-pwk4h7zykhe-unsplash.webp
+  src: /images/blog/halászbástya-fisherman-s-bastion-by-tobias-reich.webp
   title: Halászbástya - Fisherman's Bastion - by Tobias Reich on Unsplash.
   alt: A medieval-style castle, with grand views over the Danube, glows orange in
     the light of the setting sun.
