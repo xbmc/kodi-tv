@@ -75,7 +75,7 @@ Take your pick from:
 
 .. or the whole store: https://kodi-t-shirt-store.creator-spring.com/
 
-Please, purchase something, and help us to keep thriving for the next 20 years; I personally plan our Devcons, and we might not be able to get together in 2025 without help from viewers like you, so anything you can do to help, we appreciate you.
+Please, purchase something, and help us to keep thriving for the next 20 years; I personally plan our Devcons, and we might not be able to get together in 2025 without help from people like you, so anything you can do to help, we appreciate you.
 
 Oh, and while I'm asking: if anyone knows any non profit open source lawyers that are prepared to help us, send them our way! Legal-at-kodi dot tv.
 
