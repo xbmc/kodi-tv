@@ -122,20 +122,20 @@ function Footer() {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://osmc.tv"
+                        href="https://musicbrainz.org"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
-                        OSMC
+                        MusicBrainz.org
                       </a>
                     </li>
                     <li>
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://musicbrainz.org"
+                        href="https://osmc.tv"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
-                        MusicBrainz.org
+                        OSMC
                       </a>
                     </li>
                     <li>
@@ -176,6 +176,16 @@ function Footer() {
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         thetvdb.com
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://tvheadend.org/"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Tvheadend
                       </a>
                     </li>
                     <li>
