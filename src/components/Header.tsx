@@ -38,8 +38,8 @@ let regularButton =
   "text-gray-100 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
 let primaryButton =
   "text-gray-100 bg-kodi-darker hover:bg-kodi hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
-let secondaryButton =
-  "text-gray-100 bg-kodibg-lighter hover:bg-kodibg-darker hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
+let callToActionButton =
+  "text-gray-100 bg-kodi-castellina hover:saturate-150 hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
 
 const mainMenu: MenuEntry[] = [
   {
@@ -200,7 +200,7 @@ const mainMenu: MenuEntry[] = [
   {
     id: "donate",
     title: "Donate",
-    buttonType: primaryButton,
+    buttonType: callToActionButton,
     url: { url: "/donate", type: "internal" },
     dropdown: null,
     footer: null,
