@@ -81,7 +81,7 @@ Oh, and while I'm asking: if anyone knows any non profit open source lawyers tha
 
 Thanks again. I have no idea what the next 20 years will bring, or whether I will personally still be involved, but, for as long as this project is still needed, I know we'll all try our best to support it.
 
-Keith Herrington
+Keith Herrington\
 President, Kodi Foundation
 
 *(There's some further history [here](https://kodi.wiki/view/History_of_Kodi) and [here](https://kodi.tv/article/10-years-xbmc/), if you're interested).*
