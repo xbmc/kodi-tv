@@ -11,7 +11,7 @@ Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foun
 
 **In the Beginning...**
 
-In 2002, a couple guys saw the potential of being able to watch media on their own terms, through what was a new type of device: a "connected" TV device. They wanted to bring many things you'd traditionally need a computer for to the living room, operating it from the couch without needing a keyboard or mouse, controlling events through what they called a _10 foot interface_ because, well, it was an interface you could sit 10 feet away from.
+In 2002, a couple guys saw the potential of being able to watch media on their own terms, through what was a new type of device: a "connected" TV device. They wanted to bring many things you'd traditionally need a computer for to the living room, operating it from the couch without needing a keyboard or mouse, controlling events through what they called a *10 foot interface* because, well, it was an interface you could sit 10 feet away from.
 
 While special-purpose devices already existed, they usually were things like DVD players, and they weren't ‘connected’ to anything else or even had the ability to hook up to a network. Indeed, even the TiVo, one of the most impressive devices of the time, lacked an Ethernet port. One of the creators of Samba, an open source interoperability application to share files between Linux and Windows, eventually figured out how to add a network port to a TiVo; however, even though it was the first mass marketed consumer Linux-based appliance, it was still very much a closed, walled garden.
 
@@ -82,4 +82,4 @@ Thanks again. I have no idea what the next 20 years will bring, or whether I wil
 Keith Herrington
 President, Kodi Foundation
 
-_(There's some further history [here](https://kodi.wiki/view/History_of_Kodi) and [here](https://kodi.tv/article/10-years-xbmc/), if you're interested)._
+*(There's some further history [here](https://kodi.wiki/view/History_of_Kodi) and [here](https://kodi.tv/article/10-years-xbmc/), if you're interested).*
