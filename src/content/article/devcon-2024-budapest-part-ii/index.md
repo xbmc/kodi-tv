@@ -35,3 +35,5 @@ A quick dash for dinner, and we're back to finish up for today, starting the las
 Bringing the day to a close, then, we moved to **sports features in Kodi**, led by **zag** (who, incidentally, runs TheAudioDB and TheSportsDB websites): Sports view, metadata for events from TheSportsDB site via a new Python scraper (thumbnail, artwork, description - just as you'd expect). Future concepts include timestamps for significant events (yellow cards/penalties, scoring events, and similar), team lineups (aka the "cast" of the programme), event databases; outside the core concept, we have the possibility of screensavers with scores or schedules, or perhaps Kodi notifications when, say, your team scores while you're strong-armed into watching something else.  
 
 And that's it for Day Two. A few more topics to roll over until tomorrow, along with some spontaneous coding while everyone is together - but, until then, that's it for now.
+
+PS it rained later. Boo.
