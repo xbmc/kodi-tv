@@ -1,5 +1,5 @@
 ---
-title: Over a Year Late, A Dollar Short - More Tham Two Decades of Kodi!
+title: Over a Year Late, A Dollar Short - More Than Two Decades of Kodi!
 date: 2024-03-24T11:43:19.329Z
 author: Keith Herrington
 tags:
