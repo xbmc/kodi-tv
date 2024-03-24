@@ -4,19 +4,11 @@ date: 2024-03-24T11:45:55.334Z
 author: Keith Herrington
 tags:
   - Community
+featured_image:
+  src: /images/blog/xbmc-2003-1080p.webp
+  title: XBOX Media Player Home Screen, 2003
+  alt: Image of the original XBMP home screen and menu
 ---
-Original image
-
-![](/images/blog/xbmc2003-original.webp)
-
-Rescaled to 720p
-
-![](/images/blog/xbmc2003-720p.webp)
-
-Rescaled to 1080p
-
-![](/images/blog/xbmc2003-1080p.webp)
-
 Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my journey.
 
 **In the Beginning...**
@@ -35,7 +27,7 @@ While many folk worked on getting Linux and various other things running, the pr
 
 [XBMP](https://sourceforge.net/projects/xbplayer/) came out in 2002 as the convergence of two separate closed source apps natively written with the Microsoft Xbox Development Kit by **d7o3g4q** (a.k.a. duo) and **RUNTiME**. As many at the time pointed out, since it was leveraging GPL code, it likely needed to be open source. At the same time, another developer - **Frodo** - had created [YAMP](https://sourceforge.net/projects/xbyamp/) as ‘Yet Another Media Player’; when this project also converged at the end of 2002,[ Xbox Media Center](https://sourceforge.net/projects/xbmc/), or XBMC, was born. While the initial beta was closed source, the developers quickly open sourced it and it’s been open source ever since.
 
-![image](https://github.com/xbmc/blog/assets/6093716/0940097c-a77e-450f-a1aa-4d0c4ca97815)
+![XBMC Home Screen, 2007](/images/blog/xbmc-2007-1080p.webp "Image of the 2007 XBMC home screen and menu")
 
 (You can even have a read of the [original manual](https://github.com/xbmc/blog/files/13381147/xbmp2.4manual.english.pdf) if you like!)
 
