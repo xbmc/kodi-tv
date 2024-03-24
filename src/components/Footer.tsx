@@ -175,7 +175,7 @@ function Footer() {
                         href="https://www.thetvdb.com"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
-                        TVDB.com
+                        thetvdb.com
                       </a>
                     </li>
                     <li>
