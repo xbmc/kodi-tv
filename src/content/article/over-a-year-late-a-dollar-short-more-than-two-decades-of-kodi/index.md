@@ -5,7 +5,17 @@ author: Keith Herrington
 tags:
   - Community
 ---
-![image](https://github.com/xbmc/blog/assets/6093716/67181eee-f587-4596-9838-f26d0e0e5994)
+Original image
+
+![](/images/blog/xbmc2003-original.webp)
+
+Rescaled to 720p
+
+![](/images/blog/xbmc2003-720p.webp)
+
+Rescaled to 1080p
+
+![](/images/blog/xbmc2003-1080p.webp)
 
 Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my journey.
 
