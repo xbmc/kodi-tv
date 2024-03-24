@@ -29,7 +29,7 @@ While many folk worked on getting Linux and various other things running, the pr
 
 ![XBMC Home Screen, 2007](/images/blog/xbmc-2007-1080p.webp "Image of the 2007 XBMC home screen and menu")
 
-(You can even have a read of the [original manual](https://github.com/xbmc/blog/files/13381147/xbmp2.4manual.english.pdf) if you like!)
+(You can even have a read of the [original manual](https://kodi.tv/images/xbmp2.4manual.english.pdf) if you like!)
 
 I was a dedicated Xbox user at the time, for everything besides gaming. I diligently connected to #xbins on EFnet to find the new binary release and watched in awe the quick iteration these folks were doing, adding so many incredible features, even supporting things like CD+G for Karaoke. You have to realise how groundbreaking a library mode was, allowing you to peruse your stored media collection while everyone else - even Netflix - was still renting DVDs by post or picking them up in strip mall stores. 
 
