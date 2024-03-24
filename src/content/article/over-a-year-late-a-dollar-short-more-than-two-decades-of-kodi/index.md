@@ -67,13 +67,7 @@ So, let’s raise our glasses for over 20 years, and, yes, we still have MANY li
 
 And while you’re here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we’re volunteers, and the only money our non-profit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc’s Kodi Raspberry Pi case.
 
-Take your pick from:
-
-* [T-shirt dark](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-dark?product=46&variation=2752)
-* [T-shirt light](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=46&variation=2750)
-* [Pillow](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=585)
-
-.. or the whole store: https://kodi-t-shirt-store.creator-spring.com/
+Take your pick from [a dark T-shirt](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-dark?product=46&variation=2752), [a light T-shirt](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=46&variation=2750), [a pillow](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=585) or something else from the [whole store](https://kodi-t-shirt-store.creator-spring.com/).
 
 Please, purchase something, and help us to keep thriving for the next 20 years; I personally plan our Devcons, and we might not be able to get together in 2025 without help from people like you, so anything you can do to help, we really appreciate it.
 
