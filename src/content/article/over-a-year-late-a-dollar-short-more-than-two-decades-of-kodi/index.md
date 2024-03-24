@@ -51,7 +51,7 @@ One of the parts that some don’t realize is since our initial development, we'
 
 ![XBMC Home Screen, 2012](/images/blog/xbmc-2012-1080p.webp "Image of the 2012 XBMC home screen and menu")
 
-And we’ve stayed volunteer. As a consumer-oriented open source project, no company has ever sponsored more than a port or a feature; indeed, since the nonprofit foundation behind it isn’t setup to be engaged, at worst companies have simply given some money to an individual to work on a feature. Even this is definitely not the norm: 99.9% of Kodi has been built out of passion and love for multimedia and the desire to have an open source platform for which people can decide the look and feel and customize to their liking, in both hardware and software terms. 
+And we’ve stayed volunteer. As a consumer-oriented open-source project, no company has ever sponsored more than a port or a feature; indeed, since the nonprofit foundation behind it isn’t setup to be engaged, at worst companies have simply given some money to an individual to work on a feature. Even this is definitely not the norm: 99.9% of Kodi has been built out of passion and love for multimedia and the desire to have an open-source platform for which people can decide the look and feel and customize to their liking, in both hardware and software terms. 
 
 I do have to call out our longest and biggest sponsor/partner has been [Flirc](https://flirc.tv), their support with this project has been unwavering since the initial case.
 
