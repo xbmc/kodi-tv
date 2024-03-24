@@ -39,7 +39,7 @@ The developers themselves deserve a ton of recognition: their tireless pursuit o
 
 But these folks did not do this in a vacuum: as the saying goes, "it takes a village". [FFmpeg](https://ffmpeg.org), for example, being the Internet’s Swiss Army knife for video, handles so much of the core rendering and playback. In developer parlance, we call these ‘dependencies’ but I prefer to think of these types of library as the backbone. Without the ability to stand on the shoulder of these mammoth libraries , XBMC devs would never have been able to focus so much on the skinning and user experience. While XBMC was initially heavily based on [mplayer](http://www.mplayerhq.hu), which is now known as [mpv](https://mpv.io), it has evolved into being closely tied to FFmpeg. 
 
-![image](https://github.com/xbmc/blog/assets/6093716/ccc58ca7-b925-4d9a-a9d7-ffd0b40b5a8f)
+![XBMC Home Screen, 2009](/images/blog/xbmc-2009-1080p.webp "Image of the 2009 XBMC home screen and menu")
 
 There are also countless other contributors - to the code, artwork, forum, and beyond - who absolutely have to be acknowledged. Today's Kodi wouldn't be what it is without the add-on ecosystem, translators, community moderators, volunteer artists, system admins, database admins, and many more.
 
@@ -49,7 +49,7 @@ And while devs have came and gone, the project has lived on, continuing to expan
 
 One of the parts that some don’t realize is since our initial development, we’ve always been a monolithic application, meaning the entire codebase must be ported to the desired platform. I’ve said we’re the ‘largest open source multimedia project’ for years, half jokingly, but I mean this by literal lines of code that takes to run it.
 
-![image](https://github.com/xbmc/blog/assets/6093716/bb9d3d62-20e9-46f7-b417-1cafca04ad29)
+![XBMC Home Screen, 2012](/images/blog/xbmc-2012-1080p.webp "Image of the 2012 XBMC home screen and menu")
 
 And we’ve stayed volunteer. As a consumer-oriented open source project, no company has ever sponsored more than a port or a feature; indeed, since the nonprofit foundation behind it isn’t setup to be engaged, at worst companies have simply given some money to an individual to work on a feature. Even this is definitely not the norm: 99.9% of Kodi has been built out of passion and love for multimedia and the desire to have an open source platform for which people can decide the look and feel and customize to their liking, in both hardware and software terms. 
 
@@ -63,7 +63,7 @@ Sorry this became so wordy, but I’ve been wanting to write a ’20 year blog p
 
 So, let’s raise our glasses for over 20 years, and, yes, we still have MANY lines of original, first generation code! We have to thank everyone who’s been involved and supported us: everyone who submitted a pull request or posted a message on the forum, all the devs who have tirelessly worked on the ‘dependency’ libraries that mean so much to us, and especially the official Team XBMC and Kodi Foundation developers. You folks, who continue to iterate, tweak and build the future of this platform, enable millions to consume media without having to care about how it works and why.
 
-![image](https://github.com/xbmc/blog/assets/6093716/89c69458-5949-4143-9043-dfa69f1b308a)
+![Kodi Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 Kodi home screen and menu")
 
 And while you’re here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we’re volunteers, and the only money our nonprofit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc’s Kodi Raspberry Pi case.
 
