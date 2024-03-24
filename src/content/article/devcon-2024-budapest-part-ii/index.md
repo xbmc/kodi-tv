@@ -36,4 +36,4 @@ Bringing the day to a close, then, we moved to **sports features in Kodi**, led 
 
 And that's it for Day Two. A few more topics to roll over until tomorrow, along with some spontaneous coding while everyone is together - but, until then, that's it for now.
 
-PS it rained later. Boo.
+PS it rained later, just as we went out. Boo.
