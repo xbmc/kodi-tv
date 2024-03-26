@@ -19,7 +19,7 @@ After a good chunk of reminiscing about events and team members past, we ended t
 
 ![Team Kodi, DevCon 2024](/images/blog/team-kodi-devcon-2024.webp "A motley crew of haggard-looking blokes in Kodi-branded T-shirts stand on the hotel steps, blinking in the unfamiliar daylight.")
 
-_Team Kodi, DevCon 2024_
+*Team Kodi (plus guest), DevCon 2024*
 
 So, that's it: as suitcases are already trundling into the distance, DevCon 2024 draws to a close. Thanks for following along, we hope that you've found these posts informative, and eternal thanks for continuing to support Kodi.
 
