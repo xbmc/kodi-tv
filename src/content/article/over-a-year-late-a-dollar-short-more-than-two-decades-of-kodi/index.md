@@ -6,7 +6,7 @@ tags:
   - Community
 featured_image:
   src: /images/blog/xbmc-2003-1080p.webp
-  title: XBOX Media Player Home Screen, 2003
+  title: Original XBOX Media Player Home Screen, 2003
   alt: Image of the original XBMP home screen and menu
 ---
 Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my - and the project's - journey.
@@ -27,7 +27,11 @@ While many folk worked on getting Linux and various other things running, the pr
 
 [XBMP](https://sourceforge.net/projects/xbplayer/) came out in 2002 as the convergence of two separate closed source apps natively written with the Microsoft Xbox Development Kit by **d7o3g4q** (a.k.a. duo) and **RUNTiME**. As many at the time pointed out, since it was leveraging GPL code, it likely needed to be open source. At the same time, another developer - **Frodo** - had created [YAMP](https://sourceforge.net/projects/xbyamp/) as "Yet Another Media Player"; when this project also converged at the end of 2002, [Xbox Media Center](https://sourceforge.net/projects/xbmc/), or XBMC, was born. While the initial beta was closed source, the developers quickly open sourced it and it's been open source ever since.
 
-![XBMC Home Screen, 2007](/images/blog/xbmc-2007-1080p.webp "Image of the 2007 XBMC home screen and menu")
+![XBMC v2 Home Screen, 2007](/images/blog/xbmc-2007-1080p.webp "Image of the 2007 XBMC home screen and menu")
+
+*XBMC v2, released September 2006*
+
+
 
 (You can even have a read of the [original manual](https://kodi.tv/images/xbmp2.4manual.english.pdf) if you like!)
 
@@ -39,7 +43,11 @@ The developers themselves deserve a ton of recognition: their tireless pursuit o
 
 But these folks did not do this in a vacuum: as the saying goes, "it takes a village". [FFmpeg](https://ffmpeg.org), for example, being the Internet's Swiss Army knife for video, handles so much of the core rendering and playback. In developer parlance, we call these 'dependencies' but I prefer to think of these types of library as the backbone. Without the ability to stand on the shoulder of these mammoth libraries, XBMC devs would never have been able to focus so much on the skinning and user experience. While XBMC was initially heavily based on [mplayer](http://www.mplayerhq.hu), which is now known as [mpv](https://mpv.io), it has evolved into being closely tied to FFmpeg. 
 
-![XBMC Home Screen, 2009](/images/blog/xbmc-2009-1080p.webp "Image of the 2009 XBMC home screen and menu")
+![XBMC v9 "Babylon" Home Screen, 2009](/images/blog/xbmc-2009-1080p.webp "Image of the 2009 XBMC home screen and menu")
+
+*XBMC v9 "Babylon", released May 2009*
+
+
 
 There are also countless other contributors - to the code, artwork, forum, and beyond - who absolutely have to be acknowledged. It's been a long journey from those early applications thru XBMP and XBMC to today's Kodi, but it's clear that the application wouldn't be what it is without the add-on ecosystem, translators, community moderators, volunteer artists, system admins, database admins, and many more.
 
@@ -49,7 +57,11 @@ And while devs have came and gone, the project has lived on, continuing to expan
 
 One of the parts that some don't realize is since our initial development, we've always been a monolithic application, meaning the entire codebase must be ported to the desired platform. I've said we're the "largest open-source multimedia project" for years, half-jokingly, but I mean this by the literal lines of code that it takes to run it.
 
-![XBMC Home Screen, 2012](/images/blog/xbmc-2012-1080p.webp "Image of the 2012 XBMC home screen and menu")
+![XBMC v10 "Dharma" Home Screen, 2012](/images/blog/xbmc-2012-1080p.webp "Image of the 2012 XBMC home screen and menu")
+
+*XBMC v10 "Dharma", released December 2010*
+
+
 
 And we've stayed volunteer. As a consumer-oriented open-source project, no company has ever sponsored more than a port or a feature; indeed, since the nonprofit foundation behind it isn't setup to be engaged, at worst companies have simply given some money to an individual to work on a feature. Even this is definitely not the norm: 99.9% of Kodi has been built out of passion and love for multimedia and the desire to have an open-source platform for which people can decide the look and feel and customize to their liking, in both hardware and software terms. 
 
@@ -63,7 +75,11 @@ Sorry this became so wordy, but I've been wanting to write a "20 year blog post"
 
 So, let's raise our glasses for over 20 years, and, yes, we still have MANY lines of original, first generation code! We have to thank everyone who's been involved and supported us: everyone who submitted a pull request or posted a message on the forum, all the devs who have tirelessly worked on the 'dependency' libraries that mean so much to us, and especially the official Team XBMC and Kodi Foundation developers. You folks, who continue to iterate, tweak and build the future of this platform, enable millions to consume media without having to care about how it works and why.
 
-![Kodi Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 Kodi home screen and menu")
+![XBMC v13 "Gotham" Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 Kodi home screen and menu")
+
+*XBMC v13 "Gotham", released May 2014*
+
+
 
 And while you're here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we're volunteers, and the only money our non-profit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc's [Kodi Raspberry Pi case](https://flirc.tv/collections/case).
 
