@@ -9,7 +9,7 @@ featured_image:
   title: XBOX Media Player Home Screen, 2003
   alt: Image of the original XBMP home screen and menu
 ---
-Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my journey.
+Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my - and the project's - journey.
 
 **In the Beginning...**
 
@@ -65,7 +65,7 @@ So, let's raise our glasses for over 20 years, and, yes, we still have MANY line
 
 ![Kodi Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 Kodi home screen and menu")
 
-And while you're here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we're volunteers, and the only money our non-profit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc's Kodi Raspberry Pi case.
+And while you're here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we're volunteers, and the only money our non-profit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc's [Kodi Raspberry Pi case](https://flirc.tv/collections/case).
 
 Take your pick from [a dark T-shirt](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-dark?product=46&variation=2752), [a light T-shirt](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=46&variation=2750), [a pillow](https://kodi-t-shirt-store.creator-spring.com/listing/kodi-nexus-light?product=585) or something else from the [whole store](https://kodi-t-shirt-store.creator-spring.com/).
 
