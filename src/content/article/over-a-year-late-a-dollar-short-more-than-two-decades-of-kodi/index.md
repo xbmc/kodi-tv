@@ -6,7 +6,7 @@ tags:
   - Community
 featured_image:
   src: /images/blog/xbmc-2003-1080p.webp
-  title: Original XBOX Media Player Home Screen, 2003
+  title: Original Xbox Media Player Home Screen, 2003
   alt: Image of the original XBMP home screen and menu
 ---
 Hi, everyone - I'm Keith, and while I now find myself President of the Kodi Foundation, my initial involvement with Kodi goes way back, as a humble user. Since our 20th anniversary came and went, I've been meaning to write a bit of a look back on how we got here - how *I* got here. This is the story of my - and the project's - journey.
