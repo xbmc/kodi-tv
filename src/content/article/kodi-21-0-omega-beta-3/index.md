@@ -21,7 +21,7 @@ First, we'd like to make a few targeted announcements.
 
 **Android users**
 
-Many users may still be on the Kodi testing track for their Android devices. It's far easier to leave the testing track from a 'phone-based device, but be aware that if your device is on the testing track, we will be continuing to deploy Beta 3 releases over the next week or so. If you wish to opt out of the testing group, one way you can is by visiting the following link [Google Play - Kodi testing track](https://play.google.com/apps/testing/org.xbmc.kodi). From here, you can opt out for your Google Play account. This is the best (and possibly only) way to opt out on many Android TV devices (e.g. Nvidia Shields).
+Many users may still be on the Kodi testing track for their Android devices. It's far easier to leave the testing track from a 'phone-based device, but be aware that if your device is on the testing track, we will be continuing to deploy Beta 3 releases over the next week or so. If you wish to opt out of the testing group, one way you can is by visiting the following link [Google Play - Kodi testing track](https://play.google.com/apps/testing/org.xbmc.kodi). From here, you can opt out for your Google Play account. This is the best (and possibly only) way to opt out on many Android TV devices (e.g. Nvidia Shield).
 
 With that said, for those adventurous types who would like to help us with testing, you can use the same link to opt in for a Google Play account.
 
@@ -48,7 +48,7 @@ And now, for the list of changes for Beta 3.
 **General**
 
 * The way in which buffer fill was handled was changed to care more for low-power CPU devices. Under certain circumstances, and with especially high manually-configured `readbuffer` factors, the buffer filling thread caused high CPU usage and introduced stutter by itself.
-* Implemented new "Adaptive" setting in Services / Caching / Read Factor that allows a variable read factor based on cache level. This means that the cache fills faster, while at same time using a less aggressive read factor when it's already filled.
+* Implemented a new "Adaptive" setting in Services / Caching / Read Factor that implements a variable read factor based on cache level. This means that the cache fills faster, while at the same time using a less-aggressive read factor when the cache is already full.
 * Fixed media served through plugins not being accessible when a master lock is used.
 
 **JSON-RPC**
@@ -76,7 +76,7 @@ And now, for the list of changes for Beta 3.
   * Disable VTB (hardware decoding) for real-time interlaced videos.
 * **Linux**:
 
-  * Pipewire sink got a fixup for sample rate switching. With that updated code, the back-end server of Pipewire will switch the base sample rate whenever Kodi is run without additional other clients. This way, Kodi's audio will be output in the best possible and lossless way throughout the audio chain, including soundserver and audio device.
+  * Pipewire sink got a fixup for sample rate switching. With that updated code, the back-end server of Pipewire will switch the base sample rate whenever Kodi is run without additional clients. This way, Kodi's audio will be output in the best possible and lossless way throughout the audio chain, including soundserver and audio device.
   * Adjusted dependencies to build packages compatible with Ubuntu *Focal* to *Noble* for CPack building
   * **@fightforlife** has fixed an issue with RenderCapture used by things like Hyperion that fixes sporadic black screen captures
 * **webOS**
@@ -102,7 +102,7 @@ And now, for the list of changes for Beta 3.
 
 **Skinning**
 
-* The estouchy skin has been retired from default installs. If anyone would like to continue working on the skin for future use/availability, you can find the new home for the skin at https://github.com/jjd-uk/skin.estouchy for now.
+* The Estouchy skin has been retired from default installs. If anyone would like to continue working on the skin for future use/availability, you can find the new home for the skin at https://github.com/jjd-uk/skin.estouchy for now.
 * The player control dialog for Estuary has been updated, along with other changes to bring the skin up to date for 5.17.0 API.
 * A fix for duplicate music flags was made by **@jjd-uk**.
 
@@ -119,7 +119,7 @@ You can see open issues on our tracker at https://github.com/xbmc/xbmc/issues. H
 * We've had reports that the new splash screen looks like an OpenGL corruption; we know, it's not a problem, so don't panic. We'd be happy to have your artwork contributions if you'd like to work on an alternative. 
 * If remote sources are unavailable at startup, users are seeing significant delays while waiting (https://github.com/xbmc/xbmc/issues/23958).
 
-We continue to march forward to what we hope will be a successful v21 Omega release in the new year. 
+We continue to march forward to what we hope will be a successful v21 Omega release later this year. 
 
 If you love to live on the bleeding edge, you can get Beta 3 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs.
 
