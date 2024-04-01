@@ -75,7 +75,7 @@ Sorry this became so wordy, but I've been wanting to write a "20 year blog post"
 
 So, let's raise our glasses for over 20 years, and, yes, we still have MANY lines of original, first generation code! We have to thank everyone who's been involved and supported us: everyone who submitted a pull request or posted a message on the forum, all the devs who have tirelessly worked on the 'dependency' libraries that mean so much to us, and especially the official Team XBMC and Kodi Foundation developers. You folks, who continue to iterate, tweak and build the future of this platform, enable millions to consume media without having to care about how it works and why.
 
-![XBMC v13 "Gotham" Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 Kodi home screen and menu")
+![XBMC v13 "Gotham" Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 XBMC home screen and menu")
 
 *XBMC v13 "Gotham", released May 2014*
 
