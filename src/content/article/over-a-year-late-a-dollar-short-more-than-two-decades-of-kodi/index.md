@@ -25,33 +25,29 @@ Long before we had the Raspberry Pi, OpenWrt routers and other tinkerer's dream 
 
 While many folk worked on getting Linux and various other things running, the project that attracted me the most was Xbox Media Player. This brought the ability to play compressed media to the Xbox: up until this point, only a computer could play these files, and if you were one of the those super early adopters who had network cables strung across your house, you could now even stream it over the network or the Internet (which was definitely not fast enough for video… yet!).
 
-[XBMP](https://sourceforge.net/projects/xbplayer/) came out in 2002 as the convergence of two separate closed source apps natively written with the Microsoft Xbox Development Kit by **d7o3g4q** (a.k.a. duo) and **RUNTiME**. As many at the time pointed out, since it was leveraging GPL code, it likely needed to be open source. At the same time, another developer - **Frodo** - had created [YAMP](https://sourceforge.net/projects/xbyamp/) as "Yet Another Media Player"; when this project also converged at the end of 2002, [Xbox Media Center](https://sourceforge.net/projects/xbmc/), or XBMC, was born. While the initial beta was closed source, the developers quickly open sourced it and it's been open source ever since.
+[XBMP](https://sourceforge.net/projects/xbplayer/) came out in 2002 as the convergence of two separate closed source apps natively written with the Microsoft Xbox Development Kit by **d7o3g4q** (a.k.a. duo) and **RUNTiME**. As many at the time pointed out, since it was leveraging GPL code, it likely needed to be open source. At the same time, another developer - **Frodo** - had created [YAMP](https://sourceforge.net/projects/xbyamp/) as "Yet Another Media Player"; when these projects also converged at the end of 2002, [Xbox Media Center](https://sourceforge.net/projects/xbmc/), or XBMC, was born. While the initial beta was closed source, the developers quickly open sourced it and it's been open source ever since.
 
 ![XBMC v2 Home Screen, 2007](/images/blog/xbmc-2007-1080p.webp "Image of the 2007 XBMC home screen and menu")
 
 *XBMC v2, released September 2006*
 
-
-
 (You can even have a read of the [original manual](https://kodi.tv/images/xbmp2.4manual.english.pdf) if you like!)
 
-I was a dedicated Xbox user at the time, for everything besides gaming. I diligently connected to #xbins on EFnet to find the new binary release and watched in awe the quick iteration these folks were doing, adding so many incredible features, even supporting things like CD+G for Karaoke. You have to realise how groundbreaking a library mode was, allowing you to peruse your stored media collection while everyone else - even Netflix - was still renting DVDs by post or picking them up in strip mall stores. 
+I was a dedicated Xbox user at the time, for everything besides gaming. I diligently connected to #xbins on EFnet to find the latest binary release and watched in awe the quick iteration these folks were doing, adding so many incredible features, even supporting things like CD+G for Karaoke. You have to realise how groundbreaking a library mode was, allowing you to peruse your stored media collection while everyone else - even Netflix - was still renting DVDs by post or picking them up in strip mall stores. 
 
 The developers themselves deserve a ton of recognition: their tireless pursuit of the best media experience, one that was infinitely customizable and powerful and something they were proud of. While most have moved on to other things, a few, like **spiff**, remain around since those early days, and are still here to let others know why certain things are why they are and even to still occasionally contribute code.
 
 **Success Has Many Parents**
 
-But these folks did not do this in a vacuum: as the saying goes, "it takes a village". [FFmpeg](https://ffmpeg.org), for example, being the Internet's Swiss Army knife for video, handles so much of the core rendering and playback. In developer parlance, we call these 'dependencies' but I prefer to think of these types of library as the backbone. Without the ability to stand on the shoulder of these mammoth libraries, XBMC devs would never have been able to focus so much on the skinning and user experience. While XBMC was initially heavily based on [mplayer](http://www.mplayerhq.hu), which is now known as [mpv](https://mpv.io), it has evolved into being closely tied to FFmpeg. 
+But these folks did not do this in a vacuum: as the saying goes, "it takes a village". [FFmpeg](https://ffmpeg.org), for example, being the Internet's Swiss Army knife for video, handles so much of the core rendering and playback. In developer parlance, we call these 'dependencies' but I prefer to think of these types of libraries as the backbone. Without the ability to stand on the shoulder of these mammoth libraries, XBMC devs would never have been able to focus so much on the skinning and user experience. While XBMC was initially heavily based on [mplayer](http://www.mplayerhq.hu), which is now known as [mpv](https://mpv.io), it has evolved into being closely tied to FFmpeg. 
 
 ![XBMC v9 "Babylon" Home Screen, 2009](/images/blog/xbmc-2009-1080p.webp "Image of the 2009 XBMC home screen and menu")
 
 *XBMC v9 "Babylon", released May 2009*
 
-
-
 There are also countless other contributors - to the code, artwork, forum, and beyond - who absolutely have to be acknowledged. It's been a long journey from those early applications thru XBMP and XBMC to today's Kodi, but it's clear that the application wouldn't be what it is without the add-on ecosystem, translators, community moderators, volunteer artists, system admins, database admins, and many more.
 
-And while devs have came and gone, the project has lived on, continuing to expand to every major platform it possibly can, even to a couple of smart TV ones now. Highly unusual - maybe unique - as an open-source application that started on a Microsoft product before spreading further to so many other, disparate platforms, Kodi has now even come full circle to be back in the [Xbox Store](https://apps.microsoft.com/detail/9NBLGGH4T892?hl=en-US&gl=US) (although, somewhat ironically, Microsoft platforms have become increasingly challenging for us because we lack current developer knowledge). We still try to bring all the functionality we can to every platform we can: you've got a weird mod file, from your demoscene days? Still got a pile of FLVs? We got you. What about wanting to stream Widevine-enabled Internet content with an open-source project? Yeah, we see you and we care.
+And while devs have came and gone, the project has lived on, continuing to expand to every major platform it possibly can, even to a couple of smart TVs now. Highly unusual - maybe unique - as an open-source application that started on a Microsoft product before spreading further to so many other, disparate platforms, Kodi has now even come full circle to be back in the [Xbox Store](https://apps.microsoft.com/detail/9NBLGGH4T892?hl=en-US&gl=US) (although, somewhat ironically, Microsoft platforms have become increasingly challenging for us because we lack current developer knowledge). We still try to bring all the functionality we can to every platform we can: you've got a weird mod file, from your demoscene days? Still got a pile of FLVs? We got you. What about wanting to stream Widevine-enabled Internet content with an open-source project? Yeah, we see you and we care.
 
 **So, Here We Are**
 
@@ -61,8 +57,6 @@ One of the parts that some don't realize is since our initial development, we've
 
 *XBMC v10 "Dharma", released December 2010*
 
-
-
 And we've stayed volunteer. As a consumer-oriented open-source project, no company has ever sponsored more than a port or a feature; indeed, since the nonprofit foundation behind it isn't setup to be engaged, at worst companies have simply given some money to an individual to work on a feature. Even this is definitely not the norm: 99.9% of Kodi has been built out of passion and love for multimedia and the desire to have an open-source platform for which people can decide the look and feel and customize to their liking, in both hardware and software terms. 
 
 I do have to call out our longest and biggest sponsor and partner, [Flirc](https://flirc.tv): their support with this project has been unwavering.
@@ -71,15 +65,13 @@ This is truly software on your own terms, and to me, is the essence of open sour
 
 **Wrapping it All Up**
 
-Sorry this became so wordy, but I've been wanting to write a "20 year blog post" for so long, and it's now been nearly 22 years since XBMP binaries first became available. Time flies. I hope this blog helped you stop for a moment and marvel at how far we've come, even if you've only been a user since we've been called Kodi: the developers see themselves in you and you're the reason why they've kept hacking on this project for so long.
+Sorry this became so wordy, but I've been wanting to write a "20 year blog post" for so long, and it's now been nearly 22 years since XBMP binaries first became available. Time flies. I hope this blog helped you stop for a moment and marvel at how far we've come, even if you've only been a user since we've been called Kodi: the developers see themselves in you and you're the reason why we've kept hacking on this project for so long.
 
 So, let's raise our glasses for over 20 years, and, yes, we still have MANY lines of original, first generation code! We have to thank everyone who's been involved and supported us: everyone who submitted a pull request or posted a message on the forum, all the devs who have tirelessly worked on the 'dependency' libraries that mean so much to us, and especially the official Team XBMC and Kodi Foundation developers. You folks, who continue to iterate, tweak and build the future of this platform, enable millions to consume media without having to care about how it works and why.
 
 ![XBMC v13 "Gotham" Home Screen, 2014](/images/blog/kodi-2014-1080p.webp "Image of the 2014 XBMC home screen and menu")
 
 *XBMC v13 "Gotham", released May 2014*
-
-
 
 And while you're here, we made a T-shirt to commemorate this moment! It (hopefully) has every team member on it. As we said, we're volunteers, and the only money our non-profit receives is thru donations, merchandise and the only licensed product we’ve ever been a part of, Flirc's [Kodi Raspberry Pi case](https://flirc.tv/collections/case).
 
@@ -89,7 +81,7 @@ Please, purchase something, and help us to keep thriving for the next 20 years; 
 
 Oh, and while I'm asking: if anyone knows any non profit open source lawyers that are prepared to help us with things like trademark registration and maintenance of the Foundation, please send them our way! Legal-at-kodi-dot-tv.
 
-Thanks again. I have no idea what the next 20 years will bring, or whether I will personally still be involved, but, for as long as this project is still needed, I know we'll all try our best to support it.
+Thanks again. I have no idea what the next 20 years will bring, or whether I will personally still be involved, but, for as long as developers and users are still interested, I know we'll all try our best to support it.
 
 Keith Herrington\
 President, Kodi Foundation
