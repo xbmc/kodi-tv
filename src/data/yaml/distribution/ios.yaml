@@ -1,28 +1,26 @@
 name: iOS
 icon: /images/distributions/ios.webp
-version: 20
+version: 21
 sort_order: 6
 howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_iOS
 releases:
   - name: Recommended
-    title: Kodi v20.5 (Nexus)
+    title: Kodi v21 (Omega)
     description: To install Kodi for iOS you must have a jailbroken iDevice running
       iOS 6.0 or higher (8.0 or higher recommended). Just open your favorite
       package manager and search for Kodi in the BigBoss repository. For more
       detailed help, check the 'How To' link for instructions.
     downloads:
       - name: iOS (64 Bit)
-        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_20.5_iphoneos-arm64.deb?https=1
+        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_21.0_iphoneos-arm64.deb?https=1
   - name: Prerelease
-    title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Release Candidate 2** pre-release build has become available
-      because we think it is ready for wider testing and usage. It also means we
-      are getting closer to a stable release of v21.
-    downloads:
-      - name: iOS (64 Bit)
-        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_21.0~rc2_iphoneos-arm64.deb?https=1
+    title: Kodi v22 (P...) Pre-release Builds
+    description: There are no Pre-Release builds available for Kodi v22. Choose from
+      either the Official stable release in the *Recommended* tab, or a nightly
+      build from the *Development Builds* tab.
+    downloads: []
   - name: Development Builds
-    title: Kodi v20 & v21 Nightly Development Builds
+    title: Kodi v21 & v22 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -37,7 +35,7 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: v20 iOS (64 Bit)
-        url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/Nexus/
       - name: v21 iOS (64 Bit)
+        url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/Omega/
+      - name: v22 iOS (64 Bit)
         url: https://mirrors.kodi.tv/nightlies/darwin/ios-arm64/master/
