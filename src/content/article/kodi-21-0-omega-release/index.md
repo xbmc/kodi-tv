@@ -52,10 +52,10 @@ If you experience any issues or find any remaining bugs, please post in the [Gen
 
 **Donate**
 
-To show support and appreciation for Kodi, please consider [making a donation](https://kodi.tv/contribute/donate) or [purchasing merchandise](https://kodi.tv/store) such as a T-shirt or Raspberry Pi case. Your donations are greatly appreciated and help us operate, covering operating expenses, hardware and software licences for developers, and legal fees, as well as paying for team members to attend industry/FLOSS events and our annual conference.
+To show support and appreciation for Kodi, please consider [making a donation](https://kodi.tv/contribute/donate) or [purchasing merchandise](https://kodi.tv/store) such as a T-shirt or Raspberry Pi case. Your donations are greatly appreciated and help us to function, covering operating expenses, hardware and software licences for developers, and legal fees, as well as paying for team members to attend industry/FLOSS events and our annual conference.
 
 **Availability**
 
 Kodi 21.0 "Omega" is being pushed to the usual channels right now, both our own [download](https://kodi.tv/download) pages and various app stores/repositories, so should be with your devices shortly. It's worth noting that, for the first time in a while, we've cleared all known blockers, so all supported platforms will be updated just as soon as the various app stores process things.
 
-If you are an android user and wish to update to Kodi 21.0 asap, you can either sideload, or join the [Google Play - Kodi testing track](https://play.google.com/apps/testing/org.xbmc.kodi) which will get the release submitted asap. The Open release will be promoted from the testing track in a week or two. We strongly advise Android users who use alternate skins to follow up with their skin developer, or to disable auto update before this time period.
+If you are an Android user and wish to update to Kodi 21.0 as soon as possible, you can either sideload, or join the [Google Play - Kodi testing track](https://play.google.com/apps/testing/org.xbmc.kodi) which will get the release submitted more quickly. The "open" release will be promoted from the testing track in a week or two. We strongly advise Android users who use alternative skins to follow up with their skin developer, or to disable auto update before this time period, as not every skin will yet have been updated.
