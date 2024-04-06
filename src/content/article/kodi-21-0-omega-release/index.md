@@ -20,11 +20,11 @@ Let's review some of the changes you can expect:
 
 **FFmpeg 6**
 
-Kodi relies significantly on FFmpeg to do a lot of heavy lifting for us. Many developers have contributed to upgrading the project to make use the the newer FFmpeg releases over the past 15 months, initially starting with targeting FFmpeg 5, but later updating to FFmpeg 6. We are always greatly appreciative of the work of all of the Open Source software projects that we rely on on our journey to bring you Kodi.
+Kodi relies significantly on FFmpeg to do a lot of heavy lifting for us. Many developers have contributed to upgrading the project to make use of the newer FFmpeg releases over the past 15 months, initially starting with targeting FFmpeg 5, but later updating to FFmpeg 6. We are always greatly appreciative of the work of all of the Open Source software projects that we rely on to bring you Kodi.
 
 **DolbyVision On-the-Fly Profile Conversion**
 
-For our Android users, a fantastic contribution from **quietvoid** allows users to convert some less-well supported DV profile types to more well-supported profiles.
+For our Android users, a fantastic contribution from **quietvoid** allows users to convert some less well-supported DV profile types to more well-supported profiles.
 
 **macOS Now Uses "Native" Windowing**
 
