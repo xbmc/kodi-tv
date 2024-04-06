@@ -12,8 +12,10 @@ releases:
       use the Apple TV remote, among others, for control of Kodi. An Intel Mac
       running OS X 10.13 or higher is required.
     downloads:
-      - name: Installer (64BIT)
+      - name: Intel (x86_64)
         url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-21.0-Omega-x86_64.dmg?https=1
+      - name: Apple Silicon (ARM64)
+        url: https://mirrors.kodi.tv/releases/osx/arm64/kodi-21.0-Omega-arm64.dmg?https=1
   - name: Prerelease
     title: Kodi v22 (P...) Pre-release Builds
     description: There are no Pre-Release builds available for Kodi v22. Choose from
