@@ -12,11 +12,27 @@ to = "/about/foundation"
 
 [[redirects]]
 from = "/addons/browse"
-to = "/addons/nexus/search"
+to = "/addons/omega/search"
 
 [[redirects]]
 from = "/addon-top-authors"
-to = "/addons/nexus/top-authors"
+to = "/addons/omega/top-authors"
+
+[[redirects]]
+from = "/addons/nexus/search"
+to = "/addons/omega/search"
+
+[[redirects]]
+from = "/addons/nexus/search/*"
+to = "/addons/omega/search/:splat"
+
+[[redirects]]
+from = "/addons/nexus/top-authors"
+to = "/addons/omega/top-authors"
+
+[[redirects]]
+from = "/addons/nexus/top-authors/*"
+to = "/addons/omega/top-authors/:splat"
 
 [[redirects]]
 from = "/get-involved"

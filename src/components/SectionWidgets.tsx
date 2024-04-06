@@ -325,7 +325,7 @@ function AboutGallery() {
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <Link className="underline" to="/addons/nexus/category/web-interfaces">
+          <Link className="underline" to="/addons/omega/category/web-interfaces">
             web browsers
           </Link>
           , and 3rd party tools to take Kodi to the next level.

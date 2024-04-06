@@ -204,9 +204,9 @@ collections:
   - name: "featuredaddons"
     label: "Featured Add-ons"
     files:
-      - name: "nexusfeaturedlist"
-        label: "Nexus Featured Add-ons List"
-        file: "src/data/addons/nexus/featured.yaml"
+      - name: "omegafeaturedlist"
+        label: "Omega Featured Add-ons List"
+        file: "src/data/addons/omega/featured.yaml"
         fields:
           - name: "addons"
             label: "Add-ons"

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"No build script setup\"",
-    "export": "node app.js --kv=nexus --getstats"
+    "export": "node app.js --kv=omega --getstats"
   },
   "author": "pkscout <pkscout@kodi.tv>",
   "license": "GPL-3-ONLY",

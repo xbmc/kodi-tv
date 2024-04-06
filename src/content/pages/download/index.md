@@ -29,7 +29,7 @@ x-section-x officialremotes x-section-x
 
 ## Older Releases
 
-Please note, development of the v19 "Matrix" line has ended. If you discover a bug in v19, please test if the bug is also present in v20 "Nexus" and submit your bug report for v20 if present. While we do not recommend using old builds, you can [download an old build](http://mirrors.kodi.tv/releases/) from our mirrors site if you need to.
+Please note, development of the v20 "Nexus" line has ended. If you discover a bug in v20, please test if the bug is also present in v21 "Omega" and submit your bug report for v21 if present. While we do not recommend using old builds, you can [download an old build](http://mirrors.kodi.tv/releases/) from our mirrors site if you need to.
 
 ## Source Code
 
