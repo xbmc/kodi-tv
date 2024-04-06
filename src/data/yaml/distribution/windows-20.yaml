@@ -1,25 +1,25 @@
 name: webOS
 icon: /images/distributions/webos.png
-version: 20
+version: 21
 sort_order: 8
 howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_webOS
 releases:
   - name: Recommended
-    description: |-
-      There is no official release for Kodi v20.
-
-      Check the Prerelease and Development Builds tab for Kodi v21 webOS builds.
-    title: Kodi v20.5 (Nexus)
-  - name: Prerelease
-    title: Kodi v21 (Omega) Pre-release Builds
-    description: The **Release Candidate 2** pre-release build has become available
-      because we think it is ready for wider testing and usage. It also means we
-      are getting closer to a stable release of v21.
+    description: v21 Omega is the first stable release for webOS systems. Download
+      the install file and follow the installation steps in the *How-To* guide
+      from the above link
+    title: Kodi v21 (Omega)
     downloads:
-      - name: webOS
-        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_21.0~rc2.ipk?https=1
+      - name: v21 webOS
+        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_21.0.ipk?https=1
+  - name: Prerelease
+    title: Kodi v22 (P...) Pre-release Builds
+    description: There are no Pre-Release builds available for Kodi v22. Choose from
+      either the Official stable release in the *Recommended* tab, or a nightly
+      build from the *Development Builds* tab.
+    downloads: []
   - name: Development Builds
-    title: Kodi v21 Nightly Development Builds
+    title: Kodi v21 & v22 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -34,5 +34,7 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: webOS
+      - name: v21 webOS
+        url: https://mirrors.kodi.tv/nightlies/webos/Omega/
+      - name: v22 webOS
         url: https://mirrors.kodi.tv/nightlies/webos/master/
