@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import SEO from "./Seo";
@@ -28,9 +28,10 @@ export interface MenuEntry {
 }
 
 export interface DropDownItem {
+  id: string;
   title: string;
   url: { url: string; type: "external" | "internal" } | undefined;
-  icon: JSX.Element | null;
+  icon: FunctionComponent | null;
   description: string | null;
 }
 
@@ -55,8 +56,7 @@ const mainMenu: MenuEntry[] = [
     title: "Add-ons",
     url: { url: "#", type: "internal" },
     buttonType: regularButton,
-    footer:
-      "Add-on availability depends on your version of Kodi, so please select the version you are running.",
+    footer: null,
     dropdown: [
       {
         id: "addons-about",
@@ -238,7 +238,7 @@ function Header(props: any) {
                   </div>
                   <div className="hidden lg:block">
                     <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
-                      {mainMenu.map((item, index) =>
+                      {mainMenu.map(item =>
                         item.dropdown == null && item.url ? (
                           item.url.type === "internal" ? (
                             <Link
@@ -305,7 +305,7 @@ function Header(props: any) {
                         </a>
                       )
                     ) : (
-                      <HeaderDropdownMenuMobile key={item.url.url} menu={item} />
+                      <HeaderDropdownMenuMobile key={item.url?.url} menu={item} />
                     ),
                   )}
                 </div>
