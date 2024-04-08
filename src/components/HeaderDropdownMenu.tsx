@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createElement } from "react";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
@@ -50,7 +50,11 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                         to={item.url?.url!}
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
                       >
-                        <item.icon className="flex-shrink-0 h-6 w-6 text-kodi" />
+                        {item.icon && (
+                          <div className="flex-shrink-0 h-6 w-6 text-kodi">
+                            {createElement(item.icon, {})}
+                          </div>
+                        )}
                         <div className="ml-4">
                           <p className="text-base font-medium text-gray-900">
                             {item.title}
@@ -66,7 +70,11 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                         href={item.url?.url!}
                         className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
                       >
-                        <item.icon className="flex-shrink-0 h-6 w-6 text-kodi" />
+                        {item.icon && (
+                          <div className="flex-shrink-0 h-6 w-6 text-kodi">
+                            {createElement(item.icon, {})}
+                          </div>
+                        )}
                         <div className="ml-4">
                           <p className="text-base font-medium text-gray-900">
                             {item.title}

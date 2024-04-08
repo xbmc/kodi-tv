@@ -37,7 +37,7 @@ jobs:
         run: npm install
 
       - name: Run addon-parser and get site stats
-        run: node app.js --kv=nexus --getstats
+        run: node app.js --kv=omega --getstats
 
       - name: Push new files back
         uses: mikeal/publish-to-github-action@master

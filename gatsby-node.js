@@ -143,10 +143,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 
-  // *** Begin Nexus Addon Page Builds
-  const nexusaddonresults = await graphql(`
+  // *** Begin Omega Addon Page Builds
+  const omegaaddonresults = await graphql(`
     query MyQuery {
-      allNexusAddon {
+      allOmegaAddon {
         nodes {
           slug
         }
@@ -154,24 +154,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  if (nexusaddonresults.errors) {
-    reporter.panicOnBuild(`Error while running Nexus Add-on GraphQL query.`);
+  if (omegaaddonresults.errors) {
+    reporter.panicOnBuild(`Error while running Omega Add-on GraphQL query.`);
     return;
   }
 
-  nexusaddonresults.data.allNexusAddon.nodes.forEach(addon => {
+  omegaaddonresults.data.allOmegaAddon.nodes.forEach(addon => {
     createPage({
-      path: "addons/nexus/" + addon.slug,
-      component: path.resolve(`src/templates/nexus/addon.tsx`),
+      path: "addons/omega/" + addon.slug,
+      component: path.resolve(`src/templates/omega/addon.tsx`),
       context: {
         slug: addon.slug,
       },
     });
   });
 
-  const nexuscategoryresults = await graphql(`
+  const omegacategoryresults = await graphql(`
     query MyQuery {
-      allNexusCategory {
+      allOmegaCategory {
         nodes {
           slug
         }
@@ -179,26 +179,26 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  if (nexuscategoryresults.errors) {
+  if (omegacategoryresults.errors) {
     reporter.panicOnBuild(
-      `Error while running Nexus Add-on Category GraphQL query.`,
+      `Error while running Omega Add-on Category GraphQL query.`,
     );
     return;
   }
 
-  nexuscategoryresults.data.allNexusCategory.nodes.forEach(category => {
+  omegacategoryresults.data.allOmegaCategory.nodes.forEach(category => {
     createPage({
-      path: "addons/nexus/category/" + category.slug,
-      component: path.resolve(`src/templates/nexus/category.tsx`),
+      path: "addons/omega/category/" + category.slug,
+      component: path.resolve(`src/templates/omega/category.tsx`),
       context: {
         slug: category.slug,
       },
     });
   });
 
-  const nexusauthorresults = await graphql(`
+  const omegaauthorresults = await graphql(`
     query MyQuery {
-      allNexusAuthor {
+      allOmegaAuthor {
         nodes {
           slug
         }
@@ -206,21 +206,21 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     }
   `);
 
-  if (nexusauthorresults.errors) {
-    reporter.panicOnBuild(`Error while running Nexus Add-on Author GraphQL query.`);
+  if (omegaauthorresults.errors) {
+    reporter.panicOnBuild(`Error while running Omega Add-on Author GraphQL query.`);
     return;
   }
 
-  nexusauthorresults.data.allNexusAuthor.nodes.forEach(author => {
+  omegaauthorresults.data.allOmegaAuthor.nodes.forEach(author => {
     createPage({
-      path: "addons/nexus/author/" + author.slug,
-      component: path.resolve(`src/templates/nexus/author.tsx`),
+      path: "addons/omega/author/" + author.slug,
+      component: path.resolve(`src/templates/omega/author.tsx`),
       context: {
         slug: author.slug,
       },
     });
   });
-  // *** End Nexus Addon Page Builds
+  // *** End Omega Addon Page Builds
 
   const distresults = await graphql(`
     query MyQuery {

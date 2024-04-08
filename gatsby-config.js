@@ -175,7 +175,7 @@ module.exports = {
     {
       resolve: `gatsby-source-kodiaddon`,
       options: {
-        kodiversions: ["nexus"],
+        kodiversions: ["omega"],
       },
     },
     {

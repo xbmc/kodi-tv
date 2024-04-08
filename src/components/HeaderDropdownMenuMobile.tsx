@@ -37,7 +37,7 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {props.menu.dropdown?.map((item, index) =>
-              item.url.type === "internal" ? (
+              item.url?.type === "internal" ? (
                 <Link
                   key={item.url.url}
                   to={item.url.url}
@@ -47,8 +47,8 @@ function HeaderDropdownMenuMobile(props: { menu: MenuEntry }) {
                 </Link>
               ) : (
                 <a
-                  key={item.url.url}
-                  href={item.url.url}
+                  key={item.url?.url}
+                  href={item.url?.url}
                   className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   {item.title}
