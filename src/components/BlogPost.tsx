@@ -37,13 +37,23 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
       >
         <div className="max-w-7xl mx-auto">
           <div className="relative shadow-xl rounded-2xl overflow-hidden">
-            <div className="absolute inset-0">
-              <img
-                className="h-full w-full object-fill"
-                src={blogPost.frontmatter.featured_image.src}
-                title={blogPost.frontmatter.featured_image.title}
-                alt={blogPost.frontmatter.featured_image.alt}
-              />
+            <div
+              style={{
+                backgroundImage: `url('${blogPost.frontmatter.featured_image.src}')`,
+                backgroundSize: "fill",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+              className="absolute inset-0"
+            >
+              <div className="absolute inset-0 backdrop-blur-lg bg-black/10">
+                <img
+                  className="h-full w-full object-contain"
+                  src={blogPost.frontmatter.featured_image.src}
+                  title={blogPost.frontmatter.featured_image.title}
+                  alt={blogPost.frontmatter.featured_image.alt}
+                />
+              </div>
             </div>
             <div className="relative px-6 py-40"></div>
           </div>
