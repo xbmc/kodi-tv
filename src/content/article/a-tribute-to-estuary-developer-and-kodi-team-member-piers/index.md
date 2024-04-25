@@ -7,7 +7,7 @@ tags:
 featured_image:
   src: /images/blog/piers_avatar.webp
 ---
-![Piers](https://github.com/xbmc/blog/assets/6093716/497b4877-caf1-4b51-9cde-293c05faabca)
+# **WORK IN PROGRESS**
 
 In 2015, Kodi’s default theme Confluence was growing long in the tooth. Most of the really exciting skins from that time accomplished far more, and Confluence was ultimately a 2009 update to an existing skin called MediaStream that was itself several years old. It was time for Confluence to retire. We needed something new that adhered to the UX best practices of the time. 
 
