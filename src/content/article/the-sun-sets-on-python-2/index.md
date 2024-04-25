@@ -5,6 +5,11 @@ author: Team Kodi
 tags:
   - Developer
   - Community
+featured_image:
+  src: /images/blog/python_logo.webp
+  title: Python logo
+  alt: The blu and yellow Python logo, seemingly two interlocking snakes (probably
+    pythons, now I think about it)
 ---
 Recently, Team Kodi proudly released Kodi v21 "Omega", the latest major release of our popular media centre software.
 
