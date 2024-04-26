@@ -7,17 +7,15 @@ tags:
 featured_image:
   src: /images/blog/piers_avatar.webp
 ---
-# **WORK IN PROGRESS**
-
 In 2015, Kodi’s default theme Confluence was growing long in the tooth. Most of the really exciting skins from that time accomplished far more, and Confluence was ultimately a 2009 update to an existing skin called MediaStream that was itself several years old. It was time for Confluence to retire. We needed something new that adhered to the UX best practices of the time. 
 
 I proposed some wireframes based on Google’s Material Design that were pretty vague, but I hoped would be enough to get us started. Almost immediately, our team of skilled skinners (okay: Phil65, ronie and Piers) jumped on the task. I made my initial suggestion early on the 17th of June, and Piers had already mocked up a complete home page later that day. His post at that time introducing the mockup had me chuckling for days. Once an idea struck him, the guy worked tirelessly to see it through.
 
-![image](https://github.com/xbmc/blog/assets/6093716/98299fae-1eb8-43ce-8e10-6fb483d96fee)
+!["Zappy", the old XBMC mascot is Piers' avatar, and the text simply reads "Well, after my last post I opened Photoshop. NateThomas, I don't like you any more."](/images/blog/piers_tribute_1.webp "A snapshot a forum post by Piers' re: Confluence")
 
 By the 18th, a day later, Piers’ mockup was revamped and looked remarkably complete. Unfortunately, those early designs have been lost to the internet gods, but we do still have a screenshot of the first alpha created in August that remained quite true to those early mockups. 
 
-![image](https://github.com/xbmc/blog/assets/6093716/97113254-a826-403c-9a03-f7a6c1483cac)
+![A prototype image of what Kodi might look like - options in a vertical menu on the left, promotional images of movies and TV series across the centre and to the right](/images/blog/piers_tribute_2.webp "Original concept artwork for what became \"Confluence\", Kodi's default skin")
 
 By September, Estuary was pretty well complete with two primary themes, the 3D-styled curial and the flat style which remains the default to this day. Piers and Phil65, along with several other skinners, notably BigNoid, had introduced a variety of features including the ability to select different color styles, like pink. The team also created a separate second skin designed specifically to work for mobile devices. 
 
