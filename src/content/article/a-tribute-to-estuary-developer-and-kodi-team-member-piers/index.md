@@ -19,7 +19,7 @@ By the 18th, a day later, Piers’ mockup was revamped and looked remarkably com
 
 By September, Estuary was pretty well complete with two primary themes, the 3D-styled curial and the flat style which remains the default to this day. Piers and Phil65, along with several other skinners, notably BigNoid, had introduced a variety of features including the ability to select different color styles, like pink. The team also created a separate second skin designed specifically to work for mobile devices. 
 
-![image](/images/blog/piers_tribute_3.webp)
+![A final view of Kodi running the Estuary skin, showing how different color schemes (in this case, pink) can be used to provide subtle background cues as well as bold highlights for selected items](/images/blog/piers_tribute_3.webp "Kodi running Estuary, showing colored highlights")
 
 In 2016, these skins were officially released with Kodi 17 to universal praise within the community (for those interested in history, you can find the original blog post [here](https://kodi.tv/article/brand-new-look-future-kodi-versions/)). The work done by Piers and the team on UX/UI in 2015 and 2016 cannot be understated. They developed a lasting and original skin that remains in use to this very day. 
 
