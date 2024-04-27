@@ -9,7 +9,7 @@ featured_image:
 ---
 In 2015, Kodi’s default theme Confluence was growing long in the tooth. Most of the really exciting skins from that time accomplished far more, and Confluence was ultimately a 2009 update to an existing skin called MediaStream that was itself several years old. It was time for Confluence to retire. We needed something new that adhered to the UX best practices of the time. 
 
-I proposed some wireframes based on Google’s Material Design that were pretty vague, but I hoped would be enough to get us started. Almost immediately, our team of skilled skinners (okay: Phil65, ronie and Piers) jumped on the task. I made my initial suggestion early on the 17th of June, and Piers had already mocked up a complete home page later that day. His post at that time introducing the mockup had me chuckling for days. Once an idea struck him, the guy worked tirelessly to see it through.
+I proposed some wireframes based on Google’s Material Design that were pretty vague, but I hoped would be enough to get us started. Almost immediately, members of our team of skilled skinners (Phil65 and Piers) jumped on the task. I made my initial suggestion early on the 17th of June, and Piers had already mocked up a complete home page later that day. His post at that time introducing the mockup had me chuckling for days. Once an idea struck him, the guy worked tirelessly to see it through.
 
 !["Zappy", the old XBMC mascot is Piers' avatar, and the text simply reads "Well, after my last post I opened Photoshop. NateThomas, I don't like you any more."](/images/blog/piers_tribute_1.webp "A snapshot a forum post by Piers' re: Estuary")
 
