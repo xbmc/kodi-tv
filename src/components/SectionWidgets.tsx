@@ -2,7 +2,7 @@ import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import { Sponsor, Sponsors } from "../hooks/Sponsors";
-import { SponsorDetailList } from "./SponsorList";
+import { SponsorTypeList } from "./SponsorList";
 import {
   CodeBracketIcon,
   CloudArrowDownIcon,
@@ -19,11 +19,19 @@ import { Link } from "gatsby";
 
 function SponsorList() {
   const sponsors: Sponsor[] = Sponsors();
+  const financialSponsors = sponsors.filter(a => a.sponsor_type === "Financial");
+  const infrastructureSponsors = sponsors.filter(
+    a => a.sponsor_type === "Infrastructure",
+  );
 
   return (
     <>
       <div className="pb-6">
-        <SponsorDetailList sponsors={sponsors} />
+        <SponsorTypeList title="Financial Sponsors" sponsors={financialSponsors} />
+        <SponsorTypeList
+          title="Infrastructure Sponsors"
+          sponsors={infrastructureSponsors}
+        />
       </div>
     </>
   );
