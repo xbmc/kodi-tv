@@ -1,6 +1,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { Sponsor } from "../hooks/Sponsors";
+import { StarIcon } from "@heroicons/react/20/solid";
 
 function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
   return (
@@ -65,8 +66,9 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
             target="_blank"
             rel="noreferrer"
             href={sponsor.slug}
-            className="text-base text-gray-600 hover:text-gray-900"
+            className="text-base text-gray-600 hover:text-gray-900 flex gap-1"
           >
+            {sponsor.sponsor_type === "Financial" && <StarIcon className="size-5" />}
             {sponsor.name}
           </a>
         </li>
