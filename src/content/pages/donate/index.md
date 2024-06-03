@@ -34,6 +34,6 @@ Recurring Donations are intentionally smaller amounts that can be counted toward
 
 ## Sponsorships
 
-Has Kodi improved your business? You can give back to the project by becoming a diamond or gold sponsor.
+Has Kodi improved your business? You can give back to the project by becoming a financial or infrastructure sponsor.
 
 x-section-x visitsponsoring x-section-x

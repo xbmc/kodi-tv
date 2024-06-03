@@ -1,39 +1,51 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { Sponsor } from "../hooks/Sponsors";
+import { StarIcon } from "@heroicons/react/20/solid";
 
-function SponsorDetailList(props: { sponsors: Sponsor[] }) {
+function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
   return (
     <>
       {props.sponsors.length > 0 ? (
         <>
           <div className="relative bg-gray-50 py-6">
             <div className="mx-auto max-w-3xl lg:max-w-7xl">
-              <div className="grid grid-cols-1 gap-8">
-                {props.sponsors.map(sponsor => (
-                  <div key={sponsor.name} className="pt-6">
-                    <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center p-3 bg-gray-50 border rounded-md shadow-lg">
-                            <a href={sponsor.slug} target="_blank" rel="noreferrer">
-                              <img
-                                alt={sponsor.image.alt}
-                                title={sponsor.image.title}
-                                src={sponsor.image.src}
-                              />
-                            </a>
-                          </span>
+              <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                {props.title}
+              </h2>
+              <div className="mt-12">
+                <div className="grid grid-cols-1 gap-8">
+                  {props.sponsors.map((sponsor, index) => (
+                    <>
+                      <div key={sponsor.name} className="pt-6">
+                        <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
+                          <div className="-mt-6">
+                            <div>
+                              <span className="inline-flex items-center justify-center p-3 bg-gray-50 border rounded-md shadow-lg">
+                                <a
+                                  href={sponsor.slug}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                >
+                                  <img
+                                    alt={sponsor.image.alt}
+                                    title={sponsor.image.title}
+                                    src={sponsor.image.src}
+                                  />
+                                </a>
+                              </span>
+                            </div>
+                            <p className="mt-5 text-base text-gray-500">
+                              <ReactMarkdown className="prose max-w-none">
+                                {sponsor.body}
+                              </ReactMarkdown>
+                            </p>
+                          </div>
                         </div>
-                        <p className="mt-5 text-base text-gray-500">
-                          <ReactMarkdown className="prose max-w-none">
-                            {sponsor.body}
-                          </ReactMarkdown>
-                        </p>
                       </div>
-                    </div>
-                  </div>
-                ))}
+                    </>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -54,8 +66,9 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
             target="_blank"
             rel="noreferrer"
             href={sponsor.slug}
-            className="text-base text-gray-600 hover:text-gray-900"
+            className="text-base text-gray-600 hover:text-gray-900 flex gap-1"
           >
+            {sponsor.sponsor_type === "Financial" && <StarIcon className="size-5" />}
             {sponsor.name}
           </a>
         </li>
@@ -64,4 +77,4 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
   );
 }
 
-export { SponsorDetailList, SponsorFooterList };
+export { SponsorTypeList, SponsorFooterList };

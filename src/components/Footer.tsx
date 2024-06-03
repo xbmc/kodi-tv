@@ -5,6 +5,9 @@ import { SponsorFooterList } from "./SponsorList";
 
 function Footer() {
   const sponsors: Sponsor[] = Sponsors();
+  const orderedSponsors: Sponsor[] = sponsors
+    .filter(a => a.sponsor_type === "Financial")
+    .concat(sponsors.filter(a => a.sponsor_type === "Infrastructure"));
   let year = new Date().getFullYear();
 
   return (
@@ -88,7 +91,7 @@ function Footer() {
                     Sponsors
                   </h3>
                   <ul className="mt-4 space-y-4">
-                    <SponsorFooterList sponsors={sponsors} />
+                    <SponsorFooterList sponsors={orderedSponsors} />
                   </ul>
                 </div>
               </div>

@@ -224,13 +224,19 @@ collections:
     path: "{{name}}"
     slug: "{{name}}"
     identifier_field: "name"
-    sortable_fields: ["name"]
+    sortable_fields: ["name", "sponsor_type"]
     show_preview_links: false
     media_folder: "/static/images/sponsors"
     public_folder: "/images/sponsors"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "URL", name: "slug", widget: "string" }
+      - {
+          label: "Sponsor Type",
+          name: "sponsor_type",
+          widget: "select",
+          options: ["Financial", "Infrastructure"],
+        }
       - name: "image"
         label: "Image"
         widget: "object"
@@ -241,6 +247,12 @@ collections:
           - { name: "title", label: "Title", widget: "string" }
           - { name: "alt", label: "Alt text", widget: "string" }
       - { label: "Description", name: "body", widget: "markdown" }
+      - {
+          name: "sort_order",
+          label: "Sort Order",
+          widget: "number",
+          value_type: "int",
+        }
   - name: "store"
     label: "Store"
     label_singular: "Item"
