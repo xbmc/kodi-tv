@@ -12,7 +12,7 @@ featured_image:
 ---
 This is a little later in the development cycle than would normally be the case, but I'm sure you'll understand why.
 
-It's traditional, as we move towards release of a new version of Kodi, to begin the process of naming what will become its successor. In recent years, "Leia" gave way to "Matrix", which moved aside for "Nexus", and then on to our current version, "Omega". There's a clue there to the pattern, so P-something it is. 
+It's traditional, as we move towards the release of a new version of Kodi, to begin the process of naming what will become its successor. In recent years, "Leia" gave way to "Matrix", which moved aside for "Nexus", and then on to our current version, "Omega". There's a clue there to the pattern, so P-something it is. 
 
 We'd normally ask for suggestions, take soundings, run an internal poll and choose a winner. We were well into this process when we heard the sad news about our colleague and team member, [Piers](https://kodi.tv/article/a-tribute-to-estuary-developer-and-kodi-team-member-piers/). His death so young genuinely gave everyone pause; his contributions to Kodi were immensely valuable, and it seemed fitting to mark his passing with more than just a throwaway blog post.
 
