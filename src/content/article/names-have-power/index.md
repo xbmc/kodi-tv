@@ -14,8 +14,10 @@ This is a little later in the development cycle than would normally be the case,
 
 It's traditional, as we move towards the release of a new version of Kodi, to begin the process of naming what will become its successor. In recent years, "Leia" gave way to "Matrix", which moved aside for "Nexus", and then on to our current version, "Omega". There's a clue there to the pattern, so P-something it is. 
 
-We'd normally ask for suggestions, take soundings, run an internal poll and choose a winner. We were well into this process when we heard the sad news about our colleague and team member, [Piers](https://kodi.tv/article/a-tribute-to-estuary-developer-and-kodi-team-member-piers/). His death so young genuinely gave everyone pause; his contributions to Kodi were immensely valuable, and it seemed fitting to mark his passing with more than just a throwaway blog post.
+Our normal process would be to ask the forums and team for suggestions, edit these down to a shortlist, and then run an internal poll and choose a winner. However, the shortlisting was done a little quickly and we ended up picking a P-name that was already in use for a problematic add-on (*arrr*, *shiver me timbers*, and all that - not a connection we'd like to make, obviously). The obvious solution was to skip that one, then, and move to the second choice - except that turned out to be the name of a legitimate streaming service. And the third? Another problematic add-on name, unfortunately. 
 
-As such, we've decided to change our usual naming process this time around. Instead, we will simply use the opportunity to memorialise a good friend. With no further fanfare, then, we will be moving through our development cycle towards Kodi v22, "Piers".
+As the team deliberated the need for another poll, we heard [sad news about a colleague and team member](https://kodi.tv/article/a-tribute-to-estuary-developer-and-kodi-team-member-piers/) whose contributions to Kodi have been so immensely valuable. His death at such a young age gave everyone pause, and with his name just-so-happening to begin with exactly the right letter, it seemed fitting to mark his passing with more than just a blog post.
+
+So with muted fanfare, we memorialise our good friend, and continue development towards Kodi v22, "Piers".
 
 You will, of course, hear more about this as the development branch takes shape, and you can follow development on GitHub as you wish.
