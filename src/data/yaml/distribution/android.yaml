@@ -5,7 +5,7 @@ sort_order: 3
 howto: http://kodi.wiki/view/Android
 releases:
   - name: Recommended
-    title: Kodi v21 (Omega)
+    title: Kodi v21.1 (Omega)
     description: The success of running Kodi on an Android device depends on a
       number of factors as there are so many different devices with different
       capabilities. Check the [How To](https://kodi.wiki/view/Android) guide for
@@ -16,11 +16,11 @@ releases:
       - name: Huawei App Gallery
         url: https://appgallery.huawei.com/#/app/C101763539
       - name: ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm/kodi-21.0-Omega-armeabi-v7a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm/kodi-21.1-Omega-armeabi-v7a.apk?https=1
       - name: ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.0-Omega-arm64-v8a.apk?https=1
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.1-Omega-arm64-v8a.apk?https=1
   - name: Prerelease
-    title: Kodi v22 (P...) Pre-release Builds
+    title: Kodi v22 (Piers) Pre-release Builds
     description: There are no Pre-Release builds available for Kodi v22. Choose from
       either the Official stable release in the *Recommended* tab, or a nightly
       build from the *Development Builds* tab.
