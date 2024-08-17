@@ -5,15 +5,16 @@ sort_order: 6
 howto: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_iOS
 releases:
   - name: Recommended
-    title: Kodi v21 (Omega)
-    description: Kodi runs on iOS 11 and later. If your device is jailbroken,
-      just open your favorite package manager and search for Kodi in the BigBoss
-      repository. For more detailed help, check the 'How To' link for instructions.
+    title: Kodi v21.1 (Omega)
+    description: Kodi runs on iOS 11 and later. If your device is jailbroken, just
+      open your favorite package manager and search for Kodi in the BigBoss
+      repository. For more detailed help, check the 'How To' link for
+      instructions.
     downloads:
       - name: iOS (64 Bit)
-        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_21.0_iphoneos-arm64.deb?https=1
+        url: https://mirrors.kodi.tv/releases/darwin/ios-arm64/org.xbmc.kodi-ios_21.1_iphoneos-arm64.deb?https=1
   - name: Prerelease
-    title: Kodi v22 (P...) Pre-release Builds
+    title: Kodi v22 (Piers) Pre-release Builds
     description: There are no Pre-Release builds available for Kodi v22. Choose from
       either the Official stable release in the *Recommended* tab, or a nightly
       build from the *Development Builds* tab.
