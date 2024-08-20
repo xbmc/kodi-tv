@@ -84,6 +84,16 @@ function Footer() {
                         DMCA Policy
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://status.kodi.tv/"
+                        className="text-base text-gray-600 hover:text-gray-900"
+                      >
+                        Status
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
