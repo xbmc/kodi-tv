@@ -10,7 +10,9 @@ featured_image:
   alt: Kodi 21.1 "Omega" Splash Screen - the Kodi logo sits at the centre of a
     black screen, a stylised Greek letter "Omega" wrapped around it.
 ---
-Okay, a late announcement - apologies, you can blame the summer holiday season. Or, if it's easier, you can just blame me as the bloke with the keyboard, that works equally well. Either way, many of you will already have noticed this, but, in case you haven't - Team Kodi is here with the first point release of the 21.x "Omega" series.
+Okay, a late announcement - apologies, you can blame the summer holiday season. Or, if it's easier, you can just blame me as the bloke with the keyboard, that works equally well. Either way, many of you will already have noticed this, but, in case you haven't ...
+
+Team Kodi is here with the first point release of the 21.x "Omega" series.
 
 A range of bugfixes have been collected since the original release of Omega 21.0. Rather than list them all here, you can see the full changelog on [Github](https://github.com/xbmc/xbmc/compare/21.0-Omega...21.1-Omega), as usual.
 
