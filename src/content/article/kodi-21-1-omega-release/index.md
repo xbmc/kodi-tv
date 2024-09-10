@@ -24,4 +24,4 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Android Deployment**
 
-We always do what's known as a "staged" deployment roll out for Android. So if you don't receive the update immediately, be patient, as it will come through over the next week.
+We always do what's known as a "staged" deployment roll out for Android. So if you didn't  receive the update immediately, it should have come through over the following week or so, and rollout should now be complete. 
