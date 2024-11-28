@@ -16,6 +16,8 @@ Team Flirc and Team Kodi are thrilled to introduce the newly designed Flirc Rasp
 
 Our journey began with a host of ideas that we transformed into a crowdsourcing poll on the Kodi forums. The community chose from six designs, and we loved seeing your preferences and hearing your feedback. We’re excited to continue this collaborative approach because, just as Kodi is community-driven, so should its official case be.
 
+[![](https://markdown-videos-api.jorgenkh.no/youtube/{video_id})](https://youtu.be/{WCahu5-HBrQ})
+
 With only about 2,000 cases available, this is a truly limited edition. Once sold out, we won’t produce more. Instead, every quarter, we’ll engage with the community again, allowing you to submit and vote on new ideas for another limited run.
 
 With each purchase, you’re helping fund the Kodi team’s ongoing development and innovation.
