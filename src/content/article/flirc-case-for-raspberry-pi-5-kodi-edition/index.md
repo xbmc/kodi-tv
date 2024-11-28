@@ -22,8 +22,10 @@ With each purchase, you’re helping fund the Kodi team’s ongoing development 
 
 On top of our Black Friday - Cyber Monday deals, enjoy an extra 10-15% off when you purchase a Kodi Edition Raspberry Pi 5 case, which can be used on our Flirc USB or Skip 1s Universal Remote.
 
+If you want to see more, check out the YouTube video below, or just skip the line and [head straight over to the Flirc store](https://flirc.tv/products/flirc-raspberry-pi-5-case-kodi-edition?variant=46598976798952) to grab one!
+
+[![Pi5 Case - Kodi Edition](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWCahu5-HBrQ)](https://www.youtube.com/watch?v=WCahu5-HBrQ)
+
 A heartfelt thanks to the Kodi Team, our loyal customers, community members, and everyone who contributed to the design.
 
 Happy Thanksgiving!
-
-[![Pi5 Case - Kodi Edition](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWCahu5-HBrQ)](https://www.youtube.com/watch?v=WCahu5-HBrQ)
