@@ -26,6 +26,4 @@ A heartfelt thanks to the Kodi Team, our loyal customers, community members, and
 
 Happy Thanksgiving!
 
-
-
 [![Pi5 Case - Kodi Edition](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWCahu5-HBrQ)](https://www.youtube.com/watch?v=WCahu5-HBrQ)
