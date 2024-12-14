@@ -14,7 +14,7 @@
   "author": "pkscout <pkscout@kodi.tv>",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.418.0",
+    "@aws-sdk/client-dynamodb": "^3.623.0",
     "@aws-sdk/lib-dynamodb": "^3.418.0"
   }
 }
