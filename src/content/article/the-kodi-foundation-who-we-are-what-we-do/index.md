@@ -39,7 +39,7 @@ And where does it go to? We have hosting costs, professional service fees (lawye
 
 We think we do pretty well on limited funds, and we've had some big donations in the past, but unfortunately those are drying up, so we're starting to have to make hard decisions on not covering our volunteers costs to represent us at some of the conferences.
 
-Once 2024 ends, we will publish a detailed financial blog post, outlining our expenses this past year, but we'd love help from viewers like you!
+Once 2024 ends, we will publish a detailed financial blog post, outlining our expenses this past year, but we'd love help from readers and users like you!
 
 **What's Needed**
 
@@ -48,4 +48,4 @@ Once 2024 ends, we will publish a detailed financial blog post, outlining our ex
 * Sponsorship! if you think you have a good fit for a sponsor who aligns with our interests, please, reach out! Similarly, if you have any corporate influence, Kodi is registered as a corporate giving beneficiary with the [Benevity](https://benevity.com/) platform.
 * And lastly, monetary donations go a long way too. As stated, we are a 501(c)(3), so these donations are tax deductible in the US. If you have a few dollars, pounds, euros or equivalent going spare, you can [really help us out](https://kodi.tv/donate/). Thank you!
 
-We always want to keep some money in the bank, and we have a rule: we need to be able to cover a Devcon before we have our next one and, unfortunately, 2025 may be the last year for a couple years at the rate of donations. We spend less than 30k for the entire event, including flying our team from around the world to attend plus all hotel/food/conference room costs, but our bank account will not be there after next year's in April unless something changes such as a new sponsor (or the RPi5 case becomes exceedingly popular and sells out!).
+We always want to keep some money in the bank, and we have a rule: we need to be able to cover the next Devcon before we hold this one and, unfortunately, 2025 may be the last year for a couple years at the current rate of donations. We spend less than US$30k for the entire event, including flying our team from around the world to attend plus all hotel/food/conference room costs, but our current finances just won't support this after next year's conference unless something changes, such as a new sponsor (or the RPi5 case becomes exceedingly popular and sells out!).
