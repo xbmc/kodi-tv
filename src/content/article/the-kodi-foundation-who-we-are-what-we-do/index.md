@@ -50,6 +50,6 @@ Once 2024 ends, we will publish a detailed financial blog post, outlining our ex
 
 We always want to keep some money in the bank, and we have a rule: we need to be able to cover the next Devcon before we hold this one and, unfortunately, 2025 may be the last year for a couple years at the current rate of donations. We spend less than US$30k for the entire event, including flying our team from around the world to attend plus all hotel/food/conference room costs, but our current finances just won't support this after next year's conference unless something changes, such as a new sponsor (or the RPi5 case becomes exceedingly popular and sells out!).
 
-Thank you very much in advance for anything you can do to help
+Thank you very much in advance for anything you can do to help.
 
 \-- Team Kodi
