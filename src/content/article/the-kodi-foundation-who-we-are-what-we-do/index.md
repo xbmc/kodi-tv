@@ -33,7 +33,7 @@ As mentioned above, this is all voluntary: nobody at Kodi gets paid anything for
 
 We generate a few tens of thousands of dollars a year. Most of that comes directly from donations - that little orange button in the top right; some comes from merchandise sales such as T-shirts or royalties on branded Flirc goods; and the rest comes from corporate sponsorship, which is an ephemeral beast at best. You'll perhaps notice that we've always steered clear of advertising, so there are no popups on this site, no banner ads, and nothing within the application itself: that's very deliberate, and we work hard to keep it like that.
 
-On that note, we'd like to give a huge shout out to FLIRC right now, as they've just started selling a Raspberry Pi 5 branded Kodi case. This is the only company authorised to use our brand on a product, and the only company who gives us royalties: we get a small amount for every case sold. They've been consistently helping us out financially the last few years and without them, we would be attending many fewer conferences. If you're quick, you might be able to catch the tail end of their Black Friday/Cyber Monday sale, and get one for 20% off!
+On that note, we'd like to give a huge shout out to FLIRC right now, as they've just started selling a [Raspberry Pi 5 branded Kodi case](https://kodi.tv/article/flirc-case-for-raspberry-pi-5-kodi-edition/). This is the only company authorised to use our brand on a product, and the only company who gives us royalties: we get a small amount for every case sold. They've been consistently helping us out financially the last few years and without them, we would be attending many fewer conferences. 
 
 And where does it go to? We have hosting costs, professional service fees (lawyers, copyright specialists, accountants), banking fees. While we sometimes get sponsored hardware, we have to pay for servers, discs, bandwidth. If someone is working on a feature and they need a particular piece of hardware that we can't get donated, we'll buy them something (e.g. to assist with porting Kodi to a new platform). Perhaps our biggest costs are conferences: the Open Source world thrives on community, so we have tried to get people representing us at FOSDEM, Embedded Linux Conference, OSS Summit, SCALE, and the Open Source Leadership Summit - although the majority of funds goes to getting as many members as possible to attend our annual developer conference, Kodi Devcon. 
 
@@ -44,12 +44,17 @@ Once 2024 ends, we will publish a detailed financial blog post, outlining our ex
 **What's Needed**
 
 * More hosting is always appreciated. We get by nearly entirely from free hosting and can't thank our sponsors such as OSUOSL and Leaseweb enough, but can always use more diversity.
+
 * We always need volunteers to work on stuff! Social Media and someone to manage our store are two that come to mind, but platform-specific development experience (e.g. Android) is always good.
-* Sponsorship! if you think you have a good fit for a sponsor who aligns with our interests, please, reach out! Similarly, if you have any corporate influence, Kodi is registered as a corporate giving beneficiary with the [Benevity](https://benevity.com/) platform.
+
+* Sponsorship! if you think you have a good fit for a sponsor who aligns with our interests, please, reach out! 
+
+* If you have any corporate matching, Kodi is registered as a corporate nonprofit beneficiary with the [Benevity](https://benevity.com/) platform.
+
 * And lastly, monetary donations go a long way too. As stated, we are a 501(c)(3), so these donations are tax deductible in the US. If you have a few dollars, pounds, euros or equivalent going spare, you can [really help us out](https://kodi.tv/donate/). Thank you!
 
 We always want to keep some money in the bank, and we have a rule: we need to be able to cover the next Devcon before we hold this one and, unfortunately, 2025 may be the last year for a couple years at the current rate of donations. We spend less than US$30k for the entire event, including flying our team from around the world to attend plus all hotel/food/conference room costs, but our current finances just won't support this after next year's conference unless something changes, such as a new sponsor (or the RPi5 case becomes exceedingly popular and sells out!).
 
 Thank you very much in advance for anything you can do to help.
 
-\-- Team Kodi
+-- Team Kodi
