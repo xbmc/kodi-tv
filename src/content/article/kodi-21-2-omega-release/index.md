@@ -27,7 +27,6 @@ Major user-facing changes include:
 - Replace context menu items 'Set actor/artist thumb' with 'Choose art' to make it possible again to add/and set other artwork, not only thumbnails ([PR](https://github.com/xbmc/xbmc/pull/25725)) 
 - Fixed _mark watched/unwatched_ operations missing in certain context menus ([PR](url)) 
 - Honour `importwatchedstate` and `importresumepoint` settings from advancedsettings.xml ([PR](https://github.com/xbmc/xbmc/pull/26177))
-- In preparation for our next major release, we've been updating the translation strings in all 59 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
 
 **Video**
 
@@ -61,6 +60,7 @@ Major user-facing changes include:
 **Skin/GUI**
 
 - Added Donation tab in System Settings ([PR](https://github.com/xbmc/xbmc/pull/26094))
+- In preparation for our next major release, we've been updating the translation strings in all 59 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
 
 **Android**
 
