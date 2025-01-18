@@ -60,7 +60,7 @@ Major user-facing changes include:
 **Skin/GUI**
 
 - Added Donation tab in System Settings ([PR](https://github.com/xbmc/xbmc/pull/26094))
-- In preparation for our next major release, we've been updating the translation strings in all 59 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
+- In preparation for our next major release, we've been updating the translation strings in all 78 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
 
 **Android**
 
@@ -68,7 +68,6 @@ Major user-facing changes include:
 - Fixed possible crash when `getInterfaceName` method returns null ([PR](https://github.com/xbmc/xbmc/pull/26151))
 - Fixed resuming paused media playback not working via play/pause media key press ([PR](https://github.com/xbmc/xbmc/pull/25859)) 
 - Fixed black screen when resuming app from minimised state ([PR](https://github.com/xbmc/xbmc/pull/26226))
-- Fixed resuming paused media playback not working via play/pause media key press ([PR](https://github.com/xbmc/xbmc/pull/25859)) 
 
 **Linux**
 
