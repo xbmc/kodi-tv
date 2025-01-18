@@ -5,7 +5,7 @@ sort_order: 5
 howto: https://kodi.wiki/view/Mac_OS_X
 releases:
   - name: Recommended
-    title: Kodi v21.1 (Omega)
+    title: Kodi v21.2 (Omega)
     description: Kodi for MacOS runs natively on Mac OSX. Mac OSX can provide
       hardware video decoding for H.264 and MPEG2 video, though most CPUs are
       able to use software decoding for other formats in 1080 as well. Macs can
@@ -13,9 +13,9 @@ releases:
       Apple Silicon Mac running macOS 10.14 or higher is required.
     downloads:
       - name: Intel (x86_64)
-        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-21.1-Omega-x86_64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/x86_64/kodi-21.2-Omega-x86_64.dmg?https=1
       - name: Apple Silicon (ARM64)
-        url: https://mirrors.kodi.tv/releases/osx/arm64/kodi-21.1-Omega-arm64.dmg?https=1
+        url: https://mirrors.kodi.tv/releases/osx/arm64/kodi-21.2-Omega-arm64.dmg?https=1
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: There are no Pre-Release builds available for Kodi v22. Choose from
