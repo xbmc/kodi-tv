@@ -1,6 +1,6 @@
 ---
 title: Kodi 21.2 "Omega" - Release
-date: 2025-01-19T01:19:38.832Z
+date: 2025-01-19T12:50:59.113Z
 author: Team Kodi
 tags:
   - Release
