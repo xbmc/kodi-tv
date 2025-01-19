@@ -20,74 +20,71 @@ Major user-facing changes include:
 
 **Library/Sources and Management**
 
-- Fixed a bug that ignored images in the `...\season\.actors` folder. The `\season\.actors` folders have been deprecated and all actors are saved in the `\TV Show\.actors` folder. ([forum](https://forum.kodi.tv/showthread.php?tid=379965), [PR](https://github.com/xbmc/xbmc/pull/26154))
-- Restore performance of movie addition to the library to v20 (Nexus) level ([PR](https://github.com/xbmc/xbmc/pull/25884))
- - Fixed/improved playback from some UPnP server software (at least UMS and Gerbera. Some NAS UPnP servers are based on UMS under the covers). Playback starts faster and multiple videos can be played consecutively. ([PR](https://github.com/xbmc/xbmc/pull/25830))  
-- Preserve special characters in names of scanned or added movie extras ([PR](https://github.com/xbmc/xbmc/pull/25970))
-- Replace context menu items 'Set actor/artist thumb' with 'Choose art' to make it possible again to add/and set other artwork, not only thumbnails ([PR](https://github.com/xbmc/xbmc/pull/25725)) 
-- Fixed _mark watched/unwatched_ operations missing in certain context menus ([PR](url)) 
-- Honour `importwatchedstate` and `importresumepoint` settings from advancedsettings.xml ([PR](https://github.com/xbmc/xbmc/pull/26177))
+* Fixed a bug that ignored images in the `...\season\.actors` folder. The `\season\.actors` folders have been deprecated and all actors are saved in the `\TV Show\.actors` folder. ([forum](https://forum.kodi.tv/showthread.php?tid=379965), [PR](https://github.com/xbmc/xbmc/pull/26154))
+* Restore performance of movie addition to the library to v20 (Nexus) level ([PR](https://github.com/xbmc/xbmc/pull/25884))
+* Fixed/improved playback from some UPnP server software (at least UMS and Gerbera. Some NAS UPnP servers are based on UMS under the covers). Playback starts faster and multiple videos can be played consecutively. ([PR](https://github.com/xbmc/xbmc/pull/25830))  
+* Preserve special characters in names of scanned or added movie extras ([PR](https://github.com/xbmc/xbmc/pull/25970))
+* Replace context menu items 'Set actor/artist thumb' with 'Choose art' to make it possible again to add/and set other artwork, not only thumbnails ([PR](https://github.com/xbmc/xbmc/pull/25725)) 
+* Fixed *mark watched/unwatched* operations missing in certain context menus ([PR](url)) 
+* Honour `importwatchedstate` and `importresumepoint` settings from advancedsettings.xml ([PR](https://github.com/xbmc/xbmc/pull/26177))
 
 **Video**
 
-- Fixed HDR passthrough on video sources with partial or missing display metadata (only GL/GLES platforms) ([PR](https://github.com/xbmc/xbmc/pull/26134))
-- Fixed HDR to SDR tone mapping on video sources with partial or missing display metadata (only GL/GLES platforms) ([PR](https://github.com/xbmc/xbmc/pull/26144)) 
-- Fixed possible incorrect picture metadata if playing different HDR videos without stopping the previous one and the videos had different HDR metadata (all platforms) ([PR](https://github.com/xbmc/xbmc/pull/26145)) 
-- Fixed on Blu-Ray discs some BD-j menu items not displaying correctly due to multi-thread timing issues ([PR](https://github.com/xbmc/xbmc/pull/26267))
-- Fixed deletion of bookmarks in video if the video has also chapters ([PR](https://github.com/xbmc/xbmc/pull/26078))
-
+* Fixed HDR passthrough on video sources with partial or missing display metadata (only GL/GLES platforms) ([PR](https://github.com/xbmc/xbmc/pull/26134))
+* Fixed HDR to SDR tone mapping on video sources with partial or missing display metadata (only GL/GLES platforms) ([PR](https://github.com/xbmc/xbmc/pull/26144)) 
+* Fixed possible incorrect picture metadata if playing different HDR videos without stopping the previous one and the videos had different HDR metadata (all platforms) ([PR](https://github.com/xbmc/xbmc/pull/26145)) 
+* Fixed on Blu-Ray discs some BD-j menu items not displaying correctly due to multi-thread timing issues ([PR](https://github.com/xbmc/xbmc/pull/26267))
+* Fixed deletion of bookmarks in video if the video has also chapters ([PR](https://github.com/xbmc/xbmc/pull/26078))
 
 **Music**
 
-- Fixed an issue with the last track duration of some albums stored in mka containers ([PR](https://github.com/xbmc/xbmc/pull/26282))  
+* Fixed an issue with the last track duration of some albums stored in mka containers ([PR](https://github.com/xbmc/xbmc/pull/26282))  
 
 **Plugins**
 
-- Fixed missing context menu entries for plugin-provided items ([PR](url))
+* Fixed missing context menu entries for plugin-provided items ([PR](url))
 
 **Filesystem**
 
-- Restored the ability of enter credentials when browsing SMB shares (only POSIX platforms) ([PR](https://github.com/xbmc/xbmc/pull/26179))
-- Updated cURL to 8.10.0 to fix issues with FTP TLS sources ([PR](https://github.com/xbmc/xbmc/pull/25849))
+* Restored the ability of enter credentials when browsing SMB shares (only POSIX platforms) ([PR](https://github.com/xbmc/xbmc/pull/26179))
+* Updated cURL to 8.10.0 to fix issues with FTP TLS sources ([PR](https://github.com/xbmc/xbmc/pull/25849))
 
 **PVR**
 
-- EPG search fixes ([PR](https://github.com/xbmc/xbmc/pull/25741)) 
-- Fixed resume points for recordings not honoured ([PR](https://github.com/xbmc/xbmc/pull/25765)) 
-- Fixed 'User has no access / server' error if broadcasts have been shifted ([PR](https://github.com/xbmc/xbmc/pull/25779)) 
-- Fixed default select action 'show info' for PVR items ([PR](https://github.com/xbmc/xbmc/pull/26131)) 
+* EPG search fixes ([PR](https://github.com/xbmc/xbmc/pull/25741)) 
+* Fixed resume points for recordings not honoured ([PR](https://github.com/xbmc/xbmc/pull/25765)) 
+* Fixed 'User has no access / server' error if broadcasts have been shifted ([PR](https://github.com/xbmc/xbmc/pull/25779)) 
+* Fixed default select action 'show info' for PVR items ([PR](https://github.com/xbmc/xbmc/pull/26131)) 
 
 **Skin/GUI**
 
-- Added Donation tab in System Settings ([PR](https://github.com/xbmc/xbmc/pull/26094))
-- In preparation for our next major release, we've been updating the translation strings in all 78 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
+* Added Donation tab in System Settings ([PR](https://github.com/xbmc/xbmc/pull/26094))
+* In preparation for our next major release, we've been updating the translation strings in all 78 of our binary add-ons (audio, inputstream, peripheral, screensaver, vfs, visualisation...). These updates have now all been backported to this release, so there's a bonus of a year's worth of fixes and improvements here.
 
 **Android**
 
-- Greatly improved joystick support on Android ([PR](https://github.com/xbmc/xbmc/pull/25389)) 
-- Fixed possible crash when `getInterfaceName` method returns null ([PR](https://github.com/xbmc/xbmc/pull/26151))
-- Fixed resuming paused media playback not working via play/pause media key press ([PR](https://github.com/xbmc/xbmc/pull/25859)) 
-- Fixed black screen when resuming app from minimised state ([PR](https://github.com/xbmc/xbmc/pull/26226))
+* Greatly improved joystick support on Android ([PR](https://github.com/xbmc/xbmc/pull/25389)) 
+* Fixed possible crash when `getInterfaceName` method returns null ([PR](https://github.com/xbmc/xbmc/pull/26151))
+* Fixed resuming paused media playback not working via play/pause media key press ([PR](https://github.com/xbmc/xbmc/pull/25859)) 
+* Fixed black screen when resuming app from minimised state ([PR](https://github.com/xbmc/xbmc/pull/26226))
 
 **Linux**
 
-- Fixed memory corruption when high quality video scalers are used ([PR](https://github.com/xbmc/xbmc/pull/25093))
-- Fixed possible infinite loop when using GBM and a _DRM Atomic Commit_ fails ([PR](https://github.com/xbmc/xbmc/pull/25588))
-- Fixed windowed Kodi becoming larger on every start when running on Wayland with a scale factor ([PR](https://github.com/xbmc/xbmc/pull/25996))
+* Fixed memory corruption when high quality video scalers are used ([PR](https://github.com/xbmc/xbmc/pull/25093))
+* Fixed possible infinite loop when using GBM and a *DRM Atomic Commit* fails ([PR](https://github.com/xbmc/xbmc/pull/25588))
+* Fixed windowed Kodi becoming larger on every start when running on Wayland with a scale factor ([PR](https://github.com/xbmc/xbmc/pull/25996))
 
 **OSX**
 
-- Fixed crash when trying to detect optical media ([PR](https://github.com/xbmc/xbmc/pull/25833))
+* Fixed crash when trying to detect optical media ([PR](https://github.com/xbmc/xbmc/pull/25833))
 
 **Windows**
 
-- Fixed the crash issue that occurred when accessing the computer using Remote Desktop Protocol ([PR](https://github.com/xbmc/xbmc/pull/25660)) 
-- Fixed the ability of the built-in WOL feature to wake up servers ([PR](https://github.com/xbmc/xbmc/pull/25707
-))
-- Fixed the potential crash occurred when the system contained environment variables name with a length of more than 64 characters ([PR](https://github.com/xbmc/xbmc/pull/25880)) 
-- Fixed HDR feature did not work on Windows 11 24H2 under some circumstances ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
-- Improved support for WCG displays on Windows 11 24H2 ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
-
+* Fixed the crash issue that occurred when accessing the computer using Remote Desktop Protocol ([PR](https://github.com/xbmc/xbmc/pull/25660)) 
+* Fixed the ability of the built-in WOL feature to wake up servers ([PR](https://github.com/xbmc/xbmc/pull/25707))
+* Fixed the potential crash occurred when the system contained environment variables name with a length of more than 64 characters ([PR](https://github.com/xbmc/xbmc/pull/25880)) 
+* Fixed HDR feature did not work on Windows 11 24H2 under some circumstances ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
+* Improved support for WCG displays on Windows 11 24H2 ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
 
 We always want to thank everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. If you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
 
@@ -100,3 +97,9 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 **Android Deployment**
 
 We always do what's known as a "staged" deployment roll out for Android. So if you didn't  receive the update immediately, it should have come through over the following week or so, and rollout should now be complete. 
+
+**Note for Windows Users**
+
+Because we're updating binary add-ons with this release, you're likely to experience crashes due to version issues if you don't also update the Visual C++ runtime. This is particularly likely if you stay on 21.1 (i.e. the add-ons get updated, but Kodi doesn't).
+
+The solution is to upgrade to 21.2 and thus install the Visual C++ runtime that comes with the 21.2 installer or, if you really want stay on 21.1, update the Visual C++ runtime externally from <https://aka.ms/vs/17/release/vc_redist.x64.exe>.
