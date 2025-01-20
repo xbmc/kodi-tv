@@ -10,6 +10,8 @@ featured_image:
     black screen, a stylised Greek letter "Omega" wrapped around it.
   src: /images/blog/kodi_splash_v21.2_omega_final_1080p.webp
 ---
+_**UPDATE FOR WINDOWS USERS**: If you're experiencing crashes since this update was released, please read the note at the end of this post about updating your Visual C++ runtime._
+
 New Year, New Kodi? Not quite, but here we go with the next point release of the 21.x "Omega" series.
 
 The usual story: bugfixes, not features. The full changelog can be found on [Github](https://github.com/xbmc/xbmc/compare/21.1-Omega...21.2-Omega), as usual.
