@@ -10,7 +10,7 @@ featured_image:
     black screen, a stylised Greek letter "Omega" wrapped around it.
   src: /images/blog/kodi_splash_v21.2_omega_final_1080p.webp
 ---
-***UPDATE FOR WINDOWS USERS**: If you're experiencing crashes since this update was released, please read the note at the end of this post about updating your Visual C++ runtime.*
+**\*UPDATE FOR WINDOWS USERS**: If you're experiencing crashes since this update was released, please read the note at the end of this post about updating your Visual C++ runtime.*
 
 New Year, New Kodi? Not quite, but here we go with the next point release of the 21.x "Omega" series.
 
@@ -98,7 +98,7 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 
 **Windows Store/Android Deployment**
 
-Due to the internal and external hoops we need to jump through, it might be a little while before the update appears for you, and that's before out usual staged deployment approach. Sit tight, and it will be with you in due course (maybe the next week or two).
+Due to the internal and external hoops we need to jump through, it might be a little while before the update appears for you, and that's before our usual staged approach to deployment. Sit tight, and it will be with you in due course (maybe the next week or two).
 
 **Note for Windows Users**
 
