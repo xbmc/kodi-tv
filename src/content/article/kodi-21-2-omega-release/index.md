@@ -14,7 +14,7 @@ featured_image:
 
 New Year, New Kodi? Not quite, but here we go with the next point release of the 21.x "Omega" series.
 
-The usual story: bugfixes, not features. The full changelog can be found on [Github](https://github.com/xbmc/xbmc/compare/21.1-Omega...21.2-Omega), as usual.
+The usual story: bugfixes, not features. The full changelog can be found on [GitHub](https://github.com/xbmc/xbmc/compare/21.1-Omega...21.2-Omega), as usual.
 
 ### Release Summary
 
@@ -88,7 +88,7 @@ Major user-facing changes include:
 * Fixed HDR feature did not work on Windows 11 24H2 under some circumstances ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
 * Improved support for WCG displays on Windows 11 24H2 ([PR](https://github.com/xbmc/xbmc/pull/26135)) 
 
-We always want to thank everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. If you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on Github.
+We always want to thank everyone who has helped us track down and fix any issues. We endeavour to minimise the issues everyone experiences, but with such a large project, and the fact everyone contributing to Kodi is a volunteer, issues and bugs are a part of life. If you happen to experience any bugs/issues, don't hesitate to reach out on the forums, or raise an issue on GitHub.
 
 As this is a point release, there are no major changes since the previous version, and you should be fine to install this straight over the top of any existing Kodi 21.x installation - indeed, this will happen automatically on many platforms. However, as for all software installations, back up your userdata beforehand if you've any doubts or have anything you can't afford to lose (and definitely do this if you're going for a major version upgrade).
 
