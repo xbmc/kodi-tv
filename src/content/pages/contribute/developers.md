@@ -21,7 +21,7 @@ Any bug fixes can be sent to our main github code repository for review straight
 
 - [Wiki pages to get you started](https://kodi.wiki/view/Development)
 - [Developers Forum](https://forum.kodi.tv/forumdisplay.php?fid=32)
-- [Code on Github](https://github.com/xbmc/xbmc)
+- [Code on GitHub](https://github.com/xbmc/xbmc)
 
 So why do we need you? Well the fact is that over the years the core team of Kodi has remained about the same size while the number of users went from a couple thousand to many, many millions while expanding from an XBOX only application to running on Linux, Windows, iOS, OSX, Raspberry Pi, and Android. Now the time has come to start calling out for some help.
 

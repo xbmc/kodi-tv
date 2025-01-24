@@ -17,7 +17,7 @@ export const Stats = () => {
   }[] = [];
   stats.push({
     key: "gitcommits",
-    title: "Github Commits",
+    title: "GitHub Commits",
     value: statsYaml.gitcommits,
   });
   stats.push({
