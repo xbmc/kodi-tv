@@ -6,7 +6,6 @@ description: Kodi is available as a native application for Android, Linux, Mac
   OS X, iOS and Windows operating systems, running on most common processor
   architectures.
 ---
-
 ## Join the millions already enjoying Kodi
 
 Kodi is available as a native application for Android, Linux, Mac OS X, iOS and Windows operating systems, running on most common processor architectures. A small overview of the features can be found on our about page. For each platform, we offer a stable and development release(s). For normal users we recommend installing the stable releases.
@@ -41,6 +40,6 @@ $ git clone https://github.com/xbmc/xbmc.git
 
 ## We need your help
 
-You can help in so many different ways. As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contibute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
+You can help in so many different ways. As you may or may not know, Kodi is maintained completely by volunteers and we need and value any contributions to the project. If you can code, we are always [on the lookout for new team members](/contribute/developers) to assist with development. Even if you don't code, you can [help others in the forum](https://forum.kodi.tv/), [assist with quality assurance testing](https://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), or [contribute to language translations](https://kodi.wiki/view/Translation_System). If you are pressed for time but still want to give back, then you can [donate](/donate) or [purchase some great Kodi merchandise](/store). [Visit our contribute page](/contribute) for all the other ways you can help.
 
 x-section-x otherwaystohelp x-section-x
