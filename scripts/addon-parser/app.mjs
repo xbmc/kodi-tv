@@ -3,12 +3,12 @@
 // format for console log when inspecting json
 // console.log(inspect(authors, { colors: true, depth: Infinity }));
 
-const fetch = require("node-fetch");
-const parse = require("xml-parser");
-const slugify = require("slugify");
-const yaml = require("js-yaml");
-const fs = require("fs");
-const getargs = require("minimist");
+import fetch from "node-fetch";
+import parse from "xml-parser";
+import slugify from "slugify";
+import { dump } from "js-yaml";
+import { readFileSync, mkdir, createWriteStream, writeFileSync } from "fs";
+import getargs from "minimist";
 // const inspect = require("util").inspect; // this is only here to inspect the json during debugging
 
 const regex = /\[\/?(COLOR|B|I)(\s\w+)?\]/g;
@@ -98,7 +98,8 @@ let authors = [];
 let categories = [];
 let addonpath = "";
 let addonplatform = "";
-let addonstats = "";
+let addonstats = new Map();
+let addonstatspath = "";
 /** @type {string[]} */
 let addonimagetypes = [];
 /**
@@ -119,7 +120,7 @@ async function loadHistoryFile() {
   return new Promise(function (resolve, reject) {
     console.log("loading addons.json from " + pixiememory);
     try {
-      ah = JSON.parse(fs.readFileSync(pixiememory + "addons.json", "utf8"));
+      ah = JSON.parse(readFileSync(pixiememory + "addons.json", "utf8"));
     } catch (e) {
       console.log("unable to load history, starting from scratch");
       ah = [{}];
@@ -156,7 +157,7 @@ function getAddon(rawaddon) {
         .map((/** @type {string} */ item) => item.trim())
         .forEach(assignAuthor);
     }
-    addonhistory = history.find(o => o.id === addon.id);
+    let addonhistory = history.find(o => o.id === addon.id);
     if (!addonhistory) {
       addonhistory = {};
       addonhistory.id = addon.id;
@@ -224,17 +225,17 @@ function cleanupDescription(description) {
  * @returns {import("../../src/addon").IAddon}
  */
 function cleanUpDescriptions(addon) {
-  let summary = "";
+  let summary = null;
   if (addon.summary) {
     addon.summary = cleanupSummary(addon.summary);
     summary = addon.summary;
   }
   if (addon.description) {
     addon.description = cleanupDescription(addon.description);
-  } else if (summary.length > 0) {
+  } else if (summary && summary.length > 0) {
     addon.description = summary;
   }
-  if (summary.length > 0) {
+  if (summary && summary.length > 0) {
     addon.snippet = summary;
   } else {
     addon.snippet = addon.description;
@@ -255,6 +256,7 @@ function cleanUpDescriptions(addon) {
  * @param {{ name: string; attributes: { point: string; }; children: any[]; }} extension
  */
 function parseExtensions(extension) {
+  const cat = CATEGORIES.find(o => o.id === extension.attributes.point);
   if (extension.name == "extension") {
     switch (extension.attributes.point) {
       case "kodi.addon.metadata":
@@ -290,7 +292,6 @@ function parseExtensions(extension) {
         checkProvides(extension.children);
         break;
       default:
-        cat = CATEGORIES.find(o => o.id === extension.attributes.point);
         if (cat) {
           assignCategory(cat.desc);
         }
@@ -325,14 +326,14 @@ function checkProvides(provider) {
  * @param {any} author
  */
 function createAuthorNode(author) {
-  newauthor = JSON.parse(JSON.stringify(author, null, 2));
-  authorcheck = authors.find(o => o.id === newauthor.name);
+  const newauthor = JSON.parse(JSON.stringify(author, null, 2));
+  const authorcheck = authors.find(o => o.id === newauthor.name);
   if (!authorcheck) {
     newauthor.id = newauthor.name;
     newauthor.addons = [addon];
     authors.push(newauthor);
   } else {
-    addoncheck = authorcheck.addons.find(
+    const addoncheck = authorcheck.addons.find(
       (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
@@ -345,15 +346,15 @@ function createAuthorNode(author) {
  * @param {any} category
  */
 function createCategoryNode(category) {
-  newcategory = JSON.parse(JSON.stringify(category, null, 2));
-  categorycheck = categories.find(o => o.id === newcategory.name);
+  const newcategory = JSON.parse(JSON.stringify(category, null, 2));
+  const categorycheck = categories.find(o => o.id === newcategory.name);
   if (!categorycheck) {
     newcategory.id = newcategory.name;
     newcategory.grouping = setCategoryGrouping(newcategory.name);
     newcategory.addons = [addon];
     categories.push(newcategory);
   } else {
-    addoncheck = categorycheck.addons.find(
+    const addoncheck = categorycheck.addons.find(
       (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
@@ -400,10 +401,10 @@ function setCategoryGrouping(name) {
  * @param {string} author
  */
 function assignAuthor(author) {
-  authorcheck = addon.authors.find(o => o.name === author);
+  const authorcheck = addon.authors.find(o => o.name === author);
   if (!authorcheck) {
-    slug = slugify(author, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
-    icon = "/images/authors/" + slug + ".webp";
+    const slug = slugify(author, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
+    const icon = "/images/authors/" + slug + ".webp";
     addon.authors.push({ name: author, slug: slug, icon: icon });
   }
 }
@@ -412,10 +413,13 @@ function assignAuthor(author) {
  * @param {string} category
  */
 function assignCategory(category) {
-  categorycheck = addon.categories.find(o => o.name === category);
+  const categorycheck = addon.categories.find(o => o.name === category);
   if (!categorycheck) {
-    slug = slugify(category, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
-    icon = "/images/categories/" + slug + ".webp";
+    const slug = slugify(category, {
+      lower: true,
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+    });
+    const icon = "/images/categories/" + slug + ".webp";
     addon.categories.push({ name: category, slug: slug, icon: icon });
   }
 }
@@ -462,7 +466,7 @@ function getAssets(asset) {
     );
   }
   if (!assetcheck) {
-    imagepath =
+    const imagepath =
       "/images/addons/" +
       kodiversion +
       "/" +
@@ -547,11 +551,14 @@ async function app() {
   console.log("getting addon download stats from " + kodistats);
   try {
     const res = await fetch(kodistats);
-    rawstats = await res.json();
+    const rawstats = await res.json();
     let firstKey = Object.keys(rawstats[0])[0];
-    addonstats = rawstats[0][firstKey];
+
+    Object.entries(rawstats[0][firstKey]).forEach(item => {
+      addonstats.set(item[0], item[1]);
+    });
   } catch (error) {
-    addonstats = {};
+    addonstats = new Map();
     console.log(error);
   }
   if (data) {
@@ -563,7 +570,7 @@ async function app() {
     for (let i = 0; i < downloadqueue.length; i++) {
       let createddir = false;
       let download = downloadqueue[i];
-      await fs.mkdir(download.localdir, { recursive: true }, err => {
+      await mkdir(download.localdir, { recursive: true }, err => {
         if (err) {
           console.log("create failed for directory" + download.localdir);
         }
@@ -573,7 +580,7 @@ async function app() {
         (
           /** @type {{ body: { pipe: (arg0: fs.WriteStream) => void; }; }} */ res,
         ) => {
-          const dest = fs.createWriteStream(download.local);
+          const dest = createWriteStream(download.local);
           res.body.pipe(dest);
         },
       );
@@ -582,7 +589,7 @@ async function app() {
     for (let i = 0; i < addons.length; i++) {
       let downloadcount = 0;
       for (let k = 0; k < addons[i].platforms.length; k++) {
-        let pcstring = addonstats[addons[i].platforms[k].statspath];
+        let pcstring = addonstats.get(addons[i].platforms[k].statspath);
         if (pcstring) {
           let platformcount = parseInt(pcstring);
           downloadcount = downloadcount + platformcount;
@@ -604,7 +611,7 @@ async function app() {
       }
     }
     console.log("writing addons.json to " + pixiememory);
-    fs.writeFileSync(
+    writeFileSync(
       pixiememory + "addons.json",
       JSON.stringify(
         addons.sort((a, b) => a.id.localeCompare(b.id)),
@@ -613,7 +620,7 @@ async function app() {
       ),
     );
     console.log("writing authors.json to " + pixiememory);
-    fs.writeFileSync(
+    writeFileSync(
       pixiememory + "authors.json",
       JSON.stringify(
         authors.sort((a, b) => a.id.localeCompare(b.id)),
@@ -622,7 +629,7 @@ async function app() {
       ),
     );
     console.log("writing categories.json to " + pixiememory);
-    fs.writeFileSync(
+    writeFileSync(
       pixiememory + "categories.json",
       JSON.stringify(
         categories.sort((a, b) => a.id.localeCompare(b.id)),
@@ -676,9 +683,9 @@ async function app() {
       statsArray.gitcommits = gitHubCommits.toLocaleString();
       statsArray.forumthreads = forumThreads;
       statsArray.addons = addons.length.toLocaleString();
-      let yamlString = yaml.dump(statsArray);
+      let yamlString = dump(statsArray);
       console.log("writing stats to " + statslocation);
-      fs.writeFileSync(statslocation, yamlString, "utf8");
+      writeFileSync(statslocation, yamlString, "utf8");
     }
   }
 }
