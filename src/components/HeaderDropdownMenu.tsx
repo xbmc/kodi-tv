@@ -1,6 +1,6 @@
 import React, { createElement } from "react";
 import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
+import { Popover, PopoverButton, PopoverPanel, Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 import { MenuEntry } from "./Header";
 import { Link } from "gatsby";
@@ -19,13 +19,13 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
               <ChevronUpIcon className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
             </button>
           ) : (
-            <Popover.Button
+            <PopoverButton
               className="inline-flex items-center text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 pl-3 pr-2 py-2 rounded-md text-sm font-medium focus:outline-none"
               aria-expanded="false"
             >
               <span>{props.menu.title}</span>
               <ChevronDownIcon className="text-gray-400 h-5 w-5 group-hover:text-gray-500" />
-            </Popover.Button>
+            </PopoverButton>
           )}
           <Transition
             show={open}
@@ -37,7 +37,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
             leaveFrom="opacity-100 translate-y-0"
             leaveTo="opacity-0 translate-y-1"
           >
-            <Popover.Panel
+            <PopoverPanel
               static
               className="absolute z-50 left-1/2 transform -translate-x-1/2 mt-3 mx-3 px-0 w-screen max-w-md"
             >
@@ -95,7 +95,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                   )}
                 </div>
               </div>
-            </Popover.Panel>
+            </PopoverPanel>
           </Transition>
         </>
       )}
