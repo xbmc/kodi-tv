@@ -38292,7 +38292,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2024.8.20+matrix.1",
+        "version": "2025.3.18+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -38308,8 +38308,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip"
           }
         ],
         "categories": [
@@ -38334,7 +38334,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- Fix for double headers\n        ",
+        "news": "- ability to change skip timing adjustment settings during playback\n            - initial 2025 updates\n            - fix for Japan exhibitions\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -38353,11 +38353,11 @@
           }
         ],
         "size": "339KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 137879,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
-        "snippet": "Watch live and archived games\n        ",
-        "prevyeardl": 137879
+        "snippet": "Watch live and archived games\n        "
       },
       {
         "id": "plugin.video.montreal.greek-tv",
@@ -40936,7 +40936,7 @@
         "addonid": "plugin.video.rsiplaytv",
         "name": "RSI Play TV",
         "slug": "plugin.video.rsiplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -40947,8 +40947,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -40973,7 +40973,7 @@
         "forum": "https://github.com/goggle/plugin.video.rsiplaytv/discussions",
         "website": "https://www.rsi.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.rsiplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv.2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv.2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
@@ -41005,11 +41005,11 @@
           }
         ],
         "size": "2246KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 7047,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
-        "snippet": "RSI Play television video library",
-        "prevyeardl": 7047
+        "snippet": "RSI Play television video library"
       },
       {
         "id": "plugin.audio.podcasts",
@@ -41183,7 +41183,7 @@
         "addonid": "plugin.video.rtsplaytv",
         "name": "RTS Play TV",
         "slug": "plugin.video.rtsplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -41194,8 +41194,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -41220,7 +41220,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=336266",
         "website": "https://www.rts.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.rtsplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
@@ -41256,11 +41256,11 @@
           }
         ],
         "size": "2685KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 2477,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
-        "snippet": "RTS Play television video library",
-        "prevyeardl": 2477
+        "snippet": "RTS Play television video library"
       },
       {
         "id": "plugin.video.rtve",
@@ -42154,7 +42154,7 @@
         "addonid": "plugin.video.srfplaytv",
         "name": "SRF Play TV",
         "slug": "plugin.video.srfplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -42165,8 +42165,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -42191,7 +42191,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=331129",
         "website": "https://www.srf.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.srfplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath error\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath error\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
@@ -42227,11 +42227,11 @@
           }
         ],
         "size": "3087KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 3205,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
-        "snippet": "SRF Play television video library",
-        "prevyeardl": 3205
+        "snippet": "SRF Play television video library"
       },
       {
         "id": "plugin.video.stalkervod",
@@ -42513,7 +42513,7 @@
         "addonid": "plugin.video.swiplaytv",
         "name": "SWI Play TV",
         "slug": "plugin.video.swiplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -42524,8 +42524,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -42550,7 +42550,7 @@
         "forum": "https://github.com/goggle/plugin.video.swiplaytv/discussions",
         "website": "https://play.swissinfo.ch/play/tv/",
         "source": "https://github.com/goggle/plugin.video.swiplaytv",
-        "news": "v.2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams.\n\nv2.1.0 (2022-06-01)\n  - Initial release\n    ",
+        "news": "v3.0.0 (2024-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams.\n\nv2.1.0 (2022-06-01)\n  - Initial release\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
@@ -42578,11 +42578,11 @@
           }
         ],
         "size": "1857KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 1232,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
-        "snippet": "Swissinfo television video library",
-        "prevyeardl": 1232
+        "snippet": "Swissinfo television video library"
       },
       {
         "id": "plugin.switchback",
@@ -52534,7 +52534,6 @@
         "size": "888KB",
         "lastupdate": "2025-03-20T02:29:48.508Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
@@ -57390,7 +57389,7 @@
         "addonid": "script.module.srgssr",
         "name": "SRG SSR",
         "slug": "script.module.srgssr",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -57401,8 +57400,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.srgssr/script.module.srgssr-2.2.5.zip",
-            "statspath": "/addons/omega/script.module.srgssr/script.module.srgssr-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.srgssr/script.module.srgssr-3.0.0.zip",
+            "statspath": "/addons/omega/script.module.srgssr/script.module.srgssr-3.0.0.zip"
           }
         ],
         "categories": [
@@ -57424,12 +57423,12 @@
             "remotepath": "resources/icon.png"
           }
         ],
-        "size": "41KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 11738,
+        "size": "44KB",
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.srgssr/resources/icon.png",
-        "snippet": "Access the SRG SSR media libraries.",
-        "prevyeardl": 11738
+        "snippet": "Access the SRG SSR media libraries."
       },
       {
         "id": "script.module.sseclient",
@@ -67230,7 +67229,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2024.8.20+matrix.1",
+        "version": "2025.3.18+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -67246,8 +67245,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip"
           }
         ],
         "categories": [
@@ -67272,7 +67271,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- Fix for double headers\n        ",
+        "news": "- ability to change skip timing adjustment settings during playback\n            - initial 2025 updates\n            - fix for Japan exhibitions\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -67291,11 +67290,11 @@
           }
         ],
         "size": "339KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 137879,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
-        "snippet": "Watch live and archived games\n        ",
-        "prevyeardl": 137879
+        "snippet": "Watch live and archived games\n        "
       },
       {
         "id": "script.audio.motherearth",
@@ -78949,7 +78948,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2024.8.20+matrix.1",
+        "version": "2025.3.18+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -78965,8 +78964,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2024.8.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip"
           }
         ],
         "categories": [
@@ -78991,7 +78990,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- Fix for double headers\n        ",
+        "news": "- ability to change skip timing adjustment settings during playback\n            - initial 2025 updates\n            - fix for Japan exhibitions\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -79010,11 +79009,11 @@
           }
         ],
         "size": "339KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 137879,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
-        "snippet": "Watch live and archived games\n        ",
-        "prevyeardl": 137879
+        "snippet": "Watch live and archived games\n        "
       },
       {
         "id": "plugin.video.montreal.greek-tv",
@@ -81542,7 +81541,7 @@
         "addonid": "plugin.video.rsiplaytv",
         "name": "RSI Play TV",
         "slug": "plugin.video.rsiplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -81553,8 +81552,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.rsiplaytv/plugin.video.rsiplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -81579,7 +81578,7 @@
         "forum": "https://github.com/goggle/plugin.video.rsiplaytv/discussions",
         "website": "https://www.rsi.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.rsiplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv.2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv.2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
@@ -81611,11 +81610,11 @@
           }
         ],
         "size": "2246KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 7047,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
-        "snippet": "RSI Play television video library",
-        "prevyeardl": 7047
+        "snippet": "RSI Play television video library"
       },
       {
         "id": "plugin.audio.podcasts",
@@ -81789,7 +81788,7 @@
         "addonid": "plugin.video.rtsplaytv",
         "name": "RTS Play TV",
         "slug": "plugin.video.rtsplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -81800,8 +81799,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.rtsplaytv/plugin.video.rtsplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -81826,7 +81825,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=336266",
         "website": "https://www.rts.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.rtsplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
@@ -81862,11 +81861,11 @@
           }
         ],
         "size": "2685KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 2477,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
-        "snippet": "RTS Play television video library",
-        "prevyeardl": 2477
+        "snippet": "RTS Play television video library"
       },
       {
         "id": "plugin.video.rtve",
@@ -82510,7 +82509,7 @@
         "addonid": "plugin.video.srfplaytv",
         "name": "SRF Play TV",
         "slug": "plugin.video.srfplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -82521,8 +82520,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.srfplaytv/plugin.video.srfplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -82547,7 +82546,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=331129",
         "website": "https://www.srf.ch/play/tv",
         "source": "https://github.com/goggle/plugin.video.srfplaytv",
-        "news": "v2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath error\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
+        "news": "v3.0.0 (2025-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n  - Fix translatePath error\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.1 (2022-10-25)\n  - Fix shows by date\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams\n\nv2.1.0 (2022-06-01)\n  - Add support for content presented on homepage.\n  - Add support for topics.\n  - Add support for playback of livestreams.",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
@@ -82583,11 +82582,11 @@
           }
         ],
         "size": "3087KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 3205,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
-        "snippet": "SRF Play television video library",
-        "prevyeardl": 3205
+        "snippet": "SRF Play television video library"
       },
       {
         "id": "plugin.video.stalkervod",
@@ -82808,7 +82807,7 @@
         "addonid": "plugin.video.swiplaytv",
         "name": "SWI Play TV",
         "slug": "plugin.video.swiplaytv",
-        "version": "2.2.5",
+        "version": "3.0.0",
         "authors": [
           {
             "name": "Alexander Seiler",
@@ -82819,8 +82818,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-2.2.5.zip",
-            "statspath": "/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-2.2.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-3.0.0.zip",
+            "statspath": "/addons/omega/plugin.video.swiplaytv/plugin.video.swiplaytv-3.0.0.zip"
           }
         ],
         "categories": [
@@ -82845,7 +82844,7 @@
         "forum": "https://github.com/goggle/plugin.video.swiplaytv/discussions",
         "website": "https://play.swissinfo.ch/play/tv/",
         "source": "https://github.com/goggle/plugin.video.swiplaytv",
-        "news": "v.2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams.\n\nv2.1.0 (2022-06-01)\n  - Initial release\n    ",
+        "news": "v3.0.0 (2024-03-14)\n  - Always extract subtitles\n\nv2.2.5 (2025-02-09)\n  - Retrieve subtitles via HTTPS\n  - Adapt to upstream changes\n\nv2.2.4 (2024-03-21)\n - Fix translatePath errors\n\nv2.2.3 (2023-03-09)\n  - Display date and time for scheduled live streams.\n\nv2.2.2 (2023-01-29)\n  - Fix homepage and topics menu\n\nv2.2.0 (2022-06-24)\n  - Support WIDEVINE encrypted DASH streams.\n\nv2.1.0 (2022-06-01)\n  - Initial release\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
@@ -82873,11 +82872,11 @@
           }
         ],
         "size": "1857KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 1232,
+        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
-        "snippet": "Swissinfo television video library",
-        "prevyeardl": 1232
+        "snippet": "Swissinfo television video library"
       },
       {
         "id": "plugin.switchback",
