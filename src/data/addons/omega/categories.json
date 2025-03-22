@@ -38355,7 +38355,6 @@
         "size": "339KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
@@ -41007,7 +41006,6 @@
         "size": "2246KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
         "snippet": "RSI Play television video library"
       },
@@ -41258,7 +41256,6 @@
         "size": "2685KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
         "snippet": "RTS Play television video library"
       },
@@ -42229,7 +42226,6 @@
         "size": "3087KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
         "snippet": "SRF Play television video library"
       },
@@ -42580,7 +42576,6 @@
         "size": "1857KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
         "snippet": "Swissinfo television video library"
       },
@@ -52454,7 +52449,7 @@
         "addonid": "pvr.waipu",
         "name": "waipu.tv PVR Client",
         "slug": "pvr.waipu",
-        "version": "21.9.2",
+        "version": "21.9.3",
         "authors": [
           {
             "name": "flubshi",
@@ -52465,33 +52460,33 @@
         "platforms": [
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.2.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.3.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.3.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.3.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.3.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.2.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.3.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.3.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.3.zip"
           }
         ],
         "categories": [
@@ -52528,12 +52523,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "- Fix recordings\n    ",
+        "news": "- Fix timers\n    ",
         "summary": "waipu.tv PVR Client",
         "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-        "size": "888KB",
-        "lastupdate": "2025-03-20T02:29:48.508Z",
+        "size": "826KB",
+        "lastupdate": "2025-03-22T02:28:56.637Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
@@ -57426,7 +57422,6 @@
         "size": "44KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.srgssr/resources/icon.png",
         "snippet": "Access the SRG SSR media libraries."
       },
@@ -67292,7 +67287,6 @@
         "size": "339KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
@@ -79011,7 +79005,6 @@
         "size": "339KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
@@ -81612,7 +81605,6 @@
         "size": "2246KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rsiplaytv/resources/icon.png",
         "snippet": "RSI Play television video library"
       },
@@ -81863,7 +81855,6 @@
         "size": "2685KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rtsplaytv/resources/icon.png",
         "snippet": "RTS Play television video library"
       },
@@ -82584,7 +82575,6 @@
         "size": "3087KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.srfplaytv/resources/icon.png",
         "snippet": "SRF Play television video library"
       },
@@ -82874,7 +82864,6 @@
         "size": "1857KB",
         "lastupdate": "2025-03-21T02:30:47.670Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.swiplaytv/resources/icon.png",
         "snippet": "Swissinfo television video library"
       },
