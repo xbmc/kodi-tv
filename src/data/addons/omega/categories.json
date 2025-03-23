@@ -110,7 +110,7 @@
         "addonid": "metadata.album.universal",
         "name": "Universal Album Scraper",
         "slug": "metadata.album.universal",
-        "version": "3.1.11",
+        "version": "3.1.12",
         "authors": [
           {
             "name": "Olympia",
@@ -126,8 +126,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.11.zip",
-            "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.11.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.12.zip",
+            "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.12.zip"
           }
         ],
         "categories": [
@@ -149,12 +149,12 @@
         ],
         "summary": "Universal Scraper for Albums",
         "description": "This scraper collects information from the following supported sites: MusicBrainz, last.fm, allmusic.com and amazon.de, while grabs artwork from: fanart.tv, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic and/or amazon.de links are not added on the MusicBrainz site, fields from allmusic.com and/or amazon.de cannot be fetched (very easy to add those missing links though).",
-        "size": "128KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5546121,
+        "size": "129KB",
+        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.album.universal/icon.png",
-        "snippet": "Universal Scraper for Albums",
-        "prevyeardl": 5546121
+        "snippet": "Universal Scraper for Albums"
       },
       {
         "id": "metadata.albums.xiami.com",
@@ -310,7 +310,7 @@
         "addonid": "metadata.artists.universal",
         "name": "Universal Artist Scraper",
         "slug": "metadata.artists.universal",
-        "version": "4.3.13",
+        "version": "4.3.14",
         "authors": [
           {
             "name": "Olympia",
@@ -326,8 +326,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.13.zip",
-            "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.13.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.14.zip",
+            "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.14.zip"
           }
         ],
         "categories": [
@@ -349,12 +349,12 @@
         ],
         "summary": "Universal Scraper for Artists",
         "description": "This scraper collects information from the following supported sites: TheAudioDb.com, MusicBrainz, last.fm, and allmusic.com, while grabs artwork from: fanart.tv, htbackdrops.com, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic link is not added on the MusicBrainz site fields from allmusic.com cannot be fetched (very easy to add those missing links though).",
-        "size": "143KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5535022,
+        "size": "144KB",
+        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
-        "snippet": "Universal Scraper for Artists",
-        "prevyeardl": 5535022
+        "snippet": "Universal Scraper for Artists"
       },
       {
         "id": "metadata.artists.xiami.com",
@@ -27200,7 +27200,7 @@
         "addonid": "metadata.themoviedb.org.python",
         "name": "The Movie Database Python",
         "slug": "metadata.themoviedb.org.python",
-        "version": "3.1.0",
+        "version": "3.1.1",
         "authors": [
           {
             "name": "Team Kodi",
@@ -27211,8 +27211,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.0.zip",
-            "statspath": "/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.1.zip",
+            "statspath": "/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.1.zip"
           }
         ],
         "categories": [
@@ -27225,7 +27225,7 @@
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
         "reuselanguageinvoker": "true",
-        "news": "v3.1.0 (2024-12-28)\n- add option to increase available artwork per art type\n- fix for inability to scrape IMDB ratings\n\nv3.0.1 (2024-04-22)\n- fix scraper error when tags are disabled\n\nv3.0.0 (2024-04-17)\n- version 3 for Kodi 20 Nexus and above",
+        "news": "v3.1.1 (2025-03-21)\n- fix search for titles with accented characters\n- fix rare failure to find by IMDB number\n\nv3.1.0 (2024-12-28)\n- add option to increase available artwork per art type\n- fix for inability to scrape IMDB ratings\n\nv3.0.1 (2024-04-22)\n- fix scraper error when tags are disabled\n\nv3.0.0 (2024-04-17)\n- version 3 for Kodi 20 Nexus and above",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=344580",
         "website": "https://www.themoviedb.org",
@@ -27238,12 +27238,12 @@
         ],
         "summary": "Python TMDB Movie Scraper",
         "description": "themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.",
-        "size": "164KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 6826969,
+        "size": "165KB",
+        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.themoviedb.org.python/resources/icon.png",
-        "snippet": "Python TMDB Movie Scraper",
-        "prevyeardl": 6826969
+        "snippet": "Python TMDB Movie Scraper"
       },
       {
         "id": "metadata.movies.thetvdb.com.v4.python",
@@ -27311,7 +27311,7 @@
         "addonid": "metadata.universal",
         "name": "Universal Movie Scraper",
         "slug": "metadata.universal",
-        "version": "5.5.17",
+        "version": "5.5.18",
         "authors": [
           {
             "name": "Olympia",
@@ -27327,8 +27327,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.17.zip",
-            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.17.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.18.zip",
+            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.18.zip"
           }
         ],
         "categories": [
@@ -27350,12 +27350,12 @@
         ],
         "summary": "Universal Movie Scraper",
         "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
-        "size": "279KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 73768,
+        "size": "281KB",
+        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
-        "snippet": "Universal Movie Scraper",
-        "prevyeardl": 73768
+        "snippet": "Universal Movie Scraper"
       }
     ],
     "totaladdons": 6
@@ -45564,7 +45564,7 @@
         "addonid": "script.artistslideshow",
         "name": "Artist Slideshow",
         "slug": "script.artistslideshow",
-        "version": "3.3.7",
+        "version": "3.3.8",
         "authors": [
           {
             "name": "pkscout",
@@ -45580,8 +45580,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.artistslideshow/script.artistslideshow-3.3.7.zip",
-            "statspath": "/addons/omega/script.artistslideshow/script.artistslideshow-3.3.7.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.artistslideshow/script.artistslideshow-3.3.8.zip",
+            "statspath": "/addons/omega/script.artistslideshow/script.artistslideshow-3.3.8.zip"
           }
         ],
         "categories": [
@@ -45593,7 +45593,7 @@
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
-        "news": "v.3.3.7\n- fix to get fourth artwork from theAudioDB\n\t\t",
+        "news": "v.3.3.8\n- fixes for crashes\n\t\t",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.artistslideshow/icon.png",
@@ -45607,12 +45607,12 @@
         "source": "https://github.com/pkscout/script.artistslideshow",
         "summary": "Download images and additional info of the currently playing artist",
         "description": "Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.",
-        "size": "455KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1420962,
+        "size": "459KB",
+        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.artistslideshow/icon.png",
-        "snippet": "Download images and additional info of the currently playing artist",
-        "prevyeardl": 1420962
+        "snippet": "Download images and additional info of the currently playing artist"
       },
       {
         "id": "script.audiooffsetmanager",
@@ -52529,7 +52529,6 @@
         "size": "826KB",
         "lastupdate": "2025-03-22T02:28:56.637Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
