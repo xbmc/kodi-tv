@@ -152,7 +152,6 @@
         "size": "129KB",
         "lastupdate": "2025-03-23T02:32:42.233Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.album.universal/icon.png",
         "snippet": "Universal Scraper for Albums"
       },
@@ -352,7 +351,6 @@
         "size": "144KB",
         "lastupdate": "2025-03-23T02:32:42.233Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
         "snippet": "Universal Scraper for Artists"
       },
@@ -27241,7 +27239,6 @@
         "size": "165KB",
         "lastupdate": "2025-03-23T02:32:42.233Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.themoviedb.org.python/resources/icon.png",
         "snippet": "Python TMDB Movie Scraper"
       },
@@ -27353,7 +27350,6 @@
         "size": "281KB",
         "lastupdate": "2025-03-23T02:32:42.233Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       }
@@ -45610,7 +45606,6 @@
         "size": "459KB",
         "lastupdate": "2025-03-23T02:32:42.233Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.artistslideshow/icon.png",
         "snippet": "Download images and additional info of the currently playing artist"
       },
@@ -52449,7 +52444,7 @@
         "addonid": "pvr.waipu",
         "name": "waipu.tv PVR Client",
         "slug": "pvr.waipu",
-        "version": "21.9.3",
+        "version": "21.10.0",
         "authors": [
           {
             "name": "flubshi",
@@ -52460,33 +52455,33 @@
         "platforms": [
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.9.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.0.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.9.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.0.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.9.3.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.9.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.0.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.9.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.0.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.9.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.0.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.0.zip"
           }
         ],
         "categories": [
@@ -52523,12 +52518,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "- Fix timers\n    ",
+        "news": "- Recordings: Add option to fetch recording playback state from backend\n- Add option to import no channels\n- Show server errors on channel playback failure\n    ",
         "summary": "waipu.tv PVR Client",
         "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-        "size": "826KB",
-        "lastupdate": "2025-03-22T02:28:56.637Z",
+        "size": "903KB",
+        "lastupdate": "2025-03-24T02:32:29.138Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
