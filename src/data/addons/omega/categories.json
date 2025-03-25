@@ -52524,7 +52524,6 @@
         "size": "903KB",
         "lastupdate": "2025-03-24T02:32:29.138Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
@@ -72662,7 +72661,7 @@
         "addonid": "metadata.tvshows.themoviedb.org.python",
         "name": "TMDb TV Shows",
         "slug": "metadata.tvshows.themoviedb.org.python",
-        "version": "1.7.2",
+        "version": "1.7.3",
         "authors": [
           {
             "name": "Team Kodi",
@@ -72673,8 +72672,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.2.zip",
-            "statspath": "/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.3.zip",
+            "statspath": "/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.3.zip"
           }
         ],
         "categories": [
@@ -72687,7 +72686,7 @@
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
         "reuselanguageinvoker": "true",
-        "news": "1.7.2\nfix for inability to scrape IMDB ratings\n\t",
+        "news": "1.7.3\nfix to properly get English videos as fallback\n\t",
         "license": "GPL-3.0-or-later",
         "icons": [
           {
@@ -72701,11 +72700,11 @@
         "summary": "Fetch TV Show metadata from themoviedb.org",
         "description": "The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.",
         "size": "178KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 109351979,
+        "lastupdate": "2025-03-25T02:31:12.739Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.tvshows.themoviedb.org.python/resources/icon.png",
-        "snippet": "Fetch TV Show metadata from themoviedb.org",
-        "prevyeardl": 109351979
+        "snippet": "Fetch TV Show metadata from themoviedb.org"
       },
       {
         "id": "metadata.tvmaze",
