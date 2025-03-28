@@ -28081,6 +28081,65 @@
         "prevyeardl": 1495342
       },
       {
+        "id": "plugin.audio.ilovemusic",
+        "addonid": "plugin.audio.ilovemusic",
+        "name": "I LOVE MUSIC",
+        "slug": "plugin.audio.ilovemusic",
+        "version": "4.0.0",
+        "authors": [
+          {
+            "name": "adiko01",
+            "slug": "adiko01",
+            "icon": "/images/authors/adiko01.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.ilovemusic/plugin.audio.ilovemusic-4.0.0.zip",
+            "statspath": "/addons/omega/plugin.audio.ilovemusic/plugin.audio.ilovemusic-4.0.0.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Music addons",
+            "slug": "music-addons",
+            "icon": "/images/categories/music-addons.webp"
+          }
+        ],
+        "firstseen": "2025-03-28T02:31:32.719Z",
+        "agetype": "new",
+        "language": "de",
+        "license": "GPL-2.0-only",
+        "source": "https://github.com/adiko01/plugin.audio.ilovemusic",
+        "website": "https://adiko01.de/kodi-addon-i-love-music/",
+        "summary": "This add-on lists all I LOVE MUSIC streams.",
+        "description": "This add-on lists all I LOVE MUSIC streams. The content may be geolocked.",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.ilovemusic/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.ilovemusic/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "size": "332KB",
+        "lastupdate": "2025-03-28T02:31:32.719Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.audio.ilovemusic/resources/icon.png",
+        "snippet": "This add-on lists all I LOVE MUSIC streams."
+      },
+      {
         "id": "plugin.audio.indigitube",
         "addonid": "plugin.audio.indigitube",
         "name": "indigiTUBE",
@@ -28152,6 +28211,84 @@
         "icon": "/images/addons/omega/plugin.audio.indigitube/resources/icon.png",
         "snippet": "Unofficial plugin for indigiTUBE: the Australian national media platform by and for First Nations people.",
         "prevyeardl": 39408
+      },
+      {
+        "id": "plugin.audio.intergalacticfm",
+        "addonid": "plugin.audio.intergalacticfm",
+        "name": "Intergalactic FM",
+        "slug": "plugin.audio.intergalacticfm",
+        "version": "3.0.3",
+        "authors": [
+          {
+            "name": "Dreamer",
+            "slug": "dreamer",
+            "icon": "/images/authors/dreamer.webp"
+          },
+          {
+            "name": "Pander",
+            "slug": "pander",
+            "icon": "/images/authors/pander.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.intergalacticfm/plugin.audio.intergalacticfm-3.0.3.zip",
+            "statspath": "/addons/omega/plugin.audio.intergalacticfm/plugin.audio.intergalacticfm-3.0.3.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Music addons",
+            "slug": "music-addons",
+            "icon": "/images/categories/music-addons.webp"
+          }
+        ],
+        "firstseen": "2025-03-28T02:31:32.719Z",
+        "agetype": "new",
+        "summary": "No Station Such Dedication",
+        "description": "Add-on for the audio streams of the online radio station Intergalacic FM.\n\nSee also the video plugin. Please consider donating at https://intergalactic.fm to keep us in orbit.",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s1.jpg",
+            "remotepath": "screenshots/s1.jpg"
+          },
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s2.jpg",
+            "remotepath": "screenshots/s2.jpg"
+          },
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s3.jpg",
+            "remotepath": "screenshots/s3.jpg"
+          }
+        ],
+        "news": "Updated with latest artwork metadata",
+        "license": "GPL-3.0-or-later",
+        "source": "https://github.com/intergalacticfm/plugin.audio.intergalacticfm",
+        "website": "https://www.intergalactic.fm",
+        "size": "4343KB",
+        "lastupdate": "2025-03-28T02:31:32.719Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.audio.intergalacticfm/resources/icon.png",
+        "snippet": "No Station Such Dedication"
       },
       {
         "id": "plugin.video.archive.org",
@@ -30068,7 +30205,7 @@
         "prevyeardl": 32144
       }
     ],
-    "totaladdons": 39
+    "totaladdons": 41
   },
   {
     "name": "Music video information providers",
@@ -36410,6 +36547,65 @@
         "prevyeardl": 59843
       },
       {
+        "id": "plugin.audio.ilovemusic",
+        "addonid": "plugin.audio.ilovemusic",
+        "name": "I LOVE MUSIC",
+        "slug": "plugin.audio.ilovemusic",
+        "version": "4.0.0",
+        "authors": [
+          {
+            "name": "adiko01",
+            "slug": "adiko01",
+            "icon": "/images/authors/adiko01.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.ilovemusic/plugin.audio.ilovemusic-4.0.0.zip",
+            "statspath": "/addons/omega/plugin.audio.ilovemusic/plugin.audio.ilovemusic-4.0.0.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Music addons",
+            "slug": "music-addons",
+            "icon": "/images/categories/music-addons.webp"
+          }
+        ],
+        "firstseen": "2025-03-28T02:31:32.719Z",
+        "agetype": "new",
+        "language": "de",
+        "license": "GPL-2.0-only",
+        "source": "https://github.com/adiko01/plugin.audio.ilovemusic",
+        "website": "https://adiko01.de/kodi-addon-i-love-music/",
+        "summary": "This add-on lists all I LOVE MUSIC streams.",
+        "description": "This add-on lists all I LOVE MUSIC streams. The content may be geolocked.",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.ilovemusic/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.ilovemusic/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "size": "332KB",
+        "lastupdate": "2025-03-28T02:31:32.719Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.audio.ilovemusic/resources/icon.png",
+        "snippet": "This add-on lists all I LOVE MUSIC streams."
+      },
+      {
         "id": "plugin.video.imdb.trailers",
         "addonid": "plugin.video.imdb.trailers",
         "name": "IMDb Trailers",
@@ -36559,6 +36755,84 @@
         "icon": "/images/addons/omega/plugin.audio.indigitube/resources/icon.png",
         "snippet": "Unofficial plugin for indigiTUBE: the Australian national media platform by and for First Nations people.",
         "prevyeardl": 39408
+      },
+      {
+        "id": "plugin.audio.intergalacticfm",
+        "addonid": "plugin.audio.intergalacticfm",
+        "name": "Intergalactic FM",
+        "slug": "plugin.audio.intergalacticfm",
+        "version": "3.0.3",
+        "authors": [
+          {
+            "name": "Dreamer",
+            "slug": "dreamer",
+            "icon": "/images/authors/dreamer.webp"
+          },
+          {
+            "name": "Pander",
+            "slug": "pander",
+            "icon": "/images/authors/pander.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.intergalacticfm/plugin.audio.intergalacticfm-3.0.3.zip",
+            "statspath": "/addons/omega/plugin.audio.intergalacticfm/plugin.audio.intergalacticfm-3.0.3.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Music addons",
+            "slug": "music-addons",
+            "icon": "/images/categories/music-addons.webp"
+          }
+        ],
+        "firstseen": "2025-03-28T02:31:32.719Z",
+        "agetype": "new",
+        "summary": "No Station Such Dedication",
+        "description": "Add-on for the audio streams of the online radio station Intergalacic FM.\n\nSee also the video plugin. Please consider donating at https://intergalactic.fm to keep us in orbit.",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s1.jpg",
+            "remotepath": "screenshots/s1.jpg"
+          },
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s2.jpg",
+            "remotepath": "screenshots/s2.jpg"
+          },
+          {
+            "localpath": "/images/addons/omega/plugin.audio.intergalacticfm/screenshots/s3.jpg",
+            "remotepath": "screenshots/s3.jpg"
+          }
+        ],
+        "news": "Updated with latest artwork metadata",
+        "license": "GPL-3.0-or-later",
+        "source": "https://github.com/intergalacticfm/plugin.audio.intergalacticfm",
+        "website": "https://www.intergalactic.fm",
+        "size": "4343KB",
+        "lastupdate": "2025-03-28T02:31:32.719Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.audio.intergalacticfm/resources/icon.png",
+        "snippet": "No Station Such Dedication"
       },
       {
         "id": "plugin.video.archive.org",
@@ -45277,7 +45551,7 @@
         "prevyeardl": 103479
       }
     ],
-    "totaladdons": 217
+    "totaladdons": 219
   },
   {
     "name": "Program addons",
