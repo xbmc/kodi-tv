@@ -5193,7 +5193,7 @@
         "addonid": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
-        "version": "5.7.24",
+        "version": "5.7.25",
         "authors": [
           {
             "name": "Bas Rieter",
@@ -5204,8 +5204,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.24.zip",
-            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.24.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip",
+            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip"
           }
         ],
         "categories": [
@@ -5235,7 +5235,7 @@
         "reuselanguageinvoker": "true",
         "license": "GPL-3.0-or-later",
         "language": "en nl de sv no lt lv fi",
-        "news": "Retrospect v5.7.24 - Changelog - 2025-02-08\n\nFixed some minor issues with channels.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO Luister radio stations.\n* Fixed: SRF Channel.\n* Fixed: TV4 Play Channel needs POSTs now (Fixes #1886).\n* Fixed: item 'ondek meer genres' missing in NPO's 'TV shows'\n\n        ",
+        "news": "Retrospect v5.7.25 - Changelog - 2025-04-09\n\nJust some minor channel fixes for NPO and Videoland.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO \"news\" and \"populair\" categories.\n* Fixed: VideoLand video playback (Fixes #1894).\n\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -5271,12 +5271,12 @@
         "summary": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters.",
         "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
         "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
-        "size": "1986KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 6997,
+        "size": "1993KB",
+        "lastupdate": "2025-04-10T02:31:46.612Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
-        "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters.",
-        "prevyeardl": 6997
+        "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
       {
         "id": "resource.images.retrospect",
@@ -16949,7 +16949,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2025.3.18+matrix.1",
+        "version": "2025.4.8+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -16965,8 +16965,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip"
           }
         ],
         "categories": [
@@ -16991,7 +16991,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- ability to change skip timing adjustment settings during playback\n            - initial 2025 updates\n            - fix for Japan exhibitions\n        ",
+        "news": "- automatic blackout/entitlement detection\n            - support for SNLA and SNY subscriptions\n            - skip timing, game changer, and hide scores ticker updates for 2025\n            - jump to live when skipping start dialog and allowing spoilers\n            - restored Big Inning schedule\n            - fixed Catch Up option\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -17009,9 +17009,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "339KB",
-        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "size": "340KB",
+        "lastupdate": "2025-04-10T02:31:46.612Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
@@ -83563,7 +83564,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2025.3.18+matrix.1",
+        "version": "2025.4.8+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -83579,8 +83580,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.3.18+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip"
           }
         ],
         "categories": [
@@ -83605,7 +83606,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- ability to change skip timing adjustment settings during playback\n            - initial 2025 updates\n            - fix for Japan exhibitions\n        ",
+        "news": "- automatic blackout/entitlement detection\n            - support for SNLA and SNY subscriptions\n            - skip timing, game changer, and hide scores ticker updates for 2025\n            - jump to live when skipping start dialog and allowing spoilers\n            - restored Big Inning schedule\n            - fixed Catch Up option\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -83623,9 +83624,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "339KB",
-        "lastupdate": "2025-03-21T02:30:47.670Z",
+        "size": "340KB",
+        "lastupdate": "2025-04-10T02:31:46.612Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
