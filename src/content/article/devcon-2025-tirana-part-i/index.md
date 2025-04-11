@@ -32,5 +32,8 @@ A change of direction next: **78andyp** joined to talk us through his recent wor
 
 (There was a sidebar conversation during this presentation in which **ksooo** raised some very valid questions about vision and the natural constraints on Kodi: what are the design principles we are using that ultimately drive what should and shouldn't be included in Kodi versus, say, a media manager, and thus what are the dialogue boxes or other user interactions that are acceptable? Similarly, how effective could a heuristic be, when will it need user intervention, and what should that intervention look like? Does it need some external "priming", or metadata information?).
 
+And that's it for Day One - it's late, and dinner calls. We'll be back tomorrow with more, so please, join us then!
+
+
 
 *† Fun fact: Albanian is the only surviving member of the [Albanoid](https://en.wikipedia.org/wiki/Albanoid) group of languages, and so stands alone, with no direct modern relatives. It's the official language of Albania and Kosovo, one of the official languages in North Macedonia and Montenegro, and a widespread minority language in Italy, Croatia, Romania, Serbia and Greece. Add in the Albanian diaspora across the Americas, Europe and Oceania, and there are three or four times more native speakers worldwide than there are inhabitants of modern Albania - including singers [Dua Lipa](https://en.wikipedia.org/wiki/Dua_Lipa) and [Rita Ora](https://en.wikipedia.org/wiki/Rita_Ora).*
