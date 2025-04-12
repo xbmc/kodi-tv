@@ -1,0 +1,39 @@
+---
+title: DevCon 2025 - Tirana - Part I
+date: 2025-04-11T21:15:38.262Z
+author: Prof Yaffle
+tags:
+  - DevCon
+featured_image:
+  src: /images/blog/tirana-street-scene.webp
+  title: Tirana street scene (Bulevardi Dëshmorët e Kombit) in spring. Image
+    copyright Ian Harper, used with permission.
+  alt: A grand building, probably 19th century, on a street corner. The sun is
+    shining, the sky is blue. A line of neatly-trimmed trees sits just in front
+    of it.
+---
+<*tap, tap, tap*> - Is this thing on? Yes, it is, and so it's time to once again introduce the highlight of the Kodi year - friends and fellow travellers, welcome to DevCon 2025! 
+
+This year we're coming to you from Tirana in Albania (or *Tiranë* in *Shqipëri* in the local language†). A country that, I suspect, most people know little about, Albania has a long and ... bumpy history, mostly involving other countries and some less-than-friendly regimes: Romans (both western Roman and eastern Byzantine), Ottomans, Austro-Hungarians, Italians, from imperial territory to independence, from international capitalism to isolationist communism and back. Sitting astride both the Aegean and Ionic seas, the country now embraces the promise of full modernity and EU membership as it strives to turn its back on the darker chapters of recent history and take its rightful place in Europe.
+
+As in previous years, we're going to aim to do a daily update (content-dependent), so let's see how it goes. Without further ado, then, let's get straight into it with Day One.
+
+- - -
+
+We began with round-table introductions and a typical retrospective: reminiscences for older heads, background for newer ones. We're coming up to a  quarter of a century of XBMC/Kodi, and, as you'd expect, there's now a significant story of how we got to where we are, and some of the main contributors and contributions along the way.
+
+We continued with an update on the Foundation's financial position from **keithah**. We've always been very transparent that we're not a wealthy project, and we've never actively pursued financial gain for either Foundation or individuals. That hasn't changed, although money is gradually getting tighter as e.g. major sponsors fall away, with limited opportunity to replace them in the current climate. We remain solvent, and can both pay our bills and invest in development hardware, server infrastructure and, yes, this conference, but we do need to generate new and more regular income to make sure that remains the case. In terms of priority, then, we wait to see if this is the last DevCon for a while. 
+
+Next up, we had a readout on the experience of our most recent release manager, **garbear**. Getting Kodi tagged, packaged and released on multiple platforms is a significant undertaking, so even point releases involve a good chunk of work. Even apparently minor changes involve merging new translations, for example, plus there are inevitable rule/eligibility checks on software stores and similar. Indeed, our most recent "Omega" 21.2 release actually included a complete update to the entire add-on ecosystem precisely because of translation issues, which means 100+ separate components needed to be built and released alongside the core Kodi application. Even that caused further ripple effects: we needed to update binary add-ons as well, which then, in turn, caused problems for existing 21.1 installations. This led straight into a more practical conversation, with **garbear** joined primarily by **martijn**, **yol** and **lrusak** to talk about how we could improve things: APIs, ABIs, links, scripts, dependencies, redistributables, SDKs, implications for different platforms - and, yes, much, much more about translations. Releasing new versions of Kodi is most certainly not a trivial task!
+
+This conversation then segued into a long debate about build systems, and the complexity that Kodi brings: there are few, if any, multi-platform applications that use the same code base on quite so many target operating systems. If you think about most other applications that might be available on multiple platforms, the chances are that they use completely different code bases that are then built on specific tools to produce applications that might look similar, and might behave similarly, but are actually very different. Alternatively, you have very many applications that are basically web pages, rendered in a platform-specific wrapper - these can deliver a very consistent experience and rich multimedia, but in a very different way. Kodi doesn't work like that: it's a huge amount of C++ and other code that's custom built to be as consistent as possible across platforms, and, while that resolves very many issues, it also creates some others at the bundling stage on some platforms.
+
+A change of direction next: **78andyp** joined to talk us through his recent work - and further plans - around Blu-ray support in Kodi. Currently, Kodi supports three disc playback modes: Kodi can show the Blu-ray menu, with all the navigation overhead; you can ask to play the main movie, and Kodi will just take a guess and play the longest media item on the disc, which may or may not be what you want; or you can go into file view, and wander around until you find that the main movie is labelled as item 636 out of a list of ... well, lots. This is obviously all less than ideal, with further implications depending on whether it's a multi-version disc, an episodic series disc, whether there are extras, and so on. Add to this the complexities of ISO versus physical disc, "playlists" with multiple episodes, or initial scraping versus play-time, and there's clearly more to be done - and that's the gauntlet picked up by **78andyp**: to make playing a Blu-ray in Kodi as straightforward as playing a media file. This is very much a work-in-progress, but there's a current 3,000-line pull request that aims to at least start this journey, addressing the *simple file view* for *episodes* at *play-time*. And, like so many things, this process is unveiling other side-quests on the way, ranging from NFO support through ranged episodes to library handling - for both Blu-rays and, potentially, DVDs. There's clearly huge potential for much more to come, so watch this space, shiny disc fans!
+
+(There was a sidebar conversation during this presentation in which **ksooo** raised some very valid questions about vision and the natural constraints on Kodi: what are the design principles we are using that ultimately drive what should and shouldn't be included in Kodi versus, say, a media manager, and thus what are the dialogue boxes or other user interactions that are acceptable? Similarly, how effective could a heuristic be, when will it need user intervention, and what should that intervention look like? Does it need some external "priming", or metadata information?).
+
+And that's it for Day One - it's late, and dinner calls. We'll be back tomorrow with more, so please, join us then!
+
+
+
+*† Fun fact: Albanian is the only surviving member of the [Albanoid](https://en.wikipedia.org/wiki/Albanoid) group of languages, and so stands alone, with no direct modern relatives. It's the official language of Albania and Kosovo, one of the official languages in North Macedonia and Montenegro, and a widespread minority language in Italy, Croatia, Romania, Serbia and Greece. Add in the Albanian diaspora across the Americas, Europe and Oceania, and there are three or four times more native speakers worldwide than there are inhabitants of modern Albania - including singers [Dua Lipa](https://en.wikipedia.org/wiki/Dua_Lipa) and [Rita Ora](https://en.wikipedia.org/wiki/Rita_Ora).*
