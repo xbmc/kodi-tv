@@ -1,6 +1,6 @@
 ---
 title: DevCon 2025 - Tirana - Part I
-date: 2025-04-11T15:23:49.087Z
+date: 2025-04-11T21:15:38.262Z
 author: Prof Yaffle
 tags:
   - DevCon
