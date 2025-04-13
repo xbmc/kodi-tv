@@ -4,6 +4,13 @@ date: 2025-04-12T21:17:34.588Z
 author: Prof Yaffle
 tags:
   - DevCon
+featured_image:
+  src: /images/blog/tirana-street-scene.webp
+  title: Tirana street scene (Bulevardi Dëshmorët e Kombit) in spring. Image
+    copyright Ian Harper, used with permission.
+  alt: A grand building, probably 19th century, on a street corner. The sun is
+    shining, the sky is blue. A line of neatly-trimmed trees sits just in front
+    of it.
 ---
 ## **Image to Follow**
 
