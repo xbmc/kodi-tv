@@ -12,8 +12,6 @@ featured_image:
     shining, the sky is blue. A line of neatly-trimmed trees sits just in front
     of it.
 ---
-## **Image to Follow**
-
 ... and we're back! The skies are blue, the sun is shining, we're fed and refreshed, yet we're locked in a darkened, overly-warm, windowless room for today's session. The privations we suffer for our art; you really have no idea.
 
 Let's get to it, then - welcome to DevCon Day Two!
