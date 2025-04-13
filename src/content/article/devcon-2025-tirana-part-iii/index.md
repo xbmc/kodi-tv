@@ -24,6 +24,6 @@ Next up, **chewitt** with an update on LibreELEC: user numbers, current platform
 
 And that's it for DevCon 2025. Genuine thanks to Tirana for the hospitality, and to everyone who's helped to look after us this year. Until the next time ... *lamtumirë, dhe faleminderit*.
 
-![A photograph of Team Kodi at this year's DevCon: 15 stunningly handsome gentlemen standing in a group on the steps of The Pyramid of Tirana. ](/images/blog/team-kodi-tirana-2025.webp "Team Kodi 2025, Tirana")
+![A photograph of Team Kodi at this year's DevCon: 15 stunningly handsome gentlemen standing in a group on the steps of The Pyramid of Tirana.](/images/blog/team-kodi-tirana-2025.webp "Team Kodi 2025, Tirana")
 
 *Team Kodi 2025, Tirana*
