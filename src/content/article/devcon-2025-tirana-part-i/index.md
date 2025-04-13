@@ -5,16 +5,15 @@ author: Prof Yaffle
 tags:
   - DevCon
 featured_image:
-  src: /images/blog/tirana-street-scene.webp
-  title: Tirana street scene (Bulevardi Dëshmorët e Kombit) in spring. Image
-    copyright Ian Harper, used with permission.
-  alt: A grand building, probably 19th century, on a street corner. The sun is
-    shining, the sky is blue. A line of neatly-trimmed trees sits just in front
-    of it.
+  src: /images/blog/i-love-tirana.webp
+  title: I love Tirana!
+  alt: "Tirana opera house. In the background, a building that's been designed to
+    form the face of Skanderbeg, an Albanian national hero. In the foreground, a
+    piece of public art - \"I heart T\" - \"I love Tirana\" "
 ---
 <*tap, tap, tap*> - Is this thing on? Yes, it is, and so it's time to once again introduce the highlight of the Kodi year - friends and fellow travellers, welcome to DevCon 2025! 
 
-This year we're coming to you from Tirana in Albania (or *Tiranë* in *Shqipëri* in the local language†). A country that, I suspect, most people know little about, Albania has a long and ... bumpy history, mostly involving other countries and some less-than-friendly regimes: Romans (both western Roman and eastern Byzantine), Ottomans, Austro-Hungarians, Italians, from imperial territory to independence, from international capitalism to isolationist communism and back. Sitting astride both the Aegean and Ionic seas, the country now embraces the promise of full modernity and EU membership as it strives to turn its back on the darker chapters of recent history and take its rightful place in Europe.
+This year we're coming to you from Tirana in Albania (or *Tiranë* in *Shqipëri* in the local language†). A country that, I suspect, most people know little about, Albania has a long and ... bumpy history, mostly involving other countries and some less-than-friendly regimes: Romans (both western Roman and eastern Byzantine), Ottomans, Austro-Hungarians, Italians, from imperial territory to independence, from international engagement to isolationist communism to modern democracy. Sitting astride both the Aegean and Ionic seas, the country now embraces the promise of full modernity and EU membership as it strives to turn its back on the darker chapters of recent history and take its rightful place in Europe.
 
 As in previous years, we're going to aim to do a daily update (content-dependent), so let's see how it goes. Without further ado, then, let's get straight into it with Day One.
 
@@ -33,7 +32,5 @@ A change of direction next: **78andyp** joined to talk us through his recent wor
 (There was a sidebar conversation during this presentation in which **ksooo** raised some very valid questions about vision and the natural constraints on Kodi: what are the design principles we are using that ultimately drive what should and shouldn't be included in Kodi versus, say, a media manager, and thus what are the dialogue boxes or other user interactions that are acceptable? Similarly, how effective could a heuristic be, when will it need user intervention, and what should that intervention look like? Does it need some external "priming", or metadata information?).
 
 And that's it for Day One - it's late, and dinner calls. We'll be back tomorrow with more, so please, join us then!
-
-
 
 *† Fun fact: Albanian is the only surviving member of the [Albanoid](https://en.wikipedia.org/wiki/Albanoid) group of languages, and so stands alone, with no direct modern relatives. It's the official language of Albania and Kosovo, one of the official languages in North Macedonia and Montenegro, and a widespread minority language in Italy, Croatia, Romania, Serbia and Greece. Add in the Albanian diaspora across the Americas, Europe and Oceania, and there are three or four times more native speakers worldwide than there are inhabitants of modern Albania - including singers [Dua Lipa](https://en.wikipedia.org/wiki/Dua_Lipa) and [Rita Ora](https://en.wikipedia.org/wiki/Rita_Ora).*
