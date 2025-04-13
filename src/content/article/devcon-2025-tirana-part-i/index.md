@@ -6,7 +6,7 @@ tags:
   - DevCon
 featured_image:
   src: /images/blog/i-love-tirana.webp
-  title: I love Tirana!
+  title: I love Tirana! Image copyright Ian Harper, used with permission.
   alt: "Tirana opera house. In the background, a building that's been designed to
     form the face of Skanderbeg, an Albanian national hero. In the foreground, a
     piece of public art - \"I heart T\" - \"I love Tirana\" "
