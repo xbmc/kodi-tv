@@ -6140,7 +6140,6 @@
     "size": "476KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.3dengine/resources/icon.png",
     "snippet": "Test Core - 3D Engine"
   },
@@ -6998,6 +6997,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.53.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.53.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.53.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.53.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.53.zip",
         "statspath": "/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.53.zip"
@@ -7016,16 +7025,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.53.zip",
         "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.53.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.52.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.52.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.52.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.52.zip"
       }
     ],
     "categories": [
@@ -7061,10 +7060,9 @@
     ],
     "summary": "NEC - PC Engine / CD (Beetle PCE FAST)",
     "description": "Beetle PC Engine Fast is a fork of Mednafen's PC Engine Fast driver.\n\nCompared to Beetle PC Engine, the fast version trades away typically unnecessary accuracy in favor of speed.",
-    "size": "1624KB",
+    "size": "1231KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.beetle-pce-fast/resources/icon.png",
     "snippet": "NEC - PC Engine / CD (Beetle PCE FAST)"
   },
@@ -7154,6 +7152,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+windows-i686/game.libretro.beetle-psx-0.9.44.66.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-psx+windows-i686/game.libretro.beetle-psx-0.9.44.66.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+windows-x86_64/game.libretro.beetle-psx-0.9.44.66.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-psx+windows-x86_64/game.libretro.beetle-psx-0.9.44.66.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.66.zip",
         "statspath": "/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.66.zip"
@@ -7172,16 +7180,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.66.zip",
         "statspath": "/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.66.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+windows-x86_64/game.libretro.beetle-psx-0.9.44.65.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-psx+windows-x86_64/game.libretro.beetle-psx-0.9.44.65.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+windows-i686/game.libretro.beetle-psx-0.9.44.65.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-psx+windows-i686/game.libretro.beetle-psx-0.9.44.65.zip"
       }
     ],
     "categories": [
@@ -7203,10 +7201,9 @@
     ],
     "summary": "Sony - PlayStation (Beetle PSX)",
     "description": "Beetle PSX is the PlayStation module of Beetle, a port of Madnafen.",
-    "size": "1954KB",
+    "size": "1149KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.beetle-psx/resources/icon.png",
     "snippet": "Sony - PlayStation (Beetle PSX)"
   },
@@ -7225,6 +7222,21 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+windows-i686/game.libretro.beetle-saturn-1.29.0.51.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-saturn+windows-i686/game.libretro.beetle-saturn-1.29.0.51.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+windows-x86_64/game.libretro.beetle-saturn-1.29.0.51.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-saturn+windows-x86_64/game.libretro.beetle-saturn-1.29.0.51.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+android-aarch64/game.libretro.beetle-saturn-1.29.0.51.zip",
+        "statspath": "/addons/omega/game.libretro.beetle-saturn+android-aarch64/game.libretro.beetle-saturn-1.29.0.51.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+osx-x86_64/game.libretro.beetle-saturn-1.29.0.51.zip",
         "statspath": "/addons/omega/game.libretro.beetle-saturn+osx-x86_64/game.libretro.beetle-saturn-1.29.0.51.zip"
@@ -7238,21 +7250,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+android-armv7/game.libretro.beetle-saturn-1.29.0.51.zip",
         "statspath": "/addons/omega/game.libretro.beetle-saturn+android-armv7/game.libretro.beetle-saturn-1.29.0.51.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+android-aarch64/game.libretro.beetle-saturn-1.29.0.50.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-saturn+android-aarch64/game.libretro.beetle-saturn-1.29.0.50.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+windows-i686/game.libretro.beetle-saturn-1.29.0.49.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-saturn+windows-i686/game.libretro.beetle-saturn-1.29.0.49.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-saturn+windows-x86_64/game.libretro.beetle-saturn-1.29.0.49.zip",
-        "statspath": "/addons/omega/game.libretro.beetle-saturn+windows-x86_64/game.libretro.beetle-saturn-1.29.0.49.zip"
       }
     ],
     "categories": [
@@ -7274,10 +7271,9 @@
     ],
     "summary": "Sega - Saturn (Beetle Saturn)",
     "description": "Beetle Saturn is a port of Mednafen Saturn to the libretro API.",
-    "size": "1929KB",
+    "size": "1216KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.beetle-saturn/resources/icon.png",
     "snippet": "Sega - Saturn (Beetle Saturn)"
   },
@@ -7717,6 +7713,21 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+windows-x86_64/game.libretro.bluemsx-0.0.1.45.zip",
+        "statspath": "/addons/omega/game.libretro.bluemsx+windows-x86_64/game.libretro.bluemsx-0.0.1.45.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+windows-i686/game.libretro.bluemsx-0.0.1.45.zip",
+        "statspath": "/addons/omega/game.libretro.bluemsx+windows-i686/game.libretro.bluemsx-0.0.1.45.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+android-aarch64/game.libretro.bluemsx-0.0.1.45.zip",
+        "statspath": "/addons/omega/game.libretro.bluemsx+android-aarch64/game.libretro.bluemsx-0.0.1.45.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+osx-x86_64/game.libretro.bluemsx-0.0.1.45.zip",
         "statspath": "/addons/omega/game.libretro.bluemsx+osx-x86_64/game.libretro.bluemsx-0.0.1.45.zip"
@@ -7730,21 +7741,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+android-armv7/game.libretro.bluemsx-0.0.1.45.zip",
         "statspath": "/addons/omega/game.libretro.bluemsx+android-armv7/game.libretro.bluemsx-0.0.1.45.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+windows-x86_64/game.libretro.bluemsx-0.0.1.44.zip",
-        "statspath": "/addons/omega/game.libretro.bluemsx+windows-x86_64/game.libretro.bluemsx-0.0.1.44.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+windows-i686/game.libretro.bluemsx-0.0.1.44.zip",
-        "statspath": "/addons/omega/game.libretro.bluemsx+windows-i686/game.libretro.bluemsx-0.0.1.44.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bluemsx+android-aarch64/game.libretro.bluemsx-0.0.1.44.zip",
-        "statspath": "/addons/omega/game.libretro.bluemsx+android-aarch64/game.libretro.bluemsx-0.0.1.44.zip"
       }
     ],
     "categories": [
@@ -7767,10 +7763,9 @@
     "summary": "MSX/SVI/ColecoVision/SG-1000 (blueMSX)",
     "description": "BlueMSX is a rich MSX emulator. It supports most common machines and a wide variety of extension hardware.",
     "disclaimer": "作者：Daniel Vik、Benoit Delvaux、Tomas Karlsson、Johan van Leur、Ricardo Bittencourt 和 Ray Zero",
-    "size": "1295KB",
+    "size": "1152KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.bluemsx/resources/icon.png",
     "snippet": "MSX/SVI/ColecoVision/SG-1000 (blueMSX)"
   },
@@ -7934,6 +7929,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+windows-x86_64/game.libretro.bsnes-115.0.0.19.zip",
+        "statspath": "/addons/omega/game.libretro.bsnes+windows-x86_64/game.libretro.bsnes-115.0.0.19.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+windows-i686/game.libretro.bsnes-115.0.0.19.zip",
+        "statspath": "/addons/omega/game.libretro.bsnes+windows-i686/game.libretro.bsnes-115.0.0.19.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+osx-x86_64/game.libretro.bsnes-115.0.0.19.zip",
         "statspath": "/addons/omega/game.libretro.bsnes+osx-x86_64/game.libretro.bsnes-115.0.0.19.zip"
@@ -7952,16 +7957,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+android-armv7/game.libretro.bsnes-115.0.0.19.zip",
         "statspath": "/addons/omega/game.libretro.bsnes+android-armv7/game.libretro.bsnes-115.0.0.19.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+windows-i686/game.libretro.bsnes-115.0.0.18.zip",
-        "statspath": "/addons/omega/game.libretro.bsnes+windows-i686/game.libretro.bsnes-115.0.0.18.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.bsnes+windows-x86_64/game.libretro.bsnes-115.0.0.18.zip",
-        "statspath": "/addons/omega/game.libretro.bsnes+windows-x86_64/game.libretro.bsnes-115.0.0.18.zip"
       }
     ],
     "categories": [
@@ -7998,10 +7993,9 @@
     "summary": "Nintendo - SNES / SFC (bsnes)",
     "description": "bsnes is a multi-platform Super Nintendo (Super Famicom) emulator from Near / Byuu that focuses on performance, features, and ease of use.",
     "disclaimer": "怀念 Near / Byuu",
-    "size": "2369KB",
+    "size": "1763KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.bsnes/resources/icon.png",
     "snippet": "Nintendo - SNES / SFC (bsnes)"
   },
@@ -8724,6 +8718,21 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+windows-i686/game.libretro.cap32-4.5.4.45.zip",
+        "statspath": "/addons/omega/game.libretro.cap32+windows-i686/game.libretro.cap32-4.5.4.45.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+windows-x86_64/game.libretro.cap32-4.5.4.45.zip",
+        "statspath": "/addons/omega/game.libretro.cap32+windows-x86_64/game.libretro.cap32-4.5.4.45.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+android-aarch64/game.libretro.cap32-4.5.4.45.zip",
+        "statspath": "/addons/omega/game.libretro.cap32+android-aarch64/game.libretro.cap32-4.5.4.45.zip"
+      },
+      {
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+android-armv7/game.libretro.cap32-4.5.4.45.zip",
         "statspath": "/addons/omega/game.libretro.cap32+android-armv7/game.libretro.cap32-4.5.4.45.zip"
@@ -8737,21 +8746,6 @@
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+osx-arm64/game.libretro.cap32-4.5.4.45.zip",
         "statspath": "/addons/omega/game.libretro.cap32+osx-arm64/game.libretro.cap32-4.5.4.45.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+windows-i686/game.libretro.cap32-4.5.4.44.zip",
-        "statspath": "/addons/omega/game.libretro.cap32+windows-i686/game.libretro.cap32-4.5.4.44.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+windows-x86_64/game.libretro.cap32-4.5.4.44.zip",
-        "statspath": "/addons/omega/game.libretro.cap32+windows-x86_64/game.libretro.cap32-4.5.4.44.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.cap32+android-aarch64/game.libretro.cap32-4.5.4.44.zip",
-        "statspath": "/addons/omega/game.libretro.cap32+android-aarch64/game.libretro.cap32-4.5.4.44.zip"
       }
     ],
     "categories": [
@@ -8774,10 +8768,9 @@
     "summary": "Amstrad - CPC/GX4000 (Caprice32)",
     "description": "Caprice32 is an emulator for the Amstrad CPC 8-bit home computer series. It faithfully imitates the CPC464, CPC664, and CPC6128 models.",
     "disclaimer": "作者：Ulrich Doewich",
-    "size": "555KB",
+    "size": "534KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.cap32/resources/icon.png",
     "snippet": "Amstrad - CPC/GX4000 (Caprice32)"
   },
@@ -10135,6 +10128,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.82.zip",
+        "statspath": "/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.82.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.82.zip",
+        "statspath": "/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.82.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.82.zip",
         "statspath": "/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.82.zip"
@@ -10153,16 +10156,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.82.zip",
         "statspath": "/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.82.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.81.zip",
-        "statspath": "/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.81.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.81.zip",
-        "statspath": "/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.81.zip"
       }
     ],
     "categories": [
@@ -10185,10 +10178,9 @@
     "summary": "Arcade (FinalBurn Neo)",
     "description": "FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.\n\nFB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.",
     "disclaimer": "图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）",
-    "size": "16754KB",
+    "size": "15106KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.fbneo/resources/icon.png",
     "snippet": "Arcade (FinalBurn Neo)"
   },
@@ -10212,6 +10204,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+windows-x86_64/game.libretro.fceumm-0.0.1.58.zip",
+        "statspath": "/addons/omega/game.libretro.fceumm+windows-x86_64/game.libretro.fceumm-0.0.1.58.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+windows-i686/game.libretro.fceumm-0.0.1.58.zip",
+        "statspath": "/addons/omega/game.libretro.fceumm+windows-i686/game.libretro.fceumm-0.0.1.58.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+osx-x86_64/game.libretro.fceumm-0.0.1.58.zip",
         "statspath": "/addons/omega/game.libretro.fceumm+osx-x86_64/game.libretro.fceumm-0.0.1.58.zip"
@@ -10230,16 +10232,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+android-armv7/game.libretro.fceumm-0.0.1.58.zip",
         "statspath": "/addons/omega/game.libretro.fceumm+android-armv7/game.libretro.fceumm-0.0.1.58.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+windows-i686/game.libretro.fceumm-0.0.1.57.zip",
-        "statspath": "/addons/omega/game.libretro.fceumm+windows-i686/game.libretro.fceumm-0.0.1.57.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fceumm+windows-x86_64/game.libretro.fceumm-0.0.1.57.zip",
-        "statspath": "/addons/omega/game.libretro.fceumm+windows-x86_64/game.libretro.fceumm-0.0.1.57.zip"
       }
     ],
     "categories": [
@@ -10276,10 +10268,9 @@
     "summary": "Nintendo - NES / Famicom (FCEUmm)",
     "description": "FCEUmm emulates NES, Famicom, and Famicom Disk System (FDS) platforms.\n\nFCEUmm merges elements from FCEU Ultra, FCEU rerecording, FCEUXD, FCEUXDSP, FCEUXDSP CE, and FCEU-mm into a single branch of FCEU.",
     "disclaimer": "图标来源：Anarkhya（anarkhya.deviantart.com）",
-    "size": "1239KB",
+    "size": "1151KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.fceumm/resources/icon.png",
     "snippet": "Nintendo - NES / Famicom (FCEUmm)"
   },
@@ -10502,6 +10493,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+windows-i686/game.libretro.freeintv-1.2.0.32.zip",
+        "statspath": "/addons/omega/game.libretro.freeintv+windows-i686/game.libretro.freeintv-1.2.0.32.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+windows-x86_64/game.libretro.freeintv-1.2.0.32.zip",
+        "statspath": "/addons/omega/game.libretro.freeintv+windows-x86_64/game.libretro.freeintv-1.2.0.32.zip"
+      },
+      {
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+android-armv7/game.libretro.freeintv-1.2.0.32.zip",
         "statspath": "/addons/omega/game.libretro.freeintv+android-armv7/game.libretro.freeintv-1.2.0.32.zip"
@@ -10520,16 +10521,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+android-aarch64/game.libretro.freeintv-1.2.0.32.zip",
         "statspath": "/addons/omega/game.libretro.freeintv+android-aarch64/game.libretro.freeintv-1.2.0.32.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+windows-i686/game.libretro.freeintv-1.2.0.31.zip",
-        "statspath": "/addons/omega/game.libretro.freeintv+windows-i686/game.libretro.freeintv-1.2.0.31.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.freeintv+windows-x86_64/game.libretro.freeintv-1.2.0.31.zip",
-        "statspath": "/addons/omega/game.libretro.freeintv+windows-x86_64/game.libretro.freeintv-1.2.0.31.zip"
       }
     ],
     "categories": [
@@ -10551,10 +10542,9 @@
     ],
     "summary": "Mattel - Intellivision (FreeIntv)",
     "description": "FreeIntv is a libretro emulation core for the Mattel Intellivision designed for joypad compatibility.",
-    "size": "211KB",
+    "size": "210KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.freeintv/resources/icon.png",
     "snippet": "Mattel - Intellivision (FreeIntv)"
   },
@@ -10721,6 +10711,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+windows-x86_64/game.libretro.galaxy-0.1.0.15.zip",
+        "statspath": "/addons/omega/game.libretro.galaxy+windows-x86_64/game.libretro.galaxy-0.1.0.15.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+windows-i686/game.libretro.galaxy-0.1.0.15.zip",
+        "statspath": "/addons/omega/game.libretro.galaxy+windows-i686/game.libretro.galaxy-0.1.0.15.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+osx-x86_64/game.libretro.galaxy-0.1.0.15.zip",
         "statspath": "/addons/omega/game.libretro.galaxy+osx-x86_64/game.libretro.galaxy-0.1.0.15.zip"
@@ -10739,16 +10739,6 @@
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+osx-arm64/game.libretro.galaxy-0.1.0.15.zip",
         "statspath": "/addons/omega/game.libretro.galaxy+osx-arm64/game.libretro.galaxy-0.1.0.15.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+windows-i686/game.libretro.galaxy-0.1.0.14.zip",
-        "statspath": "/addons/omega/game.libretro.galaxy+windows-i686/game.libretro.galaxy-0.1.0.14.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.galaxy+windows-x86_64/game.libretro.galaxy-0.1.0.14.zip",
-        "statspath": "/addons/omega/game.libretro.galaxy+windows-x86_64/game.libretro.galaxy-0.1.0.14.zip"
       }
     ],
     "categories": [
@@ -10777,10 +10767,9 @@
     "summary": "Galaksija (galaxy-libretro)",
     "description": "Galaxy emulates the Galaksija built-it-yourself computer designed by Voja Antonićin in Yogoslavia in 1983.",
     "disclaimer": "图片来源：TomažŠolc",
-    "size": "850KB",
+    "size": "851KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.galaxy/resources/icon.png",
     "snippet": "Galaksija (galaxy-libretro)"
   },
@@ -10798,6 +10787,16 @@
       }
     ],
     "platforms": [
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.56.zip",
+        "statspath": "/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.56.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.56.zip",
+        "statspath": "/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.56.zip"
+      },
       {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+osx-x86_64/game.libretro.gambatte-0.5.0.56.zip",
@@ -10817,16 +10816,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.56.zip",
         "statspath": "/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.56.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.55.zip",
-        "statspath": "/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.55.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.55.zip",
-        "statspath": "/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.55.zip"
       }
     ],
     "categories": [
@@ -10863,10 +10852,9 @@
     "summary": "Nintendo - Game Boy / Color (Gambatte)",
     "description": "Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++.",
     "disclaimer": "Game Boy 和 Game Boy Color 是美国任天堂股份有限公司的注册商标。Gambatte 与上述任何公司均无关联或背书。",
-    "size": "1267KB",
+    "size": "1003KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.gambatte/resources/icon.png",
     "snippet": "Nintendo - Game Boy / Color (Gambatte)"
   },
@@ -11120,6 +11108,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.66.zip",
+        "statspath": "/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.66.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.66.zip",
+        "statspath": "/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.66.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.66.zip",
         "statspath": "/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.66.zip"
@@ -11138,16 +11136,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.66.zip",
         "statspath": "/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.66.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.65.zip",
-        "statspath": "/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.65.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.65.zip",
-        "statspath": "/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.65.zip"
       }
     ],
     "categories": [
@@ -11184,10 +11172,9 @@
     "summary": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
     "description": "Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.\n\nFeatures support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware.",
     "disclaimer": "特别感谢 twinaphex 从 GX 版本中移植了增强功能",
-    "size": "1964KB",
+    "size": "1981KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.genplus/resources/icon.png",
     "snippet": "Sega - MS/GG/MD/CD (Genesis Plus GX)"
   },
@@ -11453,6 +11440,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+windows-x86_64/game.libretro.gpsp-1.0.0.46.zip",
+        "statspath": "/addons/omega/game.libretro.gpsp+windows-x86_64/game.libretro.gpsp-1.0.0.46.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+windows-i686/game.libretro.gpsp-1.0.0.46.zip",
+        "statspath": "/addons/omega/game.libretro.gpsp+windows-i686/game.libretro.gpsp-1.0.0.46.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+osx-x86_64/game.libretro.gpsp-1.0.0.46.zip",
         "statspath": "/addons/omega/game.libretro.gpsp+osx-x86_64/game.libretro.gpsp-1.0.0.46.zip"
@@ -11461,16 +11458,6 @@
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+osx-arm64/game.libretro.gpsp-1.0.0.46.zip",
         "statspath": "/addons/omega/game.libretro.gpsp+osx-arm64/game.libretro.gpsp-1.0.0.46.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+windows-i686/game.libretro.gpsp-1.0.0.45.zip",
-        "statspath": "/addons/omega/game.libretro.gpsp+windows-i686/game.libretro.gpsp-1.0.0.45.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gpsp+windows-x86_64/game.libretro.gpsp-1.0.0.45.zip",
-        "statspath": "/addons/omega/game.libretro.gpsp+windows-x86_64/game.libretro.gpsp-1.0.0.45.zip"
       }
     ],
     "categories": [
@@ -11506,10 +11493,9 @@
     ],
     "summary": "Nintendo - Game Boy Advance (gpSP)",
     "description": "gpSP is a Game Boy Advance emulator based on notaz's fork of gpSP with additional codebase improvements.",
-    "size": "1088KB",
+    "size": "967KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.gpsp/resources/icon.png",
     "snippet": "Nintendo - Game Boy Advance (gpSP)"
   },
@@ -11820,6 +11806,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.37.zip",
+        "statspath": "/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.37.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.37.zip",
+        "statspath": "/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.37.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.37.zip",
         "statspath": "/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.37.zip"
@@ -11838,16 +11834,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.37.zip",
         "statspath": "/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.37.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.36.zip",
-        "statspath": "/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.36.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.36.zip",
-        "statspath": "/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.36.zip"
       }
     ],
     "categories": [
@@ -11869,10 +11855,9 @@
     ],
     "summary": "Lua Engine (Lutro)",
     "description": "Lutro is an experimental Lua game framework for libretro inspired by LÖVE.",
-    "size": "506KB",
+    "size": "412KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.lutro/resources/icon.png",
     "snippet": "Lua Engine (Lutro)"
   },
@@ -11962,6 +11947,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+windows-x86_64/game.libretro.mame2003-0.78.0.60.zip",
+        "statspath": "/addons/omega/game.libretro.mame2003+windows-x86_64/game.libretro.mame2003-0.78.0.60.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+windows-i686/game.libretro.mame2003-0.78.0.60.zip",
+        "statspath": "/addons/omega/game.libretro.mame2003+windows-i686/game.libretro.mame2003-0.78.0.60.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+osx-x86_64/game.libretro.mame2003-0.78.0.60.zip",
         "statspath": "/addons/omega/game.libretro.mame2003+osx-x86_64/game.libretro.mame2003-0.78.0.60.zip"
@@ -11980,16 +11975,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+android-aarch64/game.libretro.mame2003-0.78.0.60.zip",
         "statspath": "/addons/omega/game.libretro.mame2003+android-aarch64/game.libretro.mame2003-0.78.0.60.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+windows-x86_64/game.libretro.mame2003-0.78.0.59.zip",
-        "statspath": "/addons/omega/game.libretro.mame2003+windows-x86_64/game.libretro.mame2003-0.78.0.59.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003+windows-i686/game.libretro.mame2003-0.78.0.59.zip",
-        "statspath": "/addons/omega/game.libretro.mame2003+windows-i686/game.libretro.mame2003-0.78.0.59.zip"
       }
     ],
     "categories": [
@@ -12011,10 +11996,9 @@
     ],
     "summary": "Arcade (MAME 2003)",
     "description": "MAME 0.78 for libretro. Compatible with MAME 0.78 sets.",
-    "size": "8533KB",
+    "size": "9528KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.mame2003/resources/icon.png",
     "snippet": "Arcade (MAME 2003)"
   },
@@ -12112,6 +12096,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+windows-x86_64/game.libretro.mame2003_plus-0.0.1.88.zip",
+        "statspath": "/addons/omega/game.libretro.mame2003_plus+windows-x86_64/game.libretro.mame2003_plus-0.0.1.88.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+windows-i686/game.libretro.mame2003_plus-0.0.1.88.zip",
+        "statspath": "/addons/omega/game.libretro.mame2003_plus+windows-i686/game.libretro.mame2003_plus-0.0.1.88.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+osx-x86_64/game.libretro.mame2003_plus-0.0.1.88.zip",
         "statspath": "/addons/omega/game.libretro.mame2003_plus+osx-x86_64/game.libretro.mame2003_plus-0.0.1.88.zip"
@@ -12130,16 +12124,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+android-aarch64/game.libretro.mame2003_plus-0.0.1.88.zip",
         "statspath": "/addons/omega/game.libretro.mame2003_plus+android-aarch64/game.libretro.mame2003_plus-0.0.1.88.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+windows-x86_64/game.libretro.mame2003_plus-0.0.1.87.zip",
-        "statspath": "/addons/omega/game.libretro.mame2003_plus+windows-x86_64/game.libretro.mame2003_plus-0.0.1.87.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mame2003_plus+windows-i686/game.libretro.mame2003_plus-0.0.1.87.zip",
-        "statspath": "/addons/omega/game.libretro.mame2003_plus+windows-i686/game.libretro.mame2003_plus-0.0.1.87.zip"
       }
     ],
     "categories": [
@@ -12161,10 +12145,9 @@
     ],
     "summary": "Arcade (MAME 2003-Plus)",
     "description": "Updated 2003 version of MAME (0.78) for libretro, with added support for over 350 additional games plus many fixes and improvements.",
-    "size": "10826KB",
+    "size": "11901KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.mame2003_plus/resources/icon.png",
     "snippet": "Arcade (MAME 2003-Plus)"
   },
@@ -12731,6 +12714,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+windows-i686/game.libretro.mgba-0.11.0.53.zip",
+        "statspath": "/addons/omega/game.libretro.mgba+windows-i686/game.libretro.mgba-0.11.0.53.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+windows-x86_64/game.libretro.mgba-0.11.0.53.zip",
+        "statspath": "/addons/omega/game.libretro.mgba+windows-x86_64/game.libretro.mgba-0.11.0.53.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+osx-x86_64/game.libretro.mgba-0.11.0.53.zip",
         "statspath": "/addons/omega/game.libretro.mgba+osx-x86_64/game.libretro.mgba-0.11.0.53.zip"
@@ -12749,16 +12742,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+android-aarch64/game.libretro.mgba-0.11.0.53.zip",
         "statspath": "/addons/omega/game.libretro.mgba+android-aarch64/game.libretro.mgba-0.11.0.53.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+windows-i686/game.libretro.mgba-0.11.0.52.zip",
-        "statspath": "/addons/omega/game.libretro.mgba+windows-i686/game.libretro.mgba-0.11.0.52.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mgba+windows-x86_64/game.libretro.mgba-0.11.0.52.zip",
-        "statspath": "/addons/omega/game.libretro.mgba+windows-x86_64/game.libretro.mgba-0.11.0.52.zip"
       }
     ],
     "categories": [
@@ -12794,10 +12777,9 @@
     ],
     "summary": "Nintendo - Game Boy Advance (mGBA)",
     "description": "mGBA aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack.",
-    "size": "1462KB",
+    "size": "1307KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.mgba/resources/icon.png",
     "snippet": "Nintendo - Game Boy Advance (mGBA)"
   },
@@ -13033,6 +13015,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.2.32.zip",
+        "statspath": "/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.2.32.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.2.32.zip",
+        "statspath": "/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.2.32.zip"
+      },
+      {
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.2.32.zip",
         "statspath": "/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.2.32.zip"
@@ -13051,16 +13043,6 @@
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.2.32.zip",
         "statspath": "/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.2.32.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.2.31.zip",
-        "statspath": "/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.2.31.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.2.31.zip",
-        "statspath": "/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.2.31.zip"
       }
     ],
     "categories": [
@@ -13082,10 +13064,9 @@
     ],
     "summary": "Palm OS (Mu)",
     "description": "Mu is a new Palm OS emulator targeting compatibility, speed and accuracy in that order.\n\nNote: The BIOS files palmos41-en-m515.rom and palmos52-en-t3.rom are needed.",
-    "size": "477KB",
+    "size": "483KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.mu/resources/icon.png",
     "snippet": "Palm OS (Mu)"
   },
@@ -13371,6 +13352,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+windows-x86_64/game.libretro.nestopia-1.53.1.50.zip",
+        "statspath": "/addons/omega/game.libretro.nestopia+windows-x86_64/game.libretro.nestopia-1.53.1.50.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+windows-i686/game.libretro.nestopia-1.53.1.50.zip",
+        "statspath": "/addons/omega/game.libretro.nestopia+windows-i686/game.libretro.nestopia-1.53.1.50.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.1.50.zip",
         "statspath": "/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.1.50.zip"
@@ -13389,16 +13380,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.1.50.zip",
         "statspath": "/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.1.50.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+windows-x86_64/game.libretro.nestopia-1.53.0.49.zip",
-        "statspath": "/addons/omega/game.libretro.nestopia+windows-x86_64/game.libretro.nestopia-1.53.0.49.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+windows-i686/game.libretro.nestopia-1.53.0.49.zip",
-        "statspath": "/addons/omega/game.libretro.nestopia+windows-i686/game.libretro.nestopia-1.53.0.49.zip"
       }
     ],
     "categories": [
@@ -13435,10 +13416,9 @@
     "summary": "Nintendo - NES / Famicom (Nestopia)",
     "description": "Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals.",
     "disclaimer": "图标来源：Anarkhya（anarkhya.deviantart.com）",
-    "size": "2253KB",
+    "size": "1721KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.nestopia/resources/icon.png",
     "snippet": "Nintendo - NES / Famicom (Nestopia)"
   },
@@ -13911,7 +13891,6 @@
     "size": "1858KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.parallel_n64/resources/icon.png",
     "snippet": "Nintendo - Nintendo 64 (ParaLLEl N64)"
   },
@@ -13940,6 +13919,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+windows-i686/game.libretro.pcsx-rearmed-25.0.0.65.zip",
+        "statspath": "/addons/omega/game.libretro.pcsx-rearmed+windows-i686/game.libretro.pcsx-rearmed-25.0.0.65.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+windows-x86_64/game.libretro.pcsx-rearmed-25.0.0.65.zip",
+        "statspath": "/addons/omega/game.libretro.pcsx-rearmed+windows-x86_64/game.libretro.pcsx-rearmed-25.0.0.65.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+osx-x86_64/game.libretro.pcsx-rearmed-25.0.0.65.zip",
         "statspath": "/addons/omega/game.libretro.pcsx-rearmed+osx-x86_64/game.libretro.pcsx-rearmed-25.0.0.65.zip"
@@ -13958,16 +13947,6 @@
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+osx-arm64/game.libretro.pcsx-rearmed-25.0.0.65.zip",
         "statspath": "/addons/omega/game.libretro.pcsx-rearmed+osx-arm64/game.libretro.pcsx-rearmed-25.0.0.65.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+windows-x86_64/game.libretro.pcsx-rearmed-24.0.0.64.zip",
-        "statspath": "/addons/omega/game.libretro.pcsx-rearmed+windows-x86_64/game.libretro.pcsx-rearmed-24.0.0.64.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.pcsx-rearmed+windows-i686/game.libretro.pcsx-rearmed-24.0.0.64.zip",
-        "statspath": "/addons/omega/game.libretro.pcsx-rearmed+windows-i686/game.libretro.pcsx-rearmed-24.0.0.64.zip"
       }
     ],
     "categories": [
@@ -13989,10 +13968,9 @@
     ],
     "summary": "Sony - PlayStation (PCSX ReARMed)",
     "description": "PCSX ReARMed is another PCSX fork based on the PCSX-Reloaded project, which itself contains code from PCSX, PCSX-df and PCSX-Revolution.\n\nThis version features a MIPS-to-ARM recompiler, NEON GTE code and more performance improvements.",
-    "size": "934KB",
+    "size": "711KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.pcsx-rearmed/resources/icon.png",
     "snippet": "Sony - PlayStation (PCSX ReARMed)"
   },
@@ -15241,6 +15219,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+windows-x86_64/game.libretro.scummvm-2.10.0.49.zip",
+        "statspath": "/addons/omega/game.libretro.scummvm+windows-x86_64/game.libretro.scummvm-2.10.0.49.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+windows-i686/game.libretro.scummvm-2.10.0.49.zip",
+        "statspath": "/addons/omega/game.libretro.scummvm+windows-i686/game.libretro.scummvm-2.10.0.49.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+osx-x86_64/game.libretro.scummvm-2.10.0.49.zip",
         "statspath": "/addons/omega/game.libretro.scummvm+osx-x86_64/game.libretro.scummvm-2.10.0.49.zip"
@@ -15259,16 +15247,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+android-aarch64/game.libretro.scummvm-2.10.0.49.zip",
         "statspath": "/addons/omega/game.libretro.scummvm+android-aarch64/game.libretro.scummvm-2.10.0.49.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+windows-x86_64/game.libretro.scummvm-2.10.0.48.zip",
-        "statspath": "/addons/omega/game.libretro.scummvm+windows-x86_64/game.libretro.scummvm-2.10.0.48.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.scummvm+windows-i686/game.libretro.scummvm-2.10.0.48.zip",
-        "statspath": "/addons/omega/game.libretro.scummvm+windows-i686/game.libretro.scummvm-2.10.0.48.zip"
       }
     ],
     "categories": [
@@ -15310,10 +15288,9 @@
     ],
     "summary": "ScummVM",
     "description": "ScummVM is a collection of game engine recreations. ScummVM emulates several systems, including the SCUMM system for LucasArts adventure games.",
-    "size": "116987KB",
+    "size": "103923KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.scummvm/resources/icon.png",
     "snippet": "ScummVM"
   },
@@ -16312,7 +16289,6 @@
     "size": "6326KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.uae/resources/icon.png",
     "snippet": "Commodore - Amiga (PUAE)"
   },
@@ -16502,6 +16478,16 @@
     ],
     "platforms": [
       {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+windows-i686/game.libretro.vbam-2.1.11.53.zip",
+        "statspath": "/addons/omega/game.libretro.vbam+windows-i686/game.libretro.vbam-2.1.11.53.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+windows-x86_64/game.libretro.vbam-2.1.11.53.zip",
+        "statspath": "/addons/omega/game.libretro.vbam+windows-x86_64/game.libretro.vbam-2.1.11.53.zip"
+      },
+      {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+osx-x86_64/game.libretro.vbam-2.1.11.53.zip",
         "statspath": "/addons/omega/game.libretro.vbam+osx-x86_64/game.libretro.vbam-2.1.11.53.zip"
@@ -16520,16 +16506,6 @@
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+android-armv7/game.libretro.vbam-2.1.11.53.zip",
         "statspath": "/addons/omega/game.libretro.vbam+android-armv7/game.libretro.vbam-2.1.11.53.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+windows-x86_64/game.libretro.vbam-2.1.11.52.zip",
-        "statspath": "/addons/omega/game.libretro.vbam+windows-x86_64/game.libretro.vbam-2.1.11.52.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vbam+windows-i686/game.libretro.vbam-2.1.11.52.zip",
-        "statspath": "/addons/omega/game.libretro.vbam+windows-i686/game.libretro.vbam-2.1.11.52.zip"
       }
     ],
     "categories": [
@@ -16565,10 +16541,9 @@
     ],
     "summary": "Nintendo - Game Boy Advance (VBA-M)",
     "description": "VBA-M is a Nintendo Game Boy and Game Boy Advance emulator based on the official VisualBoyAdvance by Forgotten and the VBA development team.",
-    "size": "1391KB",
+    "size": "1078KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vbam/resources/icon.png",
     "snippet": "Nintendo - Game Boy Advance (VBA-M)"
   },
@@ -16655,7 +16630,6 @@
     "size": "257KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vecx/resources/icon.png",
     "snippet": "GCE - Vectrex (vecx)"
   },
@@ -16870,7 +16844,6 @@
     "size": "1681KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_x128/resources/icon.png",
     "snippet": "Commodore - C128 (VICE x128)"
   },
@@ -16888,6 +16861,16 @@
       }
     ],
     "platforms": [
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+windows-i686/game.libretro.vice_x64-3.9.0.62.zip",
+        "statspath": "/addons/omega/game.libretro.vice_x64+windows-i686/game.libretro.vice_x64-3.9.0.62.zip"
+      },
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+windows-x86_64/game.libretro.vice_x64-3.9.0.62.zip",
+        "statspath": "/addons/omega/game.libretro.vice_x64+windows-x86_64/game.libretro.vice_x64-3.9.0.62.zip"
+      },
       {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+osx-x86_64/game.libretro.vice_x64-3.9.0.62.zip",
@@ -16907,16 +16890,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+android-aarch64/game.libretro.vice_x64-3.9.0.62.zip",
         "statspath": "/addons/omega/game.libretro.vice_x64+android-aarch64/game.libretro.vice_x64-3.9.0.62.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+windows-i686/game.libretro.vice_x64-3.8.0.61.zip",
-        "statspath": "/addons/omega/game.libretro.vice_x64+windows-i686/game.libretro.vice_x64-3.8.0.61.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64+windows-x86_64/game.libretro.vice_x64-3.8.0.61.zip",
-        "statspath": "/addons/omega/game.libretro.vice_x64+windows-x86_64/game.libretro.vice_x64-3.8.0.61.zip"
       }
     ],
     "categories": [
@@ -16938,10 +16911,9 @@
     ],
     "summary": "Commodore - C64 (VICE x64, fast)",
     "description": "VICE stands for the Versatile Commodore Emulator. The current version emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510).",
-    "size": "1784KB",
+    "size": "1575KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_x64/resources/icon.png",
     "snippet": "Commodore - C64 (VICE x64, fast)"
   },
@@ -16959,6 +16931,16 @@
       }
     ],
     "platforms": [
+      {
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+windows-x86_64/game.libretro.vice_x64dtv-3.9.0.25.zip",
+        "statspath": "/addons/omega/game.libretro.vice_x64dtv+windows-x86_64/game.libretro.vice_x64dtv-3.9.0.25.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+windows-i686/game.libretro.vice_x64dtv-3.9.0.25.zip",
+        "statspath": "/addons/omega/game.libretro.vice_x64dtv+windows-i686/game.libretro.vice_x64dtv-3.9.0.25.zip"
+      },
       {
         "platform": "osx-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+osx-x86_64/game.libretro.vice_x64dtv-3.9.0.25.zip",
@@ -16978,16 +16960,6 @@
         "platform": "android-aarch64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+android-aarch64/game.libretro.vice_x64dtv-3.9.0.25.zip",
         "statspath": "/addons/omega/game.libretro.vice_x64dtv+android-aarch64/game.libretro.vice_x64dtv-3.9.0.25.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+windows-i686/game.libretro.vice_x64dtv-3.8.0.24.zip",
-        "statspath": "/addons/omega/game.libretro.vice_x64dtv+windows-i686/game.libretro.vice_x64dtv-3.8.0.24.zip"
-      },
-      {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_x64dtv+windows-x86_64/game.libretro.vice_x64dtv-3.8.0.24.zip",
-        "statspath": "/addons/omega/game.libretro.vice_x64dtv+windows-x86_64/game.libretro.vice_x64dtv-3.8.0.24.zip"
       }
     ],
     "categories": [
@@ -17009,10 +16981,9 @@
     ],
     "summary": "Commodore - C64DTV (VICE x64dtv)",
     "description": "VICE stands for the Versatile Commodore Emulator. The current version emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510).",
-    "size": "1261KB",
+    "size": "1174KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_x64dtv/resources/icon.png",
     "snippet": "Commodore - C64DTV (VICE x64dtv)"
   },
@@ -17083,7 +17054,6 @@
     "size": "1561KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_x64sc/resources/icon.png",
     "snippet": "Commodore - C64 (VICE x64sc, accurate)"
   },
@@ -17154,7 +17124,6 @@
     "size": "1296KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xcbm2/resources/icon.png",
     "snippet": "Commodore - CBM-II 6x0/7x0 (VICE xcbm2)"
   },
@@ -17225,7 +17194,6 @@
     "size": "1350KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xcbm5x0/resources/icon.png",
     "snippet": "Commodore - CBM-II 5x0 (VICE xcbm5x0)"
   },
@@ -17296,7 +17264,6 @@
     "size": "1338KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xpet/resources/icon.png",
     "snippet": "Commodore - PET (VICE xpet)"
   },
@@ -17367,7 +17334,6 @@
     "size": "1254KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xplus4/resources/icon.png",
     "snippet": "Commodore - PLUS/4 (VICE xplus4)"
   },
@@ -17438,7 +17404,6 @@
     "size": "1410KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xscpu64/resources/icon.png",
     "snippet": "Commodore - C64 SuperCPU (VICE xscpu64)"
   },
@@ -17509,7 +17474,6 @@
     "size": "1156KB",
     "lastupdate": "2025-04-18T02:31:35.715Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xvic/resources/icon.png",
     "snippet": "Commodore - VIC-20 (VICE xvic)"
   },
