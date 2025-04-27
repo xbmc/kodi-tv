@@ -2789,7 +2789,7 @@
         "addonid": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
-        "version": "5.7.25",
+        "version": "5.7.26",
         "authors": [
           {
             "name": "Bas Rieter",
@@ -2800,8 +2800,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip",
-            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip",
+            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip"
           }
         ],
         "categories": [
@@ -2831,7 +2831,7 @@
         "reuselanguageinvoker": "true",
         "license": "GPL-3.0-or-later",
         "language": "en nl de sv no lt lv fi",
-        "news": "Retrospect v5.7.25 - Changelog - 2025-04-09\n\nJust some minor channel fixes for NPO and Videoland.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO \"news\" and \"populair\" categories.\n* Fixed: VideoLand video playback (Fixes #1894).\n\n        ",
+        "news": "Retrospect v5.7.26 - Changelog - 2025-04-26\n\nA small fix for the Vier.be channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Vier.be not listing shows (Fixes #1897).\n\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -2868,8 +2868,9 @@
         "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
         "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
         "size": "1993KB",
-        "lastupdate": "2025-04-10T02:31:46.612Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
@@ -29372,7 +29373,7 @@
         "addonid": "plugin.video.sarpur",
         "name": "Sarpur",
         "slug": "plugin.video.sarpur",
-        "version": "5.1",
+        "version": "5.2",
         "authors": [
           {
             "name": "Dagur Páll Ammendrup",
@@ -29383,8 +29384,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip",
-            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip",
+            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip"
           }
         ],
         "categories": [
@@ -29405,7 +29406,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Play media off the Icelandic Public Radio's website",
         "description": "An Icelandic IP-Address is required to use this because of geoblocking",
         "language": "is",
@@ -29425,13 +29426,13 @@
             "remotepath": "resources/fanart.jpg"
           }
         ],
-        "news": "Version 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black\n\nVersion 5.0 (2021-02-23)\n- Upgraded to Python 3 for Kodi 19 compatibility\n- Fixed podcast scraping",
+        "news": "Version 5.2(2025-04-26)\n- Fix search by updating api key (indridieinarsson)\n\nVersion 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black",
         "size": "94KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 41403,
+        "lastupdate": "2025-04-27T02:34:17.970Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.sarpur/resources/icon.png",
-        "snippet": "Play media off the Icelandic Public Radio's website",
-        "prevyeardl": 41403
+        "snippet": "Play media off the Icelandic Public Radio's website"
       },
       {
         "id": "plugin.video.sms",
@@ -39346,19 +39347,24 @@
         "addonid": "plugin.video.orange.fr",
         "name": "Orange TV France",
         "slug": "plugin.video.orange.fr",
-        "version": "2.3.5",
+        "version": "2.3.6",
         "authors": [
           {
             "name": "Flawe",
             "slug": "flawe",
             "icon": "/images/authors/flawe.webp"
+          },
+          {
+            "name": "Remzouille",
+            "slug": "remzouille",
+            "icon": "/images/authors/remzouille.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.5.zip",
-            "statspath": "/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.6.zip",
+            "statspath": "/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.6.zip"
           }
         ],
         "categories": [
@@ -39406,8 +39412,9 @@
           }
         ],
         "size": "1432KB",
-        "lastupdate": "2025-04-24T02:33:22.319Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.orange.fr/resources/media/orange_tv.png"
       },
       {
@@ -40874,7 +40881,7 @@
         "addonid": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
-        "version": "5.7.25",
+        "version": "5.7.26",
         "authors": [
           {
             "name": "Bas Rieter",
@@ -40885,8 +40892,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip",
-            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip",
+            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip"
           }
         ],
         "categories": [
@@ -40916,7 +40923,7 @@
         "reuselanguageinvoker": "true",
         "license": "GPL-3.0-or-later",
         "language": "en nl de sv no lt lv fi",
-        "news": "Retrospect v5.7.25 - Changelog - 2025-04-09\n\nJust some minor channel fixes for NPO and Videoland.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO \"news\" and \"populair\" categories.\n* Fixed: VideoLand video playback (Fixes #1894).\n\n        ",
+        "news": "Retrospect v5.7.26 - Changelog - 2025-04-26\n\nA small fix for the Vier.be channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Vier.be not listing shows (Fixes #1897).\n\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -40953,8 +40960,9 @@
         "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
         "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
         "size": "1993KB",
-        "lastupdate": "2025-04-10T02:31:46.612Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
@@ -41599,7 +41607,7 @@
         "addonid": "plugin.video.sarpur",
         "name": "Sarpur",
         "slug": "plugin.video.sarpur",
-        "version": "5.1",
+        "version": "5.2",
         "authors": [
           {
             "name": "Dagur Páll Ammendrup",
@@ -41610,8 +41618,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip",
-            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip",
+            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip"
           }
         ],
         "categories": [
@@ -41632,7 +41640,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Play media off the Icelandic Public Radio's website",
         "description": "An Icelandic IP-Address is required to use this because of geoblocking",
         "language": "is",
@@ -41652,13 +41660,13 @@
             "remotepath": "resources/fanart.jpg"
           }
         ],
-        "news": "Version 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black\n\nVersion 5.0 (2021-02-23)\n- Upgraded to Python 3 for Kodi 19 compatibility\n- Fixed podcast scraping",
+        "news": "Version 5.2(2025-04-26)\n- Fix search by updating api key (indridieinarsson)\n\nVersion 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black",
         "size": "94KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 41403,
+        "lastupdate": "2025-04-27T02:34:17.970Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.sarpur/resources/icon.png",
-        "snippet": "Play media off the Icelandic Public Radio's website",
-        "prevyeardl": 41403
+        "snippet": "Play media off the Icelandic Public Radio's website"
       },
       {
         "id": "plugin.video.sms",
@@ -47499,7 +47507,7 @@
         "addonid": "script.keymap",
         "name": "Keymap Editor",
         "slug": "script.keymap",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "authors": [
           {
             "name": "takoi",
@@ -47515,8 +47523,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.keymap/script.keymap-1.3.0.zip",
-            "statspath": "/addons/omega/script.keymap/script.keymap-1.3.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.keymap/script.keymap-1.3.1.zip",
+            "statspath": "/addons/omega/script.keymap/script.keymap-1.3.1.zip"
           }
         ],
         "categories": [
@@ -47528,7 +47536,7 @@
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
-        "news": "v.1.3.0\n- added option to enable long press mapping\n\t\t",
+        "news": "v.1.3.1\n- added playerdebugvideo and reloadskin (thanks to Fuchs246)\n\t\t",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.keymap/icon.png",
@@ -47541,11 +47549,11 @@
         "summary": "An editor for keymap files",
         "description": "Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by Kodi. Note: existing user defined key mappings will be renamed to .bak.",
         "size": "358KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 603376,
+        "lastupdate": "2025-04-27T02:34:17.970Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.keymap/icon.png",
-        "snippet": "An editor for keymap files",
-        "prevyeardl": 603376
+        "snippet": "An editor for keymap files"
       },
       {
         "id": "script.kodi.android.update",
@@ -68572,7 +68580,7 @@
         "addonid": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
-        "version": "5.7.25",
+        "version": "5.7.26",
         "authors": [
           {
             "name": "Bas Rieter",
@@ -68583,8 +68591,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip",
-            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip",
+            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip"
           }
         ],
         "categories": [
@@ -68614,7 +68622,7 @@
         "reuselanguageinvoker": "true",
         "license": "GPL-3.0-or-later",
         "language": "en nl de sv no lt lv fi",
-        "news": "Retrospect v5.7.25 - Changelog - 2025-04-09\n\nJust some minor channel fixes for NPO and Videoland.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO \"news\" and \"populair\" categories.\n* Fixed: VideoLand video playback (Fixes #1894).\n\n        ",
+        "news": "Retrospect v5.7.26 - Changelog - 2025-04-26\n\nA small fix for the Vier.be channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Vier.be not listing shows (Fixes #1897).\n\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -68651,8 +68659,9 @@
         "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
         "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
         "size": "1993KB",
-        "lastupdate": "2025-04-10T02:31:46.612Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
@@ -80256,19 +80265,24 @@
         "addonid": "plugin.video.orange.fr",
         "name": "Orange TV France",
         "slug": "plugin.video.orange.fr",
-        "version": "2.3.5",
+        "version": "2.3.6",
         "authors": [
           {
             "name": "Flawe",
             "slug": "flawe",
             "icon": "/images/authors/flawe.webp"
+          },
+          {
+            "name": "Remzouille",
+            "slug": "remzouille",
+            "icon": "/images/authors/remzouille.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.5.zip",
-            "statspath": "/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.6.zip",
+            "statspath": "/addons/omega/plugin.video.orange.fr/plugin.video.orange.fr-2.3.6.zip"
           }
         ],
         "categories": [
@@ -80316,8 +80330,9 @@
           }
         ],
         "size": "1432KB",
-        "lastupdate": "2025-04-24T02:33:22.319Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.orange.fr/resources/media/orange_tv.png"
       },
       {
@@ -81617,7 +81632,7 @@
         "addonid": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
-        "version": "5.7.25",
+        "version": "5.7.26",
         "authors": [
           {
             "name": "Bas Rieter",
@@ -81628,8 +81643,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip",
-            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.25.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip",
+            "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.26.zip"
           }
         ],
         "categories": [
@@ -81659,7 +81674,7 @@
         "reuselanguageinvoker": "true",
         "license": "GPL-3.0-or-later",
         "language": "en nl de sv no lt lv fi",
-        "news": "Retrospect v5.7.25 - Changelog - 2025-04-09\n\nJust some minor channel fixes for NPO and Videoland.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO \"news\" and \"populair\" categories.\n* Fixed: VideoLand video playback (Fixes #1894).\n\n        ",
+        "news": "Retrospect v5.7.26 - Changelog - 2025-04-26\n\nA small fix for the Vier.be channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Vier.be not listing shows (Fixes #1897).\n\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -81696,8 +81711,9 @@
         "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
         "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
         "size": "1993KB",
-        "lastupdate": "2025-04-10T02:31:46.612Z",
+        "lastupdate": "2025-04-27T02:34:17.970Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
@@ -82287,7 +82303,7 @@
         "addonid": "plugin.video.sarpur",
         "name": "Sarpur",
         "slug": "plugin.video.sarpur",
-        "version": "5.1",
+        "version": "5.2",
         "authors": [
           {
             "name": "Dagur Páll Ammendrup",
@@ -82298,8 +82314,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip",
-            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip",
+            "statspath": "/addons/omega/plugin.video.sarpur/plugin.video.sarpur-5.2.zip"
           }
         ],
         "categories": [
@@ -82320,7 +82336,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Play media off the Icelandic Public Radio's website",
         "description": "An Icelandic IP-Address is required to use this because of geoblocking",
         "language": "is",
@@ -82340,13 +82356,13 @@
             "remotepath": "resources/fanart.jpg"
           }
         ],
-        "news": "Version 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black\n\nVersion 5.0 (2021-02-23)\n- Upgraded to Python 3 for Kodi 19 compatibility\n- Fixed podcast scraping",
+        "news": "Version 5.2(2025-04-26)\n- Fix search by updating api key (indridieinarsson)\n\nVersion 5.1 (2024-03-14)\n- Various fixes because of API changes on ruv.is\n- Formatted code with black",
         "size": "94KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 41403,
+        "lastupdate": "2025-04-27T02:34:17.970Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.sarpur/resources/icon.png",
-        "snippet": "Play media off the Icelandic Public Radio's website",
-        "prevyeardl": 41403
+        "snippet": "Play media off the Icelandic Public Radio's website"
       },
       {
         "id": "plugin.video.sms",
