@@ -18027,7 +18027,7 @@
     "addonid": "inputstream.adaptive",
     "name": "InputStream Adaptive",
     "slug": "inputstream.adaptive",
-    "version": "21.5.11",
+    "version": "21.5.12",
     "authors": [
       {
         "name": "peak3d",
@@ -18042,34 +18042,34 @@
     ],
     "platforms": [
       {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.12.zip"
+      },
+      {
         "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.11.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.12.zip"
       },
       {
         "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.11.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.11.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.11.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.11.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.12.zip"
       },
       {
         "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.11.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.11.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.12.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.12.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.12.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.12.zip"
       }
     ],
     "categories": [
@@ -18097,9 +18097,10 @@
     ],
     "summary": "InputStream client for adaptive streams",
     "description": "InputStream client for adaptive streams. Common streaming protocols such as MPEG-DASH, HLS and Microsoft Smooth Streaming are supported.\n\nThe add-on also has support for DRM protected streams, such as Google Widevine, Microsoft PlayReady and others.\n\nFor documentation visit: https://github.com/xbmc/inputstream.adaptive",
-    "size": "1487KB",
-    "lastupdate": "2025-04-16T02:32:48.631Z",
+    "size": "1549KB",
+    "lastupdate": "2025-04-28T02:34:31.520Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/inputstream.adaptive/icon.png",
     "snippet": "InputStream client for adaptive streams"
   },
@@ -28440,7 +28441,6 @@
     "size": "1432KB",
     "lastupdate": "2025-04-27T02:34:17.970Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.orange.fr/resources/media/orange_tv.png"
   },
   {
@@ -29673,7 +29673,6 @@
     "size": "1993KB",
     "lastupdate": "2025-04-27T02:34:17.970Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -30303,7 +30302,6 @@
     "size": "94KB",
     "lastupdate": "2025-04-27T02:34:17.970Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.sarpur/resources/icon.png",
     "snippet": "Play media off the Icelandic Public Radio's website"
   },
@@ -48244,7 +48242,7 @@
     "addonid": "script.keymap",
     "name": "Keymap Editor",
     "slug": "script.keymap",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "authors": [
       {
         "name": "takoi",
@@ -48260,8 +48258,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.keymap/script.keymap-1.3.1.zip",
-        "statspath": "/addons/omega/script.keymap/script.keymap-1.3.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.keymap/script.keymap-1.3.2.zip",
+        "statspath": "/addons/omega/script.keymap/script.keymap-1.3.2.zip"
       }
     ],
     "categories": [
@@ -48273,7 +48271,7 @@
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
     "agetype": "existing",
-    "news": "v.1.3.1\n- added playerdebugvideo and reloadskin (thanks to Fuchs246)\n\t\t",
+    "news": "v.1.3.2\n- updated translations from Weblate\nv.1.3.1\n- added playerdebugvideo and reloadskin (thanks to Fuchs246)\n\t\t",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.keymap/icon.png",
@@ -48285,8 +48283,8 @@
     "source": "https://github.com/pkscout/script.keymap",
     "summary": "An editor for keymap files",
     "description": "Keymap Editor is a GUI for configuring mappings for remotes, keyboard and other inputs supported by Kodi. Note: existing user defined key mappings will be renamed to .bak.",
-    "size": "358KB",
-    "lastupdate": "2025-04-27T02:34:17.970Z",
+    "size": "365KB",
+    "lastupdate": "2025-04-28T02:34:31.520Z",
     "downloads": 0,
     "prevyeardl": 0,
     "icon": "/images/addons/omega/script.keymap/icon.png",
