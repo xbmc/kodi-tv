@@ -24,4 +24,4 @@ We're immensely grateful for their assistance and support, and want to publicly 
 
 While we were proofreading this post and getting ready to publish it, we became aware of some terrible news: the OSUOSL is in very real danger of closing down at the end of this year due to recent funding changes, and they need immediate help. Lance Albertson, the Director of OSUOSL, explains it in his own words [here](https://osuosl.org/blog/osl-future/).
 
-This matters so much. Without getting into the rights and wrongs of US public sector funding, this could send shock waves through so many open source projects if it's allowed to happen. Please, if you value their work - and we all should - and if there's anything you or your employer can do to help them, we'd ask you to do so.
+This matters so much. Without getting into the rights and wrongs of US public sector funding, this could send shock waves through so many open source projects if it's allowed to happen. Please, if you value their work - and we all should - and if there's anything you or your employer can do to [help them](https://osuosl.org/donate), we'd ask you to do so.
