@@ -27489,7 +27489,7 @@
     "addonid": "plugin.video.mlbtv",
     "name": "MLB.TV®",
     "slug": "plugin.video.mlbtv",
-    "version": "2025.4.8+matrix.1",
+    "version": "2025.4.14+matrix.1",
     "authors": [
       {
         "name": "eracknaphobia",
@@ -27505,8 +27505,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.8+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip",
+        "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip"
       }
     ],
     "categories": [
@@ -27531,7 +27531,7 @@
     "summary": "Watch live and archived games\n        ",
     "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
     "disclaimer": "Requires an MLB.tv account",
-    "news": "- automatic blackout/entitlement detection\n            - support for SNLA and SNY subscriptions\n            - skip timing, game changer, and hide scores ticker updates for 2025\n            - jump to live when skipping start dialog and allowing spoilers\n            - restored Big Inning schedule\n            - fixed Catch Up option\n        ",
+    "news": "- Fix play favorite team on launch (thanks thromer and tonywagner)\n        ",
     "language": "en",
     "license": "GPL-2.0-or-later",
     "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -27550,8 +27550,9 @@
       }
     ],
     "size": "340KB",
-    "lastupdate": "2025-04-10T02:31:46.612Z",
+    "lastupdate": "2025-04-30T02:33:08.217Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
     "snippet": "Watch live and archived games\n        "
   },
