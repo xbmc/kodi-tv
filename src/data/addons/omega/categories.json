@@ -52716,7 +52716,7 @@
         "addonid": "pvr.waipu",
         "name": "waipu.tv PVR Client",
         "slug": "pvr.waipu",
-        "version": "21.10.1",
+        "version": "21.10.2",
         "authors": [
           {
             "name": "flubshi",
@@ -52726,34 +52726,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.1.zip"
-          },
-          {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.2.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.2.zip"
           },
           {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.1.zip"
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.2.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.2.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.1.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.2.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.2.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.2.zip"
           }
         ],
         "categories": [
@@ -52790,12 +52790,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "- Fix EPG Tag fallback playback\n    ",
+        "news": "- Fix display of active timer in EPG view\n    ",
         "summary": "waipu.tv PVR Client",
         "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-        "size": "828KB",
-        "lastupdate": "2025-03-26T02:30:43.869Z",
+        "size": "903KB",
+        "lastupdate": "2025-05-04T02:36:21.653Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       },
