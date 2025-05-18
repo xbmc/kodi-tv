@@ -18259,7 +18259,7 @@
     "addonid": "metadata.album.universal",
     "name": "Universal Album Scraper",
     "slug": "metadata.album.universal",
-    "version": "3.1.13",
+    "version": "3.1.14",
     "authors": [
       {
         "name": "Olympia",
@@ -18275,8 +18275,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.13.zip",
-        "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.13.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.14.zip",
+        "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.14.zip"
       }
     ],
     "categories": [
@@ -18299,8 +18299,9 @@
     "summary": "Universal Scraper for Albums",
     "description": "This scraper collects information from the following supported sites: MusicBrainz, last.fm, allmusic.com and amazon.de, while grabs artwork from: fanart.tv, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic and/or amazon.de links are not added on the MusicBrainz site, fields from allmusic.com and/or amazon.de cannot be fetched (very easy to add those missing links though).",
     "size": "130KB",
-    "lastupdate": "2025-04-14T02:33:31.946Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.album.universal/icon.png",
     "snippet": "Universal Scraper for Albums"
   },
@@ -18449,7 +18450,7 @@
     "addonid": "metadata.artists.universal",
     "name": "Universal Artist Scraper",
     "slug": "metadata.artists.universal",
-    "version": "4.3.15",
+    "version": "4.3.16",
     "authors": [
       {
         "name": "Olympia",
@@ -18465,8 +18466,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.15.zip",
-        "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.15.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.16.zip",
+        "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.16.zip"
       }
     ],
     "categories": [
@@ -18489,8 +18490,9 @@
     "summary": "Universal Scraper for Artists",
     "description": "This scraper collects information from the following supported sites: TheAudioDb.com, MusicBrainz, last.fm, and allmusic.com, while grabs artwork from: fanart.tv, htbackdrops.com, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic link is not added on the MusicBrainz site fields from allmusic.com cannot be fetched (very easy to add those missing links though).",
     "size": "146KB",
-    "lastupdate": "2025-04-14T02:33:31.946Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
     "snippet": "Universal Scraper for Artists"
   },
@@ -19635,7 +19637,7 @@
     "addonid": "metadata.universal",
     "name": "Universal Movie Scraper",
     "slug": "metadata.universal",
-    "version": "5.5.19",
+    "version": "5.5.20",
     "authors": [
       {
         "name": "Olympia",
@@ -19651,8 +19653,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.19.zip",
-        "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.19.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.20.zip",
+        "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.20.zip"
       }
     ],
     "categories": [
@@ -19675,8 +19677,9 @@
     "summary": "Universal Movie Scraper",
     "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
     "size": "283KB",
-    "lastupdate": "2025-04-14T02:33:31.946Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.universal/icon.png",
     "snippet": "Universal Movie Scraper"
   },
@@ -39739,7 +39742,7 @@
     "addonid": "resource.language.es_es",
     "name": "Spanish",
     "slug": "resource.language.es_es",
-    "version": "11.0.87",
+    "version": "11.0.88",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39750,8 +39753,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.87.zip",
-        "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.87.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.88.zip",
+        "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.88.zip"
       }
     ],
     "categories": [
@@ -39772,8 +39775,9 @@
       }
     ],
     "size": "149KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_es/icon.png",
     "snippet": "Spanish language pack"
   },
@@ -39782,7 +39786,7 @@
     "addonid": "resource.language.es_mx",
     "name": "Spanish (Mexico)",
     "slug": "resource.language.es_mx",
-    "version": "11.0.68",
+    "version": "11.0.69",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39793,8 +39797,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.68.zip",
-        "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.68.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.69.zip",
+        "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.69.zip"
       }
     ],
     "categories": [
@@ -39814,9 +39818,10 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "147KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "size": "148KB",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_mx/icon.png",
     "snippet": "Spanish (Mexico) language pack"
   },
@@ -40427,7 +40432,7 @@
     "addonid": "resource.language.hu_hu",
     "name": "Hungarian",
     "slug": "resource.language.hu_hu",
-    "version": "11.0.81",
+    "version": "11.0.82",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40438,8 +40443,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.81.zip",
-        "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.81.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.82.zip",
+        "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.82.zip"
       }
     ],
     "categories": [
@@ -40459,9 +40464,10 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "155KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "size": "156KB",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
     "snippet": "Hungarian language pack"
   },
@@ -41459,7 +41465,7 @@
     "addonid": "resource.language.ru_ru",
     "name": "Russian",
     "slug": "resource.language.ru_ru",
-    "version": "11.0.85",
+    "version": "11.0.86",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41470,8 +41476,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.85.zip",
-        "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.85.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.86.zip",
+        "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.86.zip"
       }
     ],
     "categories": [
@@ -41492,8 +41498,9 @@
       }
     ],
     "size": "167KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ru_ru/icon.png",
     "snippet": "Russian language pack"
   },
@@ -41760,7 +41767,7 @@
     "addonid": "resource.language.sv_se",
     "name": "Swedish",
     "slug": "resource.language.sv_se",
-    "version": "11.0.83",
+    "version": "11.0.84",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41771,8 +41778,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.83.zip",
-        "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.83.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.84.zip",
+        "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.84.zip"
       }
     ],
     "categories": [
@@ -41793,8 +41800,9 @@
       }
     ],
     "size": "145KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
     "snippet": "Swedish language pack"
   },
@@ -42190,7 +42198,7 @@
     "addonid": "resource.language.zh_cn",
     "name": "Chinese (Simple)",
     "slug": "resource.language.zh_cn",
-    "version": "11.0.82",
+    "version": "11.0.83",
     "authors": [
       {
         "name": "Team Kodi",
@@ -42201,8 +42209,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.82.zip",
-        "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.82.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.83.zip",
+        "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.83.zip"
       }
     ],
     "categories": [
@@ -42222,9 +42230,10 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "143KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "size": "147KB",
+    "lastupdate": "2025-05-18T02:36:04.757Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
     "snippet": "Chinese (Simple) language pack"
   },
