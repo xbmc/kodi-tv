@@ -13705,7 +13705,7 @@
         "addonid": "plugin.video.cinetree",
         "name": "Cinetree",
         "slug": "plugin.video.cinetree",
-        "version": "1.2.1",
+        "version": "2.0.1",
         "authors": [
           {
             "name": "Dimitri Kroon",
@@ -13716,8 +13716,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-1.2.1.zip",
-            "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-1.2.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.1.zip",
+            "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.1.zip"
           }
         ],
         "categories": [
@@ -13734,8 +13734,8 @@
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
-        "summary": "Films and documentaries from Cinetree.nl (Benelux countries only, account required)",
-        "description": "This add-on enables playing films and documentaries from Dutch film platform Cinetree.\nThis an unofficial addon. It is not created or endorsed by Cinetree.\n\nTo be able to play any content a Cinetree account is required. Films available in the monthy subscription account can be played directly from kodi. You can also browse through the whole rental collection.\nJust like the official TV-apps, it's not possible to rent a film directly from this addon. In order to watch a rental film you first have to make the payment via Cinetree's website or the official Cinetree Android/Apple app. Once paid the film will be available in the menu 'My Films' &gt; 'Rented' for the duration of the rental period, which is usually 48 hours.\n    ",
+        "summary": "Films and documentaries from cinetree.nl (Benelux countries only, account required)",
+        "description": "A privacy respecting way to watch free films or rent films from Dutch film platform cinetree.nl. Rental films can be rented directly by using your prepaid credit at Cinetree. If you prefer another payment method use the Cinetree website or the official Cinetree Android/Apple app to make the payment before watching the film on Kodi.\nThis is an unofficial addon. It is not created or endorsed by Cinetree.\n    ",
         "disclaimer": "Deze addon is gedistribueerd in de hoop dat het nuttig zal zijn maar ZONDER ENIGE GARANTIE; zelfs zonder de impliciete garantie voor BRUIKBAARHEID VOOR EEN SPECIFIEK DOEL.\n    ",
         "language": "nl",
         "license": "GPL-2.0-or-later",
@@ -13743,8 +13743,8 @@
         "source": "https://github.com/dimkroon/cinetree-for-kodi",
         "icons": [
           {
-            "localpath": "/images/addons/omega/plugin.video.cinetree/resources/icon.png",
-            "remotepath": "resources/icon.png"
+            "localpath": "/images/addons/omega/plugin.video.cinetree/resources/cinetree-logo.png",
+            "remotepath": "resources/cinetree-logo.png"
           }
         ],
         "fanarts": [
@@ -13754,13 +13754,13 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "news": "- Fix: Listings of subscription films failed with error Not Found.\n- Some other minor issues.\n    ",
-        "size": "88KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 158629,
-        "icon": "/images/addons/omega/plugin.video.cinetree/resources/icon.png",
-        "snippet": "Films and documentaries from Cinetree.nl (Benelux countries only, account required)",
-        "prevyeardl": 158629
+        "news": "- New logo image.\n- Now possible to directly rent a film with your prepaid credit at Cinetree.\n- Now possible to sort listings on the date the film was added to Cinetree.\n- Sort Genre listings by using the context menu, instead of the side menu.\n- The default sort order of all lists is now the same as the cinetree website.\n- Added a main menu entry for Cinetree Originals.\n- Added a main menu entry for short films.\n- Added a menu entry to your saved watch list in 'My Films'.\n- Added the possibility to add or remove films to your watch list by using the context menu.\n- Properly display films as fully or partially watched.\n- Sync the watched status of films watched on other devices.\n- Better distinguish 'already watched' films from 'continue watching'.\n- Added the possibility to remove films from 'already watched' and 'continue watching' by using the context menu in these lists.\n- Fix: price info missing in the description of some rental films.\n- Several other minor changes and changes under the hood.\n    ",
+        "size": "145KB",
+        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.video.cinetree/resources/cinetree-logo.png",
+        "snippet": "Films and documentaries from cinetree.nl (Benelux countries only, account required)"
       },
       {
         "id": "plugin.video.viwx",
@@ -22384,7 +22384,7 @@
         "addonid": "plugin.video.imdb.trailers",
         "name": "IMDb Trailers",
         "slug": "plugin.video.imdb.trailers",
-        "version": "2.1.20",
+        "version": "2.1.21",
         "authors": [
           {
             "name": "gujal",
@@ -22395,8 +22395,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.imdb.trailers/plugin.video.imdb.trailers-2.1.20.zip",
-            "statspath": "/addons/omega/plugin.video.imdb.trailers/plugin.video.imdb.trailers-2.1.20.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.imdb.trailers/plugin.video.imdb.trailers-2.1.21.zip",
+            "statspath": "/addons/omega/plugin.video.imdb.trailers/plugin.video.imdb.trailers-2.1.21.zip"
           }
         ],
         "categories": [
@@ -22451,11 +22451,11 @@
           }
         ],
         "size": "550KB",
-        "lastupdate": "2025-02-10T02:26:56.303Z",
-        "downloads": 617140,
+        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.imdb.trailers/icon.png",
-        "snippet": "IMDb Trailers video add-on",
-        "prevyeardl": 617140
+        "snippet": "IMDb Trailers video add-on"
       },
       {
         "id": "plugin.video.archive.org",
@@ -33478,7 +33478,7 @@
         "addonid": "plugin.video.rivedila7",
         "name": "LA7-LA7d",
         "slug": "plugin.video.rivedila7",
-        "version": "6.2.0",
+        "version": "6.3.0",
         "authors": [
           {
             "name": "Luivit",
@@ -33494,8 +33494,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.2.0.zip",
-            "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.2.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip",
+            "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip"
           }
         ],
         "categories": [
@@ -33511,7 +33511,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "reuselanguageinvoker": "true",
         "summary": "LA7-LA7d",
         "description": "Live Streaming, Replay the last week, LA7 Prime, On-Demand programs, News and Weather, Teche LA7-The Protagonists",
@@ -33547,13 +33547,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n\n6.0.2 (2022-05-22)\n- Removed html5lib dependence\n- Fix for UnicodeDecodeError (thanks @marcocalm)\n    ",
+        "news": "6.3.0 (2025-05-11)\n- fix Programs title and added Config for manual added programs (thanks @24mu13)\n- patch text not found (thanks @lpuglia)\n      \n6.2.1 (2024-05-09)\n- Solved program cataloging (thanks @fabpolli)\n      \n6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n\n6.0.2 (2022-05-22)\n- Removed html5lib dependence\n- Fix for UnicodeDecodeError (thanks @marcocalm)\n    ",
         "size": "1535KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 184798,
+        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rivedila7/resources/icon.png",
-        "snippet": "LA7-LA7d",
-        "prevyeardl": 184798
+        "snippet": "LA7-LA7d"
       }
     ],
     "totaladdons": 1
@@ -45121,7 +45121,6 @@
         "size": "130KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.album.universal/icon.png",
         "snippet": "Universal Scraper for Albums"
       },
@@ -45172,7 +45171,6 @@
         "size": "146KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
         "snippet": "Universal Scraper for Artists"
       },
@@ -45223,7 +45221,6 @@
         "size": "283KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       }
@@ -69819,7 +69816,6 @@
         "size": "147KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
         "snippet": "Chinese (Simple) language pack"
       },
@@ -72853,7 +72849,6 @@
         "size": "156KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
         "snippet": "Hungarian language pack"
       },
@@ -77465,7 +77460,6 @@
         "size": "167KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.ru_ru/icon.png",
         "snippet": "Russian language pack"
       },
@@ -78929,7 +78923,6 @@
         "size": "149KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.es_es/icon.png",
         "snippet": "Spanish language pack"
       },
@@ -79016,7 +79009,6 @@
         "size": "148KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.es_mx/icon.png",
         "snippet": "Spanish (Mexico) language pack"
       },
@@ -79700,7 +79692,6 @@
         "size": "145KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
         "snippet": "Swedish language pack"
       },
@@ -80446,7 +80437,6 @@
         "size": "130KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.album.universal/icon.png",
         "snippet": "Universal Scraper for Albums"
       },
@@ -80497,7 +80487,6 @@
         "size": "146KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
         "snippet": "Universal Scraper for Artists"
       },
@@ -80548,7 +80537,6 @@
         "size": "283KB",
         "lastupdate": "2025-05-18T02:36:04.757Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       },
@@ -82084,7 +82072,7 @@
         "addonid": "plugin.video.drnu",
         "name": "DR TV",
         "slug": "plugin.video.drnu",
-        "version": "6.5.0",
+        "version": "6.6.0",
         "authors": [
           {
             "name": "TermeHansen",
@@ -82095,8 +82083,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.5.0.zip",
-            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.5.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.0.zip",
+            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.0.zip"
           }
         ],
         "categories": [
@@ -82153,11 +82141,11 @@
         ],
         "news": "Version 5.1.0 - 2022-04-01\n       - re-factor for python 3 only\n       - remove exception handling for pastebin\n       - add Minisjang area and update ui elements",
         "size": "1870KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4865,
+        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.drnu/resources/media/icon.png",
-        "snippet": "Watch live and archived TV from DR (Danish Broadcasting Corporation)",
-        "prevyeardl": 4865
+        "snippet": "Watch live and archived TV from DR (Danish Broadcasting Corporation)"
       }
     ],
     "totaladdons": 1
@@ -82173,7 +82161,7 @@
         "addonid": "plugin.video.rivedila7",
         "name": "LA7-LA7d",
         "slug": "plugin.video.rivedila7",
-        "version": "6.2.0",
+        "version": "6.3.0",
         "authors": [
           {
             "name": "Luivit",
@@ -82189,8 +82177,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.2.0.zip",
-            "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.2.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip",
+            "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip"
           }
         ],
         "categories": [
@@ -82206,7 +82194,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "reuselanguageinvoker": "true",
         "summary": "LA7-LA7d",
         "description": "Live Streaming, Replay the last week, LA7 Prime, On-Demand programs, News and Weather, Teche LA7-The Protagonists",
@@ -82242,13 +82230,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n\n6.0.2 (2022-05-22)\n- Removed html5lib dependence\n- Fix for UnicodeDecodeError (thanks @marcocalm)\n    ",
+        "news": "6.3.0 (2025-05-11)\n- fix Programs title and added Config for manual added programs (thanks @24mu13)\n- patch text not found (thanks @lpuglia)\n      \n6.2.1 (2024-05-09)\n- Solved program cataloging (thanks @fabpolli)\n      \n6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n\n6.0.2 (2022-05-22)\n- Removed html5lib dependence\n- Fix for UnicodeDecodeError (thanks @marcocalm)\n    ",
         "size": "1535KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 184798,
+        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.rivedila7/resources/icon.png",
-        "snippet": "LA7-LA7d",
-        "prevyeardl": 184798
+        "snippet": "LA7-LA7d"
       },
       {
         "id": "plugin.video.repubblicaitaliana",
