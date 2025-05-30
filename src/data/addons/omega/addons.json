@@ -5935,7 +5935,7 @@
     "addonid": "game.libretro",
     "name": "Libretro Compatibility",
     "slug": "game.libretro",
-    "version": "21.0.8",
+    "version": "21.0.9",
     "authors": [
       {
         "name": "Team Kodi",
@@ -5945,34 +5945,34 @@
     ],
     "platforms": [
       {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+windows-x86_64/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+windows-x86_64/game.libretro-21.0.8.zip"
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+windows-i686/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+windows-i686/game.libretro-21.0.9.zip"
       },
       {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+android-armv7/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+android-armv7/game.libretro-21.0.8.zip"
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+windows-x86_64/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+windows-x86_64/game.libretro-21.0.9.zip"
       },
       {
         "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+osx-arm64/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+osx-arm64/game.libretro-21.0.8.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+osx-arm64/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+osx-arm64/game.libretro-21.0.9.zip"
       },
       {
         "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+osx-x86_64/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+osx-x86_64/game.libretro-21.0.8.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+windows-i686/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+windows-i686/game.libretro-21.0.8.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+osx-x86_64/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+osx-x86_64/game.libretro-21.0.9.zip"
       },
       {
         "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+android-aarch64/game.libretro-21.0.8.zip",
-        "statspath": "/addons/omega/game.libretro+android-aarch64/game.libretro-21.0.8.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+android-aarch64/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+android-aarch64/game.libretro-21.0.9.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro+android-armv7/game.libretro-21.0.9.zip",
+        "statspath": "/addons/omega/game.libretro+android-armv7/game.libretro-21.0.9.zip"
       }
     ],
     "categories": [
@@ -5994,12 +5994,12 @@
     ],
     "summary": "Libretro compatibility layer for Kodi's Game API",
     "description": "This add-on provides a wrapper for libretro cores, allowing them to be loaded as game add-ons.",
-    "size": "303KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 75881,
+    "size": "291KB",
+    "lastupdate": "2025-05-30T02:34:30.742Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro/icon.png",
-    "snippet": "Libretro compatibility layer for Kodi's Game API",
-    "prevyeardl": 75881
+    "snippet": "Libretro compatibility layer for Kodi's Game API"
   },
   {
     "id": "game.libretro.2048",
@@ -40457,7 +40457,6 @@
     "size": "156KB",
     "lastupdate": "2025-05-29T02:34:57.660Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
     "snippet": "Hungarian language pack"
   },
@@ -42221,7 +42220,6 @@
     "size": "147KB",
     "lastupdate": "2025-05-29T02:34:57.660Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
     "snippet": "Chinese (Simple) language pack"
   },
