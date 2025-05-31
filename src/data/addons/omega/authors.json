@@ -13705,7 +13705,7 @@
         "addonid": "plugin.video.cinetree",
         "name": "Cinetree",
         "slug": "plugin.video.cinetree",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "authors": [
           {
             "name": "Dimitri Kroon",
@@ -13716,8 +13716,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.1.zip",
-            "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.2.zip",
+            "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.2.zip"
           }
         ],
         "categories": [
@@ -13754,10 +13754,11 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "news": "- New logo image.\n- Now possible to directly rent a film with your prepaid credit at Cinetree.\n- Now possible to sort listings on the date the film was added to Cinetree.\n- Sort Genre listings by using the context menu, instead of the side menu.\n- The default sort order of all lists is now the same as the cinetree website.\n- Added a main menu entry for Cinetree Originals.\n- Added a main menu entry for short films.\n- Added a menu entry to your saved watch list in 'My Films'.\n- Added the possibility to add or remove films to your watch list by using the context menu.\n- Properly display films as fully or partially watched.\n- Sync the watched status of films watched on other devices.\n- Better distinguish 'already watched' films from 'continue watching'.\n- Added the possibility to remove films from 'already watched' and 'continue watching' by using the context menu in these lists.\n- Fix: price info missing in the description of some rental films.\n- Several other minor changes and changes under the hood.\n    ",
-        "size": "145KB",
-        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "news": "Version 2.0.2\n- Fix: Several lists failed to open with 'ParseError' due to some changes at Cinetree.\n- Fix: Add-on failed to open when the user was not logged in to Cinetree.\n\nVersion 2.0.1\n- New logo image.\n- Now possible to directly rent a film with your prepaid credit at Cinetree.\n- Now possible to sort listings on the date the film was added to Cinetree.\n- Sort Genre listings by using the context menu, instead of the side menu.\n- The default sort order of all lists is now the same as the cinetree website.\n- Added a main menu entry for Cinetree Originals.\n- Added a main menu entry for short films.\n- Added a menu entry to your saved watch list in 'My Films'.\n- Added the possibility to add or remove films to your watch list by using the context menu.\n- Properly display films as fully or partially watched.\n- Sync the watched status of films watched on other devices.\n- Better distinguish 'already watched' films from 'continue watching'.\n- Added the possibility to remove films from 'already watched' and 'continue watching' by using the context menu in these lists.\n- Fix: price info missing in the description of some rental films.\n- Several other minor changes and changes under the hood.\n    ",
+        "size": "146KB",
+        "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cinetree/resources/cinetree-logo.png",
         "snippet": "Films and documentaries from cinetree.nl (Benelux countries only, account required)"
       },
@@ -13766,7 +13767,7 @@
         "addonid": "plugin.video.viwx",
         "name": "viwX",
         "slug": "plugin.video.viwx",
-        "version": "1.6.0",
+        "version": "1.6.1",
         "authors": [
           {
             "name": "Dimitri Kroon",
@@ -13777,8 +13778,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.0.zip",
-            "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.1.zip",
+            "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.1.zip"
           }
         ],
         "categories": [
@@ -13814,14 +13815,14 @@
             "remotepath": "resources/fanart.png"
           }
         ],
-        "news": "v 1.6.0\nFixes:\n- 'Continue watching' items could sometimes have and incorrect resume point.\n- Another attempt to fix issues with signing in with email and password.\n\nNew Features:\n- Possibility to import authentication tokens copied from a web browser or another instance of\n  viwX as an alternative method to authenticate when signing in with email and password fails.\n  Visit https://github.com/dimkroon/itvx-for-kodi/wiki/Sign-in-to-your-ITV-account for more info.\n    ",
+        "news": "v 1.6.1\nFixes:\n- NO IPTV EPG.\n\nChanges:\n- An attempt to correct some mistakes that are easily made when copying authentication tokens from a web browser.\n- More informative error messages and logs when importing tokens fails.\n- Some other minor changes.\n    ",
         "reuselanguageinvoker": "true",
-        "size": "487KB",
-        "lastupdate": "2025-02-16T02:28:50.383Z",
-        "downloads": 9370,
+        "size": "488KB",
+        "lastupdate": "2025-05-31T02:33:38.969Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
-        "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)",
-        "prevyeardl": 9370
+        "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
       }
     ],
     "totaladdons": 2
@@ -18965,7 +18966,7 @@
         "addonid": "pvr.waipu",
         "name": "waipu.tv PVR Client",
         "slug": "pvr.waipu",
-        "version": "21.10.3",
+        "version": "21.10.4",
         "authors": [
           {
             "name": "flubshi",
@@ -18975,34 +18976,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.3.zip"
-          },
-          {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.4.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.4.zip"
           },
           {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.3.zip"
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.4.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.4.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.3.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.4.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.4.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.4.zip"
           }
         ],
         "categories": [
@@ -19039,12 +19040,13 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "- Play VoD channels using tuner api\n    ",
+        "news": "- Fix deletion of recordings\n    ",
         "summary": "waipu.tv PVR Client",
         "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-        "size": "832KB",
-        "lastupdate": "2025-05-05T02:35:18.376Z",
+        "size": "904KB",
+        "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       }
@@ -23469,7 +23471,7 @@
         "addonid": "script.timers",
         "name": "Timers",
         "slug": "script.timers",
-        "version": "4.1.1",
+        "version": "4.1.2",
         "authors": [
           {
             "name": "Heckie",
@@ -23480,8 +23482,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.timers/script.timers-4.1.1.zip",
-            "statspath": "/addons/omega/script.timers/script.timers-4.1.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.timers/script.timers-4.1.2.zip",
+            "statspath": "/addons/omega/script.timers/script.timers-4.1.2.zip"
           }
         ],
         "categories": [
@@ -23509,7 +23511,7 @@
         "license": "MIT",
         "website": "https://github.com/Heckie75/kodi-addon-timers",
         "source": "https://github.com/Heckie75/kodi-addon-timers",
-        "news": "v4.1.1 (2025-03-24)\n* Minor fixes for Python compatibility\n\nv4.1.0 (2024-12-19)\n* New feature: support for smart playlists (music and video)\n\nv4.0.2 (2024-12-12)\n* Bugfix: Fix exception when settings timer in EPG with program that runs over midnight\n\nv4.0.1 (2024-12-08)\n- Addded translations for French (provided by Skypichat-kodi and Gemini)\n- Bugfix: Prevent exception when turning off timers by deselecting all days of week\n\nv4.0.0 (2024-08-31)\n- New feature: programming timers with full date (not only day within upcoming 7 days, feature request #34)\n- Improved stop behavior of overlapping media timers acc. its priority\n- Bugfix / workaround: [Kodi v21] Settings dialog is broken, issue #43\n- Bugfix: [Kodi v21] Addon can't play PVR items anymore, issue #42\n\nv3.9.3 (2024-08-02)\n- Bugfix: Fixed that 'running-high-prio-fading-only-timer' prevents starting other media timers within its period\n\nv3.9.2 (2024-07-21)\n- Bugfix: The repeat flag in Timer Addon doesn't work, issue #39\n\nv3.9.1 (2024-06-30)\n- Bugfix: Prevent exception after changing already running non-fading-timer to fading-timer\n\nv3.9.0 (2023-11-11)\n- Added new system action 'restart Kodi'\n- Added new extra feature to prevent display off when audio is playing\n- Bugfix: Prevent exception in fader context\n\nv3.8.0 (2023-08-06)\n- Context menu quicktimer: Added dialog if item is already scheduled and ask to replace or delete\n\nComplete changelog see https://github.com/Heckie75/kodi-addon-timers\n    ",
+        "news": "v4.1.2 (2025-04-27)\n* Fixed issue #50: Predefined time in sleep timer is incorrect (prob. if no PVR client is installed)\n\nv4.1.1 (2025-03-24)\n* Minor fixes for Python compatibility\n\nv4.1.0 (2024-12-19)\n* New feature: support for smart playlists (music and video)\n\nv4.0.2 (2024-12-12)\n* Bugfix: Fix exception when settings timer in EPG with program that runs over midnight\n\nv4.0.1 (2024-12-08)\n- Addded translations for French (provided by Skypichat-kodi and Gemini)\n- Bugfix: Prevent exception when turning off timers by deselecting all days of week\n\nv4.0.0 (2024-08-31)\n- New feature: programming timers with full date (not only day within upcoming 7 days, feature request #34)\n- Improved stop behavior of overlapping media timers acc. its priority\n- Bugfix / workaround: [Kodi v21] Settings dialog is broken, issue #43\n- Bugfix: [Kodi v21] Addon can't play PVR items anymore, issue #42\n\nv3.9.3 (2024-08-02)\n- Bugfix: Fixed that 'running-high-prio-fading-only-timer' prevents starting other media timers within its period\n\nv3.9.2 (2024-07-21)\n- Bugfix: The repeat flag in Timer Addon doesn't work, issue #39\n\nv3.9.1 (2024-06-30)\n- Bugfix: Prevent exception after changing already running non-fading-timer to fading-timer\n\nv3.9.0 (2023-11-11)\n- Added new system action 'restart Kodi'\n- Added new extra feature to prevent display off when audio is playing\n- Bugfix: Prevent exception in fader context\n\nComplete changelog see https://github.com/Heckie75/kodi-addon-timers\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.timers/resources/assets/icon.png",
@@ -23565,8 +23567,9 @@
           }
         ],
         "size": "4731KB",
-        "lastupdate": "2025-04-14T02:33:31.946Z",
+        "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.timers/resources/assets/icon.png",
         "snippet": "Timers"
       },
@@ -27179,7 +27182,7 @@
         "addonid": "plugin.video.vimeo",
         "name": "Vimeo",
         "slug": "plugin.video.vimeo",
-        "version": "6.0.2",
+        "version": "6.0.3",
         "authors": [
           {
             "name": "jaylinski",
@@ -27190,8 +27193,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vimeo/plugin.video.vimeo-6.0.2.zip",
-            "statspath": "/addons/omega/plugin.video.vimeo/plugin.video.vimeo-6.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vimeo/plugin.video.vimeo-6.0.3.zip",
+            "statspath": "/addons/omega/plugin.video.vimeo/plugin.video.vimeo-6.0.3.zip"
           }
         ],
         "categories": [
@@ -27214,7 +27217,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=220437",
         "website": "https://vimeo.com",
         "source": "https://github.com/jaylinski/kodi-addon-vimeo",
-        "news": "6.0.2 (2025-02-06)\nHandle Vimeo geo-blocking by displaying an error to affected users\n\n6.0.1 (2022-02-25)\nFixed subtitle conversion issue\nFixed playback issue on certain videos when using HLS video format (related to AV1 codec)\nReplaced invalid video-format \"240p\" in settings\nReplaced deprecated API call (fixes Kodi v20 crash)\n\n6.0.0 (2021-02-25)\nAdded support for Kodi v19 (Matrix)\n        ",
+        "news": "6.0.3 (2025-05-22)\nFix crash when playing password-protected videos with subtitles enabled\n\n6.0.2 (2025-02-06)\nHandle Vimeo geo-blocking by displaying an error to affected users\nDon't add video to playlist when shared with addon\nImprove video-quality fallback for non-HLS video-formats\n\n6.0.1 (2022-02-25)\nFixed subtitle conversion issue\nFixed playback issue on certain videos when using HLS video format (related to AV1 codec)\nReplaced invalid video-format \"240p\" in settings\nReplaced deprecated API call (fixes Kodi v20 crash)\n\n6.0.0 (2021-02-25)\nAdded support for Kodi v19 (Matrix)\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vimeo/resources/icon.png",
@@ -27228,12 +27231,12 @@
           }
         ],
         "size": "94KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 51245,
+        "lastupdate": "2025-05-31T02:33:38.969Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vimeo/resources/icon.png",
         "description": "Vimeo lets you discover amazing videos from the world’s best creators.",
-        "snippet": "Vimeo lets you discover amazing videos from the world’s best creators.",
-        "prevyeardl": 51245
+        "snippet": "Vimeo lets you discover amazing videos from the world’s best creators."
       }
     ],
     "totaladdons": 3
@@ -33936,176 +33939,6 @@
         "prevyeardl": 96370
       },
       {
-        "id": "plugin.video.locast",
-        "addonid": "plugin.video.locast",
-        "name": "Locast",
-        "slug": "plugin.video.locast",
-        "version": "1.1.9",
-        "authors": [
-          {
-            "name": "Lunatixz",
-            "slug": "lunatixz",
-            "icon": "/images/authors/lunatixz.webp"
-          }
-        ],
-        "platforms": [
-          {
-            "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.locast/plugin.video.locast-1.1.9.zip",
-            "statspath": "/addons/omega/plugin.video.locast/plugin.video.locast-1.1.9.zip"
-          }
-        ],
-        "categories": [
-          {
-            "name": "Plugins",
-            "slug": "plugins",
-            "icon": "/images/categories/plugins.webp"
-          },
-          {
-            "name": "Video addons",
-            "slug": "video-addons",
-            "icon": "/images/categories/video-addons.webp"
-          },
-          {
-            "name": "Services",
-            "slug": "services",
-            "icon": "/images/categories/services.webp"
-          }
-        ],
-        "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
-        "reuselanguageinvoker": "true",
-        "lifecyclestate": "Locast is suspending operations, effective immediately.\\nVisit www.locast.org for details...",
-        "summary": "Locast is a public service to Americans, providing local broadcast signals over the Internet in select cities like New York, Philadelphia, Boston, Chicago, Houston and Dallas ...",
-        "description": "All you have to do is sign up online, provide your name and email address, and certify that you live in, and are logging on from, one of the select US cities (“Designated Market Area”). Then, you can select among local broadcasters and stream your favorite local station. Locast.org is a “digital translator,” meaning that Locast.org operates just like a traditional broadcast translator service, except instead of using an over-the-air signal to boost a broadcaster’s reach, we stream the signal over the Internet to consumers located within select US cities. Ever since the dawn of TV broadcasting in the mid-20th Century, non-profit organizations have provided “translator” TV stations as a public service. Where a primary broadcaster cannot reach a receiver with a strong enough signal, the translator amplifies that signal with another transmitter, allowing consumers who otherwise could not get the over-the-air signal to receive important programming, including local news, weather and of course, sports. Locast.org provides the same public service, except instead of an over-the-air signal transmitter, we provide the local broadcast signal via online streaming.",
-        "news": "v1.1.7\n- Fixed login issues\nv1.1.7\n- IPTV Simple Guidedata fix, Inputstream beta build support for uninterrupted playback.",
-        "license": "GPL-3.0-or-later",
-        "source": "https://github.com/Lunatixz/KODI_ADDONS/tree/master/plugin.video.locast",
-        "website": "https://www.locast.org",
-        "forum": "https://forum.kodi.tv/showthread.php?tid=334947",
-        "disclaimer": "Content is Geo-restricted and may not be available in your location.",
-        "icons": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/icon.png",
-            "remotepath": "resources/images/icon.png"
-          }
-        ],
-        "fanarts": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/fanart.jpg",
-            "remotepath": "resources/images/fanart.jpg"
-          }
-        ],
-        "screenshots": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/screenshot01.png",
-            "remotepath": "resources/images/screenshot01.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/screenshot02.png",
-            "remotepath": "resources/images/screenshot02.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/screenshot03.png",
-            "remotepath": "resources/images/screenshot03.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.locast/resources/images/screenshot04.png",
-            "remotepath": "resources/images/screenshot04.png"
-          }
-        ],
-        "size": "2362KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 3711,
-        "icon": "/images/addons/omega/plugin.video.locast/resources/images/icon.png",
-        "snippet": "Locast is a public service to Americans, providing local broadcast signals over the Internet in...",
-        "prevyeardl": 3711
-      },
-      {
-        "id": "plugin.video.newson",
-        "addonid": "plugin.video.newson",
-        "name": "NewsON",
-        "slug": "plugin.video.newson",
-        "version": "1.3.2",
-        "authors": [
-          {
-            "name": "Lunatixz",
-            "slug": "lunatixz",
-            "icon": "/images/authors/lunatixz.webp"
-          }
-        ],
-        "platforms": [
-          {
-            "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.newson/plugin.video.newson-1.3.2.zip",
-            "statspath": "/addons/omega/plugin.video.newson/plugin.video.newson-1.3.2.zip"
-          }
-        ],
-        "categories": [
-          {
-            "name": "Plugins",
-            "slug": "plugins",
-            "icon": "/images/categories/plugins.webp"
-          },
-          {
-            "name": "Video addons",
-            "slug": "video-addons",
-            "icon": "/images/categories/video-addons.webp"
-          },
-          {
-            "name": "Services",
-            "slug": "services",
-            "icon": "/images/categories/services.webp"
-          }
-        ],
-        "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
-        "reuselanguageinvoker": "true",
-        "license": "GPL-3.0-or-later",
-        "source": "https://github.com/Lunatixz/KODI_Addons/tree/master/plugin.video.newson",
-        "website": "http://watchnewson.com/",
-        "forum": "https://forum.kodi.tv/showthread.php?tid=315924",
-        "news": "v.1.2.0\n-Matrix\nv1.0.8\nAdded InputStream Helper\n-v1.0.7\nUpdated Parser\n-v1.0.5\n-Fixed Parsing Error\nv1.0.4\n-Leia Compatibility, Added adaptive inputstream\nv1.0.3\n-Plugin improvments.\nv1.0.2\n-Updated cache parameters.\nv1.0.1\n-Updated cache parameters, Improved error detection.",
-        "icons": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/icon.png",
-            "remotepath": "resources/images/icon.png"
-          }
-        ],
-        "fanarts": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/fanart.jpg",
-            "remotepath": "resources/images/fanart.jpg"
-          }
-        ],
-        "screenshots": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/screenshot01.png",
-            "remotepath": "resources/images/screenshot01.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/screenshot02.png",
-            "remotepath": "resources/images/screenshot02.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/screenshot03.png",
-            "remotepath": "resources/images/screenshot03.png"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.newson/resources/images/screenshot04.png",
-            "remotepath": "resources/images/screenshot04.png"
-          }
-        ],
-        "summary": "Local News Nationwide",
-        "description": "NewsON provides instant access to live or on-demand broadcasts from over 175 local stations in 114 U.S. markets. Access previous newscasts for up to 48 hours after they air, and share interesting stories with the integrated social media share function directly from the app. Search for a local station with the interactive map or watch the station closest to you on smartphones, tablets, or Roku streaming players. Save favorite stations, and stay updated with breaking news alerts sent directly to mobile devices from the local source of the news. Stay connected anytime, anywhere without a cable subscription or login.",
-        "size": "2807KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 319361,
-        "icon": "/images/addons/omega/plugin.video.newson/resources/images/icon.png",
-        "snippet": "Local News Nationwide",
-        "prevyeardl": 319361
-      },
-      {
         "id": "plugin.video.playonbrowser",
         "addonid": "plugin.video.playonbrowser",
         "name": "PlayOn Browser",
@@ -34184,82 +34017,6 @@
         "icon": "/images/addons/omega/plugin.video.playonbrowser/resources/images/icon.png",
         "snippet": "Browse PlayOn from Kodi.",
         "prevyeardl": 186761
-      },
-      {
-        "id": "plugin.video.plutotv",
-        "addonid": "plugin.video.plutotv",
-        "name": "Pluto TV",
-        "slug": "plugin.video.plutotv",
-        "version": "1.6.1",
-        "authors": [
-          {
-            "name": "Lunatixz",
-            "slug": "lunatixz",
-            "icon": "/images/authors/lunatixz.webp"
-          }
-        ],
-        "platforms": [
-          {
-            "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.plutotv/plugin.video.plutotv-1.6.1.zip",
-            "statspath": "/addons/omega/plugin.video.plutotv/plugin.video.plutotv-1.6.1.zip"
-          }
-        ],
-        "categories": [
-          {
-            "name": "Plugins",
-            "slug": "plugins",
-            "icon": "/images/categories/plugins.webp"
-          },
-          {
-            "name": "Video addons",
-            "slug": "video-addons",
-            "icon": "/images/categories/video-addons.webp"
-          },
-          {
-            "name": "Services",
-            "slug": "services",
-            "icon": "/images/categories/services.webp"
-          }
-        ],
-        "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
-        "reuselanguageinvoker": "true",
-        "license": "GPL-3.0-or-later",
-        "source": "https://github.com/Lunatixz/KODI_Addons/tree/master/plugin.video.plutotv",
-        "website": "http://pluto.tv/",
-        "forum": "http://forum.kodi.tv/showthread.php?tid=315513",
-        "news": "v1.6.0a\n- TM Free LOGO\n",
-        "icons": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.plutotv/resources/images/icon.png",
-            "remotepath": "resources/images/icon.png"
-          }
-        ],
-        "fanarts": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.plutotv/resources/images/fanart.jpg",
-            "remotepath": "resources/images/fanart.jpg"
-          }
-        ],
-        "screenshots": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.plutotv/resources/images/screenshot01.jpg",
-            "remotepath": "resources/images/screenshot01.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/plugin.video.plutotv/resources/images/screenshot02.jpg",
-            "remotepath": "resources/images/screenshot02.jpg"
-          }
-        ],
-        "summary": "TV channels devoted to your favorite things, made from blockbuster movies from Paramount, ... “The genius of Pluto TV: This is real internet television”.",
-        "description": "Watch Free TV on Kodi! Stream Pluto TV's 100+ channels of news, sports, and the Internet's best, completely free on your Kodi device.",
-        "size": "877KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 1558030,
-        "icon": "/images/addons/omega/plugin.video.plutotv/resources/images/icon.png",
-        "snippet": "TV channels devoted to your favorite things, made from blockbuster movies from Paramount, ... “The...",
-        "prevyeardl": 1558030
       },
       {
         "id": "script.module.pyhdhr",
@@ -34559,7 +34316,7 @@
         "prevyeardl": 38393
       }
     ],
-    "totaladdons": 14
+    "totaladdons": 11
   },
   {
     "name": "lusum",
@@ -74119,7 +73876,6 @@
         "size": "291KB",
         "lastupdate": "2025-05-30T02:34:30.742Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro/icon.png",
         "snippet": "Libretro compatibility layer for Kodi's Game API"
       },
