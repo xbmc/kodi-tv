@@ -13758,7 +13758,6 @@
         "size": "146KB",
         "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cinetree/resources/cinetree-logo.png",
         "snippet": "Films and documentaries from cinetree.nl (Benelux countries only, account required)"
       },
@@ -13820,7 +13819,6 @@
         "size": "488KB",
         "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
         "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
       }
@@ -18966,7 +18964,7 @@
         "addonid": "pvr.waipu",
         "name": "waipu.tv PVR Client",
         "slug": "pvr.waipu",
-        "version": "21.10.4",
+        "version": "21.11.0",
         "authors": [
           {
             "name": "flubshi",
@@ -18976,34 +18974,34 @@
         ],
         "platforms": [
           {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.10.4.zip"
-          },
-          {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.10.4.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.10.4.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.10.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.0.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.10.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.0.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.0.zip"
+          },
+          {
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.0.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.4.zip",
-            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.10.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.0.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.0.zip"
           }
         ],
         "categories": [
@@ -19040,11 +19038,11 @@
             "remotepath": "resources/screenshots/screenshot-02.jpg"
           }
         ],
-        "news": "- Fix deletion of recordings\n    ",
+        "news": "- Implement series recording\n- Timers: Add duration/end time to timers\n    ",
         "summary": "waipu.tv PVR Client",
         "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-        "size": "904KB",
-        "lastupdate": "2025-05-31T02:33:38.969Z",
+        "size": "901KB",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
         "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
@@ -23569,7 +23567,6 @@
         "size": "4731KB",
         "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.timers/resources/assets/icon.png",
         "snippet": "Timers"
       },
@@ -27233,7 +27230,6 @@
         "size": "94KB",
         "lastupdate": "2025-05-31T02:33:38.969Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vimeo/resources/icon.png",
         "description": "Vimeo lets you discover amazing videos from the world’s best creators.",
         "snippet": "Vimeo lets you discover amazing videos from the world’s best creators."
@@ -37318,7 +37314,7 @@
         "addonid": "script.audiooffsetmanager",
         "name": "Audio Offset Manager",
         "slug": "script.audiooffsetmanager",
-        "version": "1.4.0",
+        "version": "1.5.0",
         "authors": [
           {
             "name": "matthane",
@@ -37329,8 +37325,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.audiooffsetmanager/script.audiooffsetmanager-1.4.0.zip",
-            "statspath": "/addons/omega/script.audiooffsetmanager/script.audiooffsetmanager-1.4.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.audiooffsetmanager/script.audiooffsetmanager-1.5.0.zip",
+            "statspath": "/addons/omega/script.audiooffsetmanager/script.audiooffsetmanager-1.5.0.zip"
           }
         ],
         "categories": [
@@ -37346,9 +37342,9 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
+        "agetype": "existing",
         "source": "https://github.com/matthane/script.audiooffsetmanager",
-        "news": "v1.4.0 (2025-01-17)\n- Add DTS-HD HRA offset option\n- Consolidate DTS-HD MA offset options for simplicity\n- Clean up audio format detection methods to ignore spatial audio identifiers\n        ",
+        "news": "v1.5.0 (2025-05-02)\n- Add notifications (toggleable) for when offsets are applied or saved during playback\n- Add test video bypass option\n        ",
         "summary": "Dynamically manages audio offsets",
         "description": "This add-on intelligently adjusts the audio offset based on the detected HDR type, audio format, and FPS type according to user-configured settings, along with other helpful features",
         "license": "GPL-3.0-or-later",
@@ -37372,14 +37368,18 @@
           {
             "localpath": "/images/addons/omega/script.audiooffsetmanager/resources/screenshot-2.jpg",
             "remotepath": "resources/screenshot-2.jpg"
+          },
+          {
+            "localpath": "/images/addons/omega/script.audiooffsetmanager/resources/screenshot-3.jpg",
+            "remotepath": "resources/screenshot-3.jpg"
           }
         ],
-        "size": "1307KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 3223,
+        "size": "1523KB",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.audiooffsetmanager/resources/icon.png",
-        "snippet": "Dynamically manages audio offsets",
-        "prevyeardl": 3223
+        "snippet": "Dynamically manages audio offsets"
       }
     ],
     "totaladdons": 1
@@ -69533,7 +69533,7 @@
         "addonid": "resource.language.zh_cn",
         "name": "Chinese (Simple)",
         "slug": "resource.language.zh_cn",
-        "version": "11.0.84",
+        "version": "11.0.85",
         "authors": [
           {
             "name": "Team Kodi",
@@ -69544,8 +69544,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.84.zip",
-            "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.84.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.85.zip",
+            "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.85.zip"
           }
         ],
         "categories": [
@@ -69566,8 +69566,9 @@
           }
         ],
         "size": "147KB",
-        "lastupdate": "2025-05-29T02:34:57.660Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
         "snippet": "Chinese (Simple) language pack"
       },
@@ -70106,7 +70107,7 @@
         "addonid": "resource.language.cs_cz",
         "name": "Czech",
         "slug": "resource.language.cs_cz",
-        "version": "11.0.85",
+        "version": "11.0.86",
         "authors": [
           {
             "name": "Team Kodi",
@@ -70117,8 +70118,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.85.zip",
-            "statspath": "/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.85.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.86.zip",
+            "statspath": "/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.86.zip"
           }
         ],
         "categories": [
@@ -70139,8 +70140,9 @@
           }
         ],
         "size": "152KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.cs_cz/icon.png",
         "snippet": "Czech language pack"
       },
@@ -70722,7 +70724,7 @@
         "addonid": "resource.language.et_ee",
         "name": "Estonian",
         "slug": "resource.language.et_ee",
-        "version": "11.0.78",
+        "version": "11.0.79",
         "authors": [
           {
             "name": "Team Kodi",
@@ -70733,8 +70735,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.78.zip",
-            "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.78.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.79.zip",
+            "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.79.zip"
           }
         ],
         "categories": [
@@ -70755,8 +70757,9 @@
           }
         ],
         "size": "146KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.et_ee/icon.png",
         "snippet": "Estonian language pack"
       },
@@ -71195,7 +71198,7 @@
         "addonid": "resource.language.fi_fi",
         "name": "Finnish",
         "slug": "resource.language.fi_fi",
-        "version": "11.0.94",
+        "version": "11.0.95",
         "authors": [
           {
             "name": "Team Kodi",
@@ -71206,8 +71209,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.94.zip",
-            "statspath": "/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.94.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.95.zip",
+            "statspath": "/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.95.zip"
           }
         ],
         "categories": [
@@ -71227,9 +71230,10 @@
             "remotepath": "icon.png"
           }
         ],
-        "size": "150KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "size": "151KB",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.fi_fi/icon.png",
         "snippet": "Finnish language pack"
       },
@@ -71974,7 +71978,7 @@
         "addonid": "resource.language.de_de",
         "name": "German",
         "slug": "resource.language.de_de",
-        "version": "11.0.91",
+        "version": "11.0.92",
         "authors": [
           {
             "name": "Team Kodi",
@@ -71985,8 +71989,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.de_de/resource.language.de_de-11.0.91.zip",
-            "statspath": "/addons/omega/resource.language.de_de/resource.language.de_de-11.0.91.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.de_de/resource.language.de_de-11.0.92.zip",
+            "statspath": "/addons/omega/resource.language.de_de/resource.language.de_de-11.0.92.zip"
           }
         ],
         "categories": [
@@ -72007,8 +72011,9 @@
           }
         ],
         "size": "151KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.de_de/icon.png",
         "snippet": "German language pack"
       },
@@ -72566,7 +72571,7 @@
         "addonid": "resource.language.hu_hu",
         "name": "Hungarian",
         "slug": "resource.language.hu_hu",
-        "version": "11.0.83",
+        "version": "11.0.84",
         "authors": [
           {
             "name": "Team Kodi",
@@ -72577,8 +72582,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.83.zip",
-            "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.83.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.84.zip",
+            "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.84.zip"
           }
         ],
         "categories": [
@@ -72599,8 +72604,9 @@
           }
         ],
         "size": "156KB",
-        "lastupdate": "2025-05-29T02:34:57.660Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
         "snippet": "Hungarian language pack"
       },
@@ -72834,7 +72840,7 @@
         "addonid": "resource.language.id_id",
         "name": "Indonesian",
         "slug": "resource.language.id_id",
-        "version": "11.0.72",
+        "version": "11.0.73",
         "authors": [
           {
             "name": "Team Kodi",
@@ -72845,8 +72851,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.id_id/resource.language.id_id-11.0.72.zip",
-            "statspath": "/addons/omega/resource.language.id_id/resource.language.id_id-11.0.72.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.id_id/resource.language.id_id-11.0.73.zip",
+            "statspath": "/addons/omega/resource.language.id_id/resource.language.id_id-11.0.73.zip"
           }
         ],
         "categories": [
@@ -72867,8 +72873,9 @@
           }
         ],
         "size": "143KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.id_id/icon.png",
         "snippet": "Indonesian language pack"
       },
@@ -73046,7 +73053,7 @@
         "addonid": "resource.language.it_it",
         "name": "Italian",
         "slug": "resource.language.it_it",
-        "version": "11.0.91",
+        "version": "11.0.92",
         "authors": [
           {
             "name": "Team Kodi",
@@ -73057,8 +73064,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.it_it/resource.language.it_it-11.0.91.zip",
-            "statspath": "/addons/omega/resource.language.it_it/resource.language.it_it-11.0.91.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.it_it/resource.language.it_it-11.0.92.zip",
+            "statspath": "/addons/omega/resource.language.it_it/resource.language.it_it-11.0.92.zip"
           }
         ],
         "categories": [
@@ -73078,9 +73085,10 @@
             "remotepath": "icon.png"
           }
         ],
-        "size": "147KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "size": "148KB",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.it_it/icon.png",
         "snippet": "Italian language pack"
       },
@@ -73621,7 +73629,7 @@
         "addonid": "resource.language.ko_kr",
         "name": "Korean",
         "slug": "resource.language.ko_kr",
-        "version": "11.0.80",
+        "version": "11.0.81",
         "authors": [
           {
             "name": "Team Kodi",
@@ -73632,8 +73640,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.80.zip",
-            "statspath": "/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.80.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.81.zip",
+            "statspath": "/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.81.zip"
           }
         ],
         "categories": [
@@ -73654,8 +73662,9 @@
           }
         ],
         "size": "152KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.ko_kr/icon.png",
         "snippet": "Korean language pack"
       },
@@ -76654,7 +76663,7 @@
         "addonid": "resource.language.pl_pl",
         "name": "Polish",
         "slug": "resource.language.pl_pl",
-        "version": "11.0.72",
+        "version": "11.0.73",
         "authors": [
           {
             "name": "Team Kodi",
@@ -76665,8 +76674,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.72.zip",
-            "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.72.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.73.zip",
+            "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.73.zip"
           }
         ],
         "categories": [
@@ -76687,8 +76696,9 @@
           }
         ],
         "size": "155KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.pl_pl/icon.png",
         "snippet": "Polish language pack"
       },
@@ -76740,7 +76750,7 @@
         "addonid": "resource.language.pt_br",
         "name": "Portuguese (Brazil)",
         "slug": "resource.language.pt_br",
-        "version": "11.0.89",
+        "version": "11.0.90",
         "authors": [
           {
             "name": "Team Kodi",
@@ -76751,8 +76761,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.89.zip",
-            "statspath": "/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.89.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.90.zip",
+            "statspath": "/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.90.zip"
           }
         ],
         "categories": [
@@ -76773,8 +76783,9 @@
           }
         ],
         "size": "149KB",
-        "lastupdate": "2025-05-11T02:35:08.759Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.pt_br/icon.png",
         "snippet": "Portuguese (Brazil) language pack"
       },
@@ -77176,7 +77187,7 @@
         "addonid": "resource.language.ru_ru",
         "name": "Russian",
         "slug": "resource.language.ru_ru",
-        "version": "11.0.86",
+        "version": "11.0.87",
         "authors": [
           {
             "name": "Team Kodi",
@@ -77187,8 +77198,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.86.zip",
-            "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.86.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.87.zip",
+            "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.87.zip"
           }
         ],
         "categories": [
@@ -77209,8 +77220,9 @@
           }
         ],
         "size": "167KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.ru_ru/icon.png",
         "snippet": "Russian language pack"
       },
@@ -78639,7 +78651,7 @@
         "addonid": "resource.language.es_es",
         "name": "Spanish",
         "slug": "resource.language.es_es",
-        "version": "11.0.88",
+        "version": "11.0.89",
         "authors": [
           {
             "name": "Team Kodi",
@@ -78650,8 +78662,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.88.zip",
-            "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.88.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.89.zip",
+            "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.89.zip"
           }
         ],
         "categories": [
@@ -78672,8 +78684,9 @@
           }
         ],
         "size": "149KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.es_es/icon.png",
         "snippet": "Spanish language pack"
       },
@@ -78725,7 +78738,7 @@
         "addonid": "resource.language.es_mx",
         "name": "Spanish (Mexico)",
         "slug": "resource.language.es_mx",
-        "version": "11.0.69",
+        "version": "11.0.70",
         "authors": [
           {
             "name": "Team Kodi",
@@ -78736,8 +78749,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.69.zip",
-            "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.69.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.70.zip",
+            "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.70.zip"
           }
         ],
         "categories": [
@@ -78758,8 +78771,9 @@
           }
         ],
         "size": "148KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.es_mx/icon.png",
         "snippet": "Spanish (Mexico) language pack"
       },
@@ -79408,7 +79422,7 @@
         "addonid": "resource.language.sv_se",
         "name": "Swedish",
         "slug": "resource.language.sv_se",
-        "version": "11.0.84",
+        "version": "11.0.85",
         "authors": [
           {
             "name": "Team Kodi",
@@ -79419,8 +79433,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.84.zip",
-            "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.84.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.85.zip",
+            "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.85.zip"
           }
         ],
         "categories": [
@@ -79441,8 +79455,9 @@
           }
         ],
         "size": "145KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "lastupdate": "2025-06-01T02:47:06.195Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
         "snippet": "Swedish language pack"
       },
