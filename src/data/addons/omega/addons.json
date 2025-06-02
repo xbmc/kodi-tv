@@ -28026,7 +28026,7 @@
     "addonid": "plugin.video.nrk",
     "name": "NRK Nett-TV",
     "slug": "plugin.video.nrk",
-    "version": "4.8.0",
+    "version": "4.9.2",
     "authors": [
       {
         "name": "takoi+a99b",
@@ -28037,8 +28037,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.nrk/plugin.video.nrk-4.8.0.zip",
-        "statspath": "/addons/omega/plugin.video.nrk/plugin.video.nrk-4.8.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.nrk/plugin.video.nrk-4.9.2.zip",
+        "statspath": "/addons/omega/plugin.video.nrk/plugin.video.nrk-4.9.2.zip"
       }
     ],
     "categories": [
@@ -28054,9 +28054,9 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "language": "no",
-    "license": "GPL-3.0-only",
+    "license": "GPL-3.0-or-later",
     "forum": "https://forum.kodi.tv/showthread.php?tid=52824",
     "source": "https://github.com/tamland/xbmc-addon-nrk",
     "icons": [
@@ -28071,11 +28071,11 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "size": "290KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 70302,
-    "icon": "/images/addons/omega/plugin.video.nrk/icon.png",
-    "prevyeardl": 70302
+    "size": "169KB",
+    "lastupdate": "2025-06-02T02:37:53.767Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/plugin.video.nrk/icon.png"
   },
   {
     "id": "plugin.video.nwl",
@@ -34865,7 +34865,7 @@
     "addonid": "pvr.waipu",
     "name": "waipu.tv PVR Client",
     "slug": "pvr.waipu",
-    "version": "21.11.0",
+    "version": "21.11.1",
     "authors": [
       {
         "name": "flubshi",
@@ -34875,34 +34875,34 @@
     ],
     "platforms": [
       {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.0.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.0.zip"
-      },
-      {
         "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.1.zip"
       },
       {
         "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.1.zip"
       },
       {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.0.zip"
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.1.zip"
       },
       {
         "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.0.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.1.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.1.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.1.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.1.zip"
       }
     ],
     "categories": [
@@ -34939,11 +34939,11 @@
         "remotepath": "resources/screenshots/screenshot-02.jpg"
       }
     ],
-    "news": "- Implement series recording\n- Timers: Add duration/end time to timers\n    ",
+    "news": "- Improve reload of channels on channel filter configuration\n- Update translations\n    ",
     "summary": "waipu.tv PVR Client",
     "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-    "size": "901KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "size": "911KB",
+    "lastupdate": "2025-06-02T02:37:53.767Z",
     "downloads": 0,
     "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.waipu/icon.png",
@@ -39091,7 +39091,6 @@
     "size": "152KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.cs_cz/icon.png",
     "snippet": "Czech language pack"
   },
@@ -39221,7 +39220,6 @@
     "size": "151KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.de_de/icon.png",
     "snippet": "German language pack"
   },
@@ -39523,7 +39521,6 @@
     "size": "149KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_es/icon.png",
     "snippet": "Spanish language pack"
   },
@@ -39567,7 +39564,6 @@
     "size": "148KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_mx/icon.png",
     "snippet": "Spanish (Mexico) language pack"
   },
@@ -39611,7 +39607,6 @@
     "size": "146KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.et_ee/icon.png",
     "snippet": "Estonian language pack"
   },
@@ -39784,7 +39779,6 @@
     "size": "151KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fi_fi/icon.png",
     "snippet": "Finnish language pack"
   },
@@ -40215,7 +40209,6 @@
     "size": "156KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
     "snippet": "Hungarian language pack"
   },
@@ -40302,7 +40295,6 @@
     "size": "143KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.id_id/icon.png",
     "snippet": "Indonesian language pack"
   },
@@ -40389,7 +40381,6 @@
     "size": "148KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.it_it/icon.png",
     "snippet": "Italian language pack"
   },
@@ -40519,7 +40510,6 @@
     "size": "152KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ko_kr/icon.png",
     "snippet": "Korean language pack"
   },
@@ -41079,7 +41069,6 @@
     "size": "155KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pl_pl/icon.png",
     "snippet": "Polish language pack"
   },
@@ -41123,7 +41112,6 @@
     "size": "149KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pt_br/icon.png",
     "snippet": "Portuguese (Brazil) language pack"
   },
@@ -41253,7 +41241,6 @@
     "size": "167KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ru_ru/icon.png",
     "snippet": "Russian language pack"
   },
@@ -41555,7 +41542,6 @@
     "size": "145KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
     "snippet": "Swedish language pack"
   },
@@ -41986,7 +41972,6 @@
     "size": "147KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
     "snippet": "Chinese (Simple) language pack"
   },
@@ -46999,7 +46984,6 @@
     "size": "1523KB",
     "lastupdate": "2025-06-01T02:47:06.195Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.audiooffsetmanager/resources/icon.png",
     "snippet": "Dynamically manages audio offsets"
   },
