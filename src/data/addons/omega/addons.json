@@ -34864,7 +34864,7 @@
     "addonid": "pvr.waipu",
     "name": "waipu.tv PVR Client",
     "slug": "pvr.waipu",
-    "version": "21.11.2",
+    "version": "21.12.0",
     "authors": [
       {
         "name": "flubshi",
@@ -34875,33 +34875,33 @@
     "platforms": [
       {
         "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.11.2.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.11.2.zip"
-      },
-      {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.11.2.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.11.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.0.zip"
       },
       {
         "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.11.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.0.zip"
+      },
+      {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.0.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.0.zip"
       },
       {
         "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.2.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.11.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.0.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.0.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.0.zip"
       }
     ],
     "categories": [
@@ -34938,12 +34938,13 @@
         "remotepath": "resources/screenshots/screenshot-02.jpg"
       }
     ],
-    "news": "v21.11.2\n- Translations updates from Weblate\n\t- de_de, es_es, ko_kr\n\n- Improve reload of channels on channel filter configuration\n- Update translations\n    ",
+    "news": "- Fetch epg details for favourite channels (beta!)\n    ",
     "summary": "waipu.tv PVR Client",
     "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-    "size": "911KB",
-    "lastupdate": "2025-06-04T02:36:38.197Z",
+    "size": "907KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.waipu/icon.png",
     "snippet": "waipu.tv PVR Client"
   },
@@ -38667,7 +38668,7 @@
     "addonid": "resource.language.af_za",
     "name": "Afrikaans",
     "slug": "resource.language.af_za",
-    "version": "11.0.65",
+    "version": "11.0.66",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38678,8 +38679,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.af_za/resource.language.af_za-11.0.65.zip",
-        "statspath": "/addons/omega/resource.language.af_za/resource.language.af_za-11.0.65.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.af_za/resource.language.af_za-11.0.66.zip",
+        "statspath": "/addons/omega/resource.language.af_za/resource.language.af_za-11.0.66.zip"
       }
     ],
     "categories": [
@@ -38700,8 +38701,9 @@
       }
     ],
     "size": "144KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.af_za/icon.png",
     "snippet": "Afrikaans language pack"
   },
@@ -38710,7 +38712,7 @@
     "addonid": "resource.language.am_et",
     "name": "Amharic",
     "slug": "resource.language.am_et",
-    "version": "11.0.59",
+    "version": "11.0.60",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38721,8 +38723,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.am_et/resource.language.am_et-11.0.59.zip",
-        "statspath": "/addons/omega/resource.language.am_et/resource.language.am_et-11.0.59.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.am_et/resource.language.am_et-11.0.60.zip",
+        "statspath": "/addons/omega/resource.language.am_et/resource.language.am_et-11.0.60.zip"
       }
     ],
     "categories": [
@@ -38743,8 +38745,9 @@
       }
     ],
     "size": "107KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.am_et/icon.png",
     "snippet": "Amharic language pack"
   },
@@ -38753,7 +38756,7 @@
     "addonid": "resource.language.ar_sa",
     "name": "Arabic",
     "slug": "resource.language.ar_sa",
-    "version": "11.0.65",
+    "version": "11.0.66",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38764,8 +38767,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ar_sa/resource.language.ar_sa-11.0.65.zip",
-        "statspath": "/addons/omega/resource.language.ar_sa/resource.language.ar_sa-11.0.65.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ar_sa/resource.language.ar_sa-11.0.66.zip",
+        "statspath": "/addons/omega/resource.language.ar_sa/resource.language.ar_sa-11.0.66.zip"
       }
     ],
     "categories": [
@@ -38786,8 +38789,9 @@
       }
     ],
     "size": "153KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ar_sa/icon.png",
     "snippet": "Arabic language pack"
   },
@@ -38796,7 +38800,7 @@
     "addonid": "resource.language.ast_es",
     "name": "Asturian",
     "slug": "resource.language.ast_es",
-    "version": "3.0.50",
+    "version": "3.0.51",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38807,8 +38811,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ast_es/resource.language.ast_es-3.0.50.zip",
-        "statspath": "/addons/omega/resource.language.ast_es/resource.language.ast_es-3.0.50.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ast_es/resource.language.ast_es-3.0.51.zip",
+        "statspath": "/addons/omega/resource.language.ast_es/resource.language.ast_es-3.0.51.zip"
       }
     ],
     "categories": [
@@ -38829,8 +38833,9 @@
       }
     ],
     "size": "100KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ast_es/icon.png",
     "snippet": "Asturian language pack"
   },
@@ -38839,7 +38844,7 @@
     "addonid": "resource.language.az_az",
     "name": "Azerbaijani",
     "slug": "resource.language.az_az",
-    "version": "11.0.53",
+    "version": "11.0.54",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38850,8 +38855,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.az_az/resource.language.az_az-11.0.53.zip",
-        "statspath": "/addons/omega/resource.language.az_az/resource.language.az_az-11.0.53.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.az_az/resource.language.az_az-11.0.54.zip",
+        "statspath": "/addons/omega/resource.language.az_az/resource.language.az_az-11.0.54.zip"
       }
     ],
     "categories": [
@@ -38872,8 +38877,9 @@
       }
     ],
     "size": "93KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.az_az/icon.png",
     "snippet": "Azerbaijani language pack"
   },
@@ -38882,7 +38888,7 @@
     "addonid": "resource.language.be_by",
     "name": "Belarusian",
     "slug": "resource.language.be_by",
-    "version": "11.0.67",
+    "version": "11.0.68",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38893,8 +38899,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.be_by/resource.language.be_by-11.0.67.zip",
-        "statspath": "/addons/omega/resource.language.be_by/resource.language.be_by-11.0.67.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.be_by/resource.language.be_by-11.0.68.zip",
+        "statspath": "/addons/omega/resource.language.be_by/resource.language.be_by-11.0.68.zip"
       }
     ],
     "categories": [
@@ -38915,8 +38921,9 @@
       }
     ],
     "size": "156KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.be_by/icon.png",
     "snippet": "Belarusian language pack"
   },
@@ -38925,7 +38932,7 @@
     "addonid": "resource.language.bg_bg",
     "name": "Bulgarian",
     "slug": "resource.language.bg_bg",
-    "version": "11.0.81",
+    "version": "11.0.82",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38936,8 +38943,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.bg_bg/resource.language.bg_bg-11.0.81.zip",
-        "statspath": "/addons/omega/resource.language.bg_bg/resource.language.bg_bg-11.0.81.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.bg_bg/resource.language.bg_bg-11.0.82.zip",
+        "statspath": "/addons/omega/resource.language.bg_bg/resource.language.bg_bg-11.0.82.zip"
       }
     ],
     "categories": [
@@ -38958,8 +38965,9 @@
       }
     ],
     "size": "157KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.bg_bg/icon.png",
     "snippet": "Bulgarian language pack"
   },
@@ -38968,7 +38976,7 @@
     "addonid": "resource.language.bs_ba",
     "name": "Bosnian",
     "slug": "resource.language.bs_ba",
-    "version": "11.0.56",
+    "version": "11.0.57",
     "authors": [
       {
         "name": "Team Kodi",
@@ -38979,8 +38987,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.bs_ba/resource.language.bs_ba-11.0.56.zip",
-        "statspath": "/addons/omega/resource.language.bs_ba/resource.language.bs_ba-11.0.56.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.bs_ba/resource.language.bs_ba-11.0.57.zip",
+        "statspath": "/addons/omega/resource.language.bs_ba/resource.language.bs_ba-11.0.57.zip"
       }
     ],
     "categories": [
@@ -39001,8 +39009,9 @@
       }
     ],
     "size": "105KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.bs_ba/icon.png",
     "snippet": "Bosnian language pack"
   },
@@ -39011,7 +39020,7 @@
     "addonid": "resource.language.ca_es",
     "name": "Catalan",
     "slug": "resource.language.ca_es",
-    "version": "11.0.63",
+    "version": "11.0.64",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39022,8 +39031,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ca_es/resource.language.ca_es-11.0.63.zip",
-        "statspath": "/addons/omega/resource.language.ca_es/resource.language.ca_es-11.0.63.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ca_es/resource.language.ca_es-11.0.64.zip",
+        "statspath": "/addons/omega/resource.language.ca_es/resource.language.ca_es-11.0.64.zip"
       }
     ],
     "categories": [
@@ -39044,8 +39053,9 @@
       }
     ],
     "size": "135KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ca_es/icon.png",
     "snippet": "Catalan language pack"
   },
@@ -39054,7 +39064,7 @@
     "addonid": "resource.language.cs_cz",
     "name": "Czech",
     "slug": "resource.language.cs_cz",
-    "version": "11.0.86",
+    "version": "11.0.87",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39065,8 +39075,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.86.zip",
-        "statspath": "/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.86.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.87.zip",
+        "statspath": "/addons/omega/resource.language.cs_cz/resource.language.cs_cz-11.0.87.zip"
       }
     ],
     "categories": [
@@ -39086,9 +39096,10 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "152KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "size": "153KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.cs_cz/icon.png",
     "snippet": "Czech language pack"
   },
@@ -39097,7 +39108,7 @@
     "addonid": "resource.language.cy_gb",
     "name": "Welsh",
     "slug": "resource.language.cy_gb",
-    "version": "11.0.61",
+    "version": "11.0.62",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39108,8 +39119,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cy_gb/resource.language.cy_gb-11.0.61.zip",
-        "statspath": "/addons/omega/resource.language.cy_gb/resource.language.cy_gb-11.0.61.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.cy_gb/resource.language.cy_gb-11.0.62.zip",
+        "statspath": "/addons/omega/resource.language.cy_gb/resource.language.cy_gb-11.0.62.zip"
       }
     ],
     "categories": [
@@ -39130,8 +39141,9 @@
       }
     ],
     "size": "114KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.cy_gb/icon.png",
     "snippet": "Welsh language pack"
   },
@@ -39140,7 +39152,7 @@
     "addonid": "resource.language.da_dk",
     "name": "Danish",
     "slug": "resource.language.da_dk",
-    "version": "11.0.89",
+    "version": "11.0.90",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39151,8 +39163,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.da_dk/resource.language.da_dk-11.0.89.zip",
-        "statspath": "/addons/omega/resource.language.da_dk/resource.language.da_dk-11.0.89.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.da_dk/resource.language.da_dk-11.0.90.zip",
+        "statspath": "/addons/omega/resource.language.da_dk/resource.language.da_dk-11.0.90.zip"
       }
     ],
     "categories": [
@@ -39173,8 +39185,9 @@
       }
     ],
     "size": "141KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.da_dk/icon.png",
     "snippet": "Danish language pack"
   },
@@ -39183,7 +39196,7 @@
     "addonid": "resource.language.de_de",
     "name": "German",
     "slug": "resource.language.de_de",
-    "version": "11.0.92",
+    "version": "11.0.93",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39194,8 +39207,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.de_de/resource.language.de_de-11.0.92.zip",
-        "statspath": "/addons/omega/resource.language.de_de/resource.language.de_de-11.0.92.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.de_de/resource.language.de_de-11.0.93.zip",
+        "statspath": "/addons/omega/resource.language.de_de/resource.language.de_de-11.0.93.zip"
       }
     ],
     "categories": [
@@ -39216,8 +39229,9 @@
       }
     ],
     "size": "151KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.de_de/icon.png",
     "snippet": "German language pack"
   },
@@ -39226,7 +39240,7 @@
     "addonid": "resource.language.el_gr",
     "name": "Greek",
     "slug": "resource.language.el_gr",
-    "version": "11.0.69",
+    "version": "11.0.70",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39237,8 +39251,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.el_gr/resource.language.el_gr-11.0.69.zip",
-        "statspath": "/addons/omega/resource.language.el_gr/resource.language.el_gr-11.0.69.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.el_gr/resource.language.el_gr-11.0.70.zip",
+        "statspath": "/addons/omega/resource.language.el_gr/resource.language.el_gr-11.0.70.zip"
       }
     ],
     "categories": [
@@ -39259,8 +39273,9 @@
       }
     ],
     "size": "134KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.el_gr/icon.png",
     "snippet": "Greek language pack"
   },
@@ -39269,7 +39284,7 @@
     "addonid": "resource.language.en_au",
     "name": "English (Australia)",
     "slug": "resource.language.en_au",
-    "version": "11.0.57",
+    "version": "11.0.58",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39280,8 +39295,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_au/resource.language.en_au-11.0.57.zip",
-        "statspath": "/addons/omega/resource.language.en_au/resource.language.en_au-11.0.57.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_au/resource.language.en_au-11.0.58.zip",
+        "statspath": "/addons/omega/resource.language.en_au/resource.language.en_au-11.0.58.zip"
       }
     ],
     "categories": [
@@ -39302,8 +39317,9 @@
       }
     ],
     "size": "97KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.en_au/icon.png",
     "snippet": "English (Australia) language pack"
   },
@@ -39312,7 +39328,7 @@
     "addonid": "resource.language.en_nz",
     "name": "English (New Zealand)",
     "slug": "resource.language.en_nz",
-    "version": "11.0.60",
+    "version": "11.0.61",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39323,8 +39339,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_nz/resource.language.en_nz-11.0.60.zip",
-        "statspath": "/addons/omega/resource.language.en_nz/resource.language.en_nz-11.0.60.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_nz/resource.language.en_nz-11.0.61.zip",
+        "statspath": "/addons/omega/resource.language.en_nz/resource.language.en_nz-11.0.61.zip"
       }
     ],
     "categories": [
@@ -39345,8 +39361,9 @@
       }
     ],
     "size": "104KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.en_nz/icon.png",
     "snippet": "English (New Zealand) language pack"
   },
@@ -39355,7 +39372,7 @@
     "addonid": "resource.language.en_us",
     "name": "English (US)",
     "slug": "resource.language.en_us",
-    "version": "11.0.69",
+    "version": "11.0.70",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39366,8 +39383,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_us/resource.language.en_us-11.0.69.zip",
-        "statspath": "/addons/omega/resource.language.en_us/resource.language.en_us-11.0.69.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.en_us/resource.language.en_us-11.0.70.zip",
+        "statspath": "/addons/omega/resource.language.en_us/resource.language.en_us-11.0.70.zip"
       }
     ],
     "categories": [
@@ -39388,8 +39405,9 @@
       }
     ],
     "size": "105KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.en_us/icon.png",
     "snippet": "English (US) language pack"
   },
@@ -39398,7 +39416,7 @@
     "addonid": "resource.language.eo",
     "name": "Esperanto",
     "slug": "resource.language.eo",
-    "version": "11.0.60",
+    "version": "11.0.61",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39409,8 +39427,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.eo/resource.language.eo-11.0.60.zip",
-        "statspath": "/addons/omega/resource.language.eo/resource.language.eo-11.0.60.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.eo/resource.language.eo-11.0.61.zip",
+        "statspath": "/addons/omega/resource.language.eo/resource.language.eo-11.0.61.zip"
       }
     ],
     "categories": [
@@ -39431,8 +39449,9 @@
       }
     ],
     "size": "111KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.eo/icon.png",
     "snippet": "Esperanto language pack"
   },
@@ -39441,7 +39460,7 @@
     "addonid": "resource.language.es_ar",
     "name": "Spanish (Argentina)",
     "slug": "resource.language.es_ar",
-    "version": "11.0.59",
+    "version": "11.0.60",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39452,8 +39471,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_ar/resource.language.es_ar-11.0.59.zip",
-        "statspath": "/addons/omega/resource.language.es_ar/resource.language.es_ar-11.0.59.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_ar/resource.language.es_ar-11.0.60.zip",
+        "statspath": "/addons/omega/resource.language.es_ar/resource.language.es_ar-11.0.60.zip"
       }
     ],
     "categories": [
@@ -39474,8 +39493,9 @@
       }
     ],
     "size": "126KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_ar/icon.png",
     "snippet": "Spanish (Argentina) language pack"
   },
@@ -39484,7 +39504,7 @@
     "addonid": "resource.language.es_es",
     "name": "Spanish",
     "slug": "resource.language.es_es",
-    "version": "11.0.89",
+    "version": "11.0.90",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39495,8 +39515,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.89.zip",
-        "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.89.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_es/resource.language.es_es-11.0.90.zip",
+        "statspath": "/addons/omega/resource.language.es_es/resource.language.es_es-11.0.90.zip"
       }
     ],
     "categories": [
@@ -39516,9 +39536,10 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "149KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "size": "150KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_es/icon.png",
     "snippet": "Spanish language pack"
   },
@@ -39527,7 +39548,7 @@
     "addonid": "resource.language.es_mx",
     "name": "Spanish (Mexico)",
     "slug": "resource.language.es_mx",
-    "version": "11.0.70",
+    "version": "11.0.71",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39538,8 +39559,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.70.zip",
-        "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.70.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.71.zip",
+        "statspath": "/addons/omega/resource.language.es_mx/resource.language.es_mx-11.0.71.zip"
       }
     ],
     "categories": [
@@ -39560,8 +39581,9 @@
       }
     ],
     "size": "148KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.es_mx/icon.png",
     "snippet": "Spanish (Mexico) language pack"
   },
@@ -39570,7 +39592,7 @@
     "addonid": "resource.language.et_ee",
     "name": "Estonian",
     "slug": "resource.language.et_ee",
-    "version": "11.0.79",
+    "version": "11.0.80",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39581,8 +39603,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.79.zip",
-        "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.79.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.80.zip",
+        "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.80.zip"
       }
     ],
     "categories": [
@@ -39603,8 +39625,9 @@
       }
     ],
     "size": "146KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.et_ee/icon.png",
     "snippet": "Estonian language pack"
   },
@@ -39613,7 +39636,7 @@
     "addonid": "resource.language.eu_es",
     "name": "Basque",
     "slug": "resource.language.eu_es",
-    "version": "11.0.66",
+    "version": "11.0.67",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39624,8 +39647,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.eu_es/resource.language.eu_es-11.0.66.zip",
-        "statspath": "/addons/omega/resource.language.eu_es/resource.language.eu_es-11.0.66.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.eu_es/resource.language.eu_es-11.0.67.zip",
+        "statspath": "/addons/omega/resource.language.eu_es/resource.language.eu_es-11.0.67.zip"
       }
     ],
     "categories": [
@@ -39646,8 +39669,9 @@
       }
     ],
     "size": "128KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.eu_es/icon.png",
     "snippet": "Basque language pack"
   },
@@ -39656,7 +39680,7 @@
     "addonid": "resource.language.fa_af",
     "name": "Persian",
     "slug": "resource.language.fa_af",
-    "version": "11.0.55",
+    "version": "11.0.56",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39667,8 +39691,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fa_af/resource.language.fa_af-11.0.55.zip",
-        "statspath": "/addons/omega/resource.language.fa_af/resource.language.fa_af-11.0.55.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fa_af/resource.language.fa_af-11.0.56.zip",
+        "statspath": "/addons/omega/resource.language.fa_af/resource.language.fa_af-11.0.56.zip"
       }
     ],
     "categories": [
@@ -39689,8 +39713,9 @@
       }
     ],
     "size": "93KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fa_af/icon.png",
     "snippet": "Persian language pack"
   },
@@ -39699,7 +39724,7 @@
     "addonid": "resource.language.fa_ir",
     "name": "Persian (Iran)",
     "slug": "resource.language.fa_ir",
-    "version": "11.0.62",
+    "version": "11.0.63",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39710,8 +39735,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fa_ir/resource.language.fa_ir-11.0.62.zip",
-        "statspath": "/addons/omega/resource.language.fa_ir/resource.language.fa_ir-11.0.62.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fa_ir/resource.language.fa_ir-11.0.63.zip",
+        "statspath": "/addons/omega/resource.language.fa_ir/resource.language.fa_ir-11.0.63.zip"
       }
     ],
     "categories": [
@@ -39732,8 +39757,9 @@
       }
     ],
     "size": "117KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fa_ir/icon.png",
     "snippet": "Persian (Iran) language pack"
   },
@@ -39742,7 +39768,7 @@
     "addonid": "resource.language.fi_fi",
     "name": "Finnish",
     "slug": "resource.language.fi_fi",
-    "version": "11.0.95",
+    "version": "11.0.96",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39753,8 +39779,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.95.zip",
-        "statspath": "/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.95.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.96.zip",
+        "statspath": "/addons/omega/resource.language.fi_fi/resource.language.fi_fi-11.0.96.zip"
       }
     ],
     "categories": [
@@ -39775,8 +39801,9 @@
       }
     ],
     "size": "151KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fi_fi/icon.png",
     "snippet": "Finnish language pack"
   },
@@ -39785,7 +39812,7 @@
     "addonid": "resource.language.fil",
     "name": "Filipino (Talagog)",
     "slug": "resource.language.fil",
-    "version": "3.0.28",
+    "version": "3.0.29",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39796,8 +39823,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fil/resource.language.fil-3.0.28.zip",
-        "statspath": "/addons/omega/resource.language.fil/resource.language.fil-3.0.28.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fil/resource.language.fil-3.0.29.zip",
+        "statspath": "/addons/omega/resource.language.fil/resource.language.fil-3.0.29.zip"
       }
     ],
     "categories": [
@@ -39818,8 +39845,9 @@
       }
     ],
     "size": "93KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fil/icon.png",
     "snippet": "Filipino (Talagog) language pack"
   },
@@ -39828,7 +39856,7 @@
     "addonid": "resource.language.fo_fo",
     "name": "Faroese",
     "slug": "resource.language.fo_fo",
-    "version": "11.0.56",
+    "version": "11.0.57",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39839,8 +39867,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fo_fo/resource.language.fo_fo-11.0.56.zip",
-        "statspath": "/addons/omega/resource.language.fo_fo/resource.language.fo_fo-11.0.56.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fo_fo/resource.language.fo_fo-11.0.57.zip",
+        "statspath": "/addons/omega/resource.language.fo_fo/resource.language.fo_fo-11.0.57.zip"
       }
     ],
     "categories": [
@@ -39861,8 +39889,9 @@
       }
     ],
     "size": "102KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fo_fo/icon.png",
     "snippet": "Faroese language pack"
   },
@@ -39871,7 +39900,7 @@
     "addonid": "resource.language.fr_ca",
     "name": "French (Canada)",
     "slug": "resource.language.fr_ca",
-    "version": "11.0.76",
+    "version": "11.0.77",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39882,8 +39911,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_ca/resource.language.fr_ca-11.0.76.zip",
-        "statspath": "/addons/omega/resource.language.fr_ca/resource.language.fr_ca-11.0.76.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_ca/resource.language.fr_ca-11.0.77.zip",
+        "statspath": "/addons/omega/resource.language.fr_ca/resource.language.fr_ca-11.0.77.zip"
       }
     ],
     "categories": [
@@ -39904,8 +39933,9 @@
       }
     ],
     "size": "138KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fr_ca/icon.png",
     "snippet": "French (Canada) language pack"
   },
@@ -39914,7 +39944,7 @@
     "addonid": "resource.language.fr_fr",
     "name": "French",
     "slug": "resource.language.fr_fr",
-    "version": "11.0.92",
+    "version": "11.0.93",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39925,8 +39955,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.92.zip",
-        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.92.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.93.zip",
+        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.93.zip"
       }
     ],
     "categories": [
@@ -39947,8 +39977,9 @@
       }
     ],
     "size": "152KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fr_fr/icon.png",
     "snippet": "French language pack"
   },
@@ -39957,7 +39988,7 @@
     "addonid": "resource.language.ga_ie",
     "name": "Irish",
     "slug": "resource.language.ga_ie",
-    "version": "11.0.96",
+    "version": "11.0.97",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39968,8 +39999,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.96.zip",
-        "statspath": "/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.96.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.97.zip",
+        "statspath": "/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.97.zip"
       }
     ],
     "categories": [
@@ -39990,8 +40021,9 @@
       }
     ],
     "size": "151KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ga_ie/icon.png",
     "snippet": "Irish language pack"
   },
@@ -40000,7 +40032,7 @@
     "addonid": "resource.language.gl_es",
     "name": "Galician",
     "slug": "resource.language.gl_es",
-    "version": "11.0.66",
+    "version": "11.0.67",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40011,8 +40043,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.gl_es/resource.language.gl_es-11.0.66.zip",
-        "statspath": "/addons/omega/resource.language.gl_es/resource.language.gl_es-11.0.66.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.gl_es/resource.language.gl_es-11.0.67.zip",
+        "statspath": "/addons/omega/resource.language.gl_es/resource.language.gl_es-11.0.67.zip"
       }
     ],
     "categories": [
@@ -40033,8 +40065,9 @@
       }
     ],
     "size": "135KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.gl_es/icon.png",
     "snippet": "Galician language pack"
   },
@@ -40043,7 +40076,7 @@
     "addonid": "resource.language.he_il",
     "name": "Hebrew",
     "slug": "resource.language.he_il",
-    "version": "11.0.66",
+    "version": "11.0.67",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40054,8 +40087,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.he_il/resource.language.he_il-11.0.66.zip",
-        "statspath": "/addons/omega/resource.language.he_il/resource.language.he_il-11.0.66.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.he_il/resource.language.he_il-11.0.67.zip",
+        "statspath": "/addons/omega/resource.language.he_il/resource.language.he_il-11.0.67.zip"
       }
     ],
     "categories": [
@@ -40076,8 +40109,9 @@
       }
     ],
     "size": "137KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.he_il/icon.png",
     "snippet": "Hebrew language pack"
   },
@@ -40086,7 +40120,7 @@
     "addonid": "resource.language.hi_in",
     "name": "Hindi (Devanagiri)",
     "slug": "resource.language.hi_in",
-    "version": "11.0.53",
+    "version": "11.0.54",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40097,8 +40131,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hi_in/resource.language.hi_in-11.0.53.zip",
-        "statspath": "/addons/omega/resource.language.hi_in/resource.language.hi_in-11.0.53.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hi_in/resource.language.hi_in-11.0.54.zip",
+        "statspath": "/addons/omega/resource.language.hi_in/resource.language.hi_in-11.0.54.zip"
       }
     ],
     "categories": [
@@ -40119,8 +40153,9 @@
       }
     ],
     "size": "100KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hi_in/icon.png",
     "snippet": "Hindi language pack"
   },
@@ -40129,7 +40164,7 @@
     "addonid": "resource.language.hr_hr",
     "name": "Croatian",
     "slug": "resource.language.hr_hr",
-    "version": "11.0.71",
+    "version": "11.0.72",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40140,8 +40175,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hr_hr/resource.language.hr_hr-11.0.71.zip",
-        "statspath": "/addons/omega/resource.language.hr_hr/resource.language.hr_hr-11.0.71.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hr_hr/resource.language.hr_hr-11.0.72.zip",
+        "statspath": "/addons/omega/resource.language.hr_hr/resource.language.hr_hr-11.0.72.zip"
       }
     ],
     "categories": [
@@ -40162,8 +40197,9 @@
       }
     ],
     "size": "146KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hr_hr/icon.png",
     "snippet": "Croatian language pack"
   },
@@ -40172,7 +40208,7 @@
     "addonid": "resource.language.hu_hu",
     "name": "Hungarian",
     "slug": "resource.language.hu_hu",
-    "version": "11.0.84",
+    "version": "11.0.85",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40183,8 +40219,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.84.zip",
-        "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.84.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.85.zip",
+        "statspath": "/addons/omega/resource.language.hu_hu/resource.language.hu_hu-11.0.85.zip"
       }
     ],
     "categories": [
@@ -40205,8 +40241,9 @@
       }
     ],
     "size": "156KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hu_hu/icon.png",
     "snippet": "Hungarian language pack"
   },
@@ -40215,7 +40252,7 @@
     "addonid": "resource.language.hy_am",
     "name": "Armenian",
     "slug": "resource.language.hy_am",
-    "version": "11.0.54",
+    "version": "11.0.55",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40226,8 +40263,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hy_am/resource.language.hy_am-11.0.54.zip",
-        "statspath": "/addons/omega/resource.language.hy_am/resource.language.hy_am-11.0.54.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.hy_am/resource.language.hy_am-11.0.55.zip",
+        "statspath": "/addons/omega/resource.language.hy_am/resource.language.hy_am-11.0.55.zip"
       }
     ],
     "categories": [
@@ -40248,8 +40285,9 @@
       }
     ],
     "size": "96KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.hy_am/icon.png",
     "snippet": "Armenian language pack"
   },
@@ -40258,7 +40296,7 @@
     "addonid": "resource.language.id_id",
     "name": "Indonesian",
     "slug": "resource.language.id_id",
-    "version": "11.0.73",
+    "version": "11.0.74",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40269,8 +40307,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.id_id/resource.language.id_id-11.0.73.zip",
-        "statspath": "/addons/omega/resource.language.id_id/resource.language.id_id-11.0.73.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.id_id/resource.language.id_id-11.0.74.zip",
+        "statspath": "/addons/omega/resource.language.id_id/resource.language.id_id-11.0.74.zip"
       }
     ],
     "categories": [
@@ -40291,8 +40329,9 @@
       }
     ],
     "size": "143KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.id_id/icon.png",
     "snippet": "Indonesian language pack"
   },
@@ -40301,7 +40340,7 @@
     "addonid": "resource.language.is_is",
     "name": "Icelandic",
     "slug": "resource.language.is_is",
-    "version": "11.0.69",
+    "version": "11.0.70",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40312,8 +40351,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.is_is/resource.language.is_is-11.0.69.zip",
-        "statspath": "/addons/omega/resource.language.is_is/resource.language.is_is-11.0.69.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.is_is/resource.language.is_is-11.0.70.zip",
+        "statspath": "/addons/omega/resource.language.is_is/resource.language.is_is-11.0.70.zip"
       }
     ],
     "categories": [
@@ -40334,8 +40373,9 @@
       }
     ],
     "size": "148KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.is_is/icon.png",
     "snippet": "Icelandic language pack"
   },
@@ -40344,7 +40384,7 @@
     "addonid": "resource.language.it_it",
     "name": "Italian",
     "slug": "resource.language.it_it",
-    "version": "11.0.92",
+    "version": "11.0.93",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40355,8 +40395,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.it_it/resource.language.it_it-11.0.92.zip",
-        "statspath": "/addons/omega/resource.language.it_it/resource.language.it_it-11.0.92.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.it_it/resource.language.it_it-11.0.93.zip",
+        "statspath": "/addons/omega/resource.language.it_it/resource.language.it_it-11.0.93.zip"
       }
     ],
     "categories": [
@@ -40377,8 +40417,9 @@
       }
     ],
     "size": "148KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.it_it/icon.png",
     "snippet": "Italian language pack"
   },
@@ -40387,7 +40428,7 @@
     "addonid": "resource.language.ja_jp",
     "name": "Japanese",
     "slug": "resource.language.ja_jp",
-    "version": "11.0.70",
+    "version": "11.0.71",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40398,8 +40439,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ja_jp/resource.language.ja_jp-11.0.70.zip",
-        "statspath": "/addons/omega/resource.language.ja_jp/resource.language.ja_jp-11.0.70.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ja_jp/resource.language.ja_jp-11.0.71.zip",
+        "statspath": "/addons/omega/resource.language.ja_jp/resource.language.ja_jp-11.0.71.zip"
       }
     ],
     "categories": [
@@ -40420,8 +40461,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ja_jp/icon.png",
     "snippet": "Japanese language pack"
   },
@@ -40430,7 +40472,7 @@
     "addonid": "resource.language.kn_in",
     "name": "Kannada",
     "slug": "resource.language.kn_in",
-    "version": "3.0.49",
+    "version": "3.0.50",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40441,8 +40483,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.kn_in/resource.language.kn_in-3.0.49.zip",
-        "statspath": "/addons/omega/resource.language.kn_in/resource.language.kn_in-3.0.49.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.kn_in/resource.language.kn_in-3.0.50.zip",
+        "statspath": "/addons/omega/resource.language.kn_in/resource.language.kn_in-3.0.50.zip"
       }
     ],
     "categories": [
@@ -40463,8 +40505,9 @@
       }
     ],
     "size": "91KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.kn_in/icon.png",
     "snippet": "Kannada language pack"
   },
@@ -40473,7 +40516,7 @@
     "addonid": "resource.language.ko_kr",
     "name": "Korean",
     "slug": "resource.language.ko_kr",
-    "version": "11.0.81",
+    "version": "11.0.82",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40484,8 +40527,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.81.zip",
-        "statspath": "/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.81.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.82.zip",
+        "statspath": "/addons/omega/resource.language.ko_kr/resource.language.ko_kr-11.0.82.zip"
       }
     ],
     "categories": [
@@ -40506,8 +40549,9 @@
       }
     ],
     "size": "152KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ko_kr/icon.png",
     "snippet": "Korean language pack"
   },
@@ -40516,7 +40560,7 @@
     "addonid": "resource.language.lt_lt",
     "name": "Lithuanian",
     "slug": "resource.language.lt_lt",
-    "version": "11.0.78",
+    "version": "11.0.79",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40527,8 +40571,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.lt_lt/resource.language.lt_lt-11.0.78.zip",
-        "statspath": "/addons/omega/resource.language.lt_lt/resource.language.lt_lt-11.0.78.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.lt_lt/resource.language.lt_lt-11.0.79.zip",
+        "statspath": "/addons/omega/resource.language.lt_lt/resource.language.lt_lt-11.0.79.zip"
       }
     ],
     "categories": [
@@ -40549,8 +40593,9 @@
       }
     ],
     "size": "145KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.lt_lt/icon.png",
     "snippet": "Lithuanian language pack"
   },
@@ -40559,7 +40604,7 @@
     "addonid": "resource.language.lv_lv",
     "name": "Latvian",
     "slug": "resource.language.lv_lv",
-    "version": "11.0.65",
+    "version": "11.0.66",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40570,8 +40615,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.lv_lv/resource.language.lv_lv-11.0.65.zip",
-        "statspath": "/addons/omega/resource.language.lv_lv/resource.language.lv_lv-11.0.65.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.lv_lv/resource.language.lv_lv-11.0.66.zip",
+        "statspath": "/addons/omega/resource.language.lv_lv/resource.language.lv_lv-11.0.66.zip"
       }
     ],
     "categories": [
@@ -40592,8 +40637,9 @@
       }
     ],
     "size": "129KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.lv_lv/icon.png",
     "snippet": "Latvian language pack"
   },
@@ -40602,7 +40648,7 @@
     "addonid": "resource.language.mi",
     "name": "Maori",
     "slug": "resource.language.mi",
-    "version": "10.0.56",
+    "version": "10.0.57",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40613,8 +40659,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mi/resource.language.mi-10.0.56.zip",
-        "statspath": "/addons/omega/resource.language.mi/resource.language.mi-10.0.56.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mi/resource.language.mi-10.0.57.zip",
+        "statspath": "/addons/omega/resource.language.mi/resource.language.mi-10.0.57.zip"
       }
     ],
     "categories": [
@@ -40635,8 +40681,9 @@
       }
     ],
     "size": "108KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.mi/icon.png",
     "snippet": "Maori language pack"
   },
@@ -40645,7 +40692,7 @@
     "addonid": "resource.language.mk_mk",
     "name": "Macedonian",
     "slug": "resource.language.mk_mk",
-    "version": "11.0.59",
+    "version": "11.0.60",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40656,8 +40703,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mk_mk/resource.language.mk_mk-11.0.59.zip",
-        "statspath": "/addons/omega/resource.language.mk_mk/resource.language.mk_mk-11.0.59.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mk_mk/resource.language.mk_mk-11.0.60.zip",
+        "statspath": "/addons/omega/resource.language.mk_mk/resource.language.mk_mk-11.0.60.zip"
       }
     ],
     "categories": [
@@ -40678,8 +40725,9 @@
       }
     ],
     "size": "116KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.mk_mk/icon.png",
     "snippet": "Macedonian language pack"
   },
@@ -40688,7 +40736,7 @@
     "addonid": "resource.language.ml_in",
     "name": "Malayalam",
     "slug": "resource.language.ml_in",
-    "version": "11.0.49",
+    "version": "11.0.50",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40699,8 +40747,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ml_in/resource.language.ml_in-11.0.49.zip",
-        "statspath": "/addons/omega/resource.language.ml_in/resource.language.ml_in-11.0.49.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ml_in/resource.language.ml_in-11.0.50.zip",
+        "statspath": "/addons/omega/resource.language.ml_in/resource.language.ml_in-11.0.50.zip"
       }
     ],
     "categories": [
@@ -40721,8 +40769,9 @@
       }
     ],
     "size": "93KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ml_in/icon.png",
     "snippet": "Malayalam language pack"
   },
@@ -40731,7 +40780,7 @@
     "addonid": "resource.language.mn_mn",
     "name": "Mongolian (Mongolia)",
     "slug": "resource.language.mn_mn",
-    "version": "11.0.54",
+    "version": "11.0.55",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40742,8 +40791,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mn_mn/resource.language.mn_mn-11.0.54.zip",
-        "statspath": "/addons/omega/resource.language.mn_mn/resource.language.mn_mn-11.0.54.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mn_mn/resource.language.mn_mn-11.0.55.zip",
+        "statspath": "/addons/omega/resource.language.mn_mn/resource.language.mn_mn-11.0.55.zip"
       }
     ],
     "categories": [
@@ -40764,8 +40813,9 @@
       }
     ],
     "size": "98KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.mn_mn/icon.png",
     "snippet": "Mongolian language pack"
   },
@@ -40774,7 +40824,7 @@
     "addonid": "resource.language.ms_my",
     "name": "Malay",
     "slug": "resource.language.ms_my",
-    "version": "11.0.65",
+    "version": "11.0.66",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40785,8 +40835,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ms_my/resource.language.ms_my-11.0.65.zip",
-        "statspath": "/addons/omega/resource.language.ms_my/resource.language.ms_my-11.0.65.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ms_my/resource.language.ms_my-11.0.66.zip",
+        "statspath": "/addons/omega/resource.language.ms_my/resource.language.ms_my-11.0.66.zip"
       }
     ],
     "categories": [
@@ -40807,8 +40857,9 @@
       }
     ],
     "size": "132KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ms_my/icon.png",
     "snippet": "Malay language pack"
   },
@@ -40817,7 +40868,7 @@
     "addonid": "resource.language.mt_mt",
     "name": "Maltese",
     "slug": "resource.language.mt_mt",
-    "version": "11.0.58",
+    "version": "11.0.59",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40828,8 +40879,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mt_mt/resource.language.mt_mt-11.0.58.zip",
-        "statspath": "/addons/omega/resource.language.mt_mt/resource.language.mt_mt-11.0.58.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.mt_mt/resource.language.mt_mt-11.0.59.zip",
+        "statspath": "/addons/omega/resource.language.mt_mt/resource.language.mt_mt-11.0.59.zip"
       }
     ],
     "categories": [
@@ -40850,8 +40901,9 @@
       }
     ],
     "size": "122KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.mt_mt/icon.png",
     "snippet": "Maltese language pack"
   },
@@ -40860,7 +40912,7 @@
     "addonid": "resource.language.my_mm",
     "name": "Burmese",
     "slug": "resource.language.my_mm",
-    "version": "11.0.56",
+    "version": "11.0.57",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40871,8 +40923,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.my_mm/resource.language.my_mm-11.0.56.zip",
-        "statspath": "/addons/omega/resource.language.my_mm/resource.language.my_mm-11.0.56.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.my_mm/resource.language.my_mm-11.0.57.zip",
+        "statspath": "/addons/omega/resource.language.my_mm/resource.language.my_mm-11.0.57.zip"
       }
     ],
     "categories": [
@@ -40893,8 +40945,9 @@
       }
     ],
     "size": "102KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.my_mm/icon.png",
     "snippet": "Burmese language pack"
   },
@@ -40903,7 +40956,7 @@
     "addonid": "resource.language.nb_no",
     "name": "Norwegian",
     "slug": "resource.language.nb_no",
-    "version": "11.0.67",
+    "version": "11.0.68",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40914,8 +40967,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.nb_no/resource.language.nb_no-11.0.67.zip",
-        "statspath": "/addons/omega/resource.language.nb_no/resource.language.nb_no-11.0.67.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.nb_no/resource.language.nb_no-11.0.68.zip",
+        "statspath": "/addons/omega/resource.language.nb_no/resource.language.nb_no-11.0.68.zip"
       }
     ],
     "categories": [
@@ -40936,8 +40989,9 @@
       }
     ],
     "size": "134KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.nb_no/icon.png",
     "snippet": "Norwegian language pack"
   },
@@ -40946,7 +41000,7 @@
     "addonid": "resource.language.nl_nl",
     "name": "Dutch",
     "slug": "resource.language.nl_nl",
-    "version": "11.0.77",
+    "version": "11.0.78",
     "authors": [
       {
         "name": "Team Kodi",
@@ -40957,8 +41011,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.nl_nl/resource.language.nl_nl-11.0.77.zip",
-        "statspath": "/addons/omega/resource.language.nl_nl/resource.language.nl_nl-11.0.77.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.nl_nl/resource.language.nl_nl-11.0.78.zip",
+        "statspath": "/addons/omega/resource.language.nl_nl/resource.language.nl_nl-11.0.78.zip"
       }
     ],
     "categories": [
@@ -40979,8 +41033,9 @@
       }
     ],
     "size": "145KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.nl_nl/icon.png",
     "snippet": "Dutch language pack"
   },
@@ -40989,7 +41044,7 @@
     "addonid": "resource.language.os_os",
     "name": "Ossetic",
     "slug": "resource.language.os_os",
-    "version": "3.0.50",
+    "version": "3.0.51",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41000,8 +41055,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.os_os/resource.language.os_os-3.0.50.zip",
-        "statspath": "/addons/omega/resource.language.os_os/resource.language.os_os-3.0.50.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.os_os/resource.language.os_os-3.0.51.zip",
+        "statspath": "/addons/omega/resource.language.os_os/resource.language.os_os-3.0.51.zip"
       }
     ],
     "categories": [
@@ -41022,8 +41077,9 @@
       }
     ],
     "size": "92KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.os_os/icon.png",
     "snippet": "Ossetic language pack"
   },
@@ -41032,7 +41088,7 @@
     "addonid": "resource.language.pl_pl",
     "name": "Polish",
     "slug": "resource.language.pl_pl",
-    "version": "11.0.73",
+    "version": "11.0.74",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41043,8 +41099,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.73.zip",
-        "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.73.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.74.zip",
+        "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.74.zip"
       }
     ],
     "categories": [
@@ -41065,8 +41121,9 @@
       }
     ],
     "size": "155KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pl_pl/icon.png",
     "snippet": "Polish language pack"
   },
@@ -41075,7 +41132,7 @@
     "addonid": "resource.language.pt_br",
     "name": "Portuguese (Brazil)",
     "slug": "resource.language.pt_br",
-    "version": "11.0.90",
+    "version": "11.0.91",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41086,8 +41143,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.90.zip",
-        "statspath": "/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.90.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.91.zip",
+        "statspath": "/addons/omega/resource.language.pt_br/resource.language.pt_br-11.0.91.zip"
       }
     ],
     "categories": [
@@ -41108,8 +41165,9 @@
       }
     ],
     "size": "149KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pt_br/icon.png",
     "snippet": "Portuguese (Brazil) language pack"
   },
@@ -41118,7 +41176,7 @@
     "addonid": "resource.language.pt_pt",
     "name": "Portuguese",
     "slug": "resource.language.pt_pt",
-    "version": "11.0.66",
+    "version": "11.0.67",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41129,8 +41187,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_pt/resource.language.pt_pt-11.0.66.zip",
-        "statspath": "/addons/omega/resource.language.pt_pt/resource.language.pt_pt-11.0.66.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pt_pt/resource.language.pt_pt-11.0.67.zip",
+        "statspath": "/addons/omega/resource.language.pt_pt/resource.language.pt_pt-11.0.67.zip"
       }
     ],
     "categories": [
@@ -41151,8 +41209,9 @@
       }
     ],
     "size": "136KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pt_pt/icon.png",
     "snippet": "Portuguese language pack"
   },
@@ -41161,7 +41220,7 @@
     "addonid": "resource.language.ro_ro",
     "name": "Romanian",
     "slug": "resource.language.ro_ro",
-    "version": "11.0.70",
+    "version": "11.0.71",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41172,8 +41231,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ro_ro/resource.language.ro_ro-11.0.70.zip",
-        "statspath": "/addons/omega/resource.language.ro_ro/resource.language.ro_ro-11.0.70.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ro_ro/resource.language.ro_ro-11.0.71.zip",
+        "statspath": "/addons/omega/resource.language.ro_ro/resource.language.ro_ro-11.0.71.zip"
       }
     ],
     "categories": [
@@ -41194,8 +41253,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ro_ro/icon.png",
     "snippet": "Romanian language pack"
   },
@@ -41204,7 +41264,7 @@
     "addonid": "resource.language.ru_ru",
     "name": "Russian",
     "slug": "resource.language.ru_ru",
-    "version": "11.0.87",
+    "version": "11.0.88",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41215,8 +41275,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.87.zip",
-        "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.87.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.88.zip",
+        "statspath": "/addons/omega/resource.language.ru_ru/resource.language.ru_ru-11.0.88.zip"
       }
     ],
     "categories": [
@@ -41237,8 +41297,9 @@
       }
     ],
     "size": "167KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ru_ru/icon.png",
     "snippet": "Russian language pack"
   },
@@ -41247,7 +41308,7 @@
     "addonid": "resource.language.si_lk",
     "name": "Sinhala",
     "slug": "resource.language.si_lk",
-    "version": "11.0.55",
+    "version": "11.0.56",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41258,8 +41319,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.si_lk/resource.language.si_lk-11.0.55.zip",
-        "statspath": "/addons/omega/resource.language.si_lk/resource.language.si_lk-11.0.55.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.si_lk/resource.language.si_lk-11.0.56.zip",
+        "statspath": "/addons/omega/resource.language.si_lk/resource.language.si_lk-11.0.56.zip"
       }
     ],
     "categories": [
@@ -41280,8 +41341,9 @@
       }
     ],
     "size": "104KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.si_lk/icon.png",
     "snippet": "Sinhala language pack"
   },
@@ -41290,7 +41352,7 @@
     "addonid": "resource.language.sk_sk",
     "name": "Slovak",
     "slug": "resource.language.sk_sk",
-    "version": "11.0.81",
+    "version": "11.0.82",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41301,8 +41363,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sk_sk/resource.language.sk_sk-11.0.81.zip",
-        "statspath": "/addons/omega/resource.language.sk_sk/resource.language.sk_sk-11.0.81.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sk_sk/resource.language.sk_sk-11.0.82.zip",
+        "statspath": "/addons/omega/resource.language.sk_sk/resource.language.sk_sk-11.0.82.zip"
       }
     ],
     "categories": [
@@ -41323,8 +41385,9 @@
       }
     ],
     "size": "152KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sk_sk/icon.png",
     "snippet": "Slovak language pack"
   },
@@ -41333,7 +41396,7 @@
     "addonid": "resource.language.sl_si",
     "name": "Slovenian",
     "slug": "resource.language.sl_si",
-    "version": "11.0.63",
+    "version": "11.0.64",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41344,8 +41407,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sl_si/resource.language.sl_si-11.0.63.zip",
-        "statspath": "/addons/omega/resource.language.sl_si/resource.language.sl_si-11.0.63.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sl_si/resource.language.sl_si-11.0.64.zip",
+        "statspath": "/addons/omega/resource.language.sl_si/resource.language.sl_si-11.0.64.zip"
       }
     ],
     "categories": [
@@ -41366,8 +41429,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sl_si/icon.png",
     "snippet": "Slovenian language pack"
   },
@@ -41376,7 +41440,7 @@
     "addonid": "resource.language.sq_al",
     "name": "Albanian",
     "slug": "resource.language.sq_al",
-    "version": "11.0.57",
+    "version": "11.0.58",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41387,8 +41451,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sq_al/resource.language.sq_al-11.0.57.zip",
-        "statspath": "/addons/omega/resource.language.sq_al/resource.language.sq_al-11.0.57.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sq_al/resource.language.sq_al-11.0.58.zip",
+        "statspath": "/addons/omega/resource.language.sq_al/resource.language.sq_al-11.0.58.zip"
       }
     ],
     "categories": [
@@ -41409,8 +41473,9 @@
       }
     ],
     "size": "106KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sq_al/icon.png",
     "snippet": "Albanian language pack"
   },
@@ -41419,7 +41484,7 @@
     "addonid": "resource.language.sr_rs",
     "name": "Serbian (Cyrillic)",
     "slug": "resource.language.sr_rs",
-    "version": "11.0.66",
+    "version": "11.0.67",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41430,8 +41495,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sr_rs/resource.language.sr_rs-11.0.66.zip",
-        "statspath": "/addons/omega/resource.language.sr_rs/resource.language.sr_rs-11.0.66.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sr_rs/resource.language.sr_rs-11.0.67.zip",
+        "statspath": "/addons/omega/resource.language.sr_rs/resource.language.sr_rs-11.0.67.zip"
       }
     ],
     "categories": [
@@ -41452,8 +41517,9 @@
       }
     ],
     "size": "155KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sr_rs/icon.png",
     "snippet": "Serbian (Cyrillic) language pack"
   },
@@ -41462,7 +41528,7 @@
     "addonid": "resource.language.sr_rs@latin",
     "name": "Serbian",
     "slug": "resource.language.sr_rs@latin",
-    "version": "11.0.58",
+    "version": "11.0.59",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41473,8 +41539,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sr_rs@latin/resource.language.sr_rs@latin-11.0.58.zip",
-        "statspath": "/addons/omega/resource.language.sr_rs@latin/resource.language.sr_rs@latin-11.0.58.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sr_rs@latin/resource.language.sr_rs@latin-11.0.59.zip",
+        "statspath": "/addons/omega/resource.language.sr_rs@latin/resource.language.sr_rs@latin-11.0.59.zip"
       }
     ],
     "categories": [
@@ -41495,8 +41561,9 @@
       }
     ],
     "size": "131KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sr_rs@latin/icon.png",
     "snippet": "Serbian language pack"
   },
@@ -41505,7 +41572,7 @@
     "addonid": "resource.language.sv_se",
     "name": "Swedish",
     "slug": "resource.language.sv_se",
-    "version": "11.0.85",
+    "version": "11.0.86",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41516,8 +41583,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.85.zip",
-        "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.85.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.86.zip",
+        "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.86.zip"
       }
     ],
     "categories": [
@@ -41538,8 +41605,9 @@
       }
     ],
     "size": "145KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
     "snippet": "Swedish language pack"
   },
@@ -41548,7 +41616,7 @@
     "addonid": "resource.language.szl",
     "name": "Silesian",
     "slug": "resource.language.szl",
-    "version": "11.0.59",
+    "version": "11.0.60",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41559,8 +41627,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.szl/resource.language.szl-11.0.59.zip",
-        "statspath": "/addons/omega/resource.language.szl/resource.language.szl-11.0.59.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.szl/resource.language.szl-11.0.60.zip",
+        "statspath": "/addons/omega/resource.language.szl/resource.language.szl-11.0.60.zip"
       }
     ],
     "categories": [
@@ -41581,8 +41649,9 @@
       }
     ],
     "size": "131KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.szl/icon.png",
     "snippet": "Silesian language pack"
   },
@@ -41591,7 +41660,7 @@
     "addonid": "resource.language.ta_in",
     "name": "Tamil (India)",
     "slug": "resource.language.ta_in",
-    "version": "11.0.59",
+    "version": "11.0.60",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41602,8 +41671,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ta_in/resource.language.ta_in-11.0.59.zip",
-        "statspath": "/addons/omega/resource.language.ta_in/resource.language.ta_in-11.0.59.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ta_in/resource.language.ta_in-11.0.60.zip",
+        "statspath": "/addons/omega/resource.language.ta_in/resource.language.ta_in-11.0.60.zip"
       }
     ],
     "categories": [
@@ -41624,8 +41693,9 @@
       }
     ],
     "size": "114KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.ta_in/icon.png",
     "snippet": "Tamil (India) language pack"
   },
@@ -41634,7 +41704,7 @@
     "addonid": "resource.language.te_in",
     "name": "Telugu",
     "slug": "resource.language.te_in",
-    "version": "11.0.50",
+    "version": "11.0.51",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41645,8 +41715,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.te_in/resource.language.te_in-11.0.50.zip",
-        "statspath": "/addons/omega/resource.language.te_in/resource.language.te_in-11.0.50.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.te_in/resource.language.te_in-11.0.51.zip",
+        "statspath": "/addons/omega/resource.language.te_in/resource.language.te_in-11.0.51.zip"
       }
     ],
     "categories": [
@@ -41667,8 +41737,9 @@
       }
     ],
     "size": "96KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.te_in/icon.png",
     "snippet": "Telugu language pack"
   },
@@ -41677,7 +41748,7 @@
     "addonid": "resource.language.tg_tj",
     "name": "Tajik",
     "slug": "resource.language.tg_tj",
-    "version": "11.0.56",
+    "version": "11.0.57",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41688,8 +41759,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.tg_tj/resource.language.tg_tj-11.0.56.zip",
-        "statspath": "/addons/omega/resource.language.tg_tj/resource.language.tg_tj-11.0.56.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.tg_tj/resource.language.tg_tj-11.0.57.zip",
+        "statspath": "/addons/omega/resource.language.tg_tj/resource.language.tg_tj-11.0.57.zip"
       }
     ],
     "categories": [
@@ -41710,8 +41781,9 @@
       }
     ],
     "size": "115KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.tg_tj/icon.png",
     "snippet": "Tajik language pack"
   },
@@ -41720,7 +41792,7 @@
     "addonid": "resource.language.th_th",
     "name": "Thai",
     "slug": "resource.language.th_th",
-    "version": "11.0.60",
+    "version": "11.0.61",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41731,8 +41803,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.th_th/resource.language.th_th-11.0.60.zip",
-        "statspath": "/addons/omega/resource.language.th_th/resource.language.th_th-11.0.60.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.th_th/resource.language.th_th-11.0.61.zip",
+        "statspath": "/addons/omega/resource.language.th_th/resource.language.th_th-11.0.61.zip"
       }
     ],
     "categories": [
@@ -41753,8 +41825,9 @@
       }
     ],
     "size": "141KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.th_th/icon.png",
     "snippet": "Thai language pack"
   },
@@ -41763,7 +41836,7 @@
     "addonid": "resource.language.tr_tr",
     "name": "Turkish",
     "slug": "resource.language.tr_tr",
-    "version": "11.0.82",
+    "version": "11.0.83",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41774,8 +41847,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.tr_tr/resource.language.tr_tr-11.0.82.zip",
-        "statspath": "/addons/omega/resource.language.tr_tr/resource.language.tr_tr-11.0.82.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.tr_tr/resource.language.tr_tr-11.0.83.zip",
+        "statspath": "/addons/omega/resource.language.tr_tr/resource.language.tr_tr-11.0.83.zip"
       }
     ],
     "categories": [
@@ -41796,8 +41869,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.tr_tr/icon.png",
     "snippet": "Turkish language pack"
   },
@@ -41806,7 +41880,7 @@
     "addonid": "resource.language.uk_ua",
     "name": "Ukrainian",
     "slug": "resource.language.uk_ua",
-    "version": "11.0.68",
+    "version": "11.0.69",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41817,8 +41891,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.68.zip",
-        "statspath": "/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.68.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.69.zip",
+        "statspath": "/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.69.zip"
       }
     ],
     "categories": [
@@ -41839,8 +41913,9 @@
       }
     ],
     "size": "145KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.uk_ua/icon.png",
     "snippet": "Ukrainian language pack"
   },
@@ -41849,7 +41924,7 @@
     "addonid": "resource.language.uz_uz",
     "name": "Uzbek",
     "slug": "resource.language.uz_uz",
-    "version": "11.0.54",
+    "version": "11.0.55",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41860,8 +41935,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uz_uz/resource.language.uz_uz-11.0.54.zip",
-        "statspath": "/addons/omega/resource.language.uz_uz/resource.language.uz_uz-11.0.54.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uz_uz/resource.language.uz_uz-11.0.55.zip",
+        "statspath": "/addons/omega/resource.language.uz_uz/resource.language.uz_uz-11.0.55.zip"
       }
     ],
     "categories": [
@@ -41882,8 +41957,9 @@
       }
     ],
     "size": "97KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.uz_uz/icon.png",
     "snippet": "Uzbek language pack"
   },
@@ -41892,7 +41968,7 @@
     "addonid": "resource.language.vi_vn",
     "name": "Vietnamese",
     "slug": "resource.language.vi_vn",
-    "version": "11.0.65",
+    "version": "11.0.66",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41903,8 +41979,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.vi_vn/resource.language.vi_vn-11.0.65.zip",
-        "statspath": "/addons/omega/resource.language.vi_vn/resource.language.vi_vn-11.0.65.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.vi_vn/resource.language.vi_vn-11.0.66.zip",
+        "statspath": "/addons/omega/resource.language.vi_vn/resource.language.vi_vn-11.0.66.zip"
       }
     ],
     "categories": [
@@ -41925,8 +42001,9 @@
       }
     ],
     "size": "131KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.vi_vn/icon.png",
     "snippet": "Vietnamese language pack"
   },
@@ -41935,7 +42012,7 @@
     "addonid": "resource.language.zh_cn",
     "name": "Chinese (Simple)",
     "slug": "resource.language.zh_cn",
-    "version": "11.0.85",
+    "version": "11.0.86",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41946,8 +42023,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.85.zip",
-        "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.85.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.86.zip",
+        "statspath": "/addons/omega/resource.language.zh_cn/resource.language.zh_cn-11.0.86.zip"
       }
     ],
     "categories": [
@@ -41968,8 +42045,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-06-01T02:47:06.195Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.zh_cn/icon.png",
     "snippet": "Chinese (Simple) language pack"
   },
@@ -41978,7 +42056,7 @@
     "addonid": "resource.language.zh_tw",
     "name": "Chinese (Traditional)",
     "slug": "resource.language.zh_tw",
-    "version": "11.0.84",
+    "version": "11.0.85",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41989,8 +42067,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_tw/resource.language.zh_tw-11.0.84.zip",
-        "statspath": "/addons/omega/resource.language.zh_tw/resource.language.zh_tw-11.0.84.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.zh_tw/resource.language.zh_tw-11.0.85.zip",
+        "statspath": "/addons/omega/resource.language.zh_tw/resource.language.zh_tw-11.0.85.zip"
       }
     ],
     "categories": [
@@ -42011,8 +42089,9 @@
       }
     ],
     "size": "151KB",
-    "lastupdate": "2025-05-11T02:35:08.759Z",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.zh_tw/icon.png",
     "snippet": "Chinese (Traditional) language pack"
   },
@@ -50438,7 +50517,7 @@
     "addonid": "script.module.jurialmunkey",
     "name": "jurialmunkey common",
     "slug": "script.module.jurialmunkey",
-    "version": "0.2.2",
+    "version": "0.2.28",
     "authors": [
       {
         "name": "jurialmunkey",
@@ -50449,8 +50528,8 @@
     "platforms": [
       {
         "platform": "",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.jurialmunkey/script.module.jurialmunkey-0.2.2.zip",
-        "statspath": "/addons/omega/script.module.jurialmunkey/script.module.jurialmunkey-0.2.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.jurialmunkey/script.module.jurialmunkey-0.2.28.zip",
+        "statspath": "/addons/omega/script.module.jurialmunkey/script.module.jurialmunkey-0.2.28.zip"
       }
     ],
     "categories": [
@@ -50471,12 +50550,12 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "43KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 11222343,
+    "size": "52KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.jurialmunkey/icon.png",
-    "snippet": "Common code required by TMDbHelper and other related jurialmunkey add-ons",
-    "prevyeardl": 11222343
+    "snippet": "Common code required by TMDbHelper and other related jurialmunkey add-ons"
   },
   {
     "id": "script.module.kodi-six",
@@ -52637,7 +52716,7 @@
     "addonid": "script.module.simple-requests",
     "name": "simple-requests",
     "slug": "script.module.simple-requests",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "authors": [
       {
         "name": "Roman V.M.",
@@ -52648,8 +52727,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.simple-requests/script.module.simple-requests-1.0.0.zip",
-        "statspath": "/addons/omega/script.module.simple-requests/script.module.simple-requests-1.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.simple-requests/script.module.simple-requests-2.0.0.zip",
+        "statspath": "/addons/omega/script.module.simple-requests/script.module.simple-requests-2.0.0.zip"
       }
     ],
     "categories": [
@@ -52660,24 +52739,24 @@
       }
     ],
     "firstseen": "2025-02-08T17:02:18.451Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "simple-requests Python library",
     "description": "simple-requests is a simple library for making HTTP requests with API similar to the popular \"requests\" library",
     "license": "MIT",
     "source": "https://github.com/romanvm/kodi.simple-requests",
-    "news": "1.0.0:\n- Initial public release",
+    "news": "2.0.0:\n- Added support for PUT, PATCH, DELETE methods",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.module.simple-requests/icon.png",
         "remotepath": "icon.png"
       }
     ],
-    "size": "42KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 2156543,
+    "size": "43KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.simple-requests/icon.png",
-    "snippet": "simple-requests Python library",
-    "prevyeardl": 2156543
+    "snippet": "simple-requests Python library"
   },
   {
     "id": "script.module.simplecache",
@@ -54134,7 +54213,7 @@
     "addonid": "script.module.youtube.dl",
     "name": "youtube-dl Control",
     "slug": "script.module.youtube.dl",
-    "version": "23.04.01+matrix.1",
+    "version": "25.05.18+matrix.1",
     "authors": [
       {
         "name": "ytdl-org",
@@ -54160,8 +54239,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.youtube.dl/script.module.youtube.dl-23.04.01+matrix.1.zip",
-        "statspath": "/addons/omega/script.module.youtube.dl/script.module.youtube.dl-23.04.01+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.youtube.dl/script.module.youtube.dl-25.05.18+matrix.1.zip",
+        "statspath": "/addons/omega/script.module.youtube.dl/script.module.youtube.dl-25.05.18+matrix.1.zip"
       }
     ],
     "categories": [
@@ -54177,7 +54256,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Module providing access to youtube-dl video stream extraction",
     "description": "Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.",
     "license": "LGPL-2.1-only",
@@ -54189,12 +54268,12 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "1962KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 4460115,
+    "size": "2021KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.youtube.dl/icon.png",
-    "snippet": "Module providing access to youtube-dl video stream extraction",
-    "prevyeardl": 4460115
+    "snippet": "Module providing access to youtube-dl video stream extraction"
   },
   {
     "id": "script.motr",
@@ -55721,7 +55800,7 @@
     "addonid": "script.skinvariables",
     "name": "Skin Variables",
     "slug": "script.skinvariables",
-    "version": "2.1.14",
+    "version": "2.1.33",
     "authors": [
       {
         "name": "jurialmunkey",
@@ -55732,8 +55811,8 @@
     "platforms": [
       {
         "platform": "",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.skinvariables/script.skinvariables-2.1.14.zip",
-        "statspath": "/addons/omega/script.skinvariables/script.skinvariables-2.1.14.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.skinvariables/script.skinvariables-2.1.33.zip",
+        "statspath": "/addons/omega/script.skinvariables/script.skinvariables-2.1.33.zip"
       }
     ],
     "categories": [
@@ -55771,12 +55850,12 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "size": "209KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 1735242,
+    "size": "210KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.skinvariables/icon.png",
-    "snippet": "Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using...",
-    "prevyeardl": 1735242
+    "snippet": "Skin Variables helps skinners to construct variables and expressions for multiple containers and listitems using..."
   },
   {
     "id": "script.skipit",
@@ -57491,7 +57570,7 @@
     "addonid": "service.languagepreferencemanager",
     "name": "Language Preference Manager",
     "slug": "service.languagepreferencemanager",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "authors": [
       {
         "name": "ace20022/scott967/rockrider69",
@@ -57501,9 +57580,9 @@
     ],
     "platforms": [
       {
-        "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.5.zip",
-        "statspath": "/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.5.zip"
+        "platform": "",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.6.zip",
+        "statspath": "/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.6.zip"
       }
     ],
     "categories": [
@@ -57523,7 +57602,7 @@
     "summary": "Language Preference Manager",
     "description": "Sets the audio and subtitle track according to your language preferences",
     "disclaimer": "For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.",
-    "news": "1.0.0     : Mandatory clean-up to propose as candidate version for Kodi.tv addons repository.\n1.0.1     : Initial version for main Kodi.tv addons repository\n1.0.2     : Fix 10sec latency on subs display and possible few lines lost - at video start or when switching audio.\n            Forced sub tracks : check also subtitle field \"isforced\" in case field \"name\" is empty or misspelled.\n1.0.3\t  : Improve 10sec subs latency workaround: new option to disable it (default), or enable it at 'start only' or 'start+resume'.\n            Option to prioritize 'SignsSongs' tracks via custom conditional sub preferences. Syntax is ...&gt;Eng:Eng-ss&gt;...\n            New Keywords Blacklist for Audio tracks. Same principle as for Subtitles, based on track name, to skip some (ex. Commentary, ...)\n            Fix Greek and Serbian language codes according to iso639-2/T. Fix some typos.\n            Fix multiple 3 digit codes per language (ex. German ger,deu). Now OK also for Conditional Subtitles preferences.\n1.0.4     : Fix and simplify SignsSongs subtagging (was colliding with language codes subtagging ie. pt-br). Thanks to BrutuZ!\n1.0.5     : Add Norwegian Bokmal (nb,nob), New Nowegian (nn,nno) and English Middle (enm) language codes according to ISO639-2.\n            Clean-up some info/log message.\n\t\t\t\n\t\t",
+    "news": "1.0.6     : - New option to store persistent media preferences on a per TVshow/Movie basis, based on user selection.\n\tThese override calculated preferences - See README for more (Thanks to SgtJalau!)\n- Consider empty subtitle language code as und/Undefined so it can still be prioritized in rules, not just ignored\n- Adding Swedish translastion (Thanks to Yeager)\n\t\t\t\n\t\t",
     "icons": [
       {
         "localpath": "/images/addons/omega/service.languagepreferencemanager/resources/icon.png",
@@ -57536,12 +57615,12 @@
         "remotepath": "resources/fanart.jpg"
       }
     ],
-    "size": "345KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 224575,
+    "size": "360KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.languagepreferencemanager/resources/icon.png",
-    "snippet": "Language Preference Manager",
-    "prevyeardl": 224575
+    "snippet": "Language Preference Manager"
   },
   {
     "id": "service.library.data.provider",
@@ -58798,6 +58877,86 @@
     "icon": "/images/addons/omega/service.subtitles.supersubtitles/icon.png",
     "snippet": "Super Subtitles",
     "prevyeardl": 394686
+  },
+  {
+    "id": "service.subtitles.titlovi",
+    "addonid": "service.subtitles.titlovi",
+    "name": "Titlovi.com",
+    "slug": "service.subtitles.titlovi",
+    "version": "2.0.1",
+    "authors": [
+      {
+        "name": "dEXE",
+        "slug": "dexe",
+        "icon": "/images/authors/dexe.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.titlovi/service.subtitles.titlovi-2.0.1.zip",
+        "statspath": "/addons/omega/service.subtitles.titlovi/service.subtitles.titlovi-2.0.1.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Subtitles",
+        "slug": "subtitles",
+        "icon": "/images/categories/subtitles.webp"
+      }
+    ],
+    "firstseen": "2025-06-15T02:41:54.707Z",
+    "agetype": "new",
+    "summary": "Titlovi.com Official Subtitles Addon",
+    "description": "\nSearch and download subtitles for Movies, Documentaries and TV Series from Titlovi.com.\n\nSupported languages: English, Serbian, Croatian, Bosnian, Macedonian and Slovenian.",
+    "disclaimer": "Uporabniki morajo vnesti uporabniško ime in geslo za [B]Titlovi.com[/B] v nastavitvah dodatka ter zagotoviti,[CR]da je dostop do API-ja omogočen za njihov račun na strežniku.",
+    "language": "en sr hr bs mk sl",
+    "license": "GPL-2.0-only",
+    "forum": "https://kodi.titlovi.com",
+    "website": "https://titlovi.com",
+    "email": "info [at] titlovi {dot} com",
+    "source": "https://github.com/deklica/service.subtitles.titlovi",
+    "news": "All changes on GitHub: github.com/deklica/service.subtitles.titlovi",
+    "icons": [
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/icon.png",
+        "remotepath": "icon.png"
+      }
+    ],
+    "fanarts": [
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/fanart.jpg",
+        "remotepath": "fanart.jpg"
+      }
+    ],
+    "screenshots": [
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/resources/media/screenshot-1.jpg",
+        "remotepath": "resources/media/screenshot-1.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/resources/media/screenshot-2.jpg",
+        "remotepath": "resources/media/screenshot-2.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/resources/media/screenshot-3.jpg",
+        "remotepath": "resources/media/screenshot-3.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/resources/media/screenshot-4.jpg",
+        "remotepath": "resources/media/screenshot-4.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/service.subtitles.titlovi/resources/media/screenshot-5.jpg",
+        "remotepath": "resources/media/screenshot-5.jpg"
+      }
+    ],
+    "size": "663KB",
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/service.subtitles.titlovi/icon.png",
+    "snippet": "Titlovi.com Official Subtitles Addon"
   },
   {
     "id": "service.subtitles.titlovi-com-official",
@@ -62110,7 +62269,7 @@
     "addonid": "weather.ozweather",
     "name": "Oz Weather",
     "slug": "weather.ozweather",
-    "version": "2.1.3",
+    "version": "2.1.5",
     "authors": [
       {
         "name": "Bossanova808",
@@ -62121,8 +62280,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ozweather/weather.ozweather-2.1.3.zip",
-        "statspath": "/addons/omega/weather.ozweather/weather.ozweather-2.1.3.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ozweather/weather.ozweather-2.1.5.zip",
+        "statspath": "/addons/omega/weather.ozweather/weather.ozweather-2.1.5.zip"
       }
     ],
     "categories": [
@@ -62155,13 +62314,13 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "news": "v2.1.3\n- Bugfix for 2.1.2, fix missed import\nv2.1.2\n- Remove old common code, instead use new script.module.bossanova808\n- Fix for occasional error with missing national radar background\n    \t",
+    "news": "v2.1.5 Minor fixes\n- Fix feels like calculation when data not returned by BOM, and Current.Wind\n    \t",
     "size": "329KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 201086,
+    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/weather.ozweather/icon.png",
-    "snippet": "Weather forecasting and radar images for Australia using Bureau of Meteorology data",
-    "prevyeardl": 201086
+    "snippet": "Weather forecasting and radar images for Australia using Bureau of Meteorology data"
   },
   {
     "id": "webinterface.arch",
