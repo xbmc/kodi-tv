@@ -17017,7 +17017,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2025.4.14+matrix.1",
+        "version": "2025.6.19+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -17033,8 +17033,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip"
           }
         ],
         "categories": [
@@ -17059,7 +17059,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- Fix play favorite team on launch (thanks thromer and tonywagner)\n        ",
+        "news": "- updated Big Inning schedule\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -17078,8 +17078,9 @@
           }
         ],
         "size": "340KB",
-        "lastupdate": "2025-04-30T02:33:08.217Z",
+        "lastupdate": "2025-06-21T02:34:44.651Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
@@ -19130,7 +19131,6 @@
         "size": "908KB",
         "lastupdate": "2025-06-20T02:35:36.823Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       }
@@ -55212,7 +55212,6 @@
         "size": "11124KB",
         "lastupdate": "2025-06-20T02:35:36.823Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/inputstream.ffmpegdirect/icon.png",
         "snippet": "InputStream Client for FFmpeg streams (libavformat)"
       },
@@ -83471,7 +83470,7 @@
         "addonid": "plugin.video.mlbtv",
         "name": "MLB.TV®",
         "slug": "plugin.video.mlbtv",
-        "version": "2025.4.14+matrix.1",
+        "version": "2025.6.19+matrix.1",
         "authors": [
           {
             "name": "eracknaphobia",
@@ -83487,8 +83486,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.4.14+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip"
           }
         ],
         "categories": [
@@ -83513,7 +83512,7 @@
         "summary": "Watch live and archived games\n        ",
         "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
         "disclaimer": "Requires an MLB.tv account",
-        "news": "- Fix play favorite team on launch (thanks thromer and tonywagner)\n        ",
+        "news": "- updated Big Inning schedule\n        ",
         "language": "en",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -83532,8 +83531,9 @@
           }
         ],
         "size": "340KB",
-        "lastupdate": "2025-04-30T02:33:08.217Z",
+        "lastupdate": "2025-06-21T02:34:44.651Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
         "snippet": "Watch live and archived games\n        "
       },
