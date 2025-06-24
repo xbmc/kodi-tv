@@ -69918,7 +69918,7 @@
         "addonid": "script.xbmc.lcdproc",
         "name": "XBMC LCDproc",
         "slug": "script.xbmc.lcdproc",
-        "version": "4.1.0",
+        "version": "4.1.1",
         "authors": [
           {
             "name": "Team Kodi: Memphiz",
@@ -69934,8 +69934,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.xbmc.lcdproc/script.xbmc.lcdproc-4.1.0.zip",
-            "statspath": "/addons/omega/script.xbmc.lcdproc/script.xbmc.lcdproc-4.1.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.xbmc.lcdproc/script.xbmc.lcdproc-4.1.1.zip",
+            "statspath": "/addons/omega/script.xbmc.lcdproc/script.xbmc.lcdproc-4.1.1.zip"
           }
         ],
         "categories": [
@@ -69949,7 +69949,7 @@
         "agetype": "existing",
         "summary": "Kodi/XBMC LCDproc",
         "description": "Displays configurable information e.g. about playing media or Kodi status on any LC/VF-display driven by LCDproc, and acts as direct drop-in replacement to the LCD/VFD-feature previously available in Kodi/XBMC's core. Supports additional display elements (icons, bars) on SoundGraph iMON LCD and Targa/Futaba mdm166a VFD hardware. Requires a properly configured and running LCDd either locally or somewhere on the network.",
-        "disclaimer": "Działa wyłącznie z LCDproc. Inne usługi LCD jak LCD4Linux lub iMON Manager dla Win32 nie są obsługiwane. Nie ponosimy żadnej odpowiedzialności za uszkodzony sprzęt i/lub oprogramowanie spowodowane tym dodatkiem.",
+        "disclaimer": "Fungerar endast med LCDproc. Andra LCD-tjänster som LCD4Linux eller iMON Manager på Win32 stöds inte. Vi tar inget ansvar för skador på hårdvara och/eller programvara som orsakas av detta tillägg.",
         "license": "GNU GENERAL PUBLIC LICENSE. Version 2, June 1991",
         "website": "https://github.com/lcdproc/lcdproc",
         "forum": "https://forum.kodi.tv/showthread.php?tid=143912",
@@ -69961,13 +69961,13 @@
             "remotepath": "resources/icon.png"
           }
         ],
-        "news": "4.1.0\n- Python 3.13 compat: Use raw strings for regex'es everywhere, fixes SyntaxError's (thanks alanswanson!)\n- Python 3.13 compat: Replace long deprecated telnetlib usage with raw sockets (thanks m-wichmann!)\n- Minor housekeepings\n",
-        "size": "126KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 121723,
+        "news": "4.1.1\n- Swedish translation (thanks yeager!)\n",
+        "size": "128KB",
+        "lastupdate": "2025-06-24T02:36:50.269Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.xbmc.lcdproc/resources/icon.png",
-        "snippet": "Kodi/XBMC LCDproc",
-        "prevyeardl": 121723
+        "snippet": "Kodi/XBMC LCDproc"
       },
       {
         "id": "plugin.video.yelo",
