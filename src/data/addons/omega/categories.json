@@ -7872,7 +7872,6 @@
         "size": "15233KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.fbneo/resources/icon.png",
         "snippet": "Arcade (FinalBurn Neo)"
       },
@@ -8134,7 +8133,6 @@
         "size": "9528KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mame2003/resources/icon.png",
         "snippet": "Arcade (MAME 2003)"
       },
@@ -8215,7 +8213,6 @@
         "size": "11899KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mame2003_plus/resources/icon.png",
         "snippet": "Arcade (MAME 2003-Plus)"
       },
@@ -8851,6 +8848,16 @@
         ],
         "platforms": [
           {
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+windows-x86_64/game.libretro.beetle-lynx-1.24.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-lynx+windows-x86_64/game.libretro.beetle-lynx-1.24.0.57.zip"
+          },
+          {
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+windows-i686/game.libretro.beetle-lynx-1.24.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-lynx+windows-i686/game.libretro.beetle-lynx-1.24.0.57.zip"
+          },
+          {
             "platform": "osx-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+osx-x86_64/game.libretro.beetle-lynx-1.24.0.57.zip",
             "statspath": "/addons/omega/game.libretro.beetle-lynx+osx-x86_64/game.libretro.beetle-lynx-1.24.0.57.zip"
@@ -8869,16 +8876,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+osx-arm64/game.libretro.beetle-lynx-1.24.0.57.zip",
             "statspath": "/addons/omega/game.libretro.beetle-lynx+osx-arm64/game.libretro.beetle-lynx-1.24.0.57.zip"
-          },
-          {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+windows-i686/game.libretro.beetle-lynx-1.24.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-lynx+windows-i686/game.libretro.beetle-lynx-1.24.0.56.zip"
-          },
-          {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-lynx+windows-x86_64/game.libretro.beetle-lynx-1.24.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-lynx+windows-x86_64/game.libretro.beetle-lynx-1.24.0.56.zip"
           }
         ],
         "categories": [
@@ -8914,10 +8911,9 @@
         ],
         "summary": "Atari - Lynx (Beetle Lynx)",
         "description": "Beetle Lynx is the Atari Lynx module of Beetle, a fork of Mednafen. The Mednafen module is a fork of Handy.",
-        "size": "926KB",
+        "size": "644KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-lynx/resources/icon.png",
         "snippet": "Atari - Lynx (Beetle Lynx)"
       },
@@ -9002,7 +8998,6 @@
         "size": "745KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.handy/resources/icon.png",
         "snippet": "Atari - Lynx (Handy)"
       },
@@ -9630,7 +9625,6 @@
         "size": "6343KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.uae/resources/icon.png",
         "snippet": "Commodore - Amiga (PUAE)"
       },
@@ -9701,7 +9695,6 @@
         "size": "1504KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x128/resources/icon.png",
         "snippet": "Commodore - C128 (VICE x128)"
       },
@@ -9843,7 +9836,6 @@
         "size": "1405KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64/resources/icon.png",
         "snippet": "Commodore - C64 (VICE x64, fast)"
       },
@@ -9987,7 +9979,6 @@
         "size": "1359KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64sc/resources/icon.png",
         "snippet": "Commodore - C64 (VICE x64sc, accurate)"
       },
@@ -10058,7 +10049,6 @@
         "size": "1360KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xscpu64/resources/icon.png",
         "snippet": "Commodore - C64 SuperCPU (VICE xscpu64)"
       },
@@ -10129,7 +10119,6 @@
         "size": "1173KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64dtv/resources/icon.png",
         "snippet": "Commodore - C64DTV (VICE x64dtv)"
       },
@@ -10200,7 +10189,6 @@
         "size": "1350KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xcbm5x0/resources/icon.png",
         "snippet": "Commodore - CBM-II 5x0 (VICE xcbm5x0)"
       },
@@ -10271,7 +10259,6 @@
         "size": "1160KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xcbm2/resources/icon.png",
         "snippet": "Commodore - CBM-II 6x0/7x0 (VICE xcbm2)"
       },
@@ -10342,7 +10329,6 @@
         "size": "1338KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xpet/resources/icon.png",
         "snippet": "Commodore - PET (VICE xpet)"
       },
@@ -10413,7 +10399,6 @@
         "size": "1252KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xplus4/resources/icon.png",
         "snippet": "Commodore - PLUS/4 (VICE xplus4)"
       },
@@ -10484,7 +10469,6 @@
         "size": "1205KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xvic/resources/icon.png",
         "snippet": "Commodore - VIC-20 (VICE xvic)"
       },
@@ -11709,7 +11693,6 @@
         "size": "506KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.lutro/resources/icon.png",
         "snippet": "Lua Engine (Lutro)"
       },
@@ -12327,6 +12310,16 @@
         ],
         "platforms": [
           {
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.55.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.55.zip"
+          },
+          {
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.55.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.55.zip"
+          },
+          {
             "platform": "android-armv7",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.55.zip",
             "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.55.zip"
@@ -12345,16 +12338,6 @@
             "platform": "android-aarch64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.55.zip",
             "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.55.zip"
-          },
-          {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.54.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.54.zip"
-          },
-          {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.54.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.54.zip"
           }
         ],
         "categories": [
@@ -12390,10 +12373,9 @@
         ],
         "summary": "NEC - PC Engine / CD (Beetle PCE FAST)",
         "description": "Beetle PC Engine Fast is a fork of Mednafen's PC Engine Fast driver.\n\nCompared to Beetle PC Engine, the fast version trades away typically unnecessary accuracy in favor of speed.",
-        "size": "1627KB",
+        "size": "1409KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-pce-fast/resources/icon.png",
         "snippet": "NEC - PC Engine / CD (Beetle PCE FAST)"
       },
@@ -12411,6 +12393,16 @@
           }
         ],
         "platforms": [
+          {
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+windows-x86_64/game.libretro.beetle-pce-1.29.0.33.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce+windows-x86_64/game.libretro.beetle-pce-1.29.0.33.zip"
+          },
+          {
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+windows-i686/game.libretro.beetle-pce-1.29.0.33.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce+windows-i686/game.libretro.beetle-pce-1.29.0.33.zip"
+          },
           {
             "platform": "osx-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+osx-x86_64/game.libretro.beetle-pce-1.29.0.33.zip",
@@ -12430,16 +12422,6 @@
             "platform": "android-armv7",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+android-armv7/game.libretro.beetle-pce-1.29.0.33.zip",
             "statspath": "/addons/omega/game.libretro.beetle-pce+android-armv7/game.libretro.beetle-pce-1.29.0.33.zip"
-          },
-          {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+windows-x86_64/game.libretro.beetle-pce-1.29.0.32.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce+windows-x86_64/game.libretro.beetle-pce-1.29.0.32.zip"
-          },
-          {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce+windows-i686/game.libretro.beetle-pce-1.29.0.32.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce+windows-i686/game.libretro.beetle-pce-1.29.0.32.zip"
           }
         ],
         "categories": [
@@ -12475,10 +12457,9 @@
         ],
         "summary": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)",
         "description": "Beetle PC Engine is a fork of Mednafen's PC Engine driver.\n\nThis PC Engine module is more accurate than the Beetle PC Engine Fast module, at the expense of speed.",
-        "size": "1690KB",
+        "size": "1300KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-pce/resources/icon.png",
         "snippet": "NEC - PC Engine / SuperGrafx / CD (Beetle PCE)"
       },
@@ -13084,7 +13065,6 @@
         "size": "1185KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.gambatte/resources/icon.png",
         "snippet": "Nintendo - Game Boy / Color (Gambatte)"
       },
@@ -13339,7 +13319,6 @@
         "size": "807KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.tgbdual/resources/icon.png",
         "snippet": "Nintendo - Game Boy / Color (TGB Dual)"
       },
@@ -13674,7 +13653,6 @@
         "size": "1253KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mgba/resources/icon.png",
         "snippet": "Nintendo - Game Boy Advance (mGBA)"
       },
@@ -13859,7 +13837,6 @@
         "size": "1170KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vbam/resources/icon.png",
         "snippet": "Nintendo - Game Boy Advance (VBA-M)"
       },
@@ -14672,7 +14649,6 @@
         "size": "424KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.pokemini/resources/icon.png",
         "snippet": "Nintendo - Pokemon Mini (PokeMini)"
       },
@@ -15182,7 +15158,6 @@
         "size": "1768KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.bsnes/resources/icon.png",
         "snippet": "Nintendo - SNES / SFC (bsnes)"
       },
@@ -16121,7 +16096,6 @@
         "size": "483KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mu/resources/icon.png",
         "snippet": "Palm OS (Mu)"
       },
@@ -16421,7 +16395,6 @@
         "size": "751KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.tyrquake/resources/icon.png",
         "snippet": "Quake (TyrQuake)"
       },
@@ -16589,7 +16562,6 @@
         "size": "104136KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.scummvm/resources/icon.png",
         "snippet": "ScummVM"
       },
@@ -17061,7 +17033,6 @@
         "size": "2180KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.genplus/resources/icon.png",
         "snippet": "Sega - MS/GG/MD/CD (Genesis Plus GX)"
       },
@@ -17157,7 +17128,6 @@
         "size": "1543KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.picodrive/resources/icon.png",
         "snippet": "Sega - MS/GG/MD/CD/32X (PicoDrive)"
       },
@@ -17302,7 +17272,6 @@
         "size": "1239KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-saturn/resources/icon.png",
         "snippet": "Sega - Saturn (Beetle Saturn)"
       },
@@ -18056,7 +18025,6 @@
         "size": "1183KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-psx/resources/icon.png",
         "snippet": "Sony - PlayStation (Beetle PSX)"
       },
@@ -18137,7 +18105,6 @@
         "size": "697KB",
         "lastupdate": "2025-07-01T02:45:34.908Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.pcsx-rearmed/resources/icon.png",
         "snippet": "Sony - PlayStation (PCSX ReARMed)"
       },
@@ -51347,7 +51314,7 @@
         "addonid": "pvr.iptvsimple",
         "name": "IPTV Simple Client",
         "slug": "pvr.iptvsimple",
-        "version": "21.10.2",
+        "version": "21.11.0",
         "authors": [
           {
             "name": "nightik and Ross Nicholson",
@@ -51358,33 +51325,33 @@
         "platforms": [
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+windows-i686/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+windows-i686/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+windows-i686/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+windows-i686/pvr.iptvsimple-21.11.0.zip"
           },
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+windows-x86_64/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+windows-x86_64/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+windows-x86_64/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+windows-x86_64/pvr.iptvsimple-21.11.0.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+osx-arm64/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+osx-arm64/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+osx-arm64/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+osx-arm64/pvr.iptvsimple-21.11.0.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+osx-x86_64/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+osx-x86_64/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+osx-x86_64/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+osx-x86_64/pvr.iptvsimple-21.11.0.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+android-aarch64/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+android-aarch64/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+android-aarch64/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+android-aarch64/pvr.iptvsimple-21.11.0.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+android-armv7/pvr.iptvsimple-21.10.2.zip",
-            "statspath": "/addons/omega/pvr.iptvsimple+android-armv7/pvr.iptvsimple-21.10.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.iptvsimple+android-armv7/pvr.iptvsimple-21.11.0.zip",
+            "statspath": "/addons/omega/pvr.iptvsimple+android-armv7/pvr.iptvsimple-21.11.0.zip"
           }
         ],
         "categories": [
@@ -51408,12 +51375,12 @@
         "summary": "Kodi PVR addon for IPTV support.",
         "description": "IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.\n    \nFor documentation visit: https://github.com/kodi-pvr/pvr.iptvsimple/blob/Matrix/README.md\n    ",
         "disclaimer": "這是測試中的軟體！原創作者無法針對以下情況負責：包括播放失敗，不正確的電子節目表，多餘的時數，或任何不可預期的不良影響。",
-        "size": "1191KB",
-        "lastupdate": "2025-02-10T02:26:56.303Z",
-        "downloads": 744796,
+        "size": "1202KB",
+        "lastupdate": "2025-07-02T02:36:52.538Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.iptvsimple/icon.png",
-        "snippet": "Kodi PVR addon for IPTV support.",
-        "prevyeardl": 744796
+        "snippet": "Kodi PVR addon for IPTV support."
       },
       {
         "id": "pvr.mediaportal.tvserver",
