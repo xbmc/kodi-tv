@@ -19741,7 +19741,7 @@
     "addonid": "plugin.audio.ampache",
     "name": "Ampache",
     "slug": "plugin.audio.ampache",
-    "version": "3.1.0+matrix.1",
+    "version": "3.2.0+matrix.1",
     "authors": [
       {
         "name": "lusum",
@@ -19752,8 +19752,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.ampache/plugin.audio.ampache-3.1.0+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.audio.ampache/plugin.audio.ampache-3.1.0+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.ampache/plugin.audio.ampache-3.2.0+matrix.1.zip",
+        "statspath": "/addons/omega/plugin.audio.ampache/plugin.audio.ampache-3.2.0+matrix.1.zip"
       }
     ],
     "categories": [
@@ -19779,7 +19779,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Stream music from Ampache XML-API",
     "description": "A web based audio/video streaming application and file manager allowing you to access your music and videos from anywhere, using almost any internet enabled device.",
     "forum": "https://forum.kodi.tv/showthread.php?tid=230736",
@@ -19797,12 +19797,12 @@
         "remotepath": "resources/fanart.jpg"
       }
     ],
-    "size": "416KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 112178,
+    "size": "417KB",
+    "lastupdate": "2025-07-06T02:43:03.103Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.audio.ampache/resources/icon.png",
-    "snippet": "Stream music from Ampache XML-API",
-    "prevyeardl": 112178
+    "snippet": "Stream music from Ampache XML-API"
   },
   {
     "id": "plugin.audio.arteconcert",
@@ -29330,7 +29330,7 @@
     "addonid": "plugin.video.retrospect",
     "name": "Retrospect",
     "slug": "plugin.video.retrospect",
-    "version": "5.7.27",
+    "version": "5.7.28",
     "authors": [
       {
         "name": "Bas Rieter",
@@ -29341,8 +29341,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.27.zip",
-        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.27.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.28.zip",
+        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.28.zip"
       }
     ],
     "categories": [
@@ -29372,7 +29372,7 @@
     "reuselanguageinvoker": "true",
     "license": "GPL-3.0-or-later",
     "language": "en nl de sv no lt lv fi",
-    "news": "Retrospect v5.7.27 - Changelog - 2025-06-20\n\nMinor fix for the NPO channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO broken (Fixes #1904).\n\n        ",
+    "news": "Retrospect v5.7.28 - Changelog - 2025-07-05\n\nMore fixes for the NPO channel.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: NPO broken again (See #1904).\n\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -29409,8 +29409,9 @@
     "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
     "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
     "size": "1993KB",
-    "lastupdate": "2025-06-22T02:42:04.052Z",
+    "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -32067,7 +32068,7 @@
     "addonid": "plugin.video.viwx",
     "name": "viwX",
     "slug": "plugin.video.viwx",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "authors": [
       {
         "name": "Dimitri Kroon",
@@ -32078,8 +32079,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.1.zip",
-        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.2.zip",
+        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.2.zip"
       }
     ],
     "categories": [
@@ -32115,11 +32116,12 @@
         "remotepath": "resources/fanart.png"
       }
     ],
-    "news": "v 1.6.1\nFixes:\n- NO IPTV EPG.\n\nChanges:\n- An attempt to correct some mistakes that are easily made when copying authentication tokens from a web browser.\n- More informative error messages and logs when importing tokens fails.\n- Some other minor changes.\n    ",
+    "news": "v 1.6.2\nFixes:\n- Logging in to IVX account with username and password works again.\n    ",
     "reuselanguageinvoker": "true",
-    "size": "488KB",
-    "lastupdate": "2025-05-31T02:33:38.969Z",
+    "size": "157KB",
+    "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
     "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
   },
@@ -32562,7 +32564,7 @@
     "addonid": "plugin.video.worldstarhiphop",
     "name": "World Star Hip Hop",
     "slug": "plugin.video.worldstarhiphop",
-    "version": "1.0.15+matrix.1",
+    "version": "1.0.16+matrix.1",
     "authors": [
       {
         "name": "Skipmode A1",
@@ -32573,8 +32575,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.worldstarhiphop/plugin.video.worldstarhiphop-1.0.15+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.video.worldstarhiphop/plugin.video.worldstarhiphop-1.0.15+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.worldstarhiphop/plugin.video.worldstarhiphop-1.0.16+matrix.1.zip",
+        "statspath": "/addons/omega/plugin.video.worldstarhiphop/plugin.video.worldstarhiphop-1.0.16+matrix.1.zip"
       }
     ],
     "categories": [
@@ -32590,7 +32592,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Worldstarhiphop is home to everything entertainment and hip hop",
     "description": "Worldstarhiphop is home to everything entertainment and hip hop",
     "disclaimer": "For bugs, requests or general questions visit the Worldstarhiphop thread on the Kodi forum",
@@ -32611,13 +32613,13 @@
         "remotepath": "resources/fanart.jpg"
       }
     ],
-    "news": "v1.0.15 (2023-10-11) (Kudos to jdig4240)\n    - changes due to website changes\n    ",
-    "size": "225KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 286988,
+    "news": "v1.0.16 (2025-07-01)\n    - changes due to website changes\n    ",
+    "size": "223KB",
+    "lastupdate": "2025-07-06T02:43:03.103Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.worldstarhiphop/resources/icon.png",
-    "snippet": "Worldstarhiphop is home to everything entertainment and hip hop",
-    "prevyeardl": 286988
+    "snippet": "Worldstarhiphop is home to everything entertainment and hip hop"
   },
   {
     "id": "plugin.video.wrallocal",
@@ -34935,7 +34937,6 @@
     "size": "910KB",
     "lastupdate": "2025-07-05T02:34:50.879Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.waipu/icon.png",
     "snippet": "waipu.tv PVR Client"
   },
