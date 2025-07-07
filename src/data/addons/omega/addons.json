@@ -18017,7 +18017,7 @@
     "addonid": "inputstream.adaptive",
     "name": "InputStream Adaptive",
     "slug": "inputstream.adaptive",
-    "version": "21.5.14",
+    "version": "21.5.15",
     "authors": [
       {
         "name": "peak3d",
@@ -18032,34 +18032,34 @@
     ],
     "platforms": [
       {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.14.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.14.zip"
-      },
-      {
         "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.14.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip"
       },
       {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.14.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.14.zip"
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip"
       },
       {
         "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.14.zip",
-        "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.14.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip"
+      },
+      {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip",
+        "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip"
       }
     ],
     "categories": [
@@ -18087,9 +18087,10 @@
     ],
     "summary": "InputStream client for adaptive streams",
     "description": "InputStream client for adaptive streams. Common streaming protocols such as MPEG-DASH, HLS and Microsoft Smooth Streaming are supported.\n\nThe add-on also has support for DRM protected streams, such as Google Widevine, Microsoft PlayReady and others.\n\nFor documentation visit: https://github.com/xbmc/inputstream.adaptive",
-    "size": "1214KB",
-    "lastupdate": "2025-05-16T02:34:45.740Z",
+    "size": "1488KB",
+    "lastupdate": "2025-07-07T02:41:11.217Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/inputstream.adaptive/icon.png",
     "snippet": "InputStream client for adaptive streams"
   },
@@ -19800,7 +19801,6 @@
     "size": "417KB",
     "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.audio.ampache/resources/icon.png",
     "snippet": "Stream music from Ampache XML-API"
   },
@@ -29411,7 +29411,6 @@
     "size": "1993KB",
     "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -32121,7 +32120,6 @@
     "size": "157KB",
     "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
     "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
   },
@@ -32617,7 +32615,6 @@
     "size": "223KB",
     "lastupdate": "2025-07-06T02:43:03.103Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.worldstarhiphop/resources/icon.png",
     "snippet": "Worldstarhiphop is home to everything entertainment and hip hop"
   },
@@ -47049,7 +47046,7 @@
     "addonid": "script.bluetooth.delay",
     "name": "Bluetooth Delay lite",
     "slug": "script.bluetooth.delay",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "authors": [
       {
         "name": "MAR",
@@ -47060,8 +47057,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.bluetooth.delay/script.bluetooth.delay-1.1.0.zip",
-        "statspath": "/addons/omega/script.bluetooth.delay/script.bluetooth.delay-1.1.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.bluetooth.delay/script.bluetooth.delay-1.2.0.zip",
+        "statspath": "/addons/omega/script.bluetooth.delay/script.bluetooth.delay-1.2.0.zip"
       }
     ],
     "categories": [
@@ -47072,10 +47069,10 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Toggle audio delay",
-    "description": "Lite version of Bluetooth Delay addon.\nThis addon lets you set a delay for your bluetooth headphones, and easily toggle between delay on/off.\n\nFor easy toggle, set a shortcut on your skin's home screen, or set a shortcut key in the keyboard.xml file:\nFor toggle - RunScript(script.bluetooth.delay)\nFor speakers - RunScript(script.bluetooth.delay,0)\nFor bluetooth - RunScript(script.bluetooth.delay,1)",
-    "news": "- Set the delay value when the video is playing\n- The audio delay setting does not reset the subtitle delay value",
+    "description": "Lite version of Bluetooth Delay addon.\nThis addon lets you set a delay for your Bluetooth headphones, and easily toggle between delay on/off.\n\nFor easy toggle, set a shortcut on your skin's home screen, or set a shortcut key in the keyboard.xml file:\nFor toggle - RunScript(script.bluetooth.delay)\nFor speakers - RunScript(script.bluetooth.delay,0)\nFor Bluetooth - RunScript(script.bluetooth.delay,1)",
+    "news": "- Fix for Kodi 21.1",
     "license": "GPL-2.0-only",
     "forum": "https://forum.kodi.tv/showthread.php?tid=366574",
     "source": "https://github.com/MAR-official",
@@ -47092,11 +47089,11 @@
       }
     ],
     "size": "21KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 149864,
+    "lastupdate": "2025-07-07T02:41:11.217Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.bluetooth.delay/icon.png",
-    "snippet": "Toggle audio delay",
-    "prevyeardl": 149864
+    "snippet": "Toggle audio delay"
   },
   {
     "id": "script.cabertoss",
@@ -56003,7 +56000,7 @@
     "addonid": "script.subtitles.zimukux",
     "name": "ZiMuKuX",
     "slug": "script.subtitles.zimukux",
-    "version": "0.2.1",
+    "version": "0.3b",
     "authors": [
       {
         "name": "pizzamx",
@@ -56014,8 +56011,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.subtitles.zimukux/script.subtitles.zimukux-0.2.1.zip",
-        "statspath": "/addons/omega/script.subtitles.zimukux/script.subtitles.zimukux-0.2.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.subtitles.zimukux/script.subtitles.zimukux-0.3b.zip",
+        "statspath": "/addons/omega/script.subtitles.zimukux/script.subtitles.zimukux-0.3b.zip"
       }
     ],
     "categories": [
@@ -56026,7 +56023,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "zimuku subtitle",
     "description": "Search and download subtitles from ZiMuKu",
     "license": "GPL-2.0-or-later",
@@ -56042,13 +56039,13 @@
         "remotepath": "resources/fanart.png"
       }
     ],
-    "news": "v0.2.1(2023/12/11)\n- Merged https://github.com/pizzamx/zimuku_for_kodi/pull/23（thanks @jiangpengcheng for solving the cookie issue）\n\nv0.2.0(2023/5/30)\n- Merged https://github.com/pizzamx/zimuku_for_kodi/pull/18 (big thanks to lm317379829 for solving the captcha issue)\n- Let's bump version a bit\n\nv0.1.9(2022/12/23)\n- Merged https://github.com/pizzamx/zimuku_for_kodi/pull/14\n- New setting allow showing only language suffix of sub file name to prevent the UI from scrolling (slowly!)\n- New setting to allow search with year info. to make result more accurate (default to False, attributed to @fsi044689)\n- Minor tweaks, please refer to PR comment\n\nv0.1.8(2022/10/10)\n- zimuku.org captcha design changed again and this plugin works again\n\nv0.1.7(2022/6/18)\n- zimuku.org code changed again, made adaptions\n\nv0.1.6(2022/5/25)\n- Adaption made for Zimuku's latest \"anti-spoofing\" mechanism (contribute by @SaneBow)\n- Optimization to reduce the number of requests (contribute by @SaneBow)\n\nv0.1.5(2022/4/22)\n- Adaption made for Zimuku's new anti-spoofing mechanism\n- Misc. bug fix and code tweaks\n- Is COVID-19 gonna last forever?\n\nCHECK https://github.com/pizzamx/zimuku_for_kodi/releases FOR EARLIER RELEASE NOTES...\n        ",
-    "size": "160KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 236709,
+    "news": "v0.3(2025/06/30)\n- Hardcoded OCR mechanism, credits to @realaboo( and behind-the-scene Gemini Code Assist)\n\nv0.2c(2024/10/28)\n- Add new OCR vender (Tencent), ref: https://console.cloud.tencent.com/ocr/overview\n\nv0.2b(2024/4/6)\n- Need to resolve Captcha issue again\n- Do change OCR service URL to your own, ref: https://cloud.baidu.com/doc/OCR/s/dk3iqnq51\n\nv0.2.0(2023/5/30)\n- Merged https://github.com/pizzamx/zimuku_for_kodi/pull/18 (big thanks to lm317379829 for solving the captcha issue)\n- Let's bump version a bit\n\nv0.1.9(2022/12/23)\n- Merged https://github.com/pizzamx/zimuku_for_kodi/pull/14\n- New setting allow showing only language suffix of sub file name to prevent the UI from scrolling (slowly!)\n- New setting to allow search with year info. to make result more accurate (default to False, attributed to @fsi044689)\n- Minor tweaks, please refer to PR comment\n\nv0.1.8(2022/10/10)\n- zimuku.org captcha design changed again and this plugin works again\n\nv0.1.7(2022/6/18)\n- zimuku.org code changed again, made adaptions\n\nv0.1.6(2022/5/25)\n- Adaption made for Zimuku's latest \"anti-spoofing\" mechanism (contribute by @SaneBow)\n- Optimization to reduce the number of requests (contribute by @SaneBow)\n\nv0.1.5(2022/4/22)\n- Adaption made for Zimuku's new anti-spoofing mechanism\n- Misc. bug fix and code tweaks\n- Is COVID-19 gonna last forever?\n\nCHECK https://github.com/pizzamx/zimuku_for_kodi/releases FOR EARLIER RELEASE NOTES...\n        ",
+    "size": "163KB",
+    "lastupdate": "2025-07-07T02:41:11.217Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.subtitles.zimukux/resources/icon.png",
-    "snippet": "zimuku subtitle",
-    "prevyeardl": 236709
+    "snippet": "zimuku subtitle"
   },
   {
     "id": "script.timers",
