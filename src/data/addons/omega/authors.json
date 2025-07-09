@@ -81882,7 +81882,7 @@
         "addonid": "plugin.video.drnu",
         "name": "DR TV",
         "slug": "plugin.video.drnu",
-        "version": "6.6.0",
+        "version": "6.6.1",
         "authors": [
           {
             "name": "TermeHansen",
@@ -81893,8 +81893,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.0.zip",
-            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.1.zip",
+            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.1.zip"
           }
         ],
         "categories": [
@@ -81950,9 +81950,10 @@
           }
         ],
         "news": "Version 5.1.0 - 2022-04-01\n       - re-factor for python 3 only\n       - remove exception handling for pastebin\n       - add Minisjang area and update ui elements",
-        "size": "1870KB",
-        "lastupdate": "2025-05-19T02:36:26.843Z",
+        "size": "1871KB",
+        "lastupdate": "2025-07-09T02:39:10.763Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.drnu/resources/media/icon.png",
         "snippet": "Watch live and archived TV from DR (Danish Broadcasting Corporation)"
       }
@@ -84001,7 +84002,7 @@
         "addonid": "service.subtitles.titlovi-com-official",
         "name": "Titlovi.com Official ",
         "slug": "service.subtitles.titlovi-com-official",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "authors": [
           {
             "name": "tturkalj",
@@ -84012,8 +84013,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.titlovi-com-official/service.subtitles.titlovi-com-official-1.2.0.zip",
-            "statspath": "/addons/omega/service.subtitles.titlovi-com-official/service.subtitles.titlovi-com-official-1.2.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.titlovi-com-official/service.subtitles.titlovi-com-official-1.2.1.zip",
+            "statspath": "/addons/omega/service.subtitles.titlovi-com-official/service.subtitles.titlovi-com-official-1.2.1.zip"
           }
         ],
         "categories": [
@@ -84024,7 +84025,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Titlovi.com",
         "description": "Search and download Titlovi.com subtitles\n\nWhen using manual search for TV shows please use this example format for season and episode numbers:\nThe Wire S01E01",
         "disclaimer": "Korisnici moraju upisati [B]Titlovi.com[/B] korisničko ime i lozinku u postavke dodatka",
@@ -84052,12 +84053,13 @@
           }
         ],
         "source": "https://github.com/tturkalj/service.subtitles.titlovi-com-official",
+        "lifecyclestate": "Replaced by the new \"Titlovi.com\" add-on (ID: service.subtitles.titlovi).",
         "size": "202KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 255167,
+        "lastupdate": "2025-07-09T02:39:10.763Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/service.subtitles.titlovi-com-official/icon.png",
-        "snippet": "Titlovi.com",
-        "prevyeardl": 255167
+        "snippet": "Titlovi.com"
       }
     ],
     "totaladdons": 1
