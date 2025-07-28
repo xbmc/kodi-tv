@@ -21539,6 +21539,84 @@
     "prevyeardl": 44133
   },
   {
+    "id": "plugin.audio.zophar",
+    "addonid": "plugin.audio.zophar",
+    "name": "Zophar's Domain",
+    "slug": "plugin.audio.zophar",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Sergey Dudanov",
+        "slug": "sergey-dudanov",
+        "icon": "/images/authors/sergey-dudanov.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.zophar/plugin.audio.zophar-1.0.0.zip",
+        "statspath": "/addons/omega/plugin.audio.zophar/plugin.audio.zophar-1.0.0.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Plugins",
+        "slug": "plugins",
+        "icon": "/images/categories/plugins.webp"
+      },
+      {
+        "name": "Music addons",
+        "slug": "music-addons",
+        "icon": "/images/categories/music-addons.webp"
+      }
+    ],
+    "firstseen": "2025-07-28T02:48:30.817Z",
+    "agetype": "new",
+    "language": "en",
+    "summary": "Zophar's Domain Music Add-on",
+    "license": "MIT",
+    "website": "https://www.zophar.net/",
+    "email": "sergey.dudanov@gmail.com",
+    "description": "Listening classic games soundtracks from Zophar's Domain site.",
+    "source": "https://github.com/dudanov/kodi.plugin.audio.zophar",
+    "icons": [
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/icon.png",
+        "remotepath": "resources/icon.png"
+      }
+    ],
+    "fanarts": [
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/fanart.jpg",
+        "remotepath": "resources/fanart.jpg"
+      }
+    ],
+    "screenshots": [
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/screenshot-1.jpg",
+        "remotepath": "resources/screenshot-1.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/screenshot-2.jpg",
+        "remotepath": "resources/screenshot-2.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/screenshot-3.jpg",
+        "remotepath": "resources/screenshot-3.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/plugin.audio.zophar/resources/screenshot-4.jpg",
+        "remotepath": "resources/screenshot-4.jpg"
+      }
+    ],
+    "size": "908KB",
+    "lastupdate": "2025-07-28T02:48:30.817Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/plugin.audio.zophar/resources/icon.png",
+    "snippet": "Zophar's Domain Music Add-on"
+  },
+  {
     "id": "plugin.googledrive",
     "addonid": "plugin.googledrive",
     "name": "Google Drive",
@@ -25353,7 +25431,7 @@
     "addonid": "plugin.video.formula1",
     "name": "Formula 1",
     "slug": "plugin.video.formula1",
-    "version": "2.0.5",
+    "version": "2.0.6",
     "authors": [
       {
         "name": "jaylinski",
@@ -25364,8 +25442,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.5.zip",
-        "statspath": "/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.6.zip",
+        "statspath": "/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.6.zip"
       }
     ],
     "categories": [
@@ -25388,7 +25466,7 @@
     "forum": "https://forum.kodi.tv/showthread.php?tid=352138",
     "website": "https://www.formula1.com",
     "source": "https://github.com/jaylinski/kodi-addon-formula1",
-    "news": "2.0.5 (2025-06-17)\nFixed error when selecting the \"Videos\" folder\n\n2.0.4 (2025-04-05)\nFixed error when selecting the \"Race results\"-item in the \"Standings\"-section\n\n2.0.3 (2024-12-22)\nUpdated player API key\n\n2.0.2 (2021-05-22)\nSwitched to new player API (the old player API did not display the latest videos)\n\n2.0.1 (2021-04-16)\nFixed error when viewing driver standings\n\n2.0.0 (2020-12-05)\nAdded support for Kodi v19 (Matrix)\n        ",
+    "news": "2.0.6 (2025-07-20)\nUpdated player API key\n\n2.0.5 (2025-06-17)\nFixed error when selecting the \"Videos\" folder\n\n2.0.4 (2025-04-05)\nFixed error when selecting the \"Race results\"-item in the \"Standings\"-section\n\n2.0.3 (2024-12-22)\nUpdated player API key\n\n2.0.2 (2021-05-22)\nSwitched to new player API (the old player API did not display the latest videos)\n\n2.0.1 (2021-04-16)\nFixed error when viewing driver standings\n\n2.0.0 (2020-12-05)\nAdded support for Kodi v19 (Matrix)\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.formula1/resources/icon.png",
@@ -25402,8 +25480,9 @@
       }
     ],
     "size": "196KB",
-    "lastupdate": "2025-06-22T02:42:04.052Z",
+    "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.formula1/resources/icon.png",
     "description": "Videos from the Formula 1 website",
     "snippet": "Videos from the Formula 1 website"
@@ -27321,7 +27400,7 @@
     "addonid": "plugin.video.milbtv",
     "name": "MiLB.TV®",
     "slug": "plugin.video.milbtv",
-    "version": "2022.06.07",
+    "version": "2025.07.11",
     "authors": [
       {
         "name": "tonywagner",
@@ -27332,8 +27411,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.milbtv/plugin.video.milbtv-2022.06.07.zip",
-        "statspath": "/addons/omega/plugin.video.milbtv/plugin.video.milbtv-2022.06.07.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.milbtv/plugin.video.milbtv-2025.07.11.zip",
+        "statspath": "/addons/omega/plugin.video.milbtv/plugin.video.milbtv-2025.07.11.zip"
       }
     ],
     "categories": [
@@ -27354,11 +27433,11 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Watch minor league baseball\n        ",
     "description": "Watch live and archived minor league baseball games with your MiLB.TV account",
     "disclaimer": "Requires a valid MiLB.TV account (separate from MLB.TV)",
-    "news": "- options to automatically skip breaks and non-action pitches\n            - option to start at specific inning or start live from beginning\n            - pad the end of archive videos if no spoilers (to avoid timeline spoilers)\n            - see scores at inning category\n            - hide bottom of 9th / extra innings as spoilers\n            - labels for suspended/resumed games\n            - game icons and fanart\n            - probable pitchers\n            - added probable pitchers to game list titles\n            - doubleheader/TBD start times\n            - additional AddonIsEnabled detection for inputstream adaptive\n            - perfect game / no hitter flags\n            - code cleanup\n            - removed failing, unnecessary epg api call\n            - option to disable video length padding (in case of proxy conflicts)\n            - added additional action play type in skip monitor\n        ",
+    "lifecyclestate": "MiLB.TV has been discontinued. Those games are now available in MLB.TV instead.",
     "language": "en",
     "license": "GPL-2.0-or-later",
     "forum": "https://forum.kodi.tv/showthread.php?tid=362621",
@@ -27377,18 +27456,18 @@
       }
     ],
     "size": "273KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 60577,
+    "lastupdate": "2025-07-28T02:48:30.817Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.milbtv/icon.png",
-    "snippet": "Watch minor league baseball\n        ",
-    "prevyeardl": 60577
+    "snippet": "Watch minor league baseball\n        "
   },
   {
     "id": "plugin.video.mlbtv",
     "addonid": "plugin.video.mlbtv",
     "name": "MLB.TV®",
     "slug": "plugin.video.mlbtv",
-    "version": "2025.6.19+matrix.1",
+    "version": "2025.7.18+matrix.1",
     "authors": [
       {
         "name": "eracknaphobia",
@@ -27404,8 +27483,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.6.19+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.7.18+matrix.1.zip",
+        "statspath": "/addons/omega/plugin.video.mlbtv/plugin.video.mlbtv-2025.7.18+matrix.1.zip"
       }
     ],
     "categories": [
@@ -27430,7 +27509,7 @@
     "summary": "Watch live and archived games\n        ",
     "description": "Watch every out-of-market regular season game in the office or on the go. The #1 LIVE\n            Streaming Sports Service\n        ",
     "disclaimer": "Requires an MLB.tv account",
-    "news": "- updated Big Inning schedule\n        ",
+    "news": "- updated Big Inning schedule\n            - fix for disable captions on catch up\n            - fix and improvements for play all recaps option\n            - support for single team packages in stream selection\n            - support for Stream Finder (auto-switching based on custom criteria)\n        ",
     "language": "en",
     "license": "GPL-2.0-or-later",
     "forum": "https://forum.kodi.tv/showthread.php?tid=262745",
@@ -27448,9 +27527,10 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "size": "340KB",
-    "lastupdate": "2025-06-21T02:34:44.651Z",
+    "size": "387KB",
+    "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
     "snippet": "Watch live and archived games\n        "
   },
