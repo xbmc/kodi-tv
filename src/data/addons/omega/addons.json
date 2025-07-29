@@ -20734,6 +20734,66 @@
     "prevyeardl": 67261
   },
   {
+    "id": "plugin.audio.radiobrowser",
+    "addonid": "plugin.audio.radiobrowser",
+    "name": "radio-browser.info",
+    "slug": "plugin.audio.radiobrowser",
+    "version": "2.0.0",
+    "authors": [
+      {
+        "name": "lookslikematrix.de",
+        "slug": "lookslikematrix.de",
+        "icon": "/images/authors/lookslikematrix.de.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.radiobrowser/plugin.audio.radiobrowser-2.0.0.zip",
+        "statspath": "/addons/omega/plugin.audio.radiobrowser/plugin.audio.radiobrowser-2.0.0.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Plugins",
+        "slug": "plugins",
+        "icon": "/images/categories/plugins.webp"
+      },
+      {
+        "name": "Music addons",
+        "slug": "music-addons",
+        "icon": "/images/categories/music-addons.webp"
+      }
+    ],
+    "firstseen": "2025-07-29T02:50:30.091Z",
+    "agetype": "new",
+    "summary": "Radio-Browser",
+    "description": "Directory of radio stations that uses www.radio-browser.info as source.\n\nIf you miss your favourite station, just go to www.radio-browser.info and add it yourself. It is a wiki like system.",
+    "license": "GPL-3.0-or-later",
+    "website": "https://www.radio-browser.info",
+    "source": "https://github.com/lookslikematrix/plugin.audio.radiobrowser",
+    "news": "2.0.0\n        - Update add-on for Kodi &gt;= 20\n        - Refactor add-on\n    ",
+    "email": "christian.decker@lookslikematrix.de",
+    "icons": [
+      {
+        "localpath": "/images/addons/omega/plugin.audio.radiobrowser/resources/icon.png",
+        "remotepath": "resources/icon.png"
+      }
+    ],
+    "fanarts": [
+      {
+        "localpath": "/images/addons/omega/plugin.audio.radiobrowser/resources/fanart.jpg",
+        "remotepath": "resources/fanart.jpg"
+      }
+    ],
+    "size": "108KB",
+    "lastupdate": "2025-07-29T02:50:30.091Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/plugin.audio.radiobrowser/resources/icon.png",
+    "snippet": "Radio-Browser"
+  },
+  {
     "id": "plugin.audio.radiofrance",
     "addonid": "plugin.audio.radiofrance",
     "name": "RadioFrance — Lives and Podcasts",
@@ -21612,7 +21672,6 @@
     "size": "908KB",
     "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.audio.zophar/resources/icon.png",
     "snippet": "Zophar's Domain Music Add-on"
   },
@@ -25482,7 +25541,6 @@
     "size": "196KB",
     "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.formula1/resources/icon.png",
     "description": "Videos from the Formula 1 website",
     "snippet": "Videos from the Formula 1 website"
@@ -27458,7 +27516,6 @@
     "size": "273KB",
     "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.milbtv/icon.png",
     "snippet": "Watch minor league baseball\n        "
   },
@@ -27530,7 +27587,6 @@
     "size": "387KB",
     "lastupdate": "2025-07-28T02:48:30.817Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.mlbtv/icon.png",
     "snippet": "Watch live and archived games\n        "
   },
@@ -32146,7 +32202,7 @@
     "addonid": "plugin.video.viwx",
     "name": "viwX",
     "slug": "plugin.video.viwx",
-    "version": "1.6.2",
+    "version": "1.7.2",
     "authors": [
       {
         "name": "Dimitri Kroon",
@@ -32157,8 +32213,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.2.zip",
-        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.6.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.2.zip",
+        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.2.zip"
       }
     ],
     "categories": [
@@ -32176,7 +32232,7 @@
     "firstseen": "2024-04-06T15:19:14.420Z",
     "agetype": "existing",
     "summary": "Live TV and video on-demand from ITVX (UK only, ITVX account required)",
-    "description": "A Vibrant ITVX Web eXperience. Play live TV and video on-demand from the webservices of British broadcaster ITV. An ITVX account is required, either free or premium, to play any stream.\n\nThis add-on is not developed by ITV and is no way affiliated with, or endorsed by ITV.\n    ",
+    "description": "A Vibrant ITVX Web eXperience. Play live TV and video on-demand from the webservices of British broadcaster ITV. An ITVX account is required, either free or premium, to play any stream.\n\nThis add-on is not developed by ITV and is in no way affiliated with, or endorsed by ITV.\n    ",
     "disclaimer": "This addon is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n    ",
     "language": "en",
     "license": "GPL-2.0-or-later",
@@ -32194,11 +32250,12 @@
         "remotepath": "resources/fanart.png"
       }
     ],
-    "news": "v 1.6.2\nFixes:\n- Logging in to IVX account with username and password works again.\n    ",
+    "news": "v1.7.2\nFixes:\n- In some cases, Kodi continued to run the previous version for a while after the add-on was updated.\n- Short news clips fail to play in category News.\n- Support live items without start and end time.\n\nv 1.7.1\nFixes:\n- Short sport clips fail to play with error 'Not Found'\n\nv 1.7.0\nNew Features:\n- Optional full HD streams - must be enabled in settings, off by default.\n\nFixes:\n- Search with live items in the results failed.\n- Some episode listings failed.\n    ",
     "reuselanguageinvoker": "true",
-    "size": "157KB",
-    "lastupdate": "2025-07-06T02:43:03.103Z",
+    "size": "160KB",
+    "lastupdate": "2025-07-29T02:50:30.091Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
     "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
   },
@@ -32207,7 +32264,7 @@
     "addonid": "plugin.video.vrt.nu",
     "name": "VRT MAX",
     "slug": "plugin.video.vrt.nu",
-    "version": "2.5.38+matrix.1",
+    "version": "2.5.39+matrix.1",
     "authors": [
       {
         "name": "Martijn Moreel",
@@ -32228,8 +32285,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.38+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.38+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.39+matrix.1.zip",
+        "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.39+matrix.1.zip"
       }
     ],
     "categories": [
@@ -32259,7 +32316,7 @@
     "forum": "https://www.facebook.com/kodivrtnu/",
     "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
     "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-    "news": "v2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+    "news": "v2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -32291,9 +32348,10 @@
       }
     ],
     "reuselanguageinvoker": "true",
-    "size": "1644KB",
-    "lastupdate": "2025-05-13T02:34:39.016Z",
+    "size": "1645KB",
+    "lastupdate": "2025-07-29T02:50:30.091Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
     "snippet": "Watch videos from VRT MAX"
   },
