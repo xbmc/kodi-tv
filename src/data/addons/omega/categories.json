@@ -24133,7 +24133,6 @@
         "size": "135KB",
         "lastupdate": "2025-08-03T02:51:00.949Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.ca_es/icon.png",
         "snippet": "Catalan language pack"
       },
@@ -24908,7 +24907,6 @@
         "size": "151KB",
         "lastupdate": "2025-08-03T02:51:00.949Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.de_de/icon.png",
         "snippet": "German language pack"
       },
@@ -42381,7 +42379,7 @@
         "addonid": "plugin.video.stalkervod",
         "name": "Stalker VOD Client",
         "slug": "plugin.video.stalkervod",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "authors": [
           {
             "name": "rickey",
@@ -42392,8 +42390,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip",
-            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip",
+            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip"
           }
         ],
         "categories": [
@@ -42446,13 +42444,13 @@
             "remotepath": "resources/media/screenshot_4.png"
           }
         ],
-        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\t\t",
-        "size": "1919KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 242925,
+        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\nv1.1.0  (2025-07-26)\n- Add search to directory listing for TV and VOD\n\t\t",
+        "size": "1920KB",
+        "lastupdate": "2025-08-04T02:51:42.220Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.stalkervod/resources/media/icon.png",
-        "snippet": "Stalker VOD Client",
-        "prevyeardl": 242925
+        "snippet": "Stalker VOD Client"
       },
       {
         "id": "plugin.video.streamz",
@@ -67830,7 +67828,7 @@
         "addonid": "weather.openmeteo",
         "name": "Open-Meteo",
         "slug": "weather.openmeteo",
-        "version": "1.0.0",
+        "version": "1.0.14",
         "authors": [
           {
             "name": "OpenHT",
@@ -67841,8 +67839,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.openmeteo/weather.openmeteo-1.0.0.zip",
-            "statspath": "/addons/omega/weather.openmeteo/weather.openmeteo-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.openmeteo/weather.openmeteo-1.0.14.zip",
+            "statspath": "/addons/omega/weather.openmeteo/weather.openmeteo-1.0.14.zip"
           }
         ],
         "categories": [
@@ -67858,9 +67856,9 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Weather forecast from Open-Meteo",
-        "description": "Weather, maps, airquality and pollen data from open-meteo.com, rainviewer.com, weather.gc.ca and met.no",
+        "description": "Weather, maps, airquality and pollen forecast from open-meteo.com, rainviewer.com, weather.gc.ca and met.no",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/forumdisplay.php?fid=155",
         "website": "https://openht.org",
@@ -67906,12 +67904,12 @@
             "remotepath": "resources/screenshot5.jpg"
           }
         ],
-        "size": "7426KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 36458,
+        "size": "5556KB",
+        "lastupdate": "2025-08-04T02:51:42.220Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/weather.openmeteo/resources/icon.png",
-        "snippet": "Weather forecast from Open-Meteo",
-        "prevyeardl": 36458
+        "snippet": "Weather forecast from Open-Meteo"
       },
       {
         "id": "service.partymode.autostart",
@@ -68685,7 +68683,7 @@
         "addonid": "plugin.video.stalkervod",
         "name": "Stalker VOD Client",
         "slug": "plugin.video.stalkervod",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "authors": [
           {
             "name": "rickey",
@@ -68696,8 +68694,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip",
-            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip",
+            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip"
           }
         ],
         "categories": [
@@ -68750,13 +68748,13 @@
             "remotepath": "resources/media/screenshot_4.png"
           }
         ],
-        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\t\t",
-        "size": "1919KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 242925,
+        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\nv1.1.0  (2025-07-26)\n- Add search to directory listing for TV and VOD\n\t\t",
+        "size": "1920KB",
+        "lastupdate": "2025-08-04T02:51:42.220Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.stalkervod/resources/media/icon.png",
-        "snippet": "Stalker VOD Client",
-        "prevyeardl": 242925
+        "snippet": "Stalker VOD Client"
       },
       {
         "id": "service.stinger.notification",
@@ -82462,7 +82460,7 @@
         "addonid": "plugin.video.stalkervod",
         "name": "Stalker VOD Client",
         "slug": "plugin.video.stalkervod",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "authors": [
           {
             "name": "rickey",
@@ -82473,8 +82471,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip",
-            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip",
+            "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip"
           }
         ],
         "categories": [
@@ -82527,13 +82525,13 @@
             "remotepath": "resources/media/screenshot_4.png"
           }
         ],
-        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\t\t",
-        "size": "1919KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 242925,
+        "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\nv1.1.0  (2025-07-26)\n- Add search to directory listing for TV and VOD\n\t\t",
+        "size": "1920KB",
+        "lastupdate": "2025-08-04T02:51:42.220Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.stalkervod/resources/media/icon.png",
-        "snippet": "Stalker VOD Client",
-        "prevyeardl": 242925
+        "snippet": "Stalker VOD Client"
       },
       {
         "id": "plugin.video.streamz",
@@ -86803,7 +86801,7 @@
         "addonid": "weather.openmeteo",
         "name": "Open-Meteo",
         "slug": "weather.openmeteo",
-        "version": "1.0.0",
+        "version": "1.0.14",
         "authors": [
           {
             "name": "OpenHT",
@@ -86814,8 +86812,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.openmeteo/weather.openmeteo-1.0.0.zip",
-            "statspath": "/addons/omega/weather.openmeteo/weather.openmeteo-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.openmeteo/weather.openmeteo-1.0.14.zip",
+            "statspath": "/addons/omega/weather.openmeteo/weather.openmeteo-1.0.14.zip"
           }
         ],
         "categories": [
@@ -86831,9 +86829,9 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Weather forecast from Open-Meteo",
-        "description": "Weather, maps, airquality and pollen data from open-meteo.com, rainviewer.com, weather.gc.ca and met.no",
+        "description": "Weather, maps, airquality and pollen forecast from open-meteo.com, rainviewer.com, weather.gc.ca and met.no",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/forumdisplay.php?fid=155",
         "website": "https://openht.org",
@@ -86879,12 +86877,12 @@
             "remotepath": "resources/screenshot5.jpg"
           }
         ],
-        "size": "7426KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 36458,
+        "size": "5556KB",
+        "lastupdate": "2025-08-04T02:51:42.220Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/weather.openmeteo/resources/icon.png",
-        "snippet": "Weather forecast from Open-Meteo",
-        "prevyeardl": 36458
+        "snippet": "Weather forecast from Open-Meteo"
       },
       {
         "id": "weather.ozweather",
