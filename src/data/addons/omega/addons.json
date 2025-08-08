@@ -30813,7 +30813,7 @@
     "addonid": "plugin.video.stalkervod",
     "name": "Stalker VOD Client",
     "slug": "plugin.video.stalkervod",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "authors": [
       {
         "name": "rickey",
@@ -30824,8 +30824,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip",
-        "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.1.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.2.0.zip",
+        "statspath": "/addons/omega/plugin.video.stalkervod/plugin.video.stalkervod-1.2.0.zip"
       }
     ],
     "categories": [
@@ -30878,10 +30878,11 @@
         "remotepath": "resources/media/screenshot_4.png"
       }
     ],
-    "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\nv1.1.0  (2025-07-26)\n- Add search to directory listing for TV and VOD\n\t\t",
+    "news": "v1.0.0  (2024-07-13)\n- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.\nIf using kodi Add to Favourites option, existing Favourites link would break.\nAbility to use Portal Favorite option for both VOD and TV Channels\nAdd support for UpNext addon.\n\nv1.1.0  (2025-07-26)\n- Add search to directory listing for TV and VOD\n\nv1.2.0  (2025-08-06)\n- Fix TV stream issue for portal with use_http_tmp_link and use_load_balancing as false\n\t\t",
     "size": "1920KB",
-    "lastupdate": "2025-08-04T02:51:42.220Z",
+    "lastupdate": "2025-08-08T02:46:25.530Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.stalkervod/resources/media/icon.png",
     "snippet": "Stalker VOD Client"
   },
