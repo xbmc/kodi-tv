@@ -110,7 +110,7 @@
         "addonid": "metadata.album.universal",
         "name": "Universal Album Scraper",
         "slug": "metadata.album.universal",
-        "version": "3.1.14",
+        "version": "3.1.16",
         "authors": [
           {
             "name": "Olympia",
@@ -126,8 +126,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.14.zip",
-            "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.14.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.16.zip",
+            "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.16.zip"
           }
         ],
         "categories": [
@@ -150,8 +150,9 @@
         "summary": "Universal Scraper for Albums",
         "description": "This scraper collects information from the following supported sites: MusicBrainz, last.fm, allmusic.com and amazon.de, while grabs artwork from: fanart.tv, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic and/or amazon.de links are not added on the MusicBrainz site, fields from allmusic.com and/or amazon.de cannot be fetched (very easy to add those missing links though).",
         "size": "130KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.album.universal/icon.png",
         "snippet": "Universal Scraper for Albums"
       },
@@ -309,7 +310,7 @@
         "addonid": "metadata.artists.universal",
         "name": "Universal Artist Scraper",
         "slug": "metadata.artists.universal",
-        "version": "4.3.16",
+        "version": "4.3.18",
         "authors": [
           {
             "name": "Olympia",
@@ -325,8 +326,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.16.zip",
-            "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.16.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.18.zip",
+            "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.18.zip"
           }
         ],
         "categories": [
@@ -348,9 +349,10 @@
         ],
         "summary": "Universal Scraper for Artists",
         "description": "This scraper collects information from the following supported sites: TheAudioDb.com, MusicBrainz, last.fm, and allmusic.com, while grabs artwork from: fanart.tv, htbackdrops.com, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic link is not added on the MusicBrainz site fields from allmusic.com cannot be fetched (very easy to add those missing links though).",
-        "size": "146KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "size": "144KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
         "snippet": "Universal Scraper for Artists"
       },
@@ -3294,7 +3296,7 @@
         "addonid": "game.controller.3do",
         "name": "3DO Controller",
         "slug": "game.controller.3do",
-        "version": "1.0.37",
+        "version": "1.0.38",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3305,8 +3307,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.3do/game.controller.3do-1.0.37.zip",
-            "statspath": "/addons/omega/game.controller.3do/game.controller.3do-1.0.37.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.3do/game.controller.3do-1.0.38.zip",
+            "statspath": "/addons/omega/game.controller.3do/game.controller.3do-1.0.38.zip"
           }
         ],
         "categories": [
@@ -3327,19 +3329,19 @@
         "summary": "3D0 controller",
         "description": "The 3DO Interactive Multiplayer is a game console developed by the 3DO Company. Panasonic produced the first models in 1993, and further models were released by Sanyo and GoldStar (now LG) in 1994.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "706KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5582,
+        "size": "711KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.3do/resources/icon.png",
-        "snippet": "3D0 controller",
-        "prevyeardl": 5582
+        "snippet": "3D0 controller"
       },
       {
         "id": "game.controller.3do.gamegun",
         "addonid": "game.controller.3do.gamegun",
         "name": "3DO Gamegun",
         "slug": "game.controller.3do.gamegun",
-        "version": "1.0.26",
+        "version": "1.0.27",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3350,8 +3352,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.3do.gamegun/game.controller.3do.gamegun-1.0.26.zip",
-            "statspath": "/addons/omega/game.controller.3do.gamegun/game.controller.3do.gamegun-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.3do.gamegun/game.controller.3do.gamegun-1.0.27.zip",
+            "statspath": "/addons/omega/game.controller.3do.gamegun/game.controller.3do.gamegun-1.0.27.zip"
           }
         ],
         "categories": [
@@ -3372,19 +3374,19 @@
         "summary": "3DO Gamegun",
         "description": "The Gamegun was released for the 3DO in 1994 by American Laser Games.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "502KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2249,
+        "size": "506KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.3do.gamegun/resources/icon.png",
-        "snippet": "3DO Gamegun",
-        "prevyeardl": 2249
+        "snippet": "3DO Gamegun"
       },
       {
         "id": "game.controller.amiga.cd32",
         "addonid": "game.controller.amiga.cd32",
         "name": "Amiga CD³² Controller",
         "slug": "game.controller.amiga.cd32",
-        "version": "1.0.24",
+        "version": "1.0.26",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3395,8 +3397,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amiga.cd32/game.controller.amiga.cd32-1.0.24.zip",
-            "statspath": "/addons/omega/game.controller.amiga.cd32/game.controller.amiga.cd32-1.0.24.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amiga.cd32/game.controller.amiga.cd32-1.0.26.zip",
+            "statspath": "/addons/omega/game.controller.amiga.cd32/game.controller.amiga.cd32-1.0.26.zip"
           }
         ],
         "categories": [
@@ -3417,19 +3419,19 @@
         "summary": "Amiga CD³² controller",
         "description": "The Amiga CD³² is a 32-bit console released by Commodore in 1993. The Amiga CD³² is also compatible with most controllers from the '80s and '90s.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "795KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 6066,
+        "size": "797KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.amiga.cd32/resources/icon.png",
-        "snippet": "Amiga CD³² controller",
-        "prevyeardl": 6066
+        "snippet": "Amiga CD³² controller"
       },
       {
         "id": "game.controller.amstrad.joystick",
         "addonid": "game.controller.amstrad.joystick",
         "name": "Amstrad Joystick",
         "slug": "game.controller.amstrad.joystick",
-        "version": "1.0.32",
+        "version": "1.0.34",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3440,8 +3442,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amstrad.joystick/game.controller.amstrad.joystick-1.0.32.zip",
-            "statspath": "/addons/omega/game.controller.amstrad.joystick/game.controller.amstrad.joystick-1.0.32.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amstrad.joystick/game.controller.amstrad.joystick-1.0.34.zip",
+            "statspath": "/addons/omega/game.controller.amstrad.joystick/game.controller.amstrad.joystick-1.0.34.zip"
           }
         ],
         "categories": [
@@ -3462,19 +3464,19 @@
         "summary": "Amstrad Joystick",
         "description": "The original Amstrad CPC models had only one joystick port. A Y-cable can be used to connect two joysticks.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "643KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 7852,
+        "size": "646KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.amstrad.joystick/resources/icon.png",
-        "snippet": "Amstrad Joystick",
-        "prevyeardl": 7852
+        "snippet": "Amstrad Joystick"
       },
       {
         "id": "game.controller.amstrad.keyboard",
         "addonid": "game.controller.amstrad.keyboard",
         "name": "Amstrad Keyboard",
         "slug": "game.controller.amstrad.keyboard",
-        "version": "1.0.40",
+        "version": "1.0.45",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3485,8 +3487,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amstrad.keyboard/game.controller.amstrad.keyboard-1.0.40.zip",
-            "statspath": "/addons/omega/game.controller.amstrad.keyboard/game.controller.amstrad.keyboard-1.0.40.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.amstrad.keyboard/game.controller.amstrad.keyboard-1.0.45.zip",
+            "statspath": "/addons/omega/game.controller.amstrad.keyboard/game.controller.amstrad.keyboard-1.0.45.zip"
           }
         ],
         "categories": [
@@ -3507,19 +3509,19 @@
         "summary": "Amstrad Keyboard",
         "description": "The Amstrad CPC (short for Colour Personal Computer) is a series of 8-bit home computers produced by Amstrad between 1984 and 1990.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "637KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8085,
+        "size": "641KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.amstrad.keyboard/resources/icon.png",
-        "snippet": "Amstrad Keyboard",
-        "prevyeardl": 8085
+        "snippet": "Amstrad Keyboard"
       },
       {
         "id": "game.controller.atari.2600",
         "addonid": "game.controller.atari.2600",
         "name": "Atari 2600 Joystick",
         "slug": "game.controller.atari.2600",
-        "version": "1.1.31",
+        "version": "1.1.32",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3530,8 +3532,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.2600/game.controller.atari.2600-1.1.31.zip",
-            "statspath": "/addons/omega/game.controller.atari.2600/game.controller.atari.2600-1.1.31.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.2600/game.controller.atari.2600-1.1.32.zip",
+            "statspath": "/addons/omega/game.controller.atari.2600/game.controller.atari.2600-1.1.32.zip"
           }
         ],
         "categories": [
@@ -3552,19 +3554,19 @@
         "summary": "Atari 2600 joystick",
         "description": "The Atari CX40 joystick appeared on the Atari 2600 in 1977, and was considered such a great improvement over other controllers that it was the primary input device for most games.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "764KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 9113,
+        "size": "767KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.2600/resources/icon.png",
-        "snippet": "Atari 2600 joystick",
-        "prevyeardl": 9113
+        "snippet": "Atari 2600 joystick"
       },
       {
         "id": "game.controller.atari.5200",
         "addonid": "game.controller.atari.5200",
         "name": "Atari 5200 Controller",
         "slug": "game.controller.atari.5200",
-        "version": "1.0.36",
+        "version": "1.0.42",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3575,8 +3577,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.5200/game.controller.atari.5200-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.atari.5200/game.controller.atari.5200-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.5200/game.controller.atari.5200-1.0.42.zip",
+            "statspath": "/addons/omega/game.controller.atari.5200/game.controller.atari.5200-1.0.42.zip"
           }
         ],
         "categories": [
@@ -3597,19 +3599,19 @@
         "summary": "Atari 5200 controller",
         "description": "The Atari 5200 was released in 1982. The design of the joystick, which used a weak rubber boot instead of springs, proved to be ungainly and unreliable. It was rated the 10th worst video game controller by IGN.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "348KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5581,
+        "size": "351KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.5200/resources/icon.png",
-        "snippet": "Atari 5200 controller",
-        "prevyeardl": 5581
+        "snippet": "Atari 5200 controller"
       },
       {
         "id": "game.controller.atari.7800.gamepad",
         "addonid": "game.controller.atari.7800.gamepad",
         "name": "Atari 7800 Gamepad",
         "slug": "game.controller.atari.7800.gamepad",
-        "version": "1.0.35",
+        "version": "1.0.38",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3620,8 +3622,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.7800.gamepad/game.controller.atari.7800.gamepad-1.0.35.zip",
-            "statspath": "/addons/omega/game.controller.atari.7800.gamepad/game.controller.atari.7800.gamepad-1.0.35.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.7800.gamepad/game.controller.atari.7800.gamepad-1.0.38.zip",
+            "statspath": "/addons/omega/game.controller.atari.7800.gamepad/game.controller.atari.7800.gamepad-1.0.38.zip"
           }
         ],
         "categories": [
@@ -3642,19 +3644,19 @@
         "summary": "Atari 7800 gamepad",
         "description": "The Atari 7800 ProSystem was released in 1986. It came bundled with the Atari Proline Joystick, but due to criticism over ergonimic issues Atari later released a gamepad with European 7800s.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "621KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4095,
+        "size": "624KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.7800.gamepad/resources/icon.png",
-        "snippet": "Atari 7800 gamepad",
-        "prevyeardl": 4095
+        "snippet": "Atari 7800 gamepad"
       },
       {
         "id": "game.controller.atari.7800.proline",
         "addonid": "game.controller.atari.7800.proline",
         "name": "Atari 7800 Proline",
         "slug": "game.controller.atari.7800.proline",
-        "version": "1.0.34",
+        "version": "1.0.37",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3665,8 +3667,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.7800.proline/game.controller.atari.7800.proline-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.atari.7800.proline/game.controller.atari.7800.proline-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.7800.proline/game.controller.atari.7800.proline-1.0.37.zip",
+            "statspath": "/addons/omega/game.controller.atari.7800.proline/game.controller.atari.7800.proline-1.0.37.zip"
           }
         ],
         "categories": [
@@ -3687,19 +3689,19 @@
         "summary": "Atari 7800 Proline",
         "description": "The Atari 7800 ProSystem was released in 1986. It came bundled with the Atari Proline Joystick, but due to criticism over ergonimic issues Atari later released a gamepad with European 7800s.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "356KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4030,
+        "size": "359KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.7800.proline/resources/icon.png",
-        "snippet": "Atari 7800 Proline",
-        "prevyeardl": 4030
+        "snippet": "Atari 7800 Proline"
       },
       {
         "id": "game.controller.atari.800",
         "addonid": "game.controller.atari.800",
         "name": "Atari 800 Joystick",
         "slug": "game.controller.atari.800",
-        "version": "1.0.4",
+        "version": "1.0.7",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3710,8 +3712,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.800/game.controller.atari.800-1.0.4.zip",
-            "statspath": "/addons/omega/game.controller.atari.800/game.controller.atari.800-1.0.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.800/game.controller.atari.800-1.0.7.zip",
+            "statspath": "/addons/omega/game.controller.atari.800/game.controller.atari.800-1.0.7.zip"
           }
         ],
         "categories": [
@@ -3722,7 +3724,7 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
+        "agetype": "existing",
         "icons": [
           {
             "localpath": "/images/addons/omega/game.controller.atari.800/resources/icon.png",
@@ -3732,19 +3734,19 @@
         "summary": "Atari 800 joystick",
         "description": "The Atari CX40 joystick appeared on the Atari 2600 in 1977, and was considered such a great improvement over other controllers that it was the primary input device for most games.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "761KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4882,
+        "size": "763KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.800/resources/icon.png",
-        "snippet": "Atari 800 joystick",
-        "prevyeardl": 4882
+        "snippet": "Atari 800 joystick"
       },
       {
         "id": "game.controller.atari.lynx",
         "addonid": "game.controller.atari.lynx",
         "name": "Atari Lynx",
         "slug": "game.controller.atari.lynx",
-        "version": "1.0.33",
+        "version": "1.0.34",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3755,8 +3757,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.lynx/game.controller.atari.lynx-1.0.33.zip",
-            "statspath": "/addons/omega/game.controller.atari.lynx/game.controller.atari.lynx-1.0.33.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.lynx/game.controller.atari.lynx-1.0.34.zip",
+            "statspath": "/addons/omega/game.controller.atari.lynx/game.controller.atari.lynx-1.0.34.zip"
           }
         ],
         "categories": [
@@ -3777,19 +3779,19 @@
         "summary": "Atari Lynx",
         "description": "The Atari Lynx is a 16-bit handheld gaming console released in 1989.  It held notable accomplishments, including the first handheld with a color LCD, advanced graphics, and ambidextrous layout. However, it was a commercial failure and discontinued in 1995.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "538KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 3231,
+        "size": "541KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.lynx/resources/icon.png",
-        "snippet": "Atari Lynx",
-        "prevyeardl": 3231
+        "snippet": "Atari Lynx"
       },
       {
         "id": "game.controller.atari.xges.xg1",
         "addonid": "game.controller.atari.xges.xg1",
         "name": "Atari XG-1 Lightgun",
         "slug": "game.controller.atari.xges.xg1",
-        "version": "1.0.26",
+        "version": "1.0.27",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3800,8 +3802,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.xges.xg1/game.controller.atari.xges.xg1-1.0.26.zip",
-            "statspath": "/addons/omega/game.controller.atari.xges.xg1/game.controller.atari.xges.xg1-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.xges.xg1/game.controller.atari.xges.xg1-1.0.27.zip",
+            "statspath": "/addons/omega/game.controller.atari.xges.xg1/game.controller.atari.xges.xg1-1.0.27.zip"
           }
         ],
         "categories": [
@@ -3822,19 +3824,19 @@
         "summary": "Atari XG-1 lightgun",
         "description": "The Atari XG-1 is the light gun that came bundled with the Atari XEGS, a game console released in 1987. Many users complained of the horrible accuracy of the device.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "390KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1454,
+        "size": "395KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.xges.xg1/resources/icon.png",
-        "snippet": "Atari XG-1 lightgun",
-        "prevyeardl": 1454
+        "snippet": "Atari XG-1 lightgun"
       },
       {
         "id": "game.controller.atari.xges.keyboard",
         "addonid": "game.controller.atari.xges.keyboard",
         "name": "Atari XGES Keyboard",
         "slug": "game.controller.atari.xges.keyboard",
-        "version": "1.0.20",
+        "version": "1.0.21",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3845,8 +3847,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.xges.keyboard/game.controller.atari.xges.keyboard-1.0.20.zip",
-            "statspath": "/addons/omega/game.controller.atari.xges.keyboard/game.controller.atari.xges.keyboard-1.0.20.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.atari.xges.keyboard/game.controller.atari.xges.keyboard-1.0.21.zip",
+            "statspath": "/addons/omega/game.controller.atari.xges.keyboard/game.controller.atari.xges.keyboard-1.0.21.zip"
           }
         ],
         "categories": [
@@ -3867,19 +3869,19 @@
         "summary": "Atari XGES keyboard",
         "description": "The Atari XGES keyboard was included in the Atari XGES deluxe set, which was released in 1987 by Atari Corporation. Because a keyboard was included, the XGES had home computer functionality.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "753KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1633,
+        "size": "757KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.atari.xges.keyboard/resources/icon.png",
-        "snippet": "Atari XGES keyboard",
-        "prevyeardl": 1633
+        "snippet": "Atari XGES keyboard"
       },
       {
         "id": "game.controller.cec.adapter",
         "addonid": "game.controller.cec.adapter",
         "name": "CEC Adapter",
         "slug": "game.controller.cec.adapter",
-        "version": "1.0.0",
+        "version": "1.0.4",
         "authors": [
           {
             "name": "Pulse-Eight",
@@ -3890,8 +3892,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.cec.adapter/game.controller.cec.adapter-1.0.0.zip",
-            "statspath": "/addons/omega/game.controller.cec.adapter/game.controller.cec.adapter-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.cec.adapter/game.controller.cec.adapter-1.0.4.zip",
+            "statspath": "/addons/omega/game.controller.cec.adapter/game.controller.cec.adapter-1.0.4.zip"
           }
         ],
         "categories": [
@@ -3902,7 +3904,7 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
+        "agetype": "existing",
         "icons": [
           {
             "localpath": "/images/addons/omega/game.controller.cec.adapter/resources/icon.png",
@@ -3911,19 +3913,19 @@
         ],
         "summary": "CEC Adapter",
         "description": "The Pulse-Eight USB-CEC Adapter communicates with other HDMI-CEC devices in your home theater system.",
-        "size": "360KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 608,
+        "size": "362KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.cec.adapter/resources/icon.png",
-        "snippet": "CEC Adapter",
-        "prevyeardl": 608
+        "snippet": "CEC Adapter"
       },
       {
         "id": "game.controller.colecovision",
         "addonid": "game.controller.colecovision",
         "name": "ColecoVision Controller",
         "slug": "game.controller.colecovision",
-        "version": "1.0.36",
+        "version": "1.0.37",
         "authors": [
           {
             "name": "Team Kodi",
@@ -3934,8 +3936,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.colecovision/game.controller.colecovision-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.colecovision/game.controller.colecovision-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.colecovision/game.controller.colecovision-1.0.37.zip",
+            "statspath": "/addons/omega/game.controller.colecovision/game.controller.colecovision-1.0.37.zip"
           }
         ],
         "categories": [
@@ -3956,12 +3958,12 @@
         "summary": "ColecoVision controller",
         "description": "The ColecoVision is Coleco Industries' second-generation game console, released in 1982. IGN named it the 12th-best console, citing its accuracy in bringing arcade games to the home.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "334KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2053,
+        "size": "337KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.colecovision/resources/icon.png",
-        "snippet": "ColecoVision controller",
-        "prevyeardl": 2053
+        "snippet": "ColecoVision controller"
       },
       {
         "id": "game.controller.mouse",
@@ -4057,7 +4059,7 @@
         "addonid": "game.controller.dreamcast",
         "name": "Dreamcast Controller",
         "slug": "game.controller.dreamcast",
-        "version": "1.0.31",
+        "version": "1.0.33",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4068,8 +4070,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.dreamcast/game.controller.dreamcast-1.0.31.zip",
-            "statspath": "/addons/omega/game.controller.dreamcast/game.controller.dreamcast-1.0.31.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.dreamcast/game.controller.dreamcast-1.0.33.zip",
+            "statspath": "/addons/omega/game.controller.dreamcast/game.controller.dreamcast-1.0.33.zip"
           }
         ],
         "categories": [
@@ -4089,19 +4091,19 @@
         ],
         "summary": "Sega Dreamcast controller",
         "description": "The Sega Dreamcast was released in 1998. The inclusion of an analog stick reflected the transition from 2D arcade games to 3D game environments. The Dreamcast had a short lifespan and marked the end of Sega's 18 years in the console market.",
-        "size": "586KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5421,
+        "size": "588KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.dreamcast/resources/icon.png",
-        "snippet": "Sega Dreamcast controller",
-        "prevyeardl": 5421
+        "snippet": "Sega Dreamcast controller"
       },
       {
         "id": "game.controller.elektronika.bk",
         "addonid": "game.controller.elektronika.bk",
         "name": "Elektronika BK",
         "slug": "game.controller.elektronika.bk",
-        "version": "1.0.23",
+        "version": "1.0.24",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4112,8 +4114,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.elektronika.bk/game.controller.elektronika.bk-1.0.23.zip",
-            "statspath": "/addons/omega/game.controller.elektronika.bk/game.controller.elektronika.bk-1.0.23.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.elektronika.bk/game.controller.elektronika.bk-1.0.24.zip",
+            "statspath": "/addons/omega/game.controller.elektronika.bk/game.controller.elektronika.bk-1.0.24.zip"
           }
         ],
         "categories": [
@@ -4134,19 +4136,19 @@
         "summary": "Elektronika BK",
         "description": "The Elektronika BK-0010 (Электроника БК-0010) was a PDP-11-compatible home computer released in 1984 in the Soviet Union.",
         "disclaimer": "图片来源：retroordenadoresorty.blogspot.com",
-        "size": "774KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1851,
+        "size": "777KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.elektronika.bk/resources/icon.png",
-        "snippet": "Elektronika BK",
-        "prevyeardl": 1851
+        "snippet": "Elektronika BK"
       },
       {
         "id": "game.controller.flirc",
         "addonid": "game.controller.flirc",
         "name": "Flirc USB Receiver",
         "slug": "game.controller.flirc",
-        "version": "1.0.0",
+        "version": "1.0.4",
         "authors": [
           {
             "name": "Flirc.tv",
@@ -4157,8 +4159,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.flirc/game.controller.flirc-1.0.0.zip",
-            "statspath": "/addons/omega/game.controller.flirc/game.controller.flirc-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.flirc/game.controller.flirc-1.0.4.zip",
+            "statspath": "/addons/omega/game.controller.flirc/game.controller.flirc-1.0.4.zip"
           }
         ],
         "categories": [
@@ -4169,7 +4171,7 @@
           }
         ],
         "firstseen": "2025-02-13T02:26:16.833Z",
-        "agetype": "new",
+        "agetype": "existing",
         "icons": [
           {
             "localpath": "/images/addons/omega/game.controller.flirc/resources/icon.png",
@@ -4178,19 +4180,19 @@
         ],
         "summary": "Flirc USB Receiver",
         "description": "The Flirc USB receiver lets you use any remote control with Kodi. Find out more at flirc.tv!",
-        "size": "336KB",
-        "lastupdate": "2025-02-13T02:26:16.833Z",
-        "downloads": 383,
+        "size": "338KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.flirc/resources/icon.png",
-        "snippet": "Flirc USB Receiver",
-        "prevyeardl": 383
+        "snippet": "Flirc USB Receiver"
       },
       {
         "id": "game.controller.gameboy",
         "addonid": "game.controller.gameboy",
         "name": "Game Boy",
         "slug": "game.controller.gameboy",
-        "version": "1.0.34",
+        "version": "1.0.37",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4201,8 +4203,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gameboy/game.controller.gameboy-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.gameboy/game.controller.gameboy-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gameboy/game.controller.gameboy-1.0.37.zip",
+            "statspath": "/addons/omega/game.controller.gameboy/game.controller.gameboy-1.0.37.zip"
           }
         ],
         "categories": [
@@ -4223,19 +4225,19 @@
         "summary": "Game Boy",
         "description": "The Nintendo Game Boy is an 8-bit handheld video game console released in 1989. It became a tremendous success, and in 2009 was inducted into the National Toy Hall of Fame.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "510KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 6476,
+        "size": "512KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.gameboy/resources/icon.png",
-        "snippet": "Game Boy",
-        "prevyeardl": 6476
+        "snippet": "Game Boy"
       },
       {
         "id": "game.controller.gba",
         "addonid": "game.controller.gba",
         "name": "Game Boy Advance",
         "slug": "game.controller.gba",
-        "version": "1.0.33",
+        "version": "1.0.35",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4246,8 +4248,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gba/game.controller.gba-1.0.33.zip",
-            "statspath": "/addons/omega/game.controller.gba/game.controller.gba-1.0.33.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gba/game.controller.gba-1.0.35.zip",
+            "statspath": "/addons/omega/game.controller.gba/game.controller.gba-1.0.35.zip"
           }
         ],
         "categories": [
@@ -4268,19 +4270,19 @@
         "summary": "Game Boy Advance",
         "description": "The Nintendo Game Boy Advance is a 32-bit handheld video game console released in 2001. Despite fierce competition, Nintendo maintained a majority market share with the device.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "521KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 7621,
+        "size": "523KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.gba/resources/icon.png",
-        "snippet": "Game Boy Advance",
-        "prevyeardl": 7621
+        "snippet": "Game Boy Advance"
       },
       {
         "id": "game.controller.genesis.4wayplay",
         "addonid": "game.controller.genesis.4wayplay",
         "name": "Genesis 4 Way Play",
         "slug": "game.controller.genesis.4wayplay",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4291,8 +4293,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.4wayplay/game.controller.genesis.4wayplay-1.0.8.zip",
-            "statspath": "/addons/omega/game.controller.genesis.4wayplay/game.controller.genesis.4wayplay-1.0.8.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.4wayplay/game.controller.genesis.4wayplay-1.0.9.zip",
+            "statspath": "/addons/omega/game.controller.genesis.4wayplay/game.controller.genesis.4wayplay-1.0.9.zip"
           }
         ],
         "categories": [
@@ -4312,19 +4314,19 @@
         ],
         "summary": "Genesis 4 Way Play",
         "description": "The 4 Way Play is a four-port peripheral for the Sega Genesis, released in 1993 by Electronic Arts. It was mainly supported by games released by EA itself.",
-        "size": "555KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8541,
+        "size": "556KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.genesis.4wayplay/resources/icon.png",
-        "snippet": "Genesis 4 Way Play",
-        "prevyeardl": 8541
+        "snippet": "Genesis 4 Way Play"
       },
       {
         "id": "game.controller.genesis.3button",
         "addonid": "game.controller.genesis.3button",
         "name": "Genesis Controller (3-Button)",
         "slug": "game.controller.genesis.3button",
-        "version": "1.0.15",
+        "version": "1.0.18",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4335,8 +4337,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.3button/game.controller.genesis.3button-1.0.15.zip",
-            "statspath": "/addons/omega/game.controller.genesis.3button/game.controller.genesis.3button-1.0.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.3button/game.controller.genesis.3button-1.0.18.zip",
+            "statspath": "/addons/omega/game.controller.genesis.3button/game.controller.genesis.3button-1.0.18.zip"
           }
         ],
         "categories": [
@@ -4356,19 +4358,19 @@
         ],
         "summary": "Sega Genesis controller (3-Button)",
         "description": "The original controller for the Sega Genesis was released in 1988. It had three main face buttons. Sega released a six-button version in 1993.",
-        "size": "922KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 9896,
+        "size": "924KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.genesis.3button/resources/icon.png",
-        "snippet": "Sega Genesis controller (3-Button)",
-        "prevyeardl": 9896
+        "snippet": "Sega Genesis controller (3-Button)"
       },
       {
         "id": "game.controller.genesis.6button",
         "addonid": "game.controller.genesis.6button",
         "name": "Genesis Controller (6-Button)",
         "slug": "game.controller.genesis.6button",
-        "version": "1.0.44",
+        "version": "1.0.48",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4379,8 +4381,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.6button/game.controller.genesis.6button-1.0.44.zip",
-            "statspath": "/addons/omega/game.controller.genesis.6button/game.controller.genesis.6button-1.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.6button/game.controller.genesis.6button-1.0.48.zip",
+            "statspath": "/addons/omega/game.controller.genesis.6button/game.controller.genesis.6button-1.0.48.zip"
           }
         ],
         "categories": [
@@ -4401,19 +4403,19 @@
         "summary": "Sega Genesis controller (6-Button)",
         "description": "The original controller for the Sega Genesis was released in 1988. It had three main face buttons. Sega released a six-button version in 1993.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "472KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 11565,
+        "size": "474KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.genesis.6button/resources/icon.png",
-        "snippet": "Sega Genesis controller (6-Button)",
-        "prevyeardl": 11565
+        "snippet": "Sega Genesis controller (6-Button)"
       },
       {
         "id": "game.controller.genesis.mouse",
         "addonid": "game.controller.genesis.mouse",
         "name": "Genesis Mouse",
         "slug": "game.controller.genesis.mouse",
-        "version": "1.0.37",
+        "version": "1.0.39",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4424,8 +4426,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.mouse/game.controller.genesis.mouse-1.0.37.zip",
-            "statspath": "/addons/omega/game.controller.genesis.mouse/game.controller.genesis.mouse-1.0.37.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.mouse/game.controller.genesis.mouse-1.0.39.zip",
+            "statspath": "/addons/omega/game.controller.genesis.mouse/game.controller.genesis.mouse-1.0.39.zip"
           }
         ],
         "categories": [
@@ -4445,19 +4447,19 @@
         ],
         "summary": "Sega Genesis mouse",
         "description": "The Sega Mouse is a ball mouse for the Sega Mega Drive/Genesis released in 1993. It was intended to be used for art creation software.",
-        "size": "455KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 10019,
+        "size": "457KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.genesis.mouse/resources/icon.png",
-        "snippet": "Sega Genesis mouse",
-        "prevyeardl": 10019
+        "snippet": "Sega Genesis mouse"
       },
       {
         "id": "game.controller.genesis.teamplayer",
         "addonid": "game.controller.genesis.teamplayer",
         "name": "Genesis Team Player",
         "slug": "game.controller.genesis.teamplayer",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4468,8 +4470,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.teamplayer/game.controller.genesis.teamplayer-1.0.4.zip",
-            "statspath": "/addons/omega/game.controller.genesis.teamplayer/game.controller.genesis.teamplayer-1.0.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.genesis.teamplayer/game.controller.genesis.teamplayer-1.0.5.zip",
+            "statspath": "/addons/omega/game.controller.genesis.teamplayer/game.controller.genesis.teamplayer-1.0.5.zip"
           }
         ],
         "categories": [
@@ -4489,19 +4491,19 @@
         ],
         "summary": "Genesis Team Player",
         "description": "The Team Player is a peripheral released in 1993 by Sega for the Sega Genesis. It allows up to four players to connect Genesis controllers.",
-        "size": "965KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8467,
+        "size": "967KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.genesis.teamplayer/resources/icon.png",
-        "snippet": "Genesis Team Player",
-        "prevyeardl": 8467
+        "snippet": "Genesis Team Player"
       },
       {
         "id": "game.controller.gravis.gamepad",
         "addonid": "game.controller.gravis.gamepad",
         "name": "Gravis PC Gamepad",
         "slug": "game.controller.gravis.gamepad",
-        "version": "1.1.28",
+        "version": "1.1.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4512,8 +4514,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gravis.gamepad/game.controller.gravis.gamepad-1.1.28.zip",
-            "statspath": "/addons/omega/game.controller.gravis.gamepad/game.controller.gravis.gamepad-1.1.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gravis.gamepad/game.controller.gravis.gamepad-1.1.29.zip",
+            "statspath": "/addons/omega/game.controller.gravis.gamepad/game.controller.gravis.gamepad-1.1.29.zip"
           }
         ],
         "categories": [
@@ -4533,12 +4535,12 @@
         ],
         "summary": "Gravis PC Gamepad",
         "description": "The Gravis gamepad is a controller produced by Advanced Gravis Computer Technology in 1991. It was the first gamepad for the IBM PC in a market dominated by joysticks.",
-        "size": "280KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1569,
+        "size": "282KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.gravis.gamepad/resources/icon.png",
-        "snippet": "Gravis PC Gamepad",
-        "prevyeardl": 1569
+        "snippet": "Gravis PC Gamepad"
       },
       {
         "id": "game.controller.keyboard",
@@ -4590,7 +4592,7 @@
         "addonid": "game.controller.intellivision",
         "name": "Intellivision Controller",
         "slug": "game.controller.intellivision",
-        "version": "1.0.29",
+        "version": "1.0.30",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4601,8 +4603,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.intellivision/game.controller.intellivision-1.0.29.zip",
-            "statspath": "/addons/omega/game.controller.intellivision/game.controller.intellivision-1.0.29.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.intellivision/game.controller.intellivision-1.0.30.zip",
+            "statspath": "/addons/omega/game.controller.intellivision/game.controller.intellivision-1.0.30.zip"
           }
         ],
         "categories": [
@@ -4623,19 +4625,19 @@
         "summary": "Intellivision controller",
         "description": "The Intellivision, a portmanteau of \"intelligent television\", was released by Mattel Electronics in 1979. In 2009, IGN named the Intellivision the 14th greatest console of all time.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "618KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1400,
+        "size": "621KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.intellivision/resources/icon.png",
-        "snippet": "Intellivision controller",
-        "prevyeardl": 1400
+        "snippet": "Intellivision controller"
       },
       {
         "id": "game.controller.konami.justifier.player2",
         "addonid": "game.controller.konami.justifier.player2",
         "name": "Konami Justifier (Player 2)",
         "slug": "game.controller.konami.justifier.player2",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4646,8 +4648,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.player2/game.controller.konami.justifier.player2-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.konami.justifier.player2/game.controller.konami.justifier.player2-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.player2/game.controller.konami.justifier.player2-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.konami.justifier.player2/game.controller.konami.justifier.player2-1.0.29.zip"
           }
         ],
         "categories": [
@@ -4667,19 +4669,19 @@
         ],
         "summary": "Konami Justifier (Player 2)",
         "description": "The Justifer is a light gun released by Konami in 1992 for the Sega Mega Drive/Genesis, SNES and PlayStation. It resembles the Colt Python, a .357 Magnum revolver.",
-        "size": "303KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 6642,
+        "size": "305KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.konami.justifier.player2/resources/icon.png",
-        "snippet": "Konami Justifier (Player 2)",
-        "prevyeardl": 6642
+        "snippet": "Konami Justifier (Player 2)"
       },
       {
         "id": "game.controller.konami.justifier.ps",
         "addonid": "game.controller.konami.justifier.ps",
         "name": "Konami Justifier (PS)",
         "slug": "game.controller.konami.justifier.ps",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4690,8 +4692,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.ps/game.controller.konami.justifier.ps-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.konami.justifier.ps/game.controller.konami.justifier.ps-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.ps/game.controller.konami.justifier.ps-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.konami.justifier.ps/game.controller.konami.justifier.ps-1.0.28.zip"
           }
         ],
         "categories": [
@@ -4711,19 +4713,19 @@
         ],
         "summary": "Konami Justifier (PS)",
         "description": "The Justifer is a light gun released by Konami in 1992 for the Sega Mega Drive/Genesis, SNES and PlayStation. It resembles the Colt Python, a .357 Magnum revolver.",
-        "size": "314KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8733,
+        "size": "317KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.konami.justifier.ps/resources/icon.png",
-        "snippet": "Konami Justifier (PS)",
-        "prevyeardl": 8733
+        "snippet": "Konami Justifier (PS)"
       },
       {
         "id": "game.controller.konami.justifier.snes",
         "addonid": "game.controller.konami.justifier.snes",
         "name": "Konami Justifier (SNES)",
         "slug": "game.controller.konami.justifier.snes",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4734,8 +4736,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.snes/game.controller.konami.justifier.snes-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.konami.justifier.snes/game.controller.konami.justifier.snes-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.konami.justifier.snes/game.controller.konami.justifier.snes-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.konami.justifier.snes/game.controller.konami.justifier.snes-1.0.29.zip"
           }
         ],
         "categories": [
@@ -4755,19 +4757,19 @@
         ],
         "summary": "Konami Justifier (SNES)",
         "description": "The Justifer is a light gun released by Konami in 1992 for the Sega Mega Drive/Genesis, SNES and PlayStation. It resembles the Colt Python, a .357 Magnum revolver.",
-        "size": "308KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 14722,
+        "size": "310KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.konami.justifier.snes/resources/icon.png",
-        "snippet": "Konami Justifier (SNES)",
-        "prevyeardl": 14722
+        "snippet": "Konami Justifier (SNES)"
       },
       {
         "id": "game.controller.msx.joystick",
         "addonid": "game.controller.msx.joystick",
         "name": "MSX Joystick",
         "slug": "game.controller.msx.joystick",
-        "version": "1.0.24",
+        "version": "1.0.25",
         "authors": [
           {
             "name": "Team Lima-Dev",
@@ -4778,8 +4780,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.msx.joystick/game.controller.msx.joystick-1.0.24.zip",
-            "statspath": "/addons/omega/game.controller.msx.joystick/game.controller.msx.joystick-1.0.24.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.msx.joystick/game.controller.msx.joystick-1.0.25.zip",
+            "statspath": "/addons/omega/game.controller.msx.joystick/game.controller.msx.joystick-1.0.25.zip"
           }
         ],
         "categories": [
@@ -4800,19 +4802,19 @@
         "summary": "MSX Joystick",
         "description": "The MSX joystick featured A and B buttons and four-way directional control.",
         "disclaimer": "图片来源：Laurens Holst（www.grauw.nl）",
-        "size": "383KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4062,
+        "size": "386KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.msx.joystick/resources/icon.png",
-        "snippet": "MSX Joystick",
-        "prevyeardl": 4062
+        "snippet": "MSX Joystick"
       },
       {
         "id": "game.controller.msx.keyboard",
         "addonid": "game.controller.msx.keyboard",
         "name": "MSX Keyboard",
         "slug": "game.controller.msx.keyboard",
-        "version": "1.0.39",
+        "version": "1.0.40",
         "authors": [
           {
             "name": "Team Lima-Dev",
@@ -4823,8 +4825,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.msx.keyboard/game.controller.msx.keyboard-1.0.39.zip",
-            "statspath": "/addons/omega/game.controller.msx.keyboard/game.controller.msx.keyboard-1.0.39.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.msx.keyboard/game.controller.msx.keyboard-1.0.40.zip",
+            "statspath": "/addons/omega/game.controller.msx.keyboard/game.controller.msx.keyboard-1.0.40.zip"
           }
         ],
         "categories": [
@@ -4845,19 +4847,19 @@
         "summary": "MSX Keyboard",
         "description": "The MSX keyboard came in internal and external units. One troubleshooting hint when an MSX machine does not display an image is to press the CAPS key repeatedly to see if the LED toggles.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "1039KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4215,
+        "size": "1043KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.msx.keyboard/resources/icon.png",
-        "snippet": "MSX Keyboard",
-        "prevyeardl": 4215
+        "snippet": "MSX Keyboard"
       },
       {
         "id": "game.controller.arcade.neogeo",
         "addonid": "game.controller.arcade.neogeo",
         "name": "Neo Geo Controller",
         "slug": "game.controller.arcade.neogeo",
-        "version": "1.0.36",
+        "version": "1.0.39",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4868,8 +4870,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.arcade.neogeo/game.controller.arcade.neogeo-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.arcade.neogeo/game.controller.arcade.neogeo-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.arcade.neogeo/game.controller.arcade.neogeo-1.0.39.zip",
+            "statspath": "/addons/omega/game.controller.arcade.neogeo/game.controller.arcade.neogeo-1.0.39.zip"
           }
         ],
         "categories": [
@@ -4889,19 +4891,19 @@
         ],
         "summary": "Neo Geo Controller",
         "description": "The controller for the Neo Geo AES (Advanced Entertainment System), a video game console released in the US in 1991. The Neo Geo AES was a niche system marketed toward high-end consumers. The console was expensive, as were the games themselves, which could go for hundreds of dollars.",
-        "size": "610KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1816,
+        "size": "612KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.arcade.neogeo/resources/icon.png",
-        "snippet": "Neo Geo Controller",
-        "prevyeardl": 1816
+        "snippet": "Neo Geo Controller"
       },
       {
         "id": "game.controller.ngp",
         "addonid": "game.controller.ngp",
         "name": "Neo Geo Pocket",
         "slug": "game.controller.ngp",
-        "version": "1.0.32",
+        "version": "1.0.33",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4912,8 +4914,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ngp/game.controller.ngp-1.0.32.zip",
-            "statspath": "/addons/omega/game.controller.ngp/game.controller.ngp-1.0.32.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ngp/game.controller.ngp-1.0.33.zip",
+            "statspath": "/addons/omega/game.controller.ngp/game.controller.ngp-1.0.33.zip"
           }
         ],
         "categories": [
@@ -4934,19 +4936,19 @@
         "summary": "Neo Geo Pocket",
         "description": "The Neo Geo Pocket was a handheld console with a monochrome screen released by SNK in 1998. It was generally unsuccessful and in 1999 was replaced by the Neo Geo Pocket Color to better compete with the Game Boy Color.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "875KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2784,
+        "size": "878KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ngp/resources/icon.png",
-        "snippet": "Neo Geo Pocket",
-        "prevyeardl": 2784
+        "snippet": "Neo Geo Pocket"
       },
       {
         "id": "game.controller.nes",
         "addonid": "game.controller.nes",
         "name": "NES Controller",
         "slug": "game.controller.nes",
-        "version": "1.0.36",
+        "version": "1.0.38",
         "authors": [
           {
             "name": "Team Kodi",
@@ -4957,8 +4959,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nes/game.controller.nes-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.nes/game.controller.nes-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nes/game.controller.nes-1.0.38.zip",
+            "statspath": "/addons/omega/game.controller.nes/game.controller.nes-1.0.38.zip"
           }
         ],
         "categories": [
@@ -4979,19 +4981,19 @@
         "summary": "NES controller",
         "description": "The Nintendo Entertainment System, also known as the Famicom (for \"Family Computer\"), was released in 1983. The cross-shaped directional pad was designed for Game &amp; Watch systems, replacing the bulkier joysticks found on earlier controllers.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "323KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 14259,
+        "size": "326KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.nes/resources/icon.png",
-        "snippet": "NES controller",
-        "prevyeardl": 14259
+        "snippet": "NES controller"
       },
       {
         "id": "game.controller.nes.four.score",
         "addonid": "game.controller.nes.four.score",
         "name": "NES Four Score",
         "slug": "game.controller.nes.four.score",
-        "version": "1.0.21",
+        "version": "1.0.22",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5002,8 +5004,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nes.four.score/game.controller.nes.four.score-1.0.21.zip",
-            "statspath": "/addons/omega/game.controller.nes.four.score/game.controller.nes.four.score-1.0.21.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nes.four.score/game.controller.nes.four.score-1.0.22.zip",
+            "statspath": "/addons/omega/game.controller.nes.four.score/game.controller.nes.four.score-1.0.22.zip"
           }
         ],
         "categories": [
@@ -5024,19 +5026,19 @@
         "summary": "NES Four Score",
         "description": "The NES Four Score is a multitap accessory created by Nintendo in 1990. It allows for four-player gameplay.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "685KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 4447,
+        "size": "689KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.nes.four.score/resources/icon.png",
-        "snippet": "NES Four Score",
-        "prevyeardl": 4447
+        "snippet": "NES Four Score"
       },
       {
         "id": "game.controller.n64",
         "addonid": "game.controller.n64",
         "name": "Nintendo 64 Controller",
         "slug": "game.controller.n64",
-        "version": "1.0.34",
+        "version": "1.0.36",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5047,8 +5049,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.n64/game.controller.n64-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.n64/game.controller.n64-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.n64/game.controller.n64-1.0.36.zip",
+            "statspath": "/addons/omega/game.controller.n64/game.controller.n64-1.0.36.zip"
           }
         ],
         "categories": [
@@ -5069,19 +5071,19 @@
         "summary": "Nintendo 64 controller",
         "description": "The Nintendo 64 controller, released in 1996, featured a unique \"M\" shape design. Intense rotating of the analog stick during Mario Party reportedly caused burn injuries to some players.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "582KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 7933,
+        "size": "584KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.n64/resources/icon.png",
-        "snippet": "Nintendo 64 controller",
-        "prevyeardl": 7933
+        "snippet": "Nintendo 64 controller"
       },
       {
         "id": "game.controller.nds",
         "addonid": "game.controller.nds",
         "name": "Nintendo DS",
         "slug": "game.controller.nds",
-        "version": "1.0.38",
+        "version": "1.0.40",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5092,8 +5094,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nds/game.controller.nds-1.0.38.zip",
-            "statspath": "/addons/omega/game.controller.nds/game.controller.nds-1.0.38.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.nds/game.controller.nds-1.0.40.zip",
+            "statspath": "/addons/omega/game.controller.nds/game.controller.nds-1.0.40.zip"
           }
         ],
         "categories": [
@@ -5114,19 +5116,19 @@
         "summary": "Nintendo DS",
         "description": "The Nintendo DS (short for \"Dual Screen\") is a 32-bit handheld video game console released in 2004. A DS Lite model was launched in 2006, followed by the DSi. Combined, these are the best selling handheld to date, and second best console (behind the PlayStation 2).",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "846KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 5518,
+        "size": "848KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.nds/resources/icon.png",
-        "snippet": "Nintendo DS",
-        "prevyeardl": 5518
+        "snippet": "Nintendo DS"
       },
       {
         "id": "game.controller.gamecube",
         "addonid": "game.controller.gamecube",
         "name": "Nintendo GameCube Controller",
         "slug": "game.controller.gamecube",
-        "version": "1.0.27",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5137,8 +5139,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gamecube/game.controller.gamecube-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.gamecube/game.controller.gamecube-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gamecube/game.controller.gamecube-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.gamecube/game.controller.gamecube-1.0.29.zip"
           }
         ],
         "categories": [
@@ -5159,19 +5161,19 @@
         "summary": "Nintendo GameCube controller",
         "description": "The Nintendo GameCube controller was released in 2001. The analog sticks and triggers were the target of a patent lawsuit, but Nintendo fought back and successfully won the case.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "742KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1835,
+        "size": "745KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.gamecube/resources/icon.png",
-        "snippet": "Nintendo GameCube controller",
-        "prevyeardl": 1835
+        "snippet": "Nintendo GameCube controller"
       },
       {
         "id": "game.controller.vb",
         "addonid": "game.controller.vb",
         "name": "Nintendo Virtual Boy Controller",
         "slug": "game.controller.vb",
-        "version": "1.0.33",
+        "version": "1.0.35",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5182,8 +5184,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.vb/game.controller.vb-1.0.33.zip",
-            "statspath": "/addons/omega/game.controller.vb/game.controller.vb-1.0.33.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.vb/game.controller.vb-1.0.35.zip",
+            "statspath": "/addons/omega/game.controller.vb/game.controller.vb-1.0.35.zip"
           }
         ],
         "categories": [
@@ -5204,19 +5206,19 @@
         "summary": "Nintendo Virtual Boy controller",
         "description": "The Virtual Boy is a 32-bit console released by Nintendo in 1995. While Nintendo promised a virtual reality experience, the red monochrome display and bulky table-mounted headset lead to a poor immersive experience.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "703KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1259,
+        "size": "705KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.vb/resources/icon.png",
-        "snippet": "Nintendo Virtual Boy controller",
-        "prevyeardl": 1259
+        "snippet": "Nintendo Virtual Boy controller"
       },
       {
         "id": "game.controller.odyssey2",
         "addonid": "game.controller.odyssey2",
         "name": "Odyssey2 Controller",
         "slug": "game.controller.odyssey2",
-        "version": "1.0.31",
+        "version": "1.0.32",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5227,8 +5229,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.odyssey2/game.controller.odyssey2-1.0.31.zip",
-            "statspath": "/addons/omega/game.controller.odyssey2/game.controller.odyssey2-1.0.31.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.odyssey2/game.controller.odyssey2-1.0.32.zip",
+            "statspath": "/addons/omega/game.controller.odyssey2/game.controller.odyssey2-1.0.32.zip"
           }
         ],
         "categories": [
@@ -5249,19 +5251,19 @@
         "summary": "Odyssey² controller",
         "description": "The Odyssey², also known as the Videopac G7000, was released by Magnavox (now Philips) in 1978. All games produced by Magnavox/Philips ended with an exclamation point, such as K.C. Munchkin! and Kuller Bees!.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "518KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2485,
+        "size": "521KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.odyssey2/resources/icon.png",
-        "snippet": "Odyssey² controller",
-        "prevyeardl": 2485
+        "snippet": "Odyssey² controller"
       },
       {
         "id": "game.controller.osmc.remote",
         "addonid": "game.controller.osmc.remote",
         "name": "OSMC Remote",
         "slug": "game.controller.osmc.remote",
-        "version": "1.0.0",
+        "version": "1.0.4",
         "authors": [
           {
             "name": "OSMC",
@@ -5272,8 +5274,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.osmc.remote/game.controller.osmc.remote-1.0.0.zip",
-            "statspath": "/addons/omega/game.controller.osmc.remote/game.controller.osmc.remote-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.osmc.remote/game.controller.osmc.remote-1.0.4.zip",
+            "statspath": "/addons/omega/game.controller.osmc.remote/game.controller.osmc.remote-1.0.4.zip"
           }
         ],
         "categories": [
@@ -5284,7 +5286,7 @@
           }
         ],
         "firstseen": "2025-02-13T02:26:16.833Z",
-        "agetype": "new",
+        "agetype": "existing",
         "icons": [
           {
             "localpath": "/images/addons/omega/game.controller.osmc.remote/resources/icon.png",
@@ -5293,19 +5295,19 @@
         ],
         "summary": "OSMC Remote",
         "description": "This remote is the perfect way to control OSMC. Visit osmc.tv to learn more!",
-        "size": "211KB",
-        "lastupdate": "2025-02-13T02:26:16.833Z",
-        "downloads": 561,
+        "size": "167KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.osmc.remote/resources/icon.png",
-        "snippet": "OSMC Remote",
-        "prevyeardl": 561
+        "snippet": "OSMC Remote"
       },
       {
         "id": "game.controller.ouya",
         "addonid": "game.controller.ouya",
         "name": "OUYA Controller",
         "slug": "game.controller.ouya",
-        "version": "1.0.27",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Quihico",
@@ -5316,8 +5318,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ouya/game.controller.ouya-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.ouya/game.controller.ouya-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ouya/game.controller.ouya-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.ouya/game.controller.ouya-1.0.29.zip"
           }
         ],
         "categories": [
@@ -5343,19 +5345,19 @@
         ],
         "summary": "OUYA controller",
         "description": "The OUYA is a crowd-funded Android-based microconsole released in 2013. The OUYA controller includes a single-touch touchpad in the center of the controller.",
-        "size": "839KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1556,
+        "size": "842KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ouya/resources/icon.png",
-        "snippet": "OUYA controller",
-        "prevyeardl": 1556
+        "snippet": "OUYA controller"
       },
       {
         "id": "game.controller.pce",
         "addonid": "game.controller.pce",
         "name": "PC Engine Controller",
         "slug": "game.controller.pce",
-        "version": "1.0.31",
+        "version": "1.0.33",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5366,8 +5368,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pce/game.controller.pce-1.0.31.zip",
-            "statspath": "/addons/omega/game.controller.pce/game.controller.pce-1.0.31.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pce/game.controller.pce-1.0.33.zip",
+            "statspath": "/addons/omega/game.controller.pce/game.controller.pce-1.0.33.zip"
           }
         ],
         "categories": [
@@ -5388,19 +5390,19 @@
         "summary": "PC Engine controller",
         "description": "The PC Engine, also known as the TurboGrafx-16, was released by Hudson Soft and NEC in 1987. It became the top-selling console in Japan, but trailed behind both Sega and Nintendo in the North American and Eurpoean markets.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "357KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 3887,
+        "size": "360KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.pce/resources/icon.png",
-        "snippet": "PC Engine controller",
-        "prevyeardl": 3887
+        "snippet": "PC Engine controller"
       },
       {
         "id": "game.controller.joystick.2button",
         "addonid": "game.controller.joystick.2button",
         "name": "PC Joystick (2-Button)",
         "slug": "game.controller.joystick.2button",
-        "version": "1.0.20",
+        "version": "1.0.21",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5411,8 +5413,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.joystick.2button/game.controller.joystick.2button-1.0.20.zip",
-            "statspath": "/addons/omega/game.controller.joystick.2button/game.controller.joystick.2button-1.0.20.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.joystick.2button/game.controller.joystick.2button-1.0.21.zip",
+            "statspath": "/addons/omega/game.controller.joystick.2button/game.controller.joystick.2button-1.0.21.zip"
           }
         ],
         "categories": [
@@ -5432,12 +5434,12 @@
         ],
         "summary": "PC Joystick (2-Button)",
         "description": "The 2-button joystick was compatible with the Game Port, a device port found on IBM PCs throughout the 1980s and 1990s.",
-        "size": "564KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1427,
+        "size": "568KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.joystick.2button/resources/icon.png",
-        "snippet": "PC Joystick (2-Button)",
-        "prevyeardl": 1427
+        "snippet": "PC Joystick (2-Button)"
       },
       {
         "id": "game.controller.joystick.4button",
@@ -5488,7 +5490,7 @@
         "addonid": "game.controller.pcfx",
         "name": "PC-FX Controller",
         "slug": "game.controller.pcfx",
-        "version": "1.0.30",
+        "version": "1.0.32",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5499,8 +5501,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pcfx/game.controller.pcfx-1.0.30.zip",
-            "statspath": "/addons/omega/game.controller.pcfx/game.controller.pcfx-1.0.30.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pcfx/game.controller.pcfx-1.0.32.zip",
+            "statspath": "/addons/omega/game.controller.pcfx/game.controller.pcfx-1.0.32.zip"
           }
         ],
         "categories": [
@@ -5521,12 +5523,12 @@
         "summary": "PC-FX controller",
         "description": "The PC-FX is a 32-bit console released by NEC in 1994. Due to the high cost, underpowered graphics and lack of developer support, it sold poorly and was discontinued in 1998.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "591KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1855,
+        "size": "594KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.pcfx/resources/icon.png",
-        "snippet": "PC-FX controller",
-        "prevyeardl": 1855
+        "snippet": "PC-FX controller"
       },
       {
         "id": "game.controller.pcfx.mouse",
@@ -5578,7 +5580,7 @@
         "addonid": "game.controller.ps.dualanalog",
         "name": "PlayStation Dual Analog",
         "slug": "game.controller.ps.dualanalog",
-        "version": "1.0.34",
+        "version": "1.0.36",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5589,8 +5591,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.dualanalog/game.controller.ps.dualanalog-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.ps.dualanalog/game.controller.ps.dualanalog-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.dualanalog/game.controller.ps.dualanalog-1.0.36.zip",
+            "statspath": "/addons/omega/game.controller.ps.dualanalog/game.controller.ps.dualanalog-1.0.36.zip"
           }
         ],
         "categories": [
@@ -5610,19 +5612,19 @@
         ],
         "summary": "PlayStation Dual Analog",
         "description": "The PlayStation controller was released by Sony Computer Entertainment in 1994. Sony briefly released the Dual Analog controller in 1997, followed by the rumble-enabled DualShock later that year.",
-        "size": "701KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 37734,
+        "size": "703KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.dualanalog/resources/icon.png",
-        "snippet": "PlayStation Dual Analog",
-        "prevyeardl": 37734
+        "snippet": "PlayStation Dual Analog"
       },
       {
         "id": "game.controller.ps.dualshock",
         "addonid": "game.controller.ps.dualshock",
         "name": "PlayStation DualShock",
         "slug": "game.controller.ps.dualshock",
-        "version": "1.0.35",
+        "version": "1.0.37",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5633,8 +5635,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.dualshock/game.controller.ps.dualshock-1.0.35.zip",
-            "statspath": "/addons/omega/game.controller.ps.dualshock/game.controller.ps.dualshock-1.0.35.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.dualshock/game.controller.ps.dualshock-1.0.37.zip",
+            "statspath": "/addons/omega/game.controller.ps.dualshock/game.controller.ps.dualshock-1.0.37.zip"
           }
         ],
         "categories": [
@@ -5654,19 +5656,19 @@
         ],
         "summary": "PlayStation DualShock",
         "description": "The PlayStation controller was released by Sony Computer Entertainment in 1994. Sony briefly released the Dual Analog controller in 1997, followed by the rumble-enabled DualShock later that year.",
-        "size": "367KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 18393,
+        "size": "369KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.dualshock/resources/icon.png",
-        "snippet": "PlayStation DualShock",
-        "prevyeardl": 18393
+        "snippet": "PlayStation DualShock"
       },
       {
         "id": "game.controller.ps.gamepad",
         "addonid": "game.controller.ps.gamepad",
         "name": "PlayStation Gamepad",
         "slug": "game.controller.ps.gamepad",
-        "version": "1.0.32",
+        "version": "1.0.34",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5677,8 +5679,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.gamepad/game.controller.ps.gamepad-1.0.32.zip",
-            "statspath": "/addons/omega/game.controller.ps.gamepad/game.controller.ps.gamepad-1.0.32.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.gamepad/game.controller.ps.gamepad-1.0.34.zip",
+            "statspath": "/addons/omega/game.controller.ps.gamepad/game.controller.ps.gamepad-1.0.34.zip"
           }
         ],
         "categories": [
@@ -5698,19 +5700,19 @@
         ],
         "summary": "PlayStation Gamepad",
         "description": "The PlayStation controller was released by Sony Computer Entertainment in 1994. Sony briefly released the Dual Analog controller in 1997, followed by the rumble-enabled DualShock later that year.",
-        "size": "589KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 14527,
+        "size": "591KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.gamepad/resources/icon.png",
-        "snippet": "PlayStation Gamepad",
-        "prevyeardl": 14527
+        "snippet": "PlayStation Gamepad"
       },
       {
         "id": "game.controller.ps.guncon.japan",
         "addonid": "game.controller.ps.guncon.japan",
         "name": "PlayStation Guncon (Japan)",
         "slug": "game.controller.ps.guncon.japan",
-        "version": "1.0.26",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5721,8 +5723,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.guncon.japan/game.controller.ps.guncon.japan-1.0.26.zip",
-            "statspath": "/addons/omega/game.controller.ps.guncon.japan/game.controller.ps.guncon.japan-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.guncon.japan/game.controller.ps.guncon.japan-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.ps.guncon.japan/game.controller.ps.guncon.japan-1.0.28.zip"
           }
         ],
         "categories": [
@@ -5742,19 +5744,19 @@
         ],
         "summary": "PlayStation Guncon (Japan)",
         "description": "The Guncon, known as G-Con in Europe, is a family of light guns designed by Namco for the PlayStation. The original model was released alongside the PlayStation in 1994.",
-        "size": "581KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 13249,
+        "size": "585KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.guncon.japan/resources/icon.png",
-        "snippet": "PlayStation Guncon (Japan)",
-        "prevyeardl": 13249
+        "snippet": "PlayStation Guncon (Japan)"
       },
       {
         "id": "game.controller.ps.guncon.western",
         "addonid": "game.controller.ps.guncon.western",
         "name": "PlayStation Guncon (Western)",
         "slug": "game.controller.ps.guncon.western",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5765,8 +5767,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.guncon.western/game.controller.ps.guncon.western-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.ps.guncon.western/game.controller.ps.guncon.western-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.guncon.western/game.controller.ps.guncon.western-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.ps.guncon.western/game.controller.ps.guncon.western-1.0.28.zip"
           }
         ],
         "categories": [
@@ -5786,19 +5788,19 @@
         ],
         "summary": "PlayStation Guncon (Western)",
         "description": "The Guncon, known as G-Con in Europe, is a family of light guns designed by Namco for the PlayStation. The original model was released alongside the PlayStation in 1994.",
-        "size": "669KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 13268,
+        "size": "673KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.guncon.western/resources/icon.png",
-        "snippet": "PlayStation Guncon (Western)",
-        "prevyeardl": 13268
+        "snippet": "PlayStation Guncon (Western)"
       },
       {
         "id": "game.controller.ps.mouse",
         "addonid": "game.controller.ps.mouse",
         "name": "PlayStation Mouse",
         "slug": "game.controller.ps.mouse",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5809,8 +5811,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.mouse/game.controller.ps.mouse-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.ps.mouse/game.controller.ps.mouse-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.mouse/game.controller.ps.mouse-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.ps.mouse/game.controller.ps.mouse-1.0.29.zip"
           }
         ],
         "categories": [
@@ -5830,19 +5832,19 @@
         ],
         "summary": "PlayStation mouse",
         "description": "The PlayStation Mouse is a two-button ball mouse. It was released alongside the PlayStation in 1994.",
-        "size": "237KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 13295,
+        "size": "241KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.mouse/resources/icon.png",
-        "snippet": "PlayStation mouse",
-        "prevyeardl": 13295
+        "snippet": "PlayStation mouse"
       },
       {
         "id": "game.controller.ps.multitap",
         "addonid": "game.controller.ps.multitap",
         "name": "PlayStation Multitap",
         "slug": "game.controller.ps.multitap",
-        "version": "1.0.17",
+        "version": "1.0.18",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5853,8 +5855,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.multitap/game.controller.ps.multitap-1.0.17.zip",
-            "statspath": "/addons/omega/game.controller.ps.multitap/game.controller.ps.multitap-1.0.17.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ps.multitap/game.controller.ps.multitap-1.0.18.zip",
+            "statspath": "/addons/omega/game.controller.ps.multitap/game.controller.ps.multitap-1.0.18.zip"
           }
         ],
         "categories": [
@@ -5874,19 +5876,19 @@
         ],
         "summary": "PlayStation Multitap",
         "description": "A multitap increases the number of controller and memory card ports, similar to a USB hub. With a second PlayStation Multitap, up to eight controllers and memory cards can be plugged in at once.",
-        "size": "443KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8869,
+        "size": "447KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ps.multitap/resources/icon.png",
-        "snippet": "PlayStation Multitap",
-        "prevyeardl": 8869
+        "snippet": "PlayStation Multitap"
       },
       {
         "id": "game.controller.pokemini",
         "addonid": "game.controller.pokemini",
         "name": "Pokémini Controller",
         "slug": "game.controller.pokemini",
-        "version": "1.0.28",
+        "version": "1.0.31",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5897,8 +5899,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pokemini/game.controller.pokemini-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.pokemini/game.controller.pokemini-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.pokemini/game.controller.pokemini-1.0.31.zip",
+            "statspath": "/addons/omega/game.controller.pokemini/game.controller.pokemini-1.0.31.zip"
           }
         ],
         "categories": [
@@ -5918,19 +5920,19 @@
         ],
         "summary": "Pokémini Controller",
         "description": "The Pokémon Mini is a handheld game console that was designed and manufactured by Nintendo and themed around the Pokémon media franchise. It is the smallest game system with interchangeable cartridges ever produced by Nintendo, weighing just under two and a half ounces (71 grams).",
-        "size": "1108KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1225,
+        "size": "1112KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.pokemini/resources/icon.png",
-        "snippet": "Pokémini Controller",
-        "prevyeardl": 1225
+        "snippet": "Pokémini Controller"
       },
       {
         "id": "game.controller.psp",
         "addonid": "game.controller.psp",
         "name": "PSP",
         "slug": "game.controller.psp",
-        "version": "1.0.34",
+        "version": "1.0.36",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5941,8 +5943,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.psp/game.controller.psp-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.psp/game.controller.psp-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.psp/game.controller.psp-1.0.36.zip",
+            "statspath": "/addons/omega/game.controller.psp/game.controller.psp-1.0.36.zip"
           }
         ],
         "categories": [
@@ -5963,19 +5965,19 @@
         "summary": "PSP",
         "description": "The PlayStation Portable (PSP) was released by Sony in 2004. It was praised for its high-end GPU and bright 4.3 inch screen. The PSP was succeeded by the PSP Go in 2009, and then the PlayStation Vita in 2011.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "590KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2150,
+        "size": "592KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.psp/resources/icon.png",
-        "snippet": "PSP",
-        "prevyeardl": 2150
+        "snippet": "PSP"
       },
       {
         "id": "game.controller.saturn.arcade.racer",
         "addonid": "game.controller.saturn.arcade.racer",
         "name": "Sega Arcade Racer",
         "slug": "game.controller.saturn.arcade.racer",
-        "version": "1.0.34",
+        "version": "1.0.37",
         "authors": [
           {
             "name": "Team Kodi",
@@ -5986,8 +5988,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.arcade.racer/game.controller.saturn.arcade.racer-1.0.34.zip",
-            "statspath": "/addons/omega/game.controller.saturn.arcade.racer/game.controller.saturn.arcade.racer-1.0.34.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.arcade.racer/game.controller.saturn.arcade.racer-1.0.37.zip",
+            "statspath": "/addons/omega/game.controller.saturn.arcade.racer/game.controller.saturn.arcade.racer-1.0.37.zip"
           }
         ],
         "categories": [
@@ -6008,19 +6010,19 @@
         "summary": "Sega Saturn Arcade Racer",
         "description": "The Arcade Racer, released in 1995, is a racing wheel style controller for the Sega Saturn.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "880KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1234,
+        "size": "882KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.arcade.racer/resources/icon.png",
-        "snippet": "Sega Saturn Arcade Racer",
-        "prevyeardl": 1234
+        "snippet": "Sega Saturn Arcade Racer"
       },
       {
         "id": "game.controller.gamegear",
         "addonid": "game.controller.gamegear",
         "name": "Sega Game Gear",
         "slug": "game.controller.gamegear",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6031,8 +6033,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gamegear/game.controller.gamegear-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.gamegear/game.controller.gamegear-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.gamegear/game.controller.gamegear-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.gamegear/game.controller.gamegear-1.0.28.zip"
           }
         ],
         "categories": [
@@ -6053,19 +6055,19 @@
         "summary": "Sega Game Gear",
         "description": "The Sega Game Gear is an 8-bit handheld video game console released in 1990. While it had a full-color backlit screen and fast processor, the battery life and large size were often criticized.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "559KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1506,
+        "size": "562KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.gamegear/resources/icon.png",
-        "snippet": "Sega Game Gear",
-        "prevyeardl": 1506
+        "snippet": "Sega Game Gear"
       },
       {
         "id": "game.controller.sms",
         "addonid": "game.controller.sms",
         "name": "Sega Master System Controller",
         "slug": "game.controller.sms",
-        "version": "1.0.31",
+        "version": "1.0.32",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6076,8 +6078,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.sms/game.controller.sms-1.0.31.zip",
-            "statspath": "/addons/omega/game.controller.sms/game.controller.sms-1.0.31.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.sms/game.controller.sms-1.0.32.zip",
+            "statspath": "/addons/omega/game.controller.sms/game.controller.sms-1.0.32.zip"
           }
         ],
         "categories": [
@@ -6098,19 +6100,19 @@
         "summary": "Sega Master System controller",
         "description": "The Master System, originally named the Mark III, was released by Sega in 1985. As of 2015, the Master System is the longest-lived game console due to its surging popularity in Brazil.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "204KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1417,
+        "size": "207KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.sms/resources/icon.png",
-        "snippet": "Sega Master System controller",
-        "prevyeardl": 1417
+        "snippet": "Sega Master System controller"
       },
       {
         "id": "game.controller.saturn.mission.stick",
         "addonid": "game.controller.saturn.mission.stick",
         "name": "Sega Mission Stick",
         "slug": "game.controller.saturn.mission.stick",
-        "version": "1.0.38",
+        "version": "1.0.40",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6121,8 +6123,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mission.stick/game.controller.saturn.mission.stick-1.0.38.zip",
-            "statspath": "/addons/omega/game.controller.saturn.mission.stick/game.controller.saturn.mission.stick-1.0.38.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mission.stick/game.controller.saturn.mission.stick-1.0.40.zip",
+            "statspath": "/addons/omega/game.controller.saturn.mission.stick/game.controller.saturn.mission.stick-1.0.40.zip"
           }
         ],
         "categories": [
@@ -6143,19 +6145,19 @@
         "summary": "Sega Mission Stick",
         "description": "The Sega Mission Stick is a fight stick for the Sega Saturn released in 1995. A second stick could be connected to allow twin sticks in Panzer Dragoon Zwei.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "957KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1197,
+        "size": "959KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.mission.stick/resources/icon.png",
-        "snippet": "Sega Mission Stick",
-        "prevyeardl": 1197
+        "snippet": "Sega Mission Stick"
       },
       {
         "id": "game.controller.saturn.mission.sticks",
         "addonid": "game.controller.saturn.mission.sticks",
         "name": "Sega Mission Sticks",
         "slug": "game.controller.saturn.mission.sticks",
-        "version": "1.0.37",
+        "version": "1.0.39",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6166,8 +6168,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mission.sticks/game.controller.saturn.mission.sticks-1.0.37.zip",
-            "statspath": "/addons/omega/game.controller.saturn.mission.sticks/game.controller.saturn.mission.sticks-1.0.37.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mission.sticks/game.controller.saturn.mission.sticks-1.0.39.zip",
+            "statspath": "/addons/omega/game.controller.saturn.mission.sticks/game.controller.saturn.mission.sticks-1.0.39.zip"
           }
         ],
         "categories": [
@@ -6188,19 +6190,19 @@
         "summary": "Sega Dual Mission Sticks",
         "description": "The Sega Mission Stick is a fight stick for the Sega Saturn released in 1995. A second stick could be connected to allow twin sticks in Panzer Dragoon Zwei.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "769KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1179,
+        "size": "772KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.mission.sticks/resources/icon.png",
-        "snippet": "Sega Dual Mission Sticks",
-        "prevyeardl": 1179
+        "snippet": "Sega Dual Mission Sticks"
       },
       {
         "id": "game.controller.saturn.3d.japan",
         "addonid": "game.controller.saturn.3d.japan",
         "name": "Sega Saturn 3D (Japan)",
         "slug": "game.controller.saturn.3d.japan",
-        "version": "1.0.36",
+        "version": "1.0.40",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6211,8 +6213,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.3d.japan/game.controller.saturn.3d.japan-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.saturn.3d.japan/game.controller.saturn.3d.japan-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.3d.japan/game.controller.saturn.3d.japan-1.0.40.zip",
+            "statspath": "/addons/omega/game.controller.saturn.3d.japan/game.controller.saturn.3d.japan-1.0.40.zip"
           }
         ],
         "categories": [
@@ -6233,19 +6235,19 @@
         "summary": "Sega Saturn 3D (Japan)",
         "description": "The Sega Saturn 3D Control Pad was released in 1996. It was Sega's answer to the revolutionary Nintendo 64 controller, which featured an analogue stick for greater precision in a 3D environment.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "947KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1226,
+        "size": "950KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.3d.japan/resources/icon.png",
-        "snippet": "Sega Saturn 3D (Japan)",
-        "prevyeardl": 1226
+        "snippet": "Sega Saturn 3D (Japan)"
       },
       {
         "id": "game.controller.saturn.3d.western",
         "addonid": "game.controller.saturn.3d.western",
         "name": "Sega Saturn 3D (Western)",
         "slug": "game.controller.saturn.3d.western",
-        "version": "1.0.36",
+        "version": "1.0.40",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6256,8 +6258,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.3d.western/game.controller.saturn.3d.western-1.0.36.zip",
-            "statspath": "/addons/omega/game.controller.saturn.3d.western/game.controller.saturn.3d.western-1.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.3d.western/game.controller.saturn.3d.western-1.0.40.zip",
+            "statspath": "/addons/omega/game.controller.saturn.3d.western/game.controller.saturn.3d.western-1.0.40.zip"
           }
         ],
         "categories": [
@@ -6278,12 +6280,12 @@
         "summary": "Sega Saturn 3D (Western)",
         "description": "The Sega Saturn 3D Control Pad was released in 1996. It was Sega's answer to the revolutionary Nintendo 64 controller, which featured an analogue stick for greater precision in a 3D environment.",
         "disclaimer": "图片来源：维基百科（Wikipedia.org）",
-        "size": "1257KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1263,
+        "size": "1260KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.3d.western/resources/icon.png",
-        "snippet": "Sega Saturn 3D (Western)",
-        "prevyeardl": 1263
+        "snippet": "Sega Saturn 3D (Western)"
       },
       {
         "id": "game.controller.saturn.multitap",
@@ -6335,7 +6337,7 @@
         "addonid": "game.controller.saturn",
         "name": "Sega Saturn Controller",
         "slug": "game.controller.saturn",
-        "version": "1.0.33",
+        "version": "1.0.38",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6346,8 +6348,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn/game.controller.saturn-1.0.33.zip",
-            "statspath": "/addons/omega/game.controller.saturn/game.controller.saturn-1.0.33.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn/game.controller.saturn-1.0.38.zip",
+            "statspath": "/addons/omega/game.controller.saturn/game.controller.saturn-1.0.38.zip"
           }
         ],
         "categories": [
@@ -6367,19 +6369,19 @@
         ],
         "summary": "Sega Saturn controller",
         "description": "The original controller for the Sega Saturn debuted in Japan in 1994. In North America and Europe, a different, much bulkier controller was released to supposedly accommodate for the \"bigger hands\" of western consumers.",
-        "size": "395KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 3981,
+        "size": "398KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn/resources/icon.png",
-        "snippet": "Sega Saturn controller",
-        "prevyeardl": 3981
+        "snippet": "Sega Saturn controller"
       },
       {
         "id": "game.controller.sg1000",
         "addonid": "game.controller.sg1000",
         "name": "Sega SG-1000 Controller",
         "slug": "game.controller.sg1000",
-        "version": "1.0.32",
+        "version": "1.0.33",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6390,8 +6392,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.sg1000/game.controller.sg1000-1.0.32.zip",
-            "statspath": "/addons/omega/game.controller.sg1000/game.controller.sg1000-1.0.32.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.sg1000/game.controller.sg1000-1.0.33.zip",
+            "statspath": "/addons/omega/game.controller.sg1000/game.controller.sg1000-1.0.33.zip"
           }
         ],
         "categories": [
@@ -6412,19 +6414,19 @@
         "summary": "Sega SG-1000 controller",
         "description": "The SG-1000, also known as the Computer Videogame SG-1000, was Sega's first entry into the console business in 1983. However, due to market saturation and the Video Game Crash of 1983, it was not commercially successful.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "465KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1173,
+        "size": "468KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.sg1000/resources/icon.png",
-        "snippet": "Sega SG-1000 controller",
-        "prevyeardl": 1173
+        "snippet": "Sega SG-1000 controller"
       },
       {
         "id": "game.controller.saturn.mouse",
         "addonid": "game.controller.saturn.mouse",
         "name": "Sega Shuttle Mouse",
         "slug": "game.controller.saturn.mouse",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6435,8 +6437,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mouse/game.controller.saturn.mouse-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.saturn.mouse/game.controller.saturn.mouse-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.mouse/game.controller.saturn.mouse-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.saturn.mouse/game.controller.saturn.mouse-1.0.28.zip"
           }
         ],
         "categories": [
@@ -6456,19 +6458,19 @@
         ],
         "summary": "Sega Shuttle Mouse",
         "description": "The Shuttle Mouse, released in 1994, is an official mouse peripheral for the Sega Saturn. It was designed to be used with simulation-oriented games",
-        "size": "659KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1226,
+        "size": "661KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.mouse/resources/icon.png",
-        "snippet": "Sega Shuttle Mouse",
-        "prevyeardl": 1226
+        "snippet": "Sega Shuttle Mouse"
       },
       {
         "id": "game.controller.saturn.twin.stick",
         "addonid": "game.controller.saturn.twin.stick",
         "name": "Sega Twin Stick",
         "slug": "game.controller.saturn.twin.stick",
-        "version": "1.0.25",
+        "version": "1.0.26",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6479,8 +6481,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.twin.stick/game.controller.saturn.twin.stick-1.0.25.zip",
-            "statspath": "/addons/omega/game.controller.saturn.twin.stick/game.controller.saturn.twin.stick-1.0.25.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.twin.stick/game.controller.saturn.twin.stick-1.0.26.zip",
+            "statspath": "/addons/omega/game.controller.saturn.twin.stick/game.controller.saturn.twin.stick-1.0.26.zip"
           }
         ],
         "categories": [
@@ -6501,19 +6503,19 @@
         "summary": "Sega Twin Stick",
         "description": "The Sega Twin Stick, released in 1996, features two joysticks at the expense of fewer buttons. It was designed for the game Cyber Troopers Virtual-On.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "1066KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1178,
+        "size": "1068KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.twin.stick/resources/icon.png",
-        "snippet": "Sega Twin Stick",
-        "prevyeardl": 1178
+        "snippet": "Sega Twin Stick"
       },
       {
         "id": "game.controller.saturn.virtua.gun.eu",
         "addonid": "game.controller.saturn.virtua.gun.eu",
         "name": "Sega Virtua Gun (European)",
         "slug": "game.controller.saturn.virtua.gun.eu",
-        "version": "1.0.33",
+        "version": "1.0.34",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6524,8 +6526,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.eu/game.controller.saturn.virtua.gun.eu-1.0.33.zip",
-            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.eu/game.controller.saturn.virtua.gun.eu-1.0.33.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.eu/game.controller.saturn.virtua.gun.eu-1.0.34.zip",
+            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.eu/game.controller.saturn.virtua.gun.eu-1.0.34.zip"
           }
         ],
         "categories": [
@@ -6546,19 +6548,19 @@
         "summary": "Sega Virtua Gun (European)",
         "description": "The Virtua Gun was released for the Sega Saturn in 1995. Bright colors were used for western models due to fears that it could be linked with gun crime.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "577KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1187,
+        "size": "579KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.virtua.gun.eu/resources/icon.png",
-        "snippet": "Sega Virtua Gun (European)",
-        "prevyeardl": 1187
+        "snippet": "Sega Virtua Gun (European)"
       },
       {
         "id": "game.controller.saturn.virtua.gun.japan",
         "addonid": "game.controller.saturn.virtua.gun.japan",
         "name": "Sega Virtua Gun (Japan)",
         "slug": "game.controller.saturn.virtua.gun.japan",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6569,8 +6571,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.japan/game.controller.saturn.virtua.gun.japan-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.japan/game.controller.saturn.virtua.gun.japan-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.japan/game.controller.saturn.virtua.gun.japan-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.japan/game.controller.saturn.virtua.gun.japan-1.0.29.zip"
           }
         ],
         "categories": [
@@ -6591,19 +6593,19 @@
         "summary": "Sega Virtua Gun",
         "description": "The Virtua Gun was released for the Sega Saturn in 1995. Bright colors were used for western models due to fears that it could be linked with gun crime.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "310KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1179,
+        "size": "313KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.virtua.gun.japan/resources/icon.png",
-        "snippet": "Sega Virtua Gun",
-        "prevyeardl": 1179
+        "snippet": "Sega Virtua Gun"
       },
       {
         "id": "game.controller.saturn.virtua.gun.us",
         "addonid": "game.controller.saturn.virtua.gun.us",
         "name": "Sega Virtua Gun (US)",
         "slug": "game.controller.saturn.virtua.gun.us",
-        "version": "1.0.30",
+        "version": "1.0.31",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6614,8 +6616,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.us/game.controller.saturn.virtua.gun.us-1.0.30.zip",
-            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.us/game.controller.saturn.virtua.gun.us-1.0.30.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.saturn.virtua.gun.us/game.controller.saturn.virtua.gun.us-1.0.31.zip",
+            "statspath": "/addons/omega/game.controller.saturn.virtua.gun.us/game.controller.saturn.virtua.gun.us-1.0.31.zip"
           }
         ],
         "categories": [
@@ -6636,19 +6638,19 @@
         "summary": "Sega Virtua Gun (US)",
         "description": "The Virtua Gun was released for the Sega Saturn in 1995. Bright colors were used for western models due to fears that it could be linked with gun crime.",
         "disclaimer": "图片来源：Sega Retro（segaretro.org）",
-        "size": "578KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 1193,
+        "size": "580KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.saturn.virtua.gun.us/resources/icon.png",
-        "snippet": "Sega Virtua Gun (US)",
-        "prevyeardl": 1193
+        "snippet": "Sega Virtua Gun (US)"
       },
       {
         "id": "game.controller.snes",
         "addonid": "game.controller.snes",
         "name": "SNES Controller",
         "slug": "game.controller.snes",
-        "version": "1.0.40",
+        "version": "1.0.43",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6659,8 +6661,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes/game.controller.snes-1.0.40.zip",
-            "statspath": "/addons/omega/game.controller.snes/game.controller.snes-1.0.40.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes/game.controller.snes-1.0.43.zip",
+            "statspath": "/addons/omega/game.controller.snes/game.controller.snes-1.0.43.zip"
           }
         ],
         "categories": [
@@ -6682,18 +6684,18 @@
         "description": "The SNES (akso known as Super NES or Super Nintendo) is a 16-bit console released in 1990. The controller design served as inspiration for the PlayStation, Dreamcast, Xbox and Wii Classic controllers.",
         "disclaimer": "圖片來源：OpenEmu (openemu.org)",
         "size": "445KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 359860,
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.snes/resources/icon.png",
-        "snippet": "SNES controller",
-        "prevyeardl": 359860
+        "snippet": "SNES controller"
       },
       {
         "id": "game.controller.snes.mouse",
         "addonid": "game.controller.snes.mouse",
         "name": "SNES Mouse",
         "slug": "game.controller.snes.mouse",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6704,8 +6706,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.mouse/game.controller.snes.mouse-1.0.27.zip",
-            "statspath": "/addons/omega/game.controller.snes.mouse/game.controller.snes.mouse-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.mouse/game.controller.snes.mouse-1.0.28.zip",
+            "statspath": "/addons/omega/game.controller.snes.mouse/game.controller.snes.mouse-1.0.28.zip"
           }
         ],
         "categories": [
@@ -6725,19 +6727,19 @@
         ],
         "summary": "SNES mouse",
         "description": "The SNES mouse was first released in 1992. It was originally designed for use with the game Mario Paint.",
-        "size": "538KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 12593,
+        "size": "542KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.snes.mouse/resources/icon.png",
-        "snippet": "SNES mouse",
-        "prevyeardl": 12593
+        "snippet": "SNES mouse"
       },
       {
         "id": "game.controller.snes.multitap",
         "addonid": "game.controller.snes.multitap",
         "name": "Super Multitap",
         "slug": "game.controller.snes.multitap",
-        "version": "1.0.17",
+        "version": "1.0.18",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6748,8 +6750,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.multitap/game.controller.snes.multitap-1.0.17.zip",
-            "statspath": "/addons/omega/game.controller.snes.multitap/game.controller.snes.multitap-1.0.17.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.multitap/game.controller.snes.multitap-1.0.18.zip",
+            "statspath": "/addons/omega/game.controller.snes.multitap/game.controller.snes.multitap-1.0.18.zip"
           }
         ],
         "categories": [
@@ -6769,19 +6771,19 @@
         ],
         "summary": "Super Multitap",
         "description": "A multitap increases the number of controller ports, similar to a USB hub. The Super Multitap was released by Hudson Soft in 1993 for use with the Bomberman games.",
-        "size": "262KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 14785,
+        "size": "266KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.snes.multitap/resources/icon.png",
-        "snippet": "Super Multitap",
-        "prevyeardl": 14785
+        "snippet": "Super Multitap"
       },
       {
         "id": "game.controller.snes.super.scope",
         "addonid": "game.controller.snes.super.scope",
         "name": "Super Scope",
         "slug": "game.controller.snes.super.scope",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6792,8 +6794,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.super.scope/game.controller.snes.super.scope-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.snes.super.scope/game.controller.snes.super.scope-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.snes.super.scope/game.controller.snes.super.scope-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.snes.super.scope/game.controller.snes.super.scope-1.0.29.zip"
           }
         ],
         "categories": [
@@ -6813,19 +6815,19 @@
         ],
         "summary": "Super Scope",
         "description": "The Super Scope is a light gun for the SNES. It was released in 1992 as a successor to the NES Zapper.",
-        "size": "340KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 14701,
+        "size": "344KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.snes.super.scope/resources/icon.png",
-        "snippet": "Super Scope",
-        "prevyeardl": 14701
+        "snippet": "Super Scope"
       },
       {
         "id": "game.controller.remote",
         "addonid": "game.controller.remote",
         "name": "TV Remote",
         "slug": "game.controller.remote",
-        "version": "1.0.29",
+        "version": "1.0.31",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6836,8 +6838,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.remote/game.controller.remote-1.0.29.zip",
-            "statspath": "/addons/omega/game.controller.remote/game.controller.remote-1.0.29.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.remote/game.controller.remote-1.0.31.zip",
+            "statspath": "/addons/omega/game.controller.remote/game.controller.remote-1.0.31.zip"
           }
         ],
         "categories": [
@@ -6857,19 +6859,19 @@
         ],
         "summary": "TV Remote",
         "description": "A TV remote with basic navigational capabilities.",
-        "size": "351KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 915033,
+        "size": "353KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.remote/resources/icon.png",
-        "snippet": "TV Remote",
-        "prevyeardl": 915033
+        "snippet": "TV Remote"
       },
       {
         "id": "game.controller.vectrex",
         "addonid": "game.controller.vectrex",
         "name": "Vectrex Controller",
         "slug": "game.controller.vectrex",
-        "version": "1.0.28",
+        "version": "1.0.29",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6880,8 +6882,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.vectrex/game.controller.vectrex-1.0.28.zip",
-            "statspath": "/addons/omega/game.controller.vectrex/game.controller.vectrex-1.0.28.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.vectrex/game.controller.vectrex-1.0.29.zip",
+            "statspath": "/addons/omega/game.controller.vectrex/game.controller.vectrex-1.0.29.zip"
           }
         ],
         "categories": [
@@ -6902,19 +6904,19 @@
         "summary": "Vectrex controller",
         "description": "The Vectrex was released in 1982 by General Consumer Electronics (later purchased by Milton Bradley). The console featured a built-in monochrome monitor capable of displaying vector graphics.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "752KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2421,
+        "size": "755KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.vectrex/resources/icon.png",
-        "snippet": "Vectrex controller",
-        "prevyeardl": 2421
+        "snippet": "Vectrex controller"
       },
       {
         "id": "game.controller.wiimote",
         "addonid": "game.controller.wiimote",
         "name": "Wii Remote Controller",
         "slug": "game.controller.wiimote",
-        "version": "1.0.30",
+        "version": "1.0.31",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6925,8 +6927,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.wiimote/game.controller.wiimote-1.0.30.zip",
-            "statspath": "/addons/omega/game.controller.wiimote/game.controller.wiimote-1.0.30.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.wiimote/game.controller.wiimote-1.0.31.zip",
+            "statspath": "/addons/omega/game.controller.wiimote/game.controller.wiimote-1.0.31.zip"
           }
         ],
         "categories": [
@@ -6947,19 +6949,19 @@
         "summary": "Wii Remote controller",
         "description": "The Wii Remote, also known colloquially as the Wiimote, is the primary game controller for the Nintendo Wii home video game console.",
         "disclaimer": "图片来源：open-joysick-display（https://github.com/RetroWeeb/open-joystick-display）根据 BSD 许可证+ 获得授权",
-        "size": "166KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2749,
+        "size": "169KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.wiimote/resources/icon.png",
-        "snippet": "Wii Remote controller",
-        "prevyeardl": 2749
+        "snippet": "Wii Remote controller"
       },
       {
         "id": "game.controller.ws",
         "addonid": "game.controller.ws",
         "name": "WonderSwan",
         "slug": "game.controller.ws",
-        "version": "1.0.30",
+        "version": "1.0.32",
         "authors": [
           {
             "name": "Team Kodi",
@@ -6970,8 +6972,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ws/game.controller.ws-1.0.30.zip",
-            "statspath": "/addons/omega/game.controller.ws/game.controller.ws-1.0.30.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.ws/game.controller.ws-1.0.32.zip",
+            "statspath": "/addons/omega/game.controller.ws/game.controller.ws-1.0.32.zip"
           }
         ],
         "categories": [
@@ -6992,19 +6994,19 @@
         "summary": "WonderSwan",
         "description": "The WonderSwan is a 16-bit handheld console released in 1999 by Bandai. It is playable both vertically and horizontally, and was praised for its long battery life and unique library of games.",
         "disclaimer": "图片来源：OpenEmu（openemu.org）",
-        "size": "568KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2667,
+        "size": "570KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.ws/resources/icon.png",
-        "snippet": "WonderSwan",
-        "prevyeardl": 2667
+        "snippet": "WonderSwan"
       },
       {
         "id": "game.controller.xbox.360",
         "addonid": "game.controller.xbox.360",
         "name": "Xbox 360 Controller",
         "slug": "game.controller.xbox.360",
-        "version": "1.0.0",
+        "version": "1.0.7",
         "authors": [
           {
             "name": "Team Kodi",
@@ -7015,8 +7017,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.xbox.360/game.controller.xbox.360-1.0.0.zip",
-            "statspath": "/addons/omega/game.controller.xbox.360/game.controller.xbox.360-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.controller.xbox.360/game.controller.xbox.360-1.0.7.zip",
+            "statspath": "/addons/omega/game.controller.xbox.360/game.controller.xbox.360-1.0.7.zip"
           }
         ],
         "categories": [
@@ -7027,7 +7029,7 @@
           }
         ],
         "firstseen": "2025-02-13T02:26:16.833Z",
-        "agetype": "new",
+        "agetype": "existing",
         "icons": [
           {
             "localpath": "/images/addons/omega/game.controller.xbox.360/resources/icon.png",
@@ -7036,12 +7038,12 @@
         ],
         "summary": "Xbox 360 Controller",
         "description": "The Xbox 360 was introduced at E3 in 2005. The controller is known for its enduring comfort.",
-        "size": "629KB",
-        "lastupdate": "2025-02-13T02:26:16.833Z",
-        "downloads": 1431,
+        "size": "631KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.controller.xbox.360/resources/icon.png",
-        "snippet": "Xbox 360 Controller",
-        "prevyeardl": 1431
+        "snippet": "Xbox 360 Controller"
       }
     ],
     "totaladdons": 84
@@ -7809,7 +7811,7 @@
         "addonid": "game.libretro.fbneo",
         "name": "Arcade (FinalBurn Neo)",
         "slug": "game.libretro.fbneo",
-        "version": "1.0.0.85",
+        "version": "1.0.0.86",
         "authors": [
           {
             "name": "Team FBNeo",
@@ -7819,34 +7821,34 @@
         ],
         "platforms": [
           {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.85.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.85.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+osx-arm64/game.libretro.fbneo-1.0.0.85.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+osx-arm64/game.libretro.fbneo-1.0.0.85.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+android-armv7/game.libretro.fbneo-1.0.0.85.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+android-armv7/game.libretro.fbneo-1.0.0.85.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.85.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.85.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.84.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.84.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+windows-x86_64/game.libretro.fbneo-1.0.0.86.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.84.zip",
-            "statspath": "/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.84.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+windows-i686/game.libretro.fbneo-1.0.0.86.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+osx-x86_64/game.libretro.fbneo-1.0.0.86.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+osx-arm64/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+osx-arm64/game.libretro.fbneo-1.0.0.86.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+android-aarch64/game.libretro.fbneo-1.0.0.86.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fbneo+android-armv7/game.libretro.fbneo-1.0.0.86.zip",
+            "statspath": "/addons/omega/game.libretro.fbneo+android-armv7/game.libretro.fbneo-1.0.0.86.zip"
           }
         ],
         "categories": [
@@ -7869,9 +7871,10 @@
         "summary": "Arcade (FinalBurn Neo)",
         "description": "FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.\n\nFB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.",
         "disclaimer": "图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）",
-        "size": "16936KB",
-        "lastupdate": "2025-07-26T02:39:37.210Z",
+        "size": "13530KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.fbneo/resources/icon.png",
         "snippet": "Arcade (FinalBurn Neo)"
       },
@@ -9695,7 +9698,6 @@
         "size": "1960KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x128/resources/icon.png",
         "snippet": "Commodore - C128 (VICE x128)"
       },
@@ -9837,7 +9839,6 @@
         "size": "1894KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64/resources/icon.png",
         "snippet": "Commodore - C64 (VICE x64, fast)"
       },
@@ -9981,7 +9982,6 @@
         "size": "1877KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64sc/resources/icon.png",
         "snippet": "Commodore - C64 (VICE x64sc, accurate)"
       },
@@ -10052,7 +10052,6 @@
         "size": "1923KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xscpu64/resources/icon.png",
         "snippet": "Commodore - C64 SuperCPU (VICE xscpu64)"
       },
@@ -10123,7 +10122,6 @@
         "size": "1324KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_x64dtv/resources/icon.png",
         "snippet": "Commodore - C64DTV (VICE x64dtv)"
       },
@@ -10194,7 +10192,6 @@
         "size": "1636KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xcbm5x0/resources/icon.png",
         "snippet": "Commodore - CBM-II 5x0 (VICE xcbm5x0)"
       },
@@ -10265,7 +10262,6 @@
         "size": "1575KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xcbm2/resources/icon.png",
         "snippet": "Commodore - CBM-II 6x0/7x0 (VICE xcbm2)"
       },
@@ -10336,7 +10332,6 @@
         "size": "1627KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xpet/resources/icon.png",
         "snippet": "Commodore - PET (VICE xpet)"
       },
@@ -10407,7 +10402,6 @@
         "size": "1665KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xplus4/resources/icon.png",
         "snippet": "Commodore - PLUS/4 (VICE xplus4)"
       },
@@ -10478,7 +10472,6 @@
         "size": "1633KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vice_xvic/resources/icon.png",
         "snippet": "Commodore - VIC-20 (VICE xvic)"
       },
@@ -10793,7 +10786,7 @@
         "addonid": "game.libretro.dosbox-pure",
         "name": "DOS (DOSBox-Pure)",
         "slug": "game.libretro.dosbox-pure",
-        "version": "1.0.0.36",
+        "version": "1.0.0.37",
         "authors": [
           {
             "name": "DOSBox Team",
@@ -10809,33 +10802,33 @@
         "platforms": [
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+windows-x86_64/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+windows-x86_64/game.libretro.dosbox-pure-1.0.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+windows-x86_64/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+windows-x86_64/game.libretro.dosbox-pure-1.0.0.37.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+windows-i686/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+windows-i686/game.libretro.dosbox-pure-1.0.0.36.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+android-aarch64/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+android-aarch64/game.libretro.dosbox-pure-1.0.0.36.zip"
-          },
-          {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+osx-x86_64/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+osx-x86_64/game.libretro.dosbox-pure-1.0.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+windows-i686/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+windows-i686/game.libretro.dosbox-pure-1.0.0.37.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+android-armv7/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+android-armv7/game.libretro.dosbox-pure-1.0.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+android-armv7/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+android-armv7/game.libretro.dosbox-pure-1.0.0.37.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+osx-x86_64/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+osx-x86_64/game.libretro.dosbox-pure-1.0.0.37.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+osx-arm64/game.libretro.dosbox-pure-1.0.0.36.zip",
-            "statspath": "/addons/omega/game.libretro.dosbox-pure+osx-arm64/game.libretro.dosbox-pure-1.0.0.36.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+osx-arm64/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+osx-arm64/game.libretro.dosbox-pure-1.0.0.37.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.dosbox-pure+android-aarch64/game.libretro.dosbox-pure-1.0.0.37.zip",
+            "statspath": "/addons/omega/game.libretro.dosbox-pure+android-aarch64/game.libretro.dosbox-pure-1.0.0.37.zip"
           }
         ],
         "categories": [
@@ -10857,9 +10850,10 @@
         ],
         "summary": "DOS (DOSBox-Pure)",
         "description": "DOSBox Pure is a new fork of DOSBox built for RetroArch/Libretro aiming for simplicity and ease of use.",
-        "size": "1199KB",
-        "lastupdate": "2025-05-09T02:34:12.570Z",
+        "size": "1601KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.dosbox-pure/resources/icon.png",
         "snippet": "DOS (DOSBox-Pure)"
       },
@@ -11641,7 +11635,7 @@
         "addonid": "game.libretro.lutro",
         "name": "Lua Engine (Lutro)",
         "slug": "game.libretro.lutro",
-        "version": "0.0.1.39",
+        "version": "0.0.1.40",
         "authors": [
           {
             "name": "Higor Euripedes/Jean-Andre Santoni",
@@ -11651,34 +11645,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.39.zip"
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.40.zip"
           },
           {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+windows-i686/game.libretro.lutro-0.0.1.39.zip"
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+windows-x86_64/game.libretro.lutro-0.0.1.40.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.39.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+android-armv7/game.libretro.lutro-0.0.1.40.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.39.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+osx-x86_64/game.libretro.lutro-0.0.1.40.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+osx-arm64/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+osx-arm64/game.libretro.lutro-0.0.1.39.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+osx-arm64/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+osx-arm64/game.libretro.lutro-0.0.1.40.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+android-aarch64/game.libretro.lutro-0.0.1.39.zip",
-            "statspath": "/addons/omega/game.libretro.lutro+android-aarch64/game.libretro.lutro-0.0.1.39.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.lutro+android-aarch64/game.libretro.lutro-0.0.1.40.zip",
+            "statspath": "/addons/omega/game.libretro.lutro+android-aarch64/game.libretro.lutro-0.0.1.40.zip"
           }
         ],
         "categories": [
@@ -11701,8 +11695,9 @@
         "summary": "Lua Engine (Lutro)",
         "description": "Lutro is an experimental Lua game framework for libretro inspired by LÖVE.",
         "size": "506KB",
-        "lastupdate": "2025-07-01T02:45:34.908Z",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.lutro/resources/icon.png",
         "snippet": "Lua Engine (Lutro)"
       },
@@ -11998,7 +11993,7 @@
         "addonid": "game.libretro.fmsx",
         "name": "Microsoft - MSX (fMSX)",
         "slug": "game.libretro.fmsx",
-        "version": "6.0.0.44",
+        "version": "6.0.0.45",
         "authors": [
           {
             "name": "Marat Fayzullin",
@@ -12009,33 +12004,33 @@
         "platforms": [
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+windows-i686/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+windows-i686/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+windows-i686/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+windows-i686/game.libretro.fmsx-6.0.0.45.zip"
           },
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+windows-x86_64/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+windows-x86_64/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+windows-x86_64/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+windows-x86_64/game.libretro.fmsx-6.0.0.45.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+android-aarch64/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+android-aarch64/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+android-aarch64/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+android-aarch64/game.libretro.fmsx-6.0.0.45.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+android-armv7/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+android-armv7/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+android-armv7/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+android-armv7/game.libretro.fmsx-6.0.0.45.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+osx-x86_64/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+osx-x86_64/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+osx-x86_64/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+osx-x86_64/game.libretro.fmsx-6.0.0.45.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+osx-arm64/game.libretro.fmsx-6.0.0.44.zip",
-            "statspath": "/addons/omega/game.libretro.fmsx+osx-arm64/game.libretro.fmsx-6.0.0.44.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.fmsx+osx-arm64/game.libretro.fmsx-6.0.0.45.zip",
+            "statspath": "/addons/omega/game.libretro.fmsx+osx-arm64/game.libretro.fmsx-6.0.0.45.zip"
           }
         ],
         "categories": [
@@ -12058,12 +12053,12 @@
         "summary": "Microsoft - MSX (fMSX)",
         "description": "fMSX is a MSX emulator written by Marat Fayzullin. It emulates MSX, MSX2, and MSX2+ 8-bit home computers.",
         "disclaimer": "图片来源：Garage Research 模拟器",
-        "size": "210KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 34308,
+        "size": "218KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.fmsx/resources/icon.png",
-        "snippet": "Microsoft - MSX (fMSX)",
-        "prevyeardl": 34308
+        "snippet": "Microsoft - MSX (fMSX)"
       },
       {
         "id": "game.libretro.craft",
@@ -12310,7 +12305,7 @@
         "addonid": "game.libretro.beetle-pce-fast",
         "name": "NEC - PC Engine / CD (Beetle PCE FAST)",
         "slug": "game.libretro.beetle-pce-fast",
-        "version": "1.31.0.56",
+        "version": "1.31.0.57",
         "authors": [
           {
             "name": "Mednafen Team",
@@ -12320,34 +12315,34 @@
         ],
         "platforms": [
           {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.56.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+osx-arm64/game.libretro.beetle-pce-fast-1.31.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+osx-arm64/game.libretro.beetle-pce-fast-1.31.0.56.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.56.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.56.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.56.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.55.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.55.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-x86_64/game.libretro.beetle-pce-fast-1.31.0.57.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.55.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.55.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+windows-i686/game.libretro.beetle-pce-fast-1.31.0.57.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-armv7/game.libretro.beetle-pce-fast-1.31.0.57.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+osx-x86_64/game.libretro.beetle-pce-fast-1.31.0.57.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+osx-arm64/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+osx-arm64/game.libretro.beetle-pce-fast-1.31.0.57.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.57.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-pce-fast+android-aarch64/game.libretro.beetle-pce-fast-1.31.0.57.zip"
           }
         ],
         "categories": [
@@ -12383,9 +12378,10 @@
         ],
         "summary": "NEC - PC Engine / CD (Beetle PCE FAST)",
         "description": "Beetle PC Engine Fast is a fork of Mednafen's PC Engine Fast driver.\n\nCompared to Beetle PC Engine, the fast version trades away typically unnecessary accuracy in favor of speed.",
-        "size": "1680KB",
-        "lastupdate": "2025-07-26T02:39:37.210Z",
+        "size": "1409KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-pce-fast/resources/icon.png",
         "snippet": "NEC - PC Engine / CD (Beetle PCE FAST)"
       },
@@ -12998,7 +12994,7 @@
         "addonid": "game.libretro.gambatte",
         "name": "Nintendo - Game Boy / Color (Gambatte)",
         "slug": "game.libretro.gambatte",
-        "version": "0.5.0.58",
+        "version": "0.5.0.59",
         "authors": [
           {
             "name": "Sinamas",
@@ -13009,33 +13005,33 @@
         "platforms": [
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.58.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+windows-i686/game.libretro.gambatte-0.5.0.59.zip"
           },
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.58.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+windows-x86_64/game.libretro.gambatte-0.5.0.59.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+osx-x86_64/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+osx-x86_64/game.libretro.gambatte-0.5.0.58.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.58.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+osx-x86_64/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+osx-x86_64/game.libretro.gambatte-0.5.0.59.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+osx-arm64/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+osx-arm64/game.libretro.gambatte-0.5.0.58.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+osx-arm64/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+osx-arm64/game.libretro.gambatte-0.5.0.59.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+android-armv7/game.libretro.gambatte-0.5.0.59.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+android-aarch64/game.libretro.gambatte-0.5.0.58.zip",
-            "statspath": "/addons/omega/game.libretro.gambatte+android-aarch64/game.libretro.gambatte-0.5.0.58.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.gambatte+android-aarch64/game.libretro.gambatte-0.5.0.59.zip",
+            "statspath": "/addons/omega/game.libretro.gambatte+android-aarch64/game.libretro.gambatte-0.5.0.59.zip"
           }
         ],
         "categories": [
@@ -13072,9 +13068,10 @@
         "summary": "Nintendo - Game Boy / Color (Gambatte)",
         "description": "Gambatte is an accuracy-focused, open-source, cross-platform Game Boy Color emulator written in C++.",
         "disclaimer": "Game Boy 和 Game Boy Color 是美国任天堂股份有限公司的注册商标。Gambatte 与上述任何公司均无关联或背书。",
-        "size": "1185KB",
-        "lastupdate": "2025-07-01T02:45:34.908Z",
+        "size": "1184KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.gambatte/resources/icon.png",
         "snippet": "Nintendo - Game Boy / Color (Gambatte)"
       },
@@ -13847,7 +13844,6 @@
         "size": "1396KB",
         "lastupdate": "2025-08-12T02:36:29.413Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.vbam/resources/icon.png",
         "snippet": "Nintendo - Game Boy Advance (VBA-M)"
       },
@@ -14171,7 +14167,7 @@
         "addonid": "game.libretro.nestopia",
         "name": "Nintendo - NES / Famicom (Nestopia)",
         "slug": "game.libretro.nestopia",
-        "version": "1.53.1.52",
+        "version": "1.53.2.53",
         "authors": [
           {
             "name": "Martin Freij",
@@ -14192,23 +14188,23 @@
         "platforms": [
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.1.52.zip",
-            "statspath": "/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.1.52.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+android-armv7/game.libretro.nestopia-1.53.1.52.zip",
-            "statspath": "/addons/omega/game.libretro.nestopia+android-armv7/game.libretro.nestopia-1.53.1.52.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.2.53.zip",
+            "statspath": "/addons/omega/game.libretro.nestopia+osx-x86_64/game.libretro.nestopia-1.53.2.53.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+osx-arm64/game.libretro.nestopia-1.53.1.52.zip",
-            "statspath": "/addons/omega/game.libretro.nestopia+osx-arm64/game.libretro.nestopia-1.53.1.52.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+osx-arm64/game.libretro.nestopia-1.53.2.53.zip",
+            "statspath": "/addons/omega/game.libretro.nestopia+osx-arm64/game.libretro.nestopia-1.53.2.53.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.1.52.zip",
-            "statspath": "/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.1.52.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.2.53.zip",
+            "statspath": "/addons/omega/game.libretro.nestopia+android-aarch64/game.libretro.nestopia-1.53.2.53.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.nestopia+android-armv7/game.libretro.nestopia-1.53.2.53.zip",
+            "statspath": "/addons/omega/game.libretro.nestopia+android-armv7/game.libretro.nestopia-1.53.2.53.zip"
           },
           {
             "platform": "windows-x86_64",
@@ -14256,8 +14252,9 @@
         "description": "Nestopia is a portable open source NES/Famicom emulator. It is designed to be as accurate as possible and supports a large number of peripherals.",
         "disclaimer": "图标来源：Anarkhya（anarkhya.deviantart.com）",
         "size": "2260KB",
-        "lastupdate": "2025-07-26T02:39:37.210Z",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.nestopia/resources/icon.png",
         "snippet": "Nintendo - NES / Famicom (Nestopia)"
       },
@@ -14528,7 +14525,7 @@
         "addonid": "game.libretro.parallel_n64",
         "name": "Nintendo - Nintendo 64 (ParaLLEl N64)",
         "slug": "game.libretro.parallel_n64",
-        "version": "2.0.0.38",
+        "version": "2.0.0.39",
         "authors": [
           {
             "name": "Hacktarux",
@@ -14554,13 +14551,13 @@
         "platforms": [
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.parallel_n64+osx-x86_64/game.libretro.parallel_n64-2.0.0.38.zip",
-            "statspath": "/addons/omega/game.libretro.parallel_n64+osx-x86_64/game.libretro.parallel_n64-2.0.0.38.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.parallel_n64+osx-x86_64/game.libretro.parallel_n64-2.0.0.39.zip",
+            "statspath": "/addons/omega/game.libretro.parallel_n64+osx-x86_64/game.libretro.parallel_n64-2.0.0.39.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.parallel_n64+osx-arm64/game.libretro.parallel_n64-2.0.0.38.zip",
-            "statspath": "/addons/omega/game.libretro.parallel_n64+osx-arm64/game.libretro.parallel_n64-2.0.0.38.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.parallel_n64+osx-arm64/game.libretro.parallel_n64-2.0.0.39.zip",
+            "statspath": "/addons/omega/game.libretro.parallel_n64+osx-arm64/game.libretro.parallel_n64-2.0.0.39.zip"
           },
           {
             "platform": "windows-x86_64",
@@ -14588,8 +14585,9 @@
         "summary": "Nintendo - Nintendo 64 (ParaLLEl N64)",
         "description": "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro.",
         "size": "1858KB",
-        "lastupdate": "2025-04-18T02:31:35.715Z",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.parallel_n64/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (ParaLLEl N64)"
       },
@@ -16045,7 +16043,7 @@
         "addonid": "game.libretro.mu",
         "name": "Palm OS (Mu)",
         "slug": "game.libretro.mu",
-        "version": "1.3.3.33",
+        "version": "1.3.3.34",
         "authors": [
           {
             "name": "guicrith / meepingsnesroms; Stephanie Gawroriski (Xer Shadow Tail)",
@@ -16055,6 +16053,26 @@
         ],
         "platforms": [
           {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.3.34.zip",
+            "statspath": "/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.3.34.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.3.34.zip",
+            "statspath": "/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.3.34.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+android-aarch64/game.libretro.mu-1.3.3.34.zip",
+            "statspath": "/addons/omega/game.libretro.mu+android-aarch64/game.libretro.mu-1.3.3.34.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+android-armv7/game.libretro.mu-1.3.3.34.zip",
+            "statspath": "/addons/omega/game.libretro.mu+android-armv7/game.libretro.mu-1.3.3.34.zip"
+          },
+          {
             "platform": "windows-i686",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.3.33.zip",
             "statspath": "/addons/omega/game.libretro.mu+windows-i686/game.libretro.mu-1.3.3.33.zip"
@@ -16063,26 +16081,6 @@
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.3.33.zip",
             "statspath": "/addons/omega/game.libretro.mu+windows-x86_64/game.libretro.mu-1.3.3.33.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.3.33.zip",
-            "statspath": "/addons/omega/game.libretro.mu+osx-arm64/game.libretro.mu-1.3.3.33.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+android-aarch64/game.libretro.mu-1.3.3.33.zip",
-            "statspath": "/addons/omega/game.libretro.mu+android-aarch64/game.libretro.mu-1.3.3.33.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+android-armv7/game.libretro.mu-1.3.3.33.zip",
-            "statspath": "/addons/omega/game.libretro.mu+android-armv7/game.libretro.mu-1.3.3.33.zip"
-          },
-          {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.3.33.zip",
-            "statspath": "/addons/omega/game.libretro.mu+osx-x86_64/game.libretro.mu-1.3.3.33.zip"
           }
         ],
         "categories": [
@@ -16104,9 +16102,10 @@
         ],
         "summary": "Palm OS (Mu)",
         "description": "Mu is a new Palm OS emulator targeting compatibility, speed and accuracy in that order.\n\nNote: The BIOS files palmos41-en-m515.rom and palmos52-en-t3.rom are needed.",
-        "size": "483KB",
-        "lastupdate": "2025-07-01T02:45:34.908Z",
+        "size": "484KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mu/resources/icon.png",
         "snippet": "Palm OS (Mu)"
       },
@@ -16962,7 +16961,7 @@
         "addonid": "game.libretro.genplus",
         "name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
         "slug": "game.libretro.genplus",
-        "version": "1.7.4.69",
+        "version": "1.7.4.70",
         "authors": [
           {
             "name": "Charles McDonald",
@@ -16977,34 +16976,34 @@
         ],
         "platforms": [
           {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.69.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.69.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.69.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.69.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+osx-arm64/game.libretro.genplus-1.7.4.69.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+osx-arm64/game.libretro.genplus-1.7.4.69.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+android-aarch64/game.libretro.genplus-1.7.4.69.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+android-aarch64/game.libretro.genplus-1.7.4.69.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.68.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.68.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+windows-x86_64/game.libretro.genplus-1.7.4.70.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.68.zip",
-            "statspath": "/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.68.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+windows-i686/game.libretro.genplus-1.7.4.70.zip"
+          },
+          {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+osx-x86_64/game.libretro.genplus-1.7.4.70.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+osx-arm64/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+osx-arm64/game.libretro.genplus-1.7.4.70.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+android-aarch64/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+android-aarch64/game.libretro.genplus-1.7.4.70.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.70.zip",
+            "statspath": "/addons/omega/game.libretro.genplus+android-armv7/game.libretro.genplus-1.7.4.70.zip"
           }
         ],
         "categories": [
@@ -17041,9 +17040,10 @@
         "summary": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
         "description": "Genesis Plus GX is an enhanced port of Genesis Plus to the libretro API.\n\nFeatures support for SG-1000, Mark-III, Master System, Game Gear, Mega Drive and Mega CD hardware.",
         "disclaimer": "特别感谢 twinaphex 从 GX 版本中移植了增强功能",
-        "size": "2025KB",
-        "lastupdate": "2025-07-26T02:39:37.210Z",
+        "size": "2028KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.genplus/resources/icon.png",
         "snippet": "Sega - MS/GG/MD/CD (Genesis Plus GX)"
       },
@@ -17974,7 +17974,7 @@
         "addonid": "game.libretro.beetle-psx",
         "name": "Sony - PlayStation (Beetle PSX)",
         "slug": "game.libretro.beetle-psx",
-        "version": "0.9.44.69",
+        "version": "0.9.44.70",
         "authors": [
           {
             "name": "Mednafen Team",
@@ -17985,23 +17985,23 @@
         "platforms": [
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.69.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.69.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+android-aarch64/game.libretro.beetle-psx-0.9.44.69.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-psx+android-aarch64/game.libretro.beetle-psx-0.9.44.69.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.69.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.69.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.70.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-psx+osx-x86_64/game.libretro.beetle-psx-0.9.44.70.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+osx-arm64/game.libretro.beetle-psx-0.9.44.69.zip",
-            "statspath": "/addons/omega/game.libretro.beetle-psx+osx-arm64/game.libretro.beetle-psx-0.9.44.69.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+osx-arm64/game.libretro.beetle-psx-0.9.44.70.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-psx+osx-arm64/game.libretro.beetle-psx-0.9.44.70.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+android-aarch64/game.libretro.beetle-psx-0.9.44.70.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-psx+android-aarch64/game.libretro.beetle-psx-0.9.44.70.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.70.zip",
+            "statspath": "/addons/omega/game.libretro.beetle-psx+android-armv7/game.libretro.beetle-psx-0.9.44.70.zip"
           },
           {
             "platform": "windows-x86_64",
@@ -18034,8 +18034,9 @@
         "summary": "Sony - PlayStation (Beetle PSX)",
         "description": "Beetle PSX is the PlayStation module of Beetle, a port of Madnafen.",
         "size": "2035KB",
-        "lastupdate": "2025-07-26T02:39:37.210Z",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-psx/resources/icon.png",
         "snippet": "Sony - PlayStation (Beetle PSX)"
       },
@@ -27269,7 +27270,7 @@
         "addonid": "metadata.universal",
         "name": "Universal Movie Scraper",
         "slug": "metadata.universal",
-        "version": "5.5.20",
+        "version": "5.5.22",
         "authors": [
           {
             "name": "Olympia",
@@ -27285,8 +27286,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.20.zip",
-            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.20.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.22.zip",
+            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.22.zip"
           }
         ],
         "categories": [
@@ -27308,9 +27309,10 @@
         ],
         "summary": "Universal Movie Scraper",
         "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
-        "size": "283KB",
-        "lastupdate": "2025-05-18T02:36:04.757Z",
+        "size": "281KB",
+        "lastupdate": "2025-08-13T02:37:25.136Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       }
