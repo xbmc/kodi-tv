@@ -22847,7 +22847,7 @@
     "addonid": "plugin.video.arteplussept",
     "name": "Arte +7",
     "slug": "plugin.video.arteplussept",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "authors": [
       {
         "name": "bmf",
@@ -22863,8 +22863,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.2.zip",
-        "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip",
+        "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip"
       }
     ],
     "categories": [
@@ -22880,14 +22880,14 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Arte +7",
     "description": "Watch videos from Arte +7\nFor feature requests / issues:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept/issues\nContributions are welcome:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept\n        ",
     "language": "fr de en it pl",
     "license": "MIT",
     "website": "https://www.arte.tv/fr/",
     "source": "https://github.com/thomas-ernest/plugin.video.arteplussept",
-    "news": "v1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\nv1.4.1 (2023-10-10)\n- Fix playing videos with siblings.\nv1.4.0 (2023-8-14)\n- Add support for content over multiple pages.\n- Refactor most of the code in OO style\n        ",
+    "news": "v1.4.3 (2025-8-4)\n- Fix playing live stream (disabling HLS).\nv1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\nv1.4.1 (2023-10-10)\n- Fix playing videos with siblings.\nv1.4.0 (2023-8-14)\n- Add support for content over multiple pages.\n- Refactor most of the code in OO style\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
@@ -22901,11 +22901,11 @@
       }
     ],
     "size": "110KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 261768,
+    "lastupdate": "2025-08-22T02:34:08.445Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
-    "snippet": "Arte +7",
-    "prevyeardl": 261768
+    "snippet": "Arte +7"
   },
   {
     "id": "plugin.video.aswim",
@@ -24186,7 +24186,7 @@
     "addonid": "plugin.video.crackle",
     "name": "Crackle",
     "slug": "plugin.video.crackle",
-    "version": "2024.7.22+matrix.1",
+    "version": "2025.7.31",
     "authors": [
       {
         "name": "eracknaphobia",
@@ -24197,8 +24197,8 @@
     "platforms": [
       {
         "platform": "android",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.crackle/plugin.video.crackle-2024.7.22+matrix.1.zip",
-        "statspath": "/addons/omega/plugin.video.crackle/plugin.video.crackle-2024.7.22+matrix.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.crackle/plugin.video.crackle-2025.7.31.zip",
+        "statspath": "/addons/omega/plugin.video.crackle/plugin.video.crackle-2025.7.31.zip"
       }
     ],
     "categories": [
@@ -24217,7 +24217,7 @@
     "agetype": "existing",
     "summary": "Crackle delivers popular, award-winning TV, movies and originals. With no limit to how much you can watch across all your devices, you can binge all you want, wherever you want.",
     "description": "Crackle is a video streaming distributor of original web shows, Hollywood movies, and TV shows. Founded in the early 2000s as Grouper, and rebranded in 2007, Crackle is owned by Sony Pictures Entertainment.",
-    "news": "- Refactor for upstream changes\n        - Added pagination\n        - Playback is only possible on Android Devices now because of widevine VMP\n        - Added settings for page size and sort by\n      ",
+    "lifecyclestate": "The upstream service has ended.",
     "language": "en",
     "license": "GPL-2.0-or-later",
     "source": "https://github.com/eracknaphobia/plugin.video.crackle",
@@ -24234,11 +24234,11 @@
       }
     ],
     "size": "187KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 1336218,
+    "lastupdate": "2025-08-22T02:34:08.445Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.crackle/icon.png",
-    "snippet": "Crackle delivers popular, award-winning TV, movies and originals. With no limit to how much you...",
-    "prevyeardl": 1336218
+    "snippet": "Crackle delivers popular, award-winning TV, movies and originals. With no limit to how much you..."
   },
   {
     "id": "plugin.video.ctuplinkrss",
@@ -32867,7 +32867,7 @@
     "addonid": "plugin.video.youtube",
     "name": "YouTube",
     "slug": "plugin.video.youtube",
-    "version": "7.1.1.6",
+    "version": "7.2.0.3",
     "authors": [
       {
         "name": "anxdpanic",
@@ -32888,8 +32888,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.1.1.6.zip",
-        "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.1.1.6.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip",
+        "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip"
       }
     ],
     "categories": [
@@ -32941,13 +32941,13 @@
     "summary": "Plugin for YouTube",
     "description": "YouTube is one of the biggest video-sharing websites of the world.",
     "disclaimer": "此附加元件未由Google支持",
-    "news": "## v7.1.1.6\n### Fixed\n- Fix http server not listening on any interface if listen IP is 0.0.0.0\n- Standardise return type of LoginClient.refresh_token\n- Fix curl headers not being used when set on path of setResolvedUrl listitem\n- Fix HEAD requests to MPD manifests\n- Fix various Python2 incompatible changes\n- Properly distinguish between VP9 and VP9.2 with HDR info\n- Fix http server not running when script shows client IP\n- Fix not listing full stream details in selection dialog\n- Fix translated subtitles not being available for some videos\n- Fix labelling for auto dubbed audio tracks\n- Fix regressions in handling VP9.2 video streams\n- Fix error handling items without headers\n- Fix incorrectly determining Kodi release name\n- Fix search window history navigation when using direct links\n- Fix Python2/Android incompatibilty when checking CPU count\n- Fix method used to determine address of local network interface\n- Fix potential infinite loop with corrupted access_manager.json\n- Various improvements to multiple busy dialog crash workarounds\n- Fallback to search listing when search query is empty\n- Fix debug log string formatting error\n- Fix duplicated separators in context menu\n- Fix Kodi builtin using wrong playlist type\n- Ensure http server is started prior to creating MPD for playback\n- Fix shuffle play of playlists not working\n- Fix plugin category label not being applied if content type not set\n- Fix Kodi navigating to root path of Video window if plugin listing fails\n- Fix l",
-    "size": "915KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 982744,
+    "news": "## v7.2.0.3\n### Fixed\n- Fix performance regression with channel filters\n- Fix regression preventing video playback from Kodi Info dialog\n- Fix exception in youtube.helper.v3.response_to_items when using Kodi 18 (Python 2)\n- Fix exception in YouTubeRequestClient.json_traverse when using Kodi 18 (Python 2)\n- Fix handling of custom Watch Later playlist in add to playlist dialog\n- Fix Liked video playlist not loading\n- Fix typo preventing some video only searches from working\n- Fix incorrect deletion of provider parameter in 10c3758\n- Fix possible hangs in multiple busy dialog workaround\n- Fix misidentifying channels in channel filter\n- Attempt to avoid race condition where user input occurs prior to window rerouting\n- Fix incorrectly referencing channels as playlist in My Subscriptions after db44928\n- Improve handling of invalid playlists in My Subscriptions after db44928\n- Update YouTube.get_related_videos and YouTube.get_related_for_home\n- Fix error with listing comments if number of replies is 1000+\n- Fix regression in opening playlists of logged in user\n- Fix regressions in checking channel filters\n- Clear old function cache values on initial run after install\n- Fix My Subscriptions not loading old or previously accessed content\n- Manually redirect video server requests if required\n- Improve logging of client ID\n- Fix possible exception that may occur if video thumbnails fail to update\n- Fix unsubscribing from My Subscriptions\n- Fix folders for channel shorts and live stream",
+    "size": "977KB",
+    "lastupdate": "2025-08-22T02:34:08.445Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
-    "snippet": "Plugin for YouTube",
-    "prevyeardl": 982744
+    "snippet": "Plugin for YouTube"
   },
   {
     "id": "plugin.video.ytchannels",
@@ -54312,6 +54312,88 @@
     "prevyeardl": 339856
   },
   {
+    "id": "script.moviequiz",
+    "addonid": "script.moviequiz",
+    "name": "Movie Quiz",
+    "slug": "script.moviequiz",
+    "version": "2.1.1",
+    "authors": [
+      {
+        "name": "twinther",
+        "slug": "twinther",
+        "icon": "/images/authors/twinther.webp"
+      },
+      {
+        "name": "seveerekaj",
+        "slug": "seveerekaj",
+        "icon": "/images/authors/seveerekaj.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.moviequiz/script.moviequiz-2.1.1.zip",
+        "statspath": "/addons/omega/script.moviequiz/script.moviequiz-2.1.1.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Program addons",
+        "slug": "program-addons",
+        "icon": "/images/categories/program-addons.webp"
+      }
+    ],
+    "firstseen": "2025-08-22T02:34:08.445Z",
+    "agetype": "new",
+    "summary": "Movie and TV Shows Quiz",
+    "description": "Test your wit and skill against all the information on your movie and TV-shows stored inside Kodi.\n* Can you tell which movie is playing from a ten seconds clip?\n* Do you know the actors by appearance?\n* Any idea when your favorite TV show was first aired?\nYou will get these questions, and a lot more, all presented nicely with movie clips, actor photos, cover art, etc.",
+    "license": "GPL 2.0",
+    "website": "github.com/seveerekaj/script.moviequiz",
+    "forum": "forum.kodi.tv/showthread.php?tid=364172",
+    "source": "github.com/seveerekaj/script.moviequiz",
+    "news": "v2.1.1 (2025-07-16)\n        - changed MPAA rating filter to multiselect list\n        - fixed questions: \"what movie is this actor not in?\" and \"what actor is in these movies?\"\n        - changed main background image, updated layout\n        - fixed bugs\n\nv2.1.0 (2024-01-02)\n        - The quiz interface has a new look! The answers are now in a horizontal layout, with a cover image for each answer option. The video player can now be toggled full screen.\n\nv2.0.0 (2021-08-26)\n        - Complete overhaul of the addon to get it working in Kodi 19 Matrix, add new features, and remove old non-essential features.\n        ",
+    "icons": [
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/icon.png",
+        "remotepath": "resources/media/icon.png"
+      }
+    ],
+    "fanarts": [
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/fanart.png",
+        "remotepath": "resources/media/fanart.png"
+      }
+    ],
+    "screenshots": [
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/screenshot-1.jpg",
+        "remotepath": "resources/media/screenshot-1.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/screenshot-2.jpg",
+        "remotepath": "resources/media/screenshot-2.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/screenshot-3.jpg",
+        "remotepath": "resources/media/screenshot-3.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/screenshot-4.jpg",
+        "remotepath": "resources/media/screenshot-4.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/script.moviequiz/resources/media/screenshot-5.jpg",
+        "remotepath": "resources/media/screenshot-5.jpg"
+      }
+    ],
+    "size": "4389KB",
+    "lastupdate": "2025-08-22T02:34:08.445Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/script.moviequiz/resources/media/icon.png",
+    "snippet": "Movie and TV Shows Quiz"
+  },
+  {
     "id": "script.myepisodes",
     "addonid": "script.myepisodes",
     "name": "MyEpisodes",
@@ -57526,7 +57608,7 @@
     "addonid": "service.languagepreferencemanager",
     "name": "Language Preference Manager",
     "slug": "service.languagepreferencemanager",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "authors": [
       {
         "name": "ace20022/scott967/rockrider69",
@@ -57536,9 +57618,9 @@
     ],
     "platforms": [
       {
-        "platform": "",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.6.zip",
-        "statspath": "/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.6.zip"
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.7.zip",
+        "statspath": "/addons/omega/service.languagepreferencemanager/service.languagepreferencemanager-1.0.7.zip"
       }
     ],
     "categories": [
@@ -57557,8 +57639,8 @@
     "agetype": "existing",
     "summary": "Language Preference Manager",
     "description": "Sets the audio and subtitle track according to your language preferences",
-    "disclaimer": "For bugs, requests or general questions visit the Language Preference Manager thread on the Kodi forum.",
-    "news": "1.0.6     : - New option to store persistent media preferences on a per TVshow/Movie basis, based on user selection.\n\tThese override calculated preferences - See README for more (Thanks to SgtJalau!)\n- Consider empty subtitle language code as und/Undefined so it can still be prioritized in rules, not just ignored\n- Adding Swedish translastion (Thanks to Yeager)\n\t\t\t\n\t\t",
+    "disclaimer": "För buggar, önskemål eller allmänna frågor, besök tråden Language Preference Manager på Kodi-forumet.",
+    "news": "1.0.7 : - New option to always prefer Original audio tracks if present. Based on a list e.g: eng,ger,fre\n\tIf one is found we force activate it and skip usual audio preference evaluation. Uses 'isoriginal' tag.\n- Add Swedish translation in Addon.xml (Thanks to Yeager)\n- Custom Conditional Subs preferences : new -ff tag to prioritize Forced flagged subtitles e.g: Jpn:Eng-ff\n- Fix a bug in Custom Conditional Subs : when no preference matched, default subtitles stayed on despite option turn_subs_off\n- Avoid running multiple instances of the LPM addon\n- Use logger.py across all modules. Cleanup. Fix minor bug in settings.xml.\n\t\t\t\n\t\t",
     "icons": [
       {
         "localpath": "/images/addons/omega/service.languagepreferencemanager/resources/icon.png",
@@ -57571,9 +57653,10 @@
         "remotepath": "resources/fanart.jpg"
       }
     ],
-    "size": "360KB",
-    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "size": "361KB",
+    "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.languagepreferencemanager/resources/icon.png",
     "snippet": "Language Preference Manager"
   },
@@ -58070,7 +58153,7 @@
     "addonid": "service.subsmangler",
     "name": "Subtitles Mangler",
     "slug": "service.subsmangler",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "authors": [
       {
         "name": "bkiziuk",
@@ -58081,8 +58164,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subsmangler/service.subsmangler-2.2.0.zip",
-        "statspath": "/addons/omega/service.subsmangler/service.subsmangler-2.2.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subsmangler/service.subsmangler-2.2.1.zip",
+        "statspath": "/addons/omega/service.subsmangler/service.subsmangler-2.2.1.zip"
       }
     ],
     "categories": [
@@ -58099,7 +58182,7 @@
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
     "agetype": "existing",
-    "news": "v2.0.0 (2021-03-01)\n- first release for Kodi 19 Matrix\nv2.0.1 (2021-11-08)\n- fix encoding crashes\n- improve matching multiline texts\nv2.1.0 (2022-11-30)\n- remove handling Kodi's subtitle settings from within the plugin for better compatibility with Kodi 20 (Nexus)\nv2.2.0 (2024-02-01)\n- add option to hide progressbar during cleaning orphaned subtitles\n- add possibility of ignoring paths during scanning for orphaned subtitles - requires manual editing of 'cleanexcl.def' file in addon's workdir\n",
+    "news": "v2.0.0 (2021-03-01)\n- first release for Kodi 19 Matrix\nv2.0.1 (2021-11-08)\n- fix encoding crashes\n- improve matching multiline texts\nv2.1.0 (2022-11-30)\n- remove handling Kodi's subtitle settings from within the plugin for better compatibility with Kodi 20 (Nexus)\nv2.2.0 (2024-02-01)\n- add option to hide progressbar during cleaning orphaned subtitles\n- add possibility of ignoring paths during scanning for orphaned subtitles - requires manual editing of 'cleanexcl.def' file in addon's workdir\nv2.2.1 (2025-08-12)\n- update translations\n",
     "license": "GPL-3.0-or-later",
     "forum": "https://forum.kodi.tv/showthread.php?tid=328763",
     "source": "https://github.com/bkiziuk/service.subsmangler",
@@ -58118,12 +58201,12 @@
     "summary": "A comprehensive subtitle companion",
     "description": "Automatically invokes subtitle search dialog if local subtitles matching user's preferences are not detected. Removes subtitle files if original video was deleted. Also, allows to remove advertisement texts and texts for the Hearing Impaired. Supports: microDVD, SubRip, MPL2 and TMP formats.",
     "disclaimer": "Kompletný sprievodca titukly",
-    "size": "468KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 124583,
+    "size": "474KB",
+    "lastupdate": "2025-08-22T02:34:08.445Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.subsmangler/resources/icon.png",
-    "snippet": "A comprehensive subtitle companion",
-    "prevyeardl": 124583
+    "snippet": "A comprehensive subtitle companion"
   },
   {
     "id": "service.subtitles.ktuvit",
