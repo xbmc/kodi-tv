@@ -22903,7 +22903,6 @@
     "size": "110KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
     "snippet": "Arte +7"
   },
@@ -24236,7 +24235,6 @@
     "size": "187KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.crackle/icon.png",
     "snippet": "Crackle delivers popular, award-winning TV, movies and originals. With no limit to how much you..."
   },
@@ -32945,7 +32943,6 @@
     "size": "977KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
     "snippet": "Plugin for YouTube"
   },
@@ -54389,7 +54386,6 @@
     "size": "4389KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.moviequiz/resources/media/icon.png",
     "snippet": "Movie and TV Shows Quiz"
   },
@@ -55903,7 +55899,7 @@
     "addonid": "script.skipit",
     "name": "SkipIt",
     "slug": "script.skipit",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "shartrec",
@@ -55914,8 +55910,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.skipit/script.skipit-1.0.2.zip",
-        "statspath": "/addons/omega/script.skipit/script.skipit-1.0.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.skipit/script.skipit-1.0.3.zip",
+        "statspath": "/addons/omega/script.skipit/script.skipit-1.0.3.zip"
       }
     ],
     "categories": [
@@ -55926,7 +55922,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Skip It",
     "description": "Quick skip over Ads. This add-on is based on the ideas from the original Topfield SkipIt TAP. It uses a binary search technique to quickly get you to the place you want in a video.",
     "license": "GPL-2.0-or-later",
@@ -55951,11 +55947,11 @@
     ],
     "news": "ShipIt first release",
     "size": "187KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 86455,
+    "lastupdate": "2025-08-23T02:32:27.838Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.skipit/icon.png",
-    "snippet": "Skip It",
-    "prevyeardl": 86455
+    "snippet": "Skip It"
   },
   {
     "id": "script.speedfaninfo",
@@ -57656,7 +57652,6 @@
     "size": "361KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.languagepreferencemanager/resources/icon.png",
     "snippet": "Language Preference Manager"
   },
@@ -58204,7 +58199,6 @@
     "size": "474KB",
     "lastupdate": "2025-08-22T02:34:08.445Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.subsmangler/resources/icon.png",
     "snippet": "A comprehensive subtitle companion"
   },
