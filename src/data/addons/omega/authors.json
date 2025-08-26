@@ -19121,7 +19121,6 @@
         "size": "918KB",
         "lastupdate": "2025-08-25T02:36:08.295Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.waipu/icon.png",
         "snippet": "waipu.tv PVR Client"
       }
@@ -61260,7 +61259,7 @@
         "addonid": "imagedecoder.heif",
         "name": "HEIF image decoder",
         "slug": "imagedecoder.heif",
-        "version": "21.0.2",
+        "version": "21.0.3",
         "authors": [
           {
             "name": "spiff",
@@ -61270,34 +61269,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+windows-x86_64/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+windows-x86_64/imagedecoder.heif-21.0.2.zip"
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+osx-x86_64/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+osx-x86_64/imagedecoder.heif-21.0.3.zip"
           },
           {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+windows-i686/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+windows-i686/imagedecoder.heif-21.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+windows-i686/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+windows-i686/imagedecoder.heif-21.0.3.zip"
+          },
+          {
+            "platform": "windows-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+windows-x86_64/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+windows-x86_64/imagedecoder.heif-21.0.3.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+android-armv7/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+android-armv7/imagedecoder.heif-21.0.2.zip"
-          },
-          {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+osx-x86_64/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+osx-x86_64/imagedecoder.heif-21.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+android-armv7/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+android-armv7/imagedecoder.heif-21.0.3.zip"
           },
           {
             "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+osx-arm64/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+osx-arm64/imagedecoder.heif-21.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+osx-arm64/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+osx-arm64/imagedecoder.heif-21.0.3.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+android-aarch64/imagedecoder.heif-21.0.2.zip",
-            "statspath": "/addons/omega/imagedecoder.heif+android-aarch64/imagedecoder.heif-21.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/imagedecoder.heif+android-aarch64/imagedecoder.heif-21.0.3.zip",
+            "statspath": "/addons/omega/imagedecoder.heif+android-aarch64/imagedecoder.heif-21.0.3.zip"
           }
         ],
         "categories": [
@@ -61319,12 +61318,12 @@
         ],
         "summary": "HEIF file format decoder",
         "description": "High Efficiency Image File Format (HEIF) is a file format employing HEVC (h.265) image coding for the best compression ratios currently possible.\n\nSupport for this is provided by ISO/IEC 23008-12:2017 compliant libheif.",
-        "size": "457KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 21234,
+        "size": "847KB",
+        "lastupdate": "2025-08-26T02:34:26.250Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/imagedecoder.heif/icon.png",
-        "snippet": "HEIF file format decoder",
-        "prevyeardl": 21234
+        "snippet": "HEIF file format decoder"
       },
       {
         "id": "audiodecoder.hvl",
