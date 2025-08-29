@@ -1,5 +1,5 @@
 ---
-title: Kodi 22 "Piers" - Alpha 1
+title: Kodi 22 "Piers" Alpha 1
 date: 2025-08-29T16:01:49.149Z
 author: Team Kodi
 tags:
