@@ -68,19 +68,23 @@ So, all that aside... what's actually changed?
 ### Platforms
 
 * Windows/Xbox
+
   * Initial Windows ARM64 desktop support
   * Python 3.13 on Windows/Xbox
   * Enabled XAudio2 sink for Windows desktop (was previously only on Xbox)
   * Enhanced Video Super Resolution feature with 10-bit SDR support (Intel and Nvidia) and HDR10 (Nvidia)
 * Android
+
   * Enabled file sharing to other apps and players
   * Improved channels on the home page
   * Upgraded to Android 15
   * Minimum Android version is now 7.0
   * Android support for 16KB page size
 * LG webOS
+
   * New unified media pipeline
 * Linux
+
   * HDR passthrough on OpenGL (was previously only on OpenGLES)
   * Support for the Wayland Color Management protocol, therefor supporting HDR on Wayland with compatible compositors
   * Make Kodi work on systems using a Turkish locale
@@ -93,9 +97,9 @@ So, all that aside... what's actually changed?
 
 ### Known issues
 
-* Local NFO files can cause rescanning to silently fail
+* Scanning for new content **will fail** if local NFO files are present (fixed for Alpha 2)
 * Filesystems that use milliseconds can trigger a rescan
 
 If you love life on the bleeding edge of new, you can get Alpha 1 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs. And take a backup first!
 
-As usual, in the full spirit of open source, you can see what's changed since v21.2 [here](https://github.com/xbmc/xbmc/compare/21.2-Omega...xbmc:xbmc:22.0a1-Piers). 
+As usual, in the full spirit of open source, you can see what's changed since v21.2 [here](https://github.com/xbmc/xbmc/compare/21.2-Omega...xbmc:xbmc:22.0a1-Piers).
