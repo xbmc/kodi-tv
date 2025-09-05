@@ -20931,7 +20931,6 @@
         "size": "2487KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus)"
       },
@@ -21022,7 +21021,6 @@
         "size": "2562KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -21328,7 +21326,6 @@
         "size": "2487KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus)"
       },
@@ -21419,7 +21416,6 @@
         "size": "2562KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -22896,7 +22892,6 @@
         "size": "2487KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus)"
       },
@@ -22987,7 +22982,6 @@
         "size": "2562KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       },
@@ -34820,7 +34814,6 @@
         "size": "2487KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus)"
       },
@@ -34911,7 +34904,6 @@
         "size": "2562KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -39127,7 +39119,6 @@
         "size": "2035KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.beetle-psx/resources/icon.png",
         "snippet": "Sony - PlayStation (Beetle PSX)"
       }
@@ -41888,7 +41879,6 @@
         "size": "2487KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus)"
       },
@@ -41979,7 +41969,6 @@
         "size": "2562KB",
         "lastupdate": "2025-09-04T02:29:24.598Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       },
@@ -88851,7 +88840,7 @@
         "addonid": "pvr.hdhomerun",
         "name": "HDHomeRun Client",
         "slug": "pvr.hdhomerun",
-        "version": "21.0.3",
+        "version": "21.0.4",
         "authors": [
           {
             "name": "Zoltan Csizmadia (zcsizmadia@gmail.com)",
@@ -88861,34 +88850,34 @@
         ],
         "platforms": [
           {
+            "platform": "osx-x86_64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+osx-x86_64/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+osx-x86_64/pvr.hdhomerun-21.0.4.zip"
+          },
+          {
             "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+windows-i686/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+windows-i686/pvr.hdhomerun-21.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+windows-i686/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+windows-i686/pvr.hdhomerun-21.0.4.zip"
           },
           {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+windows-x86_64/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+windows-x86_64/pvr.hdhomerun-21.0.3.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+android-armv7/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+android-armv7/pvr.hdhomerun-21.0.3.zip"
-          },
-          {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+osx-arm64/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+osx-arm64/pvr.hdhomerun-21.0.3.zip"
-          },
-          {
-            "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+osx-x86_64/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+osx-x86_64/pvr.hdhomerun-21.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+windows-x86_64/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+windows-x86_64/pvr.hdhomerun-21.0.4.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+android-aarch64/pvr.hdhomerun-21.0.3.zip",
-            "statspath": "/addons/omega/pvr.hdhomerun+android-aarch64/pvr.hdhomerun-21.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+android-aarch64/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+android-aarch64/pvr.hdhomerun-21.0.4.zip"
+          },
+          {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+android-armv7/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+android-armv7/pvr.hdhomerun-21.0.4.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.hdhomerun+osx-arm64/pvr.hdhomerun-21.0.4.zip",
+            "statspath": "/addons/omega/pvr.hdhomerun+osx-arm64/pvr.hdhomerun-21.0.4.zip"
           }
         ],
         "categories": [
@@ -88911,8 +88900,8 @@
         ],
         "summary": "HDHomeRun PVR Client",
         "description": "HDHomeRun PVR Client",
-        "size": "307KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "229KB",
+        "lastupdate": "2025-09-05T02:31:05.174Z",
         "downloads": 0,
         "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.hdhomerun/icon.png",
