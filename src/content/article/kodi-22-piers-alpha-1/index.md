@@ -50,6 +50,9 @@ So, all that aside... what's actually changed?
 
 * Shader support (from Google Summer of Code 2017/2019)
 * Improved mouse and keyboard support
+* New scaling methods, including integer scaling
+* Fixed aspect ratio for some emulators
+* Fixed some micro-stuttering issues
 
 ### GUI
 
