@@ -24671,7 +24671,7 @@
         "addonid": "resource.language.fr_fr",
         "name": "French",
         "slug": "resource.language.fr_fr",
-        "version": "11.0.95",
+        "version": "11.0.96",
         "authors": [
           {
             "name": "Team Kodi",
@@ -24682,8 +24682,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.95.zip",
-            "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.95.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.96.zip",
+            "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.96.zip"
           }
         ],
         "categories": [
@@ -24704,8 +24704,9 @@
           }
         ],
         "size": "152KB",
-        "lastupdate": "2025-08-14T02:38:09.283Z",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.fr_fr/icon.png",
         "snippet": "French language pack"
       },
@@ -25101,7 +25102,7 @@
         "addonid": "resource.language.ga_ie",
         "name": "Irish",
         "slug": "resource.language.ga_ie",
-        "version": "11.0.99",
+        "version": "11.0.100",
         "authors": [
           {
             "name": "Team Kodi",
@@ -25112,8 +25113,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.99.zip",
-            "statspath": "/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.99.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.100.zip",
+            "statspath": "/addons/omega/resource.language.ga_ie/resource.language.ga_ie-11.0.100.zip"
           }
         ],
         "categories": [
@@ -25133,9 +25134,10 @@
             "remotepath": "icon.png"
           }
         ],
-        "size": "151KB",
-        "lastupdate": "2025-08-14T02:38:09.283Z",
+        "size": "152KB",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.ga_ie/icon.png",
         "snippet": "Irish language pack"
       },
@@ -26434,7 +26436,7 @@
         "addonid": "resource.language.sv_se",
         "name": "Swedish",
         "slug": "resource.language.sv_se",
-        "version": "11.0.90",
+        "version": "11.0.91",
         "authors": [
           {
             "name": "Team Kodi",
@@ -26445,8 +26447,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.90.zip",
-            "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.90.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.91.zip",
+            "statspath": "/addons/omega/resource.language.sv_se/resource.language.sv_se-11.0.91.zip"
           }
         ],
         "categories": [
@@ -26467,8 +26469,9 @@
           }
         ],
         "size": "146KB",
-        "lastupdate": "2025-08-24T02:37:44.626Z",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.language.sv_se/icon.png",
         "snippet": "Swedish language pack"
       },
@@ -29620,7 +29623,7 @@
         "addonid": "plugin.audio.soundcloud",
         "name": "SoundCloud",
         "slug": "plugin.audio.soundcloud",
-        "version": "4.0.2",
+        "version": "4.1.0",
         "authors": [
           {
             "name": "jaylinski",
@@ -29631,8 +29634,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.0.2.zip",
-            "statspath": "/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.1.0.zip",
+            "statspath": "/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.1.0.zip"
           }
         ],
         "categories": [
@@ -29648,15 +29651,15 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "SoundCloud – Music and podcast streaming platform",
         "description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world.",
-        "disclaimer": "This plugin is not official, approved or endorsed by SoundCloud.",
+        "disclaimer": "Deze plugin is niet officieel, goedgekeurd of gesteund door SoundCloud.",
         "license": "MIT",
         "forum": "https://forum.kodi.tv/showthread.php?tid=206635",
         "website": "https://soundcloud.com",
         "source": "https://github.com/jaylinski/kodi-addon-soundcloud",
-        "news": "4.0.2 (2022-03-13)\nFixed random CloudFront errors when sending requests\nAdded context-menu option for removing search-history items\n\n4.0.1 (2021-11-02)\nFixed error in \"Discover\"-folder\n\n4.0.0 (2020-12-12)\nAdded support for Kodi v19 (Matrix)\n        ",
+        "news": "4.1.0 (2025-10-06)\nFixed error when using addon\nAdded description and follower-counts to user profiles\nAdded description and likes to playlists\nAdded playcount to tracks\nUpdated Dutch translations\n\n4.0.2 (2022-03-13)\nFixed random CloudFront errors when sending requests\nAdded context-menu option for removing search-history items\n\n4.0.1 (2021-11-02)\nFixed error in \"Discover\"-folder\n\n4.0.0 (2020-12-12)\nAdded support for Kodi v19 (Matrix)\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.audio.soundcloud/resources/icon.png",
@@ -29670,11 +29673,11 @@
           }
         ],
         "size": "45KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 432200,
+        "lastupdate": "2025-09-14T02:32:39.988Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.audio.soundcloud/resources/icon.png",
-        "snippet": "SoundCloud – Music and podcast streaming platform",
-        "prevyeardl": 432200
+        "snippet": "SoundCloud – Music and podcast streaming platform"
       },
       {
         "id": "plugin.audio.sverigesradio",
@@ -41979,7 +41982,7 @@
         "addonid": "plugin.audio.soundcloud",
         "name": "SoundCloud",
         "slug": "plugin.audio.soundcloud",
-        "version": "4.0.2",
+        "version": "4.1.0",
         "authors": [
           {
             "name": "jaylinski",
@@ -41990,8 +41993,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.0.2.zip",
-            "statspath": "/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.0.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.1.0.zip",
+            "statspath": "/addons/omega/plugin.audio.soundcloud/plugin.audio.soundcloud-4.1.0.zip"
           }
         ],
         "categories": [
@@ -42007,15 +42010,15 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "SoundCloud – Music and podcast streaming platform",
         "description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world.",
-        "disclaimer": "This plugin is not official, approved or endorsed by SoundCloud.",
+        "disclaimer": "Deze plugin is niet officieel, goedgekeurd of gesteund door SoundCloud.",
         "license": "MIT",
         "forum": "https://forum.kodi.tv/showthread.php?tid=206635",
         "website": "https://soundcloud.com",
         "source": "https://github.com/jaylinski/kodi-addon-soundcloud",
-        "news": "4.0.2 (2022-03-13)\nFixed random CloudFront errors when sending requests\nAdded context-menu option for removing search-history items\n\n4.0.1 (2021-11-02)\nFixed error in \"Discover\"-folder\n\n4.0.0 (2020-12-12)\nAdded support for Kodi v19 (Matrix)\n        ",
+        "news": "4.1.0 (2025-10-06)\nFixed error when using addon\nAdded description and follower-counts to user profiles\nAdded description and likes to playlists\nAdded playcount to tracks\nUpdated Dutch translations\n\n4.0.2 (2022-03-13)\nFixed random CloudFront errors when sending requests\nAdded context-menu option for removing search-history items\n\n4.0.1 (2021-11-02)\nFixed error in \"Discover\"-folder\n\n4.0.0 (2020-12-12)\nAdded support for Kodi v19 (Matrix)\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.audio.soundcloud/resources/icon.png",
@@ -42029,11 +42032,11 @@
           }
         ],
         "size": "45KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 432200,
+        "lastupdate": "2025-09-14T02:32:39.988Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.audio.soundcloud/resources/icon.png",
-        "snippet": "SoundCloud – Music and podcast streaming platform",
-        "prevyeardl": 432200
+        "snippet": "SoundCloud – Music and podcast streaming platform"
       },
       {
         "id": "plugin.video.southpark_unofficial",
@@ -49757,7 +49760,7 @@
         "addonid": "script.sublissimo",
         "name": "Sublissimo",
         "slug": "script.sublissimo",
-        "version": "2.0.5",
+        "version": "2.0.6",
         "authors": [
           {
             "name": "AJVM",
@@ -49768,8 +49771,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.sublissimo/script.sublissimo-2.0.5.zip",
-            "statspath": "/addons/omega/script.sublissimo/script.sublissimo-2.0.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.sublissimo/script.sublissimo-2.0.6.zip",
+            "statspath": "/addons/omega/script.sublissimo/script.sublissimo-2.0.6.zip"
           }
         ],
         "categories": [
@@ -49783,7 +49786,7 @@
         "agetype": "existing",
         "license": "MIT",
         "email": "ajvmdev@gmail.com",
-        "news": "Version 2.0.3\n - New: Croatian and German translations\n - Minor bugfixes\n        ",
+        "news": "Version 2.0.6\n - New: Bosnian and Swedish translations\n        ",
         "source": "https://github.com/Allertj/script.sublissimo",
         "icons": [
           {
@@ -49799,9 +49802,10 @@
         ],
         "summary": "Edit and synchronize subtitles with your remote",
         "description": "With this script you can edit specific lines, move or stretch subtitles, and synchronize with other subtitles. You can also synchronize with a videofile.\n\nTo easily use this editor, launch it when the video and subtitle you wish to edit are playing.",
-        "size": "269KB",
-        "lastupdate": "2025-04-12T02:30:52.810Z",
+        "size": "277KB",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.sublissimo/resources/icon.png",
         "snippet": "Edit and synchronize subtitles with your remote"
       },
@@ -68928,6 +68932,66 @@
         "prevyeardl": 57235
       },
       {
+        "id": "script.tag-generator",
+        "addonid": "script.tag-generator",
+        "name": "Tag Generator",
+        "slug": "script.tag-generator",
+        "version": "0.9.0",
+        "authors": [
+          {
+            "name": "wellspokenman",
+            "slug": "wellspokenman",
+            "icon": "/images/authors/wellspokenman.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.tag-generator/script.tag-generator-0.9.0.zip",
+            "statspath": "/addons/omega/script.tag-generator/script.tag-generator-0.9.0.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Services",
+            "slug": "services",
+            "icon": "/images/categories/services.webp"
+          }
+        ],
+        "firstseen": "2025-09-14T02:32:39.988Z",
+        "agetype": "new",
+        "summary": "IMDB, Trakt, Oscar and Stand-up Tag Generator",
+        "description": "Helps you create Smart Playlists from IMDb/Trakt Watchlists by tagging local movies found in specified lists. Also creates a stand-up comedy tag based on Wikipedia comedians, as there is no genre for stand-up. Specify your IMDb/Trakt watchlists then choose your desired Kodi tag for each list. Runs as a service in the background at a specified interval, and also allows for manual creation. For Trakt, you can add lists from your own account, from public accounts, or shared lists from anyone you are friends with (people you follow, who follow you back). Oscar tagging lets you tag winners and/or nominees with each award for each movie in the following format 'Winner: Best Motion Picture'. ",
+        "license": "GPL-2.0-only",
+        "forum": "https://forum.kodi.tv/showthread.php?tid=140494",
+        "source": "https://github.com/wellspokenman/tag-generator",
+        "news": "v0.9.1 (August 30th, 2025)\n      - Kodi 21 Support\n      - Fixed IMDb parsing of Oscars        \n      - Fixed Wikipedia scraping for stand-up comedians\n      - Fixed Trakt authentication\n    ",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/script.tag-generator/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/script.tag-generator/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "clearlogos": [
+          {
+            "localpath": "/images/addons/omega/script.tag-generator/resources/clearlogo.png",
+            "remotepath": "resources/clearlogo.png"
+          }
+        ],
+        "size": "318KB",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/script.tag-generator/resources/icon.png",
+        "snippet": "IMDB, Trakt, Oscar and Stand-up Tag Generator"
+      },
+      {
         "id": "script.timers",
         "addonid": "script.timers",
         "name": "Timers",
@@ -70371,7 +70435,7 @@
         "snippet": "Plugin for YouTube"
       }
     ],
-    "totaladdons": 91
+    "totaladdons": 92
   },
   {
     "name": "Skins",
@@ -71965,7 +72029,7 @@
         "addonid": "service.subtitles.opensubtitles-com",
         "name": "OpenSubtitles.com",
         "slug": "service.subtitles.opensubtitles-com",
-        "version": "1.0.5",
+        "version": "1.0.7",
         "authors": [
           {
             "name": "amet",
@@ -71991,8 +72055,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.5.zip",
-            "statspath": "/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.7.zip",
+            "statspath": "/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.7.zip"
           }
         ],
         "categories": [
@@ -72007,7 +72071,7 @@
         "summary": "OpenSubtitles.com",
         "description": "Search and download subtitles for movies and TV-Series from OpenSubtitles.com. Search in 75 languages, 8.000.000+ subtitles, daily updates. Register/Import your account on OpenSubtitles.com before use.",
         "disclaimer": "Users need to provide OpenSubtitles.com username and password in add-on configuration. This is our new extension, old opensubtitles.org will not work on this, but the account can be easily imported on opensubtitles.com.",
-        "news": "v1.0.5 (2024-07-30)\n- fixed issue with portuguese file names\n- added AI translated filter (thanks Kate6)\n\nv1.0.4 (2024-01-15)\n- Sanitize language query\n- Improved sorting\n- Improved error messages \n- Improved usage of moviehash \n\nv1.0.3 (2023-12-18)\n- Fixed issue with file path\n\nv1.0.2 (2023-08-28)\n- Update user agent header\n\nv1.0.1 (2023-07-28)\n- Remove limit of 10 subtitles for the returned values\n- Fix Portuguese and Brazilian flags\n\t\t",
+        "news": "v1.0.7 (2025-08-26)\n- added IMDB and TMDB collection on files for more accurate search to the API\n\nv1.0.6 (2024-11-29)\n- fixed issue with RAR archives (thanks ninjacarr)\n- handles default chinese language to zh-cn  (thanks ninjacarr)\n\nv1.0.5 (2024-07-30)\n- fixed issue with portuguese file names\n- added AI translated filter (thanks Kate6)\n\nv1.0.4 (2024-01-15)\n- Sanitize language query\n- Improved sorting\n- Improved error messages \n- Improved usage of moviehash \n\nv1.0.3 (2023-12-18)\n- Fixed issue with file path\n\nv1.0.2 (2023-08-28)\n- Update user agent header\n\nv1.0.1 (2023-07-28)\n- Remove limit of 10 subtitles for the returned values\n- Fix Portuguese and Brazilian flags\n\t\t",
         "license": "GPL-2.0-only",
         "forum": "https://forum.opensubtitles.com/t/new-kodi-extension/1673",
         "website": "https://www.opensubtitles.com/en",
@@ -72039,12 +72103,12 @@
           }
         ],
         "source": "https://github.com/opensubtitlesdev/service.subtitles.opensubtitles-com",
-        "size": "401KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 2005794,
+        "size": "403KB",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/service.subtitles.opensubtitles-com/resources/media/os_logo_512x512.png",
-        "snippet": "OpenSubtitles.com",
-        "prevyeardl": 2005794
+        "snippet": "OpenSubtitles.com"
       },
       {
         "id": "service.subtitles.opensubtitles",
@@ -86741,7 +86805,7 @@
         "addonid": "weather.noaa",
         "name": "NOAA (weather.gov)",
         "slug": "weather.noaa",
-        "version": "3.0.1",
+        "version": "3.1.1",
         "authors": [
           {
             "name": "randall",
@@ -86752,8 +86816,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.noaa/weather.noaa-3.0.1.zip",
-            "statspath": "/addons/omega/weather.noaa/weather.noaa-3.0.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.noaa/weather.noaa-3.1.1.zip",
+            "statspath": "/addons/omega/weather.noaa/weather.noaa-3.1.1.zip"
           }
         ],
         "categories": [
@@ -86782,12 +86846,12 @@
             "remotepath": "resources/media/fanart.jpg"
           }
         ],
-        "size": "475KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 39769,
+        "size": "480KB",
+        "lastupdate": "2025-09-14T02:32:39.988Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/weather.noaa/resources/media/icon.png",
-        "snippet": "Weather forecast from weather.gov (NOAA)",
-        "prevyeardl": 39769
+        "snippet": "Weather forecast from weather.gov (NOAA)"
       },
       {
         "id": "weather.openmeteo",
