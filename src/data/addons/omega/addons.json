@@ -29471,7 +29471,6 @@
     "size": "1993KB",
     "lastupdate": "2025-09-19T02:31:54.927Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -50317,7 +50316,7 @@
     "addonid": "script.module.inputstreamhelper",
     "name": "InputStream Helper",
     "slug": "script.module.inputstreamhelper",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "authors": [
       {
         "name": "emilsvennesson",
@@ -50343,8 +50342,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.7.0.zip",
-        "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.7.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.0.zip",
+        "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.0.zip"
       }
     ],
     "categories": [
@@ -50363,7 +50362,7 @@
     "agetype": "existing",
     "summary": "Kodi InputStream and DRM playback made easy",
     "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-    "news": "v0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+    "news": "v0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
     "license": "MIT",
     "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
     "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -50374,11 +50373,11 @@
       }
     ],
     "size": "112KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 24197412,
+    "lastupdate": "2025-09-20T02:28:18.366Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
-    "snippet": "Kodi InputStream and DRM playback made easy",
-    "prevyeardl": 24197412
+    "snippet": "Kodi InputStream and DRM playback made easy"
   },
   {
     "id": "script.module.iptcinfo3",
