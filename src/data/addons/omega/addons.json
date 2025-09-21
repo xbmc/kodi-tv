@@ -35199,19 +35199,24 @@
     "addonid": "resource.images.actorart",
     "name": "Red Carpet",
     "slug": "resource.images.actorart",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "chrissix",
         "slug": "chrissix",
         "icon": "/images/authors/chrissix.webp"
+      },
+      {
+        "name": "latts",
+        "slug": "latts",
+        "icon": "/images/authors/latts.webp"
       }
     ],
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.actorart/resource.images.actorart-1.0.0.zip",
-        "statspath": "/addons/omega/resource.images.actorart/resource.images.actorart-1.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.actorart/resource.images.actorart-1.0.1.zip",
+        "statspath": "/addons/omega/resource.images.actorart/resource.images.actorart-1.0.1.zip"
       }
     ],
     "categories": [
@@ -35222,7 +35227,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "icons": [
       {
         "localpath": "/images/addons/omega/resource.images.actorart/icon.png",
@@ -35235,11 +35240,11 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "size": "296931KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 63364,
-    "icon": "/images/addons/omega/resource.images.actorart/icon.png",
-    "prevyeardl": 63364
+    "size": "345128KB",
+    "lastupdate": "2025-09-21T02:34:36.080Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/resource.images.actorart/icon.png"
   },
   {
     "id": "resource.images.aspectratio.color",
@@ -39616,7 +39621,7 @@
     "addonid": "resource.language.et_ee",
     "name": "Estonian",
     "slug": "resource.language.et_ee",
-    "version": "11.0.83",
+    "version": "11.0.84",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39627,8 +39632,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.83.zip",
-        "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.83.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.84.zip",
+        "statspath": "/addons/omega/resource.language.et_ee/resource.language.et_ee-11.0.84.zip"
       }
     ],
     "categories": [
@@ -39649,8 +39654,9 @@
       }
     ],
     "size": "147KB",
-    "lastupdate": "2025-08-14T02:38:09.283Z",
+    "lastupdate": "2025-09-21T02:34:36.080Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.et_ee/icon.png",
     "snippet": "Estonian language pack"
   },
@@ -39960,7 +39966,7 @@
     "addonid": "resource.language.fr_fr",
     "name": "French",
     "slug": "resource.language.fr_fr",
-    "version": "11.0.96",
+    "version": "11.0.97",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39971,8 +39977,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.96.zip",
-        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.96.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.97.zip",
+        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.97.zip"
       }
     ],
     "categories": [
@@ -39993,8 +39999,9 @@
       }
     ],
     "size": "152KB",
-    "lastupdate": "2025-09-14T02:32:39.988Z",
+    "lastupdate": "2025-09-21T02:34:36.080Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fr_fr/icon.png",
     "snippet": "French language pack"
   },
@@ -41078,7 +41085,7 @@
     "addonid": "resource.language.pl_pl",
     "name": "Polish",
     "slug": "resource.language.pl_pl",
-    "version": "11.0.78",
+    "version": "11.0.79",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41089,8 +41096,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.78.zip",
-        "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.78.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.79.zip",
+        "statspath": "/addons/omega/resource.language.pl_pl/resource.language.pl_pl-11.0.79.zip"
       }
     ],
     "categories": [
@@ -41111,8 +41118,9 @@
       }
     ],
     "size": "156KB",
-    "lastupdate": "2025-08-24T02:37:44.626Z",
+    "lastupdate": "2025-09-21T02:34:36.080Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.pl_pl/icon.png",
     "snippet": "Polish language pack"
   },
@@ -50375,7 +50383,6 @@
     "size": "112KB",
     "lastupdate": "2025-09-20T02:28:18.366Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
     "snippet": "Kodi InputStream and DRM playback made easy"
   },
@@ -62054,7 +62061,7 @@
     "addonid": "weather.ha",
     "name": "Home Assistant Weather",
     "slug": "weather.ha",
-    "version": "0.0.6.3",
+    "version": "0.0.6.4.1",
     "authors": [
       {
         "name": "eugeniusz.gienek",
@@ -62065,8 +62072,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ha/weather.ha-0.0.6.3.zip",
-        "statspath": "/addons/omega/weather.ha/weather.ha-0.0.6.3.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ha/weather.ha-0.0.6.4.1.zip",
+        "statspath": "/addons/omega/weather.ha/weather.ha-0.0.6.4.1.zip"
       }
     ],
     "categories": [
@@ -62101,12 +62108,12 @@
         "remotepath": "resources/banner.png"
       }
     ],
-    "size": "86KB",
-    "lastupdate": "2025-02-10T02:26:56.303Z",
-    "downloads": 26871,
+    "size": "87KB",
+    "lastupdate": "2025-09-21T02:34:36.080Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/weather.ha/resources/icon.png",
-    "snippet": "Weather forecast from Home Assistant",
-    "prevyeardl": 26871
+    "snippet": "Weather forecast from Home Assistant"
   },
   {
     "id": "weather.metoffice",
