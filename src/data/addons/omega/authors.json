@@ -11914,7 +11914,7 @@
         "addonid": "script.module.inputstreamhelper",
         "name": "InputStream Helper",
         "slug": "script.module.inputstreamhelper",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "authors": [
           {
             "name": "emilsvennesson",
@@ -11940,8 +11940,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip",
-            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip",
+            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip"
           }
         ],
         "categories": [
@@ -11960,7 +11960,7 @@
         "agetype": "existing",
         "summary": "Kodi InputStream and DRM playback made easy",
         "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-        "news": "v0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+        "news": "v0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
         "license": "MIT",
         "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
         "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -11971,8 +11971,9 @@
           }
         ],
         "size": "113KB",
-        "lastupdate": "2025-09-24T02:30:50.889Z",
+        "lastupdate": "2025-09-26T02:31:12.125Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
         "snippet": "Kodi InputStream and DRM playback made easy"
       },
@@ -15940,7 +15941,7 @@
         "addonid": "script.module.inputstreamhelper",
         "name": "InputStream Helper",
         "slug": "script.module.inputstreamhelper",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "authors": [
           {
             "name": "emilsvennesson",
@@ -15966,8 +15967,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip",
-            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip",
+            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip"
           }
         ],
         "categories": [
@@ -15986,7 +15987,7 @@
         "agetype": "existing",
         "summary": "Kodi InputStream and DRM playback made easy",
         "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-        "news": "v0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+        "news": "v0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
         "license": "MIT",
         "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
         "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -15997,8 +15998,9 @@
           }
         ],
         "size": "113KB",
-        "lastupdate": "2025-09-24T02:30:50.889Z",
+        "lastupdate": "2025-09-26T02:31:12.125Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
         "snippet": "Kodi InputStream and DRM playback made easy"
       },
@@ -24484,7 +24486,7 @@
         "addonid": "script.module.inputstreamhelper",
         "name": "InputStream Helper",
         "slug": "script.module.inputstreamhelper",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "authors": [
           {
             "name": "emilsvennesson",
@@ -24510,8 +24512,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip",
-            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip",
+            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip"
           }
         ],
         "categories": [
@@ -24530,7 +24532,7 @@
         "agetype": "existing",
         "summary": "Kodi InputStream and DRM playback made easy",
         "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-        "news": "v0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+        "news": "v0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
         "license": "MIT",
         "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
         "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -24541,8 +24543,9 @@
           }
         ],
         "size": "113KB",
-        "lastupdate": "2025-09-24T02:30:50.889Z",
+        "lastupdate": "2025-09-26T02:31:12.125Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
         "snippet": "Kodi InputStream and DRM playback made easy"
       }
@@ -37836,7 +37839,7 @@
         "addonid": "script.module.inputstreamhelper",
         "name": "InputStream Helper",
         "slug": "script.module.inputstreamhelper",
-        "version": "0.8.1",
+        "version": "0.8.2",
         "authors": [
           {
             "name": "emilsvennesson",
@@ -37862,8 +37865,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip",
-            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip",
+            "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip"
           }
         ],
         "categories": [
@@ -37882,7 +37885,7 @@
         "agetype": "existing",
         "summary": "Kodi InputStream and DRM playback made easy",
         "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-        "news": "v0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+        "news": "v0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
         "license": "MIT",
         "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
         "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -37893,8 +37896,9 @@
           }
         ],
         "size": "113KB",
-        "lastupdate": "2025-09-24T02:30:50.889Z",
+        "lastupdate": "2025-09-26T02:31:12.125Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
         "snippet": "Kodi InputStream and DRM playback made easy"
       },
