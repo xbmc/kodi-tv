@@ -23680,7 +23680,7 @@
         "addonid": "script.wellbeing",
         "name": "Wellbeing",
         "slug": "script.wellbeing",
-        "version": "1.2.0",
+        "version": "1.3.1",
         "authors": [
           {
             "name": "Heckie",
@@ -23691,8 +23691,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.wellbeing/script.wellbeing-1.2.0.zip",
-            "statspath": "/addons/omega/script.wellbeing/script.wellbeing-1.2.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.wellbeing/script.wellbeing-1.3.1.zip",
+            "statspath": "/addons/omega/script.wellbeing/script.wellbeing-1.3.1.zip"
           }
         ],
         "categories": [
@@ -23708,14 +23708,14 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Wellbeing",
         "description": "Addon in order to limit playback time per day, e.g. for parental control. After playback time has been reached playback will be stopped automatically.\n    ",
         "language": "de",
         "license": "MIT",
         "website": "https://github.com/Heckie75/kodi-addon-wellbeing",
         "source": "https://github.com/Heckie75/kodi-addon-wellbeing",
-        "news": "Version 1.2.0 (2022-11-30)\n- Added new feature: auto-stop in rest period\n- Added help texts\n- Refactoring\n\nVersion 1.1.0 (2022-08-27)\n- Added hourly notifications incl. new setting\n- Correct handling of paused media so that it doesn't consume time budget anymore\n\nVersion 1.0.0 (2022-04-20)\n- Initial version\n    ",
+        "news": "Version 1.3.1 (2025-09-22)\n- Added translations for Swedish and Slovak language\n\nVersion 1.3.0 (2025-09-21)\n- Added action in settings and RPC call to reset time budget (action=reset)\n- Added action in settings and RPC call to set today's time budget (action=limit, limit=1:00)\n\nVersion 1.2.0 (2022-11-30)\n- Added new feature: auto-stop in rest period\n- Added help texts\n- Refactoring\n\nVersion 1.1.0 (2022-08-27)\n- Added hourly notifications incl. new setting\n- Correct handling of paused media so that it doesn't consume time budget anymore\n\nVersion 1.0.0 (2022-04-20)\n- Initial version\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.wellbeing/resources/assets/icon.png",
@@ -23750,12 +23750,12 @@
             "remotepath": "resources/assets/screenshot_05.png"
           }
         ],
-        "size": "1606KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 37272,
+        "size": "1612KB",
+        "lastupdate": "2025-09-28T02:34:21.984Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.wellbeing/resources/assets/icon.png",
-        "snippet": "Wellbeing",
-        "prevyeardl": 37272
+        "snippet": "Wellbeing"
       }
     ],
     "totaladdons": 8
@@ -27160,7 +27160,7 @@
         "addonid": "plugin.video.formula1",
         "name": "Formula 1",
         "slug": "plugin.video.formula1",
-        "version": "2.0.6",
+        "version": "2.0.7",
         "authors": [
           {
             "name": "jaylinski",
@@ -27171,8 +27171,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.6.zip",
-            "statspath": "/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.6.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.7.zip",
+            "statspath": "/addons/omega/plugin.video.formula1/plugin.video.formula1-2.0.7.zip"
           }
         ],
         "categories": [
@@ -27195,7 +27195,7 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=352138",
         "website": "https://www.formula1.com",
         "source": "https://github.com/jaylinski/kodi-addon-formula1",
-        "news": "2.0.6 (2025-07-20)\nUpdated player API key\n\n2.0.5 (2025-06-17)\nFixed error when selecting the \"Videos\" folder\n\n2.0.4 (2025-04-05)\nFixed error when selecting the \"Race results\"-item in the \"Standings\"-section\n\n2.0.3 (2024-12-22)\nUpdated player API key\n\n2.0.2 (2021-05-22)\nSwitched to new player API (the old player API did not display the latest videos)\n\n2.0.1 (2021-04-16)\nFixed error when viewing driver standings\n\n2.0.0 (2020-12-05)\nAdded support for Kodi v19 (Matrix)\n        ",
+        "news": "2.0.7 (2025-10-26)\nFixed sorting of driver standings\n\n2.0.6 (2025-07-20)\nUpdated player API key\n\n2.0.5 (2025-06-17)\nFixed error when selecting the \"Videos\" folder\n\n2.0.4 (2025-04-05)\nFixed error when selecting the \"Race results\"-item in the \"Standings\"-section\n\n2.0.3 (2024-12-22)\nUpdated player API key\n\n2.0.2 (2021-05-22)\nSwitched to new player API (the old player API did not display the latest videos)\n\n2.0.1 (2021-04-16)\nFixed error when viewing driver standings\n\n2.0.0 (2020-12-05)\nAdded support for Kodi v19 (Matrix)\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.formula1/resources/icon.png",
@@ -27209,8 +27209,9 @@
           }
         ],
         "size": "196KB",
-        "lastupdate": "2025-07-28T02:48:30.817Z",
+        "lastupdate": "2025-09-28T02:34:21.984Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.formula1/resources/icon.png",
         "description": "Videos from the Formula 1 website",
         "snippet": "Videos from the Formula 1 website"
