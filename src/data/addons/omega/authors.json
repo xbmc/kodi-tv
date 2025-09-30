@@ -47520,7 +47520,7 @@
         "addonid": "inputstream.adaptive",
         "name": "InputStream Adaptive",
         "slug": "inputstream.adaptive",
-        "version": "21.5.15",
+        "version": "21.5.16",
         "authors": [
           {
             "name": "peak3d",
@@ -47535,34 +47535,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.16.zip"
           },
           {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip"
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.16.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.16.zip"
           }
         ],
         "categories": [
@@ -47591,8 +47591,9 @@
         "summary": "InputStream client for adaptive streams",
         "description": "InputStream client for adaptive streams. Common streaming protocols such as MPEG-DASH, HLS and Microsoft Smooth Streaming are supported.\n\nThe add-on also has support for DRM protected streams, such as Google Widevine, Microsoft PlayReady and others.\n\nFor documentation visit: https://github.com/xbmc/inputstream.adaptive",
         "size": "1488KB",
-        "lastupdate": "2025-07-07T02:41:11.217Z",
+        "lastupdate": "2025-09-30T02:30:32.296Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/inputstream.adaptive/icon.png",
         "snippet": "InputStream client for adaptive streams"
       }
@@ -73239,7 +73240,7 @@
         "addonid": "inputstream.adaptive",
         "name": "InputStream Adaptive",
         "slug": "inputstream.adaptive",
-        "version": "21.5.15",
+        "version": "21.5.16",
         "authors": [
           {
             "name": "peak3d",
@@ -73254,34 +73255,34 @@
         ],
         "platforms": [
           {
-            "platform": "windows-i686",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.15.zip"
-          },
-          {
             "platform": "windows-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.16.zip"
           },
           {
-            "platform": "osx-arm64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.15.zip"
+            "platform": "windows-i686",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "osx-x86_64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+osx-x86_64/inputstream.adaptive-21.5.16.zip"
+          },
+          {
+            "platform": "osx-arm64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+osx-arm64/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.16.zip"
           },
           {
             "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip",
-            "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.15.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.16.zip",
+            "statspath": "/addons/omega/inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.16.zip"
           }
         ],
         "categories": [
@@ -73310,8 +73311,9 @@
         "summary": "InputStream client for adaptive streams",
         "description": "InputStream client for adaptive streams. Common streaming protocols such as MPEG-DASH, HLS and Microsoft Smooth Streaming are supported.\n\nThe add-on also has support for DRM protected streams, such as Google Widevine, Microsoft PlayReady and others.\n\nFor documentation visit: https://github.com/xbmc/inputstream.adaptive",
         "size": "1488KB",
-        "lastupdate": "2025-07-07T02:41:11.217Z",
+        "lastupdate": "2025-09-30T02:30:32.296Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/inputstream.adaptive/icon.png",
         "snippet": "InputStream client for adaptive streams"
       },
