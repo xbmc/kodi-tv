@@ -7,8 +7,8 @@ import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
 import { Sponsor } from "../hooks/Sponsors";
 
-const config = require("../../gatsby-site-config");
-CMS.init(config.cms);
+// Manual initialization - the config.yml file will be loaded automatically
+CMS.init();
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
