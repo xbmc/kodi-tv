@@ -47603,7 +47603,7 @@
         "addonid": "script.kodi.loguploader",
         "name": "Kodi Logfile Uploader",
         "slug": "script.kodi.loguploader",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "authors": [
           {
             "name": "Team Kodi",
@@ -47614,8 +47614,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.kodi.loguploader/script.kodi.loguploader-1.0.4.zip",
-            "statspath": "/addons/omega/script.kodi.loguploader/script.kodi.loguploader-1.0.4.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.kodi.loguploader/script.kodi.loguploader-1.0.5.zip",
+            "statspath": "/addons/omega/script.kodi.loguploader/script.kodi.loguploader-1.0.5.zip"
           }
         ],
         "categories": [
@@ -47626,7 +47626,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Uploads your kodi.log file.",
         "description": "Uploads your kodi.log file and returns an url you can post on http://forum.kodi.tv/",
         "license": "GPL-2.0-only",
@@ -47638,13 +47638,13 @@
             "remotepath": "resources/icon.png"
           }
         ],
-        "news": "- allow 2MB uploads",
-        "size": "24KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 1039471,
+        "news": "- fix logfile cleaning",
+        "size": "124KB",
+        "lastupdate": "2025-10-02T02:29:52.131Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.kodi.loguploader/resources/icon.png",
-        "snippet": "Uploads your kodi.log file.",
-        "prevyeardl": 1039471
+        "snippet": "Uploads your kodi.log file."
       },
       {
         "id": "script.kodi.windows.update",
