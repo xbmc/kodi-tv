@@ -19369,7 +19369,7 @@
     "addonid": "metadata.tvshows.themoviedb.org.python",
     "name": "TMDb TV Shows",
     "slug": "metadata.tvshows.themoviedb.org.python",
-    "version": "1.7.3",
+    "version": "1.7.4",
     "authors": [
       {
         "name": "Team Kodi",
@@ -19380,8 +19380,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.3.zip",
-        "statspath": "/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.3.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.4.zip",
+        "statspath": "/addons/omega/metadata.tvshows.themoviedb.org.python/metadata.tvshows.themoviedb.org.python-1.7.4.zip"
       }
     ],
     "categories": [
@@ -19394,7 +19394,7 @@
     "firstseen": "2024-04-06T15:19:14.420Z",
     "agetype": "existing",
     "reuselanguageinvoker": "true",
-    "news": "1.7.3\nfix to properly get English videos as fallback\n\t",
+    "news": "1.7.4\nfix for breaking change to TMDB API for fanart\n\t",
     "license": "GPL-3.0-or-later",
     "icons": [
       {
@@ -19408,8 +19408,9 @@
     "summary": "Fetch TV Show metadata from themoviedb.org",
     "description": "The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.",
     "size": "178KB",
-    "lastupdate": "2025-03-25T02:31:12.739Z",
+    "lastupdate": "2025-10-03T02:29:55.881Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.tvshows.themoviedb.org.python/resources/icon.png",
     "snippet": "Fetch TV Show metadata from themoviedb.org"
   },
@@ -29390,7 +29391,7 @@
     "addonid": "plugin.video.retrospect",
     "name": "Retrospect",
     "slug": "plugin.video.retrospect",
-    "version": "5.7.29",
+    "version": "5.7.31",
     "authors": [
       {
         "name": "Bas Rieter",
@@ -29401,8 +29402,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.29.zip",
-        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.29.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.31.zip",
+        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.31.zip"
       }
     ],
     "categories": [
@@ -29432,7 +29433,7 @@
     "reuselanguageinvoker": "true",
     "license": "GPL-3.0-or-later",
     "language": "en nl de sv no lt lv fi",
-    "news": "Retrospect v5.7.29 - Changelog - 2025-09-18\n\nQuick workaround for InputStream Adaptive Helper not working which prevented playback of all videos.\n\nFramework related\n* Fixed: Temporarily fix ISA Helper issue (Fixes #1916).\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: TV4 Play `playable from`-parsing.\n* Fixed: OpenRegio format JSON glitch fixed.\n\n        ",
+    "news": "Retrospect v5.7.31 - Changelog - 2025-10-02\n\nFixed Kijk.nl and Vier.be playback.\n\nFramework related\n* Fixed: Restored ISA Helper (See #1916).\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Kijk.nl broke playback (Fixes #1916).\n* Fixed: Vier.be parsing (Fixes #1919).\n* Fixed: UR Play categories.\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -29469,8 +29470,9 @@
     "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
     "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
     "size": "1993KB",
-    "lastupdate": "2025-09-19T02:31:54.927Z",
+    "lastupdate": "2025-10-03T02:29:55.881Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -39963,7 +39965,7 @@
     "addonid": "resource.language.fr_fr",
     "name": "French",
     "slug": "resource.language.fr_fr",
-    "version": "11.0.97",
+    "version": "11.0.98",
     "authors": [
       {
         "name": "Team Kodi",
@@ -39974,8 +39976,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.97.zip",
-        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.97.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.98.zip",
+        "statspath": "/addons/omega/resource.language.fr_fr/resource.language.fr_fr-11.0.98.zip"
       }
     ],
     "categories": [
@@ -39996,8 +39998,9 @@
       }
     ],
     "size": "152KB",
-    "lastupdate": "2025-09-21T02:34:36.080Z",
+    "lastupdate": "2025-10-03T02:29:55.881Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.fr_fr/icon.png",
     "snippet": "French language pack"
   },
@@ -41855,7 +41858,7 @@
     "addonid": "resource.language.uk_ua",
     "name": "Ukrainian",
     "slug": "resource.language.uk_ua",
-    "version": "11.0.72",
+    "version": "11.0.73",
     "authors": [
       {
         "name": "Team Kodi",
@@ -41866,8 +41869,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.72.zip",
-        "statspath": "/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.72.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.73.zip",
+        "statspath": "/addons/omega/resource.language.uk_ua/resource.language.uk_ua-11.0.73.zip"
       }
     ],
     "categories": [
@@ -41888,8 +41891,9 @@
       }
     ],
     "size": "161KB",
-    "lastupdate": "2025-08-24T02:37:44.626Z",
+    "lastupdate": "2025-10-03T02:29:55.881Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/resource.language.uk_ua/icon.png",
     "snippet": "Ukrainian language pack"
   },
@@ -48203,7 +48207,6 @@
     "size": "124KB",
     "lastupdate": "2025-10-02T02:29:52.131Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.kodi.loguploader/resources/icon.png",
     "snippet": "Uploads your kodi.log file."
   },
@@ -60009,6 +60012,106 @@
     "icon": "/images/addons/omega/skin.copacetic/resources/icon.png",
     "snippet": "A real good time with your media.",
     "prevyeardl": 349126
+  },
+  {
+    "id": "skin.eminence.revived",
+    "addonid": "skin.eminence.revived",
+    "name": "Eminence revived",
+    "slug": "skin.eminence.revived",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "idealkooks",
+        "slug": "idealkooks",
+        "icon": "/images/authors/idealkooks.webp"
+      },
+      {
+        "name": "originally by jurialmunkey",
+        "slug": "originally-by-jurialmunkey",
+        "icon": "/images/authors/originally-by-jurialmunkey.webp"
+      }
+    ],
+    "platforms": [
+      {
+        "platform": "all",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/skin.eminence.revived/skin.eminence.revived-1.0.2.zip",
+        "statspath": "/addons/omega/skin.eminence.revived/skin.eminence.revived-1.0.2.zip"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Skins",
+        "slug": "skins",
+        "icon": "/images/categories/skins.webp"
+      }
+    ],
+    "firstseen": "2025-10-03T02:29:55.881Z",
+    "agetype": "new",
+    "summary": "Clean, clear, simple, modern.",
+    "disclaimer": "不支持鼠标和触摸设备",
+    "description": "Eminence is a skin that aims to be clean, clear, simple and modern.",
+    "license": "CC-NC-SA 3.0",
+    "icons": [
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/icon.png",
+        "remotepath": "icon.png"
+      }
+    ],
+    "fanarts": [
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/fanart.jpg",
+        "remotepath": "fanart.jpg"
+      }
+    ],
+    "screenshots": [
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/50.jpg",
+        "remotepath": "extras/viewthumbs/50.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/51.jpg",
+        "remotepath": "extras/viewthumbs/51.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/52.jpg",
+        "remotepath": "extras/viewthumbs/52.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/53.jpg",
+        "remotepath": "extras/viewthumbs/53.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/54.jpg",
+        "remotepath": "extras/viewthumbs/54.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/55.jpg",
+        "remotepath": "extras/viewthumbs/55.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/56.jpg",
+        "remotepath": "extras/viewthumbs/56.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/57.jpg",
+        "remotepath": "extras/viewthumbs/57.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/58.jpg",
+        "remotepath": "extras/viewthumbs/58.jpg"
+      },
+      {
+        "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/59.jpg",
+        "remotepath": "extras/viewthumbs/59.jpg"
+      }
+    ],
+    "news": "Might be unstable due to no plugin.video.themoviedb.helper",
+    "size": "10552KB",
+    "lastupdate": "2025-10-03T02:29:55.881Z",
+    "downloads": 0,
+    "prevyeardl": 0,
+    "icon": "/images/addons/omega/skin.eminence.revived/icon.png",
+    "snippet": "Clean, clear, simple, modern."
   },
   {
     "id": "skin.ftv",
