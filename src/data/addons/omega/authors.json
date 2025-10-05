@@ -7247,7 +7247,7 @@
         "addonid": "script.module.bossanova808",
         "name": "Bossanova808 Dependencies",
         "slug": "script.module.bossanova808",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "authors": [
           {
             "name": "bossanova808",
@@ -7258,8 +7258,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.0.zip",
-            "statspath": "/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.1.zip",
+            "statspath": "/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.1.zip"
           }
         ],
         "categories": [
@@ -7270,24 +7270,24 @@
           }
         ],
         "firstseen": "2025-02-08T17:02:18.451Z",
-        "agetype": "new",
-        "description": "Common code needed by bossanova808 addons",
+        "agetype": "existing",
+        "description": "Common code needed by Bossanova808 addons",
         "license": "GPL-3.0-only",
         "website": "https://github.com/bossanova808/script.module.bossanova808",
         "source": "https://github.com/bossanova808/script.module.bossanova808",
-        "news": "v1.0.0 Initial release",
+        "news": "v1.0.1\n- Updates for Piers and some defensive programming",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.module.bossanova808/resources/icon.png",
             "remotepath": "resources/icon.png"
           }
         ],
-        "size": "67KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 800038,
+        "size": "69KB",
+        "lastupdate": "2025-10-05T02:34:26.018Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.bossanova808/resources/icon.png",
-        "snippet": "Common code needed by bossanova808 addons",
-        "prevyeardl": 800038
+        "snippet": "Common code needed by Bossanova808 addons"
       },
       {
         "id": "script.cabertoss",
@@ -28694,7 +28694,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.26",
+        "version": "1.0.27",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -28715,8 +28715,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
           }
         ],
         "categories": [
@@ -28735,7 +28735,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.26]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -28748,9 +28748,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37160KB",
-        "lastupdate": "2025-05-28T02:35:02.509Z",
+        "size": "37533KB",
+        "lastupdate": "2025-10-05T02:34:26.018Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -65043,7 +65044,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.26",
+        "version": "1.0.27",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -65064,8 +65065,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
           }
         ],
         "categories": [
@@ -65084,7 +65085,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.26]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -65097,9 +65098,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37160KB",
-        "lastupdate": "2025-05-28T02:35:02.509Z",
+        "size": "37533KB",
+        "lastupdate": "2025-10-05T02:34:26.018Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -87525,7 +87527,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.26",
+        "version": "1.0.27",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -87546,8 +87548,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.26.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
           }
         ],
         "categories": [
@@ -87566,7 +87568,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.26]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -87579,9 +87581,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37160KB",
-        "lastupdate": "2025-05-28T02:35:02.509Z",
+        "size": "37533KB",
+        "lastupdate": "2025-10-05T02:34:26.018Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       },
