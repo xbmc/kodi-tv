@@ -49010,7 +49010,7 @@
     "addonid": "script.module.bossanova808",
     "name": "Bossanova808 Dependencies",
     "slug": "script.module.bossanova808",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "bossanova808",
@@ -49021,8 +49021,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.1.zip",
-        "statspath": "/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.2.zip",
+        "statspath": "/addons/omega/script.module.bossanova808/script.module.bossanova808-1.0.2.zip"
       }
     ],
     "categories": [
@@ -49038,16 +49038,17 @@
     "license": "GPL-3.0-only",
     "website": "https://github.com/bossanova808/script.module.bossanova808",
     "source": "https://github.com/bossanova808/script.module.bossanova808",
-    "news": "v1.0.1\n- Updates for Piers and some defensive programming",
+    "news": "v1.0.2\n- Fix for previous, for systems using older Python\n- Add some more helper functions\n",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.module.bossanova808/resources/icon.png",
         "remotepath": "resources/icon.png"
       }
     ],
-    "size": "69KB",
-    "lastupdate": "2025-10-05T02:34:26.018Z",
+    "size": "70KB",
+    "lastupdate": "2025-10-07T02:30:33.541Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.bossanova808/resources/icon.png",
     "snippet": "Common code needed by Bossanova808 addons"
   },
