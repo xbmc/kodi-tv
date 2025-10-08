@@ -7285,7 +7285,6 @@
         "size": "70KB",
         "lastupdate": "2025-10-07T02:30:33.541Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.bossanova808/resources/icon.png",
         "snippet": "Common code needed by Bossanova808 addons"
       },
@@ -80157,7 +80156,7 @@
         "addonid": "metadata.themoviedb.org.python",
         "name": "The Movie Database Python",
         "slug": "metadata.themoviedb.org.python",
-        "version": "3.1.1",
+        "version": "3.1.2",
         "authors": [
           {
             "name": "Team Kodi",
@@ -80168,8 +80167,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.1.zip",
-            "statspath": "/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.2.zip",
+            "statspath": "/addons/omega/metadata.themoviedb.org.python/metadata.themoviedb.org.python-3.1.2.zip"
           }
         ],
         "categories": [
@@ -80182,7 +80181,7 @@
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
         "reuselanguageinvoker": "true",
-        "news": "v3.1.1 (2025-03-21)\n- fix search for titles with accented characters\n- fix rare failure to find by IMDB number\n\nv3.1.0 (2024-12-28)\n- add option to increase available artwork per art type\n- fix for inability to scrape IMDB ratings\n\nv3.0.1 (2024-04-22)\n- fix scraper error when tags are disabled\n\nv3.0.0 (2024-04-17)\n- version 3 for Kodi 20 Nexus and above",
+        "news": "v3.1.2 (2025-10-05)\n- fix missing fanart from TMDB\n\nv3.0.0 (2024-04-17)\n- version 3 for Kodi 20 Nexus and above",
         "license": "GPL-2.0-or-later",
         "forum": "https://forum.kodi.tv/showthread.php?tid=344580",
         "website": "https://www.themoviedb.org",
@@ -80195,9 +80194,10 @@
         ],
         "summary": "Python TMDB Movie Scraper",
         "description": "themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.",
-        "size": "165KB",
-        "lastupdate": "2025-03-23T02:32:42.233Z",
+        "size": "167KB",
+        "lastupdate": "2025-10-08T02:30:31.117Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.themoviedb.org.python/resources/icon.png",
         "snippet": "Python TMDB Movie Scraper"
       },
