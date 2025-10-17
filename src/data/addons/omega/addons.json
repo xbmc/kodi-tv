@@ -34460,7 +34460,7 @@
     "addonid": "pvr.sledovanitv.cz",
     "name": "Sledovanitv.cz Client (unofficial)",
     "slug": "pvr.sledovanitv.cz",
-    "version": "22.0.0",
+    "version": "22.5.2",
     "authors": [
       {
         "name": "palinek",
@@ -34471,23 +34471,23 @@
     "platforms": [
       {
         "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+android-aarch64/pvr.sledovanitv.cz-22.0.0.zip",
-        "statspath": "/addons/omega/pvr.sledovanitv.cz+android-aarch64/pvr.sledovanitv.cz-22.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+android-aarch64/pvr.sledovanitv.cz-22.5.2.zip",
+        "statspath": "/addons/omega/pvr.sledovanitv.cz+android-aarch64/pvr.sledovanitv.cz-22.5.2.zip"
       },
       {
         "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+android-armv7/pvr.sledovanitv.cz-22.0.0.zip",
-        "statspath": "/addons/omega/pvr.sledovanitv.cz+android-armv7/pvr.sledovanitv.cz-22.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+android-armv7/pvr.sledovanitv.cz-22.5.2.zip",
+        "statspath": "/addons/omega/pvr.sledovanitv.cz+android-armv7/pvr.sledovanitv.cz-22.5.2.zip"
       },
       {
         "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+osx-arm64/pvr.sledovanitv.cz-22.0.0.zip",
-        "statspath": "/addons/omega/pvr.sledovanitv.cz+osx-arm64/pvr.sledovanitv.cz-22.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+osx-arm64/pvr.sledovanitv.cz-22.5.2.zip",
+        "statspath": "/addons/omega/pvr.sledovanitv.cz+osx-arm64/pvr.sledovanitv.cz-22.5.2.zip"
       },
       {
         "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+osx-x86_64/pvr.sledovanitv.cz-22.0.0.zip",
-        "statspath": "/addons/omega/pvr.sledovanitv.cz+osx-x86_64/pvr.sledovanitv.cz-22.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.sledovanitv.cz+osx-x86_64/pvr.sledovanitv.cz-22.5.2.zip",
+        "statspath": "/addons/omega/pvr.sledovanitv.cz+osx-x86_64/pvr.sledovanitv.cz-22.5.2.zip"
       },
       {
         "platform": "windows-i686",
@@ -34519,11 +34519,11 @@
       }
     ],
     "size": "149KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 348149,
+    "lastupdate": "2025-10-17T02:32:25.750Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.sledovanitv.cz/resources/logo.png",
-    "snippet": "Kodi's frontend for sledovanitv.cz, unofficial",
-    "prevyeardl": 348149
+    "snippet": "Kodi's frontend for sledovanitv.cz, unofficial"
   },
   {
     "id": "pvr.stalker",
