@@ -180,7 +180,10 @@ module.exports = {
     },
     {
       resolve: "gatsby-plugin-decap-cms",
-      options: { modulePath: `${__dirname}/src/cms/decap.tsx` },
+      options: { 
+        modulePath: `${__dirname}/src/cms/decap.tsx`,
+        manualInit: true,
+      },
     },
   ],
 };
