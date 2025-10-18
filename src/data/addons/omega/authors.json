@@ -20938,7 +20938,7 @@
         "addonid": "game.libretro.mupen64plus-nx",
         "name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "slug": "game.libretro.mupen64plus-nx",
-        "version": "2.8.0.51",
+        "version": "2.8.0.52",
         "authors": [
           {
             "name": "m4xw",
@@ -20968,6 +20968,16 @@
         ],
         "platforms": [
           {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
@@ -20986,16 +20996,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
           }
         ],
         "categories": [
@@ -21017,9 +21017,10 @@
         ],
         "summary": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "description": "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible.",
-        "size": "2562KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "2509KB",
+        "lastupdate": "2025-10-18T02:28:50.040Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -21333,7 +21334,7 @@
         "addonid": "game.libretro.mupen64plus-nx",
         "name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "slug": "game.libretro.mupen64plus-nx",
-        "version": "2.8.0.51",
+        "version": "2.8.0.52",
         "authors": [
           {
             "name": "m4xw",
@@ -21363,6 +21364,16 @@
         ],
         "platforms": [
           {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
@@ -21381,16 +21392,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
           }
         ],
         "categories": [
@@ -21412,9 +21413,10 @@
         ],
         "summary": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "description": "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible.",
-        "size": "2562KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "2509KB",
+        "lastupdate": "2025-10-18T02:28:50.040Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -22899,7 +22901,7 @@
         "addonid": "game.libretro.mupen64plus-nx",
         "name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "slug": "game.libretro.mupen64plus-nx",
-        "version": "2.8.0.51",
+        "version": "2.8.0.52",
         "authors": [
           {
             "name": "m4xw",
@@ -22929,6 +22931,16 @@
         ],
         "platforms": [
           {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
@@ -22947,16 +22959,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
           }
         ],
         "categories": [
@@ -22978,9 +22980,10 @@
         ],
         "summary": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "description": "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible.",
-        "size": "2562KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "2509KB",
+        "lastupdate": "2025-10-18T02:28:50.040Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       },
@@ -34984,7 +34987,7 @@
         "addonid": "game.libretro.mupen64plus-nx",
         "name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "slug": "game.libretro.mupen64plus-nx",
-        "version": "2.8.0.51",
+        "version": "2.8.0.52",
         "authors": [
           {
             "name": "m4xw",
@@ -35014,6 +35017,16 @@
         ],
         "platforms": [
           {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
@@ -35032,16 +35045,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
           }
         ],
         "categories": [
@@ -35063,9 +35066,10 @@
         ],
         "summary": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "description": "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible.",
-        "size": "2562KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "2509KB",
+        "lastupdate": "2025-10-18T02:28:50.040Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       }
@@ -42048,7 +42052,7 @@
         "addonid": "game.libretro.mupen64plus-nx",
         "name": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "slug": "game.libretro.mupen64plus-nx",
-        "version": "2.8.0.51",
+        "version": "2.8.0.52",
         "authors": [
           {
             "name": "m4xw",
@@ -42078,6 +42082,16 @@
         ],
         "platforms": [
           {
+            "platform": "android-armv7",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
+            "platform": "android-aarch64",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip",
+            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.52.zip"
+          },
+          {
             "platform": "windows-x86_64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+windows-x86_64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
@@ -42096,16 +42110,6 @@
             "platform": "osx-arm64",
             "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
             "statspath": "/addons/omega/game.libretro.mupen64plus-nx+osx-arm64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-armv7",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-armv7/game.libretro.mupen64plus-nx-2.8.0.51.zip"
-          },
-          {
-            "platform": "android-aarch64",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip",
-            "statspath": "/addons/omega/game.libretro.mupen64plus-nx+android-aarch64/game.libretro.mupen64plus-nx-2.8.0.51.zip"
           }
         ],
         "categories": [
@@ -42127,9 +42131,10 @@
         ],
         "summary": "Nintendo - Nintendo 64 (Mupen64Plus-Next)",
         "description": "Mupen64 is an N64 emulator desgined to be multi-OS. It uses a plugin system and is highly compatible.",
-        "size": "2562KB",
-        "lastupdate": "2025-09-04T02:29:24.598Z",
+        "size": "2509KB",
+        "lastupdate": "2025-10-18T02:28:50.040Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/game.libretro.mupen64plus-nx/resources/icon.png",
         "snippet": "Nintendo - Nintendo 64 (Mupen64Plus-Next)"
       },
@@ -47048,7 +47053,6 @@
         "size": "149KB",
         "lastupdate": "2025-10-17T02:32:25.750Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/pvr.sledovanitv.cz/resources/logo.png",
         "snippet": "Kodi's frontend for sledovanitv.cz, unofficial"
       }
