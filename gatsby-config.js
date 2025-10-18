@@ -178,9 +178,5 @@ module.exports = {
         kodiversions: ["omega"],
       },
     },
-    {
-      resolve: "gatsby-plugin-decap-cms",
-      options: { modulePath: `${__dirname}/src/cms/decap.tsx` },
-    },
   ],
 };
