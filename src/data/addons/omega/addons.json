@@ -18179,7 +18179,7 @@
     "addonid": "metadata.album.universal",
     "name": "Universal Album Scraper",
     "slug": "metadata.album.universal",
-    "version": "3.1.16",
+    "version": "3.1.17",
     "authors": [
       {
         "name": "Olympia",
@@ -18195,8 +18195,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.16.zip",
-        "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.16.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.album.universal/metadata.album.universal-3.1.17.zip",
+        "statspath": "/addons/omega/metadata.album.universal/metadata.album.universal-3.1.17.zip"
       }
     ],
     "categories": [
@@ -18218,9 +18218,10 @@
     ],
     "summary": "Universal Scraper for Albums",
     "description": "This scraper collects information from the following supported sites: MusicBrainz, last.fm, allmusic.com and amazon.de, while grabs artwork from: fanart.tv, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic and/or amazon.de links are not added on the MusicBrainz site, fields from allmusic.com and/or amazon.de cannot be fetched (very easy to add those missing links though).",
-    "size": "130KB",
-    "lastupdate": "2025-08-13T02:37:25.136Z",
+    "size": "138KB",
+    "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.album.universal/icon.png",
     "snippet": "Universal Scraper for Albums"
   },
@@ -18369,7 +18370,7 @@
     "addonid": "metadata.artists.universal",
     "name": "Universal Artist Scraper",
     "slug": "metadata.artists.universal",
-    "version": "4.3.18",
+    "version": "4.3.19",
     "authors": [
       {
         "name": "Olympia",
@@ -18385,8 +18386,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.18.zip",
-        "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.18.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.19.zip",
+        "statspath": "/addons/omega/metadata.artists.universal/metadata.artists.universal-4.3.19.zip"
       }
     ],
     "categories": [
@@ -18408,9 +18409,10 @@
     ],
     "summary": "Universal Scraper for Artists",
     "description": "This scraper collects information from the following supported sites: TheAudioDb.com, MusicBrainz, last.fm, and allmusic.com, while grabs artwork from: fanart.tv, htbackdrops.com, last.fm and allmusic.com. It can be set field by field that from which site you want that specific information.\n\nThe initial search is always done on MusicBrainz. In case allmusic link is not added on the MusicBrainz site fields from allmusic.com cannot be fetched (very easy to add those missing links though).",
-    "size": "144KB",
-    "lastupdate": "2025-08-13T02:37:25.136Z",
+    "size": "154KB",
+    "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
     "snippet": "Universal Scraper for Artists"
   },
@@ -19555,7 +19557,7 @@
     "addonid": "metadata.universal",
     "name": "Universal Movie Scraper",
     "slug": "metadata.universal",
-    "version": "5.5.22",
+    "version": "5.5.23",
     "authors": [
       {
         "name": "Olympia",
@@ -19571,8 +19573,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.22.zip",
-        "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.22.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.23.zip",
+        "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.23.zip"
       }
     ],
     "categories": [
@@ -19594,9 +19596,10 @@
     ],
     "summary": "Universal Movie Scraper",
     "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
-    "size": "281KB",
-    "lastupdate": "2025-08-13T02:37:25.136Z",
+    "size": "296KB",
+    "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.universal/icon.png",
     "snippet": "Universal Movie Scraper"
   },
