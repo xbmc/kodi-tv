@@ -18221,7 +18221,6 @@
     "size": "138KB",
     "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.album.universal/icon.png",
     "snippet": "Universal Scraper for Albums"
   },
@@ -18412,7 +18411,6 @@
     "size": "154KB",
     "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.artists.universal/icon.png",
     "snippet": "Universal Scraper for Artists"
   },
@@ -19599,7 +19597,6 @@
     "size": "296KB",
     "lastupdate": "2025-10-21T02:33:58.690Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/metadata.universal/icon.png",
     "snippet": "Universal Movie Scraper"
   },
@@ -22324,7 +22321,7 @@
     "addonid": "plugin.switchback",
     "name": "Switchback",
     "slug": "plugin.switchback",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "authors": [
       {
         "name": "bossanova808",
@@ -22335,8 +22332,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.switchback/plugin.switchback-1.0.0.zip",
-        "statspath": "/addons/omega/plugin.switchback/plugin.switchback-1.0.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.switchback/plugin.switchback-2.0.0.zip",
+        "statspath": "/addons/omega/plugin.switchback/plugin.switchback-2.0.0.zip"
       }
     ],
     "categories": [
@@ -22359,30 +22356,35 @@
         "name": "Video addons",
         "slug": "video-addons",
         "icon": "/images/categories/video-addons.webp"
+      },
+      {
+        "name": "Context menus",
+        "slug": "context-menus",
+        "icon": "/images/categories/context-menus.webp"
       }
     ],
     "firstseen": "2025-02-08T17:02:18.451Z",
-    "agetype": "new",
-    "summary": "Utility for fast switching between recently played media.",
-    "description": "Kodi utility for fast switching between recently played media.\n\nKeeps a list of recently played media - supports Kodi library episodes, movies, PVR channels, songs and non-library files.  Does not (yet?) support add-ons or PVR recordings.\n\nThe primary intended use is to make for super easy Switchback between two in progress videos (by binding a remote key to Switchback, see Wiki/Forum thread for info).\n\nConsider this scenario:\n- You are watching 'video A' with your partner.  You are interrupted and your partner needs to tend to the kids/howl at the moon.\n- You navigate to 'video B' and watch some of that.\n- Your partner comes back.\n- You hit your one button 'Switchback' and 'video A' starts playing again, no need for tedious navigation etc.\n- You are interrupted again - the moon is so very bright tonight - hit your 'Switchback' to resume 'video B' immediately, again with one magic button and no tedious navigation.\n        ",
+    "agetype": "existing",
+    "summary": "Switchback is a Kodi utility for fast switching between recently played media.",
+    "description": "Kodi utility for fast switching between recently played media.\nKeeps a list of recently played videos.\nThe primary intended use is to make for super easy Switchback between two in progress video. See Wiki for usage notes including how to bind remote/keyboard controls for instant Switchback.\nConsider this scenario:\n* You're watching 'video A' with your partner. You're interrupted, and your partner needs to tend to the kids/howl at the moon.\n* You navigate to 'video B' and watch some of that while you're waiting.\n* Your partner comes back.\n* You hit your one button 'Switchback' and 'video A' instantly starts playing again - no need for tedious navigation etc.\n* You're interrupted, again! The moon really is so very bright tonight. Hit your 'Switchback' button to instantly resume 'video B', again with no tedious navigation.\n        ",
     "license": "GPL-3.0-only",
     "website": "https://github.com/bossanova808/plugin.switchback/",
     "source": "https://github.com/bossanova808/plugin.switchback/",
     "forum": "https://forum.kodi.tv/showthread.php?tid=379330",
     "email": "bossanova808@gmail.com",
-    "news": "v1.0.0 Initial release\n        ",
+    "news": "v2.0.0 Re-write!\n- Support addons\n- Support PVR live/recordings\n- (Remove music support)\n- Add context menus (configurable)\n- Better artwork support\n- Better notifications\n- Filter watched items from list (configurable)\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.switchback/resources/icon.png",
         "remotepath": "resources/icon.png"
       }
     ],
-    "size": "696KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 57235,
+    "size": "704KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.switchback/resources/icon.png",
-    "snippet": "Utility for fast switching between recently played media.",
-    "prevyeardl": 57235
+    "snippet": "Switchback is a Kodi utility for fast switching between recently played media."
   },
   {
     "id": "plugin.video.3satmediathek",
@@ -23746,7 +23748,7 @@
     "addonid": "plugin.video.cinetree",
     "name": "Cinetree",
     "slug": "plugin.video.cinetree",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "authors": [
       {
         "name": "Dimitri Kroon",
@@ -23757,8 +23759,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.2.zip",
-        "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.3.zip",
+        "statspath": "/addons/omega/plugin.video.cinetree/plugin.video.cinetree-2.0.3.zip"
       }
     ],
     "categories": [
@@ -23795,10 +23797,11 @@
       }
     ],
     "reuselanguageinvoker": "true",
-    "news": "Version 2.0.2\n- Fix: Several lists failed to open with 'ParseError' due to some changes at Cinetree.\n- Fix: Add-on failed to open when the user was not logged in to Cinetree.\n\nVersion 2.0.1\n- New logo image.\n- Now possible to directly rent a film with your prepaid credit at Cinetree.\n- Now possible to sort listings on the date the film was added to Cinetree.\n- Sort Genre listings by using the context menu, instead of the side menu.\n- The default sort order of all lists is now the same as the cinetree website.\n- Added a main menu entry for Cinetree Originals.\n- Added a main menu entry for short films.\n- Added a menu entry to your saved watch list in 'My Films'.\n- Added the possibility to add or remove films to your watch list by using the context menu.\n- Properly display films as fully or partially watched.\n- Sync the watched status of films watched on other devices.\n- Better distinguish 'already watched' films from 'continue watching'.\n- Added the possibility to remove films from 'already watched' and 'continue watching' by using the context menu in these lists.\n- Fix: price info missing in the description of some rental films.\n- Several other minor changes and changes under the hood.\n    ",
+    "news": "Version 2.0.3\n- Fixed listing short films\n- Some other small improvements\n    ",
     "size": "146KB",
-    "lastupdate": "2025-05-31T02:33:38.969Z",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.cinetree/resources/cinetree-logo.png",
     "snippet": "Films and documentaries from cinetree.nl (Benelux countries only, account required)"
   },
@@ -47160,7 +47163,7 @@
     "addonid": "script.cabertoss",
     "name": "Caber Toss",
     "slug": "script.cabertoss",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "bossanova808",
@@ -47171,8 +47174,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.cabertoss/script.cabertoss-1.0.1.zip",
-        "statspath": "/addons/omega/script.cabertoss/script.cabertoss-1.0.1.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.cabertoss/script.cabertoss-1.0.2.zip",
+        "statspath": "/addons/omega/script.cabertoss/script.cabertoss-1.0.2.zip"
       }
     ],
     "categories": [
@@ -47183,7 +47186,7 @@
       }
     ],
     "firstseen": "2025-02-08T17:02:18.451Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Provides an easy way to save Kodi log files, at a particular moment, to a chosen destination.",
     "description": "A script to quickly toss your Kodi logs from your Kodi client machine to somewhere more handy, for easier review.\n\nWhen something unexpected or bad happens, just run this add-on to copy the latest Kodi logs to your chosen destination.\n\nEven better, bind this to a remote button (use `Runscript(script.cabertoss)`) - so you can carry on with your relaxing at the time, and deal with the issue later (without having to wade through all the stuff you did after the issue happened!).\n        ",
     "license": "GPL-3.0-only",
@@ -47191,19 +47194,19 @@
     "source": "https://github.com/bossanova808/script.cabertoss",
     "forum": "https://forum.kodi.tv/showthread.php?tid=379304",
     "email": "bossanova808@gmail.com",
-    "news": "v1.0.1\n- Improve compatibility with network shares            \n- Improve compatibility with Windows and *ELEC\n- Add hostname to logs folder, helps if using with multiple systems\n- Don't copy crashlogs older than three days\n- Language improvements\n- Add 'Working...' notification to make more responsive (copying larger log files can take a moment)\n        ",
+    "news": "v1.0.2\n- Use updated Logging code\n- Make crashlog days configurable (default still 3)\n- A bunch of fixes and improvements following CodeRabbit review\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.cabertoss/resources/icon.png",
         "remotepath": "resources/icon.png"
       }
     ],
-    "size": "72KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 64664,
+    "size": "73KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.cabertoss/resources/icon.png",
-    "snippet": "Provides an easy way to save Kodi log files, at a particular moment, to a...",
-    "prevyeardl": 64664
+    "snippet": "Provides an easy way to save Kodi log files, at a particular moment, to a..."
   },
   {
     "id": "script.check.theme",
@@ -50319,7 +50322,7 @@
     "addonid": "script.module.inputstreamhelper",
     "name": "InputStream Helper",
     "slug": "script.module.inputstreamhelper",
-    "version": "0.8.2",
+    "version": "0.8.3",
     "authors": [
       {
         "name": "emilsvennesson",
@@ -50345,8 +50348,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip",
-        "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.3.zip",
+        "statspath": "/addons/omega/script.module.inputstreamhelper/script.module.inputstreamhelper-0.8.3.zip"
       }
     ],
     "categories": [
@@ -50365,7 +50368,7 @@
     "agetype": "existing",
     "summary": "Kodi InputStream and DRM playback made easy",
     "description": "A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.",
-    "news": "v0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
+    "news": "v0.8.3 (2025-10-10)\n- Fix removing older Widevine CDM backups\n\nv0.8.2 (2025-09-25)\n- Fix Widevine CDM installation on 32-bit Windows\n\nv0.8.1 (2025-09-22)\n- Fix Widevine CDM installation on ARM hardware\n\nv0.8.0 (2025-09-19)\n- Fix Widevine CDM installation on Windows, Linux and Macintosh\n- Add support for LG webOS\n\nv0.7.0 (2024-09-24)\n- Get rid of distutils dependency\n- Option to get Widevine from lacros image\n- Remove support for Python 2 and pre-Matrix Kodi versions\n\nv0.6.1 (2023-05-30)\n- Performance improvements on Linux ARM\n- This will be the last release for Python 2 i.e. Kodi 18 (Leia) and below. The next release will require Python 3 and Kodi 19 (Matrix) or higher.\n\nv0.6.0 (2023-05-03)\n- Initial support for AARCH64 Linux\n- Initial support for AARCH64 Macs\n- New option to install a specific version on most platforms\n\nv0.5.10 (2022-04-18)\n- Fix automatic submission of release\n- Update German translation\n- Fix update_frequency setting\n- Fix install_from\n- Improve/Fix Widevine extraction from Chrome OS images\n\nv0.5.9 (2022-03-22)\n- Update Croatian translation\n- Replace deprecated LooseVersion\n- Fix http_get decode error\n- Option to install Widevine from specified source\n    ",
     "license": "MIT",
     "website": "https://github.com/emilsvennesson/script.module.inputstreamhelper/wiki",
     "source": "https://github.com/emilsvennesson/script.module.inputstreamhelper",
@@ -50376,8 +50379,9 @@
       }
     ],
     "size": "113KB",
-    "lastupdate": "2025-09-26T02:31:12.125Z",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.inputstreamhelper/resources/icon.png",
     "snippet": "Kodi InputStream and DRM playback made easy"
   },
@@ -55120,7 +55124,7 @@
     "addonid": "script.service.checkpreviousepisode",
     "name": "Kodi Check Previous Episode",
     "slug": "script.service.checkpreviousepisode",
-    "version": "0.4.8",
+    "version": "0.4.9",
     "authors": [
       {
         "name": "bossanova808",
@@ -55141,8 +55145,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.service.checkpreviousepisode/script.service.checkpreviousepisode-0.4.8.zip",
-        "statspath": "/addons/omega/script.service.checkpreviousepisode/script.service.checkpreviousepisode-0.4.8.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.service.checkpreviousepisode/script.service.checkpreviousepisode-0.4.9.zip",
+        "statspath": "/addons/omega/script.service.checkpreviousepisode/script.service.checkpreviousepisode-0.4.9.zip"
       }
     ],
     "categories": [
@@ -55160,19 +55164,19 @@
     "forum": "https://forum.kodi.tv/showthread.php?tid=355464",
     "website": "https://kodi.wiki/view/Add-on:XBMC_Check_Previous_Episode",
     "source": "https://github.com/bossanova808/script.service.checkpreviousepisode",
-    "news": "v0.4.8\n- Remove old common code, use new module\n- Fix bug if last ignored show is removed from ignore list then that show is re-played in same Kodi session\n    ",
+    "news": "v0.4.9\n- Prep for Piers, use new module Logger\n- Sundry fixes/tightening from CodeRabbit reviews\n    ",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
         "remotepath": "icon.png"
       }
     ],
-    "size": "37KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 204459,
+    "size": "38KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
-    "snippet": "Kodi Check Previous Episode",
-    "prevyeardl": 204459
+    "snippet": "Kodi Check Previous Episode"
   },
   {
     "id": "script.service.hue",
@@ -55543,7 +55547,7 @@
     "addonid": "script.service.playbackresumer",
     "name": "Kodi Playback Resumer",
     "slug": "script.service.playbackresumer",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "authors": [
       {
         "name": "bossanova808",
@@ -55559,8 +55563,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.service.playbackresumer/script.service.playbackresumer-2.0.7.zip",
-        "statspath": "/addons/omega/script.service.playbackresumer/script.service.playbackresumer-2.0.7.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.service.playbackresumer/script.service.playbackresumer-2.0.8.zip",
+        "statspath": "/addons/omega/script.service.playbackresumer/script.service.playbackresumer-2.0.8.zip"
       }
     ],
     "categories": [
@@ -55579,19 +55583,19 @@
     "source": "https://github.com/bossanova808/script.service.playbackresumer",
     "forum": "https://forum.kodi.tv/showthread.php?tid=355383",
     "email": "bossanova808@gmail.com",
-    "news": "v2.0.7\n- Remove old common code, use new module\n    ",
+    "news": "v2.0.8\n- Minor changes for Piers\n    ",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.service.playbackresumer/icon.png",
         "remotepath": "icon.png"
       }
     ],
-    "size": "344KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 339688,
+    "size": "347KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.service.playbackresumer/icon.png",
-    "snippet": "Periodically sets the resume point of videos and can automatically resume last played video if...",
-    "prevyeardl": 339688
+    "snippet": "Periodically sets the resume point of videos and can automatically resume last played video if..."
   },
   {
     "id": "script.simkl",
@@ -57255,7 +57259,7 @@
     "addonid": "script.xbmc.unpausejumpback",
     "name": "Unpause Jumpback",
     "slug": "script.xbmc.unpausejumpback",
-    "version": "3.0.5",
+    "version": "3.0.6",
     "authors": [
       {
         "name": "bossanova808",
@@ -57286,8 +57290,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.xbmc.unpausejumpback/script.xbmc.unpausejumpback-3.0.5.zip",
-        "statspath": "/addons/omega/script.xbmc.unpausejumpback/script.xbmc.unpausejumpback-3.0.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.xbmc.unpausejumpback/script.xbmc.unpausejumpback-3.0.6.zip",
+        "statspath": "/addons/omega/script.xbmc.unpausejumpback/script.xbmc.unpausejumpback-3.0.6.zip"
       }
     ],
     "categories": [
@@ -57306,16 +57310,17 @@
     "source": "https://github.com/bossanova808/script.xbmc.unpausejumpback/",
     "forum": "https://forum.kodi.tv/showthread.php?tid=355778",
     "email": "bossonav808@gmail.com",
-    "news": "v3.0.5\n- fix for more possibles instances of \"Kodi is not playing any media file\" when skipping beyond end of file\n    ",
+    "news": "v3.0.6\n- Minor updates for Piers (use new module Logger functions)\n    ",
     "icons": [
       {
         "localpath": "/images/addons/omega/script.xbmc.unpausejumpback/icon.png",
         "remotepath": "icon.png"
       }
     ],
-    "size": "81KB",
-    "lastupdate": "2025-04-12T02:30:52.810Z",
+    "size": "83KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.xbmc.unpausejumpback/icon.png",
     "snippet": "Kodi automatic jump back on un-pausing of videos"
   },
@@ -58564,7 +58569,7 @@
     "addonid": "service.subtitles.opensubtitles-com",
     "name": "OpenSubtitles.com",
     "slug": "service.subtitles.opensubtitles-com",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "authors": [
       {
         "name": "amet",
@@ -58590,8 +58595,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.7.zip",
-        "statspath": "/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.7.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.8.zip",
+        "statspath": "/addons/omega/service.subtitles.opensubtitles-com/service.subtitles.opensubtitles-com-1.0.8.zip"
       }
     ],
     "categories": [
@@ -58606,7 +58611,7 @@
     "summary": "OpenSubtitles.com",
     "description": "Search and download subtitles for movies and TV-Series from OpenSubtitles.com. Search in 75 languages, 8.000.000+ subtitles, daily updates. Register/Import your account on OpenSubtitles.com before use.",
     "disclaimer": "Users need to provide OpenSubtitles.com username and password in add-on configuration. This is our new extension, old opensubtitles.org will not work on this, but the account can be easily imported on opensubtitles.com.",
-    "news": "v1.0.7 (2025-08-26)\n- added IMDB and TMDB collection on files for more accurate search to the API\n\nv1.0.6 (2024-11-29)\n- fixed issue with RAR archives (thanks ninjacarr)\n- handles default chinese language to zh-cn  (thanks ninjacarr)\n\nv1.0.5 (2024-07-30)\n- fixed issue with portuguese file names\n- added AI translated filter (thanks Kate6)\n\nv1.0.4 (2024-01-15)\n- Sanitize language query\n- Improved sorting\n- Improved error messages \n- Improved usage of moviehash \n\nv1.0.3 (2023-12-18)\n- Fixed issue with file path\n\nv1.0.2 (2023-08-28)\n- Update user agent header\n\nv1.0.1 (2023-07-28)\n- Remove limit of 10 subtitles for the returned values\n- Fix Portuguese and Brazilian flags\n\t\t",
+    "news": "v1.0.8 (2025-10-07)\n- performs a query to kodi library if imdb or tmdb ID is missing (thanks you cvanderkam)\n\nv1.0.7 (2025-08-26)\n- added IMDB and TMDB collection on files for more accurate search to the API\n\nv1.0.6 (2024-11-29)\n- fixed issue with RAR archives (thanks ninjacarr)\n- handles default chinese language to zh-cn  (thanks ninjacarr)\n\nv1.0.5 (2024-07-30)\n- fixed issue with portuguese file names\n- added AI translated filter (thanks Kate6)\n\nv1.0.4 (2024-01-15)\n- Sanitize language query\n- Improved sorting\n- Improved error messages \n- Improved usage of moviehash \n\nv1.0.3 (2023-12-18)\n- Fixed issue with file path\n\nv1.0.2 (2023-08-28)\n- Update user agent header\n\nv1.0.1 (2023-07-28)\n- Remove limit of 10 subtitles for the returned values\n- Fix Portuguese and Brazilian flags\n\t\t",
     "license": "GPL-2.0-only",
     "forum": "https://forum.opensubtitles.com/t/new-kodi-extension/1673",
     "website": "https://www.opensubtitles.com/en",
@@ -58638,9 +58643,10 @@
       }
     ],
     "source": "https://github.com/opensubtitlesdev/service.subtitles.opensubtitles-com",
-    "size": "403KB",
-    "lastupdate": "2025-09-14T02:32:39.988Z",
+    "size": "408KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/service.subtitles.opensubtitles-com/resources/media/os_logo_512x512.png",
     "snippet": "OpenSubtitles.com"
   },
@@ -62459,7 +62465,7 @@
     "addonid": "weather.ozweather",
     "name": "Oz Weather",
     "slug": "weather.ozweather",
-    "version": "2.1.5",
+    "version": "2.1.6",
     "authors": [
       {
         "name": "Bossanova808",
@@ -62470,8 +62476,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ozweather/weather.ozweather-2.1.5.zip",
-        "statspath": "/addons/omega/weather.ozweather/weather.ozweather-2.1.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/weather.ozweather/weather.ozweather-2.1.6.zip",
+        "statspath": "/addons/omega/weather.ozweather/weather.ozweather-2.1.6.zip"
       }
     ],
     "categories": [
@@ -62504,10 +62510,11 @@
         "remotepath": "fanart.jpg"
       }
     ],
-    "news": "v2.1.5 Minor fixes\n- Fix feels like calculation when data not returned by BOM, and Current.Wind\n    \t",
-    "size": "329KB",
-    "lastupdate": "2025-06-15T02:41:54.707Z",
+    "news": "v2.1.6 Performance improvements, prep for Piers\n- Improve performance when used with multiple Kodi Profiles by using a shared cache (stored under special://temp/ozweather)\n- A bunch of code improvements and defensive programming to cope with scenarios where things are not at times available\n    \t",
+    "size": "330KB",
+    "lastupdate": "2025-10-22T02:34:45.873Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/weather.ozweather/icon.png",
     "snippet": "Weather forecasting and radar images for Australia using Bureau of Meteorology data"
   },
