@@ -17262,7 +17262,7 @@
     "addonid": "game.libretro.vice_xscpu64",
     "name": "Commodore - C64 SuperCPU (VICE xscpu64)",
     "slug": "game.libretro.vice_xscpu64",
-    "version": "3.9.0.28",
+    "version": "3.9.0.29",
     "authors": [
       {
         "name": "VICE Team",
@@ -17271,6 +17271,11 @@
       }
     ],
     "platforms": [
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_xscpu64+android-aarch64/game.libretro.vice_xscpu64-3.9.0.29.zip",
+        "statspath": "/addons/omega/game.libretro.vice_xscpu64+android-aarch64/game.libretro.vice_xscpu64-3.9.0.29.zip"
+      },
       {
         "platform": "android-armv7",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_xscpu64+android-armv7/game.libretro.vice_xscpu64-3.9.0.28.zip",
@@ -17285,11 +17290,6 @@
         "platform": "osx-arm64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_xscpu64+osx-arm64/game.libretro.vice_xscpu64-3.9.0.28.zip",
         "statspath": "/addons/omega/game.libretro.vice_xscpu64+osx-arm64/game.libretro.vice_xscpu64-3.9.0.28.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.vice_xscpu64+android-aarch64/game.libretro.vice_xscpu64-3.9.0.28.zip",
-        "statspath": "/addons/omega/game.libretro.vice_xscpu64+android-aarch64/game.libretro.vice_xscpu64-3.9.0.28.zip"
       },
       {
         "platform": "windows-x86_64",
@@ -17322,8 +17322,9 @@
     "summary": "Commodore - C64 SuperCPU (VICE xscpu64)",
     "description": "VICE stands for the Versatile Commodore Emulator. The current version emulates the C64, the C64DTV, the C128, the VIC20, practically all PET models, the PLUS4 and the CBM-II (aka C610/C510).",
     "size": "1923KB",
-    "lastupdate": "2025-08-12T02:36:29.413Z",
+    "lastupdate": "2025-10-28T02:33:48.560Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.vice_xscpu64/resources/icon.png",
     "snippet": "Commodore - C64 SuperCPU (VICE xscpu64)"
   },
@@ -17402,7 +17403,7 @@
     "addonid": "game.libretro.virtualjaguar",
     "name": "Atari - Jaguar (Virtual Jaguar)",
     "slug": "game.libretro.virtualjaguar",
-    "version": "2.1.0.44",
+    "version": "2.1.0.45",
     "authors": [
       {
         "name": "David Raingeard",
@@ -17417,6 +17418,26 @@
     ],
     "platforms": [
       {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+osx-x86_64/game.libretro.virtualjaguar-2.1.0.45.zip",
+        "statspath": "/addons/omega/game.libretro.virtualjaguar+osx-x86_64/game.libretro.virtualjaguar-2.1.0.45.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+osx-arm64/game.libretro.virtualjaguar-2.1.0.45.zip",
+        "statspath": "/addons/omega/game.libretro.virtualjaguar+osx-arm64/game.libretro.virtualjaguar-2.1.0.45.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+android-aarch64/game.libretro.virtualjaguar-2.1.0.45.zip",
+        "statspath": "/addons/omega/game.libretro.virtualjaguar+android-aarch64/game.libretro.virtualjaguar-2.1.0.45.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+android-armv7/game.libretro.virtualjaguar-2.1.0.45.zip",
+        "statspath": "/addons/omega/game.libretro.virtualjaguar+android-armv7/game.libretro.virtualjaguar-2.1.0.45.zip"
+      },
+      {
         "platform": "windows-i686",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+windows-i686/game.libretro.virtualjaguar-2.1.0.44.zip",
         "statspath": "/addons/omega/game.libretro.virtualjaguar+windows-i686/game.libretro.virtualjaguar-2.1.0.44.zip"
@@ -17425,26 +17446,6 @@
         "platform": "windows-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+windows-x86_64/game.libretro.virtualjaguar-2.1.0.44.zip",
         "statspath": "/addons/omega/game.libretro.virtualjaguar+windows-x86_64/game.libretro.virtualjaguar-2.1.0.44.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+osx-x86_64/game.libretro.virtualjaguar-2.1.0.44.zip",
-        "statspath": "/addons/omega/game.libretro.virtualjaguar+osx-x86_64/game.libretro.virtualjaguar-2.1.0.44.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+android-aarch64/game.libretro.virtualjaguar-2.1.0.44.zip",
-        "statspath": "/addons/omega/game.libretro.virtualjaguar+android-aarch64/game.libretro.virtualjaguar-2.1.0.44.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+android-armv7/game.libretro.virtualjaguar-2.1.0.44.zip",
-        "statspath": "/addons/omega/game.libretro.virtualjaguar+android-armv7/game.libretro.virtualjaguar-2.1.0.44.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.virtualjaguar+osx-arm64/game.libretro.virtualjaguar-2.1.0.44.zip",
-        "statspath": "/addons/omega/game.libretro.virtualjaguar+osx-arm64/game.libretro.virtualjaguar-2.1.0.44.zip"
       }
     ],
     "categories": [
@@ -17480,19 +17481,19 @@
     ],
     "summary": "Atari - Jaguar (Virtual Jaguar)",
     "description": "Virtual Jaguar is an emulator for the Atari Jaguar video game console.\n\nBased on code released by David Raingeard (Cal2) of what used to be Potato Emulation.",
-    "size": "1132KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 31062,
+    "size": "1289KB",
+    "lastupdate": "2025-10-28T02:33:48.560Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.virtualjaguar/resources/icon.png",
-    "snippet": "Atari - Jaguar (Virtual Jaguar)",
-    "prevyeardl": 31062
+    "snippet": "Atari - Jaguar (Virtual Jaguar)"
   },
   {
     "id": "game.libretro.xmil",
     "addonid": "game.libretro.xmil",
     "name": "Sharp X1 (X Millennium)",
     "slug": "game.libretro.xmil",
-    "version": "0.60.0.37",
+    "version": "0.60.0.38",
     "authors": [
       {
         "name": "yui",
@@ -17502,6 +17503,26 @@
     ],
     "platforms": [
       {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+osx-x86_64/game.libretro.xmil-0.60.0.38.zip",
+        "statspath": "/addons/omega/game.libretro.xmil+osx-x86_64/game.libretro.xmil-0.60.0.38.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+android-aarch64/game.libretro.xmil-0.60.0.38.zip",
+        "statspath": "/addons/omega/game.libretro.xmil+android-aarch64/game.libretro.xmil-0.60.0.38.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+android-armv7/game.libretro.xmil-0.60.0.38.zip",
+        "statspath": "/addons/omega/game.libretro.xmil+android-armv7/game.libretro.xmil-0.60.0.38.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+osx-arm64/game.libretro.xmil-0.60.0.38.zip",
+        "statspath": "/addons/omega/game.libretro.xmil+osx-arm64/game.libretro.xmil-0.60.0.38.zip"
+      },
+      {
         "platform": "windows-i686",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+windows-i686/game.libretro.xmil-0.60.0.37.zip",
         "statspath": "/addons/omega/game.libretro.xmil+windows-i686/game.libretro.xmil-0.60.0.37.zip"
@@ -17510,26 +17531,6 @@
         "platform": "windows-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+windows-x86_64/game.libretro.xmil-0.60.0.37.zip",
         "statspath": "/addons/omega/game.libretro.xmil+windows-x86_64/game.libretro.xmil-0.60.0.37.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+osx-x86_64/game.libretro.xmil-0.60.0.37.zip",
-        "statspath": "/addons/omega/game.libretro.xmil+osx-x86_64/game.libretro.xmil-0.60.0.37.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+android-aarch64/game.libretro.xmil-0.60.0.37.zip",
-        "statspath": "/addons/omega/game.libretro.xmil+android-aarch64/game.libretro.xmil-0.60.0.37.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+android-armv7/game.libretro.xmil-0.60.0.37.zip",
-        "statspath": "/addons/omega/game.libretro.xmil+android-armv7/game.libretro.xmil-0.60.0.37.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xmil+osx-arm64/game.libretro.xmil-0.60.0.37.zip",
-        "statspath": "/addons/omega/game.libretro.xmil+osx-arm64/game.libretro.xmil-0.60.0.37.zip"
       }
     ],
     "categories": [
@@ -17557,50 +17558,50 @@
     ],
     "summary": "Sharp X1 (X Millennium)",
     "description": "X millennium was born in the late 1990s as X1R, a real-time mode fork of X1EMU.",
-    "size": "265KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 16595,
+    "size": "370KB",
+    "lastupdate": "2025-10-28T02:33:48.560Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.xmil/resources/icon.png",
-    "snippet": "Sharp X1 (X Millennium)",
-    "prevyeardl": 16595
+    "snippet": "Sharp X1 (X Millennium)"
   },
   {
     "id": "game.libretro.xrick",
     "addonid": "game.libretro.xrick",
     "name": "Rick Dangerous (XRick)",
     "slug": "game.libretro.xrick",
-    "version": "0.21212.0.43",
+    "version": "0.21212.0.44",
     "authors": [],
     "platforms": [
+      {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+osx-x86_64/game.libretro.xrick-0.21212.0.44.zip",
+        "statspath": "/addons/omega/game.libretro.xrick+osx-x86_64/game.libretro.xrick-0.21212.0.44.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+osx-arm64/game.libretro.xrick-0.21212.0.44.zip",
+        "statspath": "/addons/omega/game.libretro.xrick+osx-arm64/game.libretro.xrick-0.21212.0.44.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+android-aarch64/game.libretro.xrick-0.21212.0.44.zip",
+        "statspath": "/addons/omega/game.libretro.xrick+android-aarch64/game.libretro.xrick-0.21212.0.44.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+android-armv7/game.libretro.xrick-0.21212.0.44.zip",
+        "statspath": "/addons/omega/game.libretro.xrick+android-armv7/game.libretro.xrick-0.21212.0.44.zip"
+      },
       {
         "platform": "windows-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+windows-x86_64/game.libretro.xrick-0.21212.0.43.zip",
         "statspath": "/addons/omega/game.libretro.xrick+windows-x86_64/game.libretro.xrick-0.21212.0.43.zip"
       },
       {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+osx-x86_64/game.libretro.xrick-0.21212.0.43.zip",
-        "statspath": "/addons/omega/game.libretro.xrick+osx-x86_64/game.libretro.xrick-0.21212.0.43.zip"
-      },
-      {
         "platform": "windows-i686",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+windows-i686/game.libretro.xrick-0.21212.0.43.zip",
         "statspath": "/addons/omega/game.libretro.xrick+windows-i686/game.libretro.xrick-0.21212.0.43.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+android-armv7/game.libretro.xrick-0.21212.0.43.zip",
-        "statspath": "/addons/omega/game.libretro.xrick+android-armv7/game.libretro.xrick-0.21212.0.43.zip"
-      },
-      {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+osx-arm64/game.libretro.xrick-0.21212.0.43.zip",
-        "statspath": "/addons/omega/game.libretro.xrick+osx-arm64/game.libretro.xrick-0.21212.0.43.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.xrick+android-aarch64/game.libretro.xrick-0.21212.0.43.zip",
-        "statspath": "/addons/omega/game.libretro.xrick+android-aarch64/game.libretro.xrick-0.21212.0.43.zip"
       }
     ],
     "categories": [
@@ -17634,19 +17635,19 @@
     ],
     "summary": "Rick Dangerous (XRick)",
     "description": "XRick is an open source implementation of the legendary game Rick Dangerous.",
-    "size": "2341KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 1925,
+    "size": "2373KB",
+    "lastupdate": "2025-10-28T02:33:48.560Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.xrick/resources/icon.png",
-    "snippet": "Rick Dangerous (XRick)",
-    "prevyeardl": 1925
+    "snippet": "Rick Dangerous (XRick)"
   },
   {
     "id": "game.libretro.yabause",
     "addonid": "game.libretro.yabause",
     "name": "Sega - Saturn (Yabause)",
     "slug": "game.libretro.yabause",
-    "version": "0.9.15.62",
+    "version": "0.9.15.63",
     "authors": [
       {
         "name": "Guillaume Duhammel",
@@ -17666,6 +17667,16 @@
     ],
     "platforms": [
       {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+android-armv7/game.libretro.yabause-0.9.15.63.zip",
+        "statspath": "/addons/omega/game.libretro.yabause+android-armv7/game.libretro.yabause-0.9.15.63.zip"
+      },
+      {
+        "platform": "android-aarch64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+android-aarch64/game.libretro.yabause-0.9.15.63.zip",
+        "statspath": "/addons/omega/game.libretro.yabause+android-aarch64/game.libretro.yabause-0.9.15.63.zip"
+      },
+      {
         "platform": "windows-x86_64",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+windows-x86_64/game.libretro.yabause-0.9.15.62.zip",
         "statspath": "/addons/omega/game.libretro.yabause+windows-x86_64/game.libretro.yabause-0.9.15.62.zip"
@@ -17684,16 +17695,6 @@
         "platform": "windows-i686",
         "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+windows-i686/game.libretro.yabause-0.9.15.62.zip",
         "statspath": "/addons/omega/game.libretro.yabause+windows-i686/game.libretro.yabause-0.9.15.62.zip"
-      },
-      {
-        "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+android-aarch64/game.libretro.yabause-0.9.15.62.zip",
-        "statspath": "/addons/omega/game.libretro.yabause+android-aarch64/game.libretro.yabause-0.9.15.62.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/game.libretro.yabause+android-armv7/game.libretro.yabause-0.9.15.62.zip",
-        "statspath": "/addons/omega/game.libretro.yabause+android-armv7/game.libretro.yabause-0.9.15.62.zip"
       }
     ],
     "categories": [
@@ -17722,12 +17723,12 @@
     "summary": "Sega - Saturn (Yabause)",
     "description": "Yabause stands for Yet Another Buggy And Uncomplete Saturn Emulator. Yabause can boot Sega Saturn bios and games, some of which are playable.",
     "disclaimer": "图标来源：Anarkhya（anarkhya.deviantart.com）",
-    "size": "565KB",
-    "lastupdate": "2025-02-08T17:02:18.451Z",
-    "downloads": 34873,
+    "size": "1011KB",
+    "lastupdate": "2025-10-28T02:33:48.560Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/game.libretro.yabause/resources/icon.png",
-    "snippet": "Sega - Saturn (Yabause)",
-    "prevyeardl": 34873
+    "snippet": "Sega - Saturn (Yabause)"
   },
   {
     "id": "imagedecoder.heif",
