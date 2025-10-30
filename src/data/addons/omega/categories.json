@@ -44114,7 +44114,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.44+matrix.1",
+        "version": "2.5.45+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -44135,8 +44135,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
           }
         ],
         "categories": [
@@ -44166,7 +44166,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -44199,8 +44199,9 @@
         ],
         "reuselanguageinvoker": "true",
         "size": "1647KB",
-        "lastupdate": "2025-10-11T02:28:24.907Z",
+        "lastupdate": "2025-10-30T02:35:36.010Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       },
@@ -69973,7 +69974,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.44+matrix.1",
+        "version": "2.5.45+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -69994,8 +69995,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
           }
         ],
         "categories": [
@@ -70025,7 +70026,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -70058,8 +70059,9 @@
         ],
         "reuselanguageinvoker": "true",
         "size": "1647KB",
-        "lastupdate": "2025-10-11T02:28:24.907Z",
+        "lastupdate": "2025-10-30T02:35:36.010Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       },
@@ -84270,7 +84272,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.44+matrix.1",
+        "version": "2.5.45+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -84291,8 +84293,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.44+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
           }
         ],
         "categories": [
@@ -84322,7 +84324,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -84355,8 +84357,9 @@
         ],
         "reuselanguageinvoker": "true",
         "size": "1647KB",
-        "lastupdate": "2025-10-11T02:28:24.907Z",
+        "lastupdate": "2025-10-30T02:35:36.010Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       },
