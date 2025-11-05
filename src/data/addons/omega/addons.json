@@ -29315,7 +29315,7 @@
     "addonid": "plugin.video.retrospect",
     "name": "Retrospect",
     "slug": "plugin.video.retrospect",
-    "version": "5.7.31",
+    "version": "5.7.32",
     "authors": [
       {
         "name": "Bas Rieter",
@@ -29326,8 +29326,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.31.zip",
-        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.31.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.32.zip",
+        "statspath": "/addons/omega/plugin.video.retrospect/plugin.video.retrospect-5.7.32.zip"
       }
     ],
     "categories": [
@@ -29357,7 +29357,7 @@
     "reuselanguageinvoker": "true",
     "license": "GPL-3.0-or-later",
     "language": "en nl de sv no lt lv fi",
-    "news": "Retrospect v5.7.31 - Changelog - 2025-10-02\n\nFixed Kijk.nl and Vier.be playback.\n\nFramework related\n* Fixed: Restored ISA Helper (See #1916).\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: Kijk.nl broke playback (Fixes #1916).\n* Fixed: Vier.be parsing (Fixes #1919).\n* Fixed: UR Play categories.\n        ",
+    "news": "Retrospect v5.7.32 - Changelog - 2025-11-04\n\nFixed some Swedish channel-related issues.\n\nFramework related\n_None_\n\nGUI/Settings/Language related\n_None_\n\nChannel related\n* Fixed: UR Play video playback.\n* Fixed: UR Play search.\n* Fixed: Log-in issue for TV4play.se (Fixes 1922).\n        ",
     "icons": [
       {
         "localpath": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
@@ -29393,9 +29393,10 @@
     "summary": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters.",
     "description": "Retrospect uses the official websites and freely available streams of different broadcasting companies (mainly Dutch, Belgian, British, Norwegian and Swedish) to make their re-run/catch-up episodes available on the Kodi platform. \n\nSome channels that are included are: NPO Start, Kijk.nl (SBS6, NET5, Veronica, SBS9), RTL XL, NOS, Nickelodeon, AT5, Omroep Flevoland, L1, RTV Drenthe, RTV Oost, RTV Noord, RTV Noord-Holland, RTV Rijnmond, Omroep West, Omroep Gelderland, Omroep Brabant, Omrop Fryslân, WOS, DTV, Omroep Venlo Omroep Horst aan de Maas, Studio 040, RTV Utrecht, Omroep Zeeland, Eén, Vier, VRT.nu, VTM, Stieve, Ketnet, DPlay, SVT, ViaFree, Viasat, UR Play, MTV, NRK, BBC, Dumpert, Fox Sports, Pathé Nederland, Hardware.info and Ons.\n\nMore information can be found at https://github.com/retrospect-addon/plugin.video.retrospect or the Retrospect wiki at https://github.com/retrospect-addon/plugin.video.retrospect/wiki/.",
     "disclaimer": "Retrospect tillgängliggörs i befintligt skick. Vi tar inget som helst ansvar för möjliga (men högst osannolika) skador på ditt system. Vi tar inte heller ansvar för innehållet som kan ses med detta tillägg eller konsekvenser av att använda tillägget för att se innehållet via innehållsleverantörernas plattformar.",
-    "size": "1993KB",
-    "lastupdate": "2025-10-03T02:29:55.881Z",
+    "size": "1987KB",
+    "lastupdate": "2025-11-05T02:35:23.824Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
     "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
   },
@@ -29462,9 +29463,9 @@
   {
     "id": "plugin.video.rivedila7",
     "addonid": "plugin.video.rivedila7",
-    "name": "LA7-LA7d",
+    "name": "LA7-LA7Cinema",
     "slug": "plugin.video.rivedila7",
-    "version": "6.3.0",
+    "version": "7.0.0",
     "authors": [
       {
         "name": "Luivit",
@@ -29480,8 +29481,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip",
-        "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-6.3.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-7.0.0.zip",
+        "statspath": "/addons/omega/plugin.video.rivedila7/plugin.video.rivedila7-7.0.0.zip"
       }
     ],
     "categories": [
@@ -29499,7 +29500,7 @@
     "firstseen": "2024-04-06T15:19:14.420Z",
     "agetype": "existing",
     "reuselanguageinvoker": "true",
-    "summary": "LA7-LA7d",
+    "summary": "LA7-LA7Cinema",
     "description": "Live Streaming, Replay the last week, LA7 Prime, On-Demand programs, News and Weather, Teche LA7-The Protagonists",
     "language": "it",
     "license": "GPL-3.0-only",
@@ -29533,12 +29534,13 @@
         "remotepath": "resources/screenshots/screenshot-02.jpg"
       }
     ],
-    "news": "6.3.0 (2025-05-11)\n- fix Programs title and added Config for manual added programs (thanks @24mu13)\n- patch text not found (thanks @lpuglia)\n      \n6.2.1 (2024-05-09)\n- Solved program cataloging (thanks @fabpolli)\n      \n6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n\n6.0.2 (2022-05-22)\n- Removed html5lib dependence\n- Fix for UnicodeDecodeError (thanks @marcocalm)\n    ",
-    "size": "1535KB",
-    "lastupdate": "2025-05-19T02:36:26.843Z",
+    "news": "7.0.0 (2025-10-23)\n- LA7d channel replaced with the new LA7 Cinema\n- New channel LA7 Eventi\n- Review function of the new LA7 Cinema channel\n- Added Tutti i Film page in the La7 Prime section\n- TG La7d replaced with TG Digital in the News and Weather section\n- Omnibus News replaced with Edicola in the News and Weather section\n- Protagonist section replaced with Personalities section\n\n6.3.0 (2025-05-11)\n- fix Programs title and added Config for manual added programs (thanks @24mu13)\n- patch text not found (thanks @lpuglia)\n\n6.2.1 (2024-05-09)\n- Solved program cataloging (thanks @fabpolli)\n\n6.2.0 (2022-03-5)\n- Solved 4h Live delay problem\n\n6.1.0 (2022-10-29)\n- Improved Regex that repair many Programs view\n- Added \"Una giornata particolare\" to Programs\n- Filter Omnibus News vs Omnibus\n    ",
+    "size": "2058KB",
+    "lastupdate": "2025-11-05T02:35:23.824Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.rivedila7/resources/icon.png",
-    "snippet": "LA7-LA7d"
+    "snippet": "LA7-LA7Cinema"
   },
   {
     "id": "plugin.video.rocketbeans",
@@ -32050,7 +32052,7 @@
     "addonid": "plugin.video.viwx",
     "name": "viwX",
     "slug": "plugin.video.viwx",
-    "version": "1.7.2",
+    "version": "1.7.4",
     "authors": [
       {
         "name": "Dimitri Kroon",
@@ -32061,8 +32063,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.2.zip",
-        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.2.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.4.zip",
+        "statspath": "/addons/omega/plugin.video.viwx/plugin.video.viwx-1.7.4.zip"
       }
     ],
     "categories": [
@@ -32098,11 +32100,12 @@
         "remotepath": "resources/fanart.png"
       }
     ],
-    "news": "v1.7.2\nFixes:\n- In some cases, Kodi continued to run the previous version for a while after the add-on was updated.\n- Short news clips fail to play in category News.\n- Support live items without start and end time.\n\nv 1.7.1\nFixes:\n- Short sport clips fail to play with error 'Not Found'\n\nv 1.7.0\nNew Features:\n- Optional full HD streams - must be enabled in settings, off by default.\n\nFixes:\n- Search with live items in the results failed.\n- Some episode listings failed.\n    ",
+    "news": "v 1.7.4\n- Fixed collection list was empty due to changes at ITVX.\n- Re-enabled inputstream helper.\n    ",
     "reuselanguageinvoker": "true",
     "size": "160KB",
-    "lastupdate": "2025-07-29T02:50:30.091Z",
+    "lastupdate": "2025-11-05T02:35:23.824Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.viwx/resources/icon.png",
     "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
   },
