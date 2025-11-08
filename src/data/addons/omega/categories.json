@@ -68546,7 +68546,7 @@
         "addonid": "script.simkl",
         "name": "Simkl TV Tracker",
         "slug": "script.simkl",
-        "version": "3.2.3",
+        "version": "3.2.4",
         "authors": [
           {
             "name": "David Davó",
@@ -68562,8 +68562,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.simkl/script.simkl-3.2.3.zip",
-            "statspath": "/addons/omega/script.simkl/script.simkl-3.2.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.simkl/script.simkl-3.2.4.zip",
+            "statspath": "/addons/omega/script.simkl/script.simkl-3.2.4.zip"
           }
         ],
         "categories": [
@@ -68596,10 +68596,11 @@
           }
         ],
         "language": "en",
-        "news": "v3.2.3 (31-10-25)\n      - fixed bubble popup and autoscrobble settings\n      v3.2.2 (05-01-24)\n      - fixed new python isAlive function\n      v3.2 (22-09-22)\n      - right click, mark as watched/unwatched added\n      v3.1 (21-07-13)\n      - detect engine updated\n      v3.0 (21-03-16)\n      - Kodi 19+ support\n    ",
+        "news": "v3.2.4 (04-11-25)\n      - fixed bubble recursive call\n      v3.2.3 (31-10-25)\n      - fixed bubble popup and autoscrobble settings\n      v3.2.2 (05-01-24)\n      - fixed new python isAlive function\n      v3.2 (22-09-22)\n      - right click, mark as watched/unwatched added\n      v3.1 (21-07-13)\n      - detect engine updated\n      v3.0 (21-03-16)\n      - Kodi 19+ support\n    ",
         "size": "404KB",
-        "lastupdate": "2025-11-02T02:36:37.473Z",
+        "lastupdate": "2025-11-08T02:32:13.635Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.simkl/resources/icon.png",
         "snippet": "Simkl Scrobbler with AI file detection system"
       },
