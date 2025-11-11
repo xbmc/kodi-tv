@@ -62,4 +62,4 @@ Okay, what's new in this version?
 
 If cutting-edge software is your thing, you can get Alpha 2 from [here](https://kodi.tv/download). Select your platform of choice, and look in the "Prerelease" section. Again, though, please: expect some breakage, don't use this as your daily installation unless you know how to get things working again, and please share your experiences back with us so we can really get going on those bugs. And take a backup first!
 
-As usual, in the full spirit of open source, you can see what's changed since Alpha 1 [here](https://github.com/xbmc/xbmc/compare/22.0a1-Piers...xbmc:xbmc:22.0a2-Piers) and from v21.2 [here](https://github.com/xbmc/xbmc/compare/21.2-Omega...xbmc:xbmc:22.0a2-Piers). 
+As usual, in the full spirit of open source, you can see what's changed since Alpha 1 [here](https://github.com/xbmc/xbmc/compare/22.0a1-Piers...xbmc:xbmc:22.0a2-Piers) and from v21.3 [here](https://github.com/xbmc/xbmc/compare/21.3-Omega...xbmc:xbmc:22.0a2-Piers). 
