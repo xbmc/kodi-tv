@@ -45171,7 +45171,7 @@
         "addonid": "metadata.universal",
         "name": "Universal Movie Scraper",
         "slug": "metadata.universal",
-        "version": "5.5.24",
+        "version": "5.6.1",
         "authors": [
           {
             "name": "Olympia",
@@ -45187,8 +45187,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.24.zip",
-            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.24.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.6.1.zip",
+            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.6.1.zip"
           }
         ],
         "categories": [
@@ -45211,8 +45211,9 @@
         "summary": "Universal Movie Scraper",
         "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
         "size": "279KB",
-        "lastupdate": "2025-11-02T02:36:37.473Z",
+        "lastupdate": "2025-11-18T02:35:32.777Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       }
@@ -73239,7 +73240,7 @@
         "addonid": "metadata.common.imdb.com",
         "name": "IMDB Scraper Library",
         "slug": "metadata.common.imdb.com",
-        "version": "3.2.9",
+        "version": "3.3.0",
         "authors": [
           {
             "name": "Team Kodi",
@@ -73250,8 +73251,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.common.imdb.com/metadata.common.imdb.com-3.2.9.zip",
-            "statspath": "/addons/omega/metadata.common.imdb.com/metadata.common.imdb.com-3.2.9.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.common.imdb.com/metadata.common.imdb.com-3.3.0.zip",
+            "statspath": "/addons/omega/metadata.common.imdb.com/metadata.common.imdb.com-3.3.0.zip"
           }
         ],
         "categories": [
@@ -73264,17 +73265,17 @@
         "firstseen": "2024-04-06T15:19:14.420Z",
         "agetype": "existing",
         "nofanart": "true",
-        "size": "9KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 8325706,
+        "size": "8KB",
+        "lastupdate": "2025-11-18T02:35:32.777Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icons": [
           {
             "remotepath": "",
             "localpath": "/images/default-addon.webp"
           }
         ],
-        "icon": "/images/default-addon.webp",
-        "prevyeardl": 8325706
+        "icon": "/images/default-addon.webp"
       },
       {
         "id": "resource.language.id_id",
@@ -80647,7 +80648,7 @@
         "addonid": "metadata.universal",
         "name": "Universal Movie Scraper",
         "slug": "metadata.universal",
-        "version": "5.5.24",
+        "version": "5.6.1",
         "authors": [
           {
             "name": "Olympia",
@@ -80663,8 +80664,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.5.24.zip",
-            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.5.24.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/metadata.universal/metadata.universal-5.6.1.zip",
+            "statspath": "/addons/omega/metadata.universal/metadata.universal-5.6.1.zip"
           }
         ],
         "categories": [
@@ -80687,8 +80688,9 @@
         "summary": "Universal Movie Scraper",
         "description": "Universal Scraper is currently the most customizable scraper by collecting information from the following supported sites: IMDb, themoviedb.org, Rotten Tomatoes, OFDb.de, fanart.tv, port.hu. This scraper is currently the flagship of the Team-Kodi scrapers. The initial search can be done either on TMDb or IMDb (according to the settings), but following that it can be set field by field that from which site you want that specific information.",
         "size": "279KB",
-        "lastupdate": "2025-11-02T02:36:37.473Z",
+        "lastupdate": "2025-11-18T02:35:32.777Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/metadata.universal/icon.png",
         "snippet": "Universal Movie Scraper"
       },
