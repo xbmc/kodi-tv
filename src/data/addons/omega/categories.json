@@ -71135,105 +71135,6 @@
         "prevyeardl": 349126
       },
       {
-        "id": "skin.eminence.revived",
-        "addonid": "skin.eminence.revived",
-        "name": "Eminence revived",
-        "slug": "skin.eminence.revived",
-        "version": "1.0.2",
-        "authors": [
-          {
-            "name": "idealkooks",
-            "slug": "idealkooks",
-            "icon": "/images/authors/idealkooks.webp"
-          },
-          {
-            "name": "originally by jurialmunkey",
-            "slug": "originally-by-jurialmunkey",
-            "icon": "/images/authors/originally-by-jurialmunkey.webp"
-          }
-        ],
-        "platforms": [
-          {
-            "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/skin.eminence.revived/skin.eminence.revived-1.0.2.zip",
-            "statspath": "/addons/omega/skin.eminence.revived/skin.eminence.revived-1.0.2.zip"
-          }
-        ],
-        "categories": [
-          {
-            "name": "Skins",
-            "slug": "skins",
-            "icon": "/images/categories/skins.webp"
-          }
-        ],
-        "firstseen": "2025-10-03T02:29:55.881Z",
-        "agetype": "new",
-        "summary": "Clean, clear, simple, modern.",
-        "disclaimer": "不支持鼠标和触摸设备",
-        "description": "Eminence is a skin that aims to be clean, clear, simple and modern.",
-        "license": "CC-NC-SA 3.0",
-        "icons": [
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/icon.png",
-            "remotepath": "icon.png"
-          }
-        ],
-        "fanarts": [
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/fanart.jpg",
-            "remotepath": "fanart.jpg"
-          }
-        ],
-        "screenshots": [
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/50.jpg",
-            "remotepath": "extras/viewthumbs/50.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/51.jpg",
-            "remotepath": "extras/viewthumbs/51.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/52.jpg",
-            "remotepath": "extras/viewthumbs/52.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/53.jpg",
-            "remotepath": "extras/viewthumbs/53.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/54.jpg",
-            "remotepath": "extras/viewthumbs/54.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/55.jpg",
-            "remotepath": "extras/viewthumbs/55.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/56.jpg",
-            "remotepath": "extras/viewthumbs/56.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/57.jpg",
-            "remotepath": "extras/viewthumbs/57.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/58.jpg",
-            "remotepath": "extras/viewthumbs/58.jpg"
-          },
-          {
-            "localpath": "/images/addons/omega/skin.eminence.revived/extras/viewthumbs/59.jpg",
-            "remotepath": "extras/viewthumbs/59.jpg"
-          }
-        ],
-        "news": "Might be unstable due to no plugin.video.themoviedb.helper",
-        "size": "10552KB",
-        "lastupdate": "2025-10-03T02:29:55.881Z",
-        "downloads": 0,
-        "icon": "/images/addons/omega/skin.eminence.revived/icon.png",
-        "snippet": "Clean, clear, simple, modern."
-      },
-      {
         "id": "skin.ftv",
         "addonid": "skin.ftv",
         "name": "fTV",
@@ -71838,7 +71739,7 @@
         "prevyeardl": 22673
       }
     ],
-    "totaladdons": 14
+    "totaladdons": 13
   },
   {
     "name": "Subtitles",
