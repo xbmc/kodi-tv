@@ -7033,7 +7033,7 @@
         "addonid": "plugin.video.arteplussept",
         "name": "Arte +7",
         "slug": "plugin.video.arteplussept",
-        "version": "1.4.3",
+        "version": "1.4.4",
         "authors": [
           {
             "name": "bmf",
@@ -7049,8 +7049,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip",
-            "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.4.zip",
+            "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.4.zip"
           }
         ],
         "categories": [
@@ -7069,11 +7069,11 @@
         "agetype": "existing",
         "summary": "Arte +7",
         "description": "Watch videos from Arte +7\nFor feature requests / issues:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept/issues\nContributions are welcome:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept\n        ",
-        "language": "fr de en it pl",
+        "language": "fr de en it pl ro",
         "license": "MIT",
         "website": "https://www.arte.tv/fr/",
         "source": "https://github.com/thomas-ernest/plugin.video.arteplussept",
-        "news": "v1.4.3 (2025-8-4)\n- Fix playing live stream (disabling HLS).\nv1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\nv1.4.1 (2023-10-10)\n- Fix playing videos with siblings.\nv1.4.0 (2023-8-14)\n- Add support for content over multiple pages.\n- Refactor most of the code in OO style\n        ",
+        "news": "v1.4.4 (2025-11-24)\n- Fix home page display\n- Fix authentication by preventing persisting token\n- Fix category available through link i.e. API call to HBBTV\nv1.4.3 (2025-8-4)\n- Fix playing live stream (disabling HLS).\nv1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
@@ -7086,9 +7086,10 @@
             "remotepath": "resources/fanart.jpg"
           }
         ],
-        "size": "110KB",
-        "lastupdate": "2025-08-22T02:34:08.445Z",
+        "size": "112KB",
+        "lastupdate": "2025-11-28T02:35:30.599Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
         "snippet": "Arte +7"
       }
@@ -12137,7 +12138,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.45+matrix.1",
+        "version": "2.5.46+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -12158,8 +12159,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
           }
         ],
         "categories": [
@@ -12189,7 +12190,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -12221,9 +12222,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1647KB",
-        "lastupdate": "2025-10-30T02:35:36.010Z",
+        "size": "1649KB",
+        "lastupdate": "2025-11-28T02:35:30.599Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       },
@@ -37119,7 +37121,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.45+matrix.1",
+        "version": "2.5.46+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -37140,8 +37142,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
           }
         ],
         "categories": [
@@ -37171,7 +37173,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -37203,9 +37205,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1647KB",
-        "lastupdate": "2025-10-30T02:35:36.010Z",
+        "size": "1649KB",
+        "lastupdate": "2025-11-28T02:35:30.599Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       }
@@ -37829,7 +37832,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.45+matrix.1",
+        "version": "2.5.46+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -37850,8 +37853,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.45+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
           }
         ],
         "categories": [
@@ -37881,7 +37884,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n\nv2.5.29 (2024-02-12)\n- Fix program listings\n\nv2.5.28 (2024-01-24)\n- Fix 'My favorites' listing\n\nv2.5.27 (2023-12-27)\n- Fix categories listing\n\nv2.5.26 (2023-09-22)\n- Fix program listings\n- Add extra content to program listings\n\nv2.5.25 (2023-09-14)\n- Fix episode listings and featured menu\n\nv2.5.24 (2023-07-18)\n- Fix 1080p quality and playback issue\n\nv2.5.23 (2023-07-11)\n- Fix episode and featured listings\n\nv2.5.22 (2023-06-14)\n- Fix categories menu\n- Fix 1080p\n\nv2.5.21 (2023-05-23)\n- Fix 1080p for livestreams\n- Remove All programs menu\n- Fix paging in episode listings\n    ",
+        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -37913,9 +37916,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1647KB",
-        "lastupdate": "2025-10-30T02:35:36.010Z",
+        "size": "1649KB",
+        "lastupdate": "2025-11-28T02:35:30.599Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       }
@@ -60577,7 +60581,7 @@
         "addonid": "plugin.video.sandmann",
         "name": "Sandmann",
         "slug": "plugin.video.sandmann",
-        "version": "2.3.0",
+        "version": "2.3.1",
         "authors": [
           {
             "name": "sorax",
@@ -60588,8 +60592,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sandmann/plugin.video.sandmann-2.3.0.zip",
-            "statspath": "/addons/omega/plugin.video.sandmann/plugin.video.sandmann-2.3.0.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.sandmann/plugin.video.sandmann-2.3.1.zip",
+            "statspath": "/addons/omega/plugin.video.sandmann/plugin.video.sandmann-2.3.1.zip"
           }
         ],
         "categories": [
@@ -60605,7 +60609,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Our Sandman",
         "description": "The Sandman has been sending the children to bed in the evening for over 50 years. With a bedtime story that shouldn't upset, the show is a ritual every evening for 1 million children (and their parents) to end the day.",
         "disclaimer": "Videos von www.sandmann.de",
@@ -60625,13 +60629,13 @@
             "remotepath": "resources/assets/fanart.jpg"
           }
         ],
-        "news": "v2.3.0:\n      - performance improvements\n    ",
+        "news": "v2.3.1:\n      - fix urls for fetching episodes\n    ",
         "size": "218KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 63739,
+        "lastupdate": "2025-11-28T02:35:30.599Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.sandmann/resources/assets/icon.png",
-        "snippet": "Our Sandman",
-        "prevyeardl": 63739
+        "snippet": "Our Sandman"
       }
     ],
     "totaladdons": 1
@@ -82919,7 +82923,7 @@
         "addonid": "plugin.video.arteplussept",
         "name": "Arte +7",
         "slug": "plugin.video.arteplussept",
-        "version": "1.4.3",
+        "version": "1.4.4",
         "authors": [
           {
             "name": "bmf",
@@ -82935,8 +82939,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip",
-            "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.4.zip",
+            "statspath": "/addons/omega/plugin.video.arteplussept/plugin.video.arteplussept-1.4.4.zip"
           }
         ],
         "categories": [
@@ -82955,11 +82959,11 @@
         "agetype": "existing",
         "summary": "Arte +7",
         "description": "Watch videos from Arte +7\nFor feature requests / issues:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept/issues\nContributions are welcome:\nhttps://github.com/thomas-ernest/plugin.video.arteplussept\n        ",
-        "language": "fr de en it pl",
+        "language": "fr de en it pl ro",
         "license": "MIT",
         "website": "https://www.arte.tv/fr/",
         "source": "https://github.com/thomas-ernest/plugin.video.arteplussept",
-        "news": "v1.4.3 (2025-8-4)\n- Fix playing live stream (disabling HLS).\nv1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\nv1.4.1 (2023-10-10)\n- Fix playing videos with siblings.\nv1.4.0 (2023-8-14)\n- Add support for content over multiple pages.\n- Refactor most of the code in OO style\n        ",
+        "news": "v1.4.4 (2025-11-24)\n- Fix home page display\n- Fix authentication by preventing persisting token\n- Fix category available through link i.e. API call to HBBTV\nv1.4.3 (2025-8-4)\n- Fix playing live stream (disabling HLS).\nv1.4.2 (2024-1-3)\n- Rename quality parameter.\n- Use https to get HBB TV Stream info.\n- Fix bug preventing to open series menu\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
@@ -82972,9 +82976,10 @@
             "remotepath": "resources/fanart.jpg"
           }
         ],
-        "size": "110KB",
-        "lastupdate": "2025-08-22T02:34:08.445Z",
+        "size": "112KB",
+        "lastupdate": "2025-11-28T02:35:30.599Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.arteplussept/resources/icon.png",
         "snippet": "Arte +7"
       }
