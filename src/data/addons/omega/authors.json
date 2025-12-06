@@ -28222,6 +28222,97 @@
     "totaladdons": 1
   },
   {
+    "name": "jgaudet",
+    "slug": "jgaudet",
+    "icon": "/images/authors/jgaudet.webp",
+    "id": "jgaudet",
+    "addons": [
+      {
+        "id": "plugin.video.cbc",
+        "addonid": "plugin.video.cbc",
+        "name": "Canadian Broadcasting Corp (CBC)",
+        "slug": "plugin.video.cbc",
+        "version": "4.0.21+matrix.1",
+        "authors": [
+          {
+            "name": "micahg",
+            "slug": "micahg",
+            "icon": "/images/authors/micahg.webp"
+          },
+          {
+            "name": "t1m",
+            "slug": "t1m",
+            "icon": "/images/authors/t1m.webp"
+          },
+          {
+            "name": "smf007",
+            "slug": "smf007",
+            "icon": "/images/authors/smf007.webp"
+          },
+          {
+            "name": "oshanrube",
+            "slug": "oshanrube",
+            "icon": "/images/authors/oshanrube.webp"
+          },
+          {
+            "name": "jgaudet",
+            "slug": "jgaudet",
+            "icon": "/images/authors/jgaudet.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Video addons",
+            "slug": "video-addons",
+            "icon": "/images/categories/video-addons.webp"
+          }
+        ],
+        "firstseen": "2024-04-06T15:19:14.420Z",
+        "agetype": "existing",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.video.cbc/icon.png",
+            "remotepath": "icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.video.cbc/fanart.jpg",
+            "remotepath": "fanart.jpg"
+          }
+        ],
+        "summary": "CBC TV Kodi Plugin",
+        "description": "View online content from the Canadian Broadcasting Corporation.",
+        "language": "en",
+        "disclaimer": "For bugs, requests or general questions visit the CBC TV thread on the Kodi forum.",
+        "license": "GPL-2.0-or-later",
+        "forum": "https://forum.kodi.tv/showthread.php?tid=328421",
+        "website": "https://watch.cbc.ca/",
+        "source": "https://github.com/micahg/plugin.video.cbc",
+        "news": "- Fix authentication issues",
+        "size": "651KB",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.video.cbc/icon.png",
+        "snippet": "CBC TV Kodi Plugin"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "jingai",
     "slug": "jingai",
     "icon": "/images/authors/jingai.webp",
@@ -28529,7 +28620,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -28550,8 +28641,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip"
           }
         ],
         "categories": [
@@ -28570,7 +28661,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.28]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -28583,9 +28674,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37533KB",
-        "lastupdate": "2025-10-05T02:34:26.018Z",
+        "size": "38792KB",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -39469,7 +39561,7 @@
         "addonid": "plugin.video.cbc",
         "name": "Canadian Broadcasting Corp (CBC)",
         "slug": "plugin.video.cbc",
-        "version": "4.0.20+matrix.1",
+        "version": "4.0.21+matrix.1",
         "authors": [
           {
             "name": "micahg",
@@ -39490,13 +39582,18 @@
             "name": "oshanrube",
             "slug": "oshanrube",
             "icon": "/images/authors/oshanrube.webp"
+          },
+          {
+            "name": "jgaudet",
+            "slug": "jgaudet",
+            "icon": "/images/authors/jgaudet.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip"
           }
         ],
         "categories": [
@@ -39533,10 +39630,11 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=328421",
         "website": "https://watch.cbc.ca/",
         "source": "https://github.com/micahg/plugin.video.cbc",
-        "news": "- Updates for new CBC Gem API",
+        "news": "- Fix authentication issues",
         "size": "651KB",
-        "lastupdate": "2025-11-16T02:37:30.152Z",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cbc/icon.png",
         "snippet": "CBC TV Kodi Plugin"
       }
@@ -46536,7 +46634,7 @@
         "addonid": "plugin.video.cbc",
         "name": "Canadian Broadcasting Corp (CBC)",
         "slug": "plugin.video.cbc",
-        "version": "4.0.20+matrix.1",
+        "version": "4.0.21+matrix.1",
         "authors": [
           {
             "name": "micahg",
@@ -46557,13 +46655,18 @@
             "name": "oshanrube",
             "slug": "oshanrube",
             "icon": "/images/authors/oshanrube.webp"
+          },
+          {
+            "name": "jgaudet",
+            "slug": "jgaudet",
+            "icon": "/images/authors/jgaudet.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip"
           }
         ],
         "categories": [
@@ -46600,10 +46703,11 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=328421",
         "website": "https://watch.cbc.ca/",
         "source": "https://github.com/micahg/plugin.video.cbc",
-        "news": "- Updates for new CBC Gem API",
+        "news": "- Fix authentication issues",
         "size": "651KB",
-        "lastupdate": "2025-11-16T02:37:30.152Z",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cbc/icon.png",
         "snippet": "CBC TV Kodi Plugin"
       }
@@ -60010,7 +60114,7 @@
         "addonid": "plugin.video.cbc",
         "name": "Canadian Broadcasting Corp (CBC)",
         "slug": "plugin.video.cbc",
-        "version": "4.0.20+matrix.1",
+        "version": "4.0.21+matrix.1",
         "authors": [
           {
             "name": "micahg",
@@ -60031,13 +60135,18 @@
             "name": "oshanrube",
             "slug": "oshanrube",
             "icon": "/images/authors/oshanrube.webp"
+          },
+          {
+            "name": "jgaudet",
+            "slug": "jgaudet",
+            "icon": "/images/authors/jgaudet.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip"
           }
         ],
         "categories": [
@@ -60074,10 +60183,11 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=328421",
         "website": "https://watch.cbc.ca/",
         "source": "https://github.com/micahg/plugin.video.cbc",
-        "news": "- Updates for new CBC Gem API",
+        "news": "- Fix authentication issues",
         "size": "651KB",
-        "lastupdate": "2025-11-16T02:37:30.152Z",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cbc/icon.png",
         "snippet": "CBC TV Kodi Plugin"
       }
@@ -64700,7 +64810,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -64721,8 +64831,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip"
           }
         ],
         "categories": [
@@ -64741,7 +64851,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.28]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -64754,9 +64864,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37533KB",
-        "lastupdate": "2025-10-05T02:34:26.018Z",
+        "size": "38792KB",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -64983,7 +65094,7 @@
         "addonid": "plugin.video.cbc",
         "name": "Canadian Broadcasting Corp (CBC)",
         "slug": "plugin.video.cbc",
-        "version": "4.0.20+matrix.1",
+        "version": "4.0.21+matrix.1",
         "authors": [
           {
             "name": "micahg",
@@ -65004,13 +65115,18 @@
             "name": "oshanrube",
             "slug": "oshanrube",
             "icon": "/images/authors/oshanrube.webp"
+          },
+          {
+            "name": "jgaudet",
+            "slug": "jgaudet",
+            "icon": "/images/authors/jgaudet.webp"
           }
         ],
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.20+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.cbc/plugin.video.cbc-4.0.21+matrix.1.zip"
           }
         ],
         "categories": [
@@ -65047,10 +65163,11 @@
         "forum": "https://forum.kodi.tv/showthread.php?tid=328421",
         "website": "https://watch.cbc.ca/",
         "source": "https://github.com/micahg/plugin.video.cbc",
-        "news": "- Updates for new CBC Gem API",
+        "news": "- Fix authentication issues",
         "size": "651KB",
-        "lastupdate": "2025-11-16T02:37:30.152Z",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.cbc/icon.png",
         "snippet": "CBC TV Kodi Plugin"
       },
@@ -87167,7 +87284,7 @@
         "addonid": "resource.images.catchuptvandmore",
         "name": "Catch-up TV &amp; More channel logos and artwork",
         "slug": "resource.images.catchuptvandmore",
-        "version": "1.0.27",
+        "version": "1.0.28",
         "authors": [
           {
             "name": "SylvainCecchetto",
@@ -87188,8 +87305,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip",
-            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.27.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip",
+            "statspath": "/addons/omega/resource.images.catchuptvandmore/resource.images.catchuptvandmore-1.0.28.zip"
           }
         ],
         "categories": [
@@ -87208,7 +87325,7 @@
         "website": "https://catch-up-tv-and-more.github.io/",
         "email": "catch.up.tv.and.more at gmail dot com",
         "source": "https://github.com/Catch-up-TV-and-More/resource.images.catchuptvandmore",
-        "news": "[Version 1.0.27]\n[Add/Updates] Some new logos and update existing logos\n    ",
+        "news": "[Version 1.0.28]\n[Add/Updates] Some new logos and update existing logos\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
@@ -87221,9 +87338,10 @@
             "remotepath": "fanart.jpg"
           }
         ],
-        "size": "37533KB",
-        "lastupdate": "2025-10-05T02:34:26.018Z",
+        "size": "38792KB",
+        "lastupdate": "2025-12-06T02:34:45.306Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       },
