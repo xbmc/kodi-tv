@@ -34835,7 +34835,7 @@
     "addonid": "pvr.waipu",
     "name": "waipu.tv PVR Client",
     "slug": "pvr.waipu",
-    "version": "21.12.5",
+    "version": "21.12.6",
     "authors": [
       {
         "name": "flubshi",
@@ -34845,34 +34845,34 @@
     ],
     "platforms": [
       {
-        "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.5.zip"
-      },
-      {
-        "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.5.zip"
-      },
-      {
         "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-i686/pvr.waipu-21.12.6.zip"
       },
       {
-        "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.5.zip"
+        "platform": "windows-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+windows-x86_64/pvr.waipu-21.12.6.zip"
       },
       {
         "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-armv7/pvr.waipu-21.12.6.zip"
+      },
+      {
+        "platform": "osx-arm64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-arm64/pvr.waipu-21.12.6.zip"
+      },
+      {
+        "platform": "osx-x86_64",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+osx-x86_64/pvr.waipu-21.12.6.zip"
       },
       {
         "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.5.zip",
-        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.5.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.6.zip",
+        "statspath": "/addons/omega/pvr.waipu+android-aarch64/pvr.waipu-21.12.6.zip"
       }
     ],
     "categories": [
@@ -34909,12 +34909,13 @@
         "remotepath": "resources/screenshots/screenshot-02.jpg"
       }
     ],
-    "news": "v21.12.5\n- Internal cleanup and bug fixes\n    ",
+    "news": "v21.12.6\n- Update translations from Weblate\n    ",
     "summary": "waipu.tv PVR Client",
     "description": "waipu.tv PVR Client. Note: This is not an official waipu plugin and not related to Exaring AG or waipu.tv. It was developed by volunteers.",
-    "size": "918KB",
-    "lastupdate": "2025-08-25T02:36:08.295Z",
+    "size": "919KB",
+    "lastupdate": "2025-12-08T02:38:20.832Z",
     "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.waipu/icon.png",
     "snippet": "waipu.tv PVR Client"
   },
