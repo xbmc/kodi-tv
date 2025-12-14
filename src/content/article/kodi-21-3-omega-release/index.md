@@ -1,6 +1,6 @@
 ---
 title: Kodi 21.3 "Omega" - Release
-date: 2025-11-11T10:55:53.912Z
+date: 2025-12-14T09:46:15.220Z
 author: Team Kodi
 tags:
   - Release
@@ -10,7 +10,9 @@ featured_image:
   alt: Kodi 21.3 "Omega" Splash Screen - the Kodi logo sits at the centre of a
     black screen, a stylised Greek letter "Omega" wrapped around it.
 ---
-As the more observant of you will have noticed, work is well underway on our next major release, with Alphas already out for [Kodi 22.x "Piers"](https://kodi.tv/blog/tag/prerelease/) - however, that doesn't mean we've given up on 21.x "Omega", as that's very much still our current release. So, with minimal fanfare, we present to you a package of changes, bug fixes and backports that we like to call Kodi 21.3 "Omega". Full changelog from 21.2 [here](https://github.com/xbmc/xbmc/compare/21.2-Omega...21.3-Omega).
+The more observant of you will have noticed that we've had some issues getting this version out to everyone, so some of you will have received this already depending on what channel you use (Flatpak, Google Play, winget community repos...). No matter, it's here for everyone now.
+
+While work is well underway on our next major release, with Alphas already out for [Kodi 22.x "Piers"](https://kodi.tv/blog/tag/prerelease/), that doesn't mean we've given up on 21.x "Omega", as that's very much still our current release. So, with minimal fanfare, we present to you a package of changes, bug fixes and backports that we like to call Kodi 21.3 "Omega". Full changelog from 21.2 [here](https://github.com/xbmc/xbmc/compare/21.2-Omega...21.3-Omega).
 
 ### Release Summary
 
