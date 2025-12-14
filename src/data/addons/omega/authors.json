@@ -4082,7 +4082,7 @@
         "addonid": "plugin.video.youtube",
         "name": "YouTube",
         "slug": "plugin.video.youtube",
-        "version": "7.2.0.3",
+        "version": "7.3.0.1",
         "authors": [
           {
             "name": "anxdpanic",
@@ -4103,8 +4103,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip",
-            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip",
+            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip"
           }
         ],
         "categories": [
@@ -4156,10 +4156,11 @@
         "summary": "Plugin for YouTube",
         "description": "YouTube is one of the biggest video-sharing websites of the world.",
         "disclaimer": "此附加元件未由Google支持",
-        "news": "## v7.2.0.3\n### Fixed\n- Fix performance regression with channel filters\n- Fix regression preventing video playback from Kodi Info dialog\n- Fix exception in youtube.helper.v3.response_to_items when using Kodi 18 (Python 2)\n- Fix exception in YouTubeRequestClient.json_traverse when using Kodi 18 (Python 2)\n- Fix handling of custom Watch Later playlist in add to playlist dialog\n- Fix Liked video playlist not loading\n- Fix typo preventing some video only searches from working\n- Fix incorrect deletion of provider parameter in 10c3758\n- Fix possible hangs in multiple busy dialog workaround\n- Fix misidentifying channels in channel filter\n- Attempt to avoid race condition where user input occurs prior to window rerouting\n- Fix incorrectly referencing channels as playlist in My Subscriptions after db44928\n- Improve handling of invalid playlists in My Subscriptions after db44928\n- Update YouTube.get_related_videos and YouTube.get_related_for_home\n- Fix error with listing comments if number of replies is 1000+\n- Fix regression in opening playlists of logged in user\n- Fix regressions in checking channel filters\n- Clear old function cache values on initial run after install\n- Fix My Subscriptions not loading old or previously accessed content\n- Manually redirect video server requests if required\n- Improve logging of client ID\n- Fix possible exception that may occur if video thumbnails fail to update\n- Fix unsubscribing from My Subscriptions\n- Fix folders for channel shorts and live stream",
-        "size": "977KB",
-        "lastupdate": "2025-08-22T02:34:08.445Z",
+        "news": "## v7.3.0.1\n### Fixed\n- Workaround crash caused by non-thread safe behaviour of sqlite connection when used as context manager\n\n### Changed\n- Delay gc collection rather than disabling",
+        "size": "1039KB",
+        "lastupdate": "2025-12-14T02:43:51.147Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
         "snippet": "Plugin for YouTube"
       }
@@ -8600,7 +8601,7 @@
         "addonid": "plugin.video.youtube",
         "name": "YouTube",
         "slug": "plugin.video.youtube",
-        "version": "7.2.0.3",
+        "version": "7.3.0.1",
         "authors": [
           {
             "name": "anxdpanic",
@@ -8621,8 +8622,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip",
-            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip",
+            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip"
           }
         ],
         "categories": [
@@ -8674,10 +8675,11 @@
         "summary": "Plugin for YouTube",
         "description": "YouTube is one of the biggest video-sharing websites of the world.",
         "disclaimer": "此附加元件未由Google支持",
-        "news": "## v7.2.0.3\n### Fixed\n- Fix performance regression with channel filters\n- Fix regression preventing video playback from Kodi Info dialog\n- Fix exception in youtube.helper.v3.response_to_items when using Kodi 18 (Python 2)\n- Fix exception in YouTubeRequestClient.json_traverse when using Kodi 18 (Python 2)\n- Fix handling of custom Watch Later playlist in add to playlist dialog\n- Fix Liked video playlist not loading\n- Fix typo preventing some video only searches from working\n- Fix incorrect deletion of provider parameter in 10c3758\n- Fix possible hangs in multiple busy dialog workaround\n- Fix misidentifying channels in channel filter\n- Attempt to avoid race condition where user input occurs prior to window rerouting\n- Fix incorrectly referencing channels as playlist in My Subscriptions after db44928\n- Improve handling of invalid playlists in My Subscriptions after db44928\n- Update YouTube.get_related_videos and YouTube.get_related_for_home\n- Fix error with listing comments if number of replies is 1000+\n- Fix regression in opening playlists of logged in user\n- Fix regressions in checking channel filters\n- Clear old function cache values on initial run after install\n- Fix My Subscriptions not loading old or previously accessed content\n- Manually redirect video server requests if required\n- Improve logging of client ID\n- Fix possible exception that may occur if video thumbnails fail to update\n- Fix unsubscribing from My Subscriptions\n- Fix folders for channel shorts and live stream",
-        "size": "977KB",
-        "lastupdate": "2025-08-22T02:34:08.445Z",
+        "news": "## v7.3.0.1\n### Fixed\n- Workaround crash caused by non-thread safe behaviour of sqlite connection when used as context manager\n\n### Changed\n- Delay gc collection rather than disabling",
+        "size": "1039KB",
+        "lastupdate": "2025-12-14T02:43:51.147Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
         "snippet": "Plugin for YouTube"
       }
@@ -41249,7 +41251,7 @@
         "addonid": "plugin.video.youtube",
         "name": "YouTube",
         "slug": "plugin.video.youtube",
-        "version": "7.2.0.3",
+        "version": "7.3.0.1",
         "authors": [
           {
             "name": "anxdpanic",
@@ -41270,8 +41272,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip",
-            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.2.0.3.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip",
+            "statspath": "/addons/omega/plugin.video.youtube/plugin.video.youtube-7.3.0.1.zip"
           }
         ],
         "categories": [
@@ -41323,10 +41325,11 @@
         "summary": "Plugin for YouTube",
         "description": "YouTube is one of the biggest video-sharing websites of the world.",
         "disclaimer": "此附加元件未由Google支持",
-        "news": "## v7.2.0.3\n### Fixed\n- Fix performance regression with channel filters\n- Fix regression preventing video playback from Kodi Info dialog\n- Fix exception in youtube.helper.v3.response_to_items when using Kodi 18 (Python 2)\n- Fix exception in YouTubeRequestClient.json_traverse when using Kodi 18 (Python 2)\n- Fix handling of custom Watch Later playlist in add to playlist dialog\n- Fix Liked video playlist not loading\n- Fix typo preventing some video only searches from working\n- Fix incorrect deletion of provider parameter in 10c3758\n- Fix possible hangs in multiple busy dialog workaround\n- Fix misidentifying channels in channel filter\n- Attempt to avoid race condition where user input occurs prior to window rerouting\n- Fix incorrectly referencing channels as playlist in My Subscriptions after db44928\n- Improve handling of invalid playlists in My Subscriptions after db44928\n- Update YouTube.get_related_videos and YouTube.get_related_for_home\n- Fix error with listing comments if number of replies is 1000+\n- Fix regression in opening playlists of logged in user\n- Fix regressions in checking channel filters\n- Clear old function cache values on initial run after install\n- Fix My Subscriptions not loading old or previously accessed content\n- Manually redirect video server requests if required\n- Improve logging of client ID\n- Fix possible exception that may occur if video thumbnails fail to update\n- Fix unsubscribing from My Subscriptions\n- Fix folders for channel shorts and live stream",
-        "size": "977KB",
-        "lastupdate": "2025-08-22T02:34:08.445Z",
+        "news": "## v7.3.0.1\n### Fixed\n- Workaround crash caused by non-thread safe behaviour of sqlite connection when used as context manager\n\n### Changed\n- Delay gc collection rather than disabling",
+        "size": "1039KB",
+        "lastupdate": "2025-12-14T02:43:51.147Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
         "snippet": "Plugin for YouTube"
       }
@@ -64496,6 +64499,65 @@
     "id": "sy6sy2",
     "addons": [
       {
+        "id": "plugin.audio.radioplayerfrance",
+        "addonid": "plugin.audio.radioplayerfrance",
+        "name": "Radioplayer France",
+        "slug": "plugin.audio.radioplayerfrance",
+        "version": "1.0.0",
+        "authors": [
+          {
+            "name": "sy6sy2",
+            "slug": "sy6sy2",
+            "icon": "/images/authors/sy6sy2.webp"
+          }
+        ],
+        "platforms": [
+          {
+            "platform": "all",
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.audio.radioplayerfrance/plugin.audio.radioplayerfrance-1.0.0.zip",
+            "statspath": "/addons/omega/plugin.audio.radioplayerfrance/plugin.audio.radioplayerfrance-1.0.0.zip"
+          }
+        ],
+        "categories": [
+          {
+            "name": "Plugins",
+            "slug": "plugins",
+            "icon": "/images/categories/plugins.webp"
+          },
+          {
+            "name": "Music addons",
+            "slug": "music-addons",
+            "icon": "/images/categories/music-addons.webp"
+          }
+        ],
+        "firstseen": "2025-12-14T02:43:51.147Z",
+        "agetype": "new",
+        "summary": "Radioplayer France addon",
+        "description": "Listen radio stations of Radioplayer France website",
+        "language": "en fr",
+        "license": "GPL-2.0-or-later",
+        "source": "http://github.com/sy6sy2/plugin.audio.radioplayerfrance",
+        "news": "v1.0.0 (2025-11-16)\n      First release\n    ",
+        "icons": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.radioplayerfrance/resources/icon.png",
+            "remotepath": "resources/icon.png"
+          }
+        ],
+        "fanarts": [
+          {
+            "localpath": "/images/addons/omega/plugin.audio.radioplayerfrance/resources/fanart.jpg",
+            "remotepath": "resources/fanart.jpg"
+          }
+        ],
+        "size": "186KB",
+        "lastupdate": "2025-12-14T02:43:51.147Z",
+        "downloads": 0,
+        "prevyeardl": 0,
+        "icon": "/images/addons/omega/plugin.audio.radioplayerfrance/resources/icon.png",
+        "snippet": "Radioplayer France addon"
+      },
+      {
         "id": "script.module.youtube.dl",
         "addonid": "script.module.youtube.dl",
         "name": "youtube-dl Control",
@@ -64562,7 +64624,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "Syhlx",
@@ -82109,7 +82171,7 @@
         "addonid": "plugin.video.drnu",
         "name": "DR TV",
         "slug": "plugin.video.drnu",
-        "version": "6.6.1",
+        "version": "6.7.0",
         "authors": [
           {
             "name": "TermeHansen",
@@ -82120,8 +82182,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.1.zip",
-            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.6.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.drnu/plugin.video.drnu-6.7.0.zip",
+            "statspath": "/addons/omega/plugin.video.drnu/plugin.video.drnu-6.7.0.zip"
           }
         ],
         "categories": [
@@ -82177,9 +82239,10 @@
           }
         ],
         "news": "Version 5.1.0 - 2022-04-01\n       - re-factor for python 3 only\n       - remove exception handling for pastebin\n       - add Minisjang area and update ui elements",
-        "size": "1871KB",
-        "lastupdate": "2025-07-09T02:39:10.763Z",
+        "size": "1999KB",
+        "lastupdate": "2025-12-14T02:43:51.147Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.drnu/resources/media/icon.png",
         "snippet": "Watch live and archived TV from DR (Danish Broadcasting Corporation)"
       }
