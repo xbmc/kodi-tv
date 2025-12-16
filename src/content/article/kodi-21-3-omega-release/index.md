@@ -1,6 +1,6 @@
 ---
 title: Kodi 21.3 "Omega" - Release
-date: 2025-12-14T09:53:09.227Z
+date: 2025-12-16T10:01:11.347Z
 author: Team Kodi
 tags:
   - Release
