@@ -82,3 +82,5 @@ Application deployment on different platforms (notably the Microsoft Store) can 
 **Windows Store/Android Deployment**
 
 Due to the internal and external hoops we need to jump through, it might be a little while before the update appears for you, and that's before our usual staged approach to deployment. Sit tight, and it will be with you in due course (maybe the next week or two).
+
+We also have some specific challenges with Google Play: they now require 16 KB memory page support for applications on 64-bit devices, which means that we've got to make some non-trivial changes to our toolchain. While we've done this for the 22.x branch, it's more challenging to make a potentially significant change like this for a point release on a stable, release version. As such, we are unable to upload 21.3 for Android at the moment despite it being ready. We'll let you know if and when this changes.
