@@ -33984,7 +33984,7 @@
     "addonid": "pvr.mythtv",
     "name": "MythTV PVR Client",
     "slug": "pvr.mythtv",
-    "version": "21.2.0",
+    "version": "21.2.1",
     "authors": [
       {
         "name": "Christian Fetzer",
@@ -33999,34 +33999,34 @@
     ],
     "platforms": [
       {
-        "platform": "windows-i686",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+windows-i686/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+windows-i686/pvr.mythtv-21.2.0.zip"
-      },
-      {
         "platform": "windows-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+windows-x86_64/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+windows-x86_64/pvr.mythtv-21.2.0.zip"
-      },
-      {
-        "platform": "android-armv7",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+android-armv7/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+android-armv7/pvr.mythtv-21.2.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+windows-x86_64/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+windows-x86_64/pvr.mythtv-21.2.1.zip"
       },
       {
         "platform": "osx-arm64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+osx-arm64/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+osx-arm64/pvr.mythtv-21.2.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+osx-arm64/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+osx-arm64/pvr.mythtv-21.2.1.zip"
       },
       {
         "platform": "osx-x86_64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+osx-x86_64/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+osx-x86_64/pvr.mythtv-21.2.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+osx-x86_64/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+osx-x86_64/pvr.mythtv-21.2.1.zip"
+      },
+      {
+        "platform": "windows-i686",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+windows-i686/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+windows-i686/pvr.mythtv-21.2.1.zip"
       },
       {
         "platform": "android-aarch64",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+android-aarch64/pvr.mythtv-21.2.0.zip",
-        "statspath": "/addons/omega/pvr.mythtv+android-aarch64/pvr.mythtv-21.2.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+android-aarch64/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+android-aarch64/pvr.mythtv-21.2.1.zip"
+      },
+      {
+        "platform": "android-armv7",
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/pvr.mythtv+android-armv7/pvr.mythtv-21.2.1.zip",
+        "statspath": "/addons/omega/pvr.mythtv+android-armv7/pvr.mythtv-21.2.1.zip"
       }
     ],
     "categories": [
@@ -34050,8 +34050,8 @@
     "summary": "Kodi frontend for MythTV",
     "description": "MythTV frontend (up to MythTV 35). Supports streaming of Live TV &amp; Recordings, listening to Radio channels, EPG and Timers.",
     "disclaimer": "這是測試中的軟體！原創作者無法針對以下情況負責：包括錄影失敗，不正確的定時器，多餘的時數，或任何不可預期的不良影響。",
-    "size": "1151KB",
-    "lastupdate": "2025-12-17T02:37:47.660Z",
+    "size": "1139KB",
+    "lastupdate": "2025-12-18T02:37:51.890Z",
     "downloads": 0,
     "prevyeardl": 0,
     "icon": "/images/addons/omega/pvr.mythtv/icon.png",
