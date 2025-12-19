@@ -12,7 +12,7 @@ featured_image:
     list of all of the contributors to Kodi over the years.
   src: /images/blog/kodi_splash_v22.0_piers_alpha_1080p.webp
 ---
-It is the season for giving, so, for those who want the latest and greatest, this is for you: hot on the heels of Kodi 22 "Piers" Alpha 1 (and Kodi 23 "Omega" 22.3), we present the perhaps predictably-titled Alpha 2.
+It is the season for giving, so, for those who want the latest and greatest, this is for you: hot on the heels of Kodi 22 "Piers" Alpha 1 (and Kodi 21.3 "Omega"), we present the perhaps predictably-titled Alpha 2.
 
 Usual words - the step from 21 to 22 is a major release, but it's also an Alpha at this stage, so you're going to get some bugs as well as funky new features. That is, of course, a major part of the point of early release software: please raise Github issues with full debug logs to help us resolve any regressions you wonderful testers come across.
 
