@@ -21,14 +21,14 @@ releases:
         url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.3-Omega-arm64-v8a.apk?https=1
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Alpha 1** pre-release build has become available because we
+    description: The **Alpha 2** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are closer
       to a stable release of v22.
     downloads:
-      - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-22.0-Piers_alpha1-armeabi-v7a.apk?https=1
-        name: v22  Alpha1 (32BIT)
-      - name: v22  Alpha1 (64BIT)
-        url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-22.0-Piers_alpha1-arm64-v8a.apk?https=1
+      - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-22.0-Piers_alpha2-armeabi-v7a.apk?https=1
+        name: v22  Alpha2 (32BIT)
+      - name: v22  Alpha2 (64BIT)
+        url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-22.0-Piers_alpha2-arm64-v8a.apk?https=1
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
