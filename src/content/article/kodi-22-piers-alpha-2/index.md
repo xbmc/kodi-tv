@@ -14,7 +14,7 @@ featured_image:
 ---
 It is the season for giving, so, for those who want the latest and greatest, this is for you: hot on the heels of Kodi 22 "Piers" Alpha 1 (and Kodi 21.3 "Omega"), we present the perhaps predictably-titled Alpha 2.
 
-Usual words - the step from 21 to 22 is a major release, but it's also an Alpha at this stage, so you're going to get some bugs as well as funky new features. That is, of course, a major part of the point of early release software: please raise Github issues with full debug logs to help us resolve any regressions you wonderful testers come across.
+Usual words - the step from 21 to 22 is a major release, but it's also an Alpha at this stage, so you're going to get some bugs as well as funky new features. That is, of course, a major part of the point of early release software: please raise GitHub issues with full debug logs to help us resolve any regressions you wonderful testers come across.
 
 Okay, what's new in this version?
 
