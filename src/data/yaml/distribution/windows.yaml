@@ -18,14 +18,14 @@ releases:
         url: https://apps.microsoft.com/detail/9nblggh4t892
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Alpha 1** pre-release build has become available because we
+    description: The **Alpha 2** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are closer
       to a stable release of v22.
     downloads:
-      - name: v22 Alpha1 Installer (64BIT)
-        url: https://mirrors.kodi.tv/snapshots/windows/win64/kodi-22.0-Piers_alpha1-x64.exe?https=1
-      - name: v22 Alpha1 Installer (32BIT)
-        url: https://mirrors.kodi.tv/snapshots/windows/win32/kodi-22.0-Piers_alpha1-x86.exe?https=1
+      - name: v22 Alpha2 Installer (64BIT)
+        url: https://mirrors.kodi.tv/snapshots/windows/win64/kodi-22.0-Piers_alpha2-x64.exe?https=1
+      - name: v22 Alpha2 Installer (32BIT)
+        url: https://mirrors.kodi.tv/snapshots/windows/win32/kodi-22.0-Piers_alpha2-x86.exe?https=1
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
