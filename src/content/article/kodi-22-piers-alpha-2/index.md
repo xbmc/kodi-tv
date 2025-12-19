@@ -1,6 +1,6 @@
 ---
 title: Kodi 22 "Piers" Alpha 2
-date: 2025-12-18T18:54:51.117Z
+date: 2025-12-19T08:42:18.014Z
 author: Team Kodi
 tags:
   - Prerelease
