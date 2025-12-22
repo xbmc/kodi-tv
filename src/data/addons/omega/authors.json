@@ -12136,7 +12136,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.46+matrix.1",
+        "version": "2.5.47+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -12157,8 +12157,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip"
           }
         ],
         "categories": [
@@ -12188,7 +12188,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
+        "news": "v2.5.47 (2025-12-21)\n- Fix IPTV Manager EPG\n\nv2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -12220,9 +12220,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1649KB",
-        "lastupdate": "2025-11-28T02:35:30.599Z",
+        "size": "1631KB",
+        "lastupdate": "2025-12-22T02:44:29.856Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       },
@@ -28674,7 +28675,6 @@
         "size": "40319KB",
         "lastupdate": "2025-12-21T02:44:08.621Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -37208,7 +37208,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.46+matrix.1",
+        "version": "2.5.47+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -37229,8 +37229,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip"
           }
         ],
         "categories": [
@@ -37260,7 +37260,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
+        "news": "v2.5.47 (2025-12-21)\n- Fix IPTV Manager EPG\n\nv2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -37292,9 +37292,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1649KB",
-        "lastupdate": "2025-11-28T02:35:30.599Z",
+        "size": "1631KB",
+        "lastupdate": "2025-12-22T02:44:29.856Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       }
@@ -37918,7 +37919,7 @@
         "addonid": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
-        "version": "2.5.46+matrix.1",
+        "version": "2.5.47+matrix.1",
         "authors": [
           {
             "name": "Martijn Moreel",
@@ -37939,8 +37940,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip",
-            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.46+matrix.1.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip",
+            "statspath": "/addons/omega/plugin.video.vrt.nu/plugin.video.vrt.nu-2.5.47+matrix.1.zip"
           }
         ],
         "categories": [
@@ -37970,7 +37971,7 @@
         "forum": "https://www.facebook.com/kodivrtnu/",
         "website": "https://github.com/add-ons/plugin.video.vrt.nu/wiki",
         "source": "https://github.com/add-ons/plugin.video.vrt.nu",
-        "news": "v2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
+        "news": "v2.5.47 (2025-12-21)\n- Fix IPTV Manager EPG\n\nv2.5.46 (2025-11-26)\n- Fix TV guide menu listings\n- Improve season menu listings\n\nv2.5.45 (2025-10-29)\n- Fix TV guide menu listings\n\nv2.5.44 (2025-10-10)\n- Improve TV guide menu listings\n- Fix api requests for long episode lists\n\nv2.5.43 (2025-09-15)\n- Fix TV guide menu listings\n\nv2.5.42 (2025-08-29)\n- Fix api calls\n\nv2.5.41 (2025-08-28)\n- Updated various api calls\n\nv2.5.40 (2025-08-13)\n- Fixed incorrect item count in menu listings\n\nv2.5.39 (2025-07-20)\n- Fix category menu listings\n\nv2.5.38 (2025-05-12)\n- Fix Ketnet Jr livestream\n\nv2.5.37 (2025-04-04)\n- Fix DRM streams\n\nv2.5.36 (2025-03-03)\n- Fix program listings\n\nv2.5.35 (2025-02-26)\n- Fix episode listings\n\nv2.5.34 (2025-02-04)\n- Fix watching VRT MAX abroad\n- Fix Sporza IPTV Manager EPG\n\nv2.5.33 (2024-12-01)\n- Fix search\n- Fix category menu listings\n\nv2.5.32 (2024-05-21)\n- Fix search\n- Fix program menu listings\n\nv2.5.31 (2024-04-21)\n- Fix program menu listings\n\nv2.5.30 (2024-04-16)\n- Fix playing from TV guide\n    ",
         "icons": [
           {
             "localpath": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
@@ -38002,9 +38003,10 @@
           }
         ],
         "reuselanguageinvoker": "true",
-        "size": "1649KB",
-        "lastupdate": "2025-11-28T02:35:30.599Z",
+        "size": "1631KB",
+        "lastupdate": "2025-12-22T02:44:29.856Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.vrt.nu/resources/media/icon.png",
         "snippet": "Watch videos from VRT MAX"
       }
@@ -64918,7 +64920,6 @@
         "size": "40319KB",
         "lastupdate": "2025-12-21T02:44:08.621Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       }
@@ -87391,7 +87392,6 @@
         "size": "40319KB",
         "lastupdate": "2025-12-21T02:44:08.621Z",
         "downloads": 0,
-        "prevyeardl": 0,
         "icon": "/images/addons/omega/resource.images.catchuptvandmore/icon.png",
         "snippet": "Channel logos and artwork used in Catch-up TV &amp; More"
       },
