@@ -9130,7 +9130,7 @@
         "addonid": "plugin.video.tagesschau",
         "name": "Tagesschau",
         "slug": "plugin.video.tagesschau",
-        "version": "2.5.7",
+        "version": "2.6.0+nexus",
         "authors": [
           {
             "name": "J.Schumacher",
@@ -9151,8 +9151,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip",
-            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip",
+            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip"
           }
         ],
         "categories": [
@@ -9202,13 +9202,13 @@
             "remotepath": "resources/assets/screenshot_3.png"
           }
         ],
-        "news": "version 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n\nversion 2.5.3 (2023-05-24)\n * Bugfixes\n * Added setting for the tagesthemen listing: show broadcasts, topics or both\n\nversion 2.5.0 (2023-05-07)\n * Added listing vor tagesschau 20:00 broadcasts\n * Added listing vor tagesthemen broadcasts\n\nversion 2.4.0 (2023-04-28)\n * Switched to Tagesschau API2 because API1 was disabled by ARD\n * New option to show age of news in title\n\nversion 2.3.2 (2022-03-25)\n * Fixed HTTP redirect error: 308 (thanks to Josef Friedrich) \n\nversion 2.3.0\n * Update to Kodi 19 (Matrix)\n\nversion 2.2.2\n * Fix unicode error (thanks to jgibbon)\n\nversion 2.2.1\n * Fixed issue where subtitles did not work (thanks to Mikel)\n\nversion 2.2.0\n * Added regular Tagesschau to \"Latest Broadcasts\"\n    ",
+        "news": "version 2.6.0 (2025-12-21)\n * Searching for \"Tagesschau 20 Uhr\" broadcasts changed to find more entries. Number of searched entries can be configured in settings.\n * Updates some internas to prevent warnings in Kodi logfile.\n \nversion 2.5.9 (2024-11-17)\n * All livestreams (not only one) are now listed in the subfolder \"Livestreams\"\n \nversion 2.5.8 (2024-11-02)\n * Detection of available livestream changed\n \nversion 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n    ",
         "size": "2067KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 91392,
+        "lastupdate": "2025-12-24T02:38:53.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.tagesschau/resources/assets/icon.png",
-        "snippet": "News from Germany's public broadcaster ARD",
-        "prevyeardl": 91392
+        "snippet": "News from Germany's public broadcaster ARD"
       },
       {
         "id": "plugin.video.weltspiegel",
@@ -22661,7 +22661,7 @@
         "addonid": "plugin.video.tagesschau",
         "name": "Tagesschau",
         "slug": "plugin.video.tagesschau",
-        "version": "2.5.7",
+        "version": "2.6.0+nexus",
         "authors": [
           {
             "name": "J.Schumacher",
@@ -22682,8 +22682,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip",
-            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip",
+            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip"
           }
         ],
         "categories": [
@@ -22733,13 +22733,13 @@
             "remotepath": "resources/assets/screenshot_3.png"
           }
         ],
-        "news": "version 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n\nversion 2.5.3 (2023-05-24)\n * Bugfixes\n * Added setting for the tagesthemen listing: show broadcasts, topics or both\n\nversion 2.5.0 (2023-05-07)\n * Added listing vor tagesschau 20:00 broadcasts\n * Added listing vor tagesthemen broadcasts\n\nversion 2.4.0 (2023-04-28)\n * Switched to Tagesschau API2 because API1 was disabled by ARD\n * New option to show age of news in title\n\nversion 2.3.2 (2022-03-25)\n * Fixed HTTP redirect error: 308 (thanks to Josef Friedrich) \n\nversion 2.3.0\n * Update to Kodi 19 (Matrix)\n\nversion 2.2.2\n * Fix unicode error (thanks to jgibbon)\n\nversion 2.2.1\n * Fixed issue where subtitles did not work (thanks to Mikel)\n\nversion 2.2.0\n * Added regular Tagesschau to \"Latest Broadcasts\"\n    ",
+        "news": "version 2.6.0 (2025-12-21)\n * Searching for \"Tagesschau 20 Uhr\" broadcasts changed to find more entries. Number of searched entries can be configured in settings.\n * Updates some internas to prevent warnings in Kodi logfile.\n \nversion 2.5.9 (2024-11-17)\n * All livestreams (not only one) are now listed in the subfolder \"Livestreams\"\n \nversion 2.5.8 (2024-11-02)\n * Detection of available livestream changed\n \nversion 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n    ",
         "size": "2067KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 91392,
+        "lastupdate": "2025-12-24T02:38:53.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.tagesschau/resources/assets/icon.png",
-        "snippet": "News from Germany's public broadcaster ARD",
-        "prevyeardl": 91392
+        "snippet": "News from Germany's public broadcaster ARD"
       }
     ],
     "totaladdons": 1
@@ -26571,7 +26571,7 @@
         "addonid": "plugin.video.tagesschau",
         "name": "Tagesschau",
         "slug": "plugin.video.tagesschau",
-        "version": "2.5.7",
+        "version": "2.6.0+nexus",
         "authors": [
           {
             "name": "J.Schumacher",
@@ -26592,8 +26592,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip",
-            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.5.7.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip",
+            "statspath": "/addons/omega/plugin.video.tagesschau/plugin.video.tagesschau-2.6.0+nexus.zip"
           }
         ],
         "categories": [
@@ -26643,13 +26643,13 @@
             "remotepath": "resources/assets/screenshot_3.png"
           }
         ],
-        "news": "version 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n\nversion 2.5.3 (2023-05-24)\n * Bugfixes\n * Added setting for the tagesthemen listing: show broadcasts, topics or both\n\nversion 2.5.0 (2023-05-07)\n * Added listing vor tagesschau 20:00 broadcasts\n * Added listing vor tagesthemen broadcasts\n\nversion 2.4.0 (2023-04-28)\n * Switched to Tagesschau API2 because API1 was disabled by ARD\n * New option to show age of news in title\n\nversion 2.3.2 (2022-03-25)\n * Fixed HTTP redirect error: 308 (thanks to Josef Friedrich) \n\nversion 2.3.0\n * Update to Kodi 19 (Matrix)\n\nversion 2.2.2\n * Fix unicode error (thanks to jgibbon)\n\nversion 2.2.1\n * Fixed issue where subtitles did not work (thanks to Mikel)\n\nversion 2.2.0\n * Added regular Tagesschau to \"Latest Broadcasts\"\n    ",
+        "news": "version 2.6.0 (2025-12-21)\n * Searching for \"Tagesschau 20 Uhr\" broadcasts changed to find more entries. Number of searched entries can be configured in settings.\n * Updates some internas to prevent warnings in Kodi logfile.\n \nversion 2.5.9 (2024-11-17)\n * All livestreams (not only one) are now listed in the subfolder \"Livestreams\"\n \nversion 2.5.8 (2024-11-02)\n * Detection of available livestream changed\n \nversion 2.5.7 (2024-08-17)\n * Fixed empty news list because of changes in ARD API\n \nversion 2.5.6 (2023-12-10)\n * Use default image from local ressources instead of non-working ARD url\n * For some skins the category listing is now available in landscape and icon viewtype\n \nversion 2.5.5 (2023-12-05)\n * Added setting to show preview images also as fanart (default on)\n \nversion 2.5.4 (2023-12-03)\n * Fixed content types so that skins use landscape viewtype\n * Added setting to hide \"Europadruck\" and \"Aktueller Wolkenfilm\" from news list\n    ",
         "size": "2067KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 91392,
+        "lastupdate": "2025-12-24T02:38:53.136Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/plugin.video.tagesschau/resources/assets/icon.png",
-        "snippet": "News from Germany's public broadcaster ARD",
-        "prevyeardl": 91392
+        "snippet": "News from Germany's public broadcaster ARD"
       }
     ],
     "totaladdons": 1
