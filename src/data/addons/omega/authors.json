@@ -26908,7 +26908,7 @@
         "addonid": "script.module.iptcinfo3",
         "name": "IPTCInfo3",
         "slug": "script.module.iptcinfo3",
-        "version": "2.1.4+matrix.2",
+        "version": "2.2.0",
         "authors": [
           {
             "name": "Tamas Gulacsi",
@@ -26924,8 +26924,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.1.4+matrix.2.zip",
-            "statspath": "/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.1.4+matrix.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.2.0.zip",
+            "statspath": "/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.2.0.zip"
           }
         ],
         "categories": [
@@ -26936,7 +26936,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Extract IPTC info from images.",
         "description": "IPTCInfo extracts embedded IPTC meta-information from images files.",
         "license": "GPL-2.0",
@@ -26948,12 +26948,12 @@
             "remotepath": "icon.png"
           }
         ],
-        "size": "25KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 75682,
+        "size": "26KB",
+        "lastupdate": "2025-12-27T02:37:57.986Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.iptcinfo3/icon.png",
-        "snippet": "Extract IPTC info from images.",
-        "prevyeardl": 75682
+        "snippet": "Extract IPTC info from images."
       }
     ],
     "totaladdons": 1
@@ -46932,7 +46932,7 @@
         "addonid": "script.plexmod",
         "name": "PM4K for Plex",
         "slug": "script.plexmod",
-        "version": "0.7.9",
+        "version": "1.0.5",
         "authors": [
           {
             "name": "pannal",
@@ -46943,8 +46943,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.plexmod/script.plexmod-0.7.9.zip",
-            "statspath": "/addons/omega/script.plexmod/script.plexmod-0.7.9.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.plexmod/script.plexmod-1.0.5.zip",
+            "statspath": "/addons/omega/script.plexmod/script.plexmod-1.0.5.zip"
           }
         ],
         "categories": [
@@ -46964,6 +46964,11 @@
             "icon": "/images/categories/plugins.webp"
           },
           {
+            "name": "Screensavers",
+            "slug": "screensavers",
+            "icon": "/images/categories/screensavers.webp"
+          },
+          {
             "name": "Services",
             "slug": "services",
             "icon": "/images/categories/services.webp"
@@ -46978,7 +46983,7 @@
         "forum": "https://forums.plex.tv/t/plexmod-for-kodi-18-19-20-21/481208",
         "website": "https://www.plex.tv",
         "source": "https://github.com/pannal/plex-for-kodi",
-        "news": "- Based on 0.7.9-rev4\n        ",
+        "news": "- Based on 1.0.5e\n        ",
         "icons": [
           {
             "localpath": "/images/addons/omega/script.plexmod/icon2.png",
@@ -46991,12 +46996,12 @@
             "remotepath": "fanart.png"
           }
         ],
-        "size": "2822KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 343140,
+        "size": "2991KB",
+        "lastupdate": "2025-12-27T02:37:57.986Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.plexmod/icon2.png",
-        "snippet": "PlexMod for Kodi",
-        "prevyeardl": 343140
+        "snippet": "PlexMod for Kodi"
       }
     ],
     "totaladdons": 1
@@ -67285,7 +67290,7 @@
         "addonid": "script.module.iptcinfo3",
         "name": "IPTCInfo3",
         "slug": "script.module.iptcinfo3",
-        "version": "2.1.4+matrix.2",
+        "version": "2.2.0",
         "authors": [
           {
             "name": "Tamas Gulacsi",
@@ -67301,8 +67306,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.1.4+matrix.2.zip",
-            "statspath": "/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.1.4+matrix.2.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.2.0.zip",
+            "statspath": "/addons/omega/script.module.iptcinfo3/script.module.iptcinfo3-2.2.0.zip"
           }
         ],
         "categories": [
@@ -67313,7 +67318,7 @@
           }
         ],
         "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "new",
+        "agetype": "existing",
         "summary": "Extract IPTC info from images.",
         "description": "IPTCInfo extracts embedded IPTC meta-information from images files.",
         "license": "GPL-2.0",
@@ -67325,12 +67330,12 @@
             "remotepath": "icon.png"
           }
         ],
-        "size": "25KB",
-        "lastupdate": "2024-04-06T15:19:14.420Z",
-        "downloads": 75682,
+        "size": "26KB",
+        "lastupdate": "2025-12-27T02:37:57.986Z",
+        "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.module.iptcinfo3/icon.png",
-        "snippet": "Extract IPTC info from images.",
-        "prevyeardl": 75682
+        "snippet": "Extract IPTC info from images."
       }
     ],
     "totaladdons": 1
