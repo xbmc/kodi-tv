@@ -46931,7 +46931,7 @@
         "addonid": "script.plexmod",
         "name": "PM4K for Plex",
         "slug": "script.plexmod",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "authors": [
           {
             "name": "pannal",
@@ -46942,8 +46942,8 @@
         "platforms": [
           {
             "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.plexmod/script.plexmod-1.0.5.zip",
-            "statspath": "/addons/omega/script.plexmod/script.plexmod-1.0.5.zip"
+            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.plexmod/script.plexmod-1.0.6.zip",
+            "statspath": "/addons/omega/script.plexmod/script.plexmod-1.0.6.zip"
           }
         ],
         "categories": [
@@ -46995,9 +46995,10 @@
             "remotepath": "fanart.png"
           }
         ],
-        "size": "2991KB",
-        "lastupdate": "2025-12-27T02:37:57.986Z",
+        "size": "3263KB",
+        "lastupdate": "2025-12-29T02:48:47.133Z",
         "downloads": 0,
+        "prevyeardl": 0,
         "icon": "/images/addons/omega/script.plexmod/icon2.png",
         "snippet": "PlexMod for Kodi"
       }
