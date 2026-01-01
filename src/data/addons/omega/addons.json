@@ -52752,7 +52752,7 @@
     "addonid": "script.module.simpleeval",
     "name": "Simple Eval",
     "slug": "script.module.simpleeval",
-    "version": "0.9.10",
+    "version": "0.9.13",
     "authors": [
       {
         "name": "Daniel Fairhead",
@@ -52763,8 +52763,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.simpleeval/script.module.simpleeval-0.9.10.zip",
-        "statspath": "/addons/omega/script.module.simpleeval/script.module.simpleeval-0.9.10.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/script.module.simpleeval/script.module.simpleeval-0.9.13.zip",
+        "statspath": "/addons/omega/script.module.simpleeval/script.module.simpleeval-0.9.13.zip"
       }
     ],
     "categories": [
@@ -52775,7 +52775,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Simple Eval",
     "description": "A library for easily adding evaluatable expressions into python projects",
     "license": "MIT",
@@ -52786,12 +52786,12 @@
         "remotepath": "icon.png"
       }
     ],
-    "size": "14KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 3306953,
+    "size": "15KB",
+    "lastupdate": "2026-01-01T02:49:57.276Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/script.module.simpleeval/icon.png",
-    "snippet": "Simple Eval",
-    "prevyeardl": 3306953
+    "snippet": "Simple Eval"
   },
   {
     "id": "script.module.simplejson",
