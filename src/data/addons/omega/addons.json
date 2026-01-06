@@ -19842,7 +19842,6 @@
     "size": "252KB",
     "lastupdate": "2026-01-05T02:51:31.956Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.audio.c3lounge/icon.png",
     "snippet": "Stream c3lounge Radio"
   },
@@ -26408,7 +26407,7 @@
     "addonid": "plugin.video.invidious",
     "name": "Invidious",
     "slug": "plugin.video.invidious",
-    "version": "0.2.8+nexus.0",
+    "version": "0.2.9+nexus.0",
     "authors": [
       {
         "name": "petterreinholdtsen",
@@ -26419,8 +26418,8 @@
     "platforms": [
       {
         "platform": "all",
-        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.invidious/plugin.video.invidious-0.2.8+nexus.0.zip",
-        "statspath": "/addons/omega/plugin.video.invidious/plugin.video.invidious-0.2.8+nexus.0.zip"
+        "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.invidious/plugin.video.invidious-0.2.9+nexus.0.zip",
+        "statspath": "/addons/omega/plugin.video.invidious/plugin.video.invidious-0.2.9+nexus.0.zip"
       }
     ],
     "categories": [
@@ -26441,7 +26440,7 @@
       }
     ],
     "firstseen": "2024-04-06T15:19:14.420Z",
-    "agetype": "new",
+    "agetype": "existing",
     "summary": "Invidious client",
     "description": "A privacy-friendly way of watching YouTube content. Uses the great Invidious web service's API to do the heavy lifting.",
     "disclaimer": "Denne plugin-modulen er ikke godkjent av Google.",
@@ -26460,12 +26459,12 @@
         "remotepath": "resources/fanart.png"
       }
     ],
-    "size": "89KB",
-    "lastupdate": "2024-04-06T15:19:14.420Z",
-    "downloads": 171077,
+    "size": "92KB",
+    "lastupdate": "2026-01-06T02:42:46.965Z",
+    "downloads": 0,
+    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.invidious/resources/icon.png",
-    "snippet": "Invidious client",
-    "prevyeardl": 171077
+    "snippet": "Invidious client"
   },
   {
     "id": "plugin.video.iplayerwww",
@@ -31144,7 +31143,6 @@
     "size": "2068KB",
     "lastupdate": "2026-01-05T02:51:31.956Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/plugin.video.tagesschau/resources/assets/icon.png",
     "snippet": "News from Germany's public broadcaster ARD"
   },
@@ -62194,7 +62192,6 @@
     "size": "270KB",
     "lastupdate": "2026-01-05T02:51:31.956Z",
     "downloads": 0,
-    "prevyeardl": 0,
     "icon": "/images/addons/omega/weather.metoffice/icon.png"
   },
   {
