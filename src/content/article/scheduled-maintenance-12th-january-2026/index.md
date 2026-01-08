@@ -18,5 +18,4 @@ The window for this maintenance is:
 
 **Monday,  January 12 2026**, between **10AM and 6PM PST** - so **18:00 12 January to 06:00 13 January UTC**.
 
-We'll obviously bring everything back on line as soon as we can, but assume **no** access within these hours. If you have to try installing anything, be aware that it will error and none of the admins will be able to check what's happening either. Please, just ignore any errors on launch for now until the mirrors all come back and synchronise.
-
+We'll obviously bring everything back on line as soon as we can, but assume **no** access within these hours. If you have to try installing anything, be aware that it will error and none of the admins will be able to check what's happening either. Please, just ignore any errors on launch for now, and wait until the mirrors all come back and synchronise.
