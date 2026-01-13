@@ -1,6 +1,6 @@
 ---
 title: "Scheduled Maintenance: 12th January, 2026"
-date: 2026-01-13T18:56:37.684Z
+date: 2026-01-13T19:00:01.258Z
 author: Prof Yaffle
 tags:
   - Community
@@ -10,7 +10,7 @@ featured_image:
   alt: Zappi, the iconic XBMC mascot, causing havoc in a data centre cabinet. Bits
     of computer kit sit at his feet. Sparks fly.
 ---
-**UPDATE 13 Jan 19:00 UTC:** The servers didn't come back up for some reason - we've tried a few things, but are now working with the hosting provider to resolve this. We don't yet have any timeline for resolution. 
+**UPDATE 13 Jan 19:00 UTC:** The servers didn't come back up for some reason - we've tried a few things, but that didn't work so we're now working with the hosting provider to resolve this. We don't yet have any timeline for resolution. 
 
 \---
 
