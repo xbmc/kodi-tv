@@ -1,5 +1,5 @@
 ---
-title: "Scheduled Maintenance: 12th January, 2026"
+title: "Scheduled Maintenance: 12th/13th January, 2026"
 date: 2026-01-13T19:00:01.258Z
 author: Prof Yaffle
 tags:
