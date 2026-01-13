@@ -1,6 +1,6 @@
 ---
 title: "Scheduled Maintenance: 12th January, 2026"
-date: 2026-01-08T13:39:38.330Z
+date: 2026-01-13T18:56:37.684Z
 author: Prof Yaffle
 tags:
   - Community
@@ -10,6 +10,10 @@ featured_image:
   alt: Zappi, the iconic XBMC mascot, causing havoc in a data centre cabinet. Bits
     of computer kit sit at his feet. Sparks fly.
 ---
+**UPDATE 13 Jan 19:00 UTC:** The servers didn't come back up for some reason - we've tried a few things, but are now working with the hosting provider to resolve this. We don't yet have any timeline for resolution. 
+
+\---
+
 We don't do this very often, but, sometimes, life happens, and it's only fair to forewarn you.
 
 We've been notified by one of our hosting providers of scheduled maintenance that will take our mirror servers off air for a while. During this window, you will not have access to downloads of anything we host - so, basically any new downloads of the Kodi application and add-ons. Kodi itself will remain available where it's hosted in a third-party repository (e.g. an app store).
