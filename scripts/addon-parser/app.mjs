@@ -552,7 +552,7 @@ async function app() {
   try {
     const res = await fetch(kodistats);
     const rawstats = await res.json();
-    let firstKey = Object.keys(rawstats[0])[0];
+    let firstKey = `STATS_FILE_${new Date().getFullYear()}`;
 
     Object.entries(rawstats[0][firstKey]).forEach(item => {
       addonstats.set(item[0], item[1]);
