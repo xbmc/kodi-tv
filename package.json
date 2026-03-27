@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "author": "Kyle Johnson <pkscout@kodi.tv>",
   "license": "0BSD",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [
     "gatsby",
     "kodi",
