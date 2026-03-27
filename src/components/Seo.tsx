@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 const config = require("/gatsby-site-config");
 
@@ -93,13 +92,6 @@ SEO.defaultProps = {
   lang: "en",
   meta: [],
   keywords: [],
-};
-
-SEO.propTypes = {
-  lang: PropTypes.string,
-  meta: PropTypes.array,
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  frontmatter: PropTypes.object.isRequired,
 };
 
 export default SEO;

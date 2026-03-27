@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Tab from "./Tab";
 
 interface Props {
@@ -11,10 +10,6 @@ interface State {
 }
 
 class Tabs extends React.Component<Props, State> {
-  static propTypes = {
-    children: PropTypes.instanceOf(Array).isRequired,
-  };
-
   constructor(props: Props | Readonly<Props>) {
     super(props);
     this.state = {

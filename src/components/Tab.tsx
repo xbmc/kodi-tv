@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
-class Tab extends Component {
-  static propTypes = {
-    activeTab: PropTypes.string.isRequired,
-    label: PropTypes.string.isRequired,
-    onClick: PropTypes.func.isRequired,
-  };
+interface Props {
+  activeTab: string;
+  label: string;
+  onClick: (label: string) => void;
+}
+
+class Tab extends Component<Props> {
 
   onClick = () => {
     const { label, onClick } = this.props;
