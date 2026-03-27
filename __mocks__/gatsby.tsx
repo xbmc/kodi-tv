@@ -1,9 +1,7 @@
 import React from "react";
 import { vi } from "vitest";
 
-const gatsby = await vi.importActual<typeof import("gatsby")>("gatsby");
-
-const Link = React.forwardRef<
+export const Link = React.forwardRef<
   HTMLAnchorElement,
   React.AnchorHTMLAttributes<HTMLAnchorElement> & { to: string }
 >(({ to, children, ...rest }, ref) =>
@@ -11,14 +9,6 @@ const Link = React.forwardRef<
 );
 Link.displayName = "Link";
 
-const useStaticQuery = vi.fn();
-const graphql = vi.fn();
-const navigate = vi.fn();
-
-module.exports = {
-  ...gatsby,
-  Link,
-  useStaticQuery,
-  graphql,
-  navigate,
-};
+export const useStaticQuery = vi.fn();
+export const graphql = vi.fn();
+export const navigate = vi.fn();
