@@ -7,9 +7,7 @@ import SEO from "../../components/Seo";
 
 export function Head() {
   return (
-    <SEO
-      frontmatter={{ title: "Kodi Merchandise Store", breadcrumbs: "Store" }}
-    />
+    <SEO frontmatter={{ title: "Kodi Merchandise Store", breadcrumbs: "Store" }} />
   );
 }
 

@@ -7,9 +7,7 @@ import SEO from "../../../components/Seo";
 
 export function Head() {
   return (
-    <SEO
-      frontmatter={{ title: "Omega Add-ons", breadcrumbs: "Omega | Addons" }}
-    />
+    <SEO frontmatter={{ title: "Omega Add-ons", breadcrumbs: "Omega | Addons" }} />
   );
 }
 

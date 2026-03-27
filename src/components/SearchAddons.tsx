@@ -116,9 +116,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
   const onCategorySelect = useCallback(
     event => {
       setCategorySelected(
-        event.target.value === categoryOptions[0].value
-          ? null
-          : event.target.value,
+        event.target.value === categoryOptions[0].value ? null : event.target.value,
       );
     },
     [categoryOptions],
@@ -143,9 +141,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
     let filtered_results = addons;
     if (categorySelected != null) {
       filtered_results = filtered_results.filter(addon => {
-        if (
-          addon.categories.find(o => o.name == categorySelected) != undefined
-        ) {
+        if (addon.categories.find(o => o.name == categorySelected) != undefined) {
           return addon;
         }
       });
@@ -153,9 +149,8 @@ export default function SearchAddons({ categories, addons, linkroot }) {
     if (author != "") {
       filtered_results = filtered_results.filter(addon => {
         if (
-          addon.authors.find(
-            o => o.name.toLowerCase() == author.toLowerCase(),
-          ) != undefined
+          addon.authors.find(o => o.name.toLowerCase() == author.toLowerCase()) !=
+          undefined
         ) {
           return addon;
         }

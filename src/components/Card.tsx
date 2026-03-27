@@ -46,11 +46,7 @@ function FeaturedCard({ iconClass, icon, title, url, children }: Props) {
     "-mt-6 flex items-center justify-center h-12 w-12 rounded-md bg-kodi";
 
   const inner = (
-    <FeaturedCardInnerRender
-      iconClass={resolvedIconClass}
-      icon={icon}
-      title={title}
-    >
+    <FeaturedCardInnerRender iconClass={resolvedIconClass} icon={icon} title={title}>
       {children}
     </FeaturedCardInnerRender>
   );
@@ -65,13 +61,7 @@ function FeaturedCard({ iconClass, icon, title, url, children }: Props) {
   );
 }
 
-function RoundedCardWithImage({
-  imgtitle,
-  imgsrc,
-  imgalt,
-  title,
-  children,
-}: Props) {
+function RoundedCardWithImage({ imgtitle, imgsrc, imgalt, title, children }: Props) {
   return (
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">

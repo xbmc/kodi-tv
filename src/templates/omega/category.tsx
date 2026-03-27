@@ -8,8 +8,7 @@ export function Head({ data }) {
     <SEO
       frontmatter={{
         title: "Omega Add-on Category List",
-        breadcrumbs:
-          data.category.name + " | Category | Omega | Addons",
+        breadcrumbs: data.category.name + " | Category | Omega | Addons",
       }}
     />
   );
