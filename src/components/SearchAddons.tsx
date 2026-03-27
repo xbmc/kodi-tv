@@ -162,7 +162,8 @@ export default function SearchAddons({ categories, addons, linkroot }) {
       });
     }
     if (keyword != "") {
-      const regex = new RegExp("\\b" + keyword + "\\b", "i");
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const regex = new RegExp("\\b" + escaped + "\\b", "i");
       filtered_results = filtered_results.filter(addon => {
         if (
           regex.test(addon.description) ||
