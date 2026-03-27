@@ -1,6 +1,18 @@
 import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 import Button from "../../components/Button";
+import SEO from "../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Donate via Patreon",
+        breadcrumbs: "Patreon | Donate",
+      }}
+    />
+  );
+}
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Donate via Patreon", breadcrumbs: "Patreon | Donate" };

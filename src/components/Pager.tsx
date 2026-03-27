@@ -12,7 +12,7 @@ const Pager = ({ pageContext }) => {
     humanPageNumber,
   } = pageContext;
   let paginationinfo = [];
-  let url = "";
+  let url: string;
   let urlbase = "/blog";
   if (pageContext.tag != undefined) {
     urlbase =
@@ -20,7 +20,7 @@ const Pager = ({ pageContext }) => {
       "/tag/" +
       slugify(pageContext.tag, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
   }
-  let onpage = false;
+  let onpage: boolean;
   let hidepage = false;
   for (let i = 1; i <= numberOfPages; i++) {
     if (i == 1) {

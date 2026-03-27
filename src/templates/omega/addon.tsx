@@ -1,6 +1,20 @@
 import React from "react";
 import { graphql } from "gatsby";
 import AddonLayout from "../../components/AddonLayout";
+import SEO from "../../components/Seo";
+
+export function Head({ data }) {
+  const addon = data.addon;
+  const frontmatter: any = {
+    title: "Omega Add-on Details",
+    breadcrumbs: addon.name + " | Omega | Addons",
+    description: addon.snippet,
+  };
+  if (addon.screenshots?.[0]?.localpath) {
+    frontmatter.image = addon.screenshots[0].localpath;
+  }
+  return <SEO frontmatter={frontmatter} />;
+}
 
 export default function DisplayAddon({ data }) {
   return <AddonLayout repo="Omega" data={data} />;

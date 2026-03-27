@@ -4,6 +4,20 @@ import Pager from "../components/Pager";
 import { DefaultLayout } from "../components/Layout";
 import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
 import { News } from "../hooks/LatestNews";
+import SEO from "../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "News",
+        breadcrumbs: "News",
+        description:
+          "Get information about new releases, test builds, and other news from Team Kodi.",
+      }}
+    />
+  );
+}
 
 export default function BlogIndexPage({ data, pageContext, location }) {
   let frontmatter = {

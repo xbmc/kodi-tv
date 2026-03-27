@@ -5,7 +5,7 @@ export default function ItemWithComma(props: {
   index: any;
   length: any;
   url: string | undefined;
-  description: {} | null | undefined;
+  description: React.ReactNode;
   linkType: "internal" | "external";
 }) {
   if (props.url === undefined) {

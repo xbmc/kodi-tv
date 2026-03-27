@@ -3,6 +3,13 @@ import { graphql } from "gatsby";
 import { IconList, IconListFeatured } from "../../../components/IconList";
 import { DefaultLayout } from "../../../components/Layout";
 import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
+import SEO from "../../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO frontmatter={{ title: "Omega Add-ons", breadcrumbs: "Omega | Addons" }} />
+  );
+}
 
 export default function AddonIndexPage({ data, pageContext, location }) {
   let frontmatter = { title: "Omega Add-ons", breadcrumbs: "Omega | Addons" };

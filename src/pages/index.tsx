@@ -16,6 +16,18 @@ import {
   FullWidthStats,
   FullWidthRoundedCardList,
 } from "../components/FullWidth";
+import SEO from "../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Open Source Home Theater Software",
+        breadcrumbs: "Open Source Home Theater Software",
+      }}
+    />
+  );
+}
 
 function setUniqueDistributionIcons() {
   const distributions = DistributionList();

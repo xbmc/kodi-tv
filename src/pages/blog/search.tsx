@@ -3,6 +3,13 @@ import { graphql } from "gatsby";
 import SearchNews from "../../components/SearchNews";
 import { DefaultLayout } from "../../components/Layout";
 import { TagList } from "../../hooks/TagList";
+import SEO from "../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO frontmatter={{ title: "News Search", breadcrumbs: "Search | News" }} />
+  );
+}
 
 export default function AddonSearchPage({ data, pageContext, location }) {
   let frontmatter = {

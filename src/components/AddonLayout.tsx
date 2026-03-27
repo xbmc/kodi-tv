@@ -55,8 +55,8 @@ export default function AddonLayout({
   ];
   let pushed = 0;
   let classNameRoot = "px-6 gap-1 md:gap-4 py-5 grid grid-cols-1 md:grid-cols-3";
-  let className = "";
-  let datatype = "";
+  let className: string;
+  let datatype: string;
   for (let i = 0; i < fields.length; i++) {
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {

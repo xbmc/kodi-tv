@@ -3,6 +3,13 @@ import { graphql } from "gatsby";
 import Button from "../../components/Button";
 import { IconList } from "../../components/IconList";
 import { DefaultLayout } from "../../components/Layout";
+import SEO from "../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO frontmatter={{ title: "Kodi Merchandise Store", breadcrumbs: "Store" }} />
+  );
+}
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Kodi Merchandise Store", breadcrumbs: "Store" };

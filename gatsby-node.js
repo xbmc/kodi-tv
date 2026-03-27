@@ -249,3 +249,13 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     });
   });
 };
+
+exports.onCreateWebpackConfig = ({ actions, getConfig, stage }) => {
+  const config = getConfig();
+  const hadEslint = config.plugins.some(p => /eslint/i.test(p.constructor.name));
+  config.plugins = config.plugins.filter(
+    plugin => !/eslint/i.test(plugin.constructor.name),
+  );
+  console.log(`WEBPACK [${stage}] removed ESLint: ${hadEslint}`);
+  actions.replaceWebpackConfig(config);
+};

@@ -3,6 +3,18 @@ import { graphql } from "gatsby";
 import SearchAddons from "../../../components/SearchAddons";
 import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 import { DefaultLayout } from "../../../components/Layout";
+import SEO from "../../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Omega Add-on Search",
+        breadcrumbs: "Search | Omega | Addons",
+      }}
+    />
+  );
+}
 
 export default function AddonSearchPage({ data, pageContext, location }) {
   let frontmatter = {

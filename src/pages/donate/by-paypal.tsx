@@ -1,7 +1,19 @@
 import React from "react";
 import { DefaultLayout } from "../../components/Layout";
+import SEO from "../../components/Seo";
 
 const config = require("../../../gatsby-site-config");
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Pay via PayPal",
+        breadcrumbs: "PayPal | Donate",
+      }}
+    />
+  );
+}
 
 export default class PagePayPal extends React.Component {
   constructor() {
