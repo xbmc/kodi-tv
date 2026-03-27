@@ -23,86 +23,82 @@ interface FullWidthProps {
   }[];
 }
 
-class Carousel extends React.Component<Props> {
-  render() {
-    return (
-      <Swiper
-        modules={[Navigation, Pagination, A11y, Autoplay]}
-        style={{ maxWidth: "1000px", "--swiper-theme-color": "#17B2E7" }}
-        spaceBetween={0}
-        slidesPerView={1}
-        navigation
-        pagination={{
-          clickable: true,
-        }}
-      >
-        {this.props.slides.map(element => (
-          <SwiperSlide key={element}>
-            <img src={element} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    );
-  }
+function Carousel({ slides }: Props) {
+  return (
+    <Swiper
+      modules={[Navigation, Pagination, A11y, Autoplay]}
+      style={{ maxWidth: "1000px", "--swiper-theme-color": "#17B2E7" }}
+      spaceBetween={0}
+      slidesPerView={1}
+      navigation
+      pagination={{
+        clickable: true,
+      }}
+    >
+      {slides.map(element => (
+        <SwiperSlide key={element}>
+          <img src={element} />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
 }
 
-class FullWidthHeroCarousel extends React.Component<FullWidthProps> {
-  render() {
-    return (
-      <div className="relative pb-6">
-        <div className="mx-auto">
-          <div className="relative shadow-xl overflow-hidden flex">
-            <Swiper
-              modules={[Navigation, Pagination, A11y, Autoplay]}
-              style={{ "--swiper-theme-color": "#17B2E7" }}
-              className="w-full"
-              spaceBetween={0}
-              slidesPerView={1}
-              loop
-              autoplay={{ delay: 5000 }}
-              pagination={{
-                clickable: true,
-              }}
-            >
-              {this.props.slides.map(element => (
-                <SwiperSlide key={element.url}>
-                  <div className="absolute inset-0">
-                    <img
-                      className="h-full w-full object-cover"
-                      src={element.image}
-                      alt=""
-                    />
-                    <div
-                      className="absolute inset-0 bg-kodibg"
-                      style={{ mixBlendMode: "multiply" }}
-                    ></div>
-                  </div>
-                  <div className="relative px-6 pt-12 pb-16">
-                    <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
-                      <span className="block text-gray-50">{element.title}</span>
-                      <span className="block text-kodi-lighter">
-                        {element.subtitle}
-                      </span>
-                    </h1>
-                    <p className="mt-6 max-w-lg mx-auto text-center text-xl text-kodi-lighter">
-                      {element.description}
-                    </p>
-                    <div className="mt-10 mx-auto max-w-none flex justify-center">
-                      <div className="space-y-0 mx-auto grid-cols-1 gap-5">
-                        <Button href={element.url} variant="secondary">
-                          {element.buttontext}
-                        </Button>
-                      </div>
+function FullWidthHeroCarousel({ slides }: FullWidthProps) {
+  return (
+    <div className="relative pb-6">
+      <div className="mx-auto">
+        <div className="relative shadow-xl overflow-hidden flex">
+          <Swiper
+            modules={[Navigation, Pagination, A11y, Autoplay]}
+            style={{ "--swiper-theme-color": "#17B2E7" }}
+            className="w-full"
+            spaceBetween={0}
+            slidesPerView={1}
+            loop
+            autoplay={{ delay: 5000 }}
+            pagination={{
+              clickable: true,
+            }}
+          >
+            {slides.map(element => (
+              <SwiperSlide key={element.url}>
+                <div className="absolute inset-0">
+                  <img
+                    className="h-full w-full object-cover"
+                    src={element.image}
+                    alt=""
+                  />
+                  <div
+                    className="absolute inset-0 bg-kodibg"
+                    style={{ mixBlendMode: "multiply" }}
+                  ></div>
+                </div>
+                <div className="relative px-6 pt-12 pb-16">
+                  <h1 className="text-center text-4xl font-extrabold tracking-tight lg:text-6xl">
+                    <span className="block text-gray-50">{element.title}</span>
+                    <span className="block text-kodi-lighter">
+                      {element.subtitle}
+                    </span>
+                  </h1>
+                  <p className="mt-6 max-w-lg mx-auto text-center text-xl text-kodi-lighter">
+                    {element.description}
+                  </p>
+                  <div className="mt-10 mx-auto max-w-none flex justify-center">
+                    <div className="space-y-0 mx-auto grid-cols-1 gap-5">
+                      <Button href={element.url} variant="secondary">
+                        {element.buttontext}
+                      </Button>
                     </div>
                   </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export { Carousel, FullWidthHeroCarousel };
