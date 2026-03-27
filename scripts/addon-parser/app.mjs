@@ -666,20 +666,14 @@ async function app() {
       }
       console.log("getting threads from forum");
       try {
-        const forumRes = await fetch(forumStats, {
-          headers: {
-            "User-Agent":
-              "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0",
-          },
-        });
+        const forumRes = await fetch(forumStats);
         stats = await forumRes.text();
       } catch (error) {
         stats = "";
         console.log(error);
       }
       if (stats) {
-        let forumRegEx =
-          /<span class="istat"><strong>([\d,]+)<\/strong><\/span><i[^>]*><\/i> Total Threads/;
+        let forumRegEx = new RegExp("<span .*>(.*)<span>Threads");
         let forumMatch = forumRegEx.exec(stats);
         if (forumMatch !== null) {
           forumThreads = forumMatch[1];
