@@ -47,7 +47,7 @@ export const TagList = () => {
     },
   ];
   let taggedPosts = posts.filter(a => a.frontmatter.tags !== null);
-  let oneTag = {};
+  let oneTag: any;
   let lateTagList = [];
   for (let i = 0; i < tags.length; i++) {
     oneTag = {
