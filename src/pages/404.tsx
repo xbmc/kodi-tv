@@ -1,5 +1,10 @@
 import React from "react";
 import { DefaultLayout } from "../components/Layout";
+import SEO from "../components/Seo";
+
+export function Head() {
+  return <SEO frontmatter={{ title: "Page Not Found", breadcrumbs: "404" }} />;
+}
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Page Not Found", breadcrumbs: "404" };

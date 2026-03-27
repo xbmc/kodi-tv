@@ -3,6 +3,15 @@ import { graphql } from "gatsby";
 import { DefaultLayout } from "../../components/Layout";
 import { FeaturedCard } from "../../components/Card";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
+import SEO from "../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{ title: "Recent Donors", breadcrumbs: "Wall | Donate" }}
+    />
+  );
+}
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = { title: "Recent Donors", breadcrumbs: "Wall | Donate" };

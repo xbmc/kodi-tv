@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-import SEO from "./Seo";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
@@ -219,7 +218,6 @@ function Header(props: any) {
   }
   return (
     <>
-      <SEO frontmatter={props.frontmatter} />
       <div className={mainclassname}>
         <nav className="bg-kodibg">
           <div className="max-w-7xl mx-auto px-2 lg:px-6">

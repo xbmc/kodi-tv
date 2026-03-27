@@ -3,6 +3,18 @@ import { graphql } from "gatsby";
 import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
 import ListTopAuthors from "../../../components/ListTopAuthors";
 import { DefaultLayout } from "../../../components/Layout";
+import SEO from "../../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Top Omega Add-On Authors",
+        breadcrumbs: "Top Authors | Omega | Addons",
+      }}
+    />
+  );
+}
 
 export default function Page({ data, pageContext, location }) {
   let frontmatter = {

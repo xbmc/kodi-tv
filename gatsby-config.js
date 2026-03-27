@@ -1,5 +1,4 @@
 const path = require("path");
-const { node } = require("prop-types");
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
@@ -129,7 +128,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-image`,

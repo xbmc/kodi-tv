@@ -1,8 +1,15 @@
 import React from "react";
-import Helmet from "react-helmet";
 const config = require("/gatsby-site-config");
 
-function SEO({ lang, meta, keywords, frontmatter }) {
+interface SeoProps {
+  frontmatter?: {
+    breadcrumbs?: string;
+    description?: string;
+    image?: string;
+  };
+}
+
+export default function SEO({ frontmatter = {} }: SeoProps) {
   let breadcrumbs = config.siteMetadata.title;
   let shortcrumbs = breadcrumbs;
   let description = config.siteMetadata.description;
@@ -18,80 +25,25 @@ function SEO({ lang, meta, keywords, frontmatter }) {
     image = config.siteMetadata.siteUrl + frontmatter.image;
   }
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={breadcrumbs}
-      meta={[
-        {
-          name: "description",
-          content: description,
-        },
-        {
-          property: "og:title",
-          content: shortcrumbs,
-        },
-        {
-          name: "twitter:title",
-          content: shortcrumbs,
-        },
-        {
-          property: "og:description",
-          content: description,
-        },
-        {
-          name: "twitter:description",
-          content: description,
-        },
-        {
-          property: "og:image",
-          content: image,
-        },
-        {
-          name: "twitter:image",
-          content: image,
-        },
-        {
-          name: "twitter:card",
-          content: "summary_large_image",
-        },
-        {
-          name: "twitter:creator",
-          content: "@KodiTV",
-        },
-        {
-          name: "twitter:site",
-          content: "@KodiTV",
-        },
-        {
-          property: "og:type",
-          content: "website",
-        },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: "keywords",
-                content: keywords.join(", "),
-              }
-            : [],
-        )
-        .concat(meta)}
-    >
+    <>
+      <html lang="en" />
+      <title>{breadcrumbs}</title>
+      <meta name="description" content={description} />
+      <meta property="og:title" content={shortcrumbs} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={image} />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={shortcrumbs} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={image} />
+      <meta name="twitter:creator" content="@KodiTV" />
+      <meta name="twitter:site" content="@KodiTV" />
       <script
         data-goatcounter="https://koditv.goatcounter.com/count"
         async
         src="//gc.zgo.at/count.js"
-      ></script>
-    </Helmet>
+      />
+    </>
   );
 }
-
-SEO.defaultProps = {
-  lang: "en",
-  meta: [],
-  keywords: [],
-};
-
-export default SEO;

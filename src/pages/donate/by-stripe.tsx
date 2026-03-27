@@ -2,6 +2,18 @@ import React from "react";
 import { DefaultLayout } from "../../components/Layout";
 import { loadStripe } from "@stripe/stripe-js";
 import ButtonStripe from "../../components/ButtonStripe";
+import SEO from "../../components/Seo";
+
+export function Head() {
+  return (
+    <SEO
+      frontmatter={{
+        title: "Pay via Credit Card",
+        breadcrumbs: "Stripe | Donate",
+      }}
+    />
+  );
+}
 
 const config = require("../../../gatsby-site-config");
 const stripePromise = loadStripe(config.stripe.apikey);

@@ -3,6 +3,18 @@ import { graphql } from "gatsby";
 import { DefaultLayout } from "../components/Layout";
 import Pager from "../components/Pager";
 import { BlogPostCard, NavCard, EmptyCard } from "../components/Blog";
+import SEO from "../components/Seo";
+
+export function Head({ pageContext }) {
+  return (
+    <SEO
+      frontmatter={{
+        title: "News with the Tag: " + pageContext.tag,
+        breadcrumbs: pageContext.tag + " | News",
+      }}
+    />
+  );
+}
 
 export default function TagPage({ data, pageContext, location }) {
   let frontmatter = {
