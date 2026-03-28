@@ -44,12 +44,12 @@ const pageNum = Number(Astro.params.page);
 const blogEntries = await getCollection("blog");
 const filtered = blogEntries
   .filter(e => (e.data.tags || []).includes(tag))
-  .sort(
-    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
-  );
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
 const start = (pageNum - 1) * PAGE_SIZE;
-const posts = filtered.slice(start, start + PAGE_SIZE).map(entry => prepareBlogPost(entry));
+const posts = filtered
+  .slice(start, start + PAGE_SIZE)
+  .map(entry => prepareBlogPost(entry));
 
 const firsttwo = posts.slice(0, 2);
 const therest = posts.slice(2);
@@ -65,8 +65,14 @@ const tagSlug = slugify(tag, {
 });
 
 const pageContext = {
-  previousPagePath: pageNum === 2 ? `/blog/tag/${tagSlug}` : `/blog/tag/${tagSlug}/page/${pageNum - 1}`,
-  nextPagePath: pageNum < totalPages ? `/blog/tag/${tagSlug}/page/${pageNum + 1}` : `/blog/tag/${tagSlug}/page/${totalPages}`,
+  previousPagePath:
+    pageNum === 2
+      ? `/blog/tag/${tagSlug}`
+      : `/blog/tag/${tagSlug}/page/${pageNum - 1}`,
+  nextPagePath:
+    pageNum < totalPages
+      ? `/blog/tag/${tagSlug}/page/${pageNum + 1}`
+      : `/blog/tag/${tagSlug}/page/${totalPages}`,
   numberOfPages: totalPages,
   pageNumber: pageNum - 1,
   humanPageNumber: pageNum,

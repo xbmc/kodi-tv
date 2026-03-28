@@ -32,9 +32,7 @@ const { tag } = Astro.props;
 const blogEntries = await getCollection("blog");
 const filtered = blogEntries
   .filter(e => (e.data.tags || []).includes(tag))
-  .sort(
-    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
-  );
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
 const posts = filtered.slice(0, PAGE_SIZE).map(entry => prepareBlogPost(entry));
 
@@ -53,7 +51,8 @@ const tagSlug = slugify(tag, {
 
 const pageContext = {
   previousPagePath: `/blog/tag/${tagSlug}`,
-  nextPagePath: totalPages > 1 ? `/blog/tag/${tagSlug}/page/2` : `/blog/tag/${tagSlug}`,
+  nextPagePath:
+    totalPages > 1 ? `/blog/tag/${tagSlug}/page/2` : `/blog/tag/${tagSlug}`,
   numberOfPages: totalPages,
   pageNumber: 0,
   humanPageNumber: 1,

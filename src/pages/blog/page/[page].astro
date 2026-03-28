@@ -27,7 +27,9 @@ const sorted = blogEntries.sort(
 );
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 const start = (pageNum - 1) * PAGE_SIZE;
-const posts = sorted.slice(start, start + PAGE_SIZE).map(entry => prepareBlogPost(entry));
+const posts = sorted
+  .slice(start, start + PAGE_SIZE)
+  .map(entry => prepareBlogPost(entry));
 
 const firsttwo = posts.slice(0, 2);
 const therest = posts.slice(2);
@@ -41,7 +43,8 @@ const tagList = buildTagList(allPostsForTags);
 // Build pagination context compatible with existing Pager component
 const pageContext = {
   previousPagePath: pageNum === 2 ? "/blog" : `/blog/page/${pageNum - 1}`,
-  nextPagePath: pageNum < totalPages ? `/blog/page/${pageNum + 1}` : `/blog/page/${totalPages}`,
+  nextPagePath:
+    pageNum < totalPages ? `/blog/page/${pageNum + 1}` : `/blog/page/${totalPages}`,
   numberOfPages: totalPages,
   pageNumber: pageNum - 1,
   humanPageNumber: pageNum,

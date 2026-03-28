@@ -61,7 +61,12 @@ const ogImage = image
     <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png" />
     <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png" />
     <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png" />
-    <link rel="alternate" type="application/rss+xml" title="Kodi News" href="/rss.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Kodi News"
+      href="/rss.xml"
+    />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script
       data-goatcounter="https://koditv.goatcounter.com/count"
@@ -71,21 +76,23 @@ const ogImage = image
   <body>
     <div class:list={[landing ? "bg-gray-50" : "bg-gray-200", "h-full"]}>
       <Header compact={landing} frontmatter={{ title: title || "" }} client:load />
-      {landing ? (
-        <main>
-          <div class="py-0">
-            <slot />
-          </div>
-        </main>
-      ) : (
-        <main class="-mt-32">
-          <div class="max-w-7xl mx-auto pb-0 px-0 md:px-6 lg:px-8">
-            <div class="bg-gray-50 md:rounded-lg md:shadow p-6 min-h-screen">
+      {
+        landing ? (
+          <main>
+            <div class="py-0">
               <slot />
             </div>
-          </div>
-        </main>
-      )}
+          </main>
+        ) : (
+          <main class="-mt-32">
+            <div class="max-w-7xl mx-auto pb-0 px-0 md:px-6 lg:px-8">
+              <div class="bg-gray-50 md:rounded-lg md:shadow p-6 min-h-screen">
+                <slot />
+              </div>
+            </div>
+          </main>
+        )
+      }
       <Footer sponsors={sponsors} />
     </div>
   </body>
