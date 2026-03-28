@@ -13,6 +13,7 @@
     "kodi.tv"
   ],
   "scripts": {
+    "postinstall": "node scripts/create-react-umd-stubs.js",
     "build": "gatsby build",
     "start": "gatsby develop",
     "clean": "gatsby clean",
@@ -31,7 +32,7 @@
     "@heroicons/react": "^2.2.0",
     "@stripe/react-stripe-js": "^2.9.0",
     "@stripe/stripe-js": "^3.5.0",
-    "decap-cms-app": "^3.0.12",
+    "decap-cms-app": "^3.11.0",
     "gatsby": "^5.14.1",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-decap-cms": "^4.0.4",
