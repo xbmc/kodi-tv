@@ -27,5 +27,5 @@ const distData = dist as any;
   title={"Downloads for " + distData.name}
   breadcrumbs={distData.name + " | Downloads"}
 >
-  <Distribution dist={distData} />
+  <Distribution dist={distData} client:load />
 </BaseLayout>

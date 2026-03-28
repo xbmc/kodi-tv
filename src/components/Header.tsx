@@ -194,7 +194,7 @@ function Header(props: any) {
   let mainclassname = "bg-kodibg pb-32";
   let borderclassname = "border-b border-gray-600";
   let showtitle = true;
-  if (props.compact !== undefined) {
+  if (props.compact) {
     mainclassname = "bg-kodibg";
     borderclassname = "";
     showtitle = false;
