@@ -67,7 +67,7 @@ export async function getDonors(): Promise<Donor[]> {
   } catch (err) {
     console.error(
       "Unable to query donors. Error:",
-      JSON.stringify(err, null, 2),
+      err instanceof Error ? err.message : "Unknown error",
     );
     console.log("Creating single empty donor record.");
     return [DUMMY_DONOR];
