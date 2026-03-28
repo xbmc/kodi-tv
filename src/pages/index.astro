@@ -15,6 +15,7 @@ import {
   FullWidthStats,
   FullWidthRoundedCardList,
 } from "../components/FullWidth";
+import { prepareBlogPost } from "../utils/blog";
 
 // Import optimizable images from src/images/
 import heroDefault from "../images/heroes/default-hero.webp";
@@ -64,22 +65,7 @@ const sorted = blogEntries
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3);
 
-const news = sorted.map(entry => ({
-  excerpt: (entry.body || "").slice(0, 300),
-  timeToRead: Math.ceil((entry.body?.split(/\s+/).length || 0) / 200).toString(),
-  fields: { slug: `/article/${entry.id}` },
-  frontmatter: {
-    author: entry.data.author || "",
-    date: new Date(entry.data.date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "2-digit",
-    }),
-    tags: entry.data.tags || [],
-    featured_image: entry.data.featured_image || undefined,
-    title: entry.data.title,
-  },
-}));
+const news = sorted.map(entry => prepareBlogPost(entry));
 
 const distEntries = await getCollection("distributions");
 const distributions = distEntries

@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SearchNews from "../../components/SearchNews";
 import { buildTagList } from "../../hooks/TagList";
+import { cleanExcerpt, calcReadTime } from "../../utils/blog";
 
 const blogEntries = await getCollection("blog");
 const sorted = blogEntries.sort(
@@ -23,8 +24,8 @@ const posts = sorted.map(entry => ({
     title: entry.data.title,
   },
   rawMarkdownBody: entry.body || "",
-  timeToRead: Math.ceil((entry.body?.split(/\s+/).length || 0) / 200).toString(),
-  excerpt: entry.body?.slice(0, 300) || "",
+  timeToRead: calcReadTime(entry.body),
+  excerpt: cleanExcerpt(entry.body || ""),
 }));
 
 const allPostsForTags = blogEntries.map(e => ({
