@@ -1,11 +1,11 @@
-const js = require("@eslint/js");
-const tseslint = require("typescript-eslint");
-const reactPlugin = require("eslint-plugin-react");
-const prettierConfig = require("eslint-config-prettier");
+import js from "@eslint/js";
+import tseslint from "typescript-eslint";
+import reactPlugin from "eslint-plugin-react";
+import prettierConfig from "eslint-config-prettier";
 
-module.exports = tseslint.config(
+export default tseslint.config(
   {
-    ignores: [".astro/**", "dist/**", "node_modules/**"],
+    ignores: [".astro/**", ".cache/**", "dist/**", "node_modules/**"],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

@@ -9,7 +9,7 @@ function DownloadList(props: { items: Distribution[] }) {
     ...item,
     slug: slugify(item.name, {
       lower: true,
-      remove: /[^\w\s$*_+~.()'"\!\-@]+/g,
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
     }),
   }));
 
