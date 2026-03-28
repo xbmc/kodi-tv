@@ -1,8 +1,9 @@
 import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import { Sponsor, Sponsors } from "../hooks/Sponsors";
+import type { Sponsor } from "../hooks/Sponsors";
 import { SponsorTypeList } from "./SponsorList";
+import type { WidgetImages } from "./Page";
 import {
   CodeBracketIcon,
   CloudArrowDownIcon,
@@ -14,11 +15,8 @@ import {
   ShoppingCartIcon,
   MegaphoneIcon,
 } from "@heroicons/react/24/outline";
-import { StaticImage } from "gatsby-plugin-image";
-import { Link } from "gatsby";
 
-function SponsorList() {
-  const sponsors: Sponsor[] = Sponsors();
+function SponsorList({ sponsors }: { sponsors: Sponsor[] }) {
   const financialSponsors = sponsors.filter(a => a.sponsor_type === "Financial");
   const infrastructureSponsors = sponsors.filter(
     a => a.sponsor_type === "Infrastructure",
@@ -76,24 +74,32 @@ function CtaButtonExternal(props: { url: string; buttontext: string }) {
   );
 }
 
-function AboutOfficialRemotes() {
+function AboutOfficialRemotes({ images = {} }: { images?: WidgetImages }) {
   return (
     <>
       <div className="max-w-xl grid grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col items-center pb-6 md:pb-0">
           <span>Kore™ (Android)</span>
-          <StaticImage
+          <img
             className="w-200 h-200"
-            alt="Kore QR Code"
-            src="../../static/images/kore-qr.webp"
+            alt="QR code to download Kore remote app for Android"
+            src={images["kore-qr"] || "/images/kore-qr.webp"}
+            loading="lazy"
+            decoding="async"
+            width={200}
+            height={200}
           />
         </div>
         <div className="flex flex-col items-center">
           <span>Official Kodi Remote (iOS)</span>
-          <StaticImage
+          <img
             className="w-200 h-200"
-            alt="iOS QR Code"
-            src="../../static/images/ios-qr.webp"
+            alt="QR code to download Official Kodi Remote app for iOS"
+            src={images["ios-qr"] || "/images/ios-qr.webp"}
+            loading="lazy"
+            decoding="async"
+            width={200}
+            height={200}
           />
         </div>
       </div>
@@ -229,14 +235,14 @@ function ContributeGallery() {
   );
 }
 
-function AboutGallery() {
+function AboutGallery({ images = {} }: { images?: WidgetImages }) {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         <RoundedCardWithImage
           title="Movies"
-          imgsrc="/images/about--movies.webp"
-          imgalt=""
+          imgsrc={images["about--movies"] || "/images/about--movies.webp"}
+          imgalt="Kodi Movies library interface"
           imgtitle=""
         >
           Kodi is made for Movies! Supporting all the main video formats including
@@ -246,8 +252,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="TV Shows"
-          imgsrc="/images/about--tvshows.webp"
-          imgalt=""
+          imgsrc={images["about--tvshows"] || "/images/about--tvshows.webp"}
+          imgalt="Kodi TV Shows library interface"
           imgtitle=""
         >
           Kodi's TV Shows library supports episode and season views with posters or
@@ -257,8 +263,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Music"
-          imgsrc="/images/about--music.webp"
-          imgalt=""
+          imgsrc={images["about--music"] || "/images/about--music.webp"}
+          imgalt="Kodi Music library interface"
           imgtitle=""
         >
           Kodi can play all your music including mp3, flac, wav and wma formats. It
@@ -268,8 +274,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Photos"
-          imgsrc="/images/about--photos.webp"
-          imgalt=""
+          imgsrc={images["about--photos"] || "/images/about--photos.webp"}
+          imgalt="Kodi Photos library interface"
           imgtitle=""
         >
           Kodi is the photographers friend. Import pictures into a library and browse
@@ -279,8 +285,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="PVR"
-          imgsrc="/images/about--pvr.webp"
-          imgalt=""
+          imgsrc={images["about--pvr"] || "/images/about--pvr.webp"}
+          imgalt="Kodi PVR live TV interface"
           imgtitle=""
         >
           Kodi allows you to watch and record live TV all through an easy to use
@@ -290,8 +296,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Games"
-          imgsrc="/images/about--games.webp"
-          imgalt=""
+          imgsrc={images["about--games"] || "/images/about--games.webp"}
+          imgalt="Kodi Games emulator interface"
           imgtitle=""
         >
           Kodi isn't just for passive entertainment media. You can also play games on
@@ -301,8 +307,8 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Skins"
-          imgsrc="/images/about--skins.webp"
-          imgalt=""
+          imgsrc={images["about--skins"] || "/images/about--skins.webp"}
+          imgalt="Kodi Skins customization interface"
           imgtitle=""
         >
           Kodi allows you to completely change the whole appearance of the interface
@@ -312,37 +318,39 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Add-ons"
-          imgsrc="/images/about--addons.webp"
-          imgalt=""
+          imgsrc={images["about--addons"] || "/images/about--addons.webp"}
+          imgalt="Kodi Add-ons browser interface"
           imgtitle=""
         >
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
           scripts.{" "}
-          <Link className="underline" to="/addons">
+          <a className="underline" href="/addons">
             See which ones are currently available
-          </Link>
+          </a>
           .
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
           title="Web Interface"
-          imgsrc="/images/about--webinterface.webp"
-          imgalt=""
+          imgsrc={
+            images["about--webinterface"] || "/images/about--webinterface.webp"
+          }
+          imgalt="Kodi Web Interface for remote control"
           imgtitle=""
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <Link className="underline" to="/addons/omega/category/web-interfaces">
+          <a className="underline" href="/addons/omega/category/web-interfaces">
             web browsers
-          </Link>
+          </a>
           , and 3rd party tools to take Kodi to the next level.
         </RoundedCardWithImage>
 
         <RoundedCardWithImage
           title="Remote Controls"
-          imgsrc="/images/about--remotes.webp"
-          imgalt=""
+          imgsrc={images["about--remotes"] || "/images/about--remotes.webp"}
+          imgalt="Kodi Remote Controls support"
           imgtitle=""
         >
           With support for{" "}
@@ -350,9 +358,9 @@ function AboutGallery() {
             hundreds of remote controls
           </a>
           , CEC-compatible TVs, or one of the{" "}
-          <Link className="underline" to="/about/software">
+          <a className="underline" href="/about/software">
             new Smartphone and Tablet Apps
-          </Link>
+          </a>
           , Kodi allows you to control your media your way.
         </RoundedCardWithImage>
       </div>

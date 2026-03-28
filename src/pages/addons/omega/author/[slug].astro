@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import AddonAuthorLayout from "../../../../components/AddonAuthorLayout";
+
+export async function getStaticPaths() {
+  const authors = await getCollection("omegaAuthors");
+  return authors.map(entry => ({
+    params: { slug: (entry.data as any).slug },
+    props: { author: entry.data },
+  }));
+}
+
+const { author } = Astro.props;
+const authorData = author as any;
+---
+
+<BaseLayout
+  title="Omega Author Details"
+  breadcrumbs={authorData.name + " | Author | Omega | Addons"}
+>
+  <AddonAuthorLayout repo="Omega" data={{ author: authorData }} />
+</BaseLayout>

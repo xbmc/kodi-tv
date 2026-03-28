@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SearchAddons from "../../../components/SearchAddons";
+import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
+
+const addons = await getCollection("omegaAddons");
+const categories = await getCollection("omegaCategories");
+
+const allAddons = addons
+  .map(e => e.data as any)
+  .sort((a, b) => a.name.localeCompare(b.name));
+const allCategories = categories
+  .map(e => e.data as any)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const linkroot = "/addons/omega/";
+---
+
+<BaseLayout title="Omega Add-on Search" breadcrumbs="Search | Omega | Addons">
+  <AddonPageSubMenu linkroot={linkroot} />
+  <SearchAddons
+    addons={allAddons}
+    categories={allCategories}
+    linkroot={linkroot}
+    client:load
+  />
+</BaseLayout>

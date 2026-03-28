@@ -1,0 +1,29 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import AddonLayout from "../../../components/AddonLayout";
+
+export async function getStaticPaths() {
+  const addons = await getCollection("omegaAddons");
+  return addons.map(entry => ({
+    params: { slug: (entry.data as any).slug },
+    props: { addon: entry.data },
+  }));
+}
+
+const { addon } = Astro.props;
+const addonData = addon as any;
+
+let breadcrumbs = addonData.name + " | Omega | Addons";
+let description = addonData.snippet || "";
+let image = addonData.screenshots?.[0]?.localpath || undefined;
+---
+
+<BaseLayout
+  title="Omega Add-on Details"
+  breadcrumbs={breadcrumbs}
+  description={description}
+  image={image}
+>
+  <AddonLayout repo="Omega" data={{ addon: addonData }} />
+</BaseLayout>

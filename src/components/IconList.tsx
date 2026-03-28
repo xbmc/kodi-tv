@@ -35,6 +35,8 @@ function IconListFeatured(props: {
                 alt={item.name + " icon"}
                 title={item.name + " icon"}
                 src={item.icon}
+                loading="lazy"
+                decoding="async"
               />
             }
             url={linkroot + item.slug}
@@ -89,8 +91,10 @@ function IconList(props: {
                 className="rounded-md"
                 width={iconwidth}
                 height={iconheight}
-                alt=""
+                alt={item.name || ""}
                 src={item.icon}
+                loading="lazy"
+                decoding="async"
               />
               <div style={{ display: item.name === "" ? "none" : "block" }}>
                 <ReactMarkdown>{item.name}</ReactMarkdown>
@@ -103,8 +107,10 @@ function IconList(props: {
                   className="rounded-md"
                   width={iconwidth}
                   height={iconheight}
-                  alt=""
+                  alt={item.name || ""}
                   src={item.icon}
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div style={{ display: item.name === "" ? "none" : "block" }}>
                   <ReactMarkdown>{item.name}</ReactMarkdown>

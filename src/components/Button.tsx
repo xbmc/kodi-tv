@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import React from "react";
 
 interface Props {
@@ -81,11 +80,11 @@ function Button({
     );
   } else if (buttonType === "internal") {
     return (
-      <Link to={href} target={target} rel={rel}>
+      <a href={href} target={target} rel={rel}>
         <button disabled={disabled} type="button" className={buttonStyle}>
           <span>{children}</span>
         </button>
-      </Link>
+      </a>
     );
   } else {
     return (

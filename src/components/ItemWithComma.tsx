@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 export default function ItemWithComma(props: {
   index: any;
@@ -19,7 +18,7 @@ export default function ItemWithComma(props: {
     if (props.linkType === "internal") {
       return (
         <React.Fragment>
-          <Link to={props.url}>{props.description}</Link>
+          <a href={props.url}>{props.description}</a>
           {props.index !== props.length ? ", " : ""}
         </React.Fragment>
       );

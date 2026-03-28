@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DonorWall from "../../components/donate/DonorWall";
+import { getDonors } from "../../lib/donors";
+
+export const prerender = false;
+
+const donors = await getDonors();
+---
+
+<BaseLayout title="Recent Donors" breadcrumbs="Wall | Donate">
+  <DonorWall donors={donors} />
+</BaseLayout>

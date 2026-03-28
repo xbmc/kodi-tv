@@ -1,0 +1,72 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { BlogPostCard, NavCard, EmptyCard } from "../../../components/Blog";
+import Pager from "../../../components/Pager";
+import { buildTagList } from "../../../hooks/TagList";
+import { prepareBlogPost } from "../../../utils/blog";
+
+const PAGE_SIZE = 20;
+
+export async function getStaticPaths() {
+  const PAGE_SIZE = 20;
+  const blogEntries = await getCollection("blog");
+  const totalPages = Math.ceil(blogEntries.length / PAGE_SIZE);
+  // Generate pages 2..totalPages (page 1 is handled by /blog/index.astro)
+  const paths = [];
+  for (let i = 2; i <= totalPages; i++) {
+    paths.push({ params: { page: i.toString() } });
+  }
+  return paths;
+}
+
+const pageNum = Number(Astro.params.page);
+const blogEntries = await getCollection("blog");
+const sorted = blogEntries.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+);
+const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+const start = (pageNum - 1) * PAGE_SIZE;
+const posts = sorted
+  .slice(start, start + PAGE_SIZE)
+  .map(entry => prepareBlogPost(entry));
+
+const firsttwo = posts.slice(0, 2);
+const therest = posts.slice(2);
+
+// Build tag list from all blog posts for the NavCard
+const allPostsForTags = blogEntries.map(e => ({
+  frontmatter: { tags: e.data.tags || null },
+}));
+const tagList = buildTagList(allPostsForTags);
+
+// Build pagination context compatible with existing Pager component
+const pageContext = {
+  previousPagePath: pageNum === 2 ? "/blog" : `/blog/page/${pageNum - 1}`,
+  nextPagePath:
+    pageNum < totalPages ? `/blog/page/${pageNum + 1}` : `/blog/page/${totalPages}`,
+  numberOfPages: totalPages,
+  pageNumber: pageNum - 1,
+  humanPageNumber: pageNum,
+};
+---
+
+<BaseLayout
+  title="News"
+  breadcrumbs="News"
+  description="Get information about new releases, test builds, and other news from Team Kodi."
+>
+  <div
+    class="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none"
+  >
+    {firsttwo.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
+    {firsttwo.length === 1 ? <EmptyCard /> : ""}
+    <NavCard tagList={tagList} />
+    {therest.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
+  </div>
+  <div class="mt-12 max-w-lg mx-auto gap-5 grid lg:hidden">
+    <NavCard tagList={tagList} />
+    {posts.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
+  </div>
+  <Pager pageContext={pageContext} />
+</BaseLayout>
