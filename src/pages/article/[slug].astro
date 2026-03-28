@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogPost from "../../components/BlogPost";
+import { cleanExcerpt, calcReadTime } from "../../utils/blog";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("blog");
@@ -16,8 +17,8 @@ const data = entry.data;
 
 const blogPost = {
   rawMarkdownBody: entry.body || "",
-  excerpt: (entry.body || "").slice(0, 195),
-  timeToRead: Math.ceil((entry.body?.split(/\s+/).length || 0) / 200).toString(),
+  excerpt: cleanExcerpt(entry.body || "", 195),
+  timeToRead: calcReadTime(entry.body),
   frontmatter: {
     author: data.author || "",
     date: new Date(data.date).toLocaleDateString("en-US", {
