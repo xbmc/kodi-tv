@@ -46,6 +46,7 @@ async function main() {
   for (const bundle of bundles) {
     fs.mkdirSync(bundle.outDir, { recursive: true });
 
+    const outPath = path.join(bundle.outDir, bundle.outFile);
     const buildFn = bundle.plugins ? build : buildSync;
     const result = await buildFn({
       stdin: {
@@ -56,9 +57,12 @@ async function main() {
       format: "iife",
       globalName: bundle.globalName,
       minify: true,
-      outfile: path.join(bundle.outDir, bundle.outFile),
+      outfile: outPath,
       platform: "browser",
       plugins: bundle.plugins || [],
+      footer: {
+        js: `window.${bundle.globalName}=${bundle.globalName};`,
+      },
     });
 
     if (result.errors && result.errors.length > 0) {
