@@ -101,14 +101,6 @@ const distIconList = createElement(IconList, {
   iconwidth: "150",
   className: "grid grid-cols-2 lg:pt-6 gap-8",
 });
-const distListItems = distTextList.map(item =>
-  createElement("li", { key: item }, item),
-);
-const distListUl = createElement(
-  "ul",
-  { className: "pl-10 pt-4" },
-  ...distListItems,
-);
 ---
 
 <LandingLayout breadcrumbs="Open Source Home Theater Software">
@@ -225,7 +217,9 @@ const distListUl = createElement(
     iconlist={distIconList}
   >
     Kodi runs on a huge range of devices and operating systems, including:
-    {distListUl}
+    <ul class="pl-10 pt-4">
+      {distTextList.map(item => <li>{item}</li>)}
+    </ul>
   </FullWidthTwoPaneIconsRight>
 
   <FullWidthSponsorList
