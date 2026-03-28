@@ -1,5 +1,5 @@
 import React from "react";
-import { Merch } from "../hooks/StoreList";
+import type { Merch } from "../hooks/StoreList";
 import { IconList } from "./IconList";
 import Button from "./Button";
 

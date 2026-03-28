@@ -3,6 +3,9 @@ import ReactMarkdown from "react-markdown";
 import { DefaultLayout } from "./Layout";
 import { DownloadList } from "./DownloadList";
 import { Card } from "./Card";
+import type { Sponsor } from "../hooks/Sponsors";
+import type { Distribution } from "../hooks/DistributionList";
+import type { Merch } from "../hooks/StoreList";
 import {
   AboutDisclaimer,
   AboutGallery,
@@ -26,10 +29,20 @@ function PreviewNoticeCard(props: {
   );
 }
 
-function DynamicSection(props: { preview: any; section: string | number }) {
-  let storeCta = <StoreCta />;
-  let dlcomponent = <DownloadList />;
-  let spcomponent = <SponsorList />;
+interface DynamicData {
+  sponsors: Sponsor[];
+  distributions: Distribution[];
+  storeItems: Merch[];
+}
+
+function DynamicSection(props: {
+  preview: any;
+  section: string | number;
+  data: DynamicData;
+}) {
+  let storeCta = <StoreCta items={props.data.storeItems} />;
+  let dlcomponent = <DownloadList items={props.data.distributions} />;
+  let spcomponent = <SponsorList sponsors={props.data.sponsors} />;
   if (props.preview) {
     storeCta = <PreviewNoticeCard section="store-cta" />;
     dlcomponent = <PreviewNoticeCard section="downloadlist" />;
@@ -65,7 +78,11 @@ function DynamicSection(props: { preview: any; section: string | number }) {
   return section;
 }
 
-export default function Page(props: { onePage: any; preview: boolean | undefined }) {
+export default function Page(props: {
+  onePage: any;
+  preview?: boolean;
+  data: DynamicData;
+}) {
   let onePage = props.onePage;
   let preview = false;
   if (props.preview != undefined) {
@@ -87,6 +104,7 @@ export default function Page(props: { onePage: any; preview: boolean | undefined
             key={section.trim().toLowerCase()}
             section={section.trim().toLowerCase()}
             preview={preview}
+            data={props.data}
           />
         );
       })}

@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Page from "../components/Page";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("pages");
+  return pages.map(entry => ({
+    params: { slug: entry.id.replace(/^\//, "") },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const data = entry.data;
+
+const sponsorEntries = await getCollection("sponsors");
+const sponsors = sponsorEntries
+  .map(e => e.data as any)
+  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+
+const distEntries = await getCollection("distributions");
+const distributions = distEntries
+  .map(e => e.data as any)
+  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+
+const storeEntries = await getCollection("store");
+const storeItems = storeEntries
+  .map(e => e.data as any)
+  .sort((a, b) => (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name));
+
+const onePage = {
+  frontmatter: {
+    title: data.title || "",
+    breadcrumbs: data.breadcrumbs || "",
+    description: data.description || "",
+  },
+  rawMarkdownBody: entry.body || "",
+};
+---
+
+<BaseLayout
+  title={data.title}
+  breadcrumbs={data.breadcrumbs}
+  description={data.description}
+>
+  <Page
+    onePage={onePage}
+    data={{ sponsors, distributions, storeItems }}
+  />
+</BaseLayout>

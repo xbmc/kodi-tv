@@ -9,7 +9,7 @@ import {
   UserIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
-import { IAddon } from "./../addon";
+import type { IAddon } from "./../addon";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
 import { Carousel } from "./Carousel";
