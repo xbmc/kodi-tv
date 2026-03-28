@@ -31,16 +31,18 @@ export interface DonorQueryOptions {
 
 export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
   const opts = options ?? {
-    region: import.meta.env.AWS_REGION,
+    region: "us-east-1",
     accessKeyId: import.meta.env.AWS_ID,
     secretAccessKey: import.meta.env.AWS_KEY,
     params: {
       TableName: import.meta.env.AWS_DBNAME,
       IndexName: "all",
-      KeyConditionExpression: "dummy = :dummyval",
-      ExpressionAttributeValues: { ":dummyval": "0" },
       Limit: 30,
+      ProjectionExpression:
+        "id, createdAt, amount, currency, provider, publicName",
       ScanIndexForward: false,
+      KeyConditionExpression: "dummy = :dummyval",
+      ExpressionAttributeValues: { ":dummyval": "1" },
     },
   };
 
@@ -65,42 +67,30 @@ export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
   );
 
   const params: QueryCommandInput = { ...opts.params };
-  const donors: Donor[] = [];
 
-  while (true) {
-    let data;
-    try {
-      data = await docClient.query(params);
-    } catch (err) {
-      console.error(
-        "Unable to query donors. Error:",
-        JSON.stringify(err, null, 2),
-      );
-      console.log("Creating single empty donor record.");
-      donors.push(DUMMY_DONOR);
-      return donors;
-    }
-
-    if (!data.Items || data.Items.length === 0) {
-      console.log("No donor records found during this pagination cycle.");
-      console.log("Creating single empty donor record.");
-      donors.push(DUMMY_DONOR);
-      return donors;
-    }
-
-    console.log("Query for donors succeeded.");
-    for (const item of data.Items as Donor[]) {
-      if (item.publicName === "[object HTMLInputElement]") {
-        item.publicName = "";
-      }
-      donors.push(item);
-    }
-
-    if (typeof data.LastEvaluatedKey !== "undefined") {
-      console.log("Querying for more...");
-      params.ExclusiveStartKey = data.LastEvaluatedKey;
-    } else {
-      return donors;
-    }
+  let data;
+  try {
+    data = await docClient.query(params);
+  } catch (err) {
+    console.error(
+      "Unable to query donors. Error:",
+      JSON.stringify(err, null, 2),
+    );
+    console.log("Creating single empty donor record.");
+    return [DUMMY_DONOR];
   }
+
+  if (!data.Items || data.Items.length === 0) {
+    console.log("No donor records found.");
+    console.log("Creating single empty donor record.");
+    return [DUMMY_DONOR];
+  }
+
+  console.log("Query for donors succeeded.");
+  return (data.Items as Donor[]).map((item) => {
+    if (item.publicName === "[object HTMLInputElement]") {
+      item.publicName = "";
+    }
+    return item;
+  });
 }
