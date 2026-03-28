@@ -1,4 +1,7 @@
-import { DynamoDBDocument, type QueryCommandInput } from "@aws-sdk/lib-dynamodb";
+import {
+  DynamoDBDocument,
+  type QueryCommandInput,
+} from "@aws-sdk/lib-dynamodb";
 import { DynamoDB } from "@aws-sdk/client-dynamodb";
 
 export interface Donor {
@@ -19,70 +22,85 @@ const DUMMY_DONOR: Donor = {
   publicName: "Dummy Record",
 };
 
-export async function getDonors(): Promise<Donor[]> {
-  const accessKeyId = import.meta.env.AWS_ID;
-  const secretAccessKey = import.meta.env.AWS_KEY;
-  const tableName = import.meta.env.AWS_DBNAME;
+export interface DonorQueryOptions {
+  region: string;
+  accessKeyId: string;
+  secretAccessKey: string;
+  params: QueryCommandInput;
+}
 
-  if (!tableName || !accessKeyId || !secretAccessKey) {
-    console.log(
-      "Unable to query donor database. Creating single empty donor record.",
-    );
+export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
+  const opts = options ?? {
+    region: import.meta.env.AWS_REGION,
+    accessKeyId: import.meta.env.AWS_ID,
+    secretAccessKey: import.meta.env.AWS_KEY,
+    params: {
+      TableName: import.meta.env.AWS_DBNAME,
+      IndexName: "all",
+      KeyConditionExpression: "dummy = :dummyval",
+      ExpressionAttributeValues: { ":dummyval": "0" },
+      Limit: 30,
+      ScanIndexForward: false,
+    },
+  };
+
+  if (
+    opts.params.TableName == undefined ||
+    opts.accessKeyId == undefined ||
+    opts.secretAccessKey == undefined
+  ) {
+    console.log("Unable to query donor database.");
+    console.log("Creating single empty donor record.");
     return [DUMMY_DONOR];
   }
 
   const docClient = DynamoDBDocument.from(
     new DynamoDB({
-      region: "us-east-1",
-      credentials: { accessKeyId, secretAccessKey },
+      region: opts.region,
+      credentials: {
+        accessKeyId: opts.accessKeyId,
+        secretAccessKey: opts.secretAccessKey,
+      },
     }),
   );
 
-  const params: QueryCommandInput = {
-    TableName: tableName,
-    IndexName: "all",
-    KeyConditionExpression: "dummy = :dummyval",
-    ExpressionAttributeValues: { ":dummyval": "0" },
-    Limit: 30,
-    ScanIndexForward: false,
-  };
+  const params: QueryCommandInput = { ...opts.params };
+  const donors: Donor[] = [];
 
-  try {
-    const donors: Donor[] = [];
-    let hasMore = true;
-
-    while (hasMore) {
-      const data = await docClient.query(params);
-
-      if (!data.Items || data.Items.length === 0) {
-        if (donors.length === 0) {
-          console.log("No donor records found during this pagination cycle.");
-          console.log("Creating single empty donor record.");
-          return [DUMMY_DONOR];
-        }
-        break;
-      }
-
-      console.log("Query for donors succeeded.");
-      for (const item of data.Items as Donor[]) {
-        if (item.publicName === "[object HTMLInputElement]") {
-          item.publicName = "";
-        }
-        donors.push(item);
-      }
-
-      if (data.LastEvaluatedKey) {
-        console.log("Querying for more...");
-        params.ExclusiveStartKey = data.LastEvaluatedKey;
-      } else {
-        hasMore = false;
-      }
+  while (true) {
+    let data;
+    try {
+      data = await docClient.query(params);
+    } catch (err) {
+      console.error(
+        "Unable to query donors. Error:",
+        JSON.stringify(err, null, 2),
+      );
+      console.log("Creating single empty donor record.");
+      donors.push(DUMMY_DONOR);
+      return donors;
     }
 
-    return donors;
-  } catch (err) {
-    console.error("Unable to query donors. Error:", JSON.stringify(err, null, 2));
-    console.log("Creating single empty donor record.");
-    return [DUMMY_DONOR];
+    if (!data.Items || data.Items.length === 0) {
+      console.log("No donor records found during this pagination cycle.");
+      console.log("Creating single empty donor record.");
+      donors.push(DUMMY_DONOR);
+      return donors;
+    }
+
+    console.log("Query for donors succeeded.");
+    for (const item of data.Items as Donor[]) {
+      if (item.publicName === "[object HTMLInputElement]") {
+        item.publicName = "";
+      }
+      donors.push(item);
+    }
+
+    if (typeof data.LastEvaluatedKey !== "undefined") {
+      console.log("Querying for more...");
+      params.ExclusiveStartKey = data.LastEvaluatedKey;
+    } else {
+      return donors;
+    }
   }
 }
