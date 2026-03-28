@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { Sponsor } from "../hooks/Sponsors";
+import type { Sponsor } from "../hooks/Sponsors";
 import { StarIcon } from "@heroicons/react/20/solid";
 
 function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {

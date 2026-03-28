@@ -1,3 +1,7 @@
+[build]
+  command = "astro build"
+  publish = "dist"
+
 [[redirects]]
 from = "/contact-kodi-team"
 to = "/about/contact"

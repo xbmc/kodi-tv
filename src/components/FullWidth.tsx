@@ -2,8 +2,8 @@ import React from "react";
 import { BlogPostCard } from "./Blog";
 import { RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import { Sponsor } from "../hooks/Sponsors";
-import { News } from "../hooks/LatestNews";
+import type { Sponsor } from "../hooks/Sponsors";
+import type { News } from "../hooks/LatestNews";
 
 function FullWidthCallOut(props: {
   backgroundColor?: string;

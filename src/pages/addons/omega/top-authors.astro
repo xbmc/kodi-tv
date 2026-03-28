@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
+import ListTopAuthors from "../../../components/ListTopAuthors";
+
+const authors = await getCollection("omegaAuthors");
+const topAuthors = authors
+  .map(e => e.data as any)
+  .sort((a, b) => (b.totaladdons || 0) - (a.totaladdons || 0) || a.name.localeCompare(b.name))
+  .slice(0, 20);
+
+const linkroot = "/addons/omega/";
+---
+
+<BaseLayout title="Top Omega Add-On Authors" breadcrumbs="Top Authors | Omega | Addons">
+  <AddonPageSubMenu linkroot={linkroot} />
+  <ListTopAuthors linkroot={linkroot} authors={topAuthors} />
+</BaseLayout>

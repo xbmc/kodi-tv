@@ -20,8 +20,12 @@ export default function ButtonStripe(props: {
       ],
       mode: "subscription",
       clientReferenceId: (props.donorname || "") + sep + (props.forumname || ""),
-      successUrl: process.env.GATSBY_SITEURL + "/donate/success-stripe",
-      cancelUrl: process.env.GATSBY_SITEURL + "/donate",
+      successUrl:
+        (import.meta.env.PUBLIC_SITEURL || import.meta.env.GATSBY_SITEURL) +
+        "/donate/success-stripe",
+      cancelUrl:
+        (import.meta.env.PUBLIC_SITEURL || import.meta.env.GATSBY_SITEURL) +
+        "/donate",
     });
     // If `redirectToCheckout` fails due to a browser or network
     // error, display the localized error message to your customer

@@ -1,0 +1,69 @@
+---
+import { getCollection } from "astro:content";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import siteConfig from "../config/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  breadcrumbs?: string;
+}
+
+const { title, description, image, breadcrumbs } = Astro.props;
+
+const sponsorEntries = await getCollection("sponsors");
+const sponsors = sponsorEntries
+  .map(e => e.data as any)
+  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+
+const siteTitle = siteConfig.siteMetadata.title;
+const siteDescription = siteConfig.siteMetadata.description;
+const siteUrl = siteConfig.siteMetadata.siteUrl;
+
+const pageTitle = breadcrumbs
+  ? `${breadcrumbs} | ${siteTitle}`
+  : siteTitle;
+const shortTitle = breadcrumbs || siteTitle;
+const metaDescription = description || siteDescription;
+const ogImage = image
+  ? `${siteUrl}${image}`
+  : `${siteUrl}/images/kodi_og_default.webp`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <meta property="og:title" content={shortTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={shortTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <script
+      data-goatcounter="https://koditv.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+  </head>
+  <body>
+    <div class="bg-gray-50 h-full">
+      <Header compact={true} frontmatter={{ title: title || "" }} client:load />
+      <main>
+        <div class="py-0">
+          <slot />
+        </div>
+      </main>
+      <Footer sponsors={sponsors} />
+    </div>
+  </body>
+</html>
