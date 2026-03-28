@@ -11,7 +11,8 @@ const storeItems = await optimizeIconItems(
     .map(e => e.data as any)
     .sort(
       (a, b) =>
-        (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
+        (a.group_number ?? 0) - (b.group_number ?? 0) ||
+        a.name.localeCompare(b.name),
     ),
 );
 ---
