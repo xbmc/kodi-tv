@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import type { Sponsor } from "../hooks/Sponsors";
+import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorTypeList } from "./SponsorList";
 import {
   CodeBracketIcon,
@@ -14,8 +14,11 @@ import {
   ShoppingCartIcon,
   MegaphoneIcon,
 } from "@heroicons/react/24/outline";
+import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
-function SponsorList({ sponsors }: { sponsors: Sponsor[] }) {
+function SponsorList() {
+  const sponsors: Sponsor[] = Sponsors();
   const financialSponsors = sponsors.filter(a => a.sponsor_type === "Financial");
   const infrastructureSponsors = sponsors.filter(
     a => a.sponsor_type === "Infrastructure",
@@ -79,15 +82,19 @@ function AboutOfficialRemotes() {
       <div className="max-w-xl grid grid-cols-1 md:grid-cols-2">
         <div className="flex flex-col items-center pb-6 md:pb-0">
           <span>Kore™ (Android)</span>
-          <img
+          <StaticImage
             className="w-200 h-200"
             alt="Kore QR Code"
-            src="/images/kore-qr.webp"
+            src="../../static/images/kore-qr.webp"
           />
         </div>
         <div className="flex flex-col items-center">
           <span>Official Kodi Remote (iOS)</span>
-          <img className="w-200 h-200" alt="iOS QR Code" src="/images/ios-qr.webp" />
+          <StaticImage
+            className="w-200 h-200"
+            alt="iOS QR Code"
+            src="../../static/images/ios-qr.webp"
+          />
         </div>
       </div>
     </>
@@ -312,9 +319,9 @@ function AboutGallery() {
           The real power of Kodi comes from the vast selection of community created
           Add-ons. There are Add-Ons for popular web services, applications and
           scripts.{" "}
-          <a className="underline" href="/addons">
+          <Link className="underline" to="/addons">
             See which ones are currently available
-          </a>
+          </Link>
           .
         </RoundedCardWithImage>
 
@@ -326,9 +333,9 @@ function AboutGallery() {
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
           loads of possibilities for remote controls,{" "}
-          <a className="underline" href="/addons/omega/category/web-interfaces">
+          <Link className="underline" to="/addons/omega/category/web-interfaces">
             web browsers
-          </a>
+          </Link>
           , and 3rd party tools to take Kodi to the next level.
         </RoundedCardWithImage>
 
@@ -343,9 +350,9 @@ function AboutGallery() {
             hundreds of remote controls
           </a>
           , CEC-compatible TVs, or one of the{" "}
-          <a className="underline" href="/about/software">
+          <Link className="underline" to="/about/software">
             new Smartphone and Tablet Apps
-          </a>
+          </Link>
           , Kodi allows you to control your media your way.
         </RoundedCardWithImage>
       </div>

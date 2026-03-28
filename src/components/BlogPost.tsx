@@ -1,4 +1,4 @@
-import slugify from "slugify";
+const slugify = require("slugify");
 
 import React from "react";
 import ReactMarkdown from "react-markdown";

@@ -1,14 +1,15 @@
 {
-  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "jsxImportSource": "react",
-    "baseUrl": ".",
-    "paths": {
-      "src/*": ["src/*"]
-    },
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
     "noUnusedLocals": false,
     "allowJs": true
   },
-  "exclude": ["node_modules", "dist", ".astro"]
+  "exclude": ["node_modules", "public", ".cache"]
 }

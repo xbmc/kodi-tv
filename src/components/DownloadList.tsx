@@ -1,17 +1,17 @@
 import React from "react";
 import { IconList } from "./IconList";
-import type { Distribution } from "../hooks/DistributionList";
+import { DistributionList } from "../hooks/DistributionList";
 
-import slugify from "slugify";
+const slugify = require("slugify");
 
-function DownloadList(props: { items: Distribution[] }) {
-  const items = props.items.map(item => ({
-    ...item,
-    slug: slugify(item.name, {
+function DownloadList(props: { items?: any[] }) {
+  const items = DistributionList();
+  items.forEach(function (item, index) {
+    this[index]["slug"] = slugify(item.name, {
       lower: true,
-      remove: /[^\w\s$*_+~.()'"\!\-@]+/g,
-    }),
-  }));
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+    });
+  }, items);
 
   return (
     <IconList

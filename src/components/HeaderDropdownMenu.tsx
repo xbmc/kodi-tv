@@ -1,7 +1,8 @@
 import React, { createElement } from "react";
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
-import type { MenuEntry } from "./types";
+import { MenuEntry } from "./Header";
+import { Link } from "gatsby";
 
 function HeaderDropdownMenu(props: { menu: MenuEntry }) {
   return (
@@ -24,9 +25,9 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
               <div className="relative grid gap-8 bg-gray-50 p-8">
                 {props.menu.dropdown?.map((item, index) =>
                   item.url?.type === "internal" ? (
-                    <a
+                    <Link
                       key={item.url?.url}
-                      href={item.url?.url!}
+                      to={item.url?.url!}
                       className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-100"
                     >
                       {item.icon && (
@@ -42,7 +43,7 @@ function HeaderDropdownMenu(props: { menu: MenuEntry }) {
                           {item.description}
                         </p>
                       </div>
-                    </a>
+                    </Link>
                   ) : (
                     <a
                       key={item.url?.url}

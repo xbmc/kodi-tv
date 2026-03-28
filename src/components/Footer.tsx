@@ -1,8 +1,10 @@
+import { Link } from "gatsby";
 import React from "react";
-import type { Sponsor } from "../hooks/Sponsors";
+import { Sponsor, Sponsors } from "../hooks/Sponsors";
 import { SponsorFooterList } from "./SponsorList";
 
-function Footer({ sponsors }: { sponsors: Sponsor[] }) {
+function Footer() {
+  const sponsors: Sponsor[] = Sponsors();
   const orderedSponsors: Sponsor[] = sponsors
     .filter(a => a.sponsor_type === "Financial")
     .concat(sponsors.filter(a => a.sponsor_type === "Infrastructure"));
@@ -35,52 +37,52 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                   </h3>
                   <ul className="mt-4 space-y-4">
                     <li>
-                      <a
-                        href="/about/foundation"
+                      <Link
+                        to="/about/foundation"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Foundation
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/team"
+                      <Link
+                        to="/about/team"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Kodi Team
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/sponsors"
+                      <Link
+                        to="/about/sponsors"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Sponsorship
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/terms-of-service"
+                      <Link
+                        to="/about/terms-of-service"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Terms of Service
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/privacy-policy"
+                      <Link
+                        to="/about/privacy-policy"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         Privacy Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/about/dmca"
+                      <Link
+                        to="/about/dmca"
                         className="text-base text-gray-600 hover:text-gray-900"
                       >
                         DMCA Policy
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a

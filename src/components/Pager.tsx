@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "gatsby";
 
-import slugify from "slugify";
+const slugify = require("slugify");
 
 const Pager = ({ pageContext }) => {
   const {
@@ -48,8 +49,8 @@ const Pager = ({ pageContext }) => {
           className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px"
           aria-label="Pagination"
         >
-          <a
-            href={previousPagePath}
+          <Link
+            to={previousPagePath}
             className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Previous</span>
@@ -66,22 +67,22 @@ const Pager = ({ pageContext }) => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
           {paginationinfo.map((info: any, index: any) => {
             return (
-              <a
+              <Link
                 key={index}
-                href={info.url}
+                to={info.url}
                 className={`relative inline-flex items-center px-4 py-2 border border-gray-300  text-sm font-medium hover:bg-gray-50 ${
                   info.onpage ? "bg-kodi text-gray-50" : "text-gray-700 bg-gray-50"
                 }`}
               >
                 {info.pagenum}
-              </a>
+              </Link>
             );
           })}
-          <a
-            href={nextPagePath}
+          <Link
+            to={nextPagePath}
             className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Next</span>
@@ -98,13 +99,13 @@ const Pager = ({ pageContext }) => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </nav>
       </div>
       <div className="grid md:hidden grid-cols-1 pb-3 pt-9 place-items-center">
         <nav className="relative z-0 inline-flex space-x-32" aria-label="Pagination">
-          <a
-            href={previousPagePath}
+          <Link
+            to={previousPagePath}
             className="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Previous</span>
@@ -121,9 +122,9 @@ const Pager = ({ pageContext }) => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
-          <a
-            href={nextPagePath}
+          </Link>
+          <Link
+            to={nextPagePath}
             className="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-gray-50 text-sm font-medium text-gray-500 hover:bg-gray-50"
           >
             <span className="sr-only">Next</span>
@@ -140,7 +141,7 @@ const Pager = ({ pageContext }) => {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </Link>
         </nav>
       </div>
     </>

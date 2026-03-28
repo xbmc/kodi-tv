@@ -34,7 +34,7 @@ Next part is the great feature of Kodi to use it as your Live TV and recording f
 
 **Windows and UWP**
 
-![](/images/blog/xbox.webp)For Windows specific several big things happened. First of all we got added as 32-bit Bridge application to Windows store which makes it easier for new users to install Kodi and receive updates. A simultaneous action was converting Kodi to a full 64-bit application which took quite some effort. A more detailed story can be read here: [Windows 64-bit is here](https://kodi.tv/article/kodi-v18-windows-64-bit-here)
+![](images/blog/xbox.webp)For Windows specific several big things happened. First of all we got added as 32-bit Bridge application to Windows store which makes it easier for new users to install Kodi and receive updates. A simultaneous action was converting Kodi to a full 64-bit application which took quite some effort. A more detailed story can be read here: [Windows 64-bit is here](https://kodi.tv/article/kodi-v18-windows-64-bit-here)
 
 Now that was out of the way a long lived dream of quite a few became an option again. Getting Kodi running back on a XBOX like where it all started more than 15 years ago. Since 27 December 2017 we released Kodi once again for the XBOX (One) and is available from the Store. A more detailed story can be read here: [Kodi for XBOX One](https://kodi.tv/article/kodi-xbox-one)
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
@@ -15,7 +15,24 @@ import {
   ChatBubbleLeftEllipsisIcon,
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
-import type { MenuEntry } from "./types";
+import { Link } from "gatsby";
+
+export interface MenuEntry {
+  id: string;
+  title: string;
+  url: { url: string; type: "external" | "internal" } | undefined;
+  buttonType: string;
+  footer: string | null;
+  dropdown: DropDownItem[] | null;
+}
+
+export interface DropDownItem {
+  id: string;
+  title: string;
+  url: { url: string; type: "external" | "internal" } | undefined;
+  icon: FunctionComponent | null;
+  description: string | null;
+}
 
 let regularButton =
   "text-gray-100 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
@@ -208,27 +225,27 @@ function Header(props: any) {
               <div className="flex items-center justify-between h-16 px-4">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="/">
+                    <Link to="/">
                       <img
                         className="h-8 w-24"
                         src="/images/kodi-logo-with-text.svg"
                         title="Home"
                         alt="Kodi Logo"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="hidden lg:block">
                     <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map(item =>
                         item.dropdown == null && item.url ? (
                           item.url.type === "internal" ? (
-                            <a
+                            <Link
                               key={item.id}
-                              href={item.url.url}
+                              to={item.url.url}
                               className={item.buttonType}
                             >
                               {item.title}
-                            </a>
+                            </Link>
                           ) : (
                             <a
                               key={item.id}
@@ -269,13 +286,13 @@ function Header(props: any) {
                   {mainMenu.map((item, index) =>
                     item.dropdown == null && item.url ? (
                       item.url.type === "internal" ? (
-                        <a
+                        <Link
                           key={item.url.url}
-                          href={item.url.url}
+                          to={item.url.url}
                           className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
                         >
                           {item.title}
-                        </a>
+                        </Link>
                       ) : (
                         <a
                           key={item.url.url}

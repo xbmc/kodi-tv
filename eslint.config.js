@@ -5,7 +5,7 @@ const prettierConfig = require("eslint-config-prettier");
 
 module.exports = tseslint.config(
   {
-    ignores: [".astro/**", "dist/**", "node_modules/**"],
+    ignores: [".cache/**", "public/**", "node_modules/**", "plugins/**"],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

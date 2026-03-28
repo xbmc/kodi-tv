@@ -1,3 +1,5 @@
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import {
   CodeBracketIcon,
   ArrowDownTrayIcon,
@@ -10,22 +12,31 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/outline";
 
-import slugify from "slugify";
+const slugify = require("slugify");
 
-export interface TagInfo {
-  name: string;
-  displayname: string;
-  slug: string;
-  icon: any;
-  count: number;
-  insearch: boolean;
-}
+export const TagList = () => {
+  const { allPosts, allTags } = useStaticQuery(graphql`
+    query TagListQuery {
+      allPosts: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "blog" } } }
+      ) {
+        nodes {
+          frontmatter {
+            tags
+          }
+        }
+      }
+      allTags: allMarkdownRemark(
+        filter: { fields: { collection: { eq: "blog" } } }
+      ) {
+        distinct(field: { frontmatter: { tags: SELECT } })
+      }
+    }
+  `);
 
-export function buildTagList(
-  posts: { frontmatter: { tags: string[] | null } }[],
-): TagInfo[] {
-  let tags = [...new Set(posts.flatMap(p => p.frontmatter.tags ?? []))];
-  let tagList: TagInfo[] = [
+  let tags = allTags.distinct;
+  let posts = allPosts.nodes;
+  let tagList = [
     {
       name: "All News",
       displayname: "All News",
@@ -36,8 +47,8 @@ export function buildTagList(
     },
   ];
   let taggedPosts = posts.filter(a => a.frontmatter.tags !== null);
-  let oneTag: TagInfo;
-  let lateTagList: TagInfo[] = [];
+  let oneTag: any;
+  let lateTagList = [];
   for (let i = 0; i < tags.length; i++) {
     oneTag = {
       name: tags[i],
@@ -83,4 +94,4 @@ export function buildTagList(
     }
   }
   return tagList.concat(lateTagList);
-}
+};
