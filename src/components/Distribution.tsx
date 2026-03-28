@@ -17,7 +17,14 @@ function Distribution(props) {
     <DefaultLayout frontmatter={frontmatter} preview={preview}>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-12">
         <div className="col-span-1 md:col-span-2">
-          <img width="150" height="150" alt="" src={dist.icon} />
+          <img
+            width="150"
+            height="150"
+            alt={dist.name + " logo"}
+            src={dist.icon}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="col-span-1 md:col-span-10">
           <span className="prose prose-blue">

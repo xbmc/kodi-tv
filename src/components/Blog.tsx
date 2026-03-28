@@ -29,6 +29,10 @@ function BlogPostCard(props: { post: News }) {
               title={post.frontmatter.featured_image.title}
               src={post.frontmatter.featured_image.src}
               alt={post.frontmatter.featured_image.alt}
+              loading="lazy"
+              decoding="async"
+              width={480}
+              height={192}
             />
           )}
         </a>

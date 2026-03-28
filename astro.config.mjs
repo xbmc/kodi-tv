@@ -15,6 +15,9 @@ export default defineConfig({
       filter: page => !page.includes("/admin"),
     }),
   ],
+  image: {
+    domains: [],
+  },
   vite: {
     envPrefix: ["PUBLIC_", "GATSBY_"],
   },

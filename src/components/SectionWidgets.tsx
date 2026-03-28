@@ -81,13 +81,25 @@ function AboutOfficialRemotes() {
           <span>Kore™ (Android)</span>
           <img
             className="w-200 h-200"
-            alt="Kore QR Code"
+            alt="QR code to download Kore remote app for Android"
             src="/images/kore-qr.webp"
+            loading="lazy"
+            decoding="async"
+            width={200}
+            height={200}
           />
         </div>
         <div className="flex flex-col items-center">
           <span>Official Kodi Remote (iOS)</span>
-          <img className="w-200 h-200" alt="iOS QR Code" src="/images/ios-qr.webp" />
+          <img
+            className="w-200 h-200"
+            alt="QR code to download Official Kodi Remote app for iOS"
+            src="/images/ios-qr.webp"
+            loading="lazy"
+            decoding="async"
+            width={200}
+            height={200}
+          />
         </div>
       </div>
     </>
@@ -229,7 +241,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Movies"
           imgsrc="/images/about--movies.webp"
-          imgalt=""
+          imgalt="Kodi Movies library interface"
           imgtitle=""
         >
           Kodi is made for Movies! Supporting all the main video formats including
@@ -240,7 +252,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="TV Shows"
           imgsrc="/images/about--tvshows.webp"
-          imgalt=""
+          imgalt="Kodi TV Shows library interface"
           imgtitle=""
         >
           Kodi's TV Shows library supports episode and season views with posters or
@@ -251,7 +263,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Music"
           imgsrc="/images/about--music.webp"
-          imgalt=""
+          imgalt="Kodi Music library interface"
           imgtitle=""
         >
           Kodi can play all your music including mp3, flac, wav and wma formats. It
@@ -262,7 +274,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Photos"
           imgsrc="/images/about--photos.webp"
-          imgalt=""
+          imgalt="Kodi Photos library interface"
           imgtitle=""
         >
           Kodi is the photographers friend. Import pictures into a library and browse
@@ -273,7 +285,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="PVR"
           imgsrc="/images/about--pvr.webp"
-          imgalt=""
+          imgalt="Kodi PVR live TV interface"
           imgtitle=""
         >
           Kodi allows you to watch and record live TV all through an easy to use
@@ -284,7 +296,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Games"
           imgsrc="/images/about--games.webp"
-          imgalt=""
+          imgalt="Kodi Games emulator interface"
           imgtitle=""
         >
           Kodi isn't just for passive entertainment media. You can also play games on
@@ -295,7 +307,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Skins"
           imgsrc="/images/about--skins.webp"
-          imgalt=""
+          imgalt="Kodi Skins customization interface"
           imgtitle=""
         >
           Kodi allows you to completely change the whole appearance of the interface
@@ -306,7 +318,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Add-ons"
           imgsrc="/images/about--addons.webp"
-          imgalt=""
+          imgalt="Kodi Add-ons browser interface"
           imgtitle=""
         >
           The real power of Kodi comes from the vast selection of community created
@@ -321,7 +333,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Web Interface"
           imgsrc="/images/about--webinterface.webp"
-          imgalt=""
+          imgalt="Kodi Web Interface for remote control"
           imgtitle=""
         >
           Interact with Kodi using its JSON-RPC based remote interface. This brings
@@ -335,7 +347,7 @@ function AboutGallery() {
         <RoundedCardWithImage
           title="Remote Controls"
           imgsrc="/images/about--remotes.webp"
-          imgalt=""
+          imgalt="Kodi Remote Controls support"
           imgtitle=""
         >
           With support for{" "}

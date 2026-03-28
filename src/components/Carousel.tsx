@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 interface Props {
-  slides: string[];
+  slides: { src: string; alt: string }[];
 }
 interface FullWidthProps {
   slides: {
@@ -36,8 +36,8 @@ function Carousel({ slides }: Props) {
       }}
     >
       {slides.map(element => (
-        <SwiperSlide key={element}>
-          <img src={element} />
+        <SwiperSlide key={element.src}>
+          <img src={element.src} loading="lazy" decoding="async" alt={element.alt} />
         </SwiperSlide>
       ))}
     </Swiper>
@@ -61,13 +61,18 @@ function FullWidthHeroCarousel({ slides }: FullWidthProps) {
               clickable: true,
             }}
           >
-            {slides.map(element => (
+            {slides.map((element, index) => (
               <SwiperSlide key={element.url}>
                 <div className="absolute inset-0">
                   <img
                     className="h-full w-full object-cover"
                     src={element.image}
-                    alt=""
+                    alt={element.title + " - " + element.subtitle}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    decoding={index === 0 ? "sync" : "async"}
+                    fetchPriority={index === 0 ? "high" : undefined}
+                    width={1920}
+                    height={600}
                   />
                   <div
                     className="absolute inset-0 bg-kodibg"

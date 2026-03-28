@@ -30,7 +30,7 @@ export default function AddonLayout({
     breadcrumbs: addon.name + " | " + repo + " | Addons",
     description: addon.snippet,
   };
-  let slides: string[] = [];
+  let slides: { src: string; alt: string }[] = [];
   let linkroot = "/addons/" + repo.toLowerCase() + "/";
   let authoricon = <UserIcon className="h-5 w-5 text-kodi" />;
   if (addon.authors.length > 1) {
@@ -38,8 +38,11 @@ export default function AddonLayout({
   }
   if (addon.screenshots != null) {
     frontmatter.image = addon.screenshots[0].localpath;
-    addon.screenshots.forEach((screenshot: { localpath: string }) => {
-      slides.push(screenshot.localpath);
+    addon.screenshots.forEach((screenshot: { localpath: string }, index: number) => {
+      slides.push({
+        src: screenshot.localpath,
+        alt: addon.name + " screenshot " + (index + 1),
+      });
     });
   }
   let details = [];
@@ -95,8 +98,10 @@ export default function AddonLayout({
             className="rounded-md"
             width="150"
             height="150"
-            alt=""
+            alt={addon.name + " icon"}
             src={addon.icon}
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <div className="col-span-4 flex flex-col">

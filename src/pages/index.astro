@@ -1,6 +1,7 @@
 ---
 import { createElement } from "react";
 import { getCollection } from "astro:content";
+import { getImage } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { SparklesIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import { IconList } from "../components/IconList";
@@ -14,6 +15,46 @@ import {
   FullWidthStats,
   FullWidthRoundedCardList,
 } from "../components/FullWidth";
+
+// Import optimizable images from src/images/
+import heroDefault from "../images/heroes/default-hero.webp";
+import heroAddons from "../images/heroes/addons.webp";
+import heroCommunity from "../images/heroes/community.webp";
+import heroWallpaper from "../images/kodi-wallpaper-32a-samfisher.webp";
+import aboutMusic from "../images/about--music.webp";
+import aboutMovies from "../images/about--movies.webp";
+import aboutTvshows from "../images/about--tvshows.webp";
+import aboutPhotos from "../images/about--photos.webp";
+import aboutPvr from "../images/about--pvr.webp";
+import aboutGames from "../images/about--games.webp";
+import skinEstuary from "../images/skin-estuary-example.webp";
+
+// Optimize images at build time
+const [
+  optHeroDefault,
+  optHeroAddons,
+  optHeroCommunity,
+  optHeroWallpaper,
+  optAboutMusic,
+  optAboutMovies,
+  optAboutTvshows,
+  optAboutPhotos,
+  optAboutPvr,
+  optAboutGames,
+  optSkinEstuary,
+] = await Promise.all([
+  getImage({ src: heroDefault, width: 1920, format: "webp" }),
+  getImage({ src: heroAddons, width: 1920, format: "webp" }),
+  getImage({ src: heroCommunity, width: 1920, format: "webp" }),
+  getImage({ src: heroWallpaper, width: 1920, format: "webp" }),
+  getImage({ src: aboutMusic, width: 480, format: "webp" }),
+  getImage({ src: aboutMovies, width: 480, format: "webp" }),
+  getImage({ src: aboutTvshows, width: 480, format: "webp" }),
+  getImage({ src: aboutPhotos, width: 480, format: "webp" }),
+  getImage({ src: aboutPvr, width: 480, format: "webp" }),
+  getImage({ src: aboutGames, width: 480, format: "webp" }),
+  getImage({ src: skinEstuary, width: 800, format: "webp" }),
+]);
 
 const slugify = (await import("slugify")).default;
 
@@ -108,7 +149,7 @@ const distIconList = createElement(IconList, {
     client:load
     slides={[
       {
-        image: "/images/heroes/default-hero.webp",
+        image: optHeroDefault.src,
         title: "Kodi is the ultimate",
         subtitle: "entertainment center",
         description:
@@ -117,7 +158,7 @@ const distIconList = createElement(IconList, {
         buttontext: "Tell Me More",
       },
       {
-        image: "/images/heroes/addons.webp",
+        image: optHeroAddons.src,
         title: "There is an",
         subtitle: "Add-on for that",
         description:
@@ -126,7 +167,7 @@ const distIconList = createElement(IconList, {
         buttontext: "Browse Add-ons",
       },
       {
-        image: "/images/heroes/community.webp",
+        image: optHeroCommunity.src,
         title: "Kodi has a community",
         subtitle: "like no other",
         description:
@@ -135,7 +176,7 @@ const distIconList = createElement(IconList, {
         buttontext: "Get Help",
       },
       {
-        image: "/images/kodi-wallpaper-32a-samfisher.webp",
+        image: optHeroWallpaper.src,
         title: "Are you a developer?",
         subtitle: "Join the team!",
         description:
@@ -153,37 +194,37 @@ const distIconList = createElement(IconList, {
       subtitle="Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and looks great while doing it! Here are just a few things Kodi excels at:"
       items={[
         {
-          imgsrc: "/images/about--music.webp",
+          imgsrc: optAboutMusic.src,
           title: "Music",
           description:
             "Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.",
         },
         {
-          imgsrc: "/images/about--movies.webp",
+          imgsrc: optAboutMovies.src,
           title: "Movies",
           description:
             "So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast, genres and more.",
         },
         {
-          imgsrc: "/images/about--tvshows.webp",
+          imgsrc: optAboutTvshows.src,
           title: "TV Shows",
           description:
             "Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your TV organised like nothing else.",
         },
         {
-          imgsrc: "/images/about--photos.webp",
+          imgsrc: optAboutPhotos.src,
           title: "Photos",
           description:
             "Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.",
         },
         {
-          imgsrc: "/images/about--pvr.webp",
+          imgsrc: optAboutPvr.src,
           title: "PVR",
           description:
             "Kodi allows you to watch and record live TV all from an easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.",
         },
         {
-          imgsrc: "/images/about--games.webp",
+          imgsrc: optAboutGames.src,
           title: "Games",
           description:
             "Kodi isn't just for passive entertainment media. You can also play games on Kodi. Pick from a large number of emulators, or even play a stand-alone game. There's even extensive support for game controllers.",
@@ -198,7 +239,7 @@ const distIconList = createElement(IconList, {
     url="/about"
     buttontext="Show me all the good bits"
     image={{
-      src: "/images/skin-estuary-example.webp",
+      src: optSkinEstuary.src,
       title: "Estuary Skin",
       alt: "Estuary Skin showing music artists",
     }}

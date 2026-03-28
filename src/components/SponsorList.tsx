@@ -31,6 +31,8 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
                                     alt={sponsor.image.alt}
                                     title={sponsor.image.title}
                                     src={sponsor.image.src}
+                                    loading="lazy"
+                                    decoding="async"
                                   />
                                 </a>
                               </span>

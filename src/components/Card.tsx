@@ -69,6 +69,10 @@ function RoundedCardWithImage({ imgtitle, imgsrc, imgalt, title, children }: Pro
             title={imgtitle}
             src={imgsrc}
             alt={imgalt}
+            loading="lazy"
+            decoding="async"
+            width={480}
+            height={192}
           />
         </div>
         <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
