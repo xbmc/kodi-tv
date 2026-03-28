@@ -24,7 +24,9 @@ export interface TagInfo {
 export function buildTagList(
   posts: { frontmatter: { tags: string[] | null } }[],
 ): TagInfo[] {
-  let tags = [...new Set(posts.flatMap(p => p.frontmatter.tags ?? []))];
+  let tags = [...new Set(posts.flatMap(p => p.frontmatter.tags ?? []))].sort(
+    (a, b) => a.localeCompare(b),
+  );
   let tagList: TagInfo[] = [
     {
       name: "All News",
