@@ -8,7 +8,6 @@ const slugify = (await import("slugify")).default;
 
 export async function getStaticPaths() {
   const distributions = await getCollection("distributions");
-  const slugify = (await import("slugify")).default;
   return distributions.map(entry => ({
     params: {
       name: slugify((entry.data as any).name, {

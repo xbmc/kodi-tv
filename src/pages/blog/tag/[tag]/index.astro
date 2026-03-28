@@ -11,7 +11,6 @@ const slugify = (await import("slugify")).default;
 const PAGE_SIZE = 20;
 
 export async function getStaticPaths() {
-  const slugify = (await import("slugify")).default;
   const blogEntries = await getCollection("blog");
 
   // Get all unique tags
