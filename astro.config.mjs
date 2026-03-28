@@ -7,6 +7,7 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   site: process.env.PUBLIC_SITEURL || "https://kodi.tv",
   publicDir: "static",
+  trailingSlash: "always",
   adapter: netlify(),
   integrations: [
     react(),
