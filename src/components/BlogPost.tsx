@@ -1,4 +1,4 @@
-const slugify = require("slugify");
+import slugify from "slugify";
 
 import React from "react";
 import ReactMarkdown from "react-markdown";
@@ -52,6 +52,8 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
                   src={blogPost.frontmatter.featured_image.src}
                   title={blogPost.frontmatter.featured_image.title}
                   alt={blogPost.frontmatter.featured_image.alt}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

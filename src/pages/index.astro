@@ -1,0 +1,284 @@
+---
+import { createElement } from "react";
+import { getCollection } from "astro:content";
+import { getImage } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SparklesIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import { IconList } from "../components/IconList";
+import { FullWidthHeroCarousel } from "../components/Carousel";
+import {
+  FullWidthCallOut,
+  FullWidthTwoPaneIconsRight,
+  FullWidthTwoPaneImageLeft,
+  FullWidthSponsorList,
+  FullWidthNews,
+  FullWidthStats,
+  FullWidthRoundedCardList,
+} from "../components/FullWidth";
+import { prepareBlogPost } from "../utils/blog";
+import { optimizeIconItems, optimizeSponsorItems } from "../utils/images";
+
+// Import optimizable images from src/images/
+import heroDefault from "../images/heroes/default-hero.webp";
+import heroAddons from "../images/heroes/addons.webp";
+import heroCommunity from "../images/heroes/community.webp";
+import heroWallpaper from "../images/kodi-wallpaper-32a-samfisher.webp";
+import aboutMusic from "../images/about--music.webp";
+import aboutMovies from "../images/about--movies.webp";
+import aboutTvshows from "../images/about--tvshows.webp";
+import aboutPhotos from "../images/about--photos.webp";
+import aboutPvr from "../images/about--pvr.webp";
+import aboutGames from "../images/about--games.webp";
+import skinEstuary from "../images/skin-estuary-example.webp";
+
+// Optimize images at build time
+const [
+  optHeroDefault,
+  optHeroAddons,
+  optHeroCommunity,
+  optHeroWallpaper,
+  optAboutMusic,
+  optAboutMovies,
+  optAboutTvshows,
+  optAboutPhotos,
+  optAboutPvr,
+  optAboutGames,
+  optSkinEstuary,
+] = await Promise.all([
+  getImage({ src: heroDefault, width: 1920, format: "webp" }),
+  getImage({ src: heroAddons, width: 1920, format: "webp" }),
+  getImage({ src: heroCommunity, width: 1920, format: "webp" }),
+  getImage({ src: heroWallpaper, width: 1920, format: "webp" }),
+  getImage({ src: aboutMusic, width: 480, format: "webp" }),
+  getImage({ src: aboutMovies, width: 480, format: "webp" }),
+  getImage({ src: aboutTvshows, width: 480, format: "webp" }),
+  getImage({ src: aboutPhotos, width: 480, format: "webp" }),
+  getImage({ src: aboutPvr, width: 480, format: "webp" }),
+  getImage({ src: aboutGames, width: 480, format: "webp" }),
+  getImage({ src: skinEstuary, width: 800, format: "webp" }),
+]);
+
+const slugify = (await import("slugify")).default;
+
+// Fetch data
+const blogEntries = await getCollection("blog");
+const sorted = blogEntries
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+
+const news = sorted.map(entry => prepareBlogPost(entry));
+
+const distEntries = await getCollection("distributions");
+const distributions = await optimizeIconItems(
+  distEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
+
+// Build unique distribution icons
+let uniqueDistIcons: { icon: string }[] = [];
+let distTextList: string[] = [];
+let didApple = false;
+let appleList = "";
+for (const dist of distributions) {
+  if (dist.name === "iOS" || dist.name === "tvOS" || dist.name === "macOS") {
+    if (appleList === "") {
+      appleList = dist.name;
+    } else {
+      appleList = appleList + ", " + dist.name;
+    }
+    if (!didApple) {
+      uniqueDistIcons.push({ icon: dist.icon });
+      didApple = true;
+    }
+  } else {
+    uniqueDistIcons.push({ icon: dist.icon });
+    distTextList.push(dist.name);
+  }
+}
+distTextList.push(appleList);
+
+const sponsorEntries = await getCollection("sponsors");
+const sponsors = await optimizeSponsorItems(
+  sponsorEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
+const orderedSponsors = sponsors
+  .filter(a => a.sponsor_type === "Financial")
+  .concat(sponsors.filter(a => a.sponsor_type === "Infrastructure"));
+
+const statsEntries = await getCollection("stats");
+const statsData = statsEntries[0]?.data as any;
+const stats = [
+  { key: "gitcommits", title: "GitHub Commits", value: statsData?.gitcommits || 0 },
+  {
+    key: "forumthreads",
+    title: "Forum Conversations",
+    value: statsData?.forumthreads || 0,
+  },
+  { key: "addons", title: "Official Add-ons", value: statsData?.addons || 0 },
+];
+
+// Create React elements in frontmatter for passing as props
+const sparklesIcon = createElement(SparklesIcon, {
+  className: "h-6 w-6 text-gray-50",
+});
+const downloadIcon = createElement(ArrowDownTrayIcon, {
+  className: "h-6 w-6 text-gray-50",
+});
+const distIconList = createElement(IconList, {
+  items: uniqueDistIcons,
+  linkroot: "/download",
+  iconwidth: "150",
+  className: "grid grid-cols-2 lg:pt-6 gap-8",
+});
+---
+
+<BaseLayout landing breadcrumbs="Open Source Home Theater Software">
+  <FullWidthHeroCarousel
+    client:load
+    slides={[
+      {
+        image: optHeroDefault.src,
+        title: "Kodi is the ultimate",
+        subtitle: "entertainment center",
+        description:
+          "Kodi brings your media to life with endless features, a beautiful interface, and ease of use.",
+        url: "/about",
+        buttontext: "Tell Me More",
+      },
+      {
+        image: optHeroAddons.src,
+        title: "There is an",
+        subtitle: "Add-on for that",
+        description:
+          "Kodi has a giant catalog of community add-ons available for you to customize and tweak your perfect entertainment setup.",
+        url: "/addons",
+        buttontext: "Browse Add-ons",
+      },
+      {
+        image: optHeroCommunity.src,
+        title: "Kodi has a community",
+        subtitle: "like no other",
+        description:
+          "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
+        url: "https://forum.kodi.tv",
+        buttontext: "Get Help",
+      },
+      {
+        image: optHeroWallpaper.src,
+        title: "Are you a developer?",
+        subtitle: "Join the team!",
+        description:
+          "We would welcome anyone who is willing to do their part on any improvement that is needed.",
+        url: "/contribute/developers",
+        buttontext: "Contribute",
+      },
+    ]}
+  />
+
+  <div class="-mt-6">
+    <FullWidthRoundedCardList
+      backgroundColor="bg-gray-100"
+      title="Got a smart TV? You ain't seen nothin' yet!"
+      subtitle="Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and looks great while doing it! Here are just a few things Kodi excels at:"
+      items={[
+        {
+          imgsrc: optAboutMusic.src,
+          title: "Music",
+          description:
+            "Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.",
+        },
+        {
+          imgsrc: optAboutMovies.src,
+          title: "Movies",
+          description:
+            "So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast, genres and more.",
+        },
+        {
+          imgsrc: optAboutTvshows.src,
+          title: "TV Shows",
+          description:
+            "Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your TV organised like nothing else.",
+        },
+        {
+          imgsrc: optAboutPhotos.src,
+          title: "Photos",
+          description:
+            "Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.",
+        },
+        {
+          imgsrc: optAboutPvr.src,
+          title: "PVR",
+          description:
+            "Kodi allows you to watch and record live TV all from an easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.",
+        },
+        {
+          imgsrc: optAboutGames.src,
+          title: "Games",
+          description:
+            "Kodi isn't just for passive entertainment media. You can also play games on Kodi. Pick from a large number of emulators, or even play a stand-alone game. There's even extensive support for game controllers.",
+        },
+      ]}
+    />
+  </div>
+
+  <FullWidthTwoPaneImageLeft
+    icon={sparklesIcon}
+    title="But wait, there's more!"
+    url="/about"
+    buttontext="Show me all the good bits"
+    image={{
+      src: optSkinEstuary.src,
+      title: "Estuary Skin",
+      alt: "Estuary Skin showing music artists",
+    }}
+  >
+    You can get a new skin to change the look of Kodi, or maybe you want to stream
+    your favourite internet radio station and control it all with your web browser or
+    mobile phone? This and so much more is all possible and easy with Kodi.
+  </FullWidthTwoPaneImageLeft>
+
+  <FullWidthTwoPaneIconsRight
+    backgroundColor="bg-gray-100"
+    icon={downloadIcon}
+    title="Kodi runs on just about anything"
+    url="/download"
+    buttontext="Download Now"
+    iconlist={distIconList}
+  >
+    Kodi runs on a huge range of devices and operating systems, including:
+    <ul class="pl-10 pt-4">
+      {distTextList.map(item => <li>{item}</li>)}
+    </ul>
+  </FullWidthTwoPaneIconsRight>
+
+  <FullWidthSponsorList
+    title="A big thanks to our sponsors. They help to keep Kodi free."
+    sponsors={orderedSponsors}
+  />
+
+  <FullWidthNews
+    backgroundColor="bg-gray-100"
+    title="News"
+    subtitle="What's new in the world of Kodi"
+    news={news}
+  />
+
+  <FullWidthCallOut title="100% Open Source!">
+    Yes, you read that right! Kodi is software that is built and run for the
+    community, by the community.
+    <br />
+    You can organize media you own and have rights to with no extra cost.
+  </FullWidthCallOut>
+
+  <FullWidthStats
+    backgroundColor="bg-kodi-darker"
+    titleTextColor="text-gray-50"
+    subtitleTextColor="text-gray-50"
+    title="Vital statistics"
+    subtitle="Users and members of the community contribute to Kodi in so many different ways."
+    stats={stats}
+  />
+</BaseLayout>

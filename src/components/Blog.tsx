@@ -1,13 +1,12 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { Link } from "gatsby";
 import ItemWithComma from "./ItemWithComma";
-import { TagList } from "../hooks/TagList";
+import type { TagInfo } from "../hooks/TagList";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { News } from "../hooks/LatestNews";
+import type { News } from "../hooks/LatestNews";
 import remarkGfm from "remark-gfm";
 
-const slugify = require("slugify");
+import slugify from "slugify";
 
 function BlogPostCard(props: { post: News }) {
   let post = props.post;
@@ -21,7 +20,7 @@ function BlogPostCard(props: { post: News }) {
   return (
     <>
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        <Link to={post.fields.slug} className="flex-shrink-0">
+        <a href={post.fields.slug} className="flex-shrink-0">
           {post.frontmatter.featured_image == undefined ? (
             <div className="h-48 w-full bg-kodi"></div>
           ) : (
@@ -30,9 +29,13 @@ function BlogPostCard(props: { post: News }) {
               title={post.frontmatter.featured_image.title}
               src={post.frontmatter.featured_image.src}
               alt={post.frontmatter.featured_image.alt}
+              loading="lazy"
+              decoding="async"
+              width={480}
+              height={192}
             />
           )}
-        </Link>
+        </a>
         <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium">
@@ -56,7 +59,7 @@ function BlogPostCard(props: { post: News }) {
               })}
               &nbsp;
             </p>
-            <Link to={post.fields.slug} className="block mt-2">
+            <a href={post.fields.slug} className="block mt-2">
               <ReactMarkdown className="text-xl font-semibold text-gray-900">
                 {post.frontmatter.title}
               </ReactMarkdown>
@@ -67,7 +70,7 @@ function BlogPostCard(props: { post: News }) {
               >
                 {post.excerpt}
               </ReactMarkdown>
-            </Link>
+            </a>
           </div>
           <div className="mt-6 flex items-center">
             <div>
@@ -99,8 +102,7 @@ function EmptyCard() {
   );
 }
 
-function NavCard(_props: unknown) {
-  const tagList = TagList();
+function NavCard({ tagList }: { tagList: TagInfo[] }) {
   return (
     <>
       <div className="flex flex-col rounded-lg overflow-hidden">
@@ -116,9 +118,9 @@ function NavCard(_props: unknown) {
                   displayname: string;
                 }) => {
                   return (
-                    <Link
+                    <a
                       key={tag.slug}
-                      to={tag.slug}
+                      href={tag.slug}
                       className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
                     >
                       <tag.icon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
@@ -126,18 +128,18 @@ function NavCard(_props: unknown) {
                       <span className="bg-gray-100 group-hover:bg-gray-200 ml-auto inline-block py-0.5 px-3 text-xs rounded-full">
                         {tag.count}
                       </span>
-                    </Link>
+                    </a>
                   );
                 },
               )}
               <h2 className="pt-6 text-gray-900 font-bold text-md">Search</h2>
-              <Link
-                to="/blog/search"
+              <a
+                href="/blog/search"
                 className="text-gray-600 hover:bg-gray-100 hover:text-gray-900 group flex items-center px-3 py-2 text-sm font-medium rounded-md"
               >
                 <MagnifyingGlassIcon className="text-kodi group-hover:text-kodi-darker flex-shrink-0 -ml-1 mr-3 h-6 w-6" />
                 <span className="truncate">Advanced Search</span>
-              </Link>
+              </a>
             </nav>
           </div>
         </div>

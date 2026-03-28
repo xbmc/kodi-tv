@@ -18,23 +18,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
-      - name: Cache addon-parser npm node nodules
-        uses: actions/cache@v5
-        id: nodecache
-        with:
-          path: |
-            ~/.npm
-            scripts/addon-parser/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('scripts/addon-parser/package.json') }}
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - name: Set Node Version
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v6
         with:
-          node-version: 18.x
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: scripts/addon-parser/pnpm-lock.yaml
 
       - name: Install dependencies
-        if: steps.nodecache.outputs.cache-hit != 'true'
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
       - name: Run addon-parser and get site stats
         run: node app.mjs --kv=omega --getstats

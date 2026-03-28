@@ -1,0 +1,47 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogPost from "../../components/BlogPost";
+import { cleanExcerpt, calcReadTime } from "../../utils/blog";
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("blog");
+  return blogEntries.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const data = entry.data;
+
+const blogPost = {
+  rawMarkdownBody: entry.body || "",
+  excerpt: cleanExcerpt(entry.body || "", 195),
+  timeToRead: calcReadTime(entry.body),
+  frontmatter: {
+    author: data.author || "",
+    date: new Date(data.date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "2-digit",
+    }),
+    tags: data.tags || [],
+    featured_image: data.featured_image || undefined,
+    title: data.title,
+  },
+};
+
+let breadcrumbs = data.title + " | News";
+let description = blogPost.excerpt;
+let image = data.featured_image?.src || undefined;
+---
+
+<BaseLayout
+  title={data.title}
+  breadcrumbs={breadcrumbs}
+  description={description}
+  image={image}
+>
+  <BlogPost blogPost={blogPost} />
+</BaseLayout>

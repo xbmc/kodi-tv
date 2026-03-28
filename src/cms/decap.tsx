@@ -1,14 +1,12 @@
 import CMS from "decap-cms-app";
-import React from "react";
+import React, { useEffect } from "react";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
 import { SponsorTypeList } from "../components/SponsorList";
 import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
-import { Sponsor } from "../hooks/Sponsors";
-
-const config = require("../../gatsby-site-config");
-CMS.init(config.cms);
+import type { Sponsor } from "../hooks/Sponsors";
+import siteConfig from "../config/site";
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
@@ -46,7 +44,13 @@ const PagePreview = ({ entry, widgetsFor, getAsset }) => {
   page.frontmatter.title = entry.getIn(["data", "title"]);
   page.frontmatter.breadcrumbs = entry.getIn(["data", "breadcrumbs", null]);
 
-  return <Page onePage={page} preview={true} />;
+  return (
+    <Page
+      onePage={page}
+      preview={true}
+      data={{ sponsors: [], distributions: [], storeItems: [] }}
+    />
+  );
 };
 
 const DistributionPreview = ({ entry, widgetsFor, getAsset }) => {
@@ -133,3 +137,10 @@ CMS.registerPreviewTemplate("downloadpages", PagePreview);
 CMS.registerPreviewTemplate("distribution", DistributionPreview);
 CMS.registerPreviewTemplate("sponsors", SponsorPreview);
 CMS.registerPreviewTemplate("store", StoreItemPreview);
+
+export default function DecapCmsAdmin() {
+  useEffect(() => {
+    CMS.init(siteConfig.cms);
+  }, []);
+  return <div />;
+}

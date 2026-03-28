@@ -1,0 +1,99 @@
+---
+import { getCollection } from "astro:content";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import siteConfig from "../config/site";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  breadcrumbs?: string;
+  landing?: boolean;
+}
+
+const { title, description, image, breadcrumbs, landing = false } = Astro.props;
+
+const sponsorEntries = await getCollection("sponsors");
+const sponsors = sponsorEntries
+  .map(e => e.data as any)
+  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+
+const siteTitle = siteConfig.siteMetadata.title;
+const siteDescription = siteConfig.siteMetadata.description;
+const siteUrl = siteConfig.siteMetadata.siteUrl;
+
+const pageTitle = breadcrumbs ? `${breadcrumbs} | ${siteTitle}` : siteTitle;
+const shortTitle = breadcrumbs || siteTitle;
+const metaDescription = description || siteDescription;
+const ogImage = image
+  ? `${siteUrl}${image}`
+  : `${siteUrl}/images/kodi_og_default.webp`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <meta property="og:title" content={shortTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={shortTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="theme-color" content="#663399" />
+    <meta name="twitter:creator" content="@KodiTV" />
+    <meta name="twitter:site" content="@KodiTV" />
+    <link rel="icon" href="/favicon-32x32.png" type="image/png" />
+    <link rel="icon" href="/images/kodi-logo.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous" />
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png" />
+    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Kodi News"
+      href="/rss.xml"
+    />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <script
+      data-goatcounter="https://koditv.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"></script>
+  </head>
+  <body>
+    <div class:list={[landing ? "bg-gray-50" : "bg-gray-200", "h-full"]}>
+      <Header compact={landing} frontmatter={{ title: title || "" }} client:load />
+      {
+        landing ? (
+          <main>
+            <div class="py-0">
+              <slot />
+            </div>
+          </main>
+        ) : (
+          <main class="-mt-32">
+            <div class="max-w-7xl mx-auto pb-0 px-0 md:px-6 lg:px-8">
+              <div class="bg-gray-50 md:rounded-lg md:shadow p-6 min-h-screen">
+                <slot />
+              </div>
+            </div>
+          </main>
+        )
+      }
+      <Footer sponsors={sponsors} />
+    </div>
+  </body>
+</html>

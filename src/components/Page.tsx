@@ -3,6 +3,9 @@ import ReactMarkdown from "react-markdown";
 import { DefaultLayout } from "./Layout";
 import { DownloadList } from "./DownloadList";
 import { Card } from "./Card";
+import type { Sponsor } from "../hooks/Sponsors";
+import type { Distribution } from "../hooks/DistributionList";
+import type { Merch } from "../hooks/StoreList";
 import {
   AboutDisclaimer,
   AboutGallery,
@@ -26,10 +29,23 @@ function PreviewNoticeCard(props: {
   );
 }
 
-function DynamicSection(props: { preview: any; section: string | number }) {
-  let storeCta = <StoreCta />;
-  let dlcomponent = <DownloadList />;
-  let spcomponent = <SponsorList />;
+export type WidgetImages = Record<string, string>;
+
+interface DynamicData {
+  sponsors: Sponsor[];
+  distributions: Distribution[];
+  storeItems: Merch[];
+}
+
+function DynamicSection(props: {
+  preview: any;
+  section: string | number;
+  data: DynamicData;
+  widgetImages: WidgetImages;
+}) {
+  let storeCta = <StoreCta items={props.data.storeItems} />;
+  let dlcomponent = <DownloadList items={props.data.distributions} />;
+  let spcomponent = <SponsorList sponsors={props.data.sponsors} />;
   if (props.preview) {
     storeCta = <PreviewNoticeCard section="store-cta" />;
     dlcomponent = <PreviewNoticeCard section="downloadlist" />;
@@ -40,11 +56,11 @@ function DynamicSection(props: { preview: any; section: string | number }) {
     downloadlist: dlcomponent,
     sponsors: spcomponent,
     aboutdisclaimer: <AboutDisclaimer />,
-    aboutgallery: <AboutGallery />,
+    aboutgallery: <AboutGallery images={props.widgetImages} />,
     contactnote: <AboutContactNote />,
     contributegallery: <ContributeGallery />,
     downloadnotice: <DownloadNotice />,
-    officialremotes: <AboutOfficialRemotes />,
+    officialremotes: <AboutOfficialRemotes images={props.widgetImages} />,
     otherwaystohelp: (
       <CtaButtonInternal url="/contribute" buttontext="Other Ways to Help" />
     ),
@@ -65,13 +81,26 @@ function DynamicSection(props: { preview: any; section: string | number }) {
   return section;
 }
 
-export default function Page(props: { onePage: any; preview: boolean | undefined }) {
+export default function Page(props: {
+  onePage: any;
+  preview?: boolean;
+  data: DynamicData;
+  widgetImages?: WidgetImages;
+}) {
   let onePage = props.onePage;
   let preview = false;
   if (props.preview != undefined) {
     preview = props.preview;
   }
-  let content = onePage.rawMarkdownBody.split("x-section-x");
+  const images = props.widgetImages ?? {};
+
+  // Replace /images/ paths in markdown with optimized URLs
+  let rawBody = onePage.rawMarkdownBody;
+  for (const [name, url] of Object.entries(images)) {
+    rawBody = rawBody.replaceAll(`/images/${name}.webp`, url);
+  }
+
+  let content = rawBody.split("x-section-x");
   return (
     <DefaultLayout frontmatter={onePage.frontmatter} preview={preview}>
       {content.map((section: string, index: any) => {
@@ -87,6 +116,8 @@ export default function Page(props: { onePage: any; preview: boolean | undefined
             key={section.trim().toLowerCase()}
             section={section.trim().toLowerCase()}
             preview={preview}
+            data={props.data}
+            widgetImages={images}
           />
         );
       })}

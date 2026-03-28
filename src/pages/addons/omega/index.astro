@@ -1,0 +1,57 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { IconList, IconListFeatured } from "../../../components/IconList";
+import { AddonPageSubMenu } from "../../../components/AddonPageSubMenu";
+import { isFeatured } from "../../../data/featured";
+
+const addons = await getCollection("omegaAddons");
+const categories = await getCollection("omegaCategories");
+
+const allAddons = addons.map(e => e.data as any);
+const allCategories = categories.map(e => e.data as any);
+
+const featuredAddons = allAddons.filter(a => isFeatured(a.addonid)).slice(0, 5);
+const newAddons = allAddons
+  .filter(a => a.agetype === "new")
+  .sort((a, b) => (b.firstseen || "").localeCompare(a.firstseen || ""))
+  .slice(0, 5);
+const updatedAddons = allAddons
+  .filter(a => a.agetype === "existing")
+  .sort((a, b) => (b.lastupdate || "").localeCompare(a.lastupdate || ""))
+  .slice(0, 5);
+
+const games = allCategories
+  .filter(c => c.grouping === "Games")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const infoProviders = allCategories
+  .filter(c => c.grouping === "Information providers")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const lookAndFeel = allCategories
+  .filter(c => c.grouping === "Look and feel")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const others = allCategories
+  .filter(c => c.grouping === "Other")
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const linkroot = "/addons/omega/";
+---
+
+<BaseLayout title="Omega Add-ons" breadcrumbs="Omega | Addons">
+  <AddonPageSubMenu linkroot={linkroot} />
+  <h2 class="text-2xl font-bold">Featured Add-Ons</h2>
+  <IconListFeatured items={featuredAddons} linkroot={linkroot} />
+  <h2 class="text-2xl font-bold">New Additions</h2>
+  <IconListFeatured items={newAddons} linkroot={linkroot} />
+  <h2 class="text-2xl font-bold">Recently Updated</h2>
+  <IconListFeatured items={updatedAddons} linkroot={linkroot} />
+  <h2 class="text-2xl font-bold pb-3">Categories</h2>
+  <h3 class="text-xl font-bold">Look and Feel</h3>
+  <IconList items={lookAndFeel} linkroot={linkroot + "category/"} />
+  <h3 class="text-xl font-bold">Information Providers</h3>
+  <IconList items={infoProviders} linkroot={linkroot + "category/"} />
+  <h3 class="text-xl font-bold">Games</h3>
+  <IconList items={games} linkroot={linkroot + "category/"} />
+  <h3 class="text-xl font-bold">Others</h3>
+  <IconList items={others} linkroot={linkroot + "category/"} />
+</BaseLayout>

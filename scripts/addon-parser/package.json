@@ -10,6 +10,7 @@
   },
   "author": "pkscout <pkscout@kodi.tv>",
   "license": "GPL-3-ONLY",
+  "packageManager": "pnpm@10.28.1",
   "dependencies": {
     "js-yaml": "^4.1.1",
     "minimist": "^1.2.8",

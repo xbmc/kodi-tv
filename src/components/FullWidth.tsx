@@ -2,8 +2,8 @@ import React from "react";
 import { BlogPostCard } from "./Blog";
 import { RoundedCardWithImage } from "./Card";
 import Button from "./Button";
-import { Sponsor } from "../hooks/Sponsors";
-import { News } from "../hooks/LatestNews";
+import type { Sponsor } from "../hooks/Sponsors";
+import type { News } from "../hooks/LatestNews";
 
 function FullWidthCallOut(props: {
   backgroundColor?: string;
@@ -282,6 +282,10 @@ function FullWidthTwoPaneImageLeft(props: {
                   src={props.image.src}
                   title={props.image.title}
                   alt={props.image.alt}
+                  loading="lazy"
+                  decoding="async"
+                  width={800}
+                  height={500}
                 />
               </div>
             </div>
@@ -320,6 +324,9 @@ function FullWidthSponsorList(props: {
                     src={sponsor.image.src}
                     title={sponsor.image.title}
                     alt={sponsor.image.alt}
+                    loading="lazy"
+                    decoding="async"
+                    height={48}
                   />
                 </a>
               </div>
@@ -506,6 +513,7 @@ function FullWidthRoundedCardList(props: {
               <RoundedCardWithImage
                 title={item.title}
                 imgsrc={item.imgsrc}
+                imgalt={"Kodi " + item.title + " feature"}
                 key={item.title}
               >
                 {item.description}

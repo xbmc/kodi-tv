@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Distribution } from "../../components/Distribution";
+import { optimizeImagePath } from "../../utils/images";
+
+const slugify = (await import("slugify")).default;
+
+export async function getStaticPaths() {
+  const distributions = await getCollection("distributions");
+  const slugify = (await import("slugify")).default;
+  return distributions.map(entry => ({
+    params: {
+      name: slugify((entry.data as any).name, {
+        lower: true,
+        remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+      }),
+    },
+    props: { dist: entry.data },
+  }));
+}
+
+const { dist } = Astro.props;
+const distData = dist as any;
+const optimizedIcon = await optimizeImagePath(distData.icon);
+const optimizedDist = { ...distData, icon: optimizedIcon };
+---
+
+<BaseLayout
+  title={"Downloads for " + distData.name}
+  breadcrumbs={distData.name + " | Downloads"}
+>
+  <Distribution dist={optimizedDist} client:load />
+</BaseLayout>
