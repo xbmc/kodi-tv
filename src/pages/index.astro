@@ -1,7 +1,7 @@
 ---
 import { createElement } from "react";
 import { getCollection } from "astro:content";
-import LandingLayout from "../layouts/LandingLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import { SparklesIcon, ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import { IconList } from "../components/IconList";
 import { FullWidthHeroCarousel } from "../components/Carousel";
@@ -103,7 +103,7 @@ const distIconList = createElement(IconList, {
 });
 ---
 
-<LandingLayout breadcrumbs="Open Source Home Theater Software">
+<BaseLayout landing breadcrumbs="Open Source Home Theater Software">
   <FullWidthHeroCarousel
     client:load
     slides={[
@@ -249,4 +249,4 @@ const distIconList = createElement(IconList, {
     subtitle="Users and members of the community contribute to Kodi in so many different ways."
     stats={stats}
   />
-</LandingLayout>
+</BaseLayout>
