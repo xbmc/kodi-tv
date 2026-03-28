@@ -33,8 +33,8 @@ export interface StripeConfig {
 }
 
 let stripeConfig: StripeConfig = {
-  apikey: import.meta.env.GATSBY_STRIPE_APIKEY ||
-    import.meta.env.PUBLIC_STRIPE_APIKEY,
+  apikey:
+    import.meta.env.GATSBY_STRIPE_APIKEY || import.meta.env.PUBLIC_STRIPE_APIKEY,
   minCharge: {
     USD: 5,
     EUR: 5,
@@ -187,8 +187,8 @@ let stripeConfig: StripeConfig = {
   },
 };
 
-const stripeType = import.meta.env.GATSBY_STRIPE_TYPE ||
-  import.meta.env.PUBLIC_STRIPE_TYPE;
+const stripeType =
+  import.meta.env.GATSBY_STRIPE_TYPE || import.meta.env.PUBLIC_STRIPE_TYPE;
 if (stripeType === "prod") {
   stripeConfig.oneTime = {
     USD: "price_1Im29HDOVUu6yhjNEERqQVmp",

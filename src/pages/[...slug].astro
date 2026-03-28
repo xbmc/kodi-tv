@@ -27,7 +27,10 @@ const distributions = distEntries
 const storeEntries = await getCollection("store");
 const storeItems = storeEntries
   .map(e => e.data as any)
-  .sort((a, b) => (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name));
+  .sort(
+    (a, b) =>
+      (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
+  );
 
 const onePage = {
   frontmatter: {
@@ -44,8 +47,5 @@ const onePage = {
   breadcrumbs={data.breadcrumbs}
   description={data.description}
 >
-  <Page
-    onePage={onePage}
-    data={{ sponsors, distributions, storeItems }}
-  />
+  <Page onePage={onePage} data={{ sponsors, distributions, storeItems }} />
 </BaseLayout>

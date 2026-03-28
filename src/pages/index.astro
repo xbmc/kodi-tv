@@ -80,21 +80,35 @@ const statsEntries = await getCollection("stats");
 const statsData = statsEntries[0]?.data as any;
 const stats = [
   { key: "gitcommits", title: "GitHub Commits", value: statsData?.gitcommits || 0 },
-  { key: "forumthreads", title: "Forum Conversations", value: statsData?.forumthreads || 0 },
+  {
+    key: "forumthreads",
+    title: "Forum Conversations",
+    value: statsData?.forumthreads || 0,
+  },
   { key: "addons", title: "Official Add-ons", value: statsData?.addons || 0 },
 ];
 
 // Create React elements in frontmatter for passing as props
-const sparklesIcon = createElement(SparklesIcon, { className: "h-6 w-6 text-gray-50" });
-const downloadIcon = createElement(ArrowDownTrayIcon, { className: "h-6 w-6 text-gray-50" });
+const sparklesIcon = createElement(SparklesIcon, {
+  className: "h-6 w-6 text-gray-50",
+});
+const downloadIcon = createElement(ArrowDownTrayIcon, {
+  className: "h-6 w-6 text-gray-50",
+});
 const distIconList = createElement(IconList, {
   items: uniqueDistIcons,
   linkroot: "/download",
   iconwidth: "150",
   className: "grid grid-cols-2 lg:pt-6 gap-8",
 });
-const distListItems = distTextList.map((item) => createElement("li", { key: item }, item));
-const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListItems);
+const distListItems = distTextList.map(item =>
+  createElement("li", { key: item }, item),
+);
+const distListUl = createElement(
+  "ul",
+  { className: "pl-10 pt-4" },
+  ...distListItems,
+);
 ---
 
 <LandingLayout breadcrumbs="Open Source Home Theater Software">
@@ -105,7 +119,8 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
         image: "/images/heroes/ultimate-mediacenter.webp",
         title: "Kodi is the ultimate",
         subtitle: "entertainment center",
-        description: "Kodi brings your media to life with endless features, a beautiful interface, and ease of use.",
+        description:
+          "Kodi brings your media to life with endless features, a beautiful interface, and ease of use.",
         url: "/about",
         buttontext: "Tell Me More",
       },
@@ -113,7 +128,8 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
         image: "/images/heroes/addons.webp",
         title: "There is an",
         subtitle: "Add-on for that",
-        description: "Kodi has a giant catalog of community add-ons available for you to customize and tweak your perfect entertainment setup.",
+        description:
+          "Kodi has a giant catalog of community add-ons available for you to customize and tweak your perfect entertainment setup.",
         url: "/addons",
         buttontext: "Browse Add-ons",
       },
@@ -121,7 +137,8 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
         image: "/images/heroes/community.webp",
         title: "Kodi has a community",
         subtitle: "like no other",
-        description: "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
+        description:
+          "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
         url: "https://forum.kodi.tv",
         buttontext: "Get Help",
       },
@@ -129,7 +146,8 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
         image: "/images/kodi-wallpaper-32a-samfisher.webp",
         title: "Are you a developer?",
         subtitle: "Join the team!",
-        description: "We would welcome anyone who is willing to do their part on any improvement that is needed.",
+        description:
+          "We would welcome anyone who is willing to do their part on any improvement that is needed.",
         url: "/contribute/developers",
         buttontext: "Contribute",
       },
@@ -145,32 +163,38 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
         {
           imgsrc: "/images/about--music.webp",
           title: "Music",
-          description: "Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.",
+          description:
+            "Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.",
         },
         {
           imgsrc: "/images/about--movies.webp",
           title: "Movies",
-          description: "So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast, genres and more.",
+          description:
+            "So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast, genres and more.",
         },
         {
           imgsrc: "/images/about--tvshows.webp",
           title: "TV Shows",
-          description: "Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your TV organised like nothing else.",
+          description:
+            "Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your TV organised like nothing else.",
         },
         {
           imgsrc: "/images/about--photos.webp",
           title: "Photos",
-          description: "Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.",
+          description:
+            "Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.",
         },
         {
           imgsrc: "/images/about--pvr.webp",
           title: "PVR",
-          description: "Kodi allows you to watch and record live TV all from an easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.",
+          description:
+            "Kodi allows you to watch and record live TV all from an easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.",
         },
         {
           imgsrc: "/images/about--games.webp",
           title: "Games",
-          description: "Kodi isn't just for passive entertainment media. You can also play games on Kodi. Pick from a large number of emulators, or even play a stand-alone game. There's even extensive support for game controllers.",
+          description:
+            "Kodi isn't just for passive entertainment media. You can also play games on Kodi. Pick from a large number of emulators, or even play a stand-alone game. There's even extensive support for game controllers.",
         },
       ]}
     />
@@ -187,10 +211,9 @@ const distListUl = createElement("ul", { className: "pl-10 pt-4" }, ...distListI
       alt: "Estuary Skin showing music artists",
     }}
   >
-    You can get a new skin to change the look of Kodi, or maybe you want to
-    stream your favourite internet radio station and control it all with your web
-    browser or mobile phone? This and so much more is all possible and easy with
-    Kodi.
+    You can get a new skin to change the look of Kodi, or maybe you want to stream
+    your favourite internet radio station and control it all with your web browser or
+    mobile phone? This and so much more is all possible and easy with Kodi.
   </FullWidthTwoPaneImageLeft>
 
   <FullWidthTwoPaneIconsRight

@@ -21,10 +21,18 @@ const updatedAddons = allAddons
   .sort((a, b) => (b.lastupdate || "").localeCompare(a.lastupdate || ""))
   .slice(0, 5);
 
-const games = allCategories.filter(c => c.grouping === "Games").sort((a, b) => a.name.localeCompare(b.name));
-const infoProviders = allCategories.filter(c => c.grouping === "Information providers").sort((a, b) => a.name.localeCompare(b.name));
-const lookAndFeel = allCategories.filter(c => c.grouping === "Look and feel").sort((a, b) => a.name.localeCompare(b.name));
-const others = allCategories.filter(c => c.grouping === "Other").sort((a, b) => a.name.localeCompare(b.name));
+const games = allCategories
+  .filter(c => c.grouping === "Games")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const infoProviders = allCategories
+  .filter(c => c.grouping === "Information providers")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const lookAndFeel = allCategories
+  .filter(c => c.grouping === "Look and feel")
+  .sort((a, b) => a.name.localeCompare(b.name));
+const others = allCategories
+  .filter(c => c.grouping === "Other")
+  .sort((a, b) => a.name.localeCompare(b.name));
 
 const linkroot = "/addons/omega/";
 ---

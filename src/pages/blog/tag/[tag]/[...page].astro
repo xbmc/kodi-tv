@@ -12,9 +12,7 @@ export async function getStaticPaths({ paginate }) {
   const blogEntries = await getCollection("blog");
 
   // Get all unique tags
-  const allTags = [...new Set(
-    blogEntries.flatMap(e => e.data.tags || [])
-  )];
+  const allTags = [...new Set(blogEntries.flatMap(e => e.data.tags || []))];
 
   // For each tag, paginate its posts
   return allTags.flatMap(tag => {
@@ -24,7 +22,9 @@ export async function getStaticPaths({ paginate }) {
     });
     const filtered = blogEntries
       .filter(e => (e.data.tags || []).includes(tag))
-      .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+      .sort(
+        (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
+      );
 
     const posts = filtered.map(entry => ({
       excerpt: entry.body?.slice(0, 300) || "",
@@ -79,21 +79,17 @@ const pageContext = {
 ---
 
 <BaseLayout title={"News with the Tag: " + tag} breadcrumbs={tag + " | News"}>
-  <div class="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none">
-    {firsttwo.map(post => (
-      <BlogPostCard post={post} />
-    ))}
+  <div
+    class="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none"
+  >
+    {firsttwo.map(post => <BlogPostCard post={post} />)}
     {firsttwo.length === 1 ? <EmptyCard /> : ""}
     <NavCard tagList={tagList} />
-    {therest.map(post => (
-      <BlogPostCard post={post} />
-    ))}
+    {therest.map(post => <BlogPostCard post={post} />)}
   </div>
   <div class="mt-12 max-w-lg mx-auto gap-5 grid lg:hidden">
     <NavCard tagList={tagList} />
-    {posts.map(post => (
-      <BlogPostCard post={post} />
-    ))}
+    {posts.map(post => <BlogPostCard post={post} />)}
   </div>
   <Pager pageContext={pageContext} />
 </BaseLayout>

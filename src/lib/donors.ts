@@ -51,14 +51,12 @@ export async function getDonors(): Promise<Donor[]> {
     const data = await docClient.query(params);
 
     if (!data.Items || data.Items.length === 0) {
-      console.log(
-        "No donor records found. Creating single empty donor record.",
-      );
+      console.log("No donor records found. Creating single empty donor record.");
       return [DUMMY_DONOR];
     }
 
     console.log("Query for donors succeeded.");
-    return (data.Items as Donor[]).map((item) => {
+    return (data.Items as Donor[]).map(item => {
       if (item.publicName === "[object HTMLInputElement]") {
         item.publicName = "";
       }

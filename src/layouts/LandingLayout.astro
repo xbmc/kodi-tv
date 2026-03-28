@@ -23,9 +23,7 @@ const siteTitle = siteConfig.siteMetadata.title;
 const siteDescription = siteConfig.siteMetadata.description;
 const siteUrl = siteConfig.siteMetadata.siteUrl;
 
-const pageTitle = breadcrumbs
-  ? `${breadcrumbs} | ${siteTitle}`
-  : siteTitle;
+const pageTitle = breadcrumbs ? `${breadcrumbs} | ${siteTitle}` : siteTitle;
 const shortTitle = breadcrumbs || siteTitle;
 const metaDescription = description || siteDescription;
 const ogImage = image
@@ -52,8 +50,7 @@ const ogImage = image
     <script
       data-goatcounter="https://koditv.goatcounter.com/count"
       async
-      src="//gc.zgo.at/count.js"
-    ></script>
+      src="//gc.zgo.at/count.js"></script>
   </head>
   <body>
     <div class="bg-gray-50 h-full">

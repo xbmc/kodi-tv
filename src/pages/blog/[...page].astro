@@ -8,7 +8,7 @@ import { buildTagList } from "../../hooks/TagList";
 export async function getStaticPaths({ paginate }) {
   const blogEntries = await getCollection("blog");
   const sorted = blogEntries.sort(
-    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
   );
   const posts = sorted.map(entry => ({
     excerpt: entry.body?.slice(0, 300) || "",
@@ -57,21 +57,17 @@ const pageContext = {
   breadcrumbs="News"
   description="Get information about new releases, test builds, and other news from Team Kodi."
 >
-  <div class="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none">
-    {firsttwo.map(post => (
-      <BlogPostCard key={post.fields.slug} post={post} />
-    ))}
+  <div
+    class="mt-12 max-w-lg mx-auto gap-5 hidden lg:grid lg:grid-cols-3 lg:max-w-none"
+  >
+    {firsttwo.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
     {firsttwo.length === 1 ? <EmptyCard /> : ""}
     <NavCard tagList={tagList} />
-    {therest.map(post => (
-      <BlogPostCard key={post.fields.slug} post={post} />
-    ))}
+    {therest.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
   </div>
   <div class="mt-12 max-w-lg mx-auto gap-5 grid lg:hidden">
     <NavCard tagList={tagList} />
-    {posts.map(post => (
-      <BlogPostCard key={post.fields.slug} post={post} />
-    ))}
+    {posts.map(post => <BlogPostCard key={post.fields.slug} post={post} />)}
   </div>
   <Pager pageContext={pageContext} />
 </BaseLayout>

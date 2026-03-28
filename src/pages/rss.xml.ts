@@ -12,7 +12,7 @@ export async function GET(context) {
     title: siteConfig.siteMetadata.title,
     description: siteConfig.siteMetadata.description,
     site: context.site || siteConfig.siteMetadata.siteUrl,
-    items: sorted.slice(0, 20).map((post) => ({
+    items: sorted.slice(0, 20).map(post => ({
       title: post.data.title,
       pubDate: new Date(post.data.date),
       description: (post.body || "").slice(0, 300),

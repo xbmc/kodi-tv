@@ -15,6 +15,9 @@ const { category } = Astro.props;
 const categoryData = category as any;
 ---
 
-<BaseLayout title="Omega Add-on Category List" breadcrumbs={categoryData.name + " | Category | Omega | Addons"}>
+<BaseLayout
+  title="Omega Add-on Category List"
+  breadcrumbs={categoryData.name + " | Category | Omega | Addons"}
+>
   <AddonCategoryLayout repo="Omega" data={{ category: categoryData }} />
 </BaseLayout>

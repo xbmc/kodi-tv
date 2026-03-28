@@ -19,6 +19,11 @@ let description = addonData.snippet || "";
 let image = addonData.screenshots?.[0]?.localpath || undefined;
 ---
 
-<BaseLayout title="Omega Add-on Details" breadcrumbs={breadcrumbs} description={description} image={image}>
+<BaseLayout
+  title="Omega Add-on Details"
+  breadcrumbs={breadcrumbs}
+  description={description}
+  image={image}
+>
   <AddonLayout repo="Omega" data={{ addon: addonData }} />
 </BaseLayout>

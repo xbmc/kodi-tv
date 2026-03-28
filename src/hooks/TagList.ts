@@ -21,7 +21,9 @@ export interface TagInfo {
   insearch: boolean;
 }
 
-export function buildTagList(posts: { frontmatter: { tags: string[] | null } }[]): TagInfo[] {
+export function buildTagList(
+  posts: { frontmatter: { tags: string[] | null } }[],
+): TagInfo[] {
   let tags = [...new Set(posts.flatMap(p => p.frontmatter.tags ?? []))];
   let tagList: TagInfo[] = [
     {

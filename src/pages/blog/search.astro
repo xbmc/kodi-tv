@@ -6,7 +6,7 @@ import { buildTagList } from "../../hooks/TagList";
 
 const blogEntries = await getCollection("blog");
 const sorted = blogEntries.sort(
-  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
 );
 
 const posts = sorted.map(entry => ({

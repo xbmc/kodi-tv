@@ -7,7 +7,10 @@ import Button from "../../components/Button";
 const storeEntries = await getCollection("store");
 const storeItems = storeEntries
   .map(e => e.data as any)
-  .sort((a, b) => (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name));
+  .sort(
+    (a, b) =>
+      (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
+  );
 ---
 
 <BaseLayout title="Kodi Merchandise Store" breadcrumbs="Store">
@@ -15,13 +18,11 @@ const storeItems = storeEntries
   <IconList items={storeItems} iconwidth="256" iconheight="256" />
   <h2 class="text-2xl font-bold">Consider Donating</h2>
   <p class="pb-6">
-    We are always happy to receive a donation by which you show your support
-    and appreciation. All donations go towards the Kodi foundation and are
-    typically used for travel to attend conferences, any necessary paperwork
-    and legal fees, purchase necessary hardware and licenses for developers and
-    hopefully the yearly Kodi Foundation Developers Conference.
+    We are always happy to receive a donation by which you show your support and
+    appreciation. All donations go towards the Kodi foundation and are typically used
+    for travel to attend conferences, any necessary paperwork and legal fees,
+    purchase necessary hardware and licenses for developers and hopefully the yearly
+    Kodi Foundation Developers Conference.
   </p>
-  <Button href="/donate" buttonType="internal">
-    Donate to Kodi
-  </Button>
+  <Button href="/donate" buttonType="internal"> Donate to Kodi </Button>
 </BaseLayout>
