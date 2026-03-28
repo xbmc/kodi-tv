@@ -3,6 +3,7 @@ import { Card, FeaturedCard, RoundedCardWithImage } from "./Card";
 import Button from "./Button";
 import type { Sponsor } from "../hooks/Sponsors";
 import { SponsorTypeList } from "./SponsorList";
+import type { WidgetImages } from "./Page";
 import {
   CodeBracketIcon,
   CloudArrowDownIcon,
@@ -73,7 +74,7 @@ function CtaButtonExternal(props: { url: string; buttontext: string }) {
   );
 }
 
-function AboutOfficialRemotes() {
+function AboutOfficialRemotes({ images = {} }: { images?: WidgetImages }) {
   return (
     <>
       <div className="max-w-xl grid grid-cols-1 md:grid-cols-2">
@@ -82,7 +83,7 @@ function AboutOfficialRemotes() {
           <img
             className="w-200 h-200"
             alt="QR code to download Kore remote app for Android"
-            src="/images/kore-qr.webp"
+            src={images["kore-qr"] || "/images/kore-qr.webp"}
             loading="lazy"
             decoding="async"
             width={200}
@@ -94,7 +95,7 @@ function AboutOfficialRemotes() {
           <img
             className="w-200 h-200"
             alt="QR code to download Official Kodi Remote app for iOS"
-            src="/images/ios-qr.webp"
+            src={images["ios-qr"] || "/images/ios-qr.webp"}
             loading="lazy"
             decoding="async"
             width={200}
@@ -234,13 +235,13 @@ function ContributeGallery() {
   );
 }
 
-function AboutGallery() {
+function AboutGallery({ images = {} }: { images?: WidgetImages }) {
   return (
     <>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         <RoundedCardWithImage
           title="Movies"
-          imgsrc="/images/about--movies.webp"
+          imgsrc={images["about--movies"] || "/images/about--movies.webp"}
           imgalt="Kodi Movies library interface"
           imgtitle=""
         >
@@ -251,7 +252,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="TV Shows"
-          imgsrc="/images/about--tvshows.webp"
+          imgsrc={images["about--tvshows"] || "/images/about--tvshows.webp"}
           imgalt="Kodi TV Shows library interface"
           imgtitle=""
         >
@@ -262,7 +263,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Music"
-          imgsrc="/images/about--music.webp"
+          imgsrc={images["about--music"] || "/images/about--music.webp"}
           imgalt="Kodi Music library interface"
           imgtitle=""
         >
@@ -273,7 +274,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Photos"
-          imgsrc="/images/about--photos.webp"
+          imgsrc={images["about--photos"] || "/images/about--photos.webp"}
           imgalt="Kodi Photos library interface"
           imgtitle=""
         >
@@ -284,7 +285,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="PVR"
-          imgsrc="/images/about--pvr.webp"
+          imgsrc={images["about--pvr"] || "/images/about--pvr.webp"}
           imgalt="Kodi PVR live TV interface"
           imgtitle=""
         >
@@ -295,7 +296,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Games"
-          imgsrc="/images/about--games.webp"
+          imgsrc={images["about--games"] || "/images/about--games.webp"}
           imgalt="Kodi Games emulator interface"
           imgtitle=""
         >
@@ -306,7 +307,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Skins"
-          imgsrc="/images/about--skins.webp"
+          imgsrc={images["about--skins"] || "/images/about--skins.webp"}
           imgalt="Kodi Skins customization interface"
           imgtitle=""
         >
@@ -317,7 +318,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Add-ons"
-          imgsrc="/images/about--addons.webp"
+          imgsrc={images["about--addons"] || "/images/about--addons.webp"}
           imgalt="Kodi Add-ons browser interface"
           imgtitle=""
         >
@@ -332,7 +333,9 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Web Interface"
-          imgsrc="/images/about--webinterface.webp"
+          imgsrc={
+            images["about--webinterface"] || "/images/about--webinterface.webp"
+          }
           imgalt="Kodi Web Interface for remote control"
           imgtitle=""
         >
@@ -346,7 +349,7 @@ function AboutGallery() {
 
         <RoundedCardWithImage
           title="Remote Controls"
-          imgsrc="/images/about--remotes.webp"
+          imgsrc={images["about--remotes"] || "/images/about--remotes.webp"}
           imgalt="Kodi Remote Controls support"
           imgtitle=""
         >

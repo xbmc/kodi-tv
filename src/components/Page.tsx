@@ -29,6 +29,8 @@ function PreviewNoticeCard(props: {
   );
 }
 
+export type WidgetImages = Record<string, string>;
+
 interface DynamicData {
   sponsors: Sponsor[];
   distributions: Distribution[];
@@ -39,6 +41,7 @@ function DynamicSection(props: {
   preview: any;
   section: string | number;
   data: DynamicData;
+  widgetImages: WidgetImages;
 }) {
   let storeCta = <StoreCta items={props.data.storeItems} />;
   let dlcomponent = <DownloadList items={props.data.distributions} />;
@@ -53,11 +56,11 @@ function DynamicSection(props: {
     downloadlist: dlcomponent,
     sponsors: spcomponent,
     aboutdisclaimer: <AboutDisclaimer />,
-    aboutgallery: <AboutGallery />,
+    aboutgallery: <AboutGallery images={props.widgetImages} />,
     contactnote: <AboutContactNote />,
     contributegallery: <ContributeGallery />,
     downloadnotice: <DownloadNotice />,
-    officialremotes: <AboutOfficialRemotes />,
+    officialremotes: <AboutOfficialRemotes images={props.widgetImages} />,
     otherwaystohelp: (
       <CtaButtonInternal url="/contribute" buttontext="Other Ways to Help" />
     ),
@@ -82,13 +85,22 @@ export default function Page(props: {
   onePage: any;
   preview?: boolean;
   data: DynamicData;
+  widgetImages?: WidgetImages;
 }) {
   let onePage = props.onePage;
   let preview = false;
   if (props.preview != undefined) {
     preview = props.preview;
   }
-  let content = onePage.rawMarkdownBody.split("x-section-x");
+  const images = props.widgetImages ?? {};
+
+  // Replace /images/ paths in markdown with optimized URLs
+  let rawBody = onePage.rawMarkdownBody;
+  for (const [name, url] of Object.entries(images)) {
+    rawBody = rawBody.replaceAll(`/images/${name}.webp`, url);
+  }
+
+  let content = rawBody.split("x-section-x");
   return (
     <DefaultLayout frontmatter={onePage.frontmatter} preview={preview}>
       {content.map((section: string, index: any) => {
@@ -105,6 +117,7 @@ export default function Page(props: {
             section={section.trim().toLowerCase()}
             preview={preview}
             data={props.data}
+            widgetImages={images}
           />
         );
       })}

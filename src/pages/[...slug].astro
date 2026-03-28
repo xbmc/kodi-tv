@@ -2,6 +2,11 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Page from "../components/Page";
+import {
+  optimizeIconItems,
+  optimizeSponsorItems,
+  optimizeImagePath,
+} from "../utils/images";
 
 export async function getStaticPaths() {
   const pages = await getCollection("pages");
@@ -15,22 +20,55 @@ const { entry } = Astro.props;
 const data = entry.data;
 
 const sponsorEntries = await getCollection("sponsors");
-const sponsors = sponsorEntries
-  .map(e => e.data as any)
-  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+const sponsors = await optimizeSponsorItems(
+  sponsorEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
 
 const distEntries = await getCollection("distributions");
-const distributions = distEntries
-  .map(e => e.data as any)
-  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+const distributions = await optimizeIconItems(
+  distEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
 
 const storeEntries = await getCollection("store");
-const storeItems = storeEntries
-  .map(e => e.data as any)
-  .sort(
-    (a, b) =>
-      (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
-  );
+const storeItems = await optimizeIconItems(
+  storeEntries
+    .map(e => e.data as any)
+    .sort(
+      (a, b) =>
+        (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
+    ),
+);
+
+// Pre-optimize images used by widget components (AboutGallery, AboutOfficialRemotes)
+const widgetImages = Object.fromEntries(
+  await Promise.all(
+    [
+      "about--movies",
+      "about--tvshows",
+      "about--music",
+      "about--photos",
+      "about--pvr",
+      "about--games",
+      "about--skins",
+      "about--addons",
+      "about--webinterface",
+      "about--remotes",
+      "about--devices",
+      "kore-qr",
+      "ios-qr",
+      "kodi-wallpaper-32a-samfisher",
+    ].map(async name => [
+      name,
+      await optimizeImagePath(`/images/${name}.webp`, {
+        width: name.startsWith("about--") ? 480 : undefined,
+      }),
+    ]),
+  ),
+);
 
 const onePage = {
   frontmatter: {
@@ -47,5 +85,9 @@ const onePage = {
   breadcrumbs={data.breadcrumbs}
   description={data.description}
 >
-  <Page onePage={onePage} data={{ sponsors, distributions, storeItems }} />
+  <Page
+    onePage={onePage}
+    data={{ sponsors, distributions, storeItems }}
+    widgetImages={widgetImages}
+  />
 </BaseLayout>

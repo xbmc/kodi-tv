@@ -16,6 +16,10 @@ import {
   FullWidthRoundedCardList,
 } from "../components/FullWidth";
 import { prepareBlogPost } from "../utils/blog";
+import {
+  optimizeIconItems,
+  optimizeSponsorItems,
+} from "../utils/images";
 
 // Import optimizable images from src/images/
 import heroDefault from "../images/heroes/default-hero.webp";
@@ -68,9 +72,11 @@ const sorted = blogEntries
 const news = sorted.map(entry => prepareBlogPost(entry));
 
 const distEntries = await getCollection("distributions");
-const distributions = distEntries
-  .map(e => e.data as any)
-  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+const distributions = await optimizeIconItems(
+  distEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
 
 // Build unique distribution icons
 let uniqueDistIcons: { icon: string }[] = [];
@@ -96,9 +102,11 @@ for (const dist of distributions) {
 distTextList.push(appleList);
 
 const sponsorEntries = await getCollection("sponsors");
-const sponsors = sponsorEntries
-  .map(e => e.data as any)
-  .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0));
+const sponsors = await optimizeSponsorItems(
+  sponsorEntries
+    .map(e => e.data as any)
+    .sort((a, b) => (a.sort_order ?? 0) - (b.sort_order ?? 0)),
+);
 const orderedSponsors = sponsors
   .filter(a => a.sponsor_type === "Financial")
   .concat(sponsors.filter(a => a.sponsor_type === "Infrastructure"));

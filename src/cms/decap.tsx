@@ -44,7 +44,13 @@ const PagePreview = ({ entry, widgetsFor, getAsset }) => {
   page.frontmatter.title = entry.getIn(["data", "title"]);
   page.frontmatter.breadcrumbs = entry.getIn(["data", "breadcrumbs", null]);
 
-  return <Page onePage={page} preview={true} />;
+  return (
+    <Page
+      onePage={page}
+      preview={true}
+      data={{ sponsors: [], distributions: [], storeItems: [] }}
+    />
+  );
 };
 
 const DistributionPreview = ({ entry, widgetsFor, getAsset }) => {

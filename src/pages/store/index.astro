@@ -3,14 +3,17 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { IconList } from "../../components/IconList";
 import Button from "../../components/Button";
+import { optimizeIconItems } from "../../utils/images";
 
 const storeEntries = await getCollection("store");
-const storeItems = storeEntries
-  .map(e => e.data as any)
-  .sort(
-    (a, b) =>
-      (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
-  );
+const storeItems = await optimizeIconItems(
+  storeEntries
+    .map(e => e.data as any)
+    .sort(
+      (a, b) =>
+        (a.group_number ?? 0) - (b.group_number ?? 0) || a.name.localeCompare(b.name),
+    ),
+);
 ---
 
 <BaseLayout title="Kodi Merchandise Store" breadcrumbs="Store">
