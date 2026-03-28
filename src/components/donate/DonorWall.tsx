@@ -1,12 +1,7 @@
 import React from "react";
 import { FeaturedCard } from "../Card";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
-
-interface Donor {
-  publicName: string;
-  amount: number;
-  currency: string;
-}
+import type { Donor } from "../../lib/donors";
 
 export default function DonorWall({ donors }: { donors: Donor[] }) {
   return (

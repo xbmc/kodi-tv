@@ -1,4 +1,4 @@
-import { DynamoDBDocument } from "@aws-sdk/lib-dynamodb";
+import { DynamoDBDocument, type QueryCommandInput } from "@aws-sdk/lib-dynamodb";
 import { DynamoDB } from "@aws-sdk/client-dynamodb";
 
 export interface Donor {
@@ -38,7 +38,7 @@ export async function getDonors(): Promise<Donor[]> {
     }),
   );
 
-  const params = {
+  const params: QueryCommandInput = {
     TableName: tableName,
     IndexName: "all",
     KeyConditionExpression: "dummy = :dummyval",
@@ -48,25 +48,40 @@ export async function getDonors(): Promise<Donor[]> {
   };
 
   try {
-    const data = await docClient.query(params);
+    const donors: Donor[] = [];
+    let hasMore = true;
 
-    if (!data.Items || data.Items.length === 0) {
-      console.log("No donor records found. Creating single empty donor record.");
-      return [DUMMY_DONOR];
+    while (hasMore) {
+      const data = await docClient.query(params);
+
+      if (!data.Items || data.Items.length === 0) {
+        if (donors.length === 0) {
+          console.log("No donor records found during this pagination cycle.");
+          console.log("Creating single empty donor record.");
+          return [DUMMY_DONOR];
+        }
+        break;
+      }
+
+      console.log("Query for donors succeeded.");
+      for (const item of data.Items as Donor[]) {
+        if (item.publicName === "[object HTMLInputElement]") {
+          item.publicName = "";
+        }
+        donors.push(item);
+      }
+
+      if (data.LastEvaluatedKey) {
+        console.log("Querying for more...");
+        params.ExclusiveStartKey = data.LastEvaluatedKey;
+      } else {
+        hasMore = false;
+      }
     }
 
-    console.log("Query for donors succeeded.");
-    return (data.Items as Donor[]).map(item => {
-      if (item.publicName === "[object HTMLInputElement]") {
-        item.publicName = "";
-      }
-      return item;
-    });
+    return donors;
   } catch (err) {
-    console.error(
-      "Unable to query donors. Error:",
-      err instanceof Error ? err.message : "Unknown error",
-    );
+    console.error("Unable to query donors. Error:", JSON.stringify(err, null, 2));
     console.log("Creating single empty donor record.");
     return [DUMMY_DONOR];
   }
