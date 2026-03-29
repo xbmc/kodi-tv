@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import netlify from "@astrojs/netlify";
 
@@ -10,7 +10,6 @@ export default defineConfig({
   adapter: netlify(),
   integrations: [
     react(),
-    tailwind(),
     sitemap({
       filter: page => !page.includes("/admin"),
     }),
@@ -20,5 +19,6 @@ export default defineConfig({
   },
   vite: {
     envPrefix: ["PUBLIC_", "GATSBY_"],
+    plugins: [tailwindcss()],
   },
 });

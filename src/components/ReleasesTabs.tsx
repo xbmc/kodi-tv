@@ -31,7 +31,7 @@ class ReleasesTabs extends React.Component {
           return (
             <div key={index} label={release.name} className="flex">
               <div className="flex-initial">
-                <div className="pt-15">
+                <div className="pt-8">
                   <h1 className="text-xl font-bold">{release.title}</h1>
                   <ReactMarkdown className="prose prose-blue max-w-none">
                     {release.description}

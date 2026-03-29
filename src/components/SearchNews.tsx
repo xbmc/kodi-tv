@@ -133,7 +133,7 @@ export default class SearchAddons extends React.Component {
                   onChange={this.onKeywordChange}
                   value={this.state.keyword}
                   id="keyword"
-                  className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                  className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
             </div>
@@ -153,7 +153,7 @@ export default class SearchAddons extends React.Component {
                   onChange={this.onAuthorChange}
                   value={this.state.author}
                   id="author"
-                  className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                  className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
             </div>
@@ -171,7 +171,7 @@ export default class SearchAddons extends React.Component {
                 onChange={this.onTagSelect}
                 value={this.state.tagSelected}
                 name="category"
-                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
+                className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-hidden focus:ring-3 focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
               >
                 <option value="null">Select a Tag</option>
                 {this.props.tags.map((tag, index) => (

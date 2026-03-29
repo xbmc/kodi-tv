@@ -101,7 +101,7 @@ export default class PageStripe extends React.Component {
                         name="donor"
                         id="donor"
                         onChange={this.handleInputChange}
-                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export default class PageStripe extends React.Component {
                         name="forum"
                         id="forum"
                         onChange={this.handleInputChange}
-                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -164,7 +164,7 @@ export default class PageStripe extends React.Component {
                                 name="otPrice"
                                 id="otPrice"
                                 onChange={this.handleInputChange}
-                                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               />
                             </div>
                           </div>
@@ -181,7 +181,7 @@ export default class PageStripe extends React.Component {
                                 id="otCurrency"
                                 name="otCurrency"
                                 onChange={this.handleInputChange}
-                                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               >
                                 <option value="USD">USD</option>
                                 <option value="EUR">EUR</option>
@@ -204,7 +204,7 @@ export default class PageStripe extends React.Component {
                             <button
                               type="submit"
                               onClick={handleOneTimeClick}
-                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
+                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-hidden focus:shadow-outline"
                             >
                               Donate
                             </button>
@@ -214,7 +214,7 @@ export default class PageStripe extends React.Component {
                             <button
                               type="submit"
                               disabled
-                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
+                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-hidden focus:shadow-outline"
                             >
                               Donate
                             </button>
@@ -248,7 +248,7 @@ export default class PageStripe extends React.Component {
                                 id="recCurrency"
                                 name="recCurrency"
                                 onChange={this.handleInputChange}
-                                className="shadow-sm text-sm focus:ring-kodi focus:border-kodi block w-full border-gray-300 rounded-md"
+                                className="shadow-xs text-sm focus:ring-3 focus:ring-kodi focus:border-kodi block w-full border-gray-300 rounded-md"
                               >
                                 <option value="USD">USD</option>
                                 <option value="EUR">EUR</option>
