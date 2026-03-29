@@ -49,7 +49,7 @@ The Kodi team is an ever-changing group of volunteers from across the globe that
 ![Kodi team at 2015 DevCon in Prague, Czech Republic](/images/devcon-2015.webp)
 
 **Top:** alwinus, jjd-uk, keith, razze, ksoo, zag
-**Middle:** ruuk, koying, montellese, mkortstiege, phil65, martijn
+**Middle:** ruuk, koying, montellese, mkortstiege, , phil65, martijn
 **Bottom:** natethomas, paxxi, garbear, anssi, wisler, negge, hitcher, bignoid, fkoch, kib
 
 ### 2014 DevCon — Lisbon, Portugal
