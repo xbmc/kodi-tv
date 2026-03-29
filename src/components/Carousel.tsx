@@ -42,6 +42,9 @@ function useDotButtons(emblaApi: ReturnType<typeof useEmblaCarousel>[1]) {
     onInit();
     onSelect();
     emblaApi.on("reInit", onInit).on("reInit", onSelect).on("select", onSelect);
+    return () => {
+      emblaApi.off("reInit", onInit).off("reInit", onSelect).off("select", onSelect);
+    };
   }, [emblaApi, onInit, onSelect]);
 
   return { selectedIndex, scrollSnaps, onDotClick };
@@ -64,6 +67,9 @@ function usePrevNextButtons(emblaApi: ReturnType<typeof useEmblaCarousel>[1]) {
     if (!emblaApi) return;
     onSelect();
     emblaApi.on("reInit", onSelect).on("select", onSelect);
+    return () => {
+      emblaApi.off("reInit", onSelect).off("select", onSelect);
+    };
   }, [emblaApi, onSelect]);
 
   return { prevDisabled, nextDisabled, onPrev, onNext };
