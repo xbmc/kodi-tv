@@ -138,12 +138,12 @@ function FullWidthHeroCarousel({ slides }: FullWidthProps) {
 
   return (
     <div className="relative w-full">
-      <div className="overflow-hidden" ref={emblaRef}>
+      <div className="overflow-hidden w-full" ref={emblaRef}>
         <div className="flex">
           {slides.map((element, index) => (
             <div
               key={element.url}
-              className="relative min-w-0"
+              className="relative min-w-0 w-full"
               style={{ flex: "0 0 100%" }}
             >
               <div className="absolute inset-0">
@@ -184,15 +184,15 @@ function FullWidthHeroCarousel({ slides }: FullWidthProps) {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-10">
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2.5 z-20">
         {scrollSnaps.map((_, index) => (
           <button
             key={index}
             onClick={() => onDotClick(index)}
-            className={`h-2.5 w-2.5 rounded-full transition-all duration-300 ${
+            className={`h-3 w-3 rounded-full transition-all duration-300 shadow-sm ${
               index === selectedIndex
-                ? "bg-kodi scale-125"
-                : "bg-white/40 hover:bg-white/60"
+                ? "bg-kodi scale-125 shadow-glow"
+                : "bg-white/50 hover:bg-white/70"
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />
