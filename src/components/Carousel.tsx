@@ -149,12 +149,12 @@ function FullWidthHeroCarousel({ slides }: FullWidthProps) {
           {slides.map((element, index) => (
             <div
               key={element.url}
-              className="relative min-w-0 w-full"
+              className="relative min-w-0 w-full overflow-hidden"
               style={{ flex: "0 0 100%" }}
             >
               <div className="absolute inset-0">
                 <img
-                  className="h-full w-full object-cover scale-105"
+                  className="h-full w-full object-cover object-center scale-105"
                   src={element.image}
                   alt={element.title + " - " + element.subtitle}
                   loading={index === 0 ? "eager" : "lazy"}
