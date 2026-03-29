@@ -14,11 +14,7 @@ const posts = sorted.map(entry => ({
   fields: { slug: `/article/${entry.id}` },
   frontmatter: {
     author: entry.data.author || "",
-    date: new Date(entry.data.date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "2-digit",
-    }),
+    date: new Date(entry.data.date).toISOString(),
     featured_image: entry.data.featured_image || undefined,
     tags: entry.data.tags || [],
     title: entry.data.title,

@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import { DefaultLayout } from "./Layout";
 import ItemWithComma from "./ItemWithComma";
 import remarkGfm from "remark-gfm";
+import { formatDate } from "../lib/utils";
 
 export default function BlogPost(props: { preview?: any; blogPost?: any }) {
   const { blogPost } = props;
@@ -89,7 +90,7 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
             {blogPost.frontmatter.author}
           </p>
           <div className="flex space-x-1 text-lg text-gray-500">
-            <span>{blogPost.frontmatter.date}</span>
+            <span>{formatDate(blogPost.frontmatter.date)}</span>
             <span aria-hidden="true">&middot;</span>
             <span>{blogPost.timeToRead} min read</span>
           </div>

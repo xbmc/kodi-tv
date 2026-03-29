@@ -59,11 +59,7 @@ export function prepareBlogPost(entry: any) {
     fields: { slug: `/article/${entry.id}` },
     frontmatter: {
       author: entry.data.author || "",
-      date: new Date(entry.data.date).toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "2-digit",
-      }),
+      date: new Date(entry.data.date).toISOString(),
       tags: entry.data.tags || [],
       featured_image: entry.data.featured_image || undefined,
       title: entry.data.title,

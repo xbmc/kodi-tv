@@ -21,11 +21,7 @@ const blogPost = {
   timeToRead: calcReadTime(entry.body),
   frontmatter: {
     author: data.author || "",
-    date: new Date(data.date).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "2-digit",
-    }),
+    date: new Date(data.date).toISOString(),
     tags: data.tags || [],
     featured_image: data.featured_image || undefined,
     title: data.title,

@@ -7,6 +7,7 @@ import type { News } from "../hooks/LatestNews";
 import remarkGfm from "remark-gfm";
 
 import slugify from "slugify";
+import { formatDate } from "../lib/utils";
 
 function BlogPostCard(props: { post: News }) {
   let post = props.post;
@@ -78,7 +79,7 @@ function BlogPostCard(props: { post: News }) {
                 {post.frontmatter.author}
               </p>
               <div className="flex space-x-1 text-sm text-gray-400">
-                <span>{post.frontmatter.date}</span>
+                <span>{formatDate(post.frontmatter.date)}</span>
                 <span aria-hidden="true">&middot;</span>
                 <span>{post.timeToRead} min read</span>
               </div>

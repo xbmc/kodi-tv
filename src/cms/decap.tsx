@@ -19,13 +19,7 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let parsedDate =
     rawDate instanceof Date ? rawDate : rawDate ? new Date(rawDate) : null;
   post.frontmatter.date =
-    parsedDate && !isNaN(parsedDate.getTime())
-      ? new Intl.DateTimeFormat("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "2-digit",
-        }).format(parsedDate)
-      : "";
+    parsedDate && !isNaN(parsedDate.getTime()) ? parsedDate.toISOString() : "";
   let featuredImage = widgetsFor("featured_image");
   let imgSrc = featuredImage.getIn(["data", "src"], null);
   if (imgSrc != null) {
