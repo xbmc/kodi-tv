@@ -23,6 +23,7 @@ collections:
       - name: "date"
         label: "Publish Date"
         widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm:ss[Z]"
         date_format: "DD MMM YYYY"
         time_format: "HH:mm"
       - { label: "Author", name: "author", widget: "string", required: false }
