@@ -15,11 +15,23 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   post.frontmatter = {};
   post.frontmatter.title = entry.getIn(["data", "title"]);
   post.frontmatter.author = entry.getIn(["data", "author"]);
-  post.frontmatter.date = new Intl.DateTimeFormat("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "2-digit",
-  }).format(entry.getIn(["data", "date"]));
+  let rawDate = entry.getIn(["data", "date"]);
+  let parsedDate =
+    rawDate instanceof Date
+      ? rawDate
+      : rawDate
+        ? new Date(
+            String(rawDate).replace(/(\d{1,2})\s+(\w{3})\s+(\d{4})/, "$2 $1, $3"),
+          )
+        : null;
+  post.frontmatter.date =
+    parsedDate && !isNaN(parsedDate.getTime())
+      ? new Intl.DateTimeFormat("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "2-digit",
+        }).format(parsedDate)
+      : "";
   let featuredImage = widgetsFor("featured_image");
   let imgSrc = featuredImage.getIn(["data", "src"], null);
   if (imgSrc != null) {
