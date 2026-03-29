@@ -31,36 +31,35 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
 
   return (
     <DefaultLayout frontmatter={frontmatter} preview={preview}>
-      <div
-        style={{ display: showimage ? "block" : "none" }}
-        className="relative pb-6"
-      >
-        <div className="max-w-7xl mx-auto">
-          <div className="relative shadow-xl rounded-2xl overflow-hidden">
-            <div
-              style={{
-                backgroundImage: `url('${blogPost.frontmatter.featured_image.src}')`,
-                backgroundSize: "fill",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-              className="absolute inset-0"
-            >
-              <div className="absolute inset-0 backdrop-blur-lg bg-black/10">
-                <img
-                  className="h-full w-full object-contain"
-                  src={blogPost.frontmatter.featured_image.src}
-                  title={blogPost.frontmatter.featured_image.title}
-                  alt={blogPost.frontmatter.featured_image.alt}
-                  loading="lazy"
-                  decoding="async"
-                />
+      {showimage && (
+        <div className="relative pb-6">
+          <div className="max-w-7xl mx-auto">
+            <div className="relative shadow-xl rounded-2xl overflow-hidden">
+              <div
+                style={{
+                  backgroundImage: `url('${blogPost.frontmatter.featured_image.src}')`,
+                  backgroundSize: "fill",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+                className="absolute inset-0"
+              >
+                <div className="absolute inset-0 backdrop-blur-lg bg-black/10">
+                  <img
+                    className="h-full w-full object-contain"
+                    src={blogPost.frontmatter.featured_image.src}
+                    title={blogPost.frontmatter.featured_image.title}
+                    alt={blogPost.frontmatter.featured_image.alt}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="relative px-6 py-40"></div>
+              <div className="relative px-6 py-40"></div>
           </div>
         </div>
       </div>
+      )}
       <div className="mt-3">
         <h2 className="text-3xl font-bold font-display tracking-tight">
           {blogPost.frontmatter.title}

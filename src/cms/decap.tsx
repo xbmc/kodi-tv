@@ -17,16 +17,7 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   post.frontmatter.author = entry.getIn(["data", "author"]);
   let rawDate = entry.getIn(["data", "date"]);
   let parsedDate =
-    rawDate instanceof Date
-      ? rawDate
-      : rawDate
-        ? new Date(
-            String(rawDate).replace(
-              /(\d{1,2})\s+(\w{3})\s+(\d{4})T?(.*)/,
-              "$2 $1, $3 $4",
-            ),
-          )
-        : null;
+    rawDate instanceof Date ? rawDate : rawDate ? new Date(rawDate) : null;
   post.frontmatter.date =
     parsedDate && !isNaN(parsedDate.getTime())
       ? new Intl.DateTimeFormat("en-US", {
