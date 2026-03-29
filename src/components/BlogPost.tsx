@@ -56,9 +56,9 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
                 </div>
               </div>
               <div className="relative px-6 py-40"></div>
+            </div>
           </div>
         </div>
-      </div>
       )}
       <div className="mt-3">
         <h2 className="text-3xl font-bold font-display tracking-tight">
