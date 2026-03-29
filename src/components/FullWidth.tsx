@@ -27,10 +27,20 @@ function FullWidthCallOut(props: {
   return (
     <>
       <div className={"pt-6 pb-12 lg:pt-12 lg:pb-20 px-6 " + backgroundColor}>
-        <div className={"text-center text-5xl font-bold " + titleTextColor}>
+        <div
+          className={
+            "text-center text-5xl font-bold font-display tracking-tight " +
+            titleTextColor
+          }
+        >
           {props.title}
         </div>
-        <div className={"mt-1 text-center text-2xl " + subtextColor}>
+        <div
+          className={
+            "mt-1 text-center text-2xl leading-relaxed max-w-3xl mx-auto " +
+            subtextColor
+          }
+        >
           {props.children}
         </div>
       </div>
@@ -70,12 +80,13 @@ function FullWidthFeaturesWithIcons(props: {
         <div className="max-w-4xl mx-auto px-4 pt-12 pb-12 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-18 lg:pb-18 lg:px-8">
           <h2
             className={
-              "text-3xl font-extrabold tracking-tight " + foregroundTextColor
+              "text-3xl font-extrabold tracking-tight font-display " +
+              foregroundTextColor
             }
           >
             {props.title}
           </h2>
-          <p className={"mt-4 max-w-3xl text-lg " + subtextColor}>
+          <p className={"mt-4 max-w-3xl text-lg leading-relaxed " + subtextColor}>
             {props.description}
           </p>
           <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
@@ -84,7 +95,7 @@ function FullWidthFeaturesWithIcons(props: {
                 <div>
                   <span
                     className={
-                      "flex items-center justify-center h-12 w-12 rounded-md " +
+                      "flex items-center justify-center h-12 w-12 rounded-xl " +
                       foregroundOpacityColor
                     }
                   >
@@ -92,7 +103,11 @@ function FullWidthFeaturesWithIcons(props: {
                   </span>
                 </div>
                 <div className="mt-6">
-                  <h3 className={"text-lg font-medium " + foregroundTextColor}>
+                  <h3
+                    className={
+                      "text-lg font-medium font-display " + foregroundTextColor
+                    }
+                  >
                     {item.title}
                   </h3>
                   <p className={"mt-2 text-base " + subtextColor}>
@@ -161,19 +176,20 @@ function FullWidthTwoPaneIconsRight(props: {
             <div className="px-6 max-w-xl mx-auto lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="hidden md:flex h-12 w-12 rounded-md items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
+                  <span className="hidden md:flex h-12 w-12 rounded-xl items-center justify-center bg-kodi-gradient shadow-glow">
                     {props.icon}
                   </span>
                 </div>
                 <div className="mt-6">
                   <h2
                     className={
-                      "text-3xl font-extrabold tracking-tight " + titleTextColor
+                      "text-3xl font-extrabold tracking-tight font-display " +
+                      titleTextColor
                     }
                   >
                     {props.title}
                   </h2>
-                  <div className={"mt-4 text-lg " + subtextColor}>
+                  <div className={"mt-4 text-lg leading-relaxed " + subtextColor}>
                     {props.children}
                   </div>
                   <div className="mt-6">
@@ -257,19 +273,22 @@ function FullWidthTwoPaneImageLeft(props: {
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
             <div className="px-6 max-w-xl mx-auto lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
-                <span className="hidden md:flex h-12 w-12 rounded-md items-center justify-center bg-gradient-to-r from-kodi-darker to-kodi-lighter">
+                <span className="hidden md:flex h-12 w-12 rounded-xl items-center justify-center bg-kodi-gradient shadow-glow">
                   {props.icon}
                 </span>
               </div>
               <div className="mt-6">
                 <h2
                   className={
-                    "text-3xl font-extrabold tracking-tight " + titleTextColor
+                    "text-3xl font-extrabold tracking-tight font-display " +
+                    titleTextColor
                   }
                 >
                   {props.title}
                 </h2>
-                <p className={"mt-4 text-lg " + bodyTextColor}>{props.children}</p>
+                <p className={"mt-4 text-lg leading-relaxed " + bodyTextColor}>
+                  {props.children}
+                </p>
                 <div className="mt-6">
                   <Button href={props.url}>{props.buttontext}</Button>
                 </div>
@@ -278,7 +297,7 @@ function FullWidthTwoPaneImageLeft(props: {
             <div className="hidden lg:block mt-16 lg:mt-0 lg:col-start-1">
               <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
-                  className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                  className="w-full rounded-2xl shadow-xl ring-1 ring-black/5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                   src={props.image.src}
                   title={props.image.title}
                   alt={props.image.alt}
@@ -309,14 +328,14 @@ function FullWidthSponsorList(props: {
     <>
       <div className={backgroundColor}>
         <div className="max-w-7xl mx-auto py-12 lg:py-16 px-4 lg:px-8">
-          <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-wide">
+          <p className="text-center text-sm font-semibold uppercase text-gray-500 tracking-widest font-display">
             {props.title}
           </p>
-          <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
+          <div className="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-6">
             {props.sponsors.map(sponsor => (
               <div
                 key={sponsor.slug}
-                className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 filter grayscale transition duration-500 ease-in-out hover:filter-none"
+                className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 filter grayscale transition-all duration-500 ease-out hover:filter-none hover:scale-105"
               >
                 <a href={sponsor.slug} target="_blank" rel="noreferrer">
                   <img
@@ -372,7 +391,7 @@ function FullWidthNews(props: {
           <div className="text-center">
             <h2
               className={
-                "text-3xl tracking-tight font-extrabold sm:text-4xl " +
+                "text-3xl tracking-tight font-extrabold sm:text-4xl font-display " +
                 titleTextColor
               }
             >
@@ -380,7 +399,8 @@ function FullWidthNews(props: {
             </h2>
             <p
               className={
-                "mt-3 max-w-2xl mx-auto text-xl sm:mt-4 " + subtitleTextColor
+                "mt-3 max-w-2xl mx-auto text-xl sm:mt-4 leading-relaxed " +
+                subtitleTextColor
               }
             >
               {props.subtitle}
@@ -423,12 +443,18 @@ function FullWidthStats(props: {
   }
   return (
     <div className={backgroundColor}>
-      <div className="max-w-7xl mx-auto py-6 lg:py-12 px-4 lg:px-8">
+      <div className="max-w-7xl mx-auto py-6 lg:py-16 px-4 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className={"text-5xl font-extrabold " + titleTextColor}>
+          <h2
+            className={
+              "text-5xl font-extrabold font-display tracking-tight " + titleTextColor
+            }
+          >
             {props.title}
           </h2>
-          <p className={"mt-1 text-2xl " + subtitleTextColor}>{props.subtitle}</p>
+          <p className={"mt-1 text-2xl leading-relaxed " + subtitleTextColor}>
+            {props.subtitle}
+          </p>
         </div>
         <dl className="mt-10 text-center max-w-3xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
           {props.stats.map((stat, index) => (
@@ -440,7 +466,11 @@ function FullWidthStats(props: {
               >
                 {stat.title}
               </dt>
-              <dd className={"order-1 text-4xl font-extrabold " + titleTextColor}>
+              <dd
+                className={
+                  "order-1 text-4xl font-extrabold font-display " + titleTextColor
+                }
+              >
                 {stat.value}
               </dd>
             </div>
@@ -498,13 +528,17 @@ function FullWidthRoundedCardList(props: {
           <div className="text-center">
             <h2
               className={
-                "max-w-5xl mx-auto tracking-tight text-4xl font-extrabold " +
+                "max-w-5xl mx-auto tracking-tight text-3xl lg:text-4xl font-extrabold font-display " +
                 titleTextColor
               }
             >
               {props.title}
             </h2>
-            <p className={"mt-4 max-w-3xl mx-auto text-xl " + subtitleTextColor}>
+            <p
+              className={
+                "mt-4 max-w-3xl mx-auto text-xl leading-relaxed " + subtitleTextColor
+              }
+            >
               {props.subtitle}
             </p>
           </div>

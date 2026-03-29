@@ -64,9 +64,9 @@ export default function AddonLayout({
     datatype = "general";
     if (addon[fields[i].toLowerCase()] != undefined) {
       if (pushed % 2 == 0) {
-        className = "bg-gray-100 " + classNameRoot;
+        className = "bg-gray-50/50 " + classNameRoot;
       } else {
-        className = "bg-gray-50 " + classNameRoot;
+        className = "bg-white " + classNameRoot;
       }
       if (fields[i] === "Platforms") {
         datatype = "platform";
@@ -105,7 +105,9 @@ export default function AddonLayout({
           />
         </div>
         <div className="col-span-4 flex flex-col">
-          <ReactMarkdown className="text-2xl font-bold">{addon.name}</ReactMarkdown>
+          <ReactMarkdown className="text-2xl font-bold font-display tracking-tight">
+            {addon.name}
+          </ReactMarkdown>
           <ReactMarkdown>{addon.snippet}</ReactMarkdown>
           <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm">
             <div className="inline-flex">
@@ -118,7 +120,13 @@ export default function AddonLayout({
               <div className="pr-1">
                 <ClockIcon className="h-5 w-5 text-kodi" />
               </div>
-              <div className="pr-4">{addon.lastupdate}</div>
+              <div className="pr-4">
+                {new Date(addon.lastupdate).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </div>
             </div>
             <div className="inline-flex">
               <div className="pr-1">{authoricon}</div>
@@ -163,7 +171,7 @@ export default function AddonLayout({
           </div>
         </div>
       </div>
-      <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-blue-50 border-l-4 border-kodi-darker p-4">
+      <div className="mx-2 mt-8 mb-5 lg:mx-8 xl:mx-16 bg-kodi/5 border-l-4 border-kodi-darker p-4 rounded-r-xl">
         <div className="flex">
           <div className="flex-shrink-0">
             <InformationCircleIcon className="h-5 w-5 text-kodi-darker" />
@@ -179,7 +187,7 @@ export default function AddonLayout({
           </div>
         </div>
       </div>
-      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-lg bg-gray-50 shadow overflow-hidden">
+      <div className="mx-2 mt-4 lg:mx-8 xl:mx-16 rounded-2xl bg-white shadow-glass border border-gray-100/80 overflow-hidden">
         <div className="border-t border-gray-200">
           <dl>
             {details.map(item => (

@@ -36,7 +36,7 @@ export default function ButtonStripe(props: {
     <button
       type="button"
       onClick={handleClick}
-      className="flex items-center justify-center px-8 py-3 mt-2 mb-3 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
+      className="flex items-center justify-center px-8 py-3 mt-2 mb-3 border border-transparent text-base font-medium font-display rounded-xl shadow-sm text-gray-50 bg-kodi-darker transition-all duration-500 ease-out select-none hover:bg-kodi hover:shadow-glow hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-kodi/30"
     >
       <span>{props.button_text}</span>
     </button>

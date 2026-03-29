@@ -1,7 +1,4 @@
-import {
-  DynamoDBDocument,
-  type QueryCommandInput,
-} from "@aws-sdk/lib-dynamodb";
+import { DynamoDBDocument, type QueryCommandInput } from "@aws-sdk/lib-dynamodb";
 import { DynamoDB } from "@aws-sdk/client-dynamodb";
 
 export interface Donor {
@@ -38,8 +35,7 @@ export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
       TableName: import.meta.env.AWS_DBNAME,
       IndexName: "all",
       Limit: 30,
-      ProjectionExpression:
-        "id, createdAt, amount, currency, provider, publicName",
+      ProjectionExpression: "id, createdAt, amount, currency, provider, publicName",
       ScanIndexForward: false,
       KeyConditionExpression: "dummy = :dummyval",
       ExpressionAttributeValues: { ":dummyval": "1" },
@@ -72,10 +68,7 @@ export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
   try {
     data = await docClient.query(params);
   } catch (err) {
-    console.error(
-      "Unable to query donors. Error:",
-      JSON.stringify(err, null, 2),
-    );
+    console.error("Unable to query donors. Error:", JSON.stringify(err, null, 2));
     console.log("Creating single empty donor record.");
     return [DUMMY_DONOR];
   }
@@ -87,7 +80,7 @@ export async function getDonors(options?: DonorQueryOptions): Promise<Donor[]> {
   }
 
   console.log("Query for donors succeeded.");
-  return (data.Items as Donor[]).map((item) => {
+  return (data.Items as Donor[]).map(item => {
     if (item.publicName === "[object HTMLInputElement]") {
       item.publicName = "";
     }
