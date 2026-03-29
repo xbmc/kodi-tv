@@ -47,7 +47,7 @@ const ogImage = image
     <meta name="twitter:title" content={shortTitle} />
     <meta name="twitter:description" content={metaDescription} />
     <meta name="twitter:image" content={ogImage} />
-    <meta name="theme-color" content="#663399" />
+    <meta name="theme-color" content="#0F2D3A" />
     <meta name="twitter:creator" content="@KodiTV" />
     <meta name="twitter:site" content="@KodiTV" />
     <link rel="icon" href="/favicon-32x32.png" type="image/png" />
@@ -73,8 +73,13 @@ const ogImage = image
       async
       src="//gc.zgo.at/count.js"></script>
   </head>
-  <body>
-    <div class:list={[landing ? "bg-gray-50" : "bg-gray-200", "h-full"]}>
+  <body class="font-body">
+    <div
+      class:list={[
+        landing ? "bg-kodi-surface-light" : "bg-gray-100",
+        "h-full min-h-screen",
+      ]}
+    >
       <Header compact={landing} frontmatter={{ title: title || "" }} client:load />
       {
         landing ? (
@@ -86,13 +91,14 @@ const ogImage = image
         ) : (
           <main class="-mt-32">
             <div class="max-w-7xl mx-auto pb-0 px-0 md:px-6 lg:px-8">
-              <div class="bg-gray-50 md:rounded-lg md:shadow p-6 min-h-screen">
+              <div class="bg-white md:rounded-2xl md:shadow-glass p-6 lg:p-8 min-h-screen border border-gray-100/80">
                 <slot />
               </div>
             </div>
           </main>
         )
       }
+      {!landing && <div class="pt-16" />}
       <Footer sponsors={sponsors} />
     </div>
   </body>

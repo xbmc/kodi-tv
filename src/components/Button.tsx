@@ -31,18 +31,21 @@ function Button({
           py-3
           mr-2
           border
-          border-transparent
+          border-white/20
           text-base
           font-medium
-          rounded-md
+          font-display
+          rounded-xl
           shadow-sm
           text-kodi-darker
-          bg-gray-50
-          transition
+          bg-white
+          transition-all
           duration-500
-          ease
+          ease-out
           select-none
-          hover:bg-gray-200
+          hover:bg-gray-50
+          hover:shadow-lg
+          hover:-translate-y-0.5
           `
       : `
           flex
@@ -55,17 +58,22 @@ function Button({
           border-transparent
           text-base
           font-medium
-          rounded-md
+          font-display
+          rounded-xl
           shadow-sm
           text-gray-50
           bg-kodi-darker
-          transition
+          transition-all
           duration-500
-          ease
+          ease-out
           select-none
           hover:bg-kodi
+          hover:shadow-glow
+          hover:-translate-y-0.5
           focus:outline-none
-          focus:shadow-outline`;
+          focus:ring-2
+          focus:ring-kodi/30
+          focus:ring-offset-2`;
 
   if (buttonType === "button") {
     return (

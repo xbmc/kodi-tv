@@ -26,7 +26,7 @@ function IconListFeatured(props: {
           <FeaturedCard
             key={item.name}
             iconClass={
-              "-mt-12 flex items-center justify-center h-24 w-24 rounded-md border bg-gray-50"
+              "-mt-12 flex items-center justify-center h-24 w-24 rounded-xl border border-gray-100 bg-white shadow-glass"
             }
             title={item.name}
             icon={
@@ -84,7 +84,10 @@ function IconList(props: {
   return (
     <div className={className}>
       {items.map((item, index) => (
-        <div className="flex justify-center text-center" key={item.name}>
+        <div
+          className="flex justify-center text-center"
+          key={item.name || item.slug || index}
+        >
           {item.slug == undefined ? (
             <>
               <img

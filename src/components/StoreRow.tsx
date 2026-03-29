@@ -7,7 +7,7 @@ export default function StoreRow({ data }: { data: Merch[] }) {
   return (
     <>
       <div className="flex flex-col gap-3 mb-8">
-        <h2 className="text-2xl font-bold mb-4">Grab some merch</h2>
+        <h2 className="text-2xl font-bold mb-4 font-display">Grab some merch</h2>
         <IconList
           className="flex justify-between flex-wrap h-[280px] overflow-hidden"
           items={data}

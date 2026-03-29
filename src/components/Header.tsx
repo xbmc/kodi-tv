@@ -18,11 +18,11 @@ import {
 import type { MenuEntry } from "./types";
 
 let regularButton =
-  "text-gray-100 hover:bg-kodibg-lighter hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
+  "text-gray-200 hover:text-gray-50 hover:bg-white/10 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
 let primaryButton =
-  "text-gray-100 bg-kodi-darker hover:bg-kodi hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
+  "text-gray-50 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out shadow-sm hover:shadow-glow";
 let callToActionButton =
-  "text-gray-100 bg-kodi-castellina hover:saturate-150 hover:text-gray-50 px-3 py-2 rounded-md text-sm font-medium";
+  "text-gray-50 bg-kodi-castellina hover:bg-amber-600 hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
 
 const mainMenu: MenuEntry[] = [
   {
@@ -192,19 +192,17 @@ const mainMenu: MenuEntry[] = [
 function Header(props: any) {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let mainclassname = "bg-kodibg pb-32";
-  let borderclassname = "border-b border-gray-600";
   let showtitle = true;
   if (props.compact) {
     mainclassname = "bg-kodibg";
-    borderclassname = "";
     showtitle = false;
   }
   return (
     <>
       <div className={mainclassname}>
-        <nav className="bg-kodibg">
+        <nav className="glass-dark sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-2 lg:px-6">
-            <div className={borderclassname}>
+            <div>
               <div className="flex items-center justify-between h-16 px-4">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -249,7 +247,7 @@ function Header(props: any) {
                   <button
                     onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
                     type="button"
-                    className="bg-kodibg inline-flex items-center justify-center p-2 rounded-md text-gray-100 hover:text-gray-50 hover:bg-kodibg-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-kodibg focus:ring-gray-50"
+                    className="bg-transparent inline-flex items-center justify-center p-2 rounded-lg text-gray-200 hover:text-gray-50 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-kodi/30 transition-all duration-300"
                     aria-controls="mobile-menu"
                     aria-expanded="false"
                   >
@@ -272,7 +270,7 @@ function Header(props: any) {
                         <a
                           key={item.url.url}
                           href={item.url.url}
-                          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                          className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
                         >
                           {item.title}
                         </a>
@@ -280,7 +278,7 @@ function Header(props: any) {
                         <a
                           key={item.url.url}
                           href={item.url.url}
-                          className="text-gray-200 hover:bg-kodibg-lighter hover:text-gray-50 block px-3 py-2 rounded-md text-base font-medium"
+                          className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
                         >
                           {item.title}
                         </a>
@@ -296,7 +294,7 @@ function Header(props: any) {
         </nav>
         <header style={{ display: showtitle ? "block" : "none" }} className="py-10">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-gray-50">
+            <h1 className="text-3xl font-bold text-gray-50 font-display tracking-tight">
               {props.frontmatter.title}
             </h1>
           </div>

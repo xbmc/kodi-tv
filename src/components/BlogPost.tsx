@@ -62,7 +62,9 @@ export default function BlogPost(props: { preview?: any; blogPost?: any }) {
         </div>
       </div>
       <div className="mt-3">
-        <h2 className="text-3xl font-bold">{blogPost.frontmatter.title}</h2>
+        <h2 className="text-3xl font-bold font-display tracking-tight">
+          {blogPost.frontmatter.title}
+        </h2>
         <p className="text-md font-medium text-kodi prose prose-blue">
           {blogPost.frontmatter.tags.map((tag: string, index: any) => {
             return (

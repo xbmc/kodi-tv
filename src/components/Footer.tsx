@@ -10,14 +10,18 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
 
   return (
     <>
-      <footer className="bg-gray-200" aria-labelledby="footerHeading">
+      <footer
+        className="bg-kodibg-deep text-gray-400 relative"
+        aria-labelledby="footerHeading"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/20 pointer-events-none"></div>
         <h2 id="footerHeading" className="sr-only">
           Footer
         </h2>
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <div className="relative max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
-              <p className="text-gray-600 text-base">
+              <p className="text-gray-400 text-sm leading-relaxed">
                 Kodi is a free and open source media player application developed by
                 the Kodi Foundation, a non-profit technology consortium. Kodi is
                 available for multiple operating-systems and hardware platforms,
@@ -30,14 +34,14 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
             <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold text-kodi-lighter tracking-widest uppercase font-display">
                     About
                   </h3>
-                  <ul className="mt-4 space-y-4">
+                  <ul className="mt-4 space-y-3">
                     <li>
                       <a
                         href="/about/foundation"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Kodi Foundation
                       </a>
@@ -45,7 +49,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     <li>
                       <a
                         href="/about/team"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Kodi Team
                       </a>
@@ -53,7 +57,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     <li>
                       <a
                         href="/about/sponsors"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Sponsorship
                       </a>
@@ -61,7 +65,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     <li>
                       <a
                         href="/about/terms-of-service"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Terms of Service
                       </a>
@@ -69,7 +73,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     <li>
                       <a
                         href="/about/privacy-policy"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Privacy Policy
                       </a>
@@ -77,7 +81,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     <li>
                       <a
                         href="/about/dmca"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         DMCA Policy
                       </a>
@@ -87,7 +91,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://status.kodi.tv/"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Status
                       </a>
@@ -95,26 +99,26 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold text-kodi-lighter tracking-widest uppercase font-display">
                     Sponsors
                   </h3>
-                  <ul className="mt-4 space-y-4">
+                  <ul className="mt-4 space-y-3">
                     <SponsorFooterList sponsors={orderedSponsors} />
                   </ul>
                 </div>
               </div>
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold text-kodi-lighter tracking-widest uppercase font-display">
                     Friends
                   </h3>
-                  <ul className="mt-4 space-y-4">
+                  <ul className="mt-4 space-y-3">
                     <li>
                       <a
                         target="_blank"
                         rel="noreferrer"
                         href="https://fanart.tv"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Fanart.TV
                       </a>
@@ -124,7 +128,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://libreelec.tv"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         LibreELEC
                       </a>
@@ -134,7 +138,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://musicbrainz.org"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         MusicBrainz.org
                       </a>
@@ -144,7 +148,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://osmc.tv"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         OSMC
                       </a>
@@ -154,7 +158,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://www.theaudiodb.com"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         TheAudioDB.com
                       </a>
@@ -164,7 +168,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://thegamesdb.net"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         TheGamesDB.net
                       </a>
@@ -174,7 +178,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://www.themoviedb.org"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         TheMovieDB.org
                       </a>
@@ -184,7 +188,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://www.thetvdb.com"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         thetvdb.com
                       </a>
@@ -194,7 +198,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://tvheadend.org/"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Tvheadend
                       </a>
@@ -204,7 +208,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://www.tvmaze.com"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         TVMaze
                       </a>
@@ -212,16 +216,16 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                   </ul>
                 </div>
                 <div className="mt-12 md:mt-0">
-                  <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">
+                  <h3 className="text-xs font-semibold text-kodi-lighter tracking-widest uppercase font-display">
                     Social
                   </h3>
-                  <ul className="mt-4 space-y-4">
+                  <ul className="mt-4 space-y-3">
                     <li>
                       <a
                         target="_blank"
                         rel="noreferrer"
                         href="https://www.facebook.com/KodiEntertainment"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Facebook
                       </a>
@@ -231,7 +235,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="https://mastodon.cloud/@Kodi"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Mastodon
                       </a>
@@ -241,7 +245,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                         target="_blank"
                         rel="noreferrer"
                         href="/rss.xml"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         RSS
                       </a>
@@ -250,18 +254,8 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="https://twitter.com/KodiTV"
-                        className="text-base text-gray-600 hover:text-gray-900"
-                      >
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.youtube.com/user/teamxbmc"
-                        className="text-base text-gray-600 hover:text-gray-900"
+                        className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         YouTube
                       </a>
@@ -271,12 +265,11 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
               </div>
             </div>
           </div>
-          <div className="mt-12 border-t border-gray-200 pt-8">
-            <p className="text-base text-gray-600 xl:text-center">
-              &copy;{year} The Kodi Foundation. All rights reserved. This web site is
-              powered by{" "}
+          <div className="mt-12 border-t border-white/10 pt-8">
+            <p className="text-sm text-gray-500 xl:text-center">
+              &copy;{year} The Kodi Foundation. All rights reserved. Powered by{" "}
               <a
-                className="underline"
+                className="text-gray-400 hover:text-gray-50 underline underline-offset-2 transition-colors duration-300"
                 target="_blank"
                 rel="noreferrer"
                 href={"https://www.netlify.com"}

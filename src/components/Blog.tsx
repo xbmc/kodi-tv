@@ -19,13 +19,13 @@ function BlogPostCard(props: { post: News }) {
   }
   return (
     <>
-      <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        <a href={post.fields.slug} className="flex-shrink-0">
+      <div className="flex flex-col rounded-2xl shadow-glass overflow-hidden card-lift border border-gray-100/80">
+        <a href={post.fields.slug} className="flex-shrink-0 overflow-hidden">
           {post.frontmatter.featured_image == undefined ? (
-            <div className="h-48 w-full bg-kodi"></div>
+            <div className="h-48 w-full bg-kodi-gradient"></div>
           ) : (
             <img
-              className="h-48 w-full object-fill bg-gray-200"
+              className="h-48 w-full object-fill bg-gray-100 transition-transform duration-700 ease-out hover:scale-105"
               title={post.frontmatter.featured_image.title}
               src={post.frontmatter.featured_image.src}
               alt={post.frontmatter.featured_image.alt}
@@ -36,7 +36,7 @@ function BlogPostCard(props: { post: News }) {
             />
           )}
         </a>
-        <div className="flex-1 bg-gray-50 p-6 flex flex-col justify-between">
+        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-sm font-medium">
               {post.frontmatter.tags.map((tag: string, index: any) => {
@@ -60,13 +60,13 @@ function BlogPostCard(props: { post: News }) {
               &nbsp;
             </p>
             <a href={post.fields.slug} className="block mt-2">
-              <ReactMarkdown className="text-xl font-semibold text-gray-900">
+              <ReactMarkdown className="text-xl font-semibold text-gray-900 font-display">
                 {post.frontmatter.title}
               </ReactMarkdown>
 
               <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                className="mt-3 text-base text-gray-500"
+                className="mt-3 text-base text-gray-500 leading-relaxed"
               >
                 {post.excerpt}
               </ReactMarkdown>
@@ -77,7 +77,7 @@ function BlogPostCard(props: { post: News }) {
               <p className="text-sm font-medium text-gray-900">
                 {post.frontmatter.author}
               </p>
-              <div className="flex space-x-1 text-sm text-gray-500">
+              <div className="flex space-x-1 text-sm text-gray-400">
                 <span>{post.frontmatter.date}</span>
                 <span aria-hidden="true">&middot;</span>
                 <span>{post.timeToRead} min read</span>

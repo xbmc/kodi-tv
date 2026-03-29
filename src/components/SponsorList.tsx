@@ -8,9 +8,9 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
     <>
       {props.sponsors.length > 0 ? (
         <>
-          <div className="relative bg-gray-50 py-6">
+          <div className="relative bg-white py-6">
             <div className="mx-auto max-w-3xl lg:max-w-7xl">
-              <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+              <h2 className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl font-display">
                 {props.title}
               </h2>
               <div className="mt-12">
@@ -18,10 +18,10 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
                   {props.sponsors.map((sponsor, index) => (
                     <>
                       <div key={sponsor.name} className="pt-6">
-                        <div className="flow-root bg-gray-100 rounded-lg px-6 pb-8">
+                        <div className="flow-root bg-gray-50 rounded-2xl px-6 pb-8 border border-gray-100/80">
                           <div className="-mt-6">
                             <div>
-                              <span className="inline-flex items-center justify-center p-3 bg-gray-50 border rounded-md shadow-lg">
+                              <span className="inline-flex items-center justify-center p-3 bg-white border border-gray-100 rounded-xl shadow-glass">
                                 <a
                                   href={sponsor.slug}
                                   target="_blank"
@@ -68,9 +68,11 @@ function SponsorFooterList(props: { sponsors: Sponsor[] }) {
             target="_blank"
             rel="noreferrer"
             href={sponsor.slug}
-            className="text-base text-gray-600 hover:text-gray-900 flex gap-1"
+            className="text-sm text-gray-400 hover:text-gray-50 flex gap-1 transition-colors duration-300"
           >
-            {sponsor.sponsor_type === "Financial" && <StarIcon className="size-5" />}
+            {sponsor.sponsor_type === "Financial" && (
+              <StarIcon className="size-4 text-kodi-castellina" />
+            )}
             {sponsor.name}
           </a>
         </li>

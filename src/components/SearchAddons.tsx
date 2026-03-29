@@ -228,7 +228,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
                 onChange={onKeywordChange}
                 value={keyword}
                 id="keyword"
-                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-200 rounded-xl transition-shadow duration-300 focus:shadow-glow"
               />
             </div>
           </div>
@@ -248,7 +248,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
                 onChange={onAuthorChange}
                 value={author}
                 id="author"
-                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-200 rounded-xl transition-shadow duration-300 focus:shadow-glow"
               />
             </div>
           </div>
@@ -266,7 +266,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
               onChange={onCategorySelect}
               value={categorySelected}
               name="category"
-              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
+              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-200 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-xl transition-shadow duration-300 focus:shadow-glow"
             >
               {categoryOptions.map((item, index) => (
                 <option key={item.value}>{item.value}</option>
@@ -287,7 +287,7 @@ export default function SearchAddons({ categories, addons, linkroot }) {
               onChange={onSortSelect}
               value={sortSelected}
               name="sort"
-              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-md"
+              className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-200 focus:outline-none focus:ring-kodi focus:border-kodi sm:text-sm rounded-xl transition-shadow duration-300 focus:shadow-glow"
             >
               {sortOptions.map((item, index) => (
                 <option key={item.value}>{item.value}</option>

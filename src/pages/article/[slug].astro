@@ -37,11 +37,6 @@ let description = blogPost.excerpt;
 let image = data.featured_image?.src || undefined;
 ---
 
-<BaseLayout
-  title={data.title}
-  breadcrumbs={breadcrumbs}
-  description={description}
-  image={image}
->
+<BaseLayout breadcrumbs={breadcrumbs} description={description} image={image}>
   <BlogPost blogPost={blogPost} />
 </BaseLayout>

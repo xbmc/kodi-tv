@@ -8,10 +8,10 @@ interface Props {
 
 function Tab({ activeTab, label, onClick }: Props) {
   let className =
-    "text-gray-600 pt-4 pb-2 px-6 block hover:text-blue-500 focus:outline-none";
+    "text-gray-500 pt-4 pb-2 px-6 block hover:text-kodi focus:outline-none transition-all duration-300 font-medium text-sm";
 
   if (activeTab === label) {
-    className += " text-blue-500 border-b-2 font-medium border-blue-500";
+    className += " text-kodi-darker border-b-2 border-kodi-darker";
   }
 
   return (
