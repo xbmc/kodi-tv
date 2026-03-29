@@ -43,7 +43,7 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
     post.frontmatter.featured_image.alt = featuredImage.getIn(["data", "alt"]);
     post.frontmatter.featured_image.src = getAsset(imgSrc).toString();
   }
-  let tags = entry.getIn(["data", "tags"], []);
+  let tags = entry.getIn(["data", "tags"]) || [];
   post.frontmatter.tags = [];
   tags.map(function (tag, index) {
     post.frontmatter.tags.push(tag);
