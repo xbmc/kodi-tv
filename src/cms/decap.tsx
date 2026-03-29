@@ -21,7 +21,10 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
       ? rawDate
       : rawDate
         ? new Date(
-            String(rawDate).replace(/(\d{1,2})\s+(\w{3})\s+(\d{4})/, "$2 $1, $3"),
+            String(rawDate).replace(
+              /(\d{1,2})\s+(\w{3})\s+(\d{4})T?(.*)/,
+              "$2 $1, $3 $4",
+            ),
           )
         : null;
   post.frontmatter.date =
