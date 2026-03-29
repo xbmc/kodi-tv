@@ -348,6 +348,26 @@ export default class PageStripe extends React.Component {
               </div>
             </div>
           </form>
+
+          <div id="manage" className="mt-8 border-t-2 pt-8">
+            <h3 className="text-lg leading-6 font-medium text-gray-900">
+              Manage Your Subscription
+            </h3>
+            <p className="mt-1 text-sm text-gray-500">
+              Already a recurring donor? You can manage your subscription, update
+              payment details, or view your invoices through our donor portal.
+            </p>
+            <div className="mt-4">
+              <a
+                href={siteConfig.stripe.donorPortalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-hidden focus:shadow-outline"
+              >
+                Manage Subscription
+              </a>
+            </div>
+          </div>
         </DefaultLayout>
       </>
     );
