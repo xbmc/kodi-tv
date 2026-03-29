@@ -1,37 +1,30 @@
-import React, { useState } from "react";
-import Tab from "./Tab";
+import React from "react";
+import { Tabs as ShadcnTabs, TabsList, TabsTrigger, TabsContent } from "./ui/tabs";
 
 interface Props {
-  tabs: { name: string }[];
-  children: any[];
+  tabs?: { name: string }[];
+  children: React.ReactElement<{ label: string; children?: React.ReactNode }>[];
 }
 
 function Tabs({ children }: Props) {
-  const [activeTab, setActiveTab] = useState(children[0].props.label);
+  const labels = children.map(child => child.props.label);
+  const defaultValue = labels[0];
 
   return (
-    <div className="tabs">
-      <nav className="tab-list flex flex-col sm:flex-row pb-4">
-        {children.map(child => {
-          const { label } = child.props;
-
-          return (
-            <Tab
-              activeTab={activeTab}
-              key={label}
-              label={label}
-              onClick={setActiveTab}
-            />
-          );
-        })}
-      </nav>
-      <div className="tab-content">
-        {children.map(child => {
-          if (child.props.label !== activeTab) return undefined;
-          return child.props.children;
-        })}
-      </div>
-    </div>
+    <ShadcnTabs defaultValue={defaultValue}>
+      <TabsList>
+        {labels.map(label => (
+          <TabsTrigger key={label} value={label}>
+            {label}
+          </TabsTrigger>
+        ))}
+      </TabsList>
+      {children.map(child => (
+        <TabsContent key={child.props.label} value={child.props.label}>
+          {child.props.children}
+        </TabsContent>
+      ))}
+    </ShadcnTabs>
   );
 }
 

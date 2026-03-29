@@ -102,7 +102,7 @@ export default class PagePayPal extends React.Component {
                         type="text"
                         name="os0"
                         id="os0"
-                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export default class PagePayPal extends React.Component {
                         type="text"
                         name="os1"
                         id="os1"
-                        className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                        className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                   </div>
@@ -165,7 +165,7 @@ export default class PagePayPal extends React.Component {
                                   id="dtype"
                                   name="dtype"
                                   onChange={this.handleInputChange}
-                                  className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                  className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                 >
                                   <option>One-time</option>
                                   <option>Recurring</option>
@@ -189,7 +189,7 @@ export default class PagePayPal extends React.Component {
                                     id="amount"
                                     step="0.01"
                                     onChange={this.handleInputChange}
-                                    className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                    className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />
                                 </div>
                               </>
@@ -208,7 +208,7 @@ export default class PagePayPal extends React.Component {
                                     id="a3"
                                     step="0.01"
                                     onChange={this.handleInputChange}
-                                    className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                    className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                                   />
                                 </div>
                               </>
@@ -227,7 +227,7 @@ export default class PagePayPal extends React.Component {
                                 id="currency_code"
                                 name="currency_code"
                                 onChange={this.handleInputChange}
-                                className="shadow-sm focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
+                                className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               >
                                 <option value="USD">USD</option>
                                 <option value="EUR">EUR</option>
@@ -248,7 +248,7 @@ export default class PagePayPal extends React.Component {
                           <>
                             <button
                               disabled
-                              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-none focus:shadow-outline"
+                              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-gray-500 transition duration-500 ease select-none hover:bg-gray-500 focus:outline-hidden focus:shadow-outline"
                             >
                               Donate
                             </button>
@@ -257,7 +257,7 @@ export default class PagePayPal extends React.Component {
                           <>
                             <button
                               type="submit"
-                              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-none focus:shadow-outline"
+                              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-hidden focus:shadow-outline"
                             >
                               Donate
                             </button>

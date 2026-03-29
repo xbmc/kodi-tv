@@ -1,4 +1,5 @@
 import React from "react";
+import { cn } from "@/lib/utils";
 
 interface Props {
   href?: string;
@@ -11,69 +12,31 @@ interface Props {
   children: React.ReactNode;
 }
 
+const baseClasses =
+  "flex items-center justify-center px-8 py-3 mr-2 text-base font-medium font-display rounded-xl shadow-xs transition-all duration-500 ease-out select-none hover:-translate-y-0.5";
+
+const variantClasses = {
+  primary: cn(
+    baseClasses,
+    "border border-transparent text-gray-50 bg-kodi-darker hover:bg-kodi hover:shadow-glow focus:outline-hidden focus:ring-2 focus:ring-kodi/30 focus:ring-offset-2",
+  ),
+  secondary: cn(
+    baseClasses,
+    "border border-white/20 text-kodi-darker bg-white hover:bg-gray-50 hover:shadow-lg",
+  ),
+};
+
 function Button({
   href,
   disabled,
   target,
-  variant,
+  variant = "primary",
   rel,
   buttonType,
   onClick,
   children,
 }: Props) {
-  const buttonStyle =
-    variant === "secondary"
-      ? `
-          flex
-          items-center
-          justify-center
-          px-8
-          py-3
-          mr-2
-          border
-          border-white/20
-          text-base
-          font-medium
-          font-display
-          rounded-xl
-          shadow-sm
-          text-kodi-darker
-          bg-white
-          transition-all
-          duration-500
-          ease-out
-          select-none
-          hover:bg-gray-50
-          hover:shadow-lg
-          hover:-translate-y-0.5
-          `
-      : `
-          flex
-          items-center
-          justify-center
-          px-8
-          py-3
-          mr-2
-          border
-          border-transparent
-          text-base
-          font-medium
-          font-display
-          rounded-xl
-          shadow-sm
-          text-gray-50
-          bg-kodi-darker
-          transition-all
-          duration-500
-          ease-out
-          select-none
-          hover:bg-kodi
-          hover:shadow-glow
-          hover:-translate-y-0.5
-          focus:outline-none
-          focus:ring-2
-          focus:ring-kodi/30
-          focus:ring-offset-2`;
+  const classes = variantClasses[variant];
 
   if (buttonType === "button") {
     return (
@@ -81,28 +44,18 @@ function Button({
         disabled={disabled}
         onClick={onClick}
         type="button"
-        className={buttonStyle}
+        className={classes}
       >
         <span>{children}</span>
       </button>
     );
-  } else if (buttonType === "internal") {
-    return (
-      <a href={href} target={target} rel={rel}>
-        <button disabled={disabled} type="button" className={buttonStyle}>
-          <span>{children}</span>
-        </button>
-      </a>
-    );
-  } else {
-    return (
-      <a href={href} target={target} rel={rel}>
-        <button disabled={disabled} type="button" className={buttonStyle}>
-          <span>{children}</span>
-        </button>
-      </a>
-    );
   }
+
+  return (
+    <a href={href} target={target} rel={rel} className={classes}>
+      <span>{children}</span>
+    </a>
+  );
 }
 
 export default Button;

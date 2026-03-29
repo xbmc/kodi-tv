@@ -195,7 +195,7 @@ function FullWidthHeroCarousel({ slides }: FullWidthProps) {
           <button
             key={index}
             onClick={() => onDotClick(index)}
-            className={`h-3 w-3 rounded-full transition-all duration-300 shadow-sm ${
+            className={`h-3 w-3 rounded-full transition-all duration-300 shadow-xs ${
               index === selectedIndex
                 ? "bg-kodi scale-125 shadow-glow"
                 : "bg-white/50 hover:bg-white/70"

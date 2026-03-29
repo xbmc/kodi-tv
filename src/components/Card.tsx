@@ -1,8 +1,10 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import { Card as ShadcnCard, CardContent } from "@/components/ui/card";
+
 interface Props {
   title?: string;
-  icon?: React.ReactFragment;
+  icon?: React.ReactNode;
   iconClass?: string;
   imgtitle?: string;
   imgsrc?: string;
@@ -13,11 +15,11 @@ interface Props {
 
 function Card({ children }: Props) {
   return (
-    <div className="shadow-glass rounded-2xl overflow-hidden mx-auto mb-8 border border-gray-100/80 bg-white">
-      <div className="py-4 px-8 mt-3">
+    <ShadcnCard className="mx-auto mb-8">
+      <CardContent className="py-4 px-8 mt-3">
         <div className="flex flex-col">{children}</div>
-      </div>
-    </div>
+      </CardContent>
+    </ShadcnCard>
   );
 }
 
@@ -30,7 +32,7 @@ function FeaturedCardInnerRender({ iconClass, icon, title, children }: Props) {
       <div className="flex-1 p-6 flex flex-col justify-between">
         <p className="text-xl font-semibold text-gray-900 font-display">{title}</p>
         <ReactMarkdown className="prose prose-blue flex-1 mt-3 text-sm text-gray-600">
-          {children}
+          {children as string}
         </ReactMarkdown>
       </div>
     </>
@@ -62,34 +64,32 @@ function FeaturedCard({ iconClass, icon, title, url, children }: Props) {
 
 function RoundedCardWithImage({ imgtitle, imgsrc, imgalt, title, children }: Props) {
   return (
-    <>
-      <div className="flex flex-col rounded-2xl shadow-glass overflow-hidden card-lift border border-gray-100/80">
-        <div className="flex-shrink-0 overflow-hidden">
-          <img
-            className="h-48 w-full object-cover transition-transform duration-700 ease-out hover:scale-105"
-            title={imgtitle}
-            src={imgsrc}
-            alt={imgalt}
-            loading="lazy"
-            decoding="async"
-            width={480}
-            height={192}
-          />
-        </div>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-          <div className="flex-1">
-            <div className="block mt-2">
-              <p className="text-xl font-semibold text-gray-900 font-display">
-                {title}
-              </p>
-              <p className="mt-3 text-base text-gray-500 leading-relaxed">
-                {children}
-              </p>
-            </div>
+    <ShadcnCard className="card-lift">
+      <div className="flex-shrink-0 overflow-hidden">
+        <img
+          className="h-48 w-full object-cover transition-transform duration-700 ease-out hover:scale-105"
+          title={imgtitle}
+          src={imgsrc}
+          alt={imgalt}
+          loading="lazy"
+          decoding="async"
+          width={480}
+          height={192}
+        />
+      </div>
+      <CardContent className="flex-1 flex flex-col justify-between">
+        <div className="flex-1">
+          <div className="block mt-2">
+            <p className="text-xl font-semibold text-gray-900 font-display">
+              {title}
+            </p>
+            <p className="mt-3 text-base text-gray-500 leading-relaxed">
+              {children}
+            </p>
           </div>
         </div>
-      </div>
-    </>
+      </CardContent>
+    </ShadcnCard>
   );
 }
 

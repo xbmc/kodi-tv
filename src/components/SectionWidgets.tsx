@@ -81,7 +81,7 @@ function AboutOfficialRemotes({ images = {} }: { images?: WidgetImages }) {
         <div className="flex flex-col items-center pb-6 md:pb-0">
           <span>Kore™ (Android)</span>
           <img
-            className="w-200 h-200"
+            className="size-50"
             alt="QR code to download Kore remote app for Android"
             src={images["kore-qr"] || "/images/kore-qr.webp"}
             loading="lazy"
@@ -93,7 +93,7 @@ function AboutOfficialRemotes({ images = {} }: { images?: WidgetImages }) {
         <div className="flex flex-col items-center">
           <span>Official Kodi Remote (iOS)</span>
           <img
-            className="w-200 h-200"
+            className="size-50"
             alt="QR code to download Official Kodi Remote app for iOS"
             src={images["ios-qr"] || "/images/ios-qr.webp"}
             loading="lazy"

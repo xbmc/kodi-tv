@@ -1,6 +1,4 @@
-import React from "react";
-import { useState } from "react";
-import { Transition } from "@headlessui/react";
+import React, { useState } from "react";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
@@ -20,7 +18,7 @@ import type { MenuEntry } from "./types";
 let regularButton =
   "text-gray-200 hover:text-gray-50 hover:bg-white/10 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
 let primaryButton =
-  "text-gray-50 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out shadow-sm hover:shadow-glow";
+  "text-gray-50 bg-kodi-darker hover:bg-kodi hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out shadow-xs hover:shadow-glow";
 let callToActionButton =
   "text-gray-50 bg-kodi-castellina hover:bg-amber-600 hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
 
@@ -219,23 +217,13 @@ function Header(props: any) {
                     <div className="ml-5 lg:ml-10 flex items-baseline space-x-2">
                       {mainMenu.map(item =>
                         item.dropdown == null && item.url ? (
-                          item.url.type === "internal" ? (
-                            <a
-                              key={item.id}
-                              href={item.url.url}
-                              className={item.buttonType}
-                            >
-                              {item.title}
-                            </a>
-                          ) : (
-                            <a
-                              key={item.id}
-                              href={item.url.url}
-                              className={item.buttonType}
-                            >
-                              {item.title}
-                            </a>
-                          )
+                          <a
+                            key={item.id}
+                            href={item.url.url}
+                            className={item.buttonType}
+                          >
+                            {item.title}
+                          </a>
                         ) : (
                           <HeaderDropdownMenu key={item.id} menu={item} />
                         ),
@@ -247,9 +235,9 @@ function Header(props: any) {
                   <button
                     onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
                     type="button"
-                    className="bg-transparent inline-flex items-center justify-center p-2 rounded-lg text-gray-200 hover:text-gray-50 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-kodi/30 transition-all duration-300"
+                    className="bg-transparent inline-flex items-center justify-center p-2 rounded-lg text-gray-200 hover:text-gray-50 hover:bg-white/10 focus:outline-hidden focus:ring-2 focus:ring-kodi/30 transition-all duration-300"
                     aria-controls="mobile-menu"
-                    aria-expanded="false"
+                    aria-expanded={isHamburgerOpen}
                   >
                     <span className="sr-only">Open main menu</span>
                     {isHamburgerOpen ? (
@@ -261,35 +249,28 @@ function Header(props: any) {
                 </div>
               </div>
             </div>
-            <Transition show={isHamburgerOpen}>
-              <div className="lg:hidden" id="mobile-menu">
-                <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                  {mainMenu.map((item, index) =>
-                    item.dropdown == null && item.url ? (
-                      item.url.type === "internal" ? (
-                        <a
-                          key={item.url.url}
-                          href={item.url.url}
-                          className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
-                        >
-                          {item.title}
-                        </a>
-                      ) : (
-                        <a
-                          key={item.url.url}
-                          href={item.url.url}
-                          className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
-                        >
-                          {item.title}
-                        </a>
-                      )
-                    ) : (
-                      <HeaderDropdownMenuMobile key={item.url?.url} menu={item} />
-                    ),
-                  )}
-                </div>
+            <div
+              className={`lg:hidden overflow-hidden transition-all duration-200 ease-out ${
+                isHamburgerOpen ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0"
+              }`}
+              id="mobile-menu"
+            >
+              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                {mainMenu.map(item =>
+                  item.dropdown == null && item.url ? (
+                    <a
+                      key={item.id}
+                      href={item.url.url}
+                      className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
+                    >
+                      {item.title}
+                    </a>
+                  ) : (
+                    <HeaderDropdownMenuMobile key={item.id} menu={item} />
+                  ),
+                )}
               </div>
-            </Transition>
+            </div>
           </div>
         </nav>
         <header style={{ display: showtitle ? "block" : "none" }} className="py-10">

@@ -5,7 +5,8 @@
     "jsxImportSource": "react",
     "baseUrl": ".",
     "paths": {
-      "src/*": ["src/*"]
+      "src/*": ["src/*"],
+      "@/*": ["./src/*"]
     },
     "noUnusedLocals": false,
     "allowJs": true
