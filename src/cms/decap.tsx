@@ -49,7 +49,15 @@ const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
     post.frontmatter.tags.push(tag);
   });
 
-  return <BlogPost blogPost={post} preview={true} />;
+  return (
+    <div className="bg-gray-100 font-body min-h-screen p-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="bg-white rounded-2xl shadow-glass p-6 lg:p-8 border border-gray-100/80">
+          <BlogPost blogPost={post} preview={true} />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 const PagePreview = ({ entry, widgetsFor, getAsset }) => {
