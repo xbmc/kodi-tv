@@ -27,6 +27,7 @@ interface CurrencyMonthly {
 
 export interface StripeConfig {
   apikey: string | undefined;
+  donorPortalUrl: string;
   minCharge: Record<string, number>;
   oneTime: Record<string, string>;
   monthly: Record<string, CurrencyMonthly>;
@@ -35,6 +36,7 @@ export interface StripeConfig {
 let stripeConfig: StripeConfig = {
   apikey:
     import.meta.env.GATSBY_STRIPE_APIKEY || import.meta.env.PUBLIC_STRIPE_APIKEY,
+  donorPortalUrl: "https://billing.stripe.com/p/login/cNifZhf3pbNEbBT8rJ24000",
   minCharge: {
     USD: 5,
     EUR: 5,
