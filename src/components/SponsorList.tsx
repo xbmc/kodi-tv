@@ -38,9 +38,9 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
                               </span>
                             </div>
                             <p className="mt-5 text-base text-gray-500">
-                              <ReactMarkdown className="prose max-w-none">
-                                {sponsor.body}
-                              </ReactMarkdown>
+                              <div className="prose max-w-none">
+                                <ReactMarkdown>{sponsor.body}</ReactMarkdown>
+                              </div>
                             </p>
                           </div>
                         </div>

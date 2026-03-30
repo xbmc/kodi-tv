@@ -31,9 +31,9 @@ function FeaturedCardInnerRender({ iconClass, icon, title, children }: Props) {
       </div>
       <div className="flex-1 p-6 flex flex-col justify-between">
         <p className="text-xl font-semibold text-gray-900 font-display">{title}</p>
-        <ReactMarkdown className="prose prose-blue flex-1 mt-3 text-sm text-gray-600">
-          {children as string}
-        </ReactMarkdown>
+        <div className="prose prose-blue flex-1 mt-3 text-sm text-gray-600">
+          <ReactMarkdown>{children as string}</ReactMarkdown>
+        </div>
       </div>
     </>
   );
