@@ -61,16 +61,15 @@ function BlogPostCard(props: { post: News }) {
               &nbsp;
             </p>
             <a href={post.fields.slug} className="block mt-2">
-              <ReactMarkdown className="text-xl font-semibold text-gray-900 font-display">
-                {post.frontmatter.title}
-              </ReactMarkdown>
+              <div className="text-xl font-semibold text-gray-900 font-display">
+                <ReactMarkdown>{post.frontmatter.title}</ReactMarkdown>
+              </div>
 
-              <ReactMarkdown
-                remarkPlugins={[remarkGfm]}
-                className="mt-3 text-base text-gray-500 leading-relaxed"
-              >
-                {post.excerpt}
-              </ReactMarkdown>
+              <div className="mt-3 text-base text-gray-500 leading-relaxed">
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  {post.excerpt}
+                </ReactMarkdown>
+              </div>
             </a>
           </div>
           <div className="mt-6 flex items-center">

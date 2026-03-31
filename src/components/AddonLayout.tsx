@@ -105,9 +105,9 @@ export default function AddonLayout({
           />
         </div>
         <div className="col-span-4 flex flex-col">
-          <ReactMarkdown className="text-2xl font-bold font-display tracking-tight">
-            {addon.name}
-          </ReactMarkdown>
+          <div className="text-2xl font-bold font-display tracking-tight">
+            <ReactMarkdown>{addon.name}</ReactMarkdown>
+          </div>
           <ReactMarkdown>{addon.snippet}</ReactMarkdown>
           <div className="mt-2 md:mt-6 flex flex-wrap inline-flex text-sm">
             <div className="inline-flex">

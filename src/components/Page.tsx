@@ -105,12 +105,12 @@ export default function Page(props: {
     <DefaultLayout frontmatter={onePage.frontmatter} preview={preview}>
       {content.map((section: string, index: any) => {
         return section.trim().split(" ").length > 1 ? (
-          <ReactMarkdown
+          <div
             key={section.trim().toLowerCase()}
             className="pb-6 prose prose-blue max-w-none"
           >
-            {section}
-          </ReactMarkdown>
+            <ReactMarkdown>{section}</ReactMarkdown>
+          </div>
         ) : (
           <DynamicSection
             key={section.trim().toLowerCase()}

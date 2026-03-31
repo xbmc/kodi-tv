@@ -175,7 +175,9 @@ export default class SearchAddons extends React.Component {
               >
                 <option value="null">Select a Tag</option>
                 {this.props.tags.map((tag, index) => (
-                  <option value={tag.name}>{tag.displayname}</option>
+                  <option key={tag.name} value={tag.name}>
+                    {tag.displayname}
+                  </option>
                 ))}
               </select>
             </div>
@@ -204,7 +206,7 @@ export default class SearchAddons extends React.Component {
           <>
             <div className="mt-12 max-w-lg mx-auto gap-5 grid grid-cols-1 lg:grid-cols-3 lg:max-w-none">
               {this.state.results.map((post, index) => (
-                <BlogPostCard post={post} />
+                <BlogPostCard key={index} post={post} />
               ))}
             </div>
           </>

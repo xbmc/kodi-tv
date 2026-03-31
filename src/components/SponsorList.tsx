@@ -16,8 +16,8 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
               <div className="mt-12">
                 <div className="grid grid-cols-1 gap-8">
                   {props.sponsors.map((sponsor, index) => (
-                    <>
-                      <div key={sponsor.name} className="pt-6">
+                    <React.Fragment key={sponsor.name}>
+                      <div className="pt-6">
                         <div className="flow-root bg-gray-50 rounded-2xl px-6 pb-8 border border-gray-100/80">
                           <div className="-mt-6">
                             <div>
@@ -38,14 +38,14 @@ function SponsorTypeList(props: { title: string; sponsors: Sponsor[] }) {
                               </span>
                             </div>
                             <p className="mt-5 text-base text-gray-500">
-                              <ReactMarkdown className="prose max-w-none">
-                                {sponsor.body}
-                              </ReactMarkdown>
+                              <div className="prose max-w-none">
+                                <ReactMarkdown>{sponsor.body}</ReactMarkdown>
+                              </div>
                             </p>
                           </div>
                         </div>
                       </div>
-                    </>
+                    </React.Fragment>
                   ))}
                 </div>
               </div>

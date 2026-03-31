@@ -33,9 +33,9 @@ class ReleasesTabs extends React.Component {
               <div className="flex-initial">
                 <div className="pt-8">
                   <h1 className="text-xl font-bold">{release.title}</h1>
-                  <ReactMarkdown className="prose prose-blue max-w-none">
-                    {release.description}
-                  </ReactMarkdown>
+                  <div className="prose prose-blue max-w-none">
+                    <ReactMarkdown>{release.description}</ReactMarkdown>
+                  </div>
                 </div>
               </div>
               <div className="flex-initial pt-4">
