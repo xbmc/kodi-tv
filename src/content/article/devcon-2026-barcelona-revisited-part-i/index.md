@@ -1,6 +1,6 @@
 ---
 title: DevCon 2026 - Barcelona Revisited - Part I
-date: 2026-04-03T15:43:00.000+02:00
+date: 2026-03-27T20:00:00.000+01:00
 author: Prof Yaffle
 tags:
   - DevCon
