@@ -32,4 +32,4 @@ Juddering towards the end of the conference, **jernej** talked us through Linux 
 
 And that's about it. Thanks to everyone for attending, and, equally, thanks to everyone reading this for the support. You are the people who make Kodi what it is.
 
-See you in 2028 ... probably ;)probably ;)
+See you in 2028 ... probably ;
