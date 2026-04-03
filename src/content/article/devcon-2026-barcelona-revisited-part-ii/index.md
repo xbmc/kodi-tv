@@ -12,15 +12,15 @@ featured_image:
     by summer - rise up across the bay, studded as they are with whitewashed
     Mediterranean buildings.
 ---
-So, here we are, back in the room after a day of sidebar meetings, coding, hacking, experimenting, and general conferencing. Time for some more structured sessions, starting with some of our partner projects.
+So, here we are, back in the roo atm after a day of sidebar meetings, coding, hacking, experimenting, and general conferencing. Time for some more structured sessions, starting with some of our partner projects.
 
 **Chewitt** started us off with an **overview of LibreELEC**: hardware updates and changes, new chip set support, some challenges with older SoCs, plans for standardising e.g. kernel trees more, and so on. He also covered topics such as the challenges around supporting set-top box DVB tuners, plus deprecated video drivers and implications for users. Beyond that, the project is healthy, with a broadly stable user base and positive finances.
 
-While he was on his feet, he also gave a brief update on **Tvheadend**, mostly around development status, plans for a new interface, CI/build process, and a few others.
+Keeping with third-party projects, **Flole** next gave a brief update on **Tvheadend**, mostly around development status, plans for a new interface, CI/build process, and a few others.
 
 (As an aside, both projects have recently celebrated milestone anniversaries: LibreELEC is ten years old, and Tvheadend has just passed 20. Happy birthday to both projects!).
 
-**samnazarko** then took the floor to talk about **OSMC**. As a turnkey, commercial consumer device, things are going well, although there's pressure from RAM prices as you'd probably expect. He talked about the challenges around TV-led playback versus player-led (basically, where's the decoding being done), and took a long detour through HDR technologies, colour spaces and tone mapping.
+And to collect the set, **samnazarko** then took the floor to talk about **OSMC**. As a turnkey, commercial consumer device, things are going well, although there's pressure from RAM prices as you'd probably expect. He talked about the challenges around TV-led playback versus player-led (basically, where's the decoding being done), and took a long detour through HDR technologies, colour spaces and tone mapping.
 
 Next up, **sarbes** spoke about upcoming **UI changes**, mostly in the sense of textures and component rendering. These will deliver significant performance gains on low-end and embedded devices, and anything using a heavier, multi-layer skin.
 
@@ -32,4 +32,4 @@ Juddering towards the end of the conference, **jernej** talked us through Linux 
 
 And that's about it. Thanks to everyone for attending, and, equally, thanks to everyone reading this for the support. You are the people who make Kodi what it is.
 
-See you in 2028 ... probably ;)
+See you in 2028 ... probably ;)probably ;)
