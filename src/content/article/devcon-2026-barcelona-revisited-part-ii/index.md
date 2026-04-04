@@ -12,7 +12,7 @@ featured_image:
     by summer - rise up across the bay, studded as they are with whitewashed
     Mediterranean buildings.
 ---
-So, here we are, back in the roo atm after a day of sidebar meetings, coding, hacking, experimenting, and general conferencing. Time for some more structured sessions, starting with some of our partner projects.
+So, here we are, back in the room after a day of sidebar meetings, coding, hacking, experimenting, and general conferencing. Time for some more structured sessions, starting with some of our partner projects.
 
 **Chewitt** started us off with an **overview of LibreELEC**: hardware updates and changes, new chip set support, some challenges with older SoCs, plans for standardising e.g. kernel trees more, and so on. He also covered topics such as the challenges around supporting set-top box DVB tuners, plus deprecated video drivers and implications for users. Beyond that, the project is healthy, with a broadly stable user base and positive finances.
 
