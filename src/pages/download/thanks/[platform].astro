@@ -165,42 +165,29 @@ const howToUrl = `/download/${platform}`;
     </aside>
   </section>
 
-  <script is:inline>
+  <script>
+    import { isAllowedReceiptDownloadUrl } from "../../../utils/downloadValidation";
+
     const params = new URLSearchParams(window.location.search);
     const downloadUrl = params.get("url");
     const downloadName = params.get("name") || "Kodi";
     const title = document.getElementById("download-title");
     const copy = document.getElementById("download-copy");
     const retry = document.getElementById("download-retry");
+    const safeDownloadUrl = isAllowedReceiptDownloadUrl(downloadUrl)
+      ? downloadUrl
+      : null;
 
-    function isAllowedReceiptDownloadUrl(url) {
-      if (!url) {
-        return false;
-      }
-
-      try {
-        const parsedUrl = new URL(url);
-
-        return (
-          parsedUrl.protocol === "https:" &&
-          parsedUrl.hostname === "mirrors.kodi.tv" &&
-          /\.(exe|dmg|apk|deb|ipk)$/i.test(parsedUrl.pathname)
-        );
-      } catch {
-        return false;
-      }
-    }
-
-    if (isAllowedReceiptDownloadUrl(downloadUrl)) {
+    if (safeDownloadUrl) {
       title.textContent = `${downloadName} is downloading`;
       copy.textContent =
         "If the download does not start automatically, use the retry button below.";
-      retry.href = downloadUrl;
+      retry.href = safeDownloadUrl;
 
       window.setTimeout(() => {
         const frame = document.createElement("iframe");
         frame.hidden = true;
-        frame.src = downloadUrl;
+        frame.src = safeDownloadUrl;
         document.body.appendChild(frame);
       }, 250);
     } else if (downloadUrl) {
@@ -213,9 +200,10 @@ const howToUrl = `/download/${platform}`;
         "This page needs a selected download file before it can start a download.";
     }
 
-    window.adsbygoogle = window.adsbygoogle || [];
+    const adWindow = window as Window & { adsbygoogle?: unknown[] };
+    adWindow.adsbygoogle = adWindow.adsbygoogle || [];
     document.querySelectorAll(".adsbygoogle").forEach(() => {
-      window.adsbygoogle.push({});
+      adWindow.adsbygoogle?.push({});
     });
   </script>
 </BaseLayout>

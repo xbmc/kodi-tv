@@ -1,4 +1,5 @@
 import slugify from "slugify";
+export { isAllowedReceiptDownloadUrl } from "./downloadValidation";
 
 export type DownloadType = "receipt_binary" | "mirror_directory" | "external";
 
@@ -9,7 +10,6 @@ export interface DownloadItem {
 }
 
 const binaryDownloadPattern = /\.(exe|dmg|apk|deb|ipk)(\?|$)/i;
-const receiptBinaryPathPattern = /\.(exe|dmg|apk|deb|ipk)$/i;
 const mirrorDirectoryPattern = /^https:\/\/mirrors\.kodi\.tv\/.+\/$/i;
 const platformDisplayNames: Record<string, string> = {
   android: "Android",
@@ -84,24 +84,6 @@ export function getPlatformDisplayName(platform?: string) {
       .map(part => part.charAt(0).toUpperCase() + part.slice(1))
       .join(" ")
   );
-}
-
-export function isAllowedReceiptDownloadUrl(url?: string | null) {
-  if (!url) {
-    return false;
-  }
-
-  try {
-    const parsedUrl = new URL(url);
-
-    return (
-      parsedUrl.protocol === "https:" &&
-      parsedUrl.hostname === "mirrors.kodi.tv" &&
-      receiptBinaryPathPattern.test(parsedUrl.pathname)
-    );
-  } catch {
-    return false;
-  }
 }
 
 export function isReceiptDownload(download: {

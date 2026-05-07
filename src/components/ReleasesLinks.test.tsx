@@ -4,6 +4,12 @@ import { describe, expect, it } from "vitest";
 import { DownloadLinks } from "./ReleasesLinks";
 
 describe("DownloadLinks", () => {
+  it("renders nothing when downloads are omitted", () => {
+    const { container } = render(<DownloadLinks platform="Windows" />);
+
+    expect(container).toBeEmptyDOMElement();
+  });
+
   it("routes receipt binary links through the download receipt page", () => {
     render(
       <DownloadLinks

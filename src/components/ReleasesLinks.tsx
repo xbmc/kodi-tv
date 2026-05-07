@@ -8,9 +8,9 @@ import {
 
 export function DownloadLinks(props: {
   platform: string;
-  downloads: DownloadItem[] | null;
+  downloads?: DownloadItem[] | null;
 }) {
-  if (props.downloads === null) {
+  if (!props.downloads?.length) {
     return null;
   }
   return (

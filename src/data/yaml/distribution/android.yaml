@@ -31,6 +31,7 @@ releases:
     downloads:
       - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-22.0-Piers_alpha3-armeabi-v7a.apk?https=1
         name: v22  Alpha3 (32BIT)
+        download_type: receipt_binary
       - name: v22  Alpha3 (64BIT)
         url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-22.0-Piers_alpha3-arm64-v8a.apk?https=1
         download_type: receipt_binary
