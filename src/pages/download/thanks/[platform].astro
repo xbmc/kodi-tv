@@ -31,7 +31,7 @@ const howToUrl = `/download/${platform}`;
   title={`Your Kodi ${platformName} download is starting`}
   breadcrumbs={`${platformName} Download Started | Downloads`}
 >
-  <section class="grid grid-cols-1 gap-8 xl:grid-cols-[minmax(0,1fr)_360px]">
+  <section class="grid grid-cols-1 gap-8 2xl:grid-cols-[minmax(0,1fr)_360px]">
     <div class="space-y-6">
       <div class="rounded-lg border border-kodi/15 bg-kodi-surface-light p-6">
         <p
@@ -41,24 +41,27 @@ const howToUrl = `/download/${platform}`;
         </p>
         <h1
           id="download-title"
-          class="mt-2 font-display text-3xl font-bold text-kodi-darker"
+          class="mt-2 break-words font-display text-2xl font-bold text-kodi-darker sm:text-3xl"
         >
           Your Kodi download is starting
         </h1>
-        <p id="download-copy" class="mt-3 max-w-2xl text-lg text-gray-700">
+        <p
+          id="download-copy"
+          class="mt-3 max-w-2xl text-base text-gray-700 sm:text-lg"
+        >
           Keep this page open while your browser starts the file download.
         </p>
         <div class="mt-5 flex flex-col gap-3 sm:flex-row">
           <a
             id="download-retry"
-            class="inline-flex items-center justify-center rounded-lg bg-kodi-darker px-5 py-3 font-display text-base font-semibold text-white transition hover:bg-kodi"
+            class="inline-flex items-center justify-center rounded-lg bg-kodi-darker px-4 py-3 font-display text-sm font-semibold text-white transition hover:bg-kodi sm:px-5 sm:text-base"
             href="/download"
             rel="nofollow"
           >
             Retry direct download
           </a>
           <a
-            class="inline-flex items-center justify-center rounded-lg border border-kodi/25 px-5 py-3 font-display text-base font-semibold text-kodi-darker transition hover:bg-kodi-surface-light"
+            class="inline-flex items-center justify-center rounded-lg border border-kodi/25 px-4 py-3 font-display text-sm font-semibold text-kodi-darker transition hover:bg-kodi-surface-light sm:px-5 sm:text-base"
             href={howToUrl}
           >
             Back to {platformName} downloads
@@ -115,9 +118,25 @@ const howToUrl = `/download/${platform}`;
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       </section>
+
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4 2xl:hidden"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-72"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
     </div>
 
-    <aside class="space-y-5">
+    <aside class="hidden space-y-5 2xl:block">
       <section
         aria-label="Advertisement"
         class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
