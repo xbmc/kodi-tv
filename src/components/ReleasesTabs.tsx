@@ -2,16 +2,15 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import { DownloadLinks } from "./ReleasesLinks";
 import Tabs from "./Tabs";
+import type { DownloadItem } from "../utils/downloads";
 
 class ReleasesTabs extends React.Component {
   constructor(props: {
+    platform: string;
     releases: {
       name: string;
       id: string;
-      downloads: {
-        url: string | undefined;
-        name: React.ReactNode;
-      }[];
+      downloads: DownloadItem[];
       description: string;
     }[];
   }) {
@@ -27,9 +26,9 @@ class ReleasesTabs extends React.Component {
     }
     return (
       <Tabs>
-        {releases.map((release, index) => {
+        {releases.map(release => {
           return (
-            <div key={index} label={release.name} className="flex">
+            <div key={release.name} label={release.name} className="flex">
               <div className="flex-initial">
                 <div className="pt-8">
                   <h1 className="text-xl font-bold">{release.title}</h1>
@@ -39,7 +38,10 @@ class ReleasesTabs extends React.Component {
                 </div>
               </div>
               <div className="flex-initial pt-4">
-                <DownloadLinks downloads={release.downloads} />
+                <DownloadLinks
+                  platform={this.props.platform}
+                  downloads={release.downloads}
+                />
               </div>
             </div>
           );

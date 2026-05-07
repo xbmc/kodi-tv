@@ -13,12 +13,16 @@ releases:
     downloads:
       - name: Google Play
         url: https://play.google.com/store/apps/details?id=org.xbmc.kodi
+        download_type: external
       - name: Huawei App Gallery
         url: https://appgallery.huawei.com/#/app/C101763539
+        download_type: external
       - name: ARMV7A (32BIT)
         url: https://mirrors.kodi.tv/releases/android/arm/kodi-21.3-Omega-armeabi-v7a.apk?https=1
+        download_type: receipt_binary
       - name: ARMV8A (64BIT)
         url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-21.3-Omega-arm64-v8a.apk?https=1
+        download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: The **Alpha 3** pre-release build has become available because we
@@ -29,6 +33,7 @@ releases:
         name: v22  Alpha3 (32BIT)
       - name: v22  Alpha3 (64BIT)
         url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-22.0-Piers_alpha3-arm64-v8a.apk?https=1
+        download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
@@ -47,11 +52,16 @@ releases:
     downloads:
       - name: Google Play Testing
         url: https://play.google.com/apps/testing/org.xbmc.kodi
+        download_type: external
       - name: v21 ARMV7A (32BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm/Omega/
+        download_type: mirror_directory
       - name: v21 ARMV8A (64BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/Omega/
+        download_type: mirror_directory
       - name: v22 ARMV7A (32BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm/master/
+        download_type: mirror_directory
       - name: v22 ARMV8A (64BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/master/
+        download_type: mirror_directory

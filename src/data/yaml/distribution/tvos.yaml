@@ -11,6 +11,7 @@ releases:
     downloads:
       - name: tvOS
         url: https://mirrors.kodi.tv/releases/darwin/tvos/org.xbmc.kodi-tvos_21.3-tvos.deb?https=1
+        download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: The **Alpha 3** pre-release build has become available because we
@@ -19,6 +20,7 @@ releases:
     downloads:
       - name: v22 Alpha3 tvOS
         url: https://mirrors.kodi.tv/snapshots/darwin/tvos/org.xbmc.kodi-tvos_22.0~a3-tvos.deb?https=1
+        download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
@@ -37,5 +39,7 @@ releases:
     downloads:
       - name: v21 tvOS
         url: https://mirrors.kodi.tv/nightlies/darwin/tvos/Omega/
+        download_type: mirror_directory
       - name: v22 tvOS
         url: https://mirrors.kodi.tv/nightlies/darwin/tvos/master/
+        download_type: mirror_directory

@@ -89,6 +89,7 @@ const DistributionPreview = ({ entry, widgetsFor, getAsset }) => {
       let dlitem = {};
       dlitem.name = download.name;
       dlitem.url = download.url;
+      dlitem.download_type = download.download_type;
       downloads.push(dlitem);
     });
     if (downloads.length > 0) {

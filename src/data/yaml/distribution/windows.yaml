@@ -12,10 +12,13 @@ releases:
     downloads:
       - name: Installer (64BIT)
         url: https://mirrors.kodi.tv/releases/windows/win64/kodi-21.3-Omega-x64.exe?https=1
+        download_type: receipt_binary
       - name: Installer (32BIT)
         url: https://mirrors.kodi.tv/releases/windows/win32/kodi-21.3-Omega-x86.exe?https=1
+        download_type: receipt_binary
       - name: Windows Store
         url: https://apps.microsoft.com/detail/9nblggh4t892
+        download_type: external
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: The **Alpha 3** pre-release build has become available because we
@@ -24,10 +27,13 @@ releases:
     downloads:
       - name: v22 Alpha3 Installer (64BIT)
         url: https://mirrors.kodi.tv/snapshots/windows/win64/kodi-22.0-Piers_alpha3-x64.exe?https=1
+        download_type: receipt_binary
       - name: v22 Alpha3 Installer (32BIT)
         url: https://mirrors.kodi.tv/snapshots/windows/win32/kodi-22.0-Piers_alpha3-x86.exe?https=1
+        download_type: receipt_binary
       - name: v22 Alpha3 Installer (arm64)
         url: https://mirrors.kodi.tv/snapshots/windows/winarm64/kodi-22.0-Piers_alpha3-arm64.exe?https=1
+        download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
@@ -46,11 +52,16 @@ releases:
     downloads:
       - name: v21 Nightly Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win64/Omega/
+        download_type: mirror_directory
       - name: v21 Nightly Installer (32BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win32/Omega/
+        download_type: mirror_directory
       - name: v22 Nightly Installer (64BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win64/master/
+        download_type: mirror_directory
       - name: v22 Nightly Installer (32BIT)
         url: https://mirrors.kodi.tv/nightlies/windows/win32/master/
+        download_type: mirror_directory
       - name: v22 Nightly Installer (arm64)
         url: https://mirrors.kodi.tv/nightlies/windows/winarm64/master/
+        download_type: mirror_directory

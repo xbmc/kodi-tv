@@ -1,0 +1,182 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  return [
+    "android",
+    "ios",
+    "linux",
+    "macos",
+    "raspberry-pi",
+    "tvos",
+    "webos",
+    "windows",
+  ].map(platform => ({
+    params: { platform },
+  }));
+}
+
+const { platform } = Astro.params;
+const platformName = platform
+  ?.split("-")
+  .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+  .join(" ");
+const howToUrl = `/download/${platform}`;
+---
+
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5235469391524556"
+  crossorigin="anonymous"></script>
+
+<BaseLayout
+  title={`Your Kodi ${platformName} download is starting`}
+  breadcrumbs={`${platformName} Download Started | Downloads`}
+>
+  <section class="grid grid-cols-1 gap-8 xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div class="space-y-6">
+      <div class="rounded-lg border border-kodi/15 bg-kodi-surface-light p-6">
+        <p
+          class="font-display text-sm font-semibold uppercase tracking-wide text-kodi"
+        >
+          Download started
+        </p>
+        <h1
+          id="download-title"
+          class="mt-2 font-display text-3xl font-bold text-kodi-darker"
+        >
+          Your Kodi download is starting
+        </h1>
+        <p id="download-copy" class="mt-3 max-w-2xl text-lg text-gray-700">
+          Keep this page open while your browser starts the file download.
+        </p>
+        <div class="mt-5 flex flex-col gap-3 sm:flex-row">
+          <a
+            id="download-retry"
+            class="inline-flex items-center justify-center rounded-lg bg-kodi-darker px-5 py-3 font-display text-base font-semibold text-white transition hover:bg-kodi"
+            href="/download"
+            rel="nofollow"
+          >
+            Retry direct download
+          </a>
+          <a
+            class="inline-flex items-center justify-center rounded-lg border border-kodi/25 px-5 py-3 font-display text-base font-semibold text-kodi-darker transition hover:bg-kodi-surface-light"
+            href={howToUrl}
+          >
+            Back to {platformName} downloads
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href={howToUrl}
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">
+            Install guide
+          </h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Review platform-specific installation notes before opening the file.
+          </p>
+        </a>
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href="/donate"
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">
+            Support Kodi
+          </h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Help fund infrastructure, releases, and community services.
+          </p>
+        </a>
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href="/store"
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">Kodi store</h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Official merchandise is another way to support the project.
+          </p>
+        </a>
+      </div>
+
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-28"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
+    </div>
+
+    <aside class="space-y-5">
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-72"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
+
+      <div class="rounded-lg border border-kodi/15 bg-white p-5">
+        <h2 class="font-display text-xl font-bold text-kodi-darker">
+          Official download
+        </h2>
+        <p class="mt-2 text-sm text-gray-600">
+          Kodi downloads linked from this page are served from official Kodi
+          infrastructure.
+        </p>
+      </div>
+    </aside>
+  </section>
+
+  <script is:inline>
+    const params = new URLSearchParams(window.location.search);
+    const downloadUrl = params.get("url");
+    const downloadName = params.get("name") || "Kodi";
+    const title = document.getElementById("download-title");
+    const copy = document.getElementById("download-copy");
+    const retry = document.getElementById("download-retry");
+
+    if (downloadUrl) {
+      title.textContent = `${downloadName} is downloading`;
+      copy.textContent =
+        "If the download does not start automatically, use the retry button below.";
+      retry.href = downloadUrl;
+
+      window.setTimeout(() => {
+        const frame = document.createElement("iframe");
+        frame.hidden = true;
+        frame.src = downloadUrl;
+        document.body.appendChild(frame);
+      }, 250);
+    } else {
+      title.textContent = "Choose a Kodi download";
+      copy.textContent =
+        "This page needs a selected download file before it can start a download.";
+    }
+
+    window.adsbygoogle = window.adsbygoogle || [];
+    document.querySelectorAll(".adsbygoogle").forEach(() => {
+      window.adsbygoogle.push({});
+    });
+  </script>
+</BaseLayout>
