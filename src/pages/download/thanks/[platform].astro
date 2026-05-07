@@ -1,0 +1,215 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getPlatformDisplayName } from "../../../utils/downloads";
+
+export async function getStaticPaths() {
+  const distributions = await getCollection("distributions");
+  const slugify = (await import("slugify")).default;
+  return distributions.map(entry => ({
+    params: {
+      platform: slugify((entry.data as any).name, {
+        lower: true,
+        remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+      }),
+    },
+  }));
+}
+
+const { platform } = Astro.params;
+const platformName = getPlatformDisplayName(platform);
+const howToUrl = `/download/${platform}`;
+---
+
+<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5235469391524556"
+  crossorigin="anonymous"></script>
+
+<BaseLayout
+  title={`Your Kodi ${platformName} download is starting`}
+  breadcrumbs={`${platformName} Download Started | Downloads`}
+>
+  <section class="grid grid-cols-1 gap-8 2xl:grid-cols-[minmax(0,1fr)_360px]">
+    <div class="space-y-6">
+      <div class="rounded-lg border border-kodi/15 bg-kodi-surface-light p-6">
+        <p
+          class="font-display text-sm font-semibold uppercase tracking-wide text-kodi"
+        >
+          Download started
+        </p>
+        <h1
+          id="download-title"
+          class="mt-2 break-words font-display text-2xl font-bold text-kodi-darker sm:text-3xl"
+        >
+          Your Kodi download is starting
+        </h1>
+        <p
+          id="download-copy"
+          class="mt-3 max-w-2xl text-base text-gray-700 sm:text-lg"
+        >
+          Keep this page open while your browser starts the file download.
+        </p>
+        <div class="mt-5 flex flex-col gap-3 sm:flex-row">
+          <a
+            id="download-retry"
+            class="inline-flex items-center justify-center rounded-lg bg-kodi-darker px-4 py-3 font-display text-sm font-semibold text-white transition hover:bg-kodi sm:px-5 sm:text-base"
+            href="/download"
+            rel="nofollow"
+          >
+            Retry direct download
+          </a>
+          <a
+            class="inline-flex items-center justify-center rounded-lg border border-kodi/25 px-4 py-3 font-display text-sm font-semibold text-kodi-darker transition hover:bg-kodi-surface-light sm:px-5 sm:text-base"
+            href={howToUrl}
+          >
+            Back to {platformName} downloads
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href={howToUrl}
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">
+            Install guide
+          </h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Review platform-specific installation notes before opening the file.
+          </p>
+        </a>
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href="/donate"
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">
+            Support Kodi
+          </h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Help fund infrastructure, releases, and community services.
+          </p>
+        </a>
+        <a
+          class="rounded-lg border border-gray-200 p-4 transition hover:border-kodi/40 hover:bg-kodi-surface-light"
+          href="/store"
+        >
+          <h2 class="font-display text-lg font-bold text-kodi-darker">Kodi store</h2>
+          <p class="mt-2 text-sm text-gray-600">
+            Official merchandise is another way to support the project.
+          </p>
+        </a>
+      </div>
+
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-28"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
+
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4 2xl:hidden"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-72"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
+    </div>
+
+    <aside class="hidden space-y-5 2xl:block">
+      <section
+        aria-label="Advertisement"
+        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
+      >
+        <p
+          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
+        >
+          Advertisement
+        </p>
+        <ins
+          class="adsbygoogle block min-h-72"
+          data-ad-client="ca-pub-5235469391524556"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+      </section>
+
+      <div class="rounded-lg border border-kodi/15 bg-white p-5">
+        <h2 class="font-display text-xl font-bold text-kodi-darker">
+          Official download
+        </h2>
+        <p class="mt-2 text-sm text-gray-600">
+          Kodi downloads linked from this page are served from official Kodi
+          infrastructure.
+        </p>
+      </div>
+    </aside>
+  </section>
+
+  <script>
+    import {
+      getReceiptDownloadName,
+      isAllowedReceiptDownloadUrl,
+    } from "../../../utils/downloadValidation";
+
+    const params = new URLSearchParams(window.location.search);
+    const downloadUrl = params.get("url");
+    const title = document.getElementById("download-title");
+    const copy = document.getElementById("download-copy");
+    const retry = document.getElementById("download-retry");
+    const safeDownloadUrl = isAllowedReceiptDownloadUrl(downloadUrl)
+      ? downloadUrl
+      : null;
+
+    if (safeDownloadUrl) {
+      const downloadName = getReceiptDownloadName(safeDownloadUrl);
+      title.textContent = `${downloadName} is downloading`;
+      copy.textContent =
+        "If the download does not start automatically, use the retry button below.";
+      retry.href = safeDownloadUrl;
+
+      window.setTimeout(() => {
+        const frame = document.createElement("iframe");
+        frame.hidden = true;
+        frame.src = safeDownloadUrl;
+        document.body.appendChild(frame);
+      }, 250);
+    } else if (downloadUrl) {
+      title.textContent = "Choose a Kodi download";
+      copy.textContent =
+        "This page needs an official Kodi mirror file before it can start a download.";
+    } else {
+      title.textContent = "Choose a Kodi download";
+      copy.textContent =
+        "This page needs a selected download file before it can start a download.";
+    }
+
+    try {
+      const adWindow = window as Window & { adsbygoogle?: unknown[] };
+      adWindow.adsbygoogle = adWindow.adsbygoogle || [];
+      document.querySelectorAll(".adsbygoogle").forEach(() => {
+        adWindow.adsbygoogle?.push({});
+      });
+    } catch {
+      // Ad blockers can make the provider script unavailable.
+    }
+  </script>
+</BaseLayout>

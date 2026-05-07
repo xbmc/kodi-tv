@@ -12,6 +12,7 @@ releases:
     downloads:
       - name: v21 webOS
         url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_21.0.ipk?https=1
+        download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: The **Alpha 3** pre-release build has become available because we
@@ -20,6 +21,7 @@ releases:
     downloads:
       - name: v22 Alpha3 webOS
         url: https://mirrors.kodi.tv/snapshots/webos/org.xbmc.kodi-webos_22.0~a3.ipk?https=1
+        download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
@@ -38,5 +40,7 @@ releases:
     downloads:
       - name: v21 webOS
         url: https://mirrors.kodi.tv/nightlies/webos/Omega/
+        download_type: mirror_directory
       - name: v22 webOS
         url: https://mirrors.kodi.tv/nightlies/webos/master/
+        download_type: mirror_directory

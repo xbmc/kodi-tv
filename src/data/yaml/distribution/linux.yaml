@@ -11,8 +11,10 @@ releases:
     downloads:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux?https=1
+        download_type: external
       - name: Flathub
         url: https://flathub.org/apps/tv.kodi.Kodi
+        download_type: external
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
     description: The **Alpha 3** pre-release build has become available because we
@@ -21,6 +23,7 @@ releases:
     downloads:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux?https=1
+        download_type: external
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
     description: >-
@@ -39,3 +42,4 @@ releases:
     downloads:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux?https=1
+        download_type: external
