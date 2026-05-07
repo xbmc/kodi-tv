@@ -49,15 +49,20 @@ describe("download routing", () => {
     ).toBe("external");
   });
 
+  it("keeps non-mirror binary URLs external by default", () => {
+    expect(getDownloadType({ url: "https://example.com/kodi.exe" })).toBe(
+      "external",
+    );
+  });
+
   it("builds an encoded receipt URL for the selected binary", () => {
     expect(
       buildReceiptDownloadUrl({
         platform: "Windows",
-        name: "Installer (64BIT)",
         url: "https://mirrors.kodi.tv/releases/windows/win64/kodi.exe?https=1",
       }),
     ).toBe(
-      "/download/thanks/windows?name=Installer+%2864BIT%29&url=https%3A%2F%2Fmirrors.kodi.tv%2Freleases%2Fwindows%2Fwin64%2Fkodi.exe%3Fhttps%3D1",
+      "/download/thanks/windows?url=https%3A%2F%2Fmirrors.kodi.tv%2Freleases%2Fwindows%2Fwin64%2Fkodi.exe%3Fhttps%3D1",
     );
   });
 
@@ -69,6 +74,13 @@ describe("download routing", () => {
         url: "https://mirrors.kodi.tv/releases/osx/arm64/kodi.dmg?https=1",
       }),
     ).toContain("/download/thanks/macos?");
+    expect(
+      getDownloadHref({
+        platform: "macOS",
+        name: "Apple Silicon (ARM64)",
+        url: "https://mirrors.kodi.tv/releases/osx/arm64/kodi.dmg?https=1",
+      }),
+    ).not.toContain("name=");
     expect(
       getDownloadHref({
         platform: "Windows",

@@ -26,7 +26,7 @@ describe("DownloadLinks", () => {
 
     expect(screen.getByRole("link", { name: "Installer (64BIT)" })).toHaveAttribute(
       "href",
-      "/download/thanks/windows?name=Installer+%2864BIT%29&url=https%3A%2F%2Fmirrors.kodi.tv%2Freleases%2Fwindows%2Fwin64%2Fkodi-21.3-Omega-x64.exe%3Fhttps%3D1",
+      "/download/thanks/windows?url=https%3A%2F%2Fmirrors.kodi.tv%2Freleases%2Fwindows%2Fwin64%2Fkodi-21.3-Omega-x64.exe%3Fhttps%3D1",
     );
   });
 

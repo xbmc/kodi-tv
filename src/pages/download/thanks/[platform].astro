@@ -1,19 +1,18 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getPlatformDisplayName } from "../../../utils/downloads";
 
 export async function getStaticPaths() {
-  return [
-    "android",
-    "ios",
-    "linux",
-    "macos",
-    "raspberry-pi",
-    "tvos",
-    "webos",
-    "windows",
-  ].map(platform => ({
-    params: { platform },
+  const distributions = await getCollection("distributions");
+  const slugify = (await import("slugify")).default;
+  return distributions.map(entry => ({
+    params: {
+      platform: slugify((entry.data as any).name, {
+        lower: true,
+        remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+      }),
+    },
   }));
 }
 

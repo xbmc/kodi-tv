@@ -1,8 +1,9 @@
 import slugify from "slugify";
-export {
+import {
   getReceiptDownloadName,
   isAllowedReceiptDownloadUrl,
 } from "./downloadValidation";
+export { getReceiptDownloadName, isAllowedReceiptDownloadUrl };
 
 export type DownloadType = "receipt_binary" | "mirror_directory" | "external";
 
@@ -12,7 +13,6 @@ export interface DownloadItem {
   download_type?: DownloadType;
 }
 
-const binaryDownloadPattern = /\.(exe|dmg|apk|deb|ipk)(\?|$)/i;
 const mirrorDirectoryPattern = /^https:\/\/mirrors\.kodi\.tv\/.+\/$/i;
 const platformDisplayNames: Record<string, string> = {
   android: "Android",
@@ -33,7 +33,7 @@ export function getDownloadType(download: {
     return download.download_type;
   }
 
-  if (binaryDownloadPattern.test(download.url)) {
+  if (isAllowedReceiptDownloadUrl(download.url)) {
     return "receipt_binary";
   }
 
@@ -46,14 +46,12 @@ export function getDownloadType(download: {
 
 export function buildReceiptDownloadUrl({
   platform,
-  name,
   url,
 }: {
   platform: string;
-  name: string;
   url: string;
 }) {
-  const params = new URLSearchParams({ name, url });
+  const params = new URLSearchParams({ url });
   const platformSlug = slugify(platform, {
     lower: true,
     remove: /[^\w\s$*_+~.()'"!\-@]+/g,
@@ -64,7 +62,6 @@ export function buildReceiptDownloadUrl({
 
 export function getDownloadHref({
   platform,
-  name,
   url,
   download_type,
 }: DownloadItem & { platform: string }) {
@@ -72,7 +69,7 @@ export function getDownloadHref({
     return url;
   }
 
-  return buildReceiptDownloadUrl({ platform, name, url });
+  return buildReceiptDownloadUrl({ platform, url });
 }
 
 export function getPlatformDisplayName(platform?: string) {
