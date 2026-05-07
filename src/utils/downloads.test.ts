@@ -4,6 +4,7 @@ import {
   getDownloadType,
   getDownloadHref,
   getPlatformDisplayName,
+  getReceiptDownloadName,
   isAllowedReceiptDownloadUrl,
 } from "./downloads";
 
@@ -103,11 +104,26 @@ describe("download routing", () => {
     "",
     "javascript:alert(1)",
     "data:text/html,download",
+    "https://mirrors.kodi.tv:8080/releases/windows/win64/kodi.exe",
     "http://mirrors.kodi.tv/releases/windows/win64/kodi.exe",
     "https://example.com/kodi.exe",
     "https://mirrors.kodi.tv/nightlies/windows/win64/master/",
     "https://mirrors.kodi.tv/releases/windows/win64/kodi.zip",
   ])("blocks non-official or non-binary receipt URLs: %s", url => {
     expect(isAllowedReceiptDownloadUrl(url)).toBe(false);
+  });
+
+  it("derives the receipt display name from the allowed URL", () => {
+    expect(
+      getReceiptDownloadName(
+        "https://mirrors.kodi.tv/releases/windows/win64/kodi-21.3-Omega-x64.exe?https=1",
+      ),
+    ).toBe("kodi-21.3-Omega-x64.exe");
+  });
+
+  it("falls back to a generic receipt display name for invalid URLs", () => {
+    expect(getReceiptDownloadName("https://example.com/MALWARE.exe")).toBe(
+      "Kodi download",
+    );
   });
 });

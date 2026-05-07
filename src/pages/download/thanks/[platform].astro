@@ -166,11 +166,13 @@ const howToUrl = `/download/${platform}`;
   </section>
 
   <script>
-    import { isAllowedReceiptDownloadUrl } from "../../../utils/downloadValidation";
+    import {
+      getReceiptDownloadName,
+      isAllowedReceiptDownloadUrl,
+    } from "../../../utils/downloadValidation";
 
     const params = new URLSearchParams(window.location.search);
     const downloadUrl = params.get("url");
-    const downloadName = params.get("name") || "Kodi";
     const title = document.getElementById("download-title");
     const copy = document.getElementById("download-copy");
     const retry = document.getElementById("download-retry");
@@ -179,6 +181,7 @@ const howToUrl = `/download/${platform}`;
       : null;
 
     if (safeDownloadUrl) {
+      const downloadName = getReceiptDownloadName(safeDownloadUrl);
       title.textContent = `${downloadName} is downloading`;
       copy.textContent =
         "If the download does not start automatically, use the retry button below.";
@@ -200,10 +203,14 @@ const howToUrl = `/download/${platform}`;
         "This page needs a selected download file before it can start a download.";
     }
 
-    const adWindow = window as Window & { adsbygoogle?: unknown[] };
-    adWindow.adsbygoogle = adWindow.adsbygoogle || [];
-    document.querySelectorAll(".adsbygoogle").forEach(() => {
-      adWindow.adsbygoogle?.push({});
-    });
+    try {
+      const adWindow = window as Window & { adsbygoogle?: unknown[] };
+      adWindow.adsbygoogle = adWindow.adsbygoogle || [];
+      document.querySelectorAll(".adsbygoogle").forEach(() => {
+        adWindow.adsbygoogle?.push({});
+      });
+    } catch {
+      // Ad blockers can make the provider script unavailable.
+    }
   </script>
 </BaseLayout>

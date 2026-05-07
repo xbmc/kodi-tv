@@ -23,12 +23,13 @@ export function DownloadLinks(props: {
             platform: props.platform,
           });
           const target = isReceiptDownload(download) ? undefined : "_blank";
+          const rel = target === "_blank" ? "noopener noreferrer" : undefined;
           return (
             <div
               key={`${download.name}-${download.url}`}
               className="lg:flex-initial"
             >
-              <Button href={href} target={target} variant="primary">
+              <Button href={href} target={target} rel={rel} variant="primary">
                 {download.name}
               </Button>
             </div>

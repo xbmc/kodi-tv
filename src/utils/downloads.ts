@@ -1,5 +1,8 @@
 import slugify from "slugify";
-export { isAllowedReceiptDownloadUrl } from "./downloadValidation";
+export {
+  getReceiptDownloadName,
+  isAllowedReceiptDownloadUrl,
+} from "./downloadValidation";
 
 export type DownloadType = "receipt_binary" | "mirror_directory" | "external";
 

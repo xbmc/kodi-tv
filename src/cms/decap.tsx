@@ -66,7 +66,6 @@ const DistributionPreview = ({ entry, widgetsFor, getAsset }) => {
   // this is a known issue with Netlify CMS
   // see https://github.com/netlify/netlify-cms/issues/3485
   let rawDist = entry.getIn(["data"]).toJS();
-  let rawDistStr = JSON.stringify(rawDist, null, 2);
   let dist = {};
   dist.name = entry.getIn(["data", "name"]);
   let imgSrc = entry.getIn(["data", "icon"]);

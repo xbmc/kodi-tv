@@ -52,6 +52,10 @@ describe("DownloadLinks", () => {
       "target",
       "_blank",
     );
+    expect(screen.getByRole("link", { name: "Windows Store" })).toHaveAttribute(
+      "rel",
+      "noopener noreferrer",
+    );
   });
 
   it("opens receipt pages in the current tab", () => {
