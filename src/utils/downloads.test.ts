@@ -3,6 +3,8 @@ import {
   buildReceiptDownloadUrl,
   getDownloadType,
   getDownloadHref,
+  getPlatformDisplayName,
+  isAllowedReceiptDownloadUrl,
 } from "./downloads";
 
 describe("download routing", () => {
@@ -74,5 +76,38 @@ describe("download routing", () => {
         url: "https://apps.microsoft.com/detail/9nblggh4t892",
       }),
     ).toBe("https://apps.microsoft.com/detail/9nblggh4t892");
+  });
+
+  it.each([
+    ["ios", "iOS"],
+    ["macos", "macOS"],
+    ["raspberry-pi", "Raspberry Pi"],
+    ["tvos", "tvOS"],
+    ["webos", "webOS"],
+    ["windows", "Windows"],
+  ])("uses the canonical platform display name for %s", (slug, name) => {
+    expect(getPlatformDisplayName(slug)).toBe(name);
+  });
+
+  it.each([
+    "https://mirrors.kodi.tv/releases/windows/win64/kodi.exe?https=1",
+    "https://mirrors.kodi.tv/releases/osx/arm64/kodi.dmg",
+    "https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi.apk?https=1",
+    "https://mirrors.kodi.tv/releases/darwin/tvos/kodi.deb",
+    "https://mirrors.kodi.tv/releases/webos/kodi.ipk?https=1",
+  ])("allows official Kodi binary receipt URLs: %s", url => {
+    expect(isAllowedReceiptDownloadUrl(url)).toBe(true);
+  });
+
+  it.each([
+    "",
+    "javascript:alert(1)",
+    "data:text/html,download",
+    "http://mirrors.kodi.tv/releases/windows/win64/kodi.exe",
+    "https://example.com/kodi.exe",
+    "https://mirrors.kodi.tv/nightlies/windows/win64/master/",
+    "https://mirrors.kodi.tv/releases/windows/win64/kodi.zip",
+  ])("blocks non-official or non-binary receipt URLs: %s", url => {
+    expect(isAllowedReceiptDownloadUrl(url)).toBe(false);
   });
 });

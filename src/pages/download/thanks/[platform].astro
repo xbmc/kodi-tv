@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getPlatformDisplayName } from "../../../utils/downloads";
 
 export async function getStaticPaths() {
   return [
@@ -17,10 +18,7 @@ export async function getStaticPaths() {
 }
 
 const { platform } = Astro.params;
-const platformName = platform
-  ?.split("-")
-  .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-  .join(" ");
+const platformName = getPlatformDisplayName(platform);
 const howToUrl = `/download/${platform}`;
 ---
 
@@ -156,7 +154,25 @@ const howToUrl = `/download/${platform}`;
     const copy = document.getElementById("download-copy");
     const retry = document.getElementById("download-retry");
 
-    if (downloadUrl) {
+    function isAllowedReceiptDownloadUrl(url) {
+      if (!url) {
+        return false;
+      }
+
+      try {
+        const parsedUrl = new URL(url);
+
+        return (
+          parsedUrl.protocol === "https:" &&
+          parsedUrl.hostname === "mirrors.kodi.tv" &&
+          /\.(exe|dmg|apk|deb|ipk)$/i.test(parsedUrl.pathname)
+        );
+      } catch {
+        return false;
+      }
+    }
+
+    if (isAllowedReceiptDownloadUrl(downloadUrl)) {
       title.textContent = `${downloadName} is downloading`;
       copy.textContent =
         "If the download does not start automatically, use the retry button below.";
@@ -168,6 +184,10 @@ const howToUrl = `/download/${platform}`;
         frame.src = downloadUrl;
         document.body.appendChild(frame);
       }, 250);
+    } else if (downloadUrl) {
+      title.textContent = "Choose a Kodi download";
+      copy.textContent =
+        "This page needs an official Kodi mirror file before it can start a download.";
     } else {
       title.textContent = "Choose a Kodi download";
       copy.textContent =

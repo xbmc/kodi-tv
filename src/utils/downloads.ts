@@ -9,7 +9,18 @@ export interface DownloadItem {
 }
 
 const binaryDownloadPattern = /\.(exe|dmg|apk|deb|ipk)(\?|$)/i;
+const receiptBinaryPathPattern = /\.(exe|dmg|apk|deb|ipk)$/i;
 const mirrorDirectoryPattern = /^https:\/\/mirrors\.kodi\.tv\/.+\/$/i;
+const platformDisplayNames: Record<string, string> = {
+  android: "Android",
+  ios: "iOS",
+  linux: "Linux",
+  macos: "macOS",
+  "raspberry-pi": "Raspberry Pi",
+  tvos: "tvOS",
+  webos: "webOS",
+  windows: "Windows",
+};
 
 export function getDownloadType(download: {
   url: string;
@@ -59,6 +70,38 @@ export function getDownloadHref({
   }
 
   return buildReceiptDownloadUrl({ platform, name, url });
+}
+
+export function getPlatformDisplayName(platform?: string) {
+  if (!platform) {
+    return "Kodi";
+  }
+
+  return (
+    platformDisplayNames[platform] ??
+    platform
+      .split("-")
+      .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(" ")
+  );
+}
+
+export function isAllowedReceiptDownloadUrl(url?: string | null) {
+  if (!url) {
+    return false;
+  }
+
+  try {
+    const parsedUrl = new URL(url);
+
+    return (
+      parsedUrl.protocol === "https:" &&
+      parsedUrl.hostname === "mirrors.kodi.tv" &&
+      receiptBinaryPathPattern.test(parsedUrl.pathname)
+    );
+  } catch {
+    return false;
+  }
 }
 
 export function isReceiptDownload(download: {

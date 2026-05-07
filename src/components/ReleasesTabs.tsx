@@ -10,6 +10,7 @@ class ReleasesTabs extends React.Component {
     releases: {
       name: string;
       id: string;
+      title: string;
       downloads: DownloadItem[];
       description: string;
     }[];
