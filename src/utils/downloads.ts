@@ -29,6 +29,10 @@ export function getDownloadType(download: {
   url: string;
   download_type?: DownloadType;
 }): DownloadType {
+  if (download.download_type === "receipt_binary") {
+    return isAllowedReceiptDownloadUrl(download.url) ? "receipt_binary" : "external";
+  }
+
   if (download.download_type) {
     return download.download_type;
   }

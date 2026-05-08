@@ -49,6 +49,29 @@ describe("download routing", () => {
     ).toBe("external");
   });
 
+  it("only honors explicit receipt routing for URLs accepted by the receipt page", () => {
+    expect(
+      getDownloadType({
+        download_type: "receipt_binary",
+        url: "https://mirrors.kodi.tv/releases/windows/win64/kodi.exe?https=1",
+      }),
+    ).toBe("receipt_binary");
+    expect(
+      getDownloadType({
+        download_type: "receipt_binary",
+        url: "https://example.com/kodi.exe",
+      }),
+    ).toBe("external");
+    expect(
+      getDownloadHref({
+        platform: "Windows",
+        name: "Invalid receipt binary",
+        download_type: "receipt_binary",
+        url: "https://example.com/kodi.exe",
+      }),
+    ).toBe("https://example.com/kodi.exe");
+  });
+
   it("keeps non-mirror binary URLs external by default", () => {
     expect(getDownloadType({ url: "https://example.com/kodi.exe" })).toBe(
       "external",
