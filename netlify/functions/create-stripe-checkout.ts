@@ -1,6 +1,7 @@
 import type { Handler, HandlerEvent } from "@netlify/functions";
 import Stripe from "stripe";
 import {
+  type CheckoutRequestBody,
   createStripeDonationCheckout,
   getStripeDonationConfig,
   verifyTurnstileToken,
@@ -53,10 +54,24 @@ function parseRequestBody(body: string | null) {
   }
 
   try {
-    return JSON.parse(body) as Record<string, unknown>;
+    const parsed = JSON.parse(body) as unknown;
+    if (!isPlainObject(parsed)) {
+      return null;
+    }
+
+    return parsed as CheckoutRequestBody;
   } catch {
     return null;
   }
+}
+
+function isPlainObject(value: unknown): value is Record<string, unknown> {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    !Array.isArray(value) &&
+    Object.getPrototypeOf(value) === Object.prototype
+  );
 }
 
 function getSiteOrigin() {

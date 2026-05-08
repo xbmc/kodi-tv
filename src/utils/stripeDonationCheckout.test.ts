@@ -173,4 +173,94 @@ describe("stripe donation checkout", () => {
     );
     expect(result.statusCode).toBe(200);
   });
+
+  it("returns a controlled error when Turnstile verification throws", async () => {
+    const createCheckoutSession = vi.fn();
+
+    const result = await createStripeDonationCheckout(
+      {
+        body: {
+          type: "one_time",
+          currency: "USD",
+          amount: 10,
+          turnstileToken: "valid-token",
+        },
+        origin: "https://kodi.tv",
+      },
+      {
+        config: getStripeDonationConfig("test"),
+        turnstileSecret: "secret",
+        verifyTurnstile: vi.fn(async () => {
+          throw new Error("network unavailable");
+        }),
+        createCheckoutSession,
+      },
+    );
+
+    expect(result).toEqual({
+      statusCode: 403,
+      body: { error: "Bot check failed. Please try again." },
+    });
+    expect(createCheckoutSession).not.toHaveBeenCalled();
+  });
+
+  it("returns a controlled error when Stripe session creation throws", async () => {
+    const result = await createStripeDonationCheckout(
+      {
+        body: {
+          type: "one_time",
+          currency: "USD",
+          amount: 10,
+          turnstileToken: "valid-token",
+        },
+        origin: "https://kodi.tv",
+      },
+      {
+        config: getStripeDonationConfig("test"),
+        turnstileSecret: "secret",
+        verifyTurnstile: successTurnstile,
+        createCheckoutSession: vi.fn(async () => {
+          throw new Error("stripe unavailable");
+        }),
+      },
+    );
+
+    expect(result).toEqual({
+      statusCode: 502,
+      body: { error: "Unable to start checkout. Please try again." },
+    });
+  });
+
+  it("does not throw when optional donor metadata is not a string", async () => {
+    const createCheckoutSession = vi.fn(async () => ({
+      url: "https://checkout.stripe.com/c/pay_123",
+    }));
+
+    const result = await createStripeDonationCheckout(
+      {
+        body: {
+          type: "one_time",
+          currency: "USD",
+          amount: 10,
+          donor: { name: "not a string" } as any,
+          forum: ["not a string"] as any,
+          turnstileToken: "valid-token",
+        },
+        origin: "https://kodi.tv",
+      },
+      {
+        config: getStripeDonationConfig("test"),
+        turnstileSecret: "secret",
+        verifyTurnstile: successTurnstile,
+        createCheckoutSession,
+      },
+    );
+
+    expect(createCheckoutSession).toHaveBeenCalledWith(
+      expect.objectContaining({
+        client_reference_id: "\u2028",
+      }),
+    );
+    expect(result.statusCode).toBe(200);
+  });
 });

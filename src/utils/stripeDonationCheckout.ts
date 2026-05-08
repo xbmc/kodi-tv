@@ -21,7 +21,7 @@ export interface StripeDonationConfig {
   monthly: Record<DonationCurrency, CurrencyMonthly>;
 }
 
-interface CheckoutRequestBody {
+export interface CheckoutRequestBody {
   type?: DonationType;
   currency?: string;
   amount?: number;
@@ -384,15 +384,11 @@ export async function createStripeDonationCheckout(
     return checkoutError(503, "Checkout is temporarily unavailable.");
   }
 
-  if (!token) {
+  if (typeof token !== "string" || !token) {
     return checkoutError(400, "Complete the bot check and try again.");
   }
 
-  const turnstile = await dependencies.verifyTurnstile({
-    secret: dependencies.turnstileSecret,
-    token,
-    remoteIp: request.ip,
-  });
+  const turnstile = await verifyTurnstile(dependencies, token, request.ip);
 
   if (!turnstile.success) {
     return checkoutError(403, "Bot check failed. Please try again.");
@@ -408,8 +404,8 @@ export async function createStripeDonationCheckout(
     return checkoutError(400, sessionRequest.error);
   }
 
-  const session = await dependencies.createCheckoutSession(sessionRequest);
-  if (!session.url) {
+  const session = await createCheckoutSession(dependencies, sessionRequest);
+  if (!session?.url) {
     return checkoutError(502, "Unable to start checkout. Please try again.");
   }
 
@@ -424,25 +420,62 @@ export async function verifyTurnstileToken({
   token,
   remoteIp,
 }: TurnstileVerificationRequest) {
-  const response = await fetch(
-    "https://challenges.cloudflare.com/turnstile/v0/siteverify",
-    {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        secret,
-        response: token,
-        remoteip: remoteIp,
-      }),
-    },
-  );
+  try {
+    const form = new URLSearchParams({
+      secret,
+      response: token,
+    });
+    if (remoteIp) {
+      form.set("remoteip", remoteIp);
+    }
 
-  if (!response.ok) {
+    const response = await fetch(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      {
+        method: "POST",
+        headers: {
+          "content-type": "application/x-www-form-urlencoded",
+        },
+        body: form,
+      },
+    );
+
+    if (!response.ok) {
+      return { success: false };
+    }
+
+    const result = (await response.json()) as { success?: boolean };
+    return { success: result.success === true };
+  } catch {
     return { success: false };
   }
+}
 
-  const result = (await response.json()) as { success?: boolean };
-  return { success: result.success === true };
+async function verifyTurnstile(
+  dependencies: CheckoutDependencies,
+  token: string,
+  remoteIp?: string,
+) {
+  try {
+    return await dependencies.verifyTurnstile({
+      secret: dependencies.turnstileSecret!,
+      token,
+      remoteIp,
+    });
+  } catch {
+    return { success: false };
+  }
+}
+
+async function createCheckoutSession(
+  dependencies: CheckoutDependencies,
+  sessionRequest: CheckoutSessionRequest,
+) {
+  try {
+    return await dependencies.createCheckoutSession(sessionRequest);
+  } catch {
+    return null;
+  }
 }
 
 function buildSessionRequest(
@@ -504,7 +537,11 @@ function normalizeLevel(level?: string): DonationLevel | null {
 }
 
 function sanitizeReferenceValue(value?: string) {
-  return (value ?? "")
+  if (typeof value !== "string") {
+    return "";
+  }
+
+  return value
     .replace(/\u2028/g, " ")
     .trim()
     .slice(0, 100);
