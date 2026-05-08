@@ -8,8 +8,14 @@ const turnstileSiteKey =
   import.meta.env.GATSBY_TURNSTILE_SITE_KEY;
 const checkoutEndpoint = "/.netlify/functions/create-stripe-checkout";
 
+interface CheckoutResponse {
+  error?: string;
+  url?: string;
+}
+
 export default class PageStripe extends React.Component {
-  turnstileWidgetId = null;
+  turnstileWidgetId: string | null = null;
+  websiteInput: HTMLInputElement | null = null;
 
   constructor() {
     super();
@@ -129,10 +135,10 @@ export default class PageStripe extends React.Component {
             donor: this.state.donor || "",
             forum: this.state.forum || "",
             turnstileToken: this.state.turnstileToken,
-            website: this.state.website,
+            website: this.websiteInput?.value || this.state.website,
           }),
         });
-        let data = {};
+        let data: CheckoutResponse = {};
         try {
           data = await response.json();
         } catch {
@@ -260,6 +266,9 @@ export default class PageStripe extends React.Component {
                       id="website"
                       tabIndex={-1}
                       autoComplete="off"
+                      ref={input => {
+                        this.websiteInput = input;
+                      }}
                       onChange={this.handleInputChange}
                     />
                   </div>

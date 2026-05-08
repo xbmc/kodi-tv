@@ -12,6 +12,7 @@ const jsonHeaders = {
 };
 
 const STRIPE_CHECKOUT_TIMEOUT_MS = 8000;
+const STRIPE_API_VERSION = "2026-04-22.dahlia";
 
 export const handler: Handler = async (event: HandlerEvent) => {
   try {
@@ -40,6 +41,7 @@ async function handleCheckoutRequest(event: HandlerEvent) {
   }
 
   const stripe = new Stripe(stripeSecretKey, {
+    apiVersion: STRIPE_API_VERSION,
     timeout: STRIPE_CHECKOUT_TIMEOUT_MS,
   });
   const result = await createStripeDonationCheckout(
