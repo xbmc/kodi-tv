@@ -73,16 +73,6 @@ export async function createStripeDonationCheckout(
     return checkoutError(503, "Checkout is temporarily unavailable.");
   }
 
-  if (typeof token !== "string" || !token) {
-    return checkoutError(400, "Complete the bot check and try again.");
-  }
-
-  const turnstile = await verifyTurnstile(dependencies, token, request.ip);
-
-  if (!turnstile.success) {
-    return checkoutError(403, "Bot check failed. Please try again.");
-  }
-
   const currency = normalizeCurrency(request.body.currency);
   if (!currency) {
     return checkoutError(400, "Choose a valid donation currency.");
@@ -91,6 +81,16 @@ export async function createStripeDonationCheckout(
   const sessionRequest = buildSessionRequest(request, dependencies.config, currency);
   if ("error" in sessionRequest) {
     return checkoutError(400, sessionRequest.error);
+  }
+
+  if (typeof token !== "string" || !token) {
+    return checkoutError(400, "Complete the bot check and try again.");
+  }
+
+  const turnstile = await verifyTurnstile(dependencies, token, request.ip);
+
+  if (!turnstile.success) {
+    return checkoutError(403, "Bot check failed. Please try again.");
   }
 
   const session = await createCheckoutSession(dependencies, sessionRequest);
