@@ -14,6 +14,17 @@ const jsonHeaders = {
 const STRIPE_CHECKOUT_TIMEOUT_MS = 8000;
 
 export const handler: Handler = async (event: HandlerEvent) => {
+  try {
+    return await handleCheckoutRequest(event);
+  } catch (error) {
+    console.error("Stripe donation checkout handler failed:", error);
+    return jsonResponse(500, {
+      error: "Unable to start checkout. Please try again.",
+    });
+  }
+};
+
+async function handleCheckoutRequest(event: HandlerEvent) {
   if (event.httpMethod !== "POST") {
     return jsonResponse(405, { error: "Method not allowed." });
   }
@@ -50,7 +61,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
   );
 
   return jsonResponse(result.statusCode, result.body);
-};
+}
 
 function parseRequestBody(body: string | null) {
   if (!body) {

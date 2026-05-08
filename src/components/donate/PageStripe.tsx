@@ -132,10 +132,23 @@ export default class PageStripe extends React.Component {
             website: this.state.website,
           }),
         });
-        const data = await response.json();
+        let data = {};
+        try {
+          data = await response.json();
+        } catch {
+          data = {};
+        }
 
-        if (!response.ok || !data.url) {
-          throw new Error(data.error || "Unable to start checkout.");
+        if (!response.ok) {
+          throw new Error(
+            typeof data.error === "string"
+              ? data.error
+              : "Unable to start checkout. Please try again.",
+          );
+        }
+
+        if (typeof data.url !== "string" || !data.url) {
+          throw new Error("Unable to start checkout. Please try again.");
         }
 
         window.location.assign(data.url);

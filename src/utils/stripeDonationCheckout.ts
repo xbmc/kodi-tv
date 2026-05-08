@@ -451,7 +451,8 @@ export async function verifyTurnstileToken({
 
     const result = (await response.json()) as { success?: boolean };
     return { success: result.success === true };
-  } catch {
+  } catch (error) {
+    console.error("Turnstile verification failed:", error);
     return { success: false };
   } finally {
     clearTimeout(timeout);
@@ -469,7 +470,8 @@ async function verifyTurnstile(
       token,
       remoteIp,
     });
-  } catch {
+  } catch (error) {
+    console.error("Turnstile verification dependency failed:", error);
     return { success: false };
   }
 }
@@ -480,7 +482,8 @@ async function createCheckoutSession(
 ) {
   try {
     return await dependencies.createCheckoutSession(sessionRequest);
-  } catch {
+  } catch (error) {
+    console.error("Stripe checkout session creation failed:", error);
     return null;
   }
 }
