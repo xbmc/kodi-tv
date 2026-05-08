@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
 
 interface AdUnitProps {
@@ -9,13 +9,27 @@ interface AdUnitProps {
 
 const defaultAdSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
 
+function isVisibleAdUnit(adElement: Element | null) {
+  return Boolean(
+    adElement &&
+    adElement.getClientRects().length > 0 &&
+    (adElement as HTMLElement).offsetParent !== null,
+  );
+}
+
 function AdUnit({
   minHeightClass = "min-h-28",
   className,
   slot = defaultAdSlot,
 }: AdUnitProps) {
+  const adRef = useRef<HTMLModElement>(null);
+
   useEffect(() => {
     try {
+      if (!isVisibleAdUnit(adRef.current)) {
+        return;
+      }
+
       const win = window as typeof window & { adsbygoogle?: unknown[] };
       win.adsbygoogle = win.adsbygoogle || [];
       win.adsbygoogle.push({});
@@ -36,6 +50,7 @@ function AdUnit({
         Advertisement
       </p>
       <ins
+        ref={adRef}
         className={cn("adsbygoogle block", minHeightClass)}
         data-ad-client="ca-pub-5235469391524556"
         data-ad-slot={slot}

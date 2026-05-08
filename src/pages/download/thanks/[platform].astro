@@ -209,7 +209,14 @@ const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
     try {
       const adWindow = window as Window & { adsbygoogle?: unknown[] };
       adWindow.adsbygoogle = adWindow.adsbygoogle || [];
-      document.querySelectorAll(".adsbygoogle").forEach(() => {
+      document.querySelectorAll(".adsbygoogle").forEach(adElement => {
+        if (
+          adElement.getClientRects().length === 0 ||
+          (adElement as HTMLElement).offsetParent === null
+        ) {
+          return;
+        }
+
         adWindow.adsbygoogle?.push({});
       });
     } catch {
