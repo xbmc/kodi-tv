@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import {
   createStripeDonationCheckout,
   getStripeDonationConfig,
+  verifyTurnstileToken,
 } from "./stripeDonationCheckout";
 
 const successTurnstile = vi.fn(async () => ({ success: true }));
@@ -262,5 +263,30 @@ describe("stripe donation checkout", () => {
       }),
     );
     expect(result.statusCode).toBe(200);
+  });
+
+  it("bounds Turnstile verification requests with an abort signal", async () => {
+    const fetchMock = vi.fn(async () => ({
+      ok: true,
+      json: async () => ({ success: true }),
+    }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await verifyTurnstileToken({
+      secret: "secret",
+      token: "valid-token",
+      remoteIp: "203.0.113.10",
+    });
+
+    expect(result).toEqual({ success: true });
+    expect(fetchMock).toHaveBeenCalledWith(
+      "https://challenges.cloudflare.com/turnstile/v0/siteverify",
+      expect.objectContaining({
+        method: "POST",
+        signal: expect.any(AbortSignal),
+      }),
+    );
+
+    vi.unstubAllGlobals();
   });
 });

@@ -11,6 +11,8 @@ const jsonHeaders = {
   "content-type": "application/json",
 };
 
+const STRIPE_CHECKOUT_TIMEOUT_MS = 8000;
+
 export const handler: Handler = async (event: HandlerEvent) => {
   if (event.httpMethod !== "POST") {
     return jsonResponse(405, { error: "Method not allowed." });
@@ -26,7 +28,9 @@ export const handler: Handler = async (event: HandlerEvent) => {
     return jsonResponse(400, { error: "Invalid checkout request." });
   }
 
-  const stripe = new Stripe(stripeSecretKey);
+  const stripe = new Stripe(stripeSecretKey, {
+    timeout: STRIPE_CHECKOUT_TIMEOUT_MS,
+  });
   const result = await createStripeDonationCheckout(
     {
       body,

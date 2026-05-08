@@ -66,6 +66,7 @@ interface CheckoutDependencies {
 
 const currencies: DonationCurrency[] = ["USD", "EUR", "GBP", "CAD", "AUD", "JPY"];
 const levels: DonationLevel[] = ["levelOne", "levelTwo", "levelThree", "levelFour"];
+const TURNSTILE_VERIFY_TIMEOUT_MS = 5000;
 
 const testOneTime = {
   USD: "price_1HVRC7DOVUu6yhjNHWNMz6Zf",
@@ -420,6 +421,9 @@ export async function verifyTurnstileToken({
   token,
   remoteIp,
 }: TurnstileVerificationRequest) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), TURNSTILE_VERIFY_TIMEOUT_MS);
+
   try {
     const form = new URLSearchParams({
       secret,
@@ -437,6 +441,7 @@ export async function verifyTurnstileToken({
           "content-type": "application/x-www-form-urlencoded",
         },
         body: form,
+        signal: controller.signal,
       },
     );
 
@@ -448,6 +453,8 @@ export async function verifyTurnstileToken({
     return { success: result.success === true };
   } catch {
     return { success: false };
+  } finally {
+    clearTimeout(timeout);
   }
 }
 

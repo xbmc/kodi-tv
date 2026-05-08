@@ -302,6 +302,7 @@ export default class PageStripe extends React.Component {
                                 type="number"
                                 name="otPrice"
                                 id="otPrice"
+                                step="1"
                                 onChange={this.handleInputChange}
                                 className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               />
