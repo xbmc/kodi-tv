@@ -5,12 +5,18 @@ import { AdUnit } from "./AdUnit";
 
 describe("AdUnit", () => {
   it("renders a labeled responsive ad container", () => {
-    const { container } = render(<AdUnit minHeightClass="min-h-72" />);
+    const { container } = render(
+      <AdUnit minHeightClass="min-h-72" slot="1234567890" />,
+    );
 
     expect(screen.getByLabelText("Advertisement")).toBeInTheDocument();
     expect(container.querySelector(".adsbygoogle")).toHaveAttribute(
       "data-ad-client",
       "ca-pub-5235469391524556",
+    );
+    expect(container.querySelector(".adsbygoogle")).toHaveAttribute(
+      "data-ad-slot",
+      "1234567890",
     );
   });
 });

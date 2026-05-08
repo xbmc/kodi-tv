@@ -4,9 +4,16 @@ import { cn } from "@/lib/utils";
 interface AdUnitProps {
   minHeightClass?: string;
   className?: string;
+  slot?: string;
 }
 
-function AdUnit({ minHeightClass = "min-h-28", className }: AdUnitProps) {
+const defaultAdSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
+
+function AdUnit({
+  minHeightClass = "min-h-28",
+  className,
+  slot = defaultAdSlot,
+}: AdUnitProps) {
   useEffect(() => {
     try {
       const win = window as typeof window & { adsbygoogle?: unknown[] };
@@ -31,6 +38,7 @@ function AdUnit({ minHeightClass = "min-h-28", className }: AdUnitProps) {
       <ins
         className={cn("adsbygoogle block", minHeightClass)}
         data-ad-client="ca-pub-5235469391524556"
+        data-ad-slot={slot}
         data-ad-format="auto"
         data-full-width-responsive="true"
       />

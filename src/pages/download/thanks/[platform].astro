@@ -19,6 +19,7 @@ export async function getStaticPaths() {
 const { platform } = Astro.params;
 const platformName = getPlatformDisplayName(platform);
 const howToUrl = `/download/${platform}`;
+const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
 ---
 
 <script
@@ -114,6 +115,7 @@ const howToUrl = `/download/${platform}`;
         <ins
           class="adsbygoogle block min-h-28"
           data-ad-client="ca-pub-5235469391524556"
+          data-ad-slot={adsenseDownloadSlot}
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       </section>
@@ -130,6 +132,7 @@ const howToUrl = `/download/${platform}`;
         <ins
           class="adsbygoogle block min-h-72"
           data-ad-client="ca-pub-5235469391524556"
+          data-ad-slot={adsenseDownloadSlot}
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       </section>
@@ -148,6 +151,7 @@ const howToUrl = `/download/${platform}`;
         <ins
           class="adsbygoogle block min-h-72"
           data-ad-client="ca-pub-5235469391524556"
+          data-ad-slot={adsenseDownloadSlot}
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       </section>
