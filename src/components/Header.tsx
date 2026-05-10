@@ -195,9 +195,12 @@ function Header(props: any) {
     mainclassname = "bg-kodibg";
     showtitle = false;
   }
+  const sideRailOverlapAttributes = showtitle
+    ? { "google-side-rail-overlap": "false" }
+    : {};
   return (
     <>
-      <div className={mainclassname}>
+      <div className={mainclassname} {...sideRailOverlapAttributes}>
         <nav className="glass-dark sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-2 lg:px-6">
             <div>
