@@ -117,6 +117,9 @@ const distributions = defineCollection({
               z.object({
                 name: z.string(),
                 url: z.string(),
+                download_type: z
+                  .enum(["receipt_binary", "mirror_directory", "external"])
+                  .optional(),
               }),
             )
             .optional(),

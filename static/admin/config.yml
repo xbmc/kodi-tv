@@ -199,6 +199,18 @@ collections:
             fields:
               - { name: "name", label: "Title", widget: "string" }
               - { name: "url", label: "URL", widget: "string" }
+              - {
+                  name: "download_type",
+                  label: "Download Type",
+                  widget: "select",
+                  required: false,
+                  options:
+                    [
+                      "receipt_binary",
+                      "mirror_directory",
+                      "external",
+                    ],
+                }
   - name: "featuredaddons"
     label: "Featured Add-ons"
     files:
