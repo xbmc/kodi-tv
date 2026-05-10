@@ -1,12 +1,22 @@
 import React from "react";
 import { DefaultLayout } from "../Layout";
-import { loadStripe } from "@stripe/stripe-js";
 import ButtonStripe from "../ButtonStripe";
 import siteConfig from "../../config/site";
 
-const stripePromise = loadStripe(siteConfig.stripe.apikey);
+const turnstileSiteKey =
+  import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ||
+  import.meta.env.GATSBY_TURNSTILE_SITE_KEY;
+const checkoutEndpoint = "/.netlify/functions/create-stripe-checkout";
+
+interface CheckoutResponse {
+  error?: string;
+  url?: string;
+}
 
 export default class PageStripe extends React.Component {
+  turnstileWidgetId: string | null = null;
+  websiteInput: HTMLInputElement | null = null;
+
   constructor() {
     super();
     this.state = {
@@ -15,6 +25,10 @@ export default class PageStripe extends React.Component {
       otPrice: "",
       otCurrency: "USD",
       recCurrency: "USD",
+      turnstileToken: "",
+      checkoutError: "",
+      checkoutLoading: false,
+      website: "",
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -29,38 +43,147 @@ export default class PageStripe extends React.Component {
     });
   }
 
+  componentDidMount() {
+    this.loadTurnstile();
+  }
+
+  componentWillUnmount() {
+    const turnstile = (window as any).turnstile;
+    if (turnstile && this.turnstileWidgetId !== null) {
+      turnstile.remove(this.turnstileWidgetId);
+    }
+  }
+
+  loadTurnstile() {
+    if (!turnstileSiteKey) {
+      return;
+    }
+
+    if ((window as any).turnstile) {
+      this.renderTurnstile();
+      return;
+    }
+
+    const existingScript = document.querySelector(
+      'script[data-turnstile-script="true"]',
+    );
+    if (existingScript) {
+      existingScript.addEventListener("load", () => this.renderTurnstile(), {
+        once: true,
+      });
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+    script.async = true;
+    script.defer = true;
+    script.dataset.turnstileScript = "true";
+    script.addEventListener("load", () => this.renderTurnstile());
+    document.head.appendChild(script);
+  }
+
+  renderTurnstile() {
+    if (!turnstileSiteKey || this.turnstileWidgetId !== null) {
+      return;
+    }
+
+    const container = document.getElementById("stripe-turnstile");
+    const turnstile = (window as any).turnstile;
+    if (!container || !turnstile) {
+      return;
+    }
+
+    this.turnstileWidgetId = turnstile.render(container, {
+      sitekey: turnstileSiteKey,
+      callback: token => {
+        this.setState({ turnstileToken: token, checkoutError: "" });
+      },
+      "expired-callback": () => {
+        this.setState({ turnstileToken: "" });
+      },
+      "error-callback": () => {
+        this.setState({
+          turnstileToken: "",
+          checkoutError: "Bot check failed. Please try again.",
+        });
+      },
+    });
+  }
+
   render() {
     let frontmatter = {
       title: "Pay via Credit Card",
       breadcrumbs: "Stripe | Donate",
     };
 
-    const handleOneTimeClick = async event => {
-      // When the customer clicks on the button, redirect them to Checkout.
+    const checkoutDisabled =
+      this.state.checkoutLoading ||
+      !turnstileSiteKey ||
+      !this.state.turnstileToken ||
+      Boolean(this.state.website);
+
+    const startCheckout = async payload => {
+      this.setState({ checkoutError: "", checkoutLoading: true });
+
+      try {
+        const response = await fetch(checkoutEndpoint, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            ...payload,
+            donor: this.state.donor || "",
+            forum: this.state.forum || "",
+            turnstileToken: this.state.turnstileToken,
+            website: this.websiteInput?.value || this.state.website,
+          }),
+        });
+        let data: CheckoutResponse = {};
+        try {
+          data = await response.json();
+        } catch {
+          data = {};
+        }
+
+        if (!response.ok) {
+          throw new Error(
+            typeof data.error === "string"
+              ? data.error
+              : "Unable to start checkout. Please try again.",
+          );
+        }
+
+        if (typeof data.url !== "string" || !data.url) {
+          throw new Error("Unable to start checkout. Please try again.");
+        }
+
+        window.location.assign(data.url);
+      } catch (error) {
+        this.setState({
+          checkoutError:
+            error instanceof Error
+              ? error.message
+              : "Unable to start checkout. Please try again.",
+          checkoutLoading: false,
+          turnstileToken: "",
+        });
+
+        const turnstile = (window as any).turnstile;
+        if (turnstile && this.turnstileWidgetId !== null) {
+          turnstile.reset(this.turnstileWidgetId);
+        }
+      }
+    };
+
+    const handleOneTimeClick = async () => {
       if (!Number.isInteger(Number(this.state.otPrice))) {
         return;
       }
-      let sep = "\u2028";
-      let donorname = this.state.donor || "";
-      let forumname = this.state.forum || "";
-      let current_datetime = new Date();
-      const stripe = await stripePromise;
-      const { error } = await stripe.redirectToCheckout({
-        lineItems: [
-          {
-            price: siteConfig.stripe.oneTime[this.state.otCurrency],
-            quantity: parseInt(this.state.otPrice),
-          },
-        ],
-        mode: "payment",
-        submitType: "donate",
-        clientReferenceId: donorname + sep + forumname,
-        successUrl:
-          (import.meta.env.PUBLIC_SITEURL || import.meta.env.GATSBY_SITEURL) +
-          "/donate/success-stripe",
-        cancelUrl:
-          (import.meta.env.PUBLIC_SITEURL || import.meta.env.GATSBY_SITEURL) +
-          "/donate/by-stripe",
+
+      await startCheckout({
+        type: "one_time",
+        currency: this.state.otCurrency,
+        amount: parseInt(this.state.otPrice),
       });
     };
 
@@ -131,7 +254,45 @@ export default class PageStripe extends React.Component {
                       />
                     </div>
                   </div>
+
+                  <div
+                    className="absolute left-[-9999px] h-0 w-0 overflow-hidden"
+                    aria-hidden="true"
+                  >
+                    <label htmlFor="website">Website</label>
+                    <input
+                      type="text"
+                      name="website"
+                      id="website"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      ref={input => {
+                        this.websiteInput = input;
+                      }}
+                      onChange={this.handleInputChange}
+                    />
+                  </div>
                 </div>
+              </div>
+
+              <div className="py-6">
+                <h3 className="text-lg leading-6 font-medium text-gray-900">
+                  Security check
+                </h3>
+                <div className="mt-3">
+                  {turnstileSiteKey ? (
+                    <div id="stripe-turnstile"></div>
+                  ) : (
+                    <p className="text-sm text-red-700">
+                      Credit card checkout is temporarily unavailable.
+                    </p>
+                  )}
+                </div>
+                {this.state.checkoutError ? (
+                  <p className="mt-3 text-sm text-red-700">
+                    {this.state.checkoutError}
+                  </p>
+                ) : null}
               </div>
 
               <div>
@@ -163,6 +324,7 @@ export default class PageStripe extends React.Component {
                                 type="number"
                                 name="otPrice"
                                 id="otPrice"
+                                step="1"
                                 onChange={this.handleInputChange}
                                 className="shadow-xs focus:ring-3 focus:ring-kodi focus:border-kodi block w-full sm:text-sm border-gray-300 rounded-md"
                               />
@@ -203,10 +365,11 @@ export default class PageStripe extends React.Component {
                           <>
                             <button
                               type="submit"
+                              disabled={checkoutDisabled}
                               onClick={handleOneTimeClick}
-                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-hidden focus:shadow-outline"
+                              className="flex items-center justify-center px-8 py-3 mr-2 border border-transparent text-base font-medium rounded-md shadow-xs text-gray-50 bg-kodi-darker transition duration-500 ease select-none hover:bg-kodi focus:outline-hidden focus:shadow-outline disabled:bg-gray-500 disabled:hover:bg-gray-500"
                             >
-                              Donate
+                              {this.state.checkoutLoading ? "Starting..." : "Donate"}
                             </button>
                           </>
                         ) : (
@@ -262,82 +425,66 @@ export default class PageStripe extends React.Component {
 
                           <div className="pt-3">
                             <ButtonStripe
-                              stripePromise={stripePromise}
-                              amount={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelOne.amount
-                              }
-                              currency={this.state.recCurrency}
-                              price_id={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelOne.price
-                              }
                               button_text={
                                 siteConfig.stripe.monthly[this.state.recCurrency]
                                   .levelOne.text
                               }
-                              donorname={this.state.donor}
-                              forumname={this.state.forum}
+                              disabled={checkoutDisabled}
+                              onClick={() =>
+                                startCheckout({
+                                  type: "subscription",
+                                  currency: this.state.recCurrency,
+                                  level: "levelOne",
+                                })
+                              }
                             />
                           </div>
                           <div>
                             <ButtonStripe
-                              stripePromise={stripePromise}
-                              amount={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelTwo.amount
-                              }
-                              currency={this.state.recCurrency}
-                              price_id={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelTwo.price
-                              }
                               button_text={
                                 siteConfig.stripe.monthly[this.state.recCurrency]
                                   .levelTwo.text
                               }
-                              donorname={this.state.donor}
-                              forumname={this.state.forum}
+                              disabled={checkoutDisabled}
+                              onClick={() =>
+                                startCheckout({
+                                  type: "subscription",
+                                  currency: this.state.recCurrency,
+                                  level: "levelTwo",
+                                })
+                              }
                             />
                           </div>
                           <div>
                             <ButtonStripe
-                              stripePromise={stripePromise}
-                              amount={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelThree.amount
-                              }
-                              currency={this.state.recCurrency}
-                              price_id={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelThree.price
-                              }
                               button_text={
                                 siteConfig.stripe.monthly[this.state.recCurrency]
                                   .levelThree.text
                               }
-                              donorname={this.state.donor}
-                              forumname={this.state.forum}
+                              disabled={checkoutDisabled}
+                              onClick={() =>
+                                startCheckout({
+                                  type: "subscription",
+                                  currency: this.state.recCurrency,
+                                  level: "levelThree",
+                                })
+                              }
                             />
                           </div>
                           <div>
                             <ButtonStripe
-                              stripePromise={stripePromise}
-                              amount={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelFour.amount
-                              }
-                              currency={this.state.recCurrency}
-                              price_id={
-                                siteConfig.stripe.monthly[this.state.recCurrency]
-                                  .levelFour.price
-                              }
                               button_text={
                                 siteConfig.stripe.monthly[this.state.recCurrency]
                                   .levelFour.text
                               }
-                              donorname={this.state.donor}
-                              forumname={this.state.forum}
+                              disabled={checkoutDisabled}
+                              onClick={() =>
+                                startCheckout({
+                                  type: "subscription",
+                                  currency: this.state.recCurrency,
+                                  level: "levelFour",
+                                })
+                              }
                             />
                           </div>
                         </div>
