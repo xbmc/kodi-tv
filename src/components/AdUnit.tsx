@@ -31,7 +31,7 @@ const placementDefaults = {
     style: undefined,
   },
   sidebar: {
-    containerClass: "hidden 2xl:block sticky top-6 min-h-[600px] max-w-[332px]",
+    containerClass: "hidden 2xl:block sticky top-6 min-h-[600px] max-w-[334px]",
     insClass: "",
     slot: defaultSidebarSlot,
     style: {
@@ -73,11 +73,11 @@ function AdUnit({
   useEffect(() => {
     const initializeAd = () => {
       if (didInitializeRef.current) {
-        return;
+        return true;
       }
 
       if (!isVisibleAdUnit(adRef.current)) {
-        return;
+        return false;
       }
 
       try {
@@ -85,24 +85,31 @@ function AdUnit({
         win.adsbygoogle = win.adsbygoogle || [];
         win.adsbygoogle.push({});
         didInitializeRef.current = true;
+        return true;
       } catch {
         // Ad blockers can make the provider script unavailable.
+        return false;
       }
     };
 
-    if (!lazy || !("IntersectionObserver" in window) || !adRef.current) {
+    if (!("IntersectionObserver" in window) || !adRef.current) {
       initializeAd();
+      return;
+    }
+
+    if (!lazy && initializeAd()) {
       return;
     }
 
     const observer = new IntersectionObserver(
       entries => {
         if (entries.some(entry => entry.isIntersecting)) {
-          initializeAd();
-          observer.disconnect();
+          if (initializeAd()) {
+            observer.disconnect();
+          }
         }
       },
-      { rootMargin: "320px 0px" },
+      { rootMargin: lazy ? "320px 0px" : "0px" },
     );
 
     observer.observe(adRef.current);

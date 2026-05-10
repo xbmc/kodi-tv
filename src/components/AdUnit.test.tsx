@@ -10,6 +10,7 @@ describe("AdUnit", () => {
 
   afterEach(() => {
     vi.restoreAllMocks();
+    vi.unstubAllGlobals();
     delete window.adsbygoogle;
   });
 
@@ -47,6 +48,7 @@ describe("AdUnit", () => {
       "sticky",
       "top-6",
       "min-h-[600px]",
+      "max-w-[334px]",
     );
     expect(container.querySelector(".adsbygoogle")).toHaveStyle({
       display: "inline-block",
