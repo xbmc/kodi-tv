@@ -92,9 +92,25 @@ function AdUnit({
       }
     };
 
-    if (!("IntersectionObserver" in window) || !adRef.current) {
-      initializeAd();
-      return;
+    if (typeof IntersectionObserver !== "function" || !adRef.current) {
+      if (initializeAd()) {
+        return;
+      }
+
+      const initializeVisibleAd = () => {
+        if (initializeAd()) {
+          window.removeEventListener("resize", initializeVisibleAd);
+          window.removeEventListener("orientationchange", initializeVisibleAd);
+        }
+      };
+
+      window.addEventListener("resize", initializeVisibleAd);
+      window.addEventListener("orientationchange", initializeVisibleAd);
+
+      return () => {
+        window.removeEventListener("resize", initializeVisibleAd);
+        window.removeEventListener("orientationchange", initializeVisibleAd);
+      };
     }
 
     if (!lazy && initializeAd()) {

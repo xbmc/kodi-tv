@@ -152,6 +152,33 @@ describe("AdUnit", () => {
     });
   });
 
+  it("falls back to resize checks when IntersectionObserver is unavailable", async () => {
+    let isVisible = false;
+    Object.defineProperty(HTMLElement.prototype, "offsetParent", {
+      configurable: true,
+      get: () => (isVisible ? document.body : null),
+    });
+    vi.spyOn(Element.prototype, "getClientRects").mockImplementation(
+      () =>
+        ({
+          length: isVisible ? 1 : 0,
+        }) as DOMRectList,
+    );
+
+    vi.stubGlobal("IntersectionObserver", undefined);
+
+    render(<AdUnit placement="sidebar" slot="1234567890" />);
+
+    expect(window.adsbygoogle).toHaveLength(0);
+
+    isVisible = true;
+    window.dispatchEvent(new Event("resize"));
+
+    await waitFor(() => {
+      expect(window.adsbygoogle).toHaveLength(1);
+    });
+  });
+
   it("initializes visible ad containers", async () => {
     Object.defineProperty(HTMLElement.prototype, "offsetParent", {
       configurable: true,
