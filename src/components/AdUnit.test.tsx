@@ -103,6 +103,55 @@ describe("AdUnit", () => {
     });
   });
 
+  it("initializes hidden non-lazy ad containers when they become visible", async () => {
+    let isVisible = false;
+    Object.defineProperty(HTMLElement.prototype, "offsetParent", {
+      configurable: true,
+      get: () => (isVisible ? document.body : null),
+    });
+    vi.spyOn(Element.prototype, "getClientRects").mockImplementation(
+      () =>
+        ({
+          length: isVisible ? 1 : 0,
+        }) as DOMRectList,
+    );
+
+    let observeTarget: Element | null = null;
+    let intersectionCallback:
+      | ((entries: IntersectionObserverEntry[]) => void)
+      | undefined;
+
+    class MockIntersectionObserver {
+      constructor(callback: (entries: IntersectionObserverEntry[]) => void) {
+        intersectionCallback = callback;
+      }
+
+      observe(target: Element) {
+        observeTarget = target;
+      }
+
+      disconnect() {}
+    }
+
+    vi.stubGlobal("IntersectionObserver", MockIntersectionObserver);
+
+    render(<AdUnit placement="sidebar" slot="1234567890" />);
+
+    expect(window.adsbygoogle).toHaveLength(0);
+
+    isVisible = true;
+    intersectionCallback?.([
+      {
+        isIntersecting: true,
+        target: observeTarget,
+      } as IntersectionObserverEntry,
+    ]);
+
+    await waitFor(() => {
+      expect(window.adsbygoogle).toHaveLength(1);
+    });
+  });
+
   it("initializes visible ad containers", async () => {
     Object.defineProperty(HTMLElement.prototype, "offsetParent", {
       configurable: true,
