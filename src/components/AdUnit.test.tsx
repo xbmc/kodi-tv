@@ -60,6 +60,19 @@ describe("AdUnit", () => {
     );
   });
 
+  it("does not render or initialize an ad without a slot ID", () => {
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+
+    render(<AdUnit slot="" />);
+
+    expect(screen.queryByLabelText("Advertisement")).not.toBeInTheDocument();
+    expect(document.querySelector(".adsbygoogle")).not.toBeInTheDocument();
+    expect(window.adsbygoogle).toHaveLength(0);
+    expect(warnSpy).toHaveBeenCalledWith(
+      "AdUnit: Missing ad slot ID for default placement. Set PUBLIC_ADSENSE_DOWNLOAD_SLOT or the placement-specific slot env var.",
+    );
+  });
+
   it("lazy-loads below-fold ad containers when they intersect", async () => {
     Object.defineProperty(HTMLElement.prototype, "offsetParent", {
       configurable: true,

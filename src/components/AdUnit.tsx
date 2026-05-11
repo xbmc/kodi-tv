@@ -71,6 +71,18 @@ function AdUnit({
   const isFixedSize = Boolean(placementConfig.style);
 
   useEffect(() => {
+    if (!adSlot && import.meta.env.DEV) {
+      console.warn(
+        `AdUnit: Missing ad slot ID for ${placement} placement. Set PUBLIC_ADSENSE_DOWNLOAD_SLOT or the placement-specific slot env var.`,
+      );
+    }
+  }, [adSlot, placement]);
+
+  useEffect(() => {
+    if (!adSlot) {
+      return;
+    }
+
     const initializeAd = () => {
       if (didInitializeRef.current) {
         return true;
@@ -133,7 +145,11 @@ function AdUnit({
     return () => {
       observer.disconnect();
     };
-  }, [lazy]);
+  }, [adSlot, lazy]);
+
+  if (!adSlot) {
+    return null;
+  }
 
   return (
     <section
