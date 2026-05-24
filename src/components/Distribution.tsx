@@ -16,6 +16,10 @@ function Distribution(props) {
 
   return (
     <DefaultLayout frontmatter={frontmatter} preview={preview}>
+      <div className="mb-8">
+        <AdUnit placement="leaderboard" />
+      </div>
+
       <div className="grid grid-cols-1 gap-6 md:grid-cols-12">
         <div className="col-span-1 md:col-span-2">
           <img
@@ -33,16 +37,13 @@ function Distribution(props) {
             <a href={dist.howto}>"How To" Guide</a> for {dist.name}.
           </span>
           <ReleasesTabs platform={dist.name} releases={dist.releases} />
-          <div className="mt-8 2xl:hidden">
-            <AdUnit minHeightClass="min-h-72" />
-          </div>
         </div>
         <aside className="hidden 2xl:col-span-3 2xl:block">
-          <AdUnit minHeightClass="min-h-72" className="sticky top-6" />
+          <AdUnit placement="sidebar" />
         </aside>
       </div>
       <div className="mt-8">
-        <AdUnit minHeightClass="min-h-28" />
+        <AdUnit lazy placement="inline" />
       </div>
     </DefaultLayout>
   );

@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { AdUnit } from "../../../components/AdUnit";
 import { getPlatformDisplayName } from "../../../utils/downloads";
 
 export async function getStaticPaths() {
@@ -19,7 +20,6 @@ export async function getStaticPaths() {
 const { platform } = Astro.params;
 const platformName = getPlatformDisplayName(platform);
 const howToUrl = `/download/${platform}`;
-const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
 ---
 
 <script
@@ -33,6 +33,8 @@ const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
 >
   <section class="grid grid-cols-1 gap-8 2xl:grid-cols-[minmax(0,1fr)_360px]">
     <div class="space-y-6">
+      <AdUnit placement="leaderboard" client:load />
+
       <div class="rounded-lg border border-kodi/15 bg-kodi-surface-light p-6">
         <p
           class="font-display text-sm font-semibold uppercase tracking-wide text-kodi"
@@ -103,58 +105,11 @@ const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
         </a>
       </div>
 
-      <section
-        aria-label="Advertisement"
-        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
-      >
-        <p
-          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
-        >
-          Advertisement
-        </p>
-        <ins
-          class="adsbygoogle block min-h-28"
-          data-ad-client="ca-pub-5235469391524556"
-          data-ad-slot={adsenseDownloadSlot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      </section>
-
-      <section
-        aria-label="Advertisement"
-        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4 2xl:hidden"
-      >
-        <p
-          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
-        >
-          Advertisement
-        </p>
-        <ins
-          class="adsbygoogle block min-h-72"
-          data-ad-client="ca-pub-5235469391524556"
-          data-ad-slot={adsenseDownloadSlot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      </section>
+      <AdUnit lazy placement="inline" client:load />
     </div>
 
     <aside class="hidden space-y-5 2xl:block">
-      <section
-        aria-label="Advertisement"
-        class="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-4"
-      >
-        <p
-          class="mb-3 text-center text-xs font-semibold uppercase tracking-wide text-gray-500"
-        >
-          Advertisement
-        </p>
-        <ins
-          class="adsbygoogle block min-h-72"
-          data-ad-client="ca-pub-5235469391524556"
-          data-ad-slot={adsenseDownloadSlot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      </section>
+      <AdUnit placement="sidebar" client:load />
 
       <div class="rounded-lg border border-kodi/15 bg-white p-5">
         <h2 class="font-display text-xl font-bold text-kodi-darker">
@@ -204,23 +159,6 @@ const adsenseDownloadSlot = import.meta.env.PUBLIC_ADSENSE_DOWNLOAD_SLOT;
       title.textContent = "Choose a Kodi download";
       copy.textContent =
         "This page needs a selected download file before it can start a download.";
-    }
-
-    try {
-      const adWindow = window as Window & { adsbygoogle?: unknown[] };
-      adWindow.adsbygoogle = adWindow.adsbygoogle || [];
-      document.querySelectorAll(".adsbygoogle").forEach(adElement => {
-        if (
-          adElement.getClientRects().length === 0 ||
-          (adElement as HTMLElement).offsetParent === null
-        ) {
-          return;
-        }
-
-        adWindow.adsbygoogle?.push({});
-      });
-    } catch {
-      // Ad blockers can make the provider script unavailable.
     }
   </script>
 </BaseLayout>
