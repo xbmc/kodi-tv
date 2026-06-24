@@ -25,15 +25,15 @@ releases:
         download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Alpha 3** pre-release build has become available because we
+    description: The **Beta 1** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are closer
       to a stable release of v22.
     downloads:
-      - url: https://mirrors.kodi.tv/snapshots/android/arm/kodi-22.0-Piers_alpha3-armeabi-v7a.apk?https=1
-        name: v22  Alpha3 (32BIT)
+      - url: https://mirrors.kodi.tv/releases/android/arm/kodi-22.0-Piers_beta1-armeabi-v7a.apk?https=1
+        name: v22  Beta 1 (32BIT)
         download_type: receipt_binary
-      - name: v22  Alpha3 (64BIT)
-        url: https://mirrors.kodi.tv/snapshots/android/arm64-v8a/kodi-22.0-Piers_alpha3-arm64-v8a.apk?https=1
+      - name: v22  Beta 1 (64BIT)
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-22.0-Piers_beta1-arm64-v8a.apk?https=1
         download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
