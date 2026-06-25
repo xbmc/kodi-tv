@@ -6,7 +6,6 @@ import { SponsorTypeList } from "../components/SponsorList";
 import { IconList } from "../components/IconList";
 import { Distribution } from "../components/Distribution";
 import type { Sponsor } from "../hooks/Sponsors";
-import siteConfig from "../config/site";
 
 const ArticlePreview = ({ entry, widgetsFor, getAsset }) => {
   let post = {};
@@ -148,7 +147,7 @@ CMS.registerPreviewTemplate("store", StoreItemPreview);
 
 export default function DecapCmsAdmin() {
   useEffect(() => {
-    CMS.init(siteConfig.cms);
+    CMS.init();
   }, []);
   return <div />;
 }
