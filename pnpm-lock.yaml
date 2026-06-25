@@ -4,6 +4,8 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+packageExtensionsChecksum: sha256-903ZEk579kP2TQGiRMKRkKuS6zPhWDTLaNRUKze9kpA=
+
 importers:
 
   .:
@@ -11627,6 +11629,7 @@ snapshots:
       '@iarna/toml': 2.2.5
       '@reduxjs/toolkit': 1.9.7(react-redux@7.2.9(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
       '@vercel/stega': 0.1.2
+      ajv: 8.18.0
       buffer: 6.0.3
       copy-text-to-clipboard: 3.2.2
       dayjs: 1.11.20
