@@ -1,5 +1,10 @@
 import CMS from "decap-cms-app";
+import yaml from "js-yaml";
 import React, { useEffect } from "react";
+// Bundle the CMS configuration at build time from the single source of truth
+// (static/admin/config.yml) so the editor never depends on a runtime fetch of
+// /admin/config.yml, which can be intercepted by the CDN/WAF in front of the site.
+import configYaml from "../../static/admin/config.yml?raw";
 import BlogPost from "../components/BlogPost";
 import Page from "../components/Page";
 import { SponsorTypeList } from "../components/SponsorList";
@@ -147,7 +152,10 @@ CMS.registerPreviewTemplate("store", StoreItemPreview);
 
 export default function DecapCmsAdmin() {
   useEffect(() => {
-    CMS.init();
+    const config = yaml.load(configYaml);
+    // load_config_file: false stops Decap from additionally fetching
+    // /admin/config.yml at runtime now that the config is supplied inline.
+    CMS.init({ config: { ...config, load_config_file: false } });
   }, []);
   return <div />;
 }
