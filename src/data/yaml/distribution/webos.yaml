@@ -15,12 +15,12 @@ releases:
         download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Alpha 3** pre-release build has become available because we
+    description: The **Beta 1** pre-release build has become available because we
       think it is ready for wider testing and usage. It also means we are closer
       to a stable release of v22.
     downloads:
-      - name: v22 Alpha3 webOS
-        url: https://mirrors.kodi.tv/snapshots/webos/org.xbmc.kodi-webos_22.0~a3.ipk?https=1
+      - name: v22 Beta1 webOS
+        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_22.0~b1.ipk?https=1
         download_type: receipt_binary
   - name: Development Builds
     title: Kodi v21 & v22 Nightly Development Builds
