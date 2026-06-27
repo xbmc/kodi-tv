@@ -401,9 +401,16 @@ function setCategoryGrouping(name) {
  * @param {string} author
  */
 function assignAuthor(author) {
+  author = author.trim();
+  if (!author) {
+    return;
+  }
   const authorcheck = addon.authors.find(o => o.name === author);
   if (!authorcheck) {
     const slug = slugify(author, { lower: true, remove: /[^\w\s$*_+~.()'"!\-@]+/g });
+    if (!slug) {
+      return;
+    }
     const icon = "/images/authors/" + slug + ".webp";
     addon.authors.push({ name: author, slug: slug, icon: icon });
   }
