@@ -1,99 +1,5 @@
 [
   {
-    "name": "",
-    "slug": "",
-    "icon": "/images/authors/.webp",
-    "id": "",
-    "addons": [
-      {
-        "id": "plugin.video.iplayerwww",
-        "addonid": "plugin.video.iplayerwww",
-        "name": "iPlayer WWW",
-        "slug": "plugin.video.iplayerwww",
-        "version": "4.1.4",
-        "authors": [
-          {
-            "name": "CaptainT",
-            "slug": "captaint",
-            "icon": "/images/authors/captaint.webp"
-          },
-          {
-            "name": "Cas",
-            "slug": "cas",
-            "icon": "/images/authors/cas.webp"
-          },
-          {
-            "name": "ihurst",
-            "slug": "ihurst",
-            "icon": "/images/authors/ihurst.webp"
-          },
-          {
-            "name": "primaeval",
-            "slug": "primaeval",
-            "icon": "/images/authors/primaeval.webp"
-          },
-          {
-            "name": "",
-            "slug": "",
-            "icon": "/images/authors/.webp"
-          }
-        ],
-        "platforms": [
-          {
-            "platform": "all",
-            "path": "http://ftp.halifax.rwth-aachen.de/xbmc/addons/omega/plugin.video.iplayerwww/plugin.video.iplayerwww-4.1.4.zip",
-            "statspath": "/addons/omega/plugin.video.iplayerwww/plugin.video.iplayerwww-4.1.4.zip"
-          }
-        ],
-        "categories": [
-          {
-            "name": "Plugins",
-            "slug": "plugins",
-            "icon": "/images/categories/plugins.webp"
-          },
-          {
-            "name": "Music addons",
-            "slug": "music-addons",
-            "icon": "/images/categories/music-addons.webp"
-          },
-          {
-            "name": "Video addons",
-            "slug": "video-addons",
-            "icon": "/images/categories/video-addons.webp"
-          }
-        ],
-        "firstseen": "2024-04-06T15:19:14.420Z",
-        "agetype": "existing",
-        "summary": "TV and Radio from BBC iPlayer",
-        "description": "This add-on enables playing of Live and Catchup TV (UK only) and Radio content (UK or international) from the BBC iPlayer website. It is not created, maintained or in any way affiliated with the BBC. The add-on only provides an interface to access the BBC iPlayer website from Kodi.",
-        "license": "GPL-2.0-or-later",
-        "forum": "https://forum.kodi.tv/showthread.php?tid=353349",
-        "source": "https://github.com/vonH/plugin.video.iplayerwww",
-        "disclaimer": "This add-on is a front end to the BBC iPlayer website. It is not an official BBC product. A UK TV Licence is required to watch the live, catch-up, or on-demand TV content.",
-        "icons": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.iplayerwww/resources/icon.png",
-            "remotepath": "resources/icon.png"
-          }
-        ],
-        "fanarts": [
-          {
-            "localpath": "/images/addons/omega/plugin.video.iplayerwww/resources/fanart.jpg",
-            "remotepath": "resources/fanart.jpg"
-          }
-        ],
-        "news": "v4.1.4\nBug fixes:\n- Issues with watchlist/added.\n- Watch from start for HD channels.\n- Catch unhandled exceptions and log them.\n- Recommendations is no longer available on the website.\nNew features:\n- Now supports Red Button content in listings.\n   ",
-        "size": "114KB",
-        "lastupdate": "2025-02-08T17:02:18.451Z",
-        "downloads": 3801065,
-        "icon": "/images/addons/omega/plugin.video.iplayerwww/resources/icon.png",
-        "snippet": "TV and Radio from BBC iPlayer",
-        "prevyeardl": 3757206
-      }
-    ],
-    "totaladdons": 1
-  },
-  {
     "name": "@JPCandioti",
     "slug": "@jpcandioti",
     "icon": "/images/authors/@jpcandioti.webp",
@@ -9721,11 +9627,6 @@
             "name": "primaeval",
             "slug": "primaeval",
             "icon": "/images/authors/primaeval.webp"
-          },
-          {
-            "name": "",
-            "slug": "",
-            "icon": "/images/authors/.webp"
           }
         ],
         "platforms": [
@@ -10090,11 +9991,6 @@
             "name": "primaeval",
             "slug": "primaeval",
             "icon": "/images/authors/primaeval.webp"
-          },
-          {
-            "name": "",
-            "slug": "",
-            "icon": "/images/authors/.webp"
           }
         ],
         "platforms": [
@@ -25521,11 +25417,6 @@
             "name": "primaeval",
             "slug": "primaeval",
             "icon": "/images/authors/primaeval.webp"
-          },
-          {
-            "name": "",
-            "slug": "",
-            "icon": "/images/authors/.webp"
           }
         ],
         "platforms": [
@@ -51200,11 +51091,6 @@
             "name": "primaeval",
             "slug": "primaeval",
             "icon": "/images/authors/primaeval.webp"
-          },
-          {
-            "name": "",
-            "slug": "",
-            "icon": "/images/authors/.webp"
           }
         ],
         "platforms": [
