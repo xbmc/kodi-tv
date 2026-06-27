@@ -330,14 +330,14 @@ function createAuthorNode(author) {
   const authorcheck = authors.find(o => o.id === newauthor.name);
   if (!authorcheck) {
     newauthor.id = newauthor.name;
-    newauthor.addons = [addon];
+    newauthor.addons = [getAddonListItem(addon)];
     authors.push(newauthor);
   } else {
     const addoncheck = authorcheck.addons.find(
       (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
-      authorcheck.addons.push(addon);
+      authorcheck.addons.push(getAddonListItem(addon));
     }
   }
 }
@@ -351,16 +351,29 @@ function createCategoryNode(category) {
   if (!categorycheck) {
     newcategory.id = newcategory.name;
     newcategory.grouping = setCategoryGrouping(newcategory.name);
-    newcategory.addons = [addon];
+    newcategory.addons = [getAddonListItem(addon)];
     categories.push(newcategory);
   } else {
     const addoncheck = categorycheck.addons.find(
       (/** @type {{ id: string; }} */ o) => o.id === addon.id,
     );
     if (!addoncheck) {
-      categorycheck.addons.push(addon);
+      categorycheck.addons.push(getAddonListItem(addon));
     }
   }
+}
+
+/**
+ * @param {import("../../src/addon").IAddon} addon
+ */
+function getAddonListItem(addon) {
+  return {
+    id: addon.id,
+    name: addon.name,
+    slug: addon.slug,
+    icon: addon.icon,
+    snippet: addon.snippet,
+  };
 }
 
 /**
