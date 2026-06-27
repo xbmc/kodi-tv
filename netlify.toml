@@ -2,6 +2,9 @@
   command = "astro build"
   publish = "dist"
 
+[build.environment]
+  NODE_OPTIONS = "--max-old-space-size=4096"
+
 [[redirects]]
 from = "/contact-kodi-team"
 to = "/about/contact"
