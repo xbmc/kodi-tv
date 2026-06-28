@@ -43,7 +43,7 @@ Okay, what's new in this version?
 * Subtitle visibility improvements
 * Subtitle timing improvements
 * Fixed handling of ASS/SSA script headers
-* Shows the codec of the current subtitle of the playing video
+* Shows the playing video's current subtitle CODEC
 
 ### Library
 
@@ -52,11 +52,11 @@ Okay, what's new in this version?
 * Added additional HDR formats to the UI
 * Fixed duplicate taglines in the library view
 * Fixed various stream detail issues
-* Improved Bluray handling for .nfo files
-* Improved Bluray playcount handling
-* Improved stacking for movie/folder path names with roman numerals
+* Improved Blu-ray handling for .nfo files
+* Improved Blu-ray playcount handling
+* Improved stacking for movie/folder path names with Roman numerals
 * Fixed handling of more complex episode ranges
-* Improved Movie Version scanning behavior
+* Improved Movie Version scanning behaviour
 * Improved media badges
 
 ### Music
@@ -96,7 +96,7 @@ Okay, what's new in this version?
 
 ### Inputstream add-ons
 
-* Added HDR, color metadata, 10-bit and 12-bit to Inputstream add-ons
+* Added HDR, colour metadata, 10-bit and 12-bit to Inputstream add-ons
 * Fixed non-encrypted streams in Inputstream add-ons
 
 ### Peripherals
@@ -122,7 +122,7 @@ Okay, what's new in this version?
 ### Python
 
 * Upgraded to Python 3.14.6
-* Fixed addVideoStream(), addAudioStream() and addSubtileStream()
+* Fixed `addVideoStream()`, `addAudioStream()` and `addSubtileStream()`
 
 ### Platforms
 
