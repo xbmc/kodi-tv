@@ -1417,6 +1417,22 @@
     "totaladdons": 5
   },
   {
+    "name": "Breezyslasher",
+    "slug": "breezyslasher",
+    "icon": "/images/authors/breezyslasher.webp",
+    "id": "Breezyslasher",
+    "addons": [
+      {
+        "id": "plugin.audio.audiobookshelf",
+        "name": "Audiobookshelf",
+        "slug": "plugin.audio.audiobookshelf",
+        "icon": "/images/addons/omega/plugin.audio.audiobookshelf/resources/icon.png",
+        "snippet": "Audiobookshelf client for Kodi"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "Brent Tubbs",
     "slug": "brent-tubbs",
     "icon": "/images/authors/brent-tubbs.webp",

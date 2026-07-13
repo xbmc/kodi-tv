@@ -3354,6 +3354,13 @@
         "snippet": "This add-on allows access to the concert section of the French/German broadcaster Arte."
       },
       {
+        "id": "plugin.audio.audiobookshelf",
+        "name": "Audiobookshelf",
+        "slug": "plugin.audio.audiobookshelf",
+        "icon": "/images/addons/omega/plugin.audio.audiobookshelf/resources/icon.png",
+        "snippet": "Audiobookshelf client for Kodi"
+      },
+      {
         "id": "plugin.audio.kxmxpxtx.bandcamp",
         "name": "Bandcamp",
         "slug": "plugin.audio.kxmxpxtx.bandcamp",
@@ -3659,7 +3666,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 46
+    "totaladdons": 47
   },
   {
     "name": "Music video information providers",
@@ -3840,6 +3847,13 @@
         "slug": "plugin.video.artemediathek",
         "icon": "/images/addons/omega/plugin.video.artemediathek/resources/icon.png",
         "snippet": "This add-on allows access to the French/German broadcaster Arte."
+      },
+      {
+        "id": "plugin.audio.audiobookshelf",
+        "name": "Audiobookshelf",
+        "slug": "plugin.audio.audiobookshelf",
+        "icon": "/images/addons/omega/plugin.audio.audiobookshelf/resources/icon.png",
+        "snippet": "Audiobookshelf client for Kodi"
       },
       {
         "id": "plugin.program.autocompletion",
@@ -5313,7 +5327,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 224
+    "totaladdons": 225
   },
   {
     "name": "Program addons",
