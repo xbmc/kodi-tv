@@ -93,6 +93,11 @@ Okay, what's new in this version?
 * Fixed incompatibility with MySQL 9.6 and above
 * Fixed incompatibility with MariaDB 10.x remote databases
 * Fixed possible crash when MySQL server is temporarily unavailable
+* Added new `advancedsettings.xml` MySQL/MariaDB timeout element - `<connecttimeout>`, default 5s
+
+element for MySQL/MariaDB video and music databases (defaults to 5 seconds)
+
+
 
 ### Inputstream add-ons
 
