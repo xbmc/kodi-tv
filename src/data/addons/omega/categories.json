@@ -5924,6 +5924,13 @@
         "snippet": "Web-based remote Python debugger"
       },
       {
+        "id": "script.webhook.runner",
+        "name": "Webhook Runner",
+        "slug": "script.webhook.runner",
+        "icon": "/images/addons/omega/script.webhook.runner/resources/icon.png",
+        "snippet": "Run Home Assistant webhooks from Kodi"
+      },
+      {
         "id": "script.wellbeing",
         "name": "Wellbeing",
         "slug": "script.wellbeing",
@@ -5959,7 +5966,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 89
+    "totaladdons": 90
   },
   {
     "name": "PVR clients",
@@ -8189,6 +8196,13 @@
         "snippet": "Save watched state of movies and TV-series episodes independent from filenames"
       },
       {
+        "id": "script.webhook.runner",
+        "name": "Webhook Runner",
+        "slug": "script.webhook.runner",
+        "icon": "/images/addons/omega/script.webhook.runner/resources/icon.png",
+        "snippet": "Run Home Assistant webhooks from Kodi"
+      },
+      {
         "id": "script.wellbeing",
         "name": "Wellbeing",
         "slug": "script.wellbeing",
@@ -8224,7 +8238,7 @@
         "snippet": "Plugin for YouTube"
       }
     ],
-    "totaladdons": 102
+    "totaladdons": 103
   },
   {
     "name": "Skins",

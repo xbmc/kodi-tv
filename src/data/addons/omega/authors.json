@@ -1428,9 +1428,16 @@
         "slug": "plugin.audio.audiobookshelf",
         "icon": "/images/addons/omega/plugin.audio.audiobookshelf/resources/icon.png",
         "snippet": "Audiobookshelf client for Kodi"
+      },
+      {
+        "id": "script.webhook.runner",
+        "name": "Webhook Runner",
+        "slug": "script.webhook.runner",
+        "icon": "/images/addons/omega/script.webhook.runner/resources/icon.png",
+        "snippet": "Run Home Assistant webhooks from Kodi"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "Brent Tubbs",
