@@ -5631,22 +5631,6 @@
     "totaladdons": 1
   },
   {
-    "name": "Lee Smith",
-    "slug": "lee-smith",
-    "icon": "/images/authors/lee-smith.webp",
-    "id": "Lee Smith",
-    "addons": [
-      {
-        "id": "script.module.pyrollbar",
-        "name": "pyrollbar",
-        "slug": "script.module.pyrollbar",
-        "icon": "/images/addons/omega/script.module.pyrollbar/resources/icon.png",
-        "snippet": "Error tracking and logging from Python to Rollbar"
-      }
-    ],
-    "totaladdons": 1
-  },
-  {
     "name": "Leinad4Mind",
     "slug": "leinad4mind",
     "icon": "/images/authors/leinad4mind.webp",
@@ -6508,9 +6492,16 @@
         "slug": "script.audiooffsetmanager",
         "icon": "/images/addons/omega/script.audiooffsetmanager/resources/icon.png",
         "snippet": "Dynamically manages audio offsets"
+      },
+      {
+        "id": "script.audiooffsetmanager.evolved",
+        "name": "Audio Offset Manager: Evolved",
+        "slug": "script.audiooffsetmanager.evolved",
+        "icon": "/images/addons/omega/script.audiooffsetmanager.evolved/resources/icon.png",
+        "snippet": "Kodi's missing lipsync tool"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "maxbambi",
