@@ -344,6 +344,13 @@
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
       {
+        "id": "script.skin.info.service",
+        "name": "Skin Info Service",
+        "slug": "script.skin.info.service",
+        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
+        "snippet": "Provides rich media info and artwork to skins."
+      },
+      {
         "id": "service.subsmangler",
         "name": "Subtitles Mangler",
         "slug": "service.subsmangler",
@@ -407,7 +414,7 @@
         "snippet": "Automatic scrobbling to WeTrakr"
       }
     ],
-    "totaladdons": 18
+    "totaladdons": 19
   },
   {
     "name": "Controller profiles",
@@ -4936,6 +4943,13 @@
         "snippet": "more than 50.000 free internet radio stations"
       },
       {
+        "id": "script.skin.info.service",
+        "name": "Skin Info Service",
+        "slug": "script.skin.info.service",
+        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
+        "snippet": "Provides rich media info and artwork to skins."
+      },
+      {
         "id": "script.skinvariables",
         "name": "Skin Variables",
         "slug": "script.skinvariables",
@@ -5327,7 +5341,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 225
+    "totaladdons": 226
   },
   {
     "name": "Program addons",
@@ -5777,13 +5791,6 @@
         "snippet": "Visualizations from Shadertoy"
       },
       {
-        "id": "script.skin.info.service",
-        "name": "Skin Info Service",
-        "slug": "script.skin.info.service",
-        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
-        "snippet": "Script used by skins to show extended media info."
-      },
-      {
         "id": "script.skin.injector",
         "name": "Skin Injector",
         "slug": "script.skin.injector",
@@ -5973,7 +5980,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 91
+    "totaladdons": 90
   },
   {
     "name": "PVR clients",
@@ -7493,7 +7500,7 @@
         "name": "Skin Info Service",
         "slug": "script.skin.info.service",
         "icon": "/images/addons/omega/script.skin.info.service/icon.png",
-        "snippet": "Script used by skins to show extended media info."
+        "snippet": "Provides rich media info and artwork to skins."
       },
       {
         "id": "script.skinshortcuts",
@@ -8049,6 +8056,13 @@
         "snippet": "Simkl Scrobbler with AI file detection system"
       },
       {
+        "id": "script.skin.info.service",
+        "name": "Skin Info Service",
+        "slug": "script.skin.info.service",
+        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
+        "snippet": "Provides rich media info and artwork to skins."
+      },
+      {
         "id": "service.skiptro",
         "name": "Skiptro",
         "slug": "service.skiptro",
@@ -8252,7 +8266,7 @@
         "snippet": "Plugin for YouTube"
       }
     ],
-    "totaladdons": 104
+    "totaladdons": 105
   },
   {
     "name": "Skins",
@@ -9497,6 +9511,13 @@
         "snippet": "Shout Factory TV Video Addon"
       },
       {
+        "id": "script.skin.info.service",
+        "name": "Skin Info Service",
+        "slug": "script.skin.info.service",
+        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
+        "snippet": "Provides rich media info and artwork to skins."
+      },
+      {
         "id": "script.skinvariables",
         "name": "Skin Variables",
         "slug": "script.skinvariables",
@@ -9811,7 +9832,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 184
+    "totaladdons": 185
   },
   {
     "name": "Virtual filesystems",

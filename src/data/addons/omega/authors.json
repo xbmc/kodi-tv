@@ -6997,6 +6997,22 @@
     "totaladdons": 1
   },
   {
+    "name": "MikeSiLVO",
+    "slug": "mikesilvo",
+    "icon": "/images/authors/mikesilvo.webp",
+    "id": "MikeSiLVO",
+    "addons": [
+      {
+        "id": "script.skin.info.service",
+        "name": "Skin Info Service",
+        "slug": "script.skin.info.service",
+        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
+        "snippet": "Provides rich media info and artwork to skins."
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "mintsoft",
     "slug": "mintsoft",
     "icon": "/images/authors/mintsoft.webp",
@@ -8317,13 +8333,6 @@
     "id": "phil65",
     "addons": [
       {
-        "id": "script.skin.info.service",
-        "name": "Skin Info Service",
-        "slug": "script.skin.info.service",
-        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
-        "snippet": "Script used by skins to show extended media info."
-      },
-      {
         "id": "script.toolbox",
         "name": "ToolBox Script",
         "slug": "script.toolbox",
@@ -8331,7 +8340,7 @@
         "snippet": "ToolBox Script"
       }
     ],
-    "totaladdons": 2
+    "totaladdons": 1
   },
   {
     "name": "Philip Cummins",
@@ -10124,13 +10133,6 @@
         "snippet": "Browse movies and episodes in a variety of sorted playlists."
       },
       {
-        "id": "script.skin.info.service",
-        "name": "Skin Info Service",
-        "slug": "script.skin.info.service",
-        "icon": "/images/addons/omega/script.skin.info.service/icon.png",
-        "snippet": "Script used by skins to show extended media info."
-      },
-      {
         "id": "script.skinshortcuts",
         "name": "Skin Shortcuts",
         "slug": "script.skinshortcuts",
@@ -10138,7 +10140,7 @@
         "snippet": "Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)"
       }
     ],
-    "totaladdons": 4
+    "totaladdons": 3
   },
   {
     "name": "Simkl",
