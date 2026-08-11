@@ -7811,13 +7811,6 @@
         "snippet": "Kodi Check Previous Episode"
       },
       {
-        "id": "script.service.playbackresumer",
-        "name": "Kodi Playback Resumer",
-        "slug": "script.service.playbackresumer",
-        "icon": "/images/addons/omega/script.service.playbackresumer/icon.png",
-        "snippet": "Periodically sets the resume point of videos and can automatically resume last played video if..."
-      },
-      {
         "id": "script.kodi.windows.update",
         "name": "Kodi Windows Installer",
         "slug": "script.kodi.windows.update",
@@ -7984,6 +7977,13 @@
         "slug": "plugin.video.piped",
         "icon": "/images/addons/omega/plugin.video.piped/resources/icon.png",
         "snippet": "Piped Addon for Kodi"
+      },
+      {
+        "id": "script.service.playbackresumer",
+        "name": "Playback Resumer",
+        "slug": "script.service.playbackresumer",
+        "icon": "/images/addons/omega/script.service.playbackresumer/icon.png",
+        "snippet": "Periodically sets the resume point of videos and can automatically resume last played video if..."
       },
       {
         "id": "script.plex",
