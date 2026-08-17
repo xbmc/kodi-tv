@@ -5631,6 +5631,22 @@
     "totaladdons": 1
   },
   {
+    "name": "Leander Bloot",
+    "slug": "leander-bloot",
+    "icon": "/images/authors/leander-bloot.webp",
+    "id": "Leander Bloot",
+    "addons": [
+      {
+        "id": "plugin.video.motorsporthub",
+        "name": "Motorsport Hub",
+        "slug": "plugin.video.motorsporthub",
+        "icon": "/images/addons/omega/plugin.video.motorsporthub/resources/icon.png",
+        "snippet": "Every free and legal motorsport stream in one place"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "Leinad4Mind",
     "slug": "leinad4mind",
     "icon": "/images/authors/leinad4mind.webp",
@@ -11643,6 +11659,13 @@
         "snippet": "Catalan language pack"
       },
       {
+        "id": "game.controller.channelf",
+        "name": "Channel F Controller",
+        "slug": "game.controller.channelf",
+        "icon": "/images/addons/omega/game.controller.channelf/resources/icon.png",
+        "snippet": "Channel F controller"
+      },
+      {
         "id": "resource.language.zh_cn",
         "name": "Chinese (Simple)",
         "slug": "resource.language.zh_cn",
@@ -13169,7 +13192,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 255
+    "totaladdons": 256
   },
   {
     "name": "Team Kodi: Memphiz",

@@ -522,6 +522,13 @@
         "snippet": "CEC Adapter"
       },
       {
+        "id": "game.controller.channelf",
+        "name": "Channel F Controller",
+        "slug": "game.controller.channelf",
+        "icon": "/images/addons/omega/game.controller.channelf/resources/icon.png",
+        "snippet": "Channel F controller"
+      },
+      {
         "id": "game.controller.colecovision",
         "name": "ColecoVision Controller",
         "slug": "game.controller.colecovision",
@@ -1019,7 +1026,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 85
+    "totaladdons": 86
   },
   {
     "name": "Game clients",
@@ -4610,6 +4617,13 @@
         "snippet": "Montreal Greek TV addon"
       },
       {
+        "id": "plugin.video.motorsporthub",
+        "name": "Motorsport Hub",
+        "slug": "plugin.video.motorsporthub",
+        "icon": "/images/addons/omega/plugin.video.motorsporthub/resources/icon.png",
+        "snippet": "Every free and legal motorsport stream in one place"
+      },
+      {
         "id": "plugin.video.nasa",
         "name": "Nasa",
         "slug": "plugin.video.nasa",
@@ -5341,7 +5355,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 226
+    "totaladdons": 227
   },
   {
     "name": "Program addons",
@@ -9212,6 +9226,13 @@
         "snippet": "Montreal Greek TV addon"
       },
       {
+        "id": "plugin.video.motorsporthub",
+        "name": "Motorsport Hub",
+        "slug": "plugin.video.motorsporthub",
+        "icon": "/images/addons/omega/plugin.video.motorsporthub/resources/icon.png",
+        "snippet": "Every free and legal motorsport stream in one place"
+      },
+      {
         "id": "script.motr",
         "name": "Movies On The Run",
         "slug": "script.motr",
@@ -9832,7 +9853,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 185
+    "totaladdons": 186
   },
   {
     "name": "Virtual filesystems",
