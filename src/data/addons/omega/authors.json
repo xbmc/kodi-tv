@@ -467,6 +467,13 @@
     "id": "Anders Montonen",
     "addons": [
       {
+        "id": "game.libretro.yabasanshiro",
+        "name": "Sega - Saturn (YabaSanshiro)",
+        "slug": "game.libretro.yabasanshiro",
+        "icon": "/images/addons/omega/game.libretro.yabasanshiro/resources/icon.png",
+        "snippet": "Sega - Saturn (YabaSanshiro)"
+      },
+      {
         "id": "game.libretro.yabause",
         "name": "Sega - Saturn (Yabause)",
         "slug": "game.libretro.yabause",
@@ -474,7 +481,7 @@
         "snippet": "Sega - Saturn (Yabause)"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "Anders Piniesjö (Creator)",
@@ -2393,6 +2400,22 @@
     "totaladdons": 1
   },
   {
+    "name": "devmiyax",
+    "slug": "devmiyax",
+    "icon": "/images/authors/devmiyax.webp",
+    "id": "devmiyax",
+    "addons": [
+      {
+        "id": "game.libretro.yabasanshiro",
+        "name": "Sega - Saturn (YabaSanshiro)",
+        "slug": "game.libretro.yabasanshiro",
+        "icon": "/images/addons/omega/game.libretro.yabasanshiro/resources/icon.png",
+        "snippet": "Sega - Saturn (YabaSanshiro)"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "dEXE",
     "slug": "dexe",
     "icon": "/images/authors/dexe.webp",
@@ -3859,6 +3882,13 @@
     "id": "Guillaume Duhammel",
     "addons": [
       {
+        "id": "game.libretro.yabasanshiro",
+        "name": "Sega - Saturn (YabaSanshiro)",
+        "slug": "game.libretro.yabasanshiro",
+        "icon": "/images/addons/omega/game.libretro.yabasanshiro/resources/icon.png",
+        "snippet": "Sega - Saturn (YabaSanshiro)"
+      },
+      {
         "id": "game.libretro.yabause",
         "name": "Sega - Saturn (Yabause)",
         "slug": "game.libretro.yabause",
@@ -3866,7 +3896,7 @@
         "snippet": "Sega - Saturn (Yabause)"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "guipenedo",
@@ -13452,6 +13482,13 @@
     "id": "Theo Berkau",
     "addons": [
       {
+        "id": "game.libretro.yabasanshiro",
+        "name": "Sega - Saturn (YabaSanshiro)",
+        "slug": "game.libretro.yabasanshiro",
+        "icon": "/images/addons/omega/game.libretro.yabasanshiro/resources/icon.png",
+        "snippet": "Sega - Saturn (YabaSanshiro)"
+      },
+      {
         "id": "game.libretro.yabause",
         "name": "Sega - Saturn (Yabause)",
         "slug": "game.libretro.yabause",
@@ -13459,7 +13496,7 @@
         "snippet": "Sega - Saturn (Yabause)"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "Thomas Kemmer",
@@ -13585,6 +13622,22 @@
         "slug": "script.module.unidecode",
         "icon": "/images/addons/omega/script.module.unidecode/resources/icon.png",
         "snippet": "ASCII transliterations of Unicode text"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "TomB/Chips-fr",
+    "slug": "tombchips-fr",
+    "icon": "/images/authors/tombchips-fr.webp",
+    "id": "TomB/Chips-fr",
+    "addons": [
+      {
+        "id": "game.libretro.uae4arm",
+        "name": "Commodore - Amiga (UAE4ARM)",
+        "slug": "game.libretro.uae4arm",
+        "icon": "/images/addons/omega/game.libretro.uae4arm/resources/icon.png",
+        "snippet": "Commodore - Amiga (UAE4ARM)"
       }
     ],
     "totaladdons": 1

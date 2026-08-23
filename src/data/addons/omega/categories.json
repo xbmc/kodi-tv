@@ -1281,6 +1281,13 @@
         "snippet": "Commodore - Amiga (PUAE)"
       },
       {
+        "id": "game.libretro.uae4arm",
+        "name": "Commodore - Amiga (UAE4ARM)",
+        "slug": "game.libretro.uae4arm",
+        "icon": "/images/addons/omega/game.libretro.uae4arm/resources/icon.png",
+        "snippet": "Commodore - Amiga (UAE4ARM)"
+      },
+      {
         "id": "game.libretro.vice_x128",
         "name": "Commodore - C128 (VICE x128)",
         "slug": "game.libretro.vice_x128",
@@ -1953,6 +1960,13 @@
         "snippet": "Sega - Saturn (Beetle Saturn)"
       },
       {
+        "id": "game.libretro.yabasanshiro",
+        "name": "Sega - Saturn (YabaSanshiro)",
+        "slug": "game.libretro.yabasanshiro",
+        "icon": "/images/addons/omega/game.libretro.yabasanshiro/resources/icon.png",
+        "snippet": "Sega - Saturn (YabaSanshiro)"
+      },
+      {
         "id": "game.libretro.yabause",
         "name": "Sega - Saturn (Yabause)",
         "slug": "game.libretro.yabause",
@@ -2100,7 +2114,7 @@
         "snippet": "Wolfenstein 3D (ECWolf)"
       }
     ],
-    "totaladdons": 152
+    "totaladdons": 154
   },
   {
     "name": "GUI sounds",
