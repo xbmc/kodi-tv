@@ -316,6 +316,13 @@
         "snippet": "Integrate IPTV channels from other add-ons in the Kodi TV and Radio menus"
       },
       {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
+      },
+      {
         "id": "script.metadata.editor",
         "name": "Metadata Editor",
         "slug": "script.metadata.editor",
@@ -414,7 +421,7 @@
         "snippet": "Automatic scrobbling to WeTrakr"
       }
     ],
-    "totaladdons": 19
+    "totaladdons": 20
   },
   {
     "name": "Controller profiles",
@@ -4568,6 +4575,13 @@
         "snippet": "MCE Remote configuration"
       },
       {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
+      },
+      {
         "id": "plugin.video.mdrplus",
         "name": "MDR+",
         "slug": "plugin.video.mdrplus",
@@ -5369,7 +5383,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 227
+    "totaladdons": 228
   },
   {
     "name": "Program addons",
@@ -5714,6 +5728,13 @@
         "snippet": "MCE Remote configuration"
       },
       {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
+      },
+      {
         "id": "script.metadata.editor",
         "name": "Metadata Editor",
         "slug": "script.metadata.editor",
@@ -6008,7 +6029,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 90
+    "totaladdons": 91
   },
   {
     "name": "PVR clients",
@@ -7930,6 +7951,13 @@
         "snippet": "Simple service that engages the Master Lock (if Kodi has one) when the screensaver starts."
       },
       {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
+      },
+      {
         "id": "script.metadata.editor",
         "name": "Metadata Editor",
         "slug": "script.metadata.editor",
@@ -8294,7 +8322,7 @@
         "snippet": "Plugin for YouTube"
       }
     ],
-    "totaladdons": 105
+    "totaladdons": 106
   },
   {
     "name": "Skins",
@@ -9184,6 +9212,13 @@
         "snippet": "Take a live tour through the streets of Prague, Czech Republic."
       },
       {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
+      },
+      {
         "id": "plugin.video.mdrplus",
         "name": "MDR+",
         "slug": "plugin.video.mdrplus",
@@ -9867,7 +9902,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 186
+    "totaladdons": 187
   },
   {
     "name": "Virtual filesystems",

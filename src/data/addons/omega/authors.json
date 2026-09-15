@@ -1730,13 +1730,6 @@
         "snippet": "Ktuvit.me"
       },
       {
-        "id": "service.subtitles.napiprojekt",
-        "name": "Napiprojekt.pl",
-        "slug": "service.subtitles.napiprojekt",
-        "icon": "/images/addons/omega/service.subtitles.napiprojekt/icon.png",
-        "snippet": "Napiprojekt.pl"
-      },
-      {
         "id": "service.subtitles.napisy24pl",
         "name": "Napisy24.pl",
         "slug": "service.subtitles.napisy24pl",
@@ -1744,7 +1737,23 @@
         "snippet": "Napisy24.pl"
       }
     ],
-    "totaladdons": 3
+    "totaladdons": 2
+  },
+  {
+    "name": "CaTz (2.0)",
+    "slug": "catz-(2.0)",
+    "icon": "/images/authors/catz-(2.0).webp",
+    "id": "CaTz (2.0)",
+    "addons": [
+      {
+        "id": "service.subtitles.napiprojekt",
+        "name": "Napiprojekt.pl",
+        "slug": "service.subtitles.napiprojekt",
+        "icon": "/images/addons/omega/service.subtitles.napiprojekt/icon.png",
+        "snippet": "Napiprojekt.pl"
+      }
+    ],
+    "totaladdons": 1
   },
   {
     "name": "Celia Oakley",
@@ -6593,6 +6602,22 @@
         "slug": "plugin.video.rtve",
         "icon": "/images/addons/omega/plugin.video.rtve/resources/icon.png",
         "snippet": "Entertainment, news, documentaries, etc from spanish television https://www.rtve.es/play/"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "MDBList",
+    "slug": "mdblist",
+    "icon": "/images/authors/mdblist.webp",
+    "id": "MDBList",
+    "addons": [
+      {
+        "id": "service.mdblist-scrobbler",
+        "name": "MDBList",
+        "slug": "service.mdblist-scrobbler",
+        "icon": "/images/addons/omega/service.mdblist-scrobbler/icon.png",
+        "snippet": "MDBList Scrobbler &amp; Sync"
       }
     ],
     "totaladdons": 1
@@ -13904,6 +13929,22 @@
         "slug": "script.metadata.editor",
         "icon": "/images/addons/omega/script.metadata.editor/resources/icon.png",
         "snippet": "Metadata Editor Script"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "updated by Codex (3.0)",
+    "slug": "updated-by-codex-(3.0)",
+    "icon": "/images/authors/updated-by-codex-(3.0).webp",
+    "id": "updated by Codex (3.0)",
+    "addons": [
+      {
+        "id": "service.subtitles.napiprojekt",
+        "name": "Napiprojekt.pl",
+        "slug": "service.subtitles.napiprojekt",
+        "icon": "/images/addons/omega/service.subtitles.napiprojekt/icon.png",
+        "snippet": "Napiprojekt.pl"
       }
     ],
     "totaladdons": 1
