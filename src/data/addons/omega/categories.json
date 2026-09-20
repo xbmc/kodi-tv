@@ -3451,6 +3451,13 @@
         "icon": "/images/addons/omega/plugin.audio.deutschlandfunk/resources/assets/icon.png"
       },
       {
+        "id": "plugin.audio.difm",
+        "name": "DI.FM",
+        "slug": "plugin.audio.difm",
+        "icon": "/images/addons/omega/plugin.audio.difm/resources/icon.png",
+        "snippet": "Unofficial DI.FM client for Kodi"
+      },
+      {
         "id": "plugin.audio.eco99music",
         "name": "eco99music",
         "slug": "plugin.audio.eco99music",
@@ -3715,7 +3722,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 47
+    "totaladdons": 48
   },
   {
     "name": "Music video information providers",
@@ -4149,6 +4156,13 @@
         "icon": "/images/addons/omega/plugin.audio.deutschlandfunk/resources/assets/icon.png"
       },
       {
+        "id": "plugin.audio.difm",
+        "name": "DI.FM",
+        "slug": "plugin.audio.difm",
+        "icon": "/images/addons/omega/plugin.audio.difm/resources/icon.png",
+        "snippet": "Unofficial DI.FM client for Kodi"
+      },
+      {
         "id": "plugin.video.documentaryheaven",
         "name": "DocumentaryHeaven",
         "slug": "plugin.video.documentaryheaven",
@@ -4177,18 +4191,18 @@
         "snippet": "Best and worst from DR's archives"
       },
       {
-        "id": "plugin.video.dumpert",
-        "name": "Dumpert",
-        "slug": "plugin.video.dumpert",
-        "icon": "/images/addons/omega/plugin.video.dumpert/resources/icon.png",
-        "snippet": "Watch funny videos from Dumpert.nl (dutch)"
-      },
-      {
         "id": "plugin.image.dumpert",
         "name": "Dumpert",
         "slug": "plugin.image.dumpert",
         "icon": "/images/addons/omega/plugin.image.dumpert/resources/icon.png",
         "snippet": "Watch funny pictures from Dumpert.nl (dutch)"
+      },
+      {
+        "id": "plugin.video.dumpert",
+        "name": "Dumpert",
+        "slug": "plugin.video.dumpert",
+        "icon": "/images/addons/omega/plugin.video.dumpert/resources/icon.png",
+        "snippet": "Watch funny videos from Dumpert.nl (dutch)"
       },
       {
         "id": "plugin.audio.eco99music",
@@ -5397,7 +5411,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 228
+    "totaladdons": 229
   },
   {
     "name": "Program addons",
@@ -7755,6 +7769,13 @@
         "snippet": "CU LRC Lyrics"
       },
       {
+        "id": "plugin.audio.difm",
+        "name": "DI.FM",
+        "slug": "plugin.audio.difm",
+        "icon": "/images/addons/omega/plugin.audio.difm/resources/icon.png",
+        "snippet": "Unofficial DI.FM client for Kodi"
+      },
+      {
         "id": "script.easytv",
         "name": "EasyTV",
         "slug": "script.easytv",
@@ -8350,7 +8371,7 @@
         "snippet": "Plugin for YouTube"
       }
     ],
-    "totaladdons": 107
+    "totaladdons": 108
   },
   {
     "name": "Skins",

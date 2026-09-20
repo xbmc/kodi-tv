@@ -2813,6 +2813,22 @@
     "totaladdons": 1
   },
   {
+    "name": "Édouard Duliège",
+    "slug": "edouard-duliege",
+    "icon": "/images/authors/edouard-duliege.webp",
+    "id": "Édouard Duliège",
+    "addons": [
+      {
+        "id": "plugin.audio.difm",
+        "name": "DI.FM",
+        "slug": "plugin.audio.difm",
+        "icon": "/images/addons/omega/plugin.audio.difm/resources/icon.png",
+        "snippet": "Unofficial DI.FM client for Kodi"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "Eke-Eke",
     "slug": "eke-eke",
     "icon": "/images/authors/eke-eke.webp",
@@ -10340,18 +10356,18 @@
     "id": "Skipmode A1",
     "addons": [
       {
-        "id": "plugin.video.dumpert",
-        "name": "Dumpert",
-        "slug": "plugin.video.dumpert",
-        "icon": "/images/addons/omega/plugin.video.dumpert/resources/icon.png",
-        "snippet": "Watch funny videos from Dumpert.nl (dutch)"
-      },
-      {
         "id": "plugin.image.dumpert",
         "name": "Dumpert",
         "slug": "plugin.image.dumpert",
         "icon": "/images/addons/omega/plugin.image.dumpert/resources/icon.png",
         "snippet": "Watch funny pictures from Dumpert.nl (dutch)"
+      },
+      {
+        "id": "plugin.video.dumpert",
+        "name": "Dumpert",
+        "slug": "plugin.video.dumpert",
+        "icon": "/images/addons/omega/plugin.video.dumpert/resources/icon.png",
+        "snippet": "Watch funny videos from Dumpert.nl (dutch)"
       },
       {
         "id": "plugin.video.gamegurumania",
