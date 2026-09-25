@@ -6275,9 +6275,16 @@
         "slug": "game.libretro.mame2015",
         "icon": "/images/default-addon.webp",
         "snippet": "Arcade (MAME 2015) 0.160"
+      },
+      {
+        "id": "game.libretro.same_cdi",
+        "name": "Philips - CDi (SAME CDi)",
+        "slug": "game.libretro.same_cdi",
+        "icon": "/images/addons/omega/game.libretro.same_cdi/resources/icon.png",
+        "snippet": "Philips - CDi (SAME CDi)"
       }
     ],
-    "totaladdons": 7
+    "totaladdons": 8
   },
   {
     "name": "Man Behind MooN",

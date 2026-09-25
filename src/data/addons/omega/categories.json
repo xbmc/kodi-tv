@@ -1876,6 +1876,13 @@
         "snippet": "Palm OS (Mu)"
       },
       {
+        "id": "game.libretro.same_cdi",
+        "name": "Philips - CDi (SAME CDi)",
+        "slug": "game.libretro.same_cdi",
+        "icon": "/images/addons/omega/game.libretro.same_cdi/resources/icon.png",
+        "snippet": "Philips - CDi (SAME CDi)"
+      },
+      {
         "id": "game.libretro.retro8",
         "name": "PICO-8 (Retro8)",
         "slug": "game.libretro.retro8",
@@ -2135,7 +2142,7 @@
         "snippet": "Wolfenstein 3D (ECWolf)"
       }
     ],
-    "totaladdons": 156
+    "totaladdons": 157
   },
   {
     "name": "GUI sounds",
