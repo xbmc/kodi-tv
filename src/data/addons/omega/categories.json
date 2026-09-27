@@ -8570,6 +8570,13 @@
         "snippet": "Subtitles service for Subtis"
       },
       {
+        "id": "service.subtitles.subtitledb",
+        "name": "SubtitleDB",
+        "slug": "service.subtitles.subtitledb",
+        "icon": "/images/addons/omega/service.subtitles.subtitledb/resources/icon.png",
+        "snippet": "Subtitles from SubtitleDB"
+      },
+      {
         "id": "service.subtitles.supersubtitles",
         "name": "Super Subtitles",
         "slug": "service.subtitles.supersubtitles",
@@ -8598,7 +8605,7 @@
         "snippet": "zimuku subtitle"
       }
     ],
-    "totaladdons": 16
+    "totaladdons": 17
   },
   {
     "name": "TV information providers",

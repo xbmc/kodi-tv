@@ -11030,6 +11030,22 @@
     "totaladdons": 1
   },
   {
+    "name": "SubtitleDB",
+    "slug": "subtitledb",
+    "icon": "/images/authors/subtitledb.webp",
+    "id": "SubtitleDB",
+    "addons": [
+      {
+        "id": "service.subtitles.subtitledb",
+        "name": "SubtitleDB",
+        "slug": "service.subtitles.subtitledb",
+        "icon": "/images/addons/omega/service.subtitles.subtitledb/resources/icon.png",
+        "snippet": "Subtitles from SubtitleDB"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "sy6sy2",
     "slug": "sy6sy2",
     "icon": "/images/authors/sy6sy2.webp",
@@ -13774,6 +13790,22 @@
         "slug": "script.module.dateutil",
         "icon": "/images/addons/omega/script.module.dateutil/icon.png",
         "snippet": "Extensions to the standard Python datetime module"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "TomSzo_HUN",
+    "slug": "tomszo_hun",
+    "icon": "/images/authors/tomszo_hun.webp",
+    "id": "TomSzo_HUN",
+    "addons": [
+      {
+        "id": "script.speedtester",
+        "name": "Speed Tester",
+        "slug": "script.speedtester",
+        "icon": "/images/addons/omega/script.speedtester/resources/media/icon.png",
+        "snippet": "Test your Internet bandwidth"
       }
     ],
     "totaladdons": 1
