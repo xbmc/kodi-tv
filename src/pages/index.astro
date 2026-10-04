@@ -17,6 +17,7 @@ import {
 } from "../components/FullWidth";
 import { prepareBlogPost } from "../utils/blog";
 import { optimizeIconItems, optimizeSponsorItems } from "../utils/images";
+import { defaultLocale, localizePath } from "../i18n";
 
 // Import optimizable images from src/images/
 import heroDefault from "../images/heroes/default-hero.webp";
@@ -59,6 +60,87 @@ const [
 ]);
 
 const slugify = (await import("slugify")).default;
+const locale = Astro.locals.locale || defaultLocale;
+const localize = (path: string) => localizePath(path, locale);
+const copy =
+  locale === "sv"
+    ? {
+        hero: [
+          [
+            "Kodi är det ultimata",
+            "underhållningscentret",
+            "Kodi ger dina medier liv med mängder av funktioner, ett vackert gränssnitt och enkel användning.",
+            "Berätta mer",
+          ],
+          [
+            "Det finns ett",
+            "tillägg för det",
+            "Kodi har en stor katalog med tillägg från gemenskapen, så att du kan anpassa din perfekta underhållningsmiljö.",
+            "Bläddra bland tillägg",
+          ],
+          [
+            "Kodi har en gemenskap",
+            "som ingen annan",
+            "Vårt forum är fullt av frågor, svar, tips och guider från människor över hela världen.",
+            "Få hjälp",
+          ],
+          [
+            "Är du utvecklare?",
+            "Gå med i teamet!",
+            "Vi välkomnar alla som vill bidra till en förbättring som behövs.",
+            "Bidra",
+          ],
+        ],
+        smartTitle: "Har du en smart-tv? Du har inte sett något än!",
+        smartSubtitle:
+          "Kodi får din smart-tv att blekna. Kodi spelar nästan alla medietyper du kan hitta och ser dessutom bra ut. Här är några saker som Kodi är särskilt bra på:",
+        cards: [
+          [
+            "Musik",
+            "Din musiksamling har aldrig sett så här bra ut! Stöd för nästan alla format, spellistor, partymixar och mycket mer.",
+          ],
+          [
+            "Filmer",
+            "Mycket bättre än en hög dvd-skivor på en hylla. Kodi ger din filmsamling liv med omslagsbilder, skådespelare, genrer och mer.",
+          ],
+          [
+            "TV-serier",
+            "Perfekt för sträcktittande eller för att se ikapp en favoritserie. Kodi håller ordning på alla dina tv-serier som inget annat.",
+          ],
+          [
+            "Foton",
+            "Kodi är det bästa sättet att dela dina foton på hemmets största skärm med ett personligt bildspel.",
+          ],
+          [
+            "PVR",
+            "Med Kodi kan du se och spela in direktsänd tv från ett lättanvänt gränssnitt. Det fungerar med många populära bakändar, bland annat MediaPortal, MythTV, NextPVR och Tvheadend.",
+          ],
+          [
+            "Spel",
+            "Kodi är inte bara till för passiv underhållning. Du kan även spela spel i Kodi, välja bland många emulatorer eller köra fristående spel. Det finns också omfattande stöd för spelkontroller.",
+          ],
+        ],
+        moreTitle: "Men vänta, det finns mer!",
+        moreButton: "Visa alla fördelar",
+        moreText:
+          "Du kan välja ett nytt skal för att ändra Kodis utseende eller strömma din favoritradiostation på nätet och styra allt med webbläsaren eller mobilen. Allt detta och mycket mer är möjligt och enkelt med Kodi.",
+        runsTitle: "Kodi kör på nästan allt",
+        download: "Hämta nu",
+        runsText: "Kodi kör på en mängd enheter och operativsystem, bland annat:",
+        sponsors:
+          "Ett stort tack till våra sponsorer. De hjälper till att hålla Kodi fritt.",
+        news: "Nyheter",
+        newsSubtitle: "Det senaste från Kodis värld",
+        openSource: "100 % öppen källkod!",
+        openSourceText:
+          "Ja, du läste rätt! Kodi är programvara som utvecklas och drivs av gemenskapen, för gemenskapen.",
+        rightsText:
+          "Du kan organisera medier som du äger och har rättigheter till utan extra kostnad.",
+        statistics: "Viktig statistik",
+        statisticsText:
+          "Användare och medlemmar i gemenskapen bidrar till Kodi på många olika sätt.",
+      }
+    : undefined;
 
 // Fetch data
 const blogEntries = await getCollection("blog");
@@ -141,39 +223,43 @@ const distIconList = createElement(IconList, {
     slides={[
       {
         image: optHeroDefault.src,
-        title: "Kodi is the ultimate",
-        subtitle: "entertainment center",
+        title: copy?.hero[0][0] || "Kodi is the ultimate",
+        subtitle: copy?.hero[0][1] || "entertainment center",
         description:
+          copy?.hero[0][2] ||
           "Kodi brings your media to life with endless features, a beautiful interface, and ease of use.",
-        url: "/about",
-        buttontext: "Tell Me More",
+        url: localize("/about"),
+        buttontext: copy?.hero[0][3] || "Tell Me More",
       },
       {
         image: optHeroAddons.src,
-        title: "There is an",
-        subtitle: "Add-on for that",
+        title: copy?.hero[1][0] || "There is an",
+        subtitle: copy?.hero[1][1] || "Add-on for that",
         description:
+          copy?.hero[1][2] ||
           "Kodi has a giant catalog of community add-ons available for you to customize and tweak your perfect entertainment setup.",
-        url: "/addons",
-        buttontext: "Browse Add-ons",
+        url: localize("/addons"),
+        buttontext: copy?.hero[1][3] || "Browse Add-ons",
       },
       {
         image: optHeroCommunity.src,
-        title: "Kodi has a community",
-        subtitle: "like no other",
+        title: copy?.hero[2][0] || "Kodi has a community",
+        subtitle: copy?.hero[2][1] || "like no other",
         description:
+          copy?.hero[2][2] ||
           "Our forum is overflowing with questions, answers, tips, and guides from people all over the globe.",
         url: "https://forum.kodi.tv",
-        buttontext: "Get Help",
+        buttontext: copy?.hero[2][3] || "Get Help",
       },
       {
         image: optHeroWallpaper.src,
-        title: "Are you a developer?",
-        subtitle: "Join the team!",
+        title: copy?.hero[3][0] || "Are you a developer?",
+        subtitle: copy?.hero[3][1] || "Join the team!",
         description:
+          copy?.hero[3][2] ||
           "We would welcome anyone who is willing to do their part on any improvement that is needed.",
-        url: "/contribute/developers",
-        buttontext: "Contribute",
+        url: localize("/contribute/developers"),
+        buttontext: copy?.hero[3][3] || "Contribute",
       },
     ]}
   />
@@ -181,43 +267,50 @@ const distIconList = createElement(IconList, {
   <div class="-mt-6">
     <FullWidthRoundedCardList
       backgroundColor="bg-gray-100"
-      title="Got a smart TV? You ain't seen nothin' yet!"
-      subtitle="Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and looks great while doing it! Here are just a few things Kodi excels at:"
+      title={copy?.smartTitle || "Got a smart TV? You ain't seen nothin' yet!"}
+      subtitle={copy?.smartSubtitle ||
+        "Kodi puts your smart TV to shame. Kodi plays almost every kind of media you can find and looks great while doing it! Here are just a few things Kodi excels at:"}
       items={[
         {
           imgsrc: optAboutMusic.src,
-          title: "Music",
+          title: copy?.cards[0][0] || "Music",
           description:
+            copy?.cards[0][1] ||
             "Your music collection has never looked this good! Support for almost every format, playlists, party mixes and more.",
         },
         {
           imgsrc: optAboutMovies.src,
-          title: "Movies",
+          title: copy?.cards[1][0] || "Movies",
           description:
+            copy?.cards[1][1] ||
             "So much better than a pile of DVDs on a shelf. Kodi brings your movie collection to life with artwork, cast, genres and more.",
         },
         {
           imgsrc: optAboutTvshows.src,
-          title: "TV Shows",
+          title: copy?.cards[2][0] || "TV Shows",
           description:
+            copy?.cards[2][1] ||
             "Perfect for binge watching or the occasional catch up on your favourite show. Kodi keeps all your TV organised like nothing else.",
         },
         {
           imgsrc: optAboutPhotos.src,
-          title: "Photos",
+          title: copy?.cards[3][0] || "Photos",
           description:
+            copy?.cards[3][1] ||
             "Kodi is the best way to share your photos on the biggest screen in the house with a personal slideshow.",
         },
         {
           imgsrc: optAboutPvr.src,
-          title: "PVR",
+          title: copy?.cards[4][0] || "PVR",
           description:
+            copy?.cards[4][1] ||
             "Kodi allows you to watch and record live TV all from an easy to use interface. It works with a number of popular backends including MediaPortal, MythTV, NextPVR, Tvheadend and many more.",
         },
         {
           imgsrc: optAboutGames.src,
-          title: "Games",
+          title: copy?.cards[5][0] || "Games",
           description:
+            copy?.cards[5][1] ||
             "Kodi isn't just for passive entertainment media. You can also play games on Kodi. Pick from a large number of emulators, or even play a stand-alone game. There's even extensive support for game controllers.",
         },
       ]}
@@ -226,59 +319,70 @@ const distIconList = createElement(IconList, {
 
   <FullWidthTwoPaneImageLeft
     icon={sparklesIcon}
-    title="But wait, there's more!"
-    url="/about"
-    buttontext="Show me all the good bits"
+    title={copy?.moreTitle || "But wait, there's more!"}
+    url={localize("/about")}
+    buttontext={copy?.moreButton || "Show me all the good bits"}
     image={{
       src: optSkinEstuary.src,
       title: "Estuary Skin",
       alt: "Estuary Skin showing music artists",
     }}
   >
-    You can get a new skin to change the look of Kodi, or maybe you want to stream
-    your favourite internet radio station and control it all with your web browser or
-    mobile phone? This and so much more is all possible and easy with Kodi.
+    {
+      copy?.moreText ||
+        "You can get a new skin to change the look of Kodi, or maybe you want to stream your favourite internet radio station and control it all with your web browser or mobile phone? This and so much more is all possible and easy with Kodi."
+    }
   </FullWidthTwoPaneImageLeft>
 
   <FullWidthTwoPaneIconsRight
     backgroundColor="bg-gray-100"
     icon={downloadIcon}
-    title="Kodi runs on just about anything"
-    url="/download"
-    buttontext="Download Now"
+    title={copy?.runsTitle || "Kodi runs on just about anything"}
+    url={localize("/download")}
+    buttontext={copy?.download || "Download Now"}
     iconlist={distIconList}
   >
-    Kodi runs on a huge range of devices and operating systems, including:
+    {
+      copy?.runsText ||
+        "Kodi runs on a huge range of devices and operating systems, including:"
+    }
     <ul class="pl-10 pt-4">
       {distTextList.map(item => <li>{item}</li>)}
     </ul>
   </FullWidthTwoPaneIconsRight>
 
   <FullWidthSponsorList
-    title="A big thanks to our sponsors. They help to keep Kodi free."
+    title={copy?.sponsors ||
+      "A big thanks to our sponsors. They help to keep Kodi free."}
     sponsors={orderedSponsors}
   />
 
   <FullWidthNews
     backgroundColor="bg-gray-100"
-    title="News"
-    subtitle="What's new in the world of Kodi"
+    title={copy?.news || "News"}
+    subtitle={copy?.newsSubtitle || "What's new in the world of Kodi"}
     news={news}
   />
 
-  <FullWidthCallOut title="100% Open Source!">
-    Yes, you read that right! Kodi is software that is built and run for the
-    community, by the community.
+  <FullWidthCallOut title={copy?.openSource || "100% Open Source!"}>
+    {
+      copy?.openSourceText ||
+        "Yes, you read that right! Kodi is software that is built and run for the community, by the community."
+    }
     <br />
-    You can organize media you own and have rights to with no extra cost.
+    {
+      copy?.rightsText ||
+        "You can organize media you own and have rights to with no extra cost."
+    }
   </FullWidthCallOut>
 
   <FullWidthStats
     backgroundColor="bg-kodi-darker"
     titleTextColor="text-gray-50"
     subtitleTextColor="text-gray-50"
-    title="Vital statistics"
-    subtitle="Users and members of the community contribute to Kodi in so many different ways."
+    title={copy?.statistics || "Vital statistics"}
+    subtitle={copy?.statisticsText ||
+      "Users and members of the community contribute to Kodi in so many different ways."}
     stats={stats}
   />
 </BaseLayout>
