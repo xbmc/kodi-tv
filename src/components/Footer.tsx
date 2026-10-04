@@ -1,8 +1,16 @@
 import React from "react";
 import type { Sponsor } from "../hooks/Sponsors";
 import { SponsorFooterList } from "./SponsorList";
+import { defaultLocale, localizePath, type Locale } from "../i18n";
 
-function Footer({ sponsors }: { sponsors: Sponsor[] }) {
+function Footer({
+  sponsors,
+  locale = defaultLocale,
+}: {
+  sponsors: Sponsor[];
+  locale?: Locale;
+}) {
+  const path = (url: string) => localizePath(url, locale);
   const orderedSponsors: Sponsor[] = sponsors
     .filter(a => a.sponsor_type === "Financial")
     .concat(sponsors.filter(a => a.sponsor_type === "Infrastructure"));
@@ -40,7 +48,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                   <ul className="mt-4 space-y-3">
                     <li>
                       <a
-                        href="/about/foundation"
+                        href={path("/about/foundation")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Kodi Foundation
@@ -48,7 +56,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     </li>
                     <li>
                       <a
-                        href="/about/team"
+                        href={path("/about/team")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Kodi Team
@@ -56,7 +64,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     </li>
                     <li>
                       <a
-                        href="/about/sponsors"
+                        href={path("/about/sponsors")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Sponsorship
@@ -64,7 +72,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     </li>
                     <li>
                       <a
-                        href="/about/terms-of-service"
+                        href={path("/about/terms-of-service")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Terms of Service
@@ -72,7 +80,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     </li>
                     <li>
                       <a
-                        href="/about/privacy-policy"
+                        href={path("/about/privacy-policy")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         Privacy Policy
@@ -80,7 +88,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                     </li>
                     <li>
                       <a
-                        href="/about/dmca"
+                        href={path("/about/dmca")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         DMCA Policy
@@ -244,7 +252,7 @@ function Footer({ sponsors }: { sponsors: Sponsor[] }) {
                       <a
                         target="_blank"
                         rel="noreferrer"
-                        href="/rss.xml"
+                        href={path("/rss.xml")}
                         className="text-sm text-gray-400 hover:text-gray-50 transition-colors duration-300"
                       >
                         RSS
