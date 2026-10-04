@@ -14,6 +14,7 @@ import {
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
 import type { MenuEntry } from "./types";
+import { defaultLocale, getMessages, localizePath, type Locale } from "../i18n";
 
 let regularButton =
   "text-gray-200 hover:text-gray-50 hover:bg-white/10 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
@@ -22,172 +23,188 @@ let primaryButton =
 let callToActionButton =
   "text-gray-50 bg-kodi-castellina hover:bg-amber-600 hover:text-white px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
 
-const mainMenu: MenuEntry[] = [
-  {
-    id: "home",
-    title: "News",
-    url: { url: "/blog", type: "internal" },
-    buttonType: regularButton,
-    dropdown: null,
-    footer: null,
-  },
-  {
-    id: "addons",
-    title: "Add-ons",
-    url: { url: "#", type: "internal" },
-    buttonType: regularButton,
-    footer: null,
-    dropdown: [
-      {
-        id: "addons-about",
-        title: "About Add-ons",
-        url: { url: "/addons", type: "internal" },
-        icon: InformationCircleIcon,
-        description: "Find out how add-ons expand and enhance the Kodi experience.",
-      },
-      {
-        id: "addons-omega",
-        title: "Omega Add-ons",
-        url: { url: "/addons/omega", type: "internal" },
-        icon: CloudArrowDownIcon,
-        description: "Add-ons for Kodi 21, the latest and greatest version of Kodi.",
-      },
-    ],
-  },
-  {
-    id: "contribute",
-    title: "Contribute",
-    buttonType: regularButton,
-    url: { url: "/contribute", type: "internal" },
-    dropdown: null,
-    footer: null,
-  },
-  {
-    id: "about",
-    title: "About",
-    url: { url: "#", type: "internal" },
-    buttonType: regularButton,
-    footer: null,
-    dropdown: [
-      {
-        id: "about-kodi",
-        title: "About Kodi",
-        url: { url: "/about", type: "internal" },
-        icon: InformationCircleIcon,
-        description: "Find out everything Kodi can do for you.",
-      },
-      {
-        id: "about-sponsors",
-        title: "Sponsors",
-        url: { url: "/about/sponsors", type: "internal" },
-        icon: BanknotesIcon,
-        description: "A list of companies supporting the work we do.",
-      },
-      {
-        id: "about-software",
-        title: "Software",
-        url: { url: "/about/software", type: "internal" },
-        icon: CpuChipIcon,
-        description: "Information about the suite of software we offer.",
-      },
-      {
-        id: "about-contact",
-        title: "Contact",
-        url: { url: "/about/contact", type: "internal" },
-        icon: InboxArrowDownIcon,
-        description:
-          "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
-      },
-    ],
-  },
-  {
-    id: "store",
-    title: "Store",
-    buttonType: regularButton,
-    url: { url: "/store", type: "internal" },
-    dropdown: null,
-    footer: null,
-  },
-  {
-    id: "help",
-    title: "Help",
-    url: { url: "#", type: "internal" },
-    buttonType: regularButton,
-    footer: null,
-    dropdown: [
-      {
-        id: "help-wiki",
-        title: "Wiki",
-        url: { url: "https://kodi.wiki", type: "external" },
-        icon: DocumentTextIcon,
-        description: "Our user documentation and how-to guides.",
-      },
-      {
-        id: "help-developer",
-        title: "Kodi Developer Resources",
-        url: { url: "https://docs.kodi.tv", type: "external" },
-        icon: CodeBracketIcon,
-        description: "Documentation, including information for Kodi itself.",
-      },
-      {
-        id: "help-addon",
-        title: "Add-on Developer Resources",
-        url: { url: "https://dev-kit.kodi.tv", type: "external" },
-        icon: CodeBracketIcon,
-        description:
-          "Documentation, including information for skin development and interfaces for Python and C++ .",
-      },
-      {
-        id: "help-forum",
-        title: "Forum",
-        url: { url: "https://forum.kodi.tv", type: "external" },
-        icon: ChatBubbleLeftRightIcon,
-        description: "Our user forum for asking questions and finding answers.",
-      },
-      {
-        id: "help-irc",
-        title: "IRC",
-        url: { url: "https://web.libera.chat/#kodi", type: "external" },
-        icon: ChatBubbleLeftEllipsisIcon,
-        description:
-          "Join us on Libera.Chat or use this menu link to join the channel via the web.",
-      },
-      {
-        id: "help-matrix",
-        title: "Matrix",
-        url: { url: "https://matrix.to/#/#kodi-space:matrix.org", type: "external" },
-        icon: ChatBubbleLeftEllipsisIcon,
-        description: "Get help from team members hanging out in Matrix.",
-      },
-    ],
-  },
-  {
-    id: "github",
-    title: "GitHub",
-    buttonType: regularButton,
-    url: { url: "https://github.com/xbmc", type: "external" },
-    dropdown: null,
-    footer: null,
-  },
-  {
-    id: "download",
-    title: "Download",
-    url: { url: "/download", type: "internal" },
-    buttonType: primaryButton,
-    dropdown: null,
-    footer: null,
-  },
-  {
-    id: "donate",
-    title: "Donate",
-    buttonType: callToActionButton,
-    url: { url: "/donate", type: "internal" },
-    dropdown: null,
-    footer: null,
-  },
-];
+function getMainMenu(locale: Locale): MenuEntry[] {
+  const t = getMessages(locale).navigation;
+  const path = (url: string) => localizePath(url, locale);
+  return [
+    {
+      id: "home",
+      title: t.news,
+      url: { url: path("/blog"), type: "internal" },
+      buttonType: regularButton,
+      dropdown: null,
+      footer: null,
+    },
+    {
+      id: "addons",
+      title: t.addons,
+      url: { url: "#", type: "internal" },
+      buttonType: regularButton,
+      footer: null,
+      dropdown: [
+        {
+          id: "addons-about",
+          title: "About Add-ons",
+          url: { url: path("/addons"), type: "internal" },
+          icon: InformationCircleIcon,
+          description:
+            "Find out how add-ons expand and enhance the Kodi experience.",
+        },
+        {
+          id: "addons-omega",
+          title: "Omega Add-ons",
+          url: { url: path("/addons/omega"), type: "internal" },
+          icon: CloudArrowDownIcon,
+          description:
+            "Add-ons for Kodi 21, the latest and greatest version of Kodi.",
+        },
+      ],
+    },
+    {
+      id: "contribute",
+      title: t.contribute,
+      buttonType: regularButton,
+      url: { url: path("/contribute"), type: "internal" },
+      dropdown: null,
+      footer: null,
+    },
+    {
+      id: "about",
+      title: t.about,
+      url: { url: "#", type: "internal" },
+      buttonType: regularButton,
+      footer: null,
+      dropdown: [
+        {
+          id: "about-kodi",
+          title: "About Kodi",
+          url: { url: path("/about"), type: "internal" },
+          icon: InformationCircleIcon,
+          description: "Find out everything Kodi can do for you.",
+        },
+        {
+          id: "about-sponsors",
+          title: "Sponsors",
+          url: { url: path("/about/sponsors"), type: "internal" },
+          icon: BanknotesIcon,
+          description: "A list of companies supporting the work we do.",
+        },
+        {
+          id: "about-software",
+          title: "Software",
+          url: { url: path("/about/software"), type: "internal" },
+          icon: CpuChipIcon,
+          description: "Information about the suite of software we offer.",
+        },
+        {
+          id: "about-contact",
+          title: "Contact",
+          url: { url: path("/about/contact"), type: "internal" },
+          icon: InboxArrowDownIcon,
+          description:
+            "Contact the Kodi team about support, corporate enquiries, or sponsorships.",
+        },
+      ],
+    },
+    {
+      id: "store",
+      title: t.store,
+      buttonType: regularButton,
+      url: { url: path("/store"), type: "internal" },
+      dropdown: null,
+      footer: null,
+    },
+    {
+      id: "help",
+      title: t.help,
+      url: { url: "#", type: "internal" },
+      buttonType: regularButton,
+      footer: null,
+      dropdown: [
+        {
+          id: "help-wiki",
+          title: "Wiki",
+          url: { url: "https://kodi.wiki", type: "external" },
+          icon: DocumentTextIcon,
+          description: "Our user documentation and how-to guides.",
+        },
+        {
+          id: "help-developer",
+          title: "Kodi Developer Resources",
+          url: { url: "https://docs.kodi.tv", type: "external" },
+          icon: CodeBracketIcon,
+          description: "Documentation, including information for Kodi itself.",
+        },
+        {
+          id: "help-addon",
+          title: "Add-on Developer Resources",
+          url: { url: "https://dev-kit.kodi.tv", type: "external" },
+          icon: CodeBracketIcon,
+          description:
+            "Documentation, including information for skin development and interfaces for Python and C++ .",
+        },
+        {
+          id: "help-forum",
+          title: "Forum",
+          url: { url: "https://forum.kodi.tv", type: "external" },
+          icon: ChatBubbleLeftRightIcon,
+          description: "Our user forum for asking questions and finding answers.",
+        },
+        {
+          id: "help-irc",
+          title: "IRC",
+          url: { url: "https://web.libera.chat/#kodi", type: "external" },
+          icon: ChatBubbleLeftEllipsisIcon,
+          description:
+            "Join us on Libera.Chat or use this menu link to join the channel via the web.",
+        },
+        {
+          id: "help-matrix",
+          title: "Matrix",
+          url: {
+            url: "https://matrix.to/#/#kodi-space:matrix.org",
+            type: "external",
+          },
+          icon: ChatBubbleLeftEllipsisIcon,
+          description: "Get help from team members hanging out in Matrix.",
+        },
+      ],
+    },
+    {
+      id: "github",
+      title: "GitHub",
+      buttonType: regularButton,
+      url: { url: "https://github.com/xbmc", type: "external" },
+      dropdown: null,
+      footer: null,
+    },
+    {
+      id: "download",
+      title: t.download,
+      url: { url: path("/download"), type: "internal" },
+      buttonType: primaryButton,
+      dropdown: null,
+      footer: null,
+    },
+    {
+      id: "donate",
+      title: t.donate,
+      buttonType: callToActionButton,
+      url: { url: path("/donate"), type: "internal" },
+      dropdown: null,
+      footer: null,
+    },
+  ];
+}
 
-function Header(props: any) {
+function Header(props: {
+  compact?: boolean;
+  locale?: Locale;
+  frontmatter?: { title?: string };
+}) {
+  const locale = props.locale || defaultLocale;
+  const mainMenu = getMainMenu(locale);
+  const messages = getMessages(locale);
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let mainclassname = "bg-kodibg pb-32";
   let showtitle = true;
@@ -207,7 +224,7 @@ function Header(props: any) {
               <div className="flex items-center justify-between h-16 px-4">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="/">
+                    <a href={localizePath("/", locale)}>
                       <img
                         className="h-8 w-24"
                         src="/images/kodi-logo-with-text.svg"
@@ -234,6 +251,14 @@ function Header(props: any) {
                     </div>
                   </div>
                 </div>
+                <a
+                  href={localizePath("/", locale === "sv" ? "en" : "sv")}
+                  lang={locale === "sv" ? "en" : "sv"}
+                  className="hidden lg:inline-flex text-gray-200 hover:text-gray-50 px-3 py-2 rounded-lg text-sm font-medium"
+                  aria-label={messages.language}
+                >
+                  {locale === "sv" ? "English" : "Svenska"}
+                </a>
                 <div className="-mr-2 flex lg:hidden">
                   <button
                     onClick={() => setIsHamburgerOpen(!isHamburgerOpen)}
@@ -242,7 +267,9 @@ function Header(props: any) {
                     aria-controls="mobile-menu"
                     aria-expanded={isHamburgerOpen}
                   >
-                    <span className="sr-only">Open main menu</span>
+                    <span className="sr-only">
+                      {locale === "sv" ? "Öppna huvudmenyn" : "Open main menu"}
+                    </span>
                     {isHamburgerOpen ? (
                       <XMarkIcon className="block h-6 w-6" />
                     ) : (
