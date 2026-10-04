@@ -16,6 +16,7 @@ interface Props {
 
 const { title, description, image, breadcrumbs, landing = false } = Astro.props;
 const locale = (Astro.locals.locale || defaultLocale) as Locale;
+const requestPath = Astro.locals.requestPath || Astro.url.pathname;
 
 const sponsorEntries = await getCollection("sponsors");
 const sponsors = sponsorEntries
@@ -85,6 +86,7 @@ const ogImage = image
       <Header
         compact={landing}
         locale={locale}
+        requestPath={requestPath}
         frontmatter={{ title: title || "" }}
         client:load
       />
