@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import siteConfig from "../config/site";
 import "../styles/global.css";
+import { defaultLocale, type Locale } from "../i18n";
 
 interface Props {
   title?: string;
@@ -14,6 +15,7 @@ interface Props {
 }
 
 const { title, description, image, breadcrumbs, landing = false } = Astro.props;
+const locale = (Astro.locals.locale || defaultLocale) as Locale;
 
 const sponsorEntries = await getCollection("sponsors");
 const sponsors = sponsorEntries
@@ -33,7 +35,7 @@ const ogImage = image
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -80,7 +82,12 @@ const ogImage = image
         "h-full min-h-screen",
       ]}
     >
-      <Header compact={landing} frontmatter={{ title: title || "" }} client:load />
+      <Header
+        compact={landing}
+        locale={locale}
+        frontmatter={{ title: title || "" }}
+        client:load
+      />
       {
         landing ? (
           <main>
