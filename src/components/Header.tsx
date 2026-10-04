@@ -44,7 +44,7 @@ function getMainMenu(locale: Locale): MenuEntry[] {
       dropdown: [
         {
           id: "addons-about",
-          title: "About Add-ons",
+          title: locale === "sv" ? "Om tillägg" : "About Add-ons",
           url: { url: path("/addons"), type: "internal" },
           icon: InformationCircleIcon,
           description:
@@ -52,7 +52,7 @@ function getMainMenu(locale: Locale): MenuEntry[] {
         },
         {
           id: "addons-omega",
-          title: "Omega Add-ons",
+          title: locale === "sv" ? "Omega-tillägg" : "Omega Add-ons",
           url: { url: path("/addons/omega"), type: "internal" },
           icon: CloudArrowDownIcon,
           description:
@@ -77,28 +77,37 @@ function getMainMenu(locale: Locale): MenuEntry[] {
       dropdown: [
         {
           id: "about-kodi",
-          title: "About Kodi",
+          title: locale === "sv" ? "Om Kodi" : "About Kodi",
           url: { url: path("/about"), type: "internal" },
           icon: InformationCircleIcon,
-          description: "Find out everything Kodi can do for you.",
+          description:
+            locale === "sv"
+              ? "Ta reda på vad Kodi kan göra för dig."
+              : "Find out everything Kodi can do for you.",
         },
         {
           id: "about-sponsors",
-          title: "Sponsors",
+          title: locale === "sv" ? "Sponsorer" : "Sponsors",
           url: { url: path("/about/sponsors"), type: "internal" },
           icon: BanknotesIcon,
-          description: "A list of companies supporting the work we do.",
+          description:
+            locale === "sv"
+              ? "Företag som stöder vårt arbete."
+              : "A list of companies supporting the work we do.",
         },
         {
           id: "about-software",
-          title: "Software",
+          title: locale === "sv" ? "Programvara" : "Software",
           url: { url: path("/about/software"), type: "internal" },
           icon: CpuChipIcon,
-          description: "Information about the suite of software we offer.",
+          description:
+            locale === "sv"
+              ? "Information om programvaran vi erbjuder."
+              : "Information about the suite of software we offer.",
         },
         {
           id: "about-contact",
-          title: "Contact",
+          title: locale === "sv" ? "Kontakt" : "Contact",
           url: { url: path("/about/contact"), type: "internal" },
           icon: InboxArrowDownIcon,
           description:
@@ -123,21 +132,33 @@ function getMainMenu(locale: Locale): MenuEntry[] {
       dropdown: [
         {
           id: "help-wiki",
-          title: "Wiki",
+          title: locale === "sv" ? "Wiki" : "Wiki",
           url: { url: "https://kodi.wiki", type: "external" },
           icon: DocumentTextIcon,
-          description: "Our user documentation and how-to guides.",
+          description:
+            locale === "sv"
+              ? "Vår användardokumentation och våra guider."
+              : "Our user documentation and how-to guides.",
         },
         {
           id: "help-developer",
-          title: "Kodi Developer Resources",
+          title:
+            locale === "sv"
+              ? "Resurser för Kodi-utvecklare"
+              : "Kodi Developer Resources",
           url: { url: "https://docs.kodi.tv", type: "external" },
           icon: CodeBracketIcon,
-          description: "Documentation, including information for Kodi itself.",
+          description:
+            locale === "sv"
+              ? "Dokumentation, även om Kodi självt."
+              : "Documentation, including information for Kodi itself.",
         },
         {
           id: "help-addon",
-          title: "Add-on Developer Resources",
+          title:
+            locale === "sv"
+              ? "Resurser för tilläggsutvecklare"
+              : "Add-on Developer Resources",
           url: { url: "https://dev-kit.kodi.tv", type: "external" },
           icon: CodeBracketIcon,
           description:
@@ -145,10 +166,13 @@ function getMainMenu(locale: Locale): MenuEntry[] {
         },
         {
           id: "help-forum",
-          title: "Forum",
+          title: locale === "sv" ? "Forum" : "Forum",
           url: { url: "https://forum.kodi.tv", type: "external" },
           icon: ChatBubbleLeftRightIcon,
-          description: "Our user forum for asking questions and finding answers.",
+          description:
+            locale === "sv"
+              ? "Vårt användarforum för frågor och svar."
+              : "Our user forum for asking questions and finding answers.",
         },
         {
           id: "help-irc",
@@ -166,7 +190,10 @@ function getMainMenu(locale: Locale): MenuEntry[] {
             type: "external",
           },
           icon: ChatBubbleLeftEllipsisIcon,
-          description: "Get help from team members hanging out in Matrix.",
+          description:
+            locale === "sv"
+              ? "Få hjälp av teammedlemmar på Matrix."
+              : "Get help from team members hanging out in Matrix.",
         },
       ],
     },
