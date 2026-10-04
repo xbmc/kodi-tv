@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useSyncExternalStore } from "react";
 import HeaderDropdownMenu from "./HeaderDropdownMenu";
 import HeaderDropdownMenuMobile from "./HeaderDropdownMenuMobile";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
@@ -14,7 +14,13 @@ import {
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
 import type { MenuEntry } from "./types";
-import { defaultLocale, getMessages, localizePath, type Locale } from "../i18n";
+import {
+  defaultLocale,
+  getMessages,
+  localizePath,
+  switchLocalePath,
+  type Locale,
+} from "../i18n";
 
 let regularButton =
   "text-gray-200 hover:text-gray-50 hover:bg-white/10 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 ease-out";
@@ -227,11 +233,20 @@ function getMainMenu(locale: Locale): MenuEntry[] {
 function Header(props: {
   compact?: boolean;
   locale?: Locale;
+  requestPath?: string;
   frontmatter?: { title?: string };
 }) {
   const locale = props.locale || defaultLocale;
   const mainMenu = getMainMenu(locale);
   const messages = getMessages(locale);
+  const alternateLocale = locale === "sv" ? "en" : "sv";
+  const currentPath = useSyncExternalStore(
+    () => () => {},
+    () =>
+      `${window.location.pathname}${window.location.search}${window.location.hash}`,
+    () => props.requestPath || "/",
+  );
+  const alternateLocalePath = switchLocalePath(currentPath, alternateLocale);
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
   let mainclassname = "bg-kodibg pb-32";
   let showtitle = true;
@@ -279,8 +294,8 @@ function Header(props: {
                   </div>
                 </div>
                 <a
-                  href={localizePath("/", locale === "sv" ? "en" : "sv")}
-                  lang={locale === "sv" ? "en" : "sv"}
+                  href={alternateLocalePath}
+                  lang={alternateLocale}
                   className="hidden lg:inline-flex text-gray-200 hover:text-gray-50 px-3 py-2 rounded-lg text-sm font-medium"
                   aria-label={messages.language}
                 >
@@ -314,8 +329,8 @@ function Header(props: {
             >
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href={localizePath("/", locale === "sv" ? "en" : "sv")}
-                  lang={locale === "sv" ? "en" : "sv"}
+                  href={alternateLocalePath}
+                  lang={alternateLocale}
                   className="text-gray-300 hover:bg-white/10 hover:text-gray-50 block px-3 py-2 rounded-lg text-base font-medium transition-all duration-300"
                 >
                   {locale === "sv" ? "English" : "Svenska"}
