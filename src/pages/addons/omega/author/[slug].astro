@@ -1,18 +1,17 @@
 ---
-export const prerender = true;
 import { getCollection } from "astro:content";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import AddonAuthorLayout from "../../../../components/AddonAuthorLayout";
 
-export async function getStaticPaths() {
-  const authors = await getCollection("omegaAuthors");
-  return authors.map(entry => ({
-    params: { slug: (entry.data as any).slug },
-    props: { author: entry.data },
-  }));
-}
+const slug = Astro.params.slug;
+const author = slug
+  ? (await getCollection("omegaAuthors")).find(
+      entry => (entry.data as any).slug === slug,
+    )?.data
+  : undefined;
 
-const { author } = Astro.props;
+if (!author) return Astro.redirect("/404");
+
 const authorData = author as any;
 ---
 

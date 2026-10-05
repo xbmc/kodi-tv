@@ -1,19 +1,14 @@
 ---
-export const prerender = true;
-import { getCollection } from "astro:content";
+import { getEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BlogPost from "../../components/BlogPost";
 import { cleanExcerpt, calcReadTime } from "../../utils/blog";
 
-export async function getStaticPaths() {
-  const blogEntries = await getCollection("blog");
-  return blogEntries.map(entry => ({
-    params: { slug: entry.id },
-    props: { entry },
-  }));
-}
+const slug = Astro.params.slug;
+const entry = slug ? await getEntry("blog", slug) : undefined;
 
-const { entry } = Astro.props;
+if (!entry) return Astro.redirect("/404");
+
 const data = entry.data;
 
 const blogPost = {

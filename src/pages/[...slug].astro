@@ -1,6 +1,5 @@
 ---
-export const prerender = true;
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Page from "../components/Page";
 import {
@@ -9,15 +8,11 @@ import {
   optimizeImagePath,
 } from "../utils/images";
 
-export async function getStaticPaths() {
-  const pages = await getCollection("pages");
-  return pages.map(entry => ({
-    params: { slug: entry.id.replace(/^\//, "") },
-    props: { entry },
-  }));
-}
+const slug = Astro.params.slug;
+const entry = slug ? await getEntry("pages", slug) : undefined;
 
-const { entry } = Astro.props;
+if (!entry) return Astro.redirect("/404");
+
 const data = entry.data;
 
 const sponsorEntries = await getCollection("sponsors");
