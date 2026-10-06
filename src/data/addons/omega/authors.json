@@ -2819,14 +2819,35 @@
     "id": "Édouard Duliège",
     "addons": [
       {
+        "id": "plugin.audio.classicalradio",
+        "name": "ClassicalRadio",
+        "slug": "plugin.audio.classicalradio",
+        "icon": "/images/addons/omega/plugin.audio.classicalradio/resources/icon.png",
+        "snippet": "Unofficial ClassicalRadio client for Kodi"
+      },
+      {
         "id": "plugin.audio.difm",
         "name": "DI.FM",
         "slug": "plugin.audio.difm",
         "icon": "/images/addons/omega/plugin.audio.difm/resources/icon.png",
         "snippet": "Unofficial DI.FM client for Kodi"
+      },
+      {
+        "id": "plugin.audio.rockradio",
+        "name": "RockRadio",
+        "slug": "plugin.audio.rockradio",
+        "icon": "/images/addons/omega/plugin.audio.rockradio/resources/icon.png",
+        "snippet": "Unofficial RockRadio client for Kodi"
+      },
+      {
+        "id": "plugin.audio.zenradio",
+        "name": "ZenRadio",
+        "slug": "plugin.audio.zenradio",
+        "icon": "/images/addons/omega/plugin.audio.zenradio/resources/icon.png",
+        "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 4
   },
   {
     "name": "Eke-Eke",
@@ -13949,6 +13970,22 @@
       }
     ],
     "totaladdons": 2
+  },
+  {
+    "name": "TVS Player",
+    "slug": "tvs-player",
+    "icon": "/images/authors/tvs-player.webp",
+    "id": "TVS Player",
+    "addons": [
+      {
+        "id": "plugin.video.tvsplayer",
+        "name": "TVS Player",
+        "slug": "plugin.video.tvsplayer",
+        "icon": "/images/addons/omega/plugin.video.tvsplayer/resources/icon.png",
+        "snippet": "Your own M3U playlists and free radio"
+      }
+    ],
+    "totaladdons": 1
   },
   {
     "name": "twinther",

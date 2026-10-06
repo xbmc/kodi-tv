@@ -3445,6 +3445,13 @@
         "snippet": "CBC Radio"
       },
       {
+        "id": "plugin.audio.classicalradio",
+        "name": "ClassicalRadio",
+        "slug": "plugin.audio.classicalradio",
+        "icon": "/images/addons/omega/plugin.audio.classicalradio/resources/icon.png",
+        "snippet": "Unofficial ClassicalRadio client for Kodi"
+      },
+      {
         "id": "plugin.video.composite_for_plex",
         "name": "Composite",
         "slug": "plugin.video.composite_for_plex",
@@ -3624,6 +3631,13 @@
         "snippet": "Listen to all the podcast from RNE."
       },
       {
+        "id": "plugin.audio.rockradio",
+        "name": "RockRadio",
+        "slug": "plugin.audio.rockradio",
+        "icon": "/images/addons/omega/plugin.audio.rockradio/resources/icon.png",
+        "snippet": "Unofficial RockRadio client for Kodi"
+      },
+      {
         "id": "plugin.audio.podcasts",
         "name": "RSS Podcasts",
         "slug": "plugin.audio.podcasts",
@@ -3694,6 +3708,13 @@
         "snippet": "Listen to Triple R: an independent community radio station in Melbourne, Australia."
       },
       {
+        "id": "plugin.video.tvsplayer",
+        "name": "TVS Player",
+        "slug": "plugin.video.tvsplayer",
+        "icon": "/images/addons/omega/plugin.video.tvsplayer/resources/icon.png",
+        "snippet": "Your own M3U playlists and free radio"
+      },
+      {
         "id": "plugin.audio.vrt.radio",
         "name": "VRT Radio",
         "slug": "plugin.audio.vrt.radio",
@@ -3722,6 +3743,13 @@
         "snippet": "Play concert content from the German tv broadcaster \"WDR3\"."
       },
       {
+        "id": "plugin.audio.zenradio",
+        "name": "ZenRadio",
+        "slug": "plugin.audio.zenradio",
+        "icon": "/images/addons/omega/plugin.audio.zenradio/resources/icon.png",
+        "snippet": "Unofficial ZenRadio client for Kodi"
+      },
+      {
         "id": "plugin.audio.zophar",
         "name": "Zophar's Domain",
         "slug": "plugin.audio.zophar",
@@ -3729,7 +3757,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 48
+    "totaladdons": 52
   },
   {
     "name": "Music video information providers",
@@ -4057,6 +4085,13 @@
         "slug": "plugin.video.ciscolive",
         "icon": "/images/addons/omega/plugin.video.ciscolive/resources/media/icon.png",
         "snippet": "Browse and watch Cisco Live on-demand sessions"
+      },
+      {
+        "id": "plugin.audio.classicalradio",
+        "name": "ClassicalRadio",
+        "slug": "plugin.audio.classicalradio",
+        "icon": "/images/addons/omega/plugin.audio.classicalradio/resources/icon.png",
+        "snippet": "Unofficial ClassicalRadio client for Kodi"
       },
       {
         "id": "plugin.video.comettv",
@@ -4950,6 +4985,13 @@
         "snippet": "Rocket Beans TV | 24/7 Entertainment"
       },
       {
+        "id": "plugin.audio.rockradio",
+        "name": "RockRadio",
+        "slug": "plugin.audio.rockradio",
+        "icon": "/images/addons/omega/plugin.audio.rockradio/resources/icon.png",
+        "snippet": "Unofficial RockRadio client for Kodi"
+      },
+      {
         "id": "plugin.video.rsiplaytv",
         "name": "RSI Play TV",
         "slug": "plugin.video.rsiplaytv",
@@ -5222,6 +5264,13 @@
         "snippet": "Entertainment, news, documentaries, etc from catalan television www.tv3.cat"
       },
       {
+        "id": "plugin.video.tvsplayer",
+        "name": "TVS Player",
+        "slug": "plugin.video.tvsplayer",
+        "icon": "/images/addons/omega/plugin.video.tvsplayer/resources/icon.png",
+        "snippet": "Your own M3U playlists and free radio"
+      },
+      {
         "id": "plugin.video.tweakers",
         "name": "Tweakers",
         "slug": "plugin.video.tweakers",
@@ -5404,6 +5453,13 @@
         "snippet": "Videos on demand for children from the ZDF Mediathek."
       },
       {
+        "id": "plugin.audio.zenradio",
+        "name": "ZenRadio",
+        "slug": "plugin.audio.zenradio",
+        "icon": "/images/addons/omega/plugin.audio.zenradio/resources/icon.png",
+        "snippet": "Unofficial ZenRadio client for Kodi"
+      },
+      {
         "id": "plugin.video.zoneminder",
         "name": "ZoneMinder",
         "slug": "plugin.video.zoneminder",
@@ -5418,7 +5474,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 229
+    "totaladdons": 233
   },
   {
     "name": "Program addons",
@@ -7734,6 +7790,13 @@
         "snippet": "Live TV, everywhere"
       },
       {
+        "id": "plugin.audio.classicalradio",
+        "name": "ClassicalRadio",
+        "slug": "plugin.audio.classicalradio",
+        "icon": "/images/addons/omega/plugin.audio.classicalradio/resources/icon.png",
+        "snippet": "Unofficial ClassicalRadio client for Kodi"
+      },
+      {
         "id": "script.module.clouddrive.common",
         "name": "Cloud Drive Common Module",
         "slug": "script.module.clouddrive.common",
@@ -8147,6 +8210,13 @@
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
       },
       {
+        "id": "plugin.audio.rockradio",
+        "name": "RockRadio",
+        "slug": "plugin.audio.rockradio",
+        "icon": "/images/addons/omega/plugin.audio.rockradio/resources/icon.png",
+        "snippet": "Unofficial RockRadio client for Kodi"
+      },
+      {
         "id": "plugin.video.sms",
         "name": "Scoot Media Streamer",
         "slug": "plugin.video.sms",
@@ -8376,9 +8446,16 @@
         "slug": "plugin.video.youtube",
         "icon": "/images/addons/omega/plugin.video.youtube/resources/media/icon.png",
         "snippet": "Plugin for YouTube"
+      },
+      {
+        "id": "plugin.audio.zenradio",
+        "name": "ZenRadio",
+        "slug": "plugin.audio.zenradio",
+        "icon": "/images/addons/omega/plugin.audio.zenradio/resources/icon.png",
+        "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 108
+    "totaladdons": 111
   },
   {
     "name": "Skins",
@@ -9804,6 +9881,13 @@
         "snippet": "Entertainment, news, documentaries, etc from catalan television www.tv3.cat"
       },
       {
+        "id": "plugin.video.tvsplayer",
+        "name": "TVS Player",
+        "slug": "plugin.video.tvsplayer",
+        "icon": "/images/addons/omega/plugin.video.tvsplayer/resources/icon.png",
+        "snippet": "Your own M3U playlists and free radio"
+      },
+      {
         "id": "plugin.video.tweakers",
         "name": "Tweakers",
         "slug": "plugin.video.tweakers",
@@ -9965,7 +10049,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 187
+    "totaladdons": 188
   },
   {
     "name": "Virtual filesystems",
