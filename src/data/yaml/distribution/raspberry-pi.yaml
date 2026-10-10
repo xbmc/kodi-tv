@@ -17,9 +17,9 @@ releases:
         download_type: external
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Beta 2** pre-release build has become available because we
-      think it is ready for wider testing and usage. It also means we are closer
-      to a stable release of v22.
+    description: The **Release Candidate 1** pre-release build has become available
+      because we think it is ready for wider testing and usage. It also means we
+      are closer to a stable release of v22.
     downloads:
       - name: Install Guide
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_on_Raspberry_Pi?https=1
