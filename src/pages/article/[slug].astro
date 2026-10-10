@@ -7,7 +7,7 @@ import { cleanExcerpt, calcReadTime } from "../../utils/blog";
 const slug = Astro.params.slug;
 const entry = slug ? await getEntry("blog", slug) : undefined;
 
-if (!entry) return Astro.redirect("/404");
+if (!entry) return Astro.rewrite("/404");
 
 const data = entry.data;
 

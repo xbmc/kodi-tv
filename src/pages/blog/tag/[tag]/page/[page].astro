@@ -19,7 +19,7 @@ const tag = [...new Set(blogEntries.flatMap(entry => entry.data.tags || []))].fi
     }) === Astro.params.tag,
 );
 
-if (!tag) return Astro.redirect("/404");
+if (!tag) return Astro.rewrite("/404");
 
 const pageNum = Number(Astro.params.page);
 
@@ -28,7 +28,7 @@ const filtered = blogEntries
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
 if (!Number.isInteger(pageNum) || pageNum < 2 || pageNum > totalPages) {
-  return Astro.redirect("/404");
+  return Astro.rewrite("/404");
 }
 const start = (pageNum - 1) * PAGE_SIZE;
 const posts = filtered

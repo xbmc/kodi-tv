@@ -17,7 +17,7 @@ const dist = name
     )?.data
   : undefined;
 
-if (!dist) return Astro.redirect("/404");
+if (!dist) return Astro.rewrite("/404");
 
 const distData = dist as any;
 const optimizedIcon = await optimizeImagePath(distData.icon);

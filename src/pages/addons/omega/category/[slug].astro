@@ -10,7 +10,7 @@ const category = slug
     )?.data
   : undefined;
 
-if (!category) return Astro.redirect("/404");
+if (!category) return Astro.rewrite("/404");
 
 const categoryData = category as any;
 ---
