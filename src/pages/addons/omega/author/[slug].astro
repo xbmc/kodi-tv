@@ -10,7 +10,7 @@ const author = slug
     )?.data
   : undefined;
 
-if (!author) return Astro.redirect("/404");
+if (!author) return Astro.rewrite("/404");
 
 const authorData = author as any;
 ---

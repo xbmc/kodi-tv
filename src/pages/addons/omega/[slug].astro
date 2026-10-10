@@ -10,7 +10,7 @@ const addon = slug
     )?.data
   : undefined;
 
-if (!addon) return Astro.redirect("/404");
+if (!addon) return Astro.rewrite("/404");
 
 const addonData = addon as any;
 

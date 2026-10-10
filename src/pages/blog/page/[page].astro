@@ -15,7 +15,7 @@ const sorted = blogEntries.sort(
 );
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
 if (!Number.isInteger(pageNum) || pageNum < 2 || pageNum > totalPages) {
-  return Astro.redirect("/404");
+  return Astro.rewrite("/404");
 }
 const start = (pageNum - 1) * PAGE_SIZE;
 const posts = sorted
