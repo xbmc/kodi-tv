@@ -19,6 +19,7 @@ function Footer({
   return (
     <>
       <footer
+        lang={locale}
         className="bg-kodibg-deep text-gray-400 relative"
         aria-labelledby="footerHeading"
       >

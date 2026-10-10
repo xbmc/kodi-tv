@@ -12,9 +12,17 @@ interface Props {
   image?: string;
   breadcrumbs?: string;
   landing?: boolean;
+  contentLocale?: Locale;
 }
 
-const { title, description, image, breadcrumbs, landing = false } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  breadcrumbs,
+  landing = false,
+  contentLocale = defaultLocale,
+} = Astro.props;
 const locale = (Astro.locals.locale || defaultLocale) as Locale;
 const requestPath = Astro.locals.requestPath || Astro.url.pathname;
 
@@ -36,7 +44,7 @@ const ogImage = image
 ---
 
 <!doctype html>
-<html lang={locale}>
+<html lang={contentLocale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

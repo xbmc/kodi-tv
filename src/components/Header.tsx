@@ -260,7 +260,7 @@ function Header(props: {
   return (
     <>
       <div className={mainclassname} {...sideRailOverlapAttributes}>
-        <nav className="glass-dark sticky top-0 z-50">
+        <nav lang={locale} className="glass-dark sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-2 lg:px-6">
             <div>
               <div className="flex items-center justify-between h-16 px-4">

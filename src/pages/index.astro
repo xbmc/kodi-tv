@@ -217,7 +217,11 @@ const distIconList = createElement(IconList, {
 });
 ---
 
-<BaseLayout landing breadcrumbs="Open Source Home Theater Software">
+<BaseLayout
+  landing
+  breadcrumbs="Open Source Home Theater Software"
+  contentLocale={locale}
+>
   <FullWidthHeroCarousel
     client:load
     slides={[
