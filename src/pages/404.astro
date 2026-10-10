@@ -1,5 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+Astro.response.status = 404;
+Astro.response.statusText = "Not Found";
 ---
 
 <BaseLayout title="Page Not Found" breadcrumbs="404">
