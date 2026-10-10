@@ -19,7 +19,7 @@ It's been over two years since the initial Kodi 21 "Omega" release, so before di
 
 ### Better HDR and video playback
 
-Piers brings major HDR improvements across platforms, including HDR overlays and UHD PGS subtitles, improved subtitle color handling, HDR-to-SDR subtitle tone mapping, and an upgrade to FFmpeg 9. 
+Piers brings major HDR improvements across platforms, including HDR overlays and UHD PGS subtitles, improved subtitle colour handling, HDR-to-SDR subtitle tone mapping, and an upgrade to FFmpeg 9. 
 
 ### Blu-ray got a lot smarter
 
