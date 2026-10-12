@@ -2833,6 +2833,20 @@
         "snippet": "Unofficial DI.FM client for Kodi"
       },
       {
+        "id": "plugin.audio.jazzradio",
+        "name": "JazzRadio",
+        "slug": "plugin.audio.jazzradio",
+        "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
+        "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
+        "id": "plugin.audio.radiotunes",
+        "name": "RadioTunes",
+        "slug": "plugin.audio.radiotunes",
+        "icon": "/images/addons/omega/plugin.audio.radiotunes/resources/icon.png",
+        "snippet": "Unofficial RadioTunes client for Kodi"
+      },
+      {
         "id": "plugin.audio.rockradio",
         "name": "RockRadio",
         "slug": "plugin.audio.rockradio",
@@ -2847,7 +2861,7 @@
         "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 4
+    "totaladdons": 6
   },
   {
     "name": "Eke-Eke",

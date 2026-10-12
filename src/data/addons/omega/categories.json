@@ -3527,6 +3527,13 @@
         "snippet": "TV and Radio from BBC iPlayer"
       },
       {
+        "id": "plugin.audio.jazzradio",
+        "name": "JazzRadio",
+        "slug": "plugin.audio.jazzradio",
+        "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
+        "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
         "id": "plugin.audio.kvartal",
         "name": "Kvartal",
         "slug": "plugin.audio.kvartal",
@@ -3615,6 +3622,13 @@
         "slug": "plugin.audio.radioplayerfrance",
         "icon": "/images/addons/omega/plugin.audio.radioplayerfrance/resources/icon.png",
         "snippet": "Radioplayer France addon"
+      },
+      {
+        "id": "plugin.audio.radiotunes",
+        "name": "RadioTunes",
+        "slug": "plugin.audio.radiotunes",
+        "icon": "/images/addons/omega/plugin.audio.radiotunes/resources/icon.png",
+        "snippet": "Unofficial RadioTunes client for Kodi"
       },
       {
         "id": "plugin.video.raitv",
@@ -3757,7 +3771,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 52
+    "totaladdons": 54
   },
   {
     "name": "Music video information providers",
@@ -4554,6 +4568,13 @@
         "snippet": "iSpot.tv internet's most comprehensive database of nationally airing TV Commercials."
       },
       {
+        "id": "plugin.audio.jazzradio",
+        "name": "JazzRadio",
+        "slug": "plugin.audio.jazzradio",
+        "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
+        "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
         "id": "plugin.audio.kvartal",
         "name": "Kvartal",
         "slug": "plugin.audio.kvartal",
@@ -4927,6 +4948,13 @@
         "slug": "plugin.audio.radioplayerfrance",
         "icon": "/images/addons/omega/plugin.audio.radioplayerfrance/resources/icon.png",
         "snippet": "Radioplayer France addon"
+      },
+      {
+        "id": "plugin.audio.radiotunes",
+        "name": "RadioTunes",
+        "slug": "plugin.audio.radiotunes",
+        "icon": "/images/addons/omega/plugin.audio.radiotunes/resources/icon.png",
+        "snippet": "Unofficial RadioTunes client for Kodi"
       },
       {
         "id": "plugin.video.raitv",
@@ -5474,7 +5502,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 233
+    "totaladdons": 235
   },
   {
     "name": "Program addons",
@@ -7951,6 +7979,13 @@
         "snippet": "Regularly deletes old movies, TV show episodes and music videos"
       },
       {
+        "id": "plugin.audio.jazzradio",
+        "name": "JazzRadio",
+        "slug": "plugin.audio.jazzradio",
+        "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
+        "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
         "id": "script.kodi.android.update",
         "name": "Kodi Android Installer",
         "slug": "script.kodi.android.update",
@@ -8201,6 +8236,13 @@
         "slug": "script.radioparadise",
         "icon": "/images/addons/omega/script.radioparadise/resources/icon.png",
         "snippet": "Radio Paradise music and slideshows"
+      },
+      {
+        "id": "plugin.audio.radiotunes",
+        "name": "RadioTunes",
+        "slug": "plugin.audio.radiotunes",
+        "icon": "/images/addons/omega/plugin.audio.radiotunes/resources/icon.png",
+        "snippet": "Unofficial RadioTunes client for Kodi"
       },
       {
         "id": "plugin.video.retrospect",
@@ -8455,7 +8497,7 @@
         "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 111
+    "totaladdons": 113
   },
   {
     "name": "Skins",
