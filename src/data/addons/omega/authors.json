@@ -1728,6 +1728,13 @@
         "snippet": "Cloud Drive Common Module"
       },
       {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
+      },
+      {
         "id": "plugin.googledrive",
         "name": "Google Drive",
         "slug": "plugin.googledrive",
@@ -1742,7 +1749,7 @@
         "snippet": "Microsoft OneDrive for KODI"
       }
     ],
-    "totaladdons": 3
+    "totaladdons": 4
   },
   {
     "name": "Cas",
@@ -7895,6 +7902,22 @@
         "slug": "plugin.video.picta",
         "icon": "/images/addons/omega/plugin.video.picta/resources/icon.png",
         "snippet": "Picta Plataforma de Contenidos Audiovisuales de Cuba"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "Oli",
+    "slug": "oli",
+    "icon": "/images/authors/oli.webp",
+    "id": "Oli",
+    "addons": [
+      {
+        "id": "plugin.video.rbtv",
+        "name": "Rocket Beans TV",
+        "slug": "plugin.video.rbtv",
+        "icon": "/images/addons/omega/plugin.video.rbtv/icon.png",
+        "snippet": "Rocket Beans TV media library (unofficial)"
       }
     ],
     "totaladdons": 1
@@ -14381,6 +14404,22 @@
         "name": "Movie Genre Fanart - Panel",
         "slug": "resource.images.moviegenrefanart.panel",
         "icon": "/images/default-addon.webp"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "WatchNPlay",
+    "slug": "watchnplay",
+    "icon": "/images/authors/watchnplay.webp",
+    "id": "WatchNPlay",
+    "addons": [
+      {
+        "id": "service.watchnplay",
+        "name": "WatchNPlay",
+        "slug": "service.watchnplay",
+        "icon": "/images/addons/omega/service.watchnplay/resources/icon.png",
+        "snippet": "Sync what you watch in Kodi with WatchNPlay"
       }
     ],
     "totaladdons": 1

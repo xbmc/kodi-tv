@@ -3472,6 +3472,13 @@
         "snippet": "Unofficial DI.FM client for Kodi"
       },
       {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
+      },
+      {
         "id": "plugin.audio.eco99music",
         "name": "eco99music",
         "slug": "plugin.audio.eco99music",
@@ -3771,7 +3778,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 54
+    "totaladdons": 55
   },
   {
     "name": "Music video information providers",
@@ -3818,6 +3825,13 @@
         "snippet": "Browse and play video, music and photo media files managed by Plex Media Server.\n\nFork of..."
       },
       {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
+      },
+      {
         "id": "plugin.image.dumpert",
         "name": "Dumpert",
         "slug": "plugin.image.dumpert",
@@ -3853,7 +3867,7 @@
         "snippet": "Provides streaming from a pcloud.com bucket"
       }
     ],
-    "totaladdons": 7
+    "totaladdons": 8
   },
   {
     "name": "Plugins",
@@ -4245,6 +4259,13 @@
         "slug": "plugin.video.dr.dk.bonanza",
         "icon": "/images/addons/omega/plugin.video.dr.dk.bonanza/resources/icon.png",
         "snippet": "Best and worst from DR's archives"
+      },
+      {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
       },
       {
         "id": "plugin.image.dumpert",
@@ -5006,6 +5027,13 @@
         "snippet": "Listen to all the podcast from RNE."
       },
       {
+        "id": "plugin.video.rbtv",
+        "name": "Rocket Beans TV",
+        "slug": "plugin.video.rbtv",
+        "icon": "/images/addons/omega/plugin.video.rbtv/icon.png",
+        "snippet": "Rocket Beans TV media library (unofficial)"
+      },
+      {
         "id": "plugin.video.rocketbeans",
         "name": "Rocket Beans TV",
         "slug": "plugin.video.rocketbeans",
@@ -5502,7 +5530,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 235
+    "totaladdons": 237
   },
   {
     "name": "Program addons",
@@ -6106,6 +6134,13 @@
         "snippet": "Save watched state of movies and TV-series episodes independent from filenames"
       },
       {
+        "id": "service.watchnplay",
+        "name": "WatchNPlay",
+        "slug": "service.watchnplay",
+        "icon": "/images/addons/omega/service.watchnplay/resources/icon.png",
+        "snippet": "Sync what you watch in Kodi with WatchNPlay"
+      },
+      {
         "id": "script.module.web-pdb",
         "name": "Web-PDB",
         "slug": "script.module.web-pdb",
@@ -6155,7 +6190,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 92
+    "totaladdons": 93
   },
   {
     "name": "PVR clients",
@@ -7874,6 +7909,20 @@
         "snippet": "Unofficial DI.FM client for Kodi"
       },
       {
+        "id": "plugin.video.drnu",
+        "name": "DR TV",
+        "slug": "plugin.video.drnu",
+        "icon": "/images/addons/omega/plugin.video.drnu/resources/media/icon.png",
+        "snippet": "Watch live and archived TV from DR (Danish Broadcasting Corporation)"
+      },
+      {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
+      },
+      {
         "id": "script.easytv",
         "name": "EasyTV",
         "slug": "script.easytv",
@@ -8448,6 +8497,13 @@
         "snippet": "Save watched state of movies and TV-series episodes independent from filenames"
       },
       {
+        "id": "service.watchnplay",
+        "name": "WatchNPlay",
+        "slug": "service.watchnplay",
+        "icon": "/images/addons/omega/service.watchnplay/resources/icon.png",
+        "snippet": "Sync what you watch in Kodi with WatchNPlay"
+      },
+      {
         "id": "script.webhook.runner",
         "name": "Webhook Runner",
         "slug": "script.webhook.runner",
@@ -8497,7 +8553,7 @@
         "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 113
+    "totaladdons": 116
   },
   {
     "name": "Skins",
@@ -9057,6 +9113,13 @@
         "slug": "plugin.video.dr.dk.bonanza",
         "icon": "/images/addons/omega/plugin.video.dr.dk.bonanza/resources/icon.png",
         "snippet": "Best and worst from DR's archives"
+      },
+      {
+        "id": "plugin.dropbox",
+        "name": "Dropbox",
+        "slug": "plugin.dropbox",
+        "icon": "/images/addons/omega/plugin.dropbox/icon.png",
+        "snippet": "Play your videos, music and pictures from Dropbox"
       },
       {
         "id": "plugin.video.dumpert",
@@ -9693,6 +9756,13 @@
         "snippet": "RIPE Meetings videos"
       },
       {
+        "id": "plugin.video.rbtv",
+        "name": "Rocket Beans TV",
+        "slug": "plugin.video.rbtv",
+        "icon": "/images/addons/omega/plugin.video.rbtv/icon.png",
+        "snippet": "Rocket Beans TV media library (unofficial)"
+      },
+      {
         "id": "plugin.video.rocketbeans",
         "name": "Rocket Beans TV",
         "slug": "plugin.video.rocketbeans",
@@ -10091,7 +10161,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 188
+    "totaladdons": 190
   },
   {
     "name": "Virtual filesystems",
