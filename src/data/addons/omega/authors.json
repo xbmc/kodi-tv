@@ -13310,6 +13310,13 @@
         "snippet": "Vortex Visualization from XBOX package"
       },
       {
+        "id": "game.controller.supervision",
+        "name": "Watara Supervision",
+        "slug": "game.controller.supervision",
+        "icon": "/images/addons/omega/game.controller.supervision/resources/icon.png",
+        "snippet": "Watara Supervision"
+      },
+      {
         "id": "resource.images.weatherfanart.faded",
         "name": "Weather Fanart - Faded",
         "slug": "resource.images.weatherfanart.faded",
@@ -13395,6 +13402,13 @@
         "snippet": "Welsh language pack"
       },
       {
+        "id": "game.controller.wii.classic",
+        "name": "Wii Classic Controller",
+        "slug": "game.controller.wii.classic",
+        "icon": "/images/addons/omega/game.controller.wii.classic/resources/icon.png",
+        "snippet": "Wii Classic Controller"
+      },
+      {
         "id": "game.controller.wiimote",
         "name": "Wii Remote Controller",
         "slug": "game.controller.wiimote",
@@ -13416,7 +13430,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 256
+    "totaladdons": 258
   },
   {
     "name": "Team Kodi: Memphiz",

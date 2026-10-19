@@ -1012,6 +1012,20 @@
         "snippet": "Vectrex controller"
       },
       {
+        "id": "game.controller.supervision",
+        "name": "Watara Supervision",
+        "slug": "game.controller.supervision",
+        "icon": "/images/addons/omega/game.controller.supervision/resources/icon.png",
+        "snippet": "Watara Supervision"
+      },
+      {
+        "id": "game.controller.wii.classic",
+        "name": "Wii Classic Controller",
+        "slug": "game.controller.wii.classic",
+        "icon": "/images/addons/omega/game.controller.wii.classic/resources/icon.png",
+        "snippet": "Wii Classic Controller"
+      },
+      {
         "id": "game.controller.wiimote",
         "name": "Wii Remote Controller",
         "slug": "game.controller.wiimote",
@@ -1033,7 +1047,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 86
+    "totaladdons": 88
   },
   {
     "name": "Game clients",
