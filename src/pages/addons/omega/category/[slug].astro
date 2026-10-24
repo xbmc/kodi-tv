@@ -3,15 +3,15 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import AddonCategoryLayout from "../../../../components/AddonCategoryLayout";
 
-export async function getStaticPaths() {
-  const categories = await getCollection("omegaCategories");
-  return categories.map(entry => ({
-    params: { slug: (entry.data as any).slug },
-    props: { category: entry.data },
-  }));
-}
+const slug = Astro.params.slug;
+const category = slug
+  ? (await getCollection("omegaCategories")).find(
+      entry => (entry.data as any).slug === slug,
+    )?.data
+  : undefined;
 
-const { category } = Astro.props;
+if (!category) return Astro.rewrite("/404");
+
 const categoryData = category as any;
 ---
 
