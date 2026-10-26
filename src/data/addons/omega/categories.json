@@ -3445,6 +3445,13 @@
         "snippet": "Podcasts by BBC in KODI"
       },
       {
+        "id": "plugin.audio.bbcsounds",
+        "name": "BBC Sounds",
+        "slug": "plugin.audio.bbcsounds",
+        "icon": "/images/addons/omega/plugin.audio.bbcsounds/resources/icon.png",
+        "snippet": "Music, Radio and Podcasts from the BBC Sounds website"
+      },
+      {
         "id": "plugin.audio.c3lounge",
         "name": "c3lounge Radio",
         "slug": "plugin.audio.c3lounge",
@@ -3553,6 +3560,13 @@
         "slug": "plugin.audio.jazzradio",
         "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
         "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
+        "id": "script.karmamole.helper",
+        "name": "KarmaMole Skin Helper",
+        "slug": "script.karmamole.helper",
+        "icon": "/images/addons/omega/script.karmamole.helper/icon.png",
+        "snippet": "Optional helper for KarmaMole's Kodi skins: art colours, soft art, album spines, queue reordering and..."
       },
       {
         "id": "plugin.audio.kvartal",
@@ -3792,7 +3806,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 55
+    "totaladdons": 57
   },
   {
     "name": "Music video information providers",
@@ -4015,6 +4029,13 @@
         "slug": "plugin.audio.bbcpodcasts",
         "icon": "/images/addons/omega/plugin.audio.bbcpodcasts/resources/assets/icon.png",
         "snippet": "Podcasts by BBC in KODI"
+      },
+      {
+        "id": "plugin.audio.bbcsounds",
+        "name": "BBC Sounds",
+        "slug": "plugin.audio.bbcsounds",
+        "icon": "/images/addons/omega/plugin.audio.bbcsounds/resources/icon.png",
+        "snippet": "Music, Radio and Podcasts from the BBC Sounds website"
       },
       {
         "id": "plugin.video.brmediathek",
@@ -4608,6 +4629,13 @@
         "slug": "plugin.audio.jazzradio",
         "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
         "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
+        "id": "script.karmamole.helper",
+        "name": "KarmaMole Skin Helper",
+        "slug": "script.karmamole.helper",
+        "icon": "/images/addons/omega/script.karmamole.helper/icon.png",
+        "snippet": "Optional helper for KarmaMole's Kodi skins: art colours, soft art, album spines, queue reordering and..."
       },
       {
         "id": "plugin.audio.kvartal",
@@ -5544,7 +5572,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 237
+    "totaladdons": 239
   },
   {
     "name": "Program addons",
@@ -5693,6 +5721,13 @@
         "snippet": "A customizable Cron timer for Kodi. "
       },
       {
+        "id": "service.crosswatch",
+        "name": "CrossWatch for Kodi",
+        "slug": "service.crosswatch",
+        "icon": "/images/addons/omega/service.crosswatch/icon.png",
+        "snippet": "Everyone in the household keeps their own watch history, through your own CrossWatch."
+      },
+      {
         "id": "script.domoticz.scenes",
         "name": "Domoticz Scenes",
         "slug": "script.domoticz.scenes",
@@ -5782,6 +5817,13 @@
         "slug": "script.service.janitor",
         "icon": "/images/addons/omega/script.service.janitor/resources/icon.png",
         "snippet": "Regularly deletes old movies, TV show episodes and music videos"
+      },
+      {
+        "id": "script.karmamole.helper",
+        "name": "KarmaMole Skin Helper",
+        "slug": "script.karmamole.helper",
+        "icon": "/images/addons/omega/script.karmamole.helper/icon.png",
+        "snippet": "Optional helper for KarmaMole's Kodi skins: art colours, soft art, album spines, queue reordering and..."
       },
       {
         "id": "script.keymap",
@@ -6204,7 +6246,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 93
+    "totaladdons": 95
   },
   {
     "name": "PVR clients",
@@ -6635,6 +6677,13 @@
         "slug": "script.module.ijson",
         "icon": "/images/addons/omega/script.module.ijson/resources/icon.png",
         "snippet": "Iterative JSON parser with standard Python iterator interfaces"
+      },
+      {
+        "id": "script.module.imdbratings",
+        "name": "IMDb Ratings",
+        "slug": "script.module.imdbratings",
+        "icon": "/images/default-addon.webp",
+        "snippet": "IMDb ratings for add-ons"
       },
       {
         "id": "script.module.infotagger",
@@ -7266,7 +7315,7 @@
         "snippet": "A concrete time zone implementation to support the IANA time zone database"
       }
     ],
-    "totaladdons": 124
+    "totaladdons": 125
   },
   {
     "name": "Screensavers",
@@ -7909,6 +7958,13 @@
         "snippet": "A customizable Cron timer for Kodi. "
       },
       {
+        "id": "service.crosswatch",
+        "name": "CrossWatch for Kodi",
+        "slug": "service.crosswatch",
+        "icon": "/images/addons/omega/service.crosswatch/icon.png",
+        "snippet": "Everyone in the household keeps their own watch history, through your own CrossWatch."
+      },
+      {
         "id": "script.cu.lrclyrics",
         "name": "CU LRC Lyrics",
         "slug": "script.cu.lrclyrics",
@@ -8049,6 +8105,13 @@
         "snippet": "Unofficial JazzRadio client for Kodi"
       },
       {
+        "id": "script.karmamole.helper",
+        "name": "KarmaMole Skin Helper",
+        "slug": "script.karmamole.helper",
+        "icon": "/images/addons/omega/script.karmamole.helper/icon.png",
+        "snippet": "Optional helper for KarmaMole's Kodi skins: art colours, soft art, album spines, queue reordering and..."
+      },
+      {
         "id": "script.kodi.android.update",
         "name": "Kodi Android Installer",
         "slug": "script.kodi.android.update",
@@ -8075,6 +8138,13 @@
         "slug": "script.kodi.windows.update",
         "icon": "/images/addons/omega/script.kodi.windows.update/resources/images/icon.png",
         "snippet": "Download and Install Kodi packages."
+      },
+      {
+        "id": "service.sendspin",
+        "name": "Kodi-Sendspin",
+        "slug": "service.sendspin",
+        "icon": "/images/addons/omega/service.sendspin/resources/icon.png",
+        "snippet": "Turn Kodi into a Music Assistant (Sendspin) speaker"
       },
       {
         "id": "service.languagepreferencemanager",
@@ -8490,6 +8560,13 @@
         "snippet": "Kodi Version Check checks if you are running latest released version."
       },
       {
+        "id": "service.vizpalette",
+        "name": "Visualizer Palette",
+        "slug": "service.vizpalette",
+        "icon": "/images/addons/omega/service.vizpalette/icon.png",
+        "snippet": "Album-art colours for skins and Shadertoy visualisations."
+      },
+      {
         "id": "plugin.video.vrt.nu",
         "name": "VRT MAX",
         "slug": "plugin.video.vrt.nu",
@@ -8567,7 +8644,7 @@
         "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 116
+    "totaladdons": 120
   },
   {
     "name": "Skins",

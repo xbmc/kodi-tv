@@ -2530,6 +2530,13 @@
     "id": "Dimitri Kroon",
     "addons": [
       {
+        "id": "plugin.audio.bbcsounds",
+        "name": "BBC Sounds",
+        "slug": "plugin.audio.bbcsounds",
+        "icon": "/images/addons/omega/plugin.audio.bbcsounds/resources/icon.png",
+        "snippet": "Music, Radio and Podcasts from the BBC Sounds website"
+      },
+      {
         "id": "plugin.video.cinetree",
         "name": "Cinetree",
         "slug": "plugin.video.cinetree",
@@ -2544,7 +2551,7 @@
         "snippet": "Live TV and video on-demand from ITVX (UK only, ITVX account required)"
       }
     ],
-    "totaladdons": 2
+    "totaladdons": 3
   },
   {
     "name": "divingmule",
@@ -5542,6 +5549,29 @@
     "totaladdons": 1
   },
   {
+    "name": "KarmaMole",
+    "slug": "karmamole",
+    "icon": "/images/authors/karmamole.webp",
+    "id": "KarmaMole",
+    "addons": [
+      {
+        "id": "script.karmamole.helper",
+        "name": "KarmaMole Skin Helper",
+        "slug": "script.karmamole.helper",
+        "icon": "/images/addons/omega/script.karmamole.helper/icon.png",
+        "snippet": "Optional helper for KarmaMole's Kodi skins: art colours, soft art, album spines, queue reordering and..."
+      },
+      {
+        "id": "service.vizpalette",
+        "name": "Visualizer Palette",
+        "slug": "service.vizpalette",
+        "icon": "/images/addons/omega/service.vizpalette/icon.png",
+        "snippet": "Album-art colours for skins and Shadertoy visualisations."
+      }
+    ],
+    "totaladdons": 2
+  },
+  {
     "name": "Kevin Shanahan (Tyrann)",
     "slug": "kevin-shanahan-(tyrann)",
     "icon": "/images/authors/kevin-shanahan-(tyrann).webp",
@@ -6709,6 +6739,22 @@
         "slug": "script.myepisodes",
         "icon": "/images/addons/omega/script.myepisodes/icon.png",
         "snippet": "MyEpisodes"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "McMoobud",
+    "slug": "mcmoobud",
+    "icon": "/images/authors/mcmoobud.webp",
+    "id": "McMoobud",
+    "addons": [
+      {
+        "id": "service.sendspin",
+        "name": "Kodi-Sendspin",
+        "slug": "service.sendspin",
+        "icon": "/images/addons/omega/service.sendspin/resources/icon.png",
+        "snippet": "Turn Kodi into a Music Assistant (Sendspin) speaker"
       }
     ],
     "totaladdons": 1
@@ -9760,6 +9806,13 @@
     "id": "Rouzax",
     "addons": [
       {
+        "id": "service.crosswatch",
+        "name": "CrossWatch for Kodi",
+        "slug": "service.crosswatch",
+        "icon": "/images/addons/omega/service.crosswatch/icon.png",
+        "snippet": "Everyone in the household keeps their own watch history, through your own CrossWatch."
+      },
+      {
         "id": "script.easytv",
         "name": "EasyTV",
         "slug": "script.easytv",
@@ -9767,7 +9820,7 @@
         "snippet": "No scrolling. No deciding. Just watching."
       }
     ],
-    "totaladdons": 1
+    "totaladdons": 2
   },
   {
     "name": "Rupert Carmichael",
@@ -12288,6 +12341,13 @@
         "snippet": "Icelandic language pack"
       },
       {
+        "id": "script.module.imdbratings",
+        "name": "IMDb Ratings",
+        "slug": "script.module.imdbratings",
+        "icon": "/images/default-addon.webp",
+        "snippet": "IMDb ratings for add-ons"
+      },
+      {
         "id": "metadata.common.imdb.com",
         "name": "IMDB Scraper Library",
         "slug": "metadata.common.imdb.com",
@@ -13430,7 +13490,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 258
+    "totaladdons": 259
   },
   {
     "name": "Team Kodi: Memphiz",
