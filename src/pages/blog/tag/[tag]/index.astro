@@ -10,26 +10,17 @@ const slugify = (await import("slugify")).default;
 
 const PAGE_SIZE = 20;
 
-export async function getStaticPaths() {
-  const slugify = (await import("slugify")).default;
-  const blogEntries = await getCollection("blog");
-
-  // Get all unique tags
-  const allTags = [...new Set(blogEntries.flatMap(e => e.data.tags || []))];
-
-  return allTags.map(tag => ({
-    params: {
-      tag: slugify(tag, {
-        lower: true,
-        remove: /[^\w\s$*_+~.()'"!\-@]+/g,
-      }),
-    },
-    props: { tag },
-  }));
-}
-
-const { tag } = Astro.props;
 const blogEntries = await getCollection("blog");
+const tag = [...new Set(blogEntries.flatMap(entry => entry.data.tags || []))].find(
+  value =>
+    slugify(value, {
+      lower: true,
+      remove: /[^\w\s$*_+~.()'"!\-@]+/g,
+    }) === Astro.params.tag,
+);
+
+if (!tag) return Astro.rewrite("/404");
+
 const filtered = blogEntries
   .filter(e => (e.data.tags || []).includes(tag))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
