@@ -1275,10 +1275,10 @@
       },
       {
         "id": "script.service.checkpreviousepisode",
-        "name": "Kodi Check Previous Episode",
+        "name": "Check Previous Episode",
         "slug": "script.service.checkpreviousepisode",
         "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
-        "snippet": "Kodi Check Previous Episode"
+        "snippet": "Check Previous Episode"
       },
       {
         "id": "script.service.playbackresumer",
@@ -5979,6 +5979,22 @@
     "totaladdons": 1
   },
   {
+    "name": "lijin",
+    "slug": "lijin",
+    "icon": "/images/authors/lijin.webp",
+    "id": "lijin",
+    "addons": [
+      {
+        "id": "service.subtitles.thunder",
+        "name": "Thunder",
+        "slug": "service.subtitles.thunder",
+        "icon": "/images/addons/omega/service.subtitles.thunder/icon.png",
+        "snippet": "Download subtitles from Thunder"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "Lincoln Loop",
     "slug": "lincoln-loop",
     "icon": "/images/authors/lincoln-loop.webp",
@@ -6066,10 +6082,10 @@
     "addons": [
       {
         "id": "script.service.checkpreviousepisode",
-        "name": "Kodi Check Previous Episode",
+        "name": "Check Previous Episode",
         "slug": "script.service.checkpreviousepisode",
         "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
-        "snippet": "Kodi Check Previous Episode"
+        "snippet": "Check Previous Episode"
       },
       {
         "id": "script.xbmc.unpausejumpback",
@@ -9150,10 +9166,10 @@
     "addons": [
       {
         "id": "script.service.checkpreviousepisode",
-        "name": "Kodi Check Previous Episode",
+        "name": "Check Previous Episode",
         "slug": "script.service.checkpreviousepisode",
         "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
-        "snippet": "Kodi Check Previous Episode"
+        "snippet": "Check Previous Episode"
       },
       {
         "id": "plugin.video.rocketbeans",
@@ -9282,6 +9298,22 @@
       }
     ],
     "totaladdons": 2
+  },
+  {
+    "name": "Refract Labs",
+    "slug": "refract-labs",
+    "icon": "/images/authors/refract-labs.webp",
+    "id": "Refract Labs",
+    "addons": [
+      {
+        "id": "service.refract",
+        "name": "Refract",
+        "slug": "service.refract",
+        "icon": "/images/addons/omega/service.refract/resources/icon.png",
+        "snippet": "Mark what you watch in Kodi as watched on Refract"
+      }
+    ],
+    "totaladdons": 1
   },
   {
     "name": "Regss",
@@ -10233,6 +10265,38 @@
         "slug": "game.libretro.scummvm",
         "icon": "/images/addons/omega/game.libretro.scummvm/resources/icon.png",
         "snippet": "ScummVM"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "Seadog McGrog",
+    "slug": "seadog-mcgrog",
+    "icon": "/images/authors/seadog-mcgrog.webp",
+    "id": "Seadog McGrog",
+    "addons": [
+      {
+        "id": "script.cablebox42",
+        "name": "CableBox 42",
+        "slug": "script.cablebox42",
+        "icon": "/images/addons/omega/script.cablebox42/resources/media/icon.png",
+        "snippet": "Retro cable TV from your own library - flip channels, not menus."
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "Seenr",
+    "slug": "seenr",
+    "icon": "/images/authors/seenr.webp",
+    "id": "Seenr",
+    "addons": [
+      {
+        "id": "service.seenr",
+        "name": "Seenr",
+        "slug": "service.seenr",
+        "icon": "/images/addons/omega/service.seenr/icon.png",
+        "snippet": "Send what you watch in Kodi to Seenr"
       }
     ],
     "totaladdons": 1
@@ -14830,6 +14894,22 @@
       }
     ],
     "totaladdons": 2
+  },
+  {
+    "name": "yorah",
+    "slug": "yorah",
+    "icon": "/images/authors/yorah.webp",
+    "id": "yorah",
+    "addons": [
+      {
+        "id": "script.litebox",
+        "name": "litebox Script",
+        "slug": "script.litebox",
+        "icon": "/images/addons/omega/script.litebox/resources/icon.png",
+        "snippet": "colour matching tools"
+      }
+    ],
+    "totaladdons": 1
   },
   {
     "name": "ytdl-org",

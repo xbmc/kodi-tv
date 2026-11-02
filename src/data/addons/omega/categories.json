@@ -5488,6 +5488,13 @@
         "snippet": "Direct access to the Weltspiegel videos of Germany's public broadcaster ARD."
       },
       {
+        "id": "script.wetrakr",
+        "name": "WeTrakr Scrobbler",
+        "slug": "script.wetrakr",
+        "icon": "/images/addons/omega/script.wetrakr/icon.png",
+        "snippet": "Automatic scrobbling to WeTrakr"
+      },
+      {
         "id": "plugin.whereareyou",
         "name": "Where Are You",
         "slug": "plugin.whereareyou",
@@ -5572,7 +5579,7 @@
         "snippet": "Zophar's Domain Music Add-on"
       }
     ],
-    "totaladdons": 239
+    "totaladdons": 240
   },
   {
     "name": "Program addons",
@@ -5684,6 +5691,13 @@
         "slug": "script.cabertoss",
         "icon": "/images/addons/omega/script.cabertoss/resources/icon.png",
         "snippet": "Provides an easy way to save Kodi log files, at a particular moment, to a..."
+      },
+      {
+        "id": "script.cablebox42",
+        "name": "CableBox 42",
+        "slug": "script.cablebox42",
+        "icon": "/images/addons/omega/script.cablebox42/resources/media/icon.png",
+        "snippet": "Retro cable TV from your own library - flip channels, not menus."
       },
       {
         "id": "script.commands",
@@ -6022,6 +6036,13 @@
         "snippet": "RandomTV"
       },
       {
+        "id": "service.refract",
+        "name": "Refract",
+        "slug": "service.refract",
+        "icon": "/images/addons/omega/service.refract/resources/icon.png",
+        "snippet": "Mark what you watch in Kodi as watched on Refract"
+      },
+      {
         "id": "script.reset_watchedstate",
         "name": "Reset Watchedstate",
         "slug": "script.reset_watchedstate",
@@ -6218,6 +6239,13 @@
         "snippet": "Wellbeing"
       },
       {
+        "id": "script.wetrakr",
+        "name": "WeTrakr Scrobbler",
+        "slug": "script.wetrakr",
+        "icon": "/images/addons/omega/script.wetrakr/icon.png",
+        "snippet": "Automatic scrobbling to WeTrakr"
+      },
+      {
         "id": "plugin.whereareyou",
         "name": "Where Are You",
         "slug": "plugin.whereareyou",
@@ -6246,7 +6274,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 95
+    "totaladdons": 98
   },
   {
     "name": "PVR clients",
@@ -7895,6 +7923,13 @@
         "icon": "/images/addons/omega/script.black.bars.never/icon.png"
       },
       {
+        "id": "script.cablebox42",
+        "name": "CableBox 42",
+        "slug": "script.cablebox42",
+        "icon": "/images/addons/omega/script.cablebox42/resources/media/icon.png",
+        "snippet": "Retro cable TV from your own library - flip channels, not menus."
+      },
+      {
         "id": "plugin.video.catchuptvandmore",
         "name": "Catch-up TV &amp; More",
         "slug": "plugin.video.catchuptvandmore",
@@ -7914,6 +7949,13 @@
         "slug": "plugin.video.channelsdvr",
         "icon": "/images/addons/omega/plugin.video.channelsdvr/resources/images/icon.png",
         "snippet": "Live TV, everywhere"
+      },
+      {
+        "id": "script.service.checkpreviousepisode",
+        "name": "Check Previous Episode",
+        "slug": "script.service.checkpreviousepisode",
+        "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
+        "snippet": "Check Previous Episode"
       },
       {
         "id": "plugin.audio.classicalradio",
@@ -8124,13 +8166,6 @@
         "slug": "script.xbmc.boblight",
         "icon": "/images/addons/omega/script.xbmc.boblight/icon.png",
         "snippet": "Connect Kodi output to boblight."
-      },
-      {
-        "id": "script.service.checkpreviousepisode",
-        "name": "Kodi Check Previous Episode",
-        "slug": "script.service.checkpreviousepisode",
-        "icon": "/images/addons/omega/script.service.checkpreviousepisode/icon.png",
-        "snippet": "Kodi Check Previous Episode"
       },
       {
         "id": "script.kodi.windows.update",
@@ -8378,6 +8413,13 @@
         "snippet": "Unofficial RadioTunes client for Kodi"
       },
       {
+        "id": "service.refract",
+        "name": "Refract",
+        "slug": "service.refract",
+        "icon": "/images/addons/omega/service.refract/resources/icon.png",
+        "snippet": "Mark what you watch in Kodi as watched on Refract"
+      },
+      {
         "id": "plugin.video.retrospect",
         "name": "Retrospect",
         "slug": "plugin.video.retrospect",
@@ -8404,6 +8446,13 @@
         "slug": "script.lockandenergycontrol",
         "icon": "/images/addons/omega/script.lockandenergycontrol/resources/assets/icon.png",
         "snippet": "Prevent puttting display to sleep in window mode and prevent lock screen in MS Windows"
+      },
+      {
+        "id": "service.seenr",
+        "name": "Seenr",
+        "slug": "service.seenr",
+        "icon": "/images/addons/omega/service.seenr/icon.png",
+        "snippet": "Send what you watch in Kodi to Seenr"
       },
       {
         "id": "script.simkl",
@@ -8644,7 +8693,7 @@
         "snippet": "Unofficial ZenRadio client for Kodi"
       }
     ],
-    "totaladdons": 120
+    "totaladdons": 123
   },
   {
     "name": "Skins",
@@ -8850,6 +8899,13 @@
         "snippet": "Super Subtitles"
       },
       {
+        "id": "service.subtitles.thunder",
+        "name": "Thunder",
+        "slug": "service.subtitles.thunder",
+        "icon": "/images/addons/omega/service.subtitles.thunder/icon.png",
+        "snippet": "Download subtitles from Thunder"
+      },
+      {
         "id": "service.subtitles.titlovi",
         "name": "Titlovi.com",
         "slug": "service.subtitles.titlovi",
@@ -8871,7 +8927,7 @@
         "snippet": "zimuku subtitle"
       }
     ],
-    "totaladdons": 17
+    "totaladdons": 18
   },
   {
     "name": "TV information providers",
@@ -9022,6 +9078,13 @@
         "slug": "plugin.video.buzzr",
         "icon": "/images/addons/omega/plugin.video.buzzr/resources/icon.png",
         "snippet": "BUZZR Live"
+      },
+      {
+        "id": "script.cablebox42",
+        "name": "CableBox 42",
+        "slug": "script.cablebox42",
+        "icon": "/images/addons/omega/script.cablebox42/resources/media/icon.png",
+        "snippet": "Retro cable TV from your own library - flip channels, not menus."
       },
       {
         "id": "plugin.video.cbc",
@@ -10189,6 +10252,13 @@
         "snippet": "Direct access to the Weltspiegel videos of Germany's public broadcaster ARD."
       },
       {
+        "id": "script.wetrakr",
+        "name": "WeTrakr Scrobbler",
+        "slug": "script.wetrakr",
+        "icon": "/images/addons/omega/script.wetrakr/icon.png",
+        "snippet": "Automatic scrobbling to WeTrakr"
+      },
+      {
         "id": "plugin.video.wnbc",
         "name": "WNBC Programs",
         "slug": "plugin.video.wnbc",
@@ -10252,7 +10322,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 190
+    "totaladdons": 192
   },
   {
     "name": "Virtual filesystems",
