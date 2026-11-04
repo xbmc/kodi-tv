@@ -4775,6 +4775,22 @@
     "totaladdons": 1
   },
   {
+    "name": "jairamrb.com",
+    "slug": "jairamrb.com",
+    "icon": "/images/authors/jairamrb.com.webp",
+    "id": "jairamrb.com",
+    "addons": [
+      {
+        "id": "script.program.quicksync",
+        "name": "Kodi QuickSync",
+        "slug": "script.program.quicksync",
+        "icon": "/images/addons/omega/script.program.quicksync/resources/icon.png",
+        "snippet": "Scan your libraries for new content"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "jakz",
     "slug": "jakz",
     "icon": "/images/authors/jakz.webp",
@@ -11187,6 +11203,22 @@
       }
     ],
     "totaladdons": 11
+  },
+  {
+    "name": "SubDL",
+    "slug": "subdl",
+    "icon": "/images/authors/subdl.webp",
+    "id": "SubDL",
+    "addons": [
+      {
+        "id": "service.subtitles.subdl",
+        "name": "SubDL",
+        "slug": "service.subtitles.subdl",
+        "icon": "/images/addons/omega/service.subtitles.subdl/icon.png",
+        "snippet": "Subtitles from SubDL.com"
+      }
+    ],
+    "totaladdons": 1
   },
   {
     "name": "Subtis",

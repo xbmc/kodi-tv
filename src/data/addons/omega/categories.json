@@ -5868,6 +5868,13 @@
         "snippet": "Uploads your kodi.log file."
       },
       {
+        "id": "script.program.quicksync",
+        "name": "Kodi QuickSync",
+        "slug": "script.program.quicksync",
+        "icon": "/images/addons/omega/script.program.quicksync/resources/icon.png",
+        "snippet": "Scan your libraries for new content"
+      },
+      {
         "id": "script.kodi.windows.update",
         "name": "Kodi Windows Installer",
         "slug": "script.kodi.windows.update",
@@ -6274,7 +6281,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 98
+    "totaladdons": 99
   },
   {
     "name": "PVR clients",
@@ -8871,6 +8878,13 @@
         "snippet": "Subdivx.com"
       },
       {
+        "id": "service.subtitles.subdl",
+        "name": "SubDL",
+        "slug": "service.subtitles.subdl",
+        "icon": "/images/addons/omega/service.subtitles.subdl/icon.png",
+        "snippet": "Subtitles from SubDL.com"
+      },
+      {
         "id": "service.subtitles.subsceneplus",
         "name": "Subscene Subtitles",
         "slug": "service.subtitles.subsceneplus",
@@ -8927,7 +8941,7 @@
         "snippet": "zimuku subtitle"
       }
     ],
-    "totaladdons": 18
+    "totaladdons": 19
   },
   {
     "name": "TV information providers",
