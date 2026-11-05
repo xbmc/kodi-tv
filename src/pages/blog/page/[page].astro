@@ -8,24 +8,15 @@ import { prepareBlogPost } from "../../../utils/blog";
 
 const PAGE_SIZE = 20;
 
-export async function getStaticPaths() {
-  const PAGE_SIZE = 20;
-  const blogEntries = await getCollection("blog");
-  const totalPages = Math.ceil(blogEntries.length / PAGE_SIZE);
-  // Generate pages 2..totalPages (page 1 is handled by /blog/index.astro)
-  const paths = [];
-  for (let i = 2; i <= totalPages; i++) {
-    paths.push({ params: { page: i.toString() } });
-  }
-  return paths;
-}
-
 const pageNum = Number(Astro.params.page);
 const blogEntries = await getCollection("blog");
 const sorted = blogEntries.sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime(),
 );
 const totalPages = Math.ceil(sorted.length / PAGE_SIZE);
+if (!Number.isInteger(pageNum) || pageNum < 2 || pageNum > totalPages) {
+  return Astro.rewrite("/404");
+}
 const start = (pageNum - 1) * PAGE_SIZE;
 const posts = sorted
   .slice(start, start + PAGE_SIZE)
