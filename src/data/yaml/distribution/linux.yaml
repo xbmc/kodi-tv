@@ -17,7 +17,7 @@ releases:
         download_type: external
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Release Candidate 1** pre-release build has become available
+    description: The **Release Candidate 2** pre-release build has become available
       because we think it is ready for wider testing and usage. It also means we
       are closer to a stable release of v22.
     downloads:
@@ -25,7 +25,7 @@ releases:
         url: https://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux?https=1
         download_type: external
   - name: Development Builds
-    title: Kodi v21 & v22 Nightly Development Builds
+    title: Kodi v22 & v233 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
