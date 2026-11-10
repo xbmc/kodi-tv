@@ -15,15 +15,15 @@ releases:
         download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Release Candidate 1** pre-release build has become available
+    description: The **Release Candidate 2** pre-release build has become available
       because we think it is ready for wider testing and usage. It also means we
       are closer to a stable release of v22.
     downloads:
-      - name: v22 RC1 webOS
-        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_22.0~rc1.ipk?https=1
+      - name: v22 RC2 webOS
+        url: https://mirrors.kodi.tv/releases/webos/org.xbmc.kodi-webos_22.0~rc2.ipk?https=1
         download_type: receipt_binary
   - name: Development Builds
-    title: Kodi v21 & v22 Nightly Development Builds
+    title: Kodi v22 & v23 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -38,9 +38,9 @@ releases:
 
       Further information: [Development builds](http://kodi.wiki/view/development_builds),  [Quality assurance testing](http://kodi.wiki/view/HOW-TO:Help_with_quality_assurance_testing), and [How to submit a bug report](http://kodi.wiki/view/HOW-TO:Submit_a_bug_report).
     downloads:
-      - name: v21 webOS
-        url: https://mirrors.kodi.tv/nightlies/webos/Omega/
-        download_type: mirror_directory
       - name: v22 webOS
+        url: https://mirrors.kodi.tv/nightlies/webos/Piers/
+        download_type: mirror_directory
+      - name: v23 webOS
         url: https://mirrors.kodi.tv/nightlies/webos/master/
         download_type: mirror_directory
