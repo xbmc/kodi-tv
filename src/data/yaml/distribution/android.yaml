@@ -25,18 +25,18 @@ releases:
         download_type: receipt_binary
   - name: Prerelease
     title: Kodi v22 (Piers) Pre-release Builds
-    description: The **Release Candidate 1** build has become available because we
+    description: The **Release Candidate 2** build has become available because we
       think it is ready for wider testing and usage. It also means we are closer
       to a stable release of v22.
     downloads:
-      - url: https://mirrors.kodi.tv/releases/android/arm/kodi-22.0-Piers_rc1-armeabi-v7a.apk?https=1
-        name: v22  RC1 (32BIT)
+      - url: https://mirrors.kodi.tv/releases/android/arm/kodi-22.0-Piers_rc2-armeabi-v7a.apk?https=1
+        name: v22  RC2 (32BIT)
         download_type: receipt_binary
-      - name: v22  RC1 (64BIT)
-        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-22.0-Piers_rc1-arm64-v8a.apk?https=1
+      - name: v22  RC2 (64BIT)
+        url: https://mirrors.kodi.tv/releases/android/arm64-v8a/kodi-22.0-Piers_rc2-arm64-v8a.apk?https=1
         download_type: receipt_binary
   - name: Development Builds
-    title: Kodi v21 & v22 Nightly Development Builds
+    title: Kodi v22 & v23 Nightly Development Builds
     description: >-
       **Nightly builds** are made on a daily basis and contain the most recent
       changes. These should be considered unstable for daily usage and should
@@ -54,15 +54,15 @@ releases:
       - name: Google Play Testing
         url: https://play.google.com/apps/testing/org.xbmc.kodi
         download_type: external
-      - name: v21 ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/nightlies/android/arm/Omega/
-        download_type: mirror_directory
-      - name: v21 ARMV8A (64BIT)
-        url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/Omega/
-        download_type: mirror_directory
       - name: v22 ARMV7A (32BIT)
-        url: https://mirrors.kodi.tv/nightlies/android/arm/master/
+        url: https://mirrors.kodi.tv/nightlies/android/arm/Piers/
         download_type: mirror_directory
       - name: v22 ARMV8A (64BIT)
+        url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/Piers/
+        download_type: mirror_directory
+      - name: v23 ARMV7A (32BIT)
+        url: https://mirrors.kodi.tv/nightlies/android/arm/master/
+        download_type: mirror_directory
+      - name: v23 ARMV8A (64BIT)
         url: https://mirrors.kodi.tv/nightlies/android/arm64-v8a/master/
         download_type: mirror_directory
