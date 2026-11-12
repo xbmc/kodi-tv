@@ -4,6 +4,12 @@ date: 2026-11-12T15:11:00.000+00:00
 author: Team Kodi
 tags:
   - Prerelease
+featured_image:
+  src: /images/blog/kodi_splash_v22.0_piers_rc_1080p.webp
+  title: Kodi 22.x "Piers" Release Candidate Splash Screen
+  alt: A sea of shades of purple - text in the background, a solitary Kodi logo
+    and the name "Piers" in the foreground. Look closer, and the text is a huge
+    list of all of the contributors to Kodi over the years.
 ---
 Announcing the second release candidate of Kodi 22 "Piers"!
 
