@@ -10,42 +10,26 @@ const slugify = (await import("slugify")).default;
 
 const PAGE_SIZE = 20;
 
-export async function getStaticPaths() {
-  const PAGE_SIZE = 20;
-  const slugify = (await import("slugify")).default;
-  const blogEntries = await getCollection("blog");
-
-  // Get all unique tags
-  const allTags = [...new Set(blogEntries.flatMap(e => e.data.tags || []))];
-
-  // For each tag, generate paths for pages 2+
-  return allTags.flatMap(tag => {
-    const tagSlug = slugify(tag, {
+const blogEntries = await getCollection("blog");
+const tag = [...new Set(blogEntries.flatMap(entry => entry.data.tags || []))].find(
+  value =>
+    slugify(value, {
       lower: true,
       remove: /[^\w\s$*_+~.()'"!\-@]+/g,
-    });
-    const filtered = blogEntries.filter(e => (e.data.tags || []).includes(tag));
-    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    }) === Astro.params.tag,
+);
 
-    const paths = [];
-    for (let i = 2; i <= totalPages; i++) {
-      paths.push({
-        params: { tag: tagSlug, page: i.toString() },
-        props: { tag },
-      });
-    }
-    return paths;
-  });
-}
+if (!tag) return Astro.rewrite("/404");
 
-const { tag } = Astro.props;
 const pageNum = Number(Astro.params.page);
 
-const blogEntries = await getCollection("blog");
 const filtered = blogEntries
   .filter(e => (e.data.tags || []).includes(tag))
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+if (!Number.isInteger(pageNum) || pageNum < 2 || pageNum > totalPages) {
+  return Astro.rewrite("/404");
+}
 const start = (pageNum - 1) * PAGE_SIZE;
 const posts = filtered
   .slice(start, start + PAGE_SIZE)
