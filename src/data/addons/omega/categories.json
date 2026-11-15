@@ -330,6 +330,13 @@
         "snippet": "Metadata Editor Script"
       },
       {
+        "id": "script.metamender",
+        "name": "MetaMender",
+        "slug": "script.metamender",
+        "icon": "/images/addons/omega/script.metamender/icon.png",
+        "snippet": "No gaps. No stale scores. Age ratings you can trust."
+      },
+      {
         "id": "script.playrandomvideos",
         "name": "Play Random Videos",
         "slug": "script.playrandomvideos",
@@ -349,6 +356,13 @@
         "slug": "plugin.video.retrospect",
         "icon": "/images/addons/omega/plugin.video.retrospect/resources/media/icon.png",
         "snippet": "Retrospect allows you to watch re-runs/catch-ups of TV shows made available via their official broadcasters."
+      },
+      {
+        "id": "script.simkl",
+        "name": "Simkl TV Tracker",
+        "slug": "script.simkl",
+        "icon": "/images/addons/omega/script.simkl/resources/icon.png",
+        "snippet": "Simkl scrobbler: real-time tracking, watched marks and history import"
       },
       {
         "id": "script.skin.info.service",
@@ -421,7 +435,7 @@
         "snippet": "Automatic scrobbling to WeTrakr"
       }
     ],
-    "totaladdons": 20
+    "totaladdons": 22
   },
   {
     "name": "Controller profiles",
@@ -3569,6 +3583,13 @@
         "snippet": "Unofficial JazzRadio client for Kodi"
       },
       {
+        "id": "plugin.jrivermc",
+        "name": "JRiver MC",
+        "slug": "plugin.jrivermc",
+        "icon": "/images/addons/omega/plugin.jrivermc/resources/images/icon.png",
+        "snippet": "JRiver Media Center Plugin"
+      },
+      {
         "id": "script.karmamole.helper",
         "name": "KarmaMole Skin Helper",
         "slug": "script.karmamole.helper",
@@ -3715,6 +3736,13 @@
         "snippet": "The official Kodi addon for Scoot Media Streamer."
       },
       {
+        "id": "plugin.video.sermonindex",
+        "name": "SermonIndex",
+        "slug": "plugin.video.sermonindex",
+        "icon": "/images/addons/omega/plugin.video.sermonindex/resources/icon.png",
+        "snippet": "Sermons and revival preaching from SermonIndex.net"
+      },
+      {
         "id": "plugin.audio.shoutcast",
         "name": "SHOUTcast",
         "slug": "plugin.audio.shoutcast",
@@ -3811,9 +3839,16 @@
         "slug": "plugin.audio.zophar",
         "icon": "/images/addons/omega/plugin.audio.zophar/resources/icon.png",
         "snippet": "Zophar's Domain Music Add-on"
+      },
+      {
+        "id": "plugin.audio.zunradio",
+        "name": "ZUN rádio",
+        "slug": "plugin.audio.zunradio",
+        "icon": "/images/addons/omega/plugin.audio.zunradio/resources/icon.png",
+        "snippet": "Live stream of ZUN radio with the track now playing"
       }
     ],
-    "totaladdons": 57
+    "totaladdons": 60
   },
   {
     "name": "Music video information providers",
@@ -4470,6 +4505,13 @@
         "snippet": "Watch videos of the Dutch Funcarrun Rally"
       },
       {
+        "id": "plugin.video.funhausarchive",
+        "name": "Funhaus Archive",
+        "slug": "plugin.video.funhausarchive",
+        "icon": "/images/addons/omega/plugin.video.funhausarchive/icon.png",
+        "snippet": "Funhaus Archive Video Add-on for Kodi"
+      },
+      {
         "id": "plugin.video.gamegurumania",
         "name": "Gamegurumania",
         "slug": "plugin.video.gamegurumania",
@@ -4636,6 +4678,13 @@
         "slug": "plugin.audio.jazzradio",
         "icon": "/images/addons/omega/plugin.audio.jazzradio/resources/icon.png",
         "snippet": "Unofficial JazzRadio client for Kodi"
+      },
+      {
+        "id": "plugin.jrivermc",
+        "name": "JRiver MC",
+        "slug": "plugin.jrivermc",
+        "icon": "/images/addons/omega/plugin.jrivermc/resources/images/icon.png",
+        "snippet": "JRiver Media Center Plugin"
       },
       {
         "id": "script.karmamole.helper",
@@ -5153,6 +5202,13 @@
         "snippet": "The official Kodi addon for Scoot Media Streamer."
       },
       {
+        "id": "plugin.video.sermonindex",
+        "name": "SermonIndex",
+        "slug": "plugin.video.sermonindex",
+        "icon": "/images/addons/omega/plugin.video.sermonindex/resources/icon.png",
+        "snippet": "Sermons and revival preaching from SermonIndex.net"
+      },
+      {
         "id": "plugin.video.shoutfactorytv",
         "name": "Shout Factory TV",
         "slug": "plugin.video.shoutfactorytv",
@@ -5165,6 +5221,13 @@
         "slug": "plugin.audio.shoutcast",
         "icon": "/images/addons/omega/plugin.audio.shoutcast/icon.png",
         "snippet": "more than 50.000 free internet radio stations"
+      },
+      {
+        "id": "plugin.video.simplego",
+        "name": "Simple GO",
+        "slug": "plugin.video.simplego",
+        "icon": "/images/addons/omega/plugin.video.simplego/resources/icon.png",
+        "snippet": "Magyar Telekom TV GO live TV in Kodi, with your own subscription"
       },
       {
         "id": "script.skin.info.service",
@@ -5584,9 +5647,16 @@
         "slug": "plugin.audio.zophar",
         "icon": "/images/addons/omega/plugin.audio.zophar/resources/icon.png",
         "snippet": "Zophar's Domain Music Add-on"
+      },
+      {
+        "id": "plugin.audio.zunradio",
+        "name": "ZUN rádio",
+        "slug": "plugin.audio.zunradio",
+        "icon": "/images/addons/omega/plugin.audio.zunradio/resources/icon.png",
+        "snippet": "Live stream of ZUN radio with the track now playing"
       }
     ],
-    "totaladdons": 240
+    "totaladdons": 245
   },
   {
     "name": "Program addons",
@@ -5875,13 +5945,6 @@
         "snippet": "Uploads your kodi.log file."
       },
       {
-        "id": "script.program.quicksync",
-        "name": "Kodi QuickSync",
-        "slug": "script.program.quicksync",
-        "icon": "/images/addons/omega/script.program.quicksync/resources/icon.png",
-        "snippet": "Scan your libraries for new content"
-      },
-      {
         "id": "script.kodi.windows.update",
         "name": "Kodi Windows Installer",
         "slug": "script.kodi.windows.update",
@@ -5980,6 +6043,13 @@
         "snippet": "Metadata Editor Script"
       },
       {
+        "id": "script.metamender",
+        "name": "MetaMender",
+        "slug": "script.metamender",
+        "icon": "/images/addons/omega/script.metamender/icon.png",
+        "snippet": "No gaps. No stale scores. Age ratings you can trust."
+      },
+      {
         "id": "script.audio.motherearth",
         "name": "Mother Earth Radio",
         "slug": "script.audio.motherearth",
@@ -6036,6 +6106,13 @@
         "snippet": "PlexMod for Kodi"
       },
       {
+        "id": "script.program.quicksync",
+        "name": "QuickSync",
+        "slug": "script.program.quicksync",
+        "icon": "/images/addons/omega/script.program.quicksync/resources/icon.png",
+        "snippet": "Scan your libraries for new content"
+      },
+      {
         "id": "script.radioparadise",
         "name": "Radio Paradise",
         "slug": "script.radioparadise",
@@ -6083,6 +6160,13 @@
         "slug": "visualization.shadertoy",
         "icon": "/images/addons/omega/visualization.shadertoy/resources/icon.png",
         "snippet": "Visualizations from Shadertoy"
+      },
+      {
+        "id": "script.simkl",
+        "name": "Simkl TV Tracker",
+        "slug": "script.simkl",
+        "icon": "/images/addons/omega/script.simkl/resources/icon.png",
+        "snippet": "Simkl scrobbler: real-time tracking, watched marks and history import"
       },
       {
         "id": "script.skin.injector",
@@ -6288,7 +6372,7 @@
         "snippet": "Module providing access to youtube-dl video stream extraction"
       }
     ],
-    "totaladdons": 99
+    "totaladdons": 101
   },
   {
     "name": "PVR clients",
@@ -7758,6 +7842,13 @@
         "snippet": "Integrate IPTV channels from other add-ons in the Kodi TV and Radio menus"
       },
       {
+        "id": "script.metamender",
+        "name": "MetaMender",
+        "slug": "script.metamender",
+        "icon": "/images/addons/omega/script.metamender/icon.png",
+        "snippet": "No gaps. No stale scores. Age ratings you can trust."
+      },
+      {
         "id": "metadata.common.musicbrainz.org",
         "name": "MusicBrainz Scraper Library",
         "slug": "metadata.common.musicbrainz.org",
@@ -7837,7 +7928,7 @@
         "icon": "/images/default-addon.webp"
       }
     ],
-    "totaladdons": 25
+    "totaladdons": 26
   },
   {
     "name": "Services",
@@ -8280,6 +8371,13 @@
         "snippet": "View Kodi logfile directly on Kodi"
       },
       {
+        "id": "service.loopz",
+        "name": "Loopz",
+        "slug": "service.loopz",
+        "icon": "/images/addons/omega/service.loopz/icon.png",
+        "snippet": "Tells your Loopz account when you finish an episode or a movie on Kodi"
+      },
+      {
         "id": "service.master.lock",
         "name": "Master Lock Service",
         "slug": "service.master.lock",
@@ -8299,6 +8397,13 @@
         "slug": "script.metadata.editor",
         "icon": "/images/addons/omega/script.metadata.editor/resources/icon.png",
         "snippet": "Metadata Editor Script"
+      },
+      {
+        "id": "script.metamender",
+        "name": "MetaMender",
+        "slug": "script.metamender",
+        "icon": "/images/addons/omega/script.metamender/icon.png",
+        "snippet": "No gaps. No stale scores. Age ratings you can trust."
       },
       {
         "id": "plugin.video.milbtv",
@@ -8473,7 +8578,14 @@
         "name": "Simkl TV Tracker",
         "slug": "script.simkl",
         "icon": "/images/addons/omega/script.simkl/resources/icon.png",
-        "snippet": "Simkl Scrobbler with AI file detection system"
+        "snippet": "Simkl scrobbler: real-time tracking, watched marks and history import"
+      },
+      {
+        "id": "plugin.video.simplego",
+        "name": "Simple GO",
+        "slug": "plugin.video.simplego",
+        "icon": "/images/addons/omega/plugin.video.simplego/resources/icon.png",
+        "snippet": "Magyar Telekom TV GO live TV in Kodi, with your own subscription"
       },
       {
         "id": "script.skin.info.service",
@@ -8705,9 +8817,16 @@
         "slug": "plugin.audio.zenradio",
         "icon": "/images/addons/omega/plugin.audio.zenradio/resources/icon.png",
         "snippet": "Unofficial ZenRadio client for Kodi"
+      },
+      {
+        "id": "plugin.audio.zunradio",
+        "name": "ZUN rádio",
+        "slug": "plugin.audio.zunradio",
+        "icon": "/images/addons/omega/plugin.audio.zunradio/resources/icon.png",
+        "snippet": "Live stream of ZUN radio with the track now playing"
       }
     ],
-    "totaladdons": 123
+    "totaladdons": 127
   },
   {
     "name": "Skins",
@@ -9443,6 +9562,13 @@
         "snippet": "Watch videos of the Dutch Funcarrun Rally"
       },
       {
+        "id": "plugin.video.funhausarchive",
+        "name": "Funhaus Archive",
+        "slug": "plugin.video.funhausarchive",
+        "icon": "/images/addons/omega/plugin.video.funhausarchive/icon.png",
+        "snippet": "Funhaus Archive Video Add-on for Kodi"
+      },
+      {
         "id": "plugin.video.gamegurumania",
         "name": "Gamegurumania",
         "slug": "plugin.video.gamegurumania",
@@ -9560,6 +9686,13 @@
         "slug": "plugin.video.ispot.tv",
         "icon": "/images/addons/omega/plugin.video.ispot.tv/resources/images/icon.png",
         "snippet": "iSpot.tv internet's most comprehensive database of nationally airing TV Commercials."
+      },
+      {
+        "id": "plugin.jrivermc",
+        "name": "JRiver MC",
+        "slug": "plugin.jrivermc",
+        "icon": "/images/addons/omega/plugin.jrivermc/resources/images/icon.png",
+        "snippet": "JRiver Media Center Plugin"
       },
       {
         "id": "plugin.video.lacapitv",
@@ -10001,11 +10134,25 @@
         "snippet": "The official Kodi addon for Scoot Media Streamer."
       },
       {
+        "id": "plugin.video.sermonindex",
+        "name": "SermonIndex",
+        "slug": "plugin.video.sermonindex",
+        "icon": "/images/addons/omega/plugin.video.sermonindex/resources/icon.png",
+        "snippet": "Sermons and revival preaching from SermonIndex.net"
+      },
+      {
         "id": "plugin.video.shoutfactorytv",
         "name": "Shout Factory TV",
         "slug": "plugin.video.shoutfactorytv",
         "icon": "/images/addons/omega/plugin.video.shoutfactorytv/resources/icon.png",
         "snippet": "Shout Factory TV Video Addon"
+      },
+      {
+        "id": "plugin.video.simplego",
+        "name": "Simple GO",
+        "slug": "plugin.video.simplego",
+        "icon": "/images/addons/omega/plugin.video.simplego/resources/icon.png",
+        "snippet": "Magyar Telekom TV GO live TV in Kodi, with your own subscription"
       },
       {
         "id": "script.skin.info.service",
@@ -10343,7 +10490,7 @@
         "snippet": "View ZoneMinder video surveillance system"
       }
     ],
-    "totaladdons": 192
+    "totaladdons": 196
   },
   {
     "name": "Virtual filesystems",

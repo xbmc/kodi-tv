@@ -2310,22 +2310,6 @@
     "totaladdons": 1
   },
   {
-    "name": "David Davó",
-    "slug": "david-davo",
-    "icon": "/images/authors/david-davo.webp",
-    "id": "David Davó",
-    "addons": [
-      {
-        "id": "script.simkl",
-        "name": "Simkl TV Tracker",
-        "slug": "script.simkl",
-        "icon": "/images/addons/omega/script.simkl/resources/icon.png",
-        "snippet": "Simkl Scrobbler with AI file detection system"
-      }
-    ],
-    "totaladdons": 1
-  },
-  {
     "name": "David Raingeard",
     "slug": "david-raingeard",
     "icon": "/images/authors/david-raingeard.webp",
@@ -3825,6 +3809,22 @@
     "totaladdons": 1
   },
   {
+    "name": "GonadiusPrime",
+    "slug": "gonadiusprime",
+    "icon": "/images/authors/gonadiusprime.webp",
+    "id": "GonadiusPrime",
+    "addons": [
+      {
+        "id": "plugin.video.funhausarchive",
+        "name": "Funhaus Archive",
+        "slug": "plugin.video.funhausarchive",
+        "icon": "/images/addons/omega/plugin.video.funhausarchive/icon.png",
+        "snippet": "Funhaus Archive Video Add-on for Kodi"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "gonetz",
     "slug": "gonetz",
     "icon": "/images/authors/gonetz.webp",
@@ -4782,7 +4782,7 @@
     "addons": [
       {
         "id": "script.program.quicksync",
-        "name": "Kodi QuickSync",
+        "name": "QuickSync",
         "slug": "script.program.quicksync",
         "icon": "/images/addons/omega/script.program.quicksync/resources/icon.png",
         "snippet": "Scan your libraries for new content"
@@ -5370,6 +5370,22 @@
         "slug": "plugin.video.tv3.cat",
         "icon": "/images/addons/omega/plugin.video.tv3.cat/resources/icon.png",
         "snippet": "Entertainment, news, documentaries, etc from catalan television www.tv3.cat"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "JRiver",
+    "slug": "jriver",
+    "icon": "/images/authors/jriver.webp",
+    "id": "JRiver",
+    "addons": [
+      {
+        "id": "plugin.jrivermc",
+        "name": "JRiver MC",
+        "slug": "plugin.jrivermc",
+        "icon": "/images/addons/omega/plugin.jrivermc/resources/images/icon.png",
+        "snippet": "JRiver Media Center Plugin"
       }
     ],
     "totaladdons": 1
@@ -6059,6 +6075,22 @@
     "totaladdons": 1
   },
   {
+    "name": "lmipsum",
+    "slug": "lmipsum",
+    "icon": "/images/authors/lmipsum.webp",
+    "id": "lmipsum",
+    "addons": [
+      {
+        "id": "plugin.video.simplego",
+        "name": "Simple GO",
+        "slug": "plugin.video.simplego",
+        "icon": "/images/addons/omega/plugin.video.simplego/resources/icon.png",
+        "snippet": "Magyar Telekom TV GO live TV in Kodi, with your own subscription"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "lookslikematrix.de",
     "slug": "lookslikematrix.de",
     "icon": "/images/authors/lookslikematrix.de.webp",
@@ -6070,6 +6102,22 @@
         "slug": "plugin.audio.radiobrowser",
         "icon": "/images/addons/omega/plugin.audio.radiobrowser/resources/icon.png",
         "snippet": "Radio-Browser"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "Loopz",
+    "slug": "loopz",
+    "icon": "/images/authors/loopz.webp",
+    "id": "Loopz",
+    "addons": [
+      {
+        "id": "service.loopz",
+        "name": "Loopz",
+        "slug": "service.loopz",
+        "icon": "/images/addons/omega/service.loopz/icon.png",
+        "snippet": "Tells your Loopz account when you finish an episode or a movie on Kodi"
       }
     ],
     "totaladdons": 1
@@ -9866,9 +9914,16 @@
         "slug": "script.easytv",
         "icon": "/images/addons/omega/script.easytv/icon.png",
         "snippet": "No scrolling. No deciding. Just watching."
+      },
+      {
+        "id": "script.metamender",
+        "name": "MetaMender",
+        "slug": "script.metamender",
+        "icon": "/images/addons/omega/script.metamender/icon.png",
+        "snippet": "No gaps. No stale scores. Age ratings you can trust."
       }
     ],
-    "totaladdons": 2
+    "totaladdons": 3
   },
   {
     "name": "Rupert Carmichael",
@@ -10334,6 +10389,22 @@
     "totaladdons": 1
   },
   {
+    "name": "SermonIndex.net",
+    "slug": "sermonindex.net",
+    "icon": "/images/authors/sermonindex.net.webp",
+    "id": "SermonIndex.net",
+    "addons": [
+      {
+        "id": "plugin.video.sermonindex",
+        "name": "SermonIndex",
+        "slug": "plugin.video.sermonindex",
+        "icon": "/images/addons/omega/plugin.video.sermonindex/resources/icon.png",
+        "snippet": "Sermons and revival preaching from SermonIndex.net"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
     "name": "seveerekaj",
     "slug": "seveerekaj",
     "icon": "/images/authors/seveerekaj.webp",
@@ -10496,7 +10567,7 @@
         "name": "Simkl TV Tracker",
         "slug": "script.simkl",
         "icon": "/images/addons/omega/script.simkl/resources/icon.png",
-        "snippet": "Simkl Scrobbler with AI file detection system"
+        "snippet": "Simkl scrobbler: real-time tracking, watched marks and history import"
       }
     ],
     "totaladdons": 1
@@ -14259,6 +14330,22 @@
         "slug": "game.libretro.cap32",
         "icon": "/images/addons/omega/game.libretro.cap32/resources/icon.png",
         "snippet": "Amstrad - CPC/GX4000 (Caprice32)"
+      }
+    ],
+    "totaladdons": 1
+  },
+  {
+    "name": "Underground Media Management s.r.o.",
+    "slug": "underground-media-management-s.r.o.",
+    "icon": "/images/authors/underground-media-management-s.r.o..webp",
+    "id": "Underground Media Management s.r.o.",
+    "addons": [
+      {
+        "id": "plugin.audio.zunradio",
+        "name": "ZUN rádio",
+        "slug": "plugin.audio.zunradio",
+        "icon": "/images/addons/omega/plugin.audio.zunradio/resources/icon.png",
+        "snippet": "Live stream of ZUN radio with the track now playing"
       }
     ],
     "totaladdons": 1
