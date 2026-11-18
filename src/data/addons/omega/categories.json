@@ -732,6 +732,13 @@
         "snippet": "NES Four Score"
       },
       {
+        "id": "game.controller.3ds",
+        "name": "Nintendo 3DS",
+        "slug": "game.controller.3ds",
+        "icon": "/images/addons/omega/game.controller.3ds/resources/icon.png",
+        "snippet": "Nintendo 3DS"
+      },
+      {
         "id": "game.controller.n64",
         "name": "Nintendo 64 Controller",
         "slug": "game.controller.n64",
@@ -751,6 +758,13 @@
         "slug": "game.controller.gamecube",
         "icon": "/images/addons/omega/game.controller.gamecube/resources/icon.png",
         "snippet": "Nintendo GameCube controller"
+      },
+      {
+        "id": "game.controller.switch.pro",
+        "name": "Nintendo Switch Pro Controller",
+        "slug": "game.controller.switch.pro",
+        "icon": "/images/addons/omega/game.controller.switch.pro/resources/icon.png",
+        "snippet": "Nintendo Switch Pro Controller"
       },
       {
         "id": "game.controller.vb",
@@ -828,6 +842,20 @@
         "slug": "game.controller.ps.dualshock",
         "icon": "/images/addons/omega/game.controller.ps.dualshock/resources/icon.png",
         "snippet": "PlayStation DualShock"
+      },
+      {
+        "id": "game.controller.ps3.dualshock3",
+        "name": "PlayStation DualShock 3",
+        "slug": "game.controller.ps3.dualshock3",
+        "icon": "/images/addons/omega/game.controller.ps3.dualshock3/resources/icon.png",
+        "snippet": "PlayStation DualShock 3"
+      },
+      {
+        "id": "game.controller.ps4.dualshock4",
+        "name": "PlayStation DualShock 4",
+        "slug": "game.controller.ps4.dualshock4",
+        "icon": "/images/addons/omega/game.controller.ps4.dualshock4/resources/icon.png",
+        "snippet": "PlayStation DualShock 4"
       },
       {
         "id": "game.controller.ps.gamepad",
@@ -1047,6 +1075,20 @@
         "snippet": "Wii Remote controller"
       },
       {
+        "id": "game.controller.wiiu.gamepad",
+        "name": "Wii U GamePad",
+        "slug": "game.controller.wiiu.gamepad",
+        "icon": "/images/addons/omega/game.controller.wiiu.gamepad/resources/icon.png",
+        "snippet": "Wii U GamePad"
+      },
+      {
+        "id": "game.controller.wiiu.pro",
+        "name": "Wii U Pro Controller",
+        "slug": "game.controller.wiiu.pro",
+        "icon": "/images/addons/omega/game.controller.wiiu.pro/resources/icon.png",
+        "snippet": "Wii U Pro Controller"
+      },
+      {
         "id": "game.controller.ws",
         "name": "WonderSwan",
         "slug": "game.controller.ws",
@@ -1061,7 +1103,7 @@
         "snippet": "Xbox 360 Controller"
       }
     ],
-    "totaladdons": 88
+    "totaladdons": 94
   },
   {
     "name": "Game clients",
